@@ -20,7 +20,7 @@
   {{ with .Params.image }}
   <figure class="project-shot reveal">
     <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i>{{ with $.Params.website }}<span class="browser-bar__url">{{ (urls.Parse .).Host | strings.TrimPrefix "www." }}</span>{{ end }}</span>
-    <img src="{{ . | relURL }}" alt="{{ $.Title }} — {{ i18n "website" }}" width="1600" height="1000" loading="lazy" decoding="async">
+    {{ $r := resources.Get . }}<img src="{{ . | relURL }}" alt="{{ i18n "website" }} {{ $.Title }}{{ with $.Params.website }} ({{ (urls.Parse .).Host | strings.TrimPrefix "www." }}){{ end }}"{{ with $r }} width="{{ .Width }}" height="{{ .Height }}"{{ end }} loading="lazy" decoding="async">
   </figure>
   {{ end }}
   <div class="feature" style="align-items:start">

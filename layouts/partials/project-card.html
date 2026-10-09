@@ -2,12 +2,13 @@
        (image: in the front matter), or the studio's glass photo, framed differently for each card. */ -}}
 {{- $p := .page -}}{{- $i := .i | default 0 -}}
 {{- $shot := $p.Params.image -}}
-{{- $photo := $shot | default (cond (eq (mod $i 2) 0) "images/hero-glass.jpg" "images/footer-glass.jpg") -}}
-{{- $pos := cond (ne $shot nil) "50% 0%" (index (slice "35% 50%" "70% 45%" "55% 60%" "85% 50%" "20% 40%" "60% 30%") (mod $i 6)) -}}
+{{- $photo := $shot | default ($p.Params.photo | default "images/hero-glass.jpg") -}}
+{{- $pos := cond (ne $shot nil) "50% 0%" ($p.Params.photo_pos | default "50% 50%") -}}
+{{- $size := cond (ne $shot nil) "cover" ($p.Params.photo_size | default "cover") -}}
 <a class="project-card{{ if $shot }} project-card--shot{{ end }}" href="{{ $p.RelPermalink }}" data-services="{{ delimit ($p.Params.services | default slice) " " }}">
   <div class="project-card__media">
     {{ if $shot }}<span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i>{{ with $p.Params.website }}<span class="browser-bar__url">{{ (urls.Parse .).Host | strings.TrimPrefix "www." }}</span>{{ end }}</span>{{ end }}
-    <div class="glass__photo" style="background-image:url('{{ $photo | relURL }}');background-position:{{ $pos | safeCSS }}"></div>
+    <div class="glass__photo" style="background-image:url('{{ $photo | relURL }}');background-position:{{ $pos | safeCSS }};background-size:{{ $size | safeCSS }}"></div>
   </div>
   <div class="project-card__body">
     <span class="chips">{{ range $p.Params.services }}<span class="chip">{{ i18n (printf "svc_%s" .) }}</span>{{ end }}</span>

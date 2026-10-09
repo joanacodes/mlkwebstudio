@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $p := .Params }}
-<section class="glass glass--hero on-dark" aria-label="Intro">
+<section class="glass glass--hero on-dark" aria-label="{{ i18n "intro" }}">
   <div class="glass__photo" style="background-image:url('{{ "images/hero-glass.jpg" | relURL }}')"></div>
   <div class="glass__tint"></div>
   <div class="glass__day"></div>
@@ -33,8 +33,9 @@
     <p class="lead">{{ $p.projects_lead | safeHTML }}</p>
   </div>
   <div class="projects-grid">
-    {{ with .Site.GetPage "projects" }}{{ range $i, $q := .Pages.ByWeight }}<div class="reveal">{{ partial "project-card.html" (dict "page" $q "i" $i) }}</div>{{ end }}{{ end }}
+    {{ with .Site.GetPage "projects" }}{{ range $i, $q := first 6 .Pages.ByWeight }}<div class="reveal">{{ partial "project-card.html" (dict "page" $q "i" $i) }}</div>{{ end }}{{ end }}
   </div>
+  {{ with .Site.GetPage "projects" }}<p style="margin-top: clamp(28px, 3vw, 40px)"><a class="link" href="{{ .RelPermalink }}">{{ i18n "all_projects" }} ({{ len .Pages }}) {{ partial "arrow.html" . }}</a></p>{{ end }}
 </section>
 
 <section class="section section--line container" id="services">

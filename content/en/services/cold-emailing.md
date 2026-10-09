@@ -32,7 +32,7 @@ A good website and a good ranking bring you the clients who are already looking.
 
 Cold email is a craft of its own, so it has its own home: **MLK Leadhunters**, the cold email practice of MLK Web Studio. The team builds the sending infrastructure on dedicated domains, builds and verifies the list, writes the emails with you, runs the campaigns and forwards you the replies worth your time. The conversation with a prospect stays yours.
 
-It works hand in hand with the website: prospects who receive an email visit your site before they reply, so a clear site turns more of them into meetings. For Pilotech Teknopoint, we combined the website, SEO and cold email.
+Cold email works hand in hand with the website: prospects who receive an email often visit your site before they reply, so a clear site turns more of them into meetings. For Pilotech Teknopoint, we combined the website, SEO and cold email.
 
 ## Learn more
 

@@ -22,16 +22,12 @@ other = "Projects"
 other = "Selected work"
 [results]
 other = "Results"
-[review]
-other = "What they say"
 [menu]
 other = "Menu"
 [close]
 other = "Close"
 [language]
 other = "Language"
-[legal]
-other = "Legal notice"
 [rights]
 other = "All rights reserved."
 [back_to_projects]
@@ -51,7 +47,7 @@ other = "What we did"
 [status]
 other = "Taking new projects"
 [cta_title]
-other = "Let's build what comes next."
+other = "Let’s build what comes next."
 [cta_lead]
 other = "A website, a ranking or a full calendar: tell us where you want to be, and we reply within forty-eight hours with a clear plan."
 [contact]
@@ -61,7 +57,7 @@ other = "Website"
 [visit_site]
 other = "Visit the site"
 [consent]
-other = "I accept to be contacted regarding my request."
+other = "I agree to be contacted about my request."
 [filter_all]
 other = "All"
 [filter_label]
@@ -92,8 +88,6 @@ other = "Learn more on MLK Leadhunters"
 # Anchors (the part after # in links)
 [anchor_book]
 other = "start-a-project"
-[anchor_review]
-other = "review"
 
 # Quotation marks around client reviews
 [quote_open]
@@ -104,3 +98,14 @@ other = "”"
 # Breadcrumbs (search results)
 [home]
 other = "Home"
+
+# Accessibility
+[nav_main]
+other = "Main navigation"
+[intro]
+other = "Introduction"
+[skip]
+other = "Skip to content"
+[org_sub]
+other = "Cold email practice of MLK Web Studio"
+

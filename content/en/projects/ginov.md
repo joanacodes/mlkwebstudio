@@ -3,6 +3,9 @@ title: "Ginov"
 seo_title: "Ginov: building services website"
 description: "A website for Ginov, building services for restaurants and businesses in Paris and Île-de-France: electricity, plumbing, air conditioning and maintenance."
 weight: 7
+photo: "images/hero-glass.jpg"
+photo_pos: "92% 45%"
+photo_size: "240% auto"
 client: "Ginov"
 sector: "Building services for businesses, Paris & Île-de-France"
 services:
@@ -18,7 +21,7 @@ Its clients are professionals: restaurant owners, shop and office managers. They
 
 ## What we did
 
-We built a website that presents Ginov as **a single contact for the technical side of a business**. Each trade has its place: electrical installations carried out by certified electricians, the installation, repair and upkeep of plumbing networks, regular and responsive maintenance to anticipate breakdowns and keep downtime low, and facility management, with works planned according to urgency and budget.
+We built a website that presents Ginov as **a single contact for the technical side of a business**. Each trade has its place: electrical installations built for safety and reliability, the installation, repair and upkeep of plumbing networks, regular and responsive maintenance to anticipate breakdowns and keep downtime low, and facility management, with works planned according to urgency and budget.
 
 The site also brings out what sets Ginov apart. The restaurant specialities, dishwashing water treatment and water softeners, show that it knows professional kitchens. And **air conditioning without an outdoor unit** is presented with the arguments that matter in Paris: no application to the town hall or the building’s managing agent, and a way to cool premises such as a basement kitchen.
 

@@ -15,7 +15,7 @@
     </a>
     {{ end }}
   </div>
-  <div class="prose" style="padding-bottom: clamp(48px, 7vw, 96px)">{{ .Content }}</div>
+  {{ with .Content }}<div class="prose" style="padding-bottom: clamp(48px, 7vw, 96px)">{{ . }}</div>{{ end }}
 </div>
 {{ partial "cta.html" . }}
 {{ end }}

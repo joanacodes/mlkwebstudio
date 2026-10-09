@@ -22,16 +22,12 @@ other = "Réalisations"
 other = "Réalisations"
 [results]
 other = "Résultats"
-[review]
-other = "Ils en parlent"
 [menu]
 other = "Menu"
 [close]
 other = "Fermer"
 [language]
 other = "Langue"
-[legal]
-other = "Mentions légales"
 [rights]
 other = "Tous droits réservés."
 [back_to_projects]
@@ -53,7 +49,7 @@ other = "Disponible pour de nouveaux projets"
 [cta_title]
 other = "Construisons la suite."
 [cta_lead]
-other = "Un site, un positionnement ou un agenda plein : dites-nous où vous voulez aller, nous répondons sous quarante-huit heures avec un plan clair."
+other = "Un site, un positionnement ou un agenda plein : dites-nous où vous voulez aller, nous répondons sous quarante-huit heures avec un plan clair."
 [contact]
 other = "Contact"
 [website]
@@ -85,15 +81,13 @@ other = "Cold email, par MLK Leadhunters"
 [leadhunters_title]
 other = "Des rendez-vous qualifiés, <span class='hl'>sans démarcher personne.</span>"
 [leadhunters_lead]
-other = "Notre activité cold email a sa propre maison : MLK Leadhunters construit l’infrastructure d’envoi, écrit les emails, pilote les campagnes et ne vous transmet que les réponses qui valent votre temps."
+other = "Notre activité cold email a sa propre maison : MLK Leadhunters construit l’infrastructure d’envoi, écrit les emails, pilote les campagnes et ne vous transmet que les réponses qui valent votre temps."
 [leadhunters_button]
 other = "En savoir plus sur MLK Leadhunters"
 
 # Anchors (the part after # in links)
 [anchor_book]
 other = "demarrer-un-projet"
-[anchor_review]
-other = "avis"
 
 # Quotation marks around client reviews
 [quote_open]
@@ -104,3 +98,14 @@ other = " »"
 # Breadcrumbs (search results)
 [home]
 other = "Accueil"
+
+# Accessibility
+[nav_main]
+other = "Navigation principale"
+[intro]
+other = "Introduction"
+[skip]
+other = "Aller au contenu"
+[org_sub]
+other = "Activité cold email de MLK Web Studio"
+

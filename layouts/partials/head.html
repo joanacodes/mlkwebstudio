@@ -14,11 +14,11 @@
 {{- $lang := site.Language.LanguageCode | default site.Language.Lang -}}
 {{- /* Share image: the page's own photo (or the hero photo), cropped to 1200×630 */ -}}
 {{- $img := resources.Get (.Params.image | default "images/hero-glass.jpg") | default (resources.Get "images/hero-glass.jpg") -}}
-{{- $og := $img.Fill "1200x630 Center q80" -}}
+{{- $og := $img.Fill (cond (and (eq .Section "projects") (isset .Params "image")) "1200x630 Top q80" "1200x630 Center q80") -}}
 {{- $isPost := and .IsPage (eq .Section "blog") }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
-<meta name="robots" content="{{ .Params.robots | default "index, follow, max-image-preview:large" }}">
+<meta name="robots" content="{{ .Params.robots | default (cond (eq .Kind "404") "noindex" "index, follow, max-image-preview:large") }}">
 <link rel="canonical" href="{{ .Permalink }}">
 {{ range .AllTranslations }}<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{ if eq .Language.Lang site.Sites.Default.Language.Lang }}<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
@@ -62,8 +62,7 @@
 {{- $siteID := printf "%s#website" $home.Permalink -}}
 {{- $pageID := printf "%s#webpage" .Permalink -}}
 {{- $image := dict "@type" "ImageObject" "url" $og.Permalink "width" $og.Width "height" $og.Height -}}
-{{- /* Organization: the contact address of the page's language (French pages only ever show contact@mlkleadhunters.fr);
-     English pages also give the main address */ -}}
+{{- /* Organization: contact@mlkwebstudio.fr (site.Params.email / emailMain) */ -}}
 {{- $contacts := slice (dict "@type" "ContactPoint" "contactType" "sales" "email" site.Params.email "availableLanguage" $lang) -}}
 {{- $orgEmail := cond (eq site.Language.Lang site.Sites.Default.Language.Lang) site.Params.emailMain site.Params.email -}}
 {{- $org := dict
@@ -75,7 +74,7 @@
   "email" $orgEmail
   "description" site.Sites.Default.Params.description
   "areaServed" "France"
-  "subOrganization" (dict "@type" "Organization" "name" "MLK Leadhunters" "url" site.Params.leadhuntersUrl "description" "Cold email practice of MLK Web Studio")
+  "subOrganization" (dict "@type" "Organization" "name" "MLK Leadhunters" "url" "https://mlkleadhunters.com/" "description" (i18n "org_sub"))
   "contactPoint" $contacts
 -}}
 {{- $website := dict "@type" "WebSite" "@id" $siteID "url" $home.Permalink "name" site.Title "description" site.Params.description "inLanguage" $lang "publisher" (dict "@id" $orgID) -}}

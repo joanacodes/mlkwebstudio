@@ -7,7 +7,7 @@ service_key: "seo"
 heading: "Be found <span class='hl'>when clients are looking.</span>"
 weight: 2
 summary: "The searches your clients type, the pages that answer them, and the technical work that lets Google understand your site. Pilotech Teknopoint ranks first or second."
-lead: "People who search for what you do are already looking for a provider. We make sure they find you, with pages that answer their question better than anyone else's."
+lead: "People who search for what you do are already looking for a provider. We make sure they find you, with pages that answer their question better than anyone else’s."
 image: "images/selecting-leads.jpg"
 points:
   - title: "The right searches"
@@ -31,7 +31,7 @@ Then the technical side: fast pages, a clean structure, page titles and descript
 
 ## A result
 
-For Pilotech's air conditioning without an outdoor unit, a specialist subject with a precise audience, we built dedicated pages around Teknopoint, the manufacturer it installs. The site now ranks **first or second on Google**.
+For Pilotech’s air conditioning without an outdoor unit, a specialist subject with a precise audience, we built dedicated pages around Teknopoint, the manufacturer whose units it installs. The site now ranks **first or second on Google**.
 
 ## What you get
 

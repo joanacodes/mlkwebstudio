@@ -3,6 +3,8 @@ title: "110% Intérieur"
 seo_title: "110% Intérieur: social media publishing"
 description: "Social media publishing set up for 110% Intérieur, an interior architecture and decoration studio in the Paris area and part of the 110% group."
 weight: 10
+photo: "images/footer-glass.jpg"
+photo_pos: "50% 50%"
 client: "110% Intérieur"
 sector: "Interior architecture and decoration, Paris area"
 services:
@@ -22,4 +24,4 @@ Our work for the studio focused on social media. We set up its publishing there,
 
 ## The result
 
-The studio’s social media publishing is now up and running. Someone looking for ideas for their home can discover its work there, then find on 110interieur.com the service that suits them, from a one-hour advice session to a turnkey project.
+The studio’s social media publishing is now set up. Someone looking for ideas for their home can discover its work there, then find on 110interieur.com the service that suits them, from a one-hour advice session to a turnkey project.

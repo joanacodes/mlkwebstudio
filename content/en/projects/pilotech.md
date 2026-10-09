@@ -8,7 +8,6 @@ sector: "HVAC, Paris & Île-de-France"
 services:
   - "website"
   - "seo"
-website: "https://www.pilotech.eu/"
 image: "images/projects/pilotech.jpg"
 lead: "Pilotech installs air conditioning, heat pumps and ventilation across Paris and the Île-de-France, under three lines with three websites. We built the front door that links them, then one site that brings them together."
 ---
@@ -26,4 +25,4 @@ Then a unified site for the three lines. Its **29 product sheets** (ten Toshiba 
 
 ## The result
 
-The portal gives Pilotech a front door; the unified site puts its three lines side by side. Visitors can browse each catalogue, compare ranges, read a model’s technical sheet and request a quote from any product or service page, and a request sent from a product sheet names the model. Pilotech’s Google rating, 5.0 from 82 reviews, appears with quotes from real clients.
+Both are built and ready to go live: the portal will give Pilotech a front door on pilotech.eu, and the unified site puts its three lines side by side. Visitors will be able to browse each catalogue, compare ranges, read a model’s technical sheet and request a quote from any product or service page; a request sent from a product sheet names the model. Pilotech’s Google rating, 5.0 from 82 reviews, appears with quotes from real clients.

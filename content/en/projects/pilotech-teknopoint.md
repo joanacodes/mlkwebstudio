@@ -16,13 +16,13 @@ highlight: "Ranks 1st or 2nd on Google"
 ---
 ## The brief
 
-Pilotech, an installer based in Sucy-en-Brie, works across Paris and the Île-de-France. Its Teknopoint line is a rare speciality: reversible air conditioning with no outdoor unit, from the Italian manufacturer Teknopoint. It suits buildings where a façade unit is not an option: Haussmann-era and listed buildings, protected areas, strict co-ownerships.
+Pilotech, an installer based in Sucy-en-Brie, works across Paris and the Île-de-France. Its Teknopoint line is a rare speciality: air conditioning with no outdoor unit, from the Italian manufacturer Teknopoint. It suits buildings where a façade unit is not an option: Haussmann-era and listed buildings, protected areas, strict co-ownerships.
 
 The people who need it search in their own words: air conditioning without an outdoor unit, invisible air conditioning. Pilotech had to be the answer they find. The other opportunity was business premises in Paris that need discreet cooling, which Pilotech had never approached.
 
 ## What we did
 
-Each Teknopoint range has its own page: ELFO, IDRA NEXT, IDRA ECO, MOKA and PICCOLO, in single-room and multi-room versions where both exist. The pages show what each range leaves visible from the street, from two small grilles for ELFO to nothing at all for IDRA NEXT, and their titles and addresses carry the words people search for. A blog answers the questions asked before buying, such as how to hide an air conditioner.
+Each Teknopoint range has its own page: ELFO, IDRA NEXT, IDRA NEXT RING, IDRA ECO, MOKA and PICCOLO, in single-room and multi-room versions where both exist. The pages show what each range leaves visible from the street, from two small grilles for ELFO to nothing at all for IDRA NEXT, and their titles and addresses carry the words people search for. The blog, worked on for the same searches, answers the questions asked before buying, such as how to hide an air conditioner.
 
 For businesses, our cold email practice, MLK Leadhunters, set up dedicated sending domains and wrote a short sequence for Paris restaurants, shops and offices around one offer: a free technical visit and a firm quote, for an installation invisible from the street. The emails were signed by the founder, with a direct line in the signature.
 

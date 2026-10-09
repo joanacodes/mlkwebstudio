@@ -10,7 +10,7 @@ services:
   - "app"
 website: "https://edenelnettoyage.fr/"
 image: "images/projects/edenel-nettoyage.jpg"
-lead: "Edenel Nettoyage cleans short-term rentals, hotels, offices and residential buildings in Paris and the Val-de-Marne. We built its website and, inside it, an app that takes a client from first price to invoice, with no server."
+lead: "Edenel Nettoyage cleans short-term rentals, hotels, offices and residential buildings in Paris and the Val-de-Marne. We built its website and, inside it, an app that takes a client from first price to invoice, with no server of its own."
 ---
 ## The brief
 
@@ -22,7 +22,7 @@ Hosts and concierge companies want a price before they book, sometimes for the s
 
 We built the site with Hugo: seven service pages, a pricing page, and a blog that carries over the fifteen articles from the previous site. Every page has its own title, description and structured data.
 
-The app sits inside the site. A simulator prices a rental turnover, office cleaning or building upkeep from the same price list as the pricing page, so one change updates both. The client then downloads a quote, orders through a cart or requests an appointment: the company receives the details with a one-click calendar link, and the client gets one too, or an .ics file. After the job, the client confirms the work online and the team issues the invoice from the site. Quotes, invoices and order history are generated as PDF files in the browser, and the client space keeps that history on the client’s own device. **None of it needs a server or a paid booking tool.**
+The app sits inside the site. A simulator prices a rental turnover, office cleaning or building upkeep from the same price list as the pricing page, so one change updates both. The client then downloads a quote, orders through a cart or requests an appointment: the company receives the details with a one-click calendar link, and the client gets one too, or an .ics file. After the job, the client confirms the work online and the team issues the invoice from the site. Quotes, invoices and order history are generated as PDF files in the browser, and the client space keeps that history on the client’s own device. **None of it needs a server of its own or a paid booking tool.**
 
 ## The result
 

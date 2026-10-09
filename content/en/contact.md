@@ -1,7 +1,7 @@
 ---
 title: "Contact"
 seo_title: "Start a website, SEO or cold email project"
-description: "Tell us about your business and what your website should do. We reply within forty-eight hours with a clear plan and a quote, whatever the project size."
+description: "Tell us about your business and what your website should do. We reply within forty-eight hours, then send a clear plan and a quote after a short call."
 layout: contact
 icon: "phone"
 kicker: "New project"

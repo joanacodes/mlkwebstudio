@@ -1,8 +1,10 @@
 ---
 title: "110% Intérieur"
-seo_title: "110% Intérieur : réseaux sociaux"
+seo_title: "110% Intérieur : réseaux sociaux"
 description: "Publication sur les réseaux sociaux mise en place pour 110% Intérieur, studio d’architecture d’intérieur et de décoration du groupe 110%, en région parisienne."
 weight: 10
+photo: "images/footer-glass.jpg"
+photo_pos: "50% 50%"
 client: "110% Intérieur"
 sector: "Architecture d’intérieur et décoration, région parisienne"
 services:
@@ -12,9 +14,9 @@ lead: "110% Intérieur conçoit et décore des intérieurs en région parisienne
 ---
 ## Le contexte
 
-110% Intérieur est un studio d’architecture d’intérieur et de décoration installé en région parisienne. Il fait partie du groupe 110%, qui couvre la chasse immobilière, la rénovation et l’architecture d’intérieur. Le studio propose un rendez-vous conseil d’une heure pour optimiser un espace et orienter le choix des couleurs et des matériaux ; le Book, avec planche d’ambiance, sélection de mobilier et de décoration, couleurs des murs et des sols et vue 3D ; un accompagnement clés en main ; et un coaching déco, avec des visites de boutiques choisies selon les goûts et le budget du client.
+110% Intérieur est un studio d’architecture d’intérieur et de décoration installé en région parisienne. Il fait partie du groupe 110%, qui couvre la chasse immobilière, la rénovation et l’architecture d’intérieur. Le studio propose un rendez-vous conseil d’une heure pour optimiser un espace et orienter le choix des couleurs et des matériaux ; le Book, avec planche d’ambiance, sélection de mobilier et de décoration, couleurs des murs et des sols et vue 3D ; un accompagnement clés en main ; et un coaching déco, avec des visites de boutiques choisies selon les goûts et le budget du client.
 
-La décoration est un métier qui se voit : avant de réserver un premier rendez-vous, on veut découvrir le style d’un studio. Les réseaux sociaux sont l’endroit tout trouvé pour le montrer.
+La décoration est un métier qui se voit : avant de réserver un premier rendez-vous, on veut découvrir le style d’un studio. Les réseaux sociaux sont l’endroit tout trouvé pour le montrer.
 
 ## Ce que nous avons fait
 

@@ -25,7 +25,7 @@ steps:
     body: "We start with your business: what you sell, to whom, and what a good enquiry looks like. You get a written plan and a quote."
   - title: "Design and build"
     icon: "monitor"
-    body: "Pages written around your clients' questions, designed for the phone first, fast, and ready for Google from day one."
+    body: "Pages written around your clients’ questions, designed for the phone first, fast, and ready for Google from day one."
   - title: "Grow"
     icon: "trend"
     body: "SEO to climb the searches that matter, and cold email with MLK Leadhunters when you want meetings now."

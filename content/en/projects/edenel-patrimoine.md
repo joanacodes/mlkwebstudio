@@ -23,7 +23,7 @@ We built a static site in plain HTML, CSS and JavaScript, with no framework or b
 
 The listings page filters by sale or rental, type and département, and sorts by most recent, price or floor area. Each property has its own page: a photo gallery, key figures with the energy rating, what the agency liked about it, a visit request button that fills in the property’s name, and similar properties. **Every property is a single entry in one data file**: the listings, the property page and the selection on the home page all update from it.
 
-The services page explains the four businesses plainly: what the client hands over, what the agency does and what it costs. The valuation page gives an indicative price range on the spot, from département averages, then offers a written valuation after a visit. A fees page (which French agencies must publish), an agency page and legal pages complete the site, with discreet motion, such as a timeline that draws itself as you scroll.
+The services page explains the four services plainly: what the client hands over, what the agency does and what it costs. The valuation page gives an indicative price range on the spot, from département averages, then offers a written valuation after a visit. A fees page (which French agencies must publish), an agency page and legal pages complete the site, with discreet motion, such as a timeline that draws itself as you scroll.
 
 ## The result
 

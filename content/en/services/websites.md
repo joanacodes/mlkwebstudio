@@ -31,7 +31,7 @@ The site is built to be fast and easy to maintain, with clean code, real page ti
 
 ## What you get
 
-- A site designed around your offer and your clients' questions, in French, English or both.
+- A site designed around your offer and your clients’ questions, in French, English or both.
 - Pages that load fast and read well on any phone.
 - The technical groundwork for SEO: titles, descriptions, structured data, sitemap, redirects.
 - Contact and quote forms that reach your inbox.
