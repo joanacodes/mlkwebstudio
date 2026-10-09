@@ -1,0 +1,106 @@
+[book_call]
+other = "Discuss your project"
+[book_short]
+other = "Start a project"
+[see_projects]
+other = "See the projects"
+[read_more]
+other = "Read"
+[read_case]
+other = "See the project"
+[all_projects]
+other = "All projects"
+[contact_us]
+other = "Write to us"
+[what_we_do]
+other = "Services"
+[how_it_works]
+other = "How we work"
+[projects]
+other = "Projects"
+[selected_work]
+other = "Selected work"
+[results]
+other = "Results"
+[review]
+other = "What they say"
+[menu]
+other = "Menu"
+[close]
+other = "Close"
+[language]
+other = "Language"
+[legal]
+other = "Legal notice"
+[rights]
+other = "All rights reserved."
+[back_to_projects]
+other = "Back to the projects"
+[back_to_services]
+other = "All services"
+[next_project]
+other = "Next project"
+[client]
+other = "Client"
+[sector]
+other = "Sector"
+[period]
+other = "Period"
+[service_used]
+other = "What we did"
+[status]
+other = "Taking new projects"
+[cta_title]
+other = "Let's build what comes next."
+[cta_lead]
+other = "A website, a ranking or a full calendar: tell us where you want to be, and we reply within forty-eight hours with a clear plan."
+[contact]
+other = "Contact"
+[website]
+other = "Website"
+[visit_site]
+other = "Visit the site"
+[consent]
+other = "I accept to be contacted regarding my request."
+[filter_all]
+other = "All"
+[filter_label]
+other = "Filter the projects"
+
+# Services shown on projects
+[svc_website]
+other = "Website"
+[svc_seo]
+other = "SEO"
+[svc_app]
+other = "App"
+[svc_cold-email]
+other = "Cold email"
+[svc_social]
+other = "Social media"
+
+# Cold email highlight (links to MLK Leadhunters)
+[leadhunters_label]
+other = "Cold email, by MLK Leadhunters"
+[leadhunters_title]
+other = "Qualified meetings, <span class='hl'>without chasing anyone.</span>"
+[leadhunters_lead]
+other = "Our cold email practice has its own home: MLK Leadhunters builds the sending infrastructure, writes the emails, runs the campaigns and sends you only the replies worth your time."
+[leadhunters_button]
+other = "Learn more on MLK Leadhunters"
+
+# Anchors (the part after # in links)
+[anchor_book]
+other = "start-a-project"
+[anchor_review]
+other = "review"
+
+# Quotation marks around client reviews
+[quote_open]
+other = "“"
+[quote_close]
+other = "”"
+
+# Breadcrumbs (search results)
+[home]
+other = "Home"

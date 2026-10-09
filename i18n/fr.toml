@@ -1,0 +1,106 @@
+[book_call]
+other = "Parlons de votre projet"
+[book_short]
+other = "Démarrer un projet"
+[see_projects]
+other = "Voir les réalisations"
+[read_more]
+other = "Lire"
+[read_case]
+other = "Voir le projet"
+[all_projects]
+other = "Toutes les réalisations"
+[contact_us]
+other = "Nous écrire"
+[what_we_do]
+other = "Services"
+[how_it_works]
+other = "Notre méthode"
+[projects]
+other = "Réalisations"
+[selected_work]
+other = "Réalisations"
+[results]
+other = "Résultats"
+[review]
+other = "Ils en parlent"
+[menu]
+other = "Menu"
+[close]
+other = "Fermer"
+[language]
+other = "Langue"
+[legal]
+other = "Mentions légales"
+[rights]
+other = "Tous droits réservés."
+[back_to_projects]
+other = "Retour aux réalisations"
+[back_to_services]
+other = "Tous les services"
+[next_project]
+other = "Projet suivant"
+[client]
+other = "Client"
+[sector]
+other = "Secteur"
+[period]
+other = "Période"
+[service_used]
+other = "Prestations"
+[status]
+other = "Disponible pour de nouveaux projets"
+[cta_title]
+other = "Construisons la suite."
+[cta_lead]
+other = "Un site, un positionnement ou un agenda plein : dites-nous où vous voulez aller, nous répondons sous quarante-huit heures avec un plan clair."
+[contact]
+other = "Contact"
+[website]
+other = "Site web"
+[visit_site]
+other = "Voir le site"
+[consent]
+other = "J’accepte d’être contacté·e au sujet de ma demande."
+[filter_all]
+other = "Tout"
+[filter_label]
+other = "Filtrer les réalisations"
+
+# Services shown on projects
+[svc_website]
+other = "Site web"
+[svc_seo]
+other = "SEO"
+[svc_app]
+other = "Application"
+[svc_cold-email]
+other = "Cold email"
+[svc_social]
+other = "Réseaux sociaux"
+
+# Cold email highlight (links to MLK Leadhunters)
+[leadhunters_label]
+other = "Cold email, par MLK Leadhunters"
+[leadhunters_title]
+other = "Des rendez-vous qualifiés, <span class='hl'>sans démarcher personne.</span>"
+[leadhunters_lead]
+other = "Notre activité cold email a sa propre maison : MLK Leadhunters construit l’infrastructure d’envoi, écrit les emails, pilote les campagnes et ne vous transmet que les réponses qui valent votre temps."
+[leadhunters_button]
+other = "En savoir plus sur MLK Leadhunters"
+
+# Anchors (the part after # in links)
+[anchor_book]
+other = "demarrer-un-projet"
+[anchor_review]
+other = "avis"
+
+# Quotation marks around client reviews
+[quote_open]
+other = "« "
+[quote_close]
+other = " »"
+
+# Breadcrumbs (search results)
+[home]
+other = "Accueil"

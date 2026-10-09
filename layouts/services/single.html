@@ -1,0 +1,35 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-head section-head">
+    <div class="section-head__top">{{ partial "icon.html" (.Params.icon | default "list") }}<span class="label">{{ i18n "what_we_do" }}</span></div>
+    <h1 class="title">{{ with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Params.lead }}<p class="lead">{{ . | safeHTML }}</p>{{ end }}
+    {{ if .Params.leadhunters }}<div><a class="button button--orange" href="{{ site.Params.leadhuntersUrl }}" target="_blank" rel="noopener">{{ i18n "leadhunters_button" }} {{ partial "arrow.html" . }}</a></div>{{ end }}
+  </div>
+  {{ if .Params.leadhunters }}<div style="margin-bottom: clamp(48px, 7vw, 80px)">{{ partial "leadhunters.html" . }}</div>{{ end }}
+  <div class="feature" style="align-items:start;padding-bottom: clamp(48px, 7vw, 96px)">
+    <div class="prose">{{ .Content }}</div>
+    <div style="display:grid;gap:24px">
+      {{ with .Params.image }}<div class="feature__photo reveal" style="background-image:url('{{ . | relURL }}')"></div>{{ end }}
+      {{ with .Params.points }}
+      <div class="feature__list reveal" data-delay="1">
+        {{ range . }}<div class="feature__row"><strong>{{ with .icon }}{{ partial "icon.html" . }} {{ end }}{{ .title }}</strong><span>{{ .body }}</span></div>{{ end }}
+      </div>
+      {{ end }}
+      <a class="link" href="{{ .Parent.RelPermalink }}">{{ i18n "back_to_services" }} {{ partial "arrow.html" . }}</a>
+    </div>
+  </div>
+  {{/* Projects where this service was delivered */}}
+  {{ with .Params.service_key }}{{ $key := . }}
+  {{ $projects := slice }}{{ with site.GetPage "projects" }}{{ range .Pages.ByWeight }}{{ if in (.Params.services | default slice) $key }}{{ $projects = $projects | append . }}{{ end }}{{ end }}{{ end }}
+  {{ with $projects }}
+  <div class="section section--line" style="padding-top: clamp(48px, 7vw, 96px)">
+    <div class="section-head"><div class="section-head__top">{{ partial "icon.html" "star" }}<span class="label">{{ i18n "projects" }}</span></div></div>
+    <div class="projects-grid" style="margin-bottom: clamp(48px, 7vw, 96px)">
+      {{ range $i, $p := . }}<div class="reveal">{{ partial "project-card.html" (dict "page" $p "i" $i) }}</div>{{ end }}
+    </div>
+  </div>
+  {{ end }}{{ end }}
+</div>
+{{ partial "cta.html" . }}
+{{ end }}

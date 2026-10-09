@@ -1,0 +1,16 @@
+{{- /* A project card. Takes (dict "page" <project> "i" <index>). Without a screenshot (image: in the front matter)
+       the card uses the studio's glass photos, framed differently for each card. */ -}}
+{{- $p := .page -}}{{- $i := .i | default 0 -}}
+{{- $photo := $p.Params.image | default (cond (eq (mod $i 2) 0) "images/hero-glass.jpg" "images/footer-glass.jpg") -}}
+{{- $pos := index (slice "35% 50%" "70% 45%" "55% 60%" "85% 50%" "20% 40%" "60% 30%") (mod $i 6) -}}
+<a class="project-card" href="{{ $p.RelPermalink }}" data-services="{{ delimit ($p.Params.services | default slice) " " }}">
+  <div class="glass__photo" style="background-image:url('{{ $photo | relURL }}');background-position:{{ $pos | safeCSS }}"></div>
+  <div class="project-card__tint"></div>
+  <div class="project-card__body">
+    <span class="chips">{{ range $p.Params.services }}<span class="chip">{{ i18n (printf "svc_%s" .) }}</span>{{ end }}</span>
+    <span class="project-card__meta">{{ $p.Params.sector }}</span>
+    <span class="project-card__name">{{ $p.Title }}</span>
+    {{ with $p.Params.highlight }}<span class="project-card__highlight">{{ partial "icon.html" "trend" }}{{ . }}</span>{{ end }}
+    <span class="link">{{ i18n "read_case" }} {{ partial "arrow.html" . }}</span>
+  </div>
+</a>

@@ -1,0 +1,92 @@
+baseURL = "https://mlkwebstudio.fr/"
+title = "MLK Web Studio"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+timeZone = "Europe/Paris"
+disableKinds = ["taxonomy", "term"]
+
+[params]
+  email = "contact@mlkwebstudio.fr"
+  emailMain = "contact@mlkwebstudio.fr"
+  accent = "#2B4DFF"
+  orange = "#EF571D"
+  bookingUrl = "/contact/"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions.extras.mark]
+    enable = true
+
+[outputs]
+  home = ["HTML"]
+  section = ["HTML"]
+
+[module]
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "static/images"
+    target = "assets/images"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-GB"
+    weight = 1
+    contentDir = "content/en"
+    title = "MLK Web Studio"
+    [languages.en.params]
+      email = "contact@mlkwebstudio.fr"
+      tagline = "Websites and SEO that bring in clients."
+      description = "MLK Web Studio designs and builds websites, ranks them on Google, and fills calendars with cold email. Portfolio and services."
+      leadhuntersUrl = "https://mlkleadhunters.com/"
+    [[languages.en.menus.main]]
+      name = "Projects"
+      pageRef = "/projects"
+      weight = 10
+    [[languages.en.menus.main]]
+      name = "Websites"
+      pageRef = "/services/websites"
+      weight = 20
+    [[languages.en.menus.main]]
+      name = "SEO"
+      pageRef = "/services/seo"
+      weight = 30
+    [[languages.en.menus.main]]
+      name = "Cold email"
+      pageRef = "/services/cold-emailing"
+      weight = 40
+
+  [languages.fr]
+    languageName = "Français"
+    languageCode = "fr-FR"
+    weight = 2
+    contentDir = "content/fr"
+    title = "MLK Web Studio"
+    [languages.fr.params]
+      email = "contact@mlkwebstudio.fr"
+      tagline = "Des sites et un référencement qui amènent des clients."
+      description = "MLK Web Studio conçoit et développe des sites web, les positionne sur Google et remplit les agendas grâce au cold email. Réalisations et services."
+      leadhuntersUrl = "https://mlkleadhunters.com/fr/"
+    [[languages.fr.menus.main]]
+      name = "Réalisations"
+      pageRef = "/projects"
+      weight = 10
+    [[languages.fr.menus.main]]
+      name = "Sites web"
+      pageRef = "/services/websites"
+      weight = 20
+    [[languages.fr.menus.main]]
+      name = "SEO"
+      pageRef = "/services/seo"
+      weight = 30
+    [[languages.fr.menus.main]]
+      name = "Cold email"
+      pageRef = "/services/cold-emailing"
+      weight = 40

@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="container">
+  <div class="page-head section-head">
+    <div class="section-head__top">{{ partial "icon.html" "star" }}<span class="label">{{ i18n "projects" }}</span></div>
+    <h1 class="title">{{ with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Params.lead }}<p class="lead">{{ . | safeHTML }}</p>{{ end }}
+  </div>
+  <div class="filters" role="group" aria-label="{{ i18n "filter_label" }}" data-filters>
+    <button class="chip chip--btn is-active" type="button" data-filter="all" aria-pressed="true">{{ i18n "filter_all" }}</button>
+    {{ range slice "website" "seo" "app" "cold-email" "social" }}<button class="chip chip--btn" type="button" data-filter="{{ . }}" aria-pressed="false">{{ i18n (printf "svc_%s" .) }}</button>{{ end }}
+  </div>
+  <div class="projects-grid" style="margin-bottom: clamp(48px, 7vw, 96px)">
+    {{ range $i, $p := .Pages.ByWeight }}<div class="reveal" data-card>{{ partial "project-card.html" (dict "page" $p "i" $i) }}</div>{{ end }}
+  </div>
+</div>
+{{ partial "cta.html" . }}
+{{ end }}
