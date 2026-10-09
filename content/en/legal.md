@@ -1,7 +1,7 @@
 ---
 title: "Legal notice"
 seo_title: "Legal notice and personal data"
-description: "Legal notice for mlkwebstudio.fr: the publisher MLK Web Studio, hosting on GitHub Pages, what happens to contact form data, and no analytics cookies."
+description: "Legal notice for mlkwebstudio.com: the publisher MLK Web Studio, hosting on GitHub Pages, what happens to contact form data, and no analytics cookies."
 kicker: "Legal"
 ---
 **Publisher:** MLK Web Studio — [company name, legal form, registration number and address to complete].
