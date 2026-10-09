@@ -1,0 +1,32 @@
+---
+title: "MLK Web Studio"
+seo_title: "MLK Web Studio — Sites web, SEO et cold email"
+description: "Sites web, SEO et cold email pour les entreprises de service : MLK Web Studio crée des sites qui amènent des clients. Pilotech, Eden Flats, Ginov et d’autres."
+hero: true
+hero_label: "Sites web · SEO · Cold email"
+hero_title: "Des sites qui <span class='hl'>amènent des clients.</span>"
+hero_lead: "Nous concevons et développons des sites pour les entreprises de service, les rendons visibles sur Google et remplissons les agendas grâce au cold email. <strong>Un seul studio, de la première page au premier appel.</strong>"
+stats:
+  - value: "10"
+    note: "<span class='hl--o'>projets</span> livrés"
+  - value: "Top 2"
+    note: "sur <span class='hl--o'>Google</span> pour Pilotech Teknopoint"
+  - value: "3"
+    note: "<span class='hl--o'>services</span> qui travaillent ensemble"
+projects_title: "Pour des entreprises <span class='hl--o'>au service de vrais clients.</span>"
+projects_lead: "Climatisation, logement d’entreprise, location courte durée, nettoyage : chaque projet est construit pour amener des appels, des demandes de devis et des réservations."
+services_title: "Un site, un positionnement, <span class='hl'>un agenda plein.</span>"
+services_lead: "Trois services qui se renforcent. Le site convainc, le SEO amène les clients qui cherchent, le cold email touche ceux qui ne cherchent pas encore."
+how_title: "Du premier appel <span class='hl--o'>au premier client.</span>"
+how_lead: "Un seul interlocuteur du début à la fin, et un site simple à faire vivre ensuite."
+steps:
+  - title: "Cadrage"
+    icon: "chat"
+    body: "Nous partons de votre activité : ce que vous vendez, à qui, et à quoi ressemble une bonne demande. Vous recevez un plan écrit et un devis."
+  - title: "Conception et développement"
+    icon: "monitor"
+    body: "Des pages écrites autour des questions de vos clients, pensées d’abord pour le mobile, rapides et prêtes pour Google dès le premier jour."
+  - title: "Croissance"
+    icon: "trend"
+    body: "Le SEO pour gagner les recherches qui comptent, et le cold email avec MLK Leadhunters quand vous voulez des rendez-vous maintenant."
+---

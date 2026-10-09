@@ -1,0 +1,9 @@
+{{- /* Cold email highlight: our cold email practice lives on MLK Leadhunters (English or French home, per page language). */ -}}
+<div class="lh reveal">
+  <div class="lh__text">
+    <div class="section-head__top">{{ partial "icon.html" "mail" }}<span class="label label--plain">{{ i18n "leadhunters_label" }}</span></div>
+    <p class="lh__title">{{ i18n "leadhunters_title" | safeHTML }}</p>
+    <p class="lh__lead">{{ i18n "leadhunters_lead" }}</p>
+  </div>
+  <a class="button button--orange" href="{{ site.Params.leadhuntersUrl }}" target="_blank" rel="noopener">{{ i18n "leadhunters_button" }} {{ partial "arrow.html" . }}</a>
+</div>

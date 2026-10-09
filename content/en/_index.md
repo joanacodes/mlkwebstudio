@@ -1,0 +1,32 @@
+---
+title: "MLK Web Studio"
+seo_title: "MLK Web Studio — Websites, SEO and cold email"
+description: "MLK Web Studio builds websites for service businesses, ranks them on Google and fills calendars with cold email. See Pilotech, Eden Flats, Ginov and more."
+hero: true
+hero_label: "Websites · SEO · Cold email"
+hero_title: "Websites that <span class='hl'>bring in clients.</span>"
+hero_lead: "We design and build websites for service businesses, get them found on Google, and fill calendars with cold email. <strong>One studio, from the first page to the first call.</strong>"
+stats:
+  - value: "10"
+    note: "<span class='hl--o'>projects</span> delivered"
+  - value: "Top 2"
+    note: "on <span class='hl--o'>Google</span> for Pilotech Teknopoint"
+  - value: "3"
+    note: "<span class='hl--o'>services</span> that work together"
+projects_title: "Built for businesses <span class='hl--o'>that serve real clients.</span>"
+projects_lead: "Air conditioning installers, corporate housing, short-term rentals, cleaning: each project is built to bring in calls, quote requests and bookings."
+services_title: "A website, a ranking, <span class='hl'>a full calendar.</span>"
+services_lead: "Three services that reinforce each other. The website convinces, SEO brings the clients who are searching, cold email reaches the ones who are not searching yet."
+how_title: "From the first call <span class='hl--o'>to the first client.</span>"
+how_lead: "One point of contact from start to finish, and a site you can actually live with afterwards."
+steps:
+  - title: "Brief"
+    icon: "chat"
+    body: "We start with your business: what you sell, to whom, and what a good enquiry looks like. You get a written plan and a quote."
+  - title: "Design and build"
+    icon: "monitor"
+    body: "Pages written around your clients’ questions, designed for the phone first, fast, and ready for Google from day one."
+  - title: "Grow"
+    icon: "trend"
+    body: "SEO to climb the searches that matter, and cold email with MLK Leadhunters when you want meetings now."
+---

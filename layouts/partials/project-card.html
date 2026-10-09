@@ -1,0 +1,20 @@
+{{- /* A project card. Takes (dict "page" <project> "i" <index>). The top shows a screenshot of the site in a browser frame
+       (image: in the front matter), or the studio's glass photo, framed differently for each card. */ -}}
+{{- $p := .page -}}{{- $i := .i | default 0 -}}
+{{- $shot := $p.Params.image -}}
+{{- $photo := $shot | default ($p.Params.photo | default "images/hero-glass.jpg") -}}
+{{- $pos := cond (ne $shot nil) "50% 0%" ($p.Params.photo_pos | default "50% 50%") -}}
+{{- $size := cond (ne $shot nil) "cover" ($p.Params.photo_size | default "cover") -}}
+<a class="project-card{{ if $shot }} project-card--shot{{ end }}" href="{{ $p.RelPermalink }}" data-services="{{ delimit ($p.Params.services | default slice) " " }}">
+  <div class="project-card__media">
+    {{ if $shot }}<span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i>{{ with $p.Params.website }}<span class="browser-bar__url">{{ (urls.Parse .).Host | strings.TrimPrefix "www." }}</span>{{ end }}</span>{{ end }}
+    <div class="glass__photo" style="background-image:url('{{ $photo | relURL }}');background-position:{{ $pos | safeCSS }};background-size:{{ $size | safeCSS }}"></div>
+  </div>
+  <div class="project-card__body">
+    <span class="chips">{{ range $p.Params.services }}<span class="chip">{{ i18n (printf "svc_%s" .) }}</span>{{ end }}</span>
+    <span class="project-card__name">{{ $p.Title }}</span>
+    <span class="project-card__meta">{{ $p.Params.sector }}</span>
+    {{ with $p.Params.highlight }}<span class="project-card__highlight">{{ partial "icon.html" "trend" }}{{ . }}</span>{{ end }}
+    <span class="link">{{ i18n "read_case" }} {{ partial "arrow.html" . }}</span>
+  </div>
+</a>
