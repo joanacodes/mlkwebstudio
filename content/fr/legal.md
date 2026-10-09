@@ -1,7 +1,7 @@
 ---
 title: "Mentions légales"
 seo_title: "Mentions légales et données personnelles"
-description: "Mentions légales de mlkwebstudio.fr : éditeur MLK Web Studio, hébergement GitHub Pages, usage des données du formulaire de contact et absence de cookie d’audience."
+description: "Mentions légales de mlkwebstudio.fr : éditeur MLK Web Studio, hébergement GitHub Pages, données du formulaire de contact et absence de cookie d’audience."
 kicker: "Légal"
 ---
 **Éditeur :** MLK Web Studio — [dénomination, forme juridique, numéro d’immatriculation et adresse à compléter].

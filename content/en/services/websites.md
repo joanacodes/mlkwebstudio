@@ -1,7 +1,7 @@
 ---
 title: "Websites"
 seo_title: "Website design and development"
-description: "Websites for service businesses: clear, fast on phones, built to rank on Google and to turn visits into calls and quote requests. Web apps when a site is not enough."
+description: "Websites for service businesses: clear, fast on phones, built to rank on Google and turn visits into calls and quote requests. Web apps when needed."
 icon: "monitor"
 service_key: "website"
 heading: "Websites that <span class='hl'>turn visits into calls.</span>"

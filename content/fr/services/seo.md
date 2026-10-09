@@ -1,7 +1,7 @@
 ---
 title: "SEO"
 seo_title: "Référencement naturel (SEO) local"
-description: "Un SEO qui amène des appels, pas seulement du trafic : les bonnes recherches, des pages qui y répondent, une technique propre. Un client est 1er ou 2e sur Google."
+description: "Un SEO qui amène des appels : les bonnes recherches, des pages qui y répondent, une technique propre. Pilotech Teknopoint est 1er ou 2e sur Google."
 icon: "search"
 service_key: "seo"
 heading: "Être trouvé <span class='hl'>au moment où l’on vous cherche.</span>"

@@ -1,7 +1,7 @@
 ---
 title: "Cold emailing"
 seo_title: "B2B cold emailing with MLK Leadhunters"
-description: "Cold email that fills the calendar: dedicated domains, verified lists, emails written by hand, replies forwarded to you. Run by our cold email practice, MLK Leadhunters."
+description: "Cold email that fills the calendar: dedicated domains, verified lists, emails written by hand, replies forwarded to you. Run by MLK Leadhunters."
 icon: "mail"
 service_key: "cold-email"
 leadhunters: true

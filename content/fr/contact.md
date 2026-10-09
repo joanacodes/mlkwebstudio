@@ -1,7 +1,7 @@
 ---
 title: "Contact"
-seo_title: "Lancer un projet de site, de SEO ou de cold email"
-description: "Parlez-nous de votre activité et de ce que votre site doit apporter. Nous répondons sous quarante-huit heures avec un plan clair et un devis, quelle que soit la taille du projet."
+seo_title: "Lancer un projet de site, SEO ou cold email"
+description: "Parlez-nous de votre activité et de ce que votre site doit apporter. Réponse sous quarante-huit heures, avec un plan clair et un devis, quel que soit le projet."
 layout: contact
 icon: "phone"
 kicker: "Nouveau projet"

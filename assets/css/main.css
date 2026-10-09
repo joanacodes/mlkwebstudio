@@ -481,8 +481,26 @@ body:not(.has-hero) .preloader__bg { --pl-a: .66; }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; }
 .chip { display: inline-flex; align-items: center; height: 26px; padding: 0 10px; font-size: 11px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--ice); background: rgba(244,246,250,.12); border: 1px solid rgba(244,246,250,.22); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
 .chips--hero .chip { height: 30px; padding: 0 12px; }
-.project-card { min-height: 360px; }
-.project-card__body { gap: 12px; }
+.project-card { min-height: 0; padding: 0; justify-content: flex-start; }
+.project-card__media { position: relative; aspect-ratio: 16 / 10; overflow: hidden; background: var(--slate); }
+.project-card__media .glass__photo { filter: saturate(.85); }
+.project-card--shot .project-card__media { display: flex; flex-direction: column; }
+.project-card--shot .project-card__media .glass__photo { top: 26px; filter: none; }
+.projects-grid > div { display: flex; }
+.projects-grid > div > .project-card { flex: 1; }
+.project-card__body { position: relative; z-index: 2; flex: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 10px; padding: 22px 24px 24px; }
+.project-card__body .link { margin-top: auto; padding-top: 6px; }
+.project-card__name { margin-top: 4px; }
+
+/* A site screenshot shown in a minimal browser frame */
+.browser-bar { position: relative; z-index: 2; display: flex; align-items: center; gap: 6px; height: 26px; padding: 0 12px; background: #1A1F2A; border-bottom: 1px solid rgba(244,246,250,.08); flex: none; }
+.browser-bar i { width: 8px; height: 8px; border-radius: 50%; background: rgba(244,246,250,.22); }
+.browser-bar__url { margin-left: 10px; font-size: 11px; letter-spacing: .04em; color: #AEB7C6; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.project-shot { margin: 0 0 clamp(48px, 6vw, 80px); border: 1px solid var(--line-strong); background: var(--graphite); box-shadow: 0 30px 80px -40px rgba(13,16,23,.45); overflow: hidden; }
+.project-shot .browser-bar { height: 34px; padding: 0 16px; gap: 8px; }
+.project-shot .browser-bar i { width: 10px; height: 10px; }
+.project-shot .browser-bar__url { font-size: 12px; }
+.project-shot img { display: block; width: 100%; height: auto; }
 .project-card__highlight { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; color: var(--ice); }
 .project-card__highlight .icon { width: 28px; height: 28px; color: var(--orange); border-color: rgba(239,87,29,.5); }
 .project-card__highlight .icon svg { width: 16px; height: 16px; }

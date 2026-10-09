@@ -1,7 +1,7 @@
 ---
 title: "MLK Web Studio"
 seo_title: "MLK Web Studio — Websites, SEO and cold email"
-description: "MLK Web Studio builds websites for service businesses, ranks them on Google and fills calendars with cold email. See the projects: Pilotech, Eden Flats, Ginov and more."
+description: "MLK Web Studio builds websites for service businesses, ranks them on Google and fills calendars with cold email. See Pilotech, Eden Flats, Ginov and more."
 hero: true
 hero_label: "Websites · SEO · Cold email"
 hero_title: "Websites that <span class='hl'>bring in clients.</span>"

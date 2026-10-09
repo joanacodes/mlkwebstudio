@@ -1,7 +1,6 @@
 {{ define "main" }}
-{{ $photo := .Params.image | default "images/hero-glass.jpg" }}
 <section class="glass glass--hero on-dark" aria-label="{{ .Title }}">
-  <div class="glass__photo" style="background-image:url('{{ $photo | relURL }}')"></div>
+  <div class="glass__photo" style="background-image:url('{{ "images/hero-glass.jpg" | relURL }}')"></div>
   <div class="glass__tint"></div>
   <div class="glass__day"></div>
   <div class="glass__grain"></div>
@@ -18,6 +17,12 @@
 </section>
 
 <section class="section container">
+  {{ with .Params.image }}
+  <figure class="project-shot reveal">
+    <span class="browser-bar" aria-hidden="true"><i></i><i></i><i></i>{{ with $.Params.website }}<span class="browser-bar__url">{{ (urls.Parse .).Host | strings.TrimPrefix "www." }}</span>{{ end }}</span>
+    <img src="{{ . | relURL }}" alt="{{ $.Title }} — {{ i18n "website" }}" width="1600" height="1000" loading="lazy" decoding="async">
+  </figure>
+  {{ end }}
   <div class="feature" style="align-items:start">
     <div class="prose">{{ .Content }}</div>
     <div class="project-aside">
