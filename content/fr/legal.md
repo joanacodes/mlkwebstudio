@@ -4,7 +4,7 @@ seo_title: "Mentions légales et données personnelles"
 description: "Mentions légales de mlkwebstudio.com : éditeur MLK Web Studio, hébergement GitHub Pages, données du formulaire de contact et absence de cookie d’audience."
 kicker: "Légal"
 ---
-**Éditeur :** MLK Web Studio — [dénomination, forme juridique, numéro d’immatriculation et adresse à compléter].
+**Éditeur :** MLK Web Studio, 47 rue Vivienne, 75002 Paris.
 
 **Contact :** [contact@mlkwebstudio.fr](mailto:contact@mlkwebstudio.fr)
 
