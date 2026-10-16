@@ -57,7 +57,8 @@ As on MLK Leadhunters (`layouts/partials/head.html`): `seo_title` + " — MLK We
 ## Before going live
 
 - [ ] **Email**: the site uses `contact@mlkwebstudio.fr` (footer, contact form, legal notice). Create it, then send one test message from each language's contact page and click FormSubmit's activation link.
-- [ ] **Legal notice**: complete the company name, legal form, registration number and address in `content/*/legal.md`.
+- [x] **Legal notice**: publisher address (47 rue Vivienne, 75002 Paris) in `content/*/legal.md`.
+- [ ] **Legal notice**: legal form, share capital, SIREN/RCS number, phone number and publication director, if they are to be added.
 - [x] **Repository**: public, Pages source GitHub Actions, custom domain `mlkwebstudio.com`.
 - [ ] **Domain**: verify `mlkwebstudio.com` in the GitHub account, add its DNS records, tick Enforce HTTPS, then the `.co.uk` and `.fr` redirects (see Deploy).
 - [ ] **Screenshots**: Eden Flats, Ginov and 110% Intérieur have no screenshot yet. Add `static/images/projects/<slug>.jpg` (1600×1000) and `image:` in both languages.

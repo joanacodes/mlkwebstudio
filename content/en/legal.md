@@ -4,7 +4,7 @@ seo_title: "Legal notice and personal data"
 description: "Legal notice for mlkwebstudio.com: the publisher MLK Web Studio, hosting on GitHub Pages, what happens to contact form data, and no analytics cookies."
 kicker: "Legal"
 ---
-**Publisher:** MLK Web Studio — [company name, legal form, registration number and address to complete].
+**Publisher:** MLK Web Studio, 47 rue Vivienne, 75002 Paris, France.
 
 **Contact:** [contact@mlkwebstudio.fr](mailto:contact@mlkwebstudio.fr)
 
