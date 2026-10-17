@@ -5,6 +5,7 @@ defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 timeZone = "Europe/Paris"
 disableKinds = ["taxonomy", "term"]
+removePathAccents = true
 
 [params]
   email = "contact@mlkwebstudio.fr"
@@ -12,15 +13,56 @@ disableKinds = ["taxonomy", "term"]
   accent = "#2B4DFF"
   orange = "#EF571D"
   bookingUrl = "/contact/"
+  # Floating "write to us" button on desktop (phones already have the bottom dock)
+  contactBubble = true
+  # Newsletter sign-ups (blog sidebar, desktop only): FormSubmit sends each one to this address until a newsletter tool is chosen
+  newsletterAction = "https://formsubmit.co/contact@mlkwebstudio.fr"
+  # The author of every article. Change the name here and it changes everywhere on the site
+  # (the bios in languages.*.params.authorBio insert it where %s is).
+  [params.author]
+    name = "Joana Mehou"
+
+# Articles: /blog/<slug>/ in English, /fr/blog/<slug>/ in French (each language has its own slug)
+[permalinks.page]
+  blog = "/blog/:slug/"
+
+# "Related articles": same category and shared keywords
+[related]
+  includeNewer = true
+  threshold = 20
+  toLower = true
+  [[related.indices]]
+    name = "keywords"
+    weight = 100
+  [[related.indices]]
+    name = "category"
+    weight = 60
 
 [markup]
   [markup.goldmark.renderer]
     unsafe = true
   [markup.goldmark.extensions.extras.mark]
     enable = true
+  [markup.goldmark.parser.attribute]
+    block = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 2
+
+# Search index of the blog (/blog/search.json, /fr/blog/search.json) and llms.txt for AI assistants
+[outputFormats.SearchIndex]
+  mediaType = "application/json"
+  baseName = "search"
+  isPlainText = true
+  notAlternative = true
+[outputFormats.LLMS]
+  mediaType = "text/plain"
+  baseName = "llms"
+  isPlainText = true
+  notAlternative = true
 
 [outputs]
-  home = ["HTML"]
+  home = ["HTML", "LLMS"]
   section = ["HTML"]
 
 [module]
@@ -41,11 +83,25 @@ disableKinds = ["taxonomy", "term"]
     weight = 1
     contentDir = "content/en"
     title = "MLK Web Studio"
+    [languages.en.permalinks.page]
+      projects = "/projects/:contentbasename/"
+      services = "/services/:slug/"
+      topics = "/blog/category/:slug/"
+    [languages.en.permalinks.section]
+      topics = "/blog/category/"
     [languages.en.params]
       email = "contact@mlkwebstudio.fr"
       tagline = "Websites and SEO that bring in clients."
       description = "MLK Web Studio designs and builds websites, ranks them on Google, and fills calendars with cold email. Portfolio and services."
       leadhuntersUrl = "https://mlkleadhunters.com/"
+      authorRole = "Web designer, SEO and cold emailing specialist"
+      authorBio = "%s has been building websites since the age of eleven and founded MLK Web Studio in 2021, between London and Paris: websites, SEO, cold emailing and automation for small businesses in the UK and France, with honest advice, including when you do not need to hire anyone."
+      [languages.en.params.social]
+        youtube = "https://www.youtube.com/@mlkwebstudio"
+        instagram = "https://www.instagram.com/mlkwebstudio/"
+        tiktok = "https://www.tiktok.com/@mlkwebstudio"
+        threads = "https://www.threads.com/@mlkwebstudio"
+        bluesky = "https://bsky.app/profile/mlkwebstudio.bsky.social"
     [[languages.en.menus.main]]
       name = "Projects"
       pageRef = "/projects"
@@ -62,6 +118,10 @@ disableKinds = ["taxonomy", "term"]
       name = "Cold email"
       pageRef = "/services/cold-emailing"
       weight = 40
+    [[languages.en.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 50
 
   [languages.fr]
     languageName = "Français"
@@ -69,11 +129,26 @@ disableKinds = ["taxonomy", "term"]
     weight = 2
     contentDir = "content/fr"
     title = "MLK Web Studio"
+    [languages.fr.permalinks.page]
+      projects = "/realisations/:contentbasename/"
+      services = "/services/:slug/"
+      topics = "/blog/categorie/:slug/"
+    [languages.fr.permalinks.section]
+      projects = "/realisations/"
+      topics = "/blog/categorie/"
     [languages.fr.params]
       email = "contact@mlkwebstudio.fr"
       tagline = "Des sites et un référencement qui amènent des clients."
       description = "MLK Web Studio conçoit et développe des sites web, les positionne sur Google et remplit les agendas grâce au cold email. Réalisations et services."
       leadhuntersUrl = "https://mlkleadhunters.com/fr/"
+      authorRole = "Webdesigner, spécialiste SEO et cold emailing"
+      authorBio = "%s crée des sites web depuis l’âge de onze ans et a fondé MLK Web Studio en 2021, entre Londres et Paris : sites web, SEO, cold emailing et automatisation pour les petites entreprises en France et au Royaume-Uni, avec des conseils honnêtes, y compris quand vous n’avez besoin de personne."
+      [languages.fr.params.social]
+        youtube = "https://www.youtube.com/@mlkwebstudio.fr"
+        instagram = "https://www.instagram.com/mlkwebstudio.fr/"
+        tiktok = "https://www.tiktok.com/@mlkwebstudio.fr"
+        threads = "https://www.threads.com/@mlkwebstudio.fr"
+        bluesky = "https://bsky.app/profile/mlkwebstudio.fr"
     [[languages.fr.menus.main]]
       name = "Réalisations"
       pageRef = "/projects"
@@ -90,3 +165,7 @@ disableKinds = ["taxonomy", "term"]
       name = "Cold email"
       pageRef = "/services/cold-emailing"
       weight = 40
+    [[languages.fr.menus.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 50

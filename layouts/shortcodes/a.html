@@ -1,0 +1,14 @@
+{{- /* Internal link that follows the page's language.
+  {{< a key="dns-records-explained" >}}DNS records{{< /a >}}   → the article with that translationKey (file name) in this language
+  {{< a page="/services/seo" >}}SEO service{{< /a >}}            → any page by its logical path
+  optional: anchor="section-id". Unknown targets render the text alone and a build warning. */ -}}
+{{- $target := false -}}
+{{- with .Get "key" }}{{ $target = site.GetPage (printf "/blog/%s" .) }}{{ end -}}
+{{- with .Get "page" }}{{ $target = site.GetPage . }}{{ end -}}
+{{- $text := .Inner | .Page.RenderString -}}
+{{- if $target -}}
+<a href="{{ $target.RelPermalink }}{{ with .Get "anchor" }}#{{ . }}{{ end }}">{{ $text }}</a>
+{{- else -}}
+{{- warnf "link shortcode: no target for key=%q page=%q (%s, %s)" (.Get "key") (.Get "page") .Page.Language.Lang .Page.File.Path -}}
+{{ $text }}
+{{- end -}}

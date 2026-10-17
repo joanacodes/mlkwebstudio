@@ -1,5 +1,7 @@
 ---
 title: "Mentions légales"
+translationKey: "legal"
+slug: "mentions-legales"
 seo_title: "Mentions légales et données personnelles"
 description: "Mentions légales de mlkwebstudio.com : éditeur MLK Web Studio, hébergement GitHub Pages, données du formulaire de contact et absence de cookie d’audience."
 kicker: "Légal"

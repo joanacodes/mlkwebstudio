@@ -1,5 +1,6 @@
 ---
 title: "Pilotech Teknopoint"
+translationKey: "projects/pilotech-teknopoint"
 seo_title: "Pilotech Teknopoint: website, SEO, cold email"
 description: "Pilotech Teknopoint: a page for each range of air conditioning without an outdoor unit, SEO that ranks it 1st or 2nd on Google, and cold email to businesses."
 weight: 1

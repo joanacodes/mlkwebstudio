@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- $name := site.Params.author.name -}}
+<div class="container">
+  <div class="page-head section-head">
+    <div class="section-head__top">{{ partial "icon.html" "user" }}<span class="label">{{ with .Params.kicker }}{{ . }}{{ else }}{{ .Title }}{{ end }}</span></div>
+    <h1 class="title">{{ $name }}</h1>
+    {{ with site.Params.authorRole }}<p class="lead">{{ . }}, MLK Web Studio</p>{{ end }}
+  </div>
+  <div class="about">
+    <div class="prose">
+      <p class="about__bio">{{ printf site.Params.authorBio $name }}</p>
+      {{ .Content }}
+    </div>
+    <aside class="about__aside">
+      <div class="pside__block"><span class="label label--plain">{{ i18n "follow" }}</span>{{ partial "blog/social-links.html" . }}</div>
+      <div class="pside__block"><span class="label label--plain">{{ i18n "blog" }}</span><a class="link" href="{{ (site.GetPage "/blog").RelPermalink }}">{{ i18n "share_title" }} {{ partial "arrow.html" . }}</a></div>
+    </aside>
+  </div>
+</div>
+{{ partial "cta.html" . }}
+{{ end }}

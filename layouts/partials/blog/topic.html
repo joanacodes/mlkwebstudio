@@ -1,0 +1,4 @@
+{{- /* The category (topics/<key>.md) of an article, in the article's language */ -}}
+{{- $t := false -}}
+{{- with .Params.category }}{{ $t = site.GetPage (printf "/topics/%s" .) }}{{ end -}}
+{{- return $t -}}

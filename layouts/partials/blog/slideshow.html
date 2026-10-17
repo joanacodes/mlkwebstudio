@@ -1,0 +1,33 @@
+{{- /* "Latest" slideshow. Args: pages, ctx */ -}}
+{{- with .pages -}}
+<section class="slides" aria-roledescription="carousel" aria-label="{{ i18n "latest_label" }}" data-slides>
+  <div class="slides__track">
+    {{- range $i, $p := . }}
+    <article class="slide{{ if eq $i 0 }} is-active{{ end }}" role="group" aria-roledescription="slide" aria-label="{{ add $i 1 }} / {{ len $.pages }}" {{ if ne $i 0 }}aria-hidden="true"{{ end }} data-slide>
+      <a class="slide__link" href="{{ $p.RelPermalink }}" {{ if ne $i 0 }}tabindex="-1"{{ end }}>
+        <span class="slide__media">{{ partial "blog/cover.html" (dict "page" $p "sizes" "100vw" "loading" (cond (eq $i 0) "eager" "lazy") "priority" (eq $i 0)) }}</span>
+        <span class="slide__tint" aria-hidden="true"></span>
+        <span class="slide__body container">
+          <span class="slide__meta"><span class="slide__kicker">{{ i18n "latest" }}</span>{{ with partial "blog/topic.html" $p }}<span>{{ .Params.short | default .Title }}</span>{{ end }}{{ with $p.Params.article_type }}<span>{{ i18n (printf "type_%s" .) }}</span>{{ end }}</span>
+          <span class="slide__title">{{ $p.Title }}</span>
+          <span class="slide__desc">{{ $p.Description }}</span>
+          <span class="slide__cta">{{ i18n "read_more" }} {{ partial "arrow.html" . }}</span>
+        </span>
+      </a>
+    </article>
+    {{- end }}
+  </div>
+  {{- if gt (len .) 1 }}
+  <div class="slides__ui container">
+    <div class="slides__dots" role="group">
+      {{- range $i, $p := . }}<button type="button" class="slides__dot{{ if eq $i 0 }} is-active{{ end }}" data-go="{{ $i }}" aria-label="{{ i18n "slide_go" }} {{ add $i 1 }}"{{ if eq $i 0 }} aria-current="true"{{ end }}><span></span></button>{{ end }}
+    </div>
+    <div class="slides__ctrl">
+      <button type="button" class="slides__btn" data-pause aria-label="{{ i18n "slide_pause" }}" data-label-play="{{ i18n "slide_play" }}" data-label-pause="{{ i18n "slide_pause" }}"><span class="slides__pause" aria-hidden="true"></span></button>
+      <button type="button" class="slides__btn" data-prev aria-label="{{ i18n "slide_prev" }}"><span aria-hidden="true">←</span></button>
+      <button type="button" class="slides__btn" data-next aria-label="{{ i18n "slide_next" }}"><span aria-hidden="true">→</span></button>
+    </div>
+  </div>
+  {{- end }}
+</section>
+{{- end -}}

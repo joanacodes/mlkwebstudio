@@ -11,7 +11,7 @@
       <input type="hidden" name="_subject" value="{{ .Site.Title }} — {{ .Title }}">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_captcha" value="false">
-      <input type="hidden" name="_next" value="{{ "thanks/" | absLangURL }}">
+      <input type="hidden" name="_next" value="{{ with site.GetPage "/thanks" }}{{ .Permalink }}{{ else }}{{ "thanks/" | absLangURL }}{{ end }}">
       <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
       {{ range .Params.fields }}
       <div class="field"><label for="f-{{ .name }}">{{ .label }}</label>{{ if eq .type "textarea" }}<textarea id="f-{{ .name }}" name="{{ .name }}" rows="5"{{ if .required }} required{{ end }}></textarea>{{ else }}<input id="f-{{ .name }}" type="{{ .type | default "text" }}" name="{{ .name }}"{{ if .required }} required{{ end }}>{{ end }}</div>

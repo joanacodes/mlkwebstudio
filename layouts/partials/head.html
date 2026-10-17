@@ -5,7 +5,9 @@
 {{- if .IsHome -}}
   {{- $title = .Params.seo_title | default (printf "%s — %s" site.Title site.Params.tagline) -}}
 {{- else -}}
-  {{- $title = printf "%s — %s" (.Params.seo_title | default .Title) site.Title -}}
+  {{- $t := .Params.seo_title | default .Title -}}
+  {{- /* long titles (articles) go without the " — MLK Web Studio" suffix so search results do not cut them */ -}}
+  {{- if gt (strings.RuneCount $t) 44 }}{{ $title = $t }}{{ else }}{{ $title = printf "%s — %s" $t site.Title }}{{ end -}}
 {{- end -}}
 {{- $desc := .Description -}}
 {{- if not $desc }}{{ $desc = .Params.summary }}{{ end -}}
@@ -13,9 +15,14 @@
 {{- if not $desc }}{{ $desc = site.Params.description }}{{ end -}}
 {{- $lang := site.Language.LanguageCode | default site.Language.Lang -}}
 {{- /* Share image: the page's own photo (or the hero photo), cropped to 1200×630 */ -}}
-{{- $img := resources.Get (.Params.image | default "images/hero-glass.jpg") | default (resources.Get "images/hero-glass.jpg") -}}
+{{- $imgPath := .Params.image | default "images/hero-glass.jpg" -}}
+{{- if and .IsPage (eq .Section "blog") }}{{ $imgPath = printf "images/blog/%s.jpg" (.Params.cover | default .File.ContentBaseName) }}{{ end -}}
+{{- $img := resources.Get $imgPath | default (resources.Get "images/hero-glass.jpg") -}}
 {{- $og := $img.Fill (cond (and (eq .Section "projects") (isset .Params "image")) "1200x630 Top q80" "1200x630 Center q80") -}}
 {{- $isPost := and .IsPage (eq .Section "blog") }}
+{{- $topic := false }}{{ if $isPost }}{{ $topic = partial "blog/topic.html" . }}{{ end }}
+{{- $topicName := "" }}{{ with $topic }}{{ $topicName = .Title }}{{ end }}
+{{- $imgAlt := .Params.cover_alt | default $title }}
 <title>{{ $title }}</title>
 <meta name="description" content="{{ $desc }}">
 <meta name="robots" content="{{ .Params.robots | default (cond (eq .Kind "404") "noindex" "index, follow, max-image-preview:large") }}">
@@ -35,16 +42,19 @@
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="{{ $og.Width }}">
 <meta property="og:image:height" content="{{ $og.Height }}">
-<meta property="og:image:alt" content="{{ $title }}">
+<meta property="og:image:alt" content="{{ $imgAlt }}">
 {{ if $isPost }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
 <meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}">
-{{ range .Params.tags }}<meta property="article:tag" content="{{ . }}">
-{{ end }}{{ end -}}
+<meta property="article:author" content="{{ site.Params.author.name }}">
+{{ with $topic }}<meta property="article:section" content="{{ .Title }}">
+{{ end }}{{ range .Params.keywords }}<meta property="article:tag" content="{{ . }}">
+{{ end }}<meta name="author" content="{{ site.Params.author.name }}">
+{{ end -}}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $title }}">
 <meta name="twitter:description" content="{{ $desc }}">
 <meta name="twitter:image" content="{{ $og.Permalink }}">
-<meta name="twitter:image:alt" content="{{ $title }}">
+<meta name="twitter:image:alt" content="{{ $imgAlt }}">
 <meta name="theme-color" content="#0D1017">
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="48x48">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
@@ -55,7 +65,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap">
 {{ $css := resources.Get "css/main.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
-{{ with site.Home.OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — Blog" href="{{ .Permalink }}">{{ end }}
+{{ with site.GetPage "/blog" }}{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" title="{{ site.Title }} — Blog" href="{{ .Permalink }}">{{ end }}{{ end }}
 {{- /* Structured data (schema.org) for search engines */ -}}
 {{- $home := site.Home -}}
 {{- $orgID := printf "%s#organization" ("/" | absURL) -}}
@@ -73,21 +83,29 @@
   "logo" (dict "@type" "ImageObject" "url" ("icon-512.png" | absURL) "width" 512 "height" 512)
   "email" $orgEmail
   "description" site.Sites.Default.Params.description
-  "areaServed" "France"
+  "areaServed" (slice "France" "United Kingdom")
   "subOrganization" (dict "@type" "Organization" "name" "MLK Leadhunters" "url" "https://mlkleadhunters.com/" "description" (i18n "org_sub"))
   "contactPoint" $contacts
 -}}
+{{- $about := site.GetPage "/about" -}}
+{{- $personID := printf "%s#person" ("/" | absURL) }}{{ with $about }}{{ $personID = printf "%s#person" .Permalink }}{{ end -}}
+{{- $person := dict "@type" "Person" "@id" $personID "name" site.Params.author.name "jobTitle" site.Params.authorRole "worksFor" (dict "@id" $orgID) -}}
+{{- with $about }}{{ $person = merge $person (dict "url" .Permalink) }}{{ end -}}
 {{- $website := dict "@type" "WebSite" "@id" $siteID "url" $home.Permalink "name" site.Title "description" site.Params.description "inLanguage" $lang "publisher" (dict "@id" $orgID) -}}
 {{- $pageType := "WebPage" -}}
 {{- if eq .Layout "contact" }}{{ $pageType = "ContactPage" }}{{ else if and (not .IsHome) .IsSection }}{{ $pageType = "CollectionPage" }}{{ end -}}
-{{- with .File }}{{ if eq .ContentBaseName "about" }}{{ $pageType = "AboutPage" }}{{ end }}{{ end -}}
+{{- if eq .Type "about" }}{{ $pageType = "ProfilePage" }}{{ end -}}
 {{- $webpage := dict "@type" $pageType "@id" $pageID "url" .Permalink "name" $title "description" $desc "inLanguage" $lang "isPartOf" (dict "@id" $siteID) "primaryImageOfPage" $image -}}
 {{- $graph := slice $org $website -}}
 {{- if .IsHome -}}
   {{- $webpage = merge $webpage (dict "about" (dict "@id" $orgID)) -}}
 {{- else -}}
+  {{- $chain := .Ancestors.Reverse -}}
+  {{- $blog := site.GetPage "/blog" -}}
+  {{- if $isPost }}{{ $chain = slice site.Home $blog }}{{ with $topic }}{{ $chain = $chain | append . }}{{ end }}{{ end -}}
+  {{- if eq .Section "topics" }}{{ $chain = slice site.Home $blog }}{{ if .IsPage }}{{ $chain = $chain | append (site.GetPage "/topics") }}{{ end }}{{ end -}}
   {{- $crumbs := slice -}}
-  {{- range $i, $a := .Ancestors.Reverse -}}
+  {{- range $i, $a := $chain -}}
     {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add $i 1) "name" (cond $a.IsHome (i18n "home") $a.Title) "item" $a.Permalink) -}}
   {{- end -}}
   {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add (len $crumbs) 1) "name" .Title "item" .Permalink) -}}
@@ -106,14 +124,30 @@
     "dateModified" (.Lastmod.Format "2006-01-02T15:04:05Z07:00")
     "inLanguage" $lang
     "image" $image
-    "author" (dict "@type" "Organization" "@id" $orgID "name" site.Title "url" ("/" | absURL))
+    "author" (dict "@id" $personID)
     "publisher" (dict "@id" $orgID)
     "mainEntityOfPage" (dict "@id" $pageID)
     "isPartOf" (dict "@id" $siteID)
-    "keywords" (delimit (.Params.tags | default slice) ", ")
+    "keywords" (delimit (.Params.keywords | default slice) ", ")
+    "articleSection" $topicName
+    "wordCount" .WordCount
   ) -}}
+  {{- $graph = $graph | append $person -}}
+  {{- with .Params.faq -}}
+    {{- $qs := slice -}}
+    {{- range . }}{{ $qs = $qs | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" (.a | $.RenderString | plainify | htmlUnescape))) }}{{ end -}}
+    {{- $graph = $graph | append (dict "@type" "FAQPage" "@id" (printf "%s#faq" $.Permalink) "mainEntity" $qs "inLanguage" $lang "isPartOf" (dict "@id" $pageID)) -}}
+  {{- end -}}
+{{- else if eq .Section "topics" -}}
+  {{- if .IsPage -}}
+    {{- $items := slice -}}
+    {{- range $i, $p := (where (site.GetPage "/blog").RegularPages "Params.category" .Params.key).ByDate.Reverse }}{{ $items = $items | append (dict "@type" "ListItem" "position" (add $i 1) "url" $p.Permalink "name" $p.Title) }}{{ end -}}
+    {{- $graph = $graph | append (dict "@type" "ItemList" "@id" (printf "%s#list" .Permalink) "itemListElement" $items "numberOfItems" (len $items)) -}}
+  {{- end -}}
+{{- else if and .IsPage (eq .Type "about") -}}
+  {{- $graph = $graph | append $person -}}
 {{- else if and .IsPage (eq .Section "services") -}}
-  {{- $graph = $graph | append (dict "@type" "Service" "@id" (printf "%s#service" .Permalink) "name" .Title "serviceType" .Title "description" $desc "url" .Permalink "image" $image "provider" (dict "@id" $orgID) "areaServed" "France") -}}
+  {{- $graph = $graph | append (dict "@type" "Service" "@id" (printf "%s#service" .Permalink) "name" .Title "serviceType" .Title "description" $desc "url" .Permalink "image" $image "provider" (dict "@id" $orgID) "areaServed" (slice "France" "United Kingdom")) -}}
 {{- else if and .IsPage (eq .Section "projects") -}}
   {{- $about := dict "@type" "Organization" "name" (.Params.client | default .Title) -}}
   {{- with .Params.website }}{{ $about = merge $about (dict "url" .) }}{{ end -}}

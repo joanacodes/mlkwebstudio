@@ -1,5 +1,6 @@
 ---
 title: "Eden Corporate Mobility"
+translationKey: "projects/eden-corporate-mobility"
 seo_title: "Eden Corporate Mobility: bilingual website"
 description: "A bilingual French and English site for a Paris corporate housing agency: housing, transport and wellbeing pages, five sector pages and a page for owners."
 weight: 2

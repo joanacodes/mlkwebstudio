@@ -1,5 +1,7 @@
 ---
 title: "Websites"
+translationKey: "services/websites"
+slug: "websites"
 seo_title: "Website design and development"
 description: "Websites for service businesses: clear, fast on phones, built to rank on Google and turn visits into calls and quote requests. Web apps when needed."
 icon: "monitor"

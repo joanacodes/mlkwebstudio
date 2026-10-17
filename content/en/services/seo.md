@@ -1,5 +1,7 @@
 ---
 title: "SEO"
+translationKey: "services/seo"
+slug: "seo"
 seo_title: "SEO for service businesses"
 description: "SEO that brings calls, not just traffic: the right searches, pages that answer them, clean technical foundations. One client ranks first or second on Google."
 icon: "search"

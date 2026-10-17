@@ -1,0 +1,37 @@
+{{- /* Sticky left sidebar of an article (desktop): anchors, related articles, social accounts, services, newsletter.
+  On phones the anchors move to the bottom folder (toc-folder.html) and the rest follows the article. */ -}}
+{{- $p := . -}}
+<aside class="pside" aria-label="{{ i18n "on_this_page" }}">
+  <div class="pside__inner">
+    <div class="pside__block pside__block--toc">
+      <span class="label label--plain">{{ i18n "on_this_page" }}</span>
+      {{ partial "blog/toc.html" $p }}
+    </div>
+    {{- with partial "blog/related.html" (dict "page" $p "n" 3) }}
+    <div class="pside__block">
+      <span class="label label--plain">{{ i18n "related" }}</span>
+      <ul class="prel">
+        {{- range . }}
+        <li><a class="prel__item" href="{{ .RelPermalink }}"><span class="prel__thumb">{{ partial "blog/cover.html" (dict "page" . "sizes" "96px") }}</span><span class="prel__title">{{ .Title }}</span></a></li>
+        {{- end }}
+      </ul>
+    </div>
+    {{- end }}
+    <div class="pside__block">
+      <span class="label label--plain">{{ i18n "follow" }}</span>
+      {{ partial "blog/social-links.html" $p }}
+    </div>
+    <div class="pside__block">
+      <span class="label label--plain">{{ i18n "our_services" }}</span>
+      <ul class="psvc">
+        {{- with site.GetPage "/services" }}{{ range .Pages.ByWeight }}
+        <li><a href="{{ .RelPermalink }}">{{ partial "icon.html" (.Params.icon | default "list") }}<span>{{ .Title }}</span></a></li>
+        {{- end }}{{ end }}
+        <li><a href="{{ site.Params.leadhuntersUrl }}" target="_blank" rel="noopener">{{ partial "icon.html" "send" }}<span>MLK Leadhunters</span></a></li>
+      </ul>
+    </div>
+    <div class="pside__block pside__block--nl" id="newsletter">
+      {{ partial "blog/newsletter.html" $p }}
+    </div>
+  </div>
+</aside>

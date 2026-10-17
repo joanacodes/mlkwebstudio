@@ -1,5 +1,6 @@
 ---
 title: "Ginov"
+translationKey: "projects/ginov"
 seo_title: "Ginov : site de services du bâtiment"
 description: "Le site de Ginov, solutions bâtiment pour les restaurants et les professionnels en Île-de-France : électricité, plomberie, climatisation et maintenance."
 weight: 7

@@ -1,5 +1,6 @@
 ---
 title: "Legal notice"
+translationKey: "legal"
 seo_title: "Legal notice and personal data"
 description: "Legal notice for mlkwebstudio.com: the publisher MLK Web Studio, hosting on GitHub Pages, what happens to contact form data, and no analytics cookies."
 kicker: "Legal"

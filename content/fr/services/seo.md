@@ -1,5 +1,7 @@
 ---
 title: "SEO"
+translationKey: "services/seo"
+slug: "referencement-seo"
 seo_title: "Référencement naturel (SEO) local"
 description: "Un SEO qui amène des appels : les bonnes recherches, des pages qui y répondent, une technique propre. Pilotech Teknopoint est 1er ou 2e sur Google."
 icon: "search"

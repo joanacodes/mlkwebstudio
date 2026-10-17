@@ -1,5 +1,6 @@
 ---
 title: "Réalisations"
+translationKey: "projects"
 seo_title: "Portfolio : sites web, SEO et cold email"
 description: "Dix réalisations de MLK Web Studio : sites, SEO, applications, cold email et réseaux sociaux pour Pilotech, Eden Flats, Edenel, Ginov et d’autres."
 heading: "Des réalisations <span class='hl--o'>qui amènent des clients.</span>"

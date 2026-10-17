@@ -1,0 +1,34 @@
+{{ define "main" }}
+{{- $key := .Params.key -}}
+{{- $posts := where (site.GetPage "/blog").RegularPages "Params.category" $key -}}
+{{- $pillar := false }}{{ range first 1 (where $posts "Params.article_type" "pillar") }}{{ $pillar = . }}{{ end -}}
+{{- $rest := $posts.ByDate.Reverse }}{{ with $pillar }}{{ $rest = where $rest "Permalink" "ne" .Permalink }}{{ end -}}
+{{- $types := slice -}}{{ range $rest }}{{ with .Params.article_type }}{{ if not (in $types .) }}{{ $types = $types | append . }}{{ end }}{{ end }}{{ end -}}
+<div class="container">
+  <div class="page-head section-head">
+    {{ partial "blog/breadcrumbs.html" . }}
+    <div class="section-head__top">{{ partial "icon.html" (.Params.icon | default "book") }}<span class="label">{{ i18n "blog" }}</span></div>
+    <h1 class="title">{{ with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Params.lead | default .Description }}<p class="lead">{{ . | safeHTML }}</p>{{ end }}
+  </div>
+  {{ with $pillar }}
+  <div class="tpillar">
+    <span class="label label--orange">{{ i18n "start_here" }}</span>
+    {{ partial "blog/post-card.html" (dict "page" . "big" true) }}
+  </div>
+  {{ end }}
+  {{ if gt (len $types) 1 }}
+  <div class="filters" role="group" aria-label="{{ i18n "filter_types" }}" data-tfilters>
+    <button class="chip chip--btn is-active" type="button" data-tfilter="all" aria-pressed="true">{{ i18n "filter_all_types" }}</button>
+    {{ range $types }}<button class="chip chip--btn" type="button" data-tfilter="{{ . }}" aria-pressed="false">{{ i18n (printf "types_%s" .) }}</button>{{ end }}
+  </div>
+  {{ end }}
+  <div class="pgrid" data-tgrid>{{ range $rest }}{{ partial "blog/post-card.html" (dict "page" .) }}{{ end }}</div>
+  {{ with .Content }}<div class="prose tabout">{{ . }}</div>{{ end }}
+  <nav class="tothers" aria-label="{{ i18n "all_topics" }}">
+    <span class="label label--plain">{{ i18n "all_topics" }}</span>
+    <ul>{{ range (site.GetPage "/topics").RegularPages.ByWeight }}<li><a href="{{ .RelPermalink }}"{{ if eq .Permalink $.Permalink }} aria-current="page"{{ end }}>{{ .Params.short | default .Title }}</a></li>{{ end }}</ul>
+  </nav>
+</div>
+{{ partial "cta.html" . }}
+{{ end }}

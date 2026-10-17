@@ -1,0 +1,18 @@
+{{- /* Newsletter sign-up (desktop only, see CSS). Sent by FormSubmit to params.newsletterAction until a newsletter tool is chosen. */ -}}
+{{- with site.Params.newsletterAction -}}
+<form class="nl" action="{{ . }}" method="POST" accept-charset="UTF-8">
+  <span class="label label--plain">{{ i18n "newsletter_title" }}</span>
+  <p class="nl__lead">{{ i18n "newsletter_lead" }}</p>
+  <input type="hidden" name="_subject" value="Newsletter — {{ site.Title }} ({{ site.Language.Lang | upper }})">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="{{ $.Permalink }}?subscribed=1#newsletter">
+  <input type="hidden" name="language" value="{{ site.Language.Lang }}">
+  <input type="hidden" name="page" value="{{ $.Permalink }}">
+  <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+  <label class="nl__label" for="nl-email-{{ site.Language.Lang }}">{{ i18n "newsletter_placeholder" }}</label>
+  <input class="nl__input" id="nl-email-{{ site.Language.Lang }}" type="email" name="email" required placeholder="{{ i18n "newsletter_placeholder" }}" autocomplete="email">
+  <button class="button button--sm button--block" type="submit">{{ i18n "newsletter_button" }}</button>
+  <span class="nl__note">{{ i18n "newsletter_note" }}</span>
+</form>
+{{- end -}}

@@ -1,5 +1,6 @@
 ---
 title: "Pilotech Toshiba"
+translationKey: "projects/pilotech-toshiba"
 seo_title: "Pilotech Toshiba : site de climatisation"
 description: "Un site dédié à la climatisation et aux pompes à chaleur Toshiba de Pilotech en Île-de-France : une page par gamme, des pages services, un référencement local."
 weight: 6

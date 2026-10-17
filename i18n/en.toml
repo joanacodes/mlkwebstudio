@@ -109,3 +109,131 @@ other = "Skip to content"
 [org_sub]
 other = "Cold email practice of MLK Web Studio"
 
+
+# Blog
+[blog]
+other = "Blog"
+[search_label]
+other = "Search the guides"
+[search_placeholder]
+other = "Search: DNS, Squarespace, cold email…"
+[search_empty]
+other = "No article matches that search yet."
+[search_count]
+one = "{{ .Count }} article"
+other = "{{ .Count }} articles"
+[latest]
+other = "Latest"
+[latest_label]
+other = "Latest articles"
+[slide_prev]
+other = "Previous article"
+[slide_next]
+other = "Next article"
+[slide_go]
+other = "Show article"
+[slide_pause]
+other = "Pause the slideshow"
+[slide_play]
+other = "Play the slideshow"
+[topics]
+other = "Topics"
+[all_topics]
+other = "All topics"
+[see_all]
+one = "See the article"
+other = "See all {{ .Count }} articles"
+[min_read]
+other = "min read"
+[published]
+other = "Published"
+[updated]
+other = "Updated"
+[by]
+other = "By"
+[short_answer]
+other = "Short answer"
+[on_this_page]
+other = "On this page"
+[related]
+other = "Related articles"
+[keep_reading]
+other = "Keep reading"
+[follow]
+other = "Follow the studio"
+[our_services]
+other = "Our services"
+[newsletter_title]
+other = "The newsletter"
+[newsletter_lead]
+other = "New guides and the updates that matter, in one email. No more than twice a month."
+[newsletter_placeholder]
+other = "Your email address"
+[newsletter_button]
+other = "Subscribe"
+[newsletter_note]
+other = "Unsubscribe in one click. Your address is never shared."
+[faq_title]
+other = "Frequently asked questions"
+[about_author]
+other = "About the author"
+[author_more]
+other = "More about the studio"
+[filter_all_types]
+other = "All"
+[filter_types]
+other = "Filter by type"
+[type_pillar]
+other = "Complete guide"
+[type_guide]
+other = "Guide"
+[type_tutorial]
+other = "Tutorial"
+[type_comparison]
+other = "Comparison"
+[type_case-study]
+other = "Case study"
+[type_opinion]
+other = "Opinion"
+[type_news]
+other = "News"
+[types_pillar]
+other = "Complete guides"
+[types_guide]
+other = "Guides"
+[types_tutorial]
+other = "Tutorials"
+[types_comparison]
+other = "Comparisons"
+[types_case-study]
+other = "Case studies"
+[types_opinion]
+other = "Opinions"
+[types_news]
+other = "News"
+[callout_note]
+other = "Note"
+[callout_tip]
+other = "Tip"
+[callout_warning]
+other = "Watch out"
+[start_here]
+other = "Start here"
+[post_cta_label]
+other = "Want it done for you?"
+[post_cta_websites]
+other = "A website that brings in clients, designed, written and built for you."
+[post_cta_seo]
+other = "The searches your clients type, the pages that answer them, the technical work behind."
+[post_cta_rescue]
+other = "Hacked site, lost access, broken email: same-day answer, or within 24 hours."
+[post_cta_automation]
+other = "Internal tools and automations built around how your business actually works."
+[post_cta_default]
+other = "Websites, SEO, cold emailing and automation for small businesses in the UK and France."
+[post_cta_button]
+other = "Tell me about your project"
+[contact_bubble]
+other = "Write to us"
+[share_title]
+other = "Guides and tutorials"

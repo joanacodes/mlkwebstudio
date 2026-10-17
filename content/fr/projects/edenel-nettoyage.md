@@ -1,5 +1,6 @@
 ---
 title: "Edenel Nettoyage"
+translationKey: "projects/edenel-nettoyage"
 seo_title: "Edenel Nettoyage : site, devis et commandes"
 description: "Le site Hugo d’une société de ménage pour hôtes Airbnb, hôtels et bureaux à Paris, avec une application intégrée : devis, commandes, rendez-vous, factures PDF."
 weight: 4

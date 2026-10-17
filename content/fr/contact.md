@@ -1,5 +1,6 @@
 ---
 title: "Contact"
+translationKey: "contact"
 seo_title: "Lancer un projet de site, SEO ou cold email"
 description: "Parlez-nous de votre activité et de ce que votre site doit apporter. Réponse sous quarante-huit heures, puis un plan clair et un devis après un court appel."
 layout: contact

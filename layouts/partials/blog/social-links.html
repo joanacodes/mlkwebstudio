@@ -1,0 +1,9 @@
+{{- /* The studio's accounts in the page's language (languages.*.params.social) */ -}}
+{{- with site.Params.social -}}
+<ul class="social">
+  {{- $names := dict "youtube" "YouTube" "instagram" "Instagram" "tiktok" "TikTok" "threads" "Threads" "bluesky" "Bluesky" }}
+  {{- range $net := slice "youtube" "instagram" "tiktok" "threads" "bluesky" }}{{ with index site.Params.social $net }}
+  <li><a href="{{ . }}" target="_blank" rel="noopener me" aria-label="{{ index $names $net }}" title="{{ index $names $net }}">{{ partial "icon.html" $net }}</a></li>
+  {{- end }}{{ end }}
+</ul>
+{{- end -}}

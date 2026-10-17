@@ -1,0 +1,13 @@
+{{- /* Related articles: the ones listed in front matter "related" (translationKeys), completed by Hugo's related content.
+  Args: page, n. Returns a slice of pages in the page's language. */ -}}
+{{- $p := .page -}}
+{{- $out := slice -}}
+{{- range $p.Params.related -}}
+  {{- with site.GetPage (printf "/blog/%s" .) }}{{ if ne .Permalink $p.Permalink }}{{ $out = $out | append . }}{{ end }}{{ end -}}
+{{- end -}}
+{{- if lt (len $out) .n -}}
+  {{- range where (site.RegularPages.Related $p) "Section" "blog" -}}
+    {{- if and (lt (len $out) $.n) (not (in $out .)) (ne .Permalink $p.Permalink) }}{{ $out = $out | append . }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- return first .n $out -}}

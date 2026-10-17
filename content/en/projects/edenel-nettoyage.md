@@ -1,5 +1,6 @@
 ---
 title: "Edenel Nettoyage"
+translationKey: "projects/edenel-nettoyage"
 seo_title: "Edenel Nettoyage: website and ordering app"
 description: "A Hugo website for a Paris cleaning company serving Airbnb hosts, hotels and offices, with a built-in app for quotes, orders, appointments and PDF invoices."
 weight: 4

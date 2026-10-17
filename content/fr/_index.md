@@ -1,5 +1,6 @@
 ---
 title: "MLK Web Studio"
+translationKey: "home"
 seo_title: "MLK Web Studio — Sites web, SEO et cold email"
 description: "Sites web, SEO et cold email pour les entreprises de service : MLK Web Studio crée des sites qui amènent des clients. Pilotech, Eden Flats, Ginov et d’autres."
 hero: true

@@ -1,6 +1,7 @@
 ---
 robots: "noindex, follow"
 title: "Thank you"
+translationKey: "thanks"
 seo_title: "Thank you, message received"
 description: "Your message has reached MLK Web Studio. We reply within forty-eight hours to plan a short call about your project; meanwhile, have a look at our projects."
 kicker: "Message received"

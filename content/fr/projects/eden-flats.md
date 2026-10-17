@@ -1,5 +1,6 @@
 ---
 title: "Eden Flats"
+translationKey: "projects/eden-flats"
 seo_title: "Eden Flats : site de conciergerie Airbnb"
 description: "Un site pour Eden Flats, conciergerie Airbnb en Île-de-France : gestion des voyageurs et du logement, FAQ pour les propriétaires et pages par commune."
 weight: 5

@@ -1,0 +1,20 @@
+# {{ site.Title }}
+
+> {{ site.Params.description }}
+
+{{ site.Params.tagline }} Author of the guides: {{ site.Params.author.name }}. Contact: {{ site.Params.email }}.
+{{ with site.Home.Translations }}{{ range . }}Also in {{ .Language.LanguageName }}: {{ .Permalink }}llms.txt
+{{ end }}{{ end }}
+## Services
+{{ with site.GetPage "/services" }}{{ range .Pages.ByWeight }}- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
+{{ end }}{{ end }}- [MLK Leadhunters]({{ site.Params.leadhuntersUrl }}): cold emailing, by the same studio.
+
+## Case studies
+{{ with site.GetPage "/projects" }}{{ range .Pages.ByWeight }}- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
+{{ end }}{{ end }}
+{{- $blog := site.GetPage "/blog" }}{{ with $blog }}
+## {{ .Title }}: {{ .Description }}
+{{ $posts := .RegularPages }}{{ range (site.GetPage "/topics").RegularPages.ByWeight }}{{ $in := where $posts "Params.category" .Params.key }}{{ if $in }}
+### [{{ .Title }}]({{ .Permalink }})
+{{ range $in.ByWeight }}- [{{ .Title }}]({{ .Permalink }}): {{ .Description }}
+{{ end }}{{ end }}{{ end }}{{ end }}
