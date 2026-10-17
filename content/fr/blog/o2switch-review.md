@@ -4,8 +4,8 @@ seo_title: "o2switch avis 2026 : prix Grow, Cloud, Pro et limites"
 description: "o2switch avis : ce que valent les formules Grow, Cloud et Pro, leurs prix HT, le support à Clermont-Ferrand, les limites, et comment relier domaine et email."
 slug: "o2switch-avis-hebergeur-francais"
 translationKey: "o2switch-review"
-date: 2026-10-17T08:31:00+02:00
-lastmod: 2026-10-17T08:31:00+02:00
+date: 2026-10-17T08:59:00+02:00
+lastmod: 2026-10-17T08:59:00+02:00
 category: "domains"
 article_type: "guide"
 keywords: ["o2switch avis", "o2switch prix", "o2switch Grow Cloud Pro", "hébergeur web français", "hébergement o2switch"]

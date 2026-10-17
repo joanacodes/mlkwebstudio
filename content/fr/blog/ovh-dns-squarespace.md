@@ -4,8 +4,8 @@ seo_title: "Zone DNS OVH : relier son domaine à Squarespace (tuto)"
 description: "Zone DNS OVH : les entrées à supprimer, les quatre A et le CNAME www de Squarespace, et le point final sans lequel OVH ajoute votre domaine à la cible."
 slug: "zone-dns-ovh-squarespace"
 translationKey: "ovh-dns-squarespace"
-date: 2026-10-17T08:30:00+02:00
-lastmod: 2026-10-17T08:30:00+02:00
+date: 2026-10-17T08:51:00+02:00
+lastmod: 2026-10-17T08:51:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["zone DNS OVH", "relier domaine OVH Squarespace", "CNAME OVH point final", "enregistrements DNS Squarespace", "connecter nom de domaine Squarespace"]

@@ -4,8 +4,8 @@ seo_title: "Connect an OVH domain to Squarespace: step-by-step DNS guide"
 description: "Connect an OVH domain to Squarespace step by step: what to delete in the OVHcloud DNS zone, the four A records, the www CNAME and the final dot OVH requires."
 slug: "connect-ovh-domain-squarespace"
 translationKey: "ovh-dns-squarespace"
-date: 2026-10-17T08:30:00+02:00
-lastmod: 2026-10-17T08:30:00+02:00
+date: 2026-10-17T08:51:00+02:00
+lastmod: 2026-10-17T08:51:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["connect OVH domain to Squarespace", "OVH DNS zone", "Squarespace DNS records", "OVH CNAME trailing dot", "Squarespace A records"]
