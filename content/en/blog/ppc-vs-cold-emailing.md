@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:21:00+02:00
 category: "marketing"
 article_type: "comparison"
 keywords: ["PPC vs cold email", "cold email vs Google Ads", "cold email vs paid ads", "B2B lead generation", "cost per lead B2B"]
-summary: "PPC (pay-per-click ads such as Google Ads) reaches people already searching for what you sell: ads can run within a day or two, but every click is paid and enquiries stop with the budget. Cold email reaches the businesses you choose before they search: the set-up takes a few weeks, then each extra email costs almost nothing. For B2B buyers you can list, I would start with cold email and keep PPC for existing search demand."
+summary: "PPC (pay-per-click search ads, such as Google Ads) reaches people already searching for what you sell: ads can run within a day or two, but every click is paid and enquiries stop with the budget. Cold email reaches the businesses you choose before they search: the set-up takes a few weeks, then each extra email costs almost nothing. For B2B buyers you can list, I would start with cold email and keep PPC for existing search demand."
 cover: "ppc-vs-cold-emailing"
 cover_alt: "The words Ads vs Cold email beside two compared panels, behind ribbed glass"
 related: ["b2b-cold-emailing-guide", "google-ads-small-business", "seo-vs-ppc", "architects-cold-email-case-study", "how-to-get-more-clients"]
@@ -24,7 +24,7 @@ faq:
   - q: "Does Google Ads charge me if nobody clicks?"
     a: "Not on a search campaign with the usual cost-per-click bidding: you pay when someone clicks, not when the ad is shown. Some campaign types and bid strategies charge per thousand impressions instead, so check the bid strategy before you launch."
   - q: "Do I need a landing page for Google Ads or for cold email?"
-    a: "For Google Ads, yes: every ad sends people to a page, and Google rates that page's experience in the Quality Score. For cold email, my emails carry no link, but many prospects look at your website before they call, so it has to show clearly what you do."
+    a: "For Google Ads, yes: every ad sends people to a page, and Google rates that page's experience in the Quality Score. For cold email, not necessarily: my emails carry no link, but they invite prospects to look at the catalogue on the website, so your site has to show clearly what you do."
 ---
 
 PPC vs cold email is a choice between paying to be found and writing first. PPC (pay-per-click) is advertising you pay for each time someone clicks your ad, most often on Google Ads. Cold email is a short, personal email to a business contact who has not heard of you, about a problem their job involves. Both can fill a B2B calendar, but they reach different people, at a different speed, with a very different cost structure.
@@ -55,7 +55,7 @@ On the points that decide most B2B choices, the two channels compare like this.
 
 On a search campaign, Google Ads bills you per click, at a price set by an auction between the advertisers bidding on the same search. So the price changes with the keyword, the area and the competition.
 
-You control the total with an average daily budget. Google can spend up to twice that budget on a busy day, but over a month it never charges more than 30.4 times it (the average number of days in a month) and credits back anything delivered beyond that, as [Google Ads Help](https://support.google.com/google-ads/answer/6385083?hl=en-GB) explains. An average daily budget of £20 can spend £40 on a given day, and the month's bill stops at £608.
+You control the total with an average daily budget. Google can spend up to twice that budget on a busy day, but over a month it never charges more than 30.4 times it (the average number of days in a month) and credits back anything delivered beyond that, as [Google Ads Help](https://support.google.com/google-ads/answer/6385083?hl=en-GB) explains. With an average daily budget of £20, Google can spend £40 on a given day, and the month's bill stops at £608.
 
 To see what a click will cost before you spend anything, open Keyword Planner, free inside a Google Ads account, and read the **Top of page bid (low range)** and **Top of page bid (high range)** columns for your keywords and area. Google describes them as roughly the 20th and 80th percentiles of recent bids that put an ad at the top of the page: an estimate, not a price list. My guide to {{< a key="google-ads-small-business" >}}Google Ads for small business{{< /a >}} covers the rest of that research.
 
@@ -70,22 +70,22 @@ These are round numbers to show the arithmetic, not a benchmark. Use your own.
 
 ### Cold email: you pay for the set-up
 
-Cold email has no auction. Its costs sit in the set-up, and most of them stay the same each month, whatever you send.
+Cold email has no auction. Its costs sit in the set-up, and most of them stay the same each month, however much you send within your plan's limits.
 
 | Item | What it is for | What it costs |
 |---|---|---|
 | Secondary domains | Sending without putting your main domain at risk | A yearly fee per domain |
 | Mailboxes | A few addresses on each domain | A monthly subscription per mailbox |
-| Sending tool | Warm-up, scheduling, follow-ups | Instantly starts at $47 (about £35) a month |
+| Sending tool | Warm-up, scheduling, follow-ups | About £35 ($47) a month for Instantly's Growth plan, billed monthly |
 | Lead data | The businesses you will write to | About €0.003 per lead with Outscraper (my figure) |
-| Verification | Removing dead addresses before they bounce | About £60 ($79) on AppSumo for 100,000 checks plus 500 a day with Reoon (my figure) |
+| Verification | Removing dead addresses before they bounce | About £60 ($79), paid once on AppSumo, for 100,000 checks plus 500 a day with Reoon (my figure at the time) |
 | Time | Writing, sending, answering | Yours, or a provider's |
 
-The tool price is Instantly's at the time of writing (October 2026), billed in US dollars, so the pound figure moves with the exchange rate; [Instantly's pricing page](https://instantly.ai/pricing) lists the plans and their limits. The data and verification figures are mine, from the way I use those tools.
+The tool price is Instantly's Growth plan at the time of writing (October 2026), billed in US dollars, so the pound figure moves with the exchange rate. It covers up to 5,000 emails a month, and [Instantly's pricing page](https://instantly.ai/pricing) lists the bigger plans and their limits.
 
-The data is the cheap part. At my figures, Outscraper costs about €0.003 per lead, which works out at about €0.006 per lead that passes verification: under a penny either way. It only finds businesses that have a Google listing, though, so if your buyers have none, you will need another source. My {{< a key="google-maps-scraper-outscraper" >}}Google Maps scraper tutorial{{< /a >}} shows how I build a list with it.
+The data is the cheap part. By my figures, Outscraper costs about €0.003 per lead, which works out at about €0.006 per lead that passes verification: under a penny either way. It only finds businesses that have a Google listing, though, so if your buyers have none, you will need another source. My {{< a key="google-maps-scraper-outscraper" >}}Google Maps scraper tutorial{{< /a >}} shows how I build a list with it.
 
-What sets cold email apart is the shape of the cost. Once the domains, mailboxes and tool are paid for, writing to 500 more businesses costs almost nothing more, while 500 more clicks cost 500 times the click price. Divide a month's set-up cost by the replies and calls it brought, and you have a cost per conversation to set against the cost per enquiry above.
+What sets cold email apart is the shape of the cost. Once the domains, mailboxes and tool are paid for, writing to 500 more businesses costs a few pounds of verified data by my figures, as long as you stay within your plan's sending limits, while 500 more clicks cost 500 times the click price. Divide what the whole set-up costs in a month by the replies and calls it brought, and you have a cost per conversation to set against the cost per enquiry above.
 
 {{< callout type="tip" >}}**Compare the cost per client, not per click or per email.** Over the same period, add up what each channel cost and count the clients it signed. A £100 enquiry from someone ready to buy can beat a cheap conversation that never turns into work, and the other way round.{{< /callout >}}
 
@@ -105,9 +105,9 @@ PPC buys intent. A search ad answers someone who has just typed their problem, w
 
 Cold email buys fit. You choose every recipient: their trade, their area, the size of their projects. They were not looking, so the email has to earn its place in three lines. When it does, the conversation starts with someone you wanted to work with.
 
-The campaigns I run for Pilotech, an air conditioning installer near Paris, show what that looks like. They wrote to three audiences: Paris restaurants, Paris offices and shops, and architects, who were the main focus and the ones who called most. Most of those architects worked alone on big projects, such as a hotel with 16 air conditioning units to install; others ran architecture firms. Over a year, the campaigns brought Pilotech 15 new clients.
+The campaigns I run for Pilotech, an air conditioning installer near Paris, show what that looks like. They targeted three audiences: Paris restaurants, Paris offices and shops, and architects, who were the main focus. Most of those architects worked alone on big projects, such as a hotel with 16 air conditioning units to install; others ran architecture firms. Over a year, the campaigns brought Pilotech 15 new clients.
 
-The surprise was how they answered: by phone. A call is quicker than writing back, it does not sink under the other emails, and people like talking to a real person. Every email, in plain text, carried the phone number and an invitation to look at the catalogue on the website, with no link. The whole story is in my {{< a key="architects-cold-email-case-study" >}}cold email case study{{< /a >}}, and the project is on the {{< a page="/projects/pilotech-teknopoint" >}}Pilotech Teknopoint page{{< /a >}}.
+Many prospects picked up the phone instead of replying, and the architects called most. My explanation: a call is quicker than writing back, it does not sink under the other emails, and people like talking to a real person. Every email, in plain text, carried the phone number and an invitation to look at the catalogue on the website, with no link. The whole story is in my {{< a key="architects-cold-email-case-study" >}}cold email case study{{< /a >}}, and the project is on the {{< a page="/projects/pilotech-teknopoint" >}}Pilotech Teknopoint page{{< /a >}}.
 
 ## The rules: ad policies vs cold email law
 
@@ -115,7 +115,7 @@ PPC's rules are Google's advertising policies. Every ad is reviewed before it ru
 
 Cold email's rules come from the law, and the first objection I hear is that cold emailing is illegal. For B2B, it is not, under conditions:
 
-- **In the UK**, PECR lets you send marketing emails to limited companies, LLPs and public bodies without prior consent. Sole traders and partnerships outside Scotland count as individuals, so they need consent. Every email must say who it comes from and give a valid address to opt out, and UK GDPR still applies to a named work address. The [ICO's direct marketing guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/) has the detail.
+- **In the UK**, PECR (the Privacy and Electronic Communications Regulations) lets you send marketing emails to limited companies, LLPs and other corporate bodies without prior consent. Sole traders and partnerships outside Scotland count as individuals, so the consumer rule below applies to them, and when an address does not show which kind of business it belongs to, the ICO says to treat it as an individual's. Every email must say who it comes from and give a valid address to opt out, and UK GDPR still applies to a named work address. The [ICO's guidance on business-to-business marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) has the detail.
 - **In France**, the CNIL allows email prospecting of professionals without prior consent when the message relates to their job, as long as they were told their address could be used this way and can object simply and for free. Every email names the sender and offers a simple way to unsubscribe.
 - **Consumers are off limits** in both countries unless they have agreed, or are existing customers buying something similar. That is why cold email is a B2B channel, and why PPC stays the tool for selling to the public.
 
@@ -126,7 +126,7 @@ Cold email's rules come from the law, and the first objection I hear is that col
 I prefer cold email for B2B, but there are businesses for which I would start with ads:
 
 - **People already search for what you sell**, in words you can predict and in your area: "office cleaning quote", "commercial boiler repair". The demand exists; you only need to be in front of it.
-- **You sell to consumers or sole traders**, whom cold email cannot reach without consent.
+- **You sell to consumers** (or, in the UK, to sole traders), whom cold email cannot reach without consent.
 - **You cannot name your buyers in advance**, because anyone could need you tomorrow.
 - **You need enquiries this month** and have no warmed-up mailboxes.
 
@@ -141,19 +141,19 @@ For B2B, **LinkedIn Ads** is the PPC option closest to a cold email list, since 
 - **A few clients pay for the year.** When one signed client is worth a lot, a channel that brings a steady handful is worth building.
 - **Clicks in your niche are expensive, or searches are rare.** Keyword Planner shows you both before you spend.
 
-This is my strongest belief about marketing: for a business that sells to other businesses, cold emailing is the one thing that will bring you to the moon. Your competitors will do it anyway. The only question is whether they write to your future clients before you do.
+It is one of my firmest beliefs about marketing: for a business that sells to other businesses, cold emailing is the one thing that will bring you to the moon. Your competitors will do it anyway. The only question is whether they write to your future clients before you do.
 
 It is not for everyone, though. You need a list you can build, and someone who answers calls and replies quickly: as MLK Leadhunters puts it in its [guide to handling replies](https://mlkleadhunters.com/blog/what-to-do-with-replies/), the campaign is won or lost after the reply.
 
 ## Running PPC and cold email together
 
-Once one channel works, the other can feed it.
+The two channels can feed each other, and ad data is useful even if you never buy an ad.
 
 - **Ad data shows which searches are worth winning.** In Semrush, I look at the keywords advertisers pay for and what each click costs, which shows the searches that work best. Then I double down on those with SEO rather than ads.
 - **Search terms give you your buyers' words.** The search terms report in Google Ads shows which searches triggered your ads, and the phrases that bring enquiries make good first lines for a cold email.
-- **One website serves both.** Ads need a page that answers the search. Cold email prospects often look at your website before they call, which is why my emails invite them to see the catalogue there, without a link.
+- **One website serves both.** Ads need a page that answers the search. Cold email prospects can check your website before they call: my emails invite them to see the catalogue there, without a link.
 
-Add the second channel only when the first runs without you. There is a lot of noise in marketing, that is rather the point of it, and small teams fall into the shiny-object trap easily: a channel you only half run tells you nothing.
+Add the second channel only when the first runs without you. There is a lot of noise in marketing (that is rather the point of it), and small teams fall into the shiny-object trap easily: a channel you only half run tells you nothing.
 
 ## How to choose before you spend
 

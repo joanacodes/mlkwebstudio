@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:24:00+02:00
 category: "marketing"
 article_type: "tutorial"
 keywords: ["how to advertise on LinkedIn", "LinkedIn Ads cost", "LinkedIn advertising cost UK", "LinkedIn Campaign Manager", "LinkedIn Lead Gen Forms", "LinkedIn Insight Tag"]
-summary: "To advertise on LinkedIn, open Campaign Manager, create an ad account linked to your company Page and install the Insight Tag on your site, then build a campaign: one objective, an audience defined by job title, seniority and company, a format, a budget and two or three ads. LinkedIn's minimum is $10 a day, and it suggests about $25 a day for a new advertiser. Spend goes fast, so LinkedIn Ads pay off for B2B offers where one client is worth thousands."
+summary: "To advertise on LinkedIn, open Campaign Manager, create an ad account linked to your company Page and install the Insight Tag, then build a campaign: one objective, an audience defined by job title, seniority and company, a format, a budget and two or three ads. The minimum budget is $10 a day, or the equivalent in pounds, and LinkedIn suggests about $25 a day to start. Spend goes fast, so LinkedIn Ads only pay off when one client is worth thousands of pounds."
 cover: "linkedin-ads-tutorial"
 cover_alt: "A woman checking figures on a laptop, next to a megaphone icon and the words LinkedIn Ads"
 related: ["google-ads-vs-facebook-ads", "ppc-vs-cold-emailing", "linkedin-algorithm-2026", "landing-page-vs-website", "b2b-cold-emailing-guide"]
@@ -22,7 +22,7 @@ faq:
   - q: "Can I run the same LinkedIn campaign in English and in French?"
     a: "Use one ad set per language. LinkedIn targets members by the language of their profile, so set the profile language to English or French in each ad set and write its ads in that language."
   - q: "What is the difference between LinkedIn Ads and Sales Navigator?"
-    a: "Sales Navigator is a paid subscription for finding prospects and contacting them yourself; it is not advertising. LinkedIn Ads are bought in Campaign Manager, where you pay for clicks, impressions or messages sent."
+    a: "Sales Navigator is a paid subscription for finding prospects and contacting them yourself; it is not advertising. LinkedIn Ads are bought in Campaign Manager, where you pay for clicks, impressions, video views or messages sent."
   - q: "Do LinkedIn Ads work for a local business?"
     a: "Only if it sells to other businesses. An accountancy firm or an IT support company can target one city or region on LinkedIn, but a business that sells to households will usually get more from its Google Business Profile, local SEO or Google Ads."
 ---
@@ -47,10 +47,10 @@ For consumer offers, Meta or Google usually fits better, as my comparison of {{<
 
 ## How much LinkedIn Ads cost in 2026
 
-There is no price list: LinkedIn sells ads through an auction, and you pay per click, per thousand impressions or, for message ads, per message sent. It does publish minimums on its [budget best-practice page](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget), at the time of writing (October 2026):
+There is no price list: LinkedIn sells ads through an auction, and you pay per click, per thousand impressions, per view for video ads or, for message ads, per message sent. It does publish minimums on its [budget best-practice page](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget), at the time of writing (October 2026):
 
 - **$10 a day** minimum daily budget, for any ad format, or the equivalent in your account's currency;
-- **$100** minimum for a lifetime budget, then adjusted to $10 times the number of days scheduled;
+- **$100** minimum for the lifetime budget of a new campaign, which LinkedIn then adjusts to $10 times the number of days scheduled;
 - about **$25 a day** is what LinkedIn suggests for a new advertiser.
 
 Those are floors, not a plan. Thirty days at $25 is $750 before you know whether anything works, and LinkedIn's help on [campaign and ad set budgets](https://www.linkedin.com/help/linkedin/answer/a422101) notes that daily spend can run up to 50% above the daily figure you entered.
@@ -61,7 +61,7 @@ The useful number is what one lead is worth to you:
 2. The share of qualified leads that become clients: say one in five.
 3. The most you can pay per lead: £6,000 ÷ 5 = £1,200. Aim well below it: your time and margin cost money too.
 
-If the same sum gives you £40 a lead, LinkedIn is unlikely to pay for itself, and my comparison of {{< a key="ppc-vs-cold-emailing" >}}PPC vs cold email{{< /a >}} shows other ways to reach the same buyers.
+If the same sum gives you a ceiling of £40 a lead, LinkedIn is unlikely to pay for itself, and my comparison of {{< a key="ppc-vs-cold-emailing" >}}PPC vs cold email{{< /a >}} shows other ways to reach the same buyers.
 
 ## How to advertise on LinkedIn: what you need before you start
 
@@ -71,7 +71,7 @@ If the same sum gives you £40 a lead, LinkedIn is unlikely to pay for itself, a
 - Access to your website's code or tag manager, for the Insight Tag.
 - A payment card and your billing details.
 
-The landing page matters more than the ad: a finance director who clicks will judge your business on it in seconds. I want my clients' websites to look serious enough to be taken seriously, which also cuts down the haggling later. I also use Microsoft Clarity to see what makes visitors leave; my {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity tutorial{{< /a >}} shows how to set it up before the paid clicks arrive.
+The landing page matters more than the ad: a finance director who clicks will judge your business on it in seconds. I want my clients' websites to look good enough that their prospects take them seriously, which also cuts down the haggling later. I also use Microsoft Clarity to see what makes visitors leave, and it is worth installing before the paid clicks arrive.
 
 Last, the vocabulary: Campaign Manager organises ads in three levels. A **campaign** holds one or more **ad sets**, each with its own audience, budget and schedule, and each ad set holds the **ads**. Older guides call the first two levels campaign groups and campaigns.
 
@@ -80,7 +80,7 @@ Last, the vocabulary: Campaign Manager organises ads in three levels. A **campai
 Campaign Manager is LinkedIn's tool for creating, paying for and measuring ads:
 
 1. Open Campaign Manager from **Advertise** in LinkedIn's **For Business** menu.
-2. Create an ad account: give it a name, choose its currency and link your company's LinkedIn Page. The currency cannot be changed later, so pick the one you are invoiced in (pounds for most UK businesses).
+2. Create an ad account: give it a name, choose its currency and link your company's LinkedIn Page. The currency cannot be changed later, so choose the one your business keeps its accounts in: pounds for most UK businesses.
 3. Add your payment card and billing details.
 4. If someone else runs the ads, add them as a user instead of sharing your password.
 
@@ -91,7 +91,7 @@ Campaign Manager is LinkedIn's tool for creating, paying for and measuring ads:
 The **Insight Tag** is a short piece of LinkedIn JavaScript that loads on every page of your site. It counts conversions (a form sent, a call booked), builds retargeting audiences from your visitors and shows, in aggregate, the job titles and companies of the people who visit.
 
 1. In Campaign Manager, open the Insight Tag page and copy the code, or note your partner ID if a tag manager asks for it.
-2. Add it to your site-wide header so it loads on every page: code injection on Squarespace, a header plugin on WordPress, or a tag in Google Tag Manager.
+2. Add it to code that loads on every page of your site: code injection on Squarespace, a header and footer plugin on WordPress, or a tag in Google Tag Manager.
 3. Visit your site, then check in Campaign Manager that the tag receives signals.
 
 {{< screenshot id="linkedin-ads-tutorial-02" alt="The Insight Tag page of Campaign Manager with the tag code and its status" >}}
@@ -115,7 +115,7 @@ When you create a campaign, Campaign Manager asks for the objective first; it de
 | Conversions | Lead generation | Contact details via a form on LinkedIn |
 | Conversions | Website conversions | Actions on your site, counted by the Insight Tag |
 
-Ignore the recruitment objectives unless you are hiring.
+Ignore the recruitment objectives, such as Job applicants, unless you are hiring.
 
 For a first campaign meant to bring enquiries, I would choose **Lead generation**: the form opens inside LinkedIn, prefilled from the member's profile, so nobody leaves the app or types their details. Choose Website conversions if your landing page already converts well.
 
@@ -125,7 +125,7 @@ For a first campaign meant to bring enquiries, I would choose **Lead generation*
 
 Targeting is what you pay LinkedIn for. Build the audience in layers:
 
-1. **Location**: where your buyers are, such as Greater London, the whole of the UK or the Paris region.
+1. **Location**, which is required: where your buyers are, such as Greater London, the whole of the UK or the Paris region.
 2. **Job experience**: job titles for precision (architect, facilities manager), or a job function combined with a seniority level (operations, director) for a wider audience.
 3. **Company**: company size, in LinkedIn's bands such as 11-50 or 51-200 employees, industry, or a list of named companies.
 4. **Skills**, only if the first layers still leave you too broad.
@@ -148,7 +148,7 @@ Matched Audiences are built from your own data rather than from LinkedIn profile
 
 Each audience needs at least 300 matched members before LinkedIn uses it, so a site with modest traffic takes a while to fill one. Upload only contacts you have the right to use this way, such as clients or people who gave you their details, and mention it in your privacy notice: the UK GDPR and the GDPR apply to these files.
 
-LinkedIn retired lookalike audiences on 29 February 2024. Their replacement, **predictive audiences**, uses a source such as your Lead Gen Form submissions or a contact list to find members likely to act the same way: a tool for your second campaign, once you have data.
+LinkedIn retired lookalike audiences on 29 February 2024 and now points advertisers to **predictive audiences**, which start from your own data, such as Lead Gen Form submissions or tracked conversions, to find members likely to act the same way: a tool for your second campaign, once you have data.
 
 {{< screenshot id="linkedin-ads-tutorial-06" alt="Audience creation in Campaign Manager with the options for website visitors, a contact list and a company list" >}}
 
@@ -170,8 +170,6 @@ Under placement, untick **LinkedIn Audience Network** for a first test: it shows
 
 ## Step 7: set the budget, schedule and bidding
 
-This step decides how fast LinkedIn spends your money.
-
 1. **Budget**: a daily budget (at least $10, or the equivalent in your currency), a lifetime budget (at least $100), or both. Decide first the total you are prepared to spend on the test, then set the budget from it.
 2. **Schedule**: give every test an end date. An ad set with a daily budget and no end date keeps spending until you stop it.
 3. **Bidding**: **Maximum delivery** bids automatically to get as many results as possible from the budget; **Cost cap** lets you set the average cost per result you accept; **Manual bidding** lets you set the bid yourself. Start with Maximum delivery, as LinkedIn suggests, and move to a cost cap once you know what a lead costs you.
@@ -186,7 +184,7 @@ A campaign with several ad sets can also have a total budget, shared between the
 
 Write each ad for one role and one problem, with a separate ad set per role.
 
-What I learned from cold emailing architects for a client applies here: busy decision-makers respond to short, specific messages and act through whatever is quickest. The architects were the ones who called most, using the phone number in the email rather than replying. On LinkedIn, the quickest route is a form that fills itself in.
+What I learned from {{< a key="architects-cold-email-case-study" >}}cold emailing architects for a client{{< /a >}} applies here: busy decision-makers respond to short, specific messages and act through whatever is quickest. The architects were the ones who called most, using the phone number in the email rather than replying. On LinkedIn, the quickest route is a form that fills itself in.
 
 Give each ad set two or three ads that differ in one thing, the image or the first line, to see which one works. Put the point in the first sentence: on a phone, LinkedIn shows only the start of the text.
 
@@ -223,7 +221,7 @@ Before you launch, check that you have:
 
 - a landing page ready, with Microsoft Clarity installed;
 - the Insight Tag behind your cookie banner, and one conversion set up;
-- one objective, and one audience of 300+ members per ad set, with exclusions;
+- one objective, and for each ad set an audience well above the 300-member minimum, with exclusions;
 - Audience expansion and Audience Network set on purpose;
 - a test budget you can afford to lose, and an end date;
 - two or three ads per ad set, and a short Lead Gen Form;
