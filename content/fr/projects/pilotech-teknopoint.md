@@ -2,7 +2,7 @@
 title: "Pilotech Teknopoint"
 translationKey: "projects/pilotech-teknopoint"
 seo_title: "Pilotech Teknopoint : site, SEO et cold email"
-description: "Pilotech Teknopoint : une page par gamme de climatisation sans unité extérieure, un site 1er ou 2e sur Google et du cold email vers les architectes."
+description: "Pilotech Teknopoint : une page par gamme de climatisation sans unité extérieure, un site 1er ou 2e sur Google et du cold email vers les professionnels et les architectes."
 weight: 1
 client: "Pilotech"
 sector: "Climatisation invisible, Paris et Île-de-France"
@@ -25,10 +25,10 @@ Ceux qui en ont besoin la cherchent avec leurs mots : climatisation sans unité
 
 Chaque gamme Teknopoint a sa page : ELFO, IDRA NEXT, IDRA NEXT RING, IDRA ECO, MOKA et PICCOLO, en monosplit et en multisplit quand les deux existent. Les pages montrent ce que chaque gamme laisse voir depuis la rue, de deux petites grilles pour ELFO à rien pour IDRA NEXT, et leurs titres comme leurs adresses reprennent les mots tapés dans Google. Le blog, travaillé sur les mêmes recherches, répond aux questions que l’on se pose avant d’acheter, par exemple comment camoufler sa climatisation.
 
-Pour les chantiers professionnels, MLK Leadhunters, notre activité cold email, a mis en place des adresses d’envoi dédiées et écrit une courte séquence pour les architectes, parisiens pour la plupart, qui prescrivent la climatisation d’hôtels, de commerces et de bureaux : trois emails courts en texte brut, sans lien, avec une invitation à appeler et à consulter le catalogue sur le site. Des emails signés par le fondateur, avec son numéro de téléphone dans le message.
+Pour les professionnels, MLK Leadhunters, notre activité cold email, a mis en place des adresses d’envoi dédiées et écrit de courtes séquences pour trois publics : les restaurants, commerces et bureaux parisiens, et les architectes qui prescrivent la climatisation pour leurs clients. Trois emails courts en texte brut au maximum, sans lien, avec une invitation à appeler et à consulter le catalogue sur le site, autour d’une seule offre : une visite technique gratuite et un devis ferme, pour une installation invisible depuis la rue. Des emails signés par le fondateur, avec son numéro de téléphone dans le message.
 
 ## Le résultat
 
 Pilotech Teknopoint est aujourd’hui **1er ou 2e sur Google**, et le site fait le reste : qui cherche une climatisation sans unité extérieure y trouve la gamme adaptée à son immeuble et peut demander un devis.
 
-Les emails ont aussi produit un effet imprévu : beaucoup d’architectes ont appelé au lieu de répondre. Un appel trouve plus facilement sa place dans une journée chargée qu’une réponse écrite ; la séquence a donc rendu l’appel encore plus simple, et les réponses écrites arrivaient directement chez Pilotech, qui y répondait depuis sa propre boîte.
+Les emails ont aussi produit un effet imprévu : beaucoup de prospects, surtout les architectes, ont appelé au lieu de répondre. Un appel trouve plus facilement sa place dans une journée chargée qu’une réponse écrite ; les séquences ont donc rendu l’appel encore plus simple, et les réponses écrites arrivaient directement chez le fondateur de Pilotech, qui y répondait depuis sa propre boîte.
