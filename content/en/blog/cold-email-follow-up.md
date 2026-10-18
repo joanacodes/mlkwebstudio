@@ -1,7 +1,7 @@
 ---
 title: "Cold email follow-up: why three emails are enough and the third one works"
 seo_title: "Cold email follow-up: how many, when and what to write"
-description: "Cold email follow-up made simple: why I stop at three plain-text emails, how long to wait, what to write in each, and why the third one still gets replies."
+description: "Cold email follow-up: why I stop at three plain-text emails, how many days to wait, what to write in each (two templates) and why the third still gets replies."
 slug: "cold-email-follow-up"
 translationKey: "cold-email-follow-up"
 date: 2026-10-17T08:41:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:41:00+02:00
 category: "cold-emailing"
 article_type: "guide"
 keywords: ["cold email follow up", "cold email follow-up template", "how many follow-up emails", "follow-up email after no response", "cold email sequence"]
-summary: "Send two follow-ups after your first cold email, three emails in all, then stop. In my campaigns, the third email still brings positive replies from people who were busy or forgot the first two, while every email beyond it mostly adds the risk of annoyance and spam reports. Space them a few working days apart, give each one a new reason, keep a phone number in every email, and stop as soon as someone replies, calls or opts out."
+summary: "Send two follow-ups after your first cold email, three emails in all, then stop: beyond that, each extra email mostly adds the risk of annoyance and spam reports. In my campaigns, the third email still brings positive replies from people who were busy or forgot to answer the first two. Space the emails a few working days apart, give each one a new reason, keep a phone number in every email, and stop as soon as someone replies, calls or opts out."
 cover: "cold-email-follow-up"
 cover_alt: "A steaming mug beside a laptop, a flow diagram of connected steps and the words Email #1 → #3"
 related: ["cold-email-examples", "architects-cold-email-case-study", "instantly-campaign-setup", "cold-calling-vs-cold-emailing", "plain-text-cold-emails"]
@@ -25,7 +25,7 @@ faq:
     a: "Stop the sequence, thank them and ask when would suit them. Note the date and write once, on that date, with a two-line reminder of the offer. A 'not now' is not a no, but it is not a reason to keep the follow-ups running either."
 ---
 
-Most cold emails that go unanswered were never refused. They arrived on a busy morning, slid under twenty other messages and were forgotten by lunchtime. A cold email follow-up gives the same offer a second, then a third chance to arrive at a better moment.
+Many cold emails that go unanswered were never refused. They arrived on a busy morning, slid under twenty other messages and were forgotten by lunchtime. A cold email follow-up gives the same offer a second, then a third chance to arrive at a better moment.
 
 My rule is three emails at most: the first email and two follow-ups, all in plain text, with a phone number in each. In the campaigns I run for clients, such as {{< a page="/projects/pilotech-teknopoint" >}}Pilotech's{{< /a >}}, the third email still brings positive replies, from people who were busy or simply forgot to answer the first two.
 
@@ -37,15 +37,15 @@ Silence after a first email is not an answer. Some of the people you wrote to ar
 
 The people you write to run businesses. Your email competes with clients, suppliers, staff and invoices, and it is the one message in their inbox that they never asked for. Putting it off costs them nothing, so it is the first thing they put off.
 
-A follow-up is not pressure. It is the same short message, given another chance to arrive on a quieter day. Without follow-ups, you only ever reach the people who happened to have a free minute on the day you pressed send.
+A follow-up is not pressure, as long as it stays short and polite. Without follow-ups, you only ever reach the people who happened to have a free minute on the day you pressed send.
 
 ## Why three emails are enough
 
-I stop at three: one first email and two follow-ups. Fewer, and you lose the busy people. More, and the sequence starts working against you, for three reasons.
+I stop at three: one first email and two follow-ups, the low end of the three or four steps Instantly's own help suggests for most cold outreach. Fewer, and you lose the busy people. More, and the sequence starts working against you, for three reasons.
 
 ### More emails, more spam reports
 
-Someone who has ignored three short emails is unlikely to welcome a fourth, and more likely to click **Report spam**. Gmail's [email sender guidelines](https://support.google.com/mail/answer/81126?hl=en) ask senders to keep the spam rate shown in Postmaster Tools below 0.1% and never to reach 0.3%: under one report per thousand emails, and never three. Those reports weigh on the reputation of the domain you send from, and that reputation decides where your next first email lands, including the one to a prospect who would have said yes.
+Someone who has ignored three short emails is unlikely to welcome a fourth, and more likely to click **Report spam**. Gmail's [email sender guidelines](https://support.google.com/mail/answer/81126?hl=en) ask senders to keep the spam rate shown in Postmaster Tools below 0.1% and never to reach 0.3%: fewer than one report per thousand emails, and never three or more. Those reports weigh on the reputation of the domain you send from, and that reputation decides where your next first email lands, including the one to a prospect who would have said yes.
 
 ### More emails, fewer new contacts
 
@@ -79,15 +79,15 @@ A few rules matter more than the exact number of days:
 
 - **Send on working days, in your prospects' working hours.** Set the sending window and the time zone in your tool's schedule to theirs, not yours.
 - **Leave a longer gap before the last email.** The second email catches people who missed the first; the third catches people who had a hard week.
-- **Respect out-of-office replies.** If someone is away until the 28th, their next email should arrive after the 28th, not in a full inbox they will clear in one go. Check whether your tool treats an automatic reply as a reply.
+- **Respect out-of-office replies.** If someone is away until the 28th, your next email to them should arrive after the 28th, not in a full inbox they will clear in one go. Check whether your tool treats an automatic reply as a reply.
 - **Mind the holidays.** A sequence started just before Christmas or a bank holiday weekend lands in inboxes nobody is reading.
 - **Do not chase faster because the list is long.** If the volume worries you, add new contacts more slowly.
 
 Your sending tool sets the gap step by step; I build a full sequence in my {{< a key="instantly-campaign-setup" >}}Instantly campaign setup tutorial{{< /a >}}.
 
-## What to write in each follow-up
+## What to write in each follow-up: two templates
 
-Each follow-up is shorter than the email before it, adds one new thing and offers the same way to reach you. My cold emails are plain text, with no links, no images and no HTML, and the follow-ups obey the same rule; I explain why in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. Send the follow-ups in the same thread as the first email, so the prospect sees what you are following up on without searching.
+Each follow-up is shorter than the email before it, adds one new thing, offers the same way to reach you and keeps a one-line opt-out. My cold emails are plain text, with no links, no images and no HTML, and the follow-ups obey the same rule; I explain why in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. Send the follow-ups in the same thread as the first email, so the prospect sees what you are following up on without searching.
 
 ### The first follow-up: one new reason
 
