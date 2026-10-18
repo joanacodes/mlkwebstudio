@@ -1,7 +1,7 @@
 ---
 title: "Site vitrine ou landing page : lequel choisir pour votre activité ?"
 seo_title: "Site vitrine ou landing page : lequel choisir ?"
-description: "Site vitrine ou landing page : ce que fait chacun, lequel se positionne sur Google, lequel choisir pour Google Ads ou le cold emailing, et à quel prix."
+description: "Site vitrine ou landing page : lequel se positionne sur Google, lequel choisir pour Google Ads ou le cold emailing, à quel prix, et pourquoi prévoir les deux."
 slug: "site-vitrine-ou-landing-page"
 translationKey: "landing-page-vs-website"
 date: 2026-10-17T08:15:00+02:00
@@ -51,7 +51,7 @@ Une précision de vocabulaire : une longue page d’accueil qui présente toute
 
 Une landing page fonctionne parce qu’elle supprime les choix. Le visiteur arrive avec un besoin, lit une offre et n’a qu’une chose à faire : appeler, remplir un court formulaire ou réserver un créneau. Rien sur la page ne l’envoie ailleurs.
 
-C’est donc le bon outil quand vous maîtrisez la provenance des visiteurs. Prenez un installateur de climatisation qui lance des annonces au début de l’été pour une visite technique gratuite. L’annonce promet la visite ; la page reprend cette promesse dans son titre, explique comment se déroule la visite, montre quelques installations et demande un numéro de téléphone. Personne n’a rien à chercher après avoir cliqué.
+C’est donc le bon outil quand vous maîtrisez la provenance des visiteurs. Prenez un chauffagiste qui lance des annonces en septembre pour l’entretien annuel de chaudière à prix fixe. L’annonce promet le prix ; la page le reprend dans son titre, détaille ce que comprend l’entretien, montre quelques avis et demande un numéro de téléphone. Personne n’a rien à chercher après avoir cliqué.
 
 Une landing page se mesure et se modifie facilement. Avec un seul objectif, vous voyez tout de suite si la campagne apporte des demandes, et vous pouvez réécrire un titre ou tester une seconde version sans toucher au reste du site.
 
@@ -73,41 +73,41 @@ Un site vitrine travaille aussi pour tous vos canaux à la fois, et il continue 
 
 Google affiche des pages dans ses résultats, pas des sites entiers, et une page se positionne sur les recherches auxquelles elle répond le mieux. Une landing page, qui ne compte qu’une page, vise une recherche principale. Un site vitrine donne à chaque prestation sa propre page, et chaque page vise ses propres recherches : plus vous avez de pages qui répondent à de vraies recherches, plus vous avez de portes d’entrée.
 
-Être précis compte davantage qu’être grand. Je travaille depuis deux ans avec Pilotech, installateur de climatisation en Île-de-France. Parmi les sites que j’ai construits pour son fondateur, l’un proposait trop de services et n’a pas fonctionné du tout ; celui qui se positionne vend des prestations très précises. Sur {{< a page="/projects/pilotech-teknopoint" >}}le site Teknopoint{{< /a >}}, chaque gamme de climatisation sans unité extérieure a sa propre page, et le site se classe 1er ou 2e sur Google. Je raconte toute l’histoire dans mon étude de cas sur le choix d’avoir {{< a key="multiple-websites-one-business" >}}plusieurs sites internet pour une entreprise{{< /a >}}.
+Mieux vaut un site précis qu’un site qui fait tout. Je travaille depuis deux ans avec Pilotech, installateur de climatisation en Île-de-France. Parmi les sites que j’ai construits pour son fondateur, l’un proposait trop de services et n’a pas fonctionné du tout ; celui qui se positionne vend des prestations très précises. Sur {{< a page="/projects/pilotech-teknopoint" >}}le site Teknopoint{{< /a >}}, chaque gamme de climatisation sans unité extérieure a sa propre page, et le site se classe 1er ou 2e sur Google. Je raconte toute l’histoire dans mon étude de cas sur le choix d’avoir {{< a key="multiple-websites-one-business" >}}plusieurs sites internet pour une entreprise{{< /a >}}.
 
-Le piège, c’est la page de campagne qui recopie une page de prestation. Quand deux pages disent la même chose, Google en choisit en général une seule à afficher, et pas forcément celle que vous vouliez. Si votre landing page reprend une page de prestation pour une campagne d’annonces, retirez-la des résultats avec une balise noindex, comme l’explique la [documentation de Google sur le noindex](https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=fr). Sur Squarespace, une page placée dans la section des pages non liées (**Not Linked** dans l’interface en anglais) reste hors du menu, et ses paramètres SEO proposent une option pour la masquer des résultats de recherche.
+Le piège, c’est la page de campagne qui recopie une page de prestation. Quand deux pages disent la même chose, Google en choisit en général une seule à afficher, et pas forcément celle que vous vouliez. Si votre landing page reprend une page de prestation pour une campagne d’annonces, retirez-la des résultats avec une balise noindex, comme l’explique la [documentation de Google sur le noindex](https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=fr). Ne la bloquez pas en plus dans le fichier robots.txt : Google doit pouvoir l’explorer pour voir la balise. Ne laissez une landing page visible dans Google que si elle répond à une recherche qu’aucune autre page de votre site ne couvre.
 
-Ne laissez une landing page visible dans Google que si elle répond à une recherche qu’aucune autre page de votre site ne couvre.
+Sur Squarespace, ranger une page dans la section des pages non liées (**Not linked** dans l’interface en anglais) la retire seulement du menu : la page reste publique, et Google peut toujours l’indexer. Pour ajouter la balise noindex, ouvrez les paramètres de la page, onglet **SEO**, et activez l’option qui la masque des résultats de recherche (**Hide page from search results** en anglais).
 
 ## Lequel choisir pour Google Ads ?
 
 Chaque clic sur une annonce Google Ads arrive sur une page, et Google évalue cette page. Chaque mot-clé reçoit un niveau de qualité noté de 1 à 10, qui repose sur trois éléments : le taux de clics attendu, la pertinence de l’annonce et l’expérience sur la page de destination, c’est-à-dire, selon la [page d’aide de Google sur le niveau de qualité](https://support.google.com/google-ads/answer/6167118?hl=fr), la pertinence et l’utilité de votre page pour les personnes qui cliquent.
 
-À mon avis, Google Ads n’est pas si compliqué, mais il récompense la recherche : ce que votre cible tape dans Google vous dit où être visible et vers quelle page l’envoyer. Mon guide {{< a key="google-ads-small-business" >}}Google Ads pour débutant{{< /a >}} détaille ces recherches à faire avant de dépenser le moindre euro.
+À mon avis, Google Ads n’est pas si compliqué, mais il demande un vrai travail de recherche : ce que votre cible tape dans Google vous dit où être visible et vers quelle page l’envoyer. Mon guide {{< a key="google-ads-small-business" >}}Google Ads pour débutant{{< /a >}} détaille ces recherches à faire avant de dépenser le moindre euro.
 
-Vous n’avez pas toujours besoin d’une nouvelle page. **Une page de prestation précise peut déjà faire une bonne landing page**, si elle répond à la recherche et propose un moyen clair de vous contacter. Créez une landing page dédiée quand :
+Vous n’avez pas toujours besoin d’une nouvelle page. **Une page de prestation précise peut déjà faire une bonne landing page** si elle répond à la recherche, affiche l’offre dans son titre et votre numéro en haut, et propose un formulaire court. Créez une landing page dédiée quand :
 
 - la page de prestation couvre plusieurs services, et l’annonce n’en concerne qu’un ;
-- l’annonce met en avant une offre absente du site, comme une visite technique gratuite ou un prix de saison ;
-- l’annonce s’adresse à un public que le site ne vise pas, par exemple des architectes plutôt que des particuliers ;
+- l’annonce met en avant une offre absente du site, comme un entretien à prix fixe ou une remise de saison ;
+- l’annonce s’adresse à un public que le site ne vise pas, par exemple des syndics de copropriété plutôt que des particuliers ;
 - vous voulez tester deux versions de la page sans modifier votre site.
 
-Sur Facebook et Instagram, les gens ne vous cherchaient pas quand ils ont vu l’annonce : la page a donc plus à expliquer. Ces annonces peuvent servir la notoriété comme les ventes, mais il faut prévoir un budget pour les tests A/B avant de savoir ce qui fonctionne, et une page dédiée fait de la page elle-même un élément de plus à tester.
+Sur Facebook et Instagram, les gens ne vous cherchaient pas quand ils ont vu l’annonce : la page a donc plus à expliquer. Ces annonces peuvent servir la notoriété comme les ventes, mais il faut prévoir un budget de tests A/B avant de savoir ce qui fonctionne, et une page dédiée vous permet de tester la page autant que l’annonce.
 
 ## Et pour la prospection par cold emailing ?
 
 Le cold emailing renverse la question. Mes cold emails ne contiennent aucun lien, seulement du texte brut, pour leur donner les meilleures chances d’arriver en boîte de réception. Il n’y a donc aucune landing page vers laquelle envoyer qui que ce soit : l’email donne un numéro de téléphone et invite à consulter le catalogue sur le site, et le prospect appelle ou tape votre nom dans Google.
 
-C’est ainsi qu’ont fonctionné les campagnes de Pilotech. Elles visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et surtout les architectes, la cible principale et ceux qui appelaient le plus. Trois emails en texte brut au maximum, avec le numéro de téléphone dans chacun et aucun lien. Beaucoup de prospects ont appelé au lieu de répondre : un appel va plus vite qu’une réponse écrite, et l’on aime parler à une vraie personne. En un an, les campagnes ont apporté 15 nouveaux clients à Pilotech, et aujourd’hui, les sites, le référencement et le cold emailing lui amènent ensemble une dizaine de prospects par jour.
+C’est ainsi qu’ont fonctionné les campagnes de Pilotech. Elles visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et surtout les architectes, la cible principale et ceux qui appelaient le plus. Trois emails en texte brut au maximum, avec un numéro à appeler et aucun lien. Beaucoup de prospects ont appelé au lieu de répondre : un appel va plus vite qu’une réponse écrite, et l’on aime parler à une vraie personne. En un an, les campagnes ont apporté 15 nouveaux clients à Pilotech, et aujourd’hui, les sites, le référencement et le cold emailing lui amènent ensemble une dizaine de prospects par jour.
 
 Pour le cold emailing, vous n’avez donc pas besoin d’une landing page : **il vous faut un site vitrine qui tient la route quand un prospect vous cherche**, prêt avant le premier envoi. Mon {{< a key="cold-email-examples" >}}exemple d’email de prospection{{< /a >}} montre le premier message en trois lignes qui renvoie vers votre téléphone et votre site.
 
 ## Combien coûte chacun ?
 
-Une landing page coûte moins cher à créer, puisqu’il s’agit d’une seule page, mais c’est l’endroit où elle vit qui fixe la facture :
+Une landing page coûte moins cher à créer, puisqu’il s’agit d’une seule page, mais c’est l’endroit où elle est hébergée qui fixe la facture :
 
 - Une page ajoutée à votre site coûte le temps de la rédiger et de la mettre en page. Squarespace, par exemple, facture par site et par forfait, pas à la page : une page de plus n’ajoute rien à l’abonnement.
-- Une page sur un outil ou un domaine à part, c’est un second abonnement tant qu’elle tourne, parfois un second nom de domaine, et un endroit de plus à mettre à jour quand votre numéro ou vos tarifs changent.
+- Une page sur un outil ou un domaine à part, c’est un second abonnement tant qu’elle reste en ligne, parfois un second nom de domaine, et un endroit de plus à mettre à jour quand votre numéro ou vos tarifs changent.
 - Un site vitrine, c’est un forfait de création, puis des frais annuels : le domaine, l’abonnement ou l’hébergement, les emails et la maintenance.
 
 Pour un site vitrine réalisé par une agence, le [baromètre de La Fabrique du Net](https://www.lafabriquedunet.fr/agences/pages/agences-site-internet/tarifs) (juillet 2026, 1 312 budgets déclarés par 175 agences) situe la moitié des projets entre 2 000 et 8 000 €, pour une médiane inférieure à 4 000 €. Je n’ai trouvé aucun repère aussi solide pour une landing page seule. Mon guide sur le {{< a key="website-cost" >}}prix d’un site vitrine{{< /a >}} détaille ce qui fait varier un devis.
@@ -123,7 +123,7 @@ Une landing page seule suffit quand :
 - vous voulez tester la demande pour une nouvelle offre avant de payer un site complet ;
 - vous organisez un événement, un lancement ou une offre de saison avec une date de fin ;
 - vous vendez une seule prestation à un seul public, et tous vos visiteurs viennent d’annonces payantes ;
-- il vous faut vite quelque chose à montrer. Les relations presse ne sont pas ma spécialité, mais j’ai déjà réussi à faire parler d’un proche, coach sportif, dans un magazine français, et j’en retiens un conseil simple : soyez concis, et ayez un site ou une page qui montre votre travail. Pas besoin d’abonnés, seulement de quelque chose d’intéressant à raconter.
+- il vous faut vite quelque chose à montrer, à un journaliste par exemple. Les relations presse ne sont pas ma spécialité, mais j’ai déjà réussi à faire parler d’un proche, coach sportif, dans un magazine français, et j’en retiens un conseil simple : soyez concis, et ayez un site ou une page qui montre votre travail. Pas besoin d’abonnés, seulement de quelque chose d’intéressant à raconter.
 
 Il vous faut un site vitrine quand :
 
@@ -133,20 +133,18 @@ Il vous faut un site vitrine quand :
 - vos clients comparent plusieurs prestataires avant d’appeler ;
 - vous voulez que les personnes qui entendent parler de vous par le bouche-à-oreille trouvent quelque chose de solide en tapant votre nom.
 
-{{< callout type="tip" >}}Avant de créer une landing page à part, regardez la page de prestation que vous avez déjà. Avec l’offre dans le titre, le numéro de téléphone en haut et un formulaire court, elle suffit peut-être à votre annonce.{{< /callout >}}
-
 ## Ajouter une landing page à votre site : la checklist
 
 Quand une campagne a vraiment besoin de sa propre page, voici les étapes que je suivrais :
 
 1. Écrivez l’offre, le public et l’action en une phrase chacun. Si l’offre demande deux phrases, il vous faut sans doute deux pages.
 2. Reprenez dans le titre les mots de l’annonce ou de la recherche, pour que le visiteur sache tout de suite qu’il est au bon endroit.
-3. Placez votre numéro de téléphone en haut de la page, cliquable sur mobile. Dans les campagnes de cold emailing que je mène, beaucoup de prospects préfèrent appeler plutôt qu’écrire.
+3. Placez votre numéro de téléphone en haut de la page, cliquable sur mobile : les prospects de Pilotech l’ont montré, beaucoup de gens préfèrent appeler plutôt qu’écrire.
 4. Gardez un formulaire court : seulement ce qu’il faut pour rappeler.
 5. Montrez des preuves près du bouton d’action : avis Google, photos de vrais chantiers, marques ou certifications avec lesquelles vous travaillez.
 6. Retirez le menu principal, mais gardez votre logo et, en pied de page, les liens vers vos mentions légales et votre politique de confidentialité : une page qui collecte des coordonnées en a besoin.
-7. Décidez si Google doit la voir : masquez-la des résultats si elle reprend une page de prestation, et laissez-la visible si elle répond à une recherche qu’aucune autre page ne couvre.
+7. Décidez si Google doit la voir : noindex si elle recopie une page de prestation, visible si elle répond à une recherche qui lui est propre.
 8. Testez-la sur votre propre téléphone, en données mobiles, avant la première annonce.
-9. Mesurez : suivez les appels et les formulaires comme des conversions, et installez Microsoft Clarity, qui est gratuit, pour voir à quel endroit les visiteurs arrêtent de lire. Mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} explique comment l’installer.
+9. Mesurez : suivez les appels et les formulaires comme des conversions, et installez Microsoft Clarity, qui est gratuit, pour voir à quel endroit les visiteurs arrêtent de lire. Pour les visiteurs situés dans l’Union européenne ou au Royaume-Uni, Clarity a besoin du signal de consentement de votre bandeau cookies ; mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} explique comment l’installer.
 
 Si la page reçoit des visites mais aucune demande, regardez la page avant d’augmenter le budget : mon guide pour {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de son site{{< /a >}} montre où les visiteurs décrochent et comment y remédier.
