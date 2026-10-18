@@ -6,7 +6,7 @@ key: "tools"
 short: "Tools"
 icon: "layers"
 weight: 7
-description: "Honest reviews and comparisons of the tools a small business actually uses: Canva, Metricool, YouCanBookMe, Calendly, SemRush, Microsoft Clarity, Reoon and more."
+description: "Honest reviews and comparisons of the tools a small business really uses: Canva, Metricool, YouCanBookMe, Calendly, Semrush, Microsoft Clarity, Reoon."
 lead: "The tools used every day in the studio, what they cost, who they suit and who should avoid them, compared side by side."
 ---
 

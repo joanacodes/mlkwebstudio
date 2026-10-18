@@ -6,7 +6,7 @@ key: "domains"
 short: "Domaines & hébergement"
 icon: "globe"
 weight: 5
-description: "Nom de domaine, DNS, hébergement et email professionnel expliqués, avec des tutoriels pas à pas pour Spaceship, Namecheap, OVH, Hostinger, Infomaniak et o2switch."
+description: "Nom de domaine, DNS, hébergement et email professionnel expliqués, avec des tutos pas à pas pour Spaceship, Namecheap, OVH, Hostinger, Infomaniak et o2switch."
 lead: "Où vit votre nom de domaine, où vit votre site, où vivent vos emails, et comment relier les trois sans rien casser."
 ---
 

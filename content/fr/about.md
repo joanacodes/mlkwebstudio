@@ -5,7 +5,7 @@ slug: "a-propos"
 type: "about"
 kicker: "À propos"
 seo_title: "À propos du studio et des guides"
-description: "Qui écrit les guides de MLK Web Studio : des sites web depuis l’âge de onze ans, un studio fondé en 2021 entre Londres et Paris, SEO, cold emailing et automatisation."
+description: "Qui écrit les guides de MLK Web Studio : des sites web depuis l’âge de onze ans, un studio fondé en 2021 entre Londres et Paris, SEO et cold emailing."
 ---
 
 Chaque guide de ce blog vient du travail avec des clients : des sites conçus et développés, des pages positionnées sur Google, des campagnes de cold emailing qui ont rempli des agendas, des outils internes construits quand un client avait plus de demandes que de temps.

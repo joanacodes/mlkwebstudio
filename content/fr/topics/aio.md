@@ -6,7 +6,7 @@ key: "aio"
 short: "Référencement IA"
 icon: "spark"
 weight: 3
-description: "Comment ChatGPT, Claude, Perplexity et les AI Overviews de Google choisissent les entreprises qu’ils recommandent, et quoi changer sur votre site pour être cité."
+description: "Comment ChatGPT, Claude, Perplexity et les AI Overviews de Google choisissent les entreprises qu’ils recommandent, et que changer sur votre site pour être cité."
 lead: "Vos clients demandent désormais aux assistants IA quel prestataire appeler. Comment ces réponses sont construites, quelles sources elles citent, et comment en faire partie."
 ---
 

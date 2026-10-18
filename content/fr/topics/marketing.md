@@ -6,7 +6,7 @@ key: "marketing"
 short: "Marketing"
 icon: "megaphone"
 weight: 8
-description: "Choisir les canaux qui amènent des clients : SEA ou cold emailing, SEO ou Google Ads, publicités LinkedIn et Meta, relations presse, sans tomber dans le piège des nouveautés."
+description: "Choisir les canaux qui amènent des clients : SEA ou cold emailing, SEO ou Google Ads, LinkedIn et Meta Ads, relations presse, sans céder aux modes."
 lead: "Quel canal pour quel objectif et quel budget, comparés honnêtement : publicité, cold emailing, SEO, relations presse et bouche-à-oreille."
 ---
 

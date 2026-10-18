@@ -6,7 +6,7 @@ key: "seo"
 short: "SEO"
 icon: "search"
 weight: 1
-description: "Le référencement naturel (SEO) expliqué par quelqu’un qui le pratique : recherche de mots-clés, Search Console, SEO local et les corrections qui font sonner le téléphone."
+description: "Le référencement naturel (SEO) expliqué par la pratique : mots-clés, Search Console, SEO local et les corrections qui font sonner le téléphone."
 lead: "Comment Google choisit qui apparaît en premier, et ce que vous pouvez faire dès cette semaine : mots-clés, pages qui répondent aux vraies recherches, SEO local, bases techniques."
 ---
 
