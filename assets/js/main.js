@@ -350,23 +350,23 @@
     }
     document.querySelectorAll('.lang a').forEach(function (a) { a.addEventListener('click', function () { store.set('mlk-lang-choice', a.getAttribute('lang')); }); });
 
-    // Page exit: a barely visible fade before the next page (registered once)
-    if (!reduce && !window.__mlkExit && !window.__mlkPreview) {
+    // Leaving a page: no fade, so the back gesture shows and restores the page as it was (a faded page came back blank).
+    // A menu link still lights up when tapped, while the next page loads. (Registered once.)
+    if (!window.__mlkExit) {
       window.__mlkExit = true;
       document.addEventListener('click', function (e) {
-        var a = e.target.closest('a'); if (!a) { return; }
-        var href = a.getAttribute('href') || '';
-        if (e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target === '_blank' || a.hasAttribute('download')) { return; }
-        if (!href || href.charAt(0) === '#' || /^(mailto|tel):/i.test(href) || (/^https?:/i.test(href) && a.host !== location.host)) { return; }
-        if (href === location.pathname) { return; }
-        if (a.hash && a.pathname === location.pathname && a.search === location.search) { return; }
-        var pg = document.querySelector('.page'); if (!pg) { return; }
-        e.preventDefault();
-        var inMenu = !!a.closest('.menu__links');
-        if (inMenu) { a.classList.add('is-going'); }
-        var wait = inMenu ? 400 : 180;
-        setTimeout(function () { pg.classList.add('is-leaving'); }, inMenu ? 220 : 0);
-        setTimeout(function () { location.href = a.href; }, wait);
+        var a = e.target.closest('.menu__links a');
+        if (a && !e.defaultPrevented && !(a.hash && a.pathname === location.pathname)) { a.classList.add('is-going'); }
+      });
+      // a page restored by the back or forward gesture comes back as it was left: close what was open
+      window.addEventListener('pageshow', function (e) {
+        if (!e.persisted) { return; }
+        document.querySelectorAll('.is-going').forEach(function (a) { a.classList.remove('is-going'); });
+        document.body.classList.remove('tocf-open');
+        var tb = document.querySelector('[data-tocf-toggle]'); if (tb) { tb.setAttribute('aria-expanded', 'false'); }
+        var m = document.getElementById('menu');
+        if (m && m.classList.contains('is-open')) { m.classList.remove('is-open'); document.body.style.overflow = ''; var b = document.querySelector('.nav__burger'); if (b) { b.setAttribute('aria-expanded', 'false'); } }
+        update();
       });
     }
   }

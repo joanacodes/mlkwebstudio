@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{- $topic := partial "blog/topic.html" . -}}
 <article class="post">
+  <figure class="container post-cover">{{ partial "blog/cover.html" (dict "page" . "sizes" "(min-width: 1288px) 1192px, (max-width: 640px) 100vw, calc(100vw - 48px)" "loading" "eager" "priority" true "class" "post-cover__img") }}</figure>
   <header class="container post-head">
     {{ partial "blog/breadcrumbs.html" . }}
     <div class="post-head__meta">
@@ -16,7 +17,6 @@
       <span>{{ .ReadingTime }} {{ i18n "min_read" }}</span>
     </p>
   </header>
-  <figure class="container post-cover">{{ partial "blog/cover.html" (dict "page" . "sizes" "(min-width: 1288px) 1192px, calc(100vw - 48px)" "loading" "eager" "priority" true "class" "post-cover__img") }}</figure>
   <div class="container post-layout">
     {{ partial "blog/sidebar.html" . }}
     <div class="post-main">
