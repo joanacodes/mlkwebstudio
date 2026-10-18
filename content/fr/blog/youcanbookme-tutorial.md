@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:14:00+02:00
 category: "tools"
 article_type: "tutorial"
 keywords: ["prise de rendez-vous en ligne", "prise de rendez-vous en ligne gratuit", "YouCanBookMe tuto", "logiciel de prise de rendez-vous", "agenda de réservation en ligne", "YouCanBookMe gratuit"]
-summary: "L’offre gratuite de YouCanBookMe vous donne une page de réservation reliée à un agenda (Google, Microsoft, Apple ou Fastmail) : assez pour proposer la prise de rendez-vous en ligne sans dix emails pour fixer une date. Connectez l’agenda, réglez horaires, temps de battement et délais, gardez un formulaire court, faites un test, puis partagez le lien ou intégrez la page à votre site. Les limites : une seule page, un bouton « Powered for free » et des rappels listés avec les forfaits payants."
+summary: "Pour la prise de rendez-vous en ligne, l’offre gratuite de YouCanBookMe donne une page de réservation reliée à un agenda (Google, Microsoft, Apple ou Fastmail). Connectez l’agenda, réglez horaires, temps de battement et délais, gardez un formulaire court, faites un test, puis partagez le lien ou intégrez la page à votre site. Limites : une seule page, un bouton « Powered for free » et des rappels que la page de tarifs range dans les forfaits payants."
 cover: "youcanbookme-tutorial"
 cover_alt: "Un homme devant un ordinateur, à côté d’une grille d’agenda aux créneaux réservés, titrée YouCanBookMe"
 related: ["calendly-vs-youcanbookme", "small-business-tools-guide", "squarespace-code-injection", "website-conversion-rate", "automate-lead-follow-up"]
@@ -20,16 +20,16 @@ faq:
   - q: "YouCanBookMe fonctionne-t-il avec Outlook et iCloud ?"
     a: "Oui. Il se connecte aux agendas Microsoft, Outlook compris, et à Apple iCloud, en plus de Google Agenda et de Fastmail. L’offre gratuite connecte un agenda, le forfait Individual deux et Professional six."
   - q: "La page de réservation peut-elle s’afficher en français ?"
-    a: "Oui. YouCanBookMe peut afficher la page de réservation en français. Rédigez aussi en français le titre, la description et les questions du formulaire : ce sont vos propres mots, et aucun outil ne les traduit pour vous. Faites ensuite une réservation test pour relire les emails."
+    a: "Oui. Dans Additional options, puis Language & timezones, choisissez le français, ou laissez la page suivre la langue du navigateur de chaque visiteur ; YouCanBookMe propose plus de 40 langues. Ce réglage ne traduit que les textes de l’outil : rédigez vous-même en français le titre, l’introduction, les questions du formulaire et les emails, puis faites une réservation test pour les relire."
   - q: "Vaut-il mieux une page de réservation ou un formulaire de contact ?"
     a: "Ni l’un ni l’autre : ils ne font pas le même travail. Un formulaire convient aux demandes qui appellent d’abord un devis ou une réponse ; une page de réservation convient à un appel ou une visite qui peut aller directement dans l’agenda. La plupart des sites de petites entreprises gagnent à proposer les deux, à côté du numéro de téléphone."
 ---
 
-La prise de rendez-vous en ligne, c’est une page reliée à votre agenda où vos clients choisissent eux-mêmes un créneau libre : plus d’allers-retours par email, plus de double réservation, et le rendez-vous arrive dans votre agenda avec les coordonnées du client. J’utilise YouCanBookMe pour cela, et son offre gratuite suffit pour commencer. Ce tutoriel vous accompagne de l’inscription jusqu’à la page de réservation sur votre site.
+La prise de rendez-vous en ligne, c’est une page reliée à votre agenda où vos clients choisissent eux-mêmes un créneau libre : fini les allers-retours par email et les doubles réservations, et le rendez-vous s’inscrit dans votre agenda avec les coordonnées du client. J’utilise YouCanBookMe pour cela, et son offre gratuite suffit pour commencer. Ce tutoriel vous accompagne de l’inscription jusqu’à la page de réservation sur votre site.
 
 Je préfère YouCanBookMe à Calendly : il fait tout ce que j’attends de Calendly, l’équipe derrière l’outil est plus petite, on s’y retrouve facilement et il coûte un peu moins cher. Calendly reste un bon outil, comprenez-moi bien, et mon article sur l’{{< a key="calendly-vs-youcanbookme" >}}alternative à Calendly{{< /a >}} détaille les différences. Vous pouvez voir YouCanBookMe à l’œuvre sur la page contact de [MLK Leadhunters](https://mlkleadhunters.com/fr/), la marque sœur du studio pour le cold emailing : les prospects y réservent un appel gratuit de quinze minutes.
 
-Prévoyez une heure environ. Je cite les menus en anglais, tels que les nomme le centre d’aide de YouCanBookMe en octobre 2026 ; si un libellé a bougé, cherchez le plus proche. L’outil fait partie de mes {{< a key="small-business-tools-guide" >}}outils numériques pour TPE{{< /a >}}.
+Prévoyez une à deux heures. Je cite les menus en anglais, tels que les nomme le centre d’aide de YouCanBookMe en octobre 2026 ; si un libellé a bougé, cherchez le plus proche. L’outil fait partie de mes {{< a key="small-business-tools-guide" >}}outils numériques pour TPE{{< /a >}}.
 
 ## Prise de rendez-vous en ligne gratuite : ce que comprend l’offre de YouCanBookMe
 
@@ -40,8 +40,7 @@ Commencez par savoir où s’arrête le « gratuit ». Voici la répartition au 
 | Une page de réservation | Deux pages avec Individual, davantage avec Professional |
 | Un agenda connecté : Google, Microsoft, Apple ou Fastmail | Deux agendas avec Individual, six avec Professional |
 | Les emails de confirmation | Les emails et SMS de rappel |
-| Votre logo et un texte de présentation | Vos couleurs, arrière-plans et pied de page |
-| Un bouton « Powered for free » de YouCanBookMe sur la page et dans les emails | Le retrait de la marque YouCanBookMe |
+| Un bouton « Powered for free » de YouCanBookMe sur la page et dans les emails | Vos propres couleurs, arrière-plans et pied de page, sans la marque YouCanBookMe |
 
 Pour un seul type de rendez-vous et un seul agenda, l’offre gratuite fait l’affaire : un appel découverte, une visite pour devis, une première consultation. L’absence de rappels est la limite que vous sentirez en premier ; l’étape 6 y revient.
 
