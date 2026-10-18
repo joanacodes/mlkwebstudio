@@ -18,9 +18,12 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
 .mark i { font-style: normal; color: #EF571D; font-weight: 500; letter-spacing: 0; }
 .motif { position: absolute; }
 .motif svg { width: 100%; height: 100%; overflow: visible; }
+.motif.fit svg { overflow: hidden; }
 .label { position: absolute; font-weight: 500; letter-spacing: -.035em; line-height: .96; color: #F4F6FA; text-wrap: balance; }
 .label .o { color: #EF571D; }
 .label .b { color: #8EA4FF; }
+.kicker { position: absolute; font-size: 24px; font-weight: 600; letter-spacing: .06em; color: #EF571D; }
+.title { position: absolute; font-weight: 500; letter-spacing: -.025em; line-height: 1.04; color: #F4F6FA; text-wrap: balance; }
 .dot { position: absolute; width: 14px; height: 14px; background: #EF571D; box-shadow: 0 0 0 5px rgba(239,87,29,.2); }
 .mono { font-family: "DejaVu Sans Mono", "Liberation Mono", monospace; }
 </style></head>
@@ -58,7 +61,7 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
   };
   var photo = 'photos/' + (cfg.photo || pick(photos[cfg.category] || ['hero-glass'])) + '.jpg';
   var c = document.getElementById('c');
-  var panelW = Math.round(r(700, 780));
+  var panelW = Math.round(cfg.title ? r(800, 860) : r(700, 780));
   var panelX = 1600 - panelW;
   var ribW = Math.round(r(12, 20));
   // photo cropped from the top-left (keeps the bottom-right corner, where some photos carry a mark, out of frame)
@@ -83,11 +86,54 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
   html += '<div class="mark">MLK<i>/</i>Web Studio</div>';
   html += '<div class="dot" style="left:' + (panelX - 7) + 'px;top:' + Math.round(r(140, 220)) + 'px"></div>';
 
-  // motif, drawn in the panel
+  // motif, drawn in the panel (with a title, it gets the room left above the title)
   var mw = panelW - 120, mh = 380;
-  var M = motifs(cfg.motif || 'blueprint', mw, mh);
-  if (M) { html += '<div class="motif" style="left:' + (panelX + 60) + 'px;top:96px;width:' + mw + 'px;height:' + mh + 'px">' + M + '</div>'; }
+  if (!cfg.title) {
+    var M = motifs(cfg.motif || 'blueprint', mw, mh);
+    if (M) { html += '<div class="motif" style="left:' + (panelX + 60) + 'px;top:96px;width:' + mw + 'px;height:' + mh + 'px">' + M + '</div>'; }
+  }
   c.innerHTML = html;
+
+  if (cfg.title) {
+    // the article's title at the bottom of the panel, its short label above it, the motif in the space left;
+    // measured once the font is loaded, so the fallback font's metrics never decide the layout
+    Promise.all([document.fonts.load('500 64px "IS"', cfg.title), document.fonts.load('600 24px "IS"', cfg.label || 'A')]).then(titled, titled);
+    return;
+  }
+
+  function titled() {
+    var ti = document.createElement('div');
+    ti.className = 'title';
+    // a number stays on the line of the word after it, and a hyphenated word stays on one line
+    ti.innerHTML = cfg.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/(\d) (?=\S)/g, '$1\u00a0')
+      .replace(/\S*\S-\S\S*/g, '<span style="white-space:nowrap">$&</span>');
+    ti.style.left = (panelX + 60) + 'px';
+    ti.style.width = mw + 'px';
+    ti.style.bottom = '72px';
+    c.appendChild(ti);
+    var ts = 96;
+    ti.style.fontSize = ts + 'px';
+    function tlines() { return Math.round(ti.getBoundingClientRect().height / (ts * 1.04)); }
+    while (ts > 40 && (ti.scrollWidth > mw + 2 || tlines() > 5 || ti.getBoundingClientRect().height > 360)) { ts -= 2; ti.style.fontSize = ts + 'px'; }
+    var th = ti.getBoundingClientRect().height;
+    var kk = document.createElement('div');
+    kk.className = 'kicker';
+    kk.textContent = cfg.label || '';
+    kk.style.left = (panelX + 60) + 'px';
+    kk.style.bottom = (72 + th + 22) + 'px';
+    c.appendChild(kk);
+    // the motif is drawn at its usual size, kept inside its box, then shrunk as a whole to the room left above the label
+    var room = 900 - 72 - th - 22 - 30 - 48 - 96;
+    var M2 = motifs(cfg.motif || 'blueprint', mw, mh);
+    if (M2 && room >= 200) {
+      var md = document.createElement('div');
+      md.className = 'motif fit';
+      md.style.cssText = 'left:' + (panelX + 60) + 'px;top:96px;width:' + mw + 'px;height:' + mh + 'px;transform-origin:0 0;transform:scale(' + Math.min(1, room / mh).toFixed(3) + ')';
+      md.innerHTML = M2;
+      c.appendChild(md);
+    }
+    document.body.setAttribute('data-ready', '1');
+  }
 
   // label: bottom of the panel, sized to fit (max 3 lines)
   var lab = document.createElement('div');
@@ -125,10 +171,10 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
     }
     if (name === 'inbox') {
       for (i = 0; i < 3; i++) {
-        x = 30 + i * 46; y = 20 + i * 70; var ew = w - 160, eh = 230;
+        x = 30 + i * 46; y = 10 + i * 64; var ew = w - 160, eh = 230;
         s += '<g transform="translate(' + x + ' ' + y + ')" opacity="' + (0.45 + i * 0.27) + '"><rect width="' + ew + '" height="' + eh + '" fill="#0D1017" fill-opacity=".55" stroke="' + ICE + '" stroke-opacity=".5" stroke-width="2"/><path d="M0 0 L' + ew / 2 + ' ' + eh * 0.52 + ' L' + ew + ' 0" stroke="' + ICE + '" stroke-opacity=".5" stroke-width="2"/></g>';
       }
-      s += '<circle cx="' + (w - 100) + '" cy="168" r="22" fill="' + OR + '"/><text x="' + (w - 100) + '" y="177" font-size="24" text-anchor="middle" fill="#fff" font-weight="700" font-family="IS">1</text>';
+      s += '<circle cx="' + (w - 100) + '" cy="146" r="22" fill="' + OR + '"/><text x="' + (w - 100) + '" y="155" font-size="24" text-anchor="middle" fill="#fff" font-weight="700" font-family="IS">1</text>';
       for (i = 0; i < 3; i++) { s += '<rect x="150" y="' + (272 + i * 28) + '" width="' + [300, 260, 180][i] + '" height="10" fill="' + (i === 2 ? BLUE2 : ICE) + '" fill-opacity="' + (i === 2 ? .9 : .55) + '"/>'; }
       return s + e;
     }
@@ -142,7 +188,7 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
       s += '<path d="' + d + '" stroke="' + BLUE2 + '" stroke-width="5"/>';
       var last = pts[n - 1];
       s += '<circle cx="' + last[0] + '" cy="' + last[1] + '" r="12" fill="' + OR + '"/><circle cx="' + last[0] + '" cy="' + last[1] + '" r="26" stroke="' + OR + '" stroke-opacity=".45" stroke-width="3"/>';
-      s += '<text x="' + (last[0] - 40) + '" y="' + (last[1] - 46) + '" font-size="44" fill="' + ICE + '" font-family="IS" font-weight="600" text-anchor="end">#1</text>';
+      s += '<text x="' + (last[0] - 40) + '" y="' + Math.max(40, last[1] - 46) + '" font-size="44" fill="' + ICE + '" font-family="IS" font-weight="600" text-anchor="end">#1</text>';
       return s + e;
     }
     if (name === 'browser') {
@@ -208,8 +254,10 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
       // monospace glyphs are about 0.6em wide: shrink the type when the longest line would cross the window edge
       var longest = Math.max.apply(null, code.map(function (l) { return (l[0] + l[2]).length; }));
       var fz = Math.min(22, Math.floor((tw - 60) / (0.6 * longest)));
-      code.forEach(function (l, k) { s += '<text class="mono" x="34" y="' + (92 + k * 46) + '" font-size="' + fz + '" style="white-space:pre"><tspan fill="' + l[1] + '">' + l[0] + '</tspan><tspan fill="' + l[3] + '">' + l[2].replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</tspan></text>'; });
-      s += '<rect x="34" y="' + (92 + 6 * 46 - 22) + '" width="14" height="26" fill="' + ICE + '"/>';
+      // the lines, then the cursor on the next one, stay inside the window (which ends at y = h - 20)
+      var ls = Math.min(46, Math.floor((h - 130) / code.length));
+      code.forEach(function (l, k) { s += '<text class="mono" x="34" y="' + (92 + k * ls) + '" font-size="' + fz + '" style="white-space:pre"><tspan fill="' + l[1] + '">' + l[0] + '</tspan><tspan fill="' + l[3] + '">' + l[2].replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</tspan></text>'; });
+      s += '<rect x="34" y="' + (92 + code.length * ls - 22) + '" width="14" height="26" fill="' + ICE + '"/>';
       return s + e;
     }
     if (name === 'megaphone') {

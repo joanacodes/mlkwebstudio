@@ -21,12 +21,14 @@
   "key": "google-keyword-planner-tutorial",
   "category": "seo",
   "label": "Keyword Planner",
+  "label_fr": "Planificateur de mots clés",
   "motif": "search"
  },
  {
   "key": "keyword-research-small-business",
   "category": "seo",
   "label": "Keywords",
+  "label_fr": "Mots-clés",
   "motif": "search"
  },
  {
@@ -45,6 +47,7 @@
   "key": "google-business-profile-setup",
   "category": "seo",
   "label": "Business Profile",
+  "label_fr": "Fiche Google",
   "motif": "map"
  },
  {
@@ -65,6 +68,7 @@
   "key": "squarespace-seo",
   "category": "seo",
   "label": "Squarespace SEO",
+  "label_fr": "SEO Squarespace",
   "motif": "search"
  },
  {
@@ -77,6 +81,7 @@
   "key": "write-seo-blog-posts",
   "category": "seo",
   "label": "Blog SEO",
+  "label_fr": "Rédaction SEO",
   "motif": "browser"
  },
  {
@@ -183,6 +188,7 @@
   "key": "google-ai-overviews-ai-mode",
   "category": "aio",
   "label": "AI Overviews",
+  "label_fr": "Aperçus IA",
   "motif": "search"
  },
  {
@@ -295,6 +301,7 @@
   "key": "cold-calling-vs-cold-emailing",
   "category": "cold-emailing",
   "label": "Cold call vs email",
+  "label_fr": "Téléphone vs email",
   "motif": "versus"
  },
  {
@@ -325,6 +332,7 @@
   "key": "spaceship-domain-dns-tutorial",
   "category": "domains",
   "label": "Spaceship DNS",
+  "label_fr": "DNS Spaceship",
   "motif": "dns"
  },
  {
@@ -337,12 +345,14 @@
   "key": "spaceship-hosting",
   "category": "domains",
   "label": "Spaceship hosting",
+  "label_fr": "Hébergement Spaceship",
   "motif": "orbit"
  },
  {
   "key": "namecheap-dns-squarespace",
   "category": "domains",
   "label": "Namecheap DNS",
+  "label_fr": "DNS Namecheap",
   "motif": "dns"
  },
  {
@@ -545,6 +555,7 @@
   "key": "ppc-vs-cold-emailing",
   "category": "marketing",
   "label": "Ads vs Cold email",
+  "label_fr": "Ads vs cold emailing",
   "motif": "versus"
  },
  {
@@ -605,6 +616,7 @@
   "key": "google-business-profile-posts",
   "category": "social-media",
   "label": "Business Profile posts",
+  "label_fr": "Posts Google",
   "motif": "feed"
  },
  {
@@ -629,6 +641,7 @@
   "key": "wordpress-site-hacked",
   "category": "website-rescue",
   "label": "WordPress: 24 h",
+  "label_fr": "WordPress : 24 h",
   "motif": "shield"
  },
  {
@@ -683,6 +696,7 @@
   "key": "small-business-tools-guide",
   "category": "tools",
   "label": "SaaS stack",
+  "label_fr": "Outils SaaS",
   "motif": "glass"
  },
  {
@@ -695,6 +709,7 @@
   "key": "social-media-small-business",
   "category": "social-media",
   "label": "Social media 2026",
+  "label_fr": "Réseaux sociaux 2026",
   "motif": "feed"
  },
  {

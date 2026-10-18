@@ -1,8 +1,9 @@
-{{- /* Responsive cover of an article: images/blog/<cover or file name>.jpg (1600×900), WebP sizes + JPEG fallback.
+{{- /* Responsive cover of an article, with its title in the page's language: images/blog/<lang>/<cover or file name>.jpg,
+  else images/blog/<cover or file name>.jpg (1600×900), WebP sizes + JPEG fallback.
   Args: page, sizes, loading ("lazy" | "eager"), priority (bool), class */ -}}
 {{- $p := .page -}}
 {{- $key := $p.Params.cover | default $p.File.ContentBaseName -}}
-{{- $img := resources.Get (printf "images/blog/%s.jpg" $key) -}}
+{{- $img := resources.Get (printf "images/blog/%s/%s.jpg" $p.Language.Lang $key) | default (resources.Get (printf "images/blog/%s.jpg" $key)) -}}
 {{- if not $img }}{{ $img = resources.Get "images/hero-glass.jpg" }}{{ end -}}
 {{- $alt := $p.Params.cover_alt | default $p.Title -}}
 {{- $set := slice -}}

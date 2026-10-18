@@ -1,6 +1,6 @@
 ---
-title: "Le SEO est-il mort ? Non, et voici comment viser la première page de Google"
-seo_title: "Le SEO est-il mort en 2026 ? Non, voici ce qui marche"
+title: "SEO : le référencement est-il mort ? Non."
+seo_title: "SEO : le référencement est-il mort en 2026 ? Non"
 description: "Le SEO est-il mort ? Non : Google apporte toujours l’essentiel des appels et les IA lisent le même web. La checklist pour débutants pour viser la page 1."
 slug: "seo-est-il-mort"
 translationKey: "is-seo-dead"

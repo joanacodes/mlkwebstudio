@@ -1,5 +1,5 @@
 ---
-title: "Is SEO dead? No, and here is how to get your site onto page one"
+title: "Is SEO dead? No."
 seo_title: "Is SEO dead in 2026? No, and here's what still works"
 description: "Is SEO dead? No. Google still brings most of the calls, and AI assistants read the same web. Here is the beginner's checklist to get your site onto page one."
 slug: "is-seo-dead"
