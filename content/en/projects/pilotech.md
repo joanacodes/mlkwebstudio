@@ -1,5 +1,6 @@
 ---
 title: "Pilotech"
+translationKey: "projects/pilotech"
 seo_title: "Pilotech: one website for three HVAC lines"
 description: "An entry portal and a unified website for Pilotech, bringing its Teknopoint, Toshiba and VMI lines together: 29 product sheets, a services hub and quote forms."
 weight: 3

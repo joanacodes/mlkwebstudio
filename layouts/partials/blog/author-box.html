@@ -1,0 +1,12 @@
+{{- /* Author: the name comes from params.author.name, so it can be changed in one place */ -}}
+{{- $name := site.Params.author.name -}}
+{{- $about := site.GetPage "/about" -}}
+<section class="abox" aria-label="{{ i18n "about_author" }}">
+  <div class="abox__mark" aria-hidden="true">{{ with $name }}{{ range first 2 (split . " ") }}{{ substr . 0 1 }}{{ end }}{{ end }}</div>
+  <div class="abox__text">
+    <span class="label label--plain">{{ i18n "about_author" }}</span>
+    <p class="abox__name">{{ $name }}{{ with site.Params.authorRole }}<span class="abox__role">{{ . }}</span>{{ end }}</p>
+    <p class="abox__bio">{{ printf site.Params.authorBio $name }}</p>
+    {{ with $about }}<a class="link" href="{{ .RelPermalink }}">{{ i18n "author_more" }} {{ partial "arrow.html" . }}</a>{{ end }}
+  </div>
+</section>

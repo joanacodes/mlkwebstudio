@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- $posts := (site.GetPage "/blog").RegularPages -}}
+<div class="container">
+  <div class="page-head section-head">
+    {{ partial "blog/breadcrumbs.html" . }}
+    <div class="section-head__top">{{ partial "icon.html" "list" }}<span class="label">{{ i18n "blog" }}</span></div>
+    <h1 class="title">{{ .Title }}</h1>
+    {{ with .Description }}<p class="lead">{{ . }}</p>{{ end }}
+  </div>
+  <div class="grid grid--3" style="margin-bottom: clamp(48px, 7vw, 96px)">
+    {{ range .RegularPages.ByWeight }}{{ $n := len (where $posts "Params.category" .Params.key) }}
+    <a class="card reveal" href="{{ .RelPermalink }}">
+      <span class="card__top">{{ partial "icon.html" (.Params.icon | default "book") }}<span class="card__index">{{ i18n "search_count" $n }}</span></span>
+      <span class="card__title">{{ .Title }}</span>
+      <span class="card__body">{{ .Description }}</span>
+    </a>
+    {{ end }}
+  </div>
+</div>
+{{ partial "cta.html" . }}
+{{ end }}

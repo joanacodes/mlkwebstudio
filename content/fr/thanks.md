@@ -1,6 +1,8 @@
 ---
 robots: "noindex, follow"
 title: "Merci"
+translationKey: "thanks"
+slug: "merci"
 seo_title: "Merci, message bien reçu"
 description: "Votre message est bien arrivé chez MLK Web Studio. Nous répondons sous quarante-huit heures pour planifier un court appel ; d’ici là, voyez nos réalisations."
 kicker: "Message reçu"
@@ -10,4 +12,4 @@ lead: "Nous répondons sous quarante-huit heures pour planifier un court appel s
 sitemap:
   disable: true
 ---
-[Voir les réalisations](/fr/projects/)
+[Voir les réalisations](/fr/realisations/)

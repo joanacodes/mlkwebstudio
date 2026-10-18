@@ -1,5 +1,7 @@
 ---
 title: "Sites web"
+translationKey: "services/websites"
+slug: "sites-web"
 seo_title: "Création de sites web sur mesure"
 description: "Des sites pour les entreprises de service : clairs, rapides sur mobile, pensés pour Google et pour transformer les visites en appels et en demandes de devis."
 icon: "monitor"

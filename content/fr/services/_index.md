@@ -1,5 +1,6 @@
 ---
 title: "Services"
+translationKey: "services"
 seo_title: "Sites web, SEO et cold email"
 description: "Trois services qui travaillent ensemble : des sites pensés pour les entreprises de service, un référencement qui les rend visibles sur Google et le cold email."
 heading: "Trois services, <span class='hl'>un seul objectif : des clients.</span>"

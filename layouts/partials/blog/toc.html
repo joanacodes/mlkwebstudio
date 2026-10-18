@@ -1,0 +1,8 @@
+{{- /* Anchor menu: the article's H2s (+ FAQ). Used in the desktop sidebar and in the mobile folder. */ -}}
+{{- $p := . -}}
+{{- if or $p.TableOfContents $p.Params.faq -}}
+<nav class="toc" aria-label="{{ i18n "on_this_page" }}">
+  {{- $p.TableOfContents -}}
+  {{- with $p.Params.faq }}<ul class="toc__extra"><li><a href="#faq">{{ i18n "faq_title" }}</a></li></ul>{{ end -}}
+</nav>
+{{- end -}}

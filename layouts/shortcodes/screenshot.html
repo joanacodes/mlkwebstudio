@@ -1,0 +1,14 @@
+{{- /* Screenshot slot in tutorials: {{< screenshot id="ovh-dns-zone" alt="The DNS zone tab in the OVH control panel" >}}
+  Shows images/blog/screenshots/<lang>/<id>.(png|jpg|webp), or images/blog/screenshots/<id>.*, once the file exists.
+  Until then it renders nothing (the list of needed screenshots is built from the Markdown). */ -}}
+{{- $id := .Get "id" -}}
+{{- $img := false -}}
+{{- range slice (printf "%s/%s" .Page.Language.Lang $id) $id -}}
+  {{- $base := . -}}
+  {{- range slice "png" "jpg" "jpeg" "webp" }}{{ if not $img }}{{ $img = resources.Get (printf "images/blog/screenshots/%s.%s" $base .) }}{{ end }}{{ end -}}
+{{- end -}}
+{{- with $img -}}
+{{- $w := cond (gt .Width 1600) 1600 .Width -}}
+{{- $r := .Resize (printf "%dx webp q82" $w) -}}
+<figure class="shot"><img src="{{ $r.RelPermalink }}" width="{{ $r.Width }}" height="{{ $r.Height }}" alt="{{ $.Get "alt" }}" loading="lazy" decoding="async">{{ with $.Get "caption" | default ($.Get "alt") }}<figcaption>{{ . }}</figcaption>{{ end }}</figure>
+{{- end -}}

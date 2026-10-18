@@ -1,0 +1,14 @@
+{{- /* Responsive cover of an article: images/blog/<cover or file name>.jpg (1600×900), WebP sizes + JPEG fallback.
+  Args: page, sizes, loading ("lazy" | "eager"), priority (bool), class */ -}}
+{{- $p := .page -}}
+{{- $key := $p.Params.cover | default $p.File.ContentBaseName -}}
+{{- $img := resources.Get (printf "images/blog/%s.jpg" $key) -}}
+{{- if not $img }}{{ $img = resources.Get "images/hero-glass.jpg" }}{{ end -}}
+{{- $alt := $p.Params.cover_alt | default $p.Title -}}
+{{- $set := slice -}}
+{{- range slice 480 800 1200 1600 -}}
+  {{- if le . $img.Width }}{{ $r := $img.Resize (printf "%dx webp q76" .) }}{{ $set = $set | append (printf "%s %dw" $r.RelPermalink .) }}{{ end -}}
+{{- end -}}
+{{- $fb := $img.Fill "1200x675 Center jpg q78" -}}
+<img{{ with .class }} class="{{ . }}"{{ end }} src="{{ $fb.RelPermalink }}" srcset="{{ delimit $set ", " }}" sizes="{{ .sizes | default "100vw" }}" width="{{ $fb.Width }}" height="{{ $fb.Height }}" alt="{{ $alt }}" loading="{{ .loading | default "lazy" }}" decoding="async"{{ if .priority }} fetchpriority="high"{{ end }}>
+{{- /**/ -}}

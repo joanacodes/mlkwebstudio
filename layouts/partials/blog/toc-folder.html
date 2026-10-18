@@ -1,0 +1,13 @@
+{{- /* Phones: a tab at the bottom of the screen; the panel slides up with the anchors (like Maison Tarot's folder). */ -}}
+{{- $p := . -}}
+{{- if or $p.TableOfContents $p.Params.faq -}}
+<div class="tocf" data-tocf>
+  <div class="tocf__panel" id="tocf-panel">
+    <button type="button" class="tocf__tab" data-tocf-toggle aria-expanded="false" aria-controls="tocf-panel">{{ partial "icon.html" "list" }}<span>{{ i18n "on_this_page" }}</span></button>
+    <div class="tocf__body">
+      <div class="tocf__head"><span class="label label--plain">{{ i18n "on_this_page" }}</span><button type="button" class="tocf__close" data-tocf-close>{{ i18n "close" }}</button></div>
+      {{ partial "blog/toc.html" $p }}
+    </div>
+  </div>
+</div>
+{{- end -}}

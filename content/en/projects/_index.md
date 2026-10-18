@@ -1,5 +1,6 @@
 ---
 title: "Projects"
+translationKey: "projects"
 seo_title: "Portfolio: websites, SEO and cold email"
 description: "Ten projects by MLK Web Studio: websites, SEO, apps, cold email and social media for Pilotech, Eden Flats, Eden Corporate Mobility, Edenel, Ginov and more."
 heading: "Projects that <span class='hl--o'>bring in clients.</span>"

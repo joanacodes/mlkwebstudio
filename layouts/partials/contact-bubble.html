@@ -1,0 +1,4 @@
+{{- /* Floating "write to us" button, desktop only (phones have the dock). Off with params.contactBubble = false. */ -}}
+{{- if and site.Params.contactBubble (ne .Layout "contact") -}}
+<a class="bubble" href="{{ partial "book-url.html" . }}" aria-label="{{ i18n "contact_bubble" }}">{{ partial "icon.html" "chat" }}<span class="bubble__text">{{ i18n "contact_bubble" }}</span></a>
+{{- end -}}

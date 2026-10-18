@@ -109,3 +109,144 @@ other = "Aller au contenu"
 [org_sub]
 other = "Activité cold email de MLK Web Studio"
 
+
+# Blog
+[blog]
+other = "Blog"
+[search_label]
+other = "Chercher dans les guides"
+[search_placeholder]
+other = "Chercher : DNS, Squarespace, cold email…"
+[search_empty]
+other = "Aucun article ne correspond encore à cette recherche."
+[search_count]
+one = "{{ .Count }} article"
+other = "{{ .Count }} articles"
+[latest]
+other = "À la une"
+[latest_label]
+other = "Derniers articles"
+[slide_prev]
+other = "Article précédent"
+[slide_next]
+other = "Article suivant"
+[slide_go]
+other = "Afficher l’article"
+[slide_pause]
+other = "Mettre le diaporama en pause"
+[slide_play]
+other = "Relancer le diaporama"
+[topics]
+other = "Thèmes"
+[all_topics]
+other = "Tous les thèmes"
+[see_all]
+one = "Voir l’article"
+other = "Voir les {{ .Count }} articles"
+[min_read]
+other = "min de lecture"
+[published]
+other = "Publié le"
+[updated]
+other = "Mis à jour le"
+[by]
+other = "Par"
+[short_answer]
+other = "En bref"
+[on_this_page]
+other = "Sur cette page"
+[related]
+other = "À lire aussi"
+[keep_reading]
+other = "Continuer la lecture"
+[follow]
+other = "Suivre le studio"
+[our_services]
+other = "Nos services"
+[newsletter_title]
+other = "La newsletter"
+[newsletter_lead]
+other = "Les nouveaux guides et les mises à jour qui comptent, en un email. Deux fois par mois au maximum."
+[newsletter_placeholder]
+other = "Votre adresse email"
+[newsletter_button]
+other = "M’inscrire"
+[newsletter_note]
+other = "Désinscription en un clic. Votre adresse n’est jamais partagée."
+[faq_title]
+other = "Questions fréquentes"
+[about_author]
+other = "Qui écrit ces guides"
+[author_more]
+other = "En savoir plus sur le studio"
+[filter_all_types]
+other = "Tout"
+[filter_types]
+other = "Filtrer par type"
+[type_pillar]
+other = "Guide complet"
+[type_guide]
+other = "Guide"
+[type_tutorial]
+other = "Tutoriel"
+[type_comparison]
+other = "Comparatif"
+[type_case-study]
+other = "Étude de cas"
+[type_opinion]
+other = "Point de vue"
+[type_news]
+other = "Actualité"
+[types_pillar]
+other = "Guides complets"
+[types_guide]
+other = "Guides"
+[types_tutorial]
+other = "Tutoriels"
+[types_comparison]
+other = "Comparatifs"
+[types_case-study]
+other = "Études de cas"
+[types_opinion]
+other = "Points de vue"
+[types_news]
+other = "Actualités"
+[callout_note]
+other = "À noter"
+[callout_tip]
+other = "Astuce"
+[callout_warning]
+other = "Attention"
+[start_here]
+other = "Commencer ici"
+[post_cta_label]
+other = "Vous préférez déléguer ?"
+[post_cta_websites]
+other = "Un site qui amène des clients, conçu, rédigé et développé pour vous."
+[post_cta_seo]
+other = "Les recherches de vos clients, les pages qui y répondent, la technique derrière."
+[post_cta_rescue]
+other = "Site piraté, accès perdu, emails en panne : réponse le jour même, ou sous 24 heures."
+[post_cta_automation]
+other = "Des outils internes et des automatisations construits autour de votre façon de travailler."
+[post_cta_default]
+other = "Sites web, SEO, cold emailing et automatisation pour les petites entreprises en France et au Royaume-Uni."
+[post_cta_button]
+other = "Parlez-moi de votre projet"
+[contact_bubble]
+other = "Nous écrire"
+[share_title]
+other = "Guides et tutoriels"
+
+[llms_author]
+other = "Rédaction des guides"
+[llms_contact]
+other = "Contact"
+[llms_also]
+other = "Aussi en anglais"
+[llms_services]
+other = "Services"
+[llms_cases]
+other = "Études de cas"
+[llms_leadhunters]
+other = "cold emailing, par le même studio."

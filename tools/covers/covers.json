@@ -1,0 +1,736 @@
+[
+ {
+  "key": "how-long-does-seo-take",
+  "category": "seo",
+  "label": "SEO → #1",
+  "motif": "calendar"
+ },
+ {
+  "key": "google-search-console-tutorial",
+  "category": "seo",
+  "label": "Search Console",
+  "motif": "browser"
+ },
+ {
+  "key": "google-trends-tutorial",
+  "category": "seo",
+  "label": "Google Trends",
+  "motif": "chart"
+ },
+ {
+  "key": "google-keyword-planner-tutorial",
+  "category": "seo",
+  "label": "Keyword Planner",
+  "motif": "search"
+ },
+ {
+  "key": "keyword-research-small-business",
+  "category": "seo",
+  "label": "Keywords",
+  "motif": "search"
+ },
+ {
+  "key": "on-page-seo-checklist",
+  "category": "seo",
+  "label": "<title> + <h1>",
+  "motif": "blueprint"
+ },
+ {
+  "key": "local-seo-guide",
+  "category": "seo",
+  "label": "Google Maps",
+  "motif": "map"
+ },
+ {
+  "key": "google-business-profile-setup",
+  "category": "seo",
+  "label": "Business Profile",
+  "motif": "map"
+ },
+ {
+  "key": "hreflang-bilingual-website",
+  "category": "seo",
+  "label": "hreflang EN · FR",
+  "motif": "terminal",
+  "code": [
+   ["", "STEEL", "<link rel=\"alternate\" hreflang=\"en-gb\"", "ICE"],
+   ["", "STEEL", "      href=\"https://example.com/\" />", "BLUE2"],
+   ["", "STEEL", "<link rel=\"alternate\" hreflang=\"fr-fr\"", "ICE"],
+   ["", "STEEL", "      href=\"https://example.com/fr/\" />", "BLUE2"],
+   ["", "STEEL", "<link rel=\"alternate\"", "ICE"],
+   ["", "STEEL", "      hreflang=\"x-default\" … />", "BLUE2"]
+  ]
+ },
+ {
+  "key": "squarespace-seo",
+  "category": "seo",
+  "label": "Squarespace SEO",
+  "motif": "search"
+ },
+ {
+  "key": "get-website-indexed-google",
+  "category": "seo",
+  "label": "Googlebot",
+  "motif": "flow"
+ },
+ {
+  "key": "write-seo-blog-posts",
+  "category": "seo",
+  "label": "Blog SEO",
+  "motif": "browser"
+ },
+ {
+  "key": "core-web-vitals-speed",
+  "category": "seo",
+  "label": "LCP · INP · CLS",
+  "motif": "chart"
+ },
+ {
+  "key": "web-design-process",
+  "category": "websites",
+  "label": "Web design",
+  "motif": "blueprint"
+ },
+ {
+  "key": "professional-looking-website",
+  "category": "websites",
+  "label": "Premium",
+  "motif": "glass"
+ },
+ {
+  "key": "landing-page-vs-website",
+  "category": "websites",
+  "label": "Landing page vs site",
+  "motif": "versus"
+ },
+ {
+  "key": "website-cost",
+  "category": "websites",
+  "label": "£ / €",
+  "motif": "chart"
+ },
+ {
+  "key": "website-maintenance",
+  "category": "websites",
+  "label": "Maintenance",
+  "motif": "shield"
+ },
+ {
+  "key": "squarespace-vs-wordpress",
+  "category": "websites",
+  "label": "Squarespace vs WP",
+  "motif": "versus"
+ },
+ {
+  "key": "wix-platforms-history",
+  "category": "websites",
+  "label": "Wix, 2006 → 2026",
+  "motif": "blueprint"
+ },
+ {
+  "key": "build-website-with-ai",
+  "category": "websites",
+  "label": "Claude → GitHub Pages",
+  "motif": "terminal",
+  "code": [
+   ["> ", "OR", "Build a one-page site for a florist", "ICE"],
+   ["", "STEEL", "  index.html  style.css  script.js", "BLUE2"],
+   ["$ ", "OR", "git add . && git commit -m \"v1\"", "ICE"],
+   ["$ ", "OR", "git push origin main", "ICE"],
+   ["", "STEEL", "", "ICE"],
+   ["→ ", "OR", "Live on GitHub Pages", "BLUE2"]
+  ]
+ },
+ {
+  "key": "squarespace-tutorial",
+  "category": "websites",
+  "label": "Squarespace",
+  "motif": "browser"
+ },
+ {
+  "key": "squarespace-code-injection",
+  "category": "websites",
+  "label": "Squarespace </>",
+  "motif": "terminal",
+  "code": [
+   ["", "STEEL", "<!-- Code injection > Header -->", "STEEL"],
+   ["", "STEEL", "<script async src=\"…\"></script>", "ICE"],
+   ["", "STEEL", "<style>", "BLUE2"],
+   ["", "STEEL", "  .header { letter-spacing: .02em; }", "ICE"],
+   ["", "STEEL", "</style>", "BLUE2"],
+   ["→ ", "OR", "Saved", "BLUE2"]
+  ]
+ },
+ {
+  "key": "website-conversion-rate",
+  "category": "websites",
+  "label": "CRO",
+  "motif": "flow"
+ },
+ {
+  "key": "geo-vs-seo",
+  "category": "aio",
+  "label": "GEO vs SEO",
+  "motif": "versus"
+ },
+ {
+  "key": "get-recommended-by-chatgpt",
+  "category": "aio",
+  "label": "ChatGPT",
+  "motif": "search"
+ },
+ {
+  "key": "google-ai-overviews-ai-mode",
+  "category": "aio",
+  "label": "AI Overviews",
+  "motif": "search"
+ },
+ {
+  "key": "write-content-for-ai-search",
+  "category": "aio",
+  "label": "TL;DR",
+  "motif": "blueprint"
+ },
+ {
+  "key": "schema-markup-small-business",
+  "category": "aio",
+  "label": "Schema.org",
+  "motif": "terminal",
+  "code": [
+   ["", "STEEL", "<script type=\"application/ld+json\">", "ICE"],
+   ["", "STEEL", "{ \"@context\": \"https://schema.org\",", "BLUE2"],
+   ["", "STEEL", "  \"@type\": \"LocalBusiness\",", "ICE"],
+   ["", "STEEL", "  \"name\": \"…\",", "ICE"],
+   ["", "STEEL", "  \"telephone\": \"…\" }", "ICE"],
+   ["", "STEEL", "</script>", "BLUE2"]
+  ]
+ },
+ {
+  "key": "llms-txt-explained",
+  "category": "aio",
+  "label": "llms.txt",
+  "motif": "terminal",
+  "code": [
+   ["$ ", "OR", "cat llms.txt", "ICE"],
+   ["", "STEEL", "# Example Studio", "ICE"],
+   ["", "STEEL", "> Websites and SEO for small firms", "BLUE2"],
+   ["", "STEEL", "## Guides", "ICE"],
+   ["", "STEEL", "- [SEO guide](https://example.com/seo/)", "BLUE2"],
+   ["", "STEEL", "- [Contact](https://example.com/contact/)", "BLUE2"]
+  ]
+ },
+ {
+  "key": "robots-txt-ai-crawlers",
+  "category": "aio",
+  "label": "robots.txt",
+  "motif": "shield"
+ },
+ {
+  "key": "track-ai-traffic",
+  "category": "aio",
+  "label": "GA4 · Clarity",
+  "motif": "chart"
+ },
+ {
+  "key": "check-ai-visibility",
+  "category": "aio",
+  "label": "ChatGPT · Perplexity",
+  "motif": "orbit"
+ },
+ {
+  "key": "cold-email-gdpr-uk-france",
+  "category": "cold-emailing",
+  "label": "PECR · CNIL",
+  "motif": "shield"
+ },
+ {
+  "key": "cold-email-infrastructure",
+  "category": "cold-emailing",
+  "label": "30 × @",
+  "motif": "dns"
+ },
+ {
+  "key": "best-email-provider-cold-email",
+  "category": "cold-emailing",
+  "label": "Google vs Microsoft",
+  "motif": "versus"
+ },
+ {
+  "key": "instantly-ai-tutorial",
+  "category": "cold-emailing",
+  "label": "Instantly.ai",
+  "motif": "inbox"
+ },
+ {
+  "key": "instantly-campaign-setup",
+  "category": "cold-emailing",
+  "label": "Instantly · 3 emails",
+  "motif": "inbox"
+ },
+ {
+  "key": "instantly-vs-smartlead-vs-lemlist",
+  "category": "cold-emailing",
+  "label": "Instantly vs lemlist",
+  "motif": "versus"
+ },
+ {
+  "key": "cold-email-examples",
+  "category": "cold-emailing",
+  "label": "Email #1",
+  "motif": "inbox"
+ },
+ {
+  "key": "plain-text-cold-emails",
+  "category": "cold-emailing",
+  "label": "text/plain",
+  "motif": "inbox"
+ },
+ {
+  "key": "cold-email-follow-up",
+  "category": "cold-emailing",
+  "label": "Email #1 → #3",
+  "motif": "flow"
+ },
+ {
+  "key": "cold-calling-vs-cold-emailing",
+  "category": "cold-emailing",
+  "label": "Cold call vs email",
+  "motif": "versus"
+ },
+ {
+  "key": "email-list-verification-reoon",
+  "category": "cold-emailing",
+  "label": "Reoon · 100k",
+  "motif": "shield"
+ },
+ {
+  "key": "google-maps-scraper-outscraper",
+  "category": "cold-emailing",
+  "label": "Outscraper",
+  "motif": "map"
+ },
+ {
+  "key": "dns-records-explained",
+  "category": "domains",
+  "label": "A · CNAME · MX · TXT",
+  "motif": "dns"
+ },
+ {
+  "key": "spaceship-vs-namecheap",
+  "category": "domains",
+  "label": "Spaceship vs Namecheap",
+  "motif": "versus"
+ },
+ {
+  "key": "spaceship-domain-dns-tutorial",
+  "category": "domains",
+  "label": "Spaceship DNS",
+  "motif": "dns"
+ },
+ {
+  "key": "spacemail-setup",
+  "category": "domains",
+  "label": "Spacemail",
+  "motif": "inbox"
+ },
+ {
+  "key": "spaceship-hosting",
+  "category": "domains",
+  "label": "Spaceship hosting",
+  "motif": "orbit"
+ },
+ {
+  "key": "namecheap-dns-squarespace",
+  "category": "domains",
+  "label": "Namecheap DNS",
+  "motif": "dns"
+ },
+ {
+  "key": "ovh-dns-squarespace",
+  "category": "domains",
+  "label": "OVH → Squarespace",
+  "motif": "dns"
+ },
+ {
+  "key": "hostinger-renewal-transfer",
+  "category": "domains",
+  "label": "Hostinger · EPP",
+  "motif": "flow"
+ },
+ {
+  "key": "infomaniak-review",
+  "category": "domains",
+  "label": "Infomaniak",
+  "motif": "glass"
+ },
+ {
+  "key": "transfer-domain-name",
+  "category": "domains",
+  "label": "Registrar A → B",
+  "motif": "flow"
+ },
+ {
+  "key": "professional-email-address",
+  "category": "domains",
+  "label": "contact@",
+  "motif": "inbox"
+ },
+ {
+  "key": "spf-dkim-dmarc-setup",
+  "category": "domains",
+  "label": "SPF · DKIM · DMARC",
+  "motif": "shield"
+ },
+ {
+  "key": "web-hosting-comparison",
+  "category": "domains",
+  "label": "Hostinger vs OVH",
+  "motif": "versus"
+ },
+ {
+  "key": "best-domain-registrar",
+  "category": "domains",
+  "label": ".com · .co.uk · .fr",
+  "motif": "chart"
+ },
+ {
+  "key": "o2switch-review",
+  "category": "domains",
+  "label": "o2switch",
+  "motif": "glass"
+ },
+ {
+  "key": "fr-domain-names",
+  "category": "domains",
+  "label": ".fr",
+  "motif": "dns"
+ },
+ {
+  "key": "claude-vs-chatgpt",
+  "category": "ai-automation",
+  "label": "Claude vs ChatGPT",
+  "motif": "versus"
+ },
+ {
+  "key": "deep-research-copywriting-seo",
+  "category": "ai-automation",
+  "label": "Deep Research",
+  "motif": "search"
+ },
+ {
+  "key": "claude-api-tutorial",
+  "category": "ai-automation",
+  "label": "Claude API",
+  "motif": "terminal",
+  "code": [
+   ["$ ", "OR", "curl https://api.anthropic.com/v1/messages", "ICE"],
+   ["  -H ", "STEEL", "\"x-api-key: $ANTHROPIC_API_KEY\"", "BLUE2"],
+   ["  -H ", "STEEL", "\"anthropic-version: 2023-06-01\"", "BLUE2"],
+   ["  -d ", "STEEL", "'{\"model\": \"…\", \"max_tokens\": 1024,", "ICE"],
+   ["", "STEEL", "     \"messages\": [{ \"role\": \"user\" }]}'", "ICE"],
+   ["→ ", "OR", "200 OK", "BLUE2"]
+  ]
+ },
+ {
+  "key": "openai-api-tutorial",
+  "category": "ai-automation",
+  "label": "OpenAI API",
+  "motif": "terminal",
+  "code": [
+   ["$ ", "OR", "curl https://api.openai.com/v1/responses", "ICE"],
+   ["  -H ", "STEEL", "\"Authorization: Bearer $OPENAI_API_KEY\"", "BLUE2"],
+   ["  -H ", "STEEL", "\"Content-Type: application/json\"", "BLUE2"],
+   ["  -d ", "STEEL", "'{\"model\": \"…\", \"input\": \"Hello\"}'", "ICE"],
+   ["", "STEEL", "", "ICE"],
+   ["→ ", "OR", "200 OK", "BLUE2"]
+  ]
+ },
+ {
+  "key": "build-app-with-ai",
+  "category": "ai-automation",
+  "label": "Vibe coding",
+  "motif": "blueprint"
+ },
+ {
+  "key": "bespoke-crm-internal-app",
+  "category": "ai-automation",
+  "label": "CRM",
+  "motif": "flow"
+ },
+ {
+  "key": "automate-lead-follow-up",
+  "category": "ai-automation",
+  "label": "Apps Script",
+  "motif": "flow"
+ },
+ {
+  "key": "zapier-vs-make-vs-n8n",
+  "category": "ai-automation",
+  "label": "Zapier vs Make vs n8n",
+  "motif": "versus"
+ },
+ {
+  "key": "ai-writing-sound-human",
+  "category": "ai-automation",
+  "label": "Copywriting",
+  "motif": "browser"
+ },
+ {
+  "key": "chatgpt-gdpr-client-data",
+  "category": "ai-automation",
+  "label": "GDPR · RGPD",
+  "motif": "shield"
+ },
+ {
+  "key": "canva-vs-adobe-vs-affinity",
+  "category": "tools",
+  "label": "Canva vs Adobe",
+  "motif": "versus"
+ },
+ {
+  "key": "canva-pro-review",
+  "category": "tools",
+  "label": "Canva Pro",
+  "motif": "glass"
+ },
+ {
+  "key": "calendly-vs-youcanbookme",
+  "category": "tools",
+  "label": "Calendly vs YCBM",
+  "motif": "calendar"
+ },
+ {
+  "key": "youcanbookme-tutorial",
+  "category": "tools",
+  "label": "YouCanBookMe",
+  "motif": "calendar"
+ },
+ {
+  "key": "appsumo-review",
+  "category": "tools",
+  "label": "AppSumo",
+  "motif": "chart"
+ },
+ {
+  "key": "semrush-review",
+  "category": "tools",
+  "label": "Semrush",
+  "motif": "search"
+ },
+ {
+  "key": "clarity-vs-hotjar",
+  "category": "tools",
+  "label": "Clarity vs Hotjar",
+  "motif": "versus"
+ },
+ {
+  "key": "microsoft-clarity-tutorial",
+  "category": "tools",
+  "label": "Microsoft Clarity",
+  "motif": "browser"
+ },
+ {
+  "key": "swisstransfer-vs-wetransfer",
+  "category": "tools",
+  "label": "SwissTransfer",
+  "motif": "flow"
+ },
+ {
+  "key": "social-media-scheduling-tools",
+  "category": "tools",
+  "label": "Metricool vs Postly",
+  "motif": "calendar"
+ },
+ {
+  "key": "ppc-vs-cold-emailing",
+  "category": "marketing",
+  "label": "Ads vs Cold email",
+  "motif": "versus"
+ },
+ {
+  "key": "seo-vs-ppc",
+  "category": "marketing",
+  "label": "SEO vs Google Ads",
+  "motif": "versus"
+ },
+ {
+  "key": "google-ads-small-business",
+  "category": "marketing",
+  "label": "Google Ads",
+  "motif": "search"
+ },
+ {
+  "key": "linkedin-ads-tutorial",
+  "category": "marketing",
+  "label": "LinkedIn Ads",
+  "motif": "megaphone"
+ },
+ {
+  "key": "facebook-ads-mistakes",
+  "category": "marketing",
+  "label": "Meta Ads",
+  "motif": "megaphone"
+ },
+ {
+  "key": "google-ads-vs-facebook-ads",
+  "category": "marketing",
+  "label": "Google vs Meta Ads",
+  "motif": "versus"
+ },
+ {
+  "key": "get-press-coverage",
+  "category": "marketing",
+  "label": "Magazine > 10k",
+  "motif": "megaphone"
+ },
+ {
+  "key": "shiny-object-syndrome",
+  "category": "marketing",
+  "label": "Focus",
+  "motif": "orbit"
+ },
+ {
+  "key": "pinterest-for-business",
+  "category": "social-media",
+  "label": "Pinterest",
+  "motif": "feed"
+ },
+ {
+  "key": "youtube-shorts-for-business",
+  "category": "social-media",
+  "label": "YouTube Shorts",
+  "motif": "feed"
+ },
+ {
+  "key": "google-business-profile-posts",
+  "category": "social-media",
+  "label": "Business Profile posts",
+  "motif": "feed"
+ },
+ {
+  "key": "instagram-algorithm-2026",
+  "category": "social-media",
+  "label": "Instagram 2026",
+  "motif": "feed"
+ },
+ {
+  "key": "tiktok-for-business-2026",
+  "category": "social-media",
+  "label": "TikTok 2026",
+  "motif": "feed"
+ },
+ {
+  "key": "linkedin-algorithm-2026",
+  "category": "social-media",
+  "label": "LinkedIn 2026",
+  "motif": "feed"
+ },
+ {
+  "key": "wordpress-site-hacked",
+  "category": "website-rescue",
+  "label": "WordPress: 24 h",
+  "motif": "shield"
+ },
+ {
+  "key": "recover-domain-name",
+  "category": "website-rescue",
+  "label": "WHOIS",
+  "motif": "dns"
+ },
+ {
+  "key": "regain-website-access",
+  "category": "website-rescue",
+  "label": "Admin · FTP · DNS",
+  "motif": "shield"
+ },
+ {
+  "key": "wordpress-to-squarespace",
+  "category": "website-rescue",
+  "label": "WP → Squarespace",
+  "motif": "flow"
+ },
+ {
+  "key": "architects-cold-email-case-study",
+  "category": "case-studies",
+  "label": "15 clients",
+  "motif": "inbox"
+ },
+ {
+  "key": "multiple-websites-one-business",
+  "category": "case-studies",
+  "label": "1 site vs 4 sites",
+  "motif": "browser"
+ },
+ {
+  "key": "eden-flats-corporate-mobility",
+  "category": "case-studies",
+  "label": "B2C → B2B",
+  "motif": "flow"
+ },
+ {
+  "key": "website-security-guide",
+  "category": "website-rescue",
+  "label": "HTTPS · 2FA",
+  "motif": "shield"
+ },
+ {
+  "key": "ai-small-business-guide",
+  "category": "ai-automation",
+  "label": "Claude · ChatGPT · n8n",
+  "motif": "orbit"
+ },
+ {
+  "key": "small-business-tools-guide",
+  "category": "tools",
+  "label": "SaaS stack",
+  "motif": "glass"
+ },
+ {
+  "key": "how-to-get-more-clients",
+  "category": "marketing",
+  "label": "Leads",
+  "motif": "megaphone"
+ },
+ {
+  "key": "social-media-small-business",
+  "category": "social-media",
+  "label": "Social media 2026",
+  "motif": "feed"
+ },
+ {
+  "key": "pilotech-seo-case-study",
+  "category": "case-studies",
+  "label": "Pilotech",
+  "motif": "glass"
+ },
+ {
+  "key": "domain-hosting-email-guide",
+  "category": "domains",
+  "label": ".com · DNS · MX",
+  "motif": "dns"
+ },
+ {
+  "key": "b2b-cold-emailing-guide",
+  "category": "cold-emailing",
+  "label": "Cold emailing",
+  "motif": "inbox"
+ },
+ {
+  "key": "small-business-website-guide",
+  "category": "websites",
+  "label": "www",
+  "motif": "browser"
+ },
+ {
+  "key": "ai-search-geo-guide",
+  "category": "aio",
+  "label": "AIO / GEO",
+  "motif": "orbit"
+ },
+ {
+  "key": "small-business-seo-guide",
+  "category": "seo",
+  "label": "SEO",
+  "motif": "chart"
+ }
+]

@@ -1,5 +1,6 @@
 ---
 title: "Edenel Patrimoine"
+translationKey: "projects/edenel-patrimoine"
 seo_title: "Edenel Patrimoine: estate agency website"
 description: "A website for Edenel Patrimoine, an independent estate agency in the Île-de-France: listings filtered by sale or rental, property pages, valuation and fees."
 weight: 9

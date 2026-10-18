@@ -1,5 +1,6 @@
 ---
 title: "110% Intérieur"
+translationKey: "projects/110-interieur"
 seo_title: "110% Intérieur: social media publishing"
 description: "Social media publishing set up for 110% Intérieur, an interior architecture and decoration studio in the Paris area and part of the 110% group."
 weight: 10

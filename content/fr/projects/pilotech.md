@@ -1,5 +1,6 @@
 ---
 title: "Pilotech"
+translationKey: "projects/pilotech"
 seo_title: "Pilotech : trois activités, un seul site"
 description: "Un portail d’entrée et un site unifié pour Pilotech, qui réunit ses gammes Teknopoint, Toshiba et VMI : 29 fiches produits, un hub de services et des devis."
 weight: 3

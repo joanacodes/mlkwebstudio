@@ -1,0 +1,7 @@
+{{- $out := slice -}}
+{{- range .RegularPages.ByDate.Reverse -}}
+  {{- $t := partial "blog/topic.html" . -}}
+  {{- $h := slice -}}{{ range findRE `<h2[^>]*>(.*?)</h2>` .Content }}{{ $h = $h | append (. | plainify | htmlUnescape) }}{{ end -}}
+  {{- $out = $out | append (dict "t" .Title "d" .Description "u" .RelPermalink "c" (cond (ne $t false) ($t.Params.short | default $t.Title) "") "y" (cond (isset .Params "article_type") (i18n (printf "type_%s" .Params.article_type)) "") "k" (delimit (.Params.keywords | default slice) " ") "h" (delimit $h " · ")) -}}
+{{- end -}}
+{{- $out | jsonify -}}

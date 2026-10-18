@@ -6,7 +6,7 @@
     <p class="lead">{{ if eq .Language.Lang "fr" }}Le lien est peut-être ancien. Repartez de l’accueil ou des réalisations.{{ else }}The link may be out of date. Start again from the home page or the projects.{{ end }}</p>
     <div class="hero__actions" style="display:flex;flex-wrap:wrap;gap:12px">
       <a class="button" href="{{ "/" | relLangURL }}">{{ if eq .Language.Lang "fr" }}Accueil{{ else }}Home{{ end }}</a>
-      <a class="button button--ghost" href="{{ "/projects/" | relLangURL }}">{{ i18n "projects" }}</a>
+      <a class="button button--ghost" href="{{ with site.GetPage "/projects" }}{{ .RelPermalink }}{{ end }}">{{ i18n "projects" }}</a>
       <a class="button button--ghost" href="{{ if eq .Language.Lang "fr" }}/{{ else }}/fr/{{ end }}">{{ if eq .Language.Lang "fr" }}English{{ else }}Français{{ end }}</a>
     </div>
   </div>

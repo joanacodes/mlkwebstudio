@@ -1,5 +1,6 @@
 ---
 title: "Pilotech VMI"
+translationKey: "projects/pilotech-vmi"
 seo_title: "Pilotech VMI : ventilation par insufflation"
 description: "Un site dédié à la ventilation par insufflation de Pilotech en Île-de-France : sept fiches produits et 21 articles sur la condensation et les moisissures."
 weight: 8

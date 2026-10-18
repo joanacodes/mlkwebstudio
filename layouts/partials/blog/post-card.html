@@ -1,0 +1,14 @@
+{{- /* Article card. Args: page, cat (bool: show the category), big (bool) */ -}}
+{{- $p := .page -}}
+<a class="pcard{{ if .big }} pcard--big{{ end }}" href="{{ $p.RelPermalink }}" data-type="{{ $p.Params.article_type }}">
+  <span class="pcard__media">{{ partial "blog/cover.html" (dict "page" $p "sizes" (cond .big "(min-width: 1000px) 760px, 100vw" "(min-width: 1000px) 380px, (min-width: 700px) 50vw, 100vw")) }}</span>
+  <span class="pcard__body">
+    <span class="pcard__meta">
+      {{- if .cat }}{{ with partial "blog/topic.html" $p }}<span class="pcard__cat">{{ .Params.short | default .Title }}</span>{{ end }}{{ end -}}
+      {{- with $p.Params.article_type }}<span class="pcard__type">{{ i18n (printf "type_%s" .) }}</span>{{ end -}}
+      <span>{{ $p.ReadingTime }} {{ i18n "min_read" }}</span>
+    </span>
+    <span class="pcard__title">{{ $p.Title }}</span>
+    <span class="pcard__desc">{{ $p.Description }}</span>
+  </span>
+</a>

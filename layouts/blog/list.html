@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{- $posts := .RegularPages.ByDate.Reverse -}}
+{{- $topics := (site.GetPage "/topics").RegularPages.ByWeight -}}
+<section class="bhero">
+  <div class="container">
+    <div class="page-head section-head bhero__head">
+      <div class="section-head__top">{{ partial "icon.html" "book" }}<span class="label">{{ .Params.kicker | default (i18n "blog") }}</span></div>
+      <h1 class="title">{{ with .Params.heading }}{{ . | safeHTML }}{{ else }}{{ .Title }}{{ end }}</h1>
+      {{ with .Params.lead }}<p class="lead">{{ . | safeHTML }}</p>{{ end }}
+      {{ partial "blog/search.html" . }}
+    </div>
+  </div>
+</section>
+
+{{ partial "blog/slideshow.html" (dict "pages" (first 5 $posts) "ctx" .) }}
+
+<nav class="container btopics" aria-label="{{ i18n "topics" }}">
+  <ul class="btopics__list">
+    {{- range $topics }}
+    {{- $n := len (where $posts "Params.category" .Params.key) }}{{ if $n }}
+    <li><a class="btopic" href="#{{ .Params.key }}">{{ partial "icon.html" (.Params.icon | default "book") }}<span>{{ .Params.short | default .Title }}</span><span class="btopic__n">{{ $n }}</span></a></li>
+    {{- end }}{{ end }}
+  </ul>
+</nav>
+
+{{- range $i, $t := $topics }}
+{{- $in := where $posts "Params.category" $t.Params.key }}
+{{- if $in }}
+{{- $pillar := false }}{{ range first 1 (where $in "Params.article_type" "pillar") }}{{ $pillar = . }}{{ end }}
+{{- $rest := $in }}{{ with $pillar }}{{ $rest = where $in "Permalink" "ne" .Permalink }}{{ end }}
+<section class="section{{ if $i }} section--line{{ end }} container bcat" id="{{ $t.Params.key }}">
+  <div class="section-head section-head--split">
+    <div style="display:grid;gap:20px">
+      <div class="section-head__top">{{ partial "icon.html" ($t.Params.icon | default "book") }}<span class="label">{{ $t.Params.short | default $t.Title }}</span></div>
+      <h2 class="title">{{ with $t.Params.heading }}{{ . | safeHTML }}{{ else }}{{ $t.Title }}{{ end }}</h2>
+    </div>
+    <p class="lead">{{ $t.Description }}</p>
+  </div>
+  <div class="bcat__grid">
+    {{- with $pillar }}<div class="bcat__pillar reveal">{{ partial "blog/post-card.html" (dict "page" . "big" true) }}</div>{{ end }}
+    {{- range first 3 $rest }}<div class="reveal">{{ partial "blog/post-card.html" (dict "page" .) }}</div>{{ end }}
+  </div>
+  <p class="bcat__more"><a class="link" href="{{ $t.RelPermalink }}">{{ i18n "see_all" (len $in) }} {{ partial "arrow.html" . }}</a></p>
+</section>
+{{- end }}
+{{- end }}
+{{ partial "cta.html" . }}
+{{ end }}

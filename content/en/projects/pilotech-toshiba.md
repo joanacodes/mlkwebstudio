@@ -1,5 +1,6 @@
 ---
 title: "Pilotech Toshiba"
+translationKey: "projects/pilotech-toshiba"
 seo_title: "Pilotech Toshiba: air conditioning website"
 description: "A dedicated site for Pilotech’s Toshiba air conditioning and heat pumps in Paris and the Île-de-France: one page per range, service pages and local SEO."
 weight: 6

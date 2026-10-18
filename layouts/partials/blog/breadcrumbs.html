@@ -1,0 +1,9 @@
+{{- /* Blog › Category › (current). Args: page */ -}}
+{{- $p := . -}}
+{{- $blog := site.GetPage "/blog" -}}
+<nav class="crumbs" aria-label="Breadcrumb">
+  <a href="{{ site.Home.RelPermalink }}">{{ i18n "home" }}</a><span aria-hidden="true">/</span>
+  <a href="{{ $blog.RelPermalink }}">{{ $blog.Title }}</a>
+  {{- if eq $p.Section "blog" }}{{ if $p.IsPage }}{{ with partial "blog/topic.html" $p }}<span aria-hidden="true">/</span><a href="{{ .RelPermalink }}">{{ .Params.short | default .Title }}</a>{{ end }}{{ end }}{{ end -}}
+  {{- if eq $p.Section "topics" }}{{ if $p.IsPage }}<span aria-hidden="true">/</span><a href="{{ (site.GetPage "/topics").RelPermalink }}">{{ i18n "topics" }}</a>{{ end }}{{ end -}}
+</nav>

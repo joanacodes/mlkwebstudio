@@ -1,5 +1,6 @@
 ---
 title: "110% Intérieur"
+translationKey: "projects/110-interieur"
 seo_title: "110% Intérieur : réseaux sociaux"
 description: "Publication sur les réseaux sociaux mise en place pour 110% Intérieur, studio d’architecture d’intérieur et de décoration du groupe 110%, en région parisienne."
 weight: 10

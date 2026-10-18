@@ -1,5 +1,6 @@
 ---
 title: "Ginov"
+translationKey: "projects/ginov"
 seo_title: "Ginov: building services website"
 description: "A website for Ginov, building services for restaurants and businesses in Paris and Île-de-France: electricity, plumbing, air conditioning and maintenance."
 weight: 7

@@ -1,0 +1,20 @@
+{{- /* Call to action at the end of an article, matched to the service the article is about (front matter "services") */ -}}
+{{- $svc := index (.Params.services | default slice) 0 | default "" -}}
+{{- if eq $svc "cold-emailing" -}}
+  {{ partial "leadhunters.html" . }}
+{{- else -}}
+  {{- $page := false -}}
+  {{- if eq $svc "websites" }}{{ $page = site.GetPage "/services/websites" }}{{ else if eq $svc "seo" }}{{ $page = site.GetPage "/services/seo" }}{{ end -}}
+  {{- $text := i18n "post_cta_default" -}}
+  {{- with $svc }}{{ $k := printf "post_cta_%s" . }}{{ with i18n $k }}{{ $text = . }}{{ end }}{{ end -}}
+<section class="pcta">
+  <div class="pcta__text">
+    <span class="label label--plain">{{ i18n "post_cta_label" }}</span>
+    <p class="pcta__lead">{{ $text }}</p>
+  </div>
+  <div class="pcta__actions">
+    <a class="button" href="{{ partial "book-url.html" . }}">{{ i18n "post_cta_button" }}</a>
+    {{ with $page }}<a class="link" href="{{ .RelPermalink }}">{{ .Title }} {{ partial "arrow.html" . }}</a>{{ end }}
+  </div>
+</section>
+{{- end -}}

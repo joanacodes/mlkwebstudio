@@ -1,5 +1,6 @@
 ---
 title: "Pilotech VMI"
+translationKey: "projects/pilotech-vmi"
 seo_title: "Pilotech VMI: positive-input ventilation"
 description: "A dedicated site for Pilotech’s positive-input ventilation in Paris and Île-de-France: seven unit pages and 21 articles on condensation, mould and damp."
 weight: 8
