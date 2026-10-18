@@ -79,7 +79,7 @@ Voici les solutions pour obtenir une adresse sur votre domaine, avec le prix d�
 
 ### Messagerie du registrar : Spacemail et Private Email de Namecheap
 
-Spacemail est la messagerie de Spaceship, le registrar lancé par Namecheap en 2023. D’après [la page Spacemail de Spaceship](https://www.spaceship.com/business-email/) (en anglais), l’offre Pro donne une boîte de 5 Go pour 18,88 $ (environ 16 €) pour deux ans, au même prix au renouvellement. Business (trois boîtes de 10 Go) et Advanced (cinq boîtes de 15 Go) coûtent plus cher et augmentent au renouvellement. Chaque offre commence par 30 jours d’essai gratuit, avec un webmail doté d’un agenda et des applications pour iOS et Android.
+Spacemail est la messagerie de Spaceship, le registrar lancé par Namecheap en 2023. D’après [la page Spacemail de Spaceship](https://www.spaceship.com/business-email/) (en anglais), l’offre Pro donne une boîte de 5 Go et jusqu’à 10 alias pour 18,88 $ (environ 17 €) les deux ans, au même prix au renouvellement. Business (trois boîtes de 10 Go) et Advanced (cinq boîtes de 15 Go) coûtent plus cher et augmentent au renouvellement. Chaque offre commence par 30 jours d’essai gratuit, avec un webmail doté d’un agenda et des applications pour iOS et Android.
 
 Namecheap vend sa propre messagerie, Private Email, sur le même modèle, avec 30 jours d’essai gratuit sur chaque offre. Les prix que j’ai trouvés en octobre 2026 ne concordent pas entre eux, donc je n’en cite aucun : vérifiez sur la page de Namecheap le jour de la commande.
 
