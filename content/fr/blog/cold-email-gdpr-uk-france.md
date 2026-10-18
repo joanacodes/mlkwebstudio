@@ -75,7 +75,7 @@ Deux habitudes complètent le tableau. Je vérifie les listes avec Reoon avant q
 
 ## Les mentions à mettre dans chaque email
 
-Quel que soit le destinataire, chaque email de prospection doit indiquer pour le compte de qui il est envoyé, porter un objet en rapport avec ce que vous proposez et donner des coordonnées valables pour demander l’arrêt des envois, sans frais. Ajoutez l’information de l’article 14, et le pied d’un premier cold email ressemble à ceci :
+Quel que soit le destinataire, chaque email de prospection doit indiquer pour le compte de qui il est envoyé et donner des coordonnées valables pour demander l’arrêt des envois, sans frais. Un objet qui annonce honnêtement le contenu du message va de soi. Ajoutez l’information de l’article 14, et le pied d’un premier cold email ressemble à ceci :
 
 ```
 [Prénom Nom], [Nom de la société] SAS

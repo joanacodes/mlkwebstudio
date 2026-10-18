@@ -22,20 +22,20 @@ faq:
   - q: "Can I move a domain to another account at the same registrar?"
     a: "Usually, yes. Many registrars offer an account-to-account move, often called a push, that keeps the domain where it is. It is not a transfer between registrars, so there is no authorisation code and no extra year: look for it in your registrar's help pages."
   - q: "Can I cancel a domain transfer once it has started?"
-    a: "While it is pending, usually yes: the notice from your current registrar often has a link to refuse it, and the new registrar can cancel the order. Once it has completed, the only way back is another transfer, which a registrar can refuse for 60 days under the current rules for .com."
+    a: "It depends on the registrars. While it is pending, the notice from your current registrar may include a link to refuse it, but Squarespace, for one, says a transfer cannot be cancelled once the new provider has the code. Once it has completed, the only way back is another transfer, which a registrar can refuse for 60 days under the current rules for .com."
   - q: "Is it safe to send someone my authorisation code?"
     a: "Only to the registrar you are moving to, through its transfer form. Whoever holds the code can request a transfer of your domain, so keep it out of email threads and shared documents. If it may have leaked, ask your registrar for a new one and keep the transfer lock on until you are ready."
 ---
 
-How to transfer a domain, in one sentence: switch off the transfer lock at the registrar that holds it, get its authorisation code (for a .co.uk, change its IPS tag instead), and hand that to the new registrar, which does the rest within a few days. What goes wrong is rarely the transfer itself. It is the DNS: a domain that moves without its records can take your website and your email down with it.
+Learning how to transfer a domain is the easy part: once you hand over a code, the two registrars do most of the work. What goes wrong is the DNS: a domain that moves without its records can take your website and your email down with it.
 
 I have worked with six registrars, some by choice and some because a client's domain was already there: Google Domains (now Squarespace), Namecheap, Spaceship, Infomaniak, Hostinger and OVH. Their control panels look nothing alike, but the method does not change, because the rules come from above them: ICANN's for .com and the other generic extensions, Nominet's for .co.uk. The screenshots use Spaceship, where my habits are, as the registrar you are moving to.
 
-One thing first: a transfer changes who you pay for the domain, nothing else. If you only want the domain to show a new website, you do not need one, and my guide to {{< a key="domain-hosting-email-guide" >}}domain vs hosting vs email{{< /a >}} explains which piece does what.
+One thing first: a transfer changes who you pay for the domain, nothing else. My guide to {{< a key="domain-hosting-email-guide" >}}domain vs hosting vs email{{< /a >}} explains which piece does what.
 
 ## What a domain transfer changes, and what it does not
 
-A registrar is the company through which a domain is registered and renewed. A transfer moves that registration to another registrar: the name, its owner and its DNS records stay exactly as they are. The word "transfer" gets used for other jobs too, so check which one you need:
+A registrar is the company through which a domain is registered and renewed. A transfer moves that registration to another registrar: the name and its owner stay the same, and so do its nameservers unless you change them. The word "transfer" gets used for other jobs too, so check which one you need:
 
 | You want to… | What it takes | Is it a transfer? |
 |---|---|---|
@@ -44,18 +44,18 @@ A registrar is the company through which a domain is registered and renewed. A t
 | Hand the domain to another person or company | A change of registrant, at the current registrar | No |
 | Move the website or the mailboxes | A new host or email provider | No, they move separately |
 
-Good reasons to transfer: one login and one bill for all your domains, a renewal price that has jumped, a control panel you cannot find your way around, or a provider you are leaving. I do not recommend OVH or Hostinger to small business owners, for example, because I find both a bit complicated to handle without a technical team. Saving a dollar a year on a domain that works is not a good reason: it costs you an afternoon for nothing.
+Good reasons to transfer: one login and one bill for all your domains, a renewal price that has jumped, a control panel you cannot find your way around, or a provider you are leaving. I do not recommend OVH or Hostinger to small business owners, for example, because I find both a bit complicated to handle without a technical team. Saving a pound or two a year on a domain that works is not a good reason: it costs you an afternoon for nothing.
 
 ## Before you start: can your domain be transferred?
 
-For .com, .net, .org and the other generic extensions, ICANN's [Transfer Policy](https://www.icann.org/resources/pages/about-transfer-policy-2017-10-10-en) sets the conditions. Your current registrar can, or must, refuse the transfer when:
+For .com, .net, .org and the other generic extensions, ICANN's [Transfer Policy](https://www.icann.org/resources/pages/transfer-policy-2016-06-01-en) sets the conditions. Your current registrar can, or must, refuse the transfer when:
 
 1. **The domain is less than 60 days old**, or was transferred less than 60 days ago.
 2. **The owner changed in the last 60 days.** A change of registrant (name, organisation or email address) can lock transfers for 60 days, unless you opted out where the registrar offers it. Update those details after the move, not before.
 3. **The transfer lock is on.** You switch it off yourself in step 3.
 4. **The domain is in dispute**, through a UDRP complaint or a court order, or an earlier registration period was never paid.
 
-{{< callout type="note" >}}ICANN has adopted a revised Transfer Policy with shorter locks, but at the time of writing (October 2026) the current rules above still apply. Check your registrar's help page before you start: it will say when the new rules take over.{{< /callout >}}
+{{< callout type="note" >}}ICANN has adopted a revised Transfer Policy with shorter locks, but at the time of writing (October 2026) the current rules above still apply. Check your registrar's help page before you start, in case the new rules have taken over.{{< /callout >}}
 
 A .co.uk follows Nominet's rules instead, with no code and no 60-day rule from ICANN. It has its own section below.
 
@@ -75,7 +75,7 @@ Type the domain into [ICANN Lookup](https://lookup.icann.org/) (for a .co.uk, us
 
 1. **The registrar.** Make sure the domain is where you think it is. If it sits in someone else's account, a former web designer's for example, start with my guide to {{< a key="recover-domain-name" >}}getting your domain back from a web designer{{< /a >}}.
 2. **The expiry date.** If it is only days away, renew first: a transfer can take up to a week.
-3. **The status codes.** `clientTransferProhibited` is the transfer lock, which you will switch off in step 3. `serverTransferProhibited` is a lock set at registry level: ask your registrar about it. `redemptionPeriod` or `pendingDelete` means the domain has expired and must be restored before it can move.
+3. **The status codes.** `clientTransferProhibited` is the transfer lock, which you will switch off in step 3. `serverTransferProhibited` is a lock set at registry level: ask your registrar about it. `redemptionPeriod` means the domain has expired and must be restored before it can move; `pendingDelete` on its own means it is too late even for that.
 4. **The nameservers.** They show who answers for your DNS today: the registrar you are leaving, your host, or a service such as Cloudflare.
 
 {{< screenshot id="transfer-domain-name-01" alt="ICANN Lookup result for a domain, showing its registrar, expiry date, status codes and nameservers" >}}
@@ -84,7 +84,7 @@ Type the domain into [ICANN Lookup](https://lookup.icann.org/) (for a .co.uk, us
 
 The transfer moves the registration, not the DNS zone. If your nameservers belong to the registrar you are leaving, its zone keeps answering during the transfer, but it can vanish once the domain has gone, and your site and email with it. So copy it now.
 
-Open the DNS page at your current registrar and copy every record into a text file: type, name, value, priority and TTL. Many panels can export the whole zone as a file, which is even better. For a small business with its website on Squarespace and its email on Google Workspace, the copy might look like this:
+Open the DNS page at your current registrar and copy every record into a text file: type, name, value, priority and TTL. Some panels can also export the whole zone as a file. For a small business with its website on Squarespace and its email on Google Workspace, the copy might look like this:
 
 ```
 A      @                  198.185.159.144
@@ -121,7 +121,7 @@ Copy the code exactly: codes mix letters, digits and symbols, and a stray space 
 
 ### Step 4: request the transfer at the new registrar
 
-Here is the Spaceship version, from its [guide to transferring a domain to Spaceship](https://www.spaceship.com/en-GB/knowledgebase/transfer-domain-guide/):
+Here is the Spaceship version, from its [guide to transferring a domain to Spaceship](https://www.spaceship.com/knowledgebase/transfer-domain-guide/):
 
 1. On spaceship.com, switch the domain search to **Transfer** and type the domain. Several domains can go at once, typed in or uploaded as a CSV file.
 2. Enter the authorisation code from step 3.
@@ -130,7 +130,7 @@ Here is the Spaceship version, from its [guide to transferring a domain to Space
 Spaceship's guide asks for a domain that is no longer locked and shows a normal status (ok or active) at the current registrar, which is why the lock comes off first. Other registrars have the same fields under different names. Before you pay, check two things:
 
 - **Nameservers.** If the order offers to keep the current ones, keep them: you will move the DNS on your own schedule in step 6.
-- **Privacy and renewal.** Spaceship includes WHOIS privacy free of charge on eligible domains. Switch on auto-renew as soon as the domain arrives.
+- **Privacy.** Spaceship includes WHOIS privacy free of charge on eligible domains: check that it is switched on for yours.
 
 {{< screenshot id="transfer-domain-name-04" alt="Spaceship domain search switched to Transfer, with the domain name typed in" >}}
 
@@ -170,7 +170,7 @@ Finally, switch the transfer lock back on if the new registrar has not done it, 
 
 ## How to transfer a .co.uk domain: change the IPS tag
 
-A .co.uk or .uk domain has no authorisation code. Nominet, the .uk registry, identifies each UK registrar by an IPS tag, and the domain changes registrar when its tag changes to the new registrar's. ICANN's 60-day rules do not apply, as .uk follows Nominet's own.
+A .co.uk or .uk domain has no authorisation code. Nominet, the .uk registry, identifies each registrar by an IPS tag, and the domain changes registrar when its tag changes to the new registrar's. ICANN's 60-day rules do not apply, as .uk follows Nominet's own.
 
 1. **Find the new registrar's tag** in its help pages. Spaceship's is `SPACESHIP`.
 2. **Change the tag at your current registrar.** Many panels have a field for it in the domain's settings (Hostinger's hPanel does); otherwise, ask support to change it.
@@ -180,18 +180,18 @@ Nominet's WHOIS shows the registrar's tag, so you can check that the change went
 
 ## Leaving Squarespace Domains (formerly Google Domains)
 
-Google sold its domain business to Squarespace: the deal was announced on 15 June 2023 and [completed on 7 September 2023](https://www.squarespace.com/press-releases/2023/9/7/squarespace-completes-acquisition-of-google-domains-assets), the day Google stopped selling domains, and customers were moved to Squarespace over the following months. Google Domains is one of the registrars I have used, so I know that move from the customer's side.
+Google sold its domain business to Squarespace: the deal was announced on 15 June 2023 and completed on 7 September 2023, the day Google stopped selling domains, and customers were moved to Squarespace over the following months. Google Domains is one of the registrars I have used, so I know that move from the customer's side.
 
-If your website is on Squarespace, keeping the domain there is the simplest option, and nothing forces you to leave. If you want your domains in one place, the method is the one above. Third-party guides describe the Squarespace side like this (labels can change, so trust what your screen shows):
+If your website is on Squarespace, keeping the domain there is the simplest option, and nothing forces you to leave. If you want your domains in one place, the method is the one above, and Squarespace's help article on [transferring a domain away from Squarespace](https://support.squarespace.com/hc/en-us/articles/205812338-Transferring-a-domain-away-from-Squarespace) covers its side:
 
-1. In Squarespace's **Domains** dashboard, open the domain and switch off **Domain Lock**: Squarespace locks its domains by default.
-2. Request the transfer code. Guides disagree on whether it appears on screen or arrives by email, sometimes up to 24 hours later, so check both.
-3. Start the transfer at the new registrar (step 4), then approve it by email or in your Squarespace account.
+1. In your domains dashboard, select the domain, switch off the **Domain Lock** toggle and click **Request transfer code**, then confirm with your password, or your two-factor code if it is on.
+2. The code arrives by email at the domain's contact address within 24 hours. If you request it more than once, only the most recent code works.
+3. Enter it at the new registrar (step 4). Squarespace warns that the transfer can take up to 15 days, and that it cannot be cancelled once the new provider has the code.
 
-Two precautions specific to this case:
+A domain that came free with a Squarespace plan loses that offer when it leaves, so the new registrar may charge for it. Two more precautions:
 
 - **If the site stays on Squarespace**, the transfer leaves it alone, but the zone at the new registrar needs Squarespace's records: four A records, the www CNAME and the verification CNAME. My tutorial on {{< a key="spaceship-domain-dns-tutorial" >}}Spaceship DNS settings{{< /a >}} adds them one by one.
-- **If your email runs on Google Workspace**, copy its MX, SPF and DKIM records too. Workspace is not tied to the registrar, but it stops receiving mail as soon as those records go missing.
+- **If your email runs on Google Workspace**, copy its MX, SPF and DKIM records too. Workspace is not tied to the registrar, but mail stops arriving as soon as the MX record goes missing, and what you send without SPF and DKIM is likely to land in spam.
 
 {{< screenshot id="transfer-domain-name-08" alt="Squarespace Domains dashboard for the domain, with Domain Lock switched off and the transfer code requested" >}}
 
