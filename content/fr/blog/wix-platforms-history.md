@@ -1,7 +1,7 @@
 ---
 title: "Wix avis : de Wix ADI à Wix Harmony, l’histoire des éditeurs et mon verdict"
 seo_title: "Wix avis : Wix Editor, Studio ou Harmony ? Mon verdict"
-description: "Wix avis : à qui servent Wix Editor, Wix Studio et Wix Harmony, pourquoi Wix change sans cesse d’éditeur, et mon verdict honnête pour une petite entreprise."
+description: "Wix avis : à qui s’adressent Wix Editor, Studio et Harmony, pourquoi Wix change sans cesse d’éditeur, et mon verdict honnête pour une petite entreprise."
 slug: "wix-avis-histoire-editeurs"
 translationKey: "wix-platforms-history"
 date: 2026-10-17T08:19:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:19:00+02:00
 category: "websites"
 article_type: "opinion"
 keywords: ["Wix avis", "avis Wix Studio", "Wix Studio ou Wix Editor", "Wix Harmony", "Editor X", "Wix ADI"]
-summary: "Wix Editor est l’éditeur glisser-déposer historique, Wix Studio a remplacé Editor X pour les agences et les freelances, et Wix Harmony, lancé en janvier 2026, ajoute un agent IA à l’édition visuelle. Mon avis sur Wix : le meilleur sur le papier, mais un éditeur qui a toujours ramé, quels que soient l’appareil, la connexion ou le pays. Si vous choisissez Wix, prenez Wix Studio, confiez le site à un spécialiste et ne prévoyez pas d’y toucher vous-même."
+summary: "Wix Editor est l’éditeur glisser-déposer historique, Wix Studio a remplacé Editor X pour les agences et les freelances, et Wix Harmony, lancé en janvier 2026, ajoute un agent IA à l’édition visuelle. Mon avis sur Wix : le meilleur sur le papier, mais un éditeur qui a toujours ramé quand je l’ai utilisé, quels que soient l’appareil, la connexion ou le pays. Si vous choisissez Wix, prenez Wix Studio, confiez le site à un spécialiste et ne prévoyez pas d’y toucher vous-même."
 cover: "wix-platforms-history"
 cover_alt: "Silhouette floue derrière un verre cannelé, avec une grille de plan, un viseur et le titre Wix, de 2006 à 2026"
 related: ["squarespace-vs-wordpress", "small-business-website-guide", "build-website-with-ai", "website-maintenance", "professional-looking-website"]
@@ -27,7 +27,7 @@ faq:
 
 Mon avis sur Wix tient en deux phrases. Sur le papier, c’est le meilleur créateur de sites du marché. À l’usage, c’est une plateforme que je déconseille vivement aux dirigeants qui veulent gérer leur site eux-mêmes.
 
-Encore faut-il savoir de quel Wix on parle. Depuis janvier 2026, Wix propose trois éditeurs : Wix Editor, Wix Studio et Wix Harmony. Et ce n’est pas nouveau : depuis son premier éditeur, en 2007, Wix n’a cessé de lancer, de renommer et d’abandonner des plateformes.
+Encore faut-il savoir de quel Wix on parle. Depuis janvier 2026, Wix propose trois éditeurs : Wix Editor, Wix Studio et Wix Harmony. De quoi s’y perdre, et ce n’est pas nouveau : depuis son premier éditeur, en 2007, Wix n’a cessé de lancer, de renommer et d’abandonner des plateformes.
 
 Je connais bien Wix : j’ai essayé ses plateformes les unes après les autres et j’ai même participé à ses événements. Cet article est donc un avis autant qu’un comparatif : à quoi sert chaque éditeur, comment Wix en est arrivé à trois, et ce que je conseille selon la personne qui modifiera votre site. Si vous comparez encore les plateformes, commencez par mon guide pour {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}}.
 
@@ -57,7 +57,7 @@ Il convient à un projet personnel ou à un premier essai. Pour un site d’entr
 
 Wix a annoncé Wix Studio en août 2023, comme une plateforme destinée aux agences et aux freelances. On y construit des mises en page responsive avec des points de rupture, pour que la même page s’adapte à l’ordinateur, à la tablette et au mobile. S’y ajoutent des outils de développement plus complets et un espace de travail pensé pour gérer plusieurs sites clients.
 
-C’est donc le bon Wix pour un spécialiste, et une pente raide pour tous les autres.
+C’est donc le bon Wix pour un spécialiste, et un apprentissage ardu pour tous les autres.
 
 ### Wix Harmony, pour créer avec l’IA
 
@@ -82,7 +82,7 @@ Wix a été fondé à Tel-Aviv en 2006. Depuis, son histoire ressemble à une su
 | Juin 2025 | Wix rachète Base44, une plateforme de « vibe coding » qui crée des applications à partir d’instructions en langage courant |
 | Janvier 2026 | Lancement de Wix Harmony, avec Aria |
 
-Lisez ce tableau en utilisateur plutôt qu’en investisseur, et le schéma saute aux yeux : deux de ces plateformes, ADI et Editor X, n’existent plus, et l’outil de code a changé deux fois de nom avant que Wix n’oriente les développeurs vers son SDK JavaScript. Chaque changement a été décidé par Wix, au rythme de Wix.
+Lisez ce tableau en utilisateur plutôt qu’en investisseur, et le constat saute aux yeux : trois de ces plateformes, l’éditeur Flash, ADI et Editor X, n’existent plus, et l’outil de code a changé deux fois de nom avant que Wix n’oriente les développeurs vers son SDK JavaScript. Chaque changement a été décidé par Wix, au rythme de Wix.
 
 ## Mon avis sur Wix : le meilleur sur le papier, le pire à l’usage
 
@@ -95,11 +95,11 @@ L’autre problème, c’est le public qu’il attire. Wix sait très bien sédu
 Mon conseil aux créateurs d’entreprise est donc court :
 
 - Si vous voulez modifier le site vous-même, n’utilisez pas Wix.
-- Si vous tenez à Wix, partez sur Wix Studio, engagez un très bon spécialiste, dont le travail ne donnera pas une image peu sérieuse de votre entreprise, et ne touchez plus jamais au site. Confiez-lui chaque modification, même la plus petite.
+- Si vous tenez à Wix, optez pour Wix Studio, engagez un très bon spécialiste, dont le travail ne donnera pas une image peu sérieuse de votre entreprise, et ne touchez plus jamais au site. Confiez-lui chaque modification, même la plus petite.
 
-Votre site est souvent la première impression qu’un prospect a de vous, et mon guide du {{< a key="professional-looking-website" >}}site internet haut de gamme{{< /a >}} détaille ce que les visiteurs jugent dans les premières secondes.
+Votre site est souvent la première impression qu’un prospect a de vous, et mon article sur le {{< a key="professional-looking-website" >}}site internet haut de gamme{{< /a >}} détaille ce que les visiteurs jugent dans les premières secondes.
 
-Une précision compte ici. La lenteur dont je parle est celle de l’éditeur, là où vous travaillez. Pour le site que voient vos visiteurs, mesurez plutôt que de vous fier à une impression, la mienne comprise : mon guide sur la {{< a key="core-web-vitals-speed" >}}vitesse de chargement d’un site internet{{< /a >}} montre comment tester une page en quelques minutes.
+Une précision s’impose. La lenteur dont je parle est celle de l’éditeur, là où vous travaillez. Pour le site que voient vos visiteurs, mesurez plutôt que de vous fier à une impression, la mienne comprise : mon guide sur la {{< a key="core-web-vitals-speed" >}}vitesse de chargement d’un site internet{{< /a >}} montre comment tester une page en quelques minutes.
 
 ## Le coût caché de chaque nouvel éditeur Wix
 
@@ -109,11 +109,11 @@ Pour une petite entreprise, ce renouvellement coûte trois choses :
 
 1. Votre temps. Un nouvel éditeur, ce sont de nouveaux menus, une nouvelle logique de mise en page et de nouvelles habitudes, et les heures passées à les apprendre sont prises sur votre semaine de travail.
 2. Votre maîtrise. Quand Wix arrête une plateforme, votre site déménage au rythme de Wix, pas au vôtre.
-3. Votre porte de sortie. Un site Wix ne peut pas partir chez un autre hébergeur : la seule alternative au suivi des changements, c’est une refonte.
+3. Votre porte de sortie. Un site Wix ne peut pas partir chez un autre hébergeur : si vous ne voulez plus suivre le mouvement, il ne reste que la refonte.
 
 Rien de tout cela n’apparaît dans le prix mensuel. Sur un créateur de sites, suivre les évolutions de la plateforme fait partie de la {{< a key="website-maintenance" >}}maintenance d’un site internet{{< /a >}}, au même titre que le contenu, la sécurité et le SEO.
 
-{{< callout type="tip" >}}Quelle que soit la personne qui crée votre site Wix, gardez le site et le nom de domaine dans un compte Wix au nom de votre entreprise, et invitez le spécialiste comme collaborateur. S’il construit le site dans son propre compte, convenez par écrit de la date à laquelle il vous le transférera : Wix permet de transférer un site vers un autre compte, et le transfert n’aboutit qu’une fois accepté depuis le vôtre.{{< /callout >}}
+{{< callout type="tip" >}}Quelle que soit la personne qui crée votre site Wix, gardez le site dans un compte Wix au nom de votre entreprise, réservez le nom de domaine à ce même nom, et invitez le spécialiste comme collaborateur. S’il construit le site dans son propre compte, convenez par écrit de la date à laquelle il vous le transférera : Wix permet de transférer un site vers un autre compte, et le transfert n’aboutit qu’une fois accepté depuis le vôtre.{{< /callout >}}
 
 ## Wix ou pas Wix : ma checklist avant de choisir
 

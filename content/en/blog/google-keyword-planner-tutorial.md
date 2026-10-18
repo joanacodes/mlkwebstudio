@@ -16,7 +16,7 @@ related: ["keyword-research-small-business", "google-trends-tutorial", "semrush-
 services: ["seo"]
 faq:
   - q: "Is Google Keyword Planner free?"
-    a: "Yes. It is free inside a Google Ads account, and you do not have to run ads to use it. Google asks you to finish setting up the account, billing details included, but you only pay for ads that actually run."
+    a: "Yes. It is free inside a Google Ads account, and you do not have to run ads to use it. Google may ask you to finish setting up the account, billing details included, but you pay only for ads that actually run."
   - q: "Can I use Keyword Planner without a Google Ads account?"
     a: "No. Keyword Planner only works inside Google Ads, but opening an account costs nothing. Without one, Google Trends shows which phrasings people search more, and a free Semrush account gives 10 keyword searches a day at the time of writing (October 2026)."
   - q: "How can I see exact search volumes instead of ranges?"
@@ -27,7 +27,7 @@ faq:
     a: "Usually because too few people search for it in the location you chose. Widen the location, from a town to its county or region, try a shorter or more common phrasing, or check the subject in Google Trends."
 ---
 
-Google Keyword Planner is Google's free keyword research tool. It sits inside Google Ads because it was built for advertisers, but you can use it without running a single ad. It shows roughly how many times a phrase is searched each month, how that changes over time, and what advertisers bid to appear at the top of the results.
+Google Keyword Planner is Google's free keyword research tool. It sits inside Google Ads because it was built for advertisers, but you can use it without running a single ad.
 
 There is a catch. You need a Google Ads account in Expert Mode, Google asks for billing details, and without ad spend the volumes appear as ranges, such as 1K–10K, rather than exact figures. This tutorial shows how to get in without spending anything, then how to read what you find so that you can choose the keywords your pages should rank for.
 
@@ -35,30 +35,29 @@ It is part of my {{< a key="small-business-seo-guide" >}}guide to small business
 
 ## What Google Keyword Planner is, and what it shows
 
-Keyword Planner suggests keywords and estimates their monthly searches and their cost in ads, from Google's own search data. Advertisers use it to plan campaigns. For SEO, it answers three questions: does anyone search for this, which phrasing do people use more, and which searches are worth money.
+Keyword Planner suggests keywords and estimates their monthly searches and their cost in ads, from Google's own search data. For SEO, it answers three questions: does anyone search for this, which phrasing do people use more, and which searches are worth money.
 
 | What you get | What you do not get |
 |---|---|
 | Keyword ideas from a few words or a web address | How hard a keyword is to rank for |
-| Average monthly searches, as ranges without ad spend | Exact volumes, unless the account spends on ads |
+| Average monthly searches, as ranges without ad spend | Exact volumes, unless the account spends enough on ads |
 | How searches changed over three months and over a year | Who ranks for the keyword today |
 | Top-of-page bid estimates for each keyword | Searches made on Bing or in AI assistants |
 
-## Step 1: create a Google Ads account without a campaign
+## Step 1: create a Google Ads account without running ads
 
 1. Go to ads.google.com and sign in with the Google account you will keep for the business, rather than a personal address you could lose access to.
-2. Google's setup opens on questions about your goals, to build a first campaign. Look for the **Switch to Expert Mode** link, usually at the bottom of the screen. Keyword Planner needs Expert Mode: it is not part of Smart Mode, the simplified version Google offers small advertisers.
-3. On the next screen, choose **Create an account without a campaign**.
-4. Confirm the billing country, the time zone and the currency: United Kingdom, London time and British pounds for a UK business. Choose the currency carefully, as it cannot be changed later.
-5. Add your billing details when Google asks for them. According to Google's help, the account setup, billing information included, has to be complete before you can use basic features such as keyword ideas.
+2. Google's setup opens on questions about your goals, to build a first campaign. Look near the bottom of the screen for a link that skips it. For years it read **Switch to Expert Mode**, then **Create an account without a campaign** on the next screen, but Google changes this sign-up from time to time, and not every version offers the shortcut.
+3. Confirm the billing country, the time zone and the currency: United Kingdom, London time and British pounds for a UK business. Choose the currency carefully, as it cannot be changed later.
+4. Add your billing details when Google asks for them. Keyword Planner can stay locked until the account setup, billing included, is complete.
 
-Adding billing details does not start any ads. You pay for ads that run, and an account without a campaign has nothing to run.
+Adding billing details does not start any ads: you pay for ads that run, and an account without a campaign has nothing to run.
 
-If the sign-up will not let you through without a campaign, finish it, then open **Campaigns** and set the new campaign's status to **Paused**. A paused campaign shows no ads and costs nothing. Google reviews most new ads within one business day, so pause it as soon as it exists rather than the next morning.
+If your sign-up offers no way past the campaign, finish it, then open **Campaigns** and set the new campaign's status to **Paused**. A paused campaign shows no ads and costs nothing. Google reviews most new ads within one business day, so pause it as soon as it exists rather than the next morning.
 
-{{< callout type="tip" >}}If you already have a Google Ads account in Smart Mode, you do not need a second one: **switch it to Expert Mode** from the account's menu, and Keyword Planner becomes available.{{< /callout >}}
+{{< callout type="tip" >}}Keyword Planner is not part of Smart Mode, the simplified version of Google Ads for small advertisers. If your account is in Smart Mode, because it already existed or because the sign-up built a Smart campaign, you do not need a second one: **switch it to Expert Mode**, as [Google's Keyword Planner page](https://business.google.com/uk/ad-tools/keyword-planner/) explains, and the tool becomes available.{{< /callout >}}
 
-{{< screenshot id="google-keyword-planner-tutorial-01" alt="Google Ads sign-up screen showing the Switch to Expert Mode link, which leads to the option to create an account without a campaign" >}}
+{{< screenshot id="google-keyword-planner-tutorial-01" alt="Google Ads sign-up screen with the link near the bottom that skips the first campaign" >}}
 
 ## Step 2: open Keyword Planner
 
@@ -92,7 +91,7 @@ Above the results, four settings change every figure on the page. Check them bef
 
 1. **Location**: the area you serve. A business that works in one city should choose that city or its county; a national service, the whole country. Run London and Manchester as two searches rather than one.
 2. **Language**: English for UK clients. Change it, along with the location, for each market you sell in.
-3. **Search network**: keep **Google** rather than Google and search partners.
+3. **Search network**: choose **Google** rather than Google and search partners, the other sites that show Google's ads. For SEO, the searches made on Google itself are the ones that count.
 4. **Date range**: the last 12 months by default, which turns a seasonal business into a flat average. Choose the months of your season to see their figures, or read the season itself in Google Trends.
 
 {{< screenshot id="google-keyword-planner-tutorial-04" alt="Keyword ideas page with the location, language, search network and date range settings above the table" >}}
@@ -126,18 +125,18 @@ Within one band, two other free tools decide:
 
 The last two columns, **Top of page bid (low range)** and **Top of page bid (high range)**, estimate what advertisers bid to appear above the unpaid results. [Google defines them](https://support.google.com/google-ads/answer/3022575?hl=en-GB) as roughly the 20th and 80th percentiles of recent bids that showed an ad at the top of the page, for the location and network you selected. They are not a price list, and they stay empty for keywords with little bidding history.
 
-For SEO, these columns are a free measure of commercial value. Advertisers do not keep paying for clicks that never turn into clients, so a keyword with high bids is one that brings business.
+For SEO, these columns are a free measure of commercial value. Advertisers do not keep paying for clicks that never turn into clients, so a keyword that stays expensive is usually one that brings them business.
 
 This is how I choose what to rank for. I look at the keywords advertisers pay for and what each click costs them, which shows the keywords that work best, then I double down on those with SEO instead of paying for every click. I do it in Semrush, but Keyword Planner gives you the same signal for free, straight from Google.
 
-Read the two bid columns together with the volumes:
+Read the bid columns together with the volumes, comparing each keyword with the rest of your list:
 
 | Searches | Bids | What it usually means | What to do |
 |---|---|---|---|
-| A decent range | High | People buy from this search | A dedicated service page, as a priority |
-| A decent range | Low or empty | People want information | A blog post or a guide |
-| A low range | High | Few searches, but valuable ones | A page, if it is exactly what you sell |
-| A low range | Low or empty | Little demand | Cover it inside another page, or leave it |
+| 100–1K or more | High | People buy from this search | A dedicated service page, as a priority |
+| 100–1K or more | Low or empty | People want information | A blog post or a guide |
+| 10–100 or less | High | Few searches, but valuable ones | A page, if it is exactly what you sell |
+| 10–100 or less | Low or empty | Little demand | Cover it inside another page, or leave it |
 
 Compare bids for the same location: the price of a click varies from one place to another.
 
@@ -148,7 +147,7 @@ Compare bids for the same location: the price of a click varies from one place t
 A long list is not a good list. Two tools shorten it:
 
 - **Refine keywords**, beside the results, groups the ideas by theme, such as brands or product types, so that you can untick a whole group at once. Google explains it in its [help page on refining keywords](https://support.google.com/google-ads/answer/9907498?hl=en-GB).
-- **Filters**, above the table, hide ideas by their text or their figures. Exclude the words that bring people who will never buy, such as jobs, course, free or DIY.
+- **Filters**, above the table, hide ideas by their text or their figures. Exclude the words that bring people who will never buy, such as jobs, course or DIY, and free unless your clients search for a free quote.
 
 Then remove by hand the places you do not serve, competitors' brand names and services you do not offer. What is left should read like the requests of your future clients.
 

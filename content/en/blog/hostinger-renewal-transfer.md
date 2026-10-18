@@ -1,7 +1,7 @@
 ---
 title: "Hostinger renewal price: what you really pay, and how to move your domain out"
 seo_title: "Hostinger renewal price: what you pay, and how to leave"
-description: "Hostinger renewal price, checked October 2026: Premium goes from £2.99 to £10.99 a month after 48 months. Plan for it, or move your domain out safely."
+description: "Hostinger renewal price, checked October 2026: Premium goes from £2.99 ($4) to £10.99 ($15) a month after 48 months. Plan for it, or move your domain out."
 slug: "hostinger-renewal-price"
 translationKey: "hostinger-renewal-transfer"
 date: 2026-10-17T08:52:00+02:00
@@ -16,7 +16,7 @@ related: ["transfer-domain-name", "best-domain-registrar", "web-hosting-comparis
 services: ["rescue"]
 faq:
   - q: "Can I leave Hostinger's hosting but keep my domain there?"
-    a: "Yes. Point the domain to your new host by changing its DNS records, or its nameservers, in hPanel. Hostinger says a nameserver change is free and takes effect within 24 hours. You keep paying Hostinger's renewal price for the domain itself."
+    a: "Yes. Point the domain to your new host by changing its DNS records, or its nameservers, in hPanel. Hostinger says a nameserver change takes effect within 24 hours. You keep paying Hostinger's renewal price for the domain itself."
   - q: "Do I lose the time already paid when I transfer a .com?"
     a: "Usually not. A .com transfer normally adds one year to the existing registration, so the time left is kept. A .co.uk changes registrar through its IPS tag instead, so ask your new registrar what it charges, if anything."
   - q: "Will my email stop working during a domain transfer?"
@@ -45,7 +45,7 @@ The plan above it follows the same pattern: £3.99 a month (about $5) for 48 mon
 
 Two details change the sums:
 
-- **The free domain is free for the first year only.** Premium includes a domain for its first year; after that, the domain renews at Hostinger's standard price for its extension, on top of the hosting.
+- **The free domain is free for the first year only.** Premium includes a domain for its first year; after that, the domain renews at Hostinger's standard price for its extension, on top of the hosting. At the time of writing, Hostinger's domain pages list £10.99 a year (about $15) for a .co.uk and £16.99 (about $23) for a .com.
 - **Promotions move the first price, not the renewal.** Hostinger's own deal pages have shown Premium at £1.99 a month (about $2.70) with three extra months, still renewing at £10.99. Whatever the banner says, the figure to plan for is the renewal.
 
 ## Why the first price is so low: four years paid upfront
@@ -62,7 +62,7 @@ It can be a good deal, as long as you see the whole picture:
 
 Hostinger suits people who are at ease in a control panel and happy to pay four years upfront: a freelancer who runs a few WordPress sites, or an owner with some technical confidence who wants a low monthly cost. If that is you and the renewal fits your budget, renewing is a reasonable choice. Put the date in your calendar and budget for £10.99 a month (about $15), not £2.99.
 
-It is not what I recommend to small business owners on their own. In my experience it is a bit complicated to handle when all you want is to change a line on your site or point the domain somewhere new. Of the hosts I have worked with, I recommend Infomaniak, and o2switch for businesses in France; I compare the options in {{< a key="web-hosting-comparison" >}}Hostinger vs OVH vs Infomaniak{{< /a >}}.
+It is not what I recommend to small business owners who run everything on their own. Of the hosts I have worked with, I recommend Infomaniak, and o2switch for businesses in France; I compare the options in {{< a key="web-hosting-comparison" >}}Hostinger vs OVH vs Infomaniak{{< /a >}}.
 
 For domains, my habits are with Spaceship, which was built by Namecheap, and I trust both: their prices are fair, their support answers around the clock, and their renewals have not jumped the way I have seen elsewhere. My {{< a key="spaceship-vs-namecheap" >}}Spaceship vs Namecheap{{< /a >}} comparison explains the difference between them, and my pick of the {{< a key="best-domain-registrar" >}}best domain registrar in the UK{{< /a >}} compares six registrars on renewal price.
 
@@ -106,7 +106,7 @@ TXT    @        "v=spf1 include:_spf.example.net ~all"
 TXT    _dmarc   "v=DMARC1; p=none; rua=mailto:you@yourdomain.co.uk"
 ```
 
-Then, at least a day before you change anything, lower the TTL of each record you will move to 300 seconds (five minutes), or the lowest hPanel accepts. On the day of the switch, caches forget the old answers within minutes. My guide to {{< a key="dns-records-explained" >}}DNS records{{< /a >}} explains each type and how propagation works.
+Then, at least a day before you change anything, lower the TTL of each record you will move to 300 seconds (five minutes), or the lowest hPanel accepts. On the day of the switch, caches then forget the old answers within minutes, and if a record turns out wrong in the new zone, your fix reaches everyone just as fast. My guide to {{< a key="dns-records-explained" >}}DNS records{{< /a >}} explains each type and how propagation works.
 
 {{< screenshot id="hostinger-renewal-transfer-02" alt="hPanel DNS records for the domain: A, CNAME, MX and TXT records with their TTL" >}}
 
@@ -175,7 +175,7 @@ $ dig +short yourdomain.co.uk MX
 
 Before you call the move finished:
 
-1. The domain is over 60 days old, not expired, and DNSSEC is off.
+1. The domain is not expired, DNSSEC is off, and a .com is over 60 days old.
 2. Every DNS record is copied, and the TTLs were lowered a day ahead.
 3. The transfer lock and privacy protection are off in Domain Overview.
 4. You have the EPP code, or you changed the IPS tag of a .co.uk.

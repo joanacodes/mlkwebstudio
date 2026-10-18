@@ -185,7 +185,7 @@ Some advice still in circulation costs time and changes nothing. Skip:
 - **The meta keywords tag.** Google does not use it, as its [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) says in a list of things not to focus on.
 - **Word counts and keyword density.** That list includes content length, and repeating a keyword to reach a percentage is keyword stuffing, which breaks Google's spam policies.
 - **Special files and markup for AI search.** Google's guide to its AI features, published in May 2026, says that optimising for AI Overviews and AI Mode is still SEO: llms.txt files, content cut into chunks and special schema are not needed for Google Search.
-- **A perfect PageSpeed score.** The score at the top of PageSpeed Insights comes from a simulated visit. Aim to pass the Core Web Vitals instead; a page can do so with a score well below 100.
+- **A perfect PageSpeed score.** The performance score out of 100 in PageSpeed Insights comes from a simulated visit. Aim to pass the Core Web Vitals instead; a page can do so with a score well below 100.
 
 ## Your on-page SEO checklist to copy, and when to hand it over
 

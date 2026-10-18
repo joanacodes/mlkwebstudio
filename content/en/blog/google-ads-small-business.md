@@ -18,7 +18,7 @@ faq:
   - q: "Do Google Ads improve my SEO rankings?"
     a: "No. Paying for ads does not lift your unpaid rankings, and stopping them does not lower them. Ads can still show you which searches bring clients, which helps you choose the keywords to work on with SEO."
   - q: "How long does Google take to approve an ad?"
-    a: "Most ads are reviewed within one business day, and some need a longer review. An approved ad can start running; one that breaks a policy is disapproved and does not show. If nothing has changed after two full business days, check the ad's status."
+    a: "Most ads are reviewed within one business day, and some need a longer review. An approved ad can start running; one that breaks a policy is disapproved and does not show. If an ad is still under review after two full business days, check its status for a policy problem."
   - q: "Does Google charge anything on top of the clicks?"
     a: "Yes, in some countries. At the time of writing (October 2026), Google adds a 2% surcharge to ads served in the UK (the UK DST Fee) and 2% to ads served in France, based on where the ad is shown rather than where your business is, and VAT is billed separately. [Google lists the surcharges by country](https://support.google.com/google-ads/answer/9750227?hl=en-GB)."
   - q: "Can I run Google Ads myself, without an agency?"
@@ -84,14 +84,14 @@ To find the words people actually use, I run Deep Research on what people in a n
 
 Keyword Planner is free inside a Google Ads account, and you can use it without running a single ad: my {{< a key="google-keyword-planner-tutorial" >}}Google Keyword Planner tutorial{{< /a >}} shows how. Set the location to the area you really serve, then read two things for each keyword:
 
-- **the average monthly searches**: if almost nobody searches, there is little to buy;
+- **the average monthly searches**: if almost nobody searches, there is little to buy (an account that spends little sees a range, such as 1K–10K, rather than an exact figure);
 - **Top of page bid (low range)** and **Top of page bid (high range)**: roughly the 20th and 80th percentiles of the bids that put an ad at the top of the page over the last 30 days. It is an estimate, not a price list, and it is missing for keywords with little bidding history.
 
 ### 3. Look at who already advertises
 
 Search your main keywords and note who appears, what they promise and where their ads lead. [Google's Ads Transparency site](https://adstransparency.google.com/) lets you look up an advertiser by name or website and see the ads it runs.
 
-Then I open Semrush and look at the keywords advertisers pay for and what each click costs them, which shows the keywords that work best. I then double down on those keywords with SEO rather than ads, because a ranking keeps working without a bill per click. My {{< a key="semrush-review" >}}Semrush review{{< /a >}} looks at whether the paid plans are worth it.
+Then I open Semrush and look at the keywords advertisers pay for and what each click costs them, which shows the keywords that work best. I then double down on those keywords with SEO rather than ads. For a campaign, the same figures give you a second opinion on the click prices Google estimates. My {{< a key="semrush-review" >}}Semrush review{{< /a >}} looks at whether the paid plans are worth it.
 
 ### 4. Work out what you can pay for a click
 
@@ -112,7 +112,7 @@ Send each group of keywords to a page about exactly that service, not to your ho
 
 The page also has to make you look serious. When I {{< a page="/services/websites" >}}design a website{{< /a >}}, I want my client's prospects to take them seriously from the first screen, which also cuts down the haggling over price. A paid click is a first impression you have already paid for.
 
-Then set up conversion tracking, before the first click. Decide what counts as a result (a form sent, a tap on your phone number, a call from the ad), add the Google tag to your site and create a conversion action for each. Test them yourself. Without tracking, Google can only chase clicks, and you will never know which keyword brought the client.
+Then set up conversion tracking, before the first click. Decide what counts as a result (a form sent, a tap on your phone number, a call from the ad), add the Google tag to your site and create a conversion action for each. Test them yourself, and accept the cookies on your own banner when you do: in the UK and France, visitors who refuse cookies are measured only in part, or not at all, depending on how the tag handles consent. Without tracking, Google can only chase clicks, and you will never know which keyword brought the client.
 
 ## Choose the right campaign type
 
@@ -125,7 +125,7 @@ The list of campaign types is longer than a small business needs:
 | Display, Video, Demand Gen | Websites, apps, YouTube, Gmail, Discover | Awareness and remarketing to past visitors, rarely first enquiries |
 | Shopping | Product listings with a photo and a price | Online shops with a product feed |
 
-Google is also cutting back its support for Smart campaigns, the simplified campaigns it long offered small businesses. Since 3 August 2026, new ones can no longer be created through the Google Ads API, and Google points advertisers to Search or Performance Max instead. Whatever your account still shows, I would start with Search: you choose the keywords, you see the searches and you keep control.
+Google is also cutting back its support for Smart campaigns, the simplified campaigns it long offered small businesses. Since 3 August 2026, new ones can no longer be created through the Google Ads API, which third-party tools use to build campaigns, and Google points advertisers to Search or Performance Max instead. Whatever your account still shows, I would start with Search: you choose the keywords, you see the searches and you keep control.
 
 ### Check the AI Max settings
 
@@ -139,7 +139,7 @@ These are the settings that matter most:
 
 1. **Networks**: untick the Display Network. I would leave out search partners too, until results on Google itself show the campaign works.
 2. **Locations**: the area you serve, as a town, a region or a radius around your address. In the location options, reach people who are in or regularly in that area, not people who have only shown interest in it.
-3. **Bidding**: until conversions come in, focus on clicks with a maximum cost per click at or below the figure from your maths. Move to conversion bidding once the tracking has some to work with.
+3. **Bidding**: until conversions come in, focus on clicks (Maximise clicks) with a maximum cost per click bid limit at or below the figure from your maths. Move to conversion bidding once the tracking has some to work with.
 4. **Ad groups and ads**: one ad group per service, each with a handful of closely related keywords and a responsive search ad. That ad takes up to 15 headlines of 30 characters and 4 descriptions of 90, which Google combines and tests: repeat the search in the headlines ("Boiler repair in Leeds") and give a reason to choose you (a same-day visit, a fixed quote).
 5. **Assets**: add sitelinks, callouts, your phone number and your address, so that the ad takes more space and offers more ways in.
 
@@ -159,9 +159,9 @@ Negative keywords do the opposite: they stop your ad from showing. Add your list
 
 ### How the daily budget works
 
-You set an average daily budget, not a strict daily cap. On a busy day, Google can spend up to twice that amount, but over a month it never charges more than 30.4 times it, the average number of days in a month, and credits back anything delivered beyond that, as [Google Ads Help explains](https://support.google.com/google-ads/answer/6385083?hl=en-GB). With £15 a day, one day can cost £30 and the month stops at £456.
+Google sets no minimum spend. You choose an average daily budget, which is not a strict daily cap. On a busy day, Google can spend up to twice that amount, but over a month it never charges more than 30.4 times it, the average number of days in a month, and credits back anything delivered beyond that, as [Google Ads Help explains](https://support.google.com/google-ads/answer/6385083?hl=en-GB). With £15 a day, one day can cost £30, but the bill for the month cannot go above £456.
 
-Choose the figure from what you are ready to spend to learn, not from what you hope to win, and give the test a fixed length.
+Choose the figure from what you are ready to spend to learn, not from what you hope to win, then check what it buys. At £7.50 a click, £15 a day is two clicks, about 60 a month: at the rates above, three enquiries and not quite one client. With too few clicks the test tells you nothing, so give it a fixed length that buys enough of them.
 
 ## The first weeks: read, cut, adjust
 
@@ -169,7 +169,7 @@ The real work starts after launch. Once a week:
 
 - **Read the search terms report.** It shows the searches that actually triggered your ads. Add the irrelevant ones as negative keywords, and give the good ones a keyword of their own.
 - **Pause what spends without results.** I would stop a keyword that has spent what a client is worth to you without a single enquiry.
-- **Check the Quality Score columns** and fix the part rated below average.
+- **Check the Quality Score columns**, which stay hidden until you add them to the keywords table, and fix the part rated below average.
 - **Watch what visitors do on the page.** I use Microsoft Clarity to see where people engage, whether they came for something specific and which parts make them leave, so I can tell whether the copy, a picture or the layout needs fixing.
 - **Change one thing at a time**, so that you know what made the difference.
 

@@ -94,7 +94,7 @@ shower. If the windows still stream every morning, it is time to
 look at ventilation that runs all the time.
 ```
 
-The first lines matter for AI search too: Google now answers many simple questions with an AI Overview at the top of its results, and a plainly stated answer is easier to pick up. Google's [guide to its generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), published in May 2026, says optimising for them "is still SEO", with no need to chunk or rewrite content for AI. More in {{< a key="write-content-for-ai-search" >}}how to write content that AI assistants actually quote{{< /a >}}.
+The first lines matter for AI search too: Google now answers many simple questions with an AI Overview at the top of its results, and a plainly stated answer is easier to pick up. Google's [guide to its generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), published in May 2026, says optimising for them is still SEO, with no need to chunk or rewrite content for AI. More in {{< a key="write-content-for-ai-search" >}}how to write content that AI assistants actually quote{{< /a >}}.
 
 ## Step 4: build the outline from the reader's next questions
 

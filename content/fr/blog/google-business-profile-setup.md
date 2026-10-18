@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:07:00+02:00
 category: "seo"
 article_type: "tutorial"
 keywords: ["fiche Google My Business", "créer une fiche Google My Business", "fiche d’établissement Google", "Google Business Profile", "validation fiche Google par vidéo", "avis Google"]
-summary: "Pour créer votre fiche Google My Business (devenue fiche d’établissement Google), cherchez votre entreprise sur Google Maps et revendiquez-la, ou créez-la sur business.google.com, puis validez-la, le plus souvent par une courte vidéo de vos locaux, de votre véhicule ou de vos outils. Choisissez une catégorie principale précise, renseignez services, zone desservie, horaires et vraies photos, puis demandez un avis à chaque client, sans contrepartie."
+summary: "Pour créer votre fiche Google My Business (devenue fiche d’établissement Google), revendiquez-la sur Google Maps si elle existe, ou créez-la sur business.google.com. Validez-la, le plus souvent par une vidéo sans montage qui montre où vous êtes, votre matériel et la preuve que vous gérez l’entreprise. Choisissez une catégorie principale précise, ajoutez services, zone desservie, horaires et vraies photos, puis demandez un avis à chaque client, sans contrepartie."
 cover: "google-business-profile-setup"
 cover_alt: "Repère de carte au-dessus d’une fiche d’établissement Google avec une note et des horaires"
 related: ["local-seo-guide", "google-business-profile-posts", "get-recommended-by-chatgpt", "pilotech-seo-case-study", "multiple-websites-one-business"]
@@ -29,7 +29,7 @@ faq:
 
 La fiche Google My Business, rebaptisée fiche d’établissement Google (Google Business Profile) en novembre 2021, est l’encart qui présente votre entreprise sur Google Maps et dans les résultats locaux : nom, catégorie, horaires, photos, avis et bouton d’appel. Pour un plombier, une entreprise de ménage ou un chauffagiste, c’est souvent la première chose qu’un client voit, avant même le site.
 
-Ce tutoriel suit l’ordre que j’applique pour mes clients : rassembler les informations, revendiquer ou créer la fiche, la valider, remplir chaque rubrique, puis récolter des avis. Les intitulés cités sont ceux de l’interface en français à la date de rédaction (octobre 2026). Google déplace souvent ses boutons : si l’un d’eux a changé, cherchez le plus proche.
+Ce tutoriel suit les étapes dans l’ordre : rassembler les informations, revendiquer ou créer la fiche, la valider, remplir chaque rubrique, puis récolter des avis. Les intitulés cités sont ceux de l’interface en français à la date de rédaction (octobre 2026). Google déplace souvent ses boutons : si l’un d’eux a changé, cherchez le plus proche.
 
 Il complète mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel{{< /a >}}, où la fiche est une étape parmi d’autres, pas un substitut au site internet.
 
@@ -44,11 +44,11 @@ Beaucoup de tutoriels décrivent encore des fonctions disparues. Voici ce qui a 
 | Novembre 2021 | Google My Business devient la fiche d’établissement Google (Google Business Profile), et Google commence à en déplacer la gestion dans la recherche et Maps | Même produit, nouveau nom ; vous la modifiez surtout depuis la recherche Google ou Maps |
 | Mars 2024 | Les petits sites créés depuis les fiches sont désactivés | Reliez votre fiche à un vrai site |
 | 31 juillet 2024 | Fin de la messagerie (chat) | Vos clients vous joignent par téléphone, par votre site ou par email |
-| Fin 2025 | La rubrique Questions et réponses disparaît (son API s’est arrêtée le 3 novembre 2025) et Maps répond aux questions avec l’IA | Votre fiche et votre site doivent répondre aux questions de vos clients |
+| Depuis fin 2025 | La rubrique Questions et réponses disparaît (son API s’est arrêtée le 3 novembre 2025), remplacée dans Maps par des réponses de l’IA tirées de votre fiche, de vos avis et de votre site | Votre fiche et votre site doivent répondre aux questions de vos clients |
 
 ## Avant de commencer : tout rassembler d’un coup
 
-Quand je crée une fiche pour un client, ce n’est jamais Google qui ralentit le travail : c’est la récupération des photos, des horaires exacts et de la liste des services. Réunissez tout avant d’ouvrir le formulaire :
+Quand je crée une fiche pour un client, ce qui ralentit tout, c’est de devoir lui courir après pour obtenir les informations. Réunissez tout avant d’ouvrir le formulaire :
 
 - un compte Google que l’entreprise conserve, rattaché à une adresse qu’elle contrôle, et non le compte personnel d’un ancien salarié ou d’un prestataire ;
 - le nom de l’entreprise tel que vos clients le voient sur votre enseigne, votre véhicule et vos factures. Les consignes de Google interdisent d’y ajouter des mots-clés ou une ville (« Dupont Plomberie », et non « Dupont Plomberie dépannage plombier Créteil pas cher »), et les enfreindre peut faire suspendre la fiche ;
@@ -59,7 +59,7 @@ Quand je crée une fiche pour un client, ce n’est jamais Google qui ralentit l
 - une description de 750 caractères au maximum (étape 6) ;
 - des photos : logo, photo de couverture, local ou véhicule, équipe au travail, chantiers terminés.
 
-{{< callout type="note" >}}**Une fiche par établissement.** Les [consignes de Google](https://support.google.com/business/answer/3038177?hl=fr) demandent de ne pas créer plus d’une fiche par établissement, dans un même compte ou dans plusieurs. Une entreprise sans local qui se déplace chez ses clients a droit à une seule fiche, avec une zone desservie.{{< /callout >}}
+{{< callout type="note" >}}**Une fiche par établissement.** Les [consignes de Google](https://support.google.com/business/answer/3038177?hl=fr) demandent de ne pas créer plus d’une fiche par établissement, dans un même compte ou dans plusieurs. Une entreprise sans local qui se déplace chez ses clients a droit à une seule fiche avec zone desservie, ou à une fiche par agence si elle en a plusieurs, chacune avec son propre personnel.{{< /callout >}}
 
 ## Étape 1 : trouver, revendiquer ou créer la fiche
 
@@ -74,7 +74,7 @@ Votre entreprise a peut-être déjà une fiche que vous n’avez jamais créée�
 
 {{< screenshot id="google-business-profile-setup-02" alt="Écran de création de la fiche qui demande le nom de l’entreprise et sa catégorie" >}}
 
-Si quelqu’un gère déjà la fiche, Google affiche une partie de son adresse email et vous permet de demander l’accès. C’est souvent un ancien webdesigner, un salarié parti ou l’ancien propriétaire du fonds de commerce. Demandez-lui de vous ajouter comme propriétaire avant que cela ne tourne au conflit. S’il ne répond jamais, l’écran de demande vous indique ce que Google vous permet de faire ensuite.
+Si quelqu’un gère déjà la fiche, Google affiche une partie de son adresse email et vous permet de demander l’accès. C’est souvent un ancien webdesigner, un salarié parti ou l’ancien propriétaire du fonds de commerce : contactez-le aussi et demandez-lui de vous ajouter comme propriétaire, avant que cela ne tourne au conflit. Google laisse trois jours au propriétaire actuel pour répondre. S’il refuse, Google vous prévient par email et vous pouvez faire appel ; s’il ne répond pas, connectez-vous sur `business.google.com` ou ouvrez le lien de l’email de confirmation de Google pour voir où en est votre demande.
 
 ## Étape 2 : valider l’établissement (le plus souvent par vidéo)
 
@@ -114,15 +114,15 @@ Tout dépend de l’endroit où vous rencontrez vos clients.
 | Vous allez chez les clients (plombier, entreprise de ménage, électricien) | Saisie pour la validation, puis masquée | Les communes, arrondissements ou départements que vous couvrez |
 | Les deux | Affichée | Ajoutée pour les secteurs où vous vous déplacez |
 
-Ne listez que les secteurs que vous couvrez vraiment. La distance fait partie des trois critères de Google : une longue liste de villes lointaines ne vous y fera pas apparaître, elle brouille seulement l’idée que vos clients se font de votre secteur.
+Ne listez que les secteurs que vous couvrez vraiment. Google accepte jusqu’à 20 zones desservies et recommande que l’ensemble reste à moins de deux heures de route environ de l’endroit où votre entreprise est basée ([aide de Google sur les zones desservies](https://support.google.com/business/answer/10514137?hl=fr)). La distance fait partie des trois critères de Google : une longue liste de villes lointaines ne vous y fera pas apparaître, elle brouille seulement l’idée que vos clients se font de votre secteur.
 
 {{< screenshot id="google-business-profile-setup-05" alt="Réglages de l’adresse avec l’adresse masquée et une liste de zones desservies" >}}
 
 ## Étape 5 : ajouter vos services et vos horaires
 
-**Services.** Google suggère des services adaptés à votre catégorie. Cochez ceux que vous proposez, puis ajoutez les vôtres, chacun avec une courte description dans les mots que tapent vos clients : « entretien de chaudière », « installation de climatisation », « recherche de fuite ». Vos clients lisent cette liste pour vérifier que vous faites bien ce dont ils ont besoin.
+**Services.** Google suggère des services adaptés à votre catégorie. Cochez ceux que vous proposez, puis ajoutez les vôtres, chacun avec une courte description dans les mots que tapent vos clients : « entretien de chaudière », « installation de climatisation », « recherche de fuite ».
 
-**Horaires.** Indiquez vos horaires habituels pour chaque jour, puis des horaires exceptionnels pour les jours fériés et les fermetures, quelques jours à l’avance. Des horaires faux vous coûtent deux fois : le client qui trouve porte close, et l’avis qu’il laisse ensuite.
+**Horaires.** Indiquez vos horaires habituels pour chaque jour, puis des horaires exceptionnels pour les jours fériés et les fermetures, quelques jours à l’avance. Des horaires erronés vous coûtent deux fois : le client qui trouve porte close, et l’avis qu’il laisse ensuite.
 
 {{< screenshot id="google-business-profile-setup-06" alt="Liste des services d’une fiche avec un service personnalisé et sa description" >}}
 
@@ -152,7 +152,7 @@ Dans Google Analytics, ces visites portent alors le nom de campagne fiche-google
 
 ## Étape 7 : ajouter de vraies photos
 
-Les photos montrent à vos clients que vous existez et que vous travaillez bien. Ajoutez :
+Ajoutez au minimum :
 
 - votre logo et une photo de couverture ;
 - l’extérieur tel que le client le voit en arrivant, ou votre véhicule ;
@@ -160,13 +160,13 @@ Les photos montrent à vos clients que vous existez et que vous travaillez bien.
 - l’équipe au travail, avec l’accord du client s’il apparaît ;
 - des chantiers terminés, avant et après.
 
-Pour un site internet, quand un client n’a pas de photos, j’en génère ou j’en achète. **Pour une fiche Google, je ne le ferais pas** : les gens regardent ces photos pour vérifier que vous existez vraiment, et ils les comparent avec le véhicule qui se gare devant chez eux. Vos clients peuvent aussi publier leurs propres photos : ajoutez-en quelques-unes chaque mois pour garder une galerie à jour.
+Pour un site internet, quand un client n’a pas de photos, j’en génère ou j’en achète. **Une fiche Google demande de vraies photos** : les gens les regardent pour vérifier que vous existez vraiment, et ils les comparent avec le véhicule qui se gare devant chez eux. Vos clients peuvent aussi publier leurs propres photos : ajoutez-en quelques-unes chaque mois pour garder une galerie à jour.
 
 {{< screenshot id="google-business-profile-setup-08" alt="Écran d’ajout de photos d’une fiche avec les options du logo et de la photo de couverture" >}}
 
 ## Étape 8 : obtenir des avis dans les règles de Google et de la loi
 
-Les avis sont la partie de votre fiche sur laquelle vous pouvez agir chaque semaine. Cliquez sur **Demander des avis** depuis votre fiche pour copier le lien court vers votre formulaire d’avis. Envoyez-le par SMS ou par email juste après l’intervention, ajoutez-le à vos factures et imprimez-le en QR code pour votre comptoir ou votre véhicule.
+Cliquez sur **Demander des avis** depuis votre fiche pour copier le lien court vers votre formulaire d’avis. Envoyez-le par SMS ou par email juste après l’intervention, ajoutez-le à vos factures et imprimez-le en QR code pour votre comptoir ou votre véhicule.
 
 **Demandez un avis à chaque client, pas seulement aux plus satisfaits.** Le règlement de Google sur les avis interdit :
 
@@ -176,7 +176,7 @@ Les avis sont la partie de votre fiche sur laquelle vous pouvez agir chaque sema
 
 En France, la loi va dans le même sens. Depuis la transposition de la directive européenne « Omnibus » de 2019, l’article L121-4 du Code de la consommation range parmi les pratiques commerciales réputées trompeuses le fait de publier ou de faire publier de faux avis de consommateurs, et celui d’affirmer que des avis viennent de vrais clients sans avoir pris de mesures raisonnables pour le vérifier. C’est un délit, et la DGCCRF enquête sur ces pratiques. Si vous affichez des avis sur votre propre site, l’article L111-7-2 du même code vous demande aussi d’indiquer clairement s’ils font l’objet d’un contrôle et, si oui, comment.
 
-Répondez à chaque avis, bon ou mauvais. Remerciez et mentionnez la prestation ; face à un avis négatif, répondez sur les faits, calmement, et proposez de régler le problème par téléphone. Les futurs clients lisent vos réponses aussi attentivement que les avis.
+Répondez à chaque avis, bon ou mauvais. Remerciez et mentionnez la prestation ; face à un avis négatif, répondez sur les faits, calmement, et proposez de régler le problème par téléphone. Les futurs clients lisent aussi vos réponses.
 
 Les avis appartiennent à la fiche, mais vous pouvez aussi les afficher sur votre site. Sur le {{< a page="/projects/pilotech-toshiba" >}}site Toshiba que j’ai créé pour Pilotech{{< /a >}}, la note Google, 5,0 sur 82 avis au moment où la page du projet a été rédigée, s’affiche en tête de chaque page.
 
@@ -194,9 +194,9 @@ Google classe les résultats locaux selon trois critères, comme il l’[expliqu
 | Distance | L’éloignement entre vous et le lieu indiqué dans la recherche, ou la personne qui cherche | Rien : soyez honnête sur votre secteur |
 | Notoriété | À quel point l’entreprise est connue, en ligne et hors ligne | Avis, mentions sur d’autres sites, un site solide |
 
-Personne ne peut payer Google pour un meilleur classement local. Une fiche fonctionne aussi mieux quand elle renvoie vers un site qui répond à la recherche. Chez Pilotech, le travail de référencement s’est fait dans cet ordre : les pages, puis les contenus, puis la fiche Google, puis les corrections techniques. L’{{< a key="pilotech-seo-case-study" >}}étude de cas SEO de Pilotech{{< /a >}} raconte toute l’histoire, et mon guide du {{< a key="local-seo-guide" >}}référencement local{{< /a >}} traite des pages par ville et des annuaires.
+Une fiche fonctionne aussi mieux quand elle renvoie vers un site qui répond à la recherche. Chez Pilotech, le travail de référencement s’est fait dans cet ordre : les pages, puis les contenus, puis la fiche Google, puis les corrections techniques. L’{{< a key="pilotech-seo-case-study" >}}étude de cas SEO de Pilotech{{< /a >}} raconte toute l’histoire, et mon guide du {{< a key="local-seo-guide" >}}référencement local{{< /a >}} traite des pages par ville et des annuaires.
 
-Les assistants IA s’appuient sur les mêmes preuves. ChatGPT et les autres recommandent les entreprises qu’ils voient confirmées par d’autres sites : utilisez exactement le même nom, la même adresse, le même numéro et la même liste de services sur votre fiche, votre site et vos annuaires. Mon guide pour {{< a key="get-recommended-by-chatgpt" >}}apparaître dans ChatGPT{{< /a >}} va plus loin.
+Les assistants IA s’appuient sur le même type de preuves : ils recommandent plus volontiers les entreprises dont ils retrouvent les informations sur plusieurs sites. Utilisez exactement le même nom, la même adresse, le même numéro et la même liste de services sur votre fiche, votre site et vos annuaires. Mon guide pour {{< a key="get-recommended-by-chatgpt" >}}apparaître dans ChatGPT{{< /a >}} va plus loin.
 
 ## Après la création : faire vivre la fiche
 
@@ -208,7 +208,7 @@ Une fiche n’est pas un travail ponctuel. Une fois par mois :
 4. Publiez une actualité : un chantier récent, un service de saison, un événement. Mon guide pour {{< a key="google-business-profile-posts" >}}publier sur Google My Business{{< /a >}} détaille quoi poster et à quel rythme.
 5. Ouvrez **Performances** pour voir combien de personnes ont appelé, demandé l’itinéraire ou cliqué vers votre site.
 
-À mes yeux, la fiche respecte bien davantage votre temps qu’Instagram, TikTok ou Facebook, où il faut sans cesse quémander l’attention. Ceux qui la voient cherchent déjà ce que vous faites.
+À mes yeux, la fiche est bien plus agréable à faire vivre qu’Instagram, TikTok ou Facebook, où il faut sans cesse quémander l’attention : ceux qui la voient cherchent déjà ce que vous faites.
 
 ## Fiche Google My Business : la checklist complète
 
@@ -221,6 +221,6 @@ Une fiche n’est pas un travail ponctuel. Une fois par mois :
 7. Une description rédigée ; un lien vers le site avec des paramètres de suivi.
 8. De vraies photos : logo, couverture, extérieur, intérieur, équipe, chantiers terminés.
 9. Le lien d’avis envoyé à chaque client, et une réponse à chaque avis.
-10. Une tournée mensuelle : avis, photos, horaires, une actualité, Performances.
+10. Un point mensuel : avis, photos, horaires, une actualité, Performances.
 
 La plupart des dirigeants peuvent faire tout cela seuls : ce qui prend du temps, c’est de rassembler les informations et d’attendre la validation. Si vous préférez déléguer, la fiche fait partie de mon {{< a page="/services/seo" >}}accompagnement SEO{{< /a >}}, avec les pages vers lesquelles elle renvoie.

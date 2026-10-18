@@ -1,7 +1,7 @@
 ---
 title: "Google Business Profile posts: what to post, how often and what they really do"
 seo_title: "Google Business Profile posts: what to post and how often"
-description: "Google Business Profile posts: updates, offers and events, how to publish one, what Google rejects, how often to post and what they do for local SEO."
+description: "Google Business Profile posts: which type to use, how to publish and schedule one, what Google rejects, how often to post and whether they help local SEO."
 slug: "google-business-profile-posts"
 translationKey: "google-business-profile-posts"
 date: 2026-10-17T09:31:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:31:00+02:00
 category: "social-media"
 article_type: "guide"
 keywords: ["Google Business Profile posts", "Google Business Profile updates", "how often to post on Google Business Profile", "Google Business Profile offers and events", "Google My Business posts"]
-summary: "Google Business Profile posts are short updates, offers and events published on your profile, where people see them on Google Search and Maps. Post every week or two, with your own photo, a button to the right page and no phone number in the text, which Google can reject. Posts help people who already see your profile choose you, but they are not among Google's three local ranking factors, so they will not move you up the map on their own."
+summary: "Google Business Profile posts are short updates, offers and events that appear on your profile in Google Search and Maps. Post every week or two, with your own photo, a button to the matching page and no phone number in the text, since Google can remove posts that contain one. Posts help people who already see your profile choose you, but Google's explanation of local ranking does not mention them, so do not expect them to move you up the map on their own."
 cover: "google-business-profile-posts"
 cover_alt: "Grid of social post tiles with a heart and a play icon, next to the words Business Profile posts"
 related: ["google-business-profile-setup", "local-seo-guide", "social-media-small-business", "social-media-scheduling-tools", "pilotech-seo-case-study"]
@@ -37,11 +37,11 @@ Posts compete for the same hours as social media, which is why my guide to the {
 
 A post is a short message attached to your profile: a photo, a few lines of text and, if you want, a button that leads to a page of your website, a booking page or a phone call. It appears on your profile in Google Search and in Google Maps. So the people who see it are already looking at your business, or at businesses like yours nearby.
 
-That is the big difference with a social network: nobody has to follow you, and your post does not fight friends' holiday photos for attention. The other side of it: posts will not bring you a new audience. They only reach people who have already found your profile through a search.
+That is the big difference from a social network: nobody has to follow you, and your post does not fight friends' holiday photos for attention. The other side of it: posts will not bring you a new audience. They only reach people who have already found your profile through a search.
 
-Two older features have gone: the simple websites built inside profiles were switched off in March 2024, and the chat feature ended on 31 July 2024. A post's button therefore leads to your own website, a booking page or a phone call.
+Two older features have gone: the simple websites built inside profiles were switched off in March 2024, and chat ended on 31 July 2024. A post's button now leads to your own website, a booking page or a phone call, so the page behind it matters as much as the post.
 
-Each post carries its date, too. A profile whose latest post is a year old tells visitors that nobody looks after it; one from last week tells them the business is busy.
+Each post also shows how long ago it went up. A latest post from last spring tells visitors that nobody looks after the profile; one from last week tells them the business is busy.
 
 ## Updates, offers and events: which post type to use
 
@@ -49,7 +49,7 @@ Google offers three types of post. Pick the one that matches what you want the r
 
 | Type | Use it for | What you fill in | How long it shows |
 |---|---|---|---|
-| Update | A finished job, news, a seasonal reminder, a new service | A photo, the text, an optional button | No end date: newer posts push it down |
+| Update | A finished job, news, a seasonal reminder, a new service | A photo or video, the text, an optional button | No end date to set: newer posts push it down, and Google archives it after six months |
 | Offer | A discount or a promotion with real dates | A title, start and end dates, the text, an optional coupon code and terms; Google adds a **View offer** button | Until its end date |
 | Event | An open day, a workshop, a stand at a local fair | A title, start and end dates and times, the text, an optional button | Until the event ends |
 
@@ -62,7 +62,7 @@ The text box takes up to 1,500 characters, but only the first lines show before 
 These are the labels of the English interface at the time of writing (October 2026). Google moves its buttons around often, so if yours differ, look for the nearest match or check [Google's help page on posts](https://support.google.com/business/answer/7342169).
 
 1. Sign in with the Google account that owns or manages the profile, then search Google for your business name. The panel to manage your profile appears above the results.
-2. Click **Add update**. On some accounts the option sits under **Posts**, then **Add post**.
+2. Select **Posts**, then **Add post**. Some accounts still show an **Add update** button instead.
 3. Choose **Update**, **Offer** or **Event**.
 4. Add a photo you took yourself, then write the text, main point first.
 5. For an offer, add a title and dates, then a coupon code and terms if you have them. For an event, add a title and the start and end dates and times.
@@ -85,7 +85,7 @@ Google checks every post against its [posts content policy](https://support.goog
 - **A phone number in the text.** Google can remove posts that contain contact details it cannot verify, such as phone numbers, email addresses or social media handles. Add the **Call now** button instead: it uses the verified number on your profile.
 - Text unrelated to your business, such as general news or personal opinions.
 - Keyword stuffing: a list of services and town names reads as spam, to Google and to customers.
-- Misleading offers, such as a "sale" with no end date or a price you would not honour.
+- Misleading offers, such as a discount you do not really give or a price you would not honour.
 - Offensive or explicit content, and anything illegal.
 
 If a post shows **Not approved**, read the policy it names, fix that one thing and publish it again.
@@ -104,7 +104,7 @@ The posts that work best show the work. Here are the ideas I would use for a loc
 6. An answer to a question customers often ask, in a few lines, with a link to the page that covers it in full.
 7. A change customers need to know about: new premises, a new service area, a holiday closure.
 
-Here are three examples for a fictional plumber in Croydon, ready to adapt:
+Here are three examples for a fictional plumbing and heating firm in Croydon, ready to adapt:
 
 ```
 UPDATE
@@ -129,7 +129,7 @@ about running costs and book a home survey.
 Button: Learn more
 ```
 
-When I build a client's Google page, what holds things up is never Google: it is getting the information and the photos from the business. Posts run on the same fuel, every month. The simplest habit I know: whoever finishes a job takes two photos before leaving and sends them with one sentence about what was done. You will not run out of posts.
+When I build a client's Google profile, the part that can drag is chasing the business for information. Posts need the same raw material, every month. A simple habit solves it: whoever finishes a job takes two photos before leaving and sends them with one sentence about what was done. You will not run out of posts.
 
 {{< callout type="note" >}}A post does not replace your profile's fields. **For a holiday closure, update your special hours as well**: they are what Google shows next to your name, while a post can scroll out of sight.{{< /callout >}}
 
@@ -144,13 +144,13 @@ The right rhythm is the one you can keep. Here is what I suggest:
 
 Daily posts make sense for a restaurant with a daily special, and for almost no one else.
 
-The easiest way to keep the rhythm is to write a month of posts in one sitting and schedule them. If you already use a scheduling tool for your other networks, check whether it publishes to Business Profiles: Postly does, and so does Metricool, which I also like for watching the competitors who succeed. My comparison of {{< a key="social-media-scheduling-tools" >}}social media scheduling tools{{< /a >}} goes through both. Pick the one that covers the networks you already use.
+The easiest way to keep the rhythm is to write a month of posts in one sitting and schedule them. Google's own scheduling option is enough for one profile, so you do not need a paid tool for this. If you already use a scheduling tool for your other networks, check whether it publishes to Business Profiles: Postly does, and so does Metricool, which I also like for watching the competitors who succeed. My comparison of {{< a key="social-media-scheduling-tools" >}}social media scheduling tools{{< /a >}} goes through both. Pick the one that covers the networks you already use.
 
 {{< callout type="tip" >}}At the start of each month, write four short posts from the photos your team sent, **schedule one a week**, and the profile is looked after until the next month.{{< /callout >}}
 
 ## Do Google Business Profile posts help local SEO?
 
-Not directly, as far as anyone can show. [Google explains](https://support.google.com/business/answer/7091) that it ranks local results on three things: relevance, distance and prominence. Nobody can pay for a better position, and posts are not one of the three.
+Not directly, as far as anyone can show. [Google explains](https://support.google.com/business/answer/7091) that local results are based mainly on three things: relevance, distance and prominence. It adds that nobody can request or pay for a better position, and posts appear nowhere in that explanation.
 
 What moves you up the map is the rest of the work: a precise category, genuine reviews, a page on your website for each service and each town you really cover, and mentions on other local sites. My {{< a key="local-seo-guide" >}}local SEO guide{{< /a >}} goes through each of them.
 
@@ -172,7 +172,7 @@ I am not a social media manager, and the studio does not sell social media manag
 
 Instagram, TikTok and Facebook turn you into an unpaid employee who has to keep begging to be seen, post after post. Even Google My Business is nicer: the people who see your posts have already searched for what you do, and a post keeps doing its job on your profile without anyone having to like or share it.
 
-If you want a channel that keeps bringing new people for months after you post, my picks for 2026 are Pinterest and YouTube Shorts: see my guide to {{< a key="youtube-shorts-for-business" >}}YouTube Shorts for business{{< /a >}}. Business Profile posts do a different job. They will not find you a new audience, but they help people who are already looking at you make up their minds.
+If you want a channel that keeps bringing new people for months after you post, my picks for 2026 are Pinterest and YouTube Shorts: see my guides to {{< a key="pinterest-for-business" >}}Pinterest for business{{< /a >}} and {{< a key="youtube-shorts-for-business" >}}YouTube Shorts for business{{< /a >}}. Business Profile posts do a different job. They will not find you a new audience, but they help people who are already looking at you make up their minds.
 
 And if you already run a profile, posts are not a new channel to learn, just a few more minutes on one you have. That suits the way I see marketing: focus on what you already run before chasing the next shiny tool.
 

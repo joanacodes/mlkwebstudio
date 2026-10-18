@@ -29,17 +29,17 @@ faq:
 
 You do not need 10,000 followers to get into a newspaper. If you want to know how to get press coverage as a small business, it comes down to three things: a story the journalist's readers will care about, the right journalist, and a pitch short enough to read on a phone between two deadlines.
 
-I am not a PR specialist. I barely tried, and a friend who is a personal trainer still got an article in the French magazine Match. What made it work, I think, is what cold emailing taught me about copywriting and targeting: write little, write to the right person, and give them a reason to answer.
+I am not a PR specialist. I barely tried, and I still got a friend who is a personal trainer featured in the French magazine Match. What made it work, I think, is what cold emailing taught me about copywriting and targeting: write little, write to the right person, and give them a reason to answer.
 
-"I have 10k followers on Instagram" or "this magazine published a whole article about my business": the second sentence wins every time, with customers and, as you will see, with search engines and AI assistants too. This guide is part of my {{< a key="how-to-get-more-clients" >}}guide to choosing marketing channels for a small business{{< /a >}}.
+"I have 10k followers on Instagram" or "this magazine published a whole article about my business": the second sentence wins every time, with customers and, as you will see, with search engines and AI assistants too. This article is part of my {{< a key="how-to-get-more-clients" >}}guide to getting more clients{{< /a >}}, which compares the marketing channels open to a small business.
 
 ## Why press coverage is worth more than followers
 
 An article is someone else vouching for you. A journalist picked your story, checked it and put the title's name next to yours. Anyone can buy followers; an editor's choice to write about you is much harder to fake. That proof works in four places.
 
 - **With customers.** "As featured in" on your website, in a proposal or on a sales call answers the question every new customer asks themselves: can I trust them?
-- **With Google.** Articles on news sites often link to the business they cover, and Google uses links as a signal when it judges how relevant a page is.
-- **With AI assistants.** When Ahrefs studied 75,000 brands, the factor most closely linked to visibility in Google's AI Overviews was the number of web pages mentioning the brand, with a correlation of 0.664, ahead of links using the brand's name (0.527) and searches for the brand (0.392), according to [Ahrefs' study](https://ahrefs.com/blog/ai-overview-brand-correlation/). A correlation does not prove cause, but the direction is clear: what other sites say about you feeds the answers. My guides on {{< a key="get-recommended-by-chatgpt" >}}getting recommended by ChatGPT{{< /a >}} and on {{< a key="ai-search-geo-guide" >}}generative engine optimisation{{< /a >}} cover the rest of that work.
+- **With Google.** The online version of an article can link to your website, which gives you a backlink from a news site. Google says it uses links as a signal when it judges how relevant a page is.
+- **With AI assistants.** When Ahrefs studied 75,000 brands, the factor most closely linked to visibility in Google's AI Overviews was the number of web pages mentioning the brand, with a correlation of 0.664, ahead of links using the brand's name (0.527) and searches for the brand (0.392), according to [Ahrefs' study](https://ahrefs.com/blog/ai-overview-brand-correlation/). A correlation does not prove cause, but the pattern is hard to miss: what other sites say about you feeds the answers. My guides on {{< a key="get-recommended-by-chatgpt" >}}getting recommended by ChatGPT{{< /a >}} and on {{< a key="ai-search-geo-guide" >}}generative engine optimisation{{< /a >}} cover the rest of that work.
 - **On social media.** An article is content you can share the week it comes out and quote for years. If you are still deciding where to post it, my guide to the {{< a key="social-media-small-business" >}}best social media for a small business{{< /a >}} will help.
 
 ## What makes a small business worth an article
@@ -61,8 +61,8 @@ Pick one angle per pitch. A pitch with five angles reads like a brochure, and th
 
 Start with your town's paper, then the region, then the country. It is not modesty: each step makes the next one easier.
 
-1. **Local.** A local weekly, the town pages of the regional daily, local radio, a local news site. They need local stories every week, and a local business is exactly what they cover. Their website usually gives a newsdesk email or a form for sending a story.
-2. **Regional.** With a first article to show, approach a regional daily such as the Manchester Evening News or the Yorkshire Post, or regional TV and radio. The journalist who looks you up now finds proof instead of silence.
+1. **Local.** Your local weekly paper, the local news website, your BBC local radio station or a community station. They need local stories every week, and a local business is exactly what they cover. Their website usually gives a newsdesk email or a form for sending a story.
+2. **Regional.** With a first article to show, approach a regional daily such as the Manchester Evening News or the Yorkshire Post, or the regional news programmes of the BBC and ITV. The journalist who looks you up now finds proof instead of silence.
 3. **National.** National titles want a wider angle: a trend your figures illustrate, advice that applies across the country, a person whose story speaks to everyone. By then you have practice, a press page and articles to point to.
 
 Alongside that ladder, think about the **trade press**: the magazines your customers read for their job. For a business that sells to other businesses, an article in a title such as The Grocer or Construction News can matter more than one in a national daily, because every reader works in the trade you sell to.
@@ -71,10 +71,10 @@ Alongside that ladder, think about the **trade press**: the magazines your custo
 
 Targeting is the half of cold emailing that people skip, and the press is no different: a great story sent to the wrong person is a deleted email.
 
-1. **Read the title** for two or three weeks, in print or online, and note who writes about subjects close to yours. The byline is your contact, not the editor-in-chief.
+1. **Read the title**: go through two or three weeks of its articles, online or in print, and note who writes about subjects close to yours. The byline is your contact, not the editor.
 2. **Find their address.** Many titles show the journalist's email under their articles or on a contact page; otherwise, use the newsdesk address or the journalist's professional profile on LinkedIn.
 3. **Note one recent article** of theirs in a single line. It will become the first sentence of your pitch.
-4. **Keep the list short.** Ten well-chosen journalists are worth more than two hundred addresses from a file.
+4. **Keep the list short.** Ten well-chosen journalists are worth more than two hundred addresses from a bought list.
 
 For a local paper, the newsdesk address is fine: someone there passes stories to the right reporter. For trade and national titles, write to a person.
 
@@ -86,7 +86,7 @@ A pitch is a short email that offers a story to one journalist. It is not a pres
 
 ### Prepare the page the journalist will check
 
-Before you write, make sure the journalist can check you in thirty seconds. You do not need a big website: a page that shows your work is enough. Put on it who you are in two lines, photos of your work and of you that can be downloaded in good quality, a few key figures, any past coverage and a mobile number. A journalist will look you up before replying, and an empty profile with no website makes that check harder.
+Before you write, make sure the journalist can check you in thirty seconds. You do not need a big website: a single page that shows your work is enough, and my comparison of a {{< a key="landing-page-vs-website" >}}landing page vs a website{{< /a >}} will help you choose. The page needs who you are in two lines, high-resolution photos of your work and of you that can be downloaded, a few key figures, any past coverage and a mobile number. A journalist will look you up before replying, and an empty profile with no website makes that check harder.
 
 ### Write five lines, not five paragraphs
 
@@ -112,9 +112,10 @@ January, my bakery on [street] has given every unsold loaf to three
 local food banks, collected each evening by their volunteers.
 
 You are welcome to join an evening collection, and I can put you in
-touch with the food banks. Photos are on the page below.
+touch with the food banks. The quickest way is to call me on
+[mobile number]. Photos are on the page below.
 
-[Your name], [business name], [mobile number]
+[Your name], [business name]
 [link to the page that shows your work]
 ```
 
@@ -128,20 +129,20 @@ If you hear nothing after three or four working days, send one short follow-up i
 
 ## Do you need Prowly or another PR tool?
 
-Prowly is PR software: a database of journalists and media outlets, plus tools to write, send and track your pitches. It has belonged to Semrush since 2020, and Prowly's own site now presents it as Semrush's AI PR Toolkit. According to [Semrush's getting-started guide](https://www.semrush.com/kb/1574-getting-started-with-ai-pr-toolkit), you can:
+Prowly is PR software: a database of journalists and media outlets, plus tools to write, send and track your pitches. It has belonged to Semrush since 2020, and Prowly's own site now presents it as Semrush's AI PR Toolkit. According to [Semrush's help pages](https://www.semrush.com/kb/1574-getting-started-with-ai-pr-toolkit), you can:
 
-- search a media database (Prowly's materials mention more than a million journalists and influencers) and filter journalists and outlets;
-- draft pitches and press releases with AI, send them, track engagement and schedule follow-ups;
-- see which outlets AI assistants cite most in your industry;
-- monitor mentions of your business, with digests and alerts.
+- search a database of more than 600,000 journalist profiles (some Semrush pages say over a million) and keep your contacts in lists;
+- draft pitches and press releases with AI, send them from a connected Gmail or Outlook account, and track opens, clicks and replies;
+- see which outlets AI assistants cite most often on a topic, and who writes for them;
+- monitor mentions of your business in the news, on blogs, Reddit and YouTube, with alerts and summaries.
 
-In my view, PR platforms like this are really valuable when you want to find journalists who could be interested in your services, your story or your products. They are priced for PR teams and agencies, though. At the time of writing (October 2026), the plans are priced in US dollars and even the cheapest costs more than $100 a month, so over £70. Check the current plans on the [official pricing page](https://prowly.com/pricing/).
+In my view, PR platforms like this are really valuable when you want to find journalists who could be interested in your services, your story or your products. They are priced for PR teams and agencies, though. At the time of writing (October 2026), [Semrush's pricing page](https://www.semrush.com/pricing/pr/) lists three plans in US dollars: Base at $149 (about £112) a month, Pro at $279 (about £210) and Business at $499 (about £375), each with a seven-day free trial. Monitoring your mentions needs Pro or above, and the page may show the annual-billing price, so check the billing period before you pay.
 
 **Who it suits**: a business that pitches several titles every month, goes after national or trade press beyond its own area, or launches a product with a long list of journalists to reach.
 
-**Who can wait**: anyone going for a first article in the local paper. The newsdesk address is on the paper's website, and a free Google Alert on your business name can tell you when it appears online.
+**Who can wait**: anyone going for a first article in the local paper. The newsdesk address is on the paper's website, and for monitoring, a free Google Alert on your business name tells you when it appears online.
 
-A subscription will not find your story or write your pitch. If you are tempted to pay for a tool before your first pitch, read my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}} first.
+A subscription will not find your story for you, and an AI draft is only as good as the story you give it. If you are tempted to pay for a tool before your first pitch, read my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}} first.
 
 {{< callout type="note" >}}Older reviews of Prowly quote plan names and prices from before the move to Semrush's AI PR Toolkit. Trust the official pricing page over any figure you read elsewhere.{{< /callout >}}
 
@@ -156,7 +157,7 @@ A subscription will not find your story or write your pitch. If you are tempted 
 ## Your first pitch this week: a checklist
 
 1. Write your story in one sentence that a stranger would want to read.
-2. Choose one local title and read it for a week or two.
+2. Choose one local title and go through its last two or three weeks of articles.
 3. Find the journalist who covers your subject, or the newsdesk address.
 4. Check that your website or press page shows your work, good photos and a mobile number.
 5. Write five lines: the story as the subject line, why them, the facts, what you offer, your number.
@@ -164,4 +165,4 @@ A subscription will not find your story or write your pitch. If you are tempted 
 7. Follow up once after three or four working days, with something new.
 8. When the article is out, thank the journalist, share it, add it to your site and pitch the next level.
 
-Most of this takes an afternoon. Spend the longest on step 1: when the story is right, the other seven steps are routine.
+Apart from waiting for answers, most of this takes an afternoon. Spend the longest on step 1: when the story is right, the other seven steps are routine.

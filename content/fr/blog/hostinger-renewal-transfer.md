@@ -9,14 +9,14 @@ lastmod: 2026-10-17T08:52:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["transférer un domaine Hostinger", "code EPP Hostinger", "prix renouvellement Hostinger", "quitter Hostinger", "verrou de transfert Hostinger"]
-summary: "Pour transférer un domaine Hostinger, copiez d’abord tous ses enregistrements DNS, puis, dans hPanel, désactivez le verrou de transfert et la protection de la confidentialité, affichez le code EPP et lancez le transfert chez le nouveau registrar. Le domaine doit avoir plus de 60 jours et DNSSEC doit être coupé. Rester a un coût : d’après les derniers relevés (juillet 2026), l’offre Premium passe de 2,99 € HT par mois sur 48 mois à 9,99 € HT au renouvellement."
+summary: "Pour transférer un domaine Hostinger, copiez d’abord sa zone DNS, puis, dans hPanel, désactivez le verrou de transfert et la protection de la confidentialité, affichez le code EPP et lancez le transfert chez le nouveau registrar. DNSSEC doit être coupé, et un .com doit avoir plus de 60 jours. Rester a un coût : au moment où j’écris (octobre 2026), les comparatifs indiquent une offre Premium à 2,99 € HT par mois sur 48 mois, puis à 9,99 € HT par mois au renouvellement."
 cover: "hostinger-renewal-transfer"
 cover_alt: "Transfert d’un domaine Hostinger : verrou désactivé, code EPP, nouveau registrar"
 related: ["transfer-domain-name", "best-domain-registrar", "web-hosting-comparison", "fr-domain-names", "dns-records-explained"]
 services: ["rescue"]
 faq:
   - q: "Peut-on quitter l’hébergement Hostinger et garder le domaine chez Hostinger ?"
-    a: "Oui. Faites pointer le domaine vers le nouvel hébergeur en modifiant ses enregistrements DNS, ou ses serveurs de noms, dans hPanel. Hostinger indique qu’un changement de serveurs de noms est gratuit et prend effet sous 24 heures. Vous continuez à payer à Hostinger le renouvellement du domaine."
+    a: "Oui. Faites pointer le domaine vers le nouvel hébergeur en modifiant ses enregistrements DNS, ou ses serveurs de noms, dans hPanel. Hostinger indique qu’un changement de serveurs de noms prend effet sous 24 heures. Vous continuez à payer à Hostinger le renouvellement du domaine."
   - q: "Perd-on la durée déjà payée en transférant un domaine ?"
     a: "En général non pour un .com : le transfert ajoute un an à l’enregistrement en cours, et le temps restant est conservé. Pour un .fr, demandez au nouveau registrar ce que comprend le prix du transfert."
   - q: "Les emails fonctionnent-ils pendant un transfert de domaine ?"
@@ -27,13 +27,13 @@ faq:
 
 Transférer un domaine Hostinger demande trois réglages dans hPanel, un code à copier et quelques jours d’attente. La partie délicate est ailleurs : faire en sorte que votre site et vos emails continuent de fonctionner pendant et après le transfert. Ce tutoriel suit un ordre pensé pour cela.
 
-La raison du départ est souvent la même : le renouvellement. Les prix d’appel de Hostinger supposent un engagement de 48 mois payé d’avance, et à l’échéance, le tarif change. Je n’ai jamais choisi Hostinger : j’en ai hérité par des clients dont le site et le domaine s’y trouvaient déjà. J’y ai vu des renouvellements s’envoler d’une année sur l’autre, et je trouve hPanel, son espace client, un peu compliqué pour une petite entreprise sans équipe technique. C’est un avis, pas un verdict : plus bas, je dis aussi à qui Hostinger convient.
+La raison du départ est souvent la même : le renouvellement. Les prix d’appel d’Hostinger supposent un engagement de 48 mois payé d’avance, et à l’échéance, le tarif change. Je n’ai jamais choisi Hostinger : j’en ai hérité par des clients dont le site et le domaine s’y trouvaient déjà. J’y ai vu des renouvellements s’envoler d’une année sur l’autre, et je trouve hPanel, son espace client, un peu compliqué pour une petite entreprise sans équipe technique. C’est un avis, pas un verdict : plus bas, je dis aussi à qui Hostinger convient.
 
 Au programme : les prix (premier engagement et renouvellement), puis le transfert en sept étapes. Les libellés cités sont ceux de hPanel en anglais (octobre 2026) ; l’interface française peut les traduire. Domaine, hébergement et messagerie sont trois services distincts, qui peuvent chacun partir de leur côté : si la différence reste floue, commencez par {{< a key="domain-hosting-email-guide" >}}mon guide sur le nom de domaine et l’hébergement{{< /a >}}.
 
 ## Prix de renouvellement Hostinger : ce que vous payez après 48 mois
 
-Hostinger affiche ses prix hors taxes. Au moment où j’écris (octobre 2026), les derniers relevés de sa page officielle (juillet 2026) donnent, pour l’offre Premium d’hébergement web, avec la TVA à 20 % :
+Au moment où j’écris (octobre 2026), les comparatifs français publiés cette année s’accordent sur les tarifs de l’offre Premium d’hébergement web. Hostinger les affiche hors TVA, et la TVA à 20 % s’ajoute au paiement :
 
 | Offre Premium | Premier engagement (48 mois) | Après renouvellement |
 |---|---|---|
@@ -41,7 +41,7 @@ Hostinger affiche ses prix hors taxes. Au moment où j’écris (octobre 2026), 
 | Par mois, TTC | 3,59 € | 11,99 € |
 | Par an, HT | 35,88 € | 119,88 € |
 
-Le tarif de renouvellement représente plus de trois fois le prix d’appel. Ces chiffres bougent au gré des promotions : vérifiez le prix du jour sur [la page hébergement web de Hostinger](https://www.hostinger.fr/hebergement-web) avant de comparer.
+Le tarif de renouvellement représente plus de trois fois le prix d’appel. Ces chiffres bougent au gré des promotions : vérifiez le prix du jour sur [la page hébergement web d’Hostinger](https://www.hostinger.fr/hebergement-web) avant de comparer.
 
 Deux détails changent le calcul :
 
@@ -54,7 +54,7 @@ Les 2,99 € ne sont pas un abonnement mensuel. C’est le prix de l’engageme
 
 L’affaire peut être bonne, à condition de voir le tableau entier :
 
-1. **L’argent est engagé pour quatre ans.** Si l’offre ne vous convient plus ou si vous partez au bout d’un an, les mois restants sont déjà payés : lisez les conditions de remboursement de Hostinger avant d’acheter.
+1. **L’argent est engagé pour quatre ans.** Si l’offre ne vous convient plus ou si vous partez au bout d’un an, les mois restants sont déjà payés : lisez les conditions de remboursement d’Hostinger avant d’acheter.
 2. **Le renouvellement tombe quand plus personne ne se souvient du premier prix.** Quatre ans plus tard, le même hébergement coûte 119,88 € HT par an au lieu de 35,88 €. C’est ce saut qu’on remarque sur le relevé bancaire.
 3. **Le prix d’appel suppose l’engagement de 48 mois.** Si vous choisissez une durée plus courte dans le panier, relisez le prix mensuel avant de payer.
 
@@ -62,31 +62,31 @@ L’affaire peut être bonne, à condition de voir le tableau entier :
 
 Hostinger convient aux personnes à l’aise dans un espace d’administration et prêtes à payer quatre ans d’avance : un freelance qui gère quelques sites WordPress, ou un dirigeant qui a quelques notions techniques et cherche un coût mensuel bas. Si c’est votre cas et que le renouvellement entre dans votre budget, renouveler reste un choix raisonnable. Notez la date dans votre agenda et prévoyez 9,99 € HT par mois, pas 2,99 €.
 
-Ce n’est pas ce que je recommande aux petites entreprises qui gèrent leur site sans équipe technique. D’après mon expérience, c’est un peu compliqué à prendre en main quand on veut simplement modifier une ligne du site ou faire pointer le domaine ailleurs. Parmi les hébergeurs que j’ai pratiqués, je recommande o2switch et Infomaniak ; je les compare dans {{< a key="web-hosting-comparison" >}}mon comparatif pour choisir un hébergeur web{{< /a >}}.
+Ce n’est pas ce que je recommande aux petites entreprises qui gèrent leur site sans équipe technique. Parmi les hébergeurs que j’ai pratiqués, je recommande o2switch et Infomaniak ; je les compare dans {{< a key="web-hosting-comparison" >}}mon comparatif pour choisir un hébergeur web{{< /a >}}.
 
-Pour les domaines, j’ai mes habitudes chez Spaceship, conçu par Namecheap, et je fais confiance aux deux : leurs prix sont justes, leur support répond 24 h/24, et leurs renouvellements ne se sont pas envolés comme j’ai pu le voir ailleurs. Pour un .fr, vérifiez d’abord que le registrar visé propose l’extension : mon comparatif {{< a key="best-domain-registrar" >}}où acheter un nom de domaine{{< /a >}} confronte six registrars sur le prix de renouvellement.
+Pour les domaines, j’ai mes habitudes chez Spaceship, conçu par Namecheap, et je fais confiance aux deux : leurs prix sont justes, leur support répond 24 h/24, et leurs renouvellements ne se sont pas envolés comme j’ai pu le voir ailleurs. Pour un .fr, vérifiez d’abord que le registrar visé propose l’extension : mon comparatif {{< a key="best-domain-registrar" >}}où acheter un nom de domaine{{< /a >}} confronte six registrars sur le prix de renouvellement.
 
-La suite de ce guide porte sur le domaine. Si vous quittez aussi l’hébergement ou la messagerie de Hostinger, ils partent séparément, et l’étape 7 indique quand les basculer.
+La suite de ce guide porte sur le domaine. Si vous quittez aussi l’hébergement ou la messagerie d’Hostinger, ils partent séparément, et l’étape 7 indique quand les basculer.
 
 ## Étape 1 : vérifier les conditions pour transférer un domaine Hostinger
 
-Le [guide de Hostinger sur le transfert sortant](https://www.hostinger.com/support/?p=17541) (en anglais) pose trois conditions :
+Le [guide d’Hostinger sur le transfert sortant](https://www.hostinger.com/support/?p=17541) (en anglais) pose trois conditions :
 
 - **60 jours.** Au moins 60 jours doivent s’être écoulés depuis l’enregistrement du domaine ou son dernier transfert, selon la politique de l’ICANN pour le .com et les autres extensions génériques.
 - **Un statut normal.** Le domaine ne doit être ni suspendu, ni expiré, ni en période de rédemption.
 - **DNSSEC désactivé.** S’il est activé, coupez-le d’abord et vérifiez avec un outil de contrôle DNSSEC.
 
-Notez ensuite les dates. Dans hPanel, ouvrez **Domains**, cliquez sur **Manage** à côté du domaine et relevez sa date d’expiration. Hostinger indique qu’un transfert peut prendre jusqu’à sept jours : ne le lancez pas pendant la dernière semaine. Votre hébergement a sa propre date de renouvellement, parfois éloignée de plusieurs mois de celle du domaine.
+Notez ensuite les dates. Dans hPanel, ouvrez **Domains**, cliquez sur **Manage** à côté du domaine et relevez sa date d’expiration. Hostinger indique qu’un transfert peut prendre jusqu’à sept jours : ne le lancez pas dans la dernière semaine avant l’expiration. Votre hébergement a sa propre date de renouvellement, parfois éloignée de plusieurs mois de celle du domaine.
 
 {{< screenshot id="hostinger-renewal-transfer-01" alt="Page du domaine dans hPanel, avec son statut et sa date d’expiration" >}}
 
-La règle des 60 jours vient de la [politique de transfert de l’ICANN](https://www.icann.org/resources/pages/transfer-policy-2016-06-01-en) (en anglais). Une version révisée a été adoptée, mais au moment où j’écris, les règles actuelles (le code remis sous cinq jours, les verrous de 60 jours) s’appliquent toujours. Pour un .fr, ce sont les règles de l’Afnic qui s’appliquent : mon article sur le {{< a key="fr-domain-names" >}}nom de domaine .fr{{< /a >}} présente ses conditions.
+La règle des 60 jours vient de la [politique de transfert de l’ICANN](https://www.icann.org/resources/pages/transfer-policy-2016-06-01-en) (en anglais). Une version révisée a été adoptée, mais au moment où j’écris, les règles actuelles (le code remis sous cinq jours, les verrous de 60 jours) s’appliquent toujours. Pour un .fr, ce sont les règles de l’Afnic qui s’appliquent, pas celles de l’ICANN : mon article sur le {{< a key="fr-domain-names" >}}nom de domaine .fr{{< /a >}} présente ses conditions.
 
 ## Étape 2 : copier la zone DNS et baisser les TTL
 
 Un transfert change l’entreprise à qui vous payez le domaine. Il ne déplace ni vos enregistrements DNS, ni votre site, ni vos boîtes mail. Mais le jour où vous cessez de payer Hostinger, la zone doit vivre ailleurs, et la copie faite maintenant vous permet de la reconstruire en dix minutes au lieu de deviner.
 
-Dans hPanel, ouvrez les enregistrements DNS du domaine et copiez chaque ligne dans un fichier texte, ou faites des captures d’écran : type, nom, valeur, priorité et TTL. Les plus importantes :
+Dans hPanel, ouvrez les enregistrements DNS du domaine et copiez chaque ligne dans un fichier texte, ou faites des captures d’écran : type, nom, valeur, priorité et TTL. Les enregistrements qui comptent le plus :
 
 | Enregistrements | Rôle | S’il en manque un |
 |---|---|---|
@@ -106,7 +106,7 @@ TXT    @        "v=spf1 include:_spf.exemple.net ~all"
 TXT    _dmarc   "v=DMARC1; p=none; rua=mailto:vous@votredomaine.fr"
 ```
 
-Puis, au moins un jour avant de modifier quoi que ce soit, baissez le TTL de chaque enregistrement que vous allez déplacer à 300 secondes (cinq minutes), ou au minimum accepté par hPanel. Le jour de la bascule, les caches oublient les anciennes réponses en quelques minutes. Mon article sur les {{< a key="dns-records-explained" >}}enregistrements DNS{{< /a >}} explique chaque type et le fonctionnement de la propagation.
+Puis, au moins un jour avant de modifier quoi que ce soit, baissez le TTL de chaque enregistrement que vous allez déplacer à 300 secondes (cinq minutes), ou au minimum accepté par hPanel. Le jour de la bascule, les caches oublient alors les anciennes réponses en quelques minutes, et si un enregistrement s’avère faux dans la nouvelle zone, votre correction se propage aussi vite. Mon article sur les {{< a key="dns-records-explained" >}}enregistrements DNS{{< /a >}} explique chaque type et le fonctionnement de la propagation.
 
 {{< screenshot id="hostinger-renewal-transfer-02" alt="Enregistrements DNS du domaine dans hPanel : A, CNAME, MX et TXT avec leur TTL" >}}
 
@@ -117,7 +117,7 @@ Puis, au moins un jour avant de modifier quoi que ce soit, baissez le TTL de cha
 Dans hPanel, allez dans **Domains**, cliquez sur **Manage** à côté du domaine et restez sur **Domain Overview**. Deux réglages à modifier :
 
 1. **Transfer lock** (verrou de transfert) : désactivez-le. Ce verrou empêche quiconque, vous compris, de déplacer le domaine ; il doit être levé pour que le nouveau registrar puisse le demander.
-2. **Privacy Protection** (protection de la confidentialité) : désactivez-la aussi, comme le demande le guide de Hostinger. Vous pourrez la réactiver chez le nouveau registrar ; Spaceship et Namecheap l’incluent gratuitement.
+2. **Privacy Protection** (protection de la confidentialité) : désactivez-la aussi, comme le demande le guide d’Hostinger. Vous pourrez la réactiver chez le nouveau registrar ; Spaceship et Namecheap l’incluent gratuitement.
 
 Hostinger ajoute une mise en garde : après avoir changé le verrou, attendez 12 heures avant de le réactiver. Si le verrou se remet tout seul, le domaine est sans doute encore dans sa période de 60 jours.
 
@@ -125,11 +125,11 @@ Hostinger ajoute une mise en garde : après avoir changé le verrou, attendez 1
 
 ## Étape 4 : récupérer le code EPP
 
-Toujours sur **Domain Overview**, repérez le code d’autorisation (**Authorization code**) et cliquez sur **Get code** pour l’afficher ; le [guide de Hostinger sur le code EPP](https://www.hostinger.com/support/1583203-how-to-get-the-epp-code-at-hostinger/) (en anglais) montre où il se trouve. Copiez-le à l’identique, collez-le seulement dans le formulaire du nouveau registrar, et gardez-le comme un mot de passe : c’est ce qu’un registrar demande pour réclamer le domaine.
+Toujours sur **Domain Overview**, repérez le code d’autorisation (**Authorization code**) et cliquez sur **Get code** pour l’afficher ; le [guide d’Hostinger sur le code EPP](https://www.hostinger.com/support/1583203-how-to-get-the-epp-code-at-hostinger/) (en anglais) montre où il se trouve. Copiez-le à l’identique, collez-le seulement dans le formulaire du nouveau registrar, et gardez-le comme un mot de passe : c’est ce qu’un registrar demande pour réclamer le domaine.
 
 {{< screenshot id="hostinger-renewal-transfer-04" alt="Domain Overview dans hPanel avec le code d’autorisation EPP affiché après un clic sur Get code, le code lui-même flouté" >}}
 
-Un .fr se transfère lui aussi avec un code d’autorisation : la démarche est la même. Chez Hostinger, seules quelques extensions font exception, comme le .uk britannique, qui change de registrar par un « IPS tag » plutôt que par un code.
+Un .fr se transfère lui aussi avec un code d’autorisation : la démarche est la même. Le .uk britannique fait exception : il change de registrar par un « IPS tag », pas par un code.
 
 ## Étape 5 : lancer le transfert chez le nouveau registrar
 
@@ -153,7 +153,7 @@ Pendant ce temps, ne changez ni les serveurs de noms ni les enregistrements, et 
 
 ## Étape 7 : déplacer la zone DNS, puis tester le site et les emails
 
-Quand le domaine apparaît comme actif dans votre nouveau compte, l’enregistrement a changé de registrar. Les DNS, pas forcément : vérifiez les serveurs de noms du domaine. S’ils sont toujours ceux de Hostinger, c’est encore la zone de hPanel qui répond. Déplacez-la le jour même, car elle ne reste en ligne qu’aussi longtemps que Hostinger la conserve :
+Quand le domaine apparaît comme actif dans votre nouveau compte, l’enregistrement a changé de registrar. Les DNS, pas forcément : vérifiez les serveurs de noms du domaine. S’ils sont toujours ceux d’Hostinger, c’est encore la zone de hPanel qui répond. Déplacez-la le jour même, car elle ne reste en ligne qu’aussi longtemps qu’Hostinger la conserve :
 
 1. **Recréez chaque enregistrement** de votre copie dans la page DNS du nouveau registrar, avec les mêmes valeurs. Gardez les TTL à 300 pour l’instant.
 2. **Basculez les serveurs de noms** vers ceux du nouveau registrar. Les registrars annoncent en général jusqu’à 48 heures ; comme les deux zones contiennent les mêmes enregistrements, chaque visiteur obtient la bonne réponse entre-temps.
@@ -175,7 +175,7 @@ $ dig +short votredomaine.fr MX
 
 Avant de considérer le transfert comme terminé :
 
-1. Le domaine a plus de 60 jours, n’est pas expiré, et DNSSEC est désactivé.
+1. Le domaine n’est pas expiré, DNSSEC est désactivé, et un .com a plus de 60 jours.
 2. Chaque enregistrement DNS est copié, et les TTL ont été baissés la veille.
 3. Le verrou de transfert et la protection de la confidentialité sont désactivés dans Domain Overview.
 4. Vous avez le code EPP.

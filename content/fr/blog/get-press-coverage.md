@@ -29,17 +29,17 @@ faq:
 
 Pas besoin de 10 000 abonnés pour qu’un journal parle de vous. Savoir comment passer dans la presse quand on est une petite entreprise, c’est réunir trois choses : une histoire qui intéresse les lecteurs d’un journaliste, le bon journaliste, et un message assez court pour être lu sur un téléphone entre deux bouclages.
 
-Je ne suis pas spécialiste des relations presse. J’ai à peine essayé, et quelqu’un de mon entourage, coach sportif, a pourtant eu droit à un article dans le magazine Match. Ce qui a fonctionné, à mon avis, ce sont les réflexes de rédaction et de ciblage que m’a donnés le cold emailing : écrire peu, écrire à la bonne personne, et lui donner une raison de répondre.
+Je ne suis pas spécialiste des relations presse. J’ai à peine essayé, et j’ai pourtant obtenu que le magazine Match parle d’une personne de mon entourage qui travaille dans le coaching sportif. Ce qui a fonctionné, à mon avis, ce sont les réflexes de rédaction et de ciblage que m’a donnés le cold emailing : écrire peu, écrire à la bonne personne, et lui donner une raison de répondre.
 
-« J’ai 10 000 abonnés sur Instagram » ou « ce magazine a publié un article entier sur mon entreprise » : la seconde phrase l’emporte à chaque fois, auprès des clients comme, vous le verrez, auprès des moteurs de recherche et des assistants IA. Ce guide fait partie de mon {{< a key="how-to-get-more-clients" >}}guide pour trouver des clients et choisir ses canaux d’acquisition{{< /a >}}.
+« J’ai 10 000 abonnés sur Instagram » ou « ce magazine a publié un article entier sur mon entreprise » : la seconde phrase l’emporte à chaque fois, auprès des clients comme, vous le verrez, auprès des moteurs de recherche et des assistants IA. Cet article fait partie de mon {{< a key="how-to-get-more-clients" >}}guide pour trouver des clients et choisir ses canaux d’acquisition{{< /a >}}.
 
 ## Pourquoi un article de presse vaut plus que des abonnés
 
 Un article, c’est quelqu’un d’autre qui se porte garant de vous. Un journaliste a choisi votre histoire, l’a vérifiée et a mis le nom de son titre à côté du vôtre. N’importe qui peut acheter des abonnés ; la décision d’une rédaction de parler de vous est bien plus difficile à truquer. Cette preuve sert à quatre endroits.
 
 - **Auprès des clients.** « Vu dans [titre] » sur votre site, dans un devis ou au téléphone répond à la question que se pose tout nouveau client : est-ce que je peux leur faire confiance ?
-- **Auprès de Google.** Les articles des sites d’information renvoient souvent vers l’entreprise dont ils parlent, et Google se sert des liens comme d’un signal pour juger de la pertinence d’une page.
-- **Auprès des assistants IA.** Quand Ahrefs a étudié 75 000 marques, le facteur le plus lié à la visibilité dans les Aperçus IA de Google était le nombre de pages web qui mentionnent la marque, avec une corrélation de 0,664, devant les liens qui portent le nom de la marque (0,527) et les recherches sur la marque (0,392), selon [l’étude d’Ahrefs](https://ahrefs.com/blog/ai-overview-brand-correlation/) (en anglais). Une corrélation ne prouve pas une cause, mais la direction est claire : ce que les autres sites disent de vous nourrit les réponses. Mon guide pour {{< a key="get-recommended-by-chatgpt" >}}apparaître dans ChatGPT{{< /a >}} et mon guide du {{< a key="ai-search-geo-guide" >}}référencement IA{{< /a >}} détaillent le reste de ce travail.
+- **Auprès de Google.** La version en ligne de l’article peut renvoyer vers votre site : vous obtenez un lien entrant (backlink) depuis un site d’information. Google indique se servir des liens comme d’un signal pour juger de la pertinence d’une page.
+- **Auprès des assistants IA.** Quand Ahrefs a étudié 75 000 marques, le facteur le plus lié à la visibilité dans les Aperçus IA de Google était le nombre de pages web qui mentionnent la marque, avec une corrélation de 0,664, devant les liens qui portent le nom de la marque (0,527) et les recherches sur la marque (0,392), selon [l’étude d’Ahrefs](https://ahrefs.com/blog/ai-overview-brand-correlation/) (en anglais). Une corrélation ne prouve pas une cause, mais l’indice est net : ce que les autres sites disent de vous nourrit les réponses. Mon guide pour {{< a key="get-recommended-by-chatgpt" >}}apparaître dans ChatGPT{{< /a >}} et mon guide du {{< a key="ai-search-geo-guide" >}}référencement IA{{< /a >}} détaillent le reste de ce travail.
 - **Sur les réseaux sociaux.** Un article se partage la semaine de sa sortie et se cite pendant des années. Si vous hésitez sur l’endroit où le publier, voyez mon guide pour {{< a key="social-media-small-business" >}}choisir le bon réseau social pour votre entreprise{{< /a >}}.
 
 ## Ce qui fait d’une petite entreprise un sujet d’article
@@ -57,7 +57,7 @@ Les angles qui marchent pour une petite entreprise :
 
 Un seul angle par message. Un message à cinq angles ressemble à une plaquette commerciale, et le journaliste ne fera pas le tri à votre place.
 
-## Comment passer dans la presse : la locale d’abord, puis la régionale et la nationale
+## Comment passer dans la presse : d’abord locale, puis régionale, puis nationale
 
 Commencez par le journal de votre ville, puis la région, puis le pays. Ce n’est pas de la modestie : chaque étape facilite la suivante.
 
@@ -71,10 +71,10 @@ En parallèle, pensez à la **presse professionnelle** : les magazines que vos 
 
 Le ciblage, c’est la moitié du cold emailing que tout le monde néglige, et la presse ne fait pas exception : une belle histoire envoyée à la mauvaise personne finit à la corbeille.
 
-1. **Lisez le titre** pendant deux ou trois semaines, en papier ou en ligne, et notez qui écrit sur des sujets proches du vôtre. La signature de l’article est votre contact, pas le rédacteur en chef.
+1. **Lisez le titre** : parcourez deux ou trois semaines d’articles, en ligne ou en papier, et notez qui écrit sur des sujets proches du vôtre. C’est l’auteur de l’article qu’il faut contacter, pas le rédacteur en chef.
 2. **Trouvez son adresse.** Beaucoup de titres indiquent l’email du journaliste sous ses articles ou sur une page contact ; sinon, passez par l’adresse de la rédaction ou par son profil professionnel sur LinkedIn.
-3. **Notez un article récent** de sa main, en une ligne. Ce sera la première phrase de votre message.
-4. **Gardez une liste courte.** Dix journalistes bien choisis valent mieux que deux cents adresses tirées d’un fichier.
+3. **Notez un de ses articles récents**, en une ligne. Ce sera la première phrase de votre message.
+4. **Gardez une liste courte.** Dix journalistes bien choisis valent mieux que deux cents adresses tirées d’un fichier acheté.
 
 Pour un journal local, l’adresse de la rédaction ou de l’agence locale suffit : quelqu’un transmet le sujet à la bonne personne. Pour la presse professionnelle et nationale, écrivez à une personne.
 
@@ -86,7 +86,7 @@ Un pitch est un email court qui propose un sujet à un seul journaliste. Ce n’
 
 ### Préparez la page que le journaliste va consulter
 
-Avant d’écrire, vérifiez que le journaliste peut vous situer en trente secondes. Inutile d’avoir un grand site : une page qui montre votre travail suffit. Mettez-y qui vous êtes en deux lignes, des photos de votre travail et de vous, téléchargeables en bonne qualité, quelques chiffres clés, vos passages dans la presse s’il y en a, et un numéro de portable. Un journaliste vous cherchera avant de répondre, et un profil vide sans site rend cette vérification plus difficile.
+Avant d’écrire, vérifiez que le journaliste peut vous situer en trente secondes. Inutile d’avoir un grand site : une seule page qui montre votre travail suffit, et mon comparatif {{< a key="landing-page-vs-website" >}}site vitrine ou landing page{{< /a >}} vous aidera à choisir. Mettez-y qui vous êtes en deux lignes, des photos de votre travail et de vous, téléchargeables en haute résolution, quelques chiffres clés, vos passages dans la presse s’il y en a, et un numéro de portable. Un journaliste vous cherchera avant de répondre, et un profil vide sans site rend cette vérification plus difficile.
 
 ### Cinq lignes, pas cinq paragraphes
 
@@ -107,20 +107,20 @@ Objet : À [ville], une boulangerie donne tous ses invendus aux associations
 
 Bonjour [prénom],
 
-J’ai lu la semaine dernière votre article sur la hausse de l’aide
-alimentaire à [ville]. Depuis janvier, ma boulangerie de la rue [nom]
-donne tous ses invendus à trois associations locales, dont les
-bénévoles passent les récupérer chaque soir.
+J’ai lu la semaine dernière votre article sur la hausse des demandes
+d’aide alimentaire à [ville]. Depuis janvier, ma boulangerie de la
+rue [nom] donne tous ses invendus à trois associations locales, dont
+les bénévoles passent les récupérer chaque soir.
 
 Vous pouvez assister à une collecte un soir, et je peux vous mettre
-en relation avec les associations. Les photos sont sur la page
-ci-dessous.
+en relation avec les associations. Le plus simple est de m’appeler
+au [numéro de portable]. Les photos sont sur la page ci-dessous.
 
-[Prénom Nom], [nom de l’entreprise], [numéro de portable]
+[Prénom Nom], [nom de l’entreprise]
 [lien vers la page qui montre votre travail]
 ```
 
-Je ne mets jamais de lien dans mes cold emails : ils partent en nombre, et le texte brut passe mieux. Un pitch, c’est différent. Vous envoyez quelques emails personnels depuis votre adresse habituelle à des personnes qui doivent vérifier votre travail : un lien, vers cette page, ne pose donc pas de problème. Pas de pièce jointe : mettez plutôt les photos sur la page. Pour aller plus loin sur les emails courts qui obtiennent des réponses, MLK Leadhunters a publié un guide : [comment écrire un cold email qui obtient des réponses](https://mlkleadhunters.com/fr/blog/how-to-write-a-cold-email/).
+Je ne mets jamais de lien dans mes cold emails : ils partent en nombre, et le texte brut passe mieux les filtres. Un pitch, c’est différent. Vous envoyez quelques emails personnels depuis votre adresse habituelle à des personnes qui doivent vérifier votre travail : un lien, vers cette page, ne pose donc pas de problème. Pas de pièce jointe : mettez plutôt les photos sur la page. Pour aller plus loin sur les emails courts qui obtiennent des réponses, MLK Leadhunters a publié un guide : [comment écrire un cold email qui obtient des réponses](https://mlkleadhunters.com/fr/blog/how-to-write-a-cold-email/).
 
 ### Une seule relance, puis passez à autre chose
 
@@ -128,22 +128,22 @@ Sans réponse au bout de trois ou quatre jours ouvrés, envoyez une relance cour
 
 {{< callout type="warning" >}}Vérifiez chaque chiffre et chaque nom de votre message avant de l’envoyer. Un journaliste qui découvre une erreur, ou une exagération, se méfiera de votre prochain sujet.{{< /callout >}}
 
-## Faut-il Prowly ou un autre outil de relations presse ?
+## Faut-il passer par Prowly ou un autre outil de relations presse ?
 
-Prowly est un logiciel de relations presse : une base de données de journalistes et de médias, avec des outils pour rédiger, envoyer et suivre vos messages. Il appartient à Semrush depuis 2020, et son propre site le présente désormais comme l’AI PR Toolkit de Semrush. D’après le [guide de démarrage de Semrush](https://www.semrush.com/kb/1574-getting-started-with-ai-pr-toolkit) (en anglais), vous pouvez :
+Prowly est un logiciel de relations presse : une base de données de journalistes et de médias, avec des outils pour rédiger, envoyer et suivre vos messages. Il appartient à Semrush depuis 2020, et son propre site le présente désormais comme l’AI PR Toolkit de Semrush. D’après [l’aide en ligne de Semrush](https://www.semrush.com/kb/1574-getting-started-with-ai-pr-toolkit) (en anglais), vous pouvez :
 
-- chercher dans une base de médias (la documentation de Prowly évoque plus d’un million de journalistes et d’influenceurs) et filtrer journalistes et titres ;
-- rédiger vos pitchs et vos communiqués de presse avec l’IA, les envoyer, suivre les réactions et programmer les relances ;
-- voir quels médias les assistants IA citent le plus dans votre secteur ;
-- surveiller les mentions de votre entreprise, avec des synthèses et des alertes.
+- chercher dans une base de plus de 600 000 profils de journalistes (certaines pages de Semrush parlent de plus d’un million) et ranger vos contacts en listes ;
+- rédiger vos pitchs et vos communiqués de presse avec l’IA, les envoyer depuis votre compte Gmail ou Outlook, et suivre les ouvertures, les clics et les réponses ;
+- voir quels médias les assistants IA citent le plus souvent sur un sujet, et qui y écrit ;
+- surveiller les mentions de votre entreprise dans la presse, sur les blogs, Reddit et YouTube, avec des alertes et des synthèses.
 
-À mon avis, ce type de plateforme vaut vraiment le coup quand vous cherchez des journalistes susceptibles de s’intéresser à vos services, à votre histoire ou à vos produits. Ses tarifs visent toutefois les équipes de relations presse et les agences. Au moment où j’écris ces lignes (octobre 2026), les offres sont affichées en dollars américains et même la moins chère dépasse 100 $ par mois, soit plus de 80 €. Vérifiez les offres actuelles sur la [page de tarifs officielle](https://prowly.com/pricing/).
+À mon avis, ce type de plateforme vaut vraiment le coup quand vous cherchez des journalistes susceptibles de s’intéresser à vos services, à votre histoire ou à vos produits. Ses tarifs visent toutefois les équipes de relations presse et les agences. Au moment où j’écris ces lignes (octobre 2026), la [page de tarifs de Semrush](https://www.semrush.com/pricing/pr/) (en anglais) affiche trois offres en dollars : Base à 149 $ par mois (environ 128 €), Pro à 279 $ (environ 240 €) et Business à 499 $ (environ 430 €), chacune avec un essai gratuit de sept jours. La veille des mentions n’est incluse qu’à partir de l’offre Pro, et la page peut afficher le prix en facturation annuelle : vérifiez la période de facturation avant de payer.
 
 **Pour qui** : une entreprise qui démarche plusieurs titres chaque mois, qui vise la presse nationale ou professionnelle au-delà de sa région, ou qui lance un produit avec une longue liste de journalistes à contacter.
 
-**Qui peut attendre** : quiconque vise un premier article dans le journal local. L’adresse de la rédaction figure sur le site du journal, et une alerte Google gratuite sur le nom de votre entreprise peut vous prévenir quand il apparaît en ligne.
+**Qui peut attendre** : quiconque vise un premier article dans le journal local. L’adresse de la rédaction figure sur le site du journal et, pour la veille, une alerte Google gratuite sur le nom de votre entreprise vous prévient quand il apparaît en ligne.
 
-Un abonnement ne trouvera pas votre histoire et n’écrira pas votre message. Si l’envie vous prend de payer un outil avant même votre premier pitch, lisez d’abord mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}.
+Un abonnement ne trouvera pas votre histoire à votre place, et un brouillon rédigé par l’IA ne vaut que ce que vaut l’histoire que vous lui donnez. Si l’envie vous prend de payer un outil avant même votre premier pitch, lisez d’abord mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}.
 
 {{< callout type="note" >}}Les anciens avis sur Prowly citent des noms d’offres et des prix d’avant le passage à l’AI PR Toolkit de Semrush. Fiez-vous à la page de tarifs officielle plutôt qu’à un chiffre lu ailleurs.{{< /callout >}}
 
@@ -158,7 +158,7 @@ Un abonnement ne trouvera pas votre histoire et n’écrira pas votre message. S
 ## Votre premier pitch cette semaine : la liste à suivre
 
 1. Écrivez votre histoire en une phrase qu’un inconnu aurait envie de lire.
-2. Choisissez un titre local et lisez-le pendant une ou deux semaines.
+2. Choisissez un titre local et parcourez ses articles des deux ou trois dernières semaines.
 3. Trouvez le journaliste ou le correspondant qui couvre votre sujet, ou l’adresse de la rédaction.
 4. Vérifiez que votre site ou votre page presse montre votre travail, de bonnes photos et un numéro de portable.
 5. Écrivez cinq lignes : l’histoire en objet, pourquoi ce journaliste, les faits, ce que vous proposez, votre numéro.
@@ -166,4 +166,4 @@ Un abonnement ne trouvera pas votre histoire et n’écrira pas votre message. S
 7. Relancez une fois au bout de trois ou quatre jours ouvrés, avec un élément nouveau.
 8. Quand l’article sort, remerciez le journaliste, partagez l’article, ajoutez-le à votre site et visez l’étape suivante.
 
-L’ensemble tient en un après-midi. Passez le plus de temps sur l’étape 1 : quand l’histoire est la bonne, les sept autres étapes relèvent de la routine.
+Attente des réponses mise à part, l’ensemble tient en un après-midi. Passez le plus de temps sur l’étape 1 : quand l’histoire est la bonne, les sept autres étapes relèvent de la routine.

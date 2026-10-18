@@ -1,7 +1,7 @@
 ---
 title: "Planificateur de mots clés Google : le tuto pour l’utiliser gratuitement"
 seo_title: "Planificateur de mots clés Google : l’utiliser gratuitement"
-description: "Le planificateur de mots clés Google est gratuit : ouvrez un compte sans campagne, trouvez des idées, lisez les fourchettes de volume et les enchères."
+description: "Le planificateur de mots clés Google est gratuit : ouvrez un compte sans campagne active, trouvez des idées, lisez les fourchettes de volume et les enchères."
 slug: "planificateur-mots-cles-google"
 translationKey: "google-keyword-planner-tutorial"
 date: 2026-10-17T08:03:00+02:00
@@ -16,7 +16,7 @@ related: ["keyword-research-small-business", "google-trends-tutorial", "semrush-
 services: ["seo"]
 faq:
   - q: "Le planificateur de mots clés Google est-il gratuit ?"
-    a: "Oui. Il est gratuit dans un compte Google Ads et vous n’avez pas besoin de diffuser d’annonces pour l’utiliser. Google demande de terminer la configuration du compte, facturation comprise, mais vous ne payez que les annonces réellement diffusées."
+    a: "Oui. Il est gratuit dans un compte Google Ads et vous n’avez pas besoin de diffuser d’annonces pour l’utiliser. Google peut vous demander de terminer la configuration du compte, facturation comprise, mais vous ne payez que les annonces réellement diffusées."
   - q: "Peut-on utiliser le Keyword Planner sans compte Google Ads ?"
     a: "Non. L’outil ne fonctionne que dans Google Ads, mais ouvrir un compte ne coûte rien. Sans compte, Google Trends montre quelles formulations sont les plus tapées, et un compte Semrush gratuit permet 10 recherches de mots clés par jour à la date de rédaction (octobre 2026)."
   - q: "Comment voir le volume de recherche exact plutôt qu’une fourchette ?"
@@ -27,38 +27,37 @@ faq:
     a: "En général parce que trop peu de personnes le tapent dans la zone choisie. Élargissez la zone, d’une ville à son département ou à sa région, essayez une formulation plus courte ou plus courante, ou regardez le sujet dans Google Trends."
 ---
 
-Le planificateur de mots clés Google est l’outil gratuit de Google pour trouver des mots clés et estimer leur volume de recherche. Il se trouve dans Google Ads, car il a été conçu pour les annonceurs, mais vous pouvez l’utiliser sans diffuser la moindre annonce. Il montre, à peu près, combien de fois une expression est tapée chaque mois, comment ce nombre évolue et combien les annonceurs enchérissent pour apparaître en haut des résultats.
+Le planificateur de mots clés Google est l’outil gratuit de Google pour trouver des mots clés et estimer leur volume de recherche. Il se trouve dans Google Ads, car il a été conçu pour les annonceurs, mais vous pouvez l’utiliser sans diffuser la moindre annonce.
 
-Il y a une contrepartie. Il vous faut un compte Google Ads en mode Expert, Google demande vos informations de facturation et, sans dépense publicitaire, les volumes s’affichent en fourchettes (de 1 000 à 10 000 recherches par mois, par exemple) plutôt qu’en chiffres exacts. Ce tuto montre comment y accéder sans rien dépenser, puis comment lire les résultats pour choisir les mots clés sur lesquels vos pages doivent se positionner.
+Il y a toutefois quelques contraintes. Il vous faut un compte Google Ads en mode Expert, Google demande vos informations de facturation et, sans dépense publicitaire, les volumes s’affichent en fourchettes (de 1 000 à 10 000 recherches par mois, par exemple) plutôt qu’en chiffres exacts. Ce tuto montre comment y accéder sans rien dépenser, puis comment lire les résultats pour choisir les mots clés sur lesquels vos pages doivent se positionner.
 
 Il complète mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel{{< /a >}}. Dans l’interface en français, l’outil s’appelle « Outil de planification des mots clés ». Google déplace ses menus de temps en temps : un intitulé peut donc différer légèrement sur votre écran.
 
 ## Ce que montre le planificateur de mots clés Google
 
-Le planificateur propose des mots clés et estime, à partir des données de recherche de Google, leur nombre de recherches mensuelles et leur coût en publicité. Les annonceurs s’en servent pour préparer leurs campagnes. En SEO, il répond à trois questions : est-ce que quelqu’un cherche cela, quelle formulation est la plus tapée, et quelles recherches valent de l’argent.
+Le planificateur propose des mots clés et estime, à partir des données de recherche de Google, leur nombre de recherches mensuelles et leur coût en publicité. En SEO, il répond à trois questions : est-ce que quelqu’un cherche cela, quelle formulation est la plus tapée, et quelles recherches valent de l’argent.
 
 | Ce que vous obtenez | Ce que vous n’obtenez pas |
 |---|---|
 | Des idées de mots clés à partir de quelques mots ou d’une adresse web | La difficulté à se positionner sur un mot clé |
-| Le nombre moyen de recherches par mois, en fourchettes sans dépense publicitaire | Les volumes exacts, sauf si le compte dépense en publicité |
+| Le nombre moyen de recherches par mois, en fourchettes sans dépense publicitaire | Les volumes exacts, sauf si le compte dépense assez en publicité |
 | L’évolution des recherches sur trois mois et sur un an | Les sites positionnés aujourd’hui sur ce mot clé |
 | Une estimation des enchères pour le haut de page | Les recherches faites sur Bing ou dans les assistants IA |
 
-## Étape 1 : créer un compte Google Ads sans campagne
+## Étape 1 : créer un compte Google Ads sans diffuser d’annonce
 
 1. Allez sur ads.google.com et connectez-vous avec le compte Google que vous garderez pour l’entreprise, plutôt qu’avec une adresse personnelle dont vous pourriez perdre l’accès.
-2. Google commence par des questions sur vos objectifs, pour construire une première campagne. Cherchez le lien qui permet de **passer en mode Expert**, en général en bas de l’écran. L’outil a besoin du mode Expert : il ne fait pas partie du mode intelligent, la version simplifiée que Google propose aux petits annonceurs.
-3. Sur l’écran suivant, choisissez de **créer un compte sans campagne**.
-4. Confirmez le pays de facturation, le fuseau horaire et la devise : France, heure de Paris et euro pour une entreprise française. Choisissez bien la devise, car elle ne peut plus être modifiée ensuite.
-5. Renseignez vos informations de facturation quand Google les demande. Selon l’aide de Google, la configuration du compte, facturation comprise, doit être terminée avant de pouvoir utiliser des fonctions de base comme les idées de mots clés.
+2. Google commence par des questions sur vos objectifs, pour construire une première campagne. Cherchez, en général en bas de l’écran, un lien qui permet de sauter cette étape. Pendant des années, il s’agissait de **passer en mode Expert**, puis de **créer un compte sans campagne** sur l’écran suivant, mais Google modifie ce parcours de temps en temps, et toutes les versions ne proposent pas ce raccourci.
+3. Confirmez le pays de facturation, le fuseau horaire et la devise : France, heure de Paris et euro pour une entreprise française. Choisissez bien la devise, car elle ne peut plus être modifiée ensuite.
+4. Renseignez vos informations de facturation quand Google les demande : l’outil peut rester bloqué tant que la configuration du compte, facturation comprise, n’est pas terminée.
 
-Renseigner la facturation ne lance aucune annonce. Vous payez les annonces diffusées, et un compte sans campagne n’a rien à diffuser.
+Renseigner la facturation ne lance aucune annonce : vous payez les annonces diffusées, et un compte sans campagne n’a rien à diffuser.
 
-Si l’inscription refuse de vous laisser passer sans campagne, terminez-la, puis ouvrez **Campagnes** et mettez la nouvelle campagne en pause. Une campagne en pause ne diffuse aucune annonce et ne coûte rien. Google examine la plupart des nouvelles annonces en un jour ouvré : mettez-la en pause dès sa création, pas le lendemain.
+Si votre inscription ne permet pas de passer sans campagne, terminez-la, puis ouvrez **Campagnes** et mettez la nouvelle campagne en pause. Une campagne en pause ne diffuse aucune annonce et ne coûte rien. Google examine la plupart des nouvelles annonces en un jour ouvré : mettez-la en pause dès sa création, pas le lendemain.
 
-{{< callout type="tip" >}}Si vous avez déjà un compte Google Ads en mode intelligent, inutile d’en créer un deuxième : **passez-le en mode Expert** depuis le menu du compte, et l’outil devient accessible.{{< /callout >}}
+{{< callout type="tip" >}}Le planificateur ne fait pas partie du mode intelligent, la version simplifiée de Google Ads destinée aux petits annonceurs. Si votre compte est dans ce mode, parce qu’il existait déjà ou parce que l’inscription a créé une campagne intelligente, inutile d’en ouvrir un deuxième : **passez-le en mode Expert**, comme l’indique [la page de Google consacrée à l’outil](https://business.google.com/fr/ad-tools/keyword-planner/), et le planificateur devient accessible.{{< /callout >}}
 
-{{< screenshot id="google-keyword-planner-tutorial-01" alt="Écran d’inscription Google Ads avec le lien pour passer en mode Expert, qui mène à l’option de création d’un compte sans campagne" >}}
+{{< screenshot id="google-keyword-planner-tutorial-01" alt="Écran d’inscription Google Ads avec, en bas, le lien qui permet de sauter la création de la première campagne" >}}
 
 ## Étape 2 : ouvrir l’Outil de planification des mots clés
 
@@ -92,7 +91,7 @@ Au-dessus des résultats, quatre réglages changent tous les chiffres de la page
 
 1. **La zone géographique** : celle que vous servez. Une entreprise qui travaille dans une ville choisit cette ville ou son département ; un service national, toute la France. Faites une recherche pour Lyon et une autre pour Marseille, plutôt qu’une seule pour les deux.
 2. **La langue** : le français pour vos clients en France. Changez-la, avec la zone, pour chaque marché où vous vendez.
-3. **Le réseau de recherche** : gardez Google seul, sans les partenaires du Réseau de Recherche.
+3. **Le réseau de recherche** : choisissez Google seul, sans les partenaires du Réseau de Recherche, c’est-à-dire les autres sites qui affichent les annonces de Google. En SEO, ce sont les recherches faites sur Google qui comptent.
 4. **La période** : les 12 derniers mois par défaut, ce qui transforme une activité saisonnière en moyenne plate. Choisissez les mois de votre saison pour voir leurs chiffres, ou lisez la saison elle-même dans Google Trends.
 
 {{< screenshot id="google-keyword-planner-tutorial-04" alt="Page des idées de mots clés avec les réglages de zone, de langue, de réseau de recherche et de période au-dessus du tableau" >}}
@@ -126,18 +125,18 @@ Sans dépense publicitaire, le nombre moyen de recherches s’affiche en tranche
 
 Les deux dernières colonnes, les enchères pour le haut de page en fourchette basse et en fourchette haute, estiment ce que les annonceurs enchérissent pour apparaître au-dessus des résultats naturels. [Selon la définition de Google](https://support.google.com/google-ads/answer/3022575?hl=fr), elles correspondent à peu près au 20e et au 80e centile des enchères récentes qui ont placé une annonce en haut de la page, pour la zone et le réseau choisis. Ce ne sont pas des tarifs, et elles restent vides pour les mots clés qui ont peu d’historique d’enchères.
 
-En SEO, ces colonnes donnent gratuitement une mesure de la valeur commerciale. Les annonceurs ne continuent pas à payer des clics qui ne deviennent jamais des clients : un mot clé aux enchères élevées est un mot clé qui rapporte.
+En SEO, ces colonnes donnent gratuitement une mesure de la valeur commerciale. Les annonceurs ne continuent pas à payer des clics qui ne deviennent jamais des clients : un mot clé qui reste cher est en général un mot clé qui leur rapporte.
 
-C’est ainsi que je choisis les mots clés à travailler. Je regarde les mots clés sur lesquels les annonceurs paient et ce que leur coûte chaque clic, ce qui montre ceux qui marchent le mieux, puis je mise sur ceux-là en référencement naturel plutôt qu’en SEA, où chaque clic se paie. Je le fais dans Semrush, mais le planificateur donne le même signal gratuitement, directement depuis les données de Google.
+C’est ainsi que je choisis les mots clés à travailler. Je regarde les mots clés pour lesquels les annonceurs paient et ce que leur coûte chaque clic, ce qui montre ceux qui marchent le mieux, puis je mise sur ceux-là en référencement naturel plutôt qu’en SEA, où chaque clic se paie. Je le fais dans Semrush, mais le planificateur donne le même signal gratuitement, directement depuis les données de Google.
 
-Lisez les deux colonnes d’enchère avec les volumes :
+Lisez les colonnes d’enchères avec les volumes, en comparant chaque mot clé au reste de votre liste :
 
 | Recherches | Enchères | Ce que cela veut dire en général | Que faire |
 |---|---|---|---|
-| Une fourchette correcte | Élevées | Les gens achètent depuis cette recherche | Une page de service dédiée, en priorité |
-| Une fourchette correcte | Faibles ou vides | Les gens cherchent une information | Un article de blog ou un guide |
-| Une fourchette basse | Élevées | Peu de recherches, mais qui valent cher | Une page, si c’est exactement ce que vous vendez |
-| Une fourchette basse | Faibles ou vides | Peu de demande | À traiter dans une autre page, ou à laisser |
+| De 100 à 1 000 ou plus | Élevées | Les gens achètent depuis cette recherche | Une page de service dédiée, en priorité |
+| De 100 à 1 000 ou plus | Faibles ou vides | Les gens cherchent une information | Un article de blog ou un guide |
+| De 10 à 100 ou moins | Élevées | Peu de recherches, mais qui valent cher | Une page, si c’est exactement ce que vous vendez |
+| De 10 à 100 ou moins | Faibles ou vides | Peu de demande | À traiter dans une autre page, ou à laisser |
 
 Comparez les enchères à zone égale : le prix d’un clic varie d’un endroit à l’autre.
 
@@ -147,8 +146,8 @@ Comparez les enchères à zone égale : le prix d’un clic varie d’un endroi
 
 Une longue liste n’est pas une bonne liste. Deux outils la raccourcissent :
 
-- **Le panneau pour affiner les mots clés**, à côté des résultats, regroupe les idées par thème, par exemple les marques ou les types de produits, pour décocher tout un groupe d’un coup. Google le présente dans sa [page d’aide sur l’affinage des mots clés](https://support.google.com/google-ads/answer/9907498?hl=fr).
-- **Les filtres**, au-dessus du tableau, masquent des idées selon leur texte ou leurs chiffres. Excluez les mots qui amènent des gens qui n’achèteront jamais : emploi, formation, gratuit, tuto ou « faire soi-même ».
+- **Le panneau pour affiner les mots clés**, à côté des résultats, regroupe les idées par thème, par exemple les marques ou les types de produits, pour décocher tout un groupe d’un coup. Google l’explique dans [son aide pour affiner les idées de mots clés](https://support.google.com/google-ads/answer/9907498?hl=fr).
+- **Les filtres**, au-dessus du tableau, masquent des idées selon leur texte ou leurs chiffres. Excluez les mots qui amènent des gens qui n’achèteront jamais : emploi, formation, tuto ou « faire soi-même », et gratuit, sauf si vos clients cherchent un « devis gratuit ».
 
 Retirez ensuite à la main les villes que vous ne servez pas, les marques des concurrents et les services que vous ne proposez pas. Ce qui reste doit ressembler aux demandes de vos futurs clients.
 
@@ -161,7 +160,7 @@ Quand vous avez déjà des formulations, tirées de Google Trends, des emails de
 - les mêmes chiffres historiques qu’à l’étape 5, pour vos formulations exactes et rien d’autre ;
 - des **prévisions** : les clics, les impressions et le coût que vous pourriez attendre si vous achetiez ces mots clés en publicité. Vous pouvez changer le budget quotidien, la stratégie d’enchères et la période ; les conversions n’apparaissent que si le suivi des conversions est configuré dans le compte, comme l’explique [l’aide Google Ads sur l’Outil de planification des mots clés](https://support.google.com/google-ads/answer/7337243?hl=fr).
 
-En SEO, lisez ces prévisions comme le prix de l’absence de positionnement : à peu près ce que le même trafic vous coûterait en publicité. C’est une estimation, mais elle chiffre le choix entre une page qui mettra des mois à se positionner et des annonces qui démarrent en quelques jours. Mon comparatif {{< a key="seo-vs-ppc" >}}SEO ou SEA{{< /a >}} vous aide à trancher.
+En SEO, lisez ces prévisions comme le prix à payer tant que votre page n’est pas positionnée : à peu près ce que le même trafic vous coûterait en publicité. C’est une estimation, mais elle chiffre le choix entre une page qui mettra des mois à se positionner et des annonces qui démarrent en quelques jours. Mon comparatif {{< a key="seo-vs-ppc" >}}SEO ou SEA{{< /a >}} vous aide à trancher.
 
 Si ces prévisions vous tentent, Google Ads n’est pas si compliqué, à condition d’étudier votre cible et ce qu’elle tape, ce que vous venez justement de faire. Mon guide {{< a key="google-ads-small-business" >}}Google Ads pour débutant{{< /a >}} couvre la suite. Enregistrer un plan dans l’outil ne coûte rien : les annonces ne démarrent qu’une fois une campagne créée et active, alors arrêtez-vous avant tout bouton qui en crée une.
 
@@ -169,9 +168,9 @@ Si ces prévisions vous tentent, Google Ads n’est pas si compliqué, à condit
 
 ## Étape 9 : télécharger la liste et attribuer une page à chaque mot clé
 
-Le bouton de téléchargement au-dessus du tableau exporte les idées dans un fichier CSV ou dans Google Sheets. Ajoutez une colonne pour la page à laquelle chaque mot clé appartient, puis classez les idées selon ce que veut la personne :
+Le bouton de téléchargement au-dessus du tableau exporte les idées dans un fichier CSV ou dans Google Sheets. Ajoutez une colonne pour la page à laquelle chaque mot clé appartient, puis classez les idées selon ce que cherche l’internaute :
 
-| Idée de mot clé | Ce que veut la personne | Où la placer |
+| Idée de mot clé | Ce que cherche l’internaute | Où la placer |
 |---|---|---|
 | fleuriste mariage + votre ville | trouver un prestataire | votre page de service principale |
 | prix fleurs mariage | comparer | une partie tarifs sur cette page |
@@ -194,7 +193,7 @@ Le planificateur répond à une partie de la question. D’autres outils répond
 | Est-il difficile de se positionner, et qui est positionné aujourd’hui ? | Semrush ou un outil de mots clés similaire | Compte gratuit : 10 recherches par jour (octobre 2026) ; formules payantes au-delà |
 | Sur quelles recherches mon site apparaît-il déjà ? | Google Search Console | Gratuit |
 
-Pour les deux autres outils gratuits, voyez {{< a key="google-trends-tutorial" >}}comment utiliser Google Trends{{< /a >}} et mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}}. Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} vous aide ensuite à savoir si un outil payant vaut le coup pour une petite entreprise.
+Pour les deux autres outils gratuits, lisez mon article {{< a key="google-trends-tutorial" >}}comment utiliser Google Trends{{< /a >}} et mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}}. Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} vous aide ensuite à savoir si un outil payant vaut le coup pour une petite entreprise.
 
 ## La checklist avant chaque nouvelle page
 

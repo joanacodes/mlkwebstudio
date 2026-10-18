@@ -1,7 +1,7 @@
 ---
 title: "Publier sur Google My Business : quoi poster, à quel rythme et pour quel effet"
 seo_title: "Publier sur Google My Business : quoi poster et quand"
-description: "Publier sur Google My Business : actualités, offres, événements, comment créer un post, ce que Google refuse, à quel rythme publier et l’effet sur le SEO."
+description: "Publier sur Google My Business : quel type de post choisir, comment le programmer, ce que Google refuse, à quel rythme publier et l’effet sur le SEO local."
 slug: "publier-google-my-business"
 translationKey: "google-business-profile-posts"
 date: 2026-10-17T09:31:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:31:00+02:00
 category: "social-media"
 article_type: "guide"
 keywords: ["publier sur Google My Business", "post Google My Business", "publier sur sa fiche Google", "offre Google My Business", "événement Google My Business"]
-summary: "Publier sur Google My Business, c’est ajouter à votre fiche des actualités, des offres et des événements, visibles dans la recherche Google et dans Maps. Publiez chaque semaine ou tous les quinze jours, avec votre propre photo, un bouton vers la bonne page et aucun numéro de téléphone dans le texte. Les posts aident ceux qui voient déjà votre fiche à vous choisir, mais ils ne font pas partie des trois critères du classement local de Google."
+summary: "Publier sur Google My Business, c’est ajouter à votre fiche des actualités, des offres et des événements, visibles dans la recherche Google et dans Maps. Publiez chaque semaine ou tous les quinze jours, avec votre propre photo, un bouton vers la bonne page et aucun numéro de téléphone dans le texte, car Google peut retirer les posts qui en contiennent un. Les posts aident ceux qui voient déjà votre fiche à vous choisir, mais Google ne les mentionne pas quand il explique son classement local : ne comptez pas sur eux pour vous faire monter sur la carte."
 cover: "google-business-profile-posts"
 cover_alt: "Grille de vignettes de posts avec un cœur et une icône de lecture, à côté des mots Business Profile posts"
 related: ["google-business-profile-setup", "local-seo-guide", "social-media-small-business", "social-media-scheduling-tools", "pilotech-seo-case-study"]
@@ -39,9 +39,9 @@ Un post est un court message rattaché à votre fiche : une photo, quelques lig
 
 C’est la grande différence avec un réseau social : personne n’a besoin de vous suivre, et votre post n’est pas noyé entre des photos de vacances. Le revers : un post ne vous apporte pas de nouveau public. Il ne touche que les personnes déjà arrivées sur votre fiche par une recherche.
 
-Deux anciennes fonctions ont disparu : les petits sites web créés dans les fiches ont été désactivés en mars 2024, et la messagerie s’est arrêtée le 31 juillet 2024. Le bouton d’un post mène donc vers votre propre site, une page de réservation ou un appel.
+Deux anciennes fonctions ont disparu : les petits sites web créés dans les fiches ont été désactivés en mars 2024, et la messagerie s’est arrêtée le 31 juillet 2024. Le bouton d’un post mène désormais vers votre propre site, une page de réservation ou un appel : la page qui se trouve derrière compte autant que le post.
 
-Chaque post affiche aussi sa date. Une fiche dont le dernier post remonte à un an laisse penser que personne ne s’en occupe ; un post de la semaine dernière montre une entreprise qui tourne.
+Chaque post indique aussi depuis quand il est en ligne. Un dernier post qui date du printemps laisse penser que personne ne s’occupe de la fiche ; un post de la semaine dernière montre une entreprise qui tourne.
 
 ## Actualité, offre ou événement : quel type de post choisir
 
@@ -49,7 +49,7 @@ Google propose trois types de posts. Choisissez celui qui correspond à ce que v
 
 | Type | À utiliser pour | Ce que vous remplissez | Durée d’affichage |
 |---|---|---|---|
-| Actualité | Un chantier terminé, une nouvelle, un rappel de saison, un nouveau service | Une photo, le texte, un bouton facultatif | Pas de date de fin : les posts suivants la font descendre |
+| Actualité | Un chantier terminé, une nouvelle, un rappel de saison, un nouveau service | Une photo ou une vidéo, le texte, un bouton facultatif | Pas de date de fin à fixer : les posts suivants la font descendre, et Google l’archive au bout de six mois |
 | Offre | Une remise ou une promotion avec de vraies dates | Un titre, des dates de début et de fin, le texte, un code promo et des conditions facultatifs ; Google ajoute un bouton pour voir l’offre | Jusqu’à sa date de fin |
 | Événement | Des portes ouvertes, un atelier, un stand sur un salon ou un marché local | Un titre, les dates et heures de début et de fin, le texte, un bouton facultatif | Jusqu’à la fin de l’événement |
 
@@ -62,7 +62,7 @@ Le texte peut compter jusqu’à 1 500 caractères, mais seules les premières 
 Ces étapes valent au moment où j’écris (octobre 2026). Google déplace souvent ses boutons et change ses libellés : si vous ne trouvez pas un intitulé, cherchez le plus proche ou consultez [la page d’aide de Google sur les posts](https://support.google.com/business/answer/7342169?hl=fr).
 
 1. Connectez-vous avec le compte Google propriétaire ou gestionnaire de la fiche, puis cherchez le nom de votre entreprise sur Google. Le panneau de gestion de votre fiche apparaît au-dessus des résultats.
-2. Cliquez sur le bouton pour ajouter une actualité. Selon les comptes, l’option se trouve aussi dans la rubrique des posts.
+2. Ouvrez la rubrique des posts et choisissez d’en ajouter un. Sur certains comptes, un bouton permet encore d’ajouter directement une actualité.
 3. Choisissez le type : actualité, offre ou événement.
 4. Ajoutez une de vos propres photos, puis écrivez le texte, l’essentiel en premier.
 5. Pour une offre, indiquez un titre et des dates, puis un code promo et des conditions si vous en avez. Pour un événement, un titre et les dates et heures de début et de fin.
@@ -85,7 +85,7 @@ Google contrôle chaque post au regard de son [règlement sur le contenu des pos
 - **Un numéro de téléphone dans le texte.** Google peut retirer les posts qui contiennent des coordonnées qu’il ne peut pas vérifier : numéro de téléphone, adresse email ou compte de réseau social. Ajoutez plutôt le bouton d’appel : il compose le numéro vérifié de votre fiche.
 - Un texte sans rapport avec votre entreprise : actualité générale, opinions personnelles.
 - Le bourrage de mots-clés : une liste de services et de villes passe pour du spam, aux yeux de Google comme de vos clients.
-- Une offre trompeuse : une promotion sans date de fin, ou un prix que vous ne tiendriez pas.
+- Une offre trompeuse : une remise que vous n’accordez pas vraiment, ou un prix que vous ne tiendriez pas.
 - Un contenu choquant, explicite ou illégal.
 
 Si un post est refusé, lisez la règle indiquée, corrigez ce point précis et republiez-le.
@@ -130,7 +130,7 @@ rendez-vous pour une visite à domicile.
 Bouton : En savoir plus
 ```
 
-Quand je crée la fiche Google d’un client, ce qui ralentit tout n’est jamais Google : c’est d’obtenir les informations et les photos de l’entreprise. Les posts demandent la même matière première, chaque mois. L’habitude la plus simple que je connaisse : la personne qui termine un chantier prend deux photos avant de partir et les envoie avec une phrase sur le travail fait. Vous ne manquerez plus de sujets.
+Quand je crée la fiche Google d’un client, ce qui peut traîner, c’est de devoir courir après les informations de l’entreprise. Les posts demandent la même matière première, chaque mois. Une habitude simple règle la question : la personne qui termine un chantier prend deux photos avant de partir et les envoie avec une phrase sur le travail fait. Vous ne manquerez plus de sujets.
 
 {{< callout type="note" >}}Un post ne remplace pas les champs de votre fiche. **Pour une fermeture pendant les fêtes, modifiez aussi vos horaires exceptionnels** : ce sont eux que Google affiche à côté de votre nom, alors qu’un post peut vite sortir du champ de vision.{{< /callout >}}
 
@@ -145,13 +145,13 @@ Le bon rythme est celui que vous pouvez tenir. Voici ce que je conseille :
 
 Un post par jour se justifie pour un restaurant qui change de plat du jour, et pour presque personne d’autre.
 
-Le plus simple pour tenir le rythme : écrire les posts du mois en une seule fois, puis les programmer. Si vous utilisez déjà un outil de planification pour vos autres réseaux, vérifiez qu’il publie aussi sur les fiches Google : c’est le cas de Postly, et de Metricool, que j’apprécie aussi pour observer les concurrents qui réussissent. Mon comparatif pour choisir un {{< a key="social-media-scheduling-tools" >}}outil de planification réseaux sociaux{{< /a >}} passe les deux en revue. Prenez celui qui couvre les réseaux que vous utilisez déjà.
+Le plus simple pour tenir le rythme : écrire les posts du mois en une seule fois, puis les programmer. L’option de programmation de Google suffit pour une seule fiche, sans outil payant. Si vous utilisez déjà un outil de planification pour vos autres réseaux, vérifiez qu’il publie aussi sur les fiches Google : c’est le cas de Postly, et de Metricool, que j’apprécie aussi pour observer les concurrents qui réussissent. Mon comparatif pour choisir un {{< a key="social-media-scheduling-tools" >}}outil de planification réseaux sociaux{{< /a >}} passe les deux en revue. Prenez celui qui couvre les réseaux que vous utilisez déjà.
 
 {{< callout type="tip" >}}Au début de chaque mois, écrivez quatre posts courts à partir des photos envoyées par votre équipe, **programmez-en un par semaine**, et votre fiche reste vivante jusqu’au mois suivant.{{< /callout >}}
 
 ## Les posts Google My Business aident-ils le référencement local ?
 
-Pas directement, d’après tout ce que l’on peut observer. [Google explique](https://support.google.com/business/answer/7091?hl=fr) qu’il classe les résultats locaux selon trois critères : la pertinence, la distance et la notoriété. Aucun classement ne s’achète, et les posts ne font pas partie de ces trois critères.
+Pas directement, d’après tout ce que l’on peut observer. [Google explique](https://support.google.com/business/answer/7091?hl=fr) que les résultats locaux reposent principalement sur trois critères : la pertinence, la distance et la notoriété. Il précise qu’on ne peut ni demander ni payer un meilleur classement, et les posts n’apparaissent nulle part dans cette explication.
 
 Ce qui vous fait monter sur la carte, c’est le reste du travail : une catégorie précise, de vrais avis, une page de votre site par service et par ville réellement couverte, et des mentions sur d’autres sites de votre région. Mon guide du {{< a key="local-seo-guide" >}}référencement local{{< /a >}} détaille chacun de ces leviers.
 
@@ -173,7 +173,7 @@ Je ne suis pas community manager, et le studio ne vend pas de gestion des résea
 
 Instagram, TikTok et Facebook font de vous une main-d’œuvre gratuite qui doit sans cesse mendier un peu d’attention, post après post. Même Google My Business est plus agréable : ceux qui voient vos posts ont déjà cherché ce que vous faites, et un post continue son travail sur votre fiche sans que personne n’ait à l’aimer ou à le partager.
 
-Si vous cherchez un canal qui amène de nouvelles personnes pendant des mois après la publication, mes choix pour 2026 sont Pinterest et YouTube Shorts : lisez mon guide sur {{< a key="youtube-shorts-for-business" >}}YouTube Shorts pour les entreprises{{< /a >}}. Les posts Google font un autre travail. Ils ne vous trouveront pas de nouveau public, mais ils aident ceux qui vous regardent déjà à se décider.
+Si vous cherchez un canal qui amène de nouvelles personnes pendant des mois après la publication, mes choix pour 2026 sont Pinterest et YouTube Shorts : lisez mes guides sur {{< a key="pinterest-for-business" >}}Pinterest pour les entreprises{{< /a >}} et sur {{< a key="youtube-shorts-for-business" >}}YouTube Shorts pour les entreprises{{< /a >}}. Les posts Google font un autre travail. Ils ne vous trouveront pas de nouveau public, mais ils aident ceux qui vous regardent déjà à se décider.
 
 Et si vous avez déjà une fiche, les posts ne sont pas un nouveau canal à apprendre, juste quelques minutes de plus sur un canal existant. C’est ma façon de voir le marketing : concentrez-vous sur ce que vous faites déjà vivre avant de courir après le prochain outil à la mode.
 

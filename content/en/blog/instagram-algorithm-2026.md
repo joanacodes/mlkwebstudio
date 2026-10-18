@@ -20,20 +20,20 @@ faq:
   - q: "Can I put a link to my website on Instagram?"
     a: "Yes: in your bio, which can hold up to five links, with the link sticker in Stories, and in ads. A web address typed into an ordinary caption is usually not clickable, so name your website in the caption and put the link first in your bio."
   - q: "Is my Instagram account shadowbanned?"
-    a: "Instagram does not use that word, but it can stop recommending an account to people who do not follow it, for example after a breach of its guidelines or when most recent posts are reposts. Open **Account status** in your settings: for a professional account, it shows whether your content can currently be recommended."
+    a: "Instagram has no official penalty called a shadowban, but it can stop recommending an account to people who do not follow it, for example after a breach of its guidelines or when most recent posts are reposts. Open **Account status** in your settings: for a professional account, it shows whether your content can currently be recommended."
   - q: "How often should a small business post on Instagram?"
-    a: "There is no official number. Choose a rhythm you can keep for months with your own photos and videos, such as two or three posts a week: a steady pace beats a burst of daily posts followed by silence."
+    a: "Instagram sets no required number. Choose a rhythm you can keep for months with your own photos and videos, such as two or three posts a week: a steady pace beats a burst of daily posts followed by silence."
 ---
 
-The Instagram algorithm in 2026 favours three things: original content, posts that people watch to the end, and posts they send to someone else. Two changes also reshape how people find you: every user can now see and edit the topics Instagram shows them, and captions are capped at five hashtags. If your reach has dropped this year, one of the dated changes below may explain it.
+The Instagram algorithm in 2026 favours three things: original content, posts that people watch to the end, and posts they send to someone else. Two changes also reshape how people find you: anyone using Instagram in English can now see and edit the topics it shows them, and captions are capped at five hashtags. If your reach has dropped this year, one of the dated changes below may explain it.
 
-Social media management is not my job, and the studio does not sell it. When I helped a client with social media, engaging with other accounts and posting regularly brought them 60 relevant new followers in a month. It worked, but I prefer work whose results show up as enquiries.
+Social media management is not my job, and the studio does not sell it. When I helped a client with social media, engaging with other accounts and posting regularly brought them 60 relevant new followers in a month. It worked, but I prefer my other services, whose results are more tangible.
 
 What I can offer is a dated list of what Instagram changed, checked on 17 October 2026, with an honest view of what each change means for a small business. For the other networks, my guide to the {{< a key="social-media-small-business" >}}best social media for small business{{< /a >}} compares where a few hours a week pay off.
 
 ## Instagram algorithm 2026: how it ranks your posts
 
-Instagram does not run one algorithm. The home feed, Stories, Reels and Explore each rank posts in their own way, as Instagram has explained for years, and each one shows your post to a different audience:
+Instagram does not run one algorithm. The home feed, Stories, Reels and Explore each rank posts in their own way, as [Instagram has explained for years](https://about.instagram.com/blog/announcements/instagram-ranking-explained), and each one shows your post to a different audience:
 
 | Part of the app | Who sees your post | What helps most |
 |---|---|---|
@@ -55,11 +55,11 @@ These are the changes since January 2025 that matter to a small business account
 | January 2025 | Reels can last up to 3 minutes; the profile grid shows taller 3:4 thumbnails instead of squares | Keep faces and text in the centre of your images so the grid does not crop them |
 | 22 April 2025 | Edits, Instagram's free video editing app, launches | Edit Reels on your phone without another app's watermark |
 | 10 July 2025 | Public photos and videos from professional accounts (adults only) can appear in search engines such as Google | Your captions now work a little like web copy |
-| 6 August 2025 | Reposts, Instagram Map and a Friends tab in Reels | Tag your location and make posts worth reposting |
+| 6 August 2025 | Reposts, a Friends tab in Reels and Instagram Map (US first, other countries in stages) | Tag your location and make posts worth reposting |
 | September 2025 | Meta announces 3 billion monthly users on Instagram | A huge audience, and crowded feeds |
 | December 2025 | Your Algorithm launches on Reels; hashtags capped at five per post | Choose a clear topic and a few precise hashtags |
 | April 2026 | Stricter originality rule for accounts that mostly repost | Post your own photos and videos |
-| 2026 | Your Algorithm extended to Explore, then to the home feed | Topic clarity now counts across the app |
+| Spring 2026 | Your Algorithm extended to Explore, then to the home feed | Topic clarity now counts across the app |
 | September 2026 | Adam Mosseri's video series on what gets reach | Test new formats with Trial Reels |
 
 ### July 2025: your public posts can appear in Google
@@ -80,23 +80,22 @@ Sharing someone else's material is still fine when you add something of your own
 
 ### September 2026: Adam Mosseri's advice on reach
 
-In a series of videos in September 2026, Mosseri said Instagram gives more weight to original content from the person who made it than to accounts that repost it. He told creators to keep experimenting, because trends change, and suggested Trial Reels. He has also said that sharing your own post to your Stories does not meaningfully change its reach, and that most reach "hacks" usually do not work.
+In a series of videos in September 2026, Mosseri said Instagram gives more weight to original content from the person who made it than to accounts that repost it. He told creators to keep experimenting, because trends change, and suggested Trial Reels. He has also said that sharing your own post to your Stories does not meaningfully change its reach, and that most reach "hacks" do not work.
 
 Trial Reels, available to professional accounts, are shown first to people who do not follow you; you then decide whether to share them with your followers. They are a safe way to test a new format before your regular audience sees it.
 
-{{< callout type="note" >}}**Where these dates come from.** Instagram announces most changes on its [official newsroom](https://about.instagram.com/blog) and in Adam Mosseri's own posts; some, such as the hashtag cap, were confirmed only in the app and by the trade press. The dates are those of the first announcement: a feature can reach your account weeks later.{{< /callout >}}
+{{< callout type="note" >}}**Where these dates come from.** Instagram announces most changes on its [official newsroom](https://about.instagram.com/blog) and in Adam Mosseri's own posts; some, such as the hashtag cap, were confirmed only in the app and by the trade press. The dates are those of the first announcement.{{< /callout >}}
 
 ## What to change in your Instagram routine
 
 Put together, the 2026 changes reward a small business that does a few simple things consistently:
 
-1. **Pick one subject and stay on it.** People now choose their topics, and an account that posts about everything fits none of them. I have seen the same rule with websites: a client's site that offered too many building trades never brought work, while the one that sold a single, specific service ranked first or second on Google.
+1. **Pick one subject and stay on it.** People now choose their topics, and an account that posts about everything fits none of them. I have seen the same rule with websites: a client's site that offered too many building trades did not work at all, while the one that sells very specific services ranks first or second on Google.
 2. **Make posts people want to send.** A tip a customer will forward, a before-and-after, a common question answered, a local recommendation: the kind of post someone sends to a friend with "we need this".
 3. **Show your own work.** Use your photos and videos, edited in Instagram or Edits, rather than reposts or videos carrying another app's watermark.
-4. **Use three to five precise hashtags**, not thirty generic ones.
-5. **Write captions for search.** Say what, where and for whom in the first line, and tag your location: it costs nothing, and since August 2025 Instagram's map shows content tagged at places.
-6. **Plan in batches.** Prepare a week or two at a time and schedule it. Professional accounts can schedule posts for free in Instagram and in Meta Business Suite, and a tool such as Metricool or Postly puts several networks in one calendar. Metricool also shows what successful competitors publish, which beats guessing; my comparison of {{< a key="social-media-scheduling-tools" >}}social media scheduling tools{{< /a >}} covers both.
-7. **Give every post a path to your website.** Followers live on Instagram's terms; enquiries arrive on your website. Put your site first in your bio links, with tracking so the visits show up in your analytics:
+4. **Write captions for search.** Say what, where and for whom in the first line, and tag your location: it costs nothing, and public posts tagged at a place can appear on Instagram Map, which opened in the US in August 2025 and is reaching other countries in stages.
+5. **Plan in batches.** Prepare a week or two at a time and schedule it. Professional accounts can schedule posts for free in Instagram and in Meta Business Suite, and a tool such as Metricool or Postly puts several networks in one calendar. Metricool also shows what successful competitors publish, which beats guessing; my comparison of {{< a key="social-media-scheduling-tools" >}}social media scheduling tools{{< /a >}} covers both.
+6. **Give every post a path to your website.** Followers live on Instagram's terms; enquiries arrive on your website. Put your site first in your bio links, with tracking so the visits show up in your analytics:
 
 ```text
 https://www.yourbusiness.co.uk/?utm_source=instagram&utm_medium=social&utm_campaign=bio
@@ -108,7 +107,7 @@ The page people land on should answer their question and make it easy to call or
 
 My honest answer: yes, if you have time, an advertising budget, or both. Instagram, like TikTok and Facebook, asks you to keep catching people's attention, post after post, for a long time; stop, and you fade from their feeds. These platforms turn owners into unpaid staff who have to beg to be seen. Even a {{< a key="google-business-profile-posts" >}}Google Business Profile{{< /a >}} is kinder to a busy owner.
 
-If you have the budget, hire an agency with a strong, proven track record, and be patient: do not judge it after a month. Instagram and Facebook ads can bring both awareness and sales, but you need money to burn on A/B tests before you know which version works. The two mistakes I see most are skipping research into your audience's words and problems, and skipping those tests; my guide to {{< a key="facebook-ads-mistakes" >}}Facebook ads mistakes{{< /a >}} covers both.
+If you have the budget, hire an agency with a strong, proven track record, and be patient: do not expect results straight away. Instagram and Facebook ads can bring both awareness and sales, but you need money to burn on A/B tests before you know which version works. The two mistakes I warn owners about are skipping research into the words your customers use, and skipping those tests; my guide to {{< a key="facebook-ads-mistakes" >}}Facebook ads mistakes{{< /a >}} covers both.
 
 If you work alone, post less on Instagram and put the hours you save where a post keeps working: {{< a key="pinterest-for-business" >}}Pinterest{{< /a >}} and {{< a key="youtube-shorts-for-business" >}}YouTube Shorts{{< /a >}}, where something you publish this month can still bring visitors next year. Keep Instagram as a shop window: a few good posts that show your work and point to your website.
 

@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:22:00+02:00
 category: "marketing"
 article_type: "comparison"
 keywords: ["SEO ou SEA", "SEO vs SEA", "référencement naturel ou payant", "SEO ou Google Ads", "différence SEO SEA"]
-summary: "Le SEA (les annonces Google Ads) peut vous placer en première page en un ou deux jours, mais chaque clic se paie et les demandes s’arrêtent avec le budget. Le SEO gagne des positions gratuites, le plus souvent en quatre mois à un an, puis apporte des visites sans coût par clic. Payez la publicité pour des demandes immédiates ou pour tester une recherche ; misez sur le référencement naturel pour les recherches que vous voudrez pendant des années."
+summary: "Le SEA (les annonces Google Ads) peut vous placer en première page en un ou deux jours, mais chaque clic se paie et les demandes s’arrêtent avec le budget. Le SEO gagne des positions gratuites, le plus souvent en quatre mois à un an, puis apporte des visites sans coût par clic. Passez par la publicité pour obtenir des demandes tout de suite ou tester une recherche ; misez sur le référencement naturel pour les recherches qui compteront pour vous pendant des années."
 cover: "seo-vs-ppc"
 cover_alt: "Une main qui note des chiffres dans un tableau imprimé, à côté des mots SEO vs Google Ads et de deux panneaux comparés"
 related: ["google-ads-small-business", "how-long-does-seo-take", "semrush-review", "ppc-vs-cold-emailing", "google-ai-overviews-ai-mode"]
@@ -27,7 +27,7 @@ faq:
 
 SEO ou SEA : c’est choisir entre gagner sa place dans les résultats de Google et la louer. Le SEO (référencement naturel) est le travail qui fait apparaître vos pages dans les résultats gratuits. Le SEA (référencement payant), ce sont les annonces facturées chaque fois que quelqu’un clique, c’est-à-dire Google Ads pour la plupart des petites entreprises. Les deux vous placent devant des personnes qui cherchent ce que vous vendez. Ils diffèrent par leur rapidité, par la façon dont leur coût évolue et par ce qu’il vous reste quand vous arrêtez de payer.
 
-Lors d’un premier appel, mes clients me demandent combien de temps il faut pour apparaître en bonne place sur Google. La réponse honnête, plusieurs mois dans la plupart des cas, explique pourquoi ce choix compte : une annonce peut être en première page cette semaine. Ma réponse courte : payez la publicité quand il vous faut des demandes maintenant ou pour tester une recherche, et misez sur le référencement naturel pour les recherches que vous voudrez pendant des années. En pratique, je me sers des données publicitaires pour choisir les recherches qui méritent le travail de SEO, et je vous montre comment plus bas.
+Lors d’un premier appel, mes clients me demandent combien de temps il faut pour apparaître en bonne place sur Google. La réponse honnête, plusieurs mois dans la plupart des cas, explique pourquoi ce choix compte : une annonce peut être en première page cette semaine. En pratique, je me sers des données publicitaires pour choisir les recherches qui méritent le travail de SEO, et je vous montre comment plus bas.
 
 Ce comparatif fait partie de mon guide pour {{< a key="how-to-get-more-clients" >}}trouver des clients{{< /a >}}, qui passe en revue les autres canaux.
 
@@ -37,12 +37,12 @@ Ce comparatif fait partie de mon guide pour {{< a key="how-to-get-more-clients" 
 |---|---|---|
 | Où vous apparaissez | Dans les résultats naturels | Dans les annonces, en haut ou en bas de la page, signalées comme sponsorisées |
 | Ce que vous payez | Le travail : pages, contenus, corrections techniques | Chaque clic, au prix des enchères |
-| Délai de démarrage | Quelques jours pour l’indexation, puis des semaines ou des mois pour monter | La plupart des annonces examinées en un jour ouvré |
-| Demandes régulières | De quatre mois à un an, le plus souvent | Dès que les clics deviennent des appels ou des formulaires |
+| Délai de démarrage | Quelques jours à quelques semaines pour l’indexation, puis des mois pour monter | La plupart des annonces examinées en un jour ouvré |
+| Délai avant résultats | De quatre mois à un an, le plus souvent | Dès que les clics deviennent des appels ou des formulaires |
 | Chaque visite en plus | Gratuite | Un clic de plus, au prix des enchères |
 | Quand vous arrêtez de payer | Les pages restent classées un temps | Les visites s’arrêtent avec le budget |
 | Maîtrise | Google décide qui est classé, et où | Vous choisissez les recherches, le texte et le budget |
-| Idéal pour | Les recherches que vous voudrez pendant des années | Les besoins urgents, les tests, les offres limitées dans le temps |
+| Idéal pour | Les recherches qui compteront pendant des années | Les besoins urgents, les tests, les offres limitées dans le temps |
 
 ## La rapidité : la publicité cette semaine, le référencement en quelques mois
 
@@ -50,7 +50,7 @@ Le SEA est le plus rapide. Une fois le compte, les annonces et la page d’arriv
 
 Le SEO est lent par nature. Dans [ses conseils pour faire appel à un spécialiste du SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=fr), Google indique qu’il faut, dans la plupart des cas, de quatre mois à un an pour mettre les améliorations en place, puis en voir les bénéfices. Je détaille ces délais étape par étape dans mon article sur le {{< a key="how-long-does-seo-take" >}}temps qu’il faut pour être référencé sur Google{{< /a >}}.
 
-Parfois, tout va beaucoup plus vite. Pour Pilotech, installateur de climatisation en Île-de-France, la création du site a pris environ un mois, le premier prospect est arrivé trois semaines après la mise en ligne, et une position en tête est venue en un ou deux jours. C’est exceptionnel, et la raison compte plus que la vitesse : le site qui se classe premier ou deuxième vend une seule chose, la climatisation sans unité extérieure. Un autre site que j’ai créé pour le même client proposait trop de services, et il n’a jamais fonctionné. Le site qui se classe est présenté sur {{< a page="/projects/pilotech-teknopoint" >}}la page Pilotech Teknopoint{{< /a >}}.
+Parfois, tout va beaucoup plus vite. Pour Pilotech, installateur de climatisation en Île-de-France, la création du site a pris environ un mois, le premier prospect est arrivé trois semaines après la mise en ligne, et le site s’est hissé en tête sur une recherche en un ou deux jours. C’est exceptionnel, et la raison compte plus que la vitesse : le site qui se classe premier ou deuxième vend une seule chose, la climatisation sans unité extérieure. Un autre site que j’ai créé pour le même client proposait trop de services, et il n’a jamais fonctionné. Le site qui se classe est présenté sur {{< a page="/projects/pilotech-teknopoint" >}}la page Pilotech Teknopoint{{< /a >}}.
 
 La qualité des prospects a été l’autre surprise : elle était nettement meilleure, ce qui se comprend, puisque quelqu’un qui tape un besoin précis dans Google sait déjà ce qu’il veut.
 
@@ -75,15 +75,16 @@ Ce qui change le calcul, c’est la forme du coût. Une page coûte la même cho
 ```
 valeur des visites naturelles = clics par mois × coût par clic
 exemple :                       80 clics × 2,50 € = 200 € par mois, 2 400 € par an
+mois pour amortir la page     = ce qu’elle a coûté ÷ sa valeur mensuelle
 ```
 
-Ce sont des chiffres ronds pour montrer le calcul, pas une référence : prenez les prix au clic que l’Outil de planification des mots clés donne pour vos recherches et votre zone. Si une page obtient ces 80 clics sans publicité, c’est à peu près ce qu’elle vous fait économiser chaque année où elle tient sa position, à mettre en face de ce qu’elle a coûté à écrire et à tenir à jour.
+Ce sont des chiffres ronds pour montrer le calcul, pas une référence : prenez les prix au clic que l’Outil de planification des mots clés donne pour vos recherches et votre zone. Divisez ensuite ce que la page vous a coûté, en temps ou en honoraires, par sa valeur mensuelle : vous obtenez le nombre de mois qu’il lui faut pour être amortie. Au-delà, chaque mois où elle garde sa position, ce sont des clics que vous n’achetez plus, déduction faite de ce que coûte sa mise à jour.
 
 {{< callout type="tip" >}}**Comparez sur un an ou deux, pas sur un mois.** Le premier mois, la publicité paraît toujours moins chère, parce que le SEO vous a coûté du travail sans encore rien rapporter. Sur 12 à 24 mois, le rapport peut s’inverser pour les recherches aux clics chers, parce que la page continue de travailler pendant que les annonces continuent de facturer.{{< /callout >}}
 
 ## Ce qui reste quand vous arrêtez de payer
 
-Coupez les annonces, et les visites s’arrêtent avec elles. Ce qui reste, c’est ce que vous avez appris : quelles recherches ont apporté des demandes, quels titres ont obtenu des clics, quelles pages ont transformé les visiteurs en appels. Le rapport sur les termes de recherche de Google Ads montre les recherches qui ont déclenché vos annonces, avec les mots de vos clients, et cette liste mérite d’être gardée, quoi que vous fassiez ensuite.
+Coupez les annonces, et les visites s’arrêtent avec elles. Ce qui reste, c’est ce que vous avez appris : quelles recherches ont apporté des demandes, quels titres ont obtenu des clics, quelles pages ont transformé les visiteurs en appels. Le rapport sur les termes de recherche de Google Ads montre une bonne partie des recherches réelles qui ont déclenché vos annonces, avec les mots de vos clients, et cette liste mérite d’être gardée, quoi que vous fassiez ensuite.
 
 Arrêtez le SEO, et rien ne s’éteint. Les pages bien classées tiennent en général leur position un temps, puis reculent à mesure que les concurrents publient, obtiennent des liens et améliorent leurs propres pages. Le travail de SEO se comporte comme un actif qui perd lentement de sa valeur sans entretien, la publicité comme un loyer.
 
@@ -93,27 +94,27 @@ Les pages restent, elles aussi. Une page écrite pour une recherche précise peu
 
 Annonces et résultats naturels partagent la page, pas la même attention. Depuis octobre 2025, Google regroupe les annonces textuelles sous un même libellé qui signale les résultats sponsorisés et reste affiché en haut de l’écran pendant le défilement, avec un bouton qui les masque en un clic, selon [l’annonce de Google](https://blog.google/products/ads-commerce/google-search-sponsored-results-label/) (en anglais). Certains internautes sautent les annonces par principe ; d’autres cliquent sur le premier résultat qui correspond à leur recherche, payant ou non. Plutôt que de vous fier à des généralités sur qui clique sur quoi, regardez vos propres chiffres une fois les deux canaux lancés.
 
-Les deux canaux font aussi face aux réponses de l’IA. Sur les recherches qui affichent un résumé IA, comme les Aperçus IA de Google, on clique moins : dans une étude du [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) publiée en 2025 sur la navigation d’adultes américains, ceux-ci cliquaient sur un résultat classique dans 8 % des visites quand un résumé s’affichait, contre 15 % sans résumé. Être cité dans ces résumés se gagne et ne s’achète pas : le guide de Google sur ses fonctionnalités d’IA, publié en mai 2026, dit lui-même qu’optimiser un site pour ces fonctionnalités, c’est encore du SEO.
+Les deux canaux font aussi face aux réponses de l’IA. Sur les recherches qui affichent un résumé IA, comme les Aperçus IA de Google, on clique moins : dans une étude du [Pew Research Center](https://www.pewresearch.org/short-reads/2025/07/22/google-users-are-less-likely-to-click-on-links-when-an-ai-summary-appears-in-the-results/) publiée en 2025 sur la navigation d’adultes américains, ceux-ci cliquaient sur un résultat classique dans 8 % des visites quand un résumé s’affichait, contre 15 % sans résumé. Être cité dans ces résumés se gagne et ne s’achète pas : le guide de Google sur ses fonctionnalités d’IA, publié en mai 2026, explique que les bonnes pratiques du SEO continuent de s’appliquer, puisque ces fonctionnalités reposent sur les mêmes systèmes de classement et de qualité que le reste de la recherche Google.
 
 ## Quand payer Google Ads, et quand miser sur le référencement naturel
 
-### Payez Google Ads quand…
+### Choisissez Google Ads quand…
 
-- **Il vous faut des demandes ce mois-ci.** Une entreprise nouvelle, un site neuf, une saison creuse : le SEO ne comblera pas le manque à temps.
-- **Vous voulez tester une recherche avant d’y investir.** Quelques semaines d’annonces montrent si une recherche apporte des demandes ou seulement des clics, avant de passer des mois sur une page.
+- **Il vous faut des demandes ce mois-ci.** Une entreprise qui démarre, un site neuf, une saison creuse : le SEO ne comblera pas le manque à temps.
+- **Vous voulez tester une recherche avant d’y investir.** Mieux vaut découvrir en quelques semaines qu’une recherche apporte des clics mais aucune demande qu’après des mois passés à écrire pour elle.
 - **L’offre est limitée dans le temps** : un service saisonnier, un événement, un lancement. Le temps qu’une page se classe, la saison est passée.
 - **Les résultats naturels sont hors de portée pour l’instant**, occupés par des annuaires, des marques nationales et des comparateurs que vous ne dépasserez pas cette année.
 
-Google Ads n’est pas si compliqué. Il demande surtout un peu de recherche sur votre cible et sur ce qu’elle tape, pour savoir où être vu et mieux convertir. Mon guide {{< a key="google-ads-small-business" >}}Google Ads pour débutant{{< /a >}} détaille ces recherches et les réglages qui comptent.
+Google Ads n’est pas si compliqué. Il demande surtout un peu de recherche sur votre cible et sur ce qu’elle tape, pour savoir où apparaître et mieux convertir. Mon guide {{< a key="google-ads-small-business" >}}Google Ads pour débutant{{< /a >}} détaille ces recherches et les réglages qui comptent.
 
 ### Misez sur le référencement naturel quand…
 
-- **La recherche est au cœur de votre activité**, une recherche que vous voudrez encore dans cinq ans. Payer chaque clic dessus, année après année, est l’option la plus chère.
+- **La recherche est au cœur de votre activité**, une recherche sur laquelle vous voudrez encore apparaître dans cinq ans. Payer chaque clic dessus, année après année, est l’option la plus chère.
 - **Les clics sont chers.** Une enchère élevée pour le haut de page signifie en général que les annonceurs gagnent de l’argent sur cette recherche : c’est justement pour cela qu’elle vaut la peine d’être gagnée en référencement naturel.
 - **Votre offre est précise et locale.** Les recherches pointues dans une zone donnée ont moins de concurrents. Pour les résultats locaux, Google classe les établissements selon leur pertinence, leur distance et leur notoriété, et aucun paiement ne permet d’obtenir un meilleur classement local.
 - **Vous avez plus de temps que de budget.** Le SEO, c’est surtout du travail, et vous pouvez en faire une bonne partie vous-même : mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel{{< /a >}} suit l’ordre que j’applique.
 
-Si vous vendez à des entreprises que vous pouvez lister, il existe une troisième voie, ni publicité ni référencement : leur écrire en premier. Mon comparatif {{< a key="ppc-vs-cold-emailing" >}}Google Ads ou cold emailing{{< /a >}} la détaille.
+Si vous vendez à des entreprises que vous pouvez identifier une à une, il existe une troisième voie, ni publicité ni référencement : les démarcher directement par email. Mon comparatif {{< a key="ppc-vs-cold-emailing" >}}Google Ads ou cold emailing{{< /a >}} la détaille.
 
 ## Comment j’utilise les données publicitaires pour choisir mes mots clés SEO
 
@@ -124,7 +125,7 @@ C’est là que les deux canaux se rejoignent dans mon travail. Les annonceurs p
 3. **Gardez les recherches précises et chères.** Un CPC élevé indique en général que la recherche amène des acheteurs. Une recherche précise vaut mieux qu’une recherche large : c’est la leçon de Pilotech, où le site conçu pour un besoin précis se classe et celui qui proposait tout n’a jamais marché.
 4. **Créez une page par recherche**, écrite pour cette recherche et rien d’autre.
 5. **Testez d’abord si vous avez un budget.** Une petite campagne sur vos trois meilleures recherches pendant quelques semaines montre lesquelles apportent des demandes. Écrivez d’abord les pages de celles-là.
-6. **Une fois une page classée, regardez où annonces et résultats naturels se recoupent.** Associez la Search Console à Google Ads (page **Associations** des paramètres de la Search Console) et ouvrez le rapport sur les liens commerciaux et les résultats naturels. Il montre vos résultats naturels à côté de vos annonces textuelles, recherche par recherche : vous voyez où vous payez peut-être des clics que vous auriez eus de toute façon.
+6. **Une fois une page classée, regardez où annonces et résultats naturels se recoupent.** Associez la Search Console à Google Ads depuis la page **Associations** de ses paramètres (il vous faut le statut de propriétaire dans la Search Console et un accès administrateur au compte Google Ads), puis ouvrez le rapport sur les liens commerciaux et les résultats naturels. Il montre vos résultats naturels à côté de vos annonces textuelles, recherche par recherche : vous voyez où vous payez peut-être des clics que vous auriez eus de toute façon.
 
 Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} détaille ce que j’en fais et les alternatives moins chères.
 
@@ -132,7 +133,7 @@ Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} détaille ce que j�
 
 En partant de zéro, voici l’ordre que je suivrais :
 
-1. **Premier mois : la recherche.** Listez vos recherches, vérifiez le prix de leurs clics et calculez ce que vaut un nouveau client pour vous, pour savoir combien vous pouvez payer pour en gagner un.
+1. **Premier mois : la recherche.** Suivez les étapes 1 à 3 ci-dessus, puis calculez ce que vaut un nouveau client pour vous, pour savoir combien vous pouvez payer pour en gagner un.
 2. **S’il vous faut des demandes maintenant, lancez un petit test publicitaire** sur vos trois meilleures recherches, avec un budget fixe et une date de fin. Jugez-le sur les demandes, pas sur les clics.
 3. **En parallèle, créez les pages** des recherches que vous voulez gagner, une par recherche, et complétez votre fiche d’établissement Google.
 4. **À partir du deuxième mois, déplacez le budget** vers les recherches qui apportent des demandes, et écrivez d’abord les pages de celles-là.

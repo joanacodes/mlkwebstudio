@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:07:00+02:00
 category: "seo"
 article_type: "tutorial"
 keywords: ["Google Business Profile setup", "create a Google Business Profile", "verify Google Business Profile", "Google Business Profile video verification", "Google Business Profile categories", "Google My Business"]
-summary: "To set up a Google Business Profile, find your business on Google Maps and claim it, or create it at business.google.com, then verify it, most often with a short video of your premises, van or tools. Choose one precise primary category, add your services, service area, hours and real photos, then ask every customer for a review, with nothing offered in return."
+summary: "To set up a Google Business Profile, find your business on Google Maps and claim it, or create it at business.google.com, then verify it, most often with one unedited phone video that shows your location, your equipment and proof that you run the business. Choose one precise primary category, add your services, service area, hours and real photos, then ask every customer for a review, with nothing offered in return."
 cover: "google-business-profile-setup"
 cover_alt: "Map pin above a Google Business Profile card with a star rating and opening hours"
 related: ["local-seo-guide", "google-business-profile-posts", "get-recommended-by-chatgpt", "pilotech-seo-case-study", "multiple-websites-one-business"]
@@ -29,7 +29,7 @@ faq:
 
 A Google Business Profile, called Google My Business until November 2021, is the listing that shows your business on Google Maps and in Google's local results: name, category, hours, photos, reviews and a button to call you. For a plumber, a cleaner or a heating engineer, it is often the first thing a customer sees, before the website.
 
-This Google Business Profile setup tutorial follows the order I use for clients: gather the information, claim or create the profile, verify it, fill in every section, then start collecting reviews. Menu names are those of the English interface at the time of writing (October 2026). Google moves its buttons around often, so if a label differs, look for the nearest match.
+This Google Business Profile setup tutorial takes the steps in order: gather the information, claim or create the profile, verify it, fill in every section, then start collecting reviews. Menu names are those of the English interface at the time of writing (October 2026). Google moves its buttons around often, so if a label differs, look for the nearest match.
 
 It is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}, where the profile is one step among others, not a replacement for a website.
 
@@ -44,11 +44,11 @@ Older tutorials describe features that no longer exist. Here is what changed:
 | November 2021 | Google My Business became Google Business Profile, and Google began moving its management into Search and Maps | Same product, new name; you edit it mostly from Google Search or Maps |
 | March 2024 | The simple websites built inside Business Profiles were switched off | Link your profile to a real website |
 | 31 July 2024 | The chat feature ended | Customers reach you by phone, through your website or by email |
-| Late 2025 | The Questions and answers section was removed (its API stopped on 3 November 2025), and Maps now answers questions with AI | Your profile and your site must answer the questions customers ask |
+| From late 2025 | The Questions and answers section was retired (its API stopped on 3 November 2025) and replaced in Maps by AI answers drawn from your profile, your reviews and your website | Your profile and your site must answer the questions customers ask |
 
 ## Before you start: gather everything in one go
 
-When I set up a profile for a client, the slow part is never Google. It is chasing the photos, the exact opening hours and the list of services. Collect all of this before you open the form:
+When I build a profile for a client, what slows everything down is having to chase them for the information. Collect all of this before you open the form:
 
 - A Google account the business keeps, linked to an address you control: not a former employee's or a freelancer's personal account.
 - Your business name exactly as customers see it on your sign, van and invoices. Google's guidelines do not allow extra keywords or a town in the name ("Smith Plumbing", not "Smith Plumbing Emergency Plumber Croydon"), and breaking them can get the profile suspended.
@@ -59,7 +59,7 @@ When I set up a profile for a client, the slow part is never Google. It is chasi
 - A description of up to 750 characters (step 6).
 - Photos: logo, cover photo, premises or van, the team at work, finished jobs.
 
-{{< callout type="note" >}}**One profile per location.** [Google's guidelines](https://support.google.com/business/answer/3038177) say not to create more than one profile for each location, in one account or several. A business with no premises that travels to customers gets a single service-area profile.{{< /callout >}}
+{{< callout type="note" >}}**One profile per location.** [Google's guidelines](https://support.google.com/business/answer/3038177) say not to create more than one profile for each location, in one account or several. A business with no premises that travels to customers gets one service-area profile, or one per base if it has several bases, each with its own staff.{{< /callout >}}
 
 ## Step 1: find, claim or create your profile
 
@@ -74,7 +74,7 @@ Your business may already have a profile you never created: Google can build one
 
 {{< screenshot id="google-business-profile-setup-02" alt="Business Profile creation screen asking for the business name and category" >}}
 
-If someone else already manages the profile, Google shows part of their email address and lets you request access. It is often a former web designer, an employee who has left or the previous owner of the business. Ask them to add you as an owner before it turns into a dispute. If they never answer, the request screen tells you what Google lets you do next.
+If someone else already manages the profile, Google shows part of their email address and lets you request access. It is often a former web designer, an employee who has left or the previous owner of the business, so contact them as well and ask them to add you as an owner before it turns into a dispute. Google gives the current owner three days to respond. If they refuse, Google tells you by email and you can appeal; if they do not answer, sign in at `business.google.com` or open the link in Google's confirmation email to see where your request stands.
 
 ## Step 2: verify your business (most often by video)
 
@@ -114,13 +114,13 @@ Your answer depends on where you meet customers.
 | You go to customers (plumber, cleaner, electrician) | Entered for verification, then hidden | The towns, boroughs or postcode districts you cover |
 | Both | Shown | Added for the areas you travel to |
 
-List only the areas you really cover. Distance is one of the three things Google weighs, so a long list of far-away towns will not make you appear there. It only confuses customers about where you work.
+List only the areas you really cover. Google accepts up to 20 service areas and recommends keeping the whole area within about two hours' drive of where your business is based ([Google's service area help](https://support.google.com/business/answer/10514137)). Distance is one of the three things Google weighs, so a long list of far-away towns will not make you appear there; it only confuses customers about where you work.
 
 {{< screenshot id="google-business-profile-setup-05" alt="Location settings with the business address hidden and a list of service areas" >}}
 
 ## Step 5: add your services and opening hours
 
-**Services.** Google suggests services that match your category. Tick the ones you offer, then add your own, each with a short description in the words customers type: "boiler repair", "air conditioning installation", "end-of-tenancy cleaning". Customers read this list to check that you do the job they need.
+**Services.** Google suggests services that match your category. Tick the ones you offer, then add your own, each with a short description in the words customers type: "boiler repair", "air conditioning installation", "end-of-tenancy cleaning".
 
 **Opening hours.** Set your regular hours for each day, then special hours for bank holidays and closures, a few days ahead. Wrong hours cost you twice: the customer who finds the door shut, and the review they write afterwards.
 
@@ -151,7 +151,7 @@ In Google Analytics, these visits then carry the campaign name business-profile.
 
 ## Step 7: add real photos
 
-Photos show customers that you exist and that you do the job well. Add:
+Add at least:
 
 - your logo and a cover photo;
 - the outside as customers see it when they arrive, or your van;
@@ -159,13 +159,13 @@ Photos show customers that you exist and that you do the job well. Add:
 - the team at work, with the customer's permission if they appear;
 - finished jobs, before and after.
 
-For a website, when a client has no pictures, I generate or buy them. **For a Business Profile, I would not**: people look at these photos to check that you are real, and they compare them with the van that turns up. Customers can add their own photos too, so add a few of yours every month to keep the gallery current.
+For a website, when a client has no pictures, I generate or buy them. **A Business Profile needs real ones**: people look at these photos to check that you exist, and they compare them with the van that turns up. Customers can add their own photos too, so add a few of yours every month to keep the gallery current.
 
 {{< screenshot id="google-business-profile-setup-08" alt="The Add photo screen of a Business Profile with the logo and cover photo options" >}}
 
 ## Step 8: get reviews within Google's rules and the law
 
-Reviews are the part of your profile you can work on every week. Click **Ask for reviews** on your profile to copy the short link to your review form. Send it by text or email right after the job, add it to your invoices, and print it as a QR code for your counter or your van.
+Click **Ask for reviews** on your profile to copy the short link to your review form. Send it by text or email right after the job, add it to your invoices, and print it as a QR code for your counter or your van.
 
 **Ask every customer, not only the happy ones.** Google's review policy forbids:
 
@@ -175,7 +175,7 @@ Reviews are the part of your profile you can work on every week. Click **Ask for
 
 UK law has followed the same logic since 6 April 2025. Under the Digital Markets, Competition and Consumers Act 2024, writing or commissioning fake reviews, hiding that a review was incentivised and presenting reviews in a misleading way, for example by hiding the negative ones, are banned in all circumstances ([Schedule 20](https://www.legislation.gov.uk/ukpga/2024/13/schedule/20)). The Competition and Markets Authority can now fine businesses directly, without going to court.
 
-Reply to every review, good or bad. Thank people and mention the job; to a negative review, answer the facts calmly and offer to sort it out by phone. Future customers read your replies as closely as the reviews.
+Reply to every review, good or bad. Thank people and mention the job; to a negative review, answer the facts calmly and offer to sort it out by phone. Future customers read your replies too.
 
 Reviews belong to the profile, but you can show them on your website too. On the {{< a page="/projects/pilotech-toshiba" >}}Toshiba site I built for Pilotech{{< /a >}}, the Google rating, 5.0 from 82 reviews when the project page was written, appears in the header of every page.
 
@@ -193,9 +193,9 @@ Google ranks local results on three things, as [Google explains](https://support
 | Distance | How far you are from the place in the search, or from the person searching | Nothing, so be honest about your area |
 | Prominence | How well known the business is, online and offline | Reviews, mentions on other sites, a strong website |
 
-Nobody can pay Google for a better local position. A profile also works best when it points to a site that answers the search. For Pilotech, the SEO work went in this order: pages, then content, then the Business Profile, then technical fixes. The {{< a key="pilotech-seo-case-study" >}}Pilotech SEO case study{{< /a >}} tells the full story, and my guide to {{< a key="local-seo-guide" >}}local SEO{{< /a >}} covers town pages and directory listings.
+A profile also works best when it points to a site that answers the search. For Pilotech, the SEO work went in this order: pages, then content, then the Business Profile, then technical fixes. The {{< a key="pilotech-seo-case-study" >}}Pilotech SEO case study{{< /a >}} tells the full story, and my guide to {{< a key="local-seo-guide" >}}local SEO{{< /a >}} covers town pages and directory listings.
 
-AI assistants lean on the same proof. ChatGPT and the others recommend businesses they can see confirmed on other sites, so make your name, address, phone number and services identical on your profile, your website and your directory listings. My guide on how to {{< a key="get-recommended-by-chatgpt" >}}get recommended by ChatGPT{{< /a >}} goes further.
+AI assistants lean on the same kind of proof: they tend to recommend businesses whose details they find confirmed on several sites. Make your name, address, phone number and services identical on your profile, your website and your directory listings. My guide on how to {{< a key="get-recommended-by-chatgpt" >}}get recommended by ChatGPT{{< /a >}} goes further.
 
 ## After set-up: keep the profile alive
 
@@ -207,7 +207,7 @@ A profile is not a one-off job. Once a month:
 4. Publish an update about a recent job, a seasonal service or an event. My guide to {{< a key="google-business-profile-posts" >}}Google Business Profile posts{{< /a >}} covers what to post and how often.
 5. Open **Performance** to see how many people called, asked for directions or clicked through to your site.
 
-I find the profile far kinder to your time than Instagram, TikTok or Facebook, where you have to keep begging for attention. The people who see it are already looking for what you do.
+Compared with Instagram, TikTok or Facebook, where you have to keep begging to be seen, I find the profile much nicer to work with: the people who see it are already looking for what you do.
 
 ## Your Google Business Profile setup checklist
 

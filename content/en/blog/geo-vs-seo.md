@@ -20,24 +20,24 @@ faq:
   - q: "What is the difference between GEO and AEO?"
     a: "Very little in practice. AEO (answer engine optimisation) and GEO (generative engine optimisation) are two names for the same goal: being used as a source by tools that answer instead of listing links. Google's May 2026 guide treats both as SEO."
   - q: "Does ranking first on Google mean ChatGPT will recommend me?"
-    a: "Not automatically. ChatGPT search relies on OpenAI's own crawler and on third-party search providers, Claude's web search uses Brave Search, and Perplexity runs its own crawler. A page that ranks well usually has what they look for, but check that their search crawlers can reach it."
+    a: "Not automatically. ChatGPT search combines OpenAI's own crawler with third-party search providers, Claude's web search has used Brave Search, and Perplexity runs its own crawler. A page that ranks well usually has what they look for, but check that their search crawlers can reach it."
   - q: "Can I stay out of Google's AI Overviews and keep my normal rankings?"
-    a: "Yes. The Settings of Search Console now include a Search generative AI section where you can exclude your site from AI Overviews, AI Mode and generative AI in Discover. Google says the choice is not a ranking signal. It was still rolling out in 2026, so it may be missing on your property."
+    a: "Yes. The Settings of Search Console now include a Search generative AI section where you can exclude your site from AI Overviews, AI Mode and generative AI in Discover. Google says the choice is not a ranking signal. Google has been extending the setting beyond the UK since August 2026, so it may not be on your property yet."
   - q: "How long does GEO take to work?"
-    a: "There is no set delay. OpenAI says a robots.txt change reaches ChatGPT search in about 24 hours, but being named depends on the same groundwork as SEO, which Google says typically takes four months to a year to show results."
+    a: "There is no set delay. OpenAI says a robots.txt change reaches ChatGPT search in about 24 hours, but being named depends on the same groundwork as SEO, which Google's guidance on hiring an SEO puts at four months to a year in most cases."
 ---
 
 GEO, short for generative engine optimisation, is the work of getting your business used as a source, and named, in the answers that AI assistants write: ChatGPT, Claude, Perplexity, Gemini and Google's AI Overviews. The shift behind it is real. AI Overviews have appeared above Google's results in the UK since August 2024, and in July 2026 Google said its AI Mode had passed 1 billion monthly users.
 
 My view on GEO vs SEO fits in one line: most of GEO is SEO you should be doing anyway, and the genuinely new part is small enough to check in an afternoon.
 
-This is not a dismissal of AI. I use Claude every day for research, copywriting and SEO, and since AI arrived my delivery times have shrunk. But every new acronym brings new packages to sell, and small teams fall for them easily. For the full method, see my {{< a key="ai-search-geo-guide" >}}complete guide to generative engine optimisation{{< /a >}}.
+This is not a dismissal of AI. I work with Claude, I use AI deep research to find what customers complain about and which keywords keep coming back, and since AI arrived my delivery times have shrunk. But every new acronym brings new packages to sell, and small teams fall for them easily. For the full method, see my {{< a key="ai-search-geo-guide" >}}complete guide to generative engine optimisation{{< /a >}}.
 
 ## What GEO means, and where the word comes from
 
 GEO is the practice of shaping your pages and your reputation so that AI-generated answers use them as sources. The term comes from a research paper by a team from Princeton University, Georgia Tech, the Allen Institute for AI and IIT Delhi, first posted in November 2023 and presented at the KDD conference in August 2024 ([the paper on arXiv](https://arxiv.org/abs/2311.09735)). On a benchmark of test questions they built, the authors reported that some ways of rewriting a source raised its visibility in generative answers by up to 40%, and that what worked varied from one field to another.
 
-That is serious research, but it measured visibility on a test bench, not in your customers' searches, so treat the 40% as a lab result rather than a promise. Other acronyms followed: AEO for answer engine optimisation, AIO for AI optimisation. They all describe the same goal, and on this blog they share one category, AI search, which sits next to SEO rather than replacing it.
+That is serious research, but it measured visibility on a test bench, not in your customers' searches, so treat the 40% as a lab result rather than a promise. Other acronyms circulate for the same idea: AEO for answer engine optimisation, AIO for AI optimisation. Whatever the label, the goal is the same, and the work sits next to SEO rather than replacing it.
 
 ## GEO vs SEO at a glance
 
@@ -51,14 +51,14 @@ That is serious research, but it measured visibility on a test bench, not in you
 
 ## What stays the same: the SEO foundations
 
-In May 2026, Google published a guide to optimising for its generative AI features, and it is blunt: optimising for AI search "is still SEO" ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). To appear as a link in AI Overviews or AI Mode, a page only has to be indexed and allowed to show a snippet. There is no form, no special file and nothing to submit.
+In May 2026, Google published a guide to optimising for its generative AI features, and its message is blunt: optimising for AI search on Google is still SEO, because those features run on the same ranking and quality systems as the normal results ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). To be eligible as a link in AI Overviews or AI Mode, a page only has to be indexed and allowed to show a snippet. There is no form, no special file and nothing to submit.
 
 The other assistants work on the same principle: when a question needs current or local information, they search the web and write the answer from what they find. So the foundations carry over:
 
 - **Pages that search engines can read and index.** A page that no crawler has visited cannot be quoted.
 - **One clear page per service.** For one client with several websites, the site offering a long list of different services went nowhere, because it was too broad. The one that ranked sells a few very specific services. Ask an assistant for a boiler engineer in Croydon who does landlord gas safety certificates, and a business with a page for exactly that stands a far better chance of being named than one with a catch-all services page.
 - **The answer in the first lines.** A heading in your customers' words, then two or three sentences that answer it.
-- **A reputation outside your site.** Reviews, directories and press have always counted in SEO. AI answers lean on them even more, as you will see below.
+- **A reputation outside your site.** Reviews, directories and press have always counted in SEO. AI answers seem to lean on them even more, as you will see below.
 
 So the work does not split in two. My {{< a key="small-business-seo-guide" >}}small business SEO guide{{< /a >}} covers each of these foundations, and every hour spent on them serves Google and the assistants at once.
 
@@ -86,10 +86,10 @@ SEO comes with decent free measurement: Search Console shows your clicks, querie
 
 - Google's generative AI report in Search Console, open to all sites since 31 August 2026, shows impressions only, with no clicks and no queries ([Google's announcement](https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports)).
 - The AI Assistant channel added to GA4 in May 2026 counts visits from assistants such as ChatGPT, but not from AI Overviews or AI Mode, which arrive as ordinary organic traffic from Google.
-- Bing Webmaster Tools shows how often Copilot and Bing's AI summaries cite your pages, and the questions behind those citations, but no clicks.
-- ChatGPT tags its links with `utm_source=chatgpt.com`, yet for about a week in October 2026 the tag and the referrer went missing, a fault later reported as a bug.
+- Bing Webmaster Tools shows how often Copilot and Bing's AI summaries cite your pages, and the search queries the AI ran before citing them, but no clicks.
+- ChatGPT tags its links with `utm_source=chatgpt.com`, yet from 9 October 2026 many ChatGPT visits arrived without the tag or a referrer and landed in GA4's Direct channel.
 
-I already use Microsoft Clarity to see where visitors engage and what makes them leave, and it now sorts visits from ChatGPT, Claude, Copilot, Gemini and Perplexity into channels of their own. For the rest, nothing replaces asking the assistants your customers' questions yourself, once a month. My tutorial on how to {{< a key="check-ai-visibility" >}}check your AI visibility{{< /a >}} gives the method.
+I already use Microsoft Clarity to see where visitors engage and what makes them leave, and it now sorts visits from ChatGPT, Claude, Copilot, Gemini and Perplexity into dedicated AI channels. For the rest, nothing replaces asking the assistants your customers' questions yourself, once a month. My tutorial on how to {{< a key="check-ai-visibility" >}}check your AI visibility{{< /a >}} gives the method.
 
 ## The GEO tactics I would not pay for
 
@@ -99,7 +99,7 @@ Some of what is sold as GEO is harmless, some is wasted money, and one part can 
 - **"AI schema".** Structured data still helps Google read your name, address and opening hours, but Google says its AI features need no special schema. In a test Ahrefs published in May 2026, adding JSON-LD to 1,885 pages, compared with 4,000 pages left alone, brought no meaningful rise in AI citations. My guide to {{< a key="schema-markup-small-business" >}}schema markup{{< /a >}} lists the types still worth adding.
 - **Pages cut into chunks or rewritten for AI.** Google's guide lists both as unnecessary. Write for your customer: the assistant reads the same page.
 - **Guaranteed citations.** Nobody controls what an assistant answers, and the answer to the same question changes from one day to the next. A guarantee is a sales line.
-- **Planted mentions.** Fake reviews, paid forum posts and made-up "best of" lists. Google's guide counts inauthentic mentions among the myths of AI search, and its spam policies already cover content mass-produced to manipulate rankings. This is the part that can hurt you.
+- **Planted mentions.** Fake reviews, paid forum posts and made-up "best of" lists. Google's guide tackles inauthentic mentions in its section on AI search myths, and its spam policies already cover content mass-produced to manipulate rankings. This is the part that can hurt you.
 
 ## Before you buy a GEO package
 
@@ -112,7 +112,7 @@ If someone offers you a GEO package anyway, ask four questions before you sign:
 3. Do you promise citations? If the answer is yes, walk away.
 4. Will you write down what to expect, and by when?
 
-The last question comes from experience. A client once refused to pay me after six months because the SEO results were not there yet. Since then, I set expectations in writing before any work starts, and any GEO seller should do the same for you.
+The last question comes from experience. A client once refused to pay me after six months because the SEO results were not there yet. The lesson I took from it: put expectations in writing before any work starts. Any GEO seller should do the same for you.
 
 ## What I would do this month instead
 

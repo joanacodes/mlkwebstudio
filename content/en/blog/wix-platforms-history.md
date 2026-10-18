@@ -82,7 +82,7 @@ Wix was founded in Tel Aviv in 2006. Since then, its history has been a series o
 | June 2025 | Wix buys Base44, a vibe-coding platform that builds apps from plain-language prompts |
 | January 2026 | Wix Harmony launches, with Aria |
 
-Read the table as a user rather than an investor and the pattern is plain: two of these platforms, ADI and Editor X, no longer exist, and the coding tool changed its name twice before Wix began steering developers towards its JavaScript SDK. Each change was decided by Wix, on Wix's timetable.
+Read the table as a user rather than an investor and the pattern is plain: three of these platforms, the Flash editor, ADI and Editor X, no longer exist, and the coding tool changed its name twice before Wix began steering developers towards its JavaScript SDK. Each change was decided by Wix, on Wix's timetable.
 
 ## My honest verdict on Wix
 
@@ -113,7 +113,7 @@ For a small business, that churn costs three things:
 
 None of this appears in the monthly price. On a website builder, keeping up with the platform is part of {{< a key="website-maintenance" >}}website maintenance{{< /a >}}, alongside the content, the security and the SEO.
 
-{{< callout type="tip" >}}Whoever builds your Wix site, keep the site and the domain in a Wix account in your company's name and invite the specialist as a collaborator. If they build it in their own account, agree in writing when they will transfer it to you: Wix has a **Transfer site** option, and the transfer only goes through once you accept it from your own account.{{< /callout >}}
+{{< callout type="tip" >}}Whoever builds your Wix site, keep the site in a Wix account in your company's name, register the domain in that name too, and invite the specialist as a collaborator. If they build it in their own account, agree in writing when they will transfer it to you: Wix has a **Transfer site** option, and the transfer only goes through once you accept it from your own account.{{< /callout >}}
 
 ## Should you use Wix? A checklist before you choose
 

@@ -16,20 +16,20 @@ related: ["instantly-ai-tutorial", "cold-email-follow-up", "cold-email-examples"
 services: ["cold-emailing"]
 faq:
   - q: "Why is my Instantly campaign sending fewer emails than expected?"
-    a: "Instantly's help centre names three usual causes: the slow ramp is still raising each mailbox's daily volume, the campaign has too few mailboxes for its daily limit (each mailbox's own limit always wins), or too few new leads are left to start the sequence. Check them in that order."
+    a: "Usually for one of three reasons: the slow ramp is still raising each mailbox's daily volume, a common cause according to Instantly's help; the mailboxes' own daily limits, which always win, add up to less than the campaign's limit; or too few leads are left who have not yet received the first email. Check them in that order."
   - q: "How many sends does an A/Z test need before I pick a winner?"
-    a: "More than most people wait for. MLK Leadhunters' rule is to test one thing at a time and give each variant at least two or three hundred sends: below that, a gap of a few points is mostly chance, so keep both versions running."
+    a: "More than most people wait for. MLK Leadhunters' rule is to test one thing at a time and give each variant at least two or three hundred sends. Even then, a gap of two or three points can be chance, so keep only the differences you would bet on."
   - q: "How soon after launch do the first replies come?"
     a: "In my campaigns, the first result usually comes within 36 hours of launch. Responses then tend to grow over the following weeks, as A/Z tests show which copy works, and with a phone number in the email, some of them arrive as calls rather than written replies."
   - q: "Can I send an Instantly campaign to UK businesses without their consent?"
-    a: "To limited companies and LLPs, yes: PECR requires no prior consent from them, provided every email says who it is from and gives a valid address to opt out. Sole traders and partnerships outside Scotland count as individuals and need consent, UK GDPR still covers named addresses, and the [ICO's guidance on B2B marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to honour companies' opt-outs as well."
+    a: "To limited companies and LLPs, yes: PECR requires no prior consent from them, provided every email says who it is from and gives a valid address to opt out. Sole traders and partnerships outside Scotland count as individuals and need consent, and the [ICO's guidance on B2B marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to treat an address as an individual's when you cannot tell. UK GDPR still covers named addresses, and the ICO asks you to honour companies' opt-outs as well."
 ---
 
 An Instantly campaign is where your cold emails are actually written, scheduled and sent. It brings four things together: a list of leads, a sequence of emails, a sending schedule and a set of options. This Instantly campaign setup tutorial takes them in the order Instantly shows them, with the settings I use and the reasons behind them.
 
 It starts where account setup ends. If your sending mailboxes are not connected and warmed up yet, begin with my {{< a key="instantly-ai-tutorial" >}}Instantly AI tutorial{{< /a >}}. For the whole process, from the offer to the replies, see my {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}}.
 
-Instantly is the tool I started with, and I have found no reason to change: it is straightforward once you have found the right recipe, and its settings do a lot to keep emails out of spam. My recipe fits in one line: three plain-text emails at most, a phone number in each, no links. Menu names below are those of Instantly in October 2026; if one has moved, Instantly's help article on [campaign options](https://help.instantly.ai/en/articles/6222396-campaign-options) shows the current labels.
+Instantly is the tool I started with, and I have found no reason to change: it is straightforward once you have found the right recipe, and its settings do a lot to keep emails out of spam. My recipe fits in one line: three plain-text emails at most, an invitation to call with the phone number, no links. Menu names below are Instantly's as of October 2026.
 
 ## What you need before you start
 
@@ -42,7 +42,7 @@ Four things must be ready before you click anything:
 
 ## Step 1: create the campaign
 
-In the left-hand menu, open **Campaigns**, click **Add New** and give the campaign a name. Make the name say who it targets and what it offers, such as "Architects – free survey – October 2026": in a few months you will have several campaigns, and the name is how you will tell their results apart.
+In the left-hand menu, open **Campaigns**, click **Add New** and give the campaign a name. Make the name say who it targets and what it offers, such as "Architects – free site visit – October 2026": in a few months you will have several campaigns, and the name is how you will tell their results apart.
 
 Create one campaign per audience. The Pilotech campaigns went to three audiences: Paris restaurants, Paris offices and shops, and architects, who were the main focus. Each audience gets its own words, and separate campaigns keep their results apart.
 
@@ -61,7 +61,7 @@ Open the **Leads** tab and add leads from a CSV file. Prepare the file first:
 
 Instantly detects the columns and suggests a field for each. Map the first name and the company name to the **First Name** and **Company Name** fields, map any other column you want to quote in an email (the city, for example) to a custom variable, and set the rest to **Do Not Import**.
 
-Leave **Check for duplicates** ticked, as Instantly recommends: it skips anyone already in another of your campaigns or lists, so nobody receives two sequences at once. Addresses and domains on your blocklist are skipped as well. Instantly also offers to verify the leads during the import, for 0.25 credits per lead. I do not use it, because my lists have already been through Reoon. Instantly's [guide to CSV imports](https://help.instantly.ai/en/articles/6254215-how-to-import-leads-via-csv) has the details.
+Leave **Check for duplicates** ticked, as Instantly recommends: it skips anyone already in another of your campaigns or lists, so nobody receives two sequences at once. Addresses and domains on your blocklist are skipped as well. Instantly also offers to verify the leads during the import, for 0.25 credits per lead. You can skip it if your list has already been through a verifier: mine always have, through Reoon. Instantly's [guide to CSV imports](https://help.instantly.ai/en/articles/6254215-how-to-import-leads-via-csv) has the details.
 
 {{< screenshot id="instantly-campaign-setup-02" alt="Instantly CSV import: columns mapped to First Name, Company Name and Do Not Import, with Check for duplicates ticked" >}}
 
@@ -88,7 +88,7 @@ Hello {{firstName}},
 [One line to opt out, such as: if you would rather not hear from me again, just reply "no".]
 ```
 
-The variables `{{firstName}}` and `{{companyName}}` take their values from the columns you mapped in step 2. Keep the subject short and plain, like an internal email.
+The variables `{{firstName}}` and `{{companyName}}` take their values from the columns you mapped in step 2. Rather than typing them, insert them with the bolt icon, in the subject line or at the bottom of the editor, which rules out typos. Keep the subject short and plain, like an internal email.
 
 Write everything in plain text: no links, no images, no logo, no formatting. I avoid links and HTML to protect delivery, and a plain-text email reads like what it is, a message from one person to another; {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}} goes into the reasons. The opt-out line matters too: UK and French rules both require each email to name its sender and give a simple way to refuse further emails, and a reply does that without a link. For complete first emails built on this model, see my {{< a key="cold-email-examples" >}}cold email examples{{< /a >}}.
 
@@ -98,11 +98,11 @@ Write everything in plain text: no links, no images, no logo, no formatting. I a
 
 ## Step 4: add two follow-ups, then stop
 
-Click **Add step** to add the second email, then once more for the third. Each follow-up waits a number of days after the previous email, which you set on the step. MLK Leadhunters' guide on [how to write a cold email](https://mlkleadhunters.com/blog/how-to-write-a-cold-email/) sends the first follow-up three or four days after the first email, and the second about a week after that.
+Click **Add step** to add the second email, then once more for the third. Each follow-up waits a number of days after the previous email, which you set on the step. MLK Leadhunters' guide on [how to write a cold email](https://mlkleadhunters.com/blog/how-to-write-a-cold-email/) sets the first follow-up three or four days after the first email, and the second about a week after that.
 
-Keep the subject of step 1 in both follow-ups. Instantly's [A/Z testing guide](https://help.instantly.ai/en/articles/6661549-a-z-testing) says this is what keeps follow-ups in the same thread, so the prospect sees them in the same conversation as your first email.
+Leave the subject line of both follow-ups empty. Instantly then carries over the subject of the previous email and sends the follow-ups in the same thread, so the prospect sees them under your first email; a different subject would start a new conversation ([Instantly's guide to keeping sequences in the same thread](https://help.instantly.ai/en/articles/7914807-keep-email-sequences-in-the-same-thread)). The same goes for the sender: follow-ups leave from the mailbox that sent the first email, so do not remove a mailbox from a running campaign, or its leads' follow-ups will come from another address, in a new thread.
 
-Each follow-up is as short as the first email: one new reason to call, and the number again. Do not skip the third. In my campaigns it still brings positive replies, from people who were simply busy or forgot to answer the first two. Three is also where I stop; my guide to {{< a key="cold-email-follow-up" >}}cold email follow-ups{{< /a >}} explains why three emails are enough.
+Each follow-up is as short as the first email: one new reason to call, and the number again. Do not skip the third. In my campaigns it still brings positive replies, from people who were simply busy or forgot to answer the first two. Three is also where I stop, at the low end of the three to four steps Instantly's own help suggests for most cold outreach; my guide to {{< a key="cold-email-follow-up" >}}cold email follow-ups{{< /a >}} explains why three emails are enough.
 
 {{< screenshot id="instantly-campaign-setup-04" alt="An Instantly sequence with three steps, the two follow-ups set to wait a few days and keeping the subject of step 1" >}}
 
@@ -112,7 +112,7 @@ A/Z testing is what Instantly calls its A/B tests. On step 1, click **Add varian
 
 Change one thing at a time, starting with what the reader sees first: the subject or the first line. Testing is how a campaign gets better with time. In mine, responses usually grow as the weeks go by, because I learn which copy worked and which did not. MLK Leadhunters' article on [the A/B tests that matter](https://mlkleadhunters.com/blog/ab-tests-that-matter/) lists the tests worth running and the ones to skip.
 
-Instantly can also pick the winner for you. In the **Options** tab, under **Advanced Options**, switch on the automatic A/Z optimisation and choose the metric that decides: Instantly then deactivates the weaker variants. Choose reply rate, since with tracking switched off (step 7) there are no opens or clicks to compare. The figures for each variant are in the campaign's **Analytics**, under **Step Analytics**.
+Instantly can also pick the winner for you. In the **Options** tab, under **Advanced Options**, switch on **Auto optimize A/Z testing** and choose the metric that decides: Instantly then deactivates the weaker variants. Choose reply rate, since with tracking switched off (step 7) there are no opens or clicks to compare. The figures for each variant are in the campaign's **Analytics**, under **Step Analytics**.
 
 Before you crown a winner, count the calls as well: Instantly sees written replies, not the phone ringing.
 
@@ -122,7 +122,7 @@ Before you crown a winner, count the calls as well: Instantly sees written repli
 
 Open the **Schedule** tab. Set the sending window with **From** and **To**, pick the **Timezone**, tick the sending days and click **Save**.
 
-Use your prospects' time zone, not yours: London for a UK list, Paris for a French one, so that 9:00 means nine o'clock where the emails land. Keep the window to working days and office hours, since B2B prospects read their email at work. MLK Leadhunters' tests found that send timing makes a real but small difference, so do not spend long on the exact hour: test it last.
+Use your prospects' time zone, not yours: London for a UK list, Paris for a French one, so that 9:00 means nine o'clock where the emails land. Keep the window to working days and office hours, since B2B prospects read their email at work. MLK Leadhunters' guide to A/B tests rates send timing as a real but small difference, so do not spend long on the exact hour: test it last.
 
 One setting looks similar but is not the same: the time zone in which Instantly resets daily limits sits under **Settings**, then **Preferences**, and it is separate from the campaign's schedule.
 
@@ -130,7 +130,7 @@ One setting looks similar but is not the same: the time zone in which Instantly 
 
 ## Step 7: choose the sending options
 
-The **Options** tab holds the settings that keep a campaign out of spam, which are a large part of why I use Instantly. These are the ones that matter for a plain-text campaign:
+The **Options** tab holds the settings that keep a campaign out of spam, which are a large part of why I use Instantly. These are the ones that matter for a plain-text campaign (Instantly's article on [campaign options](https://help.instantly.ai/en/articles/6222396-campaign-options) describes the others):
 
 | Setting | Choice | Why |
 |---|---|---|
@@ -140,9 +140,9 @@ The **Options** tab holds the settings that keep a campaign out of spam, which a
 | **Send emails as text-only (no HTML)** | On | Every step goes out as plain text |
 | Daily limit | About 30 emails per mailbox | Instantly's own guideline |
 
-Tracking deserves one more sentence. Open tracking relies on an invisible image, and an image needs HTML, which defeats the point of a plain-text email. If you email French businesses, there is also the law: in a recommendation published in April 2026, the CNIL, France's data protection regulator, says a tracking pixel in a marketing email needs the recipient's consent.
+Tracking deserves one more sentence. Open tracking relies on an invisible image, and an image needs HTML, which defeats the point of a plain-text email. If you email French businesses, there is also the law: in a recommendation published in April 2026, the CNIL, France's data protection regulator, says a tracking pixel in a marketing email needs the recipient's consent, B2B emails included.
 
-For the daily limit, Instantly's help suggests about 30 campaign emails a day per mailbox, and sizing the campaign's limit as the number of mailboxes times 30: three mailboxes, 90 emails a day. Each mailbox's own limit always wins over the campaign's. Remember that the follow-ups share that budget: once they are running, a day can carry up to three times as many emails as new leads.
+For the daily limit, Instantly's help suggests about 30 campaign emails a day per mailbox, and sizing the campaign's limit as the number of mailboxes times 30: three mailboxes, 90 emails a day. Each mailbox's own limit always wins over the campaign's. Remember that the follow-ups count towards that limit: once all three steps are running, a 90-email day brings only about 30 new leads into the sequence, because the rest goes to follow-ups.
 
 If you write to several people at the same company, also use the company-level stop: when one of them replies, the others stop receiving the sequence. Out-of-office auto-replies do not trigger it.
 

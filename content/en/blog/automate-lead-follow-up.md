@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:07:00+02:00
 category: "ai-automation"
 article_type: "tutorial"
 keywords: ["automate lead follow up", "lead follow-up automation", "Google Apps Script email alert", "Google Forms to Google Sheets", "call-back reminder", "free lead tracker"]
-summary: "To automate lead follow-up for free, link a Google Form to a Google Sheet and add a short Google Apps Script. It emails you an alert with the prospect's name and phone number as soon as the form is sent, logs the enquiry in a Leads tab and reminds you if it is still marked New an hour later. Everything runs on a free Google account, with no subscription."
+summary: "To automate lead follow-up for free, link a Google Form to a Google Sheet and add a short Google Apps Script. It emails you an alert with the prospect's name and phone number as soon as the form is sent, logs the enquiry in a Leads tab and reminds you if it is still marked New an hour later. It runs on a free Google account, within its limit of 100 email recipients a day."
 cover: "automate-lead-follow-up"
 cover_alt: "The words Apps Script under a flow diagram that starts from an orange lightning trigger, behind ribbed glass"
 related: ["zapier-vs-make-vs-n8n", "bespoke-crm-internal-app", "website-conversion-rate", "cold-calling-vs-cold-emailing", "ai-small-business-guide"]
@@ -31,7 +31,7 @@ The enquiry that waits until tomorrow is often the one a competitor answers toda
 
 I bring one of my clients, {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, about ten prospects a day. At one point there were more than the team could handle, and the founder asked me for an app to see everything clearly and never forget to call a prospect back. That app is custom-coded and does far more than follow-up. You do not need one to start: the setup below covers the two things that matter most, the alert and the reminder.
 
-This tutorial takes you from an empty form to working alerts in six steps, with code you can copy as it is. It is part of my guide to {{< a key="ai-small-business-guide" >}}AI for small businesses{{< /a >}}, which covers the automations that really save time.
+This tutorial takes you from an empty form to working alerts in six steps, with code you can copy as it is. It is part of my guide to {{< a key="ai-small-business-guide" >}}AI for small businesses{{< /a >}}.
 
 ## What you need to automate lead follow-up for free
 
@@ -49,9 +49,9 @@ Google Forms can already email you when a response arrives: in the **Responses**
 
 ## Why speed matters, and why missed calls count too
 
-An enquiry is worth the most in its first hour. A study published in Harvard Business Review in 2011, based on 1.25 million leads received by US companies, found that firms that tried to reach a lead within an hour were nearly seven times as likely to qualify it as firms that tried even an hour later ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)).
+An enquiry is at its most valuable in the first hour. A study published in Harvard Business Review in 2011, based on 1.25 million leads received by US companies, found that firms that tried to reach a lead within an hour were nearly seven times as likely to qualify it as firms that tried even an hour later ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). In the same article, 23% of the companies audited never responded at all.
 
-My cold email campaigns point the same way. I do everything for the client except replying: the replies and the calls go to the client, and the first results arrive within the first 36 hours. **The follow-up has to be ready before the first email goes out.**
+With cold emailing, the first answers come quickly. I do everything for my clients except replying: replies and calls go to the client, and the first results arrive within the first 36 hours. **So the follow-up has to be ready before the first email goes out.**
 
 Many of those prospects do not reply: they call. I put a phone number in the email and invite them to. A call is faster than a reply that gets buried among other emails, it feels like ticking an item off a to-do list, and people like talking to a real person. I go into the reasons in {{< a key="cold-calling-vs-cold-emailing" >}}cold calling vs cold emailing{{< /a >}}. For your follow-up, it means that missed calls belong in the same list as the forms, or they get forgotten. Step 6 shows how.
 
@@ -68,7 +68,7 @@ In Google Forms (`forms.google.com`), create a blank form and add four questions
 
 Make the phone number required: if a prospect prefers to talk, you need a number to call back. In the form description, add one sentence on how you use the details, with a link to your privacy notice.
 
-To put the form on your website, click **Send**, then the embed icon (`< >`), and paste the code into a page. A link to the form from a button works too.
+Then click **Publish** (top right): an unpublished form accepts no responses. To put it on your website, open the three-dot menu, choose **Embed HTML** (on some accounts, **Send** then the `< >` icon) and paste the code into a page, or put the link from **Copy responder link** behind a button.
 
 {{< screenshot id="automate-lead-follow-up-01" alt="A Google Form with four questions: Name, Phone number, Email and What do you need?" >}}
 
@@ -88,7 +88,7 @@ In the spreadsheet, click **Extensions > Apps Script**. The editor opens in a ne
 
 - `ALERT_TO`: who receives the alerts and reminders. Separate several addresses with commas.
 - `QUESTIONS`: the titles of your questions, if they differ from the table above.
-- `OPEN_HOUR` and `CLOSE_HOUR`: your working hours, on the 24-hour clock. Alerts are always sent; reminders wait for opening time.
+- `OPEN_HOUR` and `CLOSE_HOUR`: your working hours, on the 24-hour clock. Reminders go out only between these hours, seven days a week; alerts go out at any time.
 
 ```javascript
 /** @OnlyCurrentDoc */
@@ -171,13 +171,13 @@ Save with Ctrl+S (Cmd+S on a Mac), then click the project's name at the top to r
 
 ### What the script does
 
-- `setup` creates the Leads tab and its status dropdown, then two triggers, which tell Google to run a function by itself: one on each form submission, one every 15 minutes. It deletes the project's old triggers first, so running it twice never doubles the alerts.
-- `onNewEnquiry` sends the alert, then adds the enquiry to the Leads tab with the status New.
-- `remindUncalledLeads` finds the leads still marked New after `REMIND_AFTER_MINUTES`, sends one email listing them and writes the time in the Reminder sent column, so that each lead is reminded once.
+- `setup` creates the Leads tab, its status dropdown and two triggers, which tell Google to run a function by itself: one on each form submission, one every 15 minutes. It deletes the old triggers first, so running it twice never doubles the alerts.
+- `onNewEnquiry` sends the alert and adds the enquiry to the Leads tab as New.
+- `remindUncalledLeads` sends one email for the leads still marked New after the delay and writes the time in the Reminder sent column, so each lead is reminded only once.
 
 The first line, `@OnlyCurrentDoc`, restricts the script to this spreadsheet: it cannot open your other files. It sends through MailApp, a service that can send email but cannot read your inbox.
 
-{{< callout type="tip" >}}To change a setting later, edit it and save: the triggers always run the latest saved code. **Run `setup` again only if you rename the Leads tab or a function.**{{< /callout >}}
+{{< callout type="tip" >}}To change a setting later, edit it and save: **the triggers always run the latest saved code**, so there is no need to run `setup` again. If you rename the Leads tab, change `LEADS_TAB` to match.{{< /callout >}}
 
 ## Step 4: run the setup and authorise the script
 
@@ -194,7 +194,7 @@ The execution log at the bottom of the editor shows the run complete. Back in th
 
 ## Step 5: test the alert and the reminder
 
-1. In the form editor, click the eye icon (**Preview**) and send a test enquiry with your own name and phone number.
+1. Open the form as a visitor would, with the link from **Copy responder link**, and send a test enquiry with your own name and phone number.
 2. The alert should reach your inbox within moments, with the name and number in the subject line. If it does not, check your spam folder.
 3. In the Leads tab, the enquiry appears with the status New.
 4. To test the reminder without waiting an hour, set `REMIND_AFTER_MINUTES` to 0, save, pick `remindUncalledLeads` in the list of functions and click **Run**, during your working hours. A reminder arrives, and the Reminder sent column shows the time.
@@ -204,9 +204,9 @@ The execution log at the bottom of the editor shows the run complete. Back in th
 
 ## Step 6: use it every day, missed calls included
 
-From now on, the only manual step is the status. Whoever calls a prospect back changes New to Called, then to Quote sent or Not interested. The Google Sheets app on a phone is enough for that, between two appointments.
+From now on, the only manual step is the status. Whoever calls a prospect back changes New to Called, then to Quote sent or Not interested. The Google Sheets app on a phone is enough for that, between appointments.
 
-- Missed calls: when you miss a call and cannot return it straight away, add a row to the Leads tab with the name, the phone number, "Missed call" in Message and New in Status. Leave Received empty: the script fills in the time at its next check, and the reminder works as it does for a form.
+- Missed calls: when you miss a call and cannot return it straight away, add a row to the Leads tab with the name, the phone number (start it with an apostrophe, as in `'07700900123`, or Sheets may drop the leading 0), "Missed call" in Message and New in Status. Leave Received empty: the script fills in the time at its next check, and the reminder works as it does for a form.
 - The team: share the spreadsheet with the people who call prospects back (**Share**, top right) and add their addresses to `ALERT_TO` if they should get the alerts.
 - The columns: do not rename, move or delete the seven columns of the Leads tab, because the script reads them by position. Add your own from column H onwards.
 
@@ -214,7 +214,7 @@ From now on, the only manual step is the status. Whoever calls a prospect back c
 
 ### Keep the list lean
 
-The Leads tab and the alert emails hold personal data: names, phone numbers, sometimes the details of a project. Share the spreadsheet only with those who need it, and decide how long you keep leads who never became clients. The ICO's guidance on [storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) says the law sets no fixed period: you choose one you can justify, and you cannot keep data just in case. Once a month, delete the rows and the alert emails you no longer need.
+The Leads tab and the alert emails hold personal data: names, phone numbers, sometimes the details of a project. Decide how long you keep leads who never became clients. The ICO's guidance on [storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) says the law sets no fixed period: you choose one you can justify, and you cannot keep data just in case. Once a month, delete the rows and the alert emails you no longer need.
 
 ## Google Apps Script limits on a free account
 
@@ -245,11 +245,11 @@ The **Executions** page, in the editor's left sidebar, lists every run with its 
 
 ## When to move on to Zapier, Make or an app of your own
 
-This setup suits one or two people and a few dozen enquiries a day. Three signs you have outgrown it:
+This setup suits one or two people and up to a few dozen enquiries a day, the point where a free account's 100 email recipients start to run short. Three signs you have outgrown it:
 
 1. Your enquiries come from several places (website, booking tool, email, phone) and you want them in one list without copying anything. Connector tools do this without code: at the time of writing, Zapier's free plan includes 100 tasks a month and Make's 1,000 credits, and my comparison of {{< a key="zapier-vs-make-vs-n8n" >}}Zapier, Make and n8n{{< /a >}} shows what each costs beyond that.
 2. Leads turn into jobs, schedules and invoices, and several people need different views. That is where my client needed a custom app: prospects, job sites, messages to the team, the calendar and accounting analytics in one place, with AI and phone integrations. My guide to a {{< a key="bespoke-crm-internal-app" >}}bespoke CRM{{< /a >}} helps you decide whether you are there.
-3. You want help sorting or answering enquiries. An AI step can label each one (quote request, question, spam) or draft a reply, and my {{< a key="claude-api-tutorial" >}}Claude API tutorial{{< /a >}} shows how to get a key with a spending limit. Keep the call back human.
+3. You want help sorting or answering enquiries. An AI step can label each one (quote request, question, spam) or draft a reply, and my {{< a key="claude-api-tutorial" >}}Claude API tutorial{{< /a >}} shows how to get a key with a spending limit. Keep the call itself human.
 
 If too few enquiries arrive in the first place, the problem is upstream: my guide on {{< a key="website-conversion-rate" >}}why a website gets no enquiries{{< /a >}} shows where visitors drop off.
 
