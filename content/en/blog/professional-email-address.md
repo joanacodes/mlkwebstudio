@@ -9,14 +9,14 @@ lastmod: 2026-10-17T08:55:00+02:00
 category: "domains"
 article_type: "guide"
 keywords: ["professional email address", "business email address", "email address with your own domain", "custom domain email", "professional email address cost", "free professional email address"]
-summary: "A professional email address ends with your own domain, such as hello@yourbusiness.co.uk, instead of @gmail.com or @hotmail.co.uk. You need a domain and a mailbox from an email provider, linked by MX records, plus SPF, DKIM and DMARC so that inboxes trust your mail. At the time of writing (October 2026), a mailbox costs under $1 (less than £1) a month with Spacemail, the option I recommend to solo owners, against £5.90 ($7) per user a month for Google Workspace's entry plan."
+summary: "A professional email address ends with your own domain, such as hello@yourbusiness.co.uk, instead of @gmail.com or @hotmail.co.uk. You need a domain and a mailbox from an email provider, linked by MX records, plus SPF, DKIM and DMARC records so that inboxes trust your mail. At the time of writing (October 2026), a Spacemail mailbox, the option I recommend to solo owners, costs less than £1 (under $1) a month, against £5.90 per user a month excluding VAT ($7 in the US) for Google Workspace's entry plan."
 cover: "professional-email-address"
 cover_alt: "An email inbox with a contact@ address on a business's own domain name"
 related: ["spacemail-setup", "domain-hosting-email-guide", "spf-dkim-dmarc-setup", "infomaniak-review", "best-email-provider-cold-email"]
 services: ["websites"]
 faq:
   - q: "Can I get a professional email address for free?"
-    a: "Not a complete one. Free plans such as Infomaniak's my kSuite give you an address on the provider's domain rather than yours, and free forwarding only receives mail. The domain itself is cheap: a .co.uk cost $5.42 (about £4) a year at Spaceship at the time of writing."
+    a: "Rarely with your own domain. Free plans such as Infomaniak's my kSuite give you an address on the provider's domain (@ik.me, for example), not yours, and free forwarding only receives mail. The domain is the cheap part: a .co.uk costs about £4 ($5.42) a year at Spaceship, renewal included, at the time of writing (October 2026)."
   - q: "Do I need a website to have a professional email address?"
     a: "No. You need a domain name, not a website: email works through the domain's MX records whether or not a site exists. You can add a website on the same domain later without touching your email, as long as you leave the MX records alone."
   - q: "Can I read my professional email in Gmail?"
@@ -29,7 +29,7 @@ faq:
 
 A professional email address is one that ends with your own domain name, such as hello@yourbusiness.co.uk, rather than @gmail.com, @hotmail.co.uk or @outlook.com. Getting one takes two purchases, a domain and a mailbox, and a few DNS records that connect them. This guide compares the options, gives what each costs at the time of writing (October 2026), and sets out the steps in the right order.
 
-I set up business email as a fixed-price job, and I have connected domains at Namecheap, Spaceship, Infomaniak, Hostinger, OVH and the old Google Domains. My own story is short: I used to run my email on Microsoft, and it was a pain. With Namecheap and Spaceship, it has not been. Below, I keep that experience apart from what the providers publish.
+I set up business email as a fixed-price job, and I have connected domains at Namecheap, Spaceship, Infomaniak, Hostinger, OVH and the old Google Domains. My own story is short: I used to run my email on Microsoft, and it was a pain. With Namecheap and Spaceship, it has not been.
 
 If the difference between a domain, a web host and an email provider is still hazy, my guide to {{< a key="domain-hosting-email-guide" >}}domain vs hosting vs email{{< /a >}} explains what each one does. This article deals with the email part.
 
@@ -49,7 +49,7 @@ The impression is only the start:
 Three pieces, which can sit with three different companies:
 
 1. The domain, rented year by year from a registrar such as Spaceship or Namecheap. It must be registered in your business's name, in an account you can log in to. If a former web designer holds it, {{< a key="recover-domain-name" >}}get your domain name back{{< /a >}} before you build anything on it.
-2. The mailbox, from an email provider. It does not have to be your registrar: a domain registered at Namecheap can have its email at Google, and the other way round.
+2. The mailbox, from an email provider. It does not have to be your registrar: a domain registered at Namecheap can have its email at Google or Microsoft.
 3. The MX records, in the domain's DNS. **An MX record is the line that tells other mail servers where to deliver email sent to your domain.**
 
 Each provider gives you its own values. Two examples, from Spaceship's and Google's help pages:
@@ -69,37 +69,35 @@ Here are the routes to an address on your domain, with the entry price of each a
 
 | Option | Who it suits | Entry price, October 2026 |
 |---|---|---|
-| Spacemail (Spaceship) | Solo owners and small teams who need email, not an office suite | $18.88 (about £14) for two years and one mailbox: about 60p a month |
+| Spacemail (Spaceship) | Solo owners and small teams who need email, not an office suite | About £14 ($18.88) for two years and one mailbox, so about 60p a month |
 | Private Email (Namecheap) | The same profile, with a domain at Namecheap | Low cost, with a 30-day free trial; check the current price |
-| Google Workspace Business Starter | Teams that work in Gmail, Docs and Drive | £5.90 ($7) per user a month on the annual plan, excluding VAT |
-| Microsoft 365 Business Basic | Teams that work in Outlook and Office files | $7 per user a month in the US; check the UK price |
-| Infomaniak kSuite Standard | Teams that want a European suite, with data in Switzerland | €1.58 (about £1.40, $1.80) per user a month, excluding VAT |
+| Google Workspace Business Starter | Teams that work in Gmail, Docs and Drive | £5.90 per user a month on the annual plan, excluding VAT ($7 in the US) |
+| Microsoft 365 Business Basic | Teams that work in Outlook and Office files | £5.40 per user a month, paid yearly, excluding VAT ($7 in the US) |
+| Infomaniak kSuite Standard | Teams that want a European suite, with data in Switzerland | €1.58 (about £1.35, $1.80) per user a month, excluding VAT |
 | Email included with web hosting | Sites already on a host whose plan includes mailboxes | Included in the hosting plan |
 | Free forwarding | A stopgap: it receives but does not send | Free at some registrars and DNS hosts |
 
 ### Registrar email: Spacemail and Namecheap Private Email
 
-Spacemail is the email service of Spaceship, the registrar Namecheap launched in 2023. According to [Spaceship's Spacemail page](https://www.spaceship.com/business-email/), the Pro plan gives one mailbox with 5 GB of storage for $18.88 (about £14) for two years, the same at renewal. Business (three mailboxes, 10 GB each) and Advanced (five mailboxes, 15 GB each) cost more and go up at renewal. Every plan starts with a 30-day free trial, and you get webmail with a calendar, plus apps for iOS and Android.
+Spacemail is the email service of Spaceship, the registrar Namecheap launched in 2023. According to [Spaceship's Spacemail page](https://www.spaceship.com/business-email/), the Pro plan gives one mailbox with 5 GB of storage and up to 10 aliases for about £14 ($18.88) for two years, the same at renewal. Business (three mailboxes, 10 GB each) and Advanced (five mailboxes, 15 GB each) cost more and go up at renewal. Every plan starts with a 30-day free trial, and you get webmail with a calendar, plus apps for iOS and Android.
 
 Namecheap sells its own Private Email on the same model, also with a 30-day free trial on every plan. The prices I found for it in October 2026 do not agree with each other, so I am not quoting one: check Namecheap's page on the day you order.
 
-You get email without an office suite, which for a solo owner is usually all that is needed.
-
 ### Google Workspace
 
-Google Workspace is Gmail on your own domain, together with Calendar, Drive, Docs and Meet. Business Starter costs £5.90 per user a month on the annual plan and £7 on the flexible plan, excluding VAT ($7 and $8.40 in the US), according to [Google's pricing page](https://workspace.google.com/pricing) at the time of writing, with 30 GB of storage per user.
+Google Workspace is Gmail on your own domain, together with Calendar, Drive, Docs and Meet. Business Starter costs £5.90 per user a month on the annual plan and £7 on the flexible plan, excluding VAT ($7 and $8.40 in the US), according to [Google's comparison of its payment plans](https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans) at the time of writing, with 30 GB of storage per user.
 
 Each person with their own inbox counts as a user, so a team of three pays three times. If all you need is an inbox, you pay for a lot you will never open.
 
 ### Microsoft 365
 
-Microsoft 365 Business Basic gives you Outlook email and the web and mobile versions of Word, Excel and PowerPoint; the desktop apps start with Business Standard. Microsoft raised Business Basic from $6 to $7 per user a month in the US on 1 July 2026. The UK figures I found disagree with each other, so check [Microsoft's plan comparison page](https://www.microsoft.com/en-gb/microsoft-365/business/compare-all-microsoft-365-business-products). For email alone, Microsoft's US page lists Exchange Online Plan 1 at $4 per user a month, paid yearly.
+Microsoft 365 Business Basic gives you Outlook email and the web and mobile versions of Word, Excel and PowerPoint; the desktop apps start with Business Standard. Microsoft raised Business Basic from $6 to $7 per user a month in the US on 1 July 2026. In the UK, [Microsoft's Business Basic page](https://www.microsoft.com/en-gb/microsoft-365/business/microsoft-365-business-basic) lists £5.40 per user a month on a yearly subscription and £6.48 on a monthly one, excluding VAT, at the time of writing. For email alone, Microsoft's US page lists Exchange Online Plan 1 at $4 per user a month, paid yearly.
 
 It suits businesses whose clients send them Word and Excel files all day, with someone happy to handle Microsoft's admin centre. For my own email it was a pain, but that is one experience, not a benchmark.
 
 ### Infomaniak kSuite
 
-kSuite is the suite of Infomaniak, a Geneva company that runs its own data centres in Switzerland: email, calendar, kDrive for files, team chat and video calls. The Standard plan costs €1.58 (about £1.40, $1.80) per user a month excluding VAT, with 50 GB of storage and two email addresses per user, according to [Infomaniak's kSuite pricing page](https://www.infomaniak.com/en/ksuite/ksuite-pro/prices). If you only want email, Infomaniak also sells it on its own as Service Mail.
+kSuite is the suite of Infomaniak, a Geneva company that runs its own data centres in Switzerland: email, calendar, kDrive for files, team chat and video calls. The Standard plan costs €1.58 (about £1.35, $1.80) per user a month excluding VAT, with two email addresses per user, unlimited mail storage and 50 GB on kDrive, according to [Infomaniak's kSuite pricing page](https://www.infomaniak.com/en/ksuite/ksuite-pro/prices), which shows CHF 1.76 if it opens in Swiss francs. If you only want email, Infomaniak also sells it on its own as Service Mail.
 
 I discovered Infomaniak through clients whose domains were already there, and I recommend it highly. My {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}} goes through the plans.
 
@@ -107,7 +105,7 @@ I discovered Infomaniak through clients whose domains were already there, and I 
 
 Many shared hosting plans include mailboxes on your domain, often managed through cPanel. It costs nothing extra, which is the appeal. The catch: your email then depends on your hosting. Change host and the email has to move too, and a problem with the hosting account, such as a missed renewal, takes the email down with the website.
 
-If your email already runs at your host without trouble, there is no rush to move it. I have worked with OVH and Hostinger because clients were already there, but I would not start there today: for a small business owner, both are a bit complicated to handle.
+If your email already runs at your host without trouble, there is no rush to move it. I have worked with OVH and Hostinger because clients were already there, and I recommend neither: for a small business owner, both are a bit complicated to handle.
 
 ### Free forwarding: a stopgap
 
@@ -115,7 +113,7 @@ Some registrars and DNS hosts forward mail sent to your domain to an inbox you a
 
 ## Which option I recommend for a solo owner
 
-For one person, or a team of two or three who mainly need email, I recommend registrar email, and Spacemail in particular. My habits are at Spaceship, and that is the honest reason behind the choice: the set-up is easy, prices are fair and do not triple in the second year as some providers' do, and support is there around the clock. Every issue I have taken to them has been resolved. Namecheap's email has been just as painless for me.
+For one person, or a team of two or three who mainly need email, I recommend registrar email, and Spacemail in particular. I should say that Spaceship is where my habits are. My reasons are practical: the set-up is easy, prices are fair and do not triple in the second year as some providers' do, and support is there around the clock. Every issue I have taken to them has been resolved. Namecheap's email has been just as painless for me.
 
 The suites earn their price in other cases: Google Workspace or Microsoft 365 when a team works in their documents all day, kSuite when you want email, files and video calls from one European provider. Where there is a free trial, as with Spacemail and Namecheap, send real emails for a week before you pay for a year or two.
 
@@ -127,7 +125,7 @@ The order matters more than the provider. Whatever you choose:
 
 1. Log in to your registrar and check that the domain is registered in your business's name and set to renew automatically.
 2. Choose the addresses. Give each person one mailbox and use aliases for roles: an alias is a second address delivered to an existing mailbox, such as contact@ landing in your own inbox, and it usually costs nothing extra.
-3. Buy the plan and create the mailboxes, before you touch the DNS.
+3. Buy the plan and create the mailboxes before you touch the MX records. If the provider asks you to prove that you own the domain, as Google Workspace does and as Spacemail does for a domain registered elsewhere, add its verification TXT record first.
 4. Point the MX records to the new provider, at the DNS host your nameservers name, and delete the MX records of any previous provider.
 5. Add SPF, DKIM and DMARC, as described in the next section.
 6. Test. Send an email to a Gmail address, open it, click the three dots and choose **Show original**: SPF, DKIM and DMARC should each say PASS. Reply to it as well, to check that mail comes in.
@@ -138,7 +136,7 @@ The order matters more than the provider. Whatever you choose:
 
 ## SPF, DKIM and DMARC: why your new address needs them
 
-An address on your own domain only earns trust if the domain can prove it sent the email. Three TXT records in your DNS do that:
+An address on your own domain only earns trust if the domain can prove it sent the email. Three DNS records, usually of the TXT type, do that:
 
 - SPF lists the servers allowed to send email for your domain.
 - DKIM adds a signature to each email, checked against a key published in your DNS.
@@ -155,7 +153,7 @@ TXT   spacemail._domainkey  v=DKIM1; k=rsa; p=... (your own key, from the provid
 TXT   _dmarc                v=DMARC1; p=none; rua=mailto:dmarc@yourbusiness.co.uk
 ```
 
-A domain may have only one SPF record: if a newsletter tool already has one, add the new include inside it rather than creating a second. My tutorial to {{< a key="spf-dkim-dmarc-setup" >}}set up SPF, DKIM and DMARC{{< /a >}} covers each record at Spaceship, Namecheap and OVH, and MLK Leadhunters has [SPF, DKIM and DMARC explained in plain English](https://mlkleadhunters.com/blog/spf-dkim-dmarc-explained/) if you want the theory first.
+A domain may have only one SPF record: if one already exists for a newsletter tool, add the new include to it rather than creating a second. My tutorial to {{< a key="spf-dkim-dmarc-setup" >}}set up SPF, DKIM and DMARC{{< /a >}} covers each record at Spaceship, Namecheap and OVH, and MLK Leadhunters has [SPF, DKIM and DMARC explained in plain English](https://mlkleadhunters.com/blog/spf-dkim-dmarc-explained/) if you want the theory first.
 
 ## Cold email: keep it off this address
 

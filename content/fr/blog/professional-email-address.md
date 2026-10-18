@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:55:00+02:00
 category: "domains"
 article_type: "guide"
 keywords: ["adresse mail professionnelle", "créer une adresse mail professionnelle", "adresse mail professionnelle gratuite", "messagerie professionnelle", "adresse mail avec nom de domaine", "prix adresse mail professionnelle"]
-summary: "Une adresse mail professionnelle se termine par votre nom de domaine (contact@votre-entreprise.fr) au lieu de @gmail.com ou @orange.fr. Il faut un domaine et une boîte mail chez un fournisseur, reliés par les enregistrements MX, plus SPF, DKIM et DMARC pour que vos emails inspirent confiance. En octobre 2026, comptez moins de 1 € par mois avec Spacemail, l’option que je recommande quand on travaille à son compte, contre 6,80 € HT par utilisateur chez Google Workspace."
+summary: "Une adresse mail professionnelle se termine par votre nom de domaine (contact@votre-entreprise.fr) au lieu de @gmail.com ou @orange.fr. Il faut un domaine et une boîte mail chez un fournisseur, reliés par les enregistrements MX, plus SPF, DKIM et DMARC pour que vos emails inspirent confiance. En octobre 2026, comptez moins de 1 € par mois et par boîte avec Spacemail, l’option que je recommande quand on travaille à son compte, contre 6,80 € HT par utilisateur et par mois chez Google Workspace."
 cover: "professional-email-address"
 cover_alt: "Boîte de réception avec une adresse contact@ sur le nom de domaine de l’entreprise"
 related: ["spacemail-setup", "domain-hosting-email-guide", "spf-dkim-dmarc-setup", "infomaniak-review", "best-email-provider-cold-email"]

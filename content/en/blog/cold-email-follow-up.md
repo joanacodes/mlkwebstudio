@@ -1,7 +1,7 @@
 ---
 title: "Cold email follow-up: why three emails are enough and the third one works"
 seo_title: "Cold email follow-up: how many, when and what to write"
-description: "Cold email follow-up: why I stop at three plain-text emails, how many days to wait, what to write in each (two templates) and why the third still gets replies."
+description: "Cold email follow-up: why I stop at three plain-text emails, how long to wait, what to write in each (two templates) and why the third still gets replies."
 slug: "cold-email-follow-up"
 translationKey: "cold-email-follow-up"
 date: 2026-10-17T08:41:00+02:00

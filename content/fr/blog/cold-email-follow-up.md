@@ -1,7 +1,7 @@
 ---
 title: "Relance email de prospection : pourquoi trois emails suffisent"
 seo_title: "Relance email de prospection : combien, quand, quoi écrire"
-description: "Relance email de prospection : pourquoi trois emails en texte brut suffisent, quel délai laisser, quoi écrire, et pourquoi le troisième fait répondre."
+description: "Relance email de prospection : pourquoi trois emails en texte brut suffisent, quel délai laisser, quoi écrire et pourquoi le troisième fait encore répondre."
 slug: "relance-email-prospection"
 translationKey: "cold-email-follow-up"
 date: 2026-10-17T08:41:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:41:00+02:00
 category: "cold-emailing"
 article_type: "guide"
 keywords: ["relance email prospection", "email de relance prospection", "relancer un prospect par email", "combien de relances", "délai entre deux relances", "modèle email de relance"]
-summary: "Après un premier email de prospection, envoyez deux relances, soit trois emails en tout, puis arrêtez. Dans mes campagnes, le troisième apporte encore des réponses positives, de personnes débordées ou qui avaient oublié les deux premiers ; au-delà, chaque email ajoute surtout un risque de signalement comme spam. Espacez-les de quelques jours ouvrés, avec une raison nouvelle et un numéro de téléphone dans chacun, et arrêtez dès qu’on vous répond, vous appelle ou refuse."
+summary: "Après un premier email de prospection, envoyez deux relances, soit trois emails en tout, puis arrêtez : au-delà, chaque email ajoute surtout un risque de signalement comme spam. Dans mes campagnes, le troisième apporte encore des réponses positives, de personnes débordées ou qui avaient oublié les deux premiers. Espacez les envois de quelques jours ouvrés, avec une raison nouvelle et un numéro de téléphone dans chacun, et arrêtez dès qu’on vous répond, vous appelle ou refuse."
 cover: "cold-email-follow-up"
 cover_alt: "Une tasse fumante près d’un ordinateur portable, un schéma d’étapes reliées et l’inscription « Email #1 → #3 »"
 related: ["cold-email-examples", "architects-cold-email-case-study", "instantly-campaign-setup", "cold-calling-vs-cold-emailing", "plain-text-cold-emails"]
@@ -25,7 +25,7 @@ faq:
     a: "Arrêtez la séquence, remerciez-le et demandez-lui quel moment lui conviendrait. Notez la date et écrivez une seule fois, ce jour-là, avec un rappel de l’offre en deux lignes. Un « pas maintenant » n’est pas un « non », mais ce n’est pas non plus une raison de laisser tourner les relances."
 ---
 
-La plupart des emails de prospection restés sans réponse n’ont jamais été refusés. Ils sont arrivés un matin chargé, ont glissé sous vingt autres messages et ont été oubliés avant midi. La relance d’un email de prospection donne à la même offre une deuxième, puis une troisième chance d’arriver au bon moment.
+Beaucoup d’emails de prospection restés sans réponse n’ont jamais été refusés. Ils sont arrivés un matin chargé, ont glissé sous vingt autres messages et ont été oubliés avant midi. La relance d’un email de prospection donne à la même offre une deuxième, puis une troisième chance d’arriver au bon moment.
 
 Ma règle : trois emails au maximum, le premier et deux relances, tous en texte brut, avec un numéro de téléphone dans chacun. Dans les campagnes que je mène pour mes clients, comme {{< a page="/projects/pilotech-teknopoint" >}}celles de Pilotech{{< /a >}}, le troisième email apporte encore des réponses positives, de personnes débordées ou qui avaient simplement oublié de répondre aux deux premiers.
 
@@ -37,15 +37,15 @@ Le silence après un premier email n’est pas une réponse. Une partie des dest
 
 Les personnes à qui vous écrivez dirigent une entreprise. Votre email est en concurrence avec les clients, les fournisseurs, les salariés et les factures, et c’est le seul message de leur boîte qu’elles n’ont pas demandé. Le remettre à plus tard ne leur coûte rien : c’est donc le premier qu’elles repoussent.
 
-Une relance n’est pas une pression. C’est le même message court, avec une nouvelle chance d’arriver un jour plus calme. Sans relance, vous ne touchez que les personnes qui avaient une minute de libre le jour de l’envoi.
+Relancer n’est pas harceler, tant que la relance reste courte et polie. Sans relance, vous ne touchez que les personnes qui avaient une minute de libre le jour de l’envoi.
 
 ## Pourquoi trois emails suffisent
 
-Je m’arrête à trois : un premier email et deux relances. Moins, et vous perdez les gens débordés. Plus, et la séquence commence à jouer contre vous, pour trois raisons.
+Je m’arrête à trois : un premier email et deux relances, le bas de la fourchette de trois ou quatre étapes que l’aide d’Instantly conseille pour la plupart des campagnes. Moins, et vous perdez les gens débordés. Plus, et la séquence commence à jouer contre vous, pour trois raisons.
 
 ### Plus d’emails, plus de signalements comme spam
 
-Quelqu’un qui a ignoré trois emails courts accueillera rarement bien un quatrième, et cliquera plus volontiers sur **Signaler comme spam**. Les [consignes de Gmail pour les expéditeurs](https://support.google.com/mail/answer/81126?hl=fr) demandent de garder le taux de spam affiché dans Postmaster Tools sous 0,1 % et de ne jamais atteindre 0,3 % : moins d’un signalement pour 1 000 emails, et jamais trois. Ces signalements pèsent sur la réputation du domaine d’envoi, et cette réputation décide où arrive votre prochain premier email, y compris celui destiné à un prospect qui aurait dit oui.
+Quelqu’un qui a ignoré trois emails courts accueillera rarement bien un quatrième, et cliquera plus volontiers sur **Signaler comme spam**. Les [consignes de Gmail pour les expéditeurs](https://support.google.com/mail/answer/81126?hl=fr) demandent de garder le taux de spam affiché dans Postmaster Tools sous 0,1 % et de ne jamais atteindre 0,3 % : moins d’un signalement pour 1 000 emails, et jamais trois ou plus. Ces signalements pèsent sur la réputation du domaine d’envoi, et cette réputation décide où arrive votre prochain premier email, y compris celui destiné à un prospect qui aurait dit oui.
 
 ### Plus d’emails, moins de nouveaux contacts
 
@@ -79,19 +79,19 @@ Quelques règles comptent davantage que le nombre exact de jours :
 
 - **Envoyez les jours ouvrés, aux heures de travail de vos prospects.** Réglez la plage d’envoi et le fuseau horaire de votre outil sur les leurs, pas sur les vôtres.
 - **Laissez un écart plus long avant le dernier email.** Le deuxième rattrape ceux qui ont manqué le premier ; le troisième, ceux qui ont eu une semaine difficile.
-- **Respectez les réponses d’absence.** Si quelqu’un est absent jusqu’au 28, son prochain email doit arriver après le 28, pas dans une boîte pleine qu’il videra d’un coup à son retour. Vérifiez si votre outil traite une réponse automatique comme une réponse.
+- **Respectez les messages d’absence.** Si quelqu’un est absent jusqu’au 28, votre email suivant doit arriver après le 28, pas dans une boîte pleine qu’il videra d’un coup à son retour. Vérifiez si votre outil traite une réponse automatique comme une réponse.
 - **Tenez compte des congés.** Une séquence lancée fin juillet risque de se poursuivre en plein mois d’août, dans des boîtes que personne ne lit.
 - **Ne relancez pas plus vite parce que la liste est longue.** Si le volume vous inquiète, ajoutez les nouveaux contacts plus lentement.
 
 Votre outil d’envoi règle l’écart étape par étape ; je monte une séquence complète dans mon tutoriel pour {{< a key="instantly-campaign-setup" >}}créer une campagne Instantly{{< /a >}}.
 
-## Quoi écrire dans chaque relance
+## Quoi écrire dans chaque relance : deux modèles
 
-Chaque relance est plus courte que l’email précédent, apporte une seule chose nouvelle et propose le même moyen de vous joindre. Mes cold emails sont en texte brut, sans lien, sans image et sans HTML, et les relances suivent la même règle ; j’explique {{< a key="plain-text-cold-emails" >}}pourquoi mes emails n’ont ni lien ni HTML{{< /a >}} dans un article à part. Envoyez les relances dans le même fil que le premier email, pour que le prospect voie à quoi vous faites suite sans avoir à chercher.
+Chaque relance est plus courte que l’email précédent, apporte une seule chose nouvelle, propose le même moyen de vous joindre et garde une ligne pour se désinscrire. Mes cold emails sont en texte brut, sans lien, sans image et sans HTML, et les relances suivent la même règle ; j’explique {{< a key="plain-text-cold-emails" >}}pourquoi mes emails n’ont ni lien ni HTML{{< /a >}} dans un article à part. Envoyez les relances dans le même fil que le premier email, pour que le prospect retrouve votre premier message sans avoir à le chercher.
 
 ### La première relance : une raison nouvelle
 
-Le deuxième email donne au prospect une raison de répondre qu’il n’avait pas. Choisissez-en une :
+Le deuxième email donne au prospect une raison de répondre qu’il n’avait pas encore. Choisissez-en une :
 
 - un détail de l’offre qu’il a pu manquer, comme une visite gratuite ou un prix ferme ;
 - une réalisation récente proche de son cas, décrite sans nommer le client si vous n’avez pas son accord ;
@@ -102,6 +102,7 @@ Bonjour [prénom],
 
 [Une raison nouvelle de répondre, en une ligne : un détail de l’offre, une réalisation comparable ou la réponse à l’objection évidente.]
 [La même invitation à appeler, avec le numéro, en une ligne.]
+Si vous préférez ne plus recevoir mes emails, répondez simplement « non ».
 
 [Prénom] [Nom], [entreprise]
 [numéro de téléphone]
@@ -134,13 +135,13 @@ Ces modèles ne sont pas les emails que j’écris pour mes clients, qui restent
 
 ## Quand arrêter avant le troisième email
 
-Une séquence est un plan, pas un engagement. Sortez-en un contact dès que l’une de ces situations se présente :
+Une séquence est un plan, pas un engagement. Retirez-en un contact dès que l’une de ces situations se présente :
 
 1. **Il répond, quoi qu’il dise.** Dans Instantly, l’option de campagne **Stop sending emails on reply** s’en charge, et Instantly recommande de l’activer ([options de campagne](https://help.instantly.ai/en/articles/6222396-campaign-options), en anglais). Une autre option arrête la séquence pour toute l’entreprise dès qu’une personne de cette entreprise répond.
 2. **Il appelle.** Votre outil d’envoi n’entend pas le téléphone sonner. La personne qui décroche doit prévenir le jour même celle qui gère la campagne, pour que l’appelant ne reçoive pas de relance après la conversation. Dans mes campagnes, les réponses et les appels vont au client, pas à moi : c’est pour cela que ce relais doit être convenu avant le premier envoi.
 3. **Il refuse, sous n’importe quelle forme.** « Non merci », « retirez-moi de votre liste », un appel agacé : tout compte. Arrêtez immédiatement, ajoutez l’adresse à votre liste d’exclusion (la « liste repoussoir » dont parle la CNIL) pour qu’elle ne revienne dans aucune liste future, et ne réécrivez jamais. Les règles sont détaillées dans mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}}.
-4. **L’email revient en erreur.** L’adresse n’existe plus, et les deux emails suivants reviendraient aussi. Vérifiez votre liste avant le premier envoi, pas après.
-5. **Il est absent.** Une réponse d’absence n’est pas un refus : attendez sa date de retour pour envoyer l’email suivant.
+4. **L’email revient en erreur.** Si le rejet est définitif, l’adresse n’existe pas, et les deux emails suivants reviendraient aussi. Vérifiez votre liste avant le premier envoi, pas après.
+5. **Il est absent.** Un message d’absence n’est pas un refus : attendez sa date de retour pour envoyer l’email suivant.
 
 {{< callout type="warning" >}}**Un refus par téléphone reste un refus.** Si quelqu’un appelle pour dire qu’il ne veut plus de vos emails, il sort de la séquence le jour même, exactement comme s’il avait répondu par écrit.{{< /callout >}}
 
