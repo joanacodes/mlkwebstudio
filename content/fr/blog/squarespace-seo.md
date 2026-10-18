@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:09:00+02:00
 category: "seo"
 article_type: "tutorial"
 keywords: ["référencement Squarespace", "SEO Squarespace", "réglages SEO Squarespace", "redirection 301 Squarespace", "sitemap Squarespace", "Squarespace Google Search Console"]
-summary: "Le référencement Squarespace repose sur quelques réglages : un titre SEO, une description et une URL courte par page, un format de titre pour le site, un texte alternatif par image, des redirections 301 et un sitemap envoyé à Google Search Console. Vérifiez que le site est public et ne bloquez pas les robots d’IA si vous voulez que les assistants IA vous trouvent. Avec ces réglages et les bons mots-clés, un site Squarespace que j’ai créé occupe la première ou la deuxième place sur Google."
+summary: "Le référencement Squarespace repose sur quelques réglages : un titre SEO, une description et une URL courte par page, un format de titre pour le site, un texte alternatif par image, des redirections 301 et un sitemap envoyé à Google Search Console. Rendez le site public et, si vous voulez que les assistants IA vous trouvent, ne bloquez pas leurs robots. Avec ces réglages et les bons mots-clés, un site Squarespace que j’ai créé se classe premier ou deuxième sur Google."
 cover: "squarespace-seo"
 cover_alt: "Barre de recherche au-dessus d’une liste de résultats dont le premier est mis en avant, à côté des mots Squarespace SEO et d’un ordinateur portable"
 related: ["squarespace-tutorial", "on-page-seo-checklist", "google-search-console-tutorial", "wordpress-to-squarespace", "robots-txt-ai-crawlers"]
@@ -27,7 +27,7 @@ faq:
     a: "Oui, mais Squarespace n’a pas de traduction intégrée : vous créez les pages de chaque langue vous-même ou vous ajoutez un service de traduction comme Weglot. Donnez à chaque version son titre SEO, sa description et son URL dans sa langue, et ajoutez des balises hreflang pour que Google montre la bonne version à chacun. Weglot indique que son extension les ajoute pour vous ; sinon, elles se placent dans l’injection de code d’en-tête de chaque page, disponible à partir de l’abonnement Essentiel."
 ---
 
-Le référencement Squarespace consiste surtout à remplir ce que la plateforme vous donne déjà : un titre SEO et une description pour chaque page, des URL courtes, un texte alternatif sur les images, des redirections quand une adresse change et un sitemap connu de Google Search Console. Ce tutoriel passe ces réglages en revue un par un, dans l’ordre où ils se présentent autour d’une mise en ligne, sur Squarespace 7.1. Les menus sont cités tels qu’ils apparaissent dans l’interface en anglais en octobre 2026 ; en français, leurs libellés sont traduits, mais les réglages sont les mêmes.
+Le référencement Squarespace consiste surtout à remplir ce que la plateforme vous donne déjà : un titre SEO et une description pour chaque page, des URL courtes, un texte alternatif sur les images, des redirections quand une adresse change et un sitemap connu de Google Search Console. Ce tutoriel les passe en revue un par un, dans l’ordre d’une mise en ligne, sur Squarespace 7.1. Les menus sont cités tels qu’ils apparaissent dans l’interface anglaise en octobre 2026 ; en français, les libellés sont traduits, mais les réglages restent les mêmes.
 
 Une réserve d’abord. Squarespace est une plateforme fermée : vous n’avez pas accès au code source, donc un site codé sur mesure ou un site WordPress bien construit laisse plus de marge à un spécialiste, et peut mieux se positionner pour cette raison. Pourtant, le premier site que j’ai créé pour Pilotech tourne sur Squarespace et se classe premier ou deuxième sur Google, avec des métadonnées soignées et les bons mots-clés.
 
@@ -35,7 +35,7 @@ Si je fais passer sur Squarespace les clients qui modifient eux-mêmes leur site
 
 ## Ce que couvre le référencement Squarespace, et ce qui reste à votre charge
 
-Squarespace s’occupe des bases techniques qui demandaient autrefois un développeur. Il vous reste des champs à remplir, et ce sont les mots-clés que vous y mettez qui font la différence.
+Squarespace gère les bases techniques. À vous de remplir les champs, et ce sont les mots-clés que vous y mettez qui font la différence.
 
 | | Ce que fait Squarespace | Ce que vous faites |
 |---|---|---|
@@ -58,7 +58,7 @@ Une page que Google ne peut pas atteindre ne se positionnera pas, aussi bon que 
 1. Dans **Settings** (paramètres), ouvrez **Site availability** (disponibilité du site) et choisissez **Public**. Tout site Squarespace démarre en privé, et seul un site avec un abonnement payant peut être public : un site en essai gratuit reste hors de Google.
 2. Si vous avez protégé le site par un mot de passe pendant sa construction, retirez-le. Il empêche Google d’indexer votre contenu, et des pages indexées avant son ajout peuvent rester un moment dans les résultats.
 3. Vérifiez qu’aucune page importante n’a l’option **Hide page from search results** activée. L’étape 3 explique ce réglage.
-4. Dans **Settings**, ouvrez **Crawlers** (robots d’exploration) et vérifiez que l’option qui bloque les robots des moteurs de recherche est désactivée : une fois activée, elle tient Google à l’écart de tout le site. L’étape 8 traite de l’option consacrée à l’IA, sur le même panneau.
+4. Dans **Settings**, ouvrez **Crawlers** (robots d’exploration) et vérifiez que l’option qui bloque les robots des moteurs de recherche est désactivée : activée, elle ferme tout le site à Google. L’option IA du même panneau est traitée à l’étape 8.
 
 {{< screenshot id="squarespace-seo-01" alt="Panneau Site availability de Squarespace avec l’option Public sélectionnée" >}}
 
@@ -100,7 +100,7 @@ Titre SEO :        Dépannage de chaudière à Lyon
 Description SEO :  Techniciens qualifiés pour le dépannage et l’entretien de chaudières toutes marques à Lyon et Villeurbanne. Prix clairs ; appelez ou réservez en ligne.
 ```
 
-Avec le format `%p | %s`, Google reçoit « Dépannage de chaudière à Lyon | Nom de votre entreprise ». Il affiche parfois un autre passage de la page à la place de votre description, mais une description claire et exacte lui donne une bonne option, et c’est sur ces deux lignes que l’internaute décide de cliquer.
+Avec le format `%p | %s`, Google reçoit « Dépannage de chaudière à Lyon | Nom de votre entreprise ». Il affiche parfois un autre passage de la page, mais une description claire et exacte lui donne une bonne option, et c’est sur ces deux lignes que l’internaute décide de cliquer.
 
 {{< callout type="tip" >}}J’écris les métadonnées en dernier, une fois que le client a validé le design et les textes, juste avant de relier le domaine et de publier. Ainsi, les titres décrivent les pages telles qu’elles seront mises en ligne.{{< /callout >}}
 
@@ -116,7 +116,7 @@ Déplacer une page dans la section **Not linked** (pages non liées) du panneau 
 
 ## Étape 4 : raccourcir les URL de vos pages
 
-Le slug est la fin de l’adresse d’une page : `depannage-chaudiere-lyon` dans `votreentreprise.fr/depannage-chaudiere-lyon`. Squarespace le fixe à la création de la page et ne le change pas quand vous la renommez : une page renommée peut donc garder une adresse qui ne lui correspond plus.
+Le slug est la fin de l’adresse d’une page : `depannage-chaudiere-lyon` dans `votreentreprise.fr/depannage-chaudiere-lyon`. Squarespace le fixe à la création de la page et ne le change pas quand vous la renommez.
 
 Pour le modifier, ouvrez les paramètres de la page avec l’icône d’engrenage, allez dans l’onglet **General** (général) et changez le champ **URL slug**. Une bonne URL :
 
@@ -199,7 +199,7 @@ L’[aide de Squarespace sur Search Console](https://support.squarespace.com/hc/
 
 Les assistants IA comme ChatGPT, Claude ou Perplexity envoient leurs propres robots lire les sites web. Squarespace vous donne deux réglages pour eux.
 
-**Les robots d’exploration.** Dans **Settings**, ouvrez **Crawlers** (robots d’exploration). L’option **Block known artificial intelligence crawlers** (bloquer les robots d’intelligence artificielle connus) est désactivée par défaut. Laissez-la désactivée si vous voulez que les assistants IA trouvent et recommandent votre entreprise : les outils de recherche IA envoient des robots lire vos pages, et bloquer ces robots peut vous écarter de leurs réponses. OpenAI, par exemple, indique que les sites qui bloquent son robot de recherche ne sont pas affichés dans les réponses de recherche de ChatGPT. N’activez cette option que si tenir votre contenu à l’écart des entreprises d’IA compte plus pour vous que cette visibilité. L’[aide de Squarespace sur les robots](https://support.squarespace.com/hc/fr-fr/articles/360022347072) décrit chaque option du panneau.
+**Les robots d’exploration.** Dans **Settings**, ouvrez **Crawlers** (robots d’exploration). L’option **Block known artificial intelligence crawlers** (bloquer les robots d’intelligence artificielle connus) est désactivée par défaut. Laissez-la désactivée si vous voulez que les assistants IA trouvent et recommandent votre entreprise : bloquer leurs robots peut vous écarter de leurs réponses. OpenAI, par exemple, indique que les sites qui bloquent son robot de recherche ne sont pas affichés dans les réponses de recherche de ChatGPT. N’activez cette option que si tenir votre contenu à l’écart des entreprises d’IA compte plus pour vous que cette visibilité. L’[aide de Squarespace sur les robots](https://support.squarespace.com/hc/fr-fr/articles/360022347072) décrit chaque option du panneau.
 
 {{< screenshot id="squarespace-seo-09" alt="Réglages Crawlers de Squarespace avec l’option Block known artificial intelligence crawlers désactivée" >}}
 

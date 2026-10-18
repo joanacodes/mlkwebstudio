@@ -29,9 +29,9 @@ faq:
 
 Hreflang tags are short lines of code that tell Google that two pages say the same thing in different languages, and which one to show to whom. On a bilingual website, they keep your French page in front of people searching in French and your English page in front of people searching in English, instead of letting Google pick one version for everybody.
 
-This blog relies on them: every article exists in English and in French, and each version points to the other. I did the same for a client, Eden Corporate Mobility, whose bilingual site has 17 pages in each language. This tutorial covers the codes to use, the three places where the tags can go, the set-up on common platforms and the checks that tell you Google reads them.
+This blog relies on them: almost every article exists in English and in French, and each version points to the other. I did the same for a client, Eden Corporate Mobility, whose bilingual site has 17 pages in each language. This tutorial covers the codes to use, the three places where the tags can go, the set-up on common platforms and the checks that tell you Google reads them.
 
-One warning before the code: hreflang only sends each searcher to the right version. It does not make that version rank, which is why the section after the basics is about writing. This tutorial is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}.
+It is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}.
 
 ## What hreflang tags do (and what they do not)
 
@@ -64,7 +64,7 @@ So each version gets its own keyword, chosen from how people search in that lang
 | Prices | Pounds, with the dollar equivalent | Euros |
 | Example domains | .co.uk | .fr |
 
-Eden Corporate Mobility works the same way: each of its 17 pages has its own title and description in each language, written around what its audience searches for, and hreflang links connect each pair. The {{< a page="/projects/eden-corporate-mobility" >}}Eden Corporate Mobility project page{{< /a >}} shows the site, and {{< a key="eden-flats-corporate-mobility" >}}the Eden Flats case study{{< /a >}} explains why Eden Flats made way for it.
+Eden Corporate Mobility works the same way: each page has its own title and description in each language, written around what its audience searches for, hreflang links connect each pair and the sitemap lists both versions. The {{< a page="/projects/eden-corporate-mobility" >}}Eden Corporate Mobility project page{{< /a >}} shows the site, and {{< a key="eden-flats-corporate-mobility" >}}the Eden Flats case study{{< /a >}} explains why Eden Flats made way for it.
 
 To find those words, run your {{< a key="keyword-research-small-business" >}}keyword research{{< /a >}} separately in each language, then write the titles and descriptions with my {{< a key="on-page-seo-checklist" >}}on-page SEO checklist{{< /a >}}. Google does not treat a properly translated page as a copy of the original. A page with a translated menu and its main text left in the other language is another matter, so keep each page in one language from top to bottom.
 
@@ -176,34 +176,34 @@ Choose one place and stick to it. If your platform already writes the tags in th
 
 ### WordPress, Wix and translation tools
 
-Translation plugins and site builders write the tags for you: WPML and Polylang on WordPress, Wix Multilingual on Wix, and translation services such as Weglot. Your job is to check what they produce (Step 5), not to add your own lines: a second, hand-written set ends up contradicting the first as soon as a page changes.
+Most translation tools write the tags for you: WPML and Polylang on WordPress, Wix Multilingual on Wix, and services such as Weglot. Your job is to check what they produce (Step 5), not to add your own lines.
 
 ### Squarespace
 
 Squarespace has no built-in translation. Its help centre describes two routes: Weglot, or building each language's pages yourself ([Squarespace's guide to manual multilingual sites](https://support.squarespace.com/hc/en-us/articles/16552875658765-Manually-creating-a-multilingual-site)).
 
 - **With Weglot**, you manage the translations in Weglot's dashboard, and Weglot says it adds the hreflang tags itself. Its plans depend on the number of words and languages, so check the price against the size of your site.
-- **By hand**, you duplicate each page, give the copy a French slug, SEO title and description, translate it, then paste the hreflang lines into the header code injection field in the settings of each page, on both versions. Check that your plan includes code injection before you start.
+- **By hand**, you duplicate each page, give the copy a French slug, SEO title and description, translate it, then paste the hreflang lines on both versions, in the **Page Header Code Injection** field of the **Advanced** tab in the page's settings. Code injection needs the Core plan or above, not Basic: my {{< a key="squarespace-code-injection" >}}Squarespace code injection guide{{< /a >}} shows where everything sits.
 
-Squarespace is what I give clients who want to edit their site themselves, and I usually add some code to it. Hreflang lines suit that split: they are pasted once, and the client can rewrite the text around them without breaking anything. The trap is a renamed slug: the lines on both pages must change with it. My {{< a key="squarespace-seo" >}}Squarespace SEO tutorial{{< /a >}} shows where each page's slug, title and description are set.
+Squarespace is what I give clients who want to edit their site themselves, and I usually add some code to it. Hreflang lines suit that split: they are pasted once, and the client can rewrite the text around them without breaking anything. The trap is a renamed slug: the lines on both pages must change with it. Squarespace's guide also warns that HTML in that field can disappear if you turn off the header's transparency, so check the page source after saving (Step 5), and again after any change to the header. My {{< a key="squarespace-seo" >}}Squarespace SEO tutorial{{< /a >}} shows where each page's slug, title and description are set.
 
 {{< screenshot id="hreflang-bilingual-website-02" alt="Squarespace page settings with the page header code injection field holding the en, fr and x-default hreflang lines" >}}
 
 ### Custom-coded sites
 
-On a custom site, the template writes the lines from data, so nobody types an address twice. On this site, each article and its translation share a key: the template finds the other version, prints one line per language plus the x-default, and a new article has its tags the day it goes online. Eden Corporate Mobility's site carries hreflang links on its 17 pages per language, with a sitemap that lists both versions.
+On a custom-coded site, let the template write the lines from data, so nobody types an address twice. On this site, built with Hugo, each article and its translation share a key: the template finds the other version, prints one line per language plus the x-default, and a new article has its tags the day it goes online.
 
 ## Step 5: check that Google reads your tags
 
 Search Console used to list hreflang errors in its International Targeting report. Google removed that report on 22 September 2022 ([Google's notice](https://support.google.com/webmasters/answer/12474899)). It still uses the tags, but no report lists their errors any more, so the checks are up to you:
 
-1. **Read the source of both versions.** Right-click the page, choose **View page source** and search for hreflang. Both versions must show the same set of lines, with complete addresses that open the right pages.
+1. **Read the source of both versions.** Right-click the page, choose **View page source** and search for hreflang (Ctrl+F, or Cmd+F on a Mac). Both versions must show the same set of lines, with complete addresses that open the right pages.
 2. **Inspect the second-language page in Search Console.** Paste its address into the URL Inspection bar and open the page indexing details: the **User-declared canonical** and the **Google-selected canonical** should both show that page's own address. If Google chose the other language, it sees the page as a copy, and the Page indexing report lists it as **Duplicate, Google chose different canonical than user**. My {{< a key="google-search-console-tutorial" >}}Search Console tutorial{{< /a >}} shows where these reports sit.
 3. **Run a site audit on a larger site.** SEO crawlers and site audit tools flag missing return links and invalid codes across every page, which beats reading fifty page sources one by one.
 
 {{< screenshot id="hreflang-bilingual-website-03" alt="URL Inspection in Search Console for the French version of an mlkwebstudio.com article, with the user-declared and Google-selected canonical showing the same French address" >}}
 
-These are the mistakes I look for first:
+The mistakes to look for first:
 
 | Mistake | What happens | Fix |
 |---|---|---|

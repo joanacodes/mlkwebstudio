@@ -60,13 +60,13 @@ Avant mon arrivée, l’entreprise recevait 5 à 10 appels par mois. C’est le 
 
 ## Comment tout a commencé : un site WordPress piraté et un appel en urgence
 
-Le fondateur a entendu parler de mon travail par un proche. Un site que j’avais créé pour quelqu’un d’autre lui plaisait, et il voulait le même pour Pilotech. Puis son ancien site WordPress a été piraté, et il a fait appel à moi en urgence : il fallait récupérer le site et en construire un nouveau, ce que j’ai fait.
+Le fondateur a entendu parler de mon travail par l’un de mes proches. Un site que j’avais créé pour quelqu’un d’autre lui plaisait, et il voulait le même pour Pilotech. Puis son ancien site WordPress a été piraté, et il a fait appel à moi en urgence : il fallait récupérer le site et en construire un nouveau, ce que j’ai fait.
 
-Je vois souvent ce scénario. Jusqu’ici, chaque appel en urgence que j’ai reçu concernait un site WordPress, et la plupart de mes clients sous WordPress qui gèrent leur site eux-mêmes veulent en partir : une prise en main difficile, trop d’extensions à tenir à jour, et changer une lettre ne devrait jamais faire s’effondrer toute la structure. Si cela vient de vous arriver, mon guide {{< a key="wordpress-site-hacked" >}}site WordPress piraté{{< /a >}} détaille les gestes des 24 premières heures, dans l’ordre.
+Je vois souvent ce scénario. Jusqu’ici, chaque appel en urgence que j’ai reçu concernait un site WordPress, et la plupart de mes clients sous WordPress qui gèrent leur site eux-mêmes veulent en partir : une prise en main difficile, trop d’extensions à tenir à jour, et changer une lettre ne devrait jamais faire s’effondrer toute la structure. Si cela vient de vous arriver, mon guide pour réagir face à un {{< a key="wordpress-site-hacked" >}}site WordPress piraté{{< /a >}} détaille les gestes des 24 premières heures, dans l’ordre.
 
 J’ai reconstruit le site principal de Pilotech sur Squarespace. La raison est pratique : le fondateur peut modifier un texte ou une photo lui-même, quand il le souhaite, sans appeler personne et sans rien casser. J’ajoute en général un peu de code sur mesure, et c’est pour cette partie que mes clients font appel à moi.
 
-Squarespace a un vrai défaut pour le référencement : c’est une plateforme fermée, sans accès au code source, si bien qu’en théorie un site développé sur mesure a plus de marge pour se positionner. En pratique, celui-ci est 1er ou 2e, parce que les bases étaient là : une page par recherche, les bons mots-clés et des métadonnées complètes. Mon comparatif complet se trouve dans {{< a key="squarespace-vs-wordpress" >}}Squarespace ou WordPress{{< /a >}}.
+Squarespace a un vrai défaut pour le référencement : c’est une plateforme fermée, sans accès au code source, si bien qu’en théorie un site développé sur mesure a plus de marge pour se positionner. En pratique, celui-ci est 1er ou 2e, parce que les bases étaient là : une page par recherche, les bons mots-clés et des métadonnées complètes. Je compare les deux plateformes en détail dans {{< a key="squarespace-vs-wordpress" >}}Squarespace ou WordPress{{< /a >}}.
 
 ## Ce que j’ai fait, dans l’ordre
 
@@ -109,9 +109,9 @@ Voici le calendrier, aussi précis que possible :
 
 Ce premier classement a été d’une rapidité inhabituelle : le SEO prend normalement bien plus de temps. Les conseils de Google pour recruter un prestataire SEO parlent de quatre mois à un an dans la plupart des cas, et sa [page d’aide sur le recours à un spécialiste du SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=fr) dit clairement que personne ne peut garantir la première place sur Google.
 
-{{< callout type="warning" >}}Une position obtenue en un ou deux jours est l’exception. Ce n’est ni une référence ni une promesse, et je ne la promets à personne. Méfiez-vous de quiconque vous garantit une position sur Google à une date donnée.{{< /callout >}}
+{{< callout type="warning" >}}Une position obtenue en un ou deux jours est l’exception. Ce n’est pas une référence, et je ne la promets à personne. Méfiez-vous de quiconque vous garantit une position sur Google à une date donnée.{{< /callout >}}
 
-Ce qui a rendu les choses si rapides, à mon avis, c’est l’offre. Le site qui se classe vend quelque chose de très précis : une solution rare, cherchée avec des mots précis, et des pages qui répondent exactement à ces mots. Une offre large face à des concurrents installés prend beaucoup plus de temps, et le site qui me l’a appris est décrit plus bas. Pour les délais habituels, étape par étape, lisez {{< a key="how-long-does-seo-take" >}}combien de temps pour être référencé sur Google{{< /a >}}.
+Ce qui a rendu les choses si rapides, à mon avis, c’est l’offre. Le site qui se classe vend quelque chose de très précis : une solution rare, que l’on cherche avec des mots bien à elle, et des pages qui reprennent exactement ces mots. Une offre large face à des concurrents installés prend beaucoup plus de temps, et le site qui me l’a appris est décrit plus bas. Pour les délais habituels, étape par étape, lisez {{< a key="how-long-does-seo-take" >}}combien de temps pour être référencé sur Google{{< /a >}}.
 
 ## Les résultats : positions, demandes et meilleurs clients
 
@@ -143,7 +143,7 @@ Le SEO vous amène ceux qui cherchent déjà. Le cold emailing touche ceux qui n
 
 Les campagnes de cold emailing visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et les architectes. **Les architectes étaient la cible principale**, et ce sont eux qui appelaient le plus souvent. Chaque séquence comptait trois emails en texte brut au maximum, sans lien, avec le numéro de téléphone dans l’email et une invitation à consulter le catalogue sur le site. En un an, ces campagnes ont apporté 15 nouveaux clients à Pilotech.
 
-Beaucoup d’architectes ont appelé au lieu de répondre. Un appel va plus vite qu’une réponse écrite, vite noyée sous les autres emails, et l’on aime parler à un humain : nous avons donc rendu l’appel encore plus simple. Toute l’histoire est dans mon étude de cas pour {{< a key="architects-cold-email-case-study" >}}prospecter les architectes{{< /a >}} ; le cold emailing lui-même passe par ma marque sœur, [MLK Leadhunters](https://mlkleadhunters.com/fr/).
+Beaucoup d’architectes ont appelé au lieu de répondre. Un appel va plus vite qu’une réponse écrite, vite noyée sous les autres emails, et l’on aime parler à un humain : nous avons donc rendu l’appel encore plus simple. L’étude de cas complète explique comment {{< a key="architects-cold-email-case-study" >}}prospecter les architectes{{< /a >}} de cette façon ; le cold emailing lui-même passe par ma marque sœur, [MLK Leadhunters](https://mlkleadhunters.com/fr/).
 
 Ensemble, le SEO et le cold emailing apportent aujourd’hui à Pilotech une dizaine de prospects par jour. Ce chiffre revient aux deux canaux, et je ne l’attribue pas au SEO seul. Les deux fonctionnent d’ailleurs en tandem : les emails invitent à consulter le catalogue sur le site, si bien que les pages qui se classent sur Google sont aussi celles que lit un prospect venu d’un cold email.
 

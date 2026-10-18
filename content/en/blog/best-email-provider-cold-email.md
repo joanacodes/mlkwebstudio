@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:35:00+02:00
 category: "cold-emailing"
 article_type: "comparison"
 keywords: ["best email provider for cold email", "Google Workspace vs Microsoft 365 for cold email", "Spacemail for cold email", "Outlook vs Gmail for cold email", "cold email mailbox provider"]
-summary: "In my experience, Microsoft 365 works very well for cold email but is tricky to set up, Google Workspace does worse, and Spacemail, Spaceship's email service, is the one I encourage: easy to set up and the cheapest, at under $1 (less than £1) a mailbox a month. The catch is Spaceship's rules, which count email to anyone who has not opted in as unsolicited and forbid automated warm-up, so get Spaceship's agreement in writing before you connect Spacemail to a sending tool."
+summary: "In my experience, Microsoft 365 works very well for cold email but is tricky to set up, Google Workspace does worse, and Spacemail, Spaceship's email service, is the one I encourage: easy to set up and the cheapest, at less than £1 (under $1) a mailbox a month. The catch is Spaceship's rules, which count email to anyone who has not opted in as unsolicited and forbid automated warm-up, so get Spaceship's agreement in writing before you connect Spacemail to a sending tool."
 cover: "best-email-provider-cold-email"
 cover_alt: "A hand holding a phone open on an email inbox, beside two compared panels and the words Google vs Microsoft"
 related: ["cold-email-infrastructure", "spacemail-setup", "instantly-ai-tutorial", "professional-email-address", "spf-dkim-dmarc-setup"]
@@ -55,7 +55,7 @@ The first row is my experience. The other rows are what the providers publish, a
 | Connecting Instantly | Authenticated SMTP switched on for each mailbox, then one sign-in per mailbox, one at a time | An admin marks Instantly as trusted once, then each mailbox signs in | IMAP and SMTP, with each mailbox's password |
 | Published sending limit | 10,000 recipients a day, 30 messages a minute | 2,000 messages a day per user, 500 on a trial | 500 emails an hour per mailbox, 20 on a trial |
 | Rules on bulk or unsolicited email | Bulk commercial email belongs with specialised providers | Unsolicited mass email is prohibited | Email to anyone who has not opted in counts as unsolicited; automated warm-up through third-party tools is prohibited |
-| Entry price per mailbox, per month | $7 in the US (Business Basic) | £5.90 ($7) on the annual plan | Under $1 (less than £1) |
+| Entry price per mailbox, per month | $4 in the US (Exchange Online Plan 1, email only) | £5.90 on the annual plan (US: $7) | About 60p ($0.79) on the Pro plan, paid for two years |
 
 The limits row looks generous because it is: Instantly's own guides suggest about 30 cold emails a day per mailbox, a small fraction of any of these ceilings. The rows that decide the choice are the verdict, the rules and the price.
 
@@ -71,9 +71,9 @@ What makes the set-up tricky is documented:
 
 Each step is in my {{< a key="instantly-ai-tutorial" >}}Instantly tutorial{{< /a >}}.
 
-On volume, the [Exchange Online limits](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits) allow 10,000 recipients a day and 30 messages a minute per mailbox. The same documentation says that organisations sending legitimate bulk commercial email, such as newsletters, should use third-party providers that specialise in it. A campaign at about 30 emails a day per mailbox is nowhere near newsletter volume, but the message is clear: Microsoft does not sell its mailboxes for mass sending.
+On volume, the [Exchange Online limits](https://learn.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits) allow 10,000 recipients a day and 30 messages a minute per mailbox. If you have read about a lower limit of 2,000 external recipients a day per mailbox: Microsoft announced it in 2024, then cancelled it. Microsoft's limits documentation also says that organisations sending legitimate bulk commercial email, such as newsletters, should use third-party providers that specialise in it. A campaign at about 30 emails a day per mailbox is nowhere near newsletter volume, but the message is clear: Microsoft does not sell its mailboxes for mass sending.
 
-On price, Microsoft raised the price of Business Basic on 1 July 2026: in the US, it went from $6 to $7 per user a month, and existing subscribers move to the new price at their next renewal. The sources I found disagree on the new UK price, so check it on [Microsoft's plan comparison page](https://www.microsoft.com/en-gb/microsoft-365/business/compare-all-microsoft-365-business-products) before you multiply it by your number of mailboxes.
+On price, a sending mailbox needs nothing but email, and Microsoft's cheapest email-only plan, Exchange Online Plan 1, is listed on its US page at $4 per user a month, paid yearly. Microsoft 365 Business Basic, which adds the web and mobile versions of Word, Excel and PowerPoint, went from $6 to $7 per user a month in the US on 1 July 2026, and existing subscribers move to the new price at their next renewal. The sources I found disagree on the UK prices, so check them on Microsoft's UK site, starting with its [plan comparison page](https://www.microsoft.com/en-gb/microsoft-365/business/compare-all-microsoft-365-business-products), before you multiply by your number of mailboxes.
 
 ## Google Workspace: familiar, but worse for cold email in my experience
 
@@ -91,11 +91,11 @@ What Google documents:
 
 Spacemail is the email service of Spaceship, the registrar Namecheap launched in 2023. It is the provider I encourage you to use, for reasons that come from experience:
 
-- Set-up is easy. Creating the mailboxes is simple, and a sending tool connects to them by IMAP and SMTP with the settings from Spaceship's help (server mail.spacemail.com, ports 993 and 465); that access is on by default.
+- Set-up is easy, or at least I know my way around it. Creating the mailboxes is simple, and a sending tool connects to them by IMAP and SMTP with the settings from Spaceship's help (server mail.spacemail.com, ports 993 and 465); that access is on by default.
 - Support answers. It is there around the clock, and every issue I have raised has been resolved.
-- The price is fair. At the time of writing, the entry plan costs under $1 (less than £1) a month per mailbox, and Spaceship does not triple your bill in the second year, as some providers do.
+- The price is fair. At the time of writing, [Spaceship's Spacemail page](https://www.spaceship.com/business-email/) lists the one-mailbox Pro plan at about 60p ($0.79) a month, paid for two years ($18.88), with the same price at renewal; the plans with three or five mailboxes cost less per mailbox. And Spaceship does not triple your bill in the second year, as some providers do.
 
-Spaceship also documents its sending limits clearly: 500 emails an hour per mailbox on paid plans, 20 an hour on a trial, and up to 50 recipients per email.
+Spaceship also documents its sending limits: 500 emails an hour per mailbox on paid plans, 20 an hour on a trial, and up to 50 recipients per email.
 
 The condition lies in Spaceship's rules, which leave little room for cold email:
 
@@ -119,7 +119,7 @@ The rest is yours, at any provider:
 - Secondary domains: cold email never leaves your main domain, so a reputation problem never reaches the address your clients write to.
 - SPF, DKIM and DMARC on every sending domain. My {{< a key="spf-dkim-dmarc-setup" >}}SPF, DKIM and DMARC tutorial{{< /a >}} shows the records to add.
 - A verified list. Dead addresses bounce, and bounces wear down a domain's reputation. I clean my lists with Reoon before the first send.
-- Short, plain-text emails. Mine have no links and no HTML, three emails at most per contact, and a phone number to call. My reasons are in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}.
+- Short, plain-text emails. Mine have no links and no HTML, I send three at most per contact, and each one gives a phone number to call. My reasons are in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}.
 - A slow climb. Each mailbox starts low and rises gradually towards about 30 emails a day, the figure Instantly's guides suggest.
 
 A better provider will not rescue a campaign that fails on these points.
@@ -130,11 +130,11 @@ The price of one mailbox looks small until you multiply it. The table uses each 
 
 | Provider and plan | One mailbox a month | 10 mailboxes | 30 mailboxes |
 |---|---|---|---|
-| Google Workspace Business Starter, annual plan | £5.90 ($7) | £59 ($70) | £177 ($210) |
-| Microsoft 365 Business Basic, US list price | $7 | $70 | $210 |
-| Spacemail, entry plan | Under $1 | Under $10 | Under $30 |
+| Google Workspace Business Starter, annual plan | £5.90 (US: $7) | £59 (US: $70) | £177 (US: $210) |
+| Microsoft Exchange Online Plan 1, US price, paid yearly | $4 | $40 | $120 |
+| Spacemail, Pro plan or larger, two-year term | Under £1 (under $1) | Under £8 (under $10) | Under £23 (under $30) |
 
-Google's prices exclude VAT. Spaceship's prices are in US dollars and vary with the billing period and current offers, so check them on [Spaceship's website](https://www.spaceship.com/) before you buy. At 30 mailboxes, the gap between Spacemail and Google is more than £140 a month, before the rules come into it.
+Google's prices exclude VAT. Spaceship's prices are in US dollars, and the pound figures are my approximate conversions; they vary with the billing period and current offers, so the order page has the final word. At 30 mailboxes, Spacemail saves you more than £140 a month compared with Google, before the rules come into it, and Microsoft's email-only plan sits in between at $120 (about £90).
 
 Domains and the sending tool come on top: the secondary domains, renewed each year, and a monthly subscription for the tool.
 
@@ -145,7 +145,7 @@ Domains and the sending tool come on top: the secondary domains, renewed each ye
 If you are choosing today, this is how I would decide:
 
 - For the simplest set-up and the lowest cost: Spacemail, but only once Spaceship's support has agreed in writing to what you plan to send.
-- If Spaceship says no, or you already use Microsoft 365: Microsoft mailboxes on secondary domains, with time set aside for the SMTP settings and the one-by-one connection.
+- If Spaceship says no, or you already use Microsoft 365: Microsoft mailboxes on secondary domains (Exchange Online Plan 1 is enough), with time set aside for the SMTP settings and the one-by-one connection.
 - If you already pay for Google Workspace: you can start there, on secondary domains and paid accounts, but in my experience it does worse than Microsoft, so watch the replies per mailbox from the first week.
 - Your everyday mailbox is a separate decision. For the address on your main domain, the one your clients write to, comfort matters more than sending limits, and my guide to getting a {{< a key="professional-email-address" >}}professional email address{{< /a >}} compares the options.
 

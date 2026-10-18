@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:35:00+02:00
 category: "cold-emailing"
 article_type: "comparison"
 keywords: ["boîte mail cold emailing", "meilleure boîte mail pour la prospection", "Google Workspace ou Microsoft 365 pour le cold emailing", "Spacemail cold emailing", "fournisseur de messagerie prospection"]
-summary: "Par expérience, Microsoft 365 fonctionne très bien pour le cold emailing mais reste délicat à configurer, Google Workspace fait moins bien, et Spacemail, la messagerie de Spaceship, est celle que je recommande : simple à configurer et à moins d’un dollar par boîte et par mois. Mais les règles de Spaceship jugent non sollicité tout email envoyé sans accord préalable et interdisent la chauffe automatisée : obtenez son accord écrit avant de relier Spacemail à un outil d’envoi."
+summary: "Par expérience, Microsoft 365 fonctionne très bien pour le cold emailing mais reste délicat à configurer, Google Workspace fait moins bien, et Spacemail, la messagerie de Spaceship, est celle que je recommande : simple à configurer et à moins d’un euro par boîte et par mois. Mais les règles de Spaceship jugent non sollicité tout email envoyé sans accord préalable et interdisent la chauffe automatisée : obtenez son accord écrit avant de relier Spacemail à un outil d’envoi."
 cover: "best-email-provider-cold-email"
 cover_alt: "Une main tient un téléphone ouvert sur une boîte de réception, à côté de deux panneaux comparés et des mots Google vs Microsoft"
 related: ["cold-email-infrastructure", "spacemail-setup", "instantly-ai-tutorial", "professional-email-address", "spf-dkim-dmarc-setup"]
@@ -55,7 +55,7 @@ La première ligne vient de mon expérience. Les autres reprennent ce que publie
 | Connexion à Instantly | SMTP authentifié à activer pour chaque boîte, puis une connexion par boîte, une à la fois | Un administrateur approuve Instantly une fois, puis chaque boîte se connecte | IMAP et SMTP, avec le mot de passe de chaque boîte |
 | Limite d’envoi publiée | 10 000 destinataires par jour, 30 messages par minute | 2 000 messages par jour et par utilisateur, 500 pendant l’essai | 500 emails par heure et par boîte, 20 pendant l’essai |
 | Règles sur les envois en masse ou non sollicités | Les emails commerciaux en masse relèvent de prestataires spécialisés | Les envois de masse non sollicités sont interdits | Tout email envoyé sans accord préalable est jugé non sollicité ; la chauffe automatisée par des outils tiers est interdite |
-| Prix d’entrée par boîte et par mois | 7 $ aux États-Unis (Business Basic) | 6,80 € HT avec engagement annuel | Moins de 1 $ (moins de 1 €) |
+| Prix d’entrée par boîte et par mois | 4 $ aux États-Unis (Exchange Online Plan 1, messagerie seule) | 6,80 € HT avec engagement annuel | Environ 0,70 € (0,79 $) avec l’offre Pro payée pour deux ans |
 
 La ligne des limites paraît généreuse, et elle l’est : les guides d’Instantly conseillent environ 30 cold emails par jour et par boîte, une petite fraction de chacun de ces plafonds. Les lignes qui décident du choix sont le verdict, les règles et le prix.
 
@@ -71,9 +71,9 @@ Ce qui complique la configuration est documenté :
 
 Chaque étape figure dans mon {{< a key="instantly-ai-tutorial" >}}tuto Instantly{{< /a >}}.
 
-Côté volume, les [limites d’Exchange Online](https://learn.microsoft.com/fr-fr/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits) autorisent 10 000 destinataires par jour et 30 messages par minute pour chaque boîte. La même documentation indique que les organisations qui envoient des emails commerciaux légitimes en masse, comme des newsletters, doivent passer par des prestataires tiers spécialisés. Une campagne d’une trentaine d’emails par jour et par boîte reste très loin d’une newsletter, mais le message est clair : Microsoft ne vend pas ses boîtes pour les envois de masse.
+Côté volume, les [limites d’Exchange Online](https://learn.microsoft.com/fr-fr/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits) autorisent 10 000 destinataires par jour et 30 messages par minute pour chaque boîte. Si vous avez entendu parler d’une limite de 2 000 destinataires externes par jour et par boîte : Microsoft l’avait annoncée en 2024, puis y a renoncé. La documentation de Microsoft sur ces limites indique aussi que les organisations qui envoient des emails commerciaux légitimes en masse, comme des newsletters, doivent passer par des prestataires tiers spécialisés. Une campagne d’une trentaine d’emails par jour et par boîte reste très loin d’une newsletter, mais le message est clair : Microsoft ne vend pas ses boîtes pour les envois de masse.
 
-Côté prix, Microsoft a augmenté le prix de Business Basic le 1er juillet 2026 : aux États-Unis, il est passé de 6 à 7 dollars par utilisateur et par mois, et les clients existants passent au nouveau tarif à leur prochain renouvellement. Je n’ai pas trouvé de source fiable pour le nouveau prix en euros : vérifiez-le sur [la page de comparaison des offres de Microsoft](https://www.microsoft.com/fr-fr/microsoft-365/business/compare-all-microsoft-365-business-products) avant de le multiplier par votre nombre de boîtes.
+Côté prix, une boîte d’envoi n’a besoin que de la messagerie, et l’offre de messagerie seule la moins chère de Microsoft, Exchange Online Plan 1, est affichée sur sa page américaine à 4 dollars par utilisateur et par mois, avec engagement annuel. Microsoft 365 Business Basic, qui ajoute les versions web et mobiles de Word, Excel et PowerPoint, est passé de 6 à 7 dollars par utilisateur et par mois aux États-Unis le 1er juillet 2026, et les clients existants passent au nouveau tarif à leur prochain renouvellement. Je n’ai pas trouvé de source fiable pour les prix en euros : vérifiez-les sur le site français de Microsoft, à commencer par [la page de comparaison des offres](https://www.microsoft.com/fr-fr/microsoft-365/business/compare-all-microsoft-365-business-products), avant de les multiplier par votre nombre de boîtes.
 
 ## Google Workspace : familier, mais moins bon en cold emailing selon mon expérience
 
@@ -91,18 +91,18 @@ Ce que Google documente :
 
 Spacemail est la messagerie de Spaceship, le registrar lancé par Namecheap en 2023. C’est le fournisseur que je vous encourage à utiliser, pour des raisons qui viennent de mon expérience :
 
-- La configuration est simple. Créer les boîtes est facile, et un outil d’envoi s’y connecte en IMAP et SMTP avec les réglages donnés par l’aide de Spaceship (serveur mail.spacemail.com, ports 993 et 465) ; cet accès est activé par défaut.
+- La configuration est simple, ou du moins j’y ai mes repères. Créer les boîtes est facile, et un outil d’envoi s’y connecte en IMAP et SMTP avec les réglages donnés par l’aide de Spaceship (serveur mail.spacemail.com, ports 993 et 465) ; cet accès est activé par défaut.
 - Le support répond. Il est joignable à toute heure, et chaque problème que je lui ai soumis a été résolu.
-- Le prix est juste. Au moment où j’écris, l’offre d’entrée coûte moins d’un dollar (donc moins d’un euro) par boîte et par mois, et Spaceship ne triple pas la facture la deuxième année, comme le font certains fournisseurs.
+- Le prix est juste. Au moment où j’écris, [la page Spacemail de Spaceship](https://www.spaceship.com/business-email/) (en anglais) affiche l’offre Pro, à une boîte, à environ 0,70 € (0,79 $) par mois, payés pour deux ans (18,88 $), au même prix au renouvellement ; les offres à trois ou cinq boîtes reviennent moins cher par boîte. Et Spaceship ne triple pas la facture la deuxième année, comme le font certains fournisseurs.
 
-Spaceship documente aussi clairement ses limites d’envoi : 500 emails par heure et par boîte sur les offres payantes, 20 par heure pendant l’essai, et 50 destinataires au plus par email.
+Spaceship documente aussi ses limites d’envoi : 500 emails par heure et par boîte sur les offres payantes, 20 par heure pendant l’essai, et 50 destinataires au plus par email.
 
 La condition se trouve dans les règles de Spaceship, qui laissent peu de place au cold emailing :
 
 - Sa [politique d’utilisation acceptable de l’hébergement](https://www.spaceship.com/legal/hosting-aup/) (en anglais) interdit les envois de masse non sollicités et considère comme non sollicité tout email envoyé à une personne qui n’a pas donné son accord.
 - Ses pages d’aide interdisent tout email commercial non sollicité, envoyé en masse ou automatisé, avec une tolérance zéro, et précisent que sa messagerie n’est pas conçue pour les envois massifs.
 - Son [guide de chauffe d’un domaine](https://www.spaceship.com/knowledgebase/warm-up-domain-email-deliverability/) (en anglais) n’autorise qu’une chauffe manuelle et progressive, avec de vrais destinataires consentants, et interdit strictement la chauffe automatisée par des outils tiers, ce qu’est précisément la chauffe d’un outil d’envoi.
-- Ses conditions générales fixent des dommages et intérêts de 500 dollars ou de 1 dollar par message de spam, le montant le plus élevé étant retenu, et Spaceship peut limiter vos envois, les suspendre ou fermer le compte.
+- Ses conditions générales prévoient, en cas de spam, des dommages et intérêts forfaitaires de 500 dollars, ou de 1 dollar par message si ce total est plus élevé, et Spaceship peut limiter vos envois, les suspendre ou fermer le compte.
 
 Ma recommandation porte donc sur ce que Spacemail fait bien : la configuration, le prix et le support. Elle ne signifie pas que Spaceship accepte le cold emailing. Sur le papier, ce n’est pas le cas.
 
@@ -118,9 +118,9 @@ Le reste vous revient, quel que soit le fournisseur :
 
 - Des domaines secondaires : le cold emailing ne part jamais de votre domaine principal, si bien qu’un problème de réputation n’atteint jamais l’adresse à laquelle vos clients écrivent.
 - SPF, DKIM et DMARC sur chaque domaine d’envoi. Mon tutoriel pour {{< a key="spf-dkim-dmarc-setup" >}}configurer SPF, DKIM et DMARC{{< /a >}} montre les enregistrements à ajouter.
-- Une liste vérifiée. Les adresses mortes rebondissent, et les rebonds usent la réputation d’un domaine. Je nettoie mes listes avec Reoon avant le premier envoi.
-- Des emails courts, en texte brut. Les miens n’ont ni lien ni HTML, trois emails au plus par contact, et un numéro de téléphone à appeler. J’explique pourquoi dans mon article sur la {{< a key="plain-text-cold-emails" >}}délivrabilité en cold emailing{{< /a >}}.
-- Une montée progressive. Chaque boîte commence bas et monte peu à peu vers une trentaine d’emails par jour, le chiffre que conseillent les guides d’Instantly.
+- Une liste vérifiée. Les adresses qui n’existent plus provoquent des rebonds, et les rebonds usent la réputation d’un domaine. Je nettoie mes listes avec Reoon avant le premier envoi.
+- Des emails courts, en texte brut. Les miens n’ont ni lien ni HTML, j’en envoie trois au plus par contact, et chacun donne un numéro de téléphone à appeler. J’explique pourquoi dans mon article sur la {{< a key="plain-text-cold-emails" >}}délivrabilité en cold emailing{{< /a >}}.
+- Une montée progressive. Chaque boîte démarre avec quelques emails par jour et monte peu à peu vers une trentaine, le chiffre que conseillent les guides d’Instantly.
 
 Un meilleur fournisseur ne sauvera pas une campagne qui pèche sur ces points.
 
@@ -131,10 +131,10 @@ Le prix d’une boîte paraît modeste jusqu’au moment de le multiplier. Le ta
 | Fournisseur et offre | Une boîte par mois | 10 boîtes | 30 boîtes |
 |---|---|---|---|
 | Google Workspace Business Starter, engagement annuel | 6,80 € HT | 68 € HT | 204 € HT |
-| Microsoft 365 Business Basic, prix public américain | 7 $ | 70 $ | 210 $ |
-| Spacemail, offre d’entrée | Moins de 1 $ | Moins de 10 $ | Moins de 30 $ |
+| Microsoft Exchange Online Plan 1, prix américain, engagement annuel | 4 $ | 40 $ | 120 $ |
+| Spacemail, offre Pro ou supérieure, engagement de deux ans | Moins de 1 € (moins de 1 $) | Moins de 9 € (moins de 10 $) | Moins de 27 € (moins de 30 $) |
 
-Les prix de Spaceship sont en dollars et varient selon la durée d’engagement et les offres du moment : vérifiez-les sur [le site de Spaceship](https://www.spaceship.com/) avant d’acheter. À 30 boîtes, l’écart entre Spacemail et Google dépasse 170 € par mois, avant même de parler des règles.
+Les prix de Spaceship sont en dollars, et les montants en euros sont mes conversions approximatives ; ils varient selon la durée d’engagement et les offres du moment, donc la page de commande fait foi. À 30 boîtes, Spacemail vous fait économiser plus de 170 € par mois par rapport à Google, avant même de parler des règles, et l’offre de messagerie seule de Microsoft se situe entre les deux, à 120 $ (environ 107 €).
 
 Les domaines et l’outil d’envoi s’ajoutent à ces montants : les domaines secondaires, renouvelés chaque année, et un abonnement mensuel pour l’outil.
 
@@ -145,7 +145,7 @@ Les domaines et l’outil d’envoi s’ajoutent à ces montants : les domaines
 Si vous choisissez aujourd’hui, voici comment je trancherais :
 
 - Pour la configuration la plus simple et le coût le plus bas : Spacemail, mais seulement une fois que le support de Spaceship a accepté par écrit ce que vous comptez envoyer.
-- Si Spaceship refuse, ou si vous utilisez déjà Microsoft 365 : des boîtes Microsoft sur des domaines secondaires, en prévoyant du temps pour le SMTP authentifié et la connexion boîte par boîte.
+- Si Spaceship refuse, ou si vous utilisez déjà Microsoft 365 : des boîtes Microsoft sur des domaines secondaires (Exchange Online Plan 1 suffit), en prévoyant du temps pour le SMTP authentifié et la connexion boîte par boîte.
 - Si vous payez déjà Google Workspace : vous pouvez commencer avec, sur des domaines secondaires et des comptes payants, mais par expérience Google fait moins bien que Microsoft, alors suivez les réponses de chaque boîte dès la première semaine.
 - Votre boîte de tous les jours est une autre décision. Pour l’adresse de votre domaine principal, celle à laquelle vos clients écrivent, le confort d’usage compte plus que les limites d’envoi, et mon guide sur l’{{< a key="professional-email-address" >}}adresse mail professionnelle{{< /a >}} compare les options.
 

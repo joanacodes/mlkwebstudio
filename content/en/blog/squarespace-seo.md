@@ -199,7 +199,7 @@ Last, bring the data into Squarespace. In **Analytics**, open **Search keywords*
 
 AI assistants such as ChatGPT, Claude and Perplexity send their own crawlers to read websites. Squarespace gives you two settings for them.
 
-**The crawler setting.** In **Settings**, open **Crawlers**. The **Block known artificial intelligence crawlers** option is off by default. Leave it off if you want AI assistants to find and recommend your business: AI search tools send crawlers to read your pages, and blocking those crawlers can keep you out of their answers. OpenAI, for one, says that sites which block its search crawler are not shown in ChatGPT's search answers. Switch the option on only if keeping your content away from AI companies matters more to you than that visibility. [Squarespace's help on crawlers](https://support.squarespace.com/hc/en-us/articles/360022347072) describes each option on the panel.
+**The crawler setting.** In **Settings**, open **Crawlers**. The **Block known artificial intelligence crawlers** option is off by default. Leave it off if you want AI assistants to find and recommend your business: blocking their crawlers can keep you out of their answers. OpenAI, for one, says that sites which block its search crawler are not shown in ChatGPT's search answers. Switch the option on only if keeping your content away from AI companies matters more to you than that visibility. [Squarespace's help on crawlers](https://support.squarespace.com/hc/en-us/articles/360022347072) describes each option on the panel.
 
 {{< screenshot id="squarespace-seo-09" alt="Squarespace Crawlers settings with the Block known artificial intelligence crawlers option switched off" >}}
 
