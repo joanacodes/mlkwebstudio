@@ -16,7 +16,7 @@ related: ["spacemail-setup", "domain-hosting-email-guide", "spf-dkim-dmarc-setup
 services: ["websites"]
 faq:
   - q: "Peut-on avoir une adresse mail professionnelle gratuite ?"
-    a: "Pas une adresse complète. Les offres gratuites comme my kSuite d’Infomaniak vous donnent une adresse sur le domaine du fournisseur, pas sur le vôtre, et une redirection gratuite ne fait que recevoir. Le domaine, lui, coûte peu : un .fr se renouvelle à 7 € HT par an chez Infomaniak au moment où j’écris."
+    a: "Rarement sur votre propre domaine. Les offres gratuites comme my kSuite d’Infomaniak vous donnent une adresse sur le domaine du fournisseur (@ik.me, par exemple), pas sur le vôtre, et une redirection gratuite ne fait que recevoir. Le domaine, lui, coûte peu : un .fr se renouvelle à 7 € HT par an chez Infomaniak au moment où j’écris (octobre 2026)."
   - q: "Faut-il un site internet pour avoir une adresse mail professionnelle ?"
     a: "Non. Il faut un nom de domaine, pas un site : la messagerie passe par les enregistrements MX du domaine, qu’un site existe ou non. Vous pourrez ajouter un site sur le même domaine plus tard sans toucher à vos emails, tant que les MX restent en place."
   - q: "Peut-on lire ses emails professionnels dans Gmail ?"
@@ -29,17 +29,17 @@ faq:
 
 Une adresse mail professionnelle est une adresse qui se termine par votre propre nom de domaine, comme contact@votre-entreprise.fr, plutôt que par @gmail.com, @orange.fr ou @hotmail.fr. Pour en créer une, il faut deux achats, un nom de domaine et une boîte mail, et quelques enregistrements DNS qui les relient. Ce guide compare les options, donne leur prix au moment où j’écris (octobre 2026) et détaille les étapes dans le bon ordre.
 
-Je configure des messageries professionnelles au forfait, et j’ai relié des domaines chez Namecheap, Spaceship, Infomaniak, Hostinger, OVH et l’ancien Google Domains. Mon histoire tient en deux phrases : j’utilisais Microsoft pour mes emails, et c’était pénible. Avec Namecheap et Spaceship, rien de tel. Dans la suite, je sépare cette expérience de ce que publient les fournisseurs.
+Je configure des messageries professionnelles au forfait, et j’ai relié des domaines chez Namecheap, Spaceship, Infomaniak, Hostinger, OVH et l’ancien Google Domains. Mon histoire tient en deux phrases : j’utilisais Microsoft pour mes emails, et c’était pénible. Avec Namecheap et Spaceship, rien de tel.
 
 Si la différence entre un nom de domaine, un hébergeur et une messagerie reste floue, mon article sur le {{< a key="domain-hosting-email-guide" >}}nom de domaine et l’hébergement{{< /a >}} explique le rôle de chacun. Ici, on s’occupe de la partie email.
 
-## Pourquoi une adresse mail professionnelle vaut la peine
+## Pourquoi passer à une adresse mail professionnelle
 
-Je veux que les prospects de mes clients les prennent au sérieux dès le premier contact. Cela réduit aussi la négociation : si quelqu’un doute de votre sérieux, il ne paiera pas votre prix. Un devis envoyé depuis une adresse @orange.fr défait une partie de ce travail, alors que l’adresse peut coûter moins cher qu’un café par mois.
+Je veux que les prospects de mes clients les prennent au sérieux dès le premier contact. Cela réduit aussi la négociation : si quelqu’un doute de votre sérieux, il ne paiera pas votre prix. Un beau site suivi d’un devis envoyé depuis une adresse @orange.fr défait une partie de ce travail, alors que l’adresse peut coûter moins cher qu’un café par mois.
 
 L’impression n’est qu’un début :
 
-- L’adresse reste à vous. Elle vit sur votre domaine : si un fournisseur vous déçoit, vous déplacez la boîte et gardez l’adresse.
+- L’adresse reste à vous. Elle dépend de votre domaine, pas du fournisseur : si celui-ci vous déçoit, vous déplacez la boîte et gardez l’adresse.
 - Les adresses génériques survivent aux départs. contact@ ou compta@ passent d’une personne à l’autre, alors qu’un Gmail personnel part avec son titulaire.
 - Vos emails peuvent prouver leur origine. Sur votre domaine, vous publiez les enregistrements SPF, DKIM et DMARC qui disent à Gmail et à Outlook que vos emails sont authentiques. Impossible de les ajouter à gmail.com.
 - Vie pro et vie perso restent séparées. Quand je construis une automatisation pour un client, j’ai besoin d’accéder à la boîte mail : simple pour une boîte d’entreprise, beaucoup moins pour un Gmail personnel qui reçoit aussi vos alertes bancaires.
@@ -49,7 +49,7 @@ L’impression n’est qu’un début :
 Trois éléments, qui peuvent se trouver chez trois entreprises différentes :
 
 1. Le nom de domaine, loué année après année chez un registrar comme Spaceship, Namecheap ou OVHcloud. Il doit être enregistré au nom de votre entreprise, dans un compte auquel vous avez accès. Si un ancien prestataire le détient, {{< a key="recover-domain-name" >}}récupérez votre nom de domaine{{< /a >}} avant de construire quoi que ce soit dessus.
-2. La boîte mail, chez un fournisseur de messagerie. Ce n’est pas forcément votre registrar : un domaine enregistré chez Namecheap peut avoir ses emails chez Google, et inversement.
+2. La boîte mail, chez un fournisseur de messagerie. Ce n’est pas forcément votre registrar : un domaine enregistré chez Namecheap peut avoir ses emails chez Google ou chez Microsoft.
 3. Les enregistrements MX, dans la zone DNS du domaine. **Un enregistrement MX est la ligne qui indique aux autres serveurs de messagerie où livrer les emails envoyés à votre domaine.**
 
 Chaque fournisseur donne ses propres valeurs. Deux exemples, tirés de l’aide de Spaceship et de celle de Google :
@@ -69,7 +69,7 @@ Voici les solutions pour obtenir une adresse sur votre domaine, avec le prix d�
 
 | Option | Pour qui | Prix d’entrée, octobre 2026 |
 |---|---|---|
-| Spacemail (Spaceship) | Indépendants et petites équipes qui ont besoin d’emails, pas d’une suite bureautique | 18,88 $ (environ 16 €) pour deux ans et une boîte, soit environ 0,70 € par mois |
+| Spacemail (Spaceship) | Indépendants et petites équipes qui ont besoin d’emails, pas d’une suite bureautique | 18,88 $ (environ 17 €) pour deux ans et une boîte, soit environ 0,70 € par mois |
 | Private Email (Namecheap) | Le même profil, avec un domaine chez Namecheap | Petit prix, 30 jours d’essai gratuit ; vérifiez le tarif du jour |
 | Google Workspace Business Starter | Équipes qui travaillent dans Gmail, Docs et Drive | 6,80 € HT par utilisateur et par mois avec engagement annuel |
 | Microsoft 365 Business Basic | Équipes qui travaillent dans Outlook et les fichiers Office | 7 $ par utilisateur et par mois aux États-Unis ; vérifiez le prix en euros |
