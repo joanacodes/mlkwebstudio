@@ -29,9 +29,9 @@ faq:
 
 Chaque mois apporte un nouvel outil, un nouveau réseau ou une nouvelle tactique, qui promet plus de clients que ce que vous faites déjà. Le syndrome de l’objet brillant, c’est l’habitude de les suivre l’un après l’autre, et le marketing en est rempli. Les petites entreprises le paient plus cher que les autres, parce que ce sont elles qui ont le moins de temps à perdre.
 
-Je n’ai pas de grande théorie sur le marketing : c’est parfois pénible, mais toute entreprise en a besoin. Une chose, en revanche, me paraît certaine : il est facile de se laisser séduire par les nouveaux outils et les nouvelles pratiques, alors que ce qui paie, c’est de se concentrer sur les canaux que vous utilisez déjà et de les faire prospérer. Le marketing fait beaucoup de bruit. Ce bruit est voulu, et les dirigeants de petites entreprises ou de petites équipes en sont des proies faciles.
+Je n’ai pas de grande théorie sur le marketing : c’est parfois pénible, mais toute entreprise en a besoin. Une chose, en revanche, me paraît certaine : il est facile de se laisser séduire par les nouveaux outils et les nouvelles pratiques, alors que ce qui paie, c’est de se concentrer sur les canaux que vous utilisez déjà et de les faire prospérer. Le marketing fait beaucoup de bruit. Ce bruit est voulu, et les dirigeants de petites entreprises ou de petites équipes s’y laissent facilement prendre.
 
-Cet article explique comment repérer le syndrome, ce que coûte vraiment la course aux nouveaux canaux et comment j’évite moi-même de me disperser, puis propose une méthode simple pour maîtriser un canal avant d’en ajouter un autre. Il complète mon guide pour {{< a key="how-to-get-more-clients" >}}trouver des clients quand on est une petite entreprise{{< /a >}}, qui compare les canaux d’acquisition eux-mêmes.
+Mon guide pour {{< a key="how-to-get-more-clients" >}}trouver des clients quand on est une petite entreprise{{< /a >}} compare les canaux d’acquisition eux-mêmes. Cet article répond à la question suivante : combien en faire tourner à la fois, et quand en ajouter un autre.
 
 ## À quoi ressemble le syndrome de l’objet brillant dans une petite entreprise
 
@@ -60,11 +60,13 @@ AppSumo, une place de marché de logiciels vendus en deals à vie, c’est un pe
 
 ### Les réseaux qu’il faut nourrir sans arrêt
 
-À mes yeux, sur Instagram, TikTok ou Facebook, c’est vous qui travaillez pour la plateforme : pour obtenir de la visibilité, il faut sans cesse chercher de nouvelles façons d’attirer l’attention, et longtemps. Pinterest et YouTube Shorts fonctionnent dans l’autre sens : une fois en ligne, une publication continue d’apporter des résultats. Si vous avez de la patience, de l’argent ou les deux, Instagram, TikTok et Facebook peuvent fonctionner, et avec un budget, une agence aux résultats solides et prouvés peut s’en charger pour vous. Si vous travaillez en solo, Pinterest et YouTube Shorts sont vos meilleurs alliés. Pour savoir {{< a key="social-media-small-business" >}}quel réseau social choisir pour votre entreprise{{< /a >}}, mon guide détaille où votre temps rapporte le plus.
+À mes yeux, sur Instagram, TikTok ou Facebook, c’est vous qui travaillez pour la plateforme : pour obtenir de la visibilité, il faut sans cesse chercher de nouvelles façons d’attirer l’attention, et longtemps. Pinterest et YouTube Shorts fonctionnent dans l’autre sens : une fois en ligne, une publication continue d’apporter des résultats.
+
+Instagram, TikTok et Facebook peuvent quand même fonctionner si vous avez de la patience, de l’argent ou les deux, et avec un budget, une agence aux résultats solides et prouvés peut s’en charger pour vous. Si vous travaillez en solo, Pinterest et YouTube Shorts sont vos meilleurs alliés. Pour savoir {{< a key="social-media-small-business" >}}quel réseau social choisir pour votre entreprise{{< /a >}}, mon guide détaille où votre temps rapporte le plus.
 
 ### L’acronyme de l’année
 
-En 2026, l’objet le plus brillant s’appelle la recherche par IA : GEO, AEO, fichiers llms.txt et les prestations vendues autour. Le [guide de Google sur ses fonctionnalités d’IA générative](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr), publié en mai 2026, explique qu’optimiser pour elles, c’est toujours du SEO, et qu’aucun fichier llms.txt ni balisage spécial n’est nécessaire pour y apparaître. Je détaille ce qui change vraiment dans {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}}.
+En 2026, l’objet le plus brillant s’appelle la recherche par IA : GEO, AEO, fichiers llms.txt et les prestations vendues autour. Le [guide de Google sur ses fonctionnalités d’IA générative](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr), publié en mai 2026, explique que les bonnes pratiques SEO habituelles restent valables, puisque ces fonctionnalités reposent sur les systèmes de classement de Google, et qu’aucun fichier llms.txt ni balisage spécial n’est nécessaire pour y apparaître. Je détaille ce qui change vraiment dans {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}}.
 
 ## Ce que coûte vraiment la course aux nouveaux canaux
 
@@ -76,7 +78,7 @@ Ce que vous perdez surtout, c’est l’effet cumulé. Un canal s’améliore à
 - Référencement : les pages continuent de travailler après leur publication, et chaque nouvelle page soutient les autres. Les abandonner au bout de six semaines, c’est partir avant l’arrivée des résultats.
 - Pinterest et YouTube Shorts : chaque publication s’ajoute à celles qui apportent déjà des vues.
 
-Voilà à quoi ressemble la maîtrise d’un canal. Pour {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, un installateur de climatisation en Île-de-France, les campagnes de cold emailing ont apporté 15 nouveaux clients en un an, avec trois emails courts en texte brut au maximum, un numéro de téléphone et aucun lien. Rien de nouveau là-dedans : **le même canal, pratiqué semaine après semaine et amélioré avec le temps**. Mon {{< a key="b2b-cold-emailing-guide" >}}guide du cold emailing B2B{{< /a >}} montre comment il se construit.
+Voilà à quoi ressemble la maîtrise d’un canal. Pour {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, un installateur de climatisation en Île-de-France, les campagnes de cold emailing que je mène ont apporté 15 nouveaux clients en un an, avec trois emails courts en texte brut au maximum, un numéro de téléphone et aucun lien. Rien de nouveau là-dedans : **le même canal, pratiqué semaine après semaine et amélioré avec le temps**. Mon {{< a key="b2b-cold-emailing-guide" >}}guide du cold emailing B2B{{< /a >}} montre comment il se construit.
 
 La concentration vaut aussi pour l’offre. Ginov, société sœur de Pilotech dirigée par le même fondateur, proposait une longue liste de métiers du bâtiment, un vrai fourre-tout, et a fermé, tandis que Pilotech, avec une offre précise, a décollé. Je raconte cette histoire dans mon article sur l’intérêt d’avoir {{< a key="multiple-websites-one-business" >}}plusieurs sites internet pour une entreprise{{< /a >}}.
 

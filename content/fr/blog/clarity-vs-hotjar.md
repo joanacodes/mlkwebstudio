@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:17:00+02:00
 category: "tools"
 article_type: "comparison"
 keywords: ["Clarity vs Hotjar", "Clarity ou Hotjar", "alternative gratuite à Hotjar", "Hotjar gratuit", "Hotjar Contentsquare", "carte de chaleur gratuite"]
-summary: "Pour la plupart des sites de TPE, oui. Microsoft Clarity est gratuit, avec cartes de chaleur et enregistrements de sessions sur un nombre illimité de sites, jusqu’à 100 000 sessions par projet et par jour : de quoi voir pourquoi les visiteurs partent. Hotjar, désormais intégré à Contentsquare, se justifie si vous voulez aussi des sondages sur le site, un historique plus long ou un outil d’études pour une équipe ; les nouveaux comptes s’ouvrent chez Contentsquare."
+summary: "Pour la plupart des sites de TPE, l’outil gratuit suffit : Microsoft Clarity ne coûte rien et offre cartes de chaleur et enregistrements de sessions sur un nombre illimité de sites, jusqu’à 100 000 sessions par projet et par jour, de quoi voir pourquoi les visiteurs partent. Hotjar, désormais intégré à Contentsquare, se justifie si vous voulez aussi des sondages sur le site, plus d’historique avec une offre payante ou des outils d’études pour une équipe ; les nouveaux comptes s’ouvrent chez Contentsquare, dont l’offre gratuite couvre 200 000 sessions par mois."
 cover: "clarity-vs-hotjar"
 cover_alt: "Les mots Clarity vs Hotjar à côté de deux colonnes comparées, d’une tasse de café et d’une main qui écrit dans un carnet"
 related: ["microsoft-clarity-tutorial", "website-conversion-rate", "track-ai-traffic", "small-business-tools-guide", "google-search-console-tutorial"]
@@ -29,7 +29,7 @@ Clarity vs Hotjar, la question se réglait vite sur le prix : Clarity ne coûta
 
 Pour la plupart des sites de TPE, ma réponse est oui. J’utilise Microsoft Clarity pour voir où les gens s’attardent sur une page, s’ils viennent pour quelque chose de précis et quelles zones les font fuir, afin de savoir si le problème vient du texte, d’une image ou de l’ergonomie. C’est exactement ce dont un petit site a besoin, et Clarity le fait gratuitement, sur autant de sites que vous voulez.
 
-Hotjar, désormais intégré à Contentsquare, va plus loin si vous voulez aussi interroger vos visiteurs, garder des mois d’historique ou mener des études à plusieurs. Ce comparatif passe en revue les fonctions, les limites, les prix au moment où j’écris (octobre 2026) et le consentement, la partie qu’on oublie le plus facilement. Il complète ma sélection d’{{< a key="small-business-tools-guide" >}}outils numériques pour TPE{{< /a >}}.
+Hotjar, désormais intégré à Contentsquare, va plus loin si vous voulez aussi interroger vos visiteurs, garder plus d’historique avec une offre payante ou mener des études à plusieurs. Ce comparatif passe en revue les fonctions, les limites, les prix au moment où j’écris (octobre 2026) et le consentement, la partie qu’on oublie le plus facilement. Il complète ma sélection d’{{< a key="small-business-tools-guide" >}}outils numériques pour TPE{{< /a >}}.
 
 ## Clarity vs Hotjar : le comparatif en un coup d’œil
 
@@ -42,11 +42,11 @@ Les deux outils répondent à la même question : que font vraiment les visiteu
 | Enregistrements de sessions | Inclus, conservés 30 jours | Offre gratuite : jusqu’à 10 000 par mois |
 | Cartes de chaleur | Incluses, sur un nombre illimité de sites | Offre gratuite : illimitées |
 | Sondages et retours | Pas d’outil de sondage | Intégrés ; offre gratuite limitée à 100 réponses par mois |
-| Historique des données | 30 jours d’enregistrements | Offre gratuite : 1 mois ; offres payantes : jusqu’à 13 mois |
+| Historique des données | Enregistrements : 30 jours ; favoris et cartes de chaleur : 9 mois | Offre gratuite : 1 mois ; offres payantes : jusqu’à 13 mois |
 | Consentement (UE et Royaume-Uni) | Signal de consentement exigé depuis le 31 octobre 2025 | Les mêmes règles sur les cookies s’appliquent |
 | Idéal pour | Les petits sites qui veulent voir pourquoi les visiteurs partent | Les équipes qui veulent aussi demander pourquoi aux visiteurs |
 
-Les chiffres de Contentsquare viennent de ses pages de prix et d’offres au moment où j’écris. Contentsquare a déjà relevé une fois les limites de son offre gratuite : vérifiez-les de nouveau avant de choisir.
+Ces chiffres viennent de la documentation de Microsoft et des pages de prix et d’offres de Contentsquare au moment où j’écris. Sur l’offre gratuite de Contentsquare, une fois un quota mensuel épuisé, la collecte s’arrête jusqu’au 1er du mois suivant. Contentsquare a déjà modifié ces limites : vérifiez-les de nouveau avant de choisir.
 
 ## Que devient Hotjar ? Il fait désormais partie de Contentsquare
 
@@ -64,9 +64,10 @@ Microsoft Clarity est un outil gratuit d’analyse du comportement : vous ajout
 
 - des cartes de chaleur des clics et du défilement pour chaque page ;
 - des enregistrements de sessions que vous pouvez filtrer, par exemple par page ou par appareil ;
-- un tableau de bord qui repère les signes d’agacement, comme les clics de rage (plusieurs clics rapides au même endroit) et les clics morts (des clics sur un élément qui ne réagit pas).
+- un tableau de bord qui repère les signes d’agacement, comme les clics de rage (plusieurs clics rapides au même endroit), les clics morts (des clics sur un élément qui ne réagit pas) et les retours rapides (des visiteurs qui ouvrent une page puis reviennent vite à la précédente) ;
+- une intégration avec Google Analytics et une installation par Google Tag Manager, proposées sur sa page de configuration.
 
-Microsoft présente Clarity comme gratuit, avec un nombre illimité de sites et de cartes de chaleur. Sa FAQ fixe les limites : jusqu’à 100 000 sessions par projet et par jour, et des enregistrements conservés 30 jours ([FAQ de Microsoft Clarity, en anglais](https://learn.microsoft.com/en-us/clarity/faq)). Le site d’un artisan ou d’un cabinet a peu de chances d’approcher les 100 000 visites par jour : la seule limite que vous sentirez, ce sont les 30 jours. Regardez vos enregistrements dans le mois.
+Microsoft présente Clarity comme gratuit, avec un nombre illimité de sites et de cartes de chaleur. Sa FAQ fixe les limites : jusqu’à 100 000 sessions par projet et par jour, et des enregistrements conservés 30 jours ([FAQ de Microsoft Clarity, en anglais](https://learn.microsoft.com/en-us/clarity/faq)). Le site d’un artisan ou d’un cabinet a peu de chances d’approcher les 100 000 visites par jour : la seule limite que vous sentirez, ce sont les 30 jours. Regardez vos enregistrements dans le mois et ajoutez aux favoris ceux qui valent la peine d’être gardés : la page de Microsoft sur la conservation des données indique 9 mois pour les favoris et pour les cartes de chaleur au moment où j’écris.
 
 Depuis le 29 août 2025, Clarity classe aussi les visites venues des assistants IA (ChatGPT, Claude, Copilot, Gemini et Perplexity) dans des canaux à part, AIPlatform et PaidAIPlatform. Pour savoir si ChatGPT vous envoie des visiteurs, mon guide pour mesurer le {{< a key="track-ai-traffic" >}}trafic IA dans Google Analytics{{< /a >}} montre où regarder.
 
@@ -78,11 +79,11 @@ L’avantage de Contentsquare, c’est tout ce qui entoure les enregistrements.
 
 ### Les sondages et les retours des visiteurs
 
-Vous pouvez poser une question sur la page elle-même : ce que le visiteur cherchait, ce qui l’a arrêté, pourquoi il ne vous a pas contacté. Un enregistrement montre où quelqu’un a hésité ; un sondage d’une seule question peut dire pourquoi. L’offre gratuite plafonne les réponses à 100 par mois au moment où j’écris, ce qui suffit largement pour un petit site.
+Vous pouvez poser une question sur la page elle-même : ce que le visiteur cherchait, ce qui l’a arrêté, pourquoi il n’a pas pris contact. Un enregistrement montre où quelqu’un a hésité ; un sondage d’une seule question peut dire pourquoi. L’offre gratuite plafonne les réponses à 100 par mois au moment où j’écris, avec trois sondages ou modules de feedback actifs en même temps d’après son tableau des offres, ce qui suffit largement pour un petit site.
 
-### Un historique plus long
+### Plus d’historique, mais seulement avec une offre payante
 
-L’offre gratuite de Contentsquare conserve un mois de données, à peu près ce que Clarity garde pour les enregistrements. Ses offres payantes vont jusqu’à 13 mois, d’après ses pages d’offres. C’est utile pour comparer les saisons, ou mesurer une refonte face aux mêmes mois de l’année précédente.
+En version gratuite, c’est Clarity qui garde le plus : l’offre gratuite de Contentsquare conserve un mois de données, quand Clarity garde les enregistrements 30 jours, et les favoris comme les cartes de chaleur 9 mois. L’historique long arrive avec les offres payantes de Contentsquare : jusqu’à 13 mois de données d’après sa page de prix, avec une durée plus courte pour les enregistrements de sessions. C’est utile pour comparer les saisons, ou mesurer une refonte face aux mêmes mois de l’année précédente. Sur un petit site, garder en favoris dans Clarity les enregistrements qui vous ont appris quelque chose couvre l’essentiel de ce besoin.
 
 ### Des outils pour une équipe d’études
 
@@ -95,11 +96,11 @@ Voici ce que coûte chaque outil au moment où j’écris (octobre 2026).
 | Offre | Prix | Ce que vous obtenez |
 |---|---|---|
 | Microsoft Clarity | 0 € | Cartes de chaleur, enregistrements et tableau de bord, sur un nombre illimité de sites |
-| Contentsquare Free | 0 $ | 200 000 sessions par mois, cartes de chaleur illimitées, jusqu’à 10 000 enregistrements par mois, sondages plafonnés, 1 mois de données |
+| Contentsquare Free | 0 € | 200 000 sessions par mois, cartes de chaleur illimitées, jusqu’à 10 000 enregistrements par mois, sondages plafonnés, 1 mois de données |
 | Contentsquare Growth | 39 $ par mois en facturation annuelle, ou 49 $ au mois | Des limites plus hautes et plus de fonctions : vérifiez les quotas sur la page de prix |
 | Contentsquare Pro et Enterprise | Sur devis | Gros sites et équipes |
 
-Ces montants sont les prix en dollars affichés sur la page de prix de Contentsquare au moment où j’écris. Vérifiez le montant dans votre devise sur la [page de prix de Contentsquare](https://contentsquare.com/pricing/) avant de vous abonner.
+Ces montants sont les prix en dollars affichés sur la page de prix de Contentsquare au moment où j’écris. Contentsquare indique facturer ses clients européens en euros : vérifiez le montant exact en euros sur la [page de prix de Contentsquare](https://contentsquare.com/pricing/) avant de vous abonner. Le tarif annuel correspond à une remise de 20 % sur le prix mensuel, et la formule au mois n’impose aucun engagement annuel : vous pouvez revenir à l’offre gratuite à tout moment.
 
 Le vrai coût des deux outils, c’est le temps passé à regarder les enregistrements et à agir. Prévoyez une heure par mois, quel que soit votre choix.
 
@@ -107,7 +108,7 @@ Le vrai coût des deux outils, c’est le temps passé à regarder les enregistr
 
 Un outil d’enregistrement utilise des cookies ou des traceurs du même type et capte ce que les visiteurs font sur vos pages : les règles sur les cookies et le consentement s’appliquent donc. En France, l’article 82 de la loi Informatique et Libertés impose le consentement préalable avant de déposer ou de lire un traceur qui n’est pas strictement nécessaire, sauf exceptions limitées, dont certains outils de mesure d’audience encadrés par la CNIL.
 
-Microsoft l’a rendu explicite pour Clarity. Depuis le 31 octobre 2025, Clarity exige un signal de consentement pour les visiteurs de l’Espace économique européen, du Royaume-Uni et de la Suisse : votre bandeau cookies doit transmettre le choix de chaque visiteur à Clarity, via ce que Microsoft appelle la Consent API v2 ([documentation de Microsoft sur le consentement](https://learn.microsoft.com/en-us/clarity/consent-management)).
+Microsoft l’a rendu explicite pour Clarity. Depuis le 31 octobre 2025, Clarity exige un signal de consentement pour les visiteurs de l’Espace économique européen, du Royaume-Uni et de la Suisse : votre bandeau cookies doit transmettre le choix de chaque visiteur à Clarity, via ce que Microsoft appelle la Consent API v2 ([documentation de Microsoft sur le consentement, en anglais](https://learn.microsoft.com/en-us/clarity/setup-and-installation/consent-management)). Sans ce signal, Clarity ne dépose aucun cookie pour ces visiteurs, et certaines fonctions, comme les enregistrements de sessions, peuvent être limitées.
 
 La CNIL a soumis à consultation publique, du 25 février au 22 avril 2026, un projet de recommandation sur les outils de rejeu de session (session replay). Ce projet les traite comme une lecture et une écriture d’informations sur l’appareil du visiteur, au sens de l’article 82 : le consentement préalable y est la règle. La version issue de la consultation figurait à l’ordre du jour de la séance plénière de la CNIL du 8 octobre 2026, mais aucun texte définitif n’était publié au moment où j’écris ([page de la consultation sur le site de la CNIL](https://www.cnil.fr/fr/rejeu-de-session-la-cnil-lance-une-consultation-publique-sur-son-projet-de-recommandation)). Pour vos visiteurs britanniques, Microsoft demande aussi ce signal, même si le Royaume-Uni a assoupli certaines règles sur les cookies depuis février 2026.
 
@@ -127,7 +128,7 @@ Mon usage de Clarity se résume à une question par page : est-ce le texte, une
 1. Choisissez la page qui doit vous apporter des demandes : l’accueil, une page de services ou une landing page.
 2. Ouvrez sa carte de défilement (scroll heatmap) et repérez l’endroit où la plupart des visiteurs s’arrêtent. Si votre numéro de téléphone ou votre bouton principal se trouve sous cette ligne, la plupart des gens ne le voient jamais.
 3. Ouvrez la carte des clics. Les clics sur des éléments qui ne sont pas des liens, comme une photo ou un titre, montrent ce que les gens s’attendaient à ouvrir.
-4. Regardez quelques enregistrements de visites terminées sans demande de contact, en vous demandant ce que chaque visiteur cherchait.
+4. Filtrez les enregistrements sur cette page et sur un signal d’agacement, comme les clics de rage ou les retours rapides, puis regardez quelques visites terminées sans demande de contact, en vous demandant ce que chaque visiteur cherchait.
 5. Décidez quoi changer : le texte, une image ou la mise en page. Changez une seule chose, puis laissez passer quelques semaines avant de comparer.
 
 {{< callout type="tip" >}}**Regardez les enregistrements avec une question en tête**, par exemple : pourquoi les visiteurs quittent-ils la section des tarifs ? Sans question, une heure d’enregistrements devient une heure à suivre un curseur qui se promène.{{< /callout >}}
@@ -147,7 +148,7 @@ Choisissez Microsoft Clarity si :
 Choisissez Hotjar, désormais intégré à Contentsquare, si :
 
 - vous voulez interroger vos visiteurs sur la page, avec des sondages et des retours ;
-- vous avez besoin de plus d’un mois d’historique, donc d’une offre payante ;
+- vous voulez jusqu’à 13 mois de données, ce qui suppose une offre payante ;
 - une équipe étudie le site chaque semaine et utilisera les tests utilisateurs et les entretiens.
 
 La Search Console complète gratuitement le tableau : elle montre quelles recherches amènent les gens sur une page, et Clarity ce qu’ils y font. Mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}} couvre cette moitié-là.

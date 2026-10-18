@@ -191,7 +191,7 @@ On mlkwebstudio.com, I don't maintain the file by hand. The site runs on Hugo, a
 
 2. If you get an error page, check the file name (all lower case), the folder and, on Squarespace, that the text was saved.
 3. Copy two or three of the addresses in the file into your browser to make sure none is broken.
-4. Test it the way the proposal suggests. Paste the file's address into an assistant that can open web pages, such as ChatGPT or Claude, and ask it to answer three questions a customer would ask from that file alone: what you do, where you work and how to get a quote. A vague or wrong answer shows what the file is missing.
+4. Test it the way the proposal suggests. Paste the file's address into an assistant that can open web pages, such as ChatGPT or Claude, and ask it, using only that file, three questions a customer would ask: what you do, where you work and how to get a quote. A vague or wrong answer shows what the file is missing.
 5. Optional: in Chrome, open DevTools, go to the **Lighthouse** panel and run a report with the **Agentic Browsing** category, if your version offers it. Its check, "llms.txt follows recommendations", fails a file the server cannot deliver, a file with no H1 title and a file with no Markdown link.
 
 {{< screenshot id="llms-txt-explained-05" alt="Chrome DevTools Lighthouse report with the experimental Agentic Browsing category and its llms.txt check" >}}

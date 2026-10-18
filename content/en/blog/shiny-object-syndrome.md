@@ -78,7 +78,7 @@ What you lose most is compounding. A channel gets better the longer you run it, 
 - SEO: pages keep working after you publish them, and each new one supports the others. Abandon them after six weeks and you leave before the results arrive.
 - Pinterest and YouTube Shorts: every post you add joins the ones already bringing views.
 
-This is what mastering one channel looks like. For {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer near Paris, the cold email campaigns brought 15 new clients in a year, with three short plain-text emails at most, a phone number and no links. Nothing about it was new: **the same channel, run week after week and improved over time**. My {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}} shows how it is built.
+This is what mastering one channel looks like. For {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer near Paris, the cold email campaigns I run brought 15 new clients in a year, with three short plain-text emails at most, a phone number and no links. Nothing about it was new: **the same channel, run week after week and improved over time**. My {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}} shows how it is built.
 
 Focus works for offers too. Ginov, a sister company of Pilotech with the same founder, sold a long list of building trades and closed, while Pilotech, with one specific offer, took off. I tell that story in my article on {{< a key="multiple-websites-one-business" >}}running multiple websites for one business{{< /a >}}.
 

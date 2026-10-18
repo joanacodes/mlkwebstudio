@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:17:00+02:00
 category: "tools"
 article_type: "comparison"
 keywords: ["Microsoft Clarity vs Hotjar", "Clarity vs Hotjar", "free Hotjar alternative", "Hotjar pricing", "Hotjar Contentsquare", "free heatmap tool"]
-summary: "For most small business websites, yes. Microsoft Clarity is free, with heatmaps and session recordings on unlimited sites and up to 100,000 sessions per project per day, which is enough to see why visitors leave. Hotjar, now part of Contentsquare, earns its place when you also want on-site surveys, a longer history or a research tool for a team; new accounts now open on Contentsquare, whose free plan covers 200,000 sessions a month."
+summary: "For most small business websites, the free tool is enough: Microsoft Clarity costs nothing and gives you heatmaps and session recordings on unlimited sites, up to 100,000 sessions per project per day, which is plenty to see why visitors leave. Hotjar, now part of Contentsquare, earns its place when you also want on-site surveys, more history on a paid plan or research tools for a team; new accounts now open on Contentsquare, whose free plan covers 200,000 sessions a month."
 cover: "clarity-vs-hotjar"
 cover_alt: "The words Clarity vs Hotjar beside two compared panels, a mug of coffee and a hand writing in a notebook"
 related: ["microsoft-clarity-tutorial", "website-conversion-rate", "track-ai-traffic", "small-business-tools-guide", "google-search-console-tutorial"]
@@ -29,7 +29,7 @@ Microsoft Clarity vs Hotjar used to be an easy call on price: Clarity cost nothi
 
 For most small business sites, my answer is yes. I use Microsoft Clarity to see where people engage on a page, whether they came for something specific and which areas make them leave, so I can tell whether the copy, a picture or the layout is the problem. That is the job a small site needs done, and Clarity does it for free, on as many sites as you like.
 
-Hotjar, which now lives inside Contentsquare, goes further when you also want to ask visitors questions, keep months of history or run research as a team. This comparison covers features, limits, prices at the time of writing (October 2026) and consent, the part that is easiest to forget. It belongs with the other {{< a key="small-business-tools-guide" >}}small business marketing tools{{< /a >}} I review.
+Hotjar, which now lives inside Contentsquare, goes further when you also want to ask visitors questions, keep more history on a paid plan or run research as a team. This comparison covers features, limits, prices at the time of writing (October 2026) and consent, the part that is easiest to forget. It belongs with the other {{< a key="small-business-tools-guide" >}}small business marketing tools{{< /a >}} I review.
 
 ## Microsoft Clarity vs Hotjar at a glance
 
@@ -42,11 +42,11 @@ Both tools answer one question: what do visitors actually do on your pages? A he
 | Session recordings | Included, kept for 30 days | Free plan: up to 10,000 a month |
 | Heatmaps | Included, on unlimited sites | Free plan: unlimited |
 | Surveys and feedback | No survey tool | Built in; free plan capped at 100 responses a month |
-| Data history | 30 days of recordings | Free plan: 1 month; paid plans: up to 13 months |
+| Data history | Recordings 30 days; favourites and heatmaps 9 months | Free plan: 1 month; paid plans: up to 13 months |
 | Consent in the UK and the EU | Consent signal required since 31 October 2025 | The same cookie rules apply |
 | Best for | Small sites that want to see why visitors leave | Teams that also want to ask visitors why |
 
-The Contentsquare figures come from its pricing and plan pages at the time of writing. Contentsquare has already raised the limits of its free plan once, so check them again before you decide.
+These figures come from Microsoft's documentation and Contentsquare's pricing and plan pages at the time of writing. On Contentsquare's free plan, once a monthly allowance is used up, collection stops until the 1st of the next month. Contentsquare has changed these limits before, so check them again before you decide.
 
 ## What happened to Hotjar: it now lives inside Contentsquare
 
@@ -64,9 +64,10 @@ Microsoft Clarity is a free behaviour analytics tool: you add one tracking code 
 
 - click and scroll heatmaps for every page;
 - session recordings you can filter, for example by page or by device;
-- a dashboard that flags signs of frustration, such as rage clicks (several fast clicks in the same spot) and dead clicks (clicks on something that does nothing).
+- a dashboard that flags signs of frustration, such as rage clicks (several fast clicks in the same spot), dead clicks (clicks on something that does nothing) and quick backs (visitors who open a page and soon return to the previous one);
+- a Google Analytics integration and installation through Google Tag Manager, both offered on its setup page.
 
-Microsoft lists Clarity as free, with unlimited sites and heatmaps. Its FAQ sets the limits: up to 100,000 sessions per project per day, with recordings kept for 30 days ([Microsoft Clarity FAQ](https://learn.microsoft.com/en-us/clarity/faq)). A local business site is unlikely to get anywhere near 100,000 visits a day, so the only limit you will feel is the 30 days: watch your recordings within the month.
+Microsoft lists Clarity as free, with unlimited sites and heatmaps. Its FAQ sets the limits: up to 100,000 sessions per project per day, with recordings kept for 30 days ([Microsoft Clarity FAQ](https://learn.microsoft.com/en-us/clarity/faq)). A local business site is unlikely to get anywhere near 100,000 visits a day, so the only limit you will feel is the 30 days. Watch your recordings within the month and mark the ones worth keeping as favourites: Microsoft's data retention page gives 9 months for favourites and for heatmap data at the time of writing.
 
 Since 29 August 2025, Clarity has also sorted visits from AI assistants (ChatGPT, Claude, Copilot, Gemini and Perplexity) into channels of their own, AIPlatform and PaidAIPlatform. If you want to know whether ChatGPT sends you visitors, my guide on how to {{< a key="track-ai-traffic" >}}track AI traffic in GA4, Search Console and Clarity{{< /a >}} shows where to look.
 
@@ -78,11 +79,11 @@ Contentsquare's advantage lies in everything around the recordings.
 
 ### Surveys and feedback
 
-You can ask visitors a question on the page itself: what they were looking for, what stopped them, why they did not get in touch. A recording shows where someone hesitated; a one-question survey can tell you why. The free plan caps responses at 100 a month at the time of writing, which is plenty for a small site.
+You can ask visitors a question on the page itself: what they were looking for, what stopped them, why they did not get in touch. A recording shows where someone hesitated; a one-question survey can tell you why. The free plan caps responses at 100 a month at the time of writing, with three surveys or feedback widgets live at once according to its plan table, which is plenty for a small site.
 
-### A longer history
+### More history, but only on a paid plan
 
-Contentsquare's free plan keeps one month of data, roughly what Clarity keeps for recordings. Its paid plans keep up to 13 months, according to its plan pages. That matters if you compare seasons, or measure a redesign against the same months of the previous year.
+On free plans, Clarity keeps more: Contentsquare's free plan keeps one month of data, while Clarity keeps recordings for 30 days and favourites and heatmap data for 9 months. The longer history comes with Contentsquare's paid plans, which keep up to 13 months of data according to its pricing page, with a shorter period for session replays. That matters if you compare seasons, or measure a redesign against the same months of the previous year. On a small site, saving the telling recordings as favourites in Clarity covers most of that need.
 
 ### Tools for a research team
 
@@ -95,19 +96,19 @@ Here is what each tool costs at the time of writing (October 2026).
 | Plan | Price | What you get |
 |---|---|---|
 | Microsoft Clarity | £0 ($0) | Heatmaps, recordings and the dashboard, on unlimited sites |
-| Contentsquare Free | $0 | 200,000 sessions a month, unlimited heatmaps, up to 10,000 recordings a month, capped surveys, 1 month of data |
+| Contentsquare Free | £0 ($0) | 200,000 sessions a month, unlimited heatmaps, up to 10,000 recordings a month, capped surveys, 1 month of data |
 | Contentsquare Growth | $39 a month billed annually, or $49 month to month | Higher limits and more features: check the allowances on the pricing page |
 | Contentsquare Pro and Enterprise | Price on request | Large sites and teams |
 
-These are the US-dollar prices on Contentsquare's pricing page at the time of writing. Check the amount in your own currency on the [Contentsquare pricing page](https://contentsquare.com/pricing/) before you subscribe.
+These are the US-dollar prices on Contentsquare's pricing page at the time of writing. Contentsquare says its European customers are billed in euros, so a UK business may be invoiced in euros rather than pounds: check the currency and the amount on the [Contentsquare pricing page](https://contentsquare.com/pricing/) before you subscribe. The annual price is a 20 per cent discount on the monthly one, and the monthly plan needs no annual contract: you can drop back to the free plan at any time.
 
 The real cost of both tools is the time you spend watching recordings and acting on them. Budget an hour a month, whichever you choose.
 
 ## Consent: both tools need your cookie banner
 
-A recording tool uses cookies or similar trackers and captures what visitors do on your pages, so the cookie and consent rules apply to it in the UK and the EU.
+A recording tool uses cookies or similar trackers and captures what visitors do on your pages, so the cookie and consent rules apply to it: PECR in the UK, the ePrivacy rules in the EU.
 
-Microsoft has made this explicit for Clarity. Since 31 October 2025, Clarity needs a consent signal for visitors in the European Economic Area, the UK and Switzerland: your cookie banner must pass each visitor's choice to Clarity, through what Microsoft calls Consent API v2 ([Microsoft's consent documentation](https://learn.microsoft.com/en-us/clarity/consent-management)).
+Microsoft has made this explicit for Clarity. Since 31 October 2025, Clarity needs a consent signal for visitors in the European Economic Area, the UK and Switzerland: your cookie banner must pass each visitor's choice to Clarity, through what Microsoft calls Consent API v2 ([Microsoft's consent documentation](https://learn.microsoft.com/en-us/clarity/setup-and-installation/consent-management)). Without that signal, Clarity sets no cookies for those visitors, and features such as session recordings may be limited.
 
 If your site has visitors in France, keep an eye on the CNIL, France's data protection authority: it put a draft recommendation on session replay tools out to public consultation from 25 February to 22 April 2026. The draft treats session replay as reading and writing data on the visitor's device, so prior consent is the rule. The post-consultation version was on the agenda of the CNIL's plenary session of 8 October 2026, but no final text had been published at the time of writing ([CNIL consultation page](https://www.cnil.fr/en/session-replay-cnil-launches-public-consultation-its-draft-recommendation)). In the UK, new cookie exemptions have applied since February 2026 under the Data (Use and Access) Act 2025, but Microsoft still asks for a consent signal from UK visitors, so the banner stays.
 
@@ -127,7 +128,7 @@ My use of Clarity comes down to one question per page: is it the copy, a picture
 1. Pick the page that should bring enquiries: the home page, a service page or a landing page.
 2. Open its scroll heatmap and find the point where most visitors stop. If your phone number or your main button sits below that line, most people never see it.
 3. Open the click heatmap. Clicks on things that are not links, such as a photo or a heading, show what people expected to open.
-4. Watch a handful of recordings of visits that ended without an enquiry, and ask what each visitor was looking for.
+4. Filter the recordings by that page and by a frustration signal such as rage clicks or quick backs, then watch a handful of visits that ended without an enquiry and ask what each visitor was looking for.
 5. Decide what to change: the words, an image or the layout. Change one thing, then give it a few weeks before you compare.
 
 {{< callout type="tip" >}}**Watch recordings with one question in mind**, such as why visitors leave the pricing section. Without a question, an hour of recordings turns into an hour of watching a cursor wander.{{< /callout >}}
@@ -147,7 +148,7 @@ Choose Microsoft Clarity if:
 Choose Hotjar, now part of Contentsquare, if:
 
 - you want to ask visitors questions on the page, with surveys and feedback;
-- you need more than a month of history, which means a paid plan;
+- you want up to 13 months of data, which means a paid plan;
 - a team studies the website every week and will use the user tests and interviews.
 
 Search Console completes the picture for free: it shows which searches bring people to a page, and Clarity shows what they do once they arrive. My guide on {{< a key="google-search-console-tutorial" >}}how to use Google Search Console{{< /a >}} covers that half.

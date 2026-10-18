@@ -186,7 +186,7 @@ If you own two extensions, say the .co.uk for the website and the .com to protec
 
 {{< screenshot id="namecheap-dns-squarespace-09" alt="Namecheap Advanced DNS of a second domain: URL Redirect Record on @ to https://www.yourbusiness.co.uk with the permanent 301 type" >}}
 
-The catch is HTTPS. Namecheap's redirect does not come with a certificate for the second domain, and its help says that a redirect from one HTTPS address to another needs a certificate on both domains. Someone who types https://yourbusiness.com can therefore get a browser warning instead of your site. If that matters to you, connect the second domain to the same Squarespace site instead, with the steps above and its own verification code: Squarespace sends every connected domain that is not the primary one to the primary domain, and its SSL covers the domains connected to the site.
+The catch is HTTPS: Namecheap's redirect has no certificate for the second domain, and its help says an HTTPS-to-HTTPS redirect needs one on both domains. Someone who types https://yourbusiness.com can get a browser warning instead of your site. To avoid that, connect the second domain to the same Squarespace site with the steps above (it gets its own verification code): Squarespace sends every domain that is not the primary one to the primary domain, and its SSL covers every domain connected to the site.
 
 If the second domain receives email, keep its MX records: the redirect only concerns the website.
 
@@ -198,7 +198,7 @@ Squarespace hosts the website, not your mailbox, and the records that run your e
 - the TXT record on `@` that starts with `v=spf1` (SPF);
 - the DKIM record, on a host ending in `._domainkey`, and the DMARC record on `_dmarc`.
 
-Squarespace's help says the same: when the domain and the email are with the same provider, you only update the A and CNAME records, never the nameservers or the MX records. At Namecheap, the MX records are not in Host Records but in the **Mail Settings** section lower down the Advanced DNS tab: whether it says Private Email or Custom MX, leave it as it is. With Private Email, Namecheap manages the MX records itself, so you may not see them listed at all.
+At Namecheap, the MX records are not in Host Records but in the **Mail Settings** section lower down the Advanced DNS tab: whether it says Private Email or Custom MX, leave it as it is. With Private Email, Namecheap manages the MX records itself, so you may not see them listed at all.
 
 {{< callout type="warning" >}}**Never delete an MX record to tidy up.** Mail stops arriving and nothing warns you: you find out when a client asks why you never replied.{{< /callout >}}
 
