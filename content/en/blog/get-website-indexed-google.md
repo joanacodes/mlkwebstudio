@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:10:00+02:00
 category: "seo"
 article_type: "tutorial"
 keywords: ["how to get my website on Google", "get website indexed by Google", "website not showing on Google", "submit website to Google", "request indexing Google", "new website not on Google"]
-summary: "Google finds most new websites on its own, but you can speed it up and make sure nothing blocks it. Check with a site: search and Search Console's URL Inspection, make the site public on its own domain, submit your sitemap and request indexing for your key pages. If a page is still missing after a few weeks, look for a noindex tag, a robots.txt block, a password or a domain that is not connected."
+summary: "To get your website on Google, make it public on its own domain, add it to Google Search Console, submit your sitemap and request indexing for your key pages. It is free, and Google usually crawls new pages within a few days to a few weeks. If a page is still missing after that, check it with URL Inspection and look for a noindex tag, a robots.txt block, a password or a domain that is not connected."
 cover: "get-website-indexed-google"
 cover_alt: "Googlebot following a link from a new website to Google's index"
 related: ["google-search-console-tutorial", "how-long-does-seo-take", "squarespace-seo", "robots-txt-ai-crawlers", "dns-records-explained"]
@@ -26,7 +26,7 @@ faq:
   - q: "How do I remove a page from Google?"
     a: "Add a noindex tag to the page, or delete it so that it returns a 404 error, and let Google crawl it again. Do not block it in robots.txt, or Google will never see the noindex. In an emergency, the Removals tool in Search Console hides the page temporarily."
   - q: "Does my website also need to be on Bing?"
-    a: "It is worth five minutes. Bing has its own index and about 6% of UK searches (Statcounter, June 2026), and Microsoft Copilot builds its answers from Bing searches. Bing Webmaster Tools can import your site and sitemap from Search Console without a new verification."
+    a: "It is worth five minutes. Bing has its own index and about 6% of UK searches (Statcounter, June 2026), and Microsoft Copilot runs Bing searches to find the pages it cites. Bing Webmaster Tools can import your site and sitemap from Search Console without a new verification."
 ---
 
 Google finds most new websites on its own, but "on its own" can mean weeks, and one forgotten setting can mean never. This tutorial shows how to get your website on Google step by step: check whether it is already indexed, remove what hides it, add it to Search Console, submit your sitemap and ask Google to crawl your key pages. Then it goes through the usual reasons a site stays invisible.
@@ -37,7 +37,7 @@ Being indexed makes your pages eligible to appear; ranking well is the next job,
 
 ## How Google finds a new website
 
-Three words come up in every explanation of Google, so here they are in one sentence each:
+Three terms come up again and again. Here they are in one sentence each:
 
 - **Crawling**: Googlebot, Google's robot, visits a page and reads it.
 - **Indexing**: Google stores the page in its index, the database its results are drawn from.
@@ -71,7 +71,7 @@ On a brand-new site, the usual reason for being invisible has nothing to do with
 
 | Platform | What hides a new site | Where to change it |
 |---|---|---|
-| Squarespace | Every site starts private, and only paid sites can be public | **Settings** > **Site availability**: choose **Public** |
+| Squarespace | Every new site starts as private | **Settings** > **Site availability**: choose **Public** |
 | Wix | A site-wide indexing switch, plus one on each page | **SEO Settings**: turn on **Let search engines index your site** |
 | WordPress | A box, often ticked during the build, that asks search engines to stay away | **Settings** > **Reading**: untick **Discourage search engines from indexing this site** |
 | Shopify | The password page every new store starts with | **Online Store** > **Preferences** > **Password protection** |
@@ -85,7 +85,7 @@ Two details catch people out. On Squarespace, a site on a free trial cannot be p
 
 ### Connect the domain, then test both addresses
 
-Connecting the domain is always my last step before a launch. Once the client has approved the design and the copy, I write the page titles and descriptions, prepare a few articles in advance, then point the domain at the site and publish. Until that step, there is nothing at your address for Google to find.
+In my own projects, connecting the domain is the last step before launch. Once the client has approved the design and the copy, I write the page titles and descriptions, prepare a few articles in advance, then point the domain at the site and publish. Until that step, there is nothing at your address for Google to find.
 
 Once the DNS records are in, type your address with and without www: both should open the site on https, one redirecting to the other. If one fails, check the records where your domain is managed. The only real trap I have hit when connecting domains came down to one character: at OVH, a CNAME target such as `ext-cust.squarespace.com.` needs its final dot, otherwise the www address never loads. My guide to {{< a key="dns-records-explained" >}}DNS records{{< /a >}} explains why.
 
@@ -115,7 +115,7 @@ Then open your home page, right-click, choose **View page source** and search fo
 
 ## Step 3: add your site to Google Search Console
 
-Search Console is Google's free tool for site owners, and the only place where you see your site the way Google does. The next two steps need it.
+Search Console is Google's free tool for site owners, and the place where you see your site the way Google does. The next two steps need it.
 
 1. Sign in at `search.google.com/search-console` with a Google account that belongs to the business, not to whoever builds the site.
 2. Add a **Domain** property and type your bare domain, without `https://` or `www`.
@@ -149,7 +149,7 @@ For each of them:
 2. Click **Request indexing**. Search Console first tests the live page, which can take a minute or two.
 3. Wait for the confirmation that indexing was requested, then move on to the next page.
 
-Search Console caps the number of requests per day, and Google's page on [asking Google to recrawl your URLs](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) is clear on two points: asking several times does not get a page crawled any faster, and a request does not guarantee that the page will be indexed. For the rest of the site, the sitemap does the job.
+Only owners and full users of the Search Console property can request indexing, and there is a daily quota. Google's page on [asking Google to recrawl your URLs](https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl) is also clear on two points: asking several times does not get a page crawled any faster, and a request does not guarantee that the page will be indexed. For the rest of the site, the sitemap does the job.
 
 {{< screenshot id="get-website-indexed-google-06" alt="Search Console message confirming that indexing was requested for a page" >}}
 
@@ -157,9 +157,9 @@ Search Console caps the number of requests per day, and Google's page on [asking
 
 ## Step 6: give Google links to follow
 
-Google finds most pages through links, and a new site has none. Give it a few, inside and outside your site.
+A new site has no links pointing to it yet, so give Google a few to follow, inside and outside your site.
 
-Inside the site, every page you want on Google should be reachable from your menu or from another page. A page that nothing links to, known as an orphan page, may be found late or not at all, even if it is in your sitemap.
+Inside the site, every page you want on Google should be reachable from your menu or from another page. A page that nothing links to, known as an orphan page, is found more slowly and looks minor to Google, even if it is in your sitemap.
 
 Outside the site, a handful of genuine links brings Googlebot, and customers, to your door:
 
@@ -194,13 +194,13 @@ When none of these applies, the missing ingredient is time. My article on {{< a 
 
 ## Indexed is only the start: AI answers and rankings
 
-Being in the index makes your pages eligible to appear. What happens next depends on two things.
+Once your pages are in, two things decide what they bring you.
 
 **Google's AI answers draw on the same index.** To be eligible as a source in AI Overviews or AI Mode, a page needs to be indexed and allowed to show a snippet, and Google lists no extra technical requirement ([Google's page on AI features](https://developers.google.com/search/docs/appearance/ai-features)). Other assistants run their own crawlers: ChatGPT search, for example, leaves out sites that block its crawler, OAI-SearchBot. My guide to {{< a key="robots-txt-ai-crawlers" >}}robots.txt for AI crawlers{{< /a >}} shows which bots to let in.
 
 **Rankings are a separate job.** For Pilotech, an air conditioning installer in the Paris area, the site took about a month to build. It reached a top ranking for one of its searches within a day or two of going live, which is rare, and the first lead arrived three weeks after publication. Most new sites need far longer, and what gets them there is SEO: one page per specific search, useful content, then links and mentions over the following months.
 
-The platform matters less than people fear. Squarespace keeps its code closed, yet a Squarespace site I built for Pilotech ranks first or second on Google. If yours runs on Squarespace, my {{< a key="squarespace-seo" >}}Squarespace SEO tutorial{{< /a >}} covers the settings to get right next.
+The platform matters less than people fear. Squarespace keeps its code closed, which can give custom-coded sites an edge, yet a Squarespace site I built for Pilotech ranks first or second on Google. Get the page titles, descriptions and keywords right, and you give yourself every chance. If yours runs on Squarespace, my {{< a key="squarespace-seo" >}}Squarespace SEO tutorial{{< /a >}} covers the settings to get right next.
 
 ## How to get your website on Google: the launch checklist
 
@@ -215,4 +215,4 @@ Tick these off on launch day:
 7. Your Google Business Profile and social profiles link to the site.
 8. A week later, a site: search and URL Inspection show what is in.
 
-You do not need me, or anyone, for this list: most owners can work through it on their own. Hand it over when pages stay out of the index after you have been through the blockers above, or when you move an established site to a new domain or platform, where one missed redirect can cost rankings you already have. That kind of technical check is part of my {{< a page="/services/seo" >}}SEO service{{< /a >}}.
+You do not need me, or anyone else, for this list. Hand it over when pages stay out of the index after you have been through the blockers above, or when you move an established site to a new domain or platform, where one missed redirect can cost rankings you already have. That kind of technical check is part of my {{< a page="/services/seo" >}}SEO service{{< /a >}}.

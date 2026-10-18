@@ -9,25 +9,25 @@ lastmod: 2026-10-17T09:10:00+02:00
 category: "ai-automation"
 article_type: "guide"
 keywords: ["ChatGPT GDPR", "is ChatGPT GDPR compliant", "ChatGPT client data", "ChatGPT UK GDPR", "AI assistant personal data", "ChatGPT data processing agreement"]
-summary: "Anonymised text is fine on any ChatGPT plan, once training is switched off in Data controls. Clients’ names, email addresses and other personal data belong only on a business plan or the API, where OpenAI offers a data processing agreement and does not train on your content by default, and only the details the task needs. Keep health data, ID numbers, bank details and passwords out of AI assistants altogether."
+summary: "For GDPR purposes, anonymised text is fine on any ChatGPT plan, with training switched off in Data controls. Clients’ names, email addresses and other personal data belong only on a business plan (ChatGPT Business or Enterprise) or the API, which offer a data processing agreement and do not train on your content by default, and even then only the details the task needs. Keep health data, ID numbers, bank details and passwords out of AI assistants altogether."
 cover: "chatgpt-gdpr-client-data"
 cover_alt: "A shield with a tick above the words GDPR and RGPD, behind ribbed glass"
 related: ["claude-vs-chatgpt", "cold-email-gdpr-uk-france", "zapier-vs-make-vs-n8n", "openai-api-tutorial", "bespoke-crm-internal-app"]
 services: ["automation"]
 faq:
   - q: "Which company is responsible for my data in ChatGPT?"
-    a: "For users in the EEA and Switzerland, OpenAI Ireland Limited, in Dublin, has been the data controller since 15 February 2024. UK accounts stayed with OpenAI, L.L.C., the US company, at that change. For Claude, Anthropic Ireland, Limited is the controller for the EEA, the UK and Switzerland."
+    a: "On a personal account, the provider is the controller: OpenAI Ireland Limited, in Dublin, for users in the EEA and Switzerland since 15 February 2024, and a US company, OpenAI OpCo, LLC, for UK users, according to OpenAI’s terms. For Claude, it is Anthropic Ireland, Limited for the EEA, the UK and Switzerland. On a business plan or the API, you remain the controller of your clients’ data and the provider acts as your processor."
   - q: "Do I need to mention ChatGPT in my privacy notice?"
     a: "If you send clients’ personal data to an AI provider, yes. Your privacy notice must name the recipients of personal data, or their categories (such as AI service providers), and say whether the data leaves the UK or the EEA and with what safeguards."
   - q: "I pasted client data into ChatGPT by mistake. What should I do?"
-    a: "Delete the conversation and check whether training was switched on at the time. An unauthorised disclosure can be a personal data breach: record it in your breach log, and report it to the ICO within 72 hours unless it is unlikely to result in a risk to the people concerned ([ICO: report a personal data breach](https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach))."
+    a: "Delete the conversation and check whether training was switched on at the time. An unauthorised disclosure can be a personal data breach: record it in your breach log, and report it to the ICO within 72 hours of becoming aware of it, unless it is unlikely to result in a risk to the people concerned ([ICO: report a personal data breach](https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach))."
   - q: "Can I upload a client’s contract or invoice to ChatGPT?"
     a: "Remove what identifies people first (names, signatures, addresses, bank details), or use a business plan covered by a data processing agreement. Check the contract itself too: a confidentiality clause applies whatever the GDPR allows."
 ---
 
 Pasting a client's email into ChatGPT takes two seconds. In UK GDPR terms, you have just sent that client's personal data to another company, and whether that is acceptable depends on three things: what you paste, which plan you paste it into, and how that plan is set up. That is the practical side of the ChatGPT GDPR question, and this guide answers it for a small business.
 
-ChatGPT is the main example, but the same reasoning applies to Claude, the assistant I use every day ({{< a key="claude-vs-chatgpt" >}}Claude vs ChatGPT{{< /a >}} explains why), and to any other. If you are still working out where AI fits in your business, start with my guide to {{< a key="ai-small-business-guide" >}}AI for small businesses{{< /a >}}. This article answers one question: what you can safely give it.
+ChatGPT is the main example, but the same reasoning applies to Claude, the assistant I work with ({{< a key="claude-vs-chatgpt" >}}Claude vs ChatGPT{{< /a >}} explains why), and to any other. If you are still working out where AI fits in your business, start with my guide to {{< a key="ai-small-business-guide" >}}AI for small businesses{{< /a >}}. This article answers one question: what you can safely give it.
 
 {{< callout type="note" >}}This is general information, not legal advice. Providers change their plans and terms often: check the official pages linked below before you rely on a detail.{{< /callout >}}
 
@@ -58,7 +58,7 @@ The plan decides the provider's role, and price has nothing to do with it: ChatG
 
 On a personal plan, the provider handles your conversations under its own privacy policy. No data processing agreement links your business to OpenAI or Anthropic, so a client's details pasted there go to a third party that is not your processor. That is hard to justify under the GDPR, whatever your settings.
 
-On a business plan or through an API, the provider acts as your processor: it handles the data on your behalf, under the written contract that Article 28 of the GDPR requires. OpenAI offers a **data processing addendum** (DPA) to customers of ChatGPT Business, ChatGPT Enterprise and its API platform ([OpenAI's enterprise privacy page](https://openai.com/enterprise-privacy/)). Anthropic's DPA is incorporated into its Commercial Terms, which cover Claude Team, Enterprise and the API, and those terms state that Anthropic may not train models on customer content.
+On a business plan or through an API, the provider acts as your processor: it handles the data on your behalf, under the written contract that Article 28 of the GDPR requires. OpenAI offers a **data processing addendum** (DPA) to customers of ChatGPT Business, ChatGPT Enterprise and its API platform, signed through the DPA form linked from [OpenAI's enterprise privacy page](https://openai.com/enterprise-privacy/). Anthropic's DPA is incorporated into its Commercial Terms, which cover Claude Team, Enterprise and the API, and those terms state that Anthropic may not train models on customer content.
 
 If you work alone, a team plan can feel oversized: Claude Team, for example, is sold from two users. For occasional tasks, anonymising before you paste (see below) is the practical answer. For regular work on client data, a business plan or the API is the route that comes with a processor contract.
 
@@ -150,13 +150,13 @@ In my work, ChatGPT tends to hallucinate a bit too much, while Claude, especiall
 
 ## Automations and the API: the same rules, with more data
 
-Automations raise the stakes, because they handle client data without anyone pasting it. When I brought Pilotech more prospects than the team could handle, they asked me for an internal app to see everything clearly and never miss a call-back. It manages prospects, job sites, communication with the employees, the calendar and accounting analytics, with AI and phone integrations ({{< a key="bespoke-crm-internal-app" >}}the story of that bespoke CRM{{< /a >}}). For an automation like that, I need access to the client's mailbox, for example.
+Automations raise the stakes, because they handle client data without anyone pasting it. When I brought {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}} more prospects than the team could handle, they asked me for an internal app to see everything clearly and never miss a call-back. It manages prospects, job sites, communication with the employees, the calendar and accounting analytics, with AI and phone integrations ({{< a key="bespoke-crm-internal-app" >}}the story of that bespoke CRM{{< /a >}}). For an automation like that, I need access to the client's mailbox, for example.
 
 Once an automation runs, every email, form entry or call note it handles passes through each service in the chain: the automation platform, the AI API, the CRM. Each one is a processor, so for each one:
 
 - check that it offers a data processing agreement, and accept or sign it;
 - check where it stores data, and how transfers outside the UK or the EEA are covered (usually an adequacy decision or standard contractual clauses);
-- check what it does with your content: the OpenAI API does not use it for training unless you opt in, but keeps some of it for a limited time, for example up to 30 days for abuse monitoring, and Anthropic's Commercial Terms rule out training;
+- check what it does with your content: Anthropic's Commercial Terms rule out training, and the OpenAI API does not train on it unless you opt in, although it may keep inputs and outputs for up to 30 days to monitor abuse (its Responses API also stores responses unless you set `store` to `false`);
 - add it to your record of processing activities.
 
 n8n can also be self-hosted, on a server you control, which takes one company out of the chain. My {{< a key="zapier-vs-make-vs-n8n" >}}Zapier vs Make vs n8n{{< /a >}} comparison covers self-hosting and GDPR too, and my tutorials on the {{< a key="openai-api-tutorial" >}}OpenAI API{{< /a >}} and the {{< a key="claude-api-tutorial" >}}Claude API{{< /a >}} cover the first steps with each.
@@ -167,12 +167,12 @@ In the UK, the regulator is the ICO, which publishes guidance on AI and data pro
 
 **A data protection impact assessment (DPIA)** is required before processing that is likely to result in a high risk to people. Feeding customer records into an AI tool on a regular basis, or anything sensitive, is the kind of project that is likely to need one, and both regulators publish guidance and templates for it.
 
-**AI literacy** is the second, if you have staff or clients in the EU. Article 4 of the EU AI Act, which has applied since 2 February 2025, asks companies that use AI systems to take measures so that their staff, and anyone using AI on their behalf, have a sufficient level of AI literacy. The Digital Omnibus, Regulation (EU) 2026/1744, in force since 27 July 2026, softened that wording into measures that support AI literacy, without removing the duty. For a small team, a one-page rule on what may and may not be pasted, explained to each person who uses an assistant, is a sensible start. The AI Act is EU law: in the UK, the UK GDPR and the ICO's guidance remain the reference.
+**AI literacy** is the second, if your business is in the EU or the work you produce with AI is used there. Article 4 of the EU AI Act, which has applied since 2 February 2025, asks companies that use AI systems to take measures so that their staff, and anyone using AI on their behalf, have a sufficient level of AI literacy. The Digital Omnibus on AI, Regulation (EU) 2026/1744, in force since 27 July 2026, softened that wording into measures that support AI literacy, without removing the duty. For a small team, a one-page rule on what may and may not be pasted, explained to each person who uses an assistant, is a sensible start. The AI Act is EU law: in the UK, the UK GDPR and the ICO's guidance remain the reference.
 
 ## Before you paste client data: a checklist for your team
 
 1. **Choose the plan**: personal for anonymised text only, a business plan or the API for client data.
-2. **Put the DPA in place** with each provider, and keep a copy.
+2. **Put the DPA in place** with each provider (for OpenAI, through its DPA form), and keep a copy.
 3. **Switch off training** on every personal account used for work.
 4. **Write the three groups on one page** (fine anywhere, business plan only, never) and share it with everyone who uses an assistant.
 5. **Anonymise by default**, even on a business plan: what the assistant never receives cannot leak.
@@ -180,4 +180,4 @@ In the UK, the regulator is the ICO, which publishes guidance on AI and data pro
 7. **List each AI tool and automation** in your record of processing activities.
 8. **Review it once a year**, because plans, settings and terms change.
 
-If you work in health, law or finance, with children's data, or plan to feed your whole customer file into an automation, ask a data protection specialist before you start. I tell my clients the same: I build the websites and the automations, and for that part a specialist is the right person.
+If you work in health, law or finance, with children's data, or plan to feed your whole customer file into an automation, ask a data protection specialist before you start. It is the advice I would give any client: I build websites and automations, but for the legal side, a specialist is the right person.
