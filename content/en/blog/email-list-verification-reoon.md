@@ -11,14 +11,14 @@ article_type: "tutorial"
 keywords: ["email list verification", "how to verify an email list", "Reoon email verifier", "catch-all email address", "email bounces", "clean an email list for cold email"]
 summary: "Email list verification checks every address before a campaign, so dead ones come out before they bounce and wear down your sending domains. In Reoon, upload the CSV on the Bulk Verification page, verify the unknown addresses again after 15 to 30 minutes, then download Safe only, or Safe+Role for small local businesses; keep catch-all addresses apart and drop the rest. Reoon is the only AppSumo purchase I use every day."
 cover: "email-list-verification-reoon"
-cover_alt: "A hand ticking rows on a printed list beside a shield with a tick and the words Reoon 100k"
+cover_alt: "A hand writing on a printed list, beside a shield with a tick and the words Reoon 100k"
 related: ["google-maps-scraper-outscraper", "instantly-campaign-setup", "cold-email-infrastructure", "appsumo-review", "cold-email-gdpr-uk-france"]
 services: ["cold-emailing"]
 faq:
   - q: "Can a verified email address still bounce?"
     a: "Yes. A mailbox can close between the check and the send, and some mail servers answer differently from one day to the next. Reoon says so itself in [Why valid emails can still bounce](https://www.reoon.com/articles/why-valid-emails-can-still-bounce/). Verification lowers the risk, and sending soon after it keeps the risk low."
   - q: "How often should I verify my email list?"
-    a: "Verify every new list before its first send, and verify an old list again before you reuse it: people change jobs, and companies close or change domains. Verify only the addresses you are about to write to, since each check uses a credit."
+    a: "Verify every new list before its first send, and verify an old list again before you reuse it: people change jobs, and companies close or change domains. Verify only the addresses you are about to write to, since every result except unknown uses a credit."
   - q: "Can I upload prospects' email addresses to a verifier under GDPR?"
     a: "You can, as long as the campaign itself has a lawful basis. A named work address is personal data under UK GDPR and the EU GDPR, and the verifier processes it on your behalf, so read its privacy policy and data processing terms before the first upload, and send it only the columns your campaign needs."
   - q: "What is the difference between email validation and email verification?"
@@ -54,11 +54,11 @@ Spam traps are worse. They are addresses kept only to catch careless senders, an
 
 You need three things:
 
-- **A Reoon account.** Creating one is free; verifying uses credits.
-- **Enough credits for the whole list.** Reoon counts daily credits and instant credits, and the upload fails if the list holds more addresses than you have credits left.
+- **A Reoon account.** Creating one is free and needs no card. At the time of writing, every account gets 20 daily credits, plus 100 instant credits at sign-up: enough to test the steps below on a small file.
+- **Enough credits for the whole list.** Reoon has two kinds: daily credits renew every day but do not carry over, while instant credits are a one-off stock that does not expire. It spends the daily ones first.
 - **The list itself**, as a CSV file (addresses plus other columns) or a TXT file (addresses only).
 
-Where the list comes from is up to you. If your buyers are local businesses, my {{< a key="google-maps-scraper-outscraper" >}}Google Maps scraper tutorial{{< /a >}} shows how I use Outscraper to find them. By my figures, it costs about €0.003 per lead, and about €0.006 per active, qualified lead once verification has removed the dead ones: a fraction of a penny either way. It only finds businesses that have a Google listing, though, so for the others you will need another source. MLK Leadhunters goes through the options, and the suppression list you will need in step 6, in [building a cold email list](https://mlkleadhunters.com/blog/building-a-cold-email-list/).
+Where the list comes from is up to you. If your buyers are local businesses, my {{< a key="google-maps-scraper-outscraper" >}}Google Maps scraper tutorial{{< /a >}} shows how I use Outscraper to find them. By my figures, it costs about €0.003 per lead, and about €0.006 per active, qualified lead once verification has removed the dead ones: roughly £2.55 ($3.40) and £5.10 ($6.75) per 1,000. It only finds businesses that have a Google listing, though, so for the others you will need another source. MLK Leadhunters goes through the options, and the suppression list you will need in step 6, in [building a cold email list](https://mlkleadhunters.com/blog/building-a-cold-email-list/).
 
 ## Step 1: prepare the CSV file
 
@@ -81,7 +81,7 @@ tom@example.org,Tom,Example Dental,Leeds
 
 1. Sign in to Reoon Email Verifier at emailverifier.reoon.com and open the **Bulk Verification** page.
 2. Upload your .csv or .txt file, or paste the addresses. A file can weigh up to 50 MB.
-3. If you like, tick the option that removes duplicate rows. It only removes rows where every column matches, so two rows with the same address and a different first name both stay: remove those in the spreadsheet first.
+3. If you like, tick the option that removes duplicate rows. It only removes rows where every column matches, so two rows with the same address and a different first name both stay: delete the extra rows in the spreadsheet first.
 4. Start the verification.
 
 {{< callout type="warning" >}}**Check your credits before you upload.** If the list holds more addresses than your daily and instant credits together, the upload fails.{{< /callout >}}
@@ -114,13 +114,13 @@ A catch-all domain answers yes for every address, real or not, so no verifier ca
 
 ### Role accounts
 
-A role address reaches whoever handles a shared inbox. For a small local business, such as a bakery or a dental practice, contact@ is often the only public address, and the owner often reads it: there, keep them. When you write to a named decision maker in a larger firm, drop them, because the person you wrote the email for may never see it.
+A role address reaches whoever handles a shared inbox. For a small local business, such as a bakery or a dental practice, contact@ is often the only public address, and the owner is usually the one who reads it: there, keep them. When you write to a named decision maker in a larger firm, drop them, because the person you wrote the email for may never see it.
 
 {{< screenshot id="email-list-verification-reoon-03" alt="A completed bulk verification task in Reoon, with the number of addresses for each status" >}}
 
 ## Step 4: verify the unknown addresses again
 
-Unknown is not a verdict: the receiving server simply did not give a clear answer at the moment of the check. Reoon's advice is to download that segment on its own, wait 15 to 30 minutes and verify it again, and many addresses get a clear answer on the second attempt. Reoon does not charge for unknown results, so the first try cost you nothing.
+Unknown is not a verdict: the receiving server simply did not give a clear answer at the moment of the check. Reoon's advice is to download that segment on its own, wait 15 to 30 minutes and verify it again, since the server may give a clear answer the second time. Reoon does not charge for unknown results, so the first try cost you nothing.
 
 Whatever is still unknown after the second pass joins the catch-all addresses: set aside, not sent with the main list.
 
@@ -135,7 +135,7 @@ Reoon offers four downloads, and each one comes back with your original columns:
 | Safe only | Safe addresses | Named decision makers; the cleanest file for a first send |
 | Safe+Role | Safe and role addresses | Small local businesses whose public address is contact@ or info@ |
 | Safe+Role+Catch-All | The above, plus catch-all addresses | Only once you have decided to include catch-alls, ideally in a campaign of their own |
-| Others | Everything else | Your suppression list, never a campaign |
+| Others | Everything else: unknown, inbox full and the dead addresses | Never a campaign: unknown addresses go back for a second check (step 4), dead ones to your suppression list (step 6) |
 
 For a first campaign, **Safe only or Safe+Role is the sensible choice**. You can also download all the results at once, or a single category.
 
@@ -154,7 +154,9 @@ Two last jobs before you leave Reoon:
 
 Reoon is well priced for a verifier, and I got it through a good deal on AppSumo. By my figures at the time, the starter tier cost about £60 ($79), paid once, for 100,000 verifications plus 500 a day. **That is plenty for a small business.** Higher tiers went up to 700,000 verifications, and you can still buy more credits if you need them.
 
-Deals change and end, so compare the current AppSumo offer with [Reoon's own pricing](https://www.reoon.com/email-verifier/) before you buy. Read my answer to {{< a key="appsumo-review" >}}is AppSumo worth it{{< /a >}} first, too: the site works a bit like a casino, and Reoon is my exception rather than the rule. A lifetime deal ends if the company closes, but a verifier is easy to replace: another one could check your next list the same day.
+Deals change and end, so compare the current AppSumo offer with [Reoon's own pricing](https://www.reoon.com/email-verifier/) before you buy. At the time of writing (October 2026), Reoon sells instant credits without a subscription, from about £9 ($12) for 10,000, and daily credits by subscription, from about £7 ($9) a month for 500 a day. If you verify a list only now and then, instant credits suit you better, because daily credits you do not use are lost.
+
+Before you buy anything on AppSumo, read my answer to {{< a key="appsumo-review" >}}is AppSumo worth it{{< /a >}}: the site works a bit like a casino, and Reoon is my exception rather than the rule. A lifetime deal ends if the company closes, but a verifier is easy to replace: another one could check your next list the same day.
 
 ZeroBounce and NeverBounce are two well-known verifiers that do the same job. I am not rating them here: compare their prices with the size of your lists and how often you send. Each tool names its statuses its own way, but the logic of this tutorial stays the same: keep the safe addresses, set the uncertain ones aside, drop the rest.
 

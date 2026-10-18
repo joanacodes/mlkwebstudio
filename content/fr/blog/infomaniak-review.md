@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:53:00+02:00
 category: "domains"
 article_type: "guide"
 keywords: ["Infomaniak avis", "avis kSuite", "kSuite prix", "alternative à Google Workspace", "hébergement suisse", "Infomaniak hébergement"]
-summary: "Infomaniak, entreprise genevoise, vend des noms de domaine, de l’hébergement web et la kSuite, une alternative suisse à Google Workspace et Microsoft 365, et propose SwissTransfer gratuitement. Je recommande vivement Infomaniak aux TPE qui veulent garder emails et fichiers en Suisse : la kSuite pour les entreprises commence à 1,58 € HT par utilisateur et par mois (octobre 2026). Pour une seule boîte mail, ou une équipe installée chez Google ou Microsoft, regardez ailleurs."
+summary: "Infomaniak, entreprise genevoise, vend des noms de domaine, de l’hébergement web et la kSuite, une alternative suisse à Google Workspace et Microsoft 365, et propose SwissTransfer gratuitement. Je recommande vivement Infomaniak aux TPE qui veulent garder emails et fichiers en Suisse : la kSuite pour les entreprises commence à 1,76 CHF HT par utilisateur et par mois, soit environ 1,90 € (octobre 2026). Pour une seule boîte mail, une messagerie seule comme Spacemail coûte moins cher ; pour une équipe installée chez Google ou Microsoft, pesez d’abord le temps qu’un changement demande."
 cover: "infomaniak-review"
 cover_alt: "Le nom Infomaniak, le fournisseur suisse de la kSuite et de SwissTransfer, sur un fond de verre"
 related: ["o2switch-review", "web-hosting-comparison", "professional-email-address", "swisstransfer-vs-wetransfer", "domain-hosting-email-guide"]
@@ -39,11 +39,13 @@ Je recommande vivement Infomaniak. Il couvre ce qu’une petite équipe demande 
 - Aux entreprises qui manipulent des documents clients et à qui l’on demande où ils sont stockés. « En Suisse, chez une entreprise suisse » est une réponse courte.
 - À tous ceux qui envoient de gros fichiers à leurs clients : SwissTransfer est gratuit et ne demande pas de compte.
 
-J’ai aussi dû travailler sur OVH et Hostinger, parce que mes clients y étaient déjà, et je ne les recommande pas aux dirigeants de petites entreprises : ils sont un peu compliqués à prendre en main quand on veut simplement que tout fonctionne. Infomaniak fait partie, avec o2switch, des hébergeurs que je recommande : {{< a key="o2switch-review" >}}mon avis sur o2switch{{< /a >}} explique pourquoi ce dernier convient aux sites hébergés en France. Je compare les quatre dans {{< a key="web-hosting-comparison" >}}mon comparatif pour choisir un hébergeur web{{< /a >}}.
+Le seul point que je ne peux pas juger, faute d’usage quotidien, c’est le support. Avant de vous engager, posez une question avant-vente et voyez la clarté de la réponse.
+
+J’ai aussi dû travailler sur OVH et Hostinger, parce que mes clients y étaient déjà, et je ne les recommande pas aux dirigeants de petites entreprises : ils sont un peu compliqués à prendre en main quand on veut simplement que tout fonctionne. Infomaniak fait partie, avec o2switch, des hébergeurs que je recommande : {{< a key="o2switch-review" >}}mon avis sur o2switch{{< /a >}} explique pourquoi je le conseille quand on cherche un hébergeur en France. Je compare les quatre dans {{< a key="web-hosting-comparison" >}}mon comparatif pour choisir un hébergeur web{{< /a >}}.
 
 ## Qui est Infomaniak, et ce qu’il vend
 
-Infomaniak existe depuis les années 1990 et exploite ses propres datacenters en Suisse. L’un d’eux, à Genève, a démarré en 2024 et réinjecte sa chaleur dans le réseau de chauffage à distance de la ville, avec l’objectif de chauffer environ 6 000 logements une fois à pleine capacité.
+Infomaniak existe depuis les années 1990 et exploite ses propres datacenters en Suisse. L’un d’eux, à Genève, a démarré en 2024 : sa chaleur est récupérée pour le chauffage urbain genevois, avec l’objectif de chauffer environ 6 000 logements une fois à pleine capacité.
 
 Pour une TPE, la partie utile du catalogue est celle-ci :
 
@@ -51,7 +53,7 @@ Pour une TPE, la partie utile du catalogue est celle-ci :
 |---|---|---|
 | Noms de domaine | Enregistrer et renouveler votre domaine, avec une zone DNS à gérer | Selon l’extension, sur la grille d’Infomaniak |
 | Hébergement web | Hébergement mutualisé pour un ou plusieurs sites | À vérifier sur la page officielle : les avis de 2026 se contredisent |
-| kSuite | Messagerie, agenda, contacts, kDrive (fichiers), kChat (messagerie d’équipe), kMeet (visioconférence) | Gratuite pour les particuliers ; offres entreprises dès 1,58 € HT par utilisateur et par mois |
+| kSuite | Messagerie, agenda, contacts, kDrive (fichiers), kChat (messagerie d’équipe), kMeet (visioconférence) | Gratuite pour les particuliers ; offres entreprises dès 1,76 CHF HT (environ 1,90 €) par utilisateur et par mois |
 | SwissTransfer | Envoyer de gros fichiers par lien | Gratuit |
 | Euria | Assistant IA | Gratuit pour un usage personnel |
 
@@ -65,29 +67,29 @@ Pour les particuliers, my kSuite est gratuite. Vous obtenez une adresse en @ik.m
 
 ### Les offres pour les entreprises et leurs prix
 
-Pour les entreprises, la kSuite se décline en trois formules, facturées par utilisateur et par mois.
+Pour les entreprises, la kSuite se décline en trois formules, facturées par utilisateur et par mois. La grille officielle que j’ai consultée est en francs suisses : les montants en euros sont des conversions approximatives, et c’est la page de commande qui indique la devise dans laquelle vous paierez.
 
 | Formule | Prix HT par utilisateur et par mois | Stockage par utilisateur | Adresses mail par utilisateur |
 |---|---|---|---|
-| Standard | 1,58 € | 50 Go | 2 |
-| Business | 6,58 €, moitié prix la première année avec un engagement annuel | 3 To | 5 |
-| Enterprise | 12,41 €, moitié prix la première année avec un engagement annuel | 6 To | 10 |
+| Standard | 1,76 CHF (environ 1,90 €) | 50 Go | 2 |
+| Business | 7,33 CHF (environ 7,80 €) ; 3,67 CHF la première année avec un engagement annuel | 3 To | 5 |
+| Enterprise | 13,83 CHF (environ 14,80 €) ; 6,92 CHF la première année avec un engagement annuel | 6 To | 10 |
 
-Prix de la [page kSuite d’Infomaniak](https://www.infomaniak.com/fr/ksuite) au moment où j’écris (octobre 2026).
+Prix de la [grille tarifaire officielle de la kSuite](https://www.infomaniak.com/en/ksuite/ksuite-pro/prices) (page en anglais) au moment où j’écris (octobre 2026).
 
 {{< callout type="tip" >}}**Budgétez le plein tarif.** La remise de 50 % sur Business et Enterprise ne vaut que pour la première année : c’est la facture de la deuxième année qu’il faut prévoir.{{< /callout >}}
 
-À titre de comparaison, l’offre d’entrée de Google Workspace, Business Starter, coûte 6,80 € HT par utilisateur et par mois avec un engagement annuel, et 8,10 € HT en formule flexible, selon [la page de comparaison de Google](https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans?hl=fr). Pour une équipe de cinq personnes, cela fait 408 € HT par an avec l’engagement annuel, contre 94,80 € HT pour la kSuite Standard. Les deux formules ne sont pas identiques : comparez ce qui est inclus, pas seulement le prix.
+À titre de comparaison, l’offre d’entrée de Google Workspace, Business Starter, coûte 6,80 € HT par utilisateur et par mois avec un engagement annuel, et 8,10 € HT en formule flexible, selon [la page de comparaison de Google](https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans?hl=fr). Pour une équipe de cinq personnes, cela fait 408 € HT par an avec l’engagement annuel, contre 105,60 CHF HT (environ 113 €) pour la kSuite Standard. Les deux formules ne sont pas identiques : comparez ce qui est inclus, pas seulement le prix.
 
 J’utilisais Microsoft pour mes emails, et c’était pénible : je comprends les dirigeants qui veulent changer. La kSuite mérite qu’on s’y intéresse si vous payez Google ou Microsoft pour bien plus que ce que vous utilisez. Si votre équipe travaille toute la journée dans Google Docs ou dans les logiciels de bureau de Microsoft, testez d’abord la kSuite avec vos vrais fichiers, parce que déplacer les emails, les fichiers et les agendas d’une équipe prend du temps. Si vous comparez encore les fournisseurs, mon guide pour créer une {{< a key="professional-email-address" >}}adresse mail professionnelle{{< /a >}} présente les options et leurs prix.
 
 ## SwissTransfer et Euria : les outils gratuits à connaître
 
-SwissTransfer est le service d’Infomaniak dont je parle le plus. Il envoie jusqu’à 50 Go de fichiers par transfert, les conserve jusqu’à 30 jours et ne demande pas de compte, le tout gratuitement. À mon avis, c’est bien mieux que WeTransfer : [allez voir](https://www.swisstransfer.com/). J’explique pourquoi dans {{< a key="swisstransfer-vs-wetransfer" >}}mon article sur SwissTransfer{{< /a >}}.
+Si vous ne deviez essayer qu’un service d’Infomaniak, prenez SwissTransfer. Il envoie jusqu’à 50 Go de fichiers par transfert, les conserve jusqu’à 30 jours et ne demande pas de compte, le tout gratuitement. À mon avis, c’est bien mieux que WeTransfer : [allez voir](https://www.swisstransfer.com/). J’explique pourquoi dans {{< a key="swisstransfer-vs-wetransfer" >}}mon article sur SwissTransfer{{< /a >}}.
 
 Euria est l’assistant IA d’Infomaniak, lancé en 2025. Il est gratuit pour un usage personnel, sans compte (un usage plus intensif demande un compte kSuite). Infomaniak indique que les requêtes sont traitées et stockées dans ses datacenters suisses et ne servent pas à entraîner ses modèles, et qu’un mode éphémère ne garde aucune trace de la conversation.
 
-C’est donc un choix raisonnable pour les questions de tous les jours. La règle habituelle reste valable : ne collez pas de données clients dans un assistant IA si vos contrats et votre politique de confidentialité ne le prévoient pas.
+J’utilise Claude pour mon travail, je ne peux donc pas comparer les deux à l’usage. Mais si la confidentialité vous retient d’utiliser un assistant IA, Euria mérite un essai pour les questions de tous les jours. La règle habituelle reste valable : ne collez pas de données clients dans un assistant IA si vos contrats et votre politique de confidentialité ne le prévoient pas.
 
 ## Noms de domaine et hébergement web chez Infomaniak
 
@@ -113,11 +115,10 @@ Oui, donc, dans un sens précis : vos données restent dans un pays dont l’Un
 
 Infomaniak ne convient pas à tout le monde. Je regarderais ailleurs dans ces cas :
 
-- **Vous n’avez besoin que d’une boîte mail sur votre domaine.** Spacemail, la messagerie de Spaceship, que je recommande, coûte moins de 1 € par mois et par boîte au moment où j’écris (prix affiché en dollars). Une suite complète, c’est plus que nécessaire.
-- Vous cherchez seulement un hébergement simple en France, avec cPanel et un support qui répond au téléphone : o2switch fera l’affaire.
+- **Vous n’avez besoin que d’une boîte mail sur votre domaine.** La kSuite Standard coûte peu, mais une messagerie seule coûte encore moins : Spacemail, la messagerie de Spaceship, que je recommande, revient à moins de 1 € par mois et par boîte au moment où j’écris (prix affiché en dollars).
+- Vous cherchez seulement un hébergement simple en France, avec cPanel et un support joignable par téléphone aux heures de bureau : o2switch fera l’affaire.
 - Votre équipe et vos clients vivent déjà dans Google Workspace ou Microsoft 365, et tout fonctionne. Mettez en balance les heures qu’un changement prendrait et l’économie par utilisateur avant de basculer.
 - Vous voulez modifier votre site vous-même sans apprendre un espace d’administration : un hébergement n’est pas un créateur de site, et une plateforme comme Squarespace, hébergement compris, vous conviendra mieux.
-- Vous voulez un support que vous avez déjà éprouvé. Je ne peux pas juger le support d’Infomaniak à l’usage : posez d’abord une question avant-vente et voyez la clarté de la réponse.
 
 ## Par où commencer : la checklist avant de passer vos emails chez Infomaniak
 

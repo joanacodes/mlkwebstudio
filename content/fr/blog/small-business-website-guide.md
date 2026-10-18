@@ -18,9 +18,9 @@ faq:
   - q: "Une petite entreprise a-t-elle encore besoin d’un site internet en 2026 ?"
     a: "Oui, dès que vos clients se renseignent sur vous avant d’appeler ou d’acheter. Une fiche Google ou une page sur les réseaux sociaux aide à vous trouver, mais vous ne contrôlez ni l’une ni l’autre ; un site sur votre propre nom de domaine donne à chaque prestation une page que Google peut positionner et que les assistants IA peuvent citer, et il reste à vous quand une plateforme change ses règles."
   - q: "Combien de temps faut-il pour créer un site internet professionnel ?"
-    a: "Quelques semaines pour un site vitrine, une fois les textes, les photos et les décisions prêts. Le site de Pilotech m’a pris environ un mois, et l’IA a raccourci mes délais depuis. Préparez vos contenus avant le début du chantier : sans eux, le site ne peut pas être terminé."
+    a: "Quelques semaines pour un site vitrine, une fois les textes, les photos et les décisions prêts. Le site de Pilotech m’a pris environ un mois. Préparez vos contenus avant le début du chantier : sans eux, le site ne peut pas être terminé."
   - q: "Faut-il un bandeau cookies sur un site vitrine ?"
-    a: "Oui, dès qu’un outil dépose des traceurs soumis au consentement, comme la publicité ou Microsoft Clarity, qui exige un signal de consentement pour les visiteurs de l’EEE, du Royaume-Uni et de la Suisse. La CNIL exempte la mesure d’audience sous des conditions strictes : elle sert seulement à l’éditeur du site, produit des statistiques anonymes, ne suit pas les visiteurs sur d’autres sites et leur permet de s’y opposer. Refuser doit être aussi simple qu’accepter, par exemple avec un bouton « Tout refuser » au même niveau que « Tout accepter »."
+    a: "Oui, dès qu’un outil dépose des traceurs soumis au consentement, comme les outils publicitaires ou Microsoft Clarity, qui exige un signal de consentement pour les visiteurs de l’EEE, du Royaume-Uni et de la Suisse. La CNIL exempte la mesure d’audience sous des conditions strictes : elle sert seulement à l’éditeur du site, produit des statistiques anonymes, ne suit pas les visiteurs sur d’autres sites et leur permet de s’y opposer. Refuser doit être aussi simple qu’accepter, par exemple avec un bouton « Tout refuser » au même niveau que « Tout accepter »."
   - q: "Peut-on changer de plateforme sans perdre son référencement ?"
     a: "En général oui, si vous redirigez chaque ancienne adresse vers la nouvelle avec une redirection 301, reprenez vos titres et descriptions, et envoyez le nouveau sitemap à la Google Search Console ; vos positions peuvent bouger quelques semaines. Quitter Wix impose de reconstruire le site, car Wix ne permet pas de l’exporter vers un autre hébergeur."
   - q: "Faut-il un site en français et en anglais ?"
@@ -37,7 +37,7 @@ Je crée des sites pour des TPE et des PME en France et au Royaume-Uni. Je vous 
 Avant de regarder le moindre modèle, posez clairement le rôle du site. Pour une petite entreprise, il se résume à trois missions.
 
 1. Vous faire trouver. On tape une prestation et une ville dans Google, et certains demandent désormais à un assistant IA comme ChatGPT ou Gemini de leur recommander quelqu’un. Une page par prestation, écrite avec les mots de vos clients, donne à Google de quoi vous positionner et aux assistants de quoi vous citer. Mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel{{< /a >}} détaille la méthode, et le {{< a key="ai-search-geo-guide" >}}guide du référencement IA{{< /a >}} couvre les assistants.
-2. Inspirer confiance. L’attrait visuel d’un site se juge en 50 millisecondes environ, et cette première impression pèse sur la confiance qu’on lui accorde. Je veux que les prospects de mes clients soient un peu impressionnés par leur site : une entreprise qui a l’air bien installée voit ses prix moins discutés. Voici {{< a key="professional-looking-website" >}}ce qui fait un site internet haut de gamme{{< /a >}}.
+2. Inspirer confiance. Selon une étude publiée en 2006, l’attrait visuel d’un site se juge en 50 millisecondes environ, et cette première impression pèse sur la confiance qu’on lui accorde. Je veux que les prospects de mes clients soient un peu impressionnés par leur site : une entreprise qui a l’air bien installée voit ses prix moins discutés. Voici {{< a key="professional-looking-website" >}}ce qui fait un site internet haut de gamme{{< /a >}}.
 3. Transformer les visites en demandes. Un numéro cliquable, un formulaire court et une prochaine étape claire sur chaque page. Si les visiteurs viennent sans jamais vous contacter, la fuite se trouve en général sur la page elle-même : voici comment {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de votre site{{< /a >}}.
 
 **Un site qui remplit bien ces trois missions vaut mieux qu’un grand site qui les remplit mal.** Gardez ce test en tête pour chaque décision qui suit.
@@ -53,9 +53,9 @@ La plupart des petites entreprises ont besoin de l’un de ces quatre types de s
 | Boutique en ligne | Un catalogue avec panier et paiement en ligne | Vendre des produits en ligne |
 | Application web | Un outil sur lequel on se connecte pour faire quelque chose | Espace client, outil de devis, outil interne |
 
-Le site vitrine est ce dont la plupart de mes clients ont besoin en premier, parce que les prospects le consultent avant d’appeler. Les landing pages viennent ensuite, une par campagne, et {{< a key="landing-page-vs-website" >}}site vitrine ou landing page{{< /a >}} explique quand une page unique suffit. Edenel Nettoyage, une entreprise de nettoyage à Paris, n’avait aucun site : je lui ai d’abord créé un site vitrine, et le référencement vient ensuite.
+Le site vitrine est ce dont la plupart de mes clients ont besoin en premier, parce que les prospects le consultent avant d’appeler. Les landing pages viennent ensuite, une par campagne, et {{< a key="landing-page-vs-website" >}}site vitrine ou landing page{{< /a >}} explique quand une page unique suffit. {{< a page="/projects/edenel-patrimoine" >}}Edenel Patrimoine{{< /a >}}, une agence immobilière indépendante d’Île-de-France, n’avait aucun site : je lui en ai créé un, et le référencement est la prochaine étape.
 
-Si ce qu’il vous faut est un outil pour votre équipe, par exemple pour suivre les demandes et les chantiers, c’est une application plutôt qu’un site. J’ai raconté {{< a key="bespoke-crm-internal-app" >}}le CRM sur mesure créé pour un client débordé de prospects{{< /a >}}.
+Si vous avez surtout besoin d’un outil pour votre équipe, par exemple pour suivre les demandes et les chantiers, c’est une application qu’il vous faut, pas un site. J’ai raconté {{< a key="bespoke-crm-internal-app" >}}le CRM sur mesure créé pour un client débordé de prospects{{< /a >}}.
 
 ### Un site, une offre claire
 
@@ -84,7 +84,7 @@ J’ajoute souvent un peu de code personnalisé aux sites Squarespace que je cr�
 
 ### WordPress : un gros budget et un spécialiste chaque mois
 
-WordPress permet presque tout, d’où son succès auprès des développeurs et des agences. Le prix de cette liberté, c’est l’entretien : le cœur, le thème et chaque extension doivent être mis à jour, et c’est dans les extensions que se concentre l’essentiel du risque. [Patchstack a recensé 11 334 nouvelles vulnérabilités dans l’écosystème WordPress en 2025](https://www.patchstack.com/whitepaper/state-of-wordpress-security-in-2026/), dont environ 91 % dans les extensions. Pilotech a d’abord fait appel à moi en urgence, parce que son site WordPress avait été piraté : je l’ai récupéré, puis j’ai créé un nouveau site pour l’entreprise.
+WordPress permet presque tout, d’où son succès auprès des développeurs et des agences. Le prix de cette liberté, c’est l’entretien : le cœur, le thème et chaque extension doivent être mis à jour, et c’est dans les extensions que se concentre l’essentiel du risque. [Patchstack a recensé 11 334 nouvelles vulnérabilités dans l’écosystème WordPress en 2025](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/), dont environ 91 % dans les extensions. Pilotech a d’abord fait appel à moi en urgence, parce que son site WordPress avait été piraté : je l’ai récupéré, puis j’ai créé un nouveau site pour l’entreprise.
 
 Je déconseille en général WordPress aux entrepreneurs qui travaillent seuls : la prise en main est longue, et ils finissent par devoir devenir leur propre webmaster. Si vous avez un gros budget et un spécialiste qui s’occupe du site chaque mois, WordPress est un bon choix : vous gardez le contrôle, et quelqu’un d’autre assure l’entretien.
 
@@ -121,18 +121,18 @@ Pour un site réalisé par un professionnel, le baromètre de [La Fabrique du Ne
 
 ## La création d’un site, étape par étape
 
-Quand je crée un site, chaque projet suit le même chemin, et vous validez chaque étape avant la suivante.
+Quand je crée un site, chaque projet suit le même chemin, et vous validez l’identité visuelle, puis le site terminé, avant toute mise en ligne.
 
 1. Des questions sur votre entreprise, ce que vous proposez et les clients avec qui vous préférez travailler. Je vous conseille selon ce que vous voulez, ce dont vous avez besoin et ce que j’ai vu fonctionner.
 2. Une identité visuelle : je parcours des bibliothèques de design, je crée la charte, je vous la présente et je l’ajuste.
 3. Les maquettes des pages, choisies de la même façon, selon l’usage que vos visiteurs feront du site.
 4. La recherche SEO et la rédaction, pour que les mots que tapent vos clients deviennent vos pages et vos titres.
 5. L’assemblage : je réunis le tout avec l’aide de l’IA et je retravaille jusqu’à ce que les textes et le site me conviennent.
-6. Vos retours. Vous validez le design avant que je construise quoi que ce soit, donc les retouches restent légères. J’inclus jusqu’à trois séries de modifications, et en pratique on n’en arrive jamais là.
+6. Vos retours : je vous présente le site et j’apporte les modifications demandées. Vous avez validé le design à l’étape 2, donc les retouches restent légères. J’inclus jusqu’à trois séries de modifications, et en pratique on n’en arrive jamais là.
 7. Les métadonnées, et quelques articles SEO préparés à l’avance.
 8. La connexion du nom de domaine, puis la mise en ligne.
 
-L’IA a raccourci mes délais. Pour Pilotech, la première demande est arrivée trois semaines après la mise en ligne. Si vous n’avez pas de photos, j’en génère ou j’en achète, mais vos propres photos de votre travail et de votre équipe font davantage pour la confiance. La méthode complète, avec ce que chaque étape attend de vous, est dans {{< a key="web-design-process" >}}les étapes de création d’un site internet{{< /a >}}.
+L’IA a raccourci mes délais, et les résultats peuvent venir vite : pour Pilotech, la première demande est arrivée trois semaines après la mise en ligne. Si vous n’avez pas de photos, j’en génère ou j’en achète, mais vos propres photos de votre travail et de votre équipe font davantage pour la confiance. La méthode complète, avec ce que chaque étape attend de vous, est dans {{< a key="web-design-process" >}}les étapes de création d’un site internet{{< /a >}}.
 
 ## Nom de domaine, hébergement et emails : comment tout se relie
 
@@ -183,17 +183,17 @@ Un site n’est pas terminé le jour de sa mise en ligne. Trois habitudes le gar
 
 ### L’entretenir
 
-Sur WordPress, le cœur, le thème et les extensions demandent des mises à jour chaque semaine. Sur Squarespace, la plateforme gère le logiciel, et vous gardez la main sur les contenus, les comptes et les renouvellements. {{< a key="website-maintenance" >}}La maintenance de site internet{{< /a >}} détaille ce qu’elle couvre et ce qu’elle coûte chaque année.
+Sur WordPress, il faut vérifier chaque semaine les mises à jour du cœur, du thème et des extensions. Sur Squarespace, la plateforme gère le logiciel, et vous gardez la main sur les contenus, les comptes et les renouvellements. {{< a key="website-maintenance" >}}La maintenance de site internet{{< /a >}} détaille ce qu’elle couvre et ce qu’elle coûte chaque année.
 
 ### Le sécuriser
 
-Activez la double authentification sur chaque compte, gardez des sauvegardes que vous avez déjà restaurées au moins une fois, et vérifiez que le domaine se renouvelle automatiquement. {{< a key="website-security-guide" >}}Sécuriser son site internet{{< /a >}} couvre la prévention et la remise en route, et si c’est un site WordPress qui pose problème, voici {{< a key="wordpress-site-hacked" >}}que faire dans les 24 premières heures après un piratage{{< /a >}}.
+Activez la double authentification sur chaque compte, gardez des sauvegardes et testez au moins une fois leur restauration, et vérifiez que le domaine se renouvelle automatiquement. {{< a key="website-security-guide" >}}Sécuriser son site internet{{< /a >}} couvre la prévention et la remise en route, et si c’est un site WordPress qui pose problème, voici {{< a key="wordpress-site-hacked" >}}que faire dans les 24 premières heures après un piratage{{< /a >}}.
 
-Eden Flats a fait appel à moi après le piratage de son site. Ce site n’avait jamais apporté le moindre contact, car la personne qui dirigeait l’entreprise avait trop à faire pour apprendre à faire du SEO correctement. J’ai créé un nouveau site, fait le référencement et l’identité visuelle, et des propriétaires ont commencé à appeler pour confier la gestion de leur bien : {{< a page="/projects/eden-flats" >}}le projet Eden Flats{{< /a >}} présente le site.
+Eden Flats a fait appel à moi après le piratage de son site. Ce site n’avait jamais apporté le moindre contact, car la personne qui dirigeait l’entreprise avait trop à faire pour se former sérieusement au SEO. J’ai créé un nouveau site, fait le référencement et l’identité visuelle, et des propriétaires ont commencé à appeler pour confier la gestion de leur bien : {{< a page="/projects/eden-flats" >}}le projet Eden Flats{{< /a >}} présente le site.
 
 ### Observer ce que font les visiteurs
 
-J’utilise Microsoft Clarity, qui est gratuit, pour voir où les visiteurs s’attardent, ce qu’ils sont venus chercher et ce qui les fait partir : le texte, une photo ou l’ergonomie. Ensuite, je corrige ce point précis. Depuis le 31 octobre 2025, Clarity exige un signal de consentement pour les visiteurs de l’EEE, du Royaume-Uni et de la Suisse : reliez-le à votre bandeau cookies, comme l’explique le {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}}. La CNIL prépare aussi une recommandation sur le rejeu de session, c’est-à-dire les enregistrements de visites ; à l’heure où j’écris, sa version finale n’est pas publiée.
+J’utilise Microsoft Clarity, qui est gratuit, pour voir où les visiteurs s’attardent, ce qu’ils sont venus chercher et ce qui les fait partir : le texte, une photo ou l’ergonomie. Ensuite, je corrige ce point précis. Depuis le 31 octobre 2025, Clarity exige un signal de consentement pour les visiteurs de l’EEE, du Royaume-Uni et de la Suisse : reliez-le à votre bandeau cookies, comme l’explique le {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}}. La CNIL prépare aussi une recommandation sur le rejeu de session, c’est-à-dire les enregistrements de visites : son projet, soumis à consultation jusqu’au 22 avril 2026, fait du consentement préalable la règle, et à l’heure où j’écris, la version finale n’est pas publiée.
 
 ## Le faire vous-même ou le confier ?
 

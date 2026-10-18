@@ -11,14 +11,14 @@ article_type: "tutorial"
 keywords: ["vérifier une liste d’emails", "vérification d’adresse email", "nettoyer une liste d’emails", "Reoon", "adresse catch-all", "rebond email"]
 summary: "Vérifier une liste d’emails, c’est tester chaque adresse avant la campagne, pour retirer les adresses mortes avant qu’elles ne rebondissent et n’abîment vos domaines d’envoi. Dans Reoon, importez le CSV sur la page Bulk Verification, revérifiez les « unknown » 15 à 30 minutes plus tard, puis téléchargez « Safe only », ou « Safe+Role » pour de petits commerces ; mettez les catch-all de côté et retirez le reste. Reoon est le seul achat AppSumo que j’utilise chaque jour."
 cover: "email-list-verification-reoon"
-cover_alt: "Une main qui coche les lignes d’une liste imprimée, à côté d’un bouclier coché et des mots Reoon 100k"
+cover_alt: "Une main qui écrit sur une liste imprimée, à côté d’un bouclier coché et des mots Reoon 100k"
 related: ["google-maps-scraper-outscraper", "instantly-campaign-setup", "cold-email-infrastructure", "appsumo-review", "cold-email-gdpr-uk-france"]
 services: ["cold-emailing"]
 faq:
   - q: "Une adresse vérifiée peut-elle quand même rebondir ?"
     a: "Oui. Une boîte peut fermer entre la vérification et l’envoi, et certains serveurs de messagerie ne répondent pas de la même façon d’un jour à l’autre. Reoon le dit lui-même dans [Why valid emails can still bounce](https://www.reoon.com/articles/why-valid-emails-can-still-bounce/) (en anglais). La vérification réduit le risque, et envoyer peu après le garde bas."
   - q: "À quelle fréquence faut-il vérifier sa liste d’emails ?"
-    a: "Vérifiez chaque nouvelle liste avant son premier envoi, et revérifiez une ancienne liste avant de la réutiliser : les gens changent de poste, les entreprises ferment ou changent de domaine. Ne vérifiez que les adresses auxquelles vous allez écrire, puisque chaque contrôle consomme un crédit."
+    a: "Vérifiez chaque nouvelle liste avant son premier envoi, et revérifiez une ancienne liste avant de la réutiliser : les gens changent de poste, les entreprises ferment ou changent de domaine. Ne vérifiez que les adresses auxquelles vous allez écrire, puisque chaque résultat, sauf « unknown », consomme un crédit."
   - q: "Peut-on confier une liste de prospects à un vérificateur d’emails sans enfreindre le RGPD ?"
     a: "Oui, si la campagne elle-même repose sur une base légale. Une adresse professionnelle nominative est une donnée personnelle, et le vérificateur la traite pour votre compte, comme sous-traitant : lisez sa politique de confidentialité et ses conditions de sous-traitance avant le premier import, et ne lui envoyez que les colonnes utiles à la campagne."
   - q: "Quelle différence entre validation et vérification d’une adresse email ?"
@@ -33,11 +33,11 @@ Ce tutoriel suit la vérification en masse de Reoon, du fichier que vous importe
 
 ## Vérifier une liste d’emails : ce que l’outil contrôle, et pourquoi les rebonds coûtent cher
 
-Un vérificateur n’envoie jamais d’email. Il teste chaque adresse en plusieurs couches :
+Un vérificateur n’envoie jamais d’email. Il contrôle chaque adresse à plusieurs niveaux :
 
 1. **Le format** : l’adresse est bien formée, sans faute de frappe comme une virgule à la place d’un point.
 2. **Le domaine** : il existe et possède des serveurs de messagerie (enregistrements MX) qui reçoivent les emails.
-3. **La boîte** : le vérificateur demande au serveur de réception s’il accepterait un message pour cette adresse, puis raccroche avant que quoi que ce soit ne parte.
+3. **La boîte** : le vérificateur demande au serveur de réception s’il accepterait un message pour cette adresse, puis coupe la connexion avant tout envoi.
 4. **Les signaux de risque** : un service d’adresses jetables, une adresse générique comme contact@, un domaine qui accepte toutes les adresses, un piège à spam connu.
 
 ### Rebond définitif, rebond temporaire
@@ -46,7 +46,7 @@ Un rebond définitif (hard bounce) est un refus permanent : la boîte, ou le do
 
 ### Pourquoi les rebonds abîment un domaine d’envoi
 
-Gmail, Outlook et les autres messageries jugent chaque expéditeur sur son comportement. Un expéditeur qui écrit sans cesse à des adresses inexistantes ressemble à quelqu’un qui utilise une liste ancienne ou achetée, exactement comme un spammeur. La réputation de vos domaines et de vos boîtes d’envoi baisse, et vos emails suivants arrivent en spam, y compris ceux adressés à des adresses parfaitement valides.
+Gmail, Outlook et les autres messageries jugent chaque expéditeur sur son comportement. Un expéditeur qui écrit sans cesse à des adresses inexistantes ressemble à quelqu’un qui utilise une liste ancienne ou achetée, la méthode habituelle des spammeurs. La réputation de vos domaines et de vos boîtes d’envoi baisse, et vos emails suivants arrivent en spam, y compris ceux adressés à des adresses parfaitement valides.
 
 Les pièges à spam sont pires. Ce sont des adresses gardées uniquement pour repérer les expéditeurs négligents, et en toucher peut valoir à un domaine ou à un serveur d’envoi une place sur une liste noire. C’est pour cela que le cold emailing part de domaines secondaires qui protègent votre domaine principal, comme l’explique mon guide de l’{{< a key="cold-email-infrastructure" >}}infrastructure de cold emailing{{< /a >}}, et qu’une liste se vérifie avant de les atteindre.
 
@@ -54,11 +54,11 @@ Les pièges à spam sont pires. Ce sont des adresses gardées uniquement pour re
 
 Il vous faut trois choses :
 
-- **Un compte Reoon.** La création est gratuite ; les vérifications consomment des crédits.
-- **Assez de crédits pour toute la liste.** Reoon compte des crédits quotidiens (daily) et des crédits immédiats (instant), et l’import échoue si la liste contient plus d’adresses que vos crédits restants.
+- **Un compte Reoon.** La création est gratuite et sans carte bancaire. Au moment où j’écris, chaque compte reçoit 20 crédits quotidiens, plus 100 crédits immédiats à l’inscription : de quoi tester les étapes ci-dessous sur un petit fichier.
+- **Assez de crédits pour toute la liste.** Reoon en distingue deux sortes : les crédits quotidiens (daily credits) se renouvellent chaque jour mais ne se cumulent pas, tandis que les crédits immédiats (instant credits) forment un stock acheté une fois, sans date d’expiration. Les crédits quotidiens partent en premier.
 - **La liste elle-même**, en fichier CSV (adresses et autres colonnes) ou TXT (adresses seules).
 
-La provenance de la liste vous regarde. Si vos clients sont des entreprises locales, mon tutoriel pour {{< a key="google-maps-scraper-outscraper" >}}scraper Google Maps{{< /a >}} montre comment je les trouve avec Outscraper. D’après mes chiffres, cela revient à environ 0,003 € par contact, et à environ 0,006 € par contact actif et qualifié une fois la vérification passée. Outscraper ne trouve que les entreprises qui ont une fiche Google, en revanche : pour les autres, il vous faudra une autre source. MLK Leadhunters passe en revue les possibilités, ainsi que la liste d’exclusion dont vous aurez besoin à l’étape 6, dans [construire une liste de cold email](https://mlkleadhunters.com/fr/blog/building-a-cold-email-list/).
+Le choix de la source vous appartient. Si vos clients sont des entreprises locales, mon tutoriel pour {{< a key="google-maps-scraper-outscraper" >}}scraper Google Maps{{< /a >}} montre comment je les trouve avec Outscraper. D’après mes chiffres, cela revient à environ 0,003 € par contact, et à environ 0,006 € par contact actif et qualifié une fois la vérification passée. Outscraper ne trouve que les entreprises qui ont une fiche Google, en revanche : pour les autres, il vous faudra une autre source. MLK Leadhunters passe en revue les possibilités dans son article [Construire une liste de cold email](https://mlkleadhunters.com/fr/blog/building-a-cold-email-list/), qui présente aussi la liste d’exclusion dont vous aurez besoin à l’étape 6.
 
 ## Étape 1 : préparer le fichier CSV
 
@@ -83,7 +83,7 @@ Excel en français sépare souvent les colonnes d’un CSV par des points-virgul
 
 1. Connectez-vous à Reoon Email Verifier sur emailverifier.reoon.com et ouvrez la page **Bulk Verification**.
 2. Importez votre fichier .csv ou .txt, ou collez les adresses. Un fichier peut peser jusqu’à 50 Mo.
-3. Si vous le souhaitez, cochez l’option qui supprime les lignes en double. Elle ne retire que les lignes identiques sur toutes les colonnes : deux lignes avec la même adresse et un prénom différent restent toutes les deux, alors supprimez-les d’abord dans le tableur.
+3. Si vous le souhaitez, cochez l’option qui supprime les lignes en double. Elle ne retire que les lignes identiques sur toutes les colonnes : deux lignes avec la même adresse et un prénom différent restent toutes les deux, alors dédoublonnez d’abord dans le tableur.
 4. Lancez la vérification.
 
 {{< callout type="warning" >}}**Vérifiez vos crédits avant l’import.** Si la liste contient plus d’adresses que vos crédits quotidiens et immédiats réunis, l’import échoue.{{< /callout >}}
@@ -116,13 +116,13 @@ Un domaine catch-all répond oui pour toutes les adresses, réelles ou non : au
 
 ### Les adresses génériques
 
-Une adresse générique arrive à la personne qui gère la boîte partagée. Pour une boulangerie, un cabinet dentaire ou un artisan, contact@ est souvent la seule adresse publique, et c’est souvent le gérant qui la lit : dans ce cas, gardez-les. En France, la CNIL considère d’ailleurs ces adresses génériques comme des coordonnées de l’entreprise, et non d’une personne. Si vous visez un décideur précis dans une entreprise plus grande, retirez-les : la personne pour qui vous avez écrit l’email risque de ne jamais le voir.
+Une adresse générique arrive à la personne qui gère la boîte partagée. Pour une boulangerie, un cabinet dentaire ou un artisan, contact@ est souvent la seule adresse publique, et c’est en général le gérant qui la lit : dans ce cas, gardez-les. En France, la CNIL considère d’ailleurs ces adresses génériques comme des coordonnées de l’entreprise, et non d’une personne. Si vous visez un décideur précis dans une entreprise plus grande, retirez-les : la personne pour qui vous avez écrit l’email risque de ne jamais le voir.
 
 {{< screenshot id="email-list-verification-reoon-03" alt="Une tâche de vérification en masse terminée dans Reoon, avec le nombre d’adresses pour chaque statut" >}}
 
 ## Étape 4 : revérifier les adresses inconnues
 
-« Unknown » n’est pas un verdict : le serveur de réception n’a simplement pas donné de réponse claire au moment du contrôle. Reoon conseille de télécharger ce segment à part, d’attendre 15 à 30 minutes et de le vérifier de nouveau, et beaucoup d’adresses obtiennent une réponse claire au second passage. Reoon ne facture pas les résultats « unknown » : le premier essai ne vous a donc rien coûté.
+« Unknown » n’est pas un verdict : le serveur de réception n’a simplement pas donné de réponse claire au moment du contrôle. Reoon conseille de télécharger ce segment à part, d’attendre 15 à 30 minutes et de le vérifier de nouveau, car le serveur peut donner une réponse claire la seconde fois. Reoon ne facture pas les résultats « unknown » : le premier essai ne vous a donc rien coûté.
 
 Ce qui reste inconnu après le second passage rejoint les catch-all : de côté, hors de la liste principale.
 
@@ -137,7 +137,7 @@ Reoon propose quatre téléchargements, et chacun revient avec vos colonnes d’
 | Safe only | Les adresses sûres | Des décideurs nommés ; le fichier le plus propre pour un premier envoi |
 | Safe+Role | Les adresses sûres et génériques | Des commerces et artisans dont l’adresse publique est contact@ ou info@ |
 | Safe+Role+Catch-All | Les mêmes, plus les catch-all | Seulement si vous avez décidé d’écrire aux catch-all, idéalement dans une campagne à part |
-| Others | Tout le reste | Votre liste d’exclusion, jamais une campagne |
+| Others | Tout le reste : unknown, inbox full et les adresses mortes | Jamais une campagne : les « unknown » repartent pour un second contrôle (étape 4), les adresses mortes dans votre liste d’exclusion (étape 6) |
 
 Pour une première campagne, **« Safe only » ou « Safe+Role » est le choix raisonnable**. Vous pouvez aussi télécharger tous les résultats d’un coup, ou une seule catégorie.
 
@@ -147,16 +147,18 @@ Pour une première campagne, **« Safe only » ou « Safe+Role » est le cho
 
 Deux dernières choses avant de quitter Reoon :
 
-1. **Ajoutez les adresses rejetées à votre liste d’exclusion**, celle des adresses auxquelles vous n’écrivez jamais. Les résultats invalid, disabled, disposable et spamtrap y vont, à côté des personnes qui ont demandé à ne plus être contactées (la « liste repoussoir » dont parle la CNIL). Comparez chaque nouvelle liste avec elle avant la vérification, pour que les adresses mortes ne reviennent pas avec le prochain import et ne consomment pas de crédits une deuxième fois.
+1. **Ajoutez les adresses rejetées à votre liste d’exclusion**, celle des adresses auxquelles vous n’écrivez jamais. Les résultats invalid, disabled, disposable et spamtrap y vont, à côté des personnes qui ont demandé à ne plus être contactées (ce qu’on appelle souvent une « liste repoussoir »). Comparez chaque nouvelle liste avec elle avant la vérification, pour que les adresses mortes ne reviennent pas avec le prochain import et ne consomment pas de crédits une deuxième fois.
 2. **Supprimez la tâche** une fois le fichier vérifié chargé dans votre outil d’envoi. Reoon efface de toute façon les fichiers importés et les résultats de ses serveurs au bout de 15 jours, et vous pouvez les supprimer plus tôt depuis la page **Results**. Les contacts nominatifs sont des données personnelles, et le RGPD vous demande de ne pas les garder plus longtemps que nécessaire : mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}} détaille le reste des règles.
 
 {{< screenshot id="email-list-verification-reoon-06" alt="La page Results de Reoon avec l’option pour supprimer une tâche de vérification terminée" >}}
 
 ## Combien coûte Reoon, et les alternatives
 
-Reoon a un bon prix pour un vérificateur, et je l’ai eu grâce à un bon deal sur AppSumo. D’après mes chiffres de l’époque, le premier palier coûtait environ 70 €, payés une fois, pour 100 000 vérifications plus 500 par jour. **C’est largement suffisant pour une petite entreprise.** Les paliers supérieurs montaient jusqu’à 700 000 vérifications, et vous pouvez toujours racheter des crédits si besoin.
+Reoon est bien placé en prix pour un vérificateur, et je l’ai eu grâce à un deal avantageux sur AppSumo. D’après mes chiffres de l’époque, le premier palier coûtait environ 70 €, payés en une fois, pour 100 000 vérifications plus 500 par jour. **C’est largement suffisant pour une petite entreprise.** Les paliers supérieurs montaient jusqu’à 700 000 vérifications, et vous pouvez toujours racheter des crédits si besoin.
 
-Les deals changent et se terminent : comparez l’offre AppSumo du moment avec [les tarifs de Reoon](https://www.reoon.com/email-verifier/) avant d’acheter. Lisez aussi mon {{< a key="appsumo-review" >}}avis sur AppSumo{{< /a >}} : le site fonctionne un peu comme un casino, et Reoon est chez moi l’exception, pas la règle. Un deal à vie s’arrête si l’éditeur ferme, mais un vérificateur se remplace facilement : un autre pourrait contrôler votre prochaine liste le jour même.
+Les deals changent et se terminent : comparez l’offre AppSumo du moment avec [les tarifs de Reoon](https://www.reoon.com/email-verifier/) avant d’acheter. Au moment où j’écris (octobre 2026), Reoon vend ses crédits immédiats sans abonnement, à partir d’environ 10,60 € (12 $) les 10 000, et ses crédits quotidiens par abonnement, à partir d’environ 8 € (9 $) par mois pour 500 par jour. Si vous ne vérifiez une liste que de temps en temps, les crédits immédiats vous conviendront mieux, puisque les crédits quotidiens non utilisés sont perdus.
+
+Lisez aussi mon {{< a key="appsumo-review" >}}avis sur AppSumo{{< /a >}} : le site fonctionne un peu comme un casino, et Reoon est chez moi l’exception, pas la règle. Un deal à vie s’arrête si l’éditeur ferme, mais un vérificateur se remplace facilement : un autre pourrait contrôler votre prochaine liste le jour même.
 
 ZeroBounce et NeverBounce sont deux vérificateurs connus qui font le même travail. Je ne les note pas ici : comparez leurs prix avec la taille de vos listes et la fréquence de vos envois. Chaque outil nomme ses statuts à sa façon, mais la logique de ce tutoriel reste la même : garder les adresses sûres, mettre les incertaines de côté, retirer le reste.
 

@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:49:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["hébergement Spaceship", "hébergement web Spaceship", "Spaceship hébergement WordPress", "EasyWP Spaceship", "Starlight Hyperlift", "Spaceship cPanel"]
-summary: "L’hébergement Spaceship compte cinq produits : Web Hosting, un mutualisé sous cPanel (offres Essential, Pro et Supreme), EasyWP pour WordPress infogéré, le créateur de site par IA Alf Website Studio, et Starlight Hyperlift et Virtual Machines pour les applications. Pour une petite entreprise, commencez par Essential : 19,88 $ (environ 17 €) la première année, puis 28,88 $ (environ 25 €), avec 30 jours d’essai gratuit, le SSL offert et cinq domaines. Un site Squarespace n’en a pas besoin."
+summary: "L’hébergement Spaceship compte cinq produits : l’hébergement mutualisé Web Hosting (Essential, Pro et Supreme), EasyWP pour WordPress infogéré, le créateur de site par IA Alf Website Studio, et Hyperlift et Virtual Machines pour les applications. Pour une petite entreprise, commencez par Essential : 19,88 $ (environ 17 €) la première année, puis 28,88 $ (environ 25 €), avec 30 jours d’essai, le SSL offert et cinq domaines. Un site Squarespace n’en a pas besoin."
 cover: "spaceship-hosting"
 cover_alt: "Les mots Spaceship hosting à côté d’une étoile entourée d’orbites, derrière un verre cannelé"
 related: ["spaceship-vs-namecheap", "build-website-with-ai", "spaceship-domain-dns-tutorial", "web-hosting-comparison", "spacemail-setup"]
@@ -69,7 +69,7 @@ Avec un hébergement mutualisé, votre site partage un serveur avec ceux d’aut
 
 Ce sont les prix pour un an affichés sur [la page Web Hosting de Spaceship](https://www.spaceship.com/web-hosting/) (en anglais) au moment où j’écris (octobre 2026), après l’essai gratuit de 30 jours. Un engagement de deux ans fait baisser le prix mensuel ; seul compte le total affiché au paiement.
 
-Pour le site d’une entreprise, **Essential suffit** : 20 Go laissent largement la place au site vitrine d’un artisan ou d’un cabinet, ou à un petit site WordPress, et cinq domaines laissent la place d’une seconde marque ou d’une landing page séparée. Pro se justifie au-delà de cinq domaines, ou quand 20 Go deviennent justes, par exemple pour un site WordPress chargé de photos accumulées au fil des ans. Le stockage non plafonné de Supreme sert surtout à qui héberge beaucoup de sites lourds, comme un indépendant qui héberge les sites de ses clients.
+Pour le site d’une entreprise, **Essential suffit** : 20 Go laissent largement la place au site vitrine d’un artisan ou d’un cabinet, ou à un petit site WordPress, et avec cinq domaines, vous pouvez ajouter une seconde marque ou une landing page séparée. Pro se justifie au-delà de cinq domaines, ou quand 20 Go deviennent justes, par exemple pour un site WordPress chargé de photos accumulées au fil des ans. Le stockage non plafonné de Supreme sert surtout à qui héberge beaucoup de sites lourds, comme un indépendant qui héberge les sites de ses clients.
 
 Le renouvellement coûte plus cher que la première année, comme presque partout : environ 45 % de plus pour Essential, 69 % pour Pro et 77 % pour Supreme. On reste loin des prix triplés au renouvellement que l’on voit chez Hostinger ou GoDaddy, mais lisez la ligne du renouvellement avant de vous engager sur une longue durée.
 

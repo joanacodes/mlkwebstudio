@@ -18,7 +18,7 @@ faq:
   - q: "Is it a cold call if a prospect phones me after reading my email?"
     a: "No. A cold call is one you make without being asked. When a prospect rings the number in your email, they start the conversation, so the rules on making sales calls do not come into it; the email itself still has to follow the email rules."
   - q: "Can I phone a prospect who asked me to stop emailing?"
-    a: "No. Under UK GDPR and the EU GDPR, an objection to direct marketing is absolute, so treat it as covering every channel: the person goes on your do-not-contact list for calls as well as emails."
+    a: "Treat it as a no. Under UK GDPR and the EU GDPR, an objection to direct marketing is absolute, and the safe reading is that it covers every channel: put the person on your do-not-contact list for calls as well as emails."
   - q: "What happens if I call numbers registered with the TPS or CTPS?"
     a: "The ICO can fine you. In 2023 it fined one company £130,000 for calls to numbers on the TPS, and another £120,000 for calls, mostly to businesses, to numbers on the TPS and CTPS. Since February 2026, PECR fines can reach £17.5 million or 4% of worldwide turnover, whichever is higher."
   - q: "Do text messages follow the rules for calls or for emails?"
@@ -49,27 +49,27 @@ Side by side, on the points that decide most choices:
 | B2B rules in France | Allowed when the call concerns their work, with a simple way to object | The same principle, under the CNIL's email rules |
 | Best for | A short list of valuable accounts, offers that need explaining | Buyers you can list by the hundred, owners too busy to take calls |
 
-The 30-a-day figure is what Instantly's own guides suggest for one mailbox: for more volume, you add mailboxes rather than hours. Neither column wins on every line, so the real question is which channel to start with, and how to make the two work together.
+The 30-a-day figure is what Instantly's own guides suggest for one mailbox; for more volume, you add mailboxes instead of pushing each one harder. Neither column wins on every line, so the real question is which channel to start with, and how to make the two work together.
 
 ## Cold calling: a live conversation, one call at a time
 
 Cold calling's strength is the conversation. When the right person picks up, you hear their objection and answer it on the spot, and within a minute you know whether there is any interest, and if not, why. A morning on the phone also tells you how your offer sounds to the people you want to sell to, sooner than any email test would.
 
-It suits a short list of valuable accounts, where every conversation counts, and offers that need explaining before anyone will consider them. If you are comfortable on the phone and have fifty businesses you would love to work with, you need no infrastructure at all: a free afternoon and their numbers are enough to start.
+It suits a short list of valuable accounts, where every conversation counts, and offers that need explaining before anyone will consider them. It also needs no infrastructure: a phone and the right numbers are enough to start.
 
 Its limits come from the same place:
 
 - It interrupts. You call when it suits you, not them, and a busy owner in a meeting or on a site visit will not pick up, or will pick up distracted.
 - You often reach the wrong person. The number you can find is usually a switchboard, a reception desk or a voicemail.
 - It runs one conversation at a time. Even with a dialler, one person talks to one prospect at a time, so the hours in the day cap the volume.
-- It wears people down. A day of refusals takes skill and a thick skin, and both run out.
+- It wears people down. A day of refusals takes a thick skin, and few people keep it up for weeks on end.
 - In the UK, it needs screening. Numbers go through the TPS and CTPS registers before you dial (more on that below).
 
 ## Cold emailing: many prospects at once, answered when they choose
 
 Cold emailing turns the timing round: the prospect reads your message when it suits them. Sending runs in parallel across several mailboxes, so a small team can write to hundreds of the right businesses a month without spending its days on the phone.
 
-It is also the channel you can improve on paper. I A/B test the emails, and responses usually grow over time, because I learn which copy works and which does not. On my campaigns, the first result comes within 36 hours of the first send.
+It is also the channel you can improve by testing. I A/B test the emails, and responses usually grow over time, because I learn which copy works and which does not. On my campaigns, the first result comes within 36 hours of the first send.
 
 Its limits are real too:
 
@@ -91,7 +91,7 @@ The surprise was how people answered. Many prospects, architects most of all, di
 - A call is like ticking off a to-do list. One call and the matter is dealt with, with no thread to follow.
 - People like real human contact. Talking to the person behind the offer feels more natural than writing to a stranger.
 
-We did not fight it: we made calling even easier in the sequences. Written replies keep going to the founder, who answers them himself, since I do everything in a campaign except the replies.
+I did not fight it: I made calling even easier in the sequences. Written replies keep going to the founder, who answers them himself, since I do everything in a campaign except the replies.
 
 So here is my answer to cold calling vs cold emailing. **Let the email do the cold part, and let the prospect make the call.** Whoever rings has read your offer and chosen to talk about it, at a moment that suits them, so the conversation starts warm. The full story, with the set-up of the campaign, is in my {{< a key="architects-cold-email-case-study" >}}cold email case study{{< /a >}}.
 
@@ -103,7 +103,7 @@ So here is my answer to cold calling vs cold emailing. **Let the email do the co
 
 Calls fall under regulation 21 of PECR, the Privacy and Electronic Communications Regulations. You may make live sales calls to businesses without their consent, on three conditions:
 
-1. Do not call a number registered with the Telephone Preference Service (TPS), the register for individuals that sole traders usually join, or with the Corporate TPS (CTPS), the register for companies, unless that person or business has told you specifically that they are happy to take your calls.
+1. Do not call a number registered with the Telephone Preference Service (TPS), the register for individuals, which is also where sole traders sign up, or with the Corporate TPS (CTPS), the register for companies, unless that person or business has told you specifically that they are happy to take your calls.
 2. Screen against your own do-not-call list as well, so that nobody who said no hears from you again.
 3. Say who is calling, and display a number they can call back.
 
@@ -113,7 +113,7 @@ Emails fall under regulation 22. You can email limited companies and LLPs withou
 
 ### In France
 
-The CNIL allows phone prospecting of professionals when the call concerns their work; its own example is software offered to a company's IT director. The person must have been told their number could be used for prospecting and be able to object simply and free of charge, including when you got their details from a third party. Each call must say who is calling and let them refuse further calls. The CNIL's page on [phone prospecting](https://www.cnil.fr/fr/prospection-commerciale-par-telephone-hors-automate-dappel-quelles-sont-les-regles) (in French) has the detail.
+The CNIL allows phone prospecting of professionals when the call concerns their work; its own example is software offered to a company's IT director. The person must have been told their number could be used for prospecting and be able to object simply and free of charge, including when you got their details from a third party. On the call, say who you are and remind the person they can refuse further calls; if they do, add them to your do-not-call list. The CNIL's page on [phone prospecting](https://www.cnil.fr/fr/prospection-commerciale-par-telephone-hors-automate-dappel-quelles-sont-les-regles) (in French) has the detail.
 
 The rules for calls to consumers have changed. Since 11 August 2026, a business may no longer phone a consumer to sell them something without their prior consent, under loi n° 2025-594 of 30 June 2025, as the [DGCCRF explains](https://www.economie.gouv.fr/dgccrf/actualites-dgccrf/le-demarchage-telephonique-desormais-interdit-si-vous-ny-avez-pas-consenti) (in French). The rule protects consumers: an architect called about a project stays under the CNIL's rules for professionals.
 
@@ -121,7 +121,7 @@ Emails follow the same logic as calls to professionals: no prior consent when th
 
 ## How to make the email bring the call
 
-The hybrid only works if calling is easy and someone answers. This is how I set it up.
+The hybrid only works if calling is easy and someone answers. The first four steps are how I write the emails; the last three are for whoever takes the calls.
 
 1. **Write the number in the email.** In full, in the body and under the name, with a plain invitation to call. No link and no HTML: I send plain text only, because it protects delivery.
 2. **Sign with the name of the person who answers.** Pilotech's emails are signed by the founder, with his own number, so a prospect who calls reaches the person named in the email, not a switchboard.

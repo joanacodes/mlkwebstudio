@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:39:00+02:00
 category: "cold-emailing"
 article_type: "guide"
 keywords: ["cold email examples", "cold email templates", "B2B cold email examples", "short cold email", "first cold email", "cold email subject lines"]
-summary: "A first cold email that gets calls is three lines at most: who is writing, one concrete offer, and an invitation to call with the phone number written in the email. It has no links, no attachments and no HTML, a real person signs it, and a short footer says who is sending and how to opt out with one reply. The eight examples below are templates for different trades, built on the structure I use in my clients' campaigns."
+summary: "A first cold email that gets calls is three lines at most: who is writing, one concrete offer, and an invitation to call with the phone number written in the email. It has no links, no attachments and no HTML, a real person signs it, and a short footer says who is sending and how to opt out with one reply. The eight examples below are templates for different trades, built on the structure I use in my campaigns."
 cover: "cold-email-examples"
 cover_alt: "A hand writing with a pen beside stacked envelopes, the front one showing three lines, and the words Email #1"
 related: ["cold-email-follow-up", "plain-text-cold-emails", "architects-cold-email-case-study", "cold-calling-vs-cold-emailing", "b2b-cold-emailing-guide"]
@@ -27,15 +27,15 @@ faq:
     a: "I would not. Cold email always carries some risk for the reputation of the domain it is sent from, so send from secondary domains and keep your main address for clients, quotes and invoices. MLK Leadhunters explains why in [never send cold emails from your main domain](https://mlkleadhunters.com/blog/never-send-from-your-main-domain/)."
 ---
 
-These cold email examples are all first emails, and none of them runs to more than three lines. Each one says who is writing, makes one concrete offer and asks the reader to call, with the phone number written in the email. There are no links, no attachments and no HTML: plain text that reads like one person writing to another.
+These cold email examples are all first emails of three lines or fewer, in plain text that reads like one person writing to another, and each one asks the reader to call a phone number written in the email.
 
-The structure is the one I use in my clients' campaigns, including the emails that brought Pilotech, an air conditioning installer near Paris, 15 new clients in a year. Many of the architects on that list called instead of replying, as my {{< a key="architects-cold-email-case-study" >}}cold email case study{{< /a >}} explains.
+The structure is the one I use in my campaigns, including the emails that brought Pilotech, an air conditioning installer near Paris, 15 new clients in a year. Many of the architects on that list called instead of replying, as my {{< a key="architects-cold-email-case-study" >}}cold email case study{{< /a >}} explains.
 
-The emails below are templates I wrote for this article, for trades chosen to show the range. They are not emails from a client's campaign. Copy the structure, then put your own business in the brackets. This article covers the first email only; the whole process, from the list to the replies, is in my {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}}.
+The emails below are templates I wrote for this article, for trades chosen to show the range. They are not emails from a client's campaign. This article covers the first email only; the whole process, from the list to the replies, is in my {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}}.
 
 ## How a three-line first email is built
 
-My rule for a first cold email is three lines at most: an introduction and a call to action. People hate receiving long emails from strangers they never asked for anything, so every extra line is one more reason to stop reading. Short and sharp works.
+My rule for a first cold email is three lines at most: an introduction and a call to action, with one offer between them. People hate receiving long emails from strangers they never asked for anything, so every extra line is one more reason to stop reading. Short and sharp works.
 
 Each of the three lines does one job:
 
@@ -65,7 +65,7 @@ MLK Leadhunters' guide to [writing a cold email that gets replies](https://mlkle
 
 ### The phone number is the call to action
 
-Many prospects would rather call than write back. A call is faster than a written reply, it does not get buried under the day's emails, and it ticks an item off the to-do list in one go. People also like real human contact. I compare the two channels in {{< a key="cold-calling-vs-cold-emailing" >}}cold calling vs cold emailing{{< /a >}}.
+Many prospects would rather call than write back. A call is faster than a written reply, it does not get buried under the day's emails, and it ticks an item off the to-do list in one go. People also like real human contact. I compare the two channels in my article on {{< a key="cold-calling-vs-cold-emailing" >}}cold calling vs cold emailing{{< /a >}}.
 
 {{< callout type="tip" >}}**Read it on your phone.** Send the email to yourself and open it on a mobile: the number should be visible without scrolling, and tapping it should start a call.{{< /callout >}}
 
@@ -111,18 +111,18 @@ What to cut, and why:
 - The subject says nothing about the reader, and "Dear Sir or Madam" tells them they are on a list.
 - The first lines are about the sender, not about what the reader would get.
 - A list of services and no offer: the reader has to work out what applies to them.
-- Two links, an attachment and a logo. I never put links in a first email, a logo alone turns plain text into HTML, and the brochure is the catalogue on your website, so leave it there.
+- Two links, an attachment and a logo. I never put links in a cold email, a logo alone turns plain text into HTML, and the brochure is the catalogue on your website, so leave it there.
 - The call to action hands the work to the reader: open a calendar, find a slot, book it.
 
 The same business, writing to shop owners, in three lines:
 
 ```text
-Subject: Lighting for your shops in Leeds
+Subject: Lighting for your shop in Leeds
 
 Hello [first name],
 
 I'm [name] from [Company], an electrical contractor in Leeds that works for shops and restaurants.
-We replace shop lighting overnight, so you never close for a day of works.
+We replace shop lighting overnight, so you never lose a day's trading.
 If your lighting is due for a change, call me on [mobile number]; recent projects are on our website.
 
 [First name Last name], [Company] Ltd
@@ -138,7 +138,7 @@ Your sending tool has to follow the same rules. In Instantly, the tool I use, th
 
 Each example follows the same structure. Fill the brackets, change the town, and rewrite any line that is not true for your business. The subject lines are suggestions, not tested winners, and [Footer] stands for the footer shown in the skeleton above.
 
-{{< callout type="warning" >}}These examples are written for UK businesses emailing other companies. **A sole trader, or a partnership outside Scotland, counts as an individual** and must have agreed to hear from you first. Check the legal form of each business before it goes on your list.{{< /callout >}}
+{{< callout type="warning" >}}These examples are written for UK businesses emailing other companies. **A sole trader, or a partnership other than an LLP or a Scottish partnership, counts as an individual** and must have agreed to hear from you first. The [ICO](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to treat an address as an individual's when you cannot tell, so check the legal form of each business before it goes on your list.{{< /callout >}}
 
 ### 1. A joinery workshop writing to architects
 
@@ -282,11 +282,11 @@ If your IT gives you headaches, call me on [mobile number]; I will tell you hone
 [Footer]
 ```
 
-Working for one kind of client makes the first line credible: the reader recognises their own world in it. The last line is an honest offer, and an honest offer is easier to pick up the phone for than a pitch.
+Working for one kind of client makes the first line credible: the reader recognises their own world in it. The last line is an honest offer, and an honest offer is easier to pick up the phone for than a pitch. A practice owned by a sole trader or a partnership falls under the warning above, so check each one before it goes on your list.
 
 ## Subject lines and personal details: keep them honest
 
-A subject line has one job: to tell the reader what the email is about, in their words. A few words about them or the offer are enough, such as "Your office move" or "Linen for [hotel name]". Leave out capitals, exclamation marks and anything the email does not deliver.
+A subject line has one job: to tell the reader what the email is about, in their words. A few words about them or the offer are enough, such as "Your office move" or "Linen for [hotel name]". Leave out words in capitals, exclamation marks and anything the email does not deliver.
 
 Personalisation works the same way. One detail that shows you chose this reader beats a paragraph of compliments: the town they work in, the kind of project they take on, an opening they announced. Put it inside line one or two, so it never becomes a fourth line. Your sending tool fills the brackets from the columns of your list, so any detail you want in the email has to be a column first.
 

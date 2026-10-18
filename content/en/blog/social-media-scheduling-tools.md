@@ -1,7 +1,7 @@
 ---
 title: "Social media scheduling tools for a small business: Metricool, Postly or Buffer"
 seo_title: "Social media scheduling tools: Metricool vs Postly vs Buffer"
-description: "Social media scheduling tools compared: Metricool, Postly and Buffer, with October 2026 prices, free plans, and the free schedulers you may already have."
+description: "Social media scheduling tools compared for a small business: Metricool, Postly and Buffer prices (October 2026), free plans and the networks' own schedulers."
 slug: "social-media-scheduling-tools"
 translationKey: "social-media-scheduling-tools"
 date: 2026-10-17T09:20:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:20:00+02:00
 category: "tools"
 article_type: "comparison"
 keywords: ["social media scheduling tools", "Metricool vs Postly", "Metricool vs Buffer", "Metricool pricing", "Postly pricing", "free social media scheduler"]
-summary: "Social media scheduling tools publish the posts you prepared in one sitting, at the times you chose. For a small business, Metricool is the most complete: it schedules on every major network, shows what successful competitors post and tracks your growth, and its first paid tier covers five brands for about £15 ($20) a month billed yearly (October 2026). Postly is good enough to get going and also posts to Google Business Profile and WordPress; Buffer charges per channel."
+summary: "Social media scheduling tools publish the posts you prepared in one sitting, at the times you chose. For a small business, Metricool is the most complete: it schedules on every major network, shows what successful competitors post and tracks your growth, with a free plan and five brands for about £15 ($20) a month billed yearly (October 2026). Postly is good enough to get going and also posts to Google Business Profile and WordPress; Buffer charges per channel, from about £3.80 ($5) a month each."
 cover: "social-media-scheduling-tools"
 cover_alt: "A monthly calendar of scheduled social media posts, titled Metricool vs Postly"
 related: ["social-media-small-business", "pinterest-for-business", "youtube-shorts-for-business", "google-business-profile-posts", "small-business-tools-guide"]
@@ -20,7 +20,7 @@ faq:
   - q: "Can several people work on the same posting calendar?"
     a: "Yes, on the right plan. At the time of writing, Postly's Pro plan includes unlimited team members, Metricool keeps team management and post approval for its Advanced plan, and Buffer has a Team plan for shared work. Check the details on each pricing page before you invite anyone."
   - q: "Is there a Postly lifetime deal on AppSumo?"
-    a: "AppSumo deals come and go. Look when you are ready to buy, compare any deal with Postly's own prices, and read the refund window in the deal's terms: [AppSumo](https://help.appsumo.com/article/34-what-is-a-lifetime-deal) gives 60 days on most software deals."
+    a: "AppSumo has listed a Postly deal reserved for members of AppSumo Plus, its paid membership, but deals come and go. When you are ready to buy, compare any deal with Postly's own prices and read the refund window in the deal's terms: [AppSumo](https://help.appsumo.com/article/34-what-is-a-lifetime-deal) gives 60 days on most software deals."
   - q: "How do I switch scheduling tools without losing posts?"
     a: "Switch at the end of a month. Let the posts already scheduled go out from the old tool, prepare the next month in the new one, and cancel the old subscription once its queue is empty. Posts already published stay on each network."
   - q: "Can I schedule LinkedIn posts for free?"
@@ -29,9 +29,9 @@ faq:
 
 Social media scheduling tools let you prepare a week or a month of posts in one sitting, then publish them at the times you chose without opening each app. For a small business that posts between two jobs, that is often the difference between an account that goes quiet after three weeks and one that keeps going.
 
-I am not a social media manager, and the studio does not sell social media management. My advice on these tools is short all the same: Metricool is really good, Postly is good enough to get you going, and the right pick depends on your needs. Buffer, which many people already know, is the general alternative, and I compare it here on its published plans.
+I am not a social media manager, and the studio does not sell social media management, because I prefer work whose results are easier to measure, such as websites and SEO. My advice on these tools is short all the same: Metricool is really good, Postly is good enough to get you going, and the right pick depends on your needs. Buffer, which many people already know, is the general alternative, and I compare it here on its published plans.
 
-Below, you will find what each tool costs at the time of writing (October 2026), the networks it covers, and what the free schedulers built into Facebook, Instagram and YouTube already do. Scheduling is one part of the {{< a key="small-business-tools-guide" >}}small business marketing tools{{< /a >}} I rely on, and it only pays off on the networks that suit your business.
+Below, you will find what each tool costs at the time of writing (October 2026), the networks it covers, and what the free schedulers built into Facebook, Instagram, Pinterest, YouTube and Google already do. A scheduler is one of the cheaper {{< a key="small-business-tools-guide" >}}small business marketing tools{{< /a >}}, and it only pays off on the networks that suit your business.
 
 ## What a scheduling tool does, and what it does not do
 
@@ -44,9 +44,7 @@ What you gain:
 - one idea adapted to several networks, such as the same photo with a longer text on Facebook and a link to your website on Pinterest;
 - one place to see what you published and what people reacted to.
 
-What it does not do is talk to people. When I helped a client with their social media, the 60 new relevant followers they gained in a month came from two things: posting content and engaging with people on the platform. A tool takes care of the first. **Replies, comments and conversations stay with you**, so keep ten minutes a day for them.
-
-It is also why social media is not a service I sell. I prefer work whose results are easier to see and measure, such as websites, SEO and cold emailing.
+What it does not do is talk to people. When I helped a client with their social media, the 60 new relevant followers they gained in a month came from two things: posting content and engaging with people on the platform. A tool only handles the publishing. **Replies, comments and conversations stay with you**, so keep ten minutes a day for them.
 
 ## Social media scheduling tools at a glance: Metricool vs Postly vs Buffer
 
@@ -56,9 +54,9 @@ On the points that decide most small business choices, the three compare like th
 |---|---|---|---|
 | Free plan | 1 brand, 20 scheduled posts a month, every network except LinkedIn and X | None listed on its pricing page | 3 channels, up to 10 scheduled posts per channel |
 | Pricing model | Per brand: one business and its profiles | Per channel: one connected account | Per channel |
-| First paid plan | Starter: up to 5 brands, about £15 ($20) a month billed yearly | Pro: 5 channels, about £12 ($16) a month billed yearly | Essentials: about £3.70 ($5) per channel a month billed yearly |
+| First paid plan | Starter: up to 5 brands, about £15 ($20) a month billed yearly | Pro: 5 channels, about £12 ($16) a month billed yearly | Essentials: about £3.80 ($5) per channel a month billed yearly |
 | Google Business Profile | Yes | Yes | Yes |
-| Beyond scheduling | Competitor tracking and growth analytics | Also publishes to WordPress | A posting queue with set time slots |
+| What stands out | Competitor tracking and growth analytics | Also publishes to a self-hosted WordPress blog | A posting queue with set time slots |
 | Best for | One or several brands that want to learn from competitors | Getting started for little money | Two or three channels paid one by one |
 
 The prices are US-dollar list prices at the time of writing (October 2026), with rough pound equivalents. All three adjust their plans from time to time, so check the official pages of [Metricool](https://metricool.com/pricing/), [Postly](https://postly.ai/pricing) and [Buffer](https://buffer.com/pricing) for the final amount in your currency, VAT included, before you subscribe.
@@ -80,9 +78,9 @@ To make the competitor view useful, pick three to five businesses in your trade 
 
 ## Postly: good enough to get going, Google Business Profile included
 
-Postly is good enough to get you going. It can also publish to Google Business Profile and WordPress: useful if local customers find you through your Google profile and you keep a blog on your site.
+Postly is good enough to get you going. It can also publish to Google Business Profile and to a self-hosted WordPress site, connected with an application password: useful if local customers find you through your Google profile and you keep a blog on your site.
 
-Its pricing page now shows one Pro plan priced per channel, a channel being one connected account. Five channels cost about £12 ($16) a month billed yearly ($192 a year), which works out at $3.20 per channel. Before you pay, check that every network you use is on Postly's current list, Pinterest and YouTube included.
+Its pricing page now shows one Pro plan priced per channel, a channel being one connected account. Five channels cost about £12 ($16) a month billed yearly ($192 a year), which works out at $3.20 per channel. Its help pages list Pinterest, YouTube, TikTok and Google Business Profile among the accounts you can connect. Pinterest boards show up as separate channels, so check how many your plan counts before you connect them all.
 
 Look on AppSumo or directly on Postly's website, and take the better offer.
 
@@ -93,7 +91,7 @@ Look on AppSumo or directly on Postly's website, and take the better offer.
 Buffer is the scheduler many people already know, and the general alternative to the two above. Its plans at the time of writing:
 
 - Free: three channels, with up to 10 scheduled posts per channel.
-- Essentials: about £3.70 ($5) per channel a month billed yearly, or about £4.50 ($6) billed monthly.
+- Essentials: about £3.80 ($5) per channel a month billed yearly, or about £4.50 ($6) billed monthly.
 - Team: about £7.50 ($10) per channel a month billed yearly, or about £9 ($12) billed monthly.
 
 Paying per channel is easy to understand, and fair when you post on two or three networks. It adds up as you add networks: five channels on Essentials cost about £19 ($25) a month billed yearly, against about £15 ($20) for up to five whole brands on Metricool Starter. Buffer also schedules Pinterest Pins, YouTube Shorts and Google Business Profile posts, so it covers the networks I recommend below.
@@ -109,9 +107,9 @@ Take a bakery in Leeds that posts on Instagram, a Facebook Page, Pinterest, YouT
 | Buffer Essentials | 5 channels at $5 each | About £19 ($25) |
 | Metricool Free | The bakery, 20 scheduled posts a month | £0 |
 | Buffer Free | 3 of the 5 channels | £0 |
-| Native schedulers | Facebook, Instagram and YouTube | £0, one calendar per network |
+| Native schedulers | All five, in four separate tools | £0 |
 
-On price, Postly wins this example and Metricool Starter is close behind, with room for four more brands. On free plans, Metricool covers all five channels as long as the bakery keeps to 20 posts a month, while Buffer's free plan stops at three channels.
+On price, Postly wins this example and Metricool Starter is close behind, with room for four more brands. On free plans, Metricool covers all five channels as long as the bakery keeps to 20 posts a month, while Buffer's free plan stops at three channels. The native schedulers cover all five as well, but you fill four calendars instead of one.
 
 ## The free schedulers you already have
 
@@ -120,8 +118,9 @@ Before you pay for anything, look at what the networks give you for free:
 - Meta Business Suite schedules posts for a Facebook Page and its linked Instagram professional account.
 - Instagram also lets professional accounts schedule a post from the app.
 - YouTube Studio schedules uploads, Shorts included, from a computer; my guide to {{< a key="youtube-shorts-for-business" >}}YouTube Shorts for business{{< /a >}} shows the steps.
+- Pinterest lets you choose to publish a Pin at a later date when you create it.
 - TikTok offers scheduling when you upload from a computer.
-- Google Business Profile lets you publish updates, offers and events from your profile on Google Search and Maps. My guide to {{< a key="google-business-profile-posts" >}}Google Business Profile posts{{< /a >}} covers what to post and how often.
+- Google Business Profile posts (updates, offers and events) have a **Schedule this post** switch for the date and time, and a **Repeats** menu for a weekly or monthly post. My guide to {{< a key="google-business-profile-posts" >}}Google Business Profile posts{{< /a >}} covers what to post and how often.
 
 If you post on Facebook and Instagram only, Meta Business Suite is enough and you can skip paid tools. **A scheduling tool earns its price when your networks belong to different companies**, typically Pinterest, YouTube and your Google profile, and you want one calendar and one report for all of them.
 
@@ -137,7 +136,7 @@ Choose Metricool if:
 
 - you want scheduling, competitor tracking and growth analytics in one tool;
 - you manage more than one brand, since the first paid tier covers five;
-- you post on Pinterest, YouTube Shorts and Google Business Profile and want one calendar for all three.
+- you post on Pinterest, YouTube Shorts and Google Business Profile and want one calendar for all three, free up to 20 posts a month.
 
 Choose Postly if:
 

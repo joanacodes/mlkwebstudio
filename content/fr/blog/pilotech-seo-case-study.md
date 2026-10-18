@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:47:00+02:00
 category: "case-studies"
 article_type: "pillar"
 keywords: ["étude de cas SEO", "cas client SEO", "étude de cas référencement naturel", "exemple de référencement réussi", "SEO climatisation"]
-summary: "Pilotech, installateur de climatisation en Île-de-France, recevait 5 à 10 appels par mois quand son site WordPress a été piraté. J’ai reconstruit son site principal sur Squarespace en un mois environ, dans cet ordre : pages, contenus, fiche Google, corrections techniques. Le premier contact est arrivé trois semaines après la mise en ligne, le site est aujourd’hui 1er ou 2e sur Google, et SEO et cold emailing réunis apportent une dizaine de prospects par jour."
+summary: "Pilotech, installateur de climatisation en Île-de-France, recevait 5 à 10 appels par mois quand son site WordPress a été piraté. J’ai reconstruit son site principal sur Squarespace en un mois environ, et mené le SEO dans cet ordre : pages, contenus, fiche Google, corrections techniques. Le premier contact est arrivé trois semaines après la mise en ligne, le site est aujourd’hui 1er ou 2e sur Google, et SEO et cold emailing réunis apportent une dizaine de prospects par jour."
 cover: "pilotech-seo-case-study"
 cover_alt: "Une femme montre des chiffres sur un ordinateur portable à un couple vu derrière un verre cannelé, avec le titre Pilotech"
 related: ["multiple-websites-one-business", "architects-cold-email-case-study", "how-long-does-seo-take", "squarespace-seo", "local-seo-guide"]
@@ -20,9 +20,9 @@ faq:
   - q: "Un site Squarespace peut-il être premier sur Google ?"
     a: "Oui. Squarespace laisse moins de prise sur le code qu’un site développé sur mesure, mais le site principal de Pilotech tourne dessus et se classe 1er ou 2e sur Google. Ce qui a fait la différence : une page par recherche, les bons mots-clés et des métadonnées complètes."
   - q: "Peut-on garantir la première place sur Google ?"
-    a: "Non. Les [conseils de Google pour choisir un prestataire SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=fr) le disent : personne ne peut garantir la première position, alors méfiez-vous de cette promesse. Un classement obtenu en quelques jours, comme une fois pour Pilotech, reste l’exception."
-  - q: "Faut-il plusieurs sites internet pour une entreprise ?"
-    a: "Seulement si chaque site s’adresse à son propre public avec son propre contenu. Pilotech a un site par gamme et cela fonctionne ; des sites presque identiques créés pour capter plus de recherches sont des pages satellites, contraires aux règles anti-spam de Google."
+    a: "Non. La [page de Google consacrée au recours à un spécialiste du SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=fr) le dit : personne ne peut garantir la première position. Elle met aussi en garde contre quiconque prétend avoir une relation privilégiée avec Google. Une position garantie doit donc vous alerter."
+  - q: "Comment mesurer les résultats du SEO ?"
+    a: "Comparez avec les chiffres notés avant de commencer : appels et demandes par formulaire chaque mois. Pour les recherches elles-mêmes, le rapport sur les performances de la Google Search Console, gratuit, montre les requêtes sur lesquelles vous apparaissez, vos clics et votre position moyenne."
   - q: "Un site piraté perd-il son référencement ?"
     a: "Il peut en souffrir. Google peut afficher « Il est possible que ce site ait été piraté » sous votre résultat, ce qui fait fuir les visiteurs. Nettoyez le site, puis demandez un examen dans le rapport Problèmes de sécurité de la [Search Console](https://support.google.com/webmasters/answer/9044101?hl=fr) ; après un piratage par spam, l’examen peut prendre plusieurs semaines."
 ---
@@ -46,8 +46,6 @@ Cette page sert aussi de sommaire à mes études de cas. Les autres histoires du
 | Délais | Un mois environ pour créer le site, un premier contact trois semaines après la mise en ligne |
 | Résultat aujourd’hui | 1er ou 2e sur Google, des demandes par formulaire et par téléphone, de meilleurs clients |
 
-Les sections suivantes racontent l’histoire dans l’ordre, puis vous renvoient vers les autres études de cas.
-
 ## Le point de départ : 5 à 10 appels par mois
 
 Pilotech conseille, installe et entretient climatisation, pompes à chaleur et ventilation. L’entreprise travaille sous trois gammes : la climatisation Teknopoint sans unité extérieure, la climatisation et les pompes à chaleur Toshiba, et la ventilation mécanique par insufflation, la VMI.
@@ -66,7 +64,7 @@ Je vois souvent ce scénario. Jusqu’ici, chaque appel en urgence que j’ai re
 
 J’ai reconstruit le site principal de Pilotech sur Squarespace. La raison est pratique : le fondateur peut modifier un texte ou une photo lui-même, quand il le souhaite, sans appeler personne et sans rien casser. J’ajoute en général un peu de code sur mesure, et c’est pour cette partie que mes clients font appel à moi.
 
-Squarespace a un vrai défaut pour le référencement : c’est une plateforme fermée, sans accès au code source, si bien qu’en théorie un site développé sur mesure a plus de marge pour se positionner. En pratique, celui-ci est 1er ou 2e, parce que les bases étaient là : une page par recherche, les bons mots-clés et des métadonnées complètes. Je compare les deux plateformes en détail dans {{< a key="squarespace-vs-wordpress" >}}Squarespace ou WordPress{{< /a >}}.
+Squarespace a un vrai défaut pour le référencement : c’est une plateforme fermée, sans accès au code source, si bien qu’en théorie un site développé sur mesure a plus de marge pour se positionner. Celui-ci est pourtant 1er ou 2e, et la section suivante montre le travail qui l’explique. Je compare les deux plateformes en détail dans {{< a key="squarespace-vs-wordpress" >}}Squarespace ou WordPress{{< /a >}}.
 
 ## Ce que j’ai fait, dans l’ordre
 
@@ -86,7 +84,7 @@ Le site de ventilation de Pilotech a ensuite poussé la même logique plus loin�
 
 ### 3. La fiche d’établissement Google
 
-Pour un installateur local, la fiche d’établissement Google (l’ancienne fiche Google My Business) est ce qui s’affiche sur Google Maps et dans les résultats locaux, souvent au-dessus des résultats classiques. Google indique que le classement local repose surtout sur la pertinence, la distance et la notoriété, et que la notoriété tient compte des avis et de la note ([l’explication de Google](https://support.google.com/business/answer/7091?hl=fr)). Aucune meilleure position locale ne s’achète.
+Pour un installateur local, la fiche d’établissement Google (l’ancienne fiche Google My Business) est ce qui s’affiche sur Google Maps et dans les résultats locaux, souvent au-dessus des résultats classiques. Google indique que le classement local repose surtout sur la pertinence, la distance et la notoriété, et que la notoriété tient compte du nombre d’avis et de la note ([l’explication de Google](https://support.google.com/business/answer/7091?hl=fr)). Aucune meilleure position locale ne s’achète.
 
 Les avis de Pilotech sont rattachés à cette fiche, et ses nouveaux sites les mettent en avant : le site Toshiba affiche la note Google en haut de chaque page, et des extraits d’avis sur sa page d’accueil et sa page de présentation. Si vous partez de zéro, suivez mon tutoriel pour créer votre {{< a key="google-business-profile-setup" >}}fiche Google My Business{{< /a >}}, puis lisez mon guide du {{< a key="local-seo-guide" >}}référencement local{{< /a >}} pour les pages par ville, les avis et le reste.
 
@@ -94,7 +92,7 @@ Les avis de Pilotech sont rattachés à cette fiche, et ses nouveaux sites les m
 
 Les corrections techniques sont venues en dernier. Sur Squarespace, l’essentiel de la technique tient à des réglages plutôt qu’à du code : un titre SEO et une description pour chaque page, des adresses courtes, un texte alternatif sur les images, des redirections pour les anciennes adresses et un sitemap envoyé à la Google Search Console. Mon tutoriel de {{< a key="squarespace-seo" >}}référencement Squarespace{{< /a >}} les passe en revue un par un, et ma checklist de {{< a key="on-page-seo-checklist" >}}SEO on-page{{< /a >}} vaut pour toutes les plateformes.
 
-Les placer en dernier peut surprendre. Mais sur un petit site, la technique peaufine des pages qui existent déjà ; elle ne peut pas faire remonter une page sur une recherche à laquelle celle-ci ne répond pas. C’est pourquoi les pages et les mots sont passés en premier.
+Les placer en dernier peut surprendre. Mais sur un petit site, la technique peaufine des pages qui existent déjà ; elle ne peut pas faire remonter une page sur une recherche à laquelle celle-ci ne répond pas. Les pages et les mots passent donc en premier.
 
 ## Les délais : de la mise en ligne au premier contact
 
@@ -107,11 +105,11 @@ Voici le calendrier, aussi précis que possible :
 | Le premier contact venu du site | Trois semaines après la mise en ligne |
 | Aujourd’hui | 1er ou 2e sur Google |
 
-Ce premier classement a été d’une rapidité inhabituelle : le SEO prend normalement bien plus de temps. Les conseils de Google pour recruter un prestataire SEO parlent de quatre mois à un an dans la plupart des cas, et sa [page d’aide sur le recours à un spécialiste du SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=fr) dit clairement que personne ne peut garantir la première place sur Google.
+Ce premier classement a été d’une rapidité inhabituelle : le SEO prend normalement bien plus de temps. Dans la vidéo en anglais de sa [page d’aide sur le recours à un spécialiste du SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=fr), Google parle de quatre mois à un an dans la plupart des cas.
 
 {{< callout type="warning" >}}Une position obtenue en un ou deux jours est l’exception. Ce n’est pas une référence, et je ne la promets à personne. Méfiez-vous de quiconque vous garantit une position sur Google à une date donnée.{{< /callout >}}
 
-Ce qui a rendu les choses si rapides, à mon avis, c’est l’offre. Le site qui se classe vend quelque chose de très précis : une solution rare, que l’on cherche avec des mots bien à elle, et des pages qui reprennent exactement ces mots. Une offre large face à des concurrents installés prend beaucoup plus de temps, et le site qui me l’a appris est décrit plus bas. Pour les délais habituels, étape par étape, lisez {{< a key="how-long-does-seo-take" >}}combien de temps pour être référencé sur Google{{< /a >}}.
+Ce qui a rendu les choses si rapides, à mon avis, c’est l’offre. Le site qui se classe vend quelque chose de très pointu : une solution rare, que l’on cherche avec des mots précis, et des pages qui reprennent exactement ces mots. Une offre large a beaucoup plus de mal à se classer, comme l’a montré un autre site de ce dirigeant (j’y reviens plus bas). Pour les délais habituels, étape par étape, lisez {{< a key="how-long-does-seo-take" >}}combien de temps pour être référencé sur Google{{< /a >}}.
 
 ## Les résultats : positions, demandes et meilleurs clients
 
@@ -121,7 +119,7 @@ Ce qui a rendu les choses si rapides, à mon avis, c’est l’offre. Le site qu
 | Position sur Google | Aucun chiffre | 1er ou 2e |
 | Qualité des demandes | Aucun chiffre | Meilleure : des clients plus sérieux, dont des clients professionnels haut de gamme à Paris |
 
-Les demandes arrivent par deux canaux : les formulaires du site et le téléphone. Je ne connais pas le taux de signature, et je préfère vous le dire plutôt que d’en inventer un. Ce que je peux affirmer, c’est que lorsqu’un prospect signe, c’est souvent un très bon client.
+Les demandes arrivent par deux canaux : les formulaires du site et le téléphone. Je ne connais pas le taux de transformation, et je préfère vous le dire plutôt que d’en inventer un. Ce que je peux affirmer, c’est que lorsqu’un prospect signe, c’est souvent un très bon client.
 
 Ce que je n’attendais pas tient en trois points. D’abord la vitesse. Ensuite la qualité des demandes, pas seulement leur nombre. Enfin le plaisir de travailler avec ce client : j’ai carte blanche, et il me fait entièrement confiance. Cela compte plus qu’il n’y paraît, car le référencement récompense un travail régulier, mois après mois, pas un projet qui s’arrête à la mise en ligne.
 
@@ -129,7 +127,7 @@ Vous pouvez voir les pages elles-mêmes sur la {{< a page="/projects/pilotech-te
 
 ## Ce qui n’a pas marché : le site qui voulait tout vendre
 
-Tout n’a pas fonctionné. Sur les cinq sites que j’ai créés pour ce dirigeant, l’un n’a pas marché du tout : il proposait trop de services et visait trop large. Le site qui se classe, lui, vend quelque chose de très précis.
+Tout n’a pas fonctionné. Parmi les sites que j’ai créés pour ce dirigeant, l’un n’a pas marché du tout : il proposait trop de services et visait trop large.
 
 La même leçon s’est jouée à l’échelle de l’entreprise. Ginov, société sœur détenue et dirigée par le même fondateur, proposait une longue liste de métiers du bâtiment : un fourre-tout. Elle a fermé pendant que Pilotech, avec une offre précise, décollait. C’est l’exemple le plus parlant que je connaisse de ce que change une offre ciblée, avec un référencement construit autour.
 
@@ -143,7 +141,7 @@ Le SEO vous amène ceux qui cherchent déjà. Le cold emailing touche ceux qui n
 
 Les campagnes de cold emailing visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et les architectes. **Les architectes étaient la cible principale**, et ce sont eux qui appelaient le plus souvent. Chaque séquence comptait trois emails en texte brut au maximum, sans lien, avec le numéro de téléphone dans l’email et une invitation à consulter le catalogue sur le site. En un an, ces campagnes ont apporté 15 nouveaux clients à Pilotech.
 
-Beaucoup d’architectes ont appelé au lieu de répondre. Un appel va plus vite qu’une réponse écrite, vite noyée sous les autres emails, et l’on aime parler à un humain : nous avons donc rendu l’appel encore plus simple. L’étude de cas complète explique comment {{< a key="architects-cold-email-case-study" >}}prospecter les architectes{{< /a >}} de cette façon ; le cold emailing lui-même passe par ma marque sœur, [MLK Leadhunters](https://mlkleadhunters.com/fr/).
+Beaucoup d’architectes ont appelé au lieu de répondre. Un appel va plus vite qu’une réponse écrite, qui finit noyée sous les autres emails, et l’on aime parler à un humain : nous avons donc rendu l’appel encore plus simple. L’étude de cas complète explique comment {{< a key="architects-cold-email-case-study" >}}prospecter les architectes{{< /a >}} de cette façon ; le cold emailing lui-même passe par ma marque sœur, [MLK Leadhunters](https://mlkleadhunters.com/fr/).
 
 Ensemble, le SEO et le cold emailing apportent aujourd’hui à Pilotech une dizaine de prospects par jour. Ce chiffre revient aux deux canaux, et je ne l’attribue pas au SEO seul. Les deux fonctionnent d’ailleurs en tandem : les emails invitent à consulter le catalogue sur le site, si bien que les pages qui se classent sur Google sont aussi celles que lit un prospect venu d’un cold email.
 
@@ -171,10 +169,10 @@ Deux sites piratés, deux reconstructions, deux entreprises qui se sont mises à
 
 ## Ce que vous pouvez reproduire pour votre entreprise
 
-Pas besoin de cinq sites ni d’une application interne pour appliquer cette méthode. Voici la checklist que je donnerais à toute petite entreprise qui se lance dans le SEO :
+Pas besoin de plusieurs sites ni d’une application interne pour appliquer cette méthode. Voici la checklist que je donnerais à toute petite entreprise qui se lance dans le SEO :
 
 1. Notez votre point de départ : appels et demandes par formulaire chaque mois, avant de toucher à quoi que ce soit.
-2. Resserrez ce que vend chaque page : un produit ou un service par page, nommé comme vos clients le cherchent. Les pages trop larges et les sites trop larges, c’est ce qui a échoué ici.
+2. Resserrez ce que vend chaque page : un produit ou un service par page, nommé comme vos clients le cherchent. C’est un site trop large qui a échoué ici.
 3. Répondez aux questions posées avant l’achat, un article par vraie question, chacun relié à la page qui y répond.
 4. Complétez votre fiche d’établissement Google et demandez un avis à chaque client.
 5. Réglez la technique en dernier : titres, descriptions, adresses des pages et sitemap.

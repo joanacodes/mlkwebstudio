@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:20:00+02:00
 category: "tools"
 article_type: "comparison"
 keywords: ["outil de planification réseaux sociaux", "Metricool vs Postly", "Metricool prix", "programmer ses publications sur les réseaux sociaux", "Buffer gratuit", "planifier ses posts"]
-summary: "Un outil de planification réseaux sociaux publie à votre place, à l’heure choisie, les posts préparés en une séance. Pour une petite entreprise, Metricool est le plus complet : programmation, veille des concurrents qui réussissent et suivi de votre croissance, avec une offre gratuite et cinq marques pour 16 € par mois en paiement annuel (octobre 2026). Postly suffit pour démarrer et publie aussi sur votre fiche Google et WordPress ; Buffer se paie au canal."
+summary: "Un outil de planification réseaux sociaux publie à votre place, à l’heure choisie, les posts préparés en une séance. Pour une petite entreprise, Metricool est le plus complet : programmation, veille des concurrents qui réussissent et suivi de votre croissance, avec une offre gratuite et cinq marques pour 16 € par mois en paiement annuel (octobre 2026). Postly suffit pour démarrer et publie aussi sur votre fiche Google et WordPress ; Buffer se paie au canal, à partir d’environ 4,40 € (5 $) par mois."
 cover: "social-media-scheduling-tools"
 cover_alt: "Un calendrier mensuel de publications programmées sur les réseaux sociaux, intitulé Metricool vs Postly"
 related: ["social-media-small-business", "pinterest-for-business", "youtube-shorts-for-business", "google-business-profile-posts", "small-business-tools-guide"]
@@ -20,7 +20,7 @@ faq:
   - q: "Peut-on travailler à plusieurs sur le même calendrier de publication ?"
     a: "Oui, avec la bonne formule. À la date de rédaction, la formule Pro de Postly inclut des membres d’équipe illimités, Metricool réserve la gestion d’équipe et la validation des publications à sa formule Advanced, et Buffer propose une formule Team pour le travail à plusieurs. Vérifiez le détail sur chaque page de tarifs avant d’inviter qui que ce soit."
   - q: "Existe-t-il une offre à vie Postly sur AppSumo ?"
-    a: "Les deals AppSumo vont et viennent. Regardez au moment d’acheter, comparez avec les tarifs de Postly et lisez le délai de remboursement dans les conditions du deal : [AppSumo](https://help.appsumo.com/article/34-what-is-a-lifetime-deal) (en anglais) accorde 60 jours sur la plupart des logiciels."
+    a: "AppSumo a mis en ligne un deal Postly réservé aux membres d’AppSumo Plus, son abonnement payant, mais les deals vont et viennent. Au moment d’acheter, comparez avec les tarifs de Postly et lisez le délai de remboursement dans les conditions du deal : [AppSumo](https://help.appsumo.com/article/34-what-is-a-lifetime-deal) (en anglais) accorde 60 jours sur la plupart des logiciels."
   - q: "Comment changer d’outil de planification sans perdre ses publications ?"
     a: "Changez en fin de mois. Laissez partir les publications déjà programmées depuis l’ancien outil, préparez le mois suivant dans le nouveau, puis résiliez l’ancien abonnement une fois sa file d’attente vide. Les publications déjà en ligne restent sur chaque réseau."
   - q: "Peut-on programmer ses posts LinkedIn gratuitement ?"
@@ -29,9 +29,9 @@ faq:
 
 Un outil de planification réseaux sociaux vous permet de préparer une semaine ou un mois de publications en une séance, puis de les publier aux heures choisies sans ouvrir chaque application. Pour une petite entreprise qui publie entre deux chantiers ou deux rendez-vous, c’est souvent la différence entre un compte qui s’arrête au bout de trois semaines et un compte qui tient la distance.
 
-Je ne suis pas community manager, et le studio ne vend pas de gestion des réseaux sociaux. Mon avis sur ces outils tient pourtant en peu de mots : Metricool est vraiment bon, Postly suffit pour démarrer, et le bon choix dépend de vos besoins. Buffer, que beaucoup connaissent déjà, est l’alternative généraliste : je le compare ici sur la base de ses formules publiées.
+Je ne suis pas community manager, et le studio ne vend pas de gestion des réseaux sociaux, car je préfère les services dont les résultats se mesurent plus facilement, comme les sites web et le SEO. Mon avis sur ces outils tient pourtant en peu de mots : Metricool est vraiment bon, Postly suffit pour démarrer, et le bon choix dépend de vos besoins. Buffer, que beaucoup connaissent déjà, est l’alternative généraliste : je le compare ici sur la base de ses formules publiées.
 
-Vous trouverez ci-dessous ce que coûte chaque outil à la date de rédaction (octobre 2026), les réseaux couverts et ce que font déjà les outils gratuits de Facebook, d’Instagram et de YouTube. La planification n’est qu’une partie des {{< a key="small-business-tools-guide" >}}outils numériques pour TPE{{< /a >}} que j’utilise, et elle ne rapporte que sur les réseaux qui conviennent à votre activité.
+Vous trouverez ci-dessous ce que coûte chaque outil à la date de rédaction (octobre 2026), les réseaux couverts et ce que font déjà les outils gratuits de Facebook, d’Instagram, de Pinterest, de YouTube et de Google. Un outil de planification fait partie des {{< a key="small-business-tools-guide" >}}outils numériques pour TPE{{< /a >}} les moins chers, et il ne rapporte que sur les réseaux qui conviennent à votre activité.
 
 ## Ce que fait un outil de planification, et ce qu’il ne fait pas
 
@@ -44,9 +44,7 @@ Ce que vous y gagnez :
 - une idée déclinée sur plusieurs réseaux, par exemple la même photo avec un texte plus long sur Facebook et un lien vers votre site sur Pinterest ;
 - un seul endroit pour voir ce qui a été publié et ce qui a fait réagir.
 
-Ce qu’il ne fait pas, c’est parler aux gens. Quand j’ai aidé un client sur ses réseaux sociaux, les 60 nouveaux abonnés pertinents gagnés en un mois sont venus de deux choses : publier du contenu et échanger avec les gens sur la plateforme. Un outil s’occupe de la première. **Les réponses, les commentaires et les conversations restent à votre charge** : gardez dix minutes par jour pour eux.
-
-C’est aussi pour cela que je ne vends pas de prestation sur les réseaux sociaux : je préfère les services dont les résultats sont plus concrets, comme les sites web, le SEO et le cold emailing.
+Ce qu’il ne fait pas, c’est parler aux gens. Quand j’ai aidé un client sur ses réseaux sociaux, les 60 nouveaux abonnés pertinents gagnés en un mois sont venus de deux choses : publier du contenu et échanger avec les gens sur la plateforme. Un outil ne s’occupe que de la publication. **Les réponses, les commentaires et les conversations restent à votre charge** : prévoyez dix minutes par jour pour vous en occuper.
 
 ## Outil de planification réseaux sociaux : Metricool, Postly et Buffer en un coup d’œil
 
@@ -55,10 +53,10 @@ Sur les critères qui comptent pour une petite entreprise, les trois se comparen
 | | Metricool | Postly | Buffer |
 |---|---|---|---|
 | Offre gratuite | 1 marque, 20 publications programmées par mois, tous les réseaux sauf LinkedIn et X | Aucune sur sa page de tarifs | 3 canaux, jusqu’à 10 publications programmées par canal |
-| Mode de calcul | Par marque : une entreprise et ses comptes | Par canal : un compte connecté | Par canal |
-| Première formule payante | Starter : jusqu’à 5 marques, 16 € par mois en paiement annuel | Pro : 5 canaux, environ 14 € (16 $) par mois en paiement annuel | Essentials : environ 4,30 € (5 $) par canal et par mois en paiement annuel |
+| Mode de facturation | Par marque : une entreprise et ses comptes | Par canal : un compte connecté | Par canal |
+| Première formule payante | Starter : jusqu’à 5 marques, 16 € par mois en paiement annuel | Pro : 5 canaux, environ 14 € (16 $) par mois en paiement annuel | Essentials : environ 4,40 € (5 $) par canal et par mois en paiement annuel |
 | Fiche Google (Google Business Profile) | Oui | Oui | Oui |
-| Au-delà de la programmation | Veille des concurrents, suivi de la croissance | Publie aussi sur WordPress | Une file d’attente avec des créneaux fixes |
+| Point fort | Veille des concurrents, suivi de la croissance | Publie aussi sur un blog WordPress auto-hébergé | Une file d’attente avec des créneaux fixes |
 | Pour qui | Une ou plusieurs marques qui veulent apprendre de leurs concurrents | Démarrer sans dépenser beaucoup | Deux ou trois comptes payés un par un |
 
 Les montants sont ceux relevés à la date de rédaction (octobre 2026) : en euros sur la page de Metricool, en dollars pour Postly et Buffer, convertis ici à titre indicatif. Les trois ajustent leurs formules de temps en temps : vérifiez les pages officielles de [Metricool](https://metricool.com/pricing/), [Postly](https://postly.ai/pricing) et [Buffer](https://buffer.com/pricing) avant de vous abonner, en regardant si la TVA s’ajoute.
@@ -80,9 +78,9 @@ Pour tirer parti de la veille, choisissez trois à cinq entreprises de votre mé
 
 ## Postly : suffisant pour démarrer, fiche Google comprise
 
-Postly suffit pour démarrer. Il publie aussi sur Google Business Profile (votre fiche d’établissement Google, l’ancien Google My Business) et sur WordPress : pratique si vos clients locaux vous trouvent par votre fiche Google et que vous tenez un blog sur votre site.
+Postly suffit pour démarrer. Il publie aussi sur Google Business Profile (votre fiche d’établissement Google, l’ancien Google My Business) et sur un site WordPress auto-hébergé, connecté par un mot de passe d’application : pratique si vos clients locaux vous trouvent par votre fiche Google et que vous tenez un blog sur votre site.
 
-Sa page de tarifs ne présente plus qu’une formule Pro, facturée au canal, un canal étant un compte connecté. Cinq canaux coûtent 16 $ par mois en paiement annuel (192 $ par an), soit environ 14 € par mois et 3,20 $ par canal. Avant de payer, vérifiez que chacun de vos réseaux figure dans la liste actuelle de Postly, Pinterest et YouTube compris.
+Sa page de tarifs ne présente plus qu’une formule Pro, facturée au canal, un canal étant un compte connecté. Cinq canaux coûtent 16 $ par mois en paiement annuel (192 $ par an), soit environ 14 € par mois et 3,20 $ par canal. Ses pages d’aide citent Pinterest, YouTube, TikTok et les fiches Google parmi les comptes que l’on peut connecter. Sur Pinterest, chaque tableau apparaît comme un canal distinct : vérifiez combien votre formule en décompte avant de tous les relier.
 
 Regardez sur AppSumo ou directement sur le site de Postly, et gardez la meilleure offre.
 
@@ -93,10 +91,10 @@ Regardez sur AppSumo ou directement sur le site de Postly, et gardez la meilleur
 Buffer est l’outil de planification que beaucoup connaissent déjà, et l’alternative généraliste aux deux précédents. Ses formules à la date de rédaction, relevées en dollars :
 
 - Gratuit : trois canaux, avec jusqu’à 10 publications programmées par canal.
-- Essentials : environ 4,30 € (5 $) par canal et par mois en paiement annuel, environ 5 € (6 $) en mensuel.
-- Team : environ 8,50 € (10 $) par canal et par mois en paiement annuel, environ 10 € (12 $) en mensuel.
+- Essentials : environ 4,40 € (5 $) par canal et par mois en paiement annuel, environ 5,30 € (6 $) en mensuel.
+- Team : environ 8,90 € (10 $) par canal et par mois en paiement annuel, environ 10,70 € (12 $) en mensuel.
 
-Payer au canal est simple à comprendre, et juste quand vous publiez sur deux ou trois réseaux. La facture grimpe pourtant avec chaque réseau ajouté : cinq canaux en Essentials coûtent environ 21 € (25 $) par mois en paiement annuel, contre 16 € pour cinq marques entières chez Metricool Starter. Buffer programme aussi les épingles Pinterest, les YouTube Shorts et les posts de fiche Google : il couvre donc les réseaux que je recommande plus bas.
+Payer au canal est simple à comprendre, et juste quand vous publiez sur deux ou trois réseaux. La facture grimpe pourtant avec chaque réseau ajouté : cinq canaux en Essentials coûtent environ 22 € (25 $) par mois en paiement annuel, contre 16 € pour cinq marques entières chez Metricool Starter. Buffer programme aussi les épingles Pinterest, les YouTube Shorts et les posts de fiche Google : il couvre donc les réseaux que je recommande plus bas.
 
 ## Combien coûte un mois de publications : l’exemple d’une boulangerie
 
@@ -106,12 +104,12 @@ Prenons une boulangerie à Nantes qui publie sur Instagram, une page Facebook, P
 |---|---|---|
 | Postly Pro | 5 canaux | Environ 14 € (16 $) |
 | Metricool Starter | La boulangerie, plus quatre marques en réserve | 16 € |
-| Buffer Essentials | 5 canaux à 5 $ | Environ 21 € (25 $) |
+| Buffer Essentials | 5 canaux à 5 $ | Environ 22 € (25 $) |
 | Metricool Gratuit | La boulangerie, 20 publications programmées par mois | 0 € |
 | Buffer Gratuit | 3 des 5 canaux | 0 € |
-| Outils natifs | Facebook, Instagram et YouTube | 0 €, un calendrier par réseau |
+| Outils natifs | Les cinq, avec quatre outils distincts | 0 € |
 
-Côté prix, Postly gagne cet exemple et Metricool Starter suit de près, avec de la place pour quatre autres marques. Côté offres gratuites, Metricool couvre les cinq canaux tant que la boulangerie s’en tient à 20 publications par mois, alors que l’offre gratuite de Buffer s’arrête à trois canaux.
+Côté prix, Postly gagne cet exemple et Metricool Starter suit de près, avec de la place pour quatre autres marques. Côté offres gratuites, Metricool couvre les cinq canaux tant que la boulangerie s’en tient à 20 publications par mois, alors que l’offre gratuite de Buffer s’arrête à trois canaux. Les outils natifs couvrent aussi les cinq, mais vous remplissez quatre calendriers au lieu d’un.
 
 ## Les outils gratuits que vous avez déjà
 
@@ -120,8 +118,9 @@ Avant de payer quoi que ce soit, regardez ce que les réseaux vous donnent gratu
 - Meta Business Suite programme les publications d’une page Facebook et du compte Instagram professionnel qui lui est associé.
 - Instagram permet aussi aux comptes professionnels de programmer une publication depuis l’application.
 - YouTube Studio programme les mises en ligne, Shorts compris, depuis un ordinateur ; mon guide {{< a key="youtube-shorts-for-business" >}}YouTube Shorts pour les entreprises{{< /a >}} détaille les étapes.
+- Pinterest vous laisse choisir, au moment de créer une épingle, de la publier à une date ultérieure.
 - TikTok propose la programmation quand vous publiez depuis un ordinateur.
-- Votre fiche Google permet de publier des nouveautés, des offres et des événements directement depuis la recherche Google ou Maps. Mon guide pour {{< a key="google-business-profile-posts" >}}publier sur Google My Business{{< /a >}} explique quoi poster et à quelle fréquence.
+- Sur votre fiche Google, vous pouvez programmer un post (nouveauté, offre ou événement) à la date et à l’heure voulues, et le répéter chaque semaine ou chaque mois. Mon guide pour {{< a key="google-business-profile-posts" >}}publier sur Google My Business{{< /a >}} explique quoi poster et à quelle fréquence.
 
 Si vous publiez uniquement sur Facebook et Instagram, Meta Business Suite suffit et vous pouvez vous passer d’un outil payant. **Un outil de planification vaut son prix quand vos réseaux appartiennent à des entreprises différentes**, typiquement Pinterest, YouTube et votre fiche Google, et que vous voulez un seul calendrier et un seul rapport pour tous.
 
@@ -137,7 +136,7 @@ Choisissez Metricool si :
 
 - vous voulez la programmation, la veille des concurrents et le suivi de croissance dans un seul outil ;
 - vous gérez plus d’une marque, puisque la première formule payante en couvre cinq ;
-- vous publiez sur Pinterest, YouTube Shorts et votre fiche Google, et voulez un seul calendrier pour les trois.
+- vous publiez sur Pinterest, YouTube Shorts et votre fiche Google, et voulez un seul calendrier pour les trois, gratuit jusqu’à 20 publications par mois.
 
 Choisissez Postly si :
 

@@ -1,7 +1,7 @@
 ---
 title: "AI for small business: the uses and automations that really save time"
 seo_title: "AI for small business: what saves time and what it costs"
-description: "AI for small business from someone who uses it daily: the tasks worth giving to Claude or ChatGPT, the automations that save hours, and what they cost."
+description: "AI for small business, from someone who uses it every day: the tasks worth handing to Claude or ChatGPT, the automations that save hours and what they cost."
 slug: "ai-for-small-business"
 translationKey: "ai-small-business-guide"
 date: 2026-10-17T09:43:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:43:00+02:00
 category: "ai-automation"
 article_type: "pillar"
 keywords: ["AI for small business", "AI tools for small business", "how to use AI in a small business", "small business automation", "AI automation for small business"]
-summary: "AI for small business pays off when it takes over a task you already do every week: drafting emails and web copy, research, admin, lead alerts and call-back reminders. Start with one task, one assistant such as Claude or ChatGPT (both have free plans; Claude Pro and ChatGPT Plus cost $20 a month in the US) and one free automation, then measure the time saved before adding anything. Clients' personal data belongs only on business plans or the API."
+summary: "AI for small business pays off when it takes over a task you already do every week: drafting emails and web copy, research, admin, lead alerts and call-back reminders. Start with one task, one assistant such as Claude or ChatGPT (both have free plans; Claude Pro and ChatGPT Plus cost $20 a month in the US in October 2026) and one free automation, then measure the time saved before adding anything. Clients' personal data belongs only on business plans or the API."
 cover: "ai-small-business-guide"
 cover_alt: "The words Claude, ChatGPT and n8n beside a star in orbit, behind ribbed glass"
 related: ["claude-vs-chatgpt", "automate-lead-follow-up", "build-app-with-ai", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data"]
@@ -22,7 +22,7 @@ faq:
   - q: "What is an AI agent?"
     a: "An AI agent is an AI model that carries out a task in several steps on its own, using tools such as web search, your files or other apps, instead of answering a single message. Give agents only tasks whose result you can check."
   - q: "Will AI-written content hurt my Google rankings?"
-    a: "Not because AI wrote it. Google's guidance is that it rewards helpful content however it is produced, and treats content mass-produced to manipulate rankings as spam. Edit AI drafts with your own facts and experience, as you would any copy."
+    a: "Not because AI wrote it. Google rewards helpful content however it is produced, but generating many pages that add nothing for readers can break its scaled content abuse policy, and since 1 October 2026 its guidance says to fact-check and review all AI-generated content by hand before publishing. Edit AI drafts with your own facts and experience."
   - q: "Can AI write in both English and French?"
     a: "Yes. Claude and ChatGPT both write and translate in English and French. For a bilingual website, ask for each version to be written for its own market, with its own examples and keywords, and have a native speaker read it before it goes live."
 ---
@@ -49,7 +49,7 @@ What is missing from the table matters as much: your prices, your strategy and t
 
 ## Start with one task you already do every day
 
-My strongest advice on AI is the same as on marketing. It is easy to fall for every new shiny tool, and AI brings a new one every week; the noise is the point. What pays is improving the work you already do, which is why my rule is to automate a task you already do every day, not one you might do some day. The marketing side of this is in my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}.
+My strongest advice on AI is the same as on marketing. It is easy to fall for every new shiny tool, and AI brings a new one every week; the noise is the point. What pays is improving the work you already do, which is why my rule is to automate a task you do every day, not one you might do some day. The marketing side of this is in my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}.
 
 Here is the method I suggest:
 
@@ -111,7 +111,7 @@ Before paying for anything, check what you already have:
 
 An automation is a rule that does a task when something happens: a form is sent, so the enquiry lands in a spreadsheet and you get an email. Unlike a chat assistant, it runs without you, every time, and plenty of useful automations involve no AI at all.
 
-The one to set up first is the lead alert, because speed wins clients. In a study of 1.25 million leads published in the Harvard Business Review, firms that tried to contact a lead within an hour were nearly seven times as likely to qualify it as those that tried an hour later ([The Short Life of Online Sales Leads](https://hbr.org/2011/03/the-short-life-of-online-sales-leads), 2011). The study is old, but I would still rather call a prospect back in minutes than in hours.
+The one to set up first is the lead alert, because speed wins clients. In a study of 1.25 million leads published in the Harvard Business Review, firms that tried to contact a lead within an hour were nearly seven times as likely to qualify it as those that tried even an hour later (*The Short Life of Online Sales Leads*, 2011). The study is old, but I would still rather call a prospect back in minutes than in hours.
 
 If your enquiries come through a Google Form, this costs nothing: Google Apps Script can email you the prospect's name and phone number the moment the form is sent, log the enquiry and remind you if it is still marked New an hour later. The tutorial on {{< a key="automate-lead-follow-up" >}}automating lead follow-up for free{{< /a >}} gives the script and every step. A free Google account can send emails to 100 recipients a day from a script, which is plenty for alerts.
 
@@ -135,7 +135,7 @@ Sometimes no off-the-shelf tool fits, and that is when building one makes sense.
 
 I custom-coded an internal tool that manages prospects, job sites, communication with the employees, the calendar and accounting analytics, with AI and phone integrations. How it came about, and the signs that you need one too, are in {{< a key="bespoke-crm-internal-app" >}}bespoke CRM for a small business{{< /a >}}. Most businesses do not need to go that far: if your process is simply enquiry, quote, won or lost, a spreadsheet with automatic reminders will serve you better.
 
-You do not always need code. Claude's Artifacts let you build a small interactive tool, such as a quote calculator or a checklist, inside a chat on any plan, once code execution and file creation are turned on in **Settings > Capabilities**. An artifact can even call Claude itself with no API key, each person's usage counting against their own plan, and anyone you share it with needs a Claude account. AI app builders go further. What is realistic without a developer, and where it stops, is in {{< a key="build-app-with-ai" >}}how to build an app with AI{{< /a >}}.
+You do not always need code. Claude's Artifacts let you build a small interactive tool, such as a quote calculator or a checklist, in any conversation and on any plan, as long as code execution and file creation is switched on in **Settings > Capabilities** (it is by default). An artifact can even call Claude itself with no API key, each person's usage counting against their own plan, and anyone you share it with needs a Claude account. AI app builders go further. What is realistic without a developer, and where it stops, is in {{< a key="build-app-with-ai" >}}how to build an app with AI{{< /a >}}.
 
 ## Client data, GDPR and the EU AI Act
 
@@ -155,7 +155,7 @@ What each plan allows, in detail, is in {{< a key="chatgpt-gdpr-client-data" >}}
 
 ### AI literacy under the EU AI Act
 
-Article 4 of the EU AI Act, on AI literacy, has applied since 2 February 2025 to businesses that use AI at work. An amendment that came into force in July 2026, Regulation (EU) 2026/1744, softened it: you must take measures to support the AI literacy of your staff and of anyone using AI on your behalf, but no particular level is required, and the text imposes no course or certificate. For a small team, a one-page AI rule covers the spirit of it: which tools are approved, what data never goes in, and that a person checks every output before it reaches a client. The European Commission's page on [AI talent, skills and literacy](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy) is the official starting point.
+Article 4 of the EU AI Act, on AI literacy, has applied since 2 February 2025 to businesses that use AI at work. An amendment that came into force in July 2026, Regulation (EU) 2026/1744, softened it: you must take measures to support the AI literacy of your staff and of anyone using AI on your behalf, but no particular level is required, and the text imposes no course or certificate. For a small team, a sensible start is a one-page AI rule that you go through with everyone: which tools are approved, what data never goes in, and that a person checks every output before it reaches a client. The European Commission's page on [AI talent, skills and literacy](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy) is the official starting point.
 
 The AI Act is EU law. A UK business is concerned mainly when it serves the EU market, for example when the output of its AI tools is used for clients in France; at home, the UK GDPR is what governs client data in AI tools.
 
@@ -170,6 +170,6 @@ The AI Act is EU law. A UK business is concerned mainly when it serves the EU ma
 
 ### When to hand it over
 
-You can do everything above yourself. Bring in a developer when a tool stores clients' personal data, connects to your phone system or your accounts, or has to run every day without anyone watching it. If you commission one, expect to pay a deposit: I ask for 30% or 50% upfront and the rest at delivery.
+You can do everything above yourself. Bring in a developer when a tool stores clients' personal data, connects to your phone system or your accounts, or would bring your work to a halt if it broke. If you commission one, expect to pay a deposit: I ask for 30% or 50% upfront and the rest at delivery.
 
 For the rest of my daily toolkit, from design to email verification, see {{< a key="small-business-tools-guide" >}}the small business marketing tools I use every day{{< /a >}}.

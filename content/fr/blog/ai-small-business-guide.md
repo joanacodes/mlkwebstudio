@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:43:00+02:00
 category: "ai-automation"
 article_type: "pillar"
 keywords: ["IA pour TPE PME", "intelligence artificielle TPE", "IA PME", "automatisation TPE PME", "outils IA entreprise", "IA générative TPE"]
-summary: "L’IA pour TPE et PME est rentable quand elle reprend une tâche que vous faites déjà chaque semaine : emails, textes de site, recherches, administratif, alertes quand un prospect attend. Commencez par une seule tâche, un assistant comme Claude ou ChatGPT (offres gratuites ; ChatGPT Plus coûte 23 € TTC par mois en France) et une automatisation gratuite, puis mesurez le temps gagné. Les données personnelles de vos clients ne vont que dans une offre professionnelle ou l’API."
+summary: "L’IA pour TPE et PME est rentable quand elle reprend une tâche que vous faites déjà chaque semaine : emails, textes de site, recherches, administratif, suivi des prospects. Commencez par une seule tâche, un assistant (Claude et ChatGPT ont une offre gratuite ; ChatGPT Plus coûte 23 € TTC par mois en France en octobre 2026) et une automatisation gratuite, puis mesurez le temps gagné. Les données personnelles de vos clients ne vont que dans une offre professionnelle ou l’API."
 cover: "ai-small-business-guide"
 cover_alt: "Les mots Claude, ChatGPT et n8n à côté d’une étoile en orbite, derrière un verre cannelé"
 related: ["claude-vs-chatgpt", "automate-lead-follow-up", "build-app-with-ai", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data"]
@@ -22,7 +22,7 @@ faq:
   - q: "Qu’est-ce qu’un agent IA ?"
     a: "Un agent IA est un modèle d’IA qui mène une tâche en plusieurs étapes de lui-même, avec des outils comme la recherche web, vos fichiers ou d’autres applications, au lieu de répondre à un seul message. Ne lui confiez que des tâches dont vous pouvez vérifier le résultat."
   - q: "Un texte écrit avec l’IA est-il pénalisé par Google ?"
-    a: "Pas parce qu’il est écrit avec l’IA. Selon ses consignes, Google récompense les contenus utiles quelle que soit la façon dont ils sont produits, et traite comme du spam les contenus produits en masse pour manipuler le classement. Retravaillez les brouillons de l’IA avec vos propres faits et votre expérience, comme n’importe quel texte."
+    a: "Pas parce qu’il est écrit avec l’IA. Google récompense les contenus utiles quelle que soit la façon dont ils sont produits, mais générer en masse des pages sans valeur ajoutée peut enfreindre sa règle sur l’utilisation abusive de contenus à grande échelle, et depuis le 1er octobre 2026 ses consignes demandent de vérifier et de relire à la main tout contenu généré par l’IA avant publication. Retravaillez les brouillons de l’IA avec vos propres faits et votre expérience."
   - q: "L’IA peut-elle traduire mon site en anglais ?"
     a: "Oui : Claude et ChatGPT écrivent et traduisent en français comme en anglais. Pour un site bilingue, demandez plutôt une version écrite pour chaque marché, avec ses propres exemples et mots-clés, et faites-la relire par une personne de langue maternelle anglaise avant la mise en ligne."
 ---
@@ -49,11 +49,11 @@ Ce qui manque au tableau compte autant : vos prix, votre stratégie et la conve
 
 ## Commencez par une tâche que vous faites déjà chaque jour
 
-Mon conseil le plus ferme sur l’IA est le même que sur le marketing. Il est facile de craquer pour chaque nouvel outil qui brille, et l’IA en sort un par semaine : tout ce bruit est voulu. Ce qui rapporte, c’est d’améliorer le travail que vous faites déjà, d’où ma règle : automatiser une tâche que vous faites déjà tous les jours, pas une tâche que vous ferez peut-être un jour. Le versant marketing de cette idée est dans mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}.
+Mon conseil le plus ferme sur l’IA est le même que sur le marketing. Il est facile de craquer pour chaque nouvel outil qui brille, et dans l’IA il en sort un chaque semaine : tout ce bruit est voulu. Ce qui rapporte, c’est d’améliorer le travail que vous faites déjà, d’où ma règle : automatiser une tâche que vous faites tous les jours, pas une tâche que vous ferez peut-être un jour. Le versant marketing de cette idée est dans mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}.
 
 Voici la méthode que je propose :
 
-1. Pendant une semaine, notez chaque tâche répétée qui vous prend plus de dix minutes : répondre aux mêmes questions, rédiger des devis, recopier les demandes dans un tableur, relancer pour les rappels.
+1. Pendant une semaine, notez chaque tâche répétée qui vous prend plus de dix minutes : répondre aux mêmes questions, rédiger des devis, recopier les demandes dans un tableur, penser à rappeler les prospects.
 2. Choisissez celle que vous faites le plus souvent et que vous pouvez vérifier facilement. Un premier jet que vous relirez de toute façon est un bon début ; un email qui part chez un client sans relecture, non.
 3. Chronométrez-la une fois à la main, puis une fois avec l’IA, et notez les deux temps.
 4. Utilisez un seul outil pour cette tâche pendant un mois, puis décidez : le garder, l’ajuster ou l’abandonner.
@@ -61,7 +61,7 @@ Voici la méthode que je propose :
 
 {{< callout type="tip" >}}Si une tâche ne revient pas chaque semaine, ne l’automatisez pas encore. Mettre en place et surveiller une automatisation prend du temps, et **elle n’est rentable que sur un travail qui se répète**.{{< /callout >}}
 
-Les deals à vie sont le piège classique. J’ai déjà acheté sur AppSumo, mais c’est un peu un casino : tout paraît bon marché, alors on finit par dépenser beaucoup, tout ne vaut pas le coup, et certains outils finissent par ne plus fonctionner. Mon {{< a key="appsumo-review" >}}avis sur AppSumo{{< /a >}} explique comment y acheter sans regrets.
+Les deals à vie sont le piège classique. J’ai déjà acheté sur AppSumo, mais c’est un peu comme un casino : tout paraît bon marché, alors on finit par dépenser beaucoup, tout ne vaut pas le coup, et certains outils finissent par ne plus fonctionner. Mon {{< a key="appsumo-review" >}}avis sur AppSumo{{< /a >}} explique comment y acheter sans regrets.
 
 Rien de tout cela n’exige une agence. Un compte gratuit sur un assistant et une heure de votre temps suffisent pour tester la première tâche.
 
@@ -87,7 +87,7 @@ L’administratif, c’est là qu’un assistant IA fait gagner du temps sans qu
 
 Claude peut aussi créer des documents, des tableurs et des présentations directement dans la conversation. Relisez toujours ce qui revient : un résumé peut oublier la seule clause qui compte, et une formule peut être fausse tout en ayant l’air juste.
 
-## Quel assistant IA payer, et combien ça coûte
+## Quel assistant IA choisir, et à quel prix
 
 Les deux principaux assistants ont une offre gratuite qui suffit pour tester une tâche. Vous payez quand vous atteignez les limites chaque semaine ou qu’il vous manque une fonction. Au moment où j’écris (octobre 2026) :
 
@@ -111,7 +111,7 @@ Avant de payer quoi que ce soit, regardez ce que vous avez déjà :
 
 Une automatisation est une règle qui exécute une tâche quand quelque chose se produit : un formulaire est envoyé, la demande arrive dans un tableur et vous recevez un email. Contrairement à un assistant IA, elle tourne sans vous, à chaque fois, et beaucoup d’automatisations utiles ne contiennent aucune IA.
 
-La première à mettre en place est l’alerte prospect, parce que la rapidité fait gagner des clients. Dans une étude portant sur 1,25 million de prospects, publiée par la Harvard Business Review, les entreprises qui tentaient de joindre un prospect dans l’heure avaient près de sept fois plus de chances de le qualifier que celles qui essayaient une heure plus tard ([The Short Life of Online Sales Leads](https://hbr.org/2011/03/the-short-life-of-online-sales-leads), 2011). L’étude date, mais je préfère toujours rappeler un prospect en quelques minutes plutôt qu’en quelques heures.
+La première à mettre en place est l’alerte prospect, parce que la rapidité fait gagner des clients. Dans une étude portant sur 1,25 million de prospects, publiée par la Harvard Business Review, les entreprises qui tentaient de joindre un prospect dans l’heure avaient près de sept fois plus de chances de le qualifier que celles qui essayaient ne serait-ce qu’une heure plus tard (*The Short Life of Online Sales Leads*, 2011). L’étude date, mais je préfère toujours rappeler un prospect en quelques minutes plutôt qu’en quelques heures.
 
 Si vos demandes arrivent par un formulaire Google Forms, cela ne coûte rien : Google Apps Script peut vous envoyer par email le nom et le numéro du prospect dès l’envoi du formulaire, inscrire la demande et vous relancer si elle est encore marquée « Nouvelle » une heure plus tard. Le tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} donne le script et chaque étape. Un compte Google gratuit peut envoyer depuis un script des emails à 100 destinataires par jour, largement assez pour des alertes.
 
@@ -131,11 +131,11 @@ Les petits modèles coûtent très peu. Au moment où j’écris, Claude Haiku 5
 
 ## Outils internes sur mesure : quand le tableur ne suffit plus
 
-Parfois, aucun outil du marché ne convient, et c’est là qu’en développer un a du sens. La version client de cette histoire, c’est {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, un installateur de climatisation en Île-de-France. Je m’occupe de son SEO, de son cold emailing et de ses sites, et à un moment je lui apportais plus de prospects que l’équipe ne pouvait en traiter. Pilotech m’a demandé une application pour tout voir clairement et ne plus jamais oublier de rappeler un prospect ou de lui répondre.
+Parfois, aucun outil du marché ne convient, et c’est là qu’en développer un se justifie. La version client de cette histoire, c’est {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, un installateur de climatisation en Île-de-France. Je m’occupe de son SEO, de son cold emailing et de ses sites, et à un moment je lui apportais plus de prospects que l’équipe ne pouvait en traiter. Pilotech m’a demandé une application pour tout voir clairement et ne plus jamais oublier de rappeler un prospect ou de lui répondre.
 
 J’ai développé sur mesure un outil interne qui gère les prospects, les chantiers, la communication avec les salariés, l’agenda et l’analyse comptable, avec des intégrations d’IA et de téléphonie. Comment il est né, et les signes qui montrent que vous en avez besoin, sont racontés dans {{< a key="bespoke-crm-internal-app" >}}CRM sur mesure{{< /a >}}. La plupart des entreprises n’ont pas besoin d’aller aussi loin : si votre processus se résume à demande, devis, gagné ou perdu, un tableur avec des rappels automatiques vous servira mieux.
 
-Il ne faut pas toujours du code. Les artefacts de Claude permettent de créer un petit outil interactif, comme un calculateur de devis ou une checklist, dans une conversation et sur toutes les offres, une fois l’exécution de code et la création de fichiers activées dans les paramètres. Un artefact peut même appeler Claude sans clé API, l’usage de chaque personne étant décompté de sa propre offre, et toute personne avec qui vous le partagez doit avoir un compte Claude. Les générateurs d’applications par IA vont plus loin. Ce qui est réaliste sans développeur, et où cela s’arrête, est expliqué dans {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}}.
+Il ne faut pas toujours du code. Les artefacts de Claude permettent de créer un petit outil interactif, comme un calculateur de devis ou une checklist, dans n’importe quelle conversation et sur toutes les offres, à condition que l’exécution de code et la création de fichiers soient activées dans **Paramètres > Capacités** (elles le sont par défaut). Un artefact peut même appeler Claude sans clé API, l’usage de chaque personne étant décompté de sa propre offre, et toute personne avec qui vous le partagez doit avoir un compte Claude. Les générateurs d’applications par IA vont plus loin. Ce qui est réaliste sans développeur, et où cela s’arrête, est expliqué dans {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}}.
 
 ## Données clients, RGPD et AI Act
 
@@ -155,7 +155,7 @@ Le détail, offre par offre, est dans {{< a key="chatgpt-gdpr-client-data" >}}Ch
 
 ### La maîtrise de l’IA selon l’AI Act
 
-L’article 4 du règlement européen sur l’IA (AI Act), consacré à la maîtrise de l’IA, s’applique depuis le 2 février 2025 aux entreprises qui utilisent l’IA dans leur travail. Une modification entrée en vigueur en juillet 2026, le règlement (UE) 2026/1744, l’a assoupli : vous devez prendre des mesures pour soutenir la maîtrise de l’IA de votre personnel et des personnes qui l’utilisent pour votre compte, mais aucun niveau précis n’est exigé, et le texte n’impose ni formation ni certificat. Pour une petite équipe, une règle d’une page en respecte l’esprit : quels outils sont autorisés, quelles données n’y entrent jamais, et qu’une personne relit chaque résultat avant qu’il n’arrive chez un client. La page de la Commission européenne sur [les compétences et la maîtrise de l’IA](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy) (en anglais) est le point de départ officiel.
+L’article 4 du règlement européen sur l’IA (AI Act), consacré à la maîtrise de l’IA, s’applique depuis le 2 février 2025 aux entreprises qui utilisent l’IA dans leur travail. Une modification entrée en vigueur en juillet 2026, le règlement (UE) 2026/1744, l’a assoupli : vous devez prendre des mesures pour soutenir la maîtrise de l’IA de votre personnel et des personnes qui l’utilisent pour votre compte, mais aucun niveau précis n’est exigé, et le texte n’impose ni formation ni certificat. Pour une petite équipe, un bon point de départ est une règle d’une page que vous passez en revue avec chacun : quels outils sont autorisés, quelles données n’y entrent jamais, et qu’une personne relit chaque résultat avant qu’il n’arrive chez un client. La page de la Commission européenne sur [les compétences et la maîtrise de l’IA](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy) (en anglais) est le point de départ officiel.
 
 Pour les données clients elles-mêmes, c’est le RGPD, sous le contrôle de la CNIL, qui s’applique ; l’AI Act s’y ajoute pour l’usage de l’IA dans l’entreprise.
 
@@ -170,6 +170,6 @@ Pour les données clients elles-mêmes, c’est le RGPD, sous le contrôle de la
 
 ### Quand passer la main
 
-Jusqu’ici, vous pouvez tout faire vous-même. Faites appel à un développeur quand un outil stocke des données personnelles de clients, se connecte à votre téléphonie ou à votre comptabilité, ou doit tourner chaque jour sans que personne ne le surveille. Si vous en commandez un, prévoyez un acompte : je demande 30 % ou 50 % à la commande et le solde à la livraison.
+Jusqu’ici, vous pouvez tout faire vous-même. Faites appel à un développeur quand un outil stocke des données personnelles de clients, se connecte à votre téléphonie ou à votre comptabilité, ou bloquerait votre activité en cas de panne. Si vous en commandez un, prévoyez un acompte : je demande 30 % ou 50 % à la commande et le solde à la livraison.
 
 Pour le reste de mes outils du quotidien, du graphisme à la vérification d’emails, voyez {{< a key="small-business-tools-guide" >}}les outils numériques pour TPE que j’utilise chaque jour{{< /a >}}.

@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:47:00+02:00
 category: "case-studies"
 article_type: "pillar"
 keywords: ["SEO case study", "local SEO case study", "small business SEO case study", "SEO case study results", "HVAC SEO"]
-summary: "Pilotech, an air conditioning installer near Paris, was getting 5 to 10 calls a month when its WordPress site was hacked. I rebuilt its main site on Squarespace in about a month, working in this order: pages, content, Google Business Profile, technical fixes. The first lead came three weeks after launch, the site now ranks first or second on Google, and SEO and cold emailing together bring about ten prospects a day."
+summary: "Pilotech, an air conditioning installer near Paris, was getting 5 to 10 calls a month when its WordPress site was hacked. I rebuilt its main site on Squarespace in about a month, and the SEO work went in this order: pages, content, Google Business Profile, technical fixes. The first lead came three weeks after launch, the site now ranks first or second on Google, and SEO and cold emailing together bring about ten prospects a day."
 cover: "pilotech-seo-case-study"
 cover_alt: "A woman points at figures on a laptop while a couple listens behind ribbed glass, with the title Pilotech"
 related: ["multiple-websites-one-business", "architects-cold-email-case-study", "how-long-does-seo-take", "squarespace-seo", "local-seo-guide"]
@@ -20,9 +20,9 @@ faq:
   - q: "Can a Squarespace website rank first on Google?"
     a: "Yes. Squarespace gives you less control over the code than a hand-built site, but Pilotech's main site runs on it and ranks first or second on Google. What made the difference was the basics: a page for each search, the right keywords and complete metadata."
   - q: "Can anyone guarantee a first position on Google?"
-    a: "No. [Google's own advice on hiring an SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo) says nobody can guarantee a number one ranking, so treat that promise as a warning sign. A ranking within days, as happened once for Pilotech, is the exception."
-  - q: "Should a small business have more than one website?"
-    a: "Only when each site serves its own audience with its own content. Pilotech runs one site per product line and it works; near-identical sites built only to catch more searches are doorway abuse under Google's spam policies."
+    a: "No. [Google's page on hiring an SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo) says nobody can guarantee a number one ranking, and it warns against anyone who claims a special relationship with Google. Treat a guaranteed position as a warning sign."
+  - q: "How do you measure the results of SEO?"
+    a: "Compare with the figures you noted before starting: calls and form enquiries per month. For the searches themselves, the free Performance report in Google Search Console shows the queries you appear for, your clicks and your average position."
   - q: "Does a hacked website lose its Google rankings?"
     a: "It can. Google may show 'This site may be hacked' under your result, which drives visitors away. Clean the site, then request a review in the Security issues report of [Google Search Console](https://support.google.com/webmasters/answer/9044101); after a spam hack, the review can take several weeks."
 ---
@@ -46,8 +46,6 @@ This page is also the hub of my case studies. The other stories on this blog, fr
 | Timeline | About a month to build, a first lead three weeks after launch |
 | Result today | First or second on Google, leads by form and phone, better clients |
 
-The sections below tell the story in order, then point you to the other case studies.
-
 ## The starting point: 5 to 10 calls a month
 
 Pilotech advises on, installs and maintains air conditioning, heat pumps and ventilation. It sells under three lines: Teknopoint air conditioning with no outdoor unit, Toshiba air conditioning and heat pumps, and positive-input ventilation, known in France as VMI.
@@ -66,7 +64,7 @@ I see this pattern often. So far, every client who has called me in an emergency
 
 I rebuilt Pilotech's main site on Squarespace. The reason is practical: the founder can change a text or a photo himself, whenever he wants, without calling anyone and without breaking anything. I usually add a little custom code on top, and clients call me for that part.
 
-Squarespace has one real drawback for SEO: it is a closed platform, with no access to the source code, so on paper a custom-coded site has more room to rank. In practice, this one ranks first or second, because the basics were right: a page for each search, the right keywords and complete metadata. My full comparison is in {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress{{< /a >}}.
+Squarespace has one real drawback for SEO: it is a closed platform, with no access to the source code, so on paper a custom-coded site has more room to rank. This one still ranks first or second, and the next section shows the work behind it. My full comparison of the two platforms is in {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress{{< /a >}}.
 
 ## What I did, in order
 
@@ -86,7 +84,7 @@ Pilotech's ventilation site later took the same approach further: 21 articles, e
 
 ### 3. The Google Business Profile
 
-For a local installer, the Business Profile is the listing that shows on Google Maps and in the local results, often above the ordinary ones. Google says local results depend mainly on relevance, distance and prominence, and that prominence takes in your reviews and your rating ([Google's explanation](https://support.google.com/business/answer/7091)). Nobody can pay Google for a better local position.
+For a local installer, the Business Profile is the listing that shows on Google Maps and in the local results, often above the ordinary ones. Google says local results depend mainly on relevance, distance and prominence, and that prominence takes in your number of reviews and your rating ([Google's explanation](https://support.google.com/business/answer/7091)). Nobody can pay Google for a better local position.
 
 Pilotech's reviews live on that profile, and its newer sites show them: the Toshiba site displays the Google rating at the top of every page, and quotes from the reviews on its home and about pages. If you are starting from zero, follow my {{< a key="google-business-profile-setup" >}}Google Business Profile setup{{< /a >}} tutorial, then read my {{< a key="local-seo-guide" >}}local SEO guide{{< /a >}} for town pages, reviews and the rest of local search.
 
@@ -94,7 +92,7 @@ Pilotech's reviews live on that profile, and its newer sites show them: the Tosh
 
 Technical fixes came last. On a Squarespace site, most of the technical side is settings rather than code: an SEO title and a description for every page, short page addresses, descriptions on images, redirects for old addresses and a sitemap submitted to Google Search Console. My {{< a key="squarespace-seo" >}}Squarespace SEO{{< /a >}} tutorial goes through them one by one, and the {{< a key="on-page-seo-checklist" >}}on-page SEO checklist{{< /a >}} works on any platform.
 
-Putting them last may look odd. On a small site, though, technical work polishes pages that already exist; it cannot make a page rank for a search it does not answer. That is why the pages and the words came first.
+Putting them last may look odd. On a small site, though, technical work polishes pages that already exist; it cannot make a page rank for a search it does not answer. So the pages and the words come first.
 
 ## How long it took: from launch to the first lead
 
@@ -107,11 +105,11 @@ Here is the timeline, as precisely as I can give it:
 | The first lead from the site | Three weeks after going live |
 | Today | First or second on Google |
 
-That first ranking was unusually fast: SEO normally takes far longer. Google's guidance on hiring an SEO talks about four months to a year in most cases, and its page [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo) says plainly that nobody can guarantee a first position on Google.
+That first ranking was unusually fast: SEO normally takes far longer. Google's own guidance on hiring an SEO, a video on its page [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo), talks about four months to a year in most cases.
 
 {{< callout type="warning" >}}A ranking within a day or two is the exception. It is not a benchmark, and it is not something I promise anyone. Be wary of anyone who guarantees you a position on Google by a given date.{{< /callout >}}
 
-What made it fast, in my view, was the offer. The site that ranked sells something very specific: one rare solution, searched in precise words, with pages that answer those words exactly. A broad offer against established competitors takes much longer, and the site that taught me this is described further down. For a normal timeline, stage by stage, read {{< a key="how-long-does-seo-take" >}}how long SEO takes{{< /a >}}.
+What made it fast, in my view, was the offer. The site that ranked sells something very specific: one rare solution, searched in precise words, with pages that answer those words exactly. A broad offer is much harder to rank, as another of this founder's sites showed (more on that below). For a normal timeline, stage by stage, read {{< a key="how-long-does-seo-take" >}}how long SEO takes{{< /a >}}.
 
 ## The results: rankings, leads and better clients
 
@@ -129,7 +127,7 @@ You can see the pages themselves on the {{< a page="/projects/pilotech-teknopoin
 
 ## What did not work: the site that tried to sell everything
 
-Not everything worked. Of the five websites I have built for this founder, one did not work at all: it offered too many services and was too broad. The site that ranks sells something very specific.
+Not everything worked. Of the websites I have built for this founder, one did not work at all: it offered too many services and was too broad.
 
 The same lesson played out at company level. Ginov, a sister company owned and run by the same founder, offered a long list of building trades under one roof: a catch-all. It closed while Pilotech, with one specific offer, took off. It is the clearest example I have of how much a focused offer, with SEO built around it, can change.
 
@@ -171,10 +169,10 @@ Two hacked sites, two rebuilds, two businesses that started getting calls. In bo
 
 ## What you can copy for your own business
 
-You do not need five websites or an internal app to apply this. Here is the checklist I would give any small business starting SEO:
+You do not need several websites or an internal app to apply this. Here is the checklist I would give any small business starting SEO:
 
 1. Write down your starting point: calls and form enquiries per month, before you change anything.
-2. Narrow what each page sells: one product or service per page, named the way your clients search for it. Broad pages and broad sites are what failed here.
+2. Narrow what each page sells: one product or service per page, named the way your clients search for it. A broad site is what failed here.
 3. Answer the questions people ask before buying, one article per real question, each linking to the page that answers it.
 4. Complete your Google Business Profile and ask every client for a review.
 5. Fix the technical basics last: titles, descriptions, page addresses and a sitemap.

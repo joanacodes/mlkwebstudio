@@ -1,7 +1,7 @@
 ---
 title: "Small business websites: the complete guide for 2026"
 seo_title: "Small business website: the complete guide for 2026"
-description: "Small business website guide: the type of site you need, the platform that suits whoever edits it, real costs, the build, a launch checklist and upkeep."
+description: "Small business website guide: which type of site you need, the platform that suits whoever will edit it, what it costs, a launch checklist and upkeep."
 slug: "small-business-website-guide"
 translationKey: "small-business-website-guide"
 date: 2026-10-17T09:50:00+02:00
@@ -18,9 +18,9 @@ faq:
   - q: "Does a small business still need a website in 2026?"
     a: "Yes, if clients check you before they call or buy. A Google Business Profile or a social media page helps people find you, but you control neither; a website on your own domain gives each service a page that Google can rank and AI assistants can cite, and it stays yours when a platform changes its rules."
   - q: "How long does it take to build a small business website?"
-    a: "A few weeks for a brochure site, once the texts, photos and decisions are ready. Building Pilotech's website took me about a month, and AI has shortened my delivery times since. Have your content ready before the build starts, because the site cannot be finished without it."
+    a: "A few weeks for a brochure site, once the texts, photos and decisions are ready. Building Pilotech's website took me about a month. Have your content ready before the build starts, because the site cannot be finished without it."
   - q: "Do I need a cookie banner on my small business website?"
-    a: "Only for cookies that need consent. Since the Data (Use and Access) Act 2025, UK sites can run analytics used only to measure how people use the site without consent, as long as they explain it and let visitors object. Advertising cookies still need consent, and Microsoft Clarity asks for a consent signal from UK and EEA visitors."
+    a: "Only for cookies that need consent. Since February 2026, under the Data (Use and Access) Act 2025, UK sites can run analytics used only to measure how people use the site without consent, as long as they explain it and let visitors object. Advertising cookies still need consent, and Microsoft Clarity asks for a consent signal from UK and EEA visitors."
   - q: "Can I change platform later without losing my Google rankings?"
     a: "Usually, if you redirect every old address to its new one with a 301 redirect, carry over your page titles and descriptions, and submit the new sitemap in Google Search Console; expect rankings to move for a few weeks. Leaving Wix means rebuilding, because Wix sites cannot be exported to another host."
   - q: "Should my website be in English and French?"
@@ -37,7 +37,7 @@ I build websites for small businesses in France and the UK. I will also tell you
 Before you look at a single template, be clear about what the site is for. For a small business, it comes down to three jobs.
 
 1. Get found. People type a service and a town into Google, and some now ask an AI assistant such as ChatGPT or Gemini to recommend someone. A page for each service, written in the words your clients use, gives both something to rank and something to quote. My {{< a key="small-business-seo-guide" >}}small business SEO guide{{< /a >}} covers the method, and the {{< a key="ai-search-geo-guide" >}}guide to generative engine optimisation{{< /a >}} covers the AI side.
-2. Get taken seriously. Visitors judge how a site looks in about 50 milliseconds, and that first impression colours how credible they find you. I want my clients' prospects to be a little intimidated by the website, because a business that looks established gets haggled with less. Here is {{< a key="professional-looking-website" >}}how to make your website look professional{{< /a >}}.
+2. Get taken seriously. A study published in 2006 found that people judge a website's visual appeal in about 50 milliseconds, and that first impression colours how credible they find you. I want my clients' prospects to be a little intimidated by the website, because a business that looks established gets haggled with less. Here is {{< a key="professional-looking-website" >}}how to make your website look professional{{< /a >}}.
 3. Turn visits into enquiries. A phone number you can tap, a short form and one clear next step on every page. If people visit but never get in touch, the leak is usually on the page itself, and {{< a key="website-conversion-rate" >}}why a website gets visits but no enquiries{{< /a >}} shows how to find it.
 
 **A site that does these three jobs well beats a bigger site that does them badly.** Keep that test in mind for every decision below.
@@ -53,7 +53,7 @@ Most small businesses need one of four kinds of site, and the choice shapes ever
 | Online shop | A catalogue with a basket and online payment | Selling products online |
 | Web app | A tool people log in to and use | Client portals, quoting tools, internal tools |
 
-A brochure website is what most of my clients need first, because prospects check it before they call. Landing pages come on top of it, one per campaign, and {{< a key="landing-page-vs-website" >}}landing page vs website{{< /a >}} explains when a single page is enough. Edenel Nettoyage, a cleaning company in Paris, had no website at all: I built it a brochure site first, and the SEO comes next.
+A brochure website is what most of my clients need first, because prospects check it before they call. Landing pages come on top of it, one per campaign, and {{< a key="landing-page-vs-website" >}}landing page vs website{{< /a >}} explains when a single page is enough. {{< a page="/projects/edenel-patrimoine" >}}Edenel Patrimoine{{< /a >}}, an independent estate agency in the Île-de-France, had no website at all: I built it one, and SEO is the next step.
 
 If what you need is a tool for your own team, such as a place to track enquiries and jobs, that is an app rather than a website. I have described {{< a key="bespoke-crm-internal-app" >}}the internal app I built when a client's leads piled up{{< /a >}}.
 
@@ -84,7 +84,7 @@ I often add a little custom code to the Squarespace sites I build, nothing that 
 
 ### WordPress: a big budget and a specialist every month
 
-WordPress can do almost anything, which is why so many developers and agencies use it. The price of that freedom is upkeep: the core, the theme and every plugin need updating, and plugins are where most of the risk sits. [Patchstack counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025](https://www.patchstack.com/whitepaper/state-of-wordpress-security-in-2026/), about 91 per cent of them in plugins. Pilotech first called me in an emergency because its WordPress site had been hacked; I recovered it, then built the company a new website.
+WordPress can do almost anything, which is why so many developers and agencies use it. The price of that freedom is upkeep: the core, the theme and every plugin need updating, and plugins are where most of the risk sits. Patchstack's State of WordPress Security in 2026 report counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, about 91 per cent of them in plugins. Pilotech first called me in an emergency because its WordPress site had been hacked; I recovered it, then built the company a new website.
 
 I usually discourage solo owners from WordPress. The learning curve is steep, and they end up having to become their own webmaster. If you have a large budget and a specialist who looks after the site every month, WordPress is a fine choice: you get the control, and someone else does the upkeep.
 
@@ -113,7 +113,7 @@ A website costs money twice: once to build it, then every year to keep it online
 | Built for you on Squarespace | A one-off project fee, then the subscription | Your texts, photos and feedback |
 | WordPress with a specialist | A project fee, hosting, then a monthly fee for upkeep | Little, as long as the specialist stays |
 
-At the time of writing (October 2026), UK guides list Squarespace from £12 a month billed annually. In the US, the Basic plan rose to $19 a month in July 2026, and I have found no confirmed new UK price, so check the [official Squarespace pricing page](https://www.squarespace.com/pricing) and the total at checkout before you commit. A .co.uk domain costs $5.42 (about £4) a year at Spaceship, and the renewal costs the same.
+At the time of writing (October 2026), UK guides list Squarespace at £12 a month for Basic and £17 for Core, the plan you need for code injection, both billed annually. In the US, Basic rose from $16 to $19 a month in July 2026, and I have found no confirmed new UK price, so check the [official Squarespace pricing page](https://www.squarespace.com/pricing) and the total at checkout before you commit. A .co.uk domain costs about £4 ($5.42) a year at [Spaceship](https://www.spaceship.com/domains/), and the renewal costs the same.
 
 For a site built for you, I found no independent UK survey of prices. {{< a key="website-cost" >}}How much a website costs in the UK{{< /a >}} sets out the routes, what moves a quote and the yearly bills people forget. My own {{< a page="/services/websites" >}}website projects{{< /a >}} have a fixed price agreed before I start, with payment options.
 
@@ -121,18 +121,18 @@ For a site built for you, I found no independent UK survey of prices. {{< a key=
 
 ## How a website gets built, step by step
 
-When I build a site, it follows the same path every time, and you approve each stage before the next one starts.
+When I build a site, it follows the same path every time, and you approve the visual identity, then the finished site, before anything goes live.
 
 1. Questions about your company, what you offer and the clients you prefer working with. I advise on what you want, what you need and what I have seen work.
 2. A visual identity: I browse design libraries, create the identity, show it to you and adjust it.
 3. Page layouts, chosen the same way from design libraries, for the way your visitors will use the site.
 4. SEO research and copywriting, so the words your clients search for become your pages and headings.
 5. The build: I put everything together with the help of AI and keep editing until the copy and the site are right.
-6. Your review. You confirm the design before anything is built, so the changes stay small. I include up to three rounds, and in practice it never gets that far.
+6. Your review: I present the site and make the changes you ask for. You confirmed the design at step 2, so they stay small. I include up to three rounds, and in practice it never gets that far.
 7. The metadata, plus a few SEO articles prepared in advance.
 8. The domain connection, then the launch.
 
-AI has shortened my delivery times. For Pilotech, the first lead came three weeks after the site went live. If you have no photos, I generate or buy them, but your own pictures of your work and your team do more for trust. The full method, with what each step needs from you, is in {{< a key="web-design-process" >}}my web design process{{< /a >}}.
+AI has shortened my delivery times, and results can come quickly: Pilotech's first lead came three weeks after its site went live. If you have no photos, I generate or buy them, but your own pictures of your work and your team do more for trust. The full method, with what each step needs from you, is in {{< a key="web-design-process" >}}my web design process{{< /a >}}.
 
 ## Domain, hosting and email: how the pieces connect
 
@@ -183,11 +183,11 @@ A website is not finished on launch day. Three habits keep it safe and useful.
 
 ### Keep it maintained
 
-On WordPress, the core, theme and plugins need updating every week. On Squarespace, the platform handles the software, and you look after the content, the accounts and the renewals. {{< a key="website-maintenance" >}}Website maintenance{{< /a >}} lists what that covers and what it costs each year.
+On WordPress, someone has to check the core, the theme and the plugins for updates every week. On Squarespace, the platform handles the software, and you look after the content, the accounts and the renewals. {{< a key="website-maintenance" >}}Website maintenance{{< /a >}} lists what that covers and what it costs each year.
 
 ### Keep it secure
 
-Turn on two-factor authentication for every account, keep backups you have restored at least once, and make sure the domain renews automatically. {{< a key="website-security-guide" >}}Website security for small businesses{{< /a >}} covers prevention and recovery, and if a WordPress site is the problem, here is {{< a key="wordpress-site-hacked" >}}what to do in the first 24 hours after a hack{{< /a >}}.
+Turn on two-factor authentication for every account, keep backups and test a restore at least once, and make sure the domain renews automatically. {{< a key="website-security-guide" >}}Website security for small businesses{{< /a >}} covers prevention and recovery, and if a WordPress site is the problem, here is {{< a key="wordpress-site-hacked" >}}what to do in the first 24 hours after a hack{{< /a >}}.
 
 Eden Flats called me after its site was hacked. That site had never brought in a lead, because the owner had too much on to learn how SEO is done properly. I built a new website, did the SEO and the visual identity, and property owners started calling to have their flats managed: {{< a page="/projects/eden-flats" >}}the Eden Flats project{{< /a >}} shows the site.
 
