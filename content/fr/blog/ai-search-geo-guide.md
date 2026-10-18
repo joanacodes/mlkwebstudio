@@ -50,9 +50,9 @@ En France, on parle aussi de « SEO IA » ou de « référencement sur les IA
 
 Les assistants qui répondent en citant des sources suivent à peu près les mêmes trois étapes :
 
-1. **Ils décident s’il faut chercher.** Une question sur des faits récents, des prix, un service local ou une entreprise précise déclenche en général une recherche sur le Web ; une question générale, pas forcément.
-2. **Ils transforment la question en requêtes.** L’assistant reformule la question, souvent en plusieurs requêtes, et les envoie à un index de recherche : le sien, celui d’un partenaire ou celui de Google.
-3. **Ils lisent quelques résultats et rédigent la réponse.** Ils gardent les pages qui répondent le plus clairement à chaque partie de la question et en citent certaines.
+1. Ils décident s’il faut chercher. Une question sur des faits récents, des prix, un service local ou une entreprise précise déclenche en général une recherche sur le Web ; une question générale, pas forcément.
+2. Ils transforment la question en requêtes. L’assistant reformule la question, souvent en plusieurs requêtes, et les envoie à un index de recherche : le sien, celui d’un partenaire ou celui de Google.
+3. Ils lisent quelques résultats et rédigent la réponse. Ils gardent les pages qui répondent le plus clairement à chaque partie de la question et en citent certaines.
 
 C’est l’index utilisé par chaque assistant qui décide si votre site peut être trouvé :
 
@@ -79,7 +79,7 @@ Le problème, ce sont les clics. Dans une [étude de Pew Research](https://www.p
 
 Gardez toutefois le sens des proportions. Google reste de très loin le premier moteur de recherche en France, et Bing n’y pèse qu’environ 5,5 % des recherches selon Statcounter (septembre 2026). Vos clients n’ont pas cessé de chercher : ils cherchent à plus d’endroits, et certains obtiennent leur réponse sans cliquer.
 
-Mon conseil vaut pour chaque nouveau canal : n’abandonnez pas ce qui marche déjà. Mes propres clients viennent du bouche-à-oreille, des cold emails et du SEO, dans cet ordre. Il est facile de courir après la dernière tactique à la mode, et le bruit autour du GEO en est un cas d’école ; j’explique comment y résister dans {{< a key="shiny-object-syndrome" >}}l’article sur le syndrome de l’objet brillant{{< /a >}}. Bonne nouvelle : l’essentiel du travail de référencement IA renforce votre SEO en même temps.
+Mon conseil vaut pour chaque nouveau canal : **n’abandonnez pas ce qui marche déjà**. Mes propres clients viennent du bouche-à-oreille, des cold emails et du SEO, dans cet ordre. Il est facile de courir après la dernière tactique à la mode, et le bruit autour du GEO en est un cas d’école ; j’explique comment y résister dans {{< a key="shiny-object-syndrome" >}}l’article sur le syndrome de l’objet brillant{{< /a >}}. Bonne nouvelle : l’essentiel du travail de référencement IA renforce votre SEO en même temps.
 
 ## GEO vs SEO : ce qui reste et ce qui change
 
@@ -87,9 +87,9 @@ Le guide de Google sur l’optimisation pour ses fonctions d’IA, [publié le 1
 
 Trois choses sont vraiment nouvelles :
 
-1. **Plus de robots à laisser entrer.** Chaque acteur de l’IA a son propre robot de recherche, et certains réglages d’hébergement ou de sécurité les bloquent par défaut.
-2. **Les mentions pèsent davantage.** Dans une étude d’Ahrefs portant sur 75 000 marques, les mentions de la marque sur le Web étaient le facteur le plus corrélé à la visibilité dans les Aperçus IA (0,664), devant les ancres de liens au nom de la marque (0,527) et le volume de recherche sur la marque (0,392).
-3. **La mesure a des trous.** La plupart des rapports IA montrent des impressions ou des citations plutôt que des clics, et certaines visites arrivent sans aucune source.
+1. Plus de robots à laisser entrer. Chaque acteur de l’IA a son propre robot de recherche, et certains réglages d’hébergement ou de sécurité les bloquent par défaut.
+2. Les mentions pèsent davantage. Dans une étude d’Ahrefs portant sur 75 000 marques, les mentions de la marque sur le Web étaient le facteur le plus corrélé à la visibilité dans les Aperçus IA (0,664), devant les ancres de liens au nom de la marque (0,527) et le volume de recherche sur la marque (0,392).
+3. La mesure a des trous. La plupart des rapports IA montrent des impressions ou des citations plutôt que des clics, et certaines visites arrivent sans aucune source.
 
 Je développe l’argument complet dans {{< a key="geo-vs-seo" >}}GEO vs SEO : ce qui change vraiment{{< /a >}}. Si vos bases SEO ne sont pas encore en place, commencez par {{< a key="small-business-seo-guide" >}}le guide complet du référencement naturel pour les petites entreprises{{< /a >}} : toutes les étapes suivantes s’appuient dessus.
 
@@ -97,10 +97,10 @@ Je développe l’argument complet dans {{< a key="geo-vs-seo" >}}GEO vs SEO : 
 
 Commencez par là, car tout le reste en dépend.
 
-1. **Vérifiez votre robots.txt.** Ouvrez votredomaine.fr/robots.txt et assurez-vous que rien ne bloque OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot ou Bingbot. Les robots d’entraînement comme GPTBot et ClaudeBot relèvent d’un autre choix : {{< a key="robots-txt-ai-crawlers" >}}l’article sur le robots.txt et les robots IA{{< /a >}} les liste et propose trois fichiers à copier.
-2. **Vérifiez les couches au-dessus.** Cloudflare bloque par défaut les robots IA connus sur les domaines ajoutés depuis le 1er juillet 2025, et certains outils de création de site ou extensions de sécurité ont leur propre interrupteur. Sur Squarespace, une option des paramètres (**Settings > Crawlers** dans l’interface en anglais) bloque les robots d’IA connus ; elle est désactivée par défaut.
-3. **Vérifiez que vos textes sont dans le HTML.** Selon une analyse de Vercel, GPTBot, ClaudeBot et PerplexityBot n’exécutent pas JavaScript, contrairement à Googlebot. Si la description de vos services n’apparaît qu’après l’exécution d’un script, ces robots risquent de voir une page vide.
-4. **Faites indexer votre site par Google et Bing.** Validez votre site dans la Google Search Console et dans Bing Webmaster Tools, qui peut importer vos sites depuis la Search Console, puis envoyez votre sitemap. Bing est l’index qui alimente Copilot.
+1. Vérifiez votre robots.txt. Ouvrez votredomaine.fr/robots.txt et assurez-vous que rien ne bloque OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot ou Bingbot. Les robots d’entraînement comme GPTBot et ClaudeBot relèvent d’un autre choix : {{< a key="robots-txt-ai-crawlers" >}}l’article sur le robots.txt et les robots IA{{< /a >}} les liste et propose trois fichiers à copier.
+2. Vérifiez les couches au-dessus. Cloudflare bloque par défaut les robots IA connus sur les domaines ajoutés depuis le 1er juillet 2025, et certains outils de création de site ou extensions de sécurité ont leur propre interrupteur. Sur Squarespace, une option des paramètres (**Settings > Crawlers** dans l’interface en anglais) bloque les robots d’IA connus ; elle est désactivée par défaut.
+3. Vérifiez que vos textes sont dans le HTML. Selon une analyse de Vercel, GPTBot, ClaudeBot et PerplexityBot n’exécutent pas JavaScript, contrairement à Googlebot. Si la description de vos services n’apparaît qu’après l’exécution d’un script, ces robots risquent de voir une page vide.
+4. Faites indexer votre site par Google et Bing. Validez votre site dans la Google Search Console et dans Bing Webmaster Tools, qui peut importer vos sites depuis la Search Console, puis envoyez votre sitemap. Bing est l’index qui alimente Copilot.
 
 {{< callout type="tip" >}}Un contrôle de deux minutes pour le point 3 : ouvrez une de vos pages de service, affichez son code source (**Ctrl+U** dans la plupart des navigateurs sous Windows) et cherchez-y une phrase de la page. Si la phrase n’y figure pas, les robots qui n’exécutent pas JavaScript ne peuvent pas la lire.{{< /callout >}}
 
@@ -112,14 +112,14 @@ Pour information, ce site laisse entrer tous les robots et publie un fichier llm
 
 Les assistants citent des pages qui répondent à une question précise, avec des mots simples. Concrètement :
 
-- **Une page par service**, et une par ville réellement couverte, chacune avec ses propres informations. Des pages presque identiques où seul le nom de la ville change correspondent à ce que les règles anti-spam de Google appellent des pages satellites ; {{< a key="local-seo-guide" >}}le guide du référencement local{{< /a >}} montre comment construire de bonnes pages par ville.
-- **La réponse d’abord.** Ouvrez chaque page ou section par deux ou trois phrases qui répondent à la question, puis donnez le détail : prix ou fourchettes de prix, zones couvertes, délais, garanties.
-- **Des définitions en une phrase, des chiffres datés et sourcés**, et des tableaux pour comparer.
-- **Ce qu’aucun concurrent ne peut dire à votre place** : votre méthode, de vraies photos, de vrais cas, les questions que vos clients posent au premier appel.
+- Une page par service, et une par ville réellement couverte, chacune avec ses propres informations. Des pages presque identiques où seul le nom de la ville change correspondent à ce que les règles anti-spam de Google appellent des pages satellites ; {{< a key="local-seo-guide" >}}le guide du référencement local{{< /a >}} montre comment construire de bonnes pages par ville.
+- La réponse d’abord. Ouvrez chaque page ou section par deux ou trois phrases qui répondent à la question, puis donnez le détail : prix ou fourchettes de prix, zones couvertes, délais, garanties.
+- Des définitions en une phrase, des chiffres datés et sourcés, et des tableaux pour comparer.
+- Ce qu’aucun concurrent ne peut dire à votre place : votre méthode, de vraies photos, de vrais cas, les questions que vos clients posent au premier appel.
 
 {{< a key="write-content-for-ai-search" >}}Être cité par les IA : comment rédiger des contenus qu’elles reprennent{{< /a >}} montre ces réflexes avec des exemples avant/après.
 
-Être précis compte encore plus que la forme. Pour un client, le site qui vend un service très spécifique s’est retrouvé en tête de Google un ou deux jours après sa mise en ligne, ce qui est inhabituellement rapide. Celui d’une société sœur, un fourre-tout qui proposait tous les métiers du bâtiment à la fois, n’a jamais fonctionné. Un assistant à qui l’on demande « un électricien à Lyon qui installe des bornes de recharge » ne peut citer qu’une entreprise dont les pages disent exactement cela.
+**Être précis compte encore plus que la forme.** Pour un client, le site qui vend un service très spécifique s’est retrouvé en tête de Google un ou deux jours après sa mise en ligne, ce qui est inhabituellement rapide. Celui d’une société sœur, un fourre-tout qui proposait tous les métiers du bâtiment à la fois, n’a jamais fonctionné. Un assistant à qui l’on demande « un électricien à Lyon qui installe des bornes de recharge » ne peut citer qu’une entreprise dont les pages disent exactement cela.
 
 L’IA est une bonne assistante de recherche pour ce travail, pas une usine à pages. J’utilise Deep Research pour repérer ce dont les gens se plaignent le plus dans un secteur et les mots-clés qui reviennent sans cesse, puis je retravaille le texte jusqu’à ce qu’il ressemble à l’entreprise ; la méthode est dans {{< a key="deep-research-copywriting-seo" >}}l’article sur Deep Research pour le copywriting et le SEO{{< /a >}}. Publier des pages en masse est une autre affaire : les consignes de Google sur les contenus générés par IA préviennent que de nombreuses pages produites sans valeur ajoutée pour les lecteurs peuvent relever de l’abus de contenu à grande échelle, et depuis octobre 2026 elles insistent pour que tout contenu généré par IA soit vérifié à la main avant publication.
 
@@ -129,10 +129,10 @@ Les assistants recommandent rarement une entreprise sur la seule foi de son site
 
 Pour une TPE, les mentions les plus utiles sont souvent plus proches :
 
-- **Votre fiche Google** (Google Business Profile, l’ancien Google My Business), complète et à jour, avec de vrais avis que vous avez sollicités. Google classe les entreprises locales selon la pertinence, la distance et la notoriété, et aucune meilleure position ne s’achète ; {{< a key="google-business-profile-setup" >}}le tutoriel sur la fiche Google My Business{{< /a >}} détaille la création pas à pas.
-- **Les annuaires et organisations professionnelles** qui affichent partout le même nom, la même adresse et le même numéro de téléphone.
-- **Les fournisseurs et partenaires** qui ont une page « trouver un installateur » ou « nos partenaires ».
-- **La presse**, en commençant par le journal local.
+- Votre fiche Google (Google Business Profile, l’ancien Google My Business), complète et à jour, avec de vrais avis que vous avez sollicités. Google classe les entreprises locales selon la pertinence, la distance et la notoriété, et aucune meilleure position ne s’achète ; {{< a key="google-business-profile-setup" >}}le tutoriel sur la fiche Google My Business{{< /a >}} détaille la création pas à pas.
+- Les annuaires et organisations professionnelles qui affichent partout le même nom, la même adresse et le même numéro de téléphone.
+- Les fournisseurs et partenaires qui ont une page « trouver un installateur » ou « nos partenaires ».
+- La presse, en commençant par le journal local.
 
 Les relations presse sont moins inaccessibles qu’il n’y paraît. Ce n’est pas mon métier et j’ai à peine essayé, pourtant un message court et bien ciblé a valu à une personne de mon entourage, qui est coach, un article dans le magazine Match ; j’y vois l’effet des réflexes de rédaction et de ciblage que m’a donnés le cold emailing. Vous n’avez pas besoin d’abonnés, seulement de quelque chose d’intéressant à proposer et d’une page qui montre votre travail. Commencez par le journal de votre ville, puis la presse régionale, puis nationale : chaque article est une mention, souvent un lien, et une preuve à montrer. {{< a key="get-press-coverage" >}}Comment passer dans la presse sans abonnés{{< /a >}} détaille la méthode.
 
@@ -172,11 +172,11 @@ Comptez ensuite ce qui compte vraiment : les demandes. Ajoutez « un assistant
 
 Un sujet nouveau attire toujours des vendeurs. Voici ce pour quoi je ne paierais pas :
 
-- **Une place garantie dans ChatGPT ou les Aperçus IA.** OpenAI indique que l’apparition dans la recherche ChatGPT n’est pas garantie, et Google rappelle que personne ne peut garantir la première place. Les réponses changent selon la question et l’utilisateur.
-- **Un fichier llms.txt, un « balisage IA » ou une réécriture « en fragments » vendus en forfait.** Google dit que ses fonctions d’IA n’en ont pas besoin, et aucun autre assistant n’a déclaré s’en servir.
-- **Des centaines de pages rédigées par IA**, une par ville ou par question, où seuls quelques détails changent. C’est exactement ce que visent les règles de Google contre l’abus de contenu à grande échelle et les pages satellites.
-- **Les faux avis, les mentions achetées et les faux messages publiés sur les forums**, pour les raisons vues à l’étape 3.
-- **Un outil de suivi payant avant les bases.** Un outil peut vous dire que votre entreprise n’est pas citée ; il n’en corrige pas les causes. Faites d’abord les étapes 1 à 4.
+- Une place garantie dans ChatGPT ou les Aperçus IA. OpenAI indique que l’apparition dans la recherche ChatGPT n’est pas garantie, et Google rappelle que personne ne peut garantir la première place. Les réponses changent selon la question et l’utilisateur.
+- Un fichier llms.txt, un « balisage IA » ou une réécriture « en fragments » vendus en forfait. Google dit que ses fonctions d’IA n’en ont pas besoin, et aucun autre assistant n’a déclaré s’en servir.
+- Des centaines de pages rédigées par IA, une par ville ou par question, où seuls quelques détails changent. C’est exactement ce que visent les règles de Google contre l’abus de contenu à grande échelle et les pages satellites.
+- Les faux avis, les mentions achetées et les faux messages publiés sur les forums, pour les raisons vues à l’étape 3.
+- Un outil de suivi payant avant les bases. Un outil peut vous dire que votre entreprise n’est pas citée ; il n’en corrige pas les causes. Faites d’abord les étapes 1 à 4.
 
 {{< callout type="warning" >}}Si quelqu’un promet de « vous faire apparaître dans ChatGPT » avant une date précise, demandez-lui sur quels robots, quelles pages et quelles mentions il compte travailler. Une réponse vague annonce en général un résultat vague.{{< /callout >}}
 
@@ -184,11 +184,11 @@ Un sujet nouveau attire toujours des vendeurs. Voici ce pour quoi je ne paierais
 
 Vous pouvez tout faire vous-même, à raison de quelques heures par semaine :
 
-1. **Semaine 1, l’accès** : vérifiez le robots.txt, Cloudflare et les réglages de votre outil de création de site, validez la Search Console et Bing Webmaster Tools, et envoyez votre sitemap.
-2. **Semaines 2 à 4, les pages** : une page par service avec la réponse d’abord, vos prix ou fourchettes de prix, vos zones d’intervention et de vraies photos. Mettez à jour vos pages « À propos » et contact avec des informations qu’un assistant peut citer.
-3. **Mois 2, les preuves** : complétez votre fiche Google, demandez un avis à vos dix derniers clients satisfaits, harmonisez vos fiches d’annuaires et proposez un sujet à un journaliste local.
-4. **Mois 3, test et mesure** : faites le test des dix questions, vérifiez les canaux IA dans GA4 et Clarity, et notez votre point de départ.
-5. **Ensuite, chaque mois** : refaites le test, mettez à jour les pages là où les réponses étaient fausses ou incomplètes, et datez vos modifications.
+1. Semaine 1, l’accès : vérifiez le robots.txt, Cloudflare et les réglages de votre outil de création de site, validez la Search Console et Bing Webmaster Tools, et envoyez votre sitemap.
+2. Semaines 2 à 4, les pages : une page par service avec la réponse d’abord, vos prix ou fourchettes de prix, vos zones d’intervention et de vraies photos. Mettez à jour vos pages « À propos » et contact avec des informations qu’un assistant peut citer.
+3. Mois 2, les preuves : complétez votre fiche Google, demandez un avis à vos dix derniers clients satisfaits, harmonisez vos fiches d’annuaires et proposez un sujet à un journaliste local.
+4. Mois 3, test et mesure : faites le test des dix questions, vérifiez les canaux IA dans GA4 et Clarity, et notez votre point de départ.
+5. Ensuite, chaque mois : refaites le test, mettez à jour les pages là où les réponses étaient fausses ou incomplètes, et datez vos modifications.
 
 ### Quand déléguer
 

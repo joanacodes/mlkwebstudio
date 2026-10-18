@@ -50,9 +50,9 @@ The names matter less than one distinction. What a model learnt in training stay
 
 Every AI assistant that answers with sources follows roughly the same three steps:
 
-1. **It decides whether to search.** Questions about current facts, prices, local services or named businesses usually trigger a web search; general questions may not.
-2. **It turns the question into search queries.** The assistant rewrites the question, often into several queries, and sends them to a search index: its own, a partner's or Google's.
-3. **It reads a few results and writes the answer.** It keeps the pages that answer each part of the question most clearly and cites some of them.
+1. It decides whether to search. Questions about current facts, prices, local services or named businesses usually trigger a web search; general questions may not.
+2. It turns the question into search queries. The assistant rewrites the question, often into several queries, and sends them to a search index: its own, a partner's or Google's.
+3. It reads a few results and writes the answer. It keeps the pages that answer each part of the question most clearly and cites some of them.
 
 The index behind each assistant decides whether your site can be found at all:
 
@@ -79,7 +79,7 @@ The catch is clicks. In a [study by Pew Research](https://www.pewresearch.org/sh
 
 Keep it in proportion, though. According to Statcounter, Google still handled about 91% of UK searches in June 2026, and Bing about 6%. Your customers have not stopped searching. They search in more places, and some get their answer without a click.
 
-My advice is the same for every new channel: do not drop what already works. My own clients come from referrals, cold emails and SEO, in that order. It is easy to chase the newest tactic, and the noise around GEO is a textbook case; I explain how to resist it in {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}. The reassuring part is that most GEO work strengthens your SEO at the same time.
+My advice is the same for every new channel: **do not drop what already works**. My own clients come from referrals, cold emails and SEO, in that order. It is easy to chase the newest tactic, and the noise around GEO is a textbook case; I explain how to resist it in {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}. The reassuring part is that most GEO work strengthens your SEO at the same time.
 
 ## GEO vs SEO: what stays the same and what is new
 
@@ -87,9 +87,9 @@ Google's guide to optimising for its AI features, [published on 15 May 2026](htt
 
 Three things are genuinely new:
 
-1. **More crawlers to let in.** Each AI company runs its own search crawler, and some hosting and security settings block them by default.
-2. **Mentions weigh more.** In an Ahrefs study of 75,000 brands, branded web mentions correlated with visibility in AI Overviews more than any other factor measured (0.664), ahead of branded anchor text (0.527) and branded search volume (0.392).
-3. **Measurement has gaps.** Most AI reports show impressions or citations rather than clicks, and some visits arrive with no source at all.
+1. More crawlers to let in. Each AI company runs its own search crawler, and some hosting and security settings block them by default.
+2. Mentions weigh more. In an Ahrefs study of 75,000 brands, branded web mentions correlated with visibility in AI Overviews more than any other factor measured (0.664), ahead of branded anchor text (0.527) and branded search volume (0.392).
+3. Measurement has gaps. Most AI reports show impressions or citations rather than clicks, and some visits arrive with no source at all.
 
 I make the full argument in {{< a key="geo-vs-seo" >}}GEO vs SEO: what really changes{{< /a >}}. If your SEO basics are not in place yet, start with {{< a key="small-business-seo-guide" >}}the complete guide to small business SEO{{< /a >}}: every step below builds on it.
 
@@ -97,10 +97,10 @@ I make the full argument in {{< a key="geo-vs-seo" >}}GEO vs SEO: what really ch
 
 Start here, because everything else depends on it.
 
-1. **Check your robots.txt.** Open yourdomain.co.uk/robots.txt and make sure nothing blocks OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot or Bingbot. Training crawlers such as GPTBot and ClaudeBot are a separate decision: {{< a key="robots-txt-ai-crawlers" >}}robots.txt for AI crawlers{{< /a >}} lists the bots and gives three files to copy.
-2. **Check the layers above it.** Cloudflare has blocked known AI crawlers by default on newly added domains since 1 July 2025, and some website builders and security plugins have their own switch. On Squarespace, **Settings > Crawlers** has a "Block known artificial intelligence crawlers" option, off by default.
-3. **Make sure your text is in the HTML.** Vercel found that GPTBot, ClaudeBot and PerplexityBot do not run JavaScript, unlike Googlebot. If your service descriptions only appear once a script has run, those crawlers may see an empty page.
-4. **Get indexed by Google and Bing.** Verify your site in Google Search Console and in Bing Webmaster Tools, which can import your sites from Search Console, then submit your sitemap. Bing is the index behind Copilot.
+1. Check your robots.txt. Open yourdomain.co.uk/robots.txt and make sure nothing blocks OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot or Bingbot. Training crawlers such as GPTBot and ClaudeBot are a separate decision: {{< a key="robots-txt-ai-crawlers" >}}robots.txt for AI crawlers{{< /a >}} lists the bots and gives three files to copy.
+2. Check the layers above it. Cloudflare has blocked known AI crawlers by default on newly added domains since 1 July 2025, and some website builders and security plugins have their own switch. On Squarespace, **Settings > Crawlers** has a "Block known artificial intelligence crawlers" option, off by default.
+3. Make sure your text is in the HTML. Vercel found that GPTBot, ClaudeBot and PerplexityBot do not run JavaScript, unlike Googlebot. If your service descriptions only appear once a script has run, those crawlers may see an empty page.
+4. Get indexed by Google and Bing. Verify your site in Google Search Console and in Bing Webmaster Tools, which can import your sites from Search Console, then submit your sitemap. Bing is the index behind Copilot.
 
 {{< callout type="tip" >}}A two-minute check for point 3: open one of your service pages, view its source code (**Ctrl+U** in most browsers on Windows) and search it for a sentence from the page. If the sentence is not in the source, crawlers that do not run JavaScript cannot read it.{{< /callout >}}
 
@@ -112,14 +112,14 @@ For the record, this site lets every crawler in and publishes an llms.txt. It to
 
 Assistants quote pages that answer a precise question in plain words. In practice:
 
-- **One page per service**, and one per town you genuinely cover, each with its own facts. Near-identical pages where only the town name changes are what Google's spam policies call doorway abuse; {{< a key="local-seo-guide" >}}the local SEO guide{{< /a >}} shows how to build town pages properly.
-- **The answer first.** Open each page or section with two or three sentences that answer the question, then give the detail: prices or price ranges, areas covered, lead times, guarantees.
-- **Definitions in one sentence and figures with a date and a source**, plus tables for comparisons.
-- **What only you can say**: your process, real photos, real cases, the questions clients ask on the first call.
+- One page per service, and one per town you genuinely cover, each with its own facts. Near-identical pages where only the town name changes are what Google's spam policies call doorway abuse; {{< a key="local-seo-guide" >}}the local SEO guide{{< /a >}} shows how to build town pages properly.
+- The answer first. Open each page or section with two or three sentences that answer the question, then give the detail: prices or price ranges, areas covered, lead times, guarantees.
+- Definitions in one sentence and figures with a date and a source, plus tables for comparisons.
+- What only you can say: your process, real photos, real cases, the questions clients ask on the first call.
 
 {{< a key="write-content-for-ai-search" >}}How to write content that AI assistants quote{{< /a >}} shows these habits with before-and-after rewrites.
 
-Being specific matters even more than format. For one client, the site that sells one very specific service was at the top of Google within a day or two of going live, which is unusually fast. The site of a sister company, which offered every building trade at once, did not work at all. An assistant asked for "an electrician in Croydon who installs EV chargers" can only name a business whose pages say exactly that.
+**Being specific matters even more than format.** For one client, the site that sells one very specific service was at the top of Google within a day or two of going live, which is unusually fast. The site of a sister company, which offered every building trade at once, did not work at all. An assistant asked for "an electrician in Croydon who installs EV chargers" can only name a business whose pages say exactly that.
 
 AI is a good research assistant for this work, not a page factory. I use Deep Research to find what people complain about most in a niche and which keywords keep coming back, then I edit the copy until it sounds like the business; the method is in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}. Publishing pages in bulk is another matter: Google's guidance on AI-generated content warns that many pages generated without adding value for users may break its scaled content abuse policy, and since October 2026 it insists on checking AI-generated content by hand before publishing.
 
@@ -129,10 +129,10 @@ Assistants rarely recommend a business on the strength of its own website alone.
 
 For a small business, the most useful mentions are usually closer to home:
 
-- **Your Google Business Profile**, complete and up to date, with genuine reviews you have asked for. Google ranks local businesses on relevance, distance and prominence, and nobody can pay for a better position; {{< a key="google-business-profile-setup" >}}the Google Business Profile setup guide{{< /a >}} goes through it step by step.
-- **Directories and trade bodies** that list your business with the same name, address and phone number everywhere.
-- **Suppliers and partners** with a "find an installer" or "our partners" page.
-- **The press**, starting with your local paper.
+- Your Google Business Profile, complete and up to date, with genuine reviews you have asked for. Google ranks local businesses on relevance, distance and prominence, and nobody can pay for a better position; {{< a key="google-business-profile-setup" >}}the Google Business Profile setup guide{{< /a >}} goes through it step by step.
+- Directories and trade bodies that list your business with the same name, address and phone number everywhere.
+- Suppliers and partners with a "find an installer" or "our partners" page.
+- The press, starting with your local paper.
 
 The press is less out of reach than it seems. I am not a PR specialist and barely tried, yet a short, targeted pitch got a personal trainer friend into the French magazine Match; I put it down to the copywriting and targeting habits that cold emailing taught me. You do not need followers, just something interesting to bring to the table and a page that shows your work. Start with your town's paper, then the regional press, then the national one: each article is a mention, often a link, and proof you can show. {{< a key="get-press-coverage" >}}How to get press coverage without followers{{< /a >}} explains the method.
 
@@ -172,11 +172,11 @@ Then count what really matters: enquiries. Add "an AI assistant (ChatGPT, Gemini
 
 A new topic always attracts sellers. Here is what I would not pay for:
 
-- **Guaranteed placement in ChatGPT or AI Overviews.** OpenAI says placement in ChatGPT search is not guaranteed, and Google says nobody can guarantee a top ranking. Answers change with each question and each user.
-- **An llms.txt file, "AI schema" or "chunked" rewrites sold as a package.** Google says its AI features need none of them, and no other assistant has said it relies on them.
-- **Hundreds of AI-written pages**, one per town or per question with the details swapped. That is the scaled content and doorway pattern Google's spam policies target.
-- **Fake reviews, bought mentions and planted forum posts**, for the reasons in Step 3.
-- **A paid tracker before the basics.** A tool can tell you that you are not mentioned; it cannot fix the reasons. Do Steps 1 to 4 first.
+- Guaranteed placement in ChatGPT or AI Overviews. OpenAI says placement in ChatGPT search is not guaranteed, and Google says nobody can guarantee a top ranking. Answers change with each question and each user.
+- An llms.txt file, "AI schema" or "chunked" rewrites sold as a package. Google says its AI features need none of them, and no other assistant has said it relies on them.
+- Hundreds of AI-written pages, one per town or per question with the details swapped. That is the scaled content and doorway pattern Google's spam policies target.
+- Fake reviews, bought mentions and planted forum posts, for the reasons in Step 3.
+- A paid tracker before the basics. A tool can tell you that you are not mentioned; it cannot fix the reasons. Do Steps 1 to 4 first.
 
 {{< callout type="warning" >}}If someone promises to "get you into ChatGPT" by a set date, ask which crawlers, which pages and which mentions they will work on. A vague answer usually means a vague result.{{< /callout >}}
 
@@ -184,11 +184,11 @@ A new topic always attracts sellers. Here is what I would not pay for:
 
 You can do all of this yourself in a few hours a week:
 
-1. **Week 1, access:** check robots.txt, Cloudflare and your website builder's crawler settings, verify Search Console and Bing Webmaster Tools, and submit your sitemap.
-2. **Weeks 2 to 4, pages:** one page per service with the answer first, your prices or price ranges, the areas you cover and real photos. Update your About and contact pages with facts an assistant can quote.
-3. **Month 2, proof:** complete your Google Business Profile, ask your ten most recent happy clients for a review, align your directory listings and pitch one local journalist.
-4. **Month 3, test and measure:** run the ten-question test, check the AI channels in GA4 and Clarity, and note your starting point.
-5. **Every month after that:** rerun the test, update the pages where answers were wrong or missing, and date your changes.
+1. Week 1, access: check robots.txt, Cloudflare and your website builder's crawler settings, verify Search Console and Bing Webmaster Tools, and submit your sitemap.
+2. Weeks 2 to 4, pages: one page per service with the answer first, your prices or price ranges, the areas you cover and real photos. Update your About and contact pages with facts an assistant can quote.
+3. Month 2, proof: complete your Google Business Profile, ask your ten most recent happy clients for a review, align your directory listings and pitch one local journalist.
+4. Month 3, test and measure: run the ten-question test, check the AI channels in GA4 and Clarity, and note your starting point.
+5. Every month after that: rerun the test, update the pages where answers were wrong or missing, and date your changes.
 
 ### When to hand it over
 

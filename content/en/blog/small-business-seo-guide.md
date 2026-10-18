@@ -154,7 +154,7 @@ What does not change: [Google's May 2026 guide to its generative AI features](ht
 
 What does change:
 
-- Fewer clicks on some searches. In a Pew Research Center study of US users, people clicked on a result in 8% of visits when an AI summary appeared, against 15% without one.
+- Fewer clicks on some searches. In a Pew Research study of US users, people clicked on a result in 8% of visits when an AI summary appeared, against 15% without one.
 - Mentions count. An Ahrefs study of 75,000 brands found that mentions of a brand across the web were the factor most closely linked to appearing in AI Overviews. This is where press coverage, local directories and partners' websites earn their place.
 - Assistants need to read your pages. If your site blocks their search crawlers, you can drop out of their answers; my guide to {{< a key="robots-txt-ai-crawlers" >}}robots.txt for AI crawlers{{< /a >}} lists which bots to allow.
 
