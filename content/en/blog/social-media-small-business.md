@@ -39,7 +39,7 @@ Pinterest and YouTube Shorts are probably your best allies in 2026. Once somethi
 
 Instagram, TikTok and Facebook work the other way round. To be seen, you have to keep finding new ways to catch people's attention, and keep at it for a long time. They turn business owners into unpaid employees who beg to be seen. Even Google Business Profile is nicer: the people who see it are already looking for what you do.
 
-I have done this work for a client. By engaging with other accounts and posting regularly, we gained 60 new, relevant followers in a month. It worked, but I prefer the services whose results are more palpable, and a follower is not yet a client.
+I have done this work for a client: by engaging with other accounts on the platform and posting content, I brought them 60 new, relevant followers in a month. It worked, but I prefer the services whose results are more palpable, and a follower is not yet a client.
 
 So my advice depends on what you have:
 
@@ -125,10 +125,10 @@ Instagram passed 3 billion monthly users in September 2025. For a small business
 
 **What changed:**
 
-- **10 July 2025:** public photos and videos from professional accounts can appear in search engines such as Google, unless you switch this off.
-- **December 2025:** hashtags are capped at five per post and per Reel.
-- **10 December 2025:** [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) lets users see and edit the topics behind their Reels recommendations, first in the US; it has since reached Explore and the main feed.
-- **April 2026:** an account whose posts over 30 days are mostly reposts is treated as an aggregator and loses its place in recommendations until most of its posts are original again.
+- 10 July 2025: public photos and videos from professional accounts can appear in search engines such as Google, unless you switch this off.
+- December 2025: hashtags are capped at five per post and per Reel.
+- 10 December 2025: [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) lets users see and edit the topics behind their Reels recommendations, first in the US; it has since reached Explore and the main feed.
+- April 2026: an account whose posts over 30 days are mostly reposts is treated as an aggregator and loses its place in recommendations until most of its posts are original again.
 
 The direction is clear: Instagram favours original work that people watch to the end and send to friends. Reposting other people's content and stacking hashtags no longer gets you far. The update-by-update detail is in {{< a key="instagram-algorithm-2026" >}}Instagram algorithm 2026{{< /a >}}.
 
@@ -140,10 +140,10 @@ People on TikTok are not really buyers: they come to be entertained. That makes 
 
 **What changed:**
 
-- **31 March 2025:** TikTok Shop opened in France, Germany and Italy, so people can buy without leaving the app. It was already open in the UK.
-- **2 May 2025:** Ireland's Data Protection Commission fined TikTok €530 million (about £450 million) over transfers of EEA users' data to China.
-- **22 January 2026:** the deal creating a US joint venture for TikTok closed. It covers the American app only; nothing changes in the UK or France.
-- **Young users:** in the UK, the Online Safety Act's child-safety duties have applied since 25 July 2025, and Australia's ban on social media accounts for under-16s took effect on 10 December 2025. In France, a law banning social media for under-15s was passed in July 2026, but the Conseil constitutionnel struck the ban down on 14 August 2026.
+- 31 March 2025: TikTok Shop opened in France, Germany and Italy, so people can buy without leaving the app. It was already open in the UK.
+- 2 May 2025: Ireland's Data Protection Commission fined TikTok €530 million (about £450 million) over transfers of EEA users' data to China.
+- 22 January 2026: the deal creating a US joint venture for TikTok closed. It covers the American app only; nothing changes in the UK or France.
+- Young users: in the UK, the Online Safety Act's child-safety duties have applied since 25 July 2025, and Australia's ban on social media accounts for under-16s took effect on 10 December 2025. In France, a law banning social media for under-15s was passed in July 2026, but the Conseil constitutionnel struck the ban down on 14 August 2026.
 
 More in {{< a key="tiktok-for-business-2026" >}}TikTok for small business{{< /a >}}.
 
@@ -188,7 +188,7 @@ Here are the changes from this guide in date order, with what each one means for
 | 10 July 2025 | Instagram | Public posts of professional accounts can appear in search engines | Write captions with the words people search for |
 | 25 July 2025 | UK rules | Online Safety Act child-safety duties apply | Expect age checks on UK platforms |
 | 3 November 2025 | LinkedIn | Member data trains generative AI unless you opt out | Check Data for Generative AI Improvement |
-| 3 November 2025 | Google | Q&A API discontinued, Q&A replaced by an AI "Ask" feature | Keep your profile, reviews and website accurate |
+| 3 November 2025 | Google | Q&A API discontinued; Q&A is giving way to an AI "Ask" feature | Keep your profile, reviews and website accurate |
 | December 2025 | Instagram | Five hashtags at most per post | Choose five precise ones |
 | 10 December 2025 | Instagram | Your Algorithm for Reels, first in the US | Stick to clear, consistent topics |
 | 22 January 2026 | TikTok | US joint venture closes (US app only) | Nothing changes in the UK or France |

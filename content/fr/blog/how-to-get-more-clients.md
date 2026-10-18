@@ -59,7 +59,7 @@ Chaque canal a un prix, et ce prix ne se paie pas qu’en argent. Je les compare
 3. La qualité des prospects : la probabilité qu’une demande devienne un client qui paie.
 4. L’effort : le travail nécessaire chaque semaine pour le faire tourner.
 
-Une dernière question tranche beaucoup de choix : **pouvez-vous l’accélérer quand il vous faut plus de clients ?** La publicité et le cold emailing, oui ; le bouche-à-oreille, la presse et les réseaux sociaux sans publicité, non.
+Une dernière question tranche beaucoup de choix : **pouvez-vous l’accélérer quand il vous faut plus de clients ?** La publicité, en quelques jours, et le cold emailing, en quelques semaines ; le SEO, lentement ; le bouche-à-oreille, la presse et les réseaux sociaux sans publicité, presque pas.
 
 | Canal | Coût principal | Délai avant le premier prospect | Qualité des prospects | Effort chaque semaine |
 |---|---|---|---|---|
@@ -130,13 +130,13 @@ Il n’y a pas de mots clés à acheter : la recherche porte sur les mots et le
 
 ### Publicité LinkedIn : chère, et rentable pour le B2B à forte valeur
 
-LinkedIn permet de cibler par poste, niveau hiérarchique, entreprise et secteur, ce qu’on trouve difficilement ailleurs en B2B. Le budget part aussi très vite. Le minimum est de 10 dollars par jour, ou l’équivalent dans la devise de votre compte, et LinkedIn conseille environ 25 dollars par jour aux nouveaux annonceurs ([conseils de LinkedIn sur le budget](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget)).
+LinkedIn permet de cibler par poste, niveau hiérarchique, entreprise et secteur, ce qu’on trouve difficilement ailleurs en B2B. Le budget part aussi très vite. Au moment où j’écris ces lignes (octobre 2026), le minimum est de 10 dollars par jour, ou l’équivalent dans la devise de votre compte, et LinkedIn conseille environ 25 dollars par jour aux nouveaux annonceurs ([conseils de LinkedIn sur le budget](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget)).
 
 À mon avis, bien menée, elle apporte des contrats plus importants que les autres plateformes publicitaires. Le tutoriel {{< a key="linkedin-ads-tutorial" >}}publicité LinkedIn{{< /a >}} détaille une première campagne et son budget.
 
 ### TikTok Ads : d’abord pour la notoriété
 
-TikTok Ads convient aux marques grand public qui veulent de la portée et peuvent produire des vidéos régulièrement. TikTok fixe des budgets quotidiens minimums de 50 dollars par campagne et de 20 dollars par groupe d’annonces ([règles de budget de TikTok](https://ads.tiktok.com/resources/help/article/budget?lang=en)).
+TikTok Ads convient aux marques grand public qui veulent de la portée et peuvent produire des vidéos régulièrement. En octobre 2026, TikTok fixe des budgets quotidiens minimums de 50 dollars par campagne et de 20 dollars par groupe d’annonces, ou l’équivalent dans votre devise ([règles de budget de TikTok](https://ads.tiktok.com/resources/help/article/budget?lang=en)).
 
 À mon avis, on fait défiler TikTok pour se divertir plutôt que pour acheter un service : je le traite comme un canal de notoriété. S’il vous faut des demandes ce mois-ci, commencez ailleurs. Pour comparer les quatre plateformes selon votre objectif, lisez {{< a key="google-ads-vs-facebook-ads" >}}Google Ads ou Facebook Ads{{< /a >}}, qui traite aussi LinkedIn et TikTok.
 

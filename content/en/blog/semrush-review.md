@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:16:00+02:00
 category: "tools"
 article_type: "guide"
 keywords: ["is Semrush worth it", "Semrush review", "Semrush pricing", "Semrush free account", "Semrush alternatives"]
-summary: "Semrush is worth paying for if you research keywords every week, for several websites or for clients. For one small business website, the free account (10 requests a day) and Google's free tools usually do the job. I use it mainly for keyword research and ad costs per click, which show the keywords that bring business, so I can win them with SEO instead of ads; the Pro plan costs $139.95 a month in October 2026."
+summary: "Semrush is worth paying for if you research keywords every week, for several websites or for clients: the SEO Toolkit's Pro plan costs $139.95 a month at the time of writing (October 2026). For one small business website, the free account (10 requests a day) and Google's free tools usually do the job. I use Semrush mainly to spot the keywords advertisers pay the most for, then win them with SEO instead of paying for ads."
 cover: "semrush-review"
 cover_alt: "A man looking at a spreadsheet on a desktop computer, beside a search bar and a list of results, titled Semrush"
 related: ["keyword-research-small-business", "google-keyword-planner-tutorial", "seo-vs-ppc", "check-ai-visibility", "small-business-tools-guide"]
@@ -47,19 +47,19 @@ The core of my use is keyword research: finding the words people type into Googl
 
 ### Ad keywords, and what each click costs
 
-The CPC (cost per click) is the figure I look at most. Advertisers rarely keep paying for clicks that bring them nothing, so a keyword with a high CPC is usually one that brings customers. A high CPC also suggests stronger buying intent, and more competition for it.
+The CPC (cost per click) is the figure that tells me which keywords work best. Advertisers rarely keep paying for clicks that bring them nothing, so a keyword with a high CPC is usually one that brings customers. A high CPC also suggests stronger buying intent, and more competition for it.
 
 That is how I decide where the SEO effort goes. When a keyword is expensive in ads, ranking for it in the organic results brings the same kind of visitor without a bill for each click. **I double down on those keywords with SEO instead of paying for them in ads.** My comparison of {{< a key="seo-vs-ppc" >}}SEO vs PPC{{< /a >}} explains when paying for the ads still makes sense, for instance while the page climbs.
 
-## My workflow in the free account: 10 requests a day
+## How to use a free Semrush account: 10 requests a day
 
-A free Semrush account allows 10 requests a day, according to [Semrush's plan comparison](https://www.semrush.com/kb/856-subscription-plans-comparison), and each report shows only its first 10 results. That is tight, but enough to check a short list properly, as long as you prepare the list before you log in.
+A free Semrush account allows 10 requests a day, according to [Semrush's plan comparison](https://www.semrush.com/kb/856-subscription-plans-comparison), and each report shows only its first 10 results. That is tight, but enough to run the workflow above on a short list, as long as you prepare the list before you log in.
 
 1. Write the list first. Note the words your clients use on the phone, in emails and in reviews, and keep the ten that describe what you sell most directly. Every search counts towards the ten, so vague ideas waste them.
 2. Choose the country. Semrush keeps separate data for each country it covers: pick the United Kingdom for a British business, or your clients' country if you sell abroad.
 3. Check each phrase in Keyword Overview. Copy the volume, KD%, CPC and intent into a spreadsheet, one row per phrase.
 4. Run your best phrase through the **Keyword Magic Tool**. It turns one seed phrase into a list of related searches that you can filter by volume, difficulty and CPC. The free account shows only the first 10, so start from a precise phrase such as "boiler repair Leeds" rather than "boiler".
-5. Shortlist the specific, expensive keywords. Keep the phrases with real volume, a high CPC and a difficulty your site can realistically reach. Specific beats broad: of the websites I built for one client, the one selling very specific services ranked, while the one that offered everything never did.
+5. Shortlist the specific, expensive keywords. Keep the phrases with real volume, a high CPC and a difficulty your site can realistically reach. Specific beats broad: of the websites I built for one client, the one that sells very specific services ranked, while the one that offered too many services did not work at all.
 6. Give each keyword its own page. One primary keyword per page, in the title, the address, the first paragraph and one heading. Then watch that page's impressions in Google Search Console over the following weeks.
 
 {{< callout type="tip" >}}Ten requests go fast when you search on impulse. Prepare the list the evening before, and **keep the next day's ten for the variations today's searches revealed**.{{< /callout >}}
@@ -78,7 +78,7 @@ Semrush sells its tools as separate toolkits. The one for keyword research is th
 | SEO Toolkit Business | $499.95 a month | $416.66 a month | The highest limits of the three |
 | Semrush One | From just under $200 a month | From $165.17 a month | The SEO Toolkit plus the AI Visibility Toolkit; Pro+ costs $299 and Advanced $549 a month |
 
-Semrush lists these prices in US dollars, so I give no £ figure here: check the final amount, with any VAT, at checkout. The current offer is on [Semrush's pricing page](https://www.semrush.com/prices/), and plans and prices change, so look there before you subscribe.
+Semrush publishes its prices in US dollars only, so I give no £ figure here: what you pay in pounds depends on the exchange rate, on your bank's fees if your card is charged in dollars, and on any VAT. Check the currency and the final amount at checkout. The current offer is on [Semrush's pricing page](https://www.semrush.com/prices/), and plans and prices change, so look there before you subscribe.
 
 Over a year, Pro comes to about $1,680 billed monthly, or about $1,408 billed annually. That is the figure to weigh against what the keywords could bring you.
 

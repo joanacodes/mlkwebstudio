@@ -1,7 +1,7 @@
 ---
 title: "OpenAI API key: how to get one, set a budget and send your first request"
 seo_title: "OpenAI API key: how to get one and cap your spending"
-description: "How to get an OpenAI API key, keep it out of your website's code, add credits, set a hard spend limit and send your first request, step by step, in 2026."
+description: "How to get an OpenAI API key, keep it out of your website's code, buy prepaid credits, cap your monthly spending and send your first request, step by step."
 slug: "openai-api-key"
 translationKey: "openai-api-tutorial"
 date: 2026-10-17T09:04:00+02:00
@@ -11,7 +11,7 @@ article_type: "tutorial"
 keywords: ["OpenAI API key", "how to get an OpenAI API key", "OpenAI API pricing", "OpenAI API tutorial", "OpenAI spend limit", "Responses API"]
 summary: "To get an OpenAI API key, sign in at platform.openai.com, open the API keys page in the settings, click Create new secret key and store the key in an environment variable called OPENAI_API_KEY. Then add prepaid credits (from $5), set a monthly hard spend limit on the project and send a POST request to https://api.openai.com/v1/responses. A ChatGPT subscription does not include API usage: the API is billed separately, per token."
 cover: "openai-api-tutorial"
-cover_alt: "A phone showing an email inbox beside a terminal with a curl request and a 200 OK response, under the words OpenAI API"
+cover_alt: "A phone showing an email inbox, and a terminal with a curl request and a 200 OK response above the words OpenAI API"
 related: ["claude-api-tutorial", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data", "claude-vs-chatgpt", "build-app-with-ai"]
 services: ["automation"]
 faq:
@@ -24,7 +24,7 @@ faq:
   - q: "What should I do if my OpenAI API key leaks?"
     a: "Delete it on the API keys page, create a new key for the tool that used it, then check the usage dashboard for spending you do not recognise. Treat a key pushed to a public repository as leaked, even if you delete the file afterwards."
   - q: "Do OpenAI API credits expire?"
-    a: "Yes. Purchased credits expire after one year, OpenAI cannot extend that date, and credits are non-refundable unless the law or a contract requires otherwise. Buy small amounts until you know your monthly usage."
+    a: "Yes. Purchased credits expire one year after you buy them, OpenAI cannot extend that date, and they are non-refundable unless the law or a contract requires otherwise."
 ---
 
 An OpenAI API key is the secret code that lets your own tools use OpenAI's models: a form on your website, a spreadsheet, an automation, an internal app. You create it on the OpenAI platform, every request your tool sends carries it, and OpenAI deducts each request from your prepaid credits.
@@ -38,7 +38,7 @@ I use Claude for my own work and have no OpenAI API project of my own to show yo
 Three words come up at every step:
 
 - **API** (application programming interface): a way for one piece of software to send a request to another and get an answer back, with nobody clicking.
-- **API key**: a long secret string that identifies your account in each request. Whoever holds it can spend your credits.
+- **API key**: a long secret string that identifies your account in each request.
 - **Token**: the unit the API counts and bills, roughly a piece of a word. Prices are per million tokens: one price for input (what you send), a higher one for output (what the model writes).
 
 ### ChatGPT and the API are billed separately
@@ -107,9 +107,9 @@ No server? Zapier, Make and n8n all have an OpenAI step that keeps your key on t
 
 ## Step 4: add prepaid credits
 
-The API runs on prepaid credits: you buy them first, and each request is deducted from your balance. Open the **Billing** page of the settings, add a card, then buy credits. At the time of writing (October 2026), the minimum purchase is $5 and the default amount $10, according to [OpenAI's guide to prepaid billing](https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing).
+Credits are bought in advance: open the **Billing** page of the settings, add a card, then buy credits. At the time of writing (October 2026), the minimum purchase is $5 and the default amount $10, according to [OpenAI's guide to prepaid billing](https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing).
 
-Credits are sold in US dollars; the amount in £ on your statement depends on your bank's rate and fees. Before you pay:
+They are sold in US dollars; the amount in £ on your statement depends on your bank's rate and fees. Before you pay:
 
 - **Auto-reload is on by default** when you set up billing. While you test, switch it off, or set a monthly recharge limit, which caps what OpenAI buys for you automatically.
 - **Credits expire** after one year: buy small amounts until you know your monthly usage.
@@ -203,7 +203,7 @@ print(response.output_text)
 print(response.usage)
 ```
 
-Run it with `python quickstart.py` (`py quickstart.py` on Windows): the subject lines appear, then the tokens used. `instructions` holds your standing rules, such as tone and spelling; `output_text` gathers the model's text. The library retries some temporary errors twice by default, and a JavaScript and TypeScript version exists too (`npm install openai`).
+Run it with `python quickstart.py` (`py quickstart.py` on Windows): the subject lines appear, then the tokens used. `instructions` holds your standing rules, such as tone and spelling; `output_text` gathers the model's text. A JavaScript and TypeScript version exists too (`npm install openai`).
 
 {{< screenshot id="openai-api-tutorial-07" alt="A terminal running quickstart.py, with the three subject lines and the usage line below them" >}}
 
@@ -217,7 +217,7 @@ You change model by changing the `model` line. Three current models, at OpenAI's
 | GPT-5.5 | `gpt-5.5` | $5 | $0.50 | $30 | The model in the examples of OpenAI's official libraries |
 | GPT-6 Luna | `gpt-6-luna` | $0.10 | $0.01 | $0.50 | OpenAI's most efficient model, for focused, high-volume tasks |
 
-Prices change often: check [OpenAI's pricing page](https://openai.com/api/pricing/) before you budget on these figures.
+Prices change often: check [OpenAI's pricing page](https://openai.com/api/pricing/) before you budget on these figures. The GPT-6 range also has a middle model, GPT-6.1 Sol (`gpt-6.1-sol`), whose price could not be confirmed at the time of writing: look it up there.
 
 To estimate a cost, multiply. A request that sends 500 tokens (a customer's email plus your instructions) and gets 300 back (a draft reply) costs, on GPT-6 Astra, 500 × $10 / 1,000,000 + 300 × $50 / 1,000,000 = $0.02: about $20 per thousand replies, against $11.50 on GPT-5.5 and $0.20 on GPT-6 Luna. Reasoning tokens come on top, billed as output, so check `usage` on real requests.
 
@@ -226,7 +226,7 @@ To choose, run 20 real requests on GPT-6 Luna and on GPT-6 Astra and compare the
 Two ways to pay less:
 
 - **Cached input**: the start of a prompt that repeats between requests, such as long standing instructions, costs a tenth of the normal input price on these three models.
-- **The Batch API**: for jobs that can wait, you send a file of requests and collect the results within 24 hours, at a separate batch price per model. Compare it with the standard price before counting on the saving.
+- **The Batch API**: for jobs that can wait, you send a file of requests and collect the results within 24 hours, at half the standard price according to independent price trackers (October 2026). Check your model's batch price on the pricing page before counting on it.
 
 ## Common errors and how to fix them
 
@@ -238,16 +238,16 @@ Errors come back in JSON with a message that usually names the problem; in Pytho
 | 401 | `AuthenticationError` | The key is missing, mistyped, deleted or expired | Check the variable is set in this window and holds the whole key |
 | 403 | `PermissionDeniedError` | The key lacks the permission, for example a Read Only key | Check the key's permissions and project |
 | 404 | `NotFoundError` | A model name with a typo, or a model your account cannot use | Copy the exact `model` value from the table above |
-| 429 | `RateLimitError` | Too many requests or tokens too quickly | Wait (see the `Retry-After` header, when present), then slow down |
+| 429 | `RateLimitError` | Too many requests or tokens too quickly, or no credit left (see below) | Wait (see the `Retry-After` header, when present) and slow down, or top up |
 | 500+ | `InternalServerError` | A server error, or a model temporarily overloaded | Try again a little later |
 
-Requests also fail when your balance is empty or a project hits its hard spend limit, and the message says which: top up, or raise the limit. Every response carries a request ID (`x-request-id` header, `_request_id` in Python): give it to OpenAI's support if you ask about a request.
+**A 429 is not always about speed.** With an empty balance or a reached hard spend limit, the API usually answers 429 too, with a message about your quota (error type `insufficient_quota`) that says which of the two it is. Waiting and retrying will not fix it: top up, or raise the limit.
 
 ## Check your usage and costs
 
-OpenAI's usage dashboard shows your organisation's activity and costs. Check it after the first real day of use, then monthly, against what the `usage` figures led you to expect. If you cannot see it, an owner may have restricted it to owners only. Owners can also pull usage and costs into a spreadsheet through OpenAI's Admin API, with an admin key rather than a project key.
+OpenAI's usage dashboard shows your organisation's activity and costs. Check it after the first real day of use, then monthly, against what the `usage` figures led you to expect. If you cannot see it, an owner may have restricted it to owners only.
 
-A jump you cannot explain deserves a look the same day: a looping tool or a key in the wrong hands keeps spending until your limit stops it.
+An unexplained jump deserves a look the same day: a looping tool or a stolen key keeps spending until your limit stops it.
 
 {{< screenshot id="openai-api-tutorial-08" alt="The usage dashboard of the OpenAI platform with the month's costs" >}}
 

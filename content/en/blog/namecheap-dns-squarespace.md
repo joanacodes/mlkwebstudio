@@ -35,7 +35,7 @@ Menu names below are Namecheap's and Squarespace's at the time of writing (Octob
 
 ## What connecting a Namecheap domain to Squarespace changes
 
-Namecheap stays your registrar, the company you rent the domain from and pay each year to renew it. What changes is part of the domain's DNS: the records that tell browsers where your website lives and tell other mail servers where to deliver your email. Squarespace needs these six, as listed in [its help page on third-party domains](https://support.squarespace.com/hc/en-us/articles/205812378-Connect-a-third-party-domain-to-your-Squarespace-site) at the time of writing:
+Namecheap stays your registrar, the company you rent the domain from and pay each year to renew it. What changes is part of the domain's DNS, the records that tell browsers where your website lives. Squarespace needs these six, as listed in [its help page on third-party domains](https://support.squarespace.com/hc/en-us/articles/205812378-Connect-a-third-party-domain-to-your-Squarespace-site) at the time of writing:
 
 | Type at Namecheap | Host | Value | What it does |
 |---|---|---|---|
@@ -58,7 +58,7 @@ Everything else in the domain's DNS stays as it is, starting with your email rec
 
 {{< screenshot id="namecheap-dns-squarespace-01" alt="Namecheap Domain tab of the domain, with the nameservers set to Namecheap BasicDNS" >}}
 
-**3. You know where your email lives.** If addresses on the domain receive mail, through Namecheap Private Email, Google Workspace or Microsoft 365, their records sit in the same Advanced DNS tab and must survive the change.
+**3. You know where your email lives.** If addresses on the domain receive mail, through Namecheap Private Email, Google Workspace or Microsoft 365, their records sit in the same Advanced DNS tab, in Host Records and in the **Mail Settings** section below it, and must survive the change.
 
 {{< callout type="tip" >}}Before you change anything, take a full-page screenshot of the **Advanced DNS** tab, or copy each line into a text file. If a record disappears by mistake, you can put it back in a minute.{{< /callout >}}
 
@@ -74,7 +74,7 @@ Start on the Squarespace side: the verification code only appears once the conne
 
 {{< screenshot id="namecheap-dns-squarespace-02" alt="Squarespace pop-up suggesting nameserver connect for the Namecheap domain, with the option to use DNS records instead" >}}
 
-Point 4 is the decision that matters. For domains registered at Namecheap, GoDaddy or Network Solutions, Squarespace suggests **nameserver connect**, which moves the whole DNS of the domain to Squarespace. [Squarespace's own comparison of the two methods](https://support.squarespace.com/hc/en-us/articles/8387079117581-Nameserver-connect-vs-DNS-connect) spells out the cost: the nameserver connection removes all CNAME records and some A records, and a custom email address set up with DNS records can break. For a domain with custom records, its advice is to opt out and use **DNS connect**. That is the method in this tutorial: the domain stays on Namecheap BasicDNS and you only add records.
+Point 4 is the decision that matters. For domains registered at Namecheap, GoDaddy or Network Solutions, Squarespace suggests **nameserver connect**, which moves the whole DNS of the domain to Squarespace. [Squarespace's own comparison of the two methods](https://support.squarespace.com/hc/en-us/articles/8387079117581-Nameserver-connect-vs-DNS-connect) spells out the cost: the nameserver connection removes all CNAME records and some A records, and a custom email address set up with DNS records can break. The other method, **DNS connect**, is the one in this tutorial: the domain stays on Namecheap BasicDNS and you only add records.
 
 {{< callout type="warning" >}}**Email on this domain? Choose DNS records.** Squarespace itself lists the cases where nameserver connect is a bad fit: custom DNS records (email is one of them), several subdomains, or DNSSEC. If none applies, either method works.{{< /callout >}}
 
@@ -175,16 +175,18 @@ On Windows, `nslookup -type=CNAME www.yourbusiness.co.uk` shows the www part.
 
 ## Redirect a second domain with a URL Redirect Record
 
-If you own two extensions, say the .co.uk for the website and the .com to protect the name, the second one does not need to be connected to Squarespace. A permanent redirect at Namecheap sends its visitors to the main domain, and [Namecheap's guide to URL redirects](https://www.namecheap.com/support/knowledgebase/article.aspx/385/2237/how-to-set-up-a-url-redirect-for-a-domain/) covers the details.
+If you own two extensions, say the .co.uk for the website and the .com to protect the name, the second one only has to send its visitors to the first. A permanent redirect at Namecheap does that without touching Squarespace, and [Namecheap's guide to URL redirects](https://www.namecheap.com/support/knowledgebase/article.aspx/385/2237/how-to-set-up-a-url-redirect-for-a-domain/) covers the details.
 
 1. In **Domain List**, click **Manage** next to the second domain (yourbusiness.com here) and open **Advanced DNS**.
 2. Delete the parking CNAME on `www` and any A or CNAME record on `@` or `www`: Namecheap warns that they interfere with a redirect.
 3. Edit the URL Redirect Record on `@`, or add one with **Add New Record**. As the value, type the exact address your site shows in the browser, for example `https://www.yourbusiness.co.uk`.
 4. As the redirect type, choose the permanent (301) redirect. **Unmasked** is a temporary (302) redirect, and **Masked** keeps the second domain in the address bar; a 301 tells search engines that the move is for good.
 5. Add a second URL Redirect Record with `www` as the host and the same value, so www.yourbusiness.com follows.
-6. Save, then allow up to 30 minutes, the delay Namecheap gives for a redirect to apply. Test the second domain with and without www, and with http:// and https://: each version should end on your main site.
+6. Save, then allow up to 30 minutes, the delay Namecheap gives for a redirect to apply. Test http://yourbusiness.com and http://www.yourbusiness.com: both should end on your main site.
 
 {{< screenshot id="namecheap-dns-squarespace-09" alt="Namecheap Advanced DNS of a second domain: URL Redirect Record on @ to https://www.yourbusiness.co.uk with the permanent 301 type" >}}
+
+The catch is HTTPS. Namecheap's redirect does not come with a certificate for the second domain, and its help says that a redirect from one HTTPS address to another needs a certificate on both domains. Someone who types https://yourbusiness.com can therefore get a browser warning instead of your site. If that matters to you, connect the second domain to the same Squarespace site instead, with the steps above and its own verification code: Squarespace sends every connected domain that is not the primary one to the primary domain, and its SSL covers the domains connected to the site.
 
 If the second domain receives email, keep its MX records: the redirect only concerns the website.
 
@@ -196,7 +198,7 @@ Squarespace hosts the website, not your mailbox, and the records that run your e
 - the TXT record on `@` that starts with `v=spf1` (SPF);
 - the DKIM record, on a host ending in `._domainkey`, and the DMARC record on `_dmarc`.
 
-Squarespace's help says the same: when the domain and the email are with the same provider, you only update the A and CNAME records, never the nameservers or the MX records. If your mailbox is Namecheap's Private Email, leave its settings in Advanced DNS as they are.
+Squarespace's help says the same: when the domain and the email are with the same provider, you only update the A and CNAME records, never the nameservers or the MX records. At Namecheap, the MX records are not in Host Records but in the **Mail Settings** section lower down the Advanced DNS tab: whether it says Private Email or Custom MX, leave it as it is. With Private Email, Namecheap manages the MX records itself, so you may not see them listed at all.
 
 {{< callout type="warning" >}}**Never delete an MX record to tidy up.** Mail stops arriving and nothing warns you: you find out when a client asks why you never replied.{{< /callout >}}
 
@@ -217,7 +219,7 @@ If none of these fits, compare your Host Records line by line with the DNS setti
 
 If it works, yes. I trust Namecheap: its prices are fair, and its renewals do not jump the way I have seen at other registrars. Its Advanced DNS tab does everything Squarespace needs, and its WHOIS privacy, Withheld for Privacy, is free on the extensions that allow it.
 
-For new domains, I use Spaceship out of habit. Namecheap built it, and to me it is an up-to-date version of Namecheap; my comparison of {{< a key="spaceship-vs-namecheap" >}}Spaceship vs Namecheap{{< /a >}} sets out the differences. Moving a domain that works, just to move it, is a job you can skip: connect it and spend the time on your site.
+My own habits are with Spaceship, which Namecheap built and which I see as an up-to-date version of Namecheap. One difference matters for this tutorial: Spaceship's URL redirects have included HTTPS since February 2024. My comparison of {{< a key="spaceship-vs-namecheap" >}}Spaceship vs Namecheap{{< /a >}} sets out the others. Moving a domain that works, just to move it, is a job you can skip: connect it and spend the time on your site.
 
 ## Checklist once the domain shows Connected
 

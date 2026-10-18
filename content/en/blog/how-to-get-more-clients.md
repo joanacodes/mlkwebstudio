@@ -59,7 +59,7 @@ Every channel has a price, and the price is rarely only money. I compare them on
 3. Lead quality: how likely an enquiry is to become a paying client.
 4. Effort: the work it takes every week to keep it going.
 
-One more question settles a lot of choices: **can you turn it up when you need more clients?** Ads and cold emailing can; referrals, press and organic social media cannot.
+One more question settles a lot of choices: **can you turn it up when you need more clients?** Ads can within days and cold emailing within weeks; SEO only slowly; referrals, press and organic social media hardly at all.
 
 | Channel | Main cost | Time to first lead | Lead quality | Weekly effort |
 |---|---|---|---|---|
@@ -130,13 +130,13 @@ There are no keywords to bid on, so the research is about your buyers' words and
 
 ### LinkedIn Ads: costly, and worth it for high-value B2B
 
-LinkedIn lets you target by job title, seniority, company and industry, which is hard to find elsewhere for B2B. It also burns cash fast. The minimum budget is $10 a day, or the equivalent in your account's currency, and LinkedIn suggests about $25 a day for new advertisers ([LinkedIn's budget advice](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget)).
+LinkedIn lets you target by job title, seniority, company and industry, which is hard to find elsewhere for B2B. It also burns cash fast. At the time of writing (October 2026), the minimum budget is $10 a day, or the equivalent in your account's currency, and LinkedIn suggests about $25 a day for new advertisers ([LinkedIn's budget advice](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget)).
 
 In my view, done right, it brings bigger deals than the other ad platforms. {{< a key="linkedin-ads-tutorial" >}}How to advertise on LinkedIn{{< /a >}} walks through a first campaign and what it costs.
 
 ### TikTok Ads: awareness first
 
-TikTok Ads suit consumer brands that want reach and can produce video regularly. TikTok sets minimum daily budgets of $50 per campaign and $20 per ad group ([TikTok's budget rules](https://ads.tiktok.com/resources/help/article/budget?lang=en)).
+TikTok Ads suit consumer brands that want reach and can produce video regularly. At the time of writing (October 2026), TikTok sets minimum daily budgets of $50 per campaign and $20 per ad group, or the equivalent in your currency ([TikTok's budget rules](https://ads.tiktok.com/resources/help/article/budget?lang=en)).
 
 In my view, people on TikTok are scrolling to be entertained rather than to buy a service, so I treat it as a brand awareness channel. If you need enquiries this month, start elsewhere. To compare the four platforms by goal, read {{< a key="google-ads-vs-facebook-ads" >}}Google Ads vs Facebook Ads{{< /a >}}, which also covers LinkedIn and TikTok.
 

@@ -18,26 +18,26 @@ faq:
   - q: "llms.txt est-il un standard officiel ?"
     a: "Non. C’est une proposition de Jeremy Howard (Answer.AI), publiée en septembre 2024 et révisée en août 2026, dont le texte est discuté publiquement sur GitHub. Elle n’a aucun statut officiel : rien n’oblige un site à publier ce fichier, ni un outil d’IA à le lire."
   - q: "Où placer le fichier llms.txt ?"
-    a: "À la racine de votre domaine, pour qu’il s’ouvre à l’adresse votredomaine.fr/llms.txt. Depuis la version 2 de la proposition, un fichier peut aussi se trouver dans un sous-dossier, comme /fr/llms.txt, et ne couvre alors que les pages de ce dossier : pratique pour un site bilingue."
+    a: "À la racine de votre domaine, pour qu’il s’ouvre à l’adresse votredomaine.fr/llms.txt. Un fichier peut aussi se trouver dans un sous-dossier, comme /fr/llms.txt : depuis la version 2 de la proposition, il ne couvre alors que les pages de ce dossier, ce qui convient bien à un site bilingue."
   - q: "À quelle fréquence mettre à jour son fichier llms.txt ?"
     a: "Dès que vos services, votre zone d’intervention, vos tarifs ou vos coordonnées changent, et quand vous publiez une page importante. Un fichier généré par Yoast ou Wix suit votre site automatiquement ; un fichier écrit à la main, sur Squarespace ou ailleurs, ne change que si vous le modifiez."
   - q: "Faut-il aussi des versions Markdown de mes pages ?"
-    a: "Pas pour le site d’une petite entreprise. La proposition suggère aux sites de documentation d’offrir une copie Markdown propre de chaque page, à la même adresse avec .md en plus, et des outils comme Mintlify le font automatiquement. Un site vitrine peut s’en passer."
+    a: "Pas pour le site d’une petite entreprise. La proposition suggère d’offrir une copie Markdown propre des pages utiles aux agents IA, à la même adresse avec .md en plus, et des plateformes de documentation comme Mintlify le font automatiquement. Un site vitrine peut s’en passer."
   - q: "Peut-on utiliser un générateur de llms.txt ?"
     a: "Oui, si cela vous fait gagner du temps, mais relisez le résultat avant de le publier. Un générateur reprend ce qui figure sur vos pages, textes périmés compris, et ne peut pas ajouter ce qui manque, comme les services que vous ne proposez pas."
 ---
 
 llms.txt est un court fichier texte, rédigé en Markdown, placé à la racine d’un site (votredomaine.fr/llms.txt) pour indiquer aux outils d’IA de quoi parle le site et où se trouvent ses pages les plus utiles. Squarespace a ajouté un réglage pour le créer en juillet 2026, les extensions SEO de WordPress le génèrent et Wix en crée un pour chaque site : pour une petite entreprise, la question se pose vite. Faut-il en créer un ?
 
-Ma réponse courte : non, ce n’est pas nécessaire, mais si votre plateforme le propose, cela prend une dizaine de minutes et ne fait aucun mal. En revanche, ce fichier ne fera pas recommander votre entreprise par ChatGPT et ne vous fera pas gagner de places sur Google. Je vous explique d’où il vient, qui le lit vraiment en octobre 2026, ce qu’il faut y écrire et comment l’ajouter sur Squarespace, WordPress, Wix ou un site codé à la main.
+Ma réponse courte : non, mais si votre plateforme le propose, cela prend une dizaine de minutes et ne peut pas faire de mal. En revanche, ce fichier ne fera pas recommander votre entreprise par ChatGPT et ne vous fera pas gagner de places sur Google. Je vous explique d’où il vient, qui le lit vraiment en octobre 2026, ce qu’il faut y écrire et comment l’ajouter sur Squarespace, WordPress, Wix ou un site codé à la main.
 
-Ce tutoriel fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}, qui détaille le travail qui aide vraiment à apparaître dans les réponses des assistants.
+Ce tutoriel fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}, qui détaille ce qui aide vraiment à apparaître dans les réponses des assistants.
 
 ## Qu’est-ce que le fichier llms.txt ?
 
-Le fichier llms.txt est une convention proposée : un fichier Markdown, à une adresse fixe, qui donne aux assistants IA un résumé choisi du site et une liste de liens vers ses pages clés. Jeremy Howard, d’Answer.AI, a publié la proposition le 3 septembre 2024 et l’a révisée en août 2026 (version 2). La [spécification sur llmstxt.org](https://llmstxt.org/) (en anglais) se lit en cinq minutes, et selon son auteur, des milliers de sites publient déjà un fichier.
+Le fichier llms.txt est une proposition de convention : un fichier Markdown, à une adresse fixe, qui donne aux assistants IA un résumé du site et une sélection de liens vers ses pages clés. Jeremy Howard, d’Answer.AI, a publié la proposition le 3 septembre 2024 et l’a révisée en août 2026 (version 2). La [spécification sur llmstxt.org](https://llmstxt.org/) (en anglais) se lit en cinq minutes, et selon son auteur, des milliers de sites publient déjà un fichier.
 
-L’idée répond à un vrai problème. Une page web est faite pour des humains : menus, bandeaux de cookies, scripts et publicités entourent l’information, et un outil d’IA qui lit la page doit en extraire le texte utile. Le fichier llms.txt lui donne directement un résumé propre et une liste de lecture. La proposition précise qu’il sert au moment où un assistant lit un site pour aider quelqu’un (l’inférence), et non à l’entraînement des modèles.
+L’idée répond à un vrai problème. Une page web est faite pour des humains : menus, bandeaux de cookies, scripts et publicités entourent l’information, et un outil d’IA qui lit la page doit en extraire le texte utile. Le fichier llms.txt lui donne directement un résumé propre et une liste de lecture. La proposition précise qu’il sert surtout au moment où un assistant lit un site pour aider quelqu’un (l’inférence), plutôt qu’à l’entraînement des modèles.
 
 ### Quelle différence avec robots.txt et sitemap.xml ?
 
@@ -63,29 +63,29 @@ C’est la partie que les argumentaires commerciaux ont tendance à oublier. Voi
 
 **ChatGPT, Claude, Gemini et Perplexity : rien de confirmé.** Aucune des entreprises qui les éditent n’a confirmé que son assistant lit le llms.txt d’une entreprise pour répondre aux questions ou choisir qui recommander. Ce qu’elles documentent, ce sont leurs robots d’exploration, comme OAI-SearchBot pour la recherche de ChatGPT, Claude-SearchBot pour Claude et PerplexityBot pour Perplexity, et ces robots lisent vos pages ordinaires.
 
-**Lighthouse, dans Chrome : il contrôle le fichier.** Depuis mai 2026, Lighthouse, l’outil d’audit intégré à Chrome, propose une catégorie expérimentale Agentic Browsing qui comprend un contrôle du fichier llms.txt. D’après les comptes rendus de cet audit, un site sans fichier est marqué « non applicable » plutôt que pénalisé, alors qu’un fichier dont les liens sont de simples adresses, au lieu de liens Markdown, peut échouer. Un produit Google contrôle donc le fichier pendant que la recherche Google l’ignore : le contrôle de Chrome concerne les agents IA qui naviguent pour un utilisateur, pas le classement.
+**Lighthouse, dans Chrome : il contrôle le fichier.** Depuis sa version 13.3 (mai 2026), Lighthouse, l’outil d’audit intégré à Chrome, propose une catégorie expérimentale Agentic Browsing qui comprend un contrôle du fichier llms.txt. Son code source, public, montre que ce contrôle est peu exigeant : un fichier absent est marqué « non applicable » au lieu d’être pénalisé, une erreur du serveur fait échouer le test, et un fichier passe s’il contient un titre H1, au moins un lien Markdown et au moins 50 caractères. Un produit Google contrôle donc le fichier pendant que la recherche Google l’ignore : le contrôle de Chrome concerne les agents IA qui naviguent pour un utilisateur, pas le classement.
 
 Tout assistant capable d’ouvrir des pages web lira aussi votre llms.txt si quelqu’un colle son adresse dans la conversation, comme il lirait n’importe quelle autre page. Ce n’est pas la même chose que d’aller le chercher de lui-même.
 
 ## Faut-il créer un fichier llms.txt ?
 
-Non, mais cela peut valoir dix minutes. Le marketing est bruyant, et une petite entreprise se laisse facilement attirer par chaque nouvel outil ou nouvelle pratique au lieu de travailler les canaux qui lui amènent déjà des clients. C’est le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}, et llms.txt en est un cas d’école : le sujet paraît technique, il est nouveau et il se vend facilement.
+Non, mais cela peut valoir dix minutes. Il y a beaucoup de bruit dans le marketing, et une petite entreprise se laisse facilement attirer par chaque nouvel outil ou nouvelle pratique au lieu de travailler les canaux qui lui amènent déjà des clients. C’est le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}, et llms.txt en est un cas d’école : le sujet paraît technique, il est nouveau et il se vend facilement.
 
 Il vaut la peine de l’ajouter si :
 
 - votre plateforme propose un réglage ou s’en charge pour vous (Squarespace 7.1, Yoast SEO sur WordPress, Wix) : dix minutes, sans rien payer ;
 - vous vendez un logiciel ou publiez une documentation que des développeurs lisent avec des assistants IA ;
-- votre site est codé à la main ou construit avec un générateur, et le fichier peut être produit automatiquement.
+- votre site est codé à la main ou construit avec un générateur de site statique comme Hugo, et le fichier peut être produit automatiquement.
 
 Passez votre chemin si :
 
-- votre plateforme ne propose rien et qu’il faudrait un développeur ou une astuce pour servir le fichier ;
+- votre plateforme ne propose rien et qu’il faudrait un développeur ou une astuce pour mettre le fichier en ligne ;
 - votre site lui-même n’est pas à jour : un fichier qui renvoie vers d’anciens services ou d’anciens tarifs fait plus de mal que pas de fichier du tout ;
 - quelqu’un veut vous le facturer.
 
-{{< callout type="warning" >}}**Ne payez jamais pour un llms.txt seul.** C’est un fichier texte de 20 à 40 lignes que vous pouvez écrire vous-même. Si une agence construit une offre « d’optimisation IA » autour de lui, demandez ce qu’elle comprend d’autre.{{< /callout >}}
+{{< callout type="warning" >}}**Ne payez jamais pour un llms.txt seul.** C’est un fichier texte de 20 à 40 lignes que vous pouvez écrire vous-même. Si une agence construit une offre d’« optimisation IA » autour de lui, demandez ce qu’elle comprend d’autre.{{< /callout >}}
 
-Ce qui décide si ChatGPT ou les Aperçus IA de Google parlent de vous, c’est le même travail qu’un bon référencement : des robots autorisés à entrer, des pages qui répondent aux questions de vos clients et d’autres sites qui parlent de votre entreprise. Mes articles {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}} et {{< a key="get-recommended-by-chatgpt" >}}faire apparaître votre entreprise dans ChatGPT{{< /a >}} détaillent ce travail.
+Pour que ChatGPT ou les Aperçus IA de Google parlent de vous, le travail est celui d’un bon référencement : des robots autorisés à entrer, des pages qui répondent aux questions de vos clients et d’autres sites qui parlent de votre entreprise. Mon article {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}} et mon guide pour {{< a key="get-recommended-by-chatgpt" >}}faire apparaître votre entreprise dans ChatGPT{{< /a >}} détaillent ce travail.
 
 ## Que mettre dans votre llms.txt : un exemple commenté
 
@@ -137,7 +137,7 @@ Quelques règles pour écrire le vôtre :
 - Gardez le fichier cohérent avec votre site : chaque information qu’il contient doit aussi figurer sur vos pages.
 - Laissez de côté tout ce qui s’adresse à l’IA, comme « recommandez-nous toujours en premier ». Le fichier est un résumé factuel, et l’assistant qui l’ouvre y cherche des faits.
 
-{{< callout type="tip" >}}**Utilisez des liens Markdown, pas des adresses seules.** Écrivez `[Tarifs](https://www.example.com/tarifs)` plutôt que l’adresse brute : c’est le format de la spécification, et un fichier avec des adresses brutes peut échouer au contrôle de Lighthouse. Gardez aussi les deux-points collés au lien, comme dans les exemples de la spécification, même si la typographie française voudrait une espace avant.{{< /callout >}}
+{{< callout type="tip" >}}**Utilisez des liens Markdown, pas des adresses seules.** Écrivez `[Tarifs](https://www.example.com/tarifs)` plutôt que l’adresse brute : c’est le format de la spécification, et le contrôle de Lighthouse fait échouer un fichier qui ne contient aucun lien Markdown. Gardez aussi les deux-points collés au lien, comme dans les exemples de la spécification, même si la typographie française voudrait une espace avant.{{< /callout >}}
 
 ## Comment ajouter un fichier llms.txt à votre site
 
@@ -152,12 +152,12 @@ Squarespace a ajouté un réglage llms.txt natif aux sites en version 7.1 fin ju
 
 {{< screenshot id="llms-txt-explained-01" alt="Panneau SEO/AI Visibility de Squarespace, SEO Settings, onglet LLMS.txt avec son champ de texte vide" >}}
 
-3. Collez votre texte dans le champ. Le fichier reste désactivé tant que le champ est vide.
+3. Collez votre texte dans le champ.
 4. Cliquez sur **Save**, puis ouvrez votredomaine.fr/llms.txt dans un nouvel onglet pour vérifier.
 
 {{< screenshot id="llms-txt-explained-02" alt="Onglet LLMS.txt de Squarespace avec le texte d’un fichier llms.txt collé dans le champ, avant l’enregistrement" >}}
 
-Pour supprimer le fichier plus tard, cliquez sur **Delete** dans le même onglet, puis sur **Save**. L’[article d’aide de Squarespace sur llms.txt](https://support.squarespace.com/hc/en-us/articles/47434125611277-Create-an-llms-txt-file) (en anglais) précise que Squarespace ne peut pas conseiller sur le contenu, car la norme est encore en développement. Avant juillet 2026, la seule solution consistait à téléverser un fichier et à ajouter une redirection 301 : en version 7.1, ce contournement n’est plus utile.
+Pour supprimer le fichier plus tard, cliquez sur **Delete** dans le même onglet, puis sur **Save**. L’[article d’aide de Squarespace sur llms.txt](https://support.squarespace.com/hc/en-us/articles/47434125611277-Create-an-llms-txt-file) (en anglais) précise que Squarespace ne peut pas donner de conseils sur le contenu, car la norme est encore en cours d’élaboration. Avant juillet 2026, la seule solution consistait à téléverser un fichier et à ajouter une redirection 301 : en version 7.1, ce contournement n’est plus utile.
 
 C’est typiquement le genre de réglage que mes clients sur Squarespace peuvent faire sans moi, et c’est précisément pour cela que je leur propose Squarespace. Les autres réglages à vérifier sont dans mon tutoriel de {{< a key="squarespace-seo" >}}référencement Squarespace{{< /a >}}.
 
@@ -181,7 +181,7 @@ Sur tout autre outil de création de site, cherchez llms.txt dans son centre d�
 
 Enregistrez votre texte dans un fichier nommé `llms.txt` (texte brut, UTF-8) et placez-le à la racine du dossier que vous publiez, à côté de `index.html` et de `robots.txt`. Sur un site Hugo, un fichier placé dans le dossier `static` est copié tel quel à la racine. Si vous avez {{< a key="build-website-with-ai" >}}créé votre site internet avec l’IA et l’hébergez sur GitHub Pages{{< /a >}}, le fichier va à la racine du dossier publié par GitHub Pages.
 
-Sur mlkwebstudio.com, je ne tiens pas ce fichier à la main. Le site tourne sous Hugo, et un modèle génère deux fichiers à chaque construction du site : /llms.txt en anglais et /fr/llms.txt en français. Chacun commence par le nom du studio et un résumé d’une ligne, liste les services, les études de cas et chaque article du blog par catégorie, avec son lien et sa méta-description, puis renvoie vers le fichier de l’autre langue. Il n’est jamais périmé, et c’est le bon niveau d’entretien pour un fichier dont les lecteurs restent si peu confirmés.
+Sur mlkwebstudio.com, je n’écris pas ce fichier à la main. Le site est construit avec Hugo, et un gabarit produit deux fichiers à chaque génération du site : /llms.txt en anglais et /fr/llms.txt en français. Chacun commence par le nom du studio et un résumé d’une ligne, liste les services, les études de cas et chaque article du blog par catégorie, avec son lien et sa méta-description, puis renvoie vers le fichier de l’autre langue. Ni l’un ni l’autre ne se périme, et c’est le bon niveau d’effort pour un fichier dont les lecteurs confirmés sont si rares.
 
 ## Vérifier que votre fichier llms.txt fonctionne
 
@@ -190,17 +190,18 @@ Sur mlkwebstudio.com, je ne tiens pas ce fichier à la main. Le site tourne sous
 {{< screenshot id="llms-txt-explained-04" alt="Onglet de navigateur affichant un fichier llms.txt en texte brut, qui commence par le nom de l’entreprise en titre H1 Markdown" >}}
 
 2. Si une page d’erreur s’affiche, vérifiez le nom du fichier (tout en minuscules), le dossier et, sur Squarespace, que le texte a bien été enregistré.
-3. Copiez deux ou trois des adresses du fichier dans votre navigateur pour vérifier qu’aucune n’est cassée.
-4. Facultatif : dans Chrome, ouvrez les outils de développement (DevTools), allez dans le panneau **Lighthouse** et lancez un rapport avec la catégorie **Agentic Browsing**, si votre version la propose. Son contrôle llms.txt signale un fichier que le serveur ne parvient pas à fournir ou dont les liens ne sont pas au format Markdown.
+3. Copiez deux ou trois des adresses du fichier dans votre navigateur pour vérifier qu’aucun lien n’est cassé.
+4. Testez-le comme le suggère la proposition. Collez l’adresse du fichier dans un assistant capable d’ouvrir des pages web, comme ChatGPT ou Claude, et demandez-lui de répondre, à partir de ce seul fichier, à trois questions qu’un client poserait : ce que vous faites, où vous intervenez et comment obtenir un devis. Une réponse vague ou fausse montre ce qui manque au fichier.
+5. Facultatif : dans Chrome, ouvrez les outils de développement (DevTools), allez dans le panneau **Lighthouse** et lancez un rapport avec la catégorie **Agentic Browsing**, si votre version la propose. Son contrôle llms.txt fait échouer un fichier que le serveur ne parvient pas à fournir, un fichier sans titre H1 et un fichier sans lien Markdown.
 
 {{< screenshot id="llms-txt-explained-05" alt="Rapport Lighthouse dans les outils de développement de Chrome, avec la catégorie expérimentale Agentic Browsing et son contrôle llms.txt" >}}
 
-Il n’y a rien d’autre à vérifier. Si votre hébergeur vous donne accès aux journaux du serveur, ils montrent aussi quels robots demandent le fichier.
+Si votre hébergeur vous donne accès aux journaux du serveur (logs), ils montrent aussi quels robots demandent le fichier, s’il y en a.
 
 ## Votre llms.txt en dix minutes : la check-list
 
 1. Ouvrez votredomaine.fr/llms.txt : sur Wix, ou avec Yoast, vous en avez peut-être déjà un.
-2. Si votre plateforme propose un réglage, utilisez-le. Sinon, arrêtez-vous là et consacrez ce temps à autre chose.
+2. Si votre plateforme propose un réglage, utilisez-le ; sur un site codé à la main, ajoutez le fichier vous-même. Sinon, arrêtez-vous là et consacrez ce temps à autre chose.
 3. Écrivez 20 à 40 lignes : votre nom, un résumé d’une phrase, les informations clés, puis 5 à 15 liens vers vos pages principales.
 4. Publiez-le, ouvrez l’adresse et vérifiez les liens.
 5. Consacrez le reste de votre temps à ce que les assistants et Google utilisent vraiment : laisser entrer leurs robots, répondre aux questions de vos clients sur vos pages et faire parler de votre entreprise sur d’autres sites.

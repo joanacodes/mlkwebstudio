@@ -27,7 +27,7 @@ faq:
     a: "Oui. Dans la Search Console, la page Paramètres comporte une section consacrée à l’IA générative (Search generative AI dans l’interface en anglais) qui permet d’exclure votre site des Aperçus IA, du Mode IA et des résumés IA de Discover. Le changement prend quelques jours, Google indique qu’il n’influence pas le classement, et l’application Gemini reste gérée à part par Google-Extended."
 ---
 
-Le référencement IA, ou GEO (*generative engine optimisation*, l’optimisation pour les moteurs génératifs), consiste à faire en sorte que les assistants IA trouvent votre entreprise, comprennent ce que vous faites et vous citent. Quand quelqu’un demande à ChatGPT un expert-comptable à Nantes, ou tape une question qui déclenche un Aperçu IA de Google, l’assistant cherche sur le Web, lit quelques pages et rédige une réponse avec une poignée de sources. Le but : faire partie de ces sources, et être décrit correctement.
+Le référencement IA, ou GEO (*generative engine optimisation*, l’optimisation pour les moteurs génératifs), consiste à faire en sorte que les assistants IA trouvent votre entreprise, comprennent ce que vous faites et vous citent. Quand quelqu’un demande à ChatGPT un expert-comptable à Nantes, ou tape une question qui déclenche un Aperçu IA de Google, l’assistant cherche sur le Web, lit quelques pages et rédige une réponse avec une poignée de sources. Le but : faire partie de ces sources, avec une description juste de votre entreprise.
 
 Pour une TPE, l’essentiel relève du SEO que vous devriez déjà faire. Le guide que Google consacre à ses fonctions d’IA, publié en mai 2026, traite leur optimisation comme du référencement classique, et rien dans cette page n’exige d’outil payant ni de fichier spécial. Ce qui change vraiment tient en trois lignes : plus de robots à laisser entrer, des mentions sur d’autres sites qui pèsent davantage, et une mesure pleine de trous.
 
@@ -65,7 +65,7 @@ C’est l’index utilisé par chaque assistant qui décide si votre site peut �
 | Perplexity | Son propre index | PerplexityBot |
 | Microsoft Copilot | Bing | Bingbot |
 
-Trois conséquences pratiques en découlent. D’abord, si un robot ne peut pas lire vos pages, la qualité de vos textes n’y change rien : un site qui bloque OAI-SearchBot disparaît des réponses de la recherche ChatGPT. Ensuite, comme les assistants lancent plusieurs requêtes précises, une page qui répond clairement à une question précise a plus de chances qu’une page d’accueil vague. Enfin, la réponse est générée : elle peut être fausse.
+Trois conséquences pratiques en découlent. D’abord, si un robot ne peut pas lire vos pages, la qualité de vos textes n’y change rien : un site qui bloque OAI-SearchBot disparaît des réponses de la recherche ChatGPT. Ensuite, comme les assistants lancent plusieurs requêtes précises, une page qui répond clairement à une question donnée a plus de chances qu’une page d’accueil vague. Enfin, la réponse est générée : elle peut être fausse.
 
 C’est pour cette dernière raison que je choisis avec soin l’assistant auquel je me fie. J’utilise Claude tous les jours : dans mon travail, ChatGPT invente un peu trop souvent, alors que Claude s’est montré extrêmement fiable. Je compare les deux dans {{< a key="claude-vs-chatgpt" >}}Claude ou ChatGPT : lequel choisir pour votre entreprise{{< /a >}}. Quel que soit l’assistant de vos clients, vérifiez ce qu’il dit de vous (étape 4 ci-dessous).
 

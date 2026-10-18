@@ -9,9 +9,9 @@ lastmod: 2026-10-17T09:16:00+02:00
 category: "tools"
 article_type: "guide"
 keywords: ["Semrush avis", "avis Semrush", "Semrush prix", "Semrush gratuit", "alternative Semrush"]
-summary: "Semrush vaut son prix si vous faites de la recherche de mots-clés chaque semaine, pour plusieurs sites ou pour des clients. Pour le site d’une petite entreprise, le compte gratuit (10 requêtes par jour) et les outils gratuits de Google suffisent en général. Je m’en sers surtout pour les mots-clés et leur coût en publicité, qui montre ceux qui rapportent : je les vise ensuite en SEO plutôt qu’en SEA. La formule Pro coûte 139,95 $ par mois en octobre 2026."
+summary: "Semrush vaut son prix si vous faites de la recherche de mots-clés chaque semaine, pour plusieurs sites ou des clients : la formule Pro du SEO Toolkit coûte 139,95 $ par mois à la date de rédaction (octobre 2026). Pour le site d’une petite entreprise, le compte gratuit (10 requêtes par jour) et les outils gratuits de Google suffisent en général. Je m’en sers surtout pour repérer les mots-clés que les annonceurs paient le plus cher, puis je les vise en SEO plutôt qu’en SEA."
 cover: "semrush-review"
-cover_alt: "Un homme devant un tableur sur un ordinateur de bureau, à côté d’une barre de recherche et d’une liste de résultats, titré Semrush"
+cover_alt: "Un homme devant un tableur sur un ordinateur de bureau, à côté d’une barre de recherche et d’une liste de résultats, avec le titre Semrush"
 related: ["keyword-research-small-business", "google-keyword-planner-tutorial", "seo-vs-ppc", "check-ai-visibility", "small-business-tools-guide"]
 services: ["seo"]
 faq:
@@ -47,19 +47,19 @@ L’essentiel de mon usage, c’est la recherche de mots-clés : trouver les mo
 
 ### Les mots-clés achetés en publicité, et le prix du clic
 
-Le CPC (coût par clic) est le chiffre que je regarde le plus. Les annonceurs continuent rarement à payer des clics qui ne leur rapportent rien : un mot-clé au CPC élevé est donc en général un mot-clé qui amène des clients. Un CPC élevé signale aussi une intention d’achat plus forte, et plus de concurrence.
+Le CPC (coût par clic) est le chiffre qui me montre quels mots-clés marchent le mieux. Les annonceurs continuent rarement à payer des clics qui ne leur rapportent rien : un mot-clé au CPC élevé est donc en général un mot-clé qui amène des clients. Un CPC élevé signale aussi une intention d’achat plus forte, et plus de concurrence.
 
 C’est ainsi que je décide où mettre l’effort de référencement. Quand un mot-clé coûte cher en publicité, se positionner dessus dans les résultats naturels amène le même type de visiteur, sans facture à chaque clic. **Je mise sur ces mots-clés en SEO plutôt que de les payer en SEA.** Mon comparatif {{< a key="seo-vs-ppc" >}}SEO ou SEA{{< /a >}} explique quand la publicité garde son intérêt, par exemple le temps que la page grimpe.
 
-## Ma méthode avec le compte gratuit : 10 requêtes par jour
+## Utiliser Semrush gratuitement : la méthode en 10 requêtes par jour
 
-Un compte Semrush gratuit donne droit à 10 requêtes par jour, d’après la [comparaison des formules de Semrush](https://www.semrush.com/kb/856-subscription-plans-comparison) (en anglais), et chaque rapport n’affiche que ses 10 premiers résultats. C’est serré, mais assez pour vérifier correctement une courte liste, à condition de la préparer avant de vous connecter. L’interface existe en français, ce qui facilite la prise en main.
+Un compte Semrush gratuit donne droit à 10 requêtes par jour, d’après la [comparaison des formules de Semrush](https://www.semrush.com/kb/856-subscription-plans-comparison) (en anglais), et chaque rapport n’affiche que ses 10 premiers résultats. C’est serré, mais assez pour appliquer la méthode ci-dessus à une courte liste, à condition de la préparer avant de vous connecter. L’interface existe en français, ce qui facilite la prise en main.
 
 1. Écrivez la liste d’abord. Notez les mots que vos clients emploient au téléphone, dans leurs emails et dans leurs avis, et gardez les dix qui décrivent le plus directement ce que vous vendez. Chaque recherche compte dans les dix : une idée vague en gaspille une.
 2. Choisissez le pays. Semrush garde des données séparées pour chaque pays qu’il couvre : prenez la France pour une entreprise française, ou le pays de vos clients si vous vendez ailleurs.
 3. Vérifiez chaque expression dans la Vue d’ensemble des mots clés. Recopiez le volume, le KD %, le CPC et l’intention dans un tableur, une ligne par expression.
-4. Passez votre meilleure expression dans le **Keyword Magic Tool**. Cet outil transforme une expression de départ en liste de recherches proches, que vous pouvez filtrer par volume, difficulté et CPC. Le compte gratuit n’affiche que les 10 premières : partez donc d’une expression précise comme « dépannage chaudière Lyon » plutôt que « chaudière ».
-5. Retenez les mots-clés précis et chers. Gardez les expressions qui ont un vrai volume, un CPC élevé et une difficulté à la portée de votre site. Le précis l’emporte sur le général : parmi les sites que j’ai réalisés pour un même client, celui qui vend des services très spécifiques s’est positionné, alors que celui qui proposait tout n’a jamais marché.
+4. Passez votre meilleure expression dans le **Keyword Magic Tool** (son nom dans l’interface anglaise). Cet outil transforme une expression de départ en liste de recherches proches, que vous pouvez filtrer par volume, difficulté et CPC. Le compte gratuit n’affiche que les 10 premières : partez donc d’une expression précise comme « dépannage chaudière Lyon » plutôt que « chaudière ».
+5. Retenez les mots-clés précis et chers. Gardez les expressions qui ont un vrai volume, un CPC élevé et une difficulté à la portée de votre site. Le précis l’emporte sur le général : parmi les sites que j’ai réalisés pour un même client, celui qui vend des services très spécifiques s’est positionné, alors que celui qui proposait trop de services n’a pas marché du tout.
 6. Donnez à chaque mot-clé sa propre page. Un mot-clé principal par page, dans le titre, l’adresse, le premier paragraphe et un intertitre. Surveillez ensuite les impressions de cette page dans la Google Search Console au fil des semaines.
 
 {{< callout type="tip" >}}Dix requêtes partent vite quand on cherche au hasard. Préparez la liste la veille, et **gardez les dix du lendemain pour les variantes repérées aujourd’hui**.{{< /callout >}}
@@ -78,13 +78,13 @@ Semrush vend ses outils sous forme de « toolkits » séparés. Celui de la re
 | SEO Toolkit Business | 499,95 $ par mois | 416,66 $ par mois | Les limites les plus hautes des trois |
 | Semrush One | À partir d’un peu moins de 200 $ par mois | À partir de 165,17 $ par mois | Le SEO Toolkit plus l’AI Visibility Toolkit ; Pro+ à 299 $ et Advanced à 549 $ par mois |
 
-Semrush publie ces tarifs en dollars américains : je n’ai donc pas de prix officiel en euros à vous donner. Vérifiez le montant final, TVA éventuelle comprise, au moment du paiement. L’offre en cours figure sur la [page de tarifs de Semrush](https://www.semrush.com/prices/), et formules comme prix changent : consultez-la avant de vous abonner.
+Semrush publie ses tarifs uniquement en dollars américains : je n’ai donc pas de prix officiel en euros à vous donner. Le montant réellement payé dépend du taux de change, des frais de votre banque si votre carte est débitée en dollars, et de la TVA éventuelle : vérifiez la devise et le montant final au moment du paiement. L’offre en cours figure sur la [page de tarifs de Semrush](https://www.semrush.com/prices/), et formules comme prix changent : consultez-la avant de vous abonner.
 
 Sur un an, la formule Pro revient à environ 1 680 $ en facturation mensuelle, ou environ 1 408 $ en facturation annuelle. C’est ce chiffre qu’il faut mettre en face de ce que les mots-clés peuvent vous rapporter.
 
 ### Semrush One et la visibilité dans les IA
 
-Semrush One ajoute l’AI Visibility Toolkit, conçu pour montrer comment les assistants IA comme ChatGPT parlent de votre marque. Avant de payer pour cela, faites le test manuel gratuit décrit dans mon guide pour {{< a key="check-ai-visibility" >}}vérifier votre visibilité IA{{< /a >}} : quelques requêtes tapées chaque mois dans chaque assistant disent à une petite entreprise l’essentiel de ce qu’elle doit savoir.
+Semrush One ajoute l’AI Visibility Toolkit, conçu pour montrer comment les assistants IA comme ChatGPT parlent de votre marque. Avant de payer pour cela, faites le test manuel gratuit décrit dans mon guide pour {{< a key="check-ai-visibility" >}}vérifier votre visibilité IA{{< /a >}} : quelques questions posées chaque mois à chaque assistant disent à une petite entreprise l’essentiel de ce qu’elle doit savoir.
 
 ## Mon avis sur Semrush : pour qui l’abonnement vaut le coup
 
@@ -102,7 +102,7 @@ Il convient moins bien au dirigeant d’une TPE. Avec un seul site et quelques p
 
 Un test simple : en facturation annuelle, Pro coûte environ 1 408 $ par an. Si les mots-clés trouvés vous amènent dans l’année un client qui ne vous aurait pas trouvé autrement, et que ce client vaut plus que cela, l’abonnement est rentabilisé. Si vous n’arrivez pas à imaginer ce client, gardez le compte gratuit.
 
-{{< callout type="warning" >}}Un outil aussi complet donne une impression de progrès. On se laisse facilement séduire par les nouveaux outils brillants, mais **ce sont les canaux que vous utilisez déjà qui méritent votre attention**. Une formule payante ouverte une fois par mois est une dépense, pas une stratégie.{{< /callout >}}
+{{< callout type="warning" >}}Un outil aussi complet donne une impression de progrès. On se laisse facilement séduire par le dernier outil à la mode, mais **ce sont les canaux que vous utilisez déjà qui méritent votre attention**. Une formule payante ouverte une fois par mois est une dépense, pas une stratégie.{{< /callout >}}
 
 Même chose pour les deals à vie sur des outils SEO moins connus. J’ai raté quelques deals d’outils SEO sur AppSumo et je l’ai regretté, mais AppSumo reste à mes yeux un peu comme un casino, pour des raisons que j’explique dans mon {{< a key="appsumo-review" >}}avis sur AppSumo{{< /a >}}.
 
@@ -112,7 +112,7 @@ Les outils gratuits de Google couvrent chacun une partie du travail ; Ahrefs et
 
 ### Les outils gratuits de Google
 
-- **Le Planificateur de mots clés de Google** est gratuit dans un compte Google Ads. Il donne les volumes de recherche mensuels (en fourchettes si vous ne dépensez rien en publicité) et des fourchettes d’enchères pour le haut de page, le signal de Google lui-même sur ce que paient les annonceurs. Mon tuto du {{< a key="google-keyword-planner-tutorial" >}}Planificateur de mots clés Google{{< /a >}} montre comment l’utiliser sans lancer de publicité.
+- **Le Planificateur de mots clés de Google**, appelé « Outil de planification des mots clés » dans l’interface, est gratuit dans un compte Google Ads. Il donne les volumes de recherche mensuels (en fourchettes si vous ne dépensez rien en publicité) et des fourchettes d’enchères pour le haut de page, le signal de Google lui-même sur ce que paient les annonceurs. Mon tuto du {{< a key="google-keyword-planner-tutorial" >}}Planificateur de mots clés Google{{< /a >}} montre comment l’utiliser sans lancer de publicité.
 - **La Google Search Console** est gratuite et montre les recherches sur lesquelles votre site apparaît déjà, avec les clics, les impressions et la position moyenne, directement depuis Google. Elle ne montre pas les recherches sur lesquelles vous n’apparaissez pas encore : c’est là que Semrush ou le Planificateur prennent le relais. Mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}} explique comment y ajouter votre site.
 - **Google Trends**, gratuit lui aussi, sert à repérer les pics saisonniers et à comparer deux façons de dire la même chose.
 

@@ -31,7 +31,7 @@ A new tool, platform or tactic arrives every month, each one promising more clie
 
 I do not have grand theories about marketing: it can be annoying, but every business needs it. One thing I am sure of, though: it is easy to fall for new shiny tools and practices, when what pays is to focus on the channels you already run and make them thrive. There is a lot of noise in marketing. That noise is the point, and owners of small businesses and small teams are easy to catch with it.
 
-This article covers how to spot the syndrome, what chasing every new channel really costs, how I stay focused myself, and a simple method to master one channel before you add the next. It belongs to my guide on {{< a key="how-to-get-more-clients" >}}how to get more clients{{< /a >}}, which compares the channels themselves.
+My guide on {{< a key="how-to-get-more-clients" >}}how to get more clients{{< /a >}} compares the channels themselves. This article answers the next question: how many to run at once, and when to add another.
 
 ## What shiny object syndrome looks like in a small business
 
@@ -60,11 +60,13 @@ AppSumo, a marketplace for lifetime software deals, is a bit like a casino: you 
 
 ### Platforms you have to keep feeding
 
-As I see it, on Instagram, TikTok or Facebook you work for the platform: to be seen, you keep looking for new ways to catch attention, and for a long time. Pinterest and YouTube Shorts work the other way round: once a post is up, it keeps bringing results. If you have patience, money or both, Instagram, TikTok and Facebook can still work, and with a budget, an agency with strong, proven results can run them for you. If you are on your own, Pinterest and YouTube Shorts are your best friends. My guide to the {{< a key="social-media-small-business" >}}best social media for small business{{< /a >}} explains where your time pays off.
+As I see it, on Instagram, TikTok or Facebook you work for the platform: to be seen, you keep looking for new ways to catch attention, and for a long time. Pinterest and YouTube Shorts work the other way round: once a post is up, it keeps bringing results.
+
+Instagram, TikTok and Facebook can still work if you have patience, money or both, and with a budget, an agency with strong, proven results can run them for you. If you are on your own, Pinterest and YouTube Shorts are your best friends. My guide to the {{< a key="social-media-small-business" >}}best social media for small business{{< /a >}} explains where your time pays off.
 
 ### The acronym of the year
 
-In 2026, the loudest shiny object is AI search: GEO, AEO, llms.txt files and the services sold around them. Google's [guide to its generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), published in May 2026, says that optimising for them is still SEO, and that you do not need llms.txt files or special markup to appear in them. I explain what really changes in {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}}.
+In 2026, the loudest shiny object is AI search: GEO, AEO, llms.txt files and the services sold around them. Google's [guide to its generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), published in May 2026, says that the usual SEO best practices still apply, because these features rest on Google's core ranking systems, and that you do not need llms.txt files or special markup to appear in them. I explain what really changes in {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}}.
 
 ## What chasing every new channel really costs
 
@@ -72,7 +74,7 @@ The subscription is the smallest part of the bill. Each new channel brings a set
 
 What you lose most is compounding. A channel gets better the longer you run it, because you learn what works:
 
-- Cold emailing: I A/B test the copy, and over time a campaign usually gets more replies, since I know which wording worked and which did not. The third email also brings positive replies: busy people simply forgot to answer the first two. Stop after two emails and you never hear from them.
+- Cold emailing: I A/B test the copy, and over time a campaign usually gets more replies, since I know which wording worked and which did not. The third email also brings positive replies: busy people had forgotten the first two, or had no time to answer them. Stop after two emails and you miss those replies.
 - SEO: pages keep working after you publish them, and each new one supports the others. Abandon them after six weeks and you leave before the results arrive.
 - Pinterest and YouTube Shorts: every post you add joins the ones already bringing views.
 
@@ -88,9 +90,9 @@ With tools, I stick to what works. I started cold emailing with Instantly and ha
 
 For a B2B business, cold emailing is, in my view, the one thing that will bring you to the moon, and your competitors will do it anyway. But the method below does not depend on my favourite channel. I will always be honest with you so that you stay focused on what can work for you in the long term, with the tools and budget you have. Sometimes that is cold email; for a local business, it may be Google search and your Google Business Profile.
 
-## A simple method: master one channel, then add the next
+## How to overcome shiny object syndrome: master one channel, then add the next
 
-The cure for shiny object syndrome is not willpower: it is a routine you decide in advance. What follows is general advice, not a formula built on my own figures, and it works with any channel.
+The cure is not willpower: it is a routine you decide in advance. What follows is general advice, not a formula built on my own figures, and it works with any channel.
 
 ### 1. List the channels you already run
 

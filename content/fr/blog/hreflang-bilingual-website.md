@@ -29,7 +29,7 @@ faq:
 
 La balise hreflang est une courte ligne de code qui indique à Google que deux pages disent la même chose dans deux langues, et laquelle montrer à qui. Sur un site bilingue ou multilingue, elle montre votre page française à ceux qui cherchent en français et votre page anglaise à ceux qui cherchent en anglais, au lieu de laisser Google choisir une version pour tous.
 
-Ce blog s’en sert : chaque article existe en français et en anglais, et chaque version désigne l’autre. Je fais de même sur les sites bilingues de mes clients, comme celui d’Eden Corporate Mobility, qui compte 17 pages dans chaque langue. Voici les codes à utiliser, les trois endroits où placer les balises, la mise en place selon votre plateforme et les vérifications à faire.
+Ce blog s’en sert : chaque article existe en français et en anglais, et chaque version désigne l’autre. J’ai fait de même pour un client, Eden Corporate Mobility, dont le site bilingue compte 17 pages dans chaque langue. Voici les codes à utiliser, les trois endroits où placer les balises, la mise en place selon votre plateforme et les vérifications à faire.
 
 Une mise en garde avant le code : hreflang envoie chaque internaute vers la bonne version sans l’aider à se positionner, d’où la section sur la rédaction juste après les bases. Ce tutoriel fait partie de mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel pour les petites entreprises{{< /a >}}.
 
@@ -110,7 +110,7 @@ Google lit hreflang à trois endroits, et un seul suffit ([le guide de Google su
 1. Chaque version liste **toutes les versions, elle comprise**, plus la valeur x-default.
 2. Les lignes sont **identiques sur chaque version**.
 3. Chaque adresse est **complète**, avec https:// et le domaine : un lien relatif comme /en/ ne compte pas.
-4. Les liens vont **dans les deux sens**. Si la page française cite l’anglaise sans que l’anglaise la cite en retour, Google peut ignorer la paire.
+4. Les liens vont **dans les deux sens**. Si la page française cite la page anglaise et pas l’inverse, Google peut ignorer la paire.
 
 Visez toujours l’adresse finale de chaque page, jamais une redirection, une page d’erreur ou une page masquée aux moteurs.
 
@@ -140,7 +140,7 @@ Dans le code source, elles tiennent sur une longue ligne, sans guillemets, car l
 
 ### Dans le sitemap XML (gros sites)
 
-Si vous ne pouvez pas modifier le head, ou si vous avez des centaines de pages, le sitemap peut porter les mêmes informations. Chaque entrée url reprend l’ensemble complet, elle comprise :
+Si vous ne pouvez pas modifier le head, ou si vous avez des centaines de pages, le sitemap peut porter les mêmes informations. Chaque entrée url reprend toutes les versions, y compris la sienne :
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -228,4 +228,4 @@ Avant de dire que c’est fini :
 7. Aucune redirection automatique, et un sélecteur qui mène à la même page dans l’autre langue.
 8. Le code source et l’inspection de l’URL vérifiés sur quelques pages dans chaque langue.
 
-Si votre plateforme écrit les balises (extension WordPress, Wix Multilingual, Weglot), vous n’avez besoin de personne : faites une fois ces vérifications et consacrez votre temps au contenu de chaque version. Passer la main vaut la peine quand les balises sont tapées à la main sur des dizaines de pages, avec un domaine par pays, ou quand Google affiche toujours la mauvaise version sans que les vérifications expliquent pourquoi.
+Si votre plateforme écrit les balises (extension WordPress, Wix Multilingual, Weglot), vous n’avez besoin de personne : faites une fois ces vérifications et consacrez votre temps au contenu de chaque version. Passer la main vaut la peine quand les balises sont tapées à la main sur des dizaines de pages, quand vous avez un domaine par pays, ou quand Google affiche toujours la mauvaise version sans que les vérifications expliquent pourquoi.

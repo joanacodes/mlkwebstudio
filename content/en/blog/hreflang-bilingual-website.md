@@ -29,7 +29,7 @@ faq:
 
 Hreflang tags are short lines of code that tell Google that two pages say the same thing in different languages, and which one to show to whom. On a bilingual website, they keep your French page in front of people searching in French and your English page in front of people searching in English, instead of letting Google pick one version for everybody.
 
-This blog relies on them: every article exists in English and in French, and each version points to the other. I set up the same links on client sites, such as the bilingual site of Eden Corporate Mobility, which has 17 pages in each language. This tutorial covers the codes to use, the three places where the tags can go, the set-up on common platforms and the checks that tell you Google reads them.
+This blog relies on them: every article exists in English and in French, and each version points to the other. I did the same for a client, Eden Corporate Mobility, whose bilingual site has 17 pages in each language. This tutorial covers the codes to use, the three places where the tags can go, the set-up on common platforms and the checks that tell you Google reads them.
 
 One warning before the code: hreflang only sends each searcher to the right version. It does not make that version rank, which is why the section after the basics is about writing. This tutorial is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}.
 

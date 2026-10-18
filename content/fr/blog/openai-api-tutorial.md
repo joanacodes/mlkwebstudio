@@ -1,7 +1,7 @@
 ---
 title: "API ChatGPT : créer sa clé OpenAI, fixer un budget et faire sa première requête"
 seo_title: "API ChatGPT : créer sa clé OpenAI et plafonner ses dépenses"
-description: "Tutoriel API ChatGPT : créer votre clé API OpenAI, la protéger, acheter des crédits, plafonner vos dépenses et envoyer une première requête, pas à pas."
+description: "Tutoriel API ChatGPT : créez votre clé API OpenAI, gardez-la hors du code de votre site, achetez des crédits, plafonnez vos dépenses et lancez une requête."
 slug: "api-chatgpt-cle-openai"
 translationKey: "openai-api-tutorial"
 date: 2026-10-17T09:04:00+02:00
@@ -11,7 +11,7 @@ article_type: "tutorial"
 keywords: ["API ChatGPT", "clé API OpenAI", "API OpenAI prix", "tutoriel API ChatGPT", "clé API ChatGPT", "Responses API"]
 summary: "Pour utiliser l’API ChatGPT, connectez-vous sur platform.openai.com, ouvrez la page API keys des réglages, cliquez sur Create new secret key et rangez la clé dans une variable d’environnement OPENAI_API_KEY. Achetez ensuite des crédits prépayés (5 $ minimum), fixez un plafond mensuel (hard spend limit) sur le projet, puis envoyez une requête POST à https://api.openai.com/v1/responses. L’abonnement ChatGPT n’inclut pas l’API : elle se paie au token, à part."
 cover: "openai-api-tutorial"
-cover_alt: "Un téléphone affichant une boîte de réception à côté d’un terminal avec une requête curl et la réponse 200 OK, sous les mots OpenAI API"
+cover_alt: "Un téléphone affichant une boîte de réception, et un terminal avec une requête curl et la réponse 200 OK au-dessus des mots OpenAI API"
 related: ["claude-api-tutorial", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data", "claude-vs-chatgpt", "build-app-with-ai"]
 services: ["automation"]
 faq:
@@ -22,9 +22,9 @@ faq:
   - q: "OpenAI entraîne-t-il ses modèles avec ce que j’envoie à l’API ?"
     a: "Pas par défaut. D’après la [page d’OpenAI sur le contrôle des données](https://developers.openai.com/api/docs/guides/your-data), les données envoyées à l’API ne servent ni à entraîner ni à améliorer les modèles d’OpenAI, sauf si vous l’acceptez expressément. OpenAI peut conserver les entrées et les sorties jusqu’à 30 jours pour fournir le service et détecter les abus ; les clients éligibles peuvent demander une conservation nulle (zero data retention)."
   - q: "Que faire si ma clé API OpenAI a fuité ?"
-    a: "Supprimez-la sur la page API keys, créez une nouvelle clé pour l’outil qui l’utilisait, puis vérifiez dans le tableau de bord d’usage qu’aucune dépense inconnue n’apparaît. Une clé publiée dans un dépôt public est à considérer comme compromise, même si vous supprimez le fichier ensuite."
+    a: "Supprimez-la sur la page API keys, créez une nouvelle clé pour l’outil qui l’utilisait, puis vérifiez dans le tableau de bord de consommation (Usage) qu’aucune dépense inconnue n’apparaît. Une clé publiée dans un dépôt public est à considérer comme compromise, même si vous supprimez le fichier ensuite."
   - q: "Les crédits de l’API OpenAI expirent-ils ?"
-    a: "Oui. Les crédits achetés expirent au bout d’un an, OpenAI ne peut pas prolonger cette date, et ils ne sont pas remboursables, sauf si la loi ou un contrat l’impose. Achetez de petits montants tant que vous ne connaissez pas votre consommation mensuelle."
+    a: "Oui. Les crédits achetés expirent un an après l’achat, OpenAI ne peut pas prolonger cette date, et ils ne sont pas remboursables, sauf si la loi ou un contrat l’impose."
 ---
 
 L’API ChatGPT, de son vrai nom l’API d’OpenAI, permet à vos propres outils d’utiliser les modèles d’OpenAI : formulaire de site, tableur, automatisation, application interne. Il vous faut une clé API, créée sur la plateforme OpenAI, et des crédits prépayés, que chaque requête entame.
@@ -38,7 +38,7 @@ J’utilise Claude pour mon propre travail et je n’ai pas de projet sur l’AP
 Trois mots reviennent à chaque étape :
 
 - **API** (interface de programmation) : un moyen pour un logiciel d’envoyer une demande à un autre et de recevoir une réponse, sans que personne ne clique.
-- **Clé API** : une longue chaîne secrète qui identifie votre compte dans chaque requête. Qui la détient peut dépenser vos crédits.
+- **Clé API** : une longue chaîne secrète qui identifie votre compte dans chaque requête.
 - **Token** (jeton) : l’unité que l’API compte et facture, en gros un morceau de mot. Les prix s’entendent par million de tokens : un tarif pour l’entrée (ce que vous envoyez), un tarif plus élevé pour la sortie (ce que le modèle écrit). Le nombre de tokens d’un texte dépend aussi de sa langue.
 
 ### ChatGPT et l’API se paient séparément
@@ -47,15 +47,15 @@ Trois mots reviennent à chaque étape :
 |---|---|---|
 | Qui s’en sert | Vous, dans une fenêtre de discussion | Vos outils : formulaire de site, tableur, application, automatisation |
 | Comment on paie | Un abonnement : Free, Go, Plus, Pro, Business ou Enterprise | Au token, sur des crédits prépayés |
-| Où on la gère | Les réglages de ChatGPT | Le tableau de bord de la plateforme OpenAI |
+| Où tout se règle | Les réglages de ChatGPT | Le tableau de bord de la plateforme OpenAI |
 
-Le centre d’aide d’OpenAI est clair : l’usage de l’API est facturé à part de l’abonnement ChatGPT, Plus compris ([page d’OpenAI sur la facturation de ChatGPT et de l’API](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)). Pour discuter, rédiger ou faire des recherches, vous n’avez pas besoin de l’API : mon comparatif {{< a key="claude-vs-chatgpt" >}}Claude ou ChatGPT{{< /a >}} porte sur les applications. L’API sert quand c’est un outil, pas une personne, qui pose les questions.
+Le centre d’aide d’OpenAI est clair : l’usage de l’API est facturé séparément de l’abonnement ChatGPT, y compris Plus ([page d’OpenAI sur la facturation de ChatGPT et de l’API](https://help.openai.com/en/articles/9039756-managing-billing-for-chatgpt-and-the-api-platform)). Pour discuter, rédiger ou faire des recherches, vous n’avez pas besoin de l’API : mon comparatif {{< a key="claude-vs-chatgpt" >}}Claude ou ChatGPT{{< /a >}} porte sur les applications. L’API sert quand c’est un outil, pas une personne, qui pose les questions.
 
 ## Étape 1 : se connecter à la plateforme OpenAI et créer un projet
 
 La plateforme OpenAI, à l’adresse `platform.openai.com`, est le site d’OpenAI pour les développeurs : clés, facturation, plafonds et consommation s’y trouvent. Connectez-vous avec votre compte OpenAI (le même identifiant que pour ChatGPT, si vous en avez un) ou créez-en un.
 
-Votre compte comprend une organisation et un projet par défaut. **Les projets cloisonnent** : chacun a ses clés, son plafond et sa consommation, si bien qu’un outil défaillant ne peut pas vider le budget d’un autre. Créez un projet pour l’outil que vous allez construire, avec un nom simple comme `Formulaire site`.
+Votre compte comprend une organisation et un projet par défaut. **Chaque projet est cloisonné** : il a ses propres clés, son plafond et sa consommation, si bien qu’un outil défaillant ne peut pas vider le budget d’un autre. Créez un projet pour l’outil que vous allez mettre en place, avec un nom simple comme `Formulaire site`.
 
 {{< screenshot id="openai-api-tutorial-01" alt="La plateforme OpenAI après connexion sur platform.openai.com, avec le projet à utiliser sélectionné" >}}
 
@@ -107,9 +107,9 @@ Pas de serveur ? Zapier, Make et n8n proposent tous une étape OpenAI qui garde
 
 ## Étape 4 : acheter des crédits prépayés
 
-L’API fonctionne avec des crédits prépayés, achetés d’avance. Ouvrez la page **Billing** des réglages, ajoutez une carte, puis achetez des crédits. Au moment où j’écris (octobre 2026), l’achat minimum est de 5 $ et le montant proposé par défaut de 10 $, d’après le [guide d’OpenAI sur la facturation prépayée](https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing).
+Les crédits s’achètent d’avance : ouvrez la page **Billing** des réglages, ajoutez une carte, puis achetez des crédits. Au moment où j’écris (octobre 2026), l’achat minimum est de 5 $ et le montant proposé par défaut de 10 $, d’après le [guide d’OpenAI sur la facturation prépayée](https://help.openai.com/en/articles/8264644-setting-up-and-managing-prepaid-api-billing).
 
-Les crédits sont vendus en dollars : votre banque convertit en euros, à son taux et avec ses frais. Avant de payer :
+Ils sont vendus en dollars : votre banque convertit en euros, à son taux et avec ses frais. Avant de payer :
 
 - **La recharge automatique (auto-reload) est activée par défaut** à la configuration. Pendant vos tests, désactivez-la, ou fixez une limite mensuelle de recharge, qui plafonne ce qu’OpenAI achète automatiquement.
 - **Les crédits expirent** au bout d’un an : achetez de petits montants tant que vous ne connaissez pas votre consommation.
@@ -203,7 +203,7 @@ print(response.output_text)
 print(response.usage)
 ```
 
-Lancez-le avec `python quickstart.py` (`py quickstart.py` sur Windows) : les objets proposés s’affichent, puis les tokens consommés. `instructions` contient vos consignes permanentes, comme le ton ou le vouvoiement ; `output_text` rassemble le texte du modèle. La bibliothèque relance d’elle-même certaines erreurs temporaires, deux fois par défaut, et une version JavaScript et TypeScript existe aussi (`npm install openai`).
+Lancez-le avec `python quickstart.py` (`py quickstart.py` sur Windows) : les objets proposés s’affichent, puis les tokens consommés. `instructions` contient vos consignes permanentes, comme le ton ou le vouvoiement ; `output_text` rassemble le texte du modèle. Une version JavaScript et TypeScript existe aussi (`npm install openai`).
 
 {{< screenshot id="openai-api-tutorial-07" alt="Un terminal qui exécute quickstart.py, avec les trois objets d’email proposés et la ligne usage en dessous" >}}
 
@@ -217,7 +217,7 @@ Pour changer de modèle, changez la ligne `model`. Trois modèles actuels, aux p
 | GPT-5.5 | `gpt-5.5` | 5 $ | 0,50 $ | 30 $ | Le modèle des exemples des bibliothèques officielles d’OpenAI |
 | GPT-6 Luna | `gpt-6-luna` | 0,10 $ | 0,01 $ | 0,50 $ | Le modèle le plus efficient d’OpenAI, pour les tâches ciblées en grand volume |
 
-Les prix changent souvent : vérifiez la [page des tarifs d’OpenAI](https://openai.com/api/pricing/) avant de bâtir un budget sur ces chiffres, qui sont en dollars.
+Les prix changent souvent : vérifiez la [page des tarifs d’OpenAI](https://openai.com/api/pricing/) avant de bâtir un budget sur ces chiffres, qui sont en dollars. La gamme GPT-6 compte aussi un modèle intermédiaire, GPT-6.1 Sol (`gpt-6.1-sol`), dont le prix n’a pas pu être confirmé au moment où j’écris : consultez-le sur cette page.
 
 Pour estimer un coût, multipliez. Une requête qui envoie 500 tokens (la demande de devis d’un prospect et vos consignes) et en reçoit 300 (un brouillon de réponse) coûte, avec GPT-6 Astra, 500 × 10 $ / 1 000 000 + 300 × 50 $ / 1 000 000 = 0,02 $ : environ 20 $ pour mille réponses, contre 11,50 $ avec GPT-5.5 et 0,20 $ avec GPT-6 Luna. Les tokens de réflexion s’ajoutent, facturés comme de la sortie : vérifiez `usage` sur de vraies requêtes.
 
@@ -226,7 +226,7 @@ Pour choisir, soumettez 20 vraies requêtes à GPT-6 Luna et à GPT-6 Astra, pui
 Deux moyens de payer moins :
 
 - **L’entrée en cache** : le début d’un prompt qui se répète d’une requête à l’autre, comme de longues consignes permanentes, coûte un dixième du prix normal de l’entrée sur ces trois modèles.
-- **La Batch API** : pour les tâches qui peuvent attendre, vous envoyez un fichier de requêtes et récupérez les résultats sous 24 heures, à un prix batch propre à chaque modèle : comparez-le au prix standard avant d’escompter une économie.
+- **La Batch API** : pour les tâches qui peuvent attendre, vous envoyez un fichier de requêtes et récupérez les résultats sous 24 heures, à moitié prix d’après les comparateurs indépendants (octobre 2026). Vérifiez le prix batch de votre modèle sur la page des tarifs avant d’y compter.
 
 ## Les erreurs courantes et comment les corriger
 
@@ -238,18 +238,18 @@ Les erreurs arrivent en JSON, avec un message qui nomme en général le problèm
 | 401 | `AuthenticationError` | La clé manque, est mal copiée, supprimée ou expirée | Vérifiez que la variable existe dans cette fenêtre et contient la clé entière |
 | 403 | `PermissionDeniedError` | La clé n’a pas le droit nécessaire, par exemple une clé Read Only | Vérifiez les droits de la clé et son projet |
 | 404 | `NotFoundError` | Un nom de modèle erroné, ou un modèle inaccessible à votre compte | Recopiez la valeur `model` exacte du tableau ci-dessus |
-| 429 | `RateLimitError` | Trop de requêtes ou de tokens trop vite | Patientez (voir l’en-tête `Retry-After`), puis ralentissez |
+| 429 | `RateLimitError` | Trop de requêtes ou de tokens trop vite, ou plus de crédit (voir plus bas) | Patientez (voir l’en-tête `Retry-After`, s’il est présent) et ralentissez, ou rechargez |
 | 500+ | `InternalServerError` | Une erreur du serveur, ou un modèle momentanément surchargé | Réessayez un peu plus tard |
 
-Les requêtes échouent aussi quand votre solde est vide ou qu’un projet atteint son plafond, et le message précise lequel des deux : rechargez, ou relevez le plafond. Chaque réponse porte un identifiant de requête (en-tête `x-request-id`, `_request_id` en Python) : donnez-le au support d’OpenAI si vous l’interrogez à son sujet.
+**Une erreur 429 ne signale pas toujours des requêtes trop rapides.** Avec un solde vide ou un plafond atteint, l’API répond en général aussi par un code 429, mais avec un message qui parle de votre quota (type d’erreur `insufficient_quota`) et précise lequel des deux est en cause. Attendre ou relancer n’y changera rien : rechargez, ou relevez le plafond.
 
 ## Suivre sa consommation et ses coûts
 
-Le tableau de bord d’usage d’OpenAI montre l’activité et les coûts de votre organisation. Consultez-le après le premier vrai jour d’utilisation, puis chaque mois, face à ce que les chiffres `usage` laissaient prévoir. Si vous ne le voyez pas, il est peut-être réservé aux propriétaires, qui peuvent aussi exporter l’usage et les coûts vers un tableur via l’Admin API d’OpenAI (avec une clé d’administration, pas une clé de projet).
+Le tableau de bord de consommation d’OpenAI (Usage) montre l’activité et les coûts de votre organisation. Consultez-le après le premier vrai jour d’utilisation, puis chaque mois, et comparez avec ce que les chiffres de `usage` laissaient prévoir. Si vous ne le voyez pas, son accès est peut-être réservé aux propriétaires de l’organisation.
 
-Un pic que vous ne savez pas expliquer mérite un coup d’œil le jour même : un outil qui tourne en boucle ou une clé entre de mauvaises mains continue de dépenser jusqu’à ce que votre plafond l’arrête.
+Un pic inexpliqué mérite un coup d’œil le jour même : un outil qui tourne en boucle ou une clé volée continue de dépenser jusqu’à ce que votre plafond l’arrête.
 
-{{< screenshot id="openai-api-tutorial-08" alt="Le tableau de bord d’usage de la plateforme OpenAI avec les coûts du mois" >}}
+{{< screenshot id="openai-api-tutorial-08" alt="Le tableau de bord de consommation (Usage) de la plateforme OpenAI avec les coûts du mois" >}}
 
 ## Que construire ensuite, et quand faire appel à un développeur
 

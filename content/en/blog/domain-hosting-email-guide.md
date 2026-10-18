@@ -106,7 +106,7 @@ DNS, the Domain Name System, is the public directory that turns your domain into
 
 Two ideas cover most of it.
 
-The nameservers decide where your records live. By default, the registrar hosts your DNS zone, so you edit the records in its panel. If you point the nameservers somewhere else, to Squarespace or to a host, that becomes the only place where your edits count. Editing records at the registrar while the nameservers point elsewhere changes nothing, and it is the most common reason a connection seems stuck.
+The nameservers decide where your records live. By default, the registrar hosts your DNS zone, so you edit the records in its panel. If you point the nameservers somewhere else, to Squarespace or to a host, that becomes the only place where your edits count. Editing records at the registrar while the nameservers point elsewhere changes nothing, and it is a classic reason why a connection seems stuck.
 
 Each record has one job. A and AAAA records send the domain to a server's IP address, a CNAME makes one name an alias of another, MX records say which servers take your mail, and TXT records carry SPF, DKIM, DMARC and the verification codes that platforms ask for. {{< a key="dns-records-explained" >}}DNS records explained{{< /a >}} covers every type with examples.
 
@@ -174,7 +174,7 @@ A few practical points:
 
 ## Setting it all up in the right order (and when to hand it over)
 
-Here is the order I follow on every website project. It works just as well if you do it yourself:
+Here is the order I recommend. It ends the way every website project I deliver ends, with the domain connected last, and it works just as well if you do it yourself:
 
 1. Secure the domain. Register it in the business's name, or check who holds the one you have, then turn on auto-renew and two-factor authentication.
 2. Choose where the website lives: a builder such as Squarespace, a host for WordPress or a coded site, or GitHub Pages for a static brochure site.

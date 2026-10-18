@@ -97,7 +97,7 @@ Both main assistants have a free plan that is enough to test a task. You pay whe
 | One person | Pro: $20 a month before tax, or $17 a month billed annually ($200 upfront) | Plus: $20 a month in the US; Go costs less but shows ads |
 | A team | Team: from $20 per seat a month billed annually ($25 monthly), 2 to 150 seats | Business, priced per user |
 
-Both companies quote US dollars. Anthropic charges in local currency where it is supported, with tax added or included depending on the country, so check the amount in £ at checkout before you subscribe. Current prices are on [Claude's pricing page](https://claude.com/pricing) and [ChatGPT's pricing page](https://chatgpt.com/pricing/).
+These are US prices. Both companies charge in local currency in many countries, with tax added or included depending on where you are, so check the amount in £ at checkout before you subscribe. Current prices are on [Claude's pricing page](https://claude.com/pricing) and [ChatGPT's pricing page](https://chatgpt.com/pricing/).
 
 The model I rate most, Fable 5.1, is Anthropic's most capable. On Pro it is available through usage credits, billed at API rates on top of the subscription; the Max plans, from $100 a month, include it within weekly limits. Claude has no ads, and Anthropic said in February 2026 that it will stay that way. ChatGPT is the better choice if you want images made in the chat: Claude's feature list does not include image generation.
 

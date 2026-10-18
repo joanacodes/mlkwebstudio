@@ -20,12 +20,12 @@ faq:
   - q: "Do I need Google's Change of Address tool when moving to Squarespace?"
     a: "Only if the domain changes as well, for example from a .co.uk to a .com. If you keep the same domain, the 301 redirects in URL mappings do the job: the Change of Address tool in Search Console is meant for moves from one domain to another."
   - q: "How long does a WordPress to Squarespace migration take?"
-    a: "The import itself takes minutes. The rest depends on the number of pages and on how much the old site relied on plugins: the design to rebuild, the forms to replace and the redirects to write. Then allow 24 to 72 hours for the domain connection."
+    a: "The import itself is the quick part. The rest depends on the number of pages and on how much the old site relied on plugins: the design to rebuild, the forms to replace and the redirects to write. Then allow 24 to 72 hours for the domain connection."
   - q: "What should I do with the old WordPress site after the move?"
-    a: "Keep the backup of the files and the database for a few months, in case you need a page or an image. Once the redirects are tested and your email is safe, cancel the hosting rather than leaving a copy of the old site online at another address, where Google could index it as a duplicate."
+    a: "Keep the backup of the files and the database for a few months, in case you need a page or an image. Once the redirects are tested, your email is safe and your domain's DNS no longer depends on the host, cancel the hosting rather than leaving a copy of the old site online at another address, where Google could index it as a duplicate."
 ---
 
-Moving from WordPress to Squarespace is mostly an SEO job. The content part is quick: Squarespace imports your pages, posts and images from a WordPress export file. What it cannot do is keep your old addresses working, and every old URL that leads to an error page is a page Google will gradually stop showing.
+Moving from WordPress to Squarespace is mostly an SEO job. The content part is quick: Squarespace imports your pages, posts and images from a WordPress export file. What the import does not do is keep your old addresses working, and every old URL that leads to an error page is a page Google will gradually stop showing.
 
 I have moved clients from WordPress to Squarespace myself. Every WordPress client who came to me wanted to change platforms, worn out by the learning curve and the plugins. Those who run their site themselves went to Squarespace, where changing a letter does not bring the whole layout down and they make changes whenever they want. Those with a budget for regular changes got a custom-built site.
 
@@ -35,7 +35,7 @@ This tutorial covers the move in eight steps, from listing your URLs to checking
 
 Squarespace suits owners who edit their own website and want hosting, security and updates handled for one subscription. A brochure site with a blog moves over well. A site built around plugins is harder to move: a large shop, a members' area, a booking system with custom rules, or a multilingual site, since Squarespace has no built-in translation.
 
-WordPress is still a sound choice if you have the budget: clients with a big budget keep it and pay a specialist to look after it every month. My {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress comparison{{< /a >}} walks through the decision.
+WordPress is still a sound choice if you have the budget: my clients with a big budget keep it and pay a specialist to look after it every month. My {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress comparison{{< /a >}} walks through the decision.
 
 One honest limit before you commit. Squarespace is closed: you get no access to the source code, so a custom-coded site or a carefully built WordPress site gives a specialist more room for technical SEO, and may rank higher for it. The work matters more than the platform, though. The first site I built for Pilotech, an HVAC installer near Paris, was on Squarespace, and **it ranks first or second on Google** with the basics done right: the right keywords and careful metadata. The {{< a page="/projects/pilotech" >}}Pilotech project page{{< /a >}} shows its sites.
 
@@ -73,7 +73,7 @@ Give the sheet five columns: old URL, SEO title, meta description, new URL and a
 ## Step 2: back up WordPress and export your content
 
 1. Make a full backup of the site, files and database, with your host's backup tool or a backup plugin. It is your way back if something goes wrong.
-2. Download your whole **Media Library**. Images that are not attached to a page or post do not import, and Squarespace advises keeping a copy.
+2. Download your whole **Media Library** (the wp-content/uploads folder, through your host's file manager or FTP). Images that are not attached to a page or post do not import, and Squarespace advises keeping a copy.
 3. Deactivate your plugins, which can interfere with the import, according to Squarespace. Do it at a quiet hour and switch them back on once the file is saved.
 4. Go to **Tools** > **Export**, select **All content** and click **Download Export File**. WordPress saves an .xml file to your computer.
 
@@ -85,14 +85,14 @@ If the file turns out too large to import, export by date range instead and impo
 
 ## Step 3: import the file into Squarespace
 
-Create your Squarespace site from a template. The 14-day trial is enough to build and test it, and the site stays private until you publish it. If you have never used the editor, my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}} covers the basics.
+Create your Squarespace site from a template. On version 7.1 you cannot switch templates later, but they all share the same features and style options, so pick a layout you like and restyle it. The 14-day trial is enough to build and test the site, and it stays private until you publish it. If you have never used the editor, my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}} covers the basics.
 
 1. In **Settings**, open the **Import & export** panel and click **Import**.
 2. Choose **WordPress**.
 3. Keep the **Standard WordPress** processor, unless your posts were written in Textile or Markdown.
 4. Upload the .xml file and click **Import**.
 
-When the import ends, open the **Pages** panel: your pages and a blog page holding your posts should be there. Compare a dozen of them with the old site, starting with the ones at the top of your Search Console export.
+When the import ends, open the **Pages** panel. Your pages and a blog page holding your posts sit in the **Not linked** section, disabled (refresh if you do not see them). Compare a dozen of them with the old site, starting with the ones at the top of your Search Console export, then enable the pages you keep and drag them into your navigation.
 
 {{< screenshot id="wordpress-to-squarespace-03" alt="Squarespace Import & export panel with the WordPress import option" >}}
 
@@ -100,15 +100,15 @@ When the import ends, open the **Pages** panel: your pages and a blog page holdi
 
 The import gives you raw content inside a template. Go through the site and rebuild:
 
-- **The design**: pick the template closest to your brand, then set the fonts and colours once for the whole site.
+- **The design**: set the fonts, colours and buttons once for the whole site in **Site styles** (the paintbrush icon).
 - **Galleries and captions**: recreate them with gallery and image blocks.
 - **Forms, sliders, booking tools and anything else a plugin did**: replace them with Squarespace blocks or extensions, or let them go.
 - **Links inside your posts**: they still point to the old addresses. Update the ones that matter most; the redirects in step 5 catch the rest.
 - **Alt text**: check it on every image that came across.
 
-Some features need a little code. I usually add some to the Squarespace sites I build; clients call me for that part, and it never gets in the way of what they edit themselves. Code injection is available from the Core plan upwards, not on Basic.
+Some features need a little code. I usually add some to the Squarespace sites I build, and clients call me for that part. I keep it to small additions, nothing destructive: a Squarespace site loaded with custom code is no longer easy for its owner to edit. Code injection is available from the Core plan upwards, not on Basic.
 
-{{< screenshot id="wordpress-to-squarespace-04" alt="Squarespace Pages panel listing the imported pages and the new blog page" >}}
+{{< screenshot id="wordpress-to-squarespace-04" alt="Squarespace Pages panel with the imported pages and the new blog page in the Not linked section" >}}
 
 ## Step 5: keep your URLs, or redirect them with 301s
 
@@ -140,7 +140,7 @@ The last line is the rule [Squarespace's URL mappings guide](https://support.squ
 - Most lines cannot contain `?`, `&` or `#`, so addresses such as `/?p=123` cannot be redirected.
 - URL mappings cannot redirect image or file addresses, such as a PDF in /wp-content/uploads/. Upload important files again and update the links you control.
 - Match the capitalisation of your old addresses; Squarespace slugs are lowercase by default.
-- The panel holds about 400 KB, roughly 2,500 lines: plenty for a small business site.
+- The field holds about 400 KB, roughly 2,500 lines: plenty for a small business site.
 
 {{< screenshot id="wordpress-to-squarespace-05" alt="URL mappings panel in Squarespace's Developer tools, with 301 lines and the [name] rule at the bottom" >}}
 
@@ -161,13 +161,13 @@ Improve them rather than copy them blindly: one main keyword per page, written f
 
 ## Step 7: connect your domain and publish
 
-Choose a paid plan first: only paid sites can be public. Then remove any site-wide password, which would stop Google from indexing the site.
+Choose a paid plan first: only paid sites can be public. When you change the DNS records, open the **Site availability** panel and choose **Public**: every site starts as private, a site-wide password keeps Google out, and the sitemap only loads once the site is public.
 
 If your domain stays with its current registrar, connect it with DNS records:
 
 1. In the **Domains** panel, choose to use a domain you already own and type it in.
 2. Pick your registrar from the list, or **Other**.
-3. At your registrar, add the records Squarespace shows you (below).
+3. Where your domain's DNS is managed (usually your registrar, sometimes your old web host), add the records Squarespace shows you (below).
 4. Leave your MX records alone: they carry your email, not your website.
 
 ```
@@ -180,7 +180,7 @@ CNAME   www                           ext-cust.squarespace.com
 CNAME   (code shown by Squarespace)   verify.squarespace.com
 ```
 
-The connection usually takes 24 to 48 hours, sometimes up to 72. Keep the verification CNAME: without it, Squarespace unlinks the domain after 15 days. If Squarespace offers to connect through nameservers instead, every record you rely on, such as MX for email and TXT for verification, must exist in Squarespace's DNS settings before you switch.
+The connection usually takes 24 to 48 hours, sometimes up to 72. Keep the verification CNAME: without it, Squarespace unlinks the domain after 15 days. For GoDaddy, Namecheap and Network Solutions domains, Squarespace may suggest a nameserver connection instead. If your email or another service relies on custom records, choose the option to use DNS records in the connection window: Squarespace warns that a nameserver connection removes your CNAME records and can break email set up through DNS.
 
 Domains managed at OVH can be tricky: the only problem I have had there was a dot missing at the end of a record. My step-by-step guides for {{< a key="namecheap-dns-squarespace" >}}Namecheap{{< /a >}} and {{< a key="ovh-dns-squarespace" >}}OVH{{< /a >}} show where each value goes. Keep your WordPress hosting until the domain shows **Connected** in Squarespace and the redirects are tested.
 
@@ -188,7 +188,7 @@ Domains managed at OVH can be tricky: the only problem I have had there was a do
 
 ## Step 8: tell Google and watch Search Console
 
-If you keep the same domain, your Search Console property and its history carry on. If you need to verify the site again, Squarespace asks you to wait 48 hours after connecting a domain and to use a TXT record in your DNS.
+If you keep the same domain, your Search Console property and its history carry on. One catch: if the property was verified with an HTML file or a meta tag on WordPress, often added by an SEO plugin, that proof leaves with the old site, and Search Console checks it regularly. Verify again before you lose access: Squarespace asks you to wait 48 hours after connecting the domain and to use a TXT record in your DNS.
 
 1. Submit the new sitemap: open **Indexing** > **Sitemaps**, type sitemap.xml under **Add a new sitemap** and click **Submit**. A "Couldn't fetch" status can show for a day or two.
 2. Paste your most important new addresses into **URL Inspection** and request indexing.
@@ -196,7 +196,7 @@ If you keep the same domain, your Search Console property and its history carry 
 4. Every week for the first month, open **Indexing** > **Pages**. Old addresses under **Page with redirect** are expected. Any old address under **Not found (404)** is a redirect you missed.
 5. In **Performance**, compare clicks and positions with the weeks before the move, page by page.
 
-Expect some movement. [Google's guide to site moves](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes) warns that rankings can fluctuate during a move, and that it can take a few weeks or more before the new addresses replace the old ones in the results. It also advises keeping redirects for at least a year. On Squarespace they cost nothing, so I would keep them for good.
+Expect some movement. [Google's guide to site moves](https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes) warns that rankings can fluctuate during a move, and that it can take a few weeks or more before the new addresses replace the old ones in the results. It advises keeping redirects for at least a year, and for visitors' sake indefinitely if you can. On Squarespace they cost nothing, so there is no reason to remove them.
 
 {{< screenshot id="wordpress-to-squarespace-08" alt="Search Console Page indexing report, with old WordPress addresses listed under Not found (404)" >}}
 
@@ -206,11 +206,11 @@ Before you call the move finished, check every line:
 
 1. A spreadsheet lists every old URL with its title and description.
 2. The backup and the Media Library are saved away from the server.
-3. The .xml file is imported and the pages are checked against the old site.
+3. The .xml file is imported, the pages are checked against the old site and moved out of Not linked.
 4. Design, galleries, forms and links inside posts are rebuilt.
 5. Every old URL keeps its slug, is caught by the [name] rule, or has its own line above that rule in URL mappings.
 6. SEO titles and descriptions are pasted back, and improved.
-7. The domain shows Connected, and your email still works.
+7. The site is Public, the domain shows Connected, and your email still works.
 8. The sitemap is submitted, the old URLs are tested, and the Pages report gets a weekly look for a month.
 
 You do not need me for a ten-page brochure site with a small blog: this checklist is enough. Get help if the site has hundreds of URLs, a WooCommerce shop (products are not on the import list), several languages, or a hack nobody has cleaned up. In those cases, the redirect map and the clean-up are where rankings are kept or lost.

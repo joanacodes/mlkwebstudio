@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:31:00+02:00
 category: "social-media"
 article_type: "guide"
 keywords: ["publier sur Google My Business", "post Google My Business", "publier sur sa fiche Google", "offre Google My Business", "événement Google My Business"]
-summary: "Publier sur Google My Business, c’est ajouter à votre fiche des actualités, des offres et des événements, visibles dans la recherche Google et dans Maps. Publiez chaque semaine ou tous les quinze jours, avec votre propre photo, un bouton vers la bonne page et aucun numéro de téléphone dans le texte, car Google peut retirer les posts qui en contiennent un. Les posts aident ceux qui voient déjà votre fiche à vous choisir, mais Google ne les mentionne pas quand il explique son classement local : ne comptez pas sur eux pour vous faire monter sur la carte."
+summary: "Publier sur Google My Business, c’est ajouter à votre fiche des actualités, des offres et des événements, visibles dans la recherche Google et dans Maps. Publiez chaque semaine ou tous les quinze jours, avec une photo à vous, un bouton vers la bonne page et aucun numéro de téléphone dans le texte. Les posts aident ceux qui voient votre fiche à vous choisir, mais Google ne les cite pas dans son explication du classement local : ne comptez pas sur eux pour monter sur la carte."
 cover: "google-business-profile-posts"
 cover_alt: "Grille de vignettes de posts avec un cœur et une icône de lecture, à côté des mots Business Profile posts"
 related: ["google-business-profile-setup", "local-seo-guide", "social-media-small-business", "social-media-scheduling-tools", "pilotech-seo-case-study"]

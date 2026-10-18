@@ -37,9 +37,9 @@ Vous trouverez ci-dessous comment choisir, une courte section par réseau avec c
 
 Pinterest et YouTube Shorts sont probablement vos meilleurs alliés en 2026. Une fois qu’un contenu y est publié, les résultats durent : on le retrouve par la recherche des semaines, voire des mois plus tard. Ces deux plateformes travaillent pour vous.
 
-Instagram, TikTok et Facebook fonctionnent à l’inverse. Pour gagner en visibilité, il faut trouver sans cesse de nouvelles façons d’attirer l’attention, et tenir longtemps. Ces réseaux transforment les chefs d’entreprise en employés non rémunérés qui mendient un peu de visibilité. Même la fiche Google est plus sympathique : ceux qui la voient cherchent déjà ce que vous faites.
+Instagram, TikTok et Facebook fonctionnent à l’inverse. Pour gagner en visibilité, il faut trouver sans cesse de nouvelles façons d’attirer l’attention, et tenir longtemps. Ces réseaux transforment les chefs d’entreprise en employés non rémunérés qui supplient qu’on les remarque. Même la fiche Google est plus sympathique : ceux qui la voient cherchent déjà ce que vous faites.
 
-J’ai fait ce travail pour une entreprise cliente. En interagissant avec d’autres comptes et en publiant régulièrement, nous avons gagné 60 nouveaux abonnés pertinents en un mois. Cela a fonctionné, mais je préfère les services dont les résultats sont plus concrets, et un abonné n’est pas encore un client.
+J’ai fait ce travail pour une entreprise cliente : en interagissant avec d’autres comptes sur la plateforme et en publiant du contenu, je lui ai apporté 60 nouveaux abonnés pertinents en un mois. Cela a fonctionné, mais je préfère les services dont les résultats sont plus concrets, et un abonné n’est pas encore un client.
 
 Mon conseil dépend donc de ce que vous avez :
 
@@ -125,10 +125,10 @@ Instagram a dépassé les 3 milliards d’utilisateurs mensuels en septembre 202
 
 **Ce qui a changé :**
 
-- **10 juillet 2025 :** les photos et vidéos publiques des comptes professionnels peuvent apparaître dans les moteurs de recherche comme Google, sauf si vous désactivez cette option.
-- **Décembre 2025 :** les hashtags sont limités à cinq par publication et par Reel.
-- **10 décembre 2025 :** [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) permet de voir et de modifier les sujets qui guident les recommandations de Reels, d’abord aux États-Unis ; l’outil a depuis gagné Explorer et le fil principal.
-- **Avril 2026 :** un compte dont les publications des 30 derniers jours sont surtout des republications est traité comme un agrégateur et perd sa place dans les recommandations, jusqu’à ce que la plupart de ses publications redeviennent originales.
+- 10 juillet 2025 : les photos et vidéos publiques des comptes professionnels peuvent apparaître dans les moteurs de recherche comme Google, sauf si vous désactivez cette option.
+- Décembre 2025 : les hashtags sont limités à cinq par publication et par Reel.
+- 10 décembre 2025 : [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) permet de voir et de modifier les sujets qui guident les recommandations de Reels, d’abord aux États-Unis ; l’outil a depuis gagné Explorer et le fil principal.
+- Avril 2026 : un compte dont les publications des 30 derniers jours sont surtout des republications est traité comme un agrégateur et perd sa place dans les recommandations, jusqu’à ce que la plupart de ses publications redeviennent originales.
 
 La direction est claire : Instagram favorise les contenus originaux que l’on regarde jusqu’au bout et que l’on envoie à ses proches. Republier le travail des autres et empiler les hashtags ne mène plus bien loin. Le détail, mise à jour par mise à jour, est dans {{< a key="instagram-algorithm-2026" >}}algorithme Instagram 2026{{< /a >}}.
 
@@ -140,10 +140,10 @@ Sur TikTok, les gens ne sont pas vraiment des acheteurs : ils viennent se diver
 
 **Ce qui a changé :**
 
-- **31 mars 2025 :** TikTok Shop a ouvert en France, en Allemagne et en Italie : on peut acheter sans quitter l’application.
-- **2 mai 2025 :** la Commission irlandaise de protection des données a infligé à TikTok une amende de 530 millions d’euros pour des transferts de données d’utilisateurs de l’Espace économique européen vers la Chine.
-- **22 janvier 2026 :** l’accord créant une coentreprise américaine pour TikTok a été finalisé. Il ne concerne que l’application américaine ; rien ne change en France.
-- **Mineurs :** en France, la loi interdisant les réseaux sociaux aux moins de 15 ans a été adoptée définitivement en juillet 2026, mais le Conseil constitutionnel a censuré cette interdiction le 14 août 2026, et le gouvernement a annoncé une réécriture du texte. En Australie, l’interdiction aux moins de 16 ans s’applique depuis le 10 décembre 2025.
+- 31 mars 2025 : TikTok Shop a ouvert en France, en Allemagne et en Italie : on peut acheter sans quitter l’application.
+- 2 mai 2025 : la Commission irlandaise de protection des données a infligé à TikTok une amende de 530 millions d’euros pour des transferts de données d’utilisateurs de l’Espace économique européen vers la Chine.
+- 22 janvier 2026 : l’accord créant une coentreprise américaine pour TikTok a été finalisé. Il ne concerne que l’application américaine ; rien ne change en France.
+- Mineurs : en France, la loi interdisant les réseaux sociaux aux moins de 15 ans a été adoptée définitivement en juillet 2026, mais le Conseil constitutionnel a censuré cette interdiction le 14 août 2026, et le gouvernement a annoncé une réécriture du texte. En Australie, l’interdiction aux moins de 16 ans s’applique depuis le 10 décembre 2025.
 
 Plus de détails dans {{< a key="tiktok-for-business-2026" >}}TikTok pour les entreprises{{< /a >}}.
 
@@ -187,7 +187,7 @@ Voici les changements de ce guide dans l’ordre chronologique, avec ce que chac
 | 2 mai 2025 | TikTok | Amende RGPD de 530 millions d’euros en Irlande | Rien de votre côté |
 | 10 juillet 2025 | Instagram | Les publications publiques des comptes professionnels peuvent apparaître dans les moteurs de recherche | Écrire des légendes avec les mots que l’on recherche |
 | 3 novembre 2025 | LinkedIn | Les données des membres entraînent l’IA générative, sauf refus | Vérifier le réglage dans Confidentialité des données |
-| 3 novembre 2025 | Google | Fin de l’API Questions et réponses, remplacées par une fonction « Ask » propulsée par l’IA | Tenir à jour votre fiche, vos avis et votre site |
+| 3 novembre 2025 | Google | Fin de l’API Questions et réponses ; les questions-réponses cèdent peu à peu la place à une fonction « Ask » propulsée par l’IA | Tenir à jour votre fiche, vos avis et votre site |
 | Décembre 2025 | Instagram | Cinq hashtags au maximum par publication | En choisir cinq, précis |
 | 10 décembre 2025 | Instagram | Your Algorithm pour les Reels, d’abord aux États-Unis | Rester sur des sujets clairs et constants |
 | 22 janvier 2026 | TikTok | Coentreprise américaine finalisée (application américaine seulement) | Rien ne change en France |

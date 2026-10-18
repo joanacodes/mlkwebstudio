@@ -20,7 +20,7 @@ faq:
   - q: "Can I leave Squarespace later and keep my content?"
     a: "Partly. Squarespace can export some content, such as pages and blog posts, as a WordPress-format file, but not the design, products, events or custom CSS. Expect to rebuild the layout on the new platform."
   - q: "Will my email keep working after I connect my domain to Squarespace?"
-    a: "Yes, as long as you leave the MX records and the email TXT records (SPF, DKIM, DMARC) alone. Squarespace only needs four A records on the root of the domain and two CNAMEs."
+    a: "Yes, if you connect it with DNS records and leave the MX, SPF, DKIM and DMARC records alone: Squarespace only needs four A records on the root of the domain and two CNAMEs. Pointing the nameservers to Squarespace instead can break custom email records."
   - q: "Can someone else work on my Squarespace site without my password?"
     a: "Yes. Invite them as a contributor from the Permissions & Ownership panel: they log in with their own account, and you can remove their access at any time."
   - q: "Can I build a bilingual website with Squarespace?"
@@ -65,7 +65,7 @@ Before you sign up, gather:
 
 On squarespace.com, create an account and start the free trial. You can start from a template in the library, or answer a few questions and let Blueprint AI, the AI site builder Squarespace introduced in September 2024, draft a first version. Either way, you end up in the same editor.
 
-Choose the template for its layout, not its photos or colours, which you will replace in step 3. It matters because **a version 7.1 site cannot switch templates later**: all 7.1 templates belong to one family, with the same features and style options. Look for a homepage close to the one you planned.
+Choose the template for its layout, not its photos or colours, which you will replace anyway. It matters because **a version 7.1 site cannot switch templates later**: all 7.1 templates belong to one family, with the same features and style options. Look for a homepage close to the one you planned.
 
 If Blueprint AI writes your first texts, read every sentence: a generic paragraph gives visitors no reason to choose you over the next business in the results.
 
@@ -158,7 +158,7 @@ You can also download all submissions as a .csv file from the form block (**Expo
 
 ## Step 8: fill in the SEO basics before launch
 
-A closed platform leaves a specialist less room for technical work than a custom-coded site, but it does not stop a site from ranking. The first site I built for Pilotech was on Squarespace, and it ranks first or second on Google. Get the SEO right, from the keywords to the metadata, and you give your site every chance.
+Because Squarespace is closed, custom-coded, WordPress or Webflow sites may have an edge in search. It does not stop a Squarespace site from ranking, though: the first site I built for Pilotech was on Squarespace, and it ranks first or second on Google. Get the SEO right, from the keywords to the metadata, and you give your site every chance.
 
 Before you publish, set at least:
 
@@ -174,7 +174,7 @@ Once a client approves the site, I write the metadata and prepare a few SEO arti
 
 ## Step 9: connect your domain name
 
-If you do not have a domain yet, you can buy one from the **Domains** panel. If you already own one, keep it where it is and connect it with DNS records. I have connected domains registered at Namecheap, Spaceship, Infomaniak, Hostinger, OVH and the old Google Domains (now run by Squarespace), and the method is the same everywhere:
+If you do not have a domain yet, you can buy one from the **Domains** panel, or wait until you subscribe: an annual plan includes the first year of a standard domain such as a .com, which then renews at the normal price. If you already own one, keep it where it is and connect it with DNS records. I have connected domains registered at Namecheap, Spaceship, Infomaniak, Hostinger and OVH, and the method is the same everywhere:
 
 1. In the **Domains** panel, choose to use a domain you already own and type the full domain.
 2. Pick your registrar from the list, or **Other** if it is not there.
@@ -197,14 +197,14 @@ These are the values in [Squarespace's help on third-party domains](https://supp
 Each registrar has its quirks:
 
 - Namecheap: Squarespace may suggest changing the nameservers; choose the DNS records option instead. My guide to {{< a key="namecheap-dns-squarespace" >}}connecting a Namecheap domain to Squarespace{{< /a >}} shows each field.
-- OVH: the CNAME targets need a final dot, as in `ext-cust.squarespace.com.`, or OVH appends your own domain. That dot was the only real issue I have had with OVH, and my tutorial to {{< a key="ovh-dns-squarespace" >}}connect an OVH domain to Squarespace{{< /a >}} covers it.
+- OVH: the CNAME targets need a final dot, as in `ext-cust.squarespace.com.`, or OVH appends your own domain. That final dot is the only real trap I have hit when connecting OVH domains to Squarespace, and my tutorial to {{< a key="ovh-dns-squarespace" >}}connect an OVH domain to Squarespace{{< /a >}} covers it.
 - Spaceship: the records go in its **Advanced DNS** page, as my {{< a key="spaceship-domain-dns-tutorial" >}}Spaceship DNS tutorial{{< /a >}} shows.
 
 {{< screenshot id="squarespace-tutorial-08" alt="Domains panel showing the DNS records Squarespace expects, and the domain with the green Connected label" >}}
 
 ## Step 10: choose a plan and make the site public
 
-At the time of writing (October 2026), UK pricing guides list the plans below, per month with annual billing and VAT included; billed monthly, they give about £16 to £89 a month. In July 2026, Squarespace raised its US prices, and I found no confirmation that the rise has reached pounds, so check the [official pricing page](https://www.squarespace.com/pricing) before you pay.
+At the time of writing (October 2026), UK pricing guides list the plans below, per month with annual billing; billed monthly, they give £16 to £89 a month. Those guides disagree on whether VAT is included, and Squarespace raised its US prices in July 2026 with no change in pounds that I could confirm, so check the [official pricing page](https://www.squarespace.com/pricing) and the total at checkout before you pay.
 
 | Plan | UK, billed annually | US, billed annually (since July 2026) | Code injection |
 |---|---|---|---|
@@ -213,7 +213,7 @@ At the time of writing (October 2026), UK pricing guides list the plans below, p
 | Plus | £29 a month | $49 a month | Yes |
 | Advanced | £79 a month | $99 a month | Yes |
 
-Basic covers a brochure site. Choose Core if you want custom code, such as an analytics or chat script, since code injection is not available on Basic. Plus and Advanced are only worth comparing if you plan to sell online.
+Basic covers a brochure site. Choose Core if you want custom code, such as the script for Microsoft Clarity or a chat widget, since code injection is not available on Basic. Plus and Advanced are only worth comparing if you plan to sell online.
 
 To go live:
 
@@ -235,6 +235,6 @@ In the first week:
 4. Verify the site in Google Search Console and submit the sitemap. Remove any password first, and if your domain is registered elsewhere, wait 48 hours after connecting it.
 5. Set a reminder to review prices, photos and opening hours every few months.
 
-You do not need me for any of this: the point of Squarespace is that you run it yourself, and custom code is the only part my Squarespace clients leave to me. For businesses with the budget, I build a custom site instead and make the changes every month, or whenever they need one; here is {{< a page="/services/websites" >}}how I build websites{{< /a >}}.
+You do not need me for any of this: the point of Squarespace is that you run it yourself, and apart from custom code, my Squarespace clients do everything themselves. For businesses with the budget, I build a custom site instead and make the changes every month, or whenever they need one; here is {{< a page="/services/websites" >}}how I build websites{{< /a >}}.
 
-{{< callout type="tip" >}}If you are building a site for a friend or a relative, remember that a free website is rarely a one-off gift: you are signing up for maintenance for life, or for an endless list of free edits. Squarespace is the exception, as long as you keep custom code to a minimum: they can make the changes themselves.{{< /callout >}}
+{{< callout type="tip" >}}If you are building a site for a friend or a relative, remember that a free website is rarely a one-off gift: you are giving maintenance for life, and possibly endless free edits, unless you agree from the start that changes will cost something. Squarespace is the exception, as long as you keep custom code to a minimum: they can make the changes themselves.{{< /callout >}}

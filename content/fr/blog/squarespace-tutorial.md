@@ -20,14 +20,14 @@ faq:
   - q: "Peut-on quitter Squarespace plus tard en gardant son contenu ?"
     a: "En partie. Squarespace peut exporter une partie du contenu, comme les pages et les articles de blog, dans un fichier au format WordPress, mais pas le design, ni les produits, les événements ou le CSS personnalisé. Prévoyez de refaire la mise en page sur la nouvelle plateforme."
   - q: "Mes emails vont-ils continuer à fonctionner une fois le domaine relié à Squarespace ?"
-    a: "Oui, tant que vous ne touchez ni aux enregistrements MX ni aux TXT liés à l’email (SPF, DKIM, DMARC). Squarespace n’a besoin que de quatre enregistrements A sur la racine du domaine et de deux CNAME."
+    a: "Oui, si vous reliez le domaine par des enregistrements DNS sans toucher aux enregistrements MX, SPF, DKIM et DMARC : Squarespace n’a besoin que de quatre enregistrements A sur la racine du domaine et de deux CNAME. Confier les serveurs de noms à Squarespace peut en revanche casser les enregistrements de votre messagerie."
   - q: "Peut-on faire travailler quelqu’un sur son site Squarespace sans lui donner son mot de passe ?"
     a: "Oui. Invitez la personne comme contributeur depuis le panneau des autorisations et de la propriété (Permissions & Ownership dans l’interface en anglais) : elle se connecte avec son propre compte, et vous pouvez lui retirer l’accès à tout moment."
   - q: "Peut-on faire un site bilingue avec Squarespace ?"
     a: "Pas avec un outil intégré : Squarespace n’a pas de fonction de traduction. Il faut créer les pages de chaque langue à la main ou passer par un service comme Weglot."
 ---
 
-Ce tuto Squarespace vous emmène d’un compte vide à un site vitrine en ligne en dix étapes, dans l’ordre que je suis pour mes clients : le contenu et l’identité visuelle d’abord, puis la construction, les bases du SEO, le nom de domaine et la mise en ligne. Les menus cités sont ceux de la version 7.1 à la date de rédaction (octobre 2026). L’interface existe en français (le forfait Core s’y appelle Essentiel) ; pour les boutons, je donne aussi le libellé anglais.
+Ce tuto Squarespace vous emmène d’un compte vide à un site vitrine en ligne en dix étapes, dans l’ordre que je suis pour mes clients : le contenu et l’identité visuelle d’abord, puis la construction, les bases du SEO, le nom de domaine et la mise en ligne. Les menus cités sont ceux de la version 7.1 à la date de rédaction (octobre 2026). L’interface existe en français (le forfait Core s’y appelle Essentiel) ; pour les menus et les boutons, j’indique entre parenthèses le libellé anglais.
 
 Je fais passer sur Squarespace les clients qui modifient eux-mêmes leur site. Les clients WordPress venus me voir voulaient tous changer, pour les mêmes raisons : la courbe d’apprentissage, les extensions, et une structure qui s’effondre alors qu’ils voulaient seulement changer une lettre. Sur Squarespace, ils changent une photo ou un prix quand ils le veulent. Si vous hésitez encore, mon comparatif {{< a key="squarespace-vs-wordpress" >}}Squarespace ou WordPress{{< /a >}} dit à qui convient chacun.
 
@@ -50,7 +50,7 @@ Les étapes 2 à 9 se font toutes pendant l’essai gratuit de 14 jours : vous 
 
 ## Étape 1 : préparer le contenu et l’identité visuelle
 
-Un site construit autour des textes d’exemple d’un modèle finit par ressembler au modèle, pas à votre entreprise. Faites cette étape avant de créer le compte : l’essai ne tournera pas pendant que vous écrivez.
+Un site construit autour des textes d’exemple d’un modèle finit par ressembler au modèle, pas à votre entreprise. Faites cette étape avant de créer le compte, pour ne pas entamer vos 14 jours d’essai pendant que vous rédigez.
 
 Quand je crée un site, l’identité visuelle passe en premier. Je parcours beaucoup de bibliothèques de design, je crée l’identité, je la montre au client et je l’ajuste. Ensuite seulement je cherche la bonne mise en page, et une fois les deux en main, je passe à la recherche de mots-clés et à la rédaction.
 
@@ -63,9 +63,9 @@ Avant de vous inscrire, rassemblez :
 
 ## Étape 2 : lancer l’essai gratuit et choisir un modèle
 
-Sur squarespace.com, créez un compte et lancez l’essai gratuit. Vous pouvez partir d’un modèle de la bibliothèque, ou répondre à quelques questions et laisser Blueprint AI, l’outil de création par IA lancé par Squarespace en septembre 2024, préparer une première version du site. Dans les deux cas, vous arrivez dans le même éditeur.
+Sur squarespace.com, créez un compte et lancez l’essai gratuit. Vous pouvez partir d’un modèle de la bibliothèque, ou répondre à quelques questions et laisser Blueprint AI, l’outil de création par IA lancé par Squarespace en septembre 2024, préparer une première version. Dans les deux cas, vous arrivez dans le même éditeur.
 
-Choisissez le modèle pour sa mise en page, pas pour ses photos ni ses couleurs, que vous remplacerez à l’étape 3. C’est important, car **un site en version 7.1 ne peut plus changer de modèle ensuite** : tous les modèles 7.1 forment une seule famille, avec les mêmes fonctionnalités et les mêmes options de style. Cherchez une page d’accueil proche de celle que vous avez prévue.
+Choisissez le modèle pour sa mise en page, pas pour ses photos ni ses couleurs, que vous remplacerez de toute façon. C’est important, car **un site en version 7.1 ne peut plus changer de modèle ensuite** : tous les modèles 7.1 forment une seule famille, avec les mêmes fonctionnalités et les mêmes options de style. Cherchez une page d’accueil proche de celle que vous avez prévue.
 
 Si Blueprint AI rédige vos premiers textes, relisez chaque phrase : un texte générique ne donne aucune raison de vous choisir plutôt qu’un concurrent.
 
@@ -73,7 +73,7 @@ Si Blueprint AI rédige vos premiers textes, relisez chaque phrase : un texte g
 
 ## Étape 3 : appliquer polices, couleurs et boutons dans les styles du site
 
-Dans l’éditeur, cliquez sur l’icône du pinceau pour ouvrir les styles du site (**Site styles** dans l’interface en anglais). Définissez votre identité ici une fois pour toutes plutôt que bloc par bloc : chaque modification s’applique à tout le site, ce qui garde les pages cohérentes.
+Dans l’éditeur, cliquez sur l’icône du pinceau pour ouvrir les styles du site (**Site styles**). Réglez votre identité ici une fois pour toutes, pas bloc par bloc : chaque modification s’applique à tout le site et garde les pages cohérentes.
 
 1. Essayez d’abord les thèmes, des combinaisons de styles prêtes à l’emploi, au cas où l’un d’eux serait proche de votre identité.
 2. Choisissez la police des titres et celle des paragraphes, ou un pack de polices qui s’en approche.
@@ -81,7 +81,7 @@ Dans l’éditeur, cliquez sur l’icône du pinceau pour ouvrir les styles du s
 4. Définissez un seul style de bouton, pour que chaque appel à l’action ait la même apparence.
 5. Vérifiez le style des formulaires, que votre formulaire de contact reprendra.
 
-Si un essai tourne mal, vous pouvez réinitialiser les réglages de style sans perdre votre contenu.
+Si une modification tourne mal, vous pouvez réinitialiser les réglages de style sans perdre votre contenu.
 
 {{< screenshot id="squarespace-tutorial-02" alt="Panneau des styles du site ouvert depuis l’icône du pinceau, sur les réglages de polices" >}}
 
@@ -104,7 +104,7 @@ Ensuite, dans le panneau **Pages** :
 
 1. Cliquez sur l’icône **+** à côté de la navigation principale et ajoutez une page, à partir d’une mise en page ou d’une page vierge.
 2. Faites glisser les pages dans l’ordre voulu pour le menu.
-3. Placez les pages qui doivent rester hors du menu, comme une page de remerciement, dans la section des pages non liées (**Not linked** en anglais). Elles restent publiques et peuvent toujours être indexées.
+3. Placez les pages qui doivent rester hors du menu, comme une page de remerciement, dans la section des pages non liées (**Not linked**). Elles restent publiques et peuvent toujours être indexées.
 4. Définissez votre page d’accueil depuis les paramètres de la page concernée.
 5. Ajoutez les mentions légales et la politique de confidentialité en liens texte dans le pied de page : la version 7.1 n’a pas de menu de pied de page séparé.
 
@@ -115,14 +115,14 @@ Ensuite, dans le panneau **Pages** :
 L’éditeur de Squarespace, Fluid Engine, est arrivé en juillet 2022. Il fonctionne sur deux niveaux : des sections empilées de haut en bas, et des blocs placés sur une grille à l’intérieur de chaque section.
 
 1. Ouvrez une page et cliquez sur le bouton de modification (**Edit**).
-2. Cliquez sur l’ajout de section (**Add section**) et choisissez une section toute faite ou vierge.
-3. Dans la section, cliquez sur l’ajout de bloc (**Add block**) et choisissez ce qu’il vous faut : texte, image, bouton, formulaire, carte.
+2. Cliquez sur le bouton d’ajout de section (**Add section**) et choisissez une section toute faite ou vierge.
+3. Dans la section, cliquez sur le bouton d’ajout de bloc (**Add block**) et choisissez ce qu’il vous faut : texte, image, bouton, formulaire, carte.
 4. Faites glisser le bloc à sa place sur la grille et redimensionnez-le par ses bords.
 5. Enregistrez avant de quitter l’éditeur.
 
-Ouvrez chaque page par un titre qui dit ce que vous faites et où, avec un bouton de contact près du haut. Une fois une page de service réussie, dupliquez-la pour le service suivant : la structure reste cohérente et vous ne réécrivez que le contenu.
+Ouvrez chaque page par un titre qui dit ce que vous faites et où, avec un bouton de contact en haut de page. Une fois une page de service réussie, dupliquez-la pour le service suivant : la structure reste cohérente et vous ne réécrivez que le contenu.
 
-Squarespace est fermé : vous n’avez pas accès au code source. Ce que les blocs ne savent pas faire passe par l’injection de code, à partir du forfait Essentiel (Core en anglais). J’ajoute en général un peu de code aux sites Squarespace que je crée, et mes clients m’appellent pour cette partie ; je m’en tiens à des ajouts qui ne gênent jamais ce qu’ils modifient eux-mêmes. Mon tutoriel sur l’{{< a key="squarespace-code-injection" >}}injection de code Squarespace{{< /a >}} montre comment le faire sans risque.
+Squarespace est fermé : vous n’avez pas accès au code source. Ce que les blocs ne savent pas faire passe par l’injection de code, à partir du forfait Essentiel. J’ajoute en général un peu de code aux sites Squarespace que je crée, et mes clients m’appellent pour cette partie ; je m’en tiens à des ajouts qui ne gênent jamais ce qu’ils modifient eux-mêmes. Mon tutoriel sur l’{{< a key="squarespace-code-injection" >}}injection de code Squarespace{{< /a >}} montre comment le faire sans risque.
 
 {{< screenshot id="squarespace-tutorial-04" alt="Une page en mode édition avec les boutons d’ajout de section et de bloc visibles sur la grille de Fluid Engine" >}}
 
@@ -135,7 +135,7 @@ Fluid Engine garde deux mises en page pour chaque section, l’une pour ordinate
 - Un bloc peut être masqué sur mobile seulement, ou sur ordinateur seulement.
 - Les articles de blog et les autres éléments de collection utilisent l’éditeur classique, où le mobile suit l’ordinateur.
 
-Vérifiez que le téléphone et le bouton de contact apparaissent tôt, que les textes se lisent, que les photos sont bien cadrées et que les boutons se touchent facilement, puis refaites le tour sur un vrai téléphone.
+Vérifiez que le téléphone et le bouton de contact apparaissent tôt, que les textes se lisent, que les photos sont bien cadrées et que les boutons sont faciles à toucher, puis refaites le tour sur un vrai téléphone.
 
 {{< screenshot id="squarespace-tutorial-05" alt="Éditeur Squarespace en vue mobile, avec l’icône de vue mobile mise en évidence en haut à droite" >}}
 
@@ -143,22 +143,22 @@ Vérifiez que le téléphone et le bouton de contact apparaissent tôt, que les 
 
 Chez Pilotech, les demandes arrivent par deux portes : les formulaires et le téléphone. Offrez les deux à vos visiteurs, et assurez-vous que le formulaire vous parvient bien.
 
-1. Sur la page de contact, cliquez sur l’ajout de bloc (**Add block**) et choisissez le formulaire (**Form**).
+1. Sur la page de contact, cliquez sur le bouton d’ajout de bloc (**Add block**) et choisissez le bloc formulaire (**Form**).
 2. Limitez les champs : nom, email, téléphone, message, et le service recherché.
-3. Choisissez où vont les envois : par email, dans une feuille Google Drive créée par Squarespace, ou dans Mailchimp. Vous pouvez en combiner plusieurs, par sécurité.
+3. Choisissez où vont les envois : par email, dans une feuille de calcul Google Drive créée par Squarespace, ou dans Mailchimp. Vous pouvez en combiner plusieurs, par sécurité.
 4. Vérifiez l’adresse de notification : par défaut, les envois partent vers l’email du compte de la personne qui a ajouté le formulaire. Changez-la si les demandes doivent arriver ailleurs.
 5. Rédigez le message affiché après l’envoi, en précisant quand vous répondrez.
 6. Ajoutez un lien vers votre politique de confidentialité à côté du formulaire.
 
 {{< callout type="warning" >}}L’envoi par email est désactivé sur les sites en période d’essai. Pour tester le formulaire avant de payer, connectez le stockage Google Drive, puis refaites un test par email juste après l’abonnement. Squarespace détaille les options dans sa [page d’aide sur le stockage des formulaires](https://support.squarespace.com/hc/en-us/articles/205814638-Set-up-form-and-newsletter-storage) (en anglais).{{< /callout >}}
 
-Vous pouvez aussi télécharger tous les envois dans un fichier .csv depuis le bloc formulaire (**Export Submissions** en anglais) : une bonne roue de secours.
+Vous pouvez aussi télécharger tous les envois dans un fichier .csv depuis le bloc formulaire (**Export Submissions**) : une bonne roue de secours.
 
 {{< screenshot id="squarespace-tutorial-06" alt="Réglages du bloc formulaire montrant les options de stockage : email, Google Drive et Mailchimp" >}}
 
 ## Étape 8 : poser les bases du SEO avant la mise en ligne
 
-Une plateforme fermée laisse moins de marge technique à un spécialiste qu’un site codé sur mesure, mais elle n’empêche pas un site de se classer. Le premier site que j’ai créé pour Pilotech était sur Squarespace, et il se classe premier ou deuxième sur Google. Faites bien votre SEO, des mots-clés aux métadonnées, et vous mettez toutes les chances de votre côté.
+Comme Squarespace est fermé, un site codé sur mesure, sous WordPress ou sous Webflow peut avoir un avantage dans les résultats de recherche. Cela n’empêche pas un site Squarespace de se classer : le premier site que j’ai créé pour Pilotech était sur Squarespace, et il se classe premier ou deuxième sur Google. Faites bien votre SEO, des mots-clés aux métadonnées, et vous mettez toutes les chances de votre côté.
 
 Avant de publier, réglez au minimum :
 
@@ -174,7 +174,7 @@ Une fois le site validé par le client, je rédige les métadonnées et je prép
 
 ## Étape 9 : relier votre nom de domaine
 
-Si vous n’avez pas encore de domaine, vous pouvez en acheter un depuis le panneau des domaines (**Domains** en anglais). Si vous en avez déjà un, laissez-le où il est et reliez-le avec des enregistrements DNS. J’ai relié des domaines enregistrés chez OVH, Namecheap, Spaceship, Infomaniak, Hostinger et l’ancien Google Domains (désormais géré par Squarespace), et la méthode est partout la même :
+Si vous n’avez pas encore de domaine, vous pouvez en acheter un depuis le panneau des domaines (**Domains**), ou attendre l’abonnement : un forfait annuel inclut la première année d’un domaine standard comme un .com, qui se renouvelle ensuite au tarif normal. Si vous en avez déjà un, laissez-le où il est et reliez-le avec des enregistrements DNS. J’ai relié des domaines enregistrés chez OVH, Namecheap, Spaceship, Infomaniak et Hostinger, et la méthode est partout la même :
 
 1. Dans le panneau des domaines, choisissez d’utiliser un domaine que vous possédez déjà et saisissez le domaine complet.
 2. Sélectionnez votre registrar dans la liste, ou **Other** (autre) s’il n’y figure pas.
@@ -192,11 +192,11 @@ CNAME   www                           ext-cust.squarespace.com
 CNAME   (code fourni par Squarespace) verify.squarespace.com
 ```
 
-Ce sont les valeurs de [l’aide de Squarespace sur les domaines tiers](https://support.squarespace.com/hc/en-us/articles/205812378-Connect-a-third-party-domain-to-your-Squarespace-site) (en anglais) à la date de rédaction ; en cas de différence, ce sont les réglages DNS de votre propre site qui font foi. Gardez le CNAME de vérification : sans lui, Squarespace dissocie le domaine au bout de 15 jours.
+Ce sont les valeurs de [l’aide de Squarespace sur les domaines tiers](https://support.squarespace.com/hc/en-us/articles/205812378-Connect-a-third-party-domain-to-your-Squarespace-site) (en anglais) à la date de rédaction ; en cas de différence, suivez les réglages DNS de votre site. Gardez le CNAME de vérification : sans lui, Squarespace dissocie le domaine au bout de 15 jours.
 
 Chaque registrar a ses particularités :
 
-- OVH : les cibles des CNAME doivent se terminer par un point, comme `ext-cust.squarespace.com.`, sinon OVH y ajoute votre propre domaine. Ce point final est le seul vrai problème que j’ai rencontré avec OVH, et mon tutoriel sur la {{< a key="ovh-dns-squarespace" >}}zone DNS OVH{{< /a >}} le traite en détail.
+- OVH : les cibles des CNAME doivent se terminer par un point, comme `ext-cust.squarespace.com.`, sinon OVH y ajoute votre propre domaine. Ce point final est le seul vrai piège que j’ai rencontré en reliant des domaines OVH à Squarespace, et mon tutoriel sur la {{< a key="ovh-dns-squarespace" >}}zone DNS OVH{{< /a >}} le traite en détail.
 - Namecheap : Squarespace peut proposer de changer les serveurs de noms ; choisissez plutôt l’option des enregistrements DNS. Mon guide pour {{< a key="namecheap-dns-squarespace" >}}configurer les DNS Namecheap{{< /a >}} montre chaque champ.
 - Spaceship : les enregistrements se placent sur sa page **Advanced DNS**, comme le montre mon tutoriel pour {{< a key="spaceship-domain-dns-tutorial" >}}acheter un nom de domaine sur Spaceship{{< /a >}}.
 
@@ -204,7 +204,7 @@ Chaque registrar a ses particularités :
 
 ## Étape 10 : choisir un forfait et rendre le site public
 
-À la date de rédaction (octobre 2026), les guides tarifaires publiés en 2026 indiquent les prix ci-dessous, par mois en facturation annuelle ; en facturation mensuelle, comptez environ 17 à 79 € par mois selon le forfait. En juillet 2026, Squarespace a augmenté ses prix aux États-Unis, et je n’ai pas trouvé de confirmation que la hausse touche l’euro : vérifiez la [grille officielle](https://www.squarespace.com/pricing) avant de payer.
+À la date de rédaction (octobre 2026), les guides tarifaires de 2026 indiquent les prix ci-dessous, par mois en facturation annuelle ; en facturation mensuelle, comptez environ 17 à 79 € par mois selon le forfait. En juillet 2026, Squarespace a augmenté ses prix aux États-Unis, et je n’ai pas trouvé de confirmation que la hausse touche l’euro : vérifiez la [grille officielle](https://www.squarespace.com/pricing), puis le total affiché au moment de payer.
 
 | Forfait | Par mois, en facturation annuelle | Injection de code |
 |---|---|---|
@@ -213,12 +213,12 @@ Chaque registrar a ses particularités :
 | Plus | 32 € | Oui |
 | Advanced | 69 € | Oui |
 
-Basic suffit pour un site vitrine. Prenez Essentiel si vous voulez du code personnalisé, comme un script de statistiques ou de chat, car l’injection de code n’est pas disponible avec Basic. Plus et Advanced ne méritent la comparaison que si vous comptez vendre en ligne.
+Basic suffit pour un site vitrine. Prenez Essentiel si vous voulez du code personnalisé, comme le script de Microsoft Clarity ou d’un module de chat, car l’injection de code n’est pas disponible avec Basic. Plus et Advanced ne méritent la comparaison que si vous comptez vendre en ligne.
 
 Pour mettre en ligne :
 
 1. Choisissez votre forfait et payez.
-2. Ouvrez le panneau de disponibilité du site (**Site availability** en anglais) et sélectionnez **Public** : tout site démarre en privé, et seul un site payant peut être public.
+2. Ouvrez le panneau de disponibilité du site (**Site availability**) et sélectionnez **Public** : tout site démarre en privé, et seul un site payant peut être public.
 3. Pour un lancement en douceur, choisissez plutôt la protection par mot de passe (**Password protected**) et donnez ce mot de passe à quelques personnes.
 
 Votre sitemap n’est en ligne qu’une fois le site public.
@@ -235,6 +235,6 @@ La première semaine :
 4. Validez le site dans Google Search Console et soumettez le sitemap. Retirez d’abord tout mot de passe, et si votre domaine est enregistré ailleurs, attendez 48 heures après l’avoir relié.
 5. Programmez un rappel pour revoir vos prix, vos photos et vos horaires chaque trimestre.
 
-Vous n’avez pas besoin de moi pour tout cela : l’intérêt de Squarespace, c’est justement de le gérer vous-même, et le code personnalisé est la seule partie que mes clients Squarespace me laissent. Pour les entreprises qui en ont le budget, je crée plutôt un site sur mesure et je fais les modifications chaque mois, ou dès qu’elles en ont besoin ; voici {{< a page="/services/websites" >}}comment je crée des sites internet{{< /a >}}.
+Vous n’avez pas besoin de moi pour tout cela : l’intérêt de Squarespace, c’est justement de le gérer vous-même, et à part le code personnalisé, mes clients Squarespace font tout eux-mêmes. Pour les entreprises qui en ont le budget, je crée plutôt un site sur mesure et je fais les modifications chaque mois, ou dès qu’elles en ont besoin ; voici {{< a page="/services/websites" >}}comment je crée des sites internet{{< /a >}}.
 
-{{< callout type="tip" >}}Si vous créez un site pour un ami ou un proche, gardez en tête qu’un site gratuit est rarement un cadeau ponctuel : vous vous engagez pour une maintenance à vie, ou pour une liste sans fin de modifications gratuites. Squarespace fait exception si vous limitez le code personnalisé : la personne peut alors tout modifier elle-même.{{< /callout >}}
+{{< callout type="tip" >}}Si vous créez un site pour un ami ou un proche, gardez en tête qu’un site gratuit est rarement un cadeau ponctuel : vous offrez une maintenance à vie, et peut-être des modifications gratuites sans fin, sauf si vous convenez dès le départ qu’elles auront un coût. Squarespace fait exception si vous limitez le code personnalisé : la personne peut alors tout modifier elle-même.{{< /callout >}}
