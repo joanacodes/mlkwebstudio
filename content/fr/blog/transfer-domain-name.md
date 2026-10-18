@@ -48,7 +48,7 @@ Les bonnes raisons de transférer : un seul compte et une seule facture pour to
 
 ## Avant de commencer : votre nom de domaine peut-il être transféré ?
 
-Pour le .com, le .net, le .org et les autres extensions génériques, la [politique de transfert de l’ICANN](https://www.icann.org/resources/pages/about-transfer-policy-2017-10-10-en) (en anglais) fixe les conditions. Votre registrar actuel peut, ou doit, refuser le transfert quand :
+Pour le .com et les autres extensions génériques, la [politique de transfert de l’ICANN](https://www.icann.org/resources/pages/about-transfer-policy-2017-10-10-en) (en anglais) fixe les conditions. Votre registrar actuel peut, ou doit, refuser le transfert quand :
 
 1. **Le domaine a moins de 60 jours**, ou a été transféré il y a moins de 60 jours.
 2. **Le titulaire a changé dans les 60 derniers jours** (nom, organisation ou adresse email), sauf si vous avez refusé ce verrou là où le registrar le propose. Mettez ces informations à jour après le transfert, pas avant.
@@ -76,7 +76,7 @@ Cherchez le domaine dans [ICANN Lookup](https://lookup.icann.org/) (pour un .fr,
 1. **Le registrar.** Si le domaine se trouve dans le compte de quelqu’un d’autre, un ancien prestataire par exemple, commencez par mon guide pour {{< a key="recover-domain-name" >}}récupérer son nom de domaine{{< /a >}}.
 2. **La date d’expiration.** Si elle tombe dans quelques jours, renouvelez d’abord : un transfert peut prendre une semaine, 8 jours pour un .fr.
 3. **Les statuts.** `clientTransferProhibited` signale le verrou de transfert (étape 3), `serverTransferProhibited` un verrou du registre, à voir avec votre registrar, et `redemptionPeriod` ou `pendingDelete` un domaine expiré, à restaurer avant de partir.
-4. **Les serveurs de noms.** Ils indiquent qui répond aujourd’hui pour vos DNS : le registrar que vous quittez, votre hébergeur ou un service comme Cloudflare.
+4. **Les serveurs de noms**, qui disent qui gère vos DNS : le registrar que vous quittez, votre hébergeur ou un service comme Cloudflare.
 
 {{< screenshot id="transfer-domain-name-01" alt="Résultat d’ICANN Lookup pour un nom de domaine, avec son registrar, sa date d’expiration, ses statuts et ses serveurs de noms" >}}
 
@@ -124,14 +124,11 @@ Copiez le code à l’identique (un espace en trop suffit à le faire échouer) 
 
 Chez Spaceship, d’après son [guide de transfert](https://www.spaceship.com/knowledgebase/transfer-domain-guide/) (en anglais, comme les libellés cités) :
 
-1. Sur spaceship.com, basculez la recherche de domaines sur **Transfer** et tapez le domaine. Plusieurs domaines peuvent partir ensemble, saisis à la main ou par fichier CSV.
+1. Sur spaceship.com, basculez la recherche de domaines sur **Transfer** et tapez le domaine.
 2. Saisissez le code obtenu à l’étape 3.
 3. Ajoutez le domaine au panier et payez.
 
-Spaceship demande un domaine déverrouillé, au statut normal (ok ou active) chez le registrar actuel. Les autres registrars ont les mêmes champs sous d’autres noms. Avant de payer, vérifiez deux points :
-
-- **Les serveurs de noms.** Si la commande propose de garder les serveurs actuels, gardez-les : vous déplacerez les DNS à votre rythme, à l’étape 6.
-- **La confidentialité.** Spaceship inclut gratuitement la protection Whois sur les domaines éligibles.
+Spaceship demande un domaine déverrouillé, au statut normal (ok ou active) chez le registrar actuel. Avant de payer, si la commande propose de garder les serveurs de noms actuels, gardez-les : vous déplacerez les DNS à votre rythme, à l’étape 6. La protection Whois est incluse gratuitement sur les domaines éligibles.
 
 {{< screenshot id="transfer-domain-name-04" alt="Recherche de domaines de Spaceship basculée sur Transfer, avec le nom de domaine saisi" >}}
 
@@ -174,12 +171,10 @@ Enfin, réactivez le verrou si le nouveau registrar ne l’a pas fait, activez l
 Le .fr est géré par l’Afnic, qui ne vend rien au public : vous passez d’un registrar accrédité à un autre, selon les six étapes ci-dessus, avec trois différences :
 
 1. **Le code s’appelle authinfo.** Votre registrar actuel le génère et vous le remet gratuitement, précise l’Afnic ; le transfert, lui, est facturé par le nouveau registrar. Ne le confondez pas avec le « code d’autorisation » au sens de l’Afnic, qu’elle délivre elle-même pour des opérations particulières, pas pour un transfert ordinaire.
-2. **Le registrar sortant a 8 jours.** Le nouveau registrar dépose la demande, le sortant en est averti et, s’il ne se passe rien entre-temps, le transfert se fait au bout de 8 jours. Infomaniak annonce d’ailleurs jusqu’à 8 jours pour un .fr.
+2. **Le registrar sortant a 8 jours.** Le nouveau registrar dépose la demande, le sortant en est averti et, s’il ne se passe rien entre-temps, le transfert se fait au bout de 8 jours.
 3. **Les délais de 60 jours de l’ICANN ne s’appliquent pas**, mais votre contrat, si : relisez les conditions générales du registrar actuel avant de partir, surtout si le domaine est lié à un hébergement.
 
 Le transfert ne change pas le titulaire. Céder le domaine est une autre opération, la transmission, demandée au registrar avec l’accord du titulaire actuel. Mon guide sur le {{< a key="fr-domain-names" >}}nom de domaine .fr{{< /a >}} présente les conditions de l’Afnic, et le [guide pratique du titulaire](https://www.afnic.fr/wp-media/uploads/2024/07/Afnic-Guide-pratique-du-Titulaire.pdf) de l’Afnic détaille les autres opérations.
-
-Un .co.uk, lui, n’a pas de code : votre registrar actuel remplace son « IPS tag », l’identifiant du registrar chez Nominet, par celui du nouveau (`SPACESHIP` pour Spaceship), puis le nouveau registrar prend le relais.
 
 ## Quitter Squarespace Domains (ex-Google Domains)
 
@@ -207,7 +202,7 @@ Deux précautions propres à ce cas :
 | Durée | Une semaine environ : le registrar actuel a cinq jours pour répondre | 8 jours au plus : le registrar sortant a ce délai pour réagir |
 | Prix | En général un an d’enregistrement, ajouté au temps restant | Fixé par le nouveau registrar : demandez s’il inclut un an |
 
-Pour un .com, l’année comprise dans le prix du transfert n’est pas perdue : la date d’expiration est repoussée d’un an, et Spaceship, par exemple, indique que le temps restant est conservé. Transférer dans les semaines qui précèdent l’échéance vous fait donc payer l’année suivante au prix du nouveau registrar. Évitez seulement la dernière semaine, au cas où le transfert serait retardé.
+Pour un .com, l’année payée n’est pas perdue : l’expiration est repoussée d’un an, et Spaceship, par exemple, conserve le temps restant. Transférer quelques semaines avant l’échéance vous fait donc payer l’année suivante au prix du nouveau registrar ; évitez seulement la dernière semaine, au cas où le transfert serait retardé.
 
 Pour un .fr, je n’ai pas trouvé de règle de l’Afnic sur ce point : demandez au nouveau registrar ce que comprend son prix, puis contrôlez la date d’expiration dans le Whois une fois le domaine arrivé.
 
@@ -217,7 +212,6 @@ Pour un .fr, je n’ai pas trouvé de règle de l’Afnic sur ce point : demand
 |---|---|---|
 | Le nouveau registrar refuse la demande tout de suite | Le verrou de transfert est encore actif, ou un verrou du registre | Désactivez-le, vérifiez le statut dans le Whois, puis recommencez ; pour un verrou du registre, interrogez votre registrar |
 | « Code invalide » | Une faute de frappe, un espace en trop ou un ancien code | Copiez-le de nouveau, ou demandez-en un nouveau |
-| Refus à cause de la date (.com) | Création, transfert ou changement de titulaire il y a moins de 60 jours | Attendez la date : le domaine fonctionne normalement en attendant |
 | En attente depuis des jours | Un email de validation est resté sans réponse | Cherchez les emails des deux registrars, spams compris |
 | Refus du registrar actuel | Une période impayée, un litige, ou le titulaire du compte s’y oppose | Demandez-lui la raison ; si le compte n’est pas le vôtre, suivez le guide de récupération cité à l’étape 1 |
 
