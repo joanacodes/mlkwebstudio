@@ -16,8 +16,11 @@
 {{- $lang := site.Language.LanguageCode | default site.Language.Lang -}}
 {{- /* Share image: the page's own photo (or the hero photo), cropped to 1200×630 */ -}}
 {{- $imgPath := .Params.image | default "images/hero-glass.jpg" -}}
-{{- if and .IsPage (eq .Section "blog") }}{{ $imgPath = printf "images/blog/%s.jpg" (.Params.cover | default .File.ContentBaseName) }}{{ end -}}
+{{- $coverKey := "" -}}
+{{- if and .IsPage (eq .Section "blog") }}{{ $coverKey = .Params.cover | default .File.ContentBaseName }}{{ $imgPath = printf "images/blog/%s.jpg" $coverKey }}{{ end -}}
 {{- $img := resources.Get $imgPath | default (resources.Get "images/hero-glass.jpg") -}}
+{{- /* an article's cover in the page's language, with its title on it, when there is one */ -}}
+{{- with $coverKey }}{{ with resources.Get (printf "images/blog/%s/%s.jpg" $.Language.Lang .) }}{{ $img = . }}{{ end }}{{ end -}}
 {{- $og := $img.Fill (cond (and (eq .Section "projects") (isset .Params "image")) "1200x630 Top q80" "1200x630 Center q80") -}}
 {{- $isPost := and .IsPage (eq .Section "blog") }}
 {{- $topic := false }}{{ if $isPost }}{{ $topic = partial "blog/topic.html" . }}{{ end }}
