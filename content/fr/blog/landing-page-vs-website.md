@@ -43,7 +43,7 @@ Les deux n’ont pas le même rôle, et presque toutes les autres différences e
 | Navigation | En général pas de menu, et un seul appel à l’action | Un menu, et plusieurs façons de vous contacter |
 | Sur Google | Une seule page, donc une recherche principale au mieux | Une page par prestation, donc chaque prestation peut se positionner sur ses propres recherches |
 | Durée de vie | Souvent celle d’une campagne | Des années, avec des mises à jour régulières |
-| Coût | Quelques heures sur un site existant ; un abonnement si elle vit seule | Un forfait de création, puis des frais chaque année |
+| Coût | Quelques heures sur un site existant ; un abonnement si elle est hébergée à part | Un forfait de création, puis des frais chaque année |
 
 Une précision de vocabulaire : une longue page d’accueil qui présente toutes vos prestations est un site « one page », pas une landing page. Elle a une seule adresse mais plusieurs rôles, exactement ce qu’une landing page évite.
 
@@ -75,13 +75,13 @@ Google affiche des pages dans ses résultats, pas des sites entiers, et une page
 
 Mieux vaut un site précis qu’un site qui fait tout. Je travaille depuis deux ans avec Pilotech, installateur de climatisation en Île-de-France. Parmi les sites que j’ai construits pour son fondateur, l’un proposait trop de services et n’a pas fonctionné du tout ; celui qui se positionne vend des prestations très précises. Sur {{< a page="/projects/pilotech-teknopoint" >}}le site Teknopoint{{< /a >}}, chaque gamme de climatisation sans unité extérieure a sa propre page, et le site se classe 1er ou 2e sur Google. Je raconte toute l’histoire dans mon étude de cas sur le choix d’avoir {{< a key="multiple-websites-one-business" >}}plusieurs sites internet pour une entreprise{{< /a >}}.
 
-Le piège, c’est la page de campagne qui recopie une page de prestation. Quand deux pages disent la même chose, Google en choisit en général une seule à afficher, et pas forcément celle que vous vouliez. Si votre landing page reprend une page de prestation pour une campagne d’annonces, retirez-la des résultats avec une balise noindex, comme l’explique la [documentation de Google sur le noindex](https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=fr). Ne la bloquez pas en plus dans le fichier robots.txt : Google doit pouvoir l’explorer pour voir la balise. Ne laissez une landing page visible dans Google que si elle répond à une recherche qu’aucune autre page de votre site ne couvre.
+Le piège, c’est la page de campagne qui recopie une page de prestation. Quand deux pages disent la même chose, Google en choisit en général une seule à afficher, et pas forcément celle que vous vouliez. Si votre landing page reprend une page de prestation pour une campagne d’annonces, retirez-la des résultats avec une balise noindex, comme l’explique la [documentation de Google sur le noindex](https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=fr). Ne la bloquez pas en plus dans le fichier robots.txt : Google doit pouvoir l’explorer pour voir la balise. Une landing page ne mérite d’être visible dans Google que si elle répond à une recherche qu’aucune autre page de votre site ne couvre.
 
 Sur Squarespace, ranger une page dans la section des pages non liées (**Not linked** dans l’interface en anglais) la retire seulement du menu : la page reste publique, et Google peut toujours l’indexer. Pour ajouter la balise noindex, ouvrez les paramètres de la page, onglet **SEO**, et activez l’option qui la masque des résultats de recherche (**Hide page from search results** en anglais).
 
 ## Lequel choisir pour Google Ads ?
 
-Chaque clic sur une annonce Google Ads arrive sur une page, et Google évalue cette page. Chaque mot-clé reçoit un niveau de qualité noté de 1 à 10, qui repose sur trois éléments : le taux de clics attendu, la pertinence de l’annonce et l’expérience sur la page de destination, c’est-à-dire, selon la [page d’aide de Google sur le niveau de qualité](https://support.google.com/google-ads/answer/6167118?hl=fr), la pertinence et l’utilité de votre page pour les personnes qui cliquent.
+Chaque clic sur une annonce Google Ads arrive sur une page, et Google évalue cette page. Chaque mot-clé reçoit un niveau de qualité noté de 1 à 10, qui repose sur trois éléments : le taux de clics attendu, la pertinence de l’annonce et l’expérience sur la page de destination. Ce dernier critère mesure, selon la [page d’aide de Google sur le niveau de qualité](https://support.google.com/google-ads/answer/6167118?hl=fr), la pertinence et l’utilité de votre page pour les personnes qui cliquent.
 
 À mon avis, Google Ads n’est pas si compliqué, mais il demande un vrai travail de recherche : ce que votre cible tape dans Google vous dit où être visible et vers quelle page l’envoyer. Mon guide {{< a key="google-ads-small-business" >}}Google Ads pour débutant{{< /a >}} détaille ces recherches à faire avant de dépenser le moindre euro.
 

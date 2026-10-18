@@ -9,16 +9,16 @@ lastmod: 2026-10-17T08:49:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["Spaceship hosting", "Spaceship web hosting", "Spaceship hosting plans", "Spaceship EasyWP", "Starlight Hyperlift", "Spaceship cPanel"]
-summary: "Spaceship hosting covers shared Web Hosting with cPanel (Essential, Pro and Supreme, from $19.88, about £15, for the first year), EasyWP for managed WordPress, Alf Website Studio for an AI-built site, and the Starlight cloud range, Hyperlift and Virtual Machines, for apps. For a small business website, start with the Essential plan: a 30-day free trial, free SSL and room for five sites. If your site runs on Squarespace, you need none of them."
+summary: "Spaceship hosting comes in five products: shared Web Hosting with cPanel (Essential, Pro and Supreme), EasyWP for managed WordPress, the Alf Website Studio AI builder, and Starlight Hyperlift and Virtual Machines for apps. For a small business website, start with Essential: $19.88 (about £15) for the first year, then $28.88 (about £21), with a 30-day free trial, free SSL and up to five domains. If your site runs on Squarespace, you need none of them."
 cover: "spaceship-hosting"
 cover_alt: "The words Spaceship hosting beside a star circled by orbits, behind ribbed glass"
 related: ["spaceship-vs-namecheap", "build-website-with-ai", "spaceship-domain-dns-tutorial", "web-hosting-comparison", "spacemail-setup"]
 services: ["websites"]
 faq:
   - q: "Is Spaceship hosting the same as Namecheap hosting?"
-    a: "No. Namecheap built Spaceship and unveiled it in August 2023, but Spaceship sells its own range from its own website: Web Hosting, EasyWP, Alf Website Studio and the Starlight cloud products. You buy and manage them in a Spaceship account."
+    a: "Not quite. Namecheap built Spaceship and unveiled it in August 2023, and EasyWP, the managed WordPress product, began at Namecheap. But Spaceship sells its own plans (Web Hosting Essential, Pro and Supreme, Alf Website Studio, the Starlight cloud products) at its own prices, and you buy and manage them in a Spaceship account."
   - q: "Does Spaceship hosting include email?"
-    a: "Spaceship's help centre describes special Spacemail plans for Web Hosting and EasyWP customers, so check what your plan includes before you buy mailboxes. Otherwise, Spacemail is sold on its own, from under $1 (about 75p) a month per mailbox at the time of writing."
+    a: "Partly. Spaceship's help centre describes Spacemail Special, which comes with shared Web Hosting, and Spacemail Pro, which comes with EasyWP: check how many mailboxes your plan includes before you buy more. Otherwise, Spacemail is sold on its own, from under $1 (under 75p) a month per mailbox at the time of writing."
   - q: "Can I give a developer access to my Spaceship hosting without sharing my password?"
     a: "Yes. In Hosting Manager, click Manage on the plan, then cPanel access: Spaceship generates a temporary access token that you send instead of your login details."
   - q: "Does Spaceship Web Hosting support SSH?"
@@ -29,7 +29,7 @@ faq:
 
 Spaceship hosting is a small range rather than a single product: shared Web Hosting with cPanel, EasyWP for managed WordPress, Alf Website Studio, an AI website builder, and two Starlight cloud products, Hyperlift and Virtual Machines, for apps and developers. For a typical small business website, the place to start is the cheapest Web Hosting plan, Essential.
 
-Spaceship is the platform Namecheap built and unveiled in August 2023, and it is where I have my habits. I trust it, I find it easy to set up, and its support, there around the clock, has resolved every issue I have taken to it. If you are still choosing a registrar, my comparison of {{< a key="spaceship-vs-namecheap" >}}Spaceship vs Namecheap{{< /a >}} explains how the two relate.
+Spaceship is the platform Namecheap built and unveiled in August 2023, and it is my go-to. I trust it, I find it easy to set up, and its support, available 24/7, has resolved every issue I have taken to it. If you are still choosing a registrar, my comparison of {{< a key="spaceship-vs-namecheap" >}}Spaceship vs Namecheap{{< /a >}} explains how the two relate.
 
 This guide sets out which product suits which kind of website and what each costs, then walks you through starting with the simplest one. Prices are in US dollars, as Spaceship lists them at the time of writing (October 2026); the pound amounts are approximate. If the difference between a domain, hosting and email is still fuzzy, start with my guide to {{< a key="domain-hosting-email-guide" >}}domain vs hosting{{< /a >}}.
 
@@ -40,12 +40,12 @@ Hosting is the service that keeps your website's files on a server connected to 
 | Product | What it is | Best for | Price at the time of writing |
 |---|---|---|---|
 | Web Hosting (Essential, Pro, Supreme) | Shared hosting with cPanel | A brochure site, a small WordPress site, a site built with AI | From $19.88 (about £15) for the first year |
-| EasyWP (Starter, Turbo, Supersonic) | Managed WordPress hosting | A WordPress site, without the server side | From $5.88 (about £4.40) a month |
+| EasyWP (Starter, Turbo, Supersonic) | Managed WordPress hosting | A WordPress site, without the server side | From $5.88 (about £4.40) a month for the first term |
 | Alf Website Studio | AI website builder | A simple site or a small shop, made by chatting | $5 (about £3.70) a month after 30 free days |
 | Starlight Hyperlift | Runs containerised apps from GitHub | An app built by a developer or with AI | From $0.005 an hour, about $3.60 (£2.70) a month |
 | Starlight Virtual Machines | Cloud servers | Developers who run their own server | Billed by the hour, by size |
 
-Web Hosting and EasyWP Starter both begin with a 30-day free trial. Email is a separate product, Spacemail, which my {{< a key="spacemail-setup" >}}Spacemail setup{{< /a >}} tutorial covers from the plans to the DNS records.
+Web Hosting and EasyWP both begin with a 30-day free trial. Email runs on a separate Spaceship product, Spacemail, which my {{< a key="spacemail-setup" >}}Spacemail setup{{< /a >}} tutorial covers from the plans to the DNS records.
 
 ## Do you need Spaceship hosting at all?
 
@@ -61,21 +61,29 @@ For solo owners, I usually advise against WordPress and Webflow: both have a ste
 
 Shared hosting means your site shares a server with other customers' sites while the host looks after the machine. It is the cheapest way to host a classic website. All three of Spaceship's plans run on **cPanel**, the control panel used by many web hosts, and include a free SSL certificate from Let's Encrypt, so your site loads over HTTPS.
 
-| Plan | Websites | Storage | First year | Renewal |
+| Plan | Sites | Storage | First year | Renewal |
 |---|---|---|---|---|
-| Essential | Up to 5 | 20 GB | $19.88 (about £15) | Higher than the first year |
+| Essential | 5 domains | 20 GB | $19.88 (about £15) | $28.88 (about £21) a year |
 | Pro | Unlimited | 50 GB | $28.88 (about £21) | $48.88 (about £36) a year |
 | Supreme | Unlimited | Unmetered | $38.88 (about £29) | $68.88 (about £51) a year |
 
 These are the one-year prices on [Spaceship's Web Hosting page](https://www.spaceship.com/web-hosting/) at the time of writing (October 2026), after the 30-day free trial. A two-year term lowers the monthly figure; the total at checkout is what counts.
 
-For one business website, **Essential is enough**: 20 GB is plenty for a brochure site or a small WordPress site, and five sites leave room for a second brand or a landing page. Pro makes sense once you run more than five sites, or a WordPress site with years of photos. Supreme is for people who host many sites, such as a freelancer hosting their clients.
+For one business website, **Essential is enough**: 20 GB is plenty for a brochure site or a small WordPress site, and five domains leave room for a second brand or a separate landing page. Pro makes sense once you need more than five domains, or when 20 GB gets tight, as with a WordPress site holding years of photos. Supreme's unmetered storage matters to someone hosting many heavy sites, such as a freelancer hosting clients' sites.
 
-Renewals cost more than the first year, as they do almost everywhere. The jump is nothing like the triple bills I have seen at Hostinger or GoDaddy, but read the renewal line before you commit to a long term.
+Renewals cost more than the first year, as they do almost everywhere: about 45% more on Essential, 69% on Pro and 77% on Supreme. That is still a long way from the tripled renewal prices you see at Hostinger or GoDaddy, but read the renewal line before you commit to a long term.
 
 ## EasyWP: managed WordPress hosting
 
-Managed WordPress hosting means the host runs the server side of WordPress for you, so you deal with the site, not the machine. At Spaceship, that is [EasyWP](https://www.spaceship.com/hosting-for-wordpress/), managed from its own dashboard, in three plans: Starter (10 GB), Turbo (50 GB) and Supersonic (100 GB). At the time of writing, Starter costs $5.88 (about £4.40) a month for the first term, after a 30-day free trial, and renews higher.
+Managed WordPress hosting means the host runs the server side of WordPress for you, so you deal with the site, not the machine. At Spaceship, that is [EasyWP](https://www.spaceship.com/hosting-for-wordpress/), managed from its own dashboard, in three plans. Prices are per month at the time of writing, after a 30-day free trial (one trial per Spaceship account):
+
+| Plan | Storage | First term | Renewal |
+|---|---|---|---|
+| Starter | 10 GB | $5.88 (about £4.40) | $9.88 (about £7.30) |
+| Turbo | 50 GB | $9.88 (about £7.30) | $18.88 (about £14) |
+| Supersonic | 100 GB | $12.88 (about £9.50) | $26.88 (about £20) |
+
+Over a year, Starter at its renewal price costs about four times as much as Web Hosting Essential: that is the price of not looking after the server yourself.
 
 My view of WordPress is blunt. Every client who called me in an emergency called because of it, and those who moved to Squarespace did so to edit their site without fear of breaking it. WordPress still suits a business with the budget for a specialist who looks after the site every month. If that is you, **EasyWP takes the server off your plate**; the plugins and the content remain your job, or your specialist's.
 
@@ -89,7 +97,7 @@ It suits a simple site you need this week, without code. For a site you want to 
 
 Starlight Hyperlift builds, hosts and deploys containerised apps straight from a GitHub repository, without you managing a server. A container is an app packaged with everything it needs to run; Hyperlift builds it from your repository and keeps it running.
 
-Billing is by the hour, for build time and running time. [Spaceship's Hyperlift page](https://www.spaceship.com/starlight-cloud/hyperlift/) lists five sizes at the time of writing, from Micro at $0.005 an hour (about $3.60, or £2.70, a month) to Extra Large at $0.073 an hour (about $52.57, or £39, a month). You can pay as you go, or prepay by the month, quarter or year, and prepaid plans start with a 7-day free trial. If you come across $0.0005 an hour, it comes from one of Spaceship's own blog posts, printed next to the same $3.60 a month: the pricing page's $0.005 is the figure that adds up.
+Billing is by the hour, for build time and running time. [Spaceship's Hyperlift page](https://www.spaceship.com/starlight-cloud/hyperlift/) lists five sizes at the time of writing, from Micro at $0.005 an hour (about $3.60, or £2.70, a month) to Extra Large at $0.073 an hour (about $52.57, or £39, a month). You can pay as you go, or prepay by the month, quarter or year, and prepaid plans start with a 7-day free trial. One of Spaceship's own blog posts prints $0.0005 an hour next to the same $3.60 a month: $0.005 is the figure that adds up (720 hours × $0.005 = $3.60).
 
 Hyperlift suits an app: a booking tool, a client portal, a small internal tool built with AI or by a developer. A static site can run there too, packaged as a container, but for a brochure site, Web Hosting or GitHub Pages costs less. My guide on how to {{< a key="build-app-with-ai" >}}build an app with AI{{< /a >}} explains what you can realistically build without a developer.
 
@@ -111,7 +119,7 @@ If you do not have a domain yet, register it in the same order: the domain and t
 
 In your Spaceship account, open **Hosting Manager** and connect the plan to your domain. Spaceship calls this connection step Unbox and walks you through it.
 
-- **Domain registered at Spaceship:** nothing more to do. It already uses Spaceship's nameservers.
+- **Domain registered at Spaceship:** no DNS change needed, as it already uses Spaceship's nameservers (unless you have changed them).
 - **Domain registered elsewhere:** point it to Spaceship, either by changing its nameservers or by adding the DNS records Spaceship gives you, then connect it in Hosting Manager.
 
 {{< screenshot id="spaceship-hosting-02" alt="Spaceship Hosting Manager connecting the new Web Hosting plan to a domain" >}}
@@ -142,7 +150,7 @@ Two routes, depending on your site.
 
 1. Open your site with and without www, over http and https. If one of the four addresses does not reach the secure version of your site, set up a redirect in cPanel or ask Spaceship's support.
 2. Create the email addresses you need on the domain.
-3. Switch on auto-renewal for the hosting and the domain, and check the card on the account.
+3. Check that auto-renewal is on for the hosting and the domain, and that the card on the account is valid.
 4. Before the free trial ends, decide whether you keep the plan.
 
 ## Which Spaceship hosting to choose: a checklist, and when to hand it over
@@ -154,6 +162,6 @@ Two routes, depending on your site.
 5. **An app:** Hyperlift. **A server you run yourself:** Virtual Machines, with a developer.
 6. **Whatever you choose:** read the renewal price, switch on auto-renewal and keep a copy of your DNS records.
 
-If you are weighing Spaceship against a classic web host, I compare {{< a key="web-hosting-comparison" >}}Hostinger vs OVH{{< /a >}} and Infomaniak in a separate guide. Spaceship is where I have my habits; of the others, I recommend Infomaniak, while I find OVH and Hostinger a bit complicated for small business owners to handle.
+If you are weighing Spaceship against a classic web host, I compare {{< a key="web-hosting-comparison" >}}Hostinger vs OVH{{< /a >}} and Infomaniak in a separate guide. Spaceship is my go-to; of the others, I recommend Infomaniak, while I find OVH and Hostinger a bit complicated for small business owners to handle.
 
 You do not need me for any of this: the steps above are within reach of any owner who can follow a tutorial. If you would rather hand the whole thing over, putting the site online and connecting the domain is the last step of every {{< a page="/services/websites" >}}website I build{{< /a >}}.
