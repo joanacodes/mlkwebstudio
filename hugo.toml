@@ -119,7 +119,7 @@ removePathAccents = true
       pageRef = "/services/cold-emailing"
       weight = 40
     [[languages.en.menus.main]]
-      name = "Blog"
+      name = "Learn"
       pageRef = "/blog"
       weight = 50
 
@@ -166,6 +166,6 @@ removePathAccents = true
       pageRef = "/services/cold-emailing"
       weight = 40
     [[languages.fr.menus.main]]
-      name = "Blog"
+      name = "Apprendre"
       pageRef = "/blog"
       weight = 50
