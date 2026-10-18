@@ -6,7 +6,7 @@ key: "cold-emailing"
 short: "Cold emailing"
 icon: "mail"
 weight: 4
-description: "Un cold emailing qui obtient des réponses et des appels : cadre légal en France et au Royaume-Uni, domaines, boîtes mail, Instantly, fichiers, messages, relances."
+description: "Un cold emailing qui obtient réponses et appels : cadre légal en France et au Royaume-Uni, domaines, boîtes mail, Instantly, fichiers, messages, relances."
 lead: "Le canal de prospection qui amène le plus vite des clients quand il est bien fait : l’infrastructure, les outils, l’email de trois lignes et les relances."
 ---
 
