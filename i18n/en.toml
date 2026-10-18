@@ -237,3 +237,16 @@ other = "Tell me about your project"
 other = "Write to us"
 [share_title]
 other = "Guides and tutorials"
+
+[llms_author]
+other = "Author of the guides"
+[llms_contact]
+other = "Contact"
+[llms_also]
+other = "Also in French"
+[llms_services]
+other = "Services"
+[llms_cases]
+other = "Case studies"
+[llms_leadhunters]
+other = "cold emailing, by the same studio."
