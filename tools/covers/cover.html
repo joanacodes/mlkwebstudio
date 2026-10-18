@@ -202,7 +202,13 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
       s += '<rect x="10" y="10" width="' + tw + '" height="' + (h - 30) + '" fill="#0D1017" fill-opacity=".72" stroke="' + ICE + '" stroke-opacity=".35" stroke-width="2"/>';
       for (i = 0; i < 3; i++) { s += '<circle cx="' + (34 + i * 22) + '" cy="34" r="6" fill="' + ICE + '" fill-opacity=".35"/>'; }
       var code = [['$ ', OR, 'curl https://api.example.com/v1/messages', ICE], ['  -H ', STEEL, '"x-api-key: $API_KEY"', BLUE2], ['  -d ', STEEL, "'{\"model\": \"…\", \"max_tokens\": 1024,", ICE], ['', STEEL, "     \"messages\": [{ \"role\": \"user\" }]}'", ICE], ['', STEEL, '', ICE], ['→ ', OR, '200 OK', BLUE2]];
-      code.forEach(function (l, k) { s += '<text class="mono" x="34" y="' + (92 + k * 46) + '" font-size="22"><tspan fill="' + l[1] + '">' + l[0] + '</tspan><tspan fill="' + l[3] + '">' + l[2].replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</tspan></text>'; });
+      // covers.json can give the article's own lines: [prefix, colour, text, colour], colours OR STEEL ICE BLUE2
+      var tone = { OR: OR, STEEL: STEEL, ICE: ICE, BLUE2: BLUE2 };
+      if (cfg.code) code = cfg.code.map(function (l) { return [l[0], tone[l[1]] || STEEL, l[2], tone[l[3]] || ICE]; });
+      // monospace glyphs are about 0.6em wide: shrink the type when the longest line would cross the window edge
+      var longest = Math.max.apply(null, code.map(function (l) { return (l[0] + l[2]).length; }));
+      var fz = Math.min(22, Math.floor((tw - 60) / (0.6 * longest)));
+      code.forEach(function (l, k) { s += '<text class="mono" x="34" y="' + (92 + k * 46) + '" font-size="' + fz + '" style="white-space:pre"><tspan fill="' + l[1] + '">' + l[0] + '</tspan><tspan fill="' + l[3] + '">' + l[2].replace(/&/g, '&amp;').replace(/</g, '&lt;') + '</tspan></text>'; });
       s += '<rect x="34" y="' + (92 + 6 * 46 - 22) + '" width="14" height="26" fill="' + ICE + '"/>';
       return s + e;
     }

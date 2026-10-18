@@ -51,7 +51,15 @@
   "key": "hreflang-bilingual-website",
   "category": "seo",
   "label": "hreflang EN · FR",
-  "motif": "terminal"
+  "motif": "terminal",
+  "code": [
+   ["", "STEEL", "<link rel=\"alternate\" hreflang=\"en-gb\"", "ICE"],
+   ["", "STEEL", "      href=\"https://example.com/\" />", "BLUE2"],
+   ["", "STEEL", "<link rel=\"alternate\" hreflang=\"fr-fr\"", "ICE"],
+   ["", "STEEL", "      href=\"https://example.com/fr/\" />", "BLUE2"],
+   ["", "STEEL", "<link rel=\"alternate\"", "ICE"],
+   ["", "STEEL", "      hreflang=\"x-default\" … />", "BLUE2"]
+  ]
  },
  {
   "key": "squarespace-seo",
@@ -123,7 +131,15 @@
   "key": "build-website-with-ai",
   "category": "websites",
   "label": "Claude → GitHub Pages",
-  "motif": "terminal"
+  "motif": "terminal",
+  "code": [
+   ["> ", "OR", "Build a one-page site for a florist", "ICE"],
+   ["", "STEEL", "  index.html  style.css  script.js", "BLUE2"],
+   ["$ ", "OR", "git add . && git commit -m \"v1\"", "ICE"],
+   ["$ ", "OR", "git push origin main", "ICE"],
+   ["", "STEEL", "", "ICE"],
+   ["→ ", "OR", "Live on GitHub Pages", "BLUE2"]
+  ]
  },
  {
   "key": "squarespace-tutorial",
@@ -135,7 +151,15 @@
   "key": "squarespace-code-injection",
   "category": "websites",
   "label": "Squarespace </>",
-  "motif": "terminal"
+  "motif": "terminal",
+  "code": [
+   ["", "STEEL", "<!-- Code injection > Header -->", "STEEL"],
+   ["", "STEEL", "<script async src=\"…\"></script>", "ICE"],
+   ["", "STEEL", "<style>", "BLUE2"],
+   ["", "STEEL", "  .header { letter-spacing: .02em; }", "ICE"],
+   ["", "STEEL", "</style>", "BLUE2"],
+   ["→ ", "OR", "Saved", "BLUE2"]
+  ]
  },
  {
   "key": "website-conversion-rate",
@@ -171,13 +195,29 @@
   "key": "schema-markup-small-business",
   "category": "aio",
   "label": "Schema.org",
-  "motif": "terminal"
+  "motif": "terminal",
+  "code": [
+   ["", "STEEL", "<script type=\"application/ld+json\">", "ICE"],
+   ["", "STEEL", "{ \"@context\": \"https://schema.org\",", "BLUE2"],
+   ["", "STEEL", "  \"@type\": \"LocalBusiness\",", "ICE"],
+   ["", "STEEL", "  \"name\": \"…\",", "ICE"],
+   ["", "STEEL", "  \"telephone\": \"…\" }", "ICE"],
+   ["", "STEEL", "</script>", "BLUE2"]
+  ]
  },
  {
   "key": "llms-txt-explained",
   "category": "aio",
   "label": "llms.txt",
-  "motif": "terminal"
+  "motif": "terminal",
+  "code": [
+   ["$ ", "OR", "cat llms.txt", "ICE"],
+   ["", "STEEL", "# Example Studio", "ICE"],
+   ["", "STEEL", "> Websites and SEO for small firms", "BLUE2"],
+   ["", "STEEL", "## Guides", "ICE"],
+   ["", "STEEL", "- [SEO guide](https://example.com/seo/)", "BLUE2"],
+   ["", "STEEL", "- [Contact](https://example.com/contact/)", "BLUE2"]
+  ]
  },
  {
   "key": "robots-txt-ai-crawlers",
@@ -381,13 +421,29 @@
   "key": "claude-api-tutorial",
   "category": "ai-automation",
   "label": "Claude API",
-  "motif": "terminal"
+  "motif": "terminal",
+  "code": [
+   ["$ ", "OR", "curl https://api.anthropic.com/v1/messages", "ICE"],
+   ["  -H ", "STEEL", "\"x-api-key: $ANTHROPIC_API_KEY\"", "BLUE2"],
+   ["  -H ", "STEEL", "\"anthropic-version: 2023-06-01\"", "BLUE2"],
+   ["  -d ", "STEEL", "'{\"model\": \"…\", \"max_tokens\": 1024,", "ICE"],
+   ["", "STEEL", "     \"messages\": [{ \"role\": \"user\" }]}'", "ICE"],
+   ["→ ", "OR", "200 OK", "BLUE2"]
+  ]
  },
  {
   "key": "openai-api-tutorial",
   "category": "ai-automation",
   "label": "OpenAI API",
-  "motif": "terminal"
+  "motif": "terminal",
+  "code": [
+   ["$ ", "OR", "curl https://api.openai.com/v1/responses", "ICE"],
+   ["  -H ", "STEEL", "\"Authorization: Bearer $OPENAI_API_KEY\"", "BLUE2"],
+   ["  -H ", "STEEL", "\"Content-Type: application/json\"", "BLUE2"],
+   ["  -d ", "STEEL", "'{\"model\": \"…\", \"input\": \"Hello\"}'", "ICE"],
+   ["", "STEEL", "", "ICE"],
+   ["→ ", "OR", "200 OK", "BLUE2"]
+  ]
  },
  {
   "key": "build-app-with-ai",
