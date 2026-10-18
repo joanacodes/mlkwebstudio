@@ -171,7 +171,7 @@ Trois habitudes gardent les dépenses en outils sous contrôle :
 2. Exportez régulièrement vos contacts et votre liste d’exclusion, pour qu’un changement d’outil ne vous fasse jamais repartir de zéro.
 3. Comptez l’ensemble : domaines, boîtes mail, vérification des listes et données de leads s’ajoutent à l’outil d’envoi. Mon guide des {{< a key="small-business-tools-guide" >}}outils numériques pour TPE{{< /a >}} liste ceux que j’utilise chaque jour et ce qu’ils coûtent.
 
-{{< callout type="note" >}}**L’outil ne change pas les règles.** En B2B, la CNIL admet la prospection par email sans consentement préalable si le message concerne l’activité professionnelle du destinataire et s’il a été informé de l’utilisation de son adresse, avec la possibilité de s’y opposer simplement et gratuitement ; chaque email doit indiquer l’expéditeur et offrir un moyen de refuser les envois suivants. Le détail est sur [la fiche de la CNIL](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique).{{< /callout >}}
+{{< callout type="note" >}}**L’outil ne change pas les règles.** En B2B, la CNIL admet la prospection par email sans consentement préalable si le message concerne l’activité professionnelle du destinataire et s’il a été informé de l’utilisation de son adresse, avec la possibilité de s’y opposer simplement et gratuitement ; chaque email doit indiquer l’expéditeur et offrir un moyen de refuser les envois suivants. Le détail est sur [la fiche de la CNIL](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel).{{< /callout >}}
 
 ## Choisir en cinq minutes : la liste de contrôle
 

@@ -119,11 +119,11 @@ Internal links lead from one page of your site to another. They help visitors an
 - Describe the target in the anchor text, such as "boiler repair in Leeds", never "click here".
 - Link each article to the service that solves the problem it describes.
 
-The {{< a page="/projects/pilotech-vmi" >}}ventilation site I built for Pilotech{{< /a >}} rests on that last rule. Each of its 21 articles starts from a problem people search for, such as condensation in attics or black mould in a flat, and links to the page of the unit suited to that problem. The reader arrives with a problem and leaves on the page of the solution.
+The {{< a page="/projects/pilotech-vmi" >}}ventilation site I built for Pilotech{{< /a >}} rests on that last rule. Each of its 21 articles starts from a problem people search for, such as condensation in attics or black mould in a flat, and links to the page of the unit suited to that problem.
 
 ## Check 8: write the title tag last, and make it worth clicking
 
-The title tag is the page's name in its code. Browsers show it on the tab, and Google usually turns it into the blue title link of your result, so it decides whether people click. I write it last: a title written before the copy is final tends to describe a page that no longer exists.
+The title tag is the page's name in its code. Browsers show it on the tab, and Google usually turns it into the blue title link of your result, so it weighs heavily on whether people click. I write it last: a title written before the copy is final tends to describe a page that no longer exists.
 
 For most small business pages, the formula is the keyword first, then a reason to choose you, then your business name:
 
@@ -144,16 +144,16 @@ Squarespace and Wix have a title field in each page's SEO settings, WordPress ne
 The meta description is a sentence or two in the page's code that summarises it. Google often shows it under the title link, so write it like a small advert: what you offer, where, one detail that sets you apart, and what to do next.
 
 ```html
-<meta name="description" content="Boiler repairs across Leeds by Gas Safe registered engineers, often the same day. All major brands, with a fixed price agreed before any work starts.">
+<meta name="description" content="Boiler repairs across Leeds by Gas Safe registered engineers, often the same day. All major brands, with a fixed price agreed upfront. Call or book online.">
 ```
 
 Google has long said the description plays no part in rankings: its job is to win the click. Google sets no length limit either, but it cuts the snippet to fit the screen, so 150 to 160 characters with the essentials first is a safe length. It also often writes its own snippet from the page's text when that text matches the search better ([Google's guide to snippets](https://developers.google.com/search/docs/appearance/snippet)), one more reason for copy that answers the search.
 
-Give every page its own description, then let Search Console show you which to rewrite first: a page with many impressions and few clicks is being seen and passed over. A sharper title and description are usually the quickest fix.
+Give every page its own description, then let Search Console show you which to rewrite first: in **Performance**, click **Average CTR** and sort the **Pages** tab by impressions. A page with many impressions and few clicks is being seen and passed over, and a sharper title and description are usually the quickest fix.
 
 ## Check 10: add structured data where it fits
 
-Structured data, or schema markup, is code that describes a page to search engines in a shared vocabulary, schema.org. Google recommends the JSON-LD format, a block of code that visitors never see. It can make a page eligible for rich results such as review stars, prices or breadcrumbs, though Google never guarantees one. For a small business, a few types do most of the work:
+Structured data, or schema markup, is code that describes a page to search engines in a shared vocabulary, schema.org. Google recommends the JSON-LD format, a block of code that visitors never see. It can make a page eligible for rich results such as a product's price and rating, or breadcrumbs, though Google never guarantees one. For a small business, a few types do most of the work:
 
 - `LocalBusiness` (or `Organization`) on the home or contact page: name, address, phone number, opening hours.
 - `Product` on product pages, with the price and availability.
@@ -168,9 +168,7 @@ Skip FAQ and HowTo markup if rich results are the goal. FAQ rich results stopped
 
 ## Checks 11 and 12: mobile, speed and indexing
 
-The last two checks are technical, but you run them page by page.
-
-**Check 11: the page works on a phone and loads fast.** Google mainly uses the mobile version of a page to index and rank it, so open yours on a phone: text readable without zooming, buttons easy to tap, a phone number that dials when tapped, nothing covering the content. Then test it in PageSpeed Insights at `pagespeed.web.dev`. Core Web Vitals count as good when the main content appears within 2.5 seconds (LCP), the page reacts to a tap or click within 200 milliseconds (INP) and the layout barely shifts (CLS of 0.1 or less). My guide to {{< a key="core-web-vitals-speed" >}}Core Web Vitals{{< /a >}} explains how to fix each one.
+**Check 11: the page works on a phone and loads fast.** Google mainly uses the mobile version of a page to index and rank it, so open yours on a phone: text readable without zooming, buttons easy to tap, a phone number that dials when tapped, nothing covering the content. Then test it in PageSpeed Insights at `pagespeed.web.dev`. Core Web Vitals count as good when the main content appears within 2.5 seconds (LCP), the page reacts to a tap or click within 200 milliseconds (INP) and the layout barely shifts (CLS of 0.1 or less). On a small site, the real-visit section at the top of the report is often empty for lack of traffic: the lab test below it is then your guide. My guide to {{< a key="core-web-vitals-speed" >}}Core Web Vitals{{< /a >}} explains how to fix each one.
 
 {{< screenshot id="on-page-seo-checklist-05" alt="PageSpeed Insights mobile report for a page, with the Core Web Vitals assessment at the top" >}}
 
@@ -183,7 +181,7 @@ The last two checks are technical, but you run them page by page.
 Some advice still in circulation costs time and changes nothing. Skip:
 
 - **The meta keywords tag.** Google does not use it, as its [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) says in a list of things not to focus on.
-- **Word counts and keyword density.** That list includes content length, and repeating a keyword to reach a percentage is keyword stuffing, which breaks Google's spam policies.
+- **Word counts and keyword density.** That list includes content length, and repeating a keyword to reach a percentage soon turns into keyword stuffing, which breaks Google's spam policies.
 - **Special files and markup for AI search.** Google's guide to its AI features, published in May 2026, says that optimising for AI Overviews and AI Mode is still SEO: llms.txt files, content cut into chunks and special schema are not needed for Google Search.
 - **A perfect PageSpeed score.** The performance score out of 100 in PageSpeed Insights comes from a simulated visit. Aim to pass the Core Web Vitals instead; a page can do so with a score well below 100.
 

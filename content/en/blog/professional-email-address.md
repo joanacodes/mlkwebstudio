@@ -73,7 +73,7 @@ Here are the routes to an address on your domain, with the entry price of each a
 | Private Email (Namecheap) | The same profile, with a domain at Namecheap | Low cost, with a 30-day free trial; check the current price |
 | Google Workspace Business Starter | Teams that work in Gmail, Docs and Drive | £5.90 per user a month on the annual plan, excluding VAT ($7 in the US) |
 | Microsoft 365 Business Basic | Teams that work in Outlook and Office files | £5.40 per user a month, paid yearly, excluding VAT ($7 in the US) |
-| Infomaniak kSuite Standard | Teams that want a European suite, with data in Switzerland | €1.58 (about £1.35, $1.80) per user a month, excluding VAT |
+| Infomaniak kSuite Standard | Teams that want a European suite, with data in Switzerland | CHF 1.76 (about £1.60, $2.10) per user a month, excluding VAT |
 | Email included with web hosting | Sites already on a host whose plan includes mailboxes | Included in the hosting plan |
 | Free forwarding | A stopgap: it receives but does not send | Free at some registrars and DNS hosts |
 
@@ -97,7 +97,7 @@ It suits businesses whose clients send them Word and Excel files all day, with s
 
 ### Infomaniak kSuite
 
-kSuite is the suite of Infomaniak, a Geneva company that runs its own data centres in Switzerland: email, calendar, kDrive for files, team chat and video calls. The Standard plan costs €1.58 (about £1.35, $1.80) per user a month excluding VAT, with two email addresses per user, unlimited mail storage and 50 GB on kDrive, according to [Infomaniak's kSuite pricing page](https://www.infomaniak.com/en/ksuite/ksuite-pro/prices), which shows CHF 1.76 if it opens in Swiss francs. If you only want email, Infomaniak also sells it on its own as Service Mail.
+kSuite is the suite of Infomaniak, a Geneva company that runs its own data centres in Switzerland: email, calendar, kDrive for files, team chat and video calls. The Standard plan costs CHF 1.76 (about £1.60, $2.10) per user a month excluding VAT, with two email addresses per user, unlimited mail storage and 50 GB on kDrive, according to [Infomaniak's kSuite pricing page](https://www.infomaniak.com/en/ksuite/ksuite-pro/prices). If you only want email, Infomaniak also sells it on its own as Service Mail.
 
 I discovered Infomaniak through clients whose domains were already there, and I recommend it highly. My {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}} goes through the plans.
 

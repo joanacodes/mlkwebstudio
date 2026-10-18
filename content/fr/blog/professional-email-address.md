@@ -73,7 +73,7 @@ Voici les solutions, avec le prix d’entrée de chacune au moment où j’écri
 | Private Email (Namecheap) | Le même profil, avec un domaine chez Namecheap | Petit prix, 30 jours d’essai gratuit ; vérifiez le tarif du jour |
 | Google Workspace Business Starter | Équipes qui travaillent dans Gmail, Docs et Drive | 6,80 € HT par utilisateur et par mois avec engagement annuel |
 | Microsoft 365 Business Basic | Équipes qui travaillent dans Outlook et les fichiers Office | 7 $ par utilisateur et par mois aux États-Unis ; vérifiez le prix en euros |
-| kSuite Standard (Infomaniak) | Équipes qui veulent une suite européenne, avec des données en Suisse | 1,58 € HT par utilisateur et par mois |
+| kSuite Standard (Infomaniak) | Équipes qui veulent une suite européenne, avec des données en Suisse | 1,76 CHF HT (environ 1,90 €) par utilisateur et par mois |
 | Emails inclus dans l’hébergement web | Sites déjà chez un hébergeur dont l’offre comprend des boîtes mail | Compris dans le prix de l’hébergement |
 | Redirection gratuite | Solution d’attente : elle reçoit mais n’envoie pas | Gratuite chez certains registrars et hébergeurs DNS |
 
@@ -97,7 +97,7 @@ L’offre convient aux entreprises dont les clients envoient des fichiers Word e
 
 ### La kSuite d’Infomaniak
 
-La kSuite est la suite d’Infomaniak, une entreprise genevoise qui exploite ses propres centres de données en Suisse : messagerie, agenda, kDrive pour les fichiers, messagerie d’équipe et visioconférence. L’offre Standard coûte 1,58 € HT par utilisateur et par mois, avec deux adresses email par utilisateur, un stockage mail illimité et 50 Go sur kDrive, selon [la page kSuite d’Infomaniak](https://www.infomaniak.com/fr/ksuite). Si vous ne voulez que des emails, Infomaniak vend aussi sa messagerie seule, sous le nom de Service Mail.
+La kSuite est la suite d’Infomaniak, une entreprise genevoise qui exploite ses propres centres de données en Suisse : messagerie, agenda, kDrive pour les fichiers, messagerie d’équipe et visioconférence. L’offre Standard coûte 1,76 CHF HT (environ 1,90 €) par utilisateur et par mois, avec deux adresses email par utilisateur, un stockage mail illimité et 50 Go sur kDrive, selon [la page kSuite d’Infomaniak](https://www.infomaniak.com/fr/ksuite). Si vous ne voulez que des emails, Infomaniak vend aussi sa messagerie seule, sous le nom de Service Mail.
 
 J’ai découvert Infomaniak par des clients dont les domaines s’y trouvaient déjà, et je le recommande vivement. Mon {{< a key="infomaniak-review" >}}avis sur Infomaniak{{< /a >}} passe les offres en revue.
 

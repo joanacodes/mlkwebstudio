@@ -57,7 +57,7 @@ Every marketing email must say who is sending it and give a valid address to opt
 
 ### In France: what the CNIL allows
 
-The CNIL lets you email professionals without prior consent when **the message relates to their job**, they have been told their address may be used for prospecting, and they can object simply and free of charge. Each email names the sender and offers an easy way to unsubscribe, and every objection goes on a suppression list (see [the CNIL's page on email prospecting](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique), in French).
+The CNIL lets you email professionals without prior consent when **the message relates to their job**, they have been told their address may be used for prospecting, and they can object simply and free of charge. Each email names the sender and offers an easy way to unsubscribe, and every objection goes on a suppression list (see [the CNIL's page on email prospecting](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel), in French).
 
 Three French details shape the set-up. Generic addresses such as contact@ or info@ are the company's details, not a person's, so the rules for individuals do not apply to them, although you still name yourself and offer an opt-out. The CNIL's guidance is to keep a prospect's data for three years at most after collection or their last contact with you. And since its recommendation on tracking pixels, published in April 2026, an open-tracking pixel needs consent, even in B2B: one more reason to send plain text with tracking switched off.
 

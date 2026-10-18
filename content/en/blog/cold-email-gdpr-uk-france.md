@@ -137,7 +137,7 @@ If some of your prospects are French businesses, follow the French rules for tho
 - they are told their address is used for prospecting, and can object simply and free of charge;
 - every email names the sender and offers a way to opt out.
 
-Generic company addresses such as contact@ or info@ are the company's details, not a person's, so the first two conditions do not apply to them; the third still does. The CNIL's page on [email prospecting](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique) (in French) sets this out.
+Generic company addresses such as contact@ or info@ are the company's details, not a person's, so the first two conditions do not apply to them; the third still does. The CNIL's page on [email prospecting](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel) (in French) sets this out.
 
 The biggest difference with the UK: the CNIL's B2B rule speaks of professionals and their profession, and does not ask whether the business is a company. The campaigns I run for {{< a page="/projects/pilotech-teknopoint" >}}Pilotech{{< /a >}}, an air conditioning installer in the Paris region, go to three audiences: Paris restaurants, Paris offices and shops, and architects, the main focus and the ones who called most ({{< a key="architects-cold-email-case-study" >}}the full case study{{< /a >}}). Many of those architects work on their own. In France, an email about air conditioning for their projects falls under the B2B rule; the same email to London architects who trade as sole traders would need their consent.
 

@@ -29,7 +29,7 @@ faq:
 
 AI visibility is how often AI assistants name your business when someone asks them about what you sell. If a customer asks ChatGPT for a reliable office cleaning company in Manchester and your company is in the answer, you are visible. If three competitors are named instead, you have work to do.
 
-There is no ranking to look up, so the only way to know is to ask the assistants yourself, the way your customers do. This tutorial gives you a free method for any small business: ten prompts, a spreadsheet and an hour or so each month. Then come the free reports from Microsoft and Google, the paid trackers, and what to change when the results disappoint.
+There is no ranking to look up, so the most direct way to find out is to ask the assistants yourself, the way your customers do. This tutorial gives you a free method for any small business: ten prompts, a spreadsheet and a couple of hours each month. Then come the free reports from Microsoft and Google, the paid trackers, and what to change when the results disappoint.
 
 It belongs to my {{< a key="ai-search-geo-guide" >}}guide to generative engine optimisation{{< /a >}}, which explains how assistants choose the businesses they mention. For the test itself, a browser and a spreadsheet are enough.
 
@@ -66,7 +66,7 @@ Ten prompts are enough to start. More prompts give you more rows to fill, not ne
 
 To find the words your customers use, look in four places:
 
-- **Your phone calls.** Questions my clients ask on a first call, such as "Do you have experience?" or "How long will it take?", are what people now ask an assistant before calling anyone.
+- **Your phone calls.** Questions my clients ask on a first call, such as "Do you have experience?" or "How long will it take?", are the kind of questions people now put to an assistant before calling anyone.
 - **Search Console.** The searches that already show your site on Google reveal the words people use for your trade.
 - **Keyword costs.** I use Semrush mainly for keyword research and for what keywords cost in ads. Advertisers pay most for the searches that bring business, so an expensive keyword usually makes a good prompt.
 - **Deep research.** I use deep research tools to find what people in a niche complain about most and which words keep coming back. My method is in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}.
@@ -80,7 +80,7 @@ Create a spreadsheet in Google Sheets or Excel, with one tab per month and these
 | Column | Header | What to enter |
 |---|---|---|
 | A | Date | The day of the test |
-| B | Assistant | ChatGPT, Gemini, Perplexity or Google |
+| B | Assistant | ChatGPT, Gemini, Perplexity, AI Overviews or AI Mode |
 | C | Prompt | The exact wording from your list |
 | D | Named | Yes or No |
 | E | Position | 1 if you are named first, 2 if second, and so on |
@@ -92,7 +92,7 @@ Create a spreadsheet in Google Sheets or Excel, with one tab per month and these
 
 {{< screenshot id="check-ai-visibility-01" alt="Empty AI visibility spreadsheet with columns for date, assistant, prompt, named, position, link, what it said, accurate, competitors and sources" >}}
 
-Each answer is one row: ten prompts in four assistants make forty rows a month.
+Each answer is one row: ten prompts in ChatGPT, Gemini, Perplexity, AI Overviews and AI Mode make fifty rows a month.
 
 ## Step 3: ask each assistant without memory or history
 
@@ -120,7 +120,7 @@ Perplexity works without an account, so a private window is enough. It numbers i
 
 ### Google AI Overviews and AI Mode
 
-Search each prompt on Google in a private window. AI Overviews appear above the results for some searches, not all of them: write "no overview" when there is none. Then ask the same prompt in AI Mode, available in the UK since July 2025. Google's AI answers draw on Google Search, so they are the ones your usual SEO work affects most directly.
+Search each prompt on Google in a private window. AI Overviews appear above the results for some searches, not all of them: when there is none, write "no overview" in the What it said column and No in Named. Then ask the same prompt in AI Mode, available in the UK since July 2025. Google's AI answers draw on Google Search, so they are the ones your usual SEO work affects most directly.
 
 {{< screenshot id="check-ai-visibility-04" alt="Google AI Mode answering a local service prompt, with the businesses and links it cites" >}}
 
@@ -136,7 +136,7 @@ Fill in each row as soon as the answer appears: by the fifth answer about office
 - **What it said:** copy the sentence about you exactly, mistakes included, then compare it with your current services, area, prices, hours and phone number.
 - **Sources:** note the domains cited: directories, review sites, local press, forum threads, your own site.
 
-I check the Accurate column closely with ChatGPT. In my experience it makes things up a bit too often, which is one reason I use Claude for my own work. An invented service or an old phone number can usually be traced to a source, and a source can be corrected.
+Watch the Accurate column closely for ChatGPT: in my experience it makes things up a bit too often, which is one reason I use Claude for my own work. When the same wrong detail keeps coming back, such as an old phone number or a service you dropped, it can usually be traced to a source, and a source can be corrected.
 
 Then ask your five most important prompts a second time, in a new chat and on a new row. Answers vary from one run to the next, and a second run shows whether a mention is stable or a fluke.
 
@@ -170,13 +170,13 @@ Grounding queries are the searches an assistant runs before it answers. They sho
 
 ## Paid trackers: Semrush and Squarespace
 
-Paid trackers run your prompts on a schedule and chart how often you are named. They save time and handle more prompts than you would by hand; read their figures as a trend, as you would your spreadsheet. Run the free test for three months before paying for one, though: it is easy for a small team to fall for every new tool, and the channels that already bring you clients come first.
+Paid trackers run your prompts on a schedule and chart how often you are named. They save time and handle more prompts than you would by hand. Run the manual test for three months before paying for one, though: it is easy for a small team to fall for every new tool, and the channels that already bring you clients come first.
 
 ### Semrush AI Visibility Toolkit
 
-Semrush, owned by Adobe since April 2026, sells an AI Visibility Toolkit on its own and inside Semrush One, its bundle with the SEO Toolkit. According to Semrush's knowledge base, the toolkit costs $99 a month for one domain, with 25 prompts in Prompt Tracking, 50 more prompts for $60 a month and no free trial. Semrush names ChatGPT and Google's AI Mode among the platforms it tracks.
+Semrush, owned by Adobe since April 2026, sells an AI Visibility Toolkit on its own and inside Semrush One, its bundle with the SEO Toolkit. According to Semrush's knowledge base, the toolkit costs $99 (about £75) a month for one domain, with 25 prompts in Prompt Tracking, 50 more prompts for $60 (about £45) a month and no free trial. Semrush's help names ChatGPT and Google's AI Mode for prompt tracking, but I could not confirm Gemini or Perplexity: if those two matter to you, check the list before paying.
 
-These are the prices at the time of writing (October 2026), taken from Semrush's documentation. Semrush lists them in US dollars only, so I give no £ figure: check the current offer, and whether it is the monthly or annual rate, on [Semrush's pricing page](https://www.semrush.com/prices/). My {{< a key="semrush-review" >}}review of whether Semrush is worth it{{< /a >}} covers the rest of the product.
+These are the prices at the time of writing (October 2026), taken from Semrush's documentation. Semrush lists them in US dollars only, so the pound figures are my conversions at early October 2026 rates, not official prices: check the current offer, the amount you will actually be charged and whether $99 is the monthly or the annual-billing rate on [Semrush's pricing page](https://www.semrush.com/prices/). My {{< a key="semrush-review" >}}review of whether Semrush is worth it{{< /a >}} covers the rest of the product.
 
 {{< screenshot id="check-ai-visibility-07" alt="Semrush AI Visibility Toolkit prompt tracking report listing the prompts and whether the brand is mentioned" >}}
 
@@ -184,28 +184,28 @@ These are the prices at the time of writing (October 2026), taken from Semrush's
 
 If your site runs on Squarespace, as the sites I build for clients who edit their own pages usually do, look at its AI Visibility tool, released in July 2026. It sits in the SEO & AIO section of the dashboard, next to the SEO report. Squarespace drafts up to 12 example prompts from your site's content and industry, which you can edit or add to. It then shows when your site appears in answers, for which prompts, and who appears when you do not.
 
-For now it covers ChatGPT and Gemini, on English-language sites built on version 7.1 ([Squarespace's announcement](https://www.squarespace.com/blog/ai-visibility)). I found no published price or list of plans for it, so check your own dashboard.
+For now it covers ChatGPT and Gemini, on English-language sites built on version 7.1 ([Squarespace's announcement](https://www.squarespace.com/blog/ai-visibility)). Squarespace says it comes with your plan at no extra cost, but its use is capped by the AI credits your plan includes, and that number varies from plan to plan: check what yours allows in your dashboard or in Squarespace's help centre.
 
 ## What to do with your results
 
 | What you see | What it usually means | What to do |
 |---|---|---|
-| No assistant names you | They cannot reach your site, or find nothing on it that answers the prompt | Check that AI crawlers can reach your site, then give each service and town a clear page |
+| No assistant names you | They cannot reach your site, or find nothing on it that answers the prompt | Check that AI crawlers can reach your site, then give a clear page to each service, and to each town where you really work |
 | Named, with wrong details | Old or conflicting information somewhere | Correct the sources cited, then test again a few weeks later |
 | Named, but without a link to your site | Other sites answer the question better than yours | Add the missing facts to your own pages, written to be quoted |
 | Competitors named instead of you | They appear in sources where you are missing | Get listed, reviewed or written about on those sites |
 | Named by one assistant, not another | Each one searches a different index | Make sure Google and Bing both index your site |
 
-The first two rows are the groundwork in my guide on how to {{< a key="get-recommended-by-chatgpt" >}}get recommended by ChatGPT{{< /a >}}: crawler access, one page per service and town, and identical details on your site, your Google Business Profile and your directory listings. For the third row, my tutorial on how to {{< a key="write-content-for-ai-search" >}}write content for AI search{{< /a >}} shows how to write pages that assistants quote.
+The first two rows are the groundwork in my guide on how to {{< a key="get-recommended-by-chatgpt" >}}get recommended by ChatGPT{{< /a >}}: crawler access, a clear page for each service and each town you really cover, and identical details on your site, your Google Business Profile and your directory listings. For the third row, my tutorial on how to {{< a key="write-content-for-ai-search" >}}write content for AI search{{< /a >}} shows how to write pages that assistants quote.
 
-The Competitors column is the most useful one. For social media, I like Metricool because it lets you watch what competitors do, especially the ones that are succeeding, and your spreadsheet works the same way. Take the competitor named most often and open the sources cited next to it: a directory, a review site, a local news article, a forum thread. Those are the places to be next.
+The Competitors column is the most useful one. On social media, I like Metricool because it shows what competitors do, especially the ones that are succeeding; this column does the same for AI answers. Take the competitor named most often and open the sources cited next to it: a directory, a review site, a local news article, a forum thread. Those are the places to be next.
 
 Mentions on other sites take the longest to earn and count the most. Start with your town's paper, then the regional press, then national titles. My guide on {{< a key="get-press-coverage" >}}how to get press coverage{{< /a >}} explains how to pitch a journalist.
 
 ## Your monthly AI visibility check
 
 1. Duplicate last month's tab and clear the answers, keeping the ten prompts.
-2. Ask each prompt in ChatGPT, Gemini, Perplexity and Google, logged out or without memory, in a new chat each time.
+2. Ask each prompt in ChatGPT, Gemini, Perplexity, AI Overviews and AI Mode, logged out or without memory, in a new chat each time.
 3. Fill in every row, then ask your five main prompts a second time.
 4. Work out the mention rate for each assistant and note the competitor named most often.
 5. Look at Bing's AI Performance report, Clarity's Citations report and Search Console's generative AI report.

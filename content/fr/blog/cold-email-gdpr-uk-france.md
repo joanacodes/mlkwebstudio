@@ -42,7 +42,7 @@ En B2B, le cold emailing est légal en France sous conditions, et deux textes se
 
 Le CPCE parle du canal, le RGPD des données. Un email envoyé à l’adresse prénom.nom@ d’une salariée de SAS, au sujet de son métier, ne nécessite pas son consentement au titre du CPCE, mais le RGPD s’applique quand même : son nom figure dans l’adresse et dans votre tableur. À l’inverse, un email à un particulier exige son consentement, quelle que soit la qualité de votre documentation RGPD.
 
-La CNIL résume ces règles dans sa fiche sur [la prospection commerciale par courrier électronique](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique), la référence de tout ce qui suit.
+La CNIL résume ces règles dans sa fiche sur [la prospection commerciale par courrier électronique](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel), la référence de tout ce qui suit.
 
 ## Qui peut recevoir un cold email sans consentement
 
