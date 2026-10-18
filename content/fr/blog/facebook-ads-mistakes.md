@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:25:00+02:00
 category: "marketing"
 article_type: "guide"
 keywords: ["erreurs publicité Facebook", "erreurs Facebook Ads", "publicité Facebook qui ne marche pas", "test A/B Facebook", "Bibliothèque publicitaire Meta", "publicité Facebook petite entreprise"]
-summary: "Les deux erreurs en publicité Facebook que je signale d’abord aux dirigeants : sauter la recherche et sauter les tests A/B. Meta n’a pas de mots-clés, donc la recherche porte sur les mots et les problèmes de vos clients et sur les publicités déjà en ligne dans la Bibliothèque publicitaire ; les tests, eux, se font un élément à la fois, pendant au moins 7 jours, avec un budget prévu. Viennent ensuite le mauvais objectif, l’absence de suivi et une page qui ne répond pas à l’annonce."
+summary: "Les deux erreurs en publicité Facebook que je signale en premier : sauter la recherche et sauter les tests A/B. Meta n’a pas de mots-clés, donc la recherche porte sur les mots et les problèmes de vos clients et sur les publicités déjà en ligne dans la Bibliothèque publicitaire ; les tests, eux, se font un élément à la fois, pendant au moins 7 jours, avec un budget prévu. Viennent ensuite le mauvais objectif, l’absence de suivi et une page qui ne répond pas à l’annonce."
 cover: "facebook-ads-mistakes"
 cover_alt: "Les mots Meta Ads et un mégaphone stylisé, à côté d’une main qui note des chiffres dans un tableau"
 related: ["google-ads-vs-facebook-ads", "instagram-algorithm-2026", "google-ads-small-business", "keyword-research-small-business", "shiny-object-syndrome"]
@@ -45,7 +45,7 @@ La recherche de mots-clés garde donc tout son sens, sous une autre forme : vou
 
 ### Étudier les publicités en ligne dans la Bibliothèque publicitaire
 
-La [Bibliothèque publicitaire de Meta](https://www.facebook.com/ads/library/) est gratuite et ouverte à tous. Elle montre les publicités en cours de diffusion sur Facebook, Instagram et les autres applications de Meta, quel que soit l’annonceur. Choisissez la France comme pays et la catégorie qui couvre toutes les publicités (pas seulement les publicités politiques), puis cherchez vos concurrents par leur nom ou un mot de votre métier.
+La [Bibliothèque publicitaire de Meta](https://www.facebook.com/ads/library/) est gratuite et ouverte à tous. Elle montre les publicités en cours de diffusion sur Facebook, Instagram et les autres applications de Meta, quel que soit l’annonceur. Choisissez la France comme pays et la catégorie qui couvre toutes les publicités, puis cherchez vos concurrents par leur nom ou un mot de votre métier.
 
 Pour chaque publicité, notez l’offre, la première ligne, le format et la date de début de diffusion. Une publicité qui tourne depuis des mois est probablement rentable ; un annonceur dont les publicités changent chaque semaine est sans doute encore en train de tester.
 
@@ -53,11 +53,11 @@ Ne les copiez pas. Repérez ce qu’elles promettent toutes, puis ce qu’aucune
 
 ## Erreur n° 2 : sauter les tests A/B, ou tout tester à la fois
 
-Un test A/B compare deux versions d’une publicité, d’un ensemble de publicités ou d’une campagne qui ne diffèrent que par un élément. Sans test, vous n’avez que des avis : le vôtre, celui de votre graphiste et celui de Meta.
+Un test A/B compare deux versions d’une publicité, d’un ensemble de publicités ou d’une campagne qui ne diffèrent que par un élément. Sans test, vous n’avez que des suppositions.
 
-Dans mes campagnes de cold emailing, je teste le texte en A/B, et les réponses augmentent en général avec le temps, parce que j’apprends quelle version a marché et laquelle non. La publicité Facebook et Instagram fonctionne de la même façon, à une différence près : chaque test se paie en budget publicitaire. Il faut accepter de dépenser avant de savoir ce qui marche ; prévoyez-le au lieu d’espérer y échapper.
+Dans mes campagnes de cold emailing, je teste le texte en A/B, et les réponses augmentent en général avec le temps, parce que j’apprends quelle version a marché et laquelle non. La publicité Facebook et Instagram fonctionne de la même façon, à une différence près : chaque test se paie en budget publicitaire : prévoyez-le au lieu d’espérer y échapper.
 
-Meta propose un outil intégré pour cela. Il répartit l’audience pour que chaque version soit montrée à un groupe différent et que personne ne voie les deux, ce qui rend la comparaison équitable, comme l’explique la [page d’aide de Meta sur les tests A/B](https://fr-fr.facebook.com/business/help/1738164643098669). La voie que Meta recommande : sélectionner une campagne ou un ensemble de publicités existant dans le Gestionnaire de publicités, puis cliquer sur le bouton de test A/B de la barre d’outils. Vous pouvez aussi dupliquer une publicité et changer un élément, comparer deux campagnes déjà en cours, ou passer par l’outil Expériences.
+L’outil intégré de Meta répartit l’audience pour que chaque version soit montrée à un groupe différent et que personne ne voie les deux, ce qui rend la comparaison équitable, comme l’explique la [page d’aide de Meta sur les tests A/B](https://fr-fr.facebook.com/business/help/1738164643098669). La voie que Meta recommande : sélectionner une campagne ou un ensemble de publicités existant dans le Gestionnaire de publicités, puis cliquer sur le bouton de test A/B de la barre d’outils. Vous pouvez aussi dupliquer une publicité et changer un élément, comparer deux campagnes déjà en cours, ou passer par l’outil Expériences.
 
 ### Mener un test propre
 
@@ -81,7 +81,7 @@ Le Gestionnaire de publicités demande d’abord un objectif : notoriété, tra
 
 Pour des demandes, choisissez l’objectif **Prospects**, avec un formulaire instantané ou un formulaire sur votre site. Pour des ventes en ligne, choisissez **Ventes**. Gardez la notoriété pour le moment où les gens doivent savoir que vous existez avant d’acheter, et jugez-la sur la couverture, pas sur les appels.
 
-Sponsoriser une publication en un clic depuis votre Page est un raccourci vers le même piège. C’est rapide, et suffisant pour donner un peu plus de portée à une publication qui marche déjà, mais vous avez moins de choix que dans le Gestionnaire de publicités, où se construisent les tests décrits plus haut. Une publication sponsorisée ne corrige pas non plus une faible portée naturelle : ce qui décide qui voit vos publications non payantes est expliqué dans mon point sur l’{{< a key="instagram-algorithm-2026" >}}algorithme Instagram 2026{{< /a >}}.
+Sponsoriser une publication en un clic depuis votre Page est un raccourci vers le même piège. C’est rapide, et suffisant pour donner un peu plus de portée à une publication qui marche déjà, mais avec moins de réglages que le Gestionnaire de publicités, où se construisent les tests. Une publication sponsorisée ne corrige pas non plus une faible portée naturelle : ce qui décide qui voit vos publications non payantes est expliqué dans mon point sur l’{{< a key="instagram-algorithm-2026" >}}algorithme Instagram 2026{{< /a >}}.
 
 ## Erreur n° 4 : lancer sans suivi des conversions
 
@@ -98,7 +98,7 @@ La plupart des créateurs de sites et des plateformes de boutique en ligne propo
 
 Exiger que les gens correspondent à plusieurs centres d’intérêt à la fois, dans un rayon de 5 km, donne une impression de précision. En pratique, cela laisse très peu de monde au système de diffusion de Meta, ce qui tend à rendre chaque résultat plus cher. Sur beaucoup de campagnes, le Gestionnaire de publicités part désormais de l’audience Advantage+ : votre zone géographique et l’âge minimum restent des limites fermes, tandis que les centres d’intérêt, les tranches d’âge et vos propres audiences deviennent des suggestions que Meta peut dépasser.
 
-Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propriétaires bailleurs à Lyon » est ignorée par tous les autres, quels que soient les réglages. Limitez la zone à celle que vous servez vraiment, et concentrez vos efforts sur ce qui rapporte :
+Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propriétaires bailleurs à Lyon » est ignorée par tous les autres. Limitez la zone à celle que vous servez vraiment, et concentrez vos efforts sur ce qui rapporte :
 
 - **les audiences personnalisées** : les personnes qui ont visité votre site, interagi avec votre Page ou votre compte Instagram, ou qui figurent sur une liste de clients que vous avez le droit d’utiliser pour la publicité ;
 - **les audiences similaires** : des personnes qui ressemblent à vos meilleurs clients ;
@@ -108,7 +108,7 @@ Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propr
 
 Après le lancement, et après chaque modification importante, un ensemble de publicités passe par une phase d’apprentissage, le temps que Meta trouve à qui le montrer. Les résultats varient beaucoup pendant cette période. La [page d’aide de Meta sur la phase d’apprentissage](https://fr-fr.facebook.com/business/help/112167992830700) la décrit, et ses recommandations parlent d’environ 50 résultats en une semaine avant que la diffusion se stabilise.
 
-Une modification du ciblage, de la publicité ou de l’événement d’optimisation, ou une forte hausse du budget, peut renvoyer l’ensemble de publicités au point de départ. Choisissez donc un jour par semaine pour lire les résultats, faites vos changements ce jour-là, et laissez la campagne tranquille entre deux. Un petit budget complique les choses : moins vous obtenez de résultats, plus l’apprentissage dure. Si un ensemble de publicités n’obtient pas assez de résultats, le Gestionnaire de publicités signale un apprentissage limité : regroupez les ensembles de publicités, élargissez l’audience ou optimisez pour un résultat plus fréquent, comme un formulaire envoyé plutôt qu’une vente, au lieu de le modifier tous les jours.
+Une modification du ciblage, de la publicité ou de l’événement d’optimisation, ou une forte hausse du budget, peut renvoyer l’ensemble de publicités au point de départ. Choisissez donc un jour par semaine pour lire les résultats, faites vos changements ce jour-là, et laissez la campagne tranquille entre deux. Un petit budget complique les choses : moins vous obtenez de résultats, plus l’apprentissage dure. Faute de résultats suffisants, le Gestionnaire de publicités signale un apprentissage limité : regroupez vos ensembles de publicités, élargissez l’audience ou visez un résultat plus fréquent, comme un formulaire envoyé plutôt qu’une vente.
 
 ## Erreur n° 7 : juger les publicités sur les J’aime et les clics
 
@@ -134,7 +134,7 @@ Observez ensuite ce que font les visiteurs. J’utilise Microsoft Clarity pour v
 
 Une publicité gagnante ne gagne pas éternellement. Le Gestionnaire de publicités indique la répétition : le nombre moyen de fois où chaque personne a vu votre publicité. Quand elle grimpe et que les résultats baissent, les personnes touchées l’ont trop vue : montrez-leur la version suivante, que vos tests vous ont normalement déjà permis de préparer.
 
-Lisez aussi les commentaires sous vos publicités. Répondez aux questions, masquez les commentaires indésirables et notez les mots employés : c’est de la recherche pour votre prochaine annonce, ce qui ramène à l’erreur n° 1.
+Lisez aussi les commentaires sous vos publicités. Répondez aux questions, masquez les commentaires indésirables et notez les mots employés : c’est la recherche de votre prochaine annonce.
 
 ## Erreur n° 10 : ajouter Meta Ads quand un autre canal convient mieux
 

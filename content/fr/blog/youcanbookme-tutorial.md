@@ -119,15 +119,15 @@ Les rappels sont en général la première fonction payante qui vaut la peine. L
 
 La France a une heure d’avance sur le Royaume-Uni toute l’année : les deux pays changent d’heure les mêmes dimanches, le dernier de mars et le dernier d’octobre (prochain changement le 25 octobre 2026). Un créneau à 10 h à Paris correspond à 9 h à Londres. La Belgique, la Suisse et le Luxembourg sont à l’heure de Paris ; La Réunion a deux heures d’avance l’été et trois l’hiver, la Martinique et la Guadeloupe six heures de retard l’été et cinq l’hiver.
 
-Les outils de réservation, YouCanBookMe compris, peuvent afficher vos créneaux dans le fuseau horaire du visiteur. Pour un appel, c’est ce qu’il faut : un client à Londres voit votre créneau de 10 h (heure de Paris) à 9 h, et vous vous retrouvez au même moment. Pour un rendez-vous sur place, cela peut tromper : un client en vacances à l’étranger risque de voir votre visite à Lyon à une heure décalée.
+YouCanBookMe peut détecter le fuseau horaire de chaque visiteur et y afficher vos créneaux. Pour un appel, c’est ce qu’il faut : un client à Londres voit votre créneau de 10 h (heure de Paris) à 9 h, et vous vous retrouvez au même moment. Pour un rendez-vous sur place, cela peut tromper : un client en vacances à l’étranger risque de voir votre visite à Lyon à une heure décalée.
 
-Trois vérifications :
+Trois vérifications, dans **Additional options**, puis **Language & timezones** :
 
-1. Réglez votre propre fuseau horaire dans votre compte YouCanBookMe (Paris). S’il est faux, tous les créneaux sont décalés d’une heure.
-2. Regardez les options de fuseau horaire de la page de réservation et décidez ce que voient les visiteurs : leur heure pour les appels, la vôtre pour les visites.
-3. Indiquez de toute façon le fuseau dans la description : « Horaires à l’heure de Paris ».
+1. Votre propre fuseau horaire. YouCanBookMe le reprend de votre agenda ; s’il est mal réglé, décochez **Automatically detect time zone from my calendar** et choisissez Paris. Un mauvais fuseau décale tous les créneaux.
+2. **Automatically detect bookers timezone** (détecter le fuseau du visiteur) : gardez cette option pour les appels ; décochez-la pour les visites, afin que tout le monde voie votre heure locale, emails de confirmation compris.
+3. **Display booking page timezone** (afficher le fuseau de la page) : cochez cette case pour que le visiteur sache dans quel fuseau sont affichés les créneaux, et indiquez de toute façon le fuseau dans la description : « Horaires à l’heure de Paris ».
 
-{{< callout type="tip" >}}Pour voir ce que voit un client à l’étranger, changez le fuseau horaire dans les réglages de votre téléphone, ouvrez votre page de réservation, puis **remettez le bon fuseau**.{{< /callout >}}
+{{< callout type="tip" >}}Votre réservation test de l’étape 8 sert aussi de contrôle : l’heure de l’email de confirmation doit correspondre à l’événement de votre agenda. **Une heure d’écart signale un mauvais fuseau.**{{< /callout >}}
 
 {{< screenshot id="youcanbookme-tutorial-07" alt="Page de réservation YouCanBookMe affichant le fuseau horaire au-dessus des créneaux disponibles" >}}
 
@@ -150,7 +150,7 @@ Annulez la réservation test et vérifiez que le créneau réapparaît. Cinq min
 
 L’option la plus simple fonctionne avec tous les créateurs de sites : un bouton « Prendre rendez-vous » sur votre page contact, qui ouvre votre page de réservation. Placez-le à côté de votre numéro de téléphone, pas à sa place. Dans mes campagnes de cold emailing, les prospects appelaient plutôt que de répondre : appeler va plus vite, et les gens aiment le contact humain. Le lien de réservation sert aux autres, ceux qui préfèrent choisir un horaire plutôt que décrocher leur téléphone. Ajoutez-le aussi à votre signature email.
 
-Un endroit où je ne le mets jamais : un premier cold email. Mes cold emails sont en texte brut, sans aucun lien, avec seulement un numéro de téléphone, parce que c’est ce qui arrive en boîte de réception ; j’explique {{< a key="plain-text-cold-emails" >}}pourquoi mes cold emails n’ont ni lien ni HTML{{< /a >}}. Gardez le lien de réservation pour les personnes qui répondent.
+Un endroit où je ne le mets jamais : un premier cold email. Mes cold emails sont en texte brut, sans aucun lien, avec un numéro de téléphone et une invitation à appeler, parce que c’est ce qui arrive en boîte de réception ; j’explique {{< a key="plain-text-cold-emails" >}}pourquoi mes cold emails n’ont ni lien ni HTML{{< /a >}}. Gardez le lien de réservation pour les personnes qui répondent.
 
 ### Le calendrier dans votre page
 
@@ -174,9 +174,9 @@ Sur la page contact de MLK Leadhunters, un simple lien vers la page de réservat
 
 ## L’alternative gratuite : la prise de rendez-vous de Google Agenda
 
-Si votre activité vit déjà dans Google Agenda, il propose ses propres pages de réservation (« appointment schedules » dans l’interface anglaise). Un compte Google personnel, ou Google Workspace Business Starter, donne droit à une seule page de réservation, sans frais supplémentaires. Plusieurs pages, les rappels automatiques par email et la vérification de plusieurs agendas demandent un abonnement payant : Google One Premium ou Google AI Pro pour un compte personnel, Workspace Individual ou Business Standard et au-delà pour une entreprise, d’après le [comparatif des fonctionnalités premium de Google](https://support.google.com/calendar/answer/16287038?hl=fr).
+Si vous gérez déjà tout dans Google Agenda, il propose ses propres pages de réservation : les agendas de réservation. Un compte Google personnel, ou Google Workspace Business Starter, donne droit à une seule page de réservation, sans frais supplémentaires. Plusieurs pages, les rappels automatiques par email et la vérification de plusieurs agendas demandent un abonnement payant : Google One Premium ou Google AI Pro pour un compte personnel, Workspace Individual ou Business Standard et au-delà pour une entreprise, d’après le [comparatif des fonctionnalités premium de Google](https://support.google.com/calendar/answer/16287038?hl=fr).
 
-Sur les deux outils, la version gratuite donne donc une page de réservation, et les rappels vont avec les formules payantes. Choisissez Google si vous vivez dans Google et proposez un seul type de rendez-vous. Choisissez YouCanBookMe si votre agenda est chez Microsoft, Apple ou Fastmail, ou si vous comptez répartir les rendez-vous dans une équipe plus tard : son forfait Teams attribue chaque réservation à la prochaine personne disponible (round robin).
+Sur les deux outils, la version gratuite donne donc une page de réservation, et les rappels vont avec les formules payantes. Choisissez Google si tout passe déjà par Google Agenda et que vous proposez un seul type de rendez-vous. Choisissez YouCanBookMe si votre agenda est chez Microsoft, Apple ou Fastmail, ou si vous comptez répartir les rendez-vous dans une équipe plus tard : son forfait Teams attribue chaque réservation à la prochaine personne disponible (round robin).
 
 ## Quand l’offre gratuite ne suffit plus
 
@@ -185,8 +185,8 @@ Passez à un forfait payant quand l’un de ces points devient vrai :
 - il vous faut une deuxième page : un autre type de rendez-vous avec ses propres règles, ou une autre langue (les pages contact anglaise et française de MLK Leadhunters intègrent chacune leur propre page YouCanBookMe) ;
 - un deuxième agenda doit être vérifié, le vôtre ou celui d’un collègue ;
 - les rendez-vous manqués vous coûtent assez pour payer des rappels ;
-- vous voulez vos couleurs et plus de bouton YouCanBookMe.
+- vous voulez vos propres couleurs, sans le bouton YouCanBookMe.
 
 Le forfait Individual couvre deux pages et deux agendas pour 9 $ par mois, ou 8,10 $ par mois en annuel. Ce sont les tarifs publics en dollars américains au moment où j’écris ; je n’ai pas pu confirmer de prix en euros, vérifiez donc le montant avant de payer.
 
-Vous n’avez pas besoin de moi pour tout cela : l’offre gratuite et un après-midi suffisent. Cela se complique quand les rendez-vous doivent alimenter le reste de l’entreprise. Une page de réservation capte les prospects prêts ; pour les autres, vous pouvez {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} avec des alertes immédiates et des rappels. Et quand les prospects, les chantiers et l’agenda débordent d’une série d’outils gratuits, une application interne commence à avoir du sens. J’en ai développé une pour {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, un installateur de climatisation en Île-de-France, quand l’équipe n’arrivait plus à suivre les prospects qui arrivaient ; mon guide du {{< a key="bespoke-crm-internal-app" >}}CRM sur mesure{{< /a >}} explique quand cela vaut la peine.
+Vous n’avez pas besoin de moi pour tout cela : l’offre gratuite et une à deux heures suffisent. Cela se complique quand les rendez-vous doivent alimenter le reste de l’entreprise. Une page de réservation capte les prospects prêts ; pour les autres, vous pouvez {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} avec des alertes immédiates et des rappels. Et quand les prospects, les chantiers et l’agenda ne tiennent plus dans une série d’outils gratuits, une application interne commence à avoir du sens. J’en ai développé une pour {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, un installateur de climatisation en Île-de-France, quand l’équipe n’arrivait plus à suivre les prospects qui arrivaient ; mon guide du {{< a key="bespoke-crm-internal-app" >}}CRM sur mesure{{< /a >}} explique quand cela vaut la peine.

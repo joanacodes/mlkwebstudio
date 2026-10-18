@@ -1,6 +1,6 @@
 ---
 title: "Bespoke CRM for a small business: the internal app I built when leads piled up"
-seo_title: "Bespoke CRM: when a small business should build its own"
+seo_title: "Bespoke CRM: when is it worth it for a small business?"
 description: "A bespoke CRM pays off when your work does not fit standard software. Five questions to decide, the costs to plan for, and the app I built for a client."
 slug: "bespoke-crm-small-business"
 translationKey: "bespoke-crm-internal-app"
@@ -49,20 +49,20 @@ There is a third option between the two: a spreadsheet or a standard CRM, plus a
 
 {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}} installs air conditioning, heat pumps and ventilation in Paris and the Île-de-France. It called me in an emergency when its WordPress website was hacked. I recovered the site and built a new one, and we have worked together for two years now, on SEO, cold emailing and websites.
 
-The leads arrive through the website forms and by phone. As their number grew, the problem changed: it was no longer finding prospects, it was keeping up with them. I was bringing in so many that the team could not handle them all, and a prospect who is never called back is a lead the business paid to get, then lost.
+The leads arrive through the website forms and by phone. As their number grew, the problem changed: it was no longer finding prospects but keeping up with them. I was bringing in so many that the team could not handle them all, and a prospect who is never called back is a lead the business paid to get, then lost.
 
-So the founder asked me to build an automation app, with a simple brief: **see everything clearly, and never forget to call a prospect back or answer one**. How those leads came in, from the first page to the first enquiry, is told in the {{< a key="pilotech-seo-case-study" >}}Pilotech SEO case study{{< /a >}}.
+So the founder asked me to build an automation app, with a simple brief: **see everything clearly, and never forget to call a prospect back or answer one**. The SEO side of that growth, from the first page to the first enquiry, is told in the {{< a key="pilotech-seo-case-study" >}}Pilotech SEO case study{{< /a >}}, and the cold email side in my {{< a key="architects-cold-email-case-study" >}}cold email case study on architects{{< /a >}}.
 
 ## What the app manages
 
 The app is custom-coded. It is an internal tool, used by the business itself rather than by its clients, and it brings together:
 
-- **Prospects**, so that every enquiry is in one place and none is forgotten.
-- **Jobs**, meaning the installations themselves.
-- **Communication with the employees.**
-- **The calendar.**
-- **Accounting analytics**, to follow the figures.
-- **AI and phone integrations.**
+- Prospects, so that every enquiry is in one place and none is forgotten.
+- Jobs, meaning the installations themselves.
+- Communication with the employees.
+- The calendar.
+- Accounting analytics, to follow the figures.
+- AI and phone integrations.
 
 Prospects and appointments are what most CRMs are designed for. Jobs, messages to the team and accounting figures usually live in other software: job management tools, messaging apps and accounting packages. When the work goes that far beyond the sales pipeline, a bespoke app starts to make sense.
 
@@ -97,11 +97,11 @@ Compare the two options over the life of the tool, not over one month:
 - **Off-the-shelf:** the price per user × the number of users × 36 months, plus paid add-ons and the automation tools that fill the gaps.
 - **Bespoke:** the build, paid once, plus hosting, maintenance and the services it uses, such as an AI API billed by usage or a phone provider's subscription.
 
-The subscription usually wins in the first year. Over three years, with several users and add-ons, the result can tip the other way. AI has also changed how I build: my delivery times have shrunk, which sometimes leaves me room to look for extra solutions and deliver a more complete app.
+For five users over three years, you pay the monthly price of a seat 180 times, before any add-ons. The subscription usually wins in the first year; over three years, with several users and add-ons, the result can tip the other way.
 
 ### 5. Who will maintain it?
 
-Software is never finished. The services it connects to change their rules, security fixes come out, and the business asks for new features as it grows. With an off-the-shelf CRM, the vendor takes care of that. With a bespoke one, your developer does, so ask before you sign: who maintains it, how quickly they respond and what it costs.
+Software is never finished. The services it connects to change their rules, security fixes come out, and the business asks for new features as it grows. With an off-the-shelf CRM, the vendor takes care of that. With a bespoke one, your developer does, so ask before you sign: who maintains it, how quickly they respond and what it costs. Ask too who will own the code and the hosting account: if both are in your business's name, you can change developer without starting again.
 
 If you build it yourself with AI, you are the one maintaining it. My guide on how to {{< a key="build-app-with-ai" >}}build an app with AI{{< /a >}} sets out what you can realistically do alone.
 
@@ -121,20 +121,13 @@ My tutorial to {{< a key="automate-lead-follow-up" >}}automate lead follow-up{{<
 
 ## How I work on a bespoke CRM project
 
-I build everything myself. For app projects, I ask for 30% or 50% of the price upfront and the rest at delivery.
+I build everything myself. For app projects, I ask for 30% or 50% of the price upfront and the rest at delivery. AI has changed how I build: my delivery times have shrunk, which sometimes leaves me room to look for extra solutions and deliver a more complete app.
 
-What I need from you depends on what the app must do. For automations like the app above, I need access to the mailbox, for example.
+What I need from you depends on what the app must do. For automations like the app above, I need access to the mailbox, for example. The checklist at the end of this guide lists what to prepare before you talk to any developer.
 
 {{< callout type="warning" >}}Never send a password by email or text message to give someone access. Use the connection your email provider offers for apps, where you approve the access on a consent screen and can withdraw it later, or create a separate login for that person, with only the access they need.{{< /callout >}}
 
-Before you talk to any developer, prepare four things:
-
-1. **Your process, written down:** every step from first contact to paid invoice, who does it, and where things get lost today.
-2. **Your existing data:** the spreadsheets, contact lists and exports you want to bring in.
-3. **The users:** who will use the app and what each of them needs to see.
-4. **The tools to connect:** mailbox, phone, calendar, forms, accounting.
-
-### Plan the data rules from day one
+## Plan for GDPR from day one
 
 A CRM is full of personal data: names, phone numbers, email addresses, notes from calls. Write these rules into the specification rather than leaving them for a later update:
 
@@ -151,11 +144,12 @@ If the app sends client data to an AI service, check what that service does with
 
 ## Before you commission a bespoke CRM: a checklist
 
-1. Write your process on one page, from first contact to paid invoice.
+1. Write your process on one page, from first contact to paid invoice: who does each step, and where things get lost today.
 2. Mark the steps where information is copied by hand or forgotten.
-3. Count the people who will use the tool, and note what each one needs.
-4. List every tool it must connect to.
-5. Run the cheap version for a month: a free CRM or a spreadsheet with alerts.
-6. If the same problems keep coming back, that page is your brief, and the start of a quote.
+3. Count the people who will use the tool, and note what each one needs to see.
+4. List every tool it must connect to: mailbox, phone, calendar, website forms, accounting.
+5. Gather the data you want to bring in: spreadsheets, contact lists, exports from your current tools.
+6. Run the cheap version for a month: a free CRM or a spreadsheet with alerts.
+7. If the same problems keep coming back, that page is your brief, and the start of a quote.
 
 The clearest sign is the one my client had: more prospects than the team could follow. On its own, that calls for alerts and reminders, which a standard CRM can provide. When the work also runs on into jobs, staff and accounts, as it did for my client, it is worth finding out what a bespoke app would cost.

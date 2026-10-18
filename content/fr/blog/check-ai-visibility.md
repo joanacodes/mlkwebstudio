@@ -29,7 +29,7 @@ faq:
 
 La visibilité IA, c’est la fréquence à laquelle les assistants IA citent votre entreprise quand on les interroge sur ce que vous vendez. Si un client demande à ChatGPT « une entreprise de nettoyage de bureaux sérieuse à Lyon » et que votre société figure dans la réponse, vous êtes visible. Si trois concurrents sont cités à votre place, il y a du travail.
 
-Il n’existe aucun classement à consulter : la seule façon de savoir, c’est de poser vous-même les questions, comme vos clients. Ce tutoriel vous donne une méthode gratuite, valable pour toute petite entreprise : dix requêtes, un tableur et une heure environ chaque mois. Viennent ensuite les rapports gratuits de Microsoft et de Google, les outils payants, et ce qu’il faut corriger quand les résultats déçoivent.
+Il n’existe aucun classement à consulter : pour savoir, posez vous-même les questions, comme vos clients. Ce tutoriel vous donne une méthode gratuite pour toute petite entreprise : dix requêtes, un tableur et une heure environ par mois. Viennent ensuite les rapports gratuits de Microsoft et de Google, les outils payants et les corrections à faire quand les résultats déçoivent.
 
 Il fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}, qui explique comment les assistants choisissent les entreprises qu’ils citent. Pour le test lui-même, un navigateur et un tableur suffisent.
 
@@ -44,11 +44,11 @@ Un assistant peut traiter votre entreprise de quatre façons, et votre tableur l
 
 Une entreprise citée avec de mauvaises informations peut perdre plus qu’une entreprise absente : un client risque d’appeler pour un service que vous avez arrêté l’an dernier.
 
-La visibilité IA n’est pas non plus le trafic IA. Beaucoup de gens lisent un nom dans une réponse, puis appellent ou cherchent l’entreprise sans cliquer sur rien. D’expérience, les gens préfèrent appeler plutôt qu’écrire, parce que c’est plus rapide : une entreprise peut donc être visible dans ChatGPT alors que ses statistiques n’affichent presque rien. Mon tutoriel sur le {{< a key="track-ai-traffic" >}}trafic IA dans Google Analytics{{< /a >}} traite des visites ; celui-ci traite des mentions.
+La visibilité IA n’est pas non plus le trafic IA. Beaucoup de gens lisent un nom dans une réponse, puis appellent ou cherchent l’entreprise sans cliquer. D’expérience, on préfère appeler plutôt qu’écrire, parce que c’est plus rapide : une entreprise peut donc être visible dans ChatGPT sans que ses statistiques montrent grand-chose. Mon tutoriel sur le {{< a key="track-ai-traffic" >}}trafic IA dans Google Analytics{{< /a >}} traite des visites ; celui-ci traite des mentions.
 
 ## Étape 1 : rédiger dix requêtes que vos clients taperaient
 
-Une requête, ou prompt, c’est la question tapée dans un assistant. On y écrit des phrases plus longues et plus naturelles que dans Google, souvent en décrivant sa situation. Prenons une entreprise de nettoyage de bureaux à Lyon :
+Une requête, ou prompt, c’est la question tapée dans un assistant, souvent plus longue et plus naturelle qu’une recherche Google. Prenons une entreprise de nettoyage de bureaux à Lyon :
 
 | Type de requête | Exemple |
 |---|---|
@@ -62,14 +62,14 @@ Une requête, ou prompt, c’est la question tapée dans un assistant. On y écr
 | Votre nom | « Que sais-tu de [votre entreprise] à Lyon ? » |
 | Réputation | « [Votre entreprise] avis », « [Votre entreprise] est-elle fiable ? » |
 
-Dix requêtes suffisent pour commencer. Davantage de requêtes, c’est davantage de lignes à remplir, pas forcément davantage d’enseignements.
+Dix requêtes suffisent pour commencer : au-delà, vous remplissez surtout plus de lignes.
 
 Pour trouver les mots de vos clients, regardez à quatre endroits :
 
 - **Vos appels.** Les questions que mes clients posent au premier appel, comme « Avez-vous de l’expérience ? » ou « Combien de temps faut-il ? », sont celles que l’on pose désormais à un assistant avant d’appeler qui que ce soit.
 - **La Search Console.** Vos requêtes sur Google montrent les mots employés pour parler de votre métier.
 - **Le coût des mots-clés.** J’utilise Semrush surtout pour la recherche de mots-clés et pour ce qu’ils coûtent en publicité. Les annonceurs paient le plus cher les recherches qui rapportent : un mot-clé cher fait en général une bonne requête de test.
-- **La recherche approfondie.** Je me sers des outils de deep research pour trouver ce dont les gens se plaignent le plus dans un secteur et les mots qui reviennent sans cesse. Ma méthode est détaillée dans mon tutoriel sur le {{< a key="deep-research-copywriting-seo" >}}deep research ChatGPT pour le copywriting et le SEO{{< /a >}}.
+- **La recherche approfondie.** Je me sers des outils de deep research pour trouver ce dont les gens se plaignent le plus dans un secteur et les mots qui reviennent sans cesse. Ma méthode est dans mon tutoriel sur le {{< a key="deep-research-copywriting-seo" >}}deep research ChatGPT pour le copywriting et le SEO{{< /a >}}.
 
 {{< callout type="tip" >}}**Figez la formulation.** Gardez vos requêtes dans le tableur et collez-les chaque mois, mot pour mot. Changez un seul mot et vous comparez deux tests différents.{{< /callout >}}
 
@@ -96,13 +96,13 @@ Chaque réponse occupe une ligne : dix requêtes dans quatre assistants font qu
 
 ## Étape 3 : interroger chaque assistant sans mémoire ni historique
 
-Votre propre compte fausserait le test : un assistant qui se souvient de vos conversations, ou qui sait que vous dirigez l’entreprise, risque de vous citer plus volontiers qu’il ne le ferait pour un inconnu. Testez comme un nouveau client, sans vous connecter quand c’est possible, sinon dans une discussion sans mémoire, et ouvrez une nouvelle discussion pour chaque requête afin qu’une réponse n’influence pas la suivante.
+Votre propre compte fausserait le test : un assistant qui se souvient de vos conversations, ou qui sait que vous dirigez l’entreprise, risque de vous citer plus volontiers que pour un inconnu. Testez comme un nouveau client, sans vous connecter quand c’est possible, sinon dans une discussion sans mémoire, et ouvrez une nouvelle discussion par requête pour qu’une réponse n’influence pas la suivante.
 
 ### ChatGPT
 
 Ouvrez chatgpt.com dans une fenêtre de navigation privée, sans vous connecter. La recherche de ChatGPT est ouverte aux utilisateurs sans compte depuis février 2025 : une discussion sans compte peut donc chercher sur le web, comme pour un nouveau visiteur.
 
-Une réponse sans source vient très probablement de ce que le modèle a appris pendant son entraînement, pas d’une recherche. Notez « aucune » dans la colonne Sources : de nouvelles pages et de nouvelles mentions peuvent faire évoluer assez vite une réponse issue d’une recherche, alors que les données d’entraînement ne changent qu’avec un nouveau modèle.
+Une réponse sans source vient très probablement de l’entraînement du modèle, pas d’une recherche. Notez « aucune » dans la colonne Sources : de nouvelles pages et mentions peuvent faire évoluer assez vite une réponse issue d’une recherche, alors que les données d’entraînement ne changent qu’avec un nouveau modèle.
 
 {{< callout type="warning" >}}**Une discussion temporaire n’est pas forcément neutre.** Si vous préférez garder votre compte ouvert, le centre d’aide d’OpenAI précise qu’une discussion temporaire (Temporary Chat) peut encore utiliser vos souvenirs et vos instructions personnalisées, sauf si vous désactivez la personnalisation avant de commencer la conversation. Une fenêtre privée sans compte est plus simple.{{< /callout >}}
 
@@ -136,7 +136,7 @@ Remplissez chaque ligne dès que la réponse s’affiche : à la cinquième ré
 - **Ce qui est dit :** copiez la phrase vous concernant telle quelle, erreurs comprises, puis comparez-la avec vos services, votre zone, vos prix, vos horaires et votre numéro actuels.
 - **Sources :** notez les domaines cités : annuaires, sites d’avis, presse locale, discussions de forum, votre propre site.
 
-Je surveille de près la colonne Exact avec ChatGPT. D’expérience, il invente un peu trop souvent, et c’est l’une des raisons pour lesquelles j’utilise Claude pour mon propre travail. Un service inventé ou un ancien numéro se rattachent en général à une source, et une source se corrige.
+Je surveille de près la colonne Exact avec ChatGPT : d’expérience, il invente un peu trop souvent, l’une des raisons pour lesquelles j’utilise Claude pour mon travail. Un service inventé ou un ancien numéro viennent en général d’une source, et une source se corrige.
 
 Posez ensuite une deuxième fois vos cinq requêtes les plus importantes, dans une nouvelle discussion et sur une nouvelle ligne. Les réponses varient d’un essai à l’autre, et un deuxième essai montre si une mention est stable ou due au hasard.
 
@@ -156,7 +156,7 @@ Gardez un onglet de synthèse avec une ligne par mois : le taux de citation de 
 
 ## Les rapports gratuits de Microsoft et de Google
 
-Microsoft et Google publient désormais gratuitement quelques données IA sur votre site. Elles portent sur leurs propres fonctionnalités IA et disent donc peu de chose de ChatGPT, de l’application Gemini ou de Perplexity, mais elles ajoutent de vrais chiffres à votre test manuel :
+Microsoft et Google publient désormais quelques données IA gratuites sur votre site. Elles portent sur leurs propres outils et disent peu de chose de ChatGPT, de l’application Gemini ou de Perplexity, mais elles complètent votre test manuel par de vrais chiffres :
 
 | Outil | Ce qu’il montre | Limites |
 |---|---|---|
@@ -170,7 +170,7 @@ Les requêtes d’ancrage (grounding queries) sont les recherches qu’un assist
 
 ## Les outils payants : Semrush et Squarespace
 
-Les outils payants posent vos requêtes à intervalles réguliers et tracent la fréquence à laquelle votre entreprise est citée. Ils font gagner du temps et gèrent plus de requêtes que vous ne le feriez à la main ; lisez leurs chiffres comme une tendance, au même titre que votre tableur. Faites tout de même le test gratuit pendant trois mois avant d’en payer un : une petite équipe se laisse facilement séduire par chaque nouvel outil, et les canaux qui vous amènent déjà des clients passent avant.
+Les outils payants posent vos requêtes à intervalles réguliers et suivent la fréquence à laquelle votre entreprise est citée. Ils font gagner du temps et gèrent plus de requêtes qu’à la main ; lisez leurs chiffres comme une tendance, comme votre tableur. Faites tout de même trois mois de test gratuit avant d’en payer un : une petite équipe se laisse facilement séduire par chaque nouvel outil, et les canaux qui vous amènent déjà des clients passent avant.
 
 ### AI Visibility Toolkit de Semrush
 

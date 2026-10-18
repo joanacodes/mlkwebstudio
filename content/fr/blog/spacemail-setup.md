@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:48:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["configurer Spacemail", "Spacemail Spaceship", "enregistrements DNS Spacemail", "paramètres IMAP Spacemail", "serveur SMTP Spacemail", "prix Spacemail"]
-summary: "Pour configurer Spacemail, choisissez une offre (Pro, Business ou Advanced, avec 30 jours d’essai gratuit), reliez-la à votre domaine avec Unbox dans Spacemail Manager et créez la boîte mail. Avec les serveurs de noms de Spaceship, les enregistrements sont ajoutés pour vous ; sinon, ajoutez deux MX (mx1 et mx2.spacemail.com), le SPF et la clé DKIM, et vérifiez qu’un DMARC existe. Connectez ensuite vos applications en IMAP (mail.spacemail.com, port 993) et SMTP (port 465)."
+summary: "Pour configurer Spacemail, choisissez une offre (Pro, Business ou Advanced, avec 30 jours d’essai gratuit), reliez-la à votre domaine avec Unbox dans Spacemail Manager et créez la boîte mail. Avec les serveurs de noms de Spaceship, les enregistrements sont ajoutés pour vous ; sinon, ajoutez deux MX (mx1 et mx2.spacemail.com), le SPF et la clé DKIM. Dans les deux cas, ajoutez un DMARC si le domaine n’en a pas, puis connectez vos applications en IMAP (mail.spacemail.com, port 993) et SMTP (port 465)."
 cover: "spacemail-setup"
 cover_alt: "Boîte mail Spacemail reliée à un domaine par ses enregistrements MX, SPF et DKIM"
 related: ["spaceship-domain-dns-tutorial", "professional-email-address", "spf-dkim-dmarc-setup", "best-email-provider-cold-email", "spaceship-vs-namecheap"]
@@ -29,25 +29,25 @@ faq:
 
 Spacemail est la messagerie professionnelle de Spaceship, le registrar créé par Namecheap. Configurer Spacemail revient à trois tâches : créer la boîte mail, publier les enregistrements DNS qui y acheminent le courrier, puis relier les applications où vous le lisez. Ce tutoriel couvre les trois, avec les valeurs de l’aide de Spaceship à la date de rédaction (octobre 2026).
 
-J’ai mes habitudes chez Spaceship, et c’est sur la messagerie que la différence s’est le plus vue. J’utilisais Microsoft pour mes emails, et c’était pénible. Avec Namecheap et Spaceship, rien de tel : la configuration est simple, ou du moins j’y ai mes repères.
+J’ai mes habitudes chez Spaceship. J’utilisais Microsoft pour mes emails, et c’était pénible ; avec Namecheap et Spaceship, rien de tel : la configuration est simple, ou du moins j’y ai mes repères.
 
-Au programme : les offres et leurs prix, comment savoir si la partie DNS se fera sans vous, puis sept étapes, de la commande à la boîte mail sur votre téléphone. Les libellés cités sont ceux de l’interface en anglais. Si vous hésitez encore entre plusieurs fournisseurs, mon guide sur l’{{< a key="professional-email-address" >}}adresse mail professionnelle{{< /a >}} compare les options et leurs prix, et {{< a key="domain-hosting-email-guide" >}}mon article sur le nom de domaine et l’hébergement{{< /a >}} explique comment domaine, site et messagerie s’articulent.
+Les libellés cités sont ceux de l’interface en anglais. Si vous hésitez encore entre plusieurs fournisseurs, mon guide sur l’{{< a key="professional-email-address" >}}adresse mail professionnelle{{< /a >}} compare les options et leurs prix, et {{< a key="domain-hosting-email-guide" >}}mon article sur le nom de domaine et l’hébergement{{< /a >}} explique comment domaine, site et messagerie s’articulent.
 
 ## Offres et prix de Spacemail en octobre 2026
 
 Spacemail est un abonnement à part, distinct du nom de domaine. À la date de rédaction (octobre 2026), [la page Spacemail de Spaceship](https://www.spaceship.com/business-email/) (en anglais) présente trois offres, avec des prix pour deux ans :
 
-| Offre | Boîtes incluses | Stockage par boîte | Prix pour deux ans, puis renouvellement |
-|---|---|---|---|
-| Pro | 1 | 5 Go | 18,88 $ (environ 16 €), identique au renouvellement |
-| Business | 3 | 10 Go | 28,68 $ (environ 25 €), puis 39,84 $ (environ 34 €) |
-| Advanced | 5 | 15 Go | 44,69 $ (environ 38 €), puis 63,84 $ (environ 55 €) |
+| Offre | Boîtes incluses | Stockage par boîte | Alias par boîte | Prix pour deux ans, puis renouvellement |
+|---|---|---|---|---|
+| Pro | 1 | 5 Go | 10 | 18,88 $ (environ 16 €), identique au renouvellement |
+| Business | 3 | 10 Go | 50 | 28,68 $ (environ 25 €), puis 39,84 $ (environ 34 €) |
+| Advanced | 5 | 15 Go | Illimités | 44,69 $ (environ 38 €), puis 63,84 $ (environ 55 €) |
 
 L’offre Pro revient à environ 0,79 $ (environ 0,70 €) par mois. Les prix sont en dollars américains, et les montants en euros sont mes conversions approximatives. Spaceship fait des promotions et d’autres pages de son site annoncent des prix de départ différents : la page de commande fait foi.
 
 Chaque offre commence par un **essai gratuit de 30 jours**. Deux limites s’appliquent pendant ce mois : impossible d’ajouter des boîtes supplémentaires, et chaque boîte envoie beaucoup moins d’emails par heure que sur une offre payante (la FAQ plus bas donne les chiffres). Parfait pour tester, pas pour une semaine de lancement.
 
-Pour choisir, comptez les personnes qui ont besoin de leur propre boîte. Une personne seule : Pro. Une équipe de deux ou trois : Business, dont le stockage plus large sert aussi si vous gardez des années de pièces jointes. Du stockage supplémentaire s’achète à part sur chaque offre.
+Pour choisir, comptez les personnes qui ont besoin de leur propre boîte, pas les adresses : un alias comme factures@ arrive dans une boîte existante, sans surcoût. Une personne seule : Pro. Pour deux ou trois personnes, Business coûte moins cher que Pro avec des boîtes supplémentaires (21,12 $, environ 18 €, chacune pour deux ans), et ses 10 Go servent si vous gardez des années de pièces jointes. Advanced convient à une équipe de cinq. Chaque offre accepte du stockage en plus, à 20 $ (environ 17 €) les 10 Go.
 
 ## Avant de configurer Spacemail : où sont gérés les DNS de votre domaine ?
 
@@ -66,7 +66,7 @@ Un domaine enregistré chez Spaceship utilise normalement ses serveurs de noms, 
 2. Dans votre compte Spaceship, ouvrez **Spacemail Manager**.
 3. Cliquez sur **Unbox** sur le nouvel abonnement pour le relier à un domaine, choisissez le domaine, puis cliquez sur **Start**.
 
-Unbox est le terme de Spaceship pour rattacher un produit à un domaine ; vous le croiserez ailleurs dans le compte. Le domaine n’a pas besoin d’être enregistré chez Spaceship : un .fr chez OVHcloud, par exemple, reste où il est et fonctionne aussi avec Spacemail.
+Unbox est le terme de Spaceship pour rattacher un produit à un domaine. Le domaine n’a pas besoin d’être enregistré chez Spaceship : un .fr chez OVHcloud, par exemple, reste où il est, et vous prouvez qu’il vous appartient avec un enregistrement TXT (étape 3).
 
 {{< screenshot id="spacemail-setup-01" alt="Spacemail Manager avec un nouvel abonnement, le bouton Unbox et le domaine choisi avant de cliquer sur Start" >}}
 
@@ -74,7 +74,7 @@ Unbox est le terme de Spaceship pour rattacher un produit à un domaine ; vous 
 
 1. Une fois l’abonnement relié, cliquez sur **Configure Products**, puis sur **Configure**.
 2. Tapez le nom placé avant l’arobase : `contact` donne contact@votredomaine.fr.
-3. Cliquez sur **Create mailboxes**. Spacemail génère un mot de passe : copiez-le, ou saisissez le vôtre à la place (possible depuis une mise à jour de juin 2025).
+3. Cliquez sur **Create mailboxes**. Spacemail génère un mot de passe : copiez-le, ou saisissez le vôtre à la place.
 4. Cliquez sur **Finish**.
 
 Choisissez des noms qui survivront aux changements d’équipe. Une adresse de fonction comme contact@ ou compta@ passe d’une personne à l’autre, alors que prenom@ part avec son titulaire. Rangez chaque mot de passe dans un gestionnaire de mots de passe dès maintenant : chaque téléphone, ordinateur et application que vous relierez vous le demandera, et ce n’est pas celui de votre compte Spaceship.
@@ -89,7 +89,11 @@ Spaceship ajoute les enregistrements de messagerie quand vous reliez Spacemail, 
 
 ### DNS ailleurs : recopier les enregistrements chez votre hébergeur DNS
 
-Spaceship prépare quand même les valeurs exactes pour votre domaine. Dans **Advanced DNS**, elles se trouvent sous **Inactive records**, dans le groupe **Spacemail DNS records** : inactives, parce qu’Internet ne lit pas cette zone. À vous de les recopier chez l’entreprise qui héberge la zone lue par Internet, OVHcloud par exemple. D’après [l’aide de Spaceship sur les domaines tiers](https://www.spaceship.com/knowledgebase/spacemail-dns-records-third-party-domain/) (en anglais), ce sont :
+Spaceship prépare quand même les valeurs exactes pour votre domaine. Dans **Advanced DNS**, elles se trouvent sous **Inactive records**, dans le groupe **Spacemail DNS records** : inactives, parce qu’Internet ne lit pas cette zone. À vous de les recopier chez l’entreprise qui héberge la zone lue par Internet, OVHcloud par exemple.
+
+Si le domaine est enregistré chez un autre registrar, commencez par le **TXT de vérification** : d’après [l’aide de Spaceship sur les domaines tiers](https://www.spaceship.com/knowledgebase/spacemail-dns-records-third-party-domain/) (en anglais), il doit être en place avant l’activation de Spacemail, sinon l’abonnement ne se relie pas au domaine et la boîte ne peut ni se connecter ni envoyer. Sa valeur se trouve dans **Advanced DNS** : cliquez sur **Manage**, puis sur **View guides** dans la section **Configure your DNS settings for products to work correctly**, et ouvrez **Verifying domain ownership**.
+
+Ajoutez ensuite les enregistrements de messagerie :
 
 ```
 Type   Hôte                   Valeur                                  Priorité
@@ -97,6 +101,7 @@ MX     @                      mx1.spacemail.com                       0
 MX     @                      mx2.spacemail.com                       0
 TXT    @                      v=spf1 include:spf.spacemail.com ~all
 TXT    spacemail._domainkey   v=DKIM1; k=rsa; p=... (votre clé, copiée depuis Spaceship)
+SRV    _autodiscover._tcp     poids 0, port 443, autoconfig.spacemail.com    0
 ```
 
 Ligne par ligne :
@@ -104,9 +109,9 @@ Ligne par ligne :
 - **MX** : ajoutez les deux, avec la priorité 0. Certains hébergeurs imposent leurs propres valeurs (Wix met 10 et 20), ce qui ne pose pas de problème tant que les deux enregistrements existent. Supprimez les MX d’un ancien fournisseur, sinon une partie de votre courrier continuera d’y partir.
 - **SPF** : un domaine ne peut avoir qu’un seul TXT commençant par `v=spf1`, et deux font échouer le SPF. S’il en existe déjà un, pour un outil d’emailing par exemple, ajoutez `include:spf.spacemail.com` à l’intérieur, avant le `~all` (ou `-all`) final.
 - **DKIM** : copiez la valeur en entier. Elle est longue, et un seul caractère manquant casse la signature. Saisissez l’hôte sous la forme `spacemail._domainkey` seulement : la plupart des interfaces ajoutent votre domaine d’elles-mêmes.
-- **Domaine enregistré ailleurs** : ajoutez aussi le TXT de vérification. Sa valeur se trouve dans **Advanced DNS**, derrière le bouton **Manage** et le lien **View guides**, dans la section **Verifying domain ownership**.
+- **SRV** : le courrier arrive sans lui, mais il aide certaines applications, Outlook en particulier, à trouver seules les réglages du serveur. Certaines interfaces découpent l’hôte en un service (`autodiscover`) et un protocole (`tcp`), comme Wix.
 
-L’aide de Spaceship propose des guides pas à pas pour Namecheap, GoDaddy, Squarespace, Wix et Cloudflare ; chez OVHcloud, les mêmes valeurs s’ajoutent dans la zone DNS du domaine. Les changements apparaissent en général en quelques heures, jusqu’à 48 heures si vous avez aussi changé de serveurs de noms.
+L’aide de Spaceship propose des guides pas à pas pour Namecheap, GoDaddy, Squarespace, Wix et Cloudflare ; chez OVHcloud, les mêmes valeurs s’ajoutent dans l’onglet **Zone DNS** du domaine, avec le bouton **Ajouter une entrée**. Les changements apparaissent en général en quelques heures, jusqu’à 48 heures si vous avez aussi changé de serveurs de noms.
 
 {{< screenshot id="spacemail-setup-03" alt="Advanced DNS de Spaceship avec les enregistrements DNS de Spacemail : deux MX, le TXT du SPF et le DKIM sur spacemail._domainkey" >}}
 
@@ -151,7 +156,7 @@ Vient ensuite le vrai test : envoyez un email depuis la nouvelle boîte vers un
 
 Le webmail se trouve sur www.spacemail.com. Connectez-vous avec l’adresse email complète comme identifiant et le mot de passe de la boîte. Vous pouvez aussi l’ouvrir depuis **Spacemail Manager** : choisissez la boîte, puis cliquez sur **Login**.
 
-Le webmail comprend un agenda, et ses réglages contiennent les interrupteurs d’accès IMAP, POP3 et SMTP, activés par défaut. Laissez-les activés si vous voulez lire la boîte dans d’autres applications.
+Le webmail comprend un agenda, et ses réglages contiennent les interrupteurs d’accès IMAP, POP3 et SMTP. L’IMAP et le SMTP sont activés par défaut : laissez-les ainsi si vous voulez lire la boîte dans d’autres applications.
 
 {{< screenshot id="spacemail-setup-06" alt="Boîte de réception du webmail Spacemail sur spacemail.com après la première connexion" >}}
 
@@ -174,15 +179,15 @@ Où les saisir :
 - **iPhone** : dans les réglages de Mail, ajoutez un compte, choisissez **Autre**, puis **Ajouter un compte Mail**, et prenez IMAP quand la question se pose.
 - **Android** : dans l’application Gmail, choisissez **Ajouter un autre compte**, puis **Autre**.
 
-L’aide de Spaceship propose des guides distincts pour Mail sur macOS, Apple Mail sur iPhone et Outlook pour iOS, si un écran ne correspond pas à ces étapes.
+L’aide de Spaceship propose des guides distincts pour Outlook, Outlook pour iOS, Mail sur macOS, Apple Mail sur iPhone et l’application Spark, si un écran ne correspond pas à ces étapes.
 
 {{< screenshot id="spacemail-setup-07" alt="Formulaire de compte IMAP manuel d’Outlook rempli avec mail.spacemail.com, port 993 en entrée et 465 en sortie, SSL/TLS" >}}
 
 ## Peut-on utiliser Spacemail pour le cold emailing ?
 
-Les règles publiées par Spaceship refusent les envois en masse non sollicités : pas sans son accord écrit, donc.
+Pas sans l’accord écrit de Spaceship : ses règles publiées interdisent les envois en masse non sollicités.
 
-Ma préférence, elle, est claire : Microsoft fonctionne très bien pour le cold emailing mais il est délicat à configurer, Google fait moins bien, et Spacemail est celui que je vous encourage à envisager, parce que, d’expérience, c’est le plus simple des trois à mettre en place. Les règles de Spaceship sont tout aussi claires, et elles passent en premier.
+Ma préférence, elle, est claire : Microsoft fonctionne très bien pour le cold emailing mais il est délicat à configurer, Google fait moins bien, et Spacemail est celui que je recommande, parce que sa configuration est simple. Les règles de Spaceship sont tout aussi claires, et elles passent en premier.
 
 {{< callout type="warning" >}}**Spaceship interdit les envois en masse non sollicités.** Ses pages d’aide proscrivent les emails commerciaux non sollicités, en masse ou automatisés, avec une tolérance zéro, et précisent que le service n’est pas conçu pour les envois massifs ; sa politique d’utilisation acceptable de l’hébergement considère comme non sollicité tout email envoyé à des personnes qui n’ont pas donné leur accord. Son [guide de chauffe d’un domaine](https://www.spaceship.com/knowledgebase/warm-up-domain-email-deliverability/) (en anglais) n’autorise qu’une chauffe manuelle et progressive, avec de vrais destinataires consentants, et interdit la chauffe automatisée par des outils tiers : exactement ce que fait le warm-up d’une plateforme d’envoi. Ses conditions prévoient aussi, pour le spam, des dommages et intérêts forfaitaires de 500 $ (environ 430 €) ou de 1 $ par message, le montant le plus élevé étant retenu.{{< /callout >}}
 
@@ -212,4 +217,4 @@ Si rien de tout cela ne correspond, le support de Spaceship répond 24 h/24 et 
 6. La boîte sur votre téléphone et votre ordinateur, en IMAP et SMTP.
 7. Un rappel dans votre agenda quelques jours avant la fin de l’essai, pour choisir l’offre payante à temps.
 
-Et si vous préférez tout confier, la mise en place de la messagerie fait partie des prestations au forfait que je réalise, seule ou avec un {{< a page="/services/websites" >}}nouveau site web{{< /a >}}.
+Et si vous préférez tout confier, je mets en place la messagerie au forfait, comme prestation à part entière ou avec un {{< a page="/services/websites" >}}nouveau site web{{< /a >}}.

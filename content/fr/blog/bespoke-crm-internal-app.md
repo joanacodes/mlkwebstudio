@@ -25,7 +25,7 @@ faq:
     a: "Votre entreprise : c’est elle qui décide pourquoi et comment les données sont utilisées, ce qui en fait le responsable de traitement au sens du RGPD. Le prestataire ou l’hébergeur qui traite ces données pour votre compte est un sous-traitant, et le RGPD impose un contrat écrit entre vous (article 28)."
 ---
 
-Un CRM sur mesure est un logiciel de gestion de la relation client construit autour de la façon dont votre entreprise travaille déjà, au lieu d’un produit loué auquel vous pliez vos habitudes. Pour la plupart des TPE et PME, ce n’est pas le premier achat à faire : un CRM du marché, voire un tableur avec des rappels automatiques, fait le travail pour bien moins cher.
+Un CRM sur mesure est un logiciel de gestion de la relation client construit autour de la façon dont votre entreprise travaille déjà, plutôt qu’un produit loué auquel vous devez vous adapter. Pour la plupart des TPE et PME, ce n’est pas le premier achat à faire : un CRM du marché, voire un tableur avec des rappels automatiques, fait le travail pour bien moins cher.
 
 J’en ai pourtant développé un, pour un client dont le problème était devenu le nombre de prospects. Entre les sites web, le référencement (SEO) et les campagnes de cold emailing, j’apporte à ce client une dizaine de prospects par jour, et à un moment, son équipe n’a plus suivi. Ce guide vous aide à savoir si vous avez besoin d’un CRM sur mesure, et décrit ce que couvre cette application.
 
@@ -51,18 +51,18 @@ Entre les deux, il existe une troisième voie : un tableur ou un CRM standard, 
 
 Les demandes arrivent par les formulaires du site et par téléphone. À mesure que leur nombre augmentait, le problème a changé : il ne s’agissait plus de trouver des prospects, mais de les suivre. J’en apportais tellement que l’équipe ne pouvait plus tous les traiter, et un prospect qu’on ne rappelle pas, c’est une demande que l’entreprise a payée, puis perdue.
 
-Le fondateur m’a donc demandé de lui construire une application d’automatisation, avec une consigne simple : **tout voir clairement, et ne plus jamais oublier de rappeler un prospect ou de lui répondre**. La façon dont ces demandes sont arrivées, de la première page au premier contact, est racontée dans l’{{< a key="pilotech-seo-case-study" >}}étude de cas SEO de Pilotech{{< /a >}}.
+Le fondateur m’a donc demandé de lui construire une application d’automatisation, avec une consigne simple : **tout voir clairement, et ne plus jamais oublier de rappeler un prospect ou de lui répondre**. Le volet SEO de cette croissance, de la première page au premier contact, est raconté dans l’{{< a key="pilotech-seo-case-study" >}}étude de cas SEO de Pilotech{{< /a >}}, et le volet cold emailing dans mon article sur la {{< a key="architects-cold-email-case-study" >}}prospection des architectes par email{{< /a >}}.
 
 ## Ce que gère l’application
 
 L’application est développée sur mesure, en code. C’est un outil interne, utilisé par l’entreprise elle-même et non par ses clients, qui réunit :
 
-- **les prospects**, pour que chaque demande soit au même endroit et qu’aucune ne soit oubliée ;
-- **les chantiers**, c’est-à-dire les installations elles-mêmes ;
-- **la communication avec les salariés** ;
-- **la gestion de l’agenda** ;
-- **des analyses comptables**, pour suivre les chiffres ;
-- **des intégrations d’IA et de téléphonie**.
+- les prospects, pour que chaque demande soit au même endroit et qu’aucune ne soit oubliée ;
+- les chantiers, c’est-à-dire les installations elles-mêmes ;
+- la communication avec les salariés ;
+- la gestion de l’agenda ;
+- des analyses comptables, pour suivre les chiffres ;
+- des intégrations d’IA et de téléphonie.
 
 Les prospects et les rendez-vous, c’est ce pour quoi la plupart des CRM sont conçus. Les chantiers, les échanges avec l’équipe et les chiffres comptables se gèrent d’habitude dans d’autres logiciels : gestion de chantier, messagerie, comptabilité. Quand l’activité dépasse à ce point le suivi commercial, une application sur mesure commence à se justifier.
 
@@ -97,11 +97,11 @@ Comparez les deux options sur la durée de vie de l’outil, pas sur un mois :
 - **CRM du marché :** le prix par utilisateur × le nombre d’utilisateurs × 36 mois, plus les options payantes et les outils d’automatisation qui comblent les manques.
 - **Sur mesure :** le développement, payé une fois, plus l’hébergement, la maintenance et les services utilisés, comme une API d’IA facturée à l’usage ou l’abonnement d’un opérateur téléphonique.
 
-L’abonnement l’emporte en général la première année. Sur trois ans, avec plusieurs utilisateurs et des options, le résultat peut s’inverser. L’IA a aussi changé ma façon de développer : mes délais de livraison ont fondu, ce qui me laisse parfois le temps de chercher des solutions supplémentaires et de livrer une application plus complète.
+Pour cinq utilisateurs sur trois ans, vous payez 180 fois le prix mensuel d’une licence, avant toute option. L’abonnement l’emporte en général la première année ; sur trois ans, avec plusieurs utilisateurs et des options, le résultat peut s’inverser.
 
 ### 5. Qui en assurera la maintenance ?
 
-Un logiciel n’est jamais terminé. Les services auxquels il se connecte changent leurs règles, des correctifs de sécurité sortent, et l’entreprise demande de nouvelles fonctions en grandissant. Avec un CRM du marché, l’éditeur s’en charge. Avec un CRM sur mesure, c’est votre prestataire : demandez-lui avant de signer qui assure la maintenance, dans quels délais et à quel prix.
+Un logiciel n’est jamais terminé. Les services auxquels il se connecte changent leurs règles, des correctifs de sécurité sortent, et l’entreprise demande de nouvelles fonctions en grandissant. Avec un CRM du marché, l’éditeur s’en charge. Avec un CRM sur mesure, c’est votre prestataire : demandez-lui avant de signer qui assure la maintenance, dans quels délais et à quel prix. Demandez aussi à qui appartiendront le code et le compte d’hébergement : s’ils sont au nom de votre entreprise, vous pourrez changer de prestataire sans repartir de zéro.
 
 Si vous le construisez vous-même avec l’IA, la maintenance, c’est vous. Mon guide pour {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}} détaille ce que vous pouvez raisonnablement faire sans aide.
 
@@ -121,20 +121,13 @@ Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi de
 
 ## Comment je travaille sur un projet de CRM sur mesure
 
-Je développe tout moi-même. Pour les applications, je demande 30 % ou 50 % du prix à la commande, et le solde à la livraison.
+Je développe tout moi-même. Pour les applications, je demande 30 % ou 50 % du prix à la commande, et le solde à la livraison. L’IA a changé ma façon de développer : mes délais de livraison ont fondu, ce qui me laisse parfois le temps de chercher des solutions supplémentaires et de livrer une application plus complète.
 
-Ce dont j’ai besoin de votre part dépend de ce que doit faire l’application. Pour des automatisations comme celle-ci, il me faut par exemple un accès à la boîte mail.
+Ce dont j’ai besoin de votre part dépend de ce que doit faire l’application. Pour des automatisations comme celle-ci, il me faut par exemple un accès à la boîte mail. La check-list en fin d’article récapitule ce qu’il faut préparer avant de parler à un prestataire, quel qu’il soit.
 
 {{< callout type="warning" >}}N’envoyez jamais un mot de passe par email ou par SMS pour donner un accès. Passez par la connexion que votre fournisseur de messagerie prévoit pour les applications, où vous validez l’accès sur un écran d’autorisation et pouvez le retirer plus tard, ou créez un accès distinct pour la personne concernée, limité à ce dont elle a besoin.{{< /callout >}}
 
-Avant de parler à un prestataire, quel qu’il soit, préparez quatre choses :
-
-1. **Votre processus, par écrit :** chaque étape du premier contact à la facture payée, qui s’en charge, et où les choses se perdent aujourd’hui.
-2. **Vos données existantes :** les tableurs, listes de contacts et exports à reprendre.
-3. **Les utilisateurs :** qui utilisera l’application, et ce que chacun doit voir.
-4. **Les outils à connecter :** messagerie, téléphonie, agenda, formulaires, comptabilité.
-
-### Prévoir les règles du RGPD dès le départ
+## Prévoir les règles du RGPD dès le départ
 
 Un CRM est un fichier de données personnelles : noms, numéros de téléphone, adresses email, notes d’appels. Les règles suivantes ont leur place dans le cahier des charges, pas dans une mise à jour ultérieure :
 
@@ -151,11 +144,12 @@ Si l’application envoie des données clients à un service d’IA, vérifiez c
 
 ## Avant de commander un CRM sur mesure : la check-list
 
-1. Décrivez votre processus sur une page, du premier contact à la facture payée.
+1. Décrivez votre processus sur une page, du premier contact à la facture payée : qui s’occupe de chaque étape, et où les choses se perdent aujourd’hui.
 2. Repérez les étapes où l’information est recopiée à la main ou oubliée.
-3. Comptez les personnes qui utiliseront l’outil, et notez ce dont chacune a besoin.
-4. Listez tous les outils auxquels il doit se connecter.
-5. Testez la version économique pendant un mois : un CRM gratuit ou un tableur avec des alertes.
-6. Si les mêmes problèmes reviennent, cette page devient votre cahier des charges, et le point de départ d’un devis.
+3. Comptez les personnes qui utiliseront l’outil, et notez ce que chacune doit voir.
+4. Listez tous les outils auxquels il doit se connecter : messagerie, téléphonie, agenda, formulaires du site, comptabilité.
+5. Rassemblez les données à reprendre : tableurs, listes de contacts, exports de vos outils actuels.
+6. Testez la version économique pendant un mois : un CRM gratuit ou un tableur avec des alertes.
+7. Si les mêmes problèmes reviennent, cette page devient votre cahier des charges, et le point de départ d’un devis.
 
 Le signal le plus clair, c’est celui qu’a connu mon client : plus de prospects que l’équipe ne pouvait en suivre. À lui seul, ce problème peut se régler avec des alertes et des rappels, qu’un CRM standard sait fournir. Quand l’activité se prolonge aussi en chantiers, en gestion d’équipe et en comptabilité, comme chez mon client, il vaut la peine de chiffrer une application sur mesure.

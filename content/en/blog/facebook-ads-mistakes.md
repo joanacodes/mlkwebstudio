@@ -53,11 +53,11 @@ Do not copy them. Look for what they all promise, then for what none of them say
 
 ## Mistake 2: skipping A/B tests, or testing everything at once
 
-An A/B test compares two versions of an ad, an ad set or a campaign that differ by one thing. Without one, you only have opinions: yours, your designer's and Meta's.
+An A/B test compares two versions of an ad, an ad set or a campaign that differ by one thing. Without one, you only have guesses.
 
-In my cold email campaigns, I A/B test the copy, and responses usually grow over time because I learn which version worked and which did not. Facebook and Instagram ads work the same way, with one difference: every test is paid for in ad spend. You have to burn some cash before you know what works, so plan for it instead of hoping to skip it.
+In my cold email campaigns, I A/B test the copy, and responses usually grow over time because I learn which version worked and which did not. Facebook and Instagram ads work the same way, with one difference: every test is paid for in ad spend, so plan for it instead of hoping to skip it.
 
-Meta has a built-in tool for this. It splits the audience so that each version goes to a separate group and nobody sees both, which keeps the comparison fair, as [Meta's guide to A/B testing](https://en-gb.facebook.com/business/help/1738164643098669) explains. Meta's recommended route is to select an existing campaign or ad set in Ads Manager and click **A/B Test** in the toolbar. You can also duplicate an ad and change one element, compare two campaigns you already run, or use the Experiments tool.
+Meta's built-in tool splits the audience so that each version goes to a separate group and nobody sees both, which keeps the comparison fair, as [Meta's guide to A/B testing](https://en-gb.facebook.com/business/help/1738164643098669) explains. Meta's recommended route is to select an existing campaign or ad set in Ads Manager and click **A/B Test** in the toolbar. You can also duplicate an ad and change one element, compare two campaigns you already run, or use the Experiments tool.
 
 ### How to run a clean test
 
@@ -98,7 +98,7 @@ Most website builders and online shop platforms offer a Meta integration: use it
 
 Requiring people to match several interests at once, inside a three-mile radius, feels precise. In practice, it leaves Meta's delivery system very few people to choose from, which tends to make each result more expensive. On many campaigns, Ads Manager now starts with Advantage+ audience: your location and minimum age stay firm limits, while interests, age ranges and your own audiences become suggestions that Meta may go beyond.
 
-So let the ad do the filtering. An ad that opens with "For landlords with tenants in Leeds" is ignored by everyone else, whatever the settings say. Keep the location to the area you really serve, and put your effort where it pays:
+So let the ad do the filtering. An ad that opens with "For landlords with tenants in Leeds" is ignored by everyone else. Keep the location to the area you really serve, and put your effort where it pays:
 
 - **custom audiences**: people who visited your website, engaged with your Page or Instagram account, or are on a customer list you are allowed to use for advertising;
 - **lookalike audiences**: people who resemble your best customers;
@@ -108,7 +108,7 @@ So let the ad do the filtering. An ad that opens with "For landlords with tenant
 
 After launch, and after every significant edit, an ad set goes through a learning phase while Meta works out who to show it to. Results swing during this period. [Meta's help on the learning phase](https://www.facebook.com/business/help/112167992830700) describes it, and its guidance talks of about 50 results in a week before delivery settles.
 
-A change to the targeting, the creative or the optimisation event, or a large jump in budget, can send the ad set back to the start. So pick one day a week to read the results, make your changes then, and leave the campaign alone in between. A small budget makes this harder, not easier: the fewer results you get, the longer the learning lasts. If an ad set cannot get enough results, Ads Manager marks it **Learning limited**: combine ad sets, widen the audience or optimise for a more frequent result, such as a form sent rather than a sale, instead of editing it every day.
+A change to the targeting, the creative or the optimisation event, or a large jump in budget, can send the ad set back to the start. So pick one day a week to read the results, make your changes then, and leave the campaign alone in between. A small budget makes this harder, not easier: the fewer results you get, the longer the learning lasts. Without enough results, Ads Manager marks the ad set **Learning limited**: combine ad sets, widen the audience or optimise for a more frequent result, such as a form sent rather than a sale.
 
 ## Mistake 7: judging the ads on likes and clicks
 
@@ -134,7 +134,7 @@ Then watch what visitors do. I use Microsoft Clarity to see where people engage,
 
 A winning ad does not win forever. In Ads Manager, the **Frequency** column shows how many times, on average, each person has seen your ad. When it climbs and results fall, the people you reach have seen it too often: show them the next version, which your tests should already have ready.
 
-Read the comments under your ads too. Answer the questions, hide the spam and note the words people use: they are research for your next ad, which brings you back to mistake 1.
+Read the comments under your ads too. Answer the questions, hide the spam and note the words people use: they are the research for your next ad.
 
 ## Mistake 10: adding Meta ads when another channel fits better
 
