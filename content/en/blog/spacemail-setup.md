@@ -211,7 +211,7 @@ If none of these fits, Spaceship's support is there 24/7, and in my experience e
 
 1. A plan chosen and connected to the right domain with **Unbox**.
 2. The mailboxes created, each password in a password manager.
-3. MX, SPF and DKIM in place where the nameservers point, with no old MX left behind.
+3. MX, SPF and DKIM in place where the nameservers point (plus the verification TXT for a domain registered elsewhere), with no old MX left behind.
 4. One DMARC record on `_dmarc`, starting at `p=none`.
 5. A test email to Gmail showing SPF, DKIM and DMARC as PASS, and a reply received.
 6. The mailbox on your phone and computer over IMAP and SMTP.

@@ -9,29 +9,29 @@ lastmod: 2026-10-17T08:09:00+02:00
 category: "seo"
 article_type: "tutorial"
 keywords: ["référencement Squarespace", "SEO Squarespace", "réglages SEO Squarespace", "redirection 301 Squarespace", "sitemap Squarespace", "Squarespace Google Search Console"]
-summary: "Le référencement Squarespace repose sur quelques réglages : un titre SEO, une description et une URL courte par page, un format de titre pour le site, un texte alternatif par image, des redirections 301 et un sitemap envoyé à Google Search Console. Vérifiez que le site est public et ne bloquez pas les robots d’IA si vous voulez que les assistants IA vous trouvent. Avec ces réglages et les bons mots-clés, un site Squarespace que j’ai créé est premier ou deuxième sur Google."
+summary: "Le référencement Squarespace repose sur quelques réglages : un titre SEO, une description et une URL courte par page, un format de titre pour le site, un texte alternatif par image, des redirections 301 et un sitemap envoyé à Google Search Console. Vérifiez que le site est public et ne bloquez pas les robots d’IA si vous voulez que les assistants IA vous trouvent. Avec ces réglages et les bons mots-clés, un site Squarespace que j’ai créé occupe la première ou la deuxième place sur Google."
 cover: "squarespace-seo"
 cover_alt: "Barre de recherche au-dessus d’une liste de résultats dont le premier est mis en avant, à côté des mots Squarespace SEO et d’un ordinateur portable"
 related: ["squarespace-tutorial", "on-page-seo-checklist", "google-search-console-tutorial", "wordpress-to-squarespace", "robots-txt-ai-crawlers"]
 services: ["seo"]
 faq:
   - q: "Squarespace est-il bon pour le référencement ?"
-    a: "Oui, pour le site d’une petite entreprise. Il gère les bases techniques (sitemap, HTTPS, affichage adapté au mobile) et vous donne les champs qui comptent. Comme il est fermé, un développeur a moins de marge que sur un site codé sur mesure ou sous WordPress, mais votre position dépend bien plus de vos mots-clés, de votre contenu et des liens vers votre site."
+    a: "Oui, pour le site d’une petite entreprise. Il gère les bases techniques (sitemap, HTTPS, affichage adapté au mobile) et vous donne les champs qui comptent. Comme il est fermé, un développeur a moins de marge que sur un site codé sur mesure ou sous WordPress, mais votre positionnement dépend bien plus de vos mots-clés, de votre contenu et des liens vers votre site."
   - q: "Quelle différence entre le titre de page et le titre SEO sur Squarespace ?"
     a: "Le titre de page est le nom que vous donnez à la page dans Squarespace. Le titre SEO, dans l’onglet SEO des paramètres de la page, est celui qu’utilisent les navigateurs et les moteurs de recherche, jusqu’à 100 caractères. Laissé vide, il est remplacé par le titre de page."
   - q: "Combien de temps pour qu’un nouveau site Squarespace apparaisse sur Google ?"
-    a: "Une fois le site public et le sitemap envoyé, Google explore en général les nouvelles pages en quelques jours à quelques semaines. Se positionner prend plus longtemps : selon Google, le SEO demande en général de quatre mois à un an. Pour un client, un positionnement est arrivé en un ou deux jours, ce qui est rare et que je ne promettrais pas."
+    a: "Une fois le site public et le sitemap envoyé, Google explore en général les nouvelles pages en quelques jours à quelques semaines. Se positionner prend plus longtemps : d’après les conseils de Google pour choisir un prestataire SEO, il faut en général de quatre mois à un an. Pour un client, le site s’est positionné en un ou deux jours : c’est rare, et je ne le promettrais pas."
   - q: "À quoi sert l’outil AI Visibility de Squarespace ?"
-    a: "Il suit la façon dont votre entreprise apparaît dans ChatGPT et Gemini, en anglais seulement, sur les sites en version 7.1. Il mesure votre visibilité, il ne la change pas. Ce qui vous fait citer, c’est le même travail que pour Google : des pages claires sur ce que vous faites et où, et des mentions de votre entreprise sur d’autres sites."
+    a: "Il suit la façon dont votre entreprise apparaît dans ChatGPT et Gemini, et n’est proposé pour l’instant que sur les sites en anglais en version 7.1 (donc pas sur un site en français). Il mesure votre visibilité, il ne la change pas. Ce qui vous fait citer, c’est le même travail que pour Google : des pages claires sur ce que vous faites et où, et des mentions de votre entreprise sur d’autres sites."
   - q: "Un site Squarespace peut-il se positionner en français et en anglais ?"
-    a: "Oui, mais Squarespace n’a pas de traduction intégrée : vous créez les pages de chaque langue vous-même ou vous ajoutez un service de traduction comme Weglot. Donnez à chaque version son titre SEO, sa description et son URL dans sa langue, et ajoutez des balises hreflang pour que Google montre la bonne version à chacun."
+    a: "Oui, mais Squarespace n’a pas de traduction intégrée : vous créez les pages de chaque langue vous-même ou vous ajoutez un service de traduction comme Weglot. Donnez à chaque version son titre SEO, sa description et son URL dans sa langue, et ajoutez des balises hreflang pour que Google montre la bonne version à chacun. Weglot indique que son extension les ajoute pour vous ; sinon, elles se placent dans l’injection de code d’en-tête de chaque page, disponible à partir de l’abonnement Essentiel."
 ---
 
 Le référencement Squarespace consiste surtout à remplir ce que la plateforme vous donne déjà : un titre SEO et une description pour chaque page, des URL courtes, un texte alternatif sur les images, des redirections quand une adresse change et un sitemap connu de Google Search Console. Ce tutoriel passe ces réglages en revue un par un, dans l’ordre où ils se présentent autour d’une mise en ligne, sur Squarespace 7.1. Les menus sont cités tels qu’ils apparaissent dans l’interface en anglais en octobre 2026 ; en français, leurs libellés sont traduits, mais les réglages sont les mêmes.
 
-Une réserve d’abord. Squarespace est une plateforme fermée : vous n’avez pas accès au code source, donc un site codé sur mesure ou un site WordPress bien construit laisse plus de marge à un spécialiste, et peut mieux se positionner pour cette raison. Pourtant, le premier site que j’ai créé pour Pilotech tourne sur Squarespace et il est premier ou deuxième sur Google, avec des métadonnées et des mots-clés bien choisis.
+Une réserve d’abord. Squarespace est une plateforme fermée : vous n’avez pas accès au code source, donc un site codé sur mesure ou un site WordPress bien construit laisse plus de marge à un spécialiste, et peut mieux se positionner pour cette raison. Pourtant, le premier site que j’ai créé pour Pilotech tourne sur Squarespace et se classe premier ou deuxième sur Google, avec des métadonnées soignées et les bons mots-clés.
 
-C’est aussi pour cela que je fais passer sur Squarespace les clients qui modifient eux-mêmes leur site vitrine : ils changent une page sans que toute la structure s’effondre, et chaque réglage ci-dessous est à leur portée. Si votre site n’est pas encore construit, commencez par mon {{< a key="squarespace-tutorial" >}}tuto Squarespace{{< /a >}}. Ce tutoriel fait partie de mon {{< a key="small-business-seo-guide" >}}guide complet du référencement naturel{{< /a >}}, qui couvre les mots-clés, le contenu et les liens.
+Si je fais passer sur Squarespace les clients qui modifient eux-mêmes leur site vitrine, c’est qu’ils peuvent y changer une page sans que toute la structure s’effondre, et chaque réglage ci-dessous est à leur portée. Si votre site n’est pas encore construit, commencez par mon {{< a key="squarespace-tutorial" >}}tuto Squarespace{{< /a >}}. Ce tutoriel fait partie de mon {{< a key="small-business-seo-guide" >}}guide complet du référencement naturel{{< /a >}}, qui couvre les mots-clés, le contenu et les liens.
 
 ## Ce que couvre le référencement Squarespace, et ce qui reste à votre charge
 
@@ -53,11 +53,12 @@ Avant d’ouvrir le moindre réglage, choisissez un mot-clé principal par page�
 
 ## Étape 1 : vérifier que les moteurs de recherche voient le site
 
-Une page que Google ne peut pas atteindre ne se positionnera pas, aussi bon que soit son titre. Trois réglages peuvent cacher un site ou une page Squarespace, et chacun surprend des propriétaires de site au lancement :
+Une page que Google ne peut pas atteindre ne se positionnera pas, aussi bon que soit son titre. Quatre réglages peuvent cacher un site ou une page Squarespace aux moteurs de recherche, et il faut les vérifier tous les quatre avant la mise en ligne :
 
 1. Dans **Settings** (paramètres), ouvrez **Site availability** (disponibilité du site) et choisissez **Public**. Tout site Squarespace démarre en privé, et seul un site avec un abonnement payant peut être public : un site en essai gratuit reste hors de Google.
 2. Si vous avez protégé le site par un mot de passe pendant sa construction, retirez-le. Il empêche Google d’indexer votre contenu, et des pages indexées avant son ajout peuvent rester un moment dans les résultats.
 3. Vérifiez qu’aucune page importante n’a l’option **Hide page from search results** activée. L’étape 3 explique ce réglage.
+4. Dans **Settings**, ouvrez **Crawlers** (robots d’exploration) et vérifiez que l’option qui bloque les robots des moteurs de recherche est désactivée : une fois activée, elle tient Google à l’écart de tout le site. L’étape 8 traite de l’option consacrée à l’IA, sur le même panneau.
 
 {{< screenshot id="squarespace-seo-01" alt="Panneau Site availability de Squarespace avec l’option Public sélectionnée" >}}
 
@@ -79,7 +80,7 @@ Pages :                   %p | %s
 Éléments de collection :  %i | %s
 ```
 
-La page d’accueil demande le plus de soin, car elle n’a pas de champ de titre SEO dans ses paramètres : son titre dans Google vient uniquement de ce format. Indiquez le nom de votre entreprise et ce que vous faites, avec votre ville si votre clientèle est locale. Gardez un titre de site court, puisque le format `%p | %s` l’ajoute à la fin de chaque titre de page.
+La page d’accueil demande le plus de soin, car elle n’a pas de champ de titre SEO dans ses paramètres : sa balise title vient uniquement de ce format. Indiquez le nom de votre entreprise et ce que vous faites, avec votre ville si votre clientèle est locale. Gardez un titre de site court, puisque le format `%p | %s` l’ajoute à la fin de chaque titre de page.
 
 La page d’accueil a aussi besoin d’une description, le court texte que Google peut afficher sous son titre. L’[aide de Squarespace sur les descriptions SEO](https://support.squarespace.com/hc/fr-fr/articles/206016198) indique où l’ajouter.
 
@@ -105,13 +106,13 @@ Avec le format `%p | %s`, Google reçoit « Dépannage de chaudière à Lyon | 
 
 {{< screenshot id="squarespace-seo-03" alt="Paramètres d’une page Squarespace, onglet SEO, avec les champs SEO title et SEO description remplis" >}}
 
-Ma {{< a key="on-page-seo-checklist" >}}checklist SEO on-page{{< /a >}} couvre le reste de chaque page : titres, textes et liens internes.
+Ma {{< a key="on-page-seo-checklist" >}}checklist SEO on-page{{< /a >}} couvre le reste de chaque page : intertitres, textes et liens internes.
 
 ### Masquer les pages dont Google n’a pas besoin
 
 Le même onglet SEO propose l’option **Hide page from search results** (masquer la page des résultats de recherche). Activez-la pour les pages qui n’apportent rien à un internaute, comme la page de remerciement après un formulaire ou une page de test. La page reste publique et apparaît toujours dans la recherche interne du site. La page d’accueil et les éléments de collection pris un par un, comme un article de blog, n’ont pas cette option, et masquer une page de collection masque tous ses éléments.
 
-Déplacer une page dans la section **Not Linked** (pages non liées) du panneau Pages fait autre chose : la page sort seulement de votre menu. Google peut toujours la trouver et l’indexer.
+Déplacer une page dans la section **Not linked** (pages non liées) du panneau Pages fait autre chose : la page sort seulement de votre menu. Google peut toujours la trouver et l’indexer.
 
 ## Étape 4 : raccourcir les URL de vos pages
 
@@ -141,7 +142,7 @@ Cliquez sur un bloc image, ouvrez ses options de modification et remplissez le c
 | chaudière lyon dépannage chaudière lyon pas cher | Bourrage de mots-clés, inutile pour un lecteur d’écran |
 | IMG_4521 | Ne dit rien |
 
-Renommez aussi vos fichiers avant de les importer : `entretien-chaudiere-lyon.jpg` en dit plus à Google que `IMG_4521.jpg`. Les images purement décoratives, comme une texture de fond, n’ont pas besoin de description.
+Renommez aussi vos fichiers avant de les importer : `entretien-chaudiere-lyon.jpg` en dit un peu plus à Google que `IMG_4521.jpg`. Les images purement décoratives, comme une texture de fond, n’ont pas besoin de description.
 
 {{< screenshot id="squarespace-seo-05" alt="Options de modification d’un bloc image Squarespace avec le champ du texte alternatif rempli" >}}
 
@@ -188,7 +189,7 @@ L’état **Impossible de récupérer** peut s’afficher pendant 24 à 48 heure
 
 {{< screenshot id="squarespace-seo-07" alt="Rapport Sitemaps de Google Search Console avec le sitemap.xml d’un site Squarespace envoyé" >}}
 
-Enfin, faites venir les données dans Squarespace. Dans **Analytics**, ouvrez **Search keywords** (mots-clés de recherche), cliquez sur **Connect** (connecter), connectez-vous avec le compte Google qui détient la propriété et autorisez l’accès. Les recherches qui amènent des visiteurs sur votre site s’affichent alors dans Squarespace, sous 72 heures environ.
+Enfin, affichez ces données dans Squarespace. Dans **Analytics**, ouvrez **Search keywords** (mots-clés de recherche), cliquez sur **Connect** (connecter), connectez-vous avec le compte Google qui détient la propriété et autorisez l’accès. Les recherches qui amènent des visiteurs sur votre site s’affichent alors dans Squarespace, sous 72 heures environ.
 
 {{< screenshot id="squarespace-seo-08" alt="Panneau Search keywords des statistiques Squarespace, avec le bouton pour connecter Google Search Console" >}}
 
@@ -198,17 +199,17 @@ L’[aide de Squarespace sur Search Console](https://support.squarespace.com/hc/
 
 Les assistants IA comme ChatGPT, Claude ou Perplexity envoient leurs propres robots lire les sites web. Squarespace vous donne deux réglages pour eux.
 
-**Les robots d’exploration.** Dans **Settings**, ouvrez **Crawlers** (robots d’exploration). L’option **Block known artificial intelligence crawlers** (bloquer les robots d’intelligence artificielle connus) est désactivée par défaut. Laissez-la désactivée si vous voulez que les assistants IA trouvent et recommandent votre entreprise : OpenAI, par exemple, indique que les sites qui bloquent son robot de recherche ne sont pas affichés dans les réponses de recherche de ChatGPT. Ne l’activez que si tenir votre contenu à l’écart des entreprises d’IA compte plus pour vous que cette visibilité. Sur le même panneau, vérifiez aussi que rien ne bloque les moteurs de recherche ; l’[aide de Squarespace sur les robots](https://support.squarespace.com/hc/fr-fr/articles/360022347072) décrit chaque option.
+**Les robots d’exploration.** Dans **Settings**, ouvrez **Crawlers** (robots d’exploration). L’option **Block known artificial intelligence crawlers** (bloquer les robots d’intelligence artificielle connus) est désactivée par défaut. Laissez-la désactivée si vous voulez que les assistants IA trouvent et recommandent votre entreprise : les outils de recherche IA envoient des robots lire vos pages, et bloquer ces robots peut vous écarter de leurs réponses. OpenAI, par exemple, indique que les sites qui bloquent son robot de recherche ne sont pas affichés dans les réponses de recherche de ChatGPT. N’activez cette option que si tenir votre contenu à l’écart des entreprises d’IA compte plus pour vous que cette visibilité. L’[aide de Squarespace sur les robots](https://support.squarespace.com/hc/fr-fr/articles/360022347072) décrit chaque option du panneau.
 
 {{< screenshot id="squarespace-seo-09" alt="Réglages Crawlers de Squarespace avec l’option Block known artificial intelligence crawlers désactivée" >}}
 
-**Le fichier llms.txt.** Depuis fin juillet 2026, les sites en version 7.1 peuvent publier un fichier llms.txt, un résumé du site en texte brut destiné aux outils d’IA, depuis l’onglet **LLMS.txt** des mêmes **SEO Settings**. Il est désactivé par défaut et Squarespace n’écrit rien à votre place. Google Search ignore ce fichier et aucun grand acteur de l’IA n’a confirmé le lire : voyez-le comme dix minutes de travail facultatif. Mon article sur le {{< a key="llms-txt-explained" >}}fichier llms.txt{{< /a >}} montre quoi écrire et où le coller.
+**Le fichier llms.txt.** Depuis fin juillet 2026, les sites en version 7.1 peuvent publier un fichier llms.txt, un résumé du site en texte brut destiné aux outils d’IA, depuis l’onglet **LLMS.txt** de **SEO Settings** (voir l’étape 2). Il est désactivé par défaut et Squarespace n’écrit rien à votre place. Google Search ignore ce fichier et aucun grand acteur de l’IA n’a confirmé le lire : voyez-le comme dix minutes de travail facultatif. Mon article sur le {{< a key="llms-txt-explained" >}}fichier llms.txt{{< /a >}} montre quoi écrire et où le coller.
 
 ## Votre checklist de référencement Squarespace, et quand passer la main
 
 Reprenez cette liste avant la mise en ligne, puis à chaque nouvelle page :
 
-1. Le site est **Public**, sans mot de passe.
+1. Le site est **Public**, sans mot de passe, et les robots des moteurs de recherche ne sont pas bloqués.
 2. Les formats de titre sont réglés, et le titre de la page d’accueil dit qui vous êtes, ce que vous faites et où.
 3. Chaque page a un titre SEO et une description construits autour d’un mot-clé.
 4. Les URL sont courtes, et chaque adresse modifiée a sa 301 dans URL mappings.
@@ -219,4 +220,4 @@ Reprenez cette liste avant la mise en ligne, puis à chaque nouvelle page :
 
 Vous n’avez pas besoin de moi pour tout cela. Ces réglages sont à la portée de toute personne capable de modifier un site Squarespace, et c’est tout l’intérêt d’y mettre mes clients : ils changent leurs pages quand ils le veulent. J’ajoute en général un peu de code sur mesure à leurs sites, rien de destructeur, et c’est pour cette partie qu’ils m’appellent.
 
-Les réglages sont la partie facile du SEO. Ce qui prend du temps, c’est le travail autour : la recherche de mots-clés, une page par service, la fiche Google Business Profile, puis les mentions et les liens venus d’autres sites. Le site de Pilotech a demandé environ un mois de construction, et son premier prospect est arrivé trois semaines après la mise en ligne ; mon {{< a key="pilotech-seo-case-study" >}}étude de cas SEO{{< /a >}} raconte l’histoire étape par étape. Si vous préférez confier ce travail, c’est ce que couvre mon {{< a page="/services/seo" >}}accompagnement SEO{{< /a >}}.
+Les réglages sont la partie facile du SEO. Ce qui prend du temps, c’est le travail autour : la recherche de mots-clés, une page par service, la fiche d’établissement Google, puis les mentions et les liens venus d’autres sites. Le site de Pilotech a demandé environ un mois de construction, et son premier prospect est arrivé trois semaines après la mise en ligne ; mon {{< a key="pilotech-seo-case-study" >}}étude de cas SEO{{< /a >}} raconte l’histoire étape par étape. Si vous préférez confier ce travail, c’est ce que couvre mon {{< a page="/services/seo" >}}accompagnement SEO{{< /a >}}.

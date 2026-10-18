@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:28:00+02:00
 category: "aio"
 article_type: "tutorial"
 keywords: ["données structurées", "données structurées SEO", "schema.org", "JSON-LD", "balisage LocalBusiness", "résultats enrichis"]
-summary: "Les données structurées sont un code, souvent au format JSON-LD, qui décrit votre entreprise et vos pages aux moteurs de recherche. En octobre 2026, les balisages Organization ou LocalBusiness, BreadcrumbList et Product valent encore la peine, mais les résultats FAQ et HowTo ont disparu de Google. Côté IA, aucun effet mesuré : Google dit que ses fonctions d’IA n’exigent aucun balisage spécial, et un test d’Ahrefs n’a vu aucune hausse notable des citations."
+summary: "Les données structurées sont un code, souvent en JSON-LD, qui décrit votre entreprise et vos pages aux moteurs de recherche. En octobre 2026, les balisages Organization ou LocalBusiness, BreadcrumbList et Product valent encore la peine, mais les résultats FAQ et HowTo ont disparu de Google. Côté IA, aucun effet démontré : Google dit que ses fonctions d’IA n’exigent aucun balisage spécial, et une étude d’Ahrefs sur 1 885 pages n’a vu aucune hausse notable des citations."
 cover: "schema-markup-small-business"
 cover_alt: "Fenêtre de terminal avec une requête web qui répond 200 OK, à côté du mot Schema.org"
 related: ["local-seo-guide", "geo-vs-seo", "google-ai-overviews-ai-mode", "on-page-seo-checklist", "squarespace-code-injection"]
@@ -18,7 +18,7 @@ faq:
   - q: "Les données structurées sont-elles un facteur de classement ?"
     a: "Pas directement. Google s’en sert pour comprendre une page et décider s’il peut afficher un résultat enrichi, mais un balisage valide ne fait pas monter une page à lui seul. Ce que dit la page, et les recherches auxquelles elle répond, décident toujours de sa position."
   - q: "JSON-LD, microdonnées ou RDFa : quel format choisir ?"
-    a: "Le JSON-LD. Google lit les trois formats, mais recommande le JSON-LD dès que votre site le permet, car c’est le plus simple à ajouter et à entretenir. Les microdonnées et le RDFa s’écrivent dans le HTML visible : chaque changement de mise en page risque de les casser."
+    a: "Le JSON-LD. Google lit les trois formats, mais recommande le JSON-LD dès que votre site le permet, car c’est le plus simple à ajouter et à entretenir. Les microdonnées et le RDFa s’insèrent dans le HTML du contenu visible : chaque changement de mise en page risque de les casser."
   - q: "Combien de temps faut-il pour que les données structurées apparaissent dans Google ?"
     a: "Google doit d’abord explorer et traiter de nouveau la page, ce qui peut prendre de quelques jours à plusieurs semaines. Une demande d’indexation dans l’outil Inspection de l’URL de la Search Console peut accélérer l’exploration."
   - q: "Les données structurées valent-elles la peine pour un site d’une seule page ?"
@@ -29,13 +29,13 @@ faq:
 
 Les données structurées sont un bloc de code, en général au format JSON-LD, qui décrit une page aux moteurs de recherche sous forme de données : le nom de votre entreprise, son adresse, son téléphone et ses horaires, le service vendu sur une page, le prix d’un produit. Elles suivent le vocabulaire commun schema.org, et vos visiteurs ne les voient jamais.
 
-En octobre 2026, la question pour une petite entreprise est de savoir lesquelles servent encore. Google a supprimé plusieurs des résultats enrichis qu’elles permettaient, dont les FAQ en mai 2026, pendant que des offres de « schema pour l’IA » promettent une place dans ChatGPT. Ma réponse courte : trois ou quatre types valent encore un après-midi de travail, aucun ne vous fera citer par un assistant IA, et vous pouvez laisser le reste de côté.
+En octobre 2026, la question pour une petite entreprise est de savoir lesquelles servent encore. Google a supprimé plusieurs des résultats enrichis qu’elles permettaient, dont les FAQ en mai 2026, pendant que des offres de « schema pour l’IA » promettent une place dans ChatGPT. Ma réponse courte : trois ou quatre types valent encore un après-midi de travail, rien ne montre qu’un seul d’entre eux vous fasse citer par un assistant IA, et vous pouvez laisser le reste de côté.
 
-Au programme : ce que les données structurées font encore sur Google et dans les IA, le code à copier, puis comment l’ajouter et le tester. Ce tutoriel fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}.
+Ce tutoriel fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}.
 
 ## Les données structurées, qu’est-ce que c’est ?
 
-Les données structurées sont des informations sur une page, chacune accompagnée d’une étiquette que les machines comprennent. Une personne qui lit votre page Contact sait que « 12 rue Exemple, 75011 Paris » est une adresse. Un robot n’y voit qu’une ligne de texte, sauf si le balisage la désigne comme telle.
+Les données structurées associent une étiquette à chaque information d’une page, avec les noms définis par schema.org. Une personne qui lit votre page Contact sait que « 12 rue Exemple, 75011 Paris » est une adresse. Un robot n’y voit qu’une ligne de texte, sauf si le balisage la désigne comme telle.
 
 Tous les exemples de ce tutoriel sont au format JSON-LD, qui tient dans un seul bloc `<script>` du code de la page, à l’écart de votre mise en page. Voici ce que ce bloc peut faire pour vous :
 
@@ -47,7 +47,7 @@ Ce qu’il ne peut pas faire, c’est garantir quoi que ce soit. **Un balisage v
 
 ## Les données structurées encore affichées par Google en 2026
 
-Google réduit ses résultats enrichis d’année en année. Les résultats HowTo ont disparu en 2023. Depuis janvier 2025, les résultats sur mobile n’affichent plus que le domaine à la place du fil d’Ariane, toujours visible sur ordinateur. Les résultats FAQ ne s’affichent plus depuis le 7 mai 2026 et, selon la documentation de Google, la FAQ a quitté le Test des résultats enrichis et les rapports de la Search Console en juin 2026. Le balisage FAQ, lui, reste valide : Google ne l’affiche simplement plus.
+Google réduit ses résultats enrichis d’année en année. En 2023, les résultats HowTo ont disparu et les résultats FAQ ont été réservés aux sites gouvernementaux et de santé reconnus. Depuis janvier 2025, les résultats sur mobile n’affichent plus que le domaine à la place du fil d’Ariane, toujours visible sur ordinateur. Les résultats FAQ ont disparu pour tous le 7 mai 2026 et, selon la documentation de Google, le Test des résultats enrichis et les rapports de la Search Console ne les prennent plus en charge depuis juin 2026. Le balisage FAQ, lui, reste valide : Google ne l’affiche simplement plus.
 
 Voici où en sont les types utiles à une petite entreprise au moment où j’écris (octobre 2026) :
 
@@ -59,22 +59,22 @@ Voici où en sont les types utiles à une petite entreprise au moment où j’é
 | `Product` avec une `Offer` | Prix, disponibilité et notes dans les résultats | Oui, si vous vendez en ligne ou affichez vos prix |
 | `Event` | Détails de l’événement dans les résultats | Si vous organisez des événements publics |
 | `Service` | Aucun résultat enrichi | Facultatif, et peu coûteux sur un site codé |
-| `FAQPage` | Plus de résultat enrichi depuis le 7 mai 2026 | Gardez-le s’il existe ; ne l’ajoutez pas |
+| `FAQPage` | Plus de résultat enrichi depuis le 7 mai 2026 (réservé aux sites gouvernementaux et de santé dès 2023) | Gardez-le s’il existe ; ne l’ajoutez pas |
 | `HowTo` | Plus de résultat enrichi depuis 2023 | Non |
 
-`LocalBusiness` est une forme plus précise d’`Organization` : utilisez l’un ou l’autre, pas les deux, et choisissez le sous-type le plus précis qui vous corresponde. Schema.org prévoit des types pour les plombiers, les électriciens, les dentistes, les restaurants et bien d’autres métiers.
+`LocalBusiness` est une forme plus précise d’`Organization` : une entreprise installée à une seule adresse utilise l’un ou l’autre, pas les deux. Choisissez le sous-type le plus précis qui vous corresponde. Schema.org prévoit des types pour les plombiers, les électriciens, les dentistes, les restaurants et bien d’autres métiers.
 
-Deux limites comptent pour une entreprise locale. Les résultats de la carte dépendent de votre fiche d’établissement Google bien plus que de votre code, comme l’explique mon guide du {{< a key="local-seo-guide" >}}référencement local{{< /a >}}. Et Google n’affiche pas d’étoiles pour les avis qu’une entreprise publie sur elle-même : les étoiles à côté de votre nom dans Google Maps viennent de votre fiche.
+Une limite compte pour une entreprise locale : les résultats de la carte dépendent de votre fiche d’établissement Google bien plus que de votre code, comme l’explique mon guide du {{< a key="local-seo-guide" >}}référencement local{{< /a >}}.
 
 ## Les données structurées aident-elles à apparaître dans ChatGPT et les IA ?
 
-Pas d’une façon que quiconque ait mesurée à ce jour. Voici ce qui est documenté au moment où j’écris :
+Rien ne le montre à ce jour. Voici ce qui est documenté au moment où j’écris :
 
-1. **Google dit que ses fonctions d’IA n’exigent aucun balisage spécial.** Son guide d’optimisation pour les Aperçus IA et le Mode IA, publié en mai 2026, affirme que ce travail relève toujours du SEO et range le balisage spécial parmi ce dont la recherche Google n’a pas besoin ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr)). Pour apparaître dans ces réponses, une page doit seulement être indexée et pouvoir afficher un extrait.
-2. **Ahrefs n’a mesuré aucun effet.** Dans un test publié en mai 2026, Ahrefs a ajouté du JSON-LD sur 1 885 pages et les a comparées à 4 000 pages laissées telles quelles : les citations par les IA n’ont pas augmenté de façon notable ([étude d’Ahrefs](https://ahrefs.com/blog/schema-ai-citations/), en anglais).
+1. **Google dit que ses fonctions d’IA n’exigent aucun balisage spécial.** Son guide d’optimisation pour les Aperçus IA et le Mode IA, publié le 15 mai 2026, présente ce travail comme du SEO classique et range le balisage spécial parmi ce dont la recherche Google n’a pas besoin ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr)). Pour être éligible à ces réponses, une page doit seulement être indexée et pouvoir afficher un extrait.
+2. **Ahrefs n’a mesuré aucun effet notable.** Dans une étude publiée en mai 2026, Ahrefs a suivi 1 885 pages qui ont ajouté du JSON-LD entre août 2025 et mars 2026, et les a comparées à 4 000 pages similaires. Face à ces pages témoins, les citations ont progressé de 2,2 % dans ChatGPT et de 2,4 % dans le Mode IA, trop peu pour les distinguer du hasard, et reculé de 4,6 % dans les Aperçus IA, une baisse dont l’étude ne tranche pas la cause ([étude d’Ahrefs](https://ahrefs.com/blog/schema-ai-citations/), en anglais). Ahrefs l’a menée parce que les pages citées par les IA portaient presque trois fois plus souvent du JSON-LD, mais ce balisage se trouve surtout sur des sites mieux entretenus : l’écart ne prouvait rien.
 3. **Microsoft dit que cela aide ses modèles à lire les pages.** Lors d’une conférence en mars 2025, l’équipe de Bing a indiqué que les données structurées aident les modèles de langage de Microsoft à comprendre un contenu, ce qui concerne Bing et Copilot ([Search Engine Land](https://searchengineland.com/microsoft-bing-copilot-use-schema-for-its-llms-453455), en anglais). Pour ChatGPT, Gemini et Perplexity, rien n’est documenté.
 
-Être lu plus facilement et être cité plus souvent sont deux choses différentes, et seule la première a des appuis. Les assistants citent les pages qui répondent bien à la question, et les entreprises dont d’autres sites parlent. Mon article {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}} explique où porter cet effort.
+Être lu plus facilement et être cité plus souvent sont deux choses différentes, et seule la première est étayée. Les assistants citent les pages qui répondent bien à la question, et les entreprises dont d’autres sites parlent. Mon article {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}} explique où porter cet effort.
 
 {{< callout type="tip" >}}**Si vous ajoutez des données structurées, placez-les dans le HTML de la page.** Googlebot exécute le JavaScript : il lit le balisage qu’un gestionnaire de balises ou un widget ajoute après le chargement. GPTBot, ClaudeBot et PerplexityBot n’exécutent pas le JavaScript : pour eux, ce balisage n’existe pas.{{< /callout >}}
 
@@ -82,14 +82,14 @@ Pas d’une façon que quiconque ait mesurée à ce jour. Voici ce qui est docum
 
 Sur les sites que je code, le principe est toujours le même, et vous pouvez le reprendre :
 
-- **Page d’accueil :** un bloc pour l’entreprise, `LocalBusiness` (ou son sous-type le plus précis) si vous recevez ou servez des clients dans un lieu, `Organization` sinon.
+- **Page d’accueil :** un bloc pour l’entreprise, `LocalBusiness` (ou son sous-type le plus précis) si vous recevez des clients ou intervenez dans une zone précise, `Organization` sinon.
 - **Pages de services :** un bloc `Service` pour le service présenté.
 - **Pages produits :** un bloc `Product`, avec une `Offer` si la page affiche un prix.
 - **Chaque page sous l’accueil :** un `BreadcrumbList`.
 
-Le site Toshiba de Pilotech, par exemple, a des données structurées pour l’entreprise, pour chacune de ses dix gammes et pour chaque service ; vous le trouverez depuis la {{< a page="/projects/pilotech-toshiba" >}}page du projet Pilotech Toshiba{{< /a >}}. Le site bilingue d’Eden Corporate Mobility décrit l’agence, le fil d’Ariane et la FAQ. Sur le portail d’entrée de Pilotech, prêt à être mis en ligne, les données structurées présentent l’entreprise comme un spécialiste du génie climatique en Île-de-France, et schema.org a même un type pour cela : `HVACBusiness`.
+Le site Toshiba de Pilotech, par exemple, a des données structurées pour l’entreprise, pour chacune de ses dix gammes et pour chaque service ; vous le trouverez depuis la {{< a page="/projects/pilotech-toshiba" >}}page du projet Pilotech Toshiba{{< /a >}}. Le site bilingue d’Eden Corporate Mobility décrit l’agence, le fil d’Ariane et la FAQ. Sur le portail d’entrée de Pilotech, prêt à être mis en ligne, les données structurées présentent Pilotech comme une entreprise de génie climatique francilienne, et schema.org a même un type pour cela : `HVACBusiness`.
 
-Sur mes projets, les métadonnées viennent en dernier, une fois que le client a validé le design et les textes, et les données structurées arrivent avec elles. Le balisage doit décrire ce que disent les pages finales.
+Sur mes projets, les métadonnées viennent en dernier, une fois que le client est satisfait du design et des textes. Traitez les données structurées de la même façon : le balisage doit décrire ce que disent les pages finales.
 
 ### LocalBusiness : le bloc de votre page d’accueil
 
@@ -181,11 +181,13 @@ Ajoutez les blocs dans le `<head>` de vos modèles, et générez-les à partir d
 
 ### Sur Squarespace
 
-Sur Squarespace, la voie habituelle pour ajouter votre propre balisage est l’injection de code : le champ d’en-tête commun à tout le site pour le bloc de l’entreprise, et le champ d’en-tête de chaque page, dans ses paramètres (onglet **Advanced** de l’interface en anglais), pour son bloc de service ou de fil d’Ariane. L’injection de code n’est pas incluse dans toutes les formules, et Squarespace a déplacé ses menus plus d’une fois : mon tutoriel sur l’{{< a key="squarespace-code-injection" >}}injection de code Squarespace{{< /a >}} donne les étapes à jour.
+Squarespace produit déjà de lui-même un balisage de base pour le site, l’entreprise, les produits, les événements et les articles de blog, en partie à partir des informations sur l’entreprise saisies dans vos paramètres, et ce balisage ne se modifie pas directement. Remplissez d’abord ces informations, puis regardez ce que trouve le validateur.
+
+Pour ce qui manque, la voie est l’injection de code : le champ d’en-tête commun à tout le site pour un bloc d’entreprise plus complet, qui reprend exactement les mêmes informations, et le champ d’en-tête de chaque page, dans ses paramètres (onglet **Advanced** de l’interface en anglais), pour son bloc de service ou de fil d’Ariane. L’injection de code n’est pas incluse dans toutes les formules, et Squarespace a déplacé ses menus plus d’une fois : mon tutoriel sur l’{{< a key="squarespace-code-injection" >}}injection de code Squarespace{{< /a >}} donne les étapes à jour.
 
 {{< screenshot id="schema-markup-small-business-01" alt="Paramètres d’une page Squarespace, onglet Advanced, avec un bloc JSON-LD collé dans le champ d’injection de code de l’en-tête de la page" >}}
 
-Sur les sites Squarespace que je crée, j’ajoute en général un peu de code moi-même, et c’est la partie pour laquelle mes clients m’appellent. Tout le reste, ils le modifient eux-mêmes.
+Sur les sites Squarespace que je crée, j’ajoute en général un peu de code moi-même ; mes clients peuvent m’appeler pour cette partie et modifient tout le reste eux-mêmes.
 
 ### Sur WordPress et les autres outils
 
@@ -214,7 +216,7 @@ Testez une page de chaque type avant de publier, puis laissez la Search Console 
 ## Les erreurs qui privent de résultats enrichis
 
 - **Baliser ce que la page ne montre pas.** Les consignes de Google demandent que le balisage décrive un contenu visible par les visiteurs. Des horaires qui n’apparaissent nulle part sur la page, ou un service que vous ne présentez pas, enfreignent cette règle.
-- **Ajouter votre propre note en étoiles.** Un `aggregateRating` construit à partir de vos avis Google ne rapporte rien sur votre propre site, puisque Google n’affiche pas d’étoiles pour les avis qu’une entreprise publie sur elle-même.
+- **Ajouter votre propre note en étoiles.** Google n’affiche pas d’étoiles pour les avis qu’une entreprise publie sur elle-même : un `aggregateRating` recopié de vos avis Google ne rapporte rien sur votre propre site. Les étoiles à côté de votre nom dans Google Maps viennent de votre fiche.
 - **Deux blocs qui se contredisent.** Si le bloc d’une extension donne un numéro de téléphone et le vôtre un autre, corrigez la source plutôt que d’ajouter un troisième bloc.
 - **Oublier le balisage quand quelque chose change.** Si vous déménagez, changez de numéro ou d’horaires, mettez-le à jour le même jour que votre fiche Google.
 - **Un balisage trompeur.** Google peut appliquer une action manuelle aux données structurées trompeuses, ce qui supprime vos résultats enrichis jusqu’à la correction.
@@ -223,13 +225,13 @@ Testez une page de chaque type avant de publier, puis laissez la Search Console 
 
 ## Votre check-list des données structurées
 
-1. Collez votre page d’accueil dans le Schema Markup Validator pour voir ce que votre site produit déjà.
+1. Collez l’adresse de votre page d’accueil dans le Schema Markup Validator pour voir ce que votre site produit déjà.
 2. Ajoutez ou complétez un bloc `LocalBusiness` ou `Organization` sur la page d’accueil, avec les mêmes nom, adresse et téléphone que votre fiche Google.
 3. Ajoutez un `BreadcrumbList` à chaque page sous l’accueil, un bloc `Product` aux pages produits et, si cela vous coûte peu, un bloc `Service` aux pages de services.
 4. Testez une page de chaque type dans le Test des résultats enrichis, corrigez les erreurs, puis publiez.
 5. Quelques semaines plus tard, consultez les rapports de la Search Console.
 6. Laissez le balisage FAQ en place s’il existe, oubliez HowTo, et consacrez le temps gagné à vos pages et à votre fiche Google.
 
-Les données structurées sont une ligne de ma check-list {{< a key="on-page-seo-checklist" >}}SEO on-page{{< /a >}}, et elles méritent à peu près cette part de votre temps. Pour Pilotech, dont les pages Teknopoint sont en première ou deuxième position sur Google, le travail SEO s’est fait dans cet ordre : les pages, le contenu, la fiche Google, puis les corrections techniques. Le balisage appartient à ce dernier groupe. Si votre fiche n’est pas encore terminée, mon tutoriel sur la {{< a key="google-business-profile-setup" >}}fiche Google My Business{{< /a >}} passe avant.
+Les données structurées sont une ligne de ma check-list {{< a key="on-page-seo-checklist" >}}SEO on-page{{< /a >}}, et elles méritent à peu près cette part de votre temps. Pour Pilotech, dont le site Teknopoint est en première ou deuxième position sur Google, le travail SEO s’est fait dans cet ordre : les pages, le contenu, la fiche Google, puis les corrections techniques. Le balisage appartient à ce dernier groupe. Si votre fiche n’est pas encore terminée, mon tutoriel sur la {{< a key="google-business-profile-setup" >}}fiche Google My Business{{< /a >}} passe avant.
 
-Sur Squarespace, ou sur WordPress avec une extension SEO, c’est un travail que vous pouvez faire vous-même, sans moi. Confiez-le quand le balisage doit être généré pour des dizaines de produits ou de pages : c’est un travail de modèles.
+Sur Squarespace, ou sur WordPress avec une extension SEO, c’est un travail que vous pouvez faire vous-même, sans moi. Confiez-le quand le balisage doit être généré pour des dizaines de produits ou de pages : cela se règle dans les modèles du site, pas page par page.

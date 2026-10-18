@@ -42,7 +42,7 @@ Un assistant peut traiter votre entreprise de quatre façons, et votre tableur l
 - **Recommandée :** elle est citée en premier, ou présentée comme adaptée à la demande.
 - **Décrite correctement :** services, zone, prix et coordonnées sont justes.
 
-Une entreprise citée avec de mauvaises informations peut perdre plus qu’une entreprise absente : un client risque d’appeler pour un service que vous avez arrêté l’an dernier.
+Une entreprise citée avec de mauvaises informations peut perdre plus qu’une entreprise absente : un client risque d’appeler pour un service arrêté l’an dernier.
 
 La visibilité IA n’est pas non plus le trafic IA. Beaucoup de gens lisent un nom dans une réponse, puis appellent ou cherchent l’entreprise sans cliquer. D’expérience, on préfère appeler plutôt qu’écrire, parce que c’est plus rapide : une entreprise peut donc être visible dans ChatGPT sans que ses statistiques montrent grand-chose. Mon tutoriel sur le {{< a key="track-ai-traffic" >}}trafic IA dans Google Analytics{{< /a >}} traite des visites ; celui-ci traite des mentions.
 
@@ -67,7 +67,7 @@ Dix requêtes suffisent pour commencer : au-delà, vous remplissez surtout plus
 Pour trouver les mots de vos clients, regardez à quatre endroits :
 
 - **Vos appels.** Les questions que mes clients posent au premier appel, comme « Avez-vous de l’expérience ? » ou « Combien de temps faut-il ? », sont celles que l’on pose désormais à un assistant avant d’appeler qui que ce soit.
-- **La Search Console.** Vos requêtes sur Google montrent les mots employés pour parler de votre métier.
+- **La Search Console.** Les recherches sur lesquelles votre site apparaît déjà dans Google montrent les mots employés pour parler de votre métier.
 - **Le coût des mots-clés.** J’utilise Semrush surtout pour la recherche de mots-clés et pour ce qu’ils coûtent en publicité. Les annonceurs paient le plus cher les recherches qui rapportent : un mot-clé cher fait en général une bonne requête de test.
 - **La recherche approfondie.** Je me sers des outils de deep research pour trouver ce dont les gens se plaignent le plus dans un secteur et les mots qui reviennent sans cesse. Ma méthode est dans mon tutoriel sur le {{< a key="deep-research-copywriting-seo" >}}deep research ChatGPT pour le copywriting et le SEO{{< /a >}}.
 
@@ -100,7 +100,7 @@ Votre propre compte fausserait le test : un assistant qui se souvient de vos co
 
 ### ChatGPT
 
-Ouvrez chatgpt.com dans une fenêtre de navigation privée, sans vous connecter. La recherche de ChatGPT est ouverte aux utilisateurs sans compte depuis février 2025 : une discussion sans compte peut donc chercher sur le web, comme pour un nouveau visiteur.
+Ouvrez chatgpt.com dans une fenêtre de navigation privée, sans vous connecter. La recherche de ChatGPT est ouverte aux utilisateurs non connectés depuis février 2025 : une discussion sans compte peut donc chercher sur le web, comme pour un nouveau visiteur.
 
 Une réponse sans source vient très probablement de l’entraînement du modèle, pas d’une recherche. Notez « aucune » dans la colonne Sources : de nouvelles pages et mentions peuvent faire évoluer assez vite une réponse issue d’une recherche, alors que les données d’entraînement ne changent qu’avec un nouveau modèle.
 
@@ -136,7 +136,7 @@ Remplissez chaque ligne dès que la réponse s’affiche : à la cinquième ré
 - **Ce qui est dit :** copiez la phrase vous concernant telle quelle, erreurs comprises, puis comparez-la avec vos services, votre zone, vos prix, vos horaires et votre numéro actuels.
 - **Sources :** notez les domaines cités : annuaires, sites d’avis, presse locale, discussions de forum, votre propre site.
 
-Je surveille de près la colonne Exact avec ChatGPT : d’expérience, il invente un peu trop souvent, l’une des raisons pour lesquelles j’utilise Claude pour mon travail. Un service inventé ou un ancien numéro viennent en général d’une source, et une source se corrige.
+Je surveille de près la colonne Exact avec ChatGPT : d’expérience, il invente un peu trop souvent, et c’est l’une des raisons pour lesquelles j’utilise Claude pour mon travail. Un service inventé ou un ancien numéro viennent en général d’une source, et une source se corrige.
 
 Posez ensuite une deuxième fois vos cinq requêtes les plus importantes, dans une nouvelle discussion et sur une nouvelle ligne. Les réponses varient d’un essai à l’autre, et un deuxième essai montre si une mention est stable ou due au hasard.
 
@@ -176,7 +176,7 @@ Les outils payants posent vos requêtes à intervalles réguliers et suivent la 
 
 Semrush, propriété d’Adobe depuis avril 2026, vend un AI Visibility Toolkit seul ou inclus dans Semrush One, son offre groupée avec le SEO Toolkit. D’après sa base de connaissances, ce toolkit coûte 99 $ par mois pour un domaine, avec 25 requêtes dans Prompt Tracking, 50 requêtes supplémentaires pour 60 $ par mois et pas d’essai gratuit. Semrush cite ChatGPT et le Mode IA de Google parmi les plateformes suivies.
 
-Ces prix sont ceux d’octobre 2026, à la date de rédaction, tirés de la documentation de Semrush. Semrush publie ses tarifs uniquement en dollars américains : je n’ai pas de prix officiel en euros à vous donner. Vérifiez l’offre en cours, et s’il s’agit du tarif mensuel ou annuel, sur la [page de tarifs de Semrush](https://www.semrush.com/prices/). Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} couvre le reste de l’outil.
+Ces prix, tirés de la documentation de Semrush, sont ceux d’octobre 2026, date de rédaction. Semrush publie ses tarifs uniquement en dollars américains : je n’ai pas de prix officiel en euros à vous donner. Vérifiez l’offre en cours, et s’il s’agit du tarif mensuel ou annuel, sur la [page de tarifs de Semrush](https://www.semrush.com/prices/). Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} couvre le reste de l’outil.
 
 {{< screenshot id="check-ai-visibility-07" alt="Rapport de suivi des requêtes de l’AI Visibility Toolkit de Semrush listant les requêtes et indiquant si la marque est citée" >}}
 
@@ -184,7 +184,7 @@ Ces prix sont ceux d’octobre 2026, à la date de rédaction, tirés de la docu
 
 Squarespace a lancé en juillet 2026 un outil AI Visibility, placé dans la section SEO & AIO du tableau de bord, à côté du rapport SEO. Il rédige jusqu’à 12 exemples de requêtes à partir du contenu et du secteur de votre site ; vous pouvez les modifier ou en ajouter. Il montre ensuite quand votre site apparaît dans les réponses, pour quelles requêtes, et qui apparaît à votre place.
 
-Il ne couvre pour l’instant que ChatGPT et Gemini, et seulement sur les sites en anglais en version 7.1 ([annonce de Squarespace, en anglais](https://www.squarespace.com/blog/ai-visibility)). Pour un site en français, il ne sert donc à rien pour le moment, même si la plupart des sites que je crée pour des clients qui modifient eux-mêmes leurs pages tournent sous Squarespace. Je n’ai trouvé ni prix ni liste des formules concernées : regardez dans votre propre tableau de bord.
+Il ne couvre pour l’instant que ChatGPT et Gemini, et seulement sur les sites en anglais en version 7.1 ([annonce de Squarespace, en anglais](https://www.squarespace.com/blog/ai-visibility)). Pour un site en français, il ne sert donc à rien, même si la plupart des sites que je crée pour des clients qui modifient eux-mêmes leurs pages tournent sous Squarespace. Je n’ai trouvé ni prix ni liste des formules concernées : regardez dans votre propre tableau de bord.
 
 ## Que faire de vos résultats
 
@@ -204,11 +204,11 @@ Les mentions sur d’autres sites sont les plus longues à obtenir et celles qui
 
 ## Votre vérification mensuelle de visibilité IA
 
-1. Dupliquez l’onglet du mois précédent : les dix requêtes sont déjà en place.
+1. Dupliquez l’onglet du mois précédent et videz les réponses, en gardant les dix requêtes.
 2. Posez chaque requête dans ChatGPT, Gemini, Perplexity et Google, sans compte ou sans mémoire, dans une nouvelle discussion à chaque fois.
 3. Remplissez chaque ligne, puis posez une deuxième fois vos cinq requêtes principales.
 4. Calculez le taux de citation de chaque assistant et notez le concurrent le plus cité.
 5. Jetez un œil au rapport AI Performance de Bing, au rapport Citations de Clarity et au rapport IA générative de la Search Console.
-6. Choisissez une correction pour le mois : une page, une rectification, une fiche d’annuaire ou une proposition à un journaliste.
+6. Choisissez une correction pour le mois : une page, une rectification, une fiche d’annuaire ou une proposition de sujet à un journaliste.
 
 Vous n’avez besoin ni de moi ni d’une agence pour faire cette vérification. Si les résultats montrent que votre entreprise est absente de la plupart des réponses et que vous préférez confier les corrections, c’est sur ce travail de fond que repose mon {{< a page="/services/seo" >}}accompagnement SEO{{< /a >}}.

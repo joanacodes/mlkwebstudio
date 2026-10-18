@@ -123,7 +123,7 @@ Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi de
 
 Je développe tout moi-même. Pour les applications, je demande 30 % ou 50 % du prix à la commande, et le solde à la livraison. L’IA a changé ma façon de développer : mes délais de livraison ont fondu, ce qui me laisse parfois le temps de chercher des solutions supplémentaires et de livrer une application plus complète.
 
-Ce dont j’ai besoin de votre part dépend de ce que doit faire l’application. Pour des automatisations comme celle-ci, il me faut par exemple un accès à la boîte mail. La check-list en fin d’article récapitule ce qu’il faut préparer avant de parler à un prestataire, quel qu’il soit.
+Ce dont j’ai besoin de votre part dépend de ce que doit faire l’application. Pour des automatisations comme l’application de Pilotech, il me faut par exemple un accès à la boîte mail. La check-list en fin d’article récapitule ce qu’il faut préparer avant de parler à un prestataire, quel qu’il soit.
 
 {{< callout type="warning" >}}N’envoyez jamais un mot de passe par email ou par SMS pour donner un accès. Passez par la connexion que votre fournisseur de messagerie prévoit pour les applications, où vous validez l’accès sur un écran d’autorisation et pouvez le retirer plus tard, ou créez un accès distinct pour la personne concernée, limité à ce dont elle a besoin.{{< /callout >}}
 

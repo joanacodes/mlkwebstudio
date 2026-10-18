@@ -67,7 +67,7 @@ Ten prompts are enough to start. More prompts give you more rows to fill, not ne
 To find the words your customers use, look in four places:
 
 - **Your phone calls.** Questions my clients ask on a first call, such as "Do you have experience?" or "How long will it take?", are what people now ask an assistant before calling anyone.
-- **Search Console.** Your queries on Google show the words people use for your trade.
+- **Search Console.** The searches that already show your site on Google reveal the words people use for your trade.
 - **Keyword costs.** I use Semrush mainly for keyword research and for what keywords cost in ads. Advertisers pay most for the searches that bring business, so an expensive keyword usually makes a good prompt.
 - **Deep research.** I use deep research tools to find what people in a niche complain about most and which words keep coming back. My method is in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}.
 
@@ -185,6 +185,7 @@ These are the prices at the time of writing (October 2026), taken from Semrush's
 If your site runs on Squarespace, as the sites I build for clients who edit their own pages usually do, look at its AI Visibility tool, released in July 2026. It sits in the SEO & AIO section of the dashboard, next to the SEO report. Squarespace drafts up to 12 example prompts from your site's content and industry, which you can edit or add to. It then shows when your site appears in answers, for which prompts, and who appears when you do not.
 
 For now it covers ChatGPT and Gemini, on English-language sites built on version 7.1 ([Squarespace's announcement](https://www.squarespace.com/blog/ai-visibility)). I found no published price or list of plans for it, so check your own dashboard.
+
 ## What to do with your results
 
 | What you see | What it usually means | What to do |
@@ -203,7 +204,7 @@ Mentions on other sites take the longest to earn and count the most. Start with 
 
 ## Your monthly AI visibility check
 
-1. Duplicate last month's tab, so the ten prompts are already in place.
+1. Duplicate last month's tab and clear the answers, keeping the ten prompts.
 2. Ask each prompt in ChatGPT, Gemini, Perplexity and Google, logged out or without memory, in a new chat each time.
 3. Fill in every row, then ask your five main prompts a second time.
 4. Work out the mention rate for each assistant and note the competitor named most often.

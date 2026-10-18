@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:12:00+02:00
 category: "seo"
 article_type: "guide"
 keywords: ["Core Web Vitals", "website speed", "how to speed up a website", "PageSpeed Insights", "LCP INP CLS", "Core Web Vitals report"]
-summary: "Core Web Vitals are Google's three measures of how a page feels to real visitors: LCP, how quickly the main content appears (good at 2.5 seconds or less), INP, how quickly the page reacts to a tap or click (200 milliseconds or less), and CLS, how much the layout moves (0.1 or less). Google's ranking systems use them, but good scores do not guarantee rankings. To speed up a small business site, start with the usual culprits: oversized images, too many fonts and third-party scripts."
+summary: "Core Web Vitals are Google's three measures of how a page feels to real visitors: LCP, how quickly the main content appears (good at 2.5 seconds or less), INP, how quickly the page reacts to a tap or click (200 milliseconds or less), and CLS, how much the layout moves (0.1 or less). Google's ranking systems use them, but good scores do not guarantee rankings. To speed up a small business site, start with heavy images, extra fonts and third-party scripts."
 cover: "core-web-vitals-speed"
 cover_alt: "A rising line chart behind fluted glass, next to a cup of coffee and a laptop, with the letters LCP, INP and CLS"
 related: ["google-search-console-tutorial", "website-conversion-rate", "on-page-seo-checklist", "build-website-with-ai", "wix-platforms-history"]
@@ -31,7 +31,7 @@ Core Web Vitals are three measures Google uses to judge how a page feels to the 
 
 On a small business website, the causes of a poor result are rarely mysterious. A photo straight off a phone at the top of the home page, four font families, a chat widget nobody uses, a cookie banner that pushes the page down: you can fix most of it yourself, without a developer.
 
-This guide explains what each measure means, how to test your pages in PageSpeed Insights and Search Console, and what to fix first on Squarespace, Wix, WordPress or a hand-built site. It is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}.
+This guide covers what each measure means, how to test your pages and what to fix first on your platform. It is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}.
 
 ## What are Core Web Vitals?
 
@@ -57,8 +57,6 @@ Speed matters most after the click. Someone looking for an emergency plumber on 
 
 PageSpeed Insights is Google's free test, at [pagespeed.web.dev](https://pagespeed.web.dev/). Paste the address of a page, run the test and read the mobile results first. Test the pages that matter, not only the home page.
 
-The report has two halves, and they answer different questions.
-
 ### The top half: what real visitors experienced
 
 The top section gives the Core Web Vitals assessment, passed or failed, with LCP, INP and CLS measured on real visits in Chrome over the last 28 days. This is the data behind Google's assessment, and the one to act on.
@@ -76,7 +74,7 @@ The useful part is the list of insights under the score. Since Lighthouse 13, re
 - **Render blocking requests** lists the stylesheets and scripts the browser has to download before it can show anything.
 - **Layout shift culprits** points to the elements that make the page jump.
 
-{{< callout type="tip" >}}**Do not chase a score of 100.** If the real-visit figures pass, a lab score in the 70s is not worth weeks of work. Fix what the insights point to, test again and move on once the three metrics are good.{{< /callout >}}
+{{< callout type="tip" >}}**Do not chase a score of 100.** If the real-visit figures pass, a lab score in the 70s is not worth weeks of work.{{< /callout >}}
 
 ## How to read the Core Web Vitals report in Search Console
 
@@ -120,7 +118,7 @@ I use {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity{{< /a >}} to s
 |---|---|
 | Images and embeds with no reserved space, so the text below jumps when they arrive | Give every image and embed its width and height |
 | A cookie banner or announcement bar inserted above the content | Display it over the page, fixed at the bottom of the screen |
-| Web fonts that arrive late and change the size of the text | Preload the main font file and pick a fallback font of similar width, so the swap barely moves the text. Fewer files help too: two families with two weights each is plenty for most sites |
+| Web fonts that arrive late and change the size of the text | Preload the main font and pick a fallback font of similar width. Use fewer files too: two families with two weights each is plenty for most sites |
 
 ## Fixes by platform: Squarespace, Wix, WordPress and hand-built sites
 
@@ -154,7 +152,7 @@ On a hand-built site, the image and font fixes above come down to a few lines of
 </style>
 ```
 
-With `swap`, the text is readable while the font loads, but the swap itself can nudge it. If the font still shows up under **Layout shift culprits**, `font-display: optional` removes the shift: on a visit where the web font arrives too late, the browser simply keeps the fallback font.
+With `swap`, the text appears at once, but the swap can nudge it. If the font still shows up under **Layout shift culprits**, switch to `font-display: optional`: when the web font arrives too late, the browser keeps the fallback font.
 
 ## A one-hour speed check, and when to hand it over
 

@@ -20,18 +20,18 @@ faq:
   - q: "What is the difference between the page title and the SEO title on Squarespace?"
     a: "The page title is the name you give the page in Squarespace. The SEO title, in the SEO tab of the page settings, is the title browsers and search engines use, up to 100 characters. If you leave it empty, Squarespace uses the page title instead."
   - q: "How long does a new Squarespace site take to appear on Google?"
-    a: "Once the site is public and the sitemap submitted, Google usually crawls new pages within a few days to a few weeks. Ranking takes longer: Google says SEO typically takes four months to a year. For one client, a ranking came within a day or two, which is rare and not something I would promise."
+    a: "Once the site is public and the sitemap submitted, Google usually crawls new pages within a few days to a few weeks. Ranking takes longer: Google's advice on hiring an SEO puts it at four months to a year in most cases. For one client, a ranking came within a day or two, which is rare and not something I would promise."
   - q: "What does Squarespace's AI Visibility tool do?"
-    a: "It tracks how your business shows up in ChatGPT and Gemini, in English only, on version 7.1 sites. It measures where you stand; it does not change it. What gets you mentioned is the same work as for Google: clear pages about what you do and where, and mentions of your business on other sites."
+    a: "It tracks how your business shows up in ChatGPT and Gemini; for now, it is only available on English-language sites built on version 7.1. It measures where you stand; it does not change it. What gets you mentioned is the same work as for Google: clear pages about what you do and where, and mentions of your business on other sites."
   - q: "Can a Squarespace site rank in both English and French?"
-    a: "Yes, but Squarespace has no built-in translation: you build each language's pages yourself or add a translation service such as Weglot. Give each version its own SEO title, description and slug in its language, and add hreflang tags so Google shows the right version to each searcher."
+    a: "Yes, but Squarespace has no built-in translation: you build each language's pages yourself or add a translation service such as Weglot. Give each version its own SEO title, description and slug in its language, and add hreflang tags so Google shows the right version to each searcher. Weglot says its extension adds them for you; otherwise they go in each page's header code injection, available on the Core plan and above."
 ---
 
 Squarespace SEO is mostly a matter of filling in what the platform already gives you: an SEO title and a description for each page, short URL slugs, alt text on images, redirects when an address changes, and a sitemap that Google Search Console knows about. This tutorial takes those settings one by one, in the order they come up around a launch, on Squarespace 7.1, with the menu names of the English interface in October 2026.
 
 One caveat first. Squarespace is a closed platform: you have no access to the source code, so a custom-coded site or a well-built WordPress site gives a specialist more room, and can rank higher for that reason. Yet the first site I built for Pilotech runs on Squarespace and ranks first or second on Google, with its metadata and keywords done right.
 
-That is also why I move clients who edit their own site to Squarespace: they can change a page without the whole structure falling apart, and every setting below is within their reach. If you are still building the site, start with my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}}. This tutorial is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}, which covers keywords, content and links.
+I move clients who edit their own site to Squarespace because they can change a page without the whole structure falling apart, and every setting below is within their reach. If you are still building the site, start with my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}}. This tutorial is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}, which covers keywords, content and links.
 
 ## What Squarespace SEO covers, and what is left to you
 
@@ -53,11 +53,12 @@ Before you open a single setting, choose one main keyword per page: the words a 
 
 ## Step 1: make sure search engines can see the site
 
-A page Google cannot reach will not rank, however good its title. Three settings can hide a Squarespace site or page, and each one catches people out at launch:
+A page Google cannot reach will not rank, however good its title. Four settings can hide a Squarespace site or page from search engines, so check all four before launch:
 
 1. In **Settings**, open **Site availability** and choose **Public**. Every Squarespace site starts as private, and only a site on a paid plan can be public, so a site on a free trial stays out of Google.
 2. If you protected the site with a password while building it, remove the password. It stops Google from indexing your content, and pages indexed before you added it can linger in the results for a while.
 3. Check that none of your main pages has **Hide page from search results** switched on. Step 3 explains this toggle.
+4. In **Settings**, open **Crawlers** and check that the option to block search engine crawlers is off: switched on, it keeps Google away from the whole site. Step 8 covers the AI option on the same panel.
 
 {{< screenshot id="squarespace-seo-01" alt="Squarespace Site availability panel with the Public option selected" >}}
 
@@ -79,7 +80,7 @@ Pages:             %p | %s
 Collection items:  %i | %s
 ```
 
-The homepage needs the most care, because it has no SEO title field in its page settings: its title in Google comes from this format alone. Write your business name and what you do, with your town if you serve a local area. Keep the site title short, as the `%p | %s` format adds it to the end of every page title.
+The homepage needs the most care, because it has no SEO title field in its page settings: its title tag comes from this format alone. Write your business name and what you do, with your town if you serve a local area. Keep the site title short, as the `%p | %s` format adds it to the end of every page title.
 
 The homepage also needs a description, the short text Google may show under its title. [Squarespace's help on SEO descriptions](https://support.squarespace.com/hc/en-us/articles/206016198-Adding-SEO-descriptions) shows where to add it.
 
@@ -111,7 +112,7 @@ My {{< a key="on-page-seo-checklist" >}}on-page SEO checklist{{< /a >}} covers t
 
 The same SEO tab has a **Hide page from search results** toggle. Switch it on for pages with nothing to offer a searcher, such as the thank-you page after a form or a test page. The page stays public and still appears in your site's own search. Homepages and single collection items, such as one blog post, have no such toggle, and hiding a collection page hides all its items.
 
-Moving a page to the **Not Linked** section of the Pages panel does something else: it only takes the page out of your navigation. Google can still find and index it.
+Moving a page to the **Not linked** section of the Pages panel does something else: it only takes the page out of your navigation. Google can still find and index it.
 
 ## Step 4: shorten your URL slugs
 
@@ -141,7 +142,7 @@ Click an image block, open its editing options and fill in the alt text field. D
 | boiler leeds boiler repair cheap boiler | Keyword stuffing, useless to a screen reader |
 | IMG_4521 | Says nothing |
 
-Rename your files before you upload them as well: `boiler-service-leeds.jpg` tells Google more than `IMG_4521.jpg`. Purely decorative images, such as a background texture, do not need a description.
+Rename your files before you upload them as well: `boiler-service-leeds.jpg` tells Google a little more than `IMG_4521.jpg`. Purely decorative images, such as a background texture, do not need a description.
 
 {{< screenshot id="squarespace-seo-05" alt="Squarespace image block editing options with the alt text field filled in" >}}
 
@@ -198,7 +199,7 @@ Last, bring the data into Squarespace. In **Analytics**, open **Search keywords*
 
 AI assistants such as ChatGPT, Claude and Perplexity send their own crawlers to read websites. Squarespace gives you two settings for them.
 
-**The crawler setting.** In **Settings**, open **Crawlers**. The **Block known artificial intelligence crawlers** option is off by default. Leave it off if you want AI assistants to find and recommend your business: OpenAI, for one, says that sites which block its search crawler are not shown in ChatGPT's search answers. Switch it on only if keeping your content away from AI companies matters more to you than that visibility. While you are on the panel, check that nothing there blocks search engines either; [Squarespace's help on crawlers](https://support.squarespace.com/hc/en-us/articles/360022347072) describes each option.
+**The crawler setting.** In **Settings**, open **Crawlers**. The **Block known artificial intelligence crawlers** option is off by default. Leave it off if you want AI assistants to find and recommend your business: AI search tools send crawlers to read your pages, and blocking those crawlers can keep you out of their answers. OpenAI, for one, says that sites which block its search crawler are not shown in ChatGPT's search answers. Switch the option on only if keeping your content away from AI companies matters more to you than that visibility. [Squarespace's help on crawlers](https://support.squarespace.com/hc/en-us/articles/360022347072) describes each option on the panel.
 
 {{< screenshot id="squarespace-seo-09" alt="Squarespace Crawlers settings with the Block known artificial intelligence crawlers option switched off" >}}
 
@@ -208,7 +209,7 @@ AI assistants such as ChatGPT, Claude and Perplexity send their own crawlers to 
 
 Run through this list before launch, then again whenever you add a page:
 
-1. The site is **Public**, with no site-wide password.
+1. The site is **Public**, with no site-wide password, and search engine crawlers are not blocked.
 2. The title formats are set, and the homepage title says who you are, what you do and where.
 3. Every page has an SEO title and a description built around one keyword.
 4. Slugs are short, and every changed address has a 301 in URL mappings.

@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:48:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["configurer Spacemail", "Spacemail Spaceship", "enregistrements DNS Spacemail", "paramètres IMAP Spacemail", "serveur SMTP Spacemail", "prix Spacemail"]
-summary: "Pour configurer Spacemail, choisissez une offre (Pro, Business ou Advanced, avec 30 jours d’essai gratuit), reliez-la à votre domaine avec Unbox dans Spacemail Manager et créez la boîte mail. Avec les serveurs de noms de Spaceship, les enregistrements sont ajoutés pour vous ; sinon, ajoutez deux MX (mx1 et mx2.spacemail.com), le SPF et la clé DKIM. Dans les deux cas, ajoutez un DMARC si le domaine n’en a pas, puis connectez vos applications en IMAP (mail.spacemail.com, port 993) et SMTP (port 465)."
+summary: "Pour configurer Spacemail, choisissez une offre (Pro, Business ou Advanced, 30 jours d’essai gratuit), reliez-la à votre domaine avec Unbox dans Spacemail Manager et créez la boîte mail. Avec les serveurs de noms de Spaceship, MX, SPF et DKIM sont ajoutés pour vous ; sinon, ajoutez deux MX (mx1 et mx2.spacemail.com), le SPF et la clé DKIM. Ajoutez ensuite un DMARC s’il n’y en a pas, puis reliez vos applications en IMAP (mail.spacemail.com, port 993) et SMTP (port 465)."
 cover: "spacemail-setup"
 cover_alt: "Boîte mail Spacemail reliée à un domaine par ses enregistrements MX, SPF et DKIM"
 related: ["spaceship-domain-dns-tutorial", "professional-email-address", "spf-dkim-dmarc-setup", "best-email-provider-cold-email", "spaceship-vs-namecheap"]
@@ -211,7 +211,7 @@ Si rien de tout cela ne correspond, le support de Spaceship répond 24 h/24 et 
 
 1. Une offre choisie et reliée au bon domaine avec **Unbox**.
 2. Les boîtes créées, chaque mot de passe rangé dans un gestionnaire.
-3. MX, SPF et DKIM en place là où pointent les serveurs de noms, sans ancien MX oublié.
+3. MX, SPF et DKIM en place là où pointent les serveurs de noms (plus le TXT de vérification pour un domaine enregistré ailleurs), sans ancien MX oublié.
 4. Un seul DMARC sur `_dmarc`, en commençant par `p=none`.
 5. Un email de test vers Gmail avec SPF, DKIM et DMARC en PASS, et une réponse bien reçue.
 6. La boîte sur votre téléphone et votre ordinateur, en IMAP et SMTP.

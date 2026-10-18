@@ -25,7 +25,7 @@ faq:
     a: "Pas forcément. Avec l’objectif Prospects, les gens peuvent remplir un formulaire instantané sans quitter Facebook ou Instagram, et vous pouvez aussi les envoyer vers une conversation Messenger ou WhatsApp. Une page à vous reste utile : c’est là que les gens vérifient votre sérieux avant d’appeler."
 ---
 
-Les erreurs en publicité Facebook viennent rarement de l’interface. Elles se jouent avant la mise en ligne de la première annonce : aucune recherche sur les personnes à toucher, et aucun test pour trouver la version de l’annonce à laquelle elles réagissent. Ce sont les deux erreurs contre lesquelles je mets en garde les dirigeants en premier.
+Les erreurs en publicité Facebook viennent rarement de l’interface. Elles se jouent avant la mise en ligne de la première annonce : aucune recherche sur les personnes à toucher, et aucun test pour trouver la version de l’annonce à laquelle elles réagissent. Ce sont les deux erreurs que je signale en premier aux dirigeants.
 
 La publicité Facebook (Meta Ads, de son nom officiel) se crée dans le Gestionnaire de publicités et peut être diffusée sur Facebook, Instagram et les autres applications de Meta. À mon avis, elle fonctionne pour la notoriété comme pour les ventes. La contrepartie : il faut dépenser de l’argent en tests A/B avant de savoir ce qui marche, et chaque erreur ci-dessous rend ces tests plus chers.
 
@@ -96,7 +96,7 @@ La plupart des créateurs de sites et des plateformes de boutique en ligne propo
 
 ## Erreur n° 5 : construire l’audience comme une liste de mots-clés
 
-Exiger que les gens correspondent à plusieurs centres d’intérêt à la fois, dans un rayon de 5 km, donne une impression de précision. En pratique, cela laisse très peu de monde au système de diffusion de Meta, ce qui tend à rendre chaque résultat plus cher. Sur beaucoup de campagnes, le Gestionnaire de publicités part désormais de l’audience Advantage+ : votre zone géographique et l’âge minimum restent des limites fermes, tandis que les centres d’intérêt, les tranches d’âge et vos propres audiences deviennent des suggestions que Meta peut dépasser.
+Exiger que les gens correspondent à plusieurs centres d’intérêt à la fois, dans un rayon de 5 km, donne une impression de précision. En pratique, cela laisse très peu de monde au système de diffusion de Meta, ce qui renchérit souvent chaque résultat. Sur beaucoup de campagnes, le Gestionnaire de publicités part désormais de l’audience Advantage+ : votre zone géographique et l’âge minimum restent des limites fermes, tandis que les centres d’intérêt, les tranches d’âge et vos propres audiences deviennent des suggestions que Meta peut dépasser.
 
 Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propriétaires bailleurs à Lyon » est ignorée par tous les autres. Limitez la zone à celle que vous servez vraiment, et concentrez vos efforts sur ce qui rapporte :
 
@@ -106,13 +106,13 @@ Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propr
 
 ## Erreur n° 6 : toucher à la campagne tous les jours
 
-Après le lancement, et après chaque modification importante, un ensemble de publicités passe par une phase d’apprentissage, le temps que Meta trouve à qui le montrer. Les résultats varient beaucoup pendant cette période. La [page d’aide de Meta sur la phase d’apprentissage](https://fr-fr.facebook.com/business/help/112167992830700) la décrit, et ses recommandations parlent d’environ 50 résultats en une semaine avant que la diffusion se stabilise.
+Après le lancement, et après chaque modification importante, un ensemble de publicités passe par une phase d’apprentissage, le temps que Meta trouve à qui le montrer. Les résultats varient beaucoup pendant cette période. La [page d’aide de Meta sur la phase d’apprentissage](https://fr-fr.facebook.com/business/help/112167992830700) la décrit, et Meta parle d’environ 50 résultats en une semaine avant que la diffusion se stabilise.
 
 Une modification du ciblage, de la publicité ou de l’événement d’optimisation, ou une forte hausse du budget, peut renvoyer l’ensemble de publicités au point de départ. Choisissez donc un jour par semaine pour lire les résultats, faites vos changements ce jour-là, et laissez la campagne tranquille entre deux. Un petit budget complique les choses : moins vous obtenez de résultats, plus l’apprentissage dure. Faute de résultats suffisants, le Gestionnaire de publicités signale un apprentissage limité : regroupez vos ensembles de publicités, élargissez l’audience ou visez un résultat plus fréquent, comme un formulaire envoyé plutôt qu’une vente.
 
 ## Erreur n° 7 : juger les publicités sur les J’aime et les clics
 
-Les mentions J’aime ne paient pas les factures, et un clic bon marché d’une personne qui n’appelle jamais reste une dépense. Avant le lancement, calculez ce que vous pouvez payer, au maximum, pour une demande :
+Les mentions J’aime ne paient pas les factures, et un clic bon marché d’une personne qui n’appelle jamais reste une dépense. Avant le lancement, calculez le maximum que vous pouvez payer pour une demande :
 
 ```
 ce que vous rapporte un nouveau client, après coûts   800 €
@@ -132,7 +132,7 @@ Observez ensuite ce que font les visiteurs. J’utilise Microsoft Clarity pour v
 
 ## Erreur n° 9 : diffuser la même publicité jusqu’à la lassitude
 
-Une publicité gagnante ne gagne pas éternellement. Le Gestionnaire de publicités indique la répétition : le nombre moyen de fois où chaque personne a vu votre publicité. Quand elle grimpe et que les résultats baissent, les personnes touchées l’ont trop vue : montrez-leur la version suivante, que vos tests vous ont normalement déjà permis de préparer.
+Une publicité gagnante ne gagne pas éternellement. Le Gestionnaire de publicités indique la répétition : le nombre moyen de fois où chaque personne a vu votre publicité. Quand elle grimpe et que les résultats baissent, les personnes touchées l’ont trop vue : montrez-leur la version suivante, déjà prête grâce à vos tests.
 
 Lisez aussi les commentaires sous vos publicités. Répondez aux questions, masquez les commentaires indésirables et notez les mots employés : c’est la recherche de votre prochaine annonce.
 

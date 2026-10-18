@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:28:00+02:00
 category: "aio"
 article_type: "tutorial"
 keywords: ["schema markup", "schema markup for small business", "LocalBusiness schema", "JSON-LD", "structured data", "schema markup for AI search"]
-summary: "Schema markup is code, usually JSON-LD, that describes your business and your pages to search engines. In October 2026, Organization or LocalBusiness, BreadcrumbList and Product markup are still worth adding, while FAQ and HowTo rich results no longer appear in Google. It will not get you quoted by AI assistants: Google says its AI features need no special schema, and an Ahrefs test found no meaningful rise in AI citations."
+summary: "Schema markup is code, usually JSON-LD, that describes your business and your pages to search engines. In October 2026, Organization or LocalBusiness, BreadcrumbList and Product markup are still worth adding, while FAQ and HowTo rich results no longer appear in Google. Do not count on it to get you quoted by AI assistants: Google says its AI features need no special schema, and an Ahrefs study of 1,885 pages found no meaningful rise in AI citations."
 cover: "schema-markup-small-business"
 cover_alt: "A terminal window with a web request answered 200 OK, beside the word Schema.org"
 related: ["local-seo-guide", "geo-vs-seo", "google-ai-overviews-ai-mode", "on-page-seo-checklist", "squarespace-code-injection"]
@@ -18,7 +18,7 @@ faq:
   - q: "Is schema markup a ranking factor?"
     a: "Not directly. Google uses structured data to understand a page and to decide whether it can show a rich result, but valid markup does not move a page up on its own. What the page says, and the searches it answers, still decide where it ranks."
   - q: "JSON-LD, Microdata or RDFa: which format should I use?"
-    a: "JSON-LD. Google reads all three, but recommends JSON-LD whenever your site allows it, as it is the easiest to add and maintain. Microdata and RDFa are written into the visible HTML, so every design change risks breaking them."
+    a: "JSON-LD. Google reads all three, but recommends JSON-LD whenever your site allows it, as it is the easiest to add and maintain. Microdata and RDFa are woven into the HTML of your visible content, so every design change risks breaking them."
   - q: "How long does schema markup take to show in Google?"
     a: "Google has to recrawl and reprocess the page first, which can take from a few days to several weeks. Requesting indexing in Search Console's URL Inspection tool can speed up the crawl."
   - q: "Is schema markup worth it for a one-page website?"
@@ -29,13 +29,13 @@ faq:
 
 Schema markup is a block of code, usually written in JSON-LD, that describes a page to search engines as data: your business name, address, phone number and opening hours, the service a page sells, the price of a product. It uses the shared schema.org vocabulary, and your visitors never see it.
 
-In October 2026, the question for a small business is which parts still earn their place. Google has retired several of the rich results that markup used to bring, FAQ results included in May 2026, while "AI schema" is being sold as a way into ChatGPT. My short answer: three or four types are still worth an afternoon, none of them will get you quoted by an AI assistant, and you can skip the rest.
+In October 2026, the question for a small business is which parts still earn their place. Google has retired several of the rich results that markup used to bring, FAQ results included in May 2026, while "AI schema" is being sold as a way into ChatGPT. My short answer: three or four types are still worth an afternoon, nothing shows that any of them gets you quoted by an AI assistant, and you can skip the rest.
 
-Below: what schema markup still does in Google and in AI search, the code to copy, and how to add and test it. This tutorial is part of my {{< a key="ai-search-geo-guide" >}}complete guide to generative engine optimisation{{< /a >}}.
+This tutorial is part of my {{< a key="ai-search-geo-guide" >}}complete guide to generative engine optimisation{{< /a >}}.
 
 ## What schema markup is, in plain words
 
-Schema markup is structured data written with the schema.org vocabulary: facts about a page, each with a label that machines understand. A person reading your contact page knows that "12 Example Street, Bristol" is an address. A crawler sees a line of text, unless the markup labels it as one.
+Schema markup attaches a label to each fact on a page, using the names schema.org defines. A person reading your contact page knows that "12 Example Street, Bristol" is an address. A crawler sees a line of text, unless the markup labels it as one.
 
 Every example in this tutorial is in JSON-LD, which sits in a single `<script>` block in the page's code, apart from your design. Here is what that block can do for you:
 
@@ -47,7 +47,7 @@ What it cannot do is guarantee anything. **Valid markup makes a page eligible fo
 
 ## What schema markup still shows in Google in 2026
 
-Google has trimmed its rich results year after year. HowTo results went in 2023. Since January 2025, mobile results show only the domain where the breadcrumb trail used to be, while desktop results still show it. FAQ results stopped appearing on 7 May 2026 and, according to Google's documentation, FAQ support left the Rich Results Test and Search Console's reports in June 2026. The FAQ markup itself is still valid: Google simply no longer displays it.
+Google has trimmed its rich results year after year. In 2023, HowTo results went and FAQ results were kept for well-known government and health sites only. Since January 2025, mobile results show only the domain where the breadcrumb trail used to be, while desktop results still show it. FAQ results stopped appearing for everyone on 7 May 2026 and, according to Google's documentation, FAQ support left the Rich Results Test and Search Console's reports in June 2026. The FAQ markup itself is still valid: Google simply no longer displays it.
 
 Here is where the types a small business might use stand at the time of writing (October 2026):
 
@@ -59,19 +59,19 @@ Here is where the types a small business might use stand at the time of writing 
 | `Product` with an `Offer` | Price, availability and ratings in results | Yes, if you sell online or show prices |
 | `Event` | Event details in results | If you run public events |
 | `Service` | No rich result | Optional, and cheap on a coded site |
-| `FAQPage` | No rich result since 7 May 2026 | Keep it if you have it; don't add it |
+| `FAQPage` | No rich result since 7 May 2026 (government and health sites only from 2023) | Keep it if you have it; don't add it |
 | `HowTo` | No rich result since 2023 | No |
 
-`LocalBusiness` is a more precise kind of `Organization`, so use one of the two, not both, and pick the most precise subtype that fits: schema.org has types for plumbers, electricians, dentists, restaurants and many other trades.
+`LocalBusiness` is a more precise kind of `Organization`, so a business with one address needs one of the two, not both. Pick the most precise subtype that fits: schema.org has types for plumbers, electricians, dentists, restaurants and many other trades.
 
-Two limits matter for a local business. The map results are driven by your Google Business Profile far more than by anything in your code, as my {{< a key="local-seo-guide" >}}local SEO guide{{< /a >}} explains. And Google does not show review stars for reviews a business publishes about itself: the stars beside your name in Google Maps come from your Business Profile.
+One limit matters for a local business: the map results are driven by your Google Business Profile far more than by anything in your code, as my {{< a key="local-seo-guide" >}}local SEO guide{{< /a >}} explains.
 
 ## Does schema markup help with ChatGPT and AI search?
 
 Not in any way anyone has measured so far. Here is what is documented at the time of writing:
 
-1. **Google says its AI features need no special schema.** Its guide to optimising for AI Overviews and AI Mode, published in May 2026, says the work "is still SEO" and lists special schema among the things Google Search does not need ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). To appear in those answers, a page only has to be indexed and eligible for a snippet.
-2. **Ahrefs measured no effect.** In a test published in May 2026, Ahrefs added JSON-LD to 1,885 pages and compared them with 4,000 pages left alone. AI citations did not rise in any meaningful way ([Ahrefs](https://ahrefs.com/blog/schema-ai-citations/)).
+1. **Google says its AI features need no special schema.** Its guide to optimising for AI Overviews and AI Mode, published on 15 May 2026, treats that work as ordinary SEO and lists special schema among the things Google Search does not need ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). To be eligible for those answers, a page only has to be indexed and allowed to show a snippet.
+2. **Ahrefs measured no meaningful effect.** In a study published in May 2026, Ahrefs tracked 1,885 pages that added JSON-LD between August 2025 and March 2026 and compared them with 4,000 similar pages. Against those, citations rose by 2.2% in ChatGPT and 2.4% in AI Mode, too little to tell from chance, and fell by 4.6% in AI Overviews, a drop whose cause the study leaves open ([Ahrefs](https://ahrefs.com/blog/schema-ai-citations/)). Ahrefs ran it because pages cited by AI were almost three times as likely to carry JSON-LD, but schema tends to sit on better-maintained sites, so that gap proved nothing.
 3. **Microsoft says it helps its models read pages.** At a conference in March 2025, Microsoft's Bing team said schema markup helps its language models understand content, which concerns Bing and Copilot ([Search Engine Land](https://searchengineland.com/microsoft-bing-copilot-use-schema-for-its-llms-453455)). For ChatGPT, Gemini and Perplexity, nothing is documented either way.
 
 Being read more easily and being quoted more often are two different things, and only the first has any support. Assistants quote pages that answer the question well, and businesses that other sites talk about. My article on {{< a key="geo-vs-seo" >}}GEO vs SEO{{< /a >}} explains where that work goes.
@@ -82,14 +82,14 @@ Being read more easily and being quoted more often are two different things, and
 
 On the sites I code, the principle is the same every time, and you can copy it:
 
-- **Home page:** one block for the business, `LocalBusiness` (or its most precise subtype) if you serve customers in a place, `Organization` otherwise.
+- **Home page:** one block for the business, `LocalBusiness` (or its most precise subtype) if customers come to you or you work in a defined area, `Organization` otherwise.
 - **Service pages:** a `Service` block for the service on the page.
 - **Product pages:** a `Product` block, with an `Offer` if the page shows a price.
 - **Every page below the home page:** a `BreadcrumbList`.
 
 Pilotech's Toshiba site, for example, has structured data for the business, for each of its ten ranges and for each service; you can find it from the {{< a page="/projects/pilotech-toshiba" >}}Pilotech Toshiba project page{{< /a >}}. The bilingual site of Eden Corporate Mobility describes the agency, the breadcrumbs and the FAQs. The entry portal I built for Pilotech, ready to go live, describes the company as an HVAC business in Paris and the Île-de-France, and schema.org even has a type for that: `HVACBusiness`.
 
-On my projects, the metadata comes last, once the client has approved the design and the copy, and the structured data goes in with it. The markup has to describe what the final pages say.
+On my projects, the metadata comes last, once the client is happy with the design and the copy. Treat structured data the same way: the markup has to describe what the final pages say.
 
 ### LocalBusiness: the block for your home page
 
@@ -173,7 +173,7 @@ Wrap each block in its own `<script type="application/ld+json">` tag, as in the 
 
 ## How to add schema markup to your site
 
-Whatever your platform, start by checking what it already outputs: paste your home page into the Schema Markup Validator (see the testing section below). Many platforms and SEO plugins add a basic block on their own, and two blocks that disagree about your business help no one.
+Whatever your platform, start by checking what it already outputs: paste your home page address into the Schema Markup Validator (see the testing section below). Many platforms and SEO plugins add a basic block on their own, and two blocks that disagree about your business help no one.
 
 ### On a hand-coded site, Hugo or Jekyll
 
@@ -181,11 +181,13 @@ Add the blocks to the `<head>` of your templates, and generate them from the sam
 
 ### On Squarespace
 
-On Squarespace, the usual route for your own markup is code injection: the site-wide header field for the business block, and the page header field in each page's settings (**Advanced** tab) for that page's service or breadcrumb block. Code injection is not included in every plan, and Squarespace has moved its menus more than once, so my {{< a key="squarespace-code-injection" >}}Squarespace code injection tutorial{{< /a >}} has the current steps.
+Squarespace already outputs basic markup for the website, the business, products, events and blog posts, partly from the business information in your settings, and you cannot edit that markup directly. Fill in your business information first, then see what the validator finds.
+
+For what is missing, the route is code injection: the site-wide header field for a fuller business block that repeats exactly the same details, and the page header field in each page's settings (**Advanced** tab) for that page's service or breadcrumb block. Code injection is not included in every plan, and Squarespace has moved its menus more than once, so my {{< a key="squarespace-code-injection" >}}Squarespace code injection tutorial{{< /a >}} has the current steps.
 
 {{< screenshot id="schema-markup-small-business-01" alt="Squarespace page settings, Advanced tab, with a JSON-LD block pasted into the page header code injection field" >}}
 
-On the Squarespace sites I build, I usually add some code myself, and that is the part my clients call me for. They edit everything else on their own.
+On the Squarespace sites I build, I usually add some code myself; my clients can call me for that part and edit everything else on their own.
 
 ### On WordPress and other builders
 
@@ -214,7 +216,7 @@ Test one page of each kind before you publish, then let Search Console watch the
 ## Mistakes that cost you rich results
 
 - **Marking up what the page does not show.** Google's guidelines say markup must describe content visitors can see. Opening hours that appear nowhere on the page, or a service you do not list, break that rule.
-- **Adding your own star rating.** An `aggregateRating` built from your Google reviews earns nothing on your own site, since Google does not show stars for reviews a business publishes about itself.
+- **Adding your own star rating.** Google does not show stars for reviews a business publishes about itself, so an `aggregateRating` copied from your Google reviews earns nothing on your own site. The stars beside your name in Google Maps come from your Business Profile.
 - **Two blocks that disagree.** If a plugin's block gives one phone number and your own block another, fix the source rather than adding a third block.
 - **Forgetting the markup when things change.** When you move, change your number or your hours, update it on the same day as your Business Profile.
 - **Misleading markup.** Google can apply a manual action to structured data that misleads, which removes your rich results until you fix it.
@@ -223,13 +225,13 @@ Test one page of each kind before you publish, then let Search Console watch the
 
 ## Your schema markup checklist
 
-1. Paste your home page into the Schema Markup Validator to see what your site already outputs.
+1. Paste your home page address into the Schema Markup Validator to see what your site already outputs.
 2. Add or complete one `LocalBusiness` or `Organization` block on the home page, with the same name, address and phone number as your Google Business Profile.
 3. Add a `BreadcrumbList` to every page below the home page, a `Product` block to product pages and, if it costs you little, a `Service` block to service pages.
 4. Test one page of each kind in the Rich Results Test, fix the errors, then publish.
 5. A few weeks later, check the reports in Search Console.
 6. Leave any FAQ markup where it is, skip HowTo, and spend the time you saved on your pages and your Business Profile.
 
-Structured data is one line of my {{< a key="on-page-seo-checklist" >}}on-page SEO checklist{{< /a >}}, and it deserves about that share of your time. For Pilotech, whose Teknopoint pages rank first or second on Google, the SEO work came in this order: pages, content, the Google Business Profile, then technical fixes. Markup belongs to that last group. If your Business Profile is not finished yet, my {{< a key="google-business-profile-setup" >}}Google Business Profile setup guide{{< /a >}} comes first.
+Structured data is one line of my {{< a key="on-page-seo-checklist" >}}on-page SEO checklist{{< /a >}}, and it deserves about that share of your time. For Pilotech, whose Teknopoint site ranks first or second on Google, the SEO work came in this order: pages, content, the Google Business Profile, then technical fixes. Markup belongs to that last group. If your Business Profile is not finished yet, my {{< a key="google-business-profile-setup" >}}Google Business Profile setup guide{{< /a >}} comes first.
 
 On Squarespace, or on WordPress with an SEO plugin, this is a job you can do yourself, without me. Hand it over when the markup has to be generated for dozens of products or pages: that is template work.

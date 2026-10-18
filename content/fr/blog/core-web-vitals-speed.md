@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:12:00+02:00
 category: "seo"
 article_type: "guide"
 keywords: ["vitesse de chargement site internet", "Core Web Vitals", "Signaux Web essentiels", "PageSpeed Insights", "accélérer son site internet", "temps de chargement d’une page"]
-summary: "La vitesse de chargement d’un site internet se mesure, chez Google, avec les Core Web Vitals : le LCP (contenu principal affiché en 2,5 secondes au plus), l’INP (réaction à un appui ou à un clic en 200 millisecondes au plus) et le CLS (mise en page stable, score de 0,1 au plus). Google s’en sert pour classer les pages, sans que de bons scores garantissent un bon classement. Pour accélérer un site vitrine, commencez par les causes habituelles : images trop lourdes, polices trop nombreuses et scripts tiers."
+summary: "La vitesse de chargement d’un site internet se mesure, chez Google, avec les Core Web Vitals : le LCP (contenu principal affiché en 2,5 secondes au plus), l’INP (réaction à un appui ou à un clic en 200 millisecondes au plus) et le CLS (mise en page stable, score de 0,1 au plus). Google s’en sert pour classer les pages, sans que de bons scores garantissent un bon classement. Pour accélérer un site vitrine, allégez d’abord les images, les polices et les scripts tiers."
 cover: "core-web-vitals-speed"
 cover_alt: "Une courbe ascendante derrière du verre cannelé, à côté d’une tasse de café et d’un ordinateur portable, avec les lettres LCP, INP et CLS"
 related: ["google-search-console-tutorial", "website-conversion-rate", "on-page-seo-checklist", "build-website-with-ai", "wix-platforms-history"]
@@ -31,7 +31,7 @@ La vitesse de chargement d’un site internet se mesure, chez Google, avec trois
 
 Sur un site vitrine, les causes d’un mauvais résultat sont rarement subtiles. Une photo prise au téléphone en haut de la page d’accueil, quatre polices différentes, un widget de chat que personne n’utilise, une bannière de cookies qui fait descendre toute la page : vous pouvez corriger l’essentiel vous-même, sans développeur.
 
-Ce guide explique ce que mesure chaque indicateur, comment tester vos pages avec PageSpeed Insights et Search Console, et quoi corriger en premier sur Squarespace, Wix, WordPress ou un site codé sur mesure. Il complète mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel pour les petites entreprises{{< /a >}}.
+Ce guide explique ce que mesure chaque indicateur, comment tester vos pages et quoi corriger en premier selon votre plateforme. Il complète mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel pour les petites entreprises{{< /a >}}.
 
 ## LCP, INP, CLS : ce que mesurent les Core Web Vitals
 
@@ -57,8 +57,6 @@ La vitesse compte surtout après le clic. Quelqu’un qui cherche un plombier en
 
 PageSpeed Insights est le test gratuit de Google, sur [pagespeed.web.dev](https://pagespeed.web.dev/). Collez l’adresse d’une page, lancez l’analyse et lisez d’abord les résultats sur mobile. Testez les pages qui comptent, pas seulement l’accueil.
 
-Le rapport se lit en deux parties, qui répondent à deux questions différentes.
-
 ### En haut : ce qu’ont vécu vos vrais visiteurs
 
 La partie haute donne l’évaluation des Core Web Vitals, réussie ou non, avec le LCP, l’INP et le CLS mesurés sur de vraies visites dans Chrome au cours des 28 derniers jours. Ce sont les données sur lesquelles Google s’appuie, et celles sur lesquelles agir.
@@ -76,7 +74,7 @@ Le plus utile est la liste des diagnostics sous le score. Depuis Lighthouse 13, 
 - **Render blocking requests** liste les feuilles de style et les scripts que le navigateur doit télécharger avant de pouvoir afficher quoi que ce soit.
 - **Layout shift culprits** désigne les éléments qui font sauter la page.
 
-{{< callout type="tip" >}}**Ne visez pas 100.** Si les chiffres des vraies visites sont bons, un score de laboratoire autour de 70 ne vaut pas des semaines de travail. Corrigez ce que pointent les diagnostics, testez de nouveau et passez à autre chose dès que les trois indicateurs sont bons.{{< /callout >}}
+{{< callout type="tip" >}}**Ne visez pas 100.** Si les chiffres des vraies visites sont bons, un score de laboratoire autour de 70 ne vaut pas des semaines de travail.{{< /callout >}}
 
 ## Lire le rapport Signaux Web essentiels dans Search Console
 
@@ -120,7 +118,7 @@ J’utilise {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity{{< /a >}
 |---|---|
 | Des images et des contenus intégrés sans espace réservé : le texte en dessous saute à leur arrivée | Indiquer la largeur et la hauteur de chaque image et de chaque contenu intégré |
 | Une bannière de cookies ou d’annonce insérée au-dessus du contenu | L’afficher par-dessus la page, fixée en bas de l’écran |
-| Des polices web qui arrivent tard et changent la taille du texte | Précharger le fichier de police principal et choisir une police de secours de largeur proche, pour que le changement de police déplace à peine le texte. Limiter le nombre de fichiers aide aussi : deux familles avec deux graisses chacune suffisent à la plupart des sites |
+| Des polices web qui arrivent tard et changent la taille du texte | Précharger la police principale et choisir une police de secours de largeur proche. Limiter aussi les fichiers : deux familles avec deux graisses chacune suffisent à la plupart des sites |
 
 ## Les corrections selon votre plateforme : Squarespace, Wix, WordPress, site codé
 
@@ -154,7 +152,7 @@ Sur un site codé, les corrections d’images et de polices ci-dessus tiennent e
 </style>
 ```
 
-Avec `swap`, le texte reste lisible pendant le chargement de la police, mais le changement de police peut le décaler légèrement. Si la police apparaît encore dans **Layout shift culprits**, `font-display: optional` supprime ce décalage : lors d’une visite où la police web arrive trop tard, le navigateur garde simplement la police de secours.
+Avec `swap`, le texte s’affiche tout de suite, mais le changement de police peut le décaler un peu. Si la police figure encore dans **Layout shift culprits**, passez à `font-display: optional` : quand la police web arrive trop tard, le navigateur garde la police de secours.
 
 ## Une vérification en une heure, et quand passer la main
 

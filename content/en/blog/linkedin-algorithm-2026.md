@@ -9,14 +9,14 @@ lastmod: 2026-10-17T09:34:00+02:00
 category: "social-media"
 article_type: "news"
 keywords: ["LinkedIn algorithm 2026", "LinkedIn algorithm changes", "how the LinkedIn algorithm works", "LinkedIn reach dropped", "LinkedIn AI training opt out", "LinkedIn for small business"]
-summary: "In March 2026, LinkedIn rebuilt its feed with large language models: it now matches each post to members interested in its subject, beyond your own network, and shows less engagement bait such as ‘comment YES’ posts. Separately, since 3 November 2025 LinkedIn has used the profiles and public posts of members in the UK, the EU, the EEA and Switzerland to train its generative AI, unless they switch off Data for Generative AI Improvement in Settings, Data privacy."
+summary: "In March 2026, LinkedIn rebuilt its feed with large language models: it now matches each post to members interested in its subject, beyond your own network, and shows less engagement bait such as ‘comment YES’ posts. Separately, since 3 November 2025 LinkedIn has used the profiles and public posts of members in the UK, the EU, the EEA and Switzerland to train its generative AI, unless they switch off Data for Generative AI Improvement in Settings & Privacy > Data privacy."
 cover: "linkedin-algorithm-2026"
 cover_alt: "A woman reviewing a document on her laptop beside a feed grid with a heart and a play icon, titled LinkedIn 2026"
 related: ["social-media-small-business", "linkedin-ads-tutorial", "chatgpt-gdpr-client-data", "shiny-object-syndrome", "get-press-coverage"]
 services: ["cold-emailing"]
 faq:
   - q: "How often should a small business post on LinkedIn?"
-    a: "LinkedIn publishes no ideal number. Choose a pace you can keep for months, such as one or two useful posts a week, and spend a few minutes most days replying to comments and commenting on other people's posts: steady activity beats a burst followed by silence."
+    a: "There is no magic number. Choose a pace you can keep for months, such as one or two useful posts a week, and spend a few minutes most days replying to comments and commenting on other people's posts: steady activity beats a burst followed by silence."
   - q: "Does LinkedIn penalise posts written with AI?"
     a: "LinkedIn has not announced a penalty for AI-assisted writing as such. In March 2026 it said it would show less recycled thought leadership and act against automated comments, so a generic draft has little chance. If you draft with AI, add your own cases, figures and opinions before you post."
   - q: "Can I schedule LinkedIn posts?"
@@ -33,9 +33,9 @@ I do not sell social media management. When I helped a client with social media,
 
 ## LinkedIn algorithm 2026: what changed in March
 
-On 12 March 2026, LinkedIn's engineering team described a new feed system on the LinkedIn Engineering blog, and the trade press, including [Search Engine Land](https://searchengineland.com/linkedin-updates-feed-algorithm-llm-ranking-retrieval-471708), covered the main points. A feed works in two steps, and LinkedIn replaced several specialised systems with one approach for both:
+On 12 March 2026, LinkedIn's engineering team described a new feed system on the LinkedIn Engineering blog, and the trade press, including [Search Engine Land](https://searchengineland.com/linkedin-updates-feed-algorithm-llm-ranking-retrieval-471708), covered the main points. A feed works in two steps, and LinkedIn rebuilt both:
 
-1. **Retrieval** picks the posts that might interest a member. It now relies on embeddings produced by a large language model (numerical summaries of what each post means), so it can connect related subjects. In principle, a post about air conditioning for restaurant kitchens can reach people who follow restaurant fit-outs, even if they have never heard of you.
+1. **Retrieval** picks the posts that might interest a member. It now relies on embeddings produced by a large language model (numerical summaries of what each post means), so it can connect related subjects. In principle, a post about air conditioning for restaurant kitchens can reach people interested in restaurant fit-outs, even if they have never heard of you.
 2. **Ranking** puts those posts in order. A sequential model, from the same transformer family as AI assistants, learns from each member's history of likes, comments and time spent reading to predict what they will engage with next.
 
 In the same update, LinkedIn said it would show less content built only to drive comments or clicks: posts asking you to comment "YES" (often to receive a guide), videos paired with unrelated text, and recycled thought leadership. It also said it acts against comment automation tools, browser extensions and engagement pods, the groups whose members agree to like and comment on each other's posts.
@@ -52,12 +52,12 @@ The official changes explain two things. If your posts relied on bait, pods or a
 
 | Date | What changed | What it means for you |
 |---|---|---|
-| 2024 | LinkedIn starts using member data to train its generative AI, but leaves out the UK, the EEA and Switzerland | Nothing changes yet for members in the UK and Europe |
+| September 2024 | LinkedIn reveals that it trains its generative AI on member data, with an opt-out, except in the EU, the EEA and Switzerland; days later it pauses UK training after the ICO, the UK data regulator, raises concerns | Nothing changes yet for members in the UK and Europe |
 | 3 November 2025 | AI training extended to members in the UK, the EU, the EEA, Switzerland, Canada and Hong Kong, switched on by default | Check the setting in the next section |
 | 12 March 2026 | Feed rebuilt with large language models for retrieval and ranking; less engagement bait; action against comment automation and pods | Post about one clear subject, without bait |
-| August 2026 | Feed display changed to encourage more replies and comments on posts, as reported by [Social Media Today](https://www.socialmediatoday.com/news/linkedin-updates-feed-display-to-drive-more-post-replies-and-comments/827394/) | Answer the comments you get |
+| August 2026 | Comments under a post ranked by their relevance to each reader, and active conversations shown more often in the feed, as reported by [Social Media Today](https://www.socialmediatoday.com/news/linkedin-updates-feed-display-to-drive-more-post-replies-and-comments/827394/) | Write comments worth reading, and answer the ones you get |
 
-{{< callout type="note" >}}**Where these dates come from.** The feed rebuild comes from LinkedIn's Engineering blog, the AI setting from its help centre and the August change from the trade press, all checked on 17 October 2026. LinkedIn rolls features out gradually, so your app may lag behind by a few weeks.{{< /callout >}}
+{{< callout type="note" >}}**Where these dates come from.** LinkedIn announced the feed rebuild on its Engineering blog and explains the AI setting in its help centre; Social Media Today reported the August change. All three were checked against press coverage on 17 October 2026. LinkedIn rolls features out gradually, so your app may lag behind by a few weeks.{{< /callout >}}
 
 ## The AI data setting to check: Data for Generative AI Improvement
 
@@ -70,7 +70,7 @@ LinkedIn relies on legitimate interest rather than your consent, so the setting 
 3. Under **How LinkedIn uses your data**, select **Data for Generative AI Improvement**.
 4. Switch off **Use my data for training content creation AI models** if you do not want your data used.
 
-If a label has moved, LinkedIn's [help page on generative AI and your data](https://www.linkedin.com/help/linkedin/answer/a5538339) has the current wording. Switching off stops future use, but it does not undo training that has already happened.
+If a label has moved, LinkedIn's [help page on this setting](https://www.linkedin.com/help/linkedin/answer/a6278444) has the current wording. Switching off stops future use, but it does not undo training that has already happened.
 
 Each member has their own switch, so if colleagues post for your business from their profiles, ask them to check theirs. Whether to switch it off is your call: I use AI tools in my own work, and I simply want you to choose rather than inherit a default. The same question applies the other way round, to {{< a key="chatgpt-gdpr-client-data" >}}what client data you can put into an AI assistant{{< /a >}}.
 
@@ -80,7 +80,7 @@ Each member has their own switch, so if colleagues post for your business from t
 
 Post from both, but put most of your effort into your own profile. LinkedIn is built around members: people connect with and follow people, while a company page mainly reaches those who follow it.
 
-Buyers also want to know who they will deal with. In the cold email campaigns I run for an air conditioning installer near Paris, many architects called instead of replying: a call is quicker, and they like real human contact, as I describe in {{< a key="architects-cold-email-case-study" >}}this cold email case study{{< /a >}}. The people who read LinkedIn are just as busy.
+Buyers also want to know who they will deal with. In the cold email campaigns I run for an air conditioning installer near Paris, many architects called instead of replying: a call is quicker, and they like real human contact, as I describe in {{< a key="architects-cold-email-case-study" >}}this cold email case study{{< /a >}}. On LinkedIn too, a name and a face earn more trust than a logo.
 
 | | Your personal profile | Your company page |
 |---|---|---|
@@ -89,7 +89,7 @@ Buyers also want to know who they will deal with. In the cold email campaigns I 
 | Paid reach | Your company can promote your post as a Thought Leader ad, with your permission | Most LinkedIn Ads formats need a page |
 | Each week | Post, comment, reply | Reshare your best posts, keep the details up to date |
 
-For a business of one to ten people, write under your own name and face, and treat the page as your shop window. When a prospect looks you up, the page should confirm what your profile says: same services, same website, same tone.
+For a business of one to ten people, post under your own name and photo, and treat the page as your shop window. When a prospect looks you up, the page should confirm what your profile says: same services, same website, same tone.
 
 ## What a B2B small business should post on LinkedIn in 2026
 
@@ -98,9 +98,9 @@ The March rebuild rewards posts that the system can understand and that people a
 1. **One subject, stated plainly.** Name your trade, your clients and their problem in the first two lines. "Why office air conditioning fails in the first heatwave, and how to check yours" gives the system something to match; "Monday motivation" does not.
 2. **Real work, shown.** Photos of a job, a before and after, a quote you had to explain, a mistake you often see clients make.
 3. **One question per post.** The questions you hear on the phone every week are your best topics. People spend time reading the answer to their own problem, and time spent reading is one of the signals the ranking model learns from.
-4. **No bait.** No "comment YES and I'll send you the guide", no unrelated video glued to a text post, no recycled quotes. LinkedIn named all three in March.
-5. **Comments written by hand.** Leave real comments on posts in your field, without pods or automation tools. That is how the client I mentioned gained 60 relevant followers in a month.
-6. **A reply to every comment** on your posts, with an answer that adds something. LinkedIn's August display change was designed to encourage exactly these conversations.
+4. **No bait.** No "comment YES and I'll send you the guide", no unrelated video glued to a text post, no recycled thought leadership. LinkedIn named all three in March.
+5. **Comments written by hand.** Leave real comments on posts in your field, without pods or automation tools. Since August, LinkedIn sorts comments by their relevance to each reader, so a useful comment can appear near the top for the readers it concerns.
+6. **A reply to every comment** on your posts, with an answer that adds something. LinkedIn's August change was designed to encourage exactly these conversations.
 7. **A next step.** End with your phone number or your website for people who want more, the way a good cold email ends.
 
 ## Is LinkedIn worth your time in 2026?

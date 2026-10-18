@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:06:00+02:00
 category: "seo"
 article_type: "guide"
 keywords: ["local SEO", "local SEO for small businesses", "how to rank on Google Maps", "local search ranking factors", "town pages SEO"]
-summary: "Local SEO is the work that gets your business shown when people nearby search for what you do: in Google's map results, in the ordinary results and in AI answers. Google ranks local businesses on relevance, distance and prominence, so your levers are a complete Business Profile, genuine reviews, a clear page for each service and each town you really cover, and mentions on other local sites. Nobody can pay Google for a better local position."
+summary: "Local SEO is the work that gets your business shown when people nearby search for what you do: in Google's map results, in the ordinary results and in AI answers. Google ranks local businesses on relevance, distance and prominence, so your levers are a complete Business Profile, genuine reviews, a clear page for each service, the towns you serve named on your site, and mentions on other local sites. Nobody can pay Google for a better local position."
 cover: "local-seo-guide"
 cover_alt: "Map with a location pin and the label Google Maps"
 related: ["google-business-profile-setup", "google-business-profile-posts", "get-recommended-by-chatgpt", "schema-markup-small-business", "multiple-websites-one-business"]
@@ -18,18 +18,16 @@ faq:
   - q: "Can I pay Google to rank higher on Google Maps?"
     a: "No. Google says there is no way to request or pay for a better local ranking. You can buy ads, which are labelled as sponsored, but they do not change where your profile ranks in the unpaid results."
   - q: "Do I need a shop or an office to appear on Google Maps?"
-    a: "No. A business that travels to its customers, such as a plumber or a cleaner, can have a service-area profile: the address stays hidden and the profile shows the areas you cover. Google allows one profile per location, so you cannot add profiles for towns where you have no premises or staff."
+    a: "No. A business that travels to its customers, such as a plumber or a cleaner, can have a service-area profile: the address stays hidden and the profile shows the areas you cover. You can list up to 20 service areas, and Google recommends keeping them within about two hours' drive of where you are based."
   - q: "How many Google reviews do I need to rank locally?"
-    a: "There is no threshold. Google says the number of reviews and the rating count towards local ranking. Compare yourself with the businesses that already appear for your searches in your town, and aim for a steady flow of recent, genuine reviews."
+    a: "Google gives no minimum. It says the number of reviews and the rating count towards local ranking. Compare yourself with the businesses that already appear for your searches in your town, and aim for a steady flow of recent, genuine reviews."
   - q: "How long does local SEO take?"
-    a: "Often less time than national SEO, because fewer businesses compete for one town. For one of my clients, the first lead came three weeks after the new website went live, which is unusually fast. Google's guidance on hiring an SEO talks of four months to a year, in most cases, for improvements to pay off."
+    a: "Often less time than national SEO, because fewer businesses compete for one town, but count in months rather than weeks. Google's guidance on hiring an SEO says that, in most cases, improvements take four months to a year to pay off."
   - q: "Can I rank in a town where I have no premises?"
     a: "In the ordinary results, yes, with a genuinely useful page about the work you do there. In the map results, distance is one of Google's three ranking factors, so being far from the person searching works against you."
 ---
 
-Local SEO is the work that gets your business shown when someone nearby searches for what you do: "boiler repair Bromley", "florist near me", "accountant in Leeds". Those searches bring up a map with a few businesses, the ordinary results below it and, more and more often, an AI answer. All three can make your phone ring, and most of the work behind them costs nothing but time.
-
-Google says it ranks local businesses on relevance, distance and prominence. You cannot move closer to every customer, but you control most of the rest: your Business Profile, your reviews, your website and what other local sites say about you.
+Search for "boiler repair Bromley", "florist near me" or "accountant in Leeds" and Google shows a map with a few businesses, the ordinary results below it and, more and more often, an AI answer. Local SEO is the work that puts your business in those three places. Each of them can make your phone ring, and most of the work costs nothing but time.
 
 Many of my clients sell in one region. Pilotech, for example, is an air conditioning installer based in Sucy-en-Brie that works across Paris and the Île-de-France. Below is the method I use, what worked for them, and the traps that get businesses penalised. This guide is one chapter of my {{< a key="small-business-seo-guide" >}}complete guide to small business SEO{{< /a >}}.
 
@@ -56,13 +54,13 @@ Google explains its local ranking on its [help page about local results](https:/
 
 The same page says there is no way to request or pay for a better local ranking. Be wary of anyone who promises you a guaranteed top spot in Maps.
 
-Relevance is where I see small businesses lose the most. Of the five websites I have built for Pilotech's founder, one did not work at all: it offered too many services. The one that ranks first or second on Google sells one specific thing, air conditioning with no outdoor unit. A precise offer, described in your customers' words, is easy for Google to match to a search. A catch-all list matches everything, weakly.
+Relevance is the factor my own projects taught me most about. Of the five websites I have built for Pilotech's founder, one did not work at all: it offered too many services. The one that ranks first or second on Google sells one specific thing, air conditioning with no outdoor unit. A precise offer, described in your customers' words, is easy for Google to match to a search. A catch-all list matches everything, weakly. I tell the whole story in my case study on {{< a key="multiple-websites-one-business" >}}multiple websites for one business{{< /a >}}.
 
 Distance is the factor you control least. What you can do is make your location unambiguous: a verified address or clear service areas, the same address everywhere, and the towns you serve named on your website.
 
 ## Your Google Business Profile: the listing on the map
 
-Your Business Profile, called Google My Business until 2021, is your listing in the map pack and in Google Maps. It is free, and without it you cannot appear there at all. My {{< a key="google-business-profile-setup" >}}Google Business Profile setup guide{{< /a >}} covers creation and verification step by step. These are the choices that matter most for ranking:
+Your Business Profile, called Google My Business until 2021, is your listing in the map pack and in Google Maps. It is free, and Google may already show one for your business, built from other sources: claiming it puts you in charge of what it says. My {{< a key="google-business-profile-setup" >}}Google Business Profile setup guide{{< /a >}} covers creation and verification step by step. These are the choices that matter most for ranking:
 
 1. **Your real business name**, as customers see it on your sign, van or invoices. Google's [guidelines for representing your business](https://support.google.com/business/answer/3038177) do not allow extra keywords or a location in it.
 2. **The most precise category** for your main activity. An air conditioning installer should not settle for a general building category: the category tells Google which searches you are relevant for.
@@ -71,20 +69,18 @@ Your Business Profile, called Google My Business until 2021, is your listing in 
 
 One recent change: since late 2025, Google has been removing the questions-and-answers section from profiles. In Maps, it is replacing it with an AI feature that answers people's questions from your profile, your reviews, your website and other sources. The facts you want repeated, such as services, areas, prices and lead times, must be written in those places.
 
-Posts are an optional extra, and my guide to {{< a key="google-business-profile-posts" >}}Google Business Profile posts{{< /a >}} explains what they can and cannot do. I am not a social media manager, and compared with Instagram, TikTok or Facebook, where you have to keep chasing attention, I find a Business Profile a much nicer channel to look after.
+Posts are an optional extra, and my guide to {{< a key="google-business-profile-posts" >}}Google Business Profile posts{{< /a >}} explains what they can and cannot do. Compared with Instagram, TikTok or Facebook, where you have to keep chasing attention, I find a Business Profile a nicer channel to look after.
 
 ## Reviews: how to get more without breaking the rules
 
 Reviews count twice: Google uses their number and your rating for prominence, and customers read them before they call. The method is simple, and it only works if you keep at it:
 
-1. **Ask every customer**, right after the job, by text or email, with a direct link to your review form. Your profile can give you that link.
+1. **Ask every customer** on the day of the job, while they still remember it, by text or email. **Ask for reviews** on your profile gives you a link that opens your review form directly.
 2. **Ask everyone, not only the customers you think are happy.** A rating built on a few hand-picked customers tells the next ones very little.
 3. **Reply to every review**, good or bad. Thank people, answer criticism calmly and with facts, and never reveal a customer's personal details.
-4. **Never buy, write or swap reviews**, and never reward one without saying so. Since 6 April 2025, the Digital Markets, Competition and Consumers Act has banned fake reviews and concealed incentivised reviews in the UK, and the CMA can fine a business up to 10% of its global turnover. If you also trade in France, fake reviews have been treated there as a misleading commercial practice in all circumstances since May 2022.
+4. **Never buy, write or swap reviews**, and never offer anything in exchange for one, not even a discount: Google's review policy forbids it. Since 6 April 2025, the Digital Markets, Competition and Consumers Act has banned fake reviews and concealed incentivised reviews in the UK, and the CMA can fine a business up to 10% of its global turnover. If you also trade in France, fake reviews have been treated there as a misleading commercial practice in all circumstances since May 2022.
 
 Showing reviews on your website helps visitors decide. On {{< a page="/projects/pilotech-toshiba" >}}the Toshiba site I built for Pilotech{{< /a >}}, the Google rating sits in the header of every page, and the home and about pages quote real reviews. Show them fairly: under the CMA's guidance, hiding negative reviews or cherry-picking positive ones counts as misleading.
-
-{{< callout type="tip" >}}Send the review link on the day of the job, while the customer still remembers you. A link that opens the review form directly saves them from having to search for your business first.{{< /callout >}}
 
 ## Your website: service pages and town pages that are not doorways
 
@@ -96,7 +92,7 @@ Give each service its own page, with the words customers type, the area you cove
 
 ### Titles written for local searches
 
-On the Toshiba site, every page has a title and description built around a local search. One reads "Toshiba Haori : 15 coloris, prix et pose en IDF": the model, its selling point (15 colours), the price, the installation and the region, IDF being the usual French shorthand for Île-de-France.
+On the Toshiba site, every page has a title and description built around a local search. One reads "Toshiba Haori : 15 coloris, prix et pose en IDF": the model, its selling point (15 colours), the price, the installation and the region, IDF being the usual French shorthand for Île-de-France. For a plumber in Bromley, the same pattern gives something like "Boiler repair in Bromley: prices and call-out times".
 
 ### Town pages, only where you have something to say
 
@@ -118,7 +114,7 @@ Prominence is built outside your website, in three ways.
 
 **Earn local links.** Your suppliers, a manufacturer's list of installers, your trade association, the club you sponsor, the businesses you work with: a link from them ties your name to your trade and your area.
 
-**Start with the local paper.** I am no PR specialist, but the order I recommend is your town's paper first, then the regional press, then national titles. An article gives you a link, proof you can show customers, and a mention that ties your name to a place.
+**Start with the local paper.** I am no PR specialist, but the order I recommend is your town's paper first, then the regional press, then national titles. An article gives you a link, proof you can show customers, and a mention that ties your name to a place. My guide to {{< a key="get-press-coverage" >}}getting press coverage{{< /a >}} explains how to pitch a story.
 
 ## What AI answers change for local businesses
 
@@ -136,9 +132,9 @@ Check three free sources once a month:
 
 You can also add tracking parameters to the website link on your profile, such as `?utm_source=google&utm_medium=organic&utm_campaign=business-profile`, so those visits show up separately in your analytics.
 
-With Pilotech, what surprised me beyond the speed was the quality of the leads: more serious clients than before.
-
 {{< callout type="note" >}}Pilotech reached a top ranking for one of its searches within a day or two. That is rare, and not something I promise anyone: most local SEO takes months, not days.{{< /callout >}}
+
+Look at who gets in touch, not only how many. With Pilotech, the other good surprise, after that speed, was the quality of the leads: more serious clients than before.
 
 ## A 30-day plan to get started
 
