@@ -29,9 +29,9 @@ faq:
 
 On-page SEO is everything you control on the page itself: its address, its headings, its words, its images, its links to the rest of your site, and the title and description that search engines read. This on-page SEO checklist takes you through twelve checks for every page of a small business website, with what good looks like and where to make each change.
 
-The order follows the way I build pages for clients: the keyword research comes before a word of copy is written, and the title and description come last, once the client has approved the page, because they have to describe the final version.
+The order follows the way I build pages for clients: the keyword research comes before a word of copy is written, and the title and description come last, once the client has approved the page.
 
-Most of it needs no developer. A Squarespace site I built for Pilotech, an air conditioning installer near Paris, ranks first or second on Google, although Squarespace gives no access to its code: with the right keywords and metadata, a closed platform did not hold it back. You need your site builder and, for the last checks, Google Search Console.
+Most of it needs no developer. A Squarespace site I built for Pilotech, an air conditioning installer near Paris, ranks first or second on Google, although Squarespace gives no access to its source code: with the right keywords and metadata, a closed platform did not hold it back. All you need is your site builder, Google Search Console and two free Google testing tools.
 
 ## What on-page SEO covers, and what it leaves out
 
@@ -49,9 +49,9 @@ For Pilotech, the work went in this order: pages created for the searches that m
 
 A primary keyword is the search a page is written to rank for. Choose it first: the URL, the H1, the opening lines and the title all follow from it.
 
-Take the heating engineer in Leeds from my {{< a key="keyword-research-small-business" >}}keyword research method{{< /a >}}: the repair page targets "boiler repair Leeds" and also answers close variants such as "boiler not working". One search per page, one page per search. When two of your pages chase the same keyword, they compete with each other and both usually do worse, which is called keyword cannibalisation.
+Take the heating engineer in Leeds from my {{< a key="keyword-research-small-business" >}}keyword research method{{< /a >}}: the repair page targets "boiler repair Leeds" and also answers close variants such as "boiler not working". One search per page, one page per search. When two of your pages chase the same keyword, they compete with each other and both often do worse, which is called keyword cannibalisation.
 
-For a live page, Search Console shows what Google thinks it is about. Open **Performance** > **Search results**, click the page in the **Pages** tab, then open **Queries**. If the searches listed are not the ones you wrote the page for, the page is not saying what you think it says. To spot cannibalisation, go back to the full report, click a query and open **Pages**: two of your pages listed for the same search means they compete.
+For a live page, Search Console shows what Google thinks it is about. Open **Performance** > **Search results**, click the page in the **Pages** tab, then open **Queries**. If the searches listed are not the ones you wrote the page for, the page is not saying what you think it says. To spot cannibalisation, go back to the full report, click a query and open **Pages**. If two of your pages share the impressions for that search and neither ranks well, merge them into one page, with a 301 redirect from the one you drop, or give one of them a different search to target.
 
 {{< screenshot id="on-page-seo-checklist-01" alt="Search Console Performance report filtered on one page, with the Queries tab listing the searches it appears for" >}}
 
@@ -65,7 +65,7 @@ Weak:  yourbusiness.co.uk/page-12?id=4471
 Weak:  yourbusiness.co.uk/our-boiler-repair-services-in-leeds-and-surrounding-areas
 ```
 
-Google recommends readable words rather than long ID numbers, and hyphens between words rather than underscores. Leave dates out of pages that are meant to last. Once a page ranks, change its slug only with a 301 redirect from the old address to the new one; otherwise the links and rankings it has built lead to an error page.
+Google recommends readable words rather than long ID numbers, and hyphens between words rather than underscores. Leave dates out of pages that are meant to last. Once a page ranks, change its slug only with a 301 redirect from the old address to the new one; otherwise old links lead to an error page and the rankings built on the old address are lost.
 
 ## Checks 3 and 4: one H1, then subheadings that answer questions
 
