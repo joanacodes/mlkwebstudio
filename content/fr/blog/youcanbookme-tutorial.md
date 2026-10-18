@@ -49,7 +49,7 @@ YouCanBookMe propose aussi un essai de 14 jours des fonctions payantes, sans car
 ## Étape 1 : créer votre compte et connecter votre agenda
 
 1. Inscrivez-vous sur youcanbook.me avec un compte que l’entreprise gardera, pas une adresse personnelle que vous abandonnerez peut-être un jour.
-2. Connectez l’agenda où vivent vraiment vos rendez-vous. YouCanBookMe y lit vos plages occupées pour les masquer, et y ajoute chaque nouvelle réservation.
+2. Connectez l’agenda où se trouvent réellement vos rendez-vous. YouCanBookMe y lit vos plages occupées pour les masquer, et y ajoute chaque nouvelle réservation.
 3. Si votre compte professionnel est géré par un administrateur (Google Workspace ou Microsoft 365), il devra peut-être autoriser la connexion.
 
 Avec l’offre gratuite, choisissez bien : vous n’avez droit qu’à un agenda connecté. Si vos rendez-vous personnels sont dans un autre agenda, YouCanBookMe ne les voit pas, et un client peut vous réserver à l’heure de la sortie d’école. **Regroupez tout dans un seul agenda**, ou prévoyez le forfait Individual, qui en connecte deux.
@@ -58,12 +58,11 @@ Avec l’offre gratuite, choisissez bien : vous n’avez droit qu’à un agenda
 
 ## Étape 2 : créer la page de réservation et choisir son adresse
 
-La page de réservation est la page publique qui affiche vos créneaux libres. Remplissez quatre éléments :
+La page de réservation est la page publique qui affiche vos créneaux libres. Remplissez trois éléments :
 
 - **Le titre** : ce que l’on réserve, dans les mots du client. « Appel découverte de 15 minutes », « Visite technique à domicile », « Premier rendez-vous (45 minutes) ».
-- **L’adresse** : votre page vit à une adresse du type `votreentreprise.youcanbook.me`. Prenez le nom de l’entreprise, puisqu’il apparaît dans chaque lien que vous partagez.
+- **L’adresse** : votre page a une adresse du type `votreentreprise.youcanbook.me`. Prenez le nom de l’entreprise, puisqu’il apparaît dans chaque lien que vous partagez.
 - **La description** : la durée du rendez-vous, s’il a lieu par téléphone, en visio ou sur place, et le fuseau horaire.
-- **Votre logo**, que l’offre gratuite autorise.
 
 Une page, une offre. Sur MLK Leadhunters, la page française propose un seul appel gratuit de quinze minutes, sans rien d’autre à choisir. **Chaque choix supplémentaire est une raison de remettre la réservation à plus tard.**
 
