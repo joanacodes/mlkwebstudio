@@ -102,6 +102,7 @@ Hello [first name],
 
 [One new reason to answer, in one line: a detail of the offer, a similar job, or the answer to the obvious objection.]
 [The same invitation to call, with the number, in one line.]
+If you would rather not hear from me, just reply "no".
 
 [First name] [Surname], [company]
 [phone number]
@@ -139,7 +140,7 @@ A sequence is a plan, not a promise. Take a contact out of it as soon as one of 
 1. **They reply, whatever they say.** In Instantly, the campaign option **Stop sending emails on reply** does this, and Instantly recommends switching it on ([campaign options](https://help.instantly.ai/en/articles/6222396-campaign-options)). A separate option stops the sequence for everyone at the same company when one person there replies.
 2. **They call.** Your sending tool cannot hear the phone ring. Whoever answers the calls must tell whoever runs the campaign the same day, so the caller does not receive a follow-up after the conversation. In my campaigns the replies and the calls go to the client, not to me, which is why this handover has to be agreed before the first send.
 3. **They say no, in any form.** "No thanks", "take me off your list", an annoyed call: all of them count. Stop at once, add the address to your block list so it never comes back in a future list, and never write again. The rules differ between the UK and France; my {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers both.
-4. **The email bounces.** The address is dead, and the next two emails would bounce as well. Verify your list before the first send, not after.
+4. **The email bounces.** A hard bounce means the address does not exist, and the next two emails would bounce as well. Verify your list before the first send, not after.
 5. **They are away.** An out-of-office is not a refusal: hold the next email until after their return date.
 
 {{< callout type="warning" >}}**An opt-out by phone is still an opt-out.** If someone calls to say they do not want your emails, they leave the sequence that day, exactly as if they had replied in writing.{{< /callout >}}
