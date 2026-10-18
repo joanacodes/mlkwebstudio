@@ -22,11 +22,11 @@ faq:
   - q: "Can I get clients without social media?"
     a: "Yes. None of the channels that bring me clients (referrals, cold emails and SEO) depends on posting. A Google Business Profile, a clear website and, in B2B, cold emailing bring enquiries without an Instagram account."
   - q: "How do I ask a client for a referral?"
-    a: "Ask when the client has just thanked you or seen a result, and say who you can help: 'Do you know another business owner with the same problem?' is easier to answer than 'Let me know if you know anyone.' Give them something to forward, such as your website or a case study."
+    a: "Describe the person you can help instead of asking in general: 'Do you know another business owner with the same problem?' is easier to answer than 'Let me know if you know anyone.' Ask in person or in a short message, while the result is still fresh."
   - q: "What is the difference between a lead and a client?"
     a: "A lead, or prospect, is a person or business that has shown interest: they called, filled in a form or replied to an email. A client has paid you. Count both, because a channel that brings many leads and few clients is not working."
   - q: "Should I hire an agency to get more clients?"
-    a: "Hire one when a channel needs skills or hours you do not have, such as ads or social media, and only with a written plan, a timeline and monthly numbers. Keep what runs on your own relationships, such as referrals, in your hands."
+    a: "Hire one when a channel needs skills or hours you do not have, such as ads or social media. Judge it on enquiries and signed clients, not on clicks or followers, and keep what runs on your own relationships, such as referrals, in your hands."
 ---
 
 Knowing how to get more clients is less about tactics than about choice. Pick one channel that suits the way your buyers decide, run it properly until it brings clients without your daily attention, then add a second. The opposite is easy to fall into: a bit of Instagram, a boosted post, a new tool every month, and nothing run long enough to work.
@@ -65,11 +65,11 @@ One more question settles a lot of choices: **can you turn it up when you need m
 |---|---|---|---|---|
 | Referrals | Nothing but good work | Unpredictable | Usually excellent: trust comes with the introduction | Low, but out of your control |
 | Cold emailing (B2B) | Domains, mailboxes, a sending tool, a verified list | A few weeks of set-up, then days | High when the list is precise | High to set up, then steady |
-| SEO and Google Business Profile | Your time, or a specialist's fee | Weeks for a narrow offer; four months to a year in most cases | High: people are already searching | High at first, then regular content and checks |
+| SEO and Google Business Profile | Your time, or a specialist's fee | Can be weeks for a narrow offer; four months to a year in most cases | High: people are already searching | High at first, then regular content and checks |
 | Google Ads | Every click | Days | Good when the searches match your offer | Medium: weekly checks of searches and costs |
 | Facebook and Instagram ads | Ad spend, including a budget for tests | Days | Mixed: awareness and sales once tested | High: visuals and A/B tests |
 | LinkedIn Ads | $10 a day minimum, and spend goes fast | Days | Bigger B2B deals, when done right | Medium: audiences, ads, lead follow-up |
-| TikTok Ads | $50 a day minimum per campaign | Days | Mostly awareness | High: a steady supply of video |
+| TikTok Ads | Daily minimums: $50 per campaign, $20 per ad group | Days | Mostly awareness | High: a steady supply of video |
 | Press coverage | Your time | Weeks to months | Proof and backlinks more than direct enquiries | In bursts, one pitch at a time |
 | Organic social media | Your time, or an agency | Months | Depends on the platform | Constant on Instagram, TikTok and Facebook; lighter on Pinterest and YouTube Shorts |
 
@@ -85,14 +85,14 @@ I will be open about my bias: I believe cold emailing is the one channel that ca
 
 Cold emailing means writing to businesses you have chosen, one short and personal message at a time, before they search for anything. Done properly, it looks nothing like a newsletter blast:
 
-- sending addresses on separate domains, so the reputation of your main domain is never at risk (Pilotech's campaigns run on 30 addresses);
+- sending addresses on separate domains, so your main domain's reputation stays protected (Pilotech's campaigns run on 30 addresses);
 - a precise list of the right businesses, cleaned with a verifier before the first send (I use Reoon);
-- three plain-text emails at most, the first one three lines long: who you are, what you offer, how to reach you;
+- no more than three plain-text emails, the first one three lines at most: who you are, what you offer, how to reach you;
 - no links and no images, but a phone number and an invitation to call.
 
-For Pilotech, campaigns to three audiences (Paris restaurants, Paris offices and shops, and above all architects) brought **15 new clients in a year**. Architects were the main focus and the ones who called most: many picked up the phone instead of replying, because a call is quicker than writing back, which I explain in {{< a key="cold-calling-vs-cold-emailing" >}}cold calling vs cold emailing{{< /a >}}. In my campaigns, the first results usually arrive within 36 hours of the first send, and A/B tests improve the response over time as I learn which copy works.
+For Pilotech, campaigns to three audiences (Paris restaurants, Paris offices and shops, and above all architects) brought **15 new clients in a year**. Architects were the main focus and the ones who called most: many rang instead of replying. My reading is that a call is quicker than writing back, and people like talking to a real person; I come back to this in {{< a key="cold-calling-vs-cold-emailing" >}}cold calling vs cold emailing{{< /a >}}. In my campaigns, the first results usually arrive within 36 hours of the first send, and A/B tests improve the response over time as I learn which copy works.
 
-The objection I hear most is that cold emailing is illegal. For B2B, it is not, within rules. In the UK, you can email limited companies without prior consent, but sole traders and some partnerships count as individuals and need consent (see the [ICO's guidance on business-to-business marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/)). In France, the CNIL accepts emails to professionals about their work, provided they were told and can object simply. My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} has the details.
+The objection I hear is that cold emailing is illegal. For B2B, it is not, within rules. In the UK, you can email limited companies without prior consent, but sole traders and some partnerships count as individuals and need consent, or the soft opt-in if they are existing customers (see the [ICO's guidance on business-to-business marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/)). In France, the CNIL accepts emails to professionals about their work, provided they were told their address could be used this way and can object simply and free of charge. My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} has the details.
 
 {{< callout type="warning" >}}Cold emailing is a **B2B channel**. If you sell to private individuals, marketing emails need their consent in both the UK and France, apart from narrow exceptions for existing customers, so look at the other channels in this guide instead.{{< /callout >}}
 
@@ -100,11 +100,11 @@ To set it up, start with the {{< a key="b2b-cold-emailing-guide" >}}complete gui
 
 ## SEO: slow to start, then enquiries without a cost per click
 
-SEO (search engine optimisation) is the work that gets your pages shown, unpaid, when people search for what you sell. Its strength is intent: the person is already looking. Its weakness is time. Google's guidance on hiring an SEO, linked from its page [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo), says that in most cases it takes four months to a year to make the improvements and then see the benefit.
+SEO (search engine optimisation) is the work that gets your pages shown, unpaid, when people search for what you sell. Its strength is intent: the person is already looking. Its weakness is time. Google's video on hiring an SEO, on its page [Do you need an SEO?](https://developers.google.com/search/docs/fundamentals/do-i-need-seo), says that in most cases an SEO needs four months to a year to make improvements and then see a potential benefit.
 
 **A narrow offer can move much faster.** Pilotech's website took about a month to build, reached its ranking within a day or two of publication, which surprised me, and brought its first lead three weeks after going live. The leads were better too: more serious clients, including high-end commercial clients in Paris. Today {{< a page="/projects/pilotech-teknopoint" >}}Pilotech's Teknopoint site{{< /a >}} ranks first or second on Google.
 
-What made the difference was specificity. A broad site I built for the same founder, offering too many services, did not work at all; the one that ranks sells one precise service. I tell that story in {{< a key="multiple-websites-one-business" >}}multiple websites for one business{{< /a >}}.
+What made the difference was specificity. A broad site I built for the same founder, offering too many services, did not work at all; the one that ranks sells a very specific offer. I tell that story in {{< a key="multiple-websites-one-business" >}}multiple websites for one business{{< /a >}}.
 
 For a local business, SEO starts with a free Google Business Profile, then one clear page per service and per town you really cover. The {{< a key="small-business-seo-guide" >}}small business SEO guide{{< /a >}} covers the method, and {{< a key="how-long-does-seo-take" >}}how long SEO takes{{< /a >}} gives realistic timelines.
 
@@ -130,7 +130,7 @@ There are no keywords to bid on, so the research is about your buyers' words and
 
 ### LinkedIn Ads: costly, and worth it for high-value B2B
 
-LinkedIn lets you target by job title, seniority, company and industry, which is hard to find elsewhere for B2B. It also burns cash fast. At the time of writing (October 2026), the minimum budget is $10 a day, or the equivalent in your account's currency, and LinkedIn suggests about $25 a day for new advertisers ([LinkedIn's budget advice](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget)).
+LinkedIn lets you target by job title, seniority, company and industry, which is hard to find elsewhere for B2B. It also burns cash fast. At the time of writing (October 2026), the minimum budget is $10 a day, or the equivalent in your account's currency, and LinkedIn suggests a default of $25 a day to new advertisers ([LinkedIn's budget advice](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget)).
 
 In my view, done right, it brings bigger deals than the other ad platforms. {{< a key="linkedin-ads-tutorial" >}}How to advertise on LinkedIn{{< /a >}} walks through a first campaign and what it costs.
 
@@ -138,7 +138,7 @@ In my view, done right, it brings bigger deals than the other ad platforms. {{< 
 
 TikTok Ads suit consumer brands that want reach and can produce video regularly. At the time of writing (October 2026), TikTok sets minimum daily budgets of $50 per campaign and $20 per ad group, or the equivalent in your currency ([TikTok's budget rules](https://ads.tiktok.com/resources/help/article/budget?lang=en)).
 
-In my view, people on TikTok are scrolling to be entertained rather than to buy a service, so I treat it as a brand awareness channel. If you need enquiries this month, start elsewhere. To compare the four platforms by goal, read {{< a key="google-ads-vs-facebook-ads" >}}Google Ads vs Facebook Ads{{< /a >}}, which also covers LinkedIn and TikTok.
+I find that people on TikTok are not really there to buy, so I treat it as a brand awareness channel. If you need enquiries this month, start elsewhere. To compare the four platforms by goal, read {{< a key="google-ads-vs-facebook-ads" >}}Google Ads vs Facebook Ads{{< /a >}}, which also covers LinkedIn and TikTok.
 
 ## Press coverage: proof you cannot buy
 
@@ -146,17 +146,17 @@ Press coverage is less predictable than the channels above, but it gives you som
 
 I am not a PR specialist and I barely tried, yet I got a friend, a personal trainer, into the French magazine Match. I put it down to the copywriting and targeting habits that cold emailing taught me: keep it short, aim at the right journalist, and have a website or page that shows the work. **You do not need followers**, only something interesting to bring to the table.
 
-Start small: your town's paper, then the regional press, then the national titles. Each article gives your website a backlink, your sales pages a piece of proof and your social accounts something to share. Outside mentions also help AI assistants decide which businesses to recommend, as I explain in {{< a key="get-recommended-by-chatgpt" >}}how to get recommended by ChatGPT{{< /a >}}.
+Start small: your town's paper, then the regional press, then the national titles. An online article can give your website a backlink, and any article gives your sales pages a piece of proof and your social accounts something to share. Outside mentions also help AI assistants decide which businesses to recommend, as I explain in {{< a key="get-recommended-by-chatgpt" >}}how to get recommended by ChatGPT{{< /a >}}.
 
 PR platforms such as Prowly, now called the Semrush AI PR Toolkit, are valuable for finding the journalists who cover your subject, though your first article does not need one. {{< a key="get-press-coverage" >}}How to get press coverage{{< /a >}} has the method, from finding the right journalist to writing the pitch.
 
 ## Social media: where your time pays off
 
-I will be upfront: I am not a social media manager, and I do not sell social media services. When I helped a client on social media, engaging on the platform and posting content brought 60 new relevant followers in a month. That is real, but I prefer channels whose results are more tangible: a call, a form, a signed quote.
+To be clear: I am not a social media manager, and I do not sell social media services. When I helped a client on social media, engaging on the platform and posting content brought 60 new relevant followers in a month. That is real, but I prefer channels whose results are more tangible: a call, a form, a signed quote.
 
 My strong opinion is that **Pinterest and YouTube Shorts are probably a small business's best allies in 2026**. Once a Pin or a Short is out, it can keep bringing views and visitors for months: those platforms work for you. Instagram, TikTok and Facebook work the other way round. You have to keep posting and keep finding new ways to catch attention just to be seen, which turns you into the platform's unpaid employee. Even a Google Business Profile gives more back for the time.
 
-Those platforms can still work if you have patience, money or both. With money, hire an agency with strong, proven results, and give it time rather than judging it after a month. If you work alone, start with {{< a key="pinterest-for-business" >}}Pinterest for business{{< /a >}} or {{< a key="youtube-shorts-for-business" >}}YouTube Shorts for business{{< /a >}}; my guide to the {{< a key="social-media-small-business" >}}best social media for small business{{< /a >}} compares every platform.
+Those platforms can still work if you have patience, money or both. With money, hire an agency with strong, proven results, and give it time rather than expecting results straight away. If you work alone, start with {{< a key="pinterest-for-business" >}}Pinterest for business{{< /a >}} or {{< a key="youtube-shorts-for-business" >}}YouTube Shorts for business{{< /a >}}; my guide to the {{< a key="social-media-small-business" >}}best social media for small business{{< /a >}} compares every platform.
 
 ## Which channel first? Match it to your situation
 
@@ -175,7 +175,7 @@ Whatever the row, check the time to first lead against your cash. SEO can be the
 
 ## Before you add a channel, master the ones you already run
 
-The trap I warn about most is the shiny new channel: a new platform, a new tool, the tactic everyone is talking about this month. Marketing is noisy by design, and small teams fall for the noise easily. **Focus on the channels and strategies you already run**, and make them work before you add another; I explain why in {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}.
+The trap I warn small businesses about is the shiny new channel: a new platform, a new tool, the tactic everyone is talking about this month. Marketing is noisy by design, and small teams fall for the noise easily. **Focus on the channels and strategies you already run**, and make them work before you add another; I explain why in my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}.
 
 Mastering a channel also means being ready for the leads it brings. At one point I brought Pilotech more prospects than it could handle, and it asked me to build an internal app to see every prospect clearly and never miss a call back. Before you pay for more enquiries, make sure each one gets a quick answer and that your website turns visitors into calls: {{< a key="website-conversion-rate" >}}website not getting enquiries{{< /a >}} shows where visitors drop off.
 
@@ -185,7 +185,7 @@ Mastering a channel also means being ready for the leads it brings. At one point
 2. Work out what a client is worth to you, and what you can pay for an enquiry.
 3. Pick one channel from the decision table that fits your buyers and your cash.
 4. Set it up properly with the guide linked in its section, or hand it to someone who does it every day.
-5. Give it a fixed test period and a single measure: 90 days for cold emailing or ads, six to twelve months for SEO, counting enquiries and signed clients.
+5. Give it a fixed test period and decide in advance what you will measure: 90 days for cold emailing or ads, six to twelve months for SEO, counting enquiries and signed clients.
 6. Improve before you add: test the copy, fix the page that converts, answer faster.
 7. Add a second channel only when the first brings clients without your daily attention.
 
