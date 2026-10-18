@@ -27,9 +27,9 @@ faq:
     a: "No. ChatGPT can search the web without an account, and Perplexity and Gemini both have free versions. Paid plans can use other models, so whichever version you choose, test with the same one every month."
 ---
 
-AI visibility is how often AI assistants name your business when someone asks them about what you sell. If a customer asks ChatGPT for a reliable office cleaning company in Manchester and your company is in the answer, you are visible. If three competitors are named and you are not, you have work to do, and no ranking report will tell you.
+AI visibility is how often AI assistants name your business when someone asks them about what you sell. If a customer asks ChatGPT for a reliable office cleaning company in Manchester and your company is in the answer, you are visible. If three competitors are named instead, you have work to do.
 
-There is no position to look up, so the only way to know is to ask the assistants yourself, the way your customers do. This tutorial gives you a free method that works for any small business: ten prompts, a spreadsheet and an hour or so each month. It then covers the free reports from Microsoft and Google that show part of the picture, the paid trackers that automate the test, and what to change when the results disappoint.
+There is no ranking to look up, so the only way to know is to ask the assistants yourself, the way your customers do. This tutorial gives you a free method for any small business: ten prompts, a spreadsheet and an hour or so each month. Then come the free reports from Microsoft and Google, the paid trackers, and what to change when the results disappoint.
 
 It belongs to my {{< a key="ai-search-geo-guide" >}}guide to generative engine optimisation{{< /a >}}, which explains how assistants choose the businesses they mention. For the test itself, a browser and a spreadsheet are enough.
 
@@ -67,7 +67,7 @@ Ten prompts are enough to start. More prompts give you more rows to fill, not ne
 
 To find the words your customers use, look in four places:
 
-- **Your phone calls.** The questions my clients ask on a first call, such as "Do you have experience?" and "How long will it take?", are the kind people now put to an assistant before they call anyone. Write down the ones you hear most.
+- **Your phone calls.** Questions my clients ask on a first call, such as "Do you have experience?" or "How long will it take?", are what people now ask an assistant before calling anyone.
 - **Search Console.** The queries that already bring your site impressions on Google show the words people use for your trade.
 - **Keyword costs.** I use Semrush mainly for keyword research and for what keywords cost in ads. Advertisers pay most for the searches that bring business, so an expensive keyword usually makes a good prompt.
 - **Deep research.** I use deep research tools to find what people in a niche complain about most and which words keep coming back. My method is in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}.
@@ -103,7 +103,7 @@ Your own account would skew the test. An assistant that remembers your past chat
 
 Open chatgpt.com in a private window and do not sign in. ChatGPT search has been open to logged-out users since February 2025, so a logged-out chat can still search the web, as it would for a new visitor.
 
-If an answer lists no sources, it most likely came from what the model learned in training rather than from a search. Write "none" in the Sources column, because the two are fixed differently: new pages and mentions can change a search answer fairly quickly, while what a model learned in training only changes when a new model comes out.
+An answer without sources most likely comes from what the model learned in training, not from a search. Write "none" in the Sources column: new pages and mentions can change a search answer fairly quickly, while training data only changes with a new model.
 
 {{< callout type="warning" >}}**A Temporary Chat is not automatically neutral.** If you prefer to stay signed in, OpenAI's help centre says a temporary chat can still use your memories and custom instructions unless you switch personalisation off before the conversation starts. A logged-out private window is simpler.{{< /callout >}}
 
@@ -141,7 +141,7 @@ Fill in each row as soon as the answer appears: by the fifth answer about office
 
 I check the Accurate column closely with ChatGPT. In my experience it makes things up a bit too often, which is one reason I use Claude for my own work. An invented service or an old phone number can usually be traced to a source, and a source can be corrected.
 
-Then ask your five most important prompts a second time, in a new chat. Answers vary from one run to the next, and a second run shows whether a mention is stable or a fluke. A second run is simply another row.
+Then ask your five most important prompts a second time, in a new chat and on a new row. Answers vary from one run to the next, and a second run shows whether a mention is stable or a fluke.
 
 ## Step 5: work out your mention rate each month
 
@@ -179,7 +179,7 @@ Paid trackers run your prompts on a schedule and chart how often you are named. 
 
 Semrush, owned by Adobe since April 2026, sells an AI Visibility Toolkit on its own and inside Semrush One, its bundle with the SEO Toolkit. According to Semrush's knowledge base, the toolkit costs $99 a month for one domain, with 25 prompts in Prompt Tracking, 50 more prompts for $60 a month and no free trial. Semrush names ChatGPT and Google's AI Mode among the platforms it tracks.
 
-Semrush lists its prices in US dollars only, so I give no £ figure: check the current offer, and whether a price is the monthly or the annual rate, on [Semrush's pricing page](https://www.semrush.com/prices/). These are the prices at the time of writing (October 2026), and what I describe here comes from Semrush's documentation. My {{< a key="semrush-review" >}}review of whether Semrush is worth it{{< /a >}} covers the rest of the product.
+These are the prices at the time of writing (October 2026), taken from Semrush's documentation. Semrush lists them in US dollars only, so I give no £ figure: check the current offer, and whether it is the monthly or annual rate, on [Semrush's pricing page](https://www.semrush.com/prices/). My {{< a key="semrush-review" >}}review of whether Semrush is worth it{{< /a >}} covers the rest of the product.
 
 {{< screenshot id="check-ai-visibility-07" alt="Semrush AI Visibility Toolkit prompt tracking report listing the prompts and whether the brand is mentioned" >}}
 
@@ -191,7 +191,7 @@ For now it covers ChatGPT and Gemini, on English-language sites built on version
 
 ### Should you pay for a tracker?
 
-Run the free test for three months first. If the spreadsheet takes more time than you can spare, or you need far more than ten prompts, a tracker makes sense. If the main appeal is that AI search is new, be careful: it is easy for a small team to fall for every new tool, and the basics on the channels that already bring you clients come first.
+Run the free test for three months first. A tracker makes sense if the spreadsheet takes more time than you can spare, or if you need far more than ten prompts. If its main appeal is that AI search is new, be careful: it is easy for a small team to fall for every new tool, and the channels that already bring you clients come first.
 
 ## What to do with your results
 

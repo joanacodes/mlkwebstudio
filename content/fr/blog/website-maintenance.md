@@ -130,7 +130,7 @@ Les devis parlent souvent de maintenance corrective (réparer ce qui casse), pr�
 
 Créer le site d’un ami ou d’un proche ressemble à un beau cadeau. Mais un site n’est pas un cadeau ponctuel : offrir un site, c’est offrir la maintenance à vie, sauf si vous convenez à l’avance que l’entretien aura un coût. Et comme le travail est gratuit, les demandes ne s’arrêtent jamais : une nouvelle photo, une nouvelle page, une autre couleur, une petite modification un dimanche soir.
 
-Il existe une exception : un site Squarespace sans trop de code sur mesure. C’est le créateur de sites le plus simple que je connaisse, et la personne à qui vous l’offrez peut le modifier elle-même. Comme il est fermé, un site sur mesure, sur Webflow ou sur WordPress peut mieux se positionner. Pourtant, le site Squarespace que j’ai créé pour Pilotech se classe premier ou deuxième sur Google : avec les bons mots-clés et des métadonnées soignées, vous mettez toutes les chances de votre côté.
+Il existe une exception : un site Squarespace sans trop de code sur mesure. C’est le créateur de sites le plus simple que je connaisse, et la personne à qui vous l’offrez peut le modifier elle-même. Squarespace étant fermé, un site sur mesure, sur Webflow ou sur WordPress peut mieux se positionner. Pourtant, le site Squarespace que j’ai créé pour Pilotech se classe premier ou deuxième sur Google : avec les bons mots-clés et des métadonnées soignées, vous mettez toutes les chances de votre côté.
 
 Si vous créez quand même un site pour quelqu’un, mettez trois choses par écrit avant de commencer :
 

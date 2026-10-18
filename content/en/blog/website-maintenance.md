@@ -130,7 +130,7 @@ Before you sign a maintenance plan, ask:
 
 Building a website for a friend or a relative looks like a generous gift. But a website is not a one-time gift: if you give one, you give maintenance for life, unless you agree in advance that upkeep will cost something. And because the work is free, the requests never stop: a new photo, a new page, a different colour, one small change on a Sunday evening.
 
-There is one exception: a Squarespace site without heavy custom code. It is the easiest website builder I know, and the person you build it for can change things themselves. Because it is closed, custom-coded, Webflow or WordPress sites might rank higher. Yet the Squarespace site I built for Pilotech ranks first or second on Google: with the right keywords and careful metadata, you give yourself every chance.
+There is one exception: a Squarespace site without heavy custom code. It is the easiest website builder I know, and the person you build it for can change things themselves. Because Squarespace is closed, custom-coded, Webflow or WordPress sites might rank higher. Yet the Squarespace site I built for Pilotech ranks first or second on Google: with the right keywords and careful metadata, you give yourself every chance.
 
 If you build a site for someone anyway, put three things in writing before you start:
 
