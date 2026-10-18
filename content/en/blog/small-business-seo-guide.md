@@ -31,7 +31,7 @@ When a business owner calls me about SEO for the first time, the conversation ne
 
 The example is Pilotech, an air conditioning installer near Paris. I built its website in about a month, then worked on its SEO in a set order: the pages, the content, the Google Business Profile, then the technical fixes. The first lead came in three weeks after publication. The steps below follow the same order, so you can apply them to your own site.
 
-You do not need an agency or a paid tool to start. You need a website you can edit, a free Google account and some patience. Each section gives you the short version and links to the detailed guide on this blog, so treat this page as the map and the other articles as the directions.
+You do not need an agency or a paid tool to start. You need a website you can edit, a free Google account and some patience. And if you wonder whether SEO is still worth it now that people ask AI assistants, my short answer is in {{< a key="is-seo-dead" >}}Is SEO dead?{{< /a >}} Each section gives you the short version and links to the detailed guide on this blog, so treat this page as the map and the other articles as the directions.
 
 ## What is SEO, and what does it do for a small business?
 
