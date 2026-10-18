@@ -29,7 +29,7 @@ faq:
 
 Website security for small business owners is less about firewalls than about keys: who holds them, how they are protected and what happens when one goes missing. Most sites are not hacked by someone who chose them: a bot finds an outdated plugin or a reused password. And many outages involve no hacker at all, just a domain that lapsed because the renewal reminders went to a former designer's inbox.
 
-I mostly see the emergency side. Pilotech called me in a hurry when their old WordPress site was hacked: I got it back, built them a new website, and two years later we still work together. Eden Flats called me after a hack too. In fact, every client who has ever called me in an emergency was on WordPress.
+I mostly see the emergency side. Pilotech called me in a hurry when their old WordPress site was hacked: I got it back, built them a new website, and two years later we still work together. Eden Flats called me after a hack too. In fact, most of the emergency calls I get are about WordPress sites.
 
 This guide is the hub of the rescue section. It starts with what to do first, and in what order, if your site is hacked, down or locked, then covers the habits that stop it happening: accounts, two-factor authentication, updates, backups and your domain name. You can do most of it yourself in an afternoon.
 

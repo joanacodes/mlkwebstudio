@@ -29,7 +29,7 @@ faq:
 
 Sécuriser son site internet, pour une petite entreprise, tient moins aux pare-feu qu’aux clés : qui les détient, comment elles sont protégées et ce qui se passe quand l’une d’elles disparaît. La plupart des sites ne sont pas piratés par quelqu’un qui les a choisis : un robot trouve une extension pas à jour ou un mot de passe réutilisé. Et beaucoup de pannes n’ont rien à voir avec un pirate, juste avec un nom de domaine expiré parce que les rappels de renouvellement arrivaient dans la boîte mail d’un ancien prestataire.
 
-Je vois surtout le côté dépannage. Pilotech m’a téléphoné en urgence quand son ancien site WordPress a été piraté : j’ai récupéré le site, construit un nouveau site internet, et deux ans plus tard, nous travaillons toujours ensemble. Eden Flats aussi m’a téléphoné après un piratage. En fait, tous les clients qui ont fait appel à moi en urgence étaient sur WordPress.
+Je vois surtout le côté dépannage. Pilotech m’a téléphoné en urgence quand son ancien site WordPress a été piraté : j’ai récupéré le site, construit un nouveau site internet, et deux ans plus tard, nous travaillons toujours ensemble. Eden Flats aussi m’a téléphoné après un piratage. En fait, la plupart des appels d’urgence que je reçois concernent des sites WordPress.
 
 Ce guide est le point de départ de la rubrique dépannage. Il commence par les premiers gestes, dans le bon ordre, si votre site est piraté, en panne ou inaccessible, puis passe aux habitudes qui évitent d’en arriver là : comptes, double authentification, mises à jour, sauvegardes et nom de domaine. Vous pouvez en faire l’essentiel vous-même, en un après-midi.
 

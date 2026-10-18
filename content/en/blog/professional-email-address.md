@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:55:00+02:00
 category: "domains"
 article_type: "guide"
 keywords: ["professional email address", "business email address", "email address with your own domain", "custom domain email", "professional email address cost", "free professional email address"]
-summary: "A professional email address ends with your own domain, such as hello@yourbusiness.co.uk, instead of @gmail.com or @hotmail.co.uk. You need a domain and a mailbox from an email provider, linked by MX records, plus SPF, DKIM and DMARC records so that inboxes trust your mail. At the time of writing (October 2026), a Spacemail mailbox, the option I recommend to solo owners, costs less than £1 (under $1) a month, against £5.90 per user a month excluding VAT ($7 in the US) for Google Workspace's entry plan."
+summary: "A professional email address ends with your own domain, such as hello@yourbusiness.co.uk, instead of @gmail.com or @hotmail.co.uk. You need a domain and a mailbox from an email provider, linked by MX records, plus SPF, DKIM and DMARC so that inboxes trust your mail. In October 2026, a Spacemail mailbox, the option I recommend to solo owners, costs less than £1 (under $1) a month, against £5.90 per user a month excluding VAT ($7 in the US) for Google Workspace's entry plan."
 cover: "professional-email-address"
 cover_alt: "An email inbox with a contact@ address on a business's own domain name"
 related: ["spacemail-setup", "domain-hosting-email-guide", "spf-dkim-dmarc-setup", "infomaniak-review", "best-email-provider-cold-email"]
@@ -79,7 +79,7 @@ Here are the routes to an address on your domain, with the entry price of each a
 
 ### Registrar email: Spacemail and Namecheap Private Email
 
-Spacemail is the email service of Spaceship, the registrar Namecheap launched in 2023. According to [Spaceship's Spacemail page](https://www.spaceship.com/business-email/), the Pro plan gives one mailbox with 5 GB of storage and up to 10 aliases for about £14 ($18.88) for two years, the same at renewal. Business (three mailboxes, 10 GB each) and Advanced (five mailboxes, 15 GB each) cost more and go up at renewal. Every plan starts with a 30-day free trial, and you get webmail with a calendar, plus apps for iOS and Android.
+Spacemail is the email service of Spaceship, the registrar Namecheap launched in 2023. According to [Spaceship's Spacemail page](https://www.spaceship.com/business-email/), the Pro plan gives one mailbox with 5 GB of storage and up to 10 aliases for about £14 ($18.88) per two-year term, the same at renewal. Business (three mailboxes, 10 GB each) and Advanced (five mailboxes, 15 GB each) cost more and go up at renewal. Every plan starts with a 30-day free trial, and you get webmail with a calendar, plus apps for iOS and Android.
 
 Namecheap sells its own Private Email on the same model, also with a 30-day free trial on every plan. The prices I found for it in October 2026 do not agree with each other, so I am not quoting one: check Namecheap's page on the day you order.
 
