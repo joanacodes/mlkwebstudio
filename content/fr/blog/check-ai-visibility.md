@@ -29,9 +29,9 @@ faq:
 
 La visibilité IA, c’est la fréquence à laquelle les assistants IA citent votre entreprise quand on les interroge sur ce que vous vendez. Si un client demande à ChatGPT « une entreprise de nettoyage de bureaux sérieuse à Lyon » et que votre société figure dans la réponse, vous êtes visible. Si trois concurrents sont cités à votre place, il y a du travail.
 
-Il n’existe aucun classement à consulter : pour le savoir, le plus direct est de poser vous-même les questions, comme vos clients. Ce tutoriel vous donne une méthode gratuite pour toute petite entreprise : dix requêtes, un tableur et deux heures environ par mois. Viennent ensuite les rapports gratuits de Microsoft et de Google, les outils payants et les corrections à faire quand les résultats déçoivent.
+Il n’existe aucun classement à consulter : pour le savoir, le plus direct est de poser vous-même les questions, comme vos clients. Ce tutoriel vous donne une méthode gratuite : dix requêtes, un tableur et deux heures environ par mois. Viennent ensuite les rapports gratuits de Microsoft et de Google, les outils payants et les corrections à faire quand les résultats déçoivent.
 
-Il fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}, qui explique comment les assistants choisissent les entreprises qu’ils citent. Pour le test lui-même, un navigateur et un tableur suffisent.
+Il fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}, qui explique comment les assistants choisissent les entreprises qu’ils citent.
 
 ## Ce que recouvre la visibilité IA pour une petite entreprise
 
@@ -100,9 +100,9 @@ Votre propre compte fausserait le test : un assistant qui se souvient de vos co
 
 ### ChatGPT
 
-Ouvrez chatgpt.com dans une fenêtre de navigation privée, sans vous connecter. La recherche de ChatGPT est ouverte aux utilisateurs non connectés depuis février 2025 : une discussion sans compte peut donc chercher sur le web, comme pour un nouveau visiteur.
+Ouvrez chatgpt.com dans une fenêtre de navigation privée, sans vous connecter. La recherche de ChatGPT est ouverte aux utilisateurs non connectés depuis février 2025 : une discussion sans compte peut donc chercher sur le web.
 
-Une réponse sans source vient très probablement de l’entraînement du modèle, pas d’une recherche. Notez « aucune » dans la colonne Sources : de nouvelles pages et mentions peuvent faire évoluer assez vite une réponse issue d’une recherche, alors que les données d’entraînement ne changent qu’avec un nouveau modèle.
+Une réponse sans source vient très probablement de l’entraînement du modèle, pas d’une recherche. Notez « aucune » dans la colonne Sources : une réponse issue d’une recherche peut évoluer vite avec de nouvelles pages, alors que les données d’entraînement ne changent qu’avec un nouveau modèle.
 
 {{< callout type="warning" >}}**Une discussion temporaire n’est pas forcément neutre.** Si vous préférez garder votre compte ouvert, le centre d’aide d’OpenAI précise qu’une discussion temporaire (Temporary Chat) peut encore utiliser vos souvenirs et vos instructions personnalisées, sauf si vous désactivez la personnalisation avant de commencer la conversation. Une fenêtre privée sans compte est plus simple.{{< /callout >}}
 
@@ -110,7 +110,7 @@ Une réponse sans source vient très probablement de l’entraînement du modèl
 
 ### Gemini
 
-Dans Gemini, si vous l’utilisez avec un compte Google, ouvrez une discussion temporaire. Google indique que ces discussions ne servent ni à personnaliser Gemini ni à entraîner ses modèles, et qu’elles sont conservées 72 heures au maximum. La mémoire des conversations passées de Gemini est activée par défaut : raison de plus pour ne pas tester dans une discussion ordinaire.
+Dans Gemini, si vous l’utilisez avec un compte Google, ouvrez une discussion temporaire. Google indique que ces discussions ne servent ni à personnaliser Gemini ni à entraîner ses modèles. La mémoire des conversations passées de Gemini est activée par défaut : raison de plus pour ne pas tester dans une discussion ordinaire.
 
 ### Perplexity
 
@@ -120,7 +120,7 @@ Perplexity fonctionne sans compte : une fenêtre privée suffit. Il numérote s
 
 ### Aperçus IA et Mode IA de Google
 
-Tapez chaque requête dans Google, en navigation privée. Les Aperçus IA s’affichent au-dessus des résultats pour certaines recherches, pas toutes : quand il n’y en a pas, notez « pas d’aperçu » dans la colonne Ce qui est dit et Non dans la colonne Cité. Posez ensuite la même requête dans le Mode IA. Les deux sont arrivés en France le 22 juillet 2026, après un retard lié aux droits voisins de la presse : si vous ne les avez jamais regardés pour votre métier, c’est le moment. Les réponses IA de Google s’appuient sur la recherche Google : ce sont celles que votre travail de référencement classique influence le plus directement.
+Tapez chaque requête dans Google, en navigation privée. Les Aperçus IA s’affichent au-dessus des résultats pour certaines recherches, pas toutes : quand il n’y en a pas, notez « pas d’aperçu » dans la colonne Ce qui est dit et Non dans la colonne Cité. Posez ensuite la même requête dans le Mode IA. Les deux sont arrivés en France le 22 juillet 2026, après un retard lié aux droits voisins de la presse. Les réponses IA de Google s’appuient sur la recherche Google : ce sont celles que votre travail de référencement classique influence le plus directement.
 
 {{< screenshot id="check-ai-visibility-04" alt="Mode IA de Google qui répond à une requête de service local, avec les entreprises et les liens cités" >}}
 
@@ -138,7 +138,7 @@ Remplissez chaque ligne dès que la réponse s’affiche : à la cinquième ré
 
 Surveillez de près la colonne Exact pour ChatGPT : d’expérience, il invente un peu trop souvent, et c’est l’une des raisons pour lesquelles j’utilise Claude pour mon travail. Quand la même erreur revient, comme un ancien numéro ou un service que vous avez arrêté, elle vient en général d’une source, et une source se corrige.
 
-Posez ensuite une deuxième fois vos cinq requêtes les plus importantes, dans une nouvelle discussion et sur une nouvelle ligne. Les réponses varient d’un essai à l’autre, et un deuxième essai montre si une mention est stable ou due au hasard.
+Posez ensuite une deuxième fois vos cinq requêtes les plus importantes, dans une nouvelle discussion et sur une nouvelle ligne. Un deuxième essai montre si une mention est stable ou due au hasard.
 
 ## Étape 5 : calculer votre taux de citation chaque mois
 
@@ -156,7 +156,7 @@ Gardez un onglet de synthèse avec une ligne par mois : le taux de citation de 
 
 ## Les rapports gratuits de Microsoft et de Google
 
-Microsoft et Google publient désormais quelques données IA gratuites sur votre site. Elles portent sur leurs propres outils et disent peu de chose de ChatGPT, de l’application Gemini ou de Perplexity, mais elles complètent votre test manuel par de vrais chiffres :
+Microsoft et Google publient désormais quelques données IA gratuites sur votre site. Elles portent sur leurs propres outils et disent peu de chose de ChatGPT, de l’application Gemini ou de Perplexity, mais complètent votre test par de vrais chiffres :
 
 | Outil | Ce qu’il montre | Limites |
 |---|---|---|
@@ -164,27 +164,27 @@ Microsoft et Google publient désormais quelques données IA gratuites sur votre
 | Microsoft Clarity, rapport Citations | Combien de fois les réponses IA citent votre site, surtout dans Copilot, sur 7, 28 ou 90 jours | Limité à l’écosystème Microsoft |
 | Google Search Console, rapport IA générative | Combien de fois les Aperçus IA et le Mode IA affichent vos pages | Impressions seulement : ni clics ni requêtes |
 
-Les requêtes d’ancrage (grounding queries) sont les recherches qu’un assistant lance avant de répondre. Elles montrent quels mots ont mené Copilot vers vos pages, et elles font de bonnes requêtes pour votre propre test. Le rapport Citations de Clarity est gratuit pour tous ses utilisateurs ([annonce de Microsoft, en anglais](https://clarity.microsoft.com/blog/citations-now-generally-available/)).
+Les requêtes d’ancrage (grounding queries) sont les recherches qu’un assistant lance avant de répondre : elles montrent quels mots ont mené Copilot vers vos pages et font de bonnes requêtes de test. Le rapport Citations de Clarity est gratuit pour tous ses utilisateurs ([annonce de Microsoft, en anglais](https://clarity.microsoft.com/blog/citations-now-generally-available/)).
 
 {{< screenshot id="check-ai-visibility-06" alt="Rapport Citations de Microsoft Clarity avec le nombre de citations IA et les requêtes d’ancrage" >}}
 
 ## Les outils payants : Semrush et Squarespace
 
-Les outils payants posent vos requêtes à intervalles réguliers et suivent la fréquence à laquelle votre entreprise est citée. Ils font gagner du temps et gèrent plus de requêtes qu’à la main. Faites tout de même le test manuel pendant trois mois avant d’en payer un : une petite équipe se laisse facilement séduire par chaque nouvel outil, et les canaux qui vous amènent déjà des clients passent avant.
+Les outils payants posent vos requêtes à intervalles réguliers et suivent la fréquence à laquelle votre entreprise est citée, sur plus de requêtes qu’à la main. Faites tout de même le test manuel pendant trois mois avant d’en payer un : une petite équipe se laisse facilement séduire par chaque nouvel outil, et les canaux qui vous amènent déjà des clients passent avant.
 
 ### AI Visibility Toolkit de Semrush
 
-Semrush, propriété d’Adobe depuis avril 2026, vend un AI Visibility Toolkit seul ou inclus dans Semrush One, son offre groupée avec le SEO Toolkit. D’après sa base de connaissances, ce toolkit coûte 99 $ (environ 88 €) par mois pour un domaine, avec 25 requêtes dans Prompt Tracking, 50 requêtes supplémentaires pour 60 $ (environ 53 €) par mois et pas d’essai gratuit. L’aide de Semrush cite ChatGPT et le Mode IA de Google pour le suivi des requêtes, mais je n’ai pu confirmer ni Gemini ni Perplexity : si ces deux-là comptent pour vous, vérifiez la liste avant de payer.
+Semrush, propriété d’Adobe depuis avril 2026, vend un AI Visibility Toolkit seul ou inclus dans Semrush One, son offre groupée avec le SEO Toolkit. D’après sa base de connaissances, ce toolkit coûte 99 $ (environ 88 €) par mois pour un domaine, avec 25 requêtes dans Prompt Tracking, 50 requêtes supplémentaires pour 60 $ (environ 53 €) par mois et pas d’essai gratuit. L’aide de Semrush cite ChatGPT et le Mode IA de Google pour le suivi des requêtes ; pour Gemini et Perplexity, vérifiez avant de payer.
 
-Ces prix, tirés de la documentation de Semrush, sont ceux d’octobre 2026, date de rédaction. Semrush publie ses tarifs uniquement en dollars américains : les montants en euros sont mes conversions au cours de début octobre 2026, pas des prix officiels. Vérifiez l’offre en cours, le montant réellement facturé et s’il s’agit du tarif mensuel ou annuel sur la [page de tarifs de Semrush](https://www.semrush.com/prices/). Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} couvre le reste de l’outil.
+Ces prix, tirés de la documentation de Semrush, sont ceux d’octobre 2026, date de rédaction. Semrush les publie uniquement en dollars : les montants en euros sont mes conversions approximatives. Vérifiez l’offre en cours, le montant facturé et s’il s’agit du tarif mensuel ou annuel sur la [page de tarifs de Semrush](https://www.semrush.com/prices/). Mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} couvre le reste de l’outil.
 
 {{< screenshot id="check-ai-visibility-07" alt="Rapport de suivi des requêtes de l’AI Visibility Toolkit de Semrush listant les requêtes et indiquant si la marque est citée" >}}
 
 ### AI Visibility de Squarespace
 
-Squarespace a lancé en juillet 2026 un outil AI Visibility, placé dans la section SEO & AIO du tableau de bord, à côté du rapport SEO. Il rédige jusqu’à 12 exemples de requêtes à partir du contenu et du secteur de votre site ; vous pouvez les modifier ou en ajouter. Il montre ensuite quand votre site apparaît dans les réponses, pour quelles requêtes, et qui apparaît à votre place.
+Squarespace a lancé en juillet 2026 un outil AI Visibility, placé dans la section SEO & AIO du tableau de bord, à côté du rapport SEO. Il rédige jusqu’à 12 exemples de requêtes à partir de votre site, modifiables, puis montre quand votre site apparaît dans les réponses, pour quelles requêtes, et qui apparaît à votre place.
 
-Il ne couvre pour l’instant que ChatGPT et Gemini, et seulement sur les sites en anglais en version 7.1 ([annonce de Squarespace, en anglais](https://www.squarespace.com/blog/ai-visibility)). Pour un site en français, il ne vous servira donc à rien pour le moment, et c’est dommage : la plupart des sites que je crée pour des clients qui modifient eux-mêmes leurs pages tournent sous Squarespace. Squarespace indique qu’il est inclus dans l’abonnement, sans supplément, mais que son usage est plafonné par les crédits IA de votre formule, dont le nombre varie d’une formule à l’autre.
+Il ne couvre pour l’instant que ChatGPT et Gemini, et seulement sur les sites en anglais en version 7.1 ([annonce de Squarespace, en anglais](https://www.squarespace.com/blog/ai-visibility)). Pour un site en français, il ne vous servira donc à rien pour le moment, et c’est dommage : la plupart des sites que je crée pour des clients qui modifient eux-mêmes leurs pages tournent sous Squarespace. Il est inclus dans l’abonnement, dans la limite de crédits IA qui varient selon la formule.
 
 ## Que faire de vos résultats
 

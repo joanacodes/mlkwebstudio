@@ -31,7 +31,7 @@ AI visibility is how often AI assistants name your business when someone asks th
 
 There is no ranking to look up, so the most direct way to find out is to ask the assistants yourself, the way your customers do. This tutorial gives you a free method for any small business: ten prompts, a spreadsheet and a couple of hours each month. Then come the free reports from Microsoft and Google, the paid trackers, and what to change when the results disappoint.
 
-It belongs to my {{< a key="ai-search-geo-guide" >}}guide to generative engine optimisation{{< /a >}}, which explains how assistants choose the businesses they mention. For the test itself, a browser and a spreadsheet are enough.
+It belongs to my {{< a key="ai-search-geo-guide" >}}guide to generative engine optimisation{{< /a >}}, which explains how assistants choose the businesses they mention.
 
 ## What AI visibility means for a small business
 
@@ -100,7 +100,7 @@ Your own account would skew the test: an assistant that remembers your chats, or
 
 ### ChatGPT
 
-Open chatgpt.com in a private window and do not sign in. ChatGPT search has been open to logged-out users since February 2025, so a logged-out chat can still search the web, as it would for a new visitor.
+Open chatgpt.com in a private window and do not sign in. ChatGPT search has been open to logged-out users since February 2025, so a logged-out chat can still search the web.
 
 An answer without sources most likely comes from what the model learned in training, not from a search. Write "none" in the Sources column: new pages and mentions can change a search answer fairly quickly, while training data only changes with a new model.
 
@@ -138,7 +138,7 @@ Fill in each row as soon as the answer appears: by the fifth answer about office
 
 Watch the Accurate column closely for ChatGPT: in my experience it makes things up a bit too often, which is one reason I use Claude for my own work. When the same wrong detail keeps coming back, such as an old phone number or a service you dropped, it can usually be traced to a source, and a source can be corrected.
 
-Then ask your five most important prompts a second time, in a new chat and on a new row. Answers vary from one run to the next, and a second run shows whether a mention is stable or a fluke.
+Then ask your five most important prompts a second time, in a new chat and on a new row. A second run shows whether a mention is stable or a fluke.
 
 ## Step 5: work out your mention rate each month
 

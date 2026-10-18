@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:05:00+02:00
 category: "seo"
 article_type: "tutorial"
 keywords: ["SEO on-page", "checklist SEO on-page", "optimisation on-page", "balise title et meta description", "balise alt", "maillage interne"]
-summary: "Le SEO on-page, c’est le travail fait sur chaque page : un mot-clé principal, une URL courte, un seul H1 et des sous-titres qui répondent à de vraies questions, un texte qui répond à la recherche, des images décrites et des liens internes, puis une balise title et une meta description qui donnent envie de cliquer. Ajoutez des données structurées là où elles ont leur place, et vérifiez que la page s’affiche bien sur mobile, se charge vite et peut être indexée par Google."
+summary: "Le SEO on-page, c’est le travail mené sur chaque page : un mot-clé principal, une URL courte, un seul H1 et des sous-titres qui répondent à de vraies questions, un texte qui répond à la recherche, des images décrites et des liens internes, puis une balise title et une meta description qui donnent envie de cliquer. Ajoutez des données structurées là où elles ont leur place, et vérifiez que la page s’affiche bien sur mobile, se charge vite et peut être indexée par Google."
 cover: "on-page-seo-checklist"
 cover_alt: "Plan d’architecte d’une page web, avec sa balise title et son titre H1 repérés"
 related: ["keyword-research-small-business", "squarespace-seo", "schema-markup-small-business", "core-web-vitals-speed", "google-search-console-tutorial"]
@@ -27,15 +27,15 @@ faq:
     a: "Vérifiez chaque nouvelle page avant sa mise en ligne. Revoyez ensuite vos pages principales dès que votre offre, vos prix ou votre zone d’intervention changent, et au moins une fois par an."
 ---
 
-Le SEO on-page regroupe tout ce que vous maîtrisez sur la page elle-même : son adresse, ses titres, son texte, ses images, ses liens internes, ainsi que le titre et la description que lisent les moteurs de recherche. Cette checklist en tire douze points à vérifier sur chaque page d’un site vitrine de TPE ou de PME, avec ce qu’on attend et où le régler.
+Le SEO on-page regroupe tout ce que vous maîtrisez sur la page elle-même : son adresse, ses titres, son texte, ses images, ses liens internes, ainsi que le titre et la description que lisent les moteurs de recherche. Voici les douze points à vérifier sur chaque page d’un site vitrine de TPE ou de PME, avec ce qu’on attend et où les régler.
 
-L’ordre suit ma façon de travailler pour mes clients : la recherche de mots-clés avant la première ligne de texte, le titre et la description en dernier, une fois la page validée, car ils doivent décrire la version finale.
+L’ordre suit ma façon de travailler pour mes clients : la recherche de mots-clés avant la première ligne de texte, le titre et la description en dernier, une fois la page validée.
 
-Presque tout se fait sans développeur. Le site Squarespace que j’ai créé pour Pilotech, installateur de climatisation en Île-de-France, est 1er ou 2e sur Google, alors que Squarespace ne donne aucun accès à son code : avec les bons mots-clés et des métadonnées soignées, une plateforme fermée ne l’a pas freiné. Il vous faut votre outil de création de site et Google Search Console.
+Presque tout se fait sans développeur. Le site Squarespace que j’ai créé pour Pilotech, installateur de climatisation en Île-de-France, se classe premier ou deuxième sur Google, alors que Squarespace ne donne aucun accès à son code source : avec les bons mots-clés et des métadonnées soignées, une plateforme fermée ne l’a pas freiné.
 
 ## Ce que couvre le SEO on-page, et ce qu’il laisse de côté
 
-Le SEO on-page est l’une des trois familles du référencement naturel. Cette checklist le couvre, plus deux vérifications techniques à faire page par page.
+Le SEO on-page est l’une des trois familles du référencement naturel. Cette checklist le couvre, ainsi que deux vérifications techniques à faire page par page.
 
 | Famille | Ce qu’elle couvre | Exemples |
 |---|---|---|
@@ -51,7 +51,7 @@ Le mot-clé principal est la recherche sur laquelle une page doit se positionner
 
 Reprenons le chauffagiste lyonnais de ma {{< a key="keyword-research-small-business" >}}méthode de recherche de mots-clés{{< /a >}} : sa page de dépannage vise « dépannage chaudière Lyon » et répond aussi à des variantes comme « chaudière en panne ». Une recherche par page, une page par recherche : deux pages qui visent le même mot-clé se font concurrence et s’en sortent souvent moins bien toutes les deux. C’est la cannibalisation.
 
-Pour une page en ligne, la Search Console montre ce que Google en a compris. Ouvrez **Performances** > **Résultats de recherche**, cliquez sur la page dans l’onglet **Pages**, puis ouvrez **Requêtes**. Si les recherches listées ne sont pas celles que vous visiez, la page ne dit pas ce que vous croyez. Pour repérer une cannibalisation, faites l’inverse : cliquez sur une requête, puis ouvrez **Pages**. Deux de vos pages pour la même recherche se font concurrence.
+Pour une page en ligne, la Search Console montre ce que Google en a compris. Ouvrez **Performances** > **Résultats de recherche**, cliquez sur la page dans l’onglet **Pages**, puis ouvrez **Requêtes**. Si les recherches listées ne sont pas celles que vous visiez, la page ne dit pas ce que vous croyez. Pour repérer une cannibalisation, revenez au rapport complet, cliquez sur une requête, puis ouvrez **Pages**. Si deux de vos pages se partagent ses impressions sans bien se classer, fusionnez-les (avec une redirection 301) ou donnez une autre cible à l’une d’elles.
 
 {{< screenshot id="on-page-seo-checklist-01" alt="Rapport Performances de la Search Console filtré sur une page, avec l’onglet Requêtes qui liste les recherches où elle apparaît" >}}
 
@@ -65,7 +65,7 @@ Faible :   votreentreprise.fr/page-12?id=4471
 Faible :   votreentreprise.fr/nos-services-de-depannage-de-chaudiere-a-lyon
 ```
 
-Google recommande des mots lisibles plutôt que de longs numéros, et des tirets plutôt que des traits de soulignement. Évitez aussi les accents : un « é » devient souvent %C3%A9 quand l’adresse est copiée. Laissez les dates hors des pages qui doivent durer. Une fois la page positionnée, ne changez son slug qu’avec une redirection 301 vers la nouvelle adresse ; sinon, les liens et les positions qu’elle a gagnés mènent à une page d’erreur.
+Google recommande des mots lisibles plutôt que de longs numéros, et des tirets plutôt que des traits de soulignement. Évitez aussi les accents : un « é » devient souvent %C3%A9 quand l’adresse est copiée. Laissez les dates hors des pages qui doivent durer. Une fois la page positionnée, ne changez son slug qu’avec une redirection 301 vers la nouvelle adresse ; sinon, les anciens liens mènent à une page d’erreur et les positions acquises sont perdues.
 
 ## Points 3 et 4 : un seul H1, puis des sous-titres qui répondent aux questions
 
@@ -91,7 +91,7 @@ Méfiez-vous de votre thème : certains font du nom de l’entreprise ou du slo
 Quelqu’un qui tape « dépannage chaudière Lyon » attend trois réponses, vite : pouvez-vous réparer ma chaudière, quand, et à peu près à quel prix. Donnez-les dès les premières lignes, où le mot-clé trouvera sa place tout seul, puis étayez-les :
 
 - **Reprenez les mots de vos clients**, tirés des demandes, des appels et des avis. J’utilise aussi la recherche approfondie (deep research) pour repérer ce dont les gens d’un secteur se plaignent le plus et les expressions qui reviennent, et je construis le texte dessus.
-- **Soyez précis** : marques, communes, délais, prix ou fourchettes de prix, déroulement d’une intervention. Ces détails rendent votre page plus utile que les autres résultats.
+- **Soyez précis** : marques, communes, délais, prix ou fourchettes de prix, déroulement d’une intervention.
 - **Apportez des preuves** : avis, photos de vrais chantiers, études de cas, qualifications.
 
 J’assemble le tout avec l’IA, puis je reprends chaque ligne jusqu’à ce qu’elle me convienne. Une fois la page en ligne, Microsoft Clarity me montre où les visiteurs s’attardent et où ils partent : je sais alors s’il faut retravailler le texte, une image ou la mise en page.
@@ -101,7 +101,7 @@ J’assemble le tout avec l’IA, puis je reprends chaque ligne jusqu’à ce qu
 Chaque image a besoin de trois choses :
 
 1. **Un nom de fichier descriptif** : `depannage-chaudiere-murale-gaz.jpg` plutôt que `IMG_4032.jpg`. Selon Google, le nom de fichier ne donne que de légers indices : ne les gaspillez pas.
-2. **Un texte alternatif**, l’attribut alt que beaucoup appellent « balise alt » : une phrase courte qui dit ce que montre l’image, pour les personnes qui ne la voient pas. Google en fait l’attribut le plus important pour décrire une image, qu’il lit avec la vision par ordinateur et le texte de la page ([consignes de Google sur le référencement des images](https://developers.google.com/search/docs/appearance/google-images?hl=fr)). N’y mettez le mot-clé que s’il décrit l’image, et laissez-le vide sur les images purement décoratives.
+2. **Un texte alternatif**, l’attribut alt que beaucoup appellent « balise alt » : une phrase courte qui dit ce que montre l’image, pour les personnes qui ne la voient pas. Google en fait l’attribut le plus important pour décrire une image, qu’il combine à la vision par ordinateur et au texte de la page ([consignes de Google sur le référencement des images](https://developers.google.com/search/docs/appearance/google-images?hl=fr)). N’y mettez le mot-clé que s’il décrit l’image, et laissez-le vide sur les images purement décoratives.
 3. **Un fichier léger** : redimensionnez les photos à la largeur où elles s’affichent, et compressez-les. Les photos tout droit sorties d’un téléphone ralentissent souvent les pages.
 
 ```html
@@ -111,7 +111,7 @@ Chaque image a besoin de trois choses :
 
 ## Point 7 : relier la page au reste du site
 
-Les liens internes relient les pages de votre site entre elles et forment le maillage interne. Ils aident les visiteurs et Google à trouver vos pages, et leurs mots cliquables, l’ancre, disent aux deux de quoi parle la page de destination.
+Les liens internes relient les pages de votre site entre elles et forment le maillage interne. Ils aident les visiteurs et Google à trouver vos pages, et leur texte cliquable, l’ancre, indique à chacun de quoi parle la page de destination.
 
 - Rendez chaque page accessible depuis le menu ou une autre page : une page vers laquelle rien ne pointe risque d’être trouvée tard, voire jamais.
 - Placez des liens sur les pages les plus visitées, comme l’accueil, vers les pages qui vendent.
@@ -122,7 +122,7 @@ Le {{< a page="/projects/pilotech-vmi" >}}site de ventilation que j’ai créé 
 
 ## Point 8 : écrire la balise title en dernier, et donner envie de cliquer
 
-La balise title est le nom de la page dans son code. Le navigateur l’affiche sur l’onglet, et Google en fait le plus souvent le titre bleu cliquable de votre résultat, appelé lien de titre : c’est elle qui décide du clic. Je l’écris en dernier, car un titre rédigé avant la version finale du texte décrit souvent une page qui n’existe plus.
+La balise title est le nom de la page dans son code. Le navigateur l’affiche sur l’onglet, et Google en fait le plus souvent le titre bleu cliquable de votre résultat, appelé lien de titre : c’est souvent elle qui décide du clic. Je l’écris en dernier, car un titre rédigé avant la version finale du texte décrit souvent une page qui n’existe plus.
 
 Pour la plupart des pages, la formule est simple : le mot-clé, une raison de vous choisir, puis le nom de l’entreprise.
 
@@ -146,13 +146,13 @@ La meta description résume la page en une phrase ou deux, dans son code. Google
 <meta name="description" content="Dépannage de chaudières gaz à Lyon et Villeurbanne, souvent le jour même. Toutes marques, prix fixé avant toute intervention. Appelez ou réservez en ligne.">
 ```
 
-Google dit depuis longtemps que la description ne compte pas dans le classement : elle sert à gagner le clic. Il ne fixe pas non plus de limite de longueur, mais coupe l’extrait pour qu’il tienne à l’écran ; 150 à 160 caractères, l’essentiel en premier, est une longueur sûre. Il rédige aussi souvent son propre extrait à partir du texte de la page, quand celui-ci correspond mieux à la recherche ([guide de Google sur les extraits](https://developers.google.com/search/docs/appearance/snippet?hl=fr)).
+Google dit depuis longtemps que la description ne compte pas dans le classement : elle sert à gagner le clic. Il ne fixe pas non plus de limite de longueur, mais coupe l’extrait pour qu’il tienne à l’écran : visez 150 à 160 caractères, l’essentiel en premier. Il rédige aussi souvent son propre extrait à partir du texte de la page, quand celui-ci correspond mieux à la recherche ([guide de Google sur les extraits](https://developers.google.com/search/docs/appearance/snippet?hl=fr)).
 
-Donnez à chaque page sa description, puis laissez la Search Console vous montrer lesquelles réécrire en premier : une page avec beaucoup d’impressions et peu de clics est vue, puis ignorée. Un titre et une description plus percutants sont souvent la correction la plus rapide.
+Donnez à chaque page sa description, puis laissez la Search Console vous montrer lesquelles réécrire en premier : dans **Performances**, cliquez sur **CTR moyen** et triez l’onglet **Pages** par impressions. Une page avec beaucoup d’impressions et peu de clics est vue, puis ignorée : un titre et une description plus percutants sont souvent la correction la plus rapide.
 
 ## Point 10 : des données structurées là où elles ont leur place
 
-Les données structurées, ou balisage schema, sont un code qui décrit la page aux moteurs de recherche dans un vocabulaire commun, schema.org. Google recommande le format JSON-LD, un bloc de code que les visiteurs ne voient jamais. Elles peuvent rendre une page éligible aux résultats enrichis, comme les étoiles d’avis, les prix ou le fil d’Ariane, sans que Google en garantisse aucun. Pour une petite entreprise, quatre types suffisent souvent :
+Les données structurées, ou balisage schema, sont un code qui décrit la page aux moteurs de recherche dans un vocabulaire commun, schema.org. Google recommande le format JSON-LD, un bloc de code que les visiteurs ne voient jamais. Elles peuvent rendre une page éligible aux résultats enrichis, comme le prix et la note d’un produit, ou le fil d’Ariane, sans que Google en garantisse aucun. Pour une petite entreprise, quatre types suffisent souvent :
 
 - `LocalBusiness` (ou `Organization`) sur la page d’accueil ou de contact : nom, adresse, téléphone, horaires.
 - `Product` sur les fiches produits, avec le prix et la disponibilité.
@@ -167,11 +167,11 @@ Pour des résultats enrichis, oubliez les balisages FAQ et HowTo : les résulta
 
 ## Points 11 et 12 : mobile, vitesse et indexation
 
-**Point 11 : la page fonctionne sur mobile et se charge vite.** Google indexe et classe surtout la version mobile des pages : ouvrez donc la vôtre sur un téléphone. Le texte doit se lire sans zoomer, les boutons se toucher sans peine, le numéro lancer l’appel d’un appui, et rien ne doit masquer le contenu. Testez-la ensuite dans PageSpeed Insights, sur `pagespeed.web.dev`. Une page réussit les Core Web Vitals quand son contenu principal s’affiche en 2,5 secondes au plus (LCP), qu’elle réagit à un appui ou à un clic en 200 millisecondes au plus (INP) et que sa mise en page bouge à peine (CLS de 0,1 au plus). Mon guide sur la {{< a key="core-web-vitals-speed" >}}vitesse de chargement d’un site internet{{< /a >}} explique comment corriger chacun.
+**Point 11 : la page fonctionne sur mobile et se charge vite.** Google indexe et classe surtout la version mobile des pages : ouvrez donc la vôtre sur un téléphone. Le texte doit se lire sans zoomer, les boutons se toucher sans peine, le numéro lancer l’appel d’un appui, et rien ne doit masquer le contenu. Testez-la ensuite dans PageSpeed Insights, sur `pagespeed.web.dev`. Une page réussit les Core Web Vitals quand son contenu principal s’affiche en 2,5 secondes au plus (LCP), qu’elle réagit à un appui ou à un clic en 200 millisecondes au plus (INP) et que sa mise en page bouge à peine (CLS de 0,1 au plus). Sur un petit site, la partie haute du rapport, tirée des vraies visites, reste souvent vide : fiez-vous alors au test en laboratoire juste en dessous. Mon guide sur la {{< a key="core-web-vitals-speed" >}}vitesse de chargement d’un site internet{{< /a >}} explique comment corriger chacun.
 
 {{< screenshot id="on-page-seo-checklist-05" alt="Rapport mobile de PageSpeed Insights pour une page, avec l’évaluation des Core Web Vitals en haut" >}}
 
-**Point 12 : Google peut indexer la page.** Une page non indexée ne sera jamais classée, aussi bon soit son titre. Vérifiez qu’elle n’a pas de balise `noindex`, que robots.txt ne la bloque pas, que sa balise canonical (qui désigne la version principale) pointe vers sa propre adresse, et qu’elle figure dans votre sitemap et reçoit un lien d’une autre page. Collez ensuite son adresse dans l’**Inspection de l’URL** de la Search Console : vous voulez lire **L’URL est sur Google**. Après une grosse modification, cliquez sur **Demander une indexation** pour que Google la relise plus tôt. Mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}} détaille chaque écran.
+**Point 12 : Google peut indexer la page.** Vérifiez qu’elle n’a pas de balise `noindex`, que robots.txt ne la bloque pas, que sa balise canonical (qui désigne la version principale) pointe vers sa propre adresse, et qu’elle figure dans votre sitemap et reçoit un lien d’une autre page. Collez ensuite son adresse dans l’**Inspection de l’URL** de la Search Console : vous voulez lire **L’URL est sur Google**. Après une grosse modification, cliquez sur **Demander une indexation** pour que Google la relise plus tôt. Mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}} détaille chaque écran.
 
 {{< screenshot id="on-page-seo-checklist-06" alt="Résultat de l’inspection d’une URL dans la Search Console avec le verdict L’URL est sur Google et le détail de l’indexation, dont l’URL canonique" >}}
 
@@ -179,9 +179,9 @@ Pour des résultats enrichis, oubliez les balisages FAQ et HowTo : les résulta
 
 Certains conseils circulent encore, coûtent du temps et ne changent rien. Rayez :
 
-- **La balise meta keywords.** Google ne s’en sert pas : son [guide de démarrage SEO](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr) la cite parmi les choses sur lesquelles ne pas se concentrer.
-- **Le nombre de mots et la densité de mots-clés.** La même liste cite la longueur du contenu, et répéter un mot-clé pour atteindre un pourcentage relève du bourrage de mots-clés, contraire aux règles de Google sur le spam.
-- **Les fichiers et balisages spéciaux pour la recherche IA.** Le guide de Google sur ses fonctionnalités d’IA, publié en mai 2026, indique qu’optimiser pour les Aperçus IA et le Mode IA relève toujours du SEO : fichiers llms.txt, contenus découpés en morceaux et schema spécial ne sont pas nécessaires pour la recherche Google.
+- **La balise meta keywords.** Google ne s’en sert pas, comme le rappelle son [guide de démarrage SEO](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?hl=fr).
+- **Le nombre de mots et la densité de mots-clés.** Le même guide précise que la longueur seule ne compte pas, et répéter un mot-clé pour atteindre un pourcentage tourne vite au bourrage de mots-clés, contraire aux règles de Google sur le spam.
+- **Les fichiers et balisages spéciaux pour la recherche IA.** Selon le guide de Google sur ses fonctionnalités d’IA (mai 2026), optimiser pour les Aperçus IA et le Mode IA reste du SEO : fichiers llms.txt, contenus découpés en morceaux et schema spécial ne sont pas nécessaires pour la recherche Google.
 - **Un score PageSpeed parfait.** Le score de performances sur 100 de PageSpeed Insights vient d’une visite simulée. Visez plutôt des Core Web Vitals réussis, possibles avec un score bien inférieur à 100.
 
 ## Votre checklist SEO on-page à copier, et quand passer la main

@@ -43,7 +43,7 @@ There is a less commercial reason as well. I want every client to feel proud of 
 
 ## What visitors judge in the first 50 milliseconds
 
-In a study published in 2006, Gitte Lindgaard and her colleagues showed people web pages for 50 milliseconds and asked them to rate their visual appeal. Those ratings largely matched the ones the same pages received when shown for 500 milliseconds ([*Behaviour & Information Technology*](https://doi.org/10.1080/01449290500330448)). The first impression of a site forms before anyone reads a word, and it can colour how visitors judge the rest, credibility included.
+In a study published in 2006, Gitte Lindgaard and colleagues showed people web pages for 50 milliseconds and asked them to rate their visual appeal. Those ratings largely matched the ones the same pages received when shown for 500 milliseconds ([*Behaviour & Information Technology*](https://doi.org/10.1080/01449290500330448)). The first impression of a site forms before anyone reads a word, and it can colour how visitors judge the rest, credibility included.
 
 In 50 milliseconds nobody reads your headline. What registers is the whole: the main photo, how crowded the page is, the colours, whether it looks ordered. That is why **the first screen**, the part visible before any scrolling, matters more than any other part of the site.
 
