@@ -6,7 +6,7 @@ key: "case-studies"
 short: "Études de cas"
 icon: "briefcase"
 weight: 11
-description: "Des projets réels et ce qu’ils ont appris : un installateur CVC premier sur Google, des architectes qui appellent au lieu de répondre, un site trop large qui a échoué."
+description: "Des projets réels et leurs leçons : un installateur CVC premier sur Google, des architectes qui appellent au lieu de répondre, un site trop large qui a échoué."
 lead: "Ce qui a été fait, dans quel ordre, ce qui a marché et ce qui n’a pas marché, sur de vrais projets clients."
 ---
 

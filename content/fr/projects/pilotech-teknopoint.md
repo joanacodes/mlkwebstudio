@@ -2,7 +2,7 @@
 title: "Pilotech Teknopoint"
 translationKey: "projects/pilotech-teknopoint"
 seo_title: "Pilotech Teknopoint : site, SEO et cold email"
-description: "Pilotech Teknopoint : une page par gamme de climatisation sans unité extérieure, un site 1er ou 2e sur Google et du cold email vers les professionnels et les architectes."
+description: "Pilotech Teknopoint : une page par gamme de climatisation sans unité extérieure, un site 1er ou 2e sur Google, du cold email aux entreprises et aux architectes."
 weight: 1
 client: "Pilotech"
 sector: "Climatisation invisible, Paris et Île-de-France"

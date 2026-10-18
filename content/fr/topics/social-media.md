@@ -6,7 +6,7 @@ key: "social-media"
 short: "Réseaux sociaux"
 icon: "share"
 weight: 9
-description: "Les changements des réseaux sociaux qui comptent pour une petite entreprise, datés et expliqués : Pinterest, YouTube Shorts, Instagram, TikTok, LinkedIn, Threads, Bluesky."
+description: "Les nouveautés des réseaux sociaux qui comptent pour une TPE, datées et expliquées : Pinterest, YouTube Shorts, Instagram, TikTok, LinkedIn, Threads, Bluesky."
 lead: "Ce qui a changé sur les plateformes, ce que cela signifie pour une petite entreprise, et où passer votre temps quand vous publiez en solo."
 ---
 
