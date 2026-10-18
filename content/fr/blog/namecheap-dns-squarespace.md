@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:50:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["configurer DNS Namecheap", "relier domaine Namecheap Squarespace", "Advanced DNS Namecheap", "redirection URL Namecheap", "serveurs DNS Namecheap"]
-summary: "Pour configurer les DNS Namecheap et relier le domaine à Squarespace, lancez la connexion dans Squarespace en choisissant les enregistrements DNS plutôt que les serveurs de noms, puis ouvrez Domain List > Manage > Advanced DNS chez Namecheap. Supprimez la redirection de parking sur @, pointez le CNAME www vers ext-cust.squarespace.com, ajoutez les quatre A et le CNAME de vérification de Squarespace, sans toucher aux MX. Squarespace compte de 24 à 72 heures pour que le domaine apparaisse comme connecté."
+summary: "Pour configurer les DNS Namecheap et relier le domaine à Squarespace, lancez la connexion dans Squarespace en choisissant les enregistrements DNS plutôt que les serveurs de noms, puis ouvrez Domain List > Manage > Advanced DNS chez Namecheap. Supprimez la redirection de parking sur @, pointez le CNAME www vers ext-cust.squarespace.com, ajoutez les quatre A et le CNAME de vérification de Squarespace, sans toucher aux MX. La connexion peut prendre jusqu’à 72 heures."
 cover: "namecheap-dns-squarespace"
 cover_alt: "Enregistrements DNS de Namecheap qui relient un domaine à Squarespace"
 related: ["dns-records-explained", "squarespace-tutorial", "spaceship-vs-namecheap", "ovh-dns-squarespace", "professional-email-address"]
@@ -186,7 +186,7 @@ Si vous possédez deux extensions, par exemple le .fr pour le site et le .com po
 
 {{< screenshot id="namecheap-dns-squarespace-09" alt="Advanced DNS d’un second domaine chez Namecheap : URL Redirect Record sur @ vers https://www.votreentreprise.fr avec le type permanent 301" >}}
 
-La limite, c’est le HTTPS. La redirection de Namecheap n’apporte pas de certificat pour le second domaine, et son aide précise qu’une redirection d’une adresse HTTPS vers une autre demande un certificat sur les deux domaines. Un visiteur qui tape https://votreentreprise.com peut donc tomber sur une alerte de sécurité du navigateur au lieu de votre site. Si cela compte pour vous, reliez plutôt le second domaine au même site Squarespace, avec les étapes ci-dessus et son propre code de vérification : Squarespace redirige tout domaine relié qui n’est pas le principal vers le domaine principal, et son SSL couvre les domaines reliés au site.
+La limite, c’est le HTTPS : la redirection de Namecheap n’apporte pas de certificat pour le second domaine, et son aide précise qu’une redirection de HTTPS vers HTTPS en demande un sur les deux domaines. Un visiteur qui tape https://votreentreprise.com peut tomber sur une alerte de sécurité au lieu de votre site. Pour l’éviter, reliez le second domaine au même site Squarespace avec les étapes ci-dessus (il reçoit son propre code de vérification) : Squarespace redirige tout domaine qui n’est pas le principal vers le domaine principal, et son SSL couvre chaque domaine relié au site.
 
 Si le second domaine reçoit des emails, gardez ses enregistrements MX : la redirection ne concerne que le site.
 
@@ -198,7 +198,7 @@ Squarespace héberge le site, pas votre boîte mail, et les enregistrements de v
 - l’enregistrement TXT sur `@` qui commence par `v=spf1` (SPF) ;
 - l’enregistrement DKIM, sur un hôte qui se termine par `._domainkey`, et l’enregistrement DMARC sur `_dmarc`.
 
-L’aide de Squarespace dit la même chose : quand le domaine et la messagerie sont chez le même fournisseur, vous ne modifiez que les enregistrements A et CNAME, jamais les serveurs de noms ni les MX. Chez Namecheap, les MX ne figurent pas dans Host Records mais dans la section **Mail Settings**, plus bas dans l’onglet Advanced DNS : qu’elle indique Private Email ou Custom MX, n’y touchez pas. Avec Private Email, Namecheap gère lui-même les MX, et il se peut que vous ne les voyiez pas du tout.
+Chez Namecheap, les MX ne figurent pas dans Host Records mais dans la section **Mail Settings**, plus bas dans l’onglet Advanced DNS : qu’elle indique Private Email ou Custom MX, n’y touchez pas. Avec Private Email, Namecheap gère lui-même les MX, et il se peut que vous ne les voyiez pas du tout.
 
 {{< callout type="warning" >}}**Ne supprimez jamais un MX pour « faire du ménage ».** Les emails cessent d’arriver et rien ne vous prévient : vous l’apprenez quand un client demande pourquoi vous n’avez jamais répondu.{{< /callout >}}
 

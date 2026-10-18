@@ -1,7 +1,7 @@
 ---
 title: "How to write SEO blog posts that bring in enquiries"
 seo_title: "How to write SEO blog posts that bring in enquiries"
-description: "How to write SEO blog posts that rank and bring enquiries: topics from customer problems, the answer first, facts only you have, links to your services."
+description: "How to write SEO blog posts that rank and bring in enquiries: topics from customer problems, the answer first, facts only you have, links to your services."
 slug: "how-to-write-seo-blog-posts"
 translationKey: "write-seo-blog-posts"
 date: 2026-10-17T08:11:00+02:00
@@ -20,14 +20,14 @@ faq:
   - q: "How often should a small business publish blog posts?"
     a: "At a pace you can keep. One useful article a month that answers a real customer question does more than ten published in a week followed by a year of silence. Improving an article that already ranks often pays off faster than writing a new one."
   - q: "How long does it take for a blog post to rank on Google?"
-    a: "A new article is often indexed within days, but steady traffic takes months: Google's own guidance says SEO generally takes four months to a year to show its benefits. A precise question that few sites compete for can move faster."
+    a: "A new article can be indexed within days, but steady traffic takes months: Google's guidance on hiring an SEO talks of four months to a year, in most cases, before improvements show a benefit. A precise question that few sites compete for can move faster."
   - q: "Is an FAQ section still worth adding to a blog post?"
     a: "Yes, for readers: a few short questions and answers clear up the doubts the article did not cover. Do not expect a special display in Google, though: FAQ rich results stopped showing on 7 May 2026, even though the markup is still valid."
   - q: "Should a bilingual business translate its blog posts word for word?"
     a: "No. Write each version for its own market, with the keyword people type in that language, local examples and the right currency, then connect the two versions with hreflang tags so that Google shows each reader the right one."
 ---
 
-An SEO blog post is an article that answers one question your future customers type into Google. It is written to rank for that search, then to lead the reader to the page where they can call you or ask for a quote. Most small business blogs manage the first half at best: a few visits, no enquiries. This guide shows how to write SEO blog posts that do both.
+An SEO blog post is an article that answers one question your future customers type into Google. It is written to rank for that search, then to lead the reader to the page where they can call you or ask for a quote. Many small business blogs manage the first half at best: a few visits, no enquiries. This guide shows how to write SEO blog posts that do both.
 
 It is the method I use on my clients' websites. Once a client has approved the site, I write the metadata and prepare a few SEO articles in advance, so the blog does not start empty. The topics come from what customers ask and complain about, and each article points to a page that sells.
 
@@ -37,7 +37,7 @@ The eight steps below, and the checks after publishing, are part of my {{< a key
 
 A blog post that brings in work does two jobs. It ranks for a search made by someone with a problem, and it takes that person, in one click, to the page that solves it.
 
-My clearest example is the {{< a page="/projects/pilotech-vmi" >}}site I built for Pilotech's ventilation work{{< /a >}}. Its blog has 21 articles, each built around a concrete problem, such as condensation in attics, black mould in a flat or a damp wine cellar. **Every article links to the page of the unit suited to the problem it describes.** A visitor reads the article, moves on to the unit, downloads its brochure, then calls or emails for a quote.
+My clearest example is the {{< a page="/projects/pilotech-vmi" >}}site I built for Pilotech's ventilation work{{< /a >}}. Its blog has 21 articles, each built around a concrete problem, such as condensation in attics, black mould in a flat or a damp wine cellar. **Every article links to the page of the unit suited to the problem it describes.** A visitor can read the article, move on to the unit, download its brochure, then call or email for a quote.
 
 | Rarely brings enquiries | Brings enquiries |
 |---|---|
@@ -52,7 +52,7 @@ News posts have their place for people who already know you. They rarely rank, b
 The best topics are the questions people ask before they need you, or while they hesitate. You already hear most of them.
 
 - Your calls and emails: on a first call, my clients ask whether I have experience, what SEO is and how it will benefit them, and how long it takes to rank. Each of those deserves an article, like any question you answer every week.
-- Customer complaints: I use Deep Research in Claude to find what customers complain about most in a niche, and which words and questions keep coming back. The prompts are in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}.
+- Customer complaints: I use Research, Claude's deep research mode, to find what customers complain about most in a niche, and which words and questions keep coming back. The prompts are in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}.
 - Google's suggestions: type the start of a question into Google and read the predictions, which Google says "reflect real searches that have been done on Google". The **People also ask** box adds related questions.
 - Search Console: once your site is live, it shows the searches you already appear for. In **Performance** > **Search results**, add a filter on **Query**, choose **Custom (regex)** and paste this pattern to list only the questions:
 
@@ -64,7 +64,7 @@ Prefer narrow topics to broad ones. Of the websites I built for one client, the 
 
 ## Step 2: give each article one keyword people search for
 
-Once you have a question, check the words people use to ask it, and how many do. Google Trends compares phrasings, Keyword Planner gives volume ranges and Semrush adds what advertisers pay per click. I use Semrush mainly for that last figure: the keywords advertisers pay for show which searches bring business, so I double down on them in SEO instead of paying for every click. The method is in my guide to {{< a key="keyword-research-small-business" >}}keyword research for small businesses{{< /a >}}.
+Once you have a question, check the words people use to ask it, and how many do. Google Trends compares phrasings, Keyword Planner gives volume ranges and Semrush adds what advertisers pay per click. I use Semrush mainly for keyword research, including the keywords bought in ads and what they cost: that cost shows which keywords work best, so I double down on them in SEO instead of paying for every click. The method is in my guide to {{< a key="keyword-research-small-business" >}}keyword research for small businesses{{< /a >}}.
 
 Three rules keep a blog in order:
 
@@ -94,7 +94,7 @@ shower. If the windows still stream every morning, it is time to
 look at ventilation that runs all the time.
 ```
 
-The first lines matter for AI search too: Google now answers many simple questions with an AI Overview at the top of its results, and a plainly stated answer is easier to pick up. Google's [guide to its generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), published in May 2026, says optimising for them is still SEO, with no need to chunk or rewrite content for AI. More in {{< a key="write-content-for-ai-search" >}}how to write content that AI assistants actually quote{{< /a >}}.
+The first lines matter for AI search too: Google now answers many simple questions with an AI Overview at the top of its results, and a plainly stated answer is easier to pick up. Google's [guide to its generative AI features](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), published in May 2026, says the usual SEO best practices still apply, and that there is no need to split content into chunks or rewrite it for AI. More in {{< a key="write-content-for-ai-search" >}}how to write content that AI assistants actually quote{{< /a >}}.
 
 ## Step 4: build the outline from the reader's next questions
 
@@ -130,7 +130,7 @@ Google's guidance on [helpful, reliable, people-first content](https://developer
 
 ## Step 6: draft with AI, then rework it by hand
 
-I write with AI, and since it arrived my delivery times have shrunk. I give the assistant the brief, the questions, the keyword and the facts, then go round, drafting and editing, until I am satisfied with the text. I use Claude: in my experience, ChatGPT tends to hallucinate a bit too much, while Claude is extremely accurate.
+I write with AI, and since it arrived my delivery times have shrunk. With it, I bring together what I have learnt about the business and my SEO research, then edit and go round again until I am satisfied with the text. I use Claude: in my experience, ChatGPT tends to hallucinate a bit too much, while Claude is extremely accurate.
 
 The rework is where the article is made:
 
@@ -139,7 +139,7 @@ The rework is where the article is made:
 3. Check every figure, name and date against a source or with the client.
 4. Read the draft aloud and cut whatever you would never say to a customer.
 
-Google accepts AI-assisted content that helps people, but mass-producing pages that add no value can break its spam policy on scaled content abuse. Since October 2026, its [guidance on generative AI content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) also calls it critical to fact-check and review AI-generated content by hand before publishing. My editing method is in {{< a key="ai-writing-sound-human" >}}how to make AI writing sound human{{< /a >}}.
+Google accepts AI-assisted content that helps people, but mass-producing pages that add no value can break its spam policy on scaled content abuse. Since 1 October 2026, its [guidance on generative AI content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) also calls it critical to fact-check and review AI-generated content by hand before publishing. My editing method is in {{< a key="ai-writing-sound-human" >}}how to make AI writing sound human{{< /a >}}.
 
 ## Step 7: link the article to the page that solves the problem
 

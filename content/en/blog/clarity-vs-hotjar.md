@@ -52,9 +52,9 @@ These figures come from Microsoft's documentation and Contentsquare's pricing an
 
 For years, Hotjar was the name many people gave to heatmaps. It now belongs to Contentsquare, a larger analytics platform aimed at marketing, product and e-commerce teams, and Hotjar's own site says new Hotjar accounts can no longer be created. If you sign up today, you open a Contentsquare account.
 
-The free offer changed with it. Hotjar's old free plan captured 35 sessions a day. Contentsquare's free plan, at the time of writing, covers 200,000 sessions a month, with unlimited heatmaps, up to 10,000 session recordings a month, funnels and a capped number of survey responses. For a small business site, **those limits are generous**.
+The free offer changed with it. Hotjar's old free plan captured 35 sessions a day; Contentsquare's free plan covers 200,000 sessions a month, with funnels on top of the heatmaps, recordings and surveys listed in the table. For a small business site, **those limits are generous**.
 
-What you sign up for, though, is a bigger platform. Contentsquare's pages list surveys, user tests and interviews on top of heatmaps and recordings, and paid plans that add volume and a longer history. That suits a team that runs research every week. For an owner who checks the website once a month, it is more tool than the job needs.
+What you sign up for, though, is a bigger platform, with user tests and interviews on top of heatmaps, recordings and surveys. For an owner who checks the website once a month, it is more tool than the job needs.
 
 {{< callout type="note" >}}Already paying for Hotjar? Check your account and Contentsquare's pricing page before your next renewal, so that new plan names or limits do not take you by surprise.{{< /callout >}}
 
@@ -79,11 +79,11 @@ Contentsquare's advantage lies in everything around the recordings.
 
 ### Surveys and feedback
 
-You can ask visitors a question on the page itself: what they were looking for, what stopped them, why they did not get in touch. A recording shows where someone hesitated; a one-question survey can tell you why. The free plan caps responses at 100 a month at the time of writing, with three surveys or feedback widgets live at once according to its plan table, which is plenty for a small site.
+You can ask visitors a question on the page itself: what they were looking for, what stopped them, why they did not get in touch. A recording shows where someone hesitated; a one-question survey can tell you why. The free plan caps responses at 100 a month, with three surveys or feedback widgets live at once according to its plan table, which is plenty for a small site.
 
 ### More history, but only on a paid plan
 
-On free plans, Clarity keeps more: Contentsquare's free plan keeps one month of data, while Clarity keeps recordings for 30 days and favourites and heatmap data for 9 months. The longer history comes with Contentsquare's paid plans, which keep up to 13 months of data according to its pricing page, with a shorter period for session replays. That matters if you compare seasons, or measure a redesign against the same months of the previous year. On a small site, saving the telling recordings as favourites in Clarity covers most of that need.
+On free plans, Clarity actually keeps more: one month of data on Contentsquare's free plan, against 30 days of recordings and 9 months of favourites and heatmap data on Clarity. The longer history comes with Contentsquare's paid plans, which keep up to 13 months of data according to its pricing page, with a shorter period for session replays. That matters if you compare seasons, or measure a redesign against the same months of the previous year. On a small site, saving the telling recordings as favourites in Clarity covers most of that need.
 
 ### Tools for a research team
 
@@ -102,7 +102,7 @@ Here is what each tool costs at the time of writing (October 2026).
 
 These are the US-dollar prices on Contentsquare's pricing page at the time of writing. Contentsquare says its European customers are billed in euros, so a UK business may be invoiced in euros rather than pounds: check the currency and the amount on the [Contentsquare pricing page](https://contentsquare.com/pricing/) before you subscribe. The annual price is a 20 per cent discount on the monthly one, and the monthly plan needs no annual contract: you can drop back to the free plan at any time.
 
-The real cost of both tools is the time you spend watching recordings and acting on them. Budget an hour a month, whichever you choose.
+Whichever you choose, the real cost is the time you spend watching recordings and acting on them.
 
 ## Consent: both tools need your cookie banner
 

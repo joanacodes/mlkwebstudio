@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:31:00+02:00
 category: "aio"
 article_type: "tutorial"
 keywords: ["trafic IA Google Analytics", "trafic ChatGPT Google Analytics", "canal AI Assistant GA4", "trafic IA GA4", "groupe de canaux personnalisé GA4", "Microsoft Clarity trafic IA"]
-summary: "Depuis le 13 mai 2026, GA4 range les visites venues de ChatGPT, Gemini ou Claude dans un canal AI Assistant, qui ignore toutefois l’historique ainsi que les Aperçus IA et le Mode IA de Google. Pour suivre le trafic IA dans Google Analytics sur la durée, créez un groupe de canaux fondé sur la source, puis ajoutez la Search Console et le canal AIPlatform de Clarity. Comptez enfin les demandes, pas seulement les visites."
+summary: "Depuis le 13 mai 2026, GA4 range les visites venues de ChatGPT, Gemini ou Claude dans un canal AI Assistant, qui ignore toutefois l’historique ainsi que les Aperçus IA et le Mode IA de Google. Pour suivre le trafic IA dans Google Analytics sur la durée, créez un groupe de canaux personnalisé avec une règle sur la source, puis ajoutez la Search Console et le canal AIPlatform de Clarity. Comptez enfin les demandes, pas seulement les visites."
 cover: "track-ai-traffic"
 cover_alt: "Courbe de trafic en hausse avec les mots GA4 et Clarity sur fond de bureau flou"
 related: ["check-ai-visibility", "google-search-console-tutorial", "microsoft-clarity-tutorial", "google-ai-overviews-ai-mode", "get-recommended-by-chatgpt"]
@@ -25,9 +25,9 @@ faq:
     a: "Pas pour les visites : GA4, la Search Console, Microsoft Clarity et Bing Webmaster Tools sont gratuits. Les outils payants de visibilité IA mesurent autre chose : la fréquence à laquelle les assistants vous citent quand on leur pose une série de questions."
 ---
 
-Le trafic IA, ce sont les visites que reçoit votre site quand quelqu’un clique sur un lien dans une réponse de ChatGPT, Gemini, Claude, Copilot, Perplexity ou Le Chat de Mistral. Depuis mai 2026, Google Analytics range une partie de ces visites dans un canal à part, ce qui simplifie la mesure du trafic IA dans Google Analytics. Ce canal a pourtant des angles morts : il ignore l’historique et tout ce qui vient des fonctionnalités IA de Google.
+Le trafic IA, ce sont les visites que reçoit votre site quand quelqu’un clique sur un lien dans une réponse de ChatGPT, Gemini, Claude, Copilot, Perplexity ou Le Chat de Mistral. Depuis mai 2026, GA4 range une partie de ces visites dans un canal à part, ce qui simplifie la mesure du trafic IA dans Google Analytics. Ce canal a pourtant des angles morts : il ignore l’historique et tout ce qui vient des fonctionnalités IA de Google.
 
-Ce tutoriel comble ces trous avec des outils gratuits, en six étapes : le canal intégré de GA4, un groupe de canaux à vous pour l’historique, les pages d’arrivée, la Search Console et Bing pour les réponses IA de Google et de Microsoft, Microsoft Clarity pour le comportement des visiteurs, puis les demandes de contact. Il fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}, qui explique comment se faire citer.
+Ce tutoriel comble ces lacunes avec des outils gratuits, en six étapes : le canal intégré de GA4, un groupe de canaux à vous pour l’historique, les pages d’arrivée, la Search Console et Bing pour les réponses IA de Google et de Microsoft, Microsoft Clarity pour le comportement des visiteurs, puis les demandes de contact. Il fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}, qui explique comment se faire citer.
 
 Prévoyez une quarantaine de minutes, des droits de modification sur votre propriété GA4 et un accès à la Search Console. Les menus de GA4 sont cités tels qu’ils apparaissent dans l’interface en français (octobre 2026) ; ceux de Clarity et de Bing le sont dans leur interface en anglais, avec une traduction entre parenthèses quand elle aide.
 
@@ -37,12 +37,12 @@ Les assistants IA n’envoient pas tous leurs visiteurs de la même façon : au
 
 | Comment la personne a croisé votre site | Ce qui arrive sur votre site | Où le mesurer |
 |---|---|---|
-| Un lien dans ChatGPT, Gemini, Claude, Copilot ou Perplexity | Une visite, avec un référent et parfois un marqueur | GA4 et Microsoft Clarity |
+| Un lien dans ChatGPT, Gemini, Claude, Copilot ou Perplexity | Une visite, avec un référent et parfois un paramètre UTM | GA4 et Microsoft Clarity |
 | Un lien dans les Aperçus IA ou le Mode IA de Google | Une visite venue de Google, comptée comme recherche naturelle | Search Console (impressions seulement) |
 | Une citation dans Copilot ou les résumés IA de Bing | Souvent aucune visite | Bing Webmaster Tools |
 | Une recommandation suivie plus tard | Un appel, une visite directe ou une recherche sur votre nom | Votre propre suivi des demandes |
 
-ChatGPT ajoute `utm_source=chatgpt.com` aux liens sur lesquels on clique dans ses réponses : c’est l’assistant le plus facile à suivre. Sans marqueur, GA4 s’appuie sur le référent, c’est-à-dire l’adresse de la page d’où vient le visiteur. Une visite sans l’un ni l’autre finit dans le canal **Direct**, mélangée aux personnes qui ont tapé votre adresse.
+ChatGPT ajoute `utm_source=chatgpt.com` aux liens sur lesquels on clique dans ses réponses : c’est l’assistant le plus facile à suivre. Sans ce paramètre, GA4 s’appuie sur le référent, c’est-à-dire l’adresse de la page d’où vient le visiteur. Une visite sans l’un ni l’autre finit dans le canal **Direct**, mélangée aux personnes qui ont tapé votre adresse.
 
 ## Étape 1 : trouver le canal AI Assistant dans GA4
 
@@ -55,7 +55,7 @@ Depuis le 13 mai 2026, le groupe de canaux par défaut de GA4 compte un canal **
 
 {{< screenshot id="track-ai-traffic-01" alt="Rapport Acquisition de trafic de GA4 avec le canal AI Assistant parmi les autres canaux" >}}
 
-Deux limites s’appliquent. Le canal ne classe que les visites à partir du 13 mai 2026 : les précédentes restent là où GA4 les avait rangées, surtout dans **Referral** (sites référents) ou **Unassigned**, le canal des visites qu’il ne sait pas classer. Et il laisse de côté les Aperçus IA et le Mode IA, dont les visites arrivent comme du trafic de recherche naturelle Google ordinaire.
+Deux limites s’appliquent. Le canal ne classe que les visites à partir du 13 mai 2026 : les précédentes restent là où GA4 les avait rangées, surtout dans **Referral** (sites référents) ou **Unassigned**, le canal des visites qu’il ne sait pas classer. Et il laisse de côté les Aperçus IA et le Mode IA, dont les visites arrivent comme n’importe quel clic de recherche naturelle sur Google.
 
 ## Étape 2 : suivre le trafic IA dans Google Analytics avant mai 2026
 
@@ -63,13 +63,13 @@ Un groupe de canaux personnalisé est votre propre version de la liste des canau
 
 ### Créer le groupe
 
-Dans **Administration**, sous **Affichage des données**, cliquez sur **Groupes de canaux**, puis sur **Créer un groupe de canaux**. GA4 part d’une copie du groupe par défaut. Donnez-lui un nom, par exemple « Canaux avec IA ».
+Dans **Administration**, sous **Affichage des données**, cliquez sur **Groupes de canaux**, puis sur **Créer un groupe de canaux**. GA4 part d’une copie du groupe par défaut. Donnez un nom à votre groupe, par exemple « Canaux avec IA ». Une propriété GA4 standard accepte deux groupes de canaux personnalisés, et ce tutoriel n’en utilise qu’un.
 
 {{< screenshot id="track-ai-traffic-02" alt="Page Groupes de canaux de l’administration GA4, avec le bouton pour créer un groupe" >}}
 
 ### Ajouter le canal IA
 
-Ajoutez un canal nommé « Assistants IA ». Réglez sa condition sur la source, choisissez l’option d’expression régulière (regex) et collez cette valeur :
+En bas de la liste des canaux, ajoutez un canal nommé « Assistants IA ». Réglez sa condition sur la source, choisissez l’option d’expression régulière (regex) et collez cette valeur :
 
 ```
 .*(chatgpt|chat\.openai|perplexity|claude\.ai|gemini\.google|copilot|deepseek|chat\.mistral|grok).*
@@ -87,7 +87,7 @@ Enregistrez le canal, puis réorganisez la liste pour placer « Assistants IA 
 
 ### Le lire dans vos rapports
 
-De retour dans **Acquisition de trafic**, cliquez sur le titre de la première colonne, qui ouvre une liste déroulante, et choisissez votre groupe de canaux à la place du groupe par défaut. Réglez une période qui commence avant le 13 mai 2026 : la ligne « Assistants IA » montre désormais aussi les visites plus anciennes.
+De retour dans **Acquisition de trafic**, cliquez sur le titre de la première colonne, qui ouvre une liste déroulante, et choisissez votre groupe de canaux à la place du groupe par défaut. Réglez une période qui commence avant le 13 mai 2026 : la ligne « Assistants IA » montre désormais aussi les visites plus anciennes. Sélectionnez-le ainsi dans le rapport plutôt que d’en faire le groupe de canaux principal de la propriété : un groupe principal ne s’applique qu’à partir du jour où vous le choisissez.
 
 {{< screenshot id="track-ai-traffic-05" alt="Rapport Acquisition de trafic avec le groupe de canaux personnalisé et des visites IA antérieures à mai 2026" >}}
 
@@ -132,14 +132,14 @@ Depuis le 29 août 2025, Clarity range les visites venues d’assistants IA comm
 
 J’utilise Clarity pour voir où les gens s’attardent, s’ils viennent pour quelque chose de précis et ce qui les fait partir, afin d’y remédier : le texte, une image ou l’expérience utilisateur. Les visiteurs envoyés par un assistant arrivent avec une question déjà en tête, ce qui rend leurs sessions rapides à lire.
 
-1. Ouvrez votre projet Clarity et filtrez le **Dashboard** (tableau de bord) sur le canal AIPlatform pour voir les pages que lisent ces visiteurs.
+1. Ouvrez le **Dashboard** (tableau de bord) de votre projet Clarity, allez dans l’onglet **Channels** (canaux) de la carte qui liste vos sources de trafic (Referrer ou Traffic selon la version) et cliquez sur **AIPlatform**. Le tableau de bord ne montre alors plus que ces visites et les pages qu’elles consultent.
 2. Appliquez le même filtre dans **Recordings** (enregistrements) et regardez cinq sessions.
 3. Notez où les gens arrêtent de faire défiler la page, ce sur quoi ils cliquent et s’ils atteignent votre page de contact ou votre numéro de téléphone.
 4. Corrigez d’abord le problème le plus fréquent, puis revenez un mois plus tard.
 
 {{< screenshot id="track-ai-traffic-09" alt="Enregistrements Microsoft Clarity filtrés sur le canal AIPlatform" >}}
 
-Clarity a aussi ouvert à tous un rapport Citations, consacré aux citations dans les réponses des IA plutôt qu’aux visites. Si Clarity n’est pas encore installé sur votre site, mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} détaille le code de suivi et le signal de consentement que Clarity exige depuis le 31 octobre 2025 pour les visiteurs de l’EEE et du Royaume-Uni.
+Le rapport Citations de Clarity, gratuit et désormais ouvert à tous, mesure autre chose : combien de fois les réponses des IA, surtout celles de Copilot, citent votre site. Si Clarity n’est pas encore installé sur votre site, mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} détaille le code de suivi et le signal de consentement que Clarity exige depuis le 31 octobre 2025 pour les visiteurs de l’EEE et du Royaume-Uni.
 
 ## Étape 6 : compter les demandes, pas seulement les visites
 
@@ -155,12 +155,12 @@ Une visite n’est pas un client. Pour {{< a page="/projects/pilotech" >}}Pilote
 
 Prenez chaque chiffre IA comme un minimum, pour quatre raisons :
 
-- **Les marqueurs et référents manquants.** Une visite sans l’un ni l’autre finit dans Direct. À partir du 9 octobre 2026, des sociétés d’analyse ont signalé une forte baisse des visites venues de ChatGPT dans GA4, de près de moitié sur les sites que suit l’une d’elles, pendant que le trafic Direct augmentait : ChatGPT semble avoir cessé de marquer une partie de ses liens. OpenAI n’avait annoncé aucun changement au moment où j’écris ces lignes. Si vos chiffres ChatGPT ont chuté cette semaine-là, regardez le trafic Direct des mêmes pages avant de conclure.
+- **Les paramètres UTM et les référents manquants.** Une visite sans l’un ni l’autre finit dans Direct. À partir du 9 octobre 2026, des sociétés d’analyse ont signalé une forte baisse des visites venues de ChatGPT dans GA4, de près de moitié sur les sites que suit l’une d’elles, pendant que le trafic Direct augmentait : ChatGPT semble avoir cessé d’ajouter son paramètre UTM à une partie de ses liens. OpenAI n’avait annoncé aucun changement au moment où j’écris ces lignes. Si vos chiffres ChatGPT ont chuté cette semaine-là, regardez le trafic Direct des mêmes pages avant de conclure.
 - **Les refus de cookies.** Les visiteurs qui refusent les cookies de mesure d’audience sur votre bandeau ne sont pas comptés de la façon habituelle, ni dans GA4 ni dans Clarity.
 - **Les fonctionnalités IA de Google.** Les clics venus des Aperçus IA et du Mode IA se mêlent à la recherche naturelle, et la Search Console n’en montre que les impressions.
 - **Les gens qui ne cliquent jamais.** Ils lisent votre nom dans une réponse, puis vous appellent ou vous cherchent une semaine plus tard.
 
-Les chiffres restent utiles pour autant : une tendance sur plusieurs mois vous dit si les assistants vous envoient plus de monde, même si chaque chiffre est sous-estimé.
+Ces chiffres ne sont pas inutiles pour autant : une tendance sur plusieurs mois vous dit si les assistants vous envoient plus de monde, même si chaque chiffre est sous-estimé.
 
 ## Votre point mensuel sur le trafic IA
 

@@ -20,7 +20,7 @@ faq:
   - q: "Do Zapier, Make and n8n work with Gmail, Outlook and Google Sheets?"
     a: "Yes. All three have ready-made connections for Google apps such as Gmail and Google Sheets, and for Microsoft apps such as Outlook. When an app is missing, Make and n8n can call its API directly with an HTTP module or node, and Zapier can send and receive webhooks."
   - q: "Can I move my Zaps to Make or n8n later?"
-    a: "Plan to rebuild them: Zaps, Make scenarios and n8n workflows are each built in their own editor. Rebuild one workflow at a time, run the old and the new version side by side on real data for a week, then switch the old one off."
+    a: "Plan to rebuild them: Zaps, Make scenarios and n8n workflows are each built in their own editor. Rebuild one workflow at a time, test it with dummy data or with its emails sent to your own address, then switch it on and the old one off on the same day, so nothing runs twice."
   - q: "Is n8n open source?"
     a: "Not in the strict sense. Its code is public and the Community Edition is free to self-host, but its Sustainable Use License allows use only for your own internal business purposes or for non-commercial or personal use, so you cannot resell n8n as a service. n8n calls this model fair-code."
 ---
@@ -60,9 +60,11 @@ Take a common automation: a contact form on your website triggers four actions. 
 | 150 | 600 tasks: within Professional's 750 | About 750 credits: within the Free plan's 1,000 | 150 executions: within Starter |
 | 600 | 2,400 tasks: a higher task tier | About 3,000 credits: within Core | 600 executions: within Starter |
 
-The gap widens with longer workflows: ten actions use ten tasks per run on Zapier, at least ten credits on Make, and still one execution on n8n. On paid plans, Zapier can bill tasks beyond your allowance at a higher rate rather than stopping your Zaps, so a busy month shows up on the invoice.
+These counts assume an instant trigger, such as a webhook that your form tool sends the moment someone submits it. In Make, a scheduled trigger also uses a credit each time it checks for new data, even when it finds none: Make's help centre puts a check every hour at 24 credits a day, about 720 a month, which would push the 150-enquiry example past the Free plan. On Zapier the trigger never counts, so those checks cost nothing.
 
-{{< callout type="tip" >}}Before you compare prices, write down two numbers for each automation you have in mind: **how many times it will run a month, and how many actions it has**. Multiply them for Zapier and Make; for n8n, only the first number counts.{{< /callout >}}
+The gap widens with longer workflows: ten actions use ten tasks per run on Zapier, at least eleven credits on Make (the trigger counts there), and still one execution on n8n. On paid plans, Zapier can bill tasks beyond your allowance at a higher rate rather than stopping your Zaps, so a busy month shows up on the invoice.
+
+{{< callout type="tip" >}}Before you compare prices, write down two numbers for each automation you have in mind: **how many times it will run a month, and how many actions it has**. Multiply them for Zapier; for Make, add one for the trigger before multiplying; for n8n, only the first number counts.{{< /callout >}}
 
 ## Prices in October 2026
 
@@ -94,7 +96,7 @@ Each Make price is for 10,000 credits a month; more credits cost more.
 | Community Edition | Free | Limited only by your server | Self-hosted: you install and maintain it |
 | Starter | €20 (about £17) | 2,500 | Hosted by n8n |
 | Pro | €50 (about £44) | 10,000 | More runs at the same time, admin roles |
-| Business | €667 (about £580) | 40,000 | Self-hosted, with single sign-on and Git version control |
+| Business | €667 (about £580) | 40,000 | Single sign-on and Git version control |
 
 n8n sets no limit on the number of active workflows: you pay for executions, not for the number of automations you keep switched on. The current figures are on [Zapier's pricing page](https://zapier.com/pricing), [Make's pricing page](https://www.make.com/en/pricing) and [n8n's pricing page](https://n8n.io/pricing/).
 
@@ -118,7 +120,7 @@ I usually discourage solo business owners from WordPress and Webflow, because th
 
 All three now sell AI features, and what they cost follows each tool's pricing unit.
 
-- **Zapier** offers AI steps inside Zaps, and Zapier Agents, which work from instructions written in plain language. An AI action is an action like any other, so it uses tasks.
+- **Zapier** offers AI steps inside Zaps, and Zapier Agents, which work from instructions written in plain language. An AI step inside a Zap is an action like any other, so it uses tasks.
 - **Make** has its AI Toolkit and AI agents of its own. AI modules can use more credits than a simple step, so a scenario with AI spends its allowance faster.
 - **n8n** has an AI Agent node that you connect to the model of your choice, from OpenAI, Anthropic or another provider. The AI calls happen inside the workflow, so they add no executions, and the model's provider bills you directly through your own API key.
 
@@ -132,7 +134,7 @@ An automation that handles enquiries carries personal data: names, email address
 
 Three points separate the three tools:
 
-1. **Where the data is processed.** n8n's cloud is hosted in Frankfurt, Germany, and the Community Edition runs wherever you install it, so your data can stay on a server you choose. Make is a European company: check which hosting region your account uses. Zapier is an American company: check in its DPA how transfers outside Europe are covered.
+1. **Where the data is processed.** n8n's cloud is hosted in Frankfurt, Germany, and the Community Edition runs wherever you install it, so your data can stay on a server you choose. Make keeps each organisation in a data zone, in the EU (EU1, EU2) or the US (US1, US2), and your dashboard address shows which, eu1.make.com for example: pick an EU zone when you sign up rather than move later. Even then, [Make's help page on data zones](https://help.make.com/ai-providers-and-data-zones-in-make) warns that some of its AI features always send data to the US. Zapier is an American company: check in its DPA how transfers outside Europe are covered.
 2. **What the run history keeps.** Each tool keeps a log of past runs with the data that passed through them. That log is useful for fixing errors, and it is also one more copy of your clients' details: check how long it is kept and who on your team can open it.
 3. **What you send.** Pass on only the fields the next app needs. An alert that says "new enquiry, call back today" does not need the whole message.
 

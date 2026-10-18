@@ -1,5 +1,5 @@
 ---
-title: "Rédiger avec l’IA sans texte générique : ma méthode pour les textes d’un site"
+title: "Rédiger avec l’IA sans texte générique : ma méthode pour les pages d’un site"
 seo_title: "Rédiger avec l’IA sans texte générique : ma méthode"
 description: "Rédiger avec l’IA les textes de votre site sans qu’ils sonnent faux : vraies informations, 3 à 5 exemples de votre ton, brief clair, relecture serrée."
 slug: "rediger-avec-ia"
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:09:00+02:00
 category: "ai-automation"
 article_type: "guide"
 keywords: ["rédiger avec l’IA", "rédaction IA site web", "humaniser un texte IA", "prompt rédaction", "texte IA naturel", "Claude rédaction"]
-summary: "Pour rédiger avec l’IA des textes qui ne sonnent pas générés, travaillez d’abord ce que vous lui donnez : des faits que seule votre entreprise possède, les mots de vos clients et 3 à 5 exemples de votre ton, avec un rôle et la raison de chaque consigne. Relisez ensuite sans complaisance, en coupant les entrées en matière creuses, les adjectifs sans preuve et les promesses gonflées, puis vérifiez chaque fait avant la mise en ligne."
+summary: "Pour rédiger avec l’IA des textes qui sonnent juste, travaillez d’abord ce que vous lui donnez : des faits que seule votre entreprise possède, les mots de vos clients et 3 à 5 exemples de votre ton, avec un rôle et la raison de chaque consigne. Relisez ensuite sans complaisance, en coupant les entrées en matière creuses, les adjectifs sans preuve et les promesses gonflées, puis vérifiez chaque fait avant la mise en ligne."
 cover: "ai-writing-sound-human"
 cover_alt: "Le mot Copywriting sous la maquette d’une page web, à côté d’un téléphone affichant une boîte de réception, tenu au-dessus d’un ordinateur portable"
 related: ["deep-research-copywriting-seo", "claude-vs-chatgpt", "write-seo-blog-posts", "write-content-for-ai-search", "web-design-process"]
@@ -18,7 +18,7 @@ faq:
   - q: "Quelle IA rédige les textes les plus naturels ?"
     a: "Celle à qui vous donnez la meilleure matière. J’utilise Claude : dans mon travail, ChatGPT a tendance à halluciner un peu trop, alors que Claude, et Fable 5.1 en particulier, s’est montré extrêmement fiable. La méthode fonctionne avec les deux."
   - q: "Peut-on suivre cette méthode avec l’offre gratuite de Claude ?"
-    a: "Oui. L’offre gratuite inclut jusqu’à cinq projets, de quoi séparer le brief, les exemples et les consignes de chaque client, avec les modèles Sonnet et Haiku. La Recherche, qui me sert à collecter les plaintes des clients, demande une formule payante comme Pro, et Fable 5.1 passe par les crédits d’utilisation de Pro ou est inclus dans Max ([page des tarifs de Claude](https://claude.com/pricing))."
+    a: "Oui. Au moment où j’écris (octobre 2026), l’offre gratuite inclut jusqu’à cinq projets, de quoi séparer le brief, les exemples et les consignes de chaque client, avec les modèles Sonnet et Haiku. La Recherche, l’outil de deep research de Claude, demande une formule payante comme Pro, et Fable 5.1 passe par les crédits d’utilisation de Pro ou est inclus dans Max ([page des tarifs de Claude](https://claude.com/pricing))."
   - q: "Peut-on donner le site d’un concurrent comme exemple de ton ?"
     a: "Non. L’IA imite ses exemples de près : vous obtiendriez une page qui sonne comme celle de votre concurrent, et reprendre ses phrases peut constituer une contrefaçon. Servez-vous de vos propres emails, devis et réponses aux clients, ou écrivez vous-même un paragraphe dans le ton voulu."
   - q: "Faut-il traduire ses textes avec l’IA pour la version anglaise du site ?"
@@ -27,11 +27,11 @@ faq:
 
 Un texte rédigé par l’IA sonne creux quand il part de rien. Demandez « une page d’accueil pour une entreprise de déménagement » et vous obtiendrez la page d’accueil la plus probable pour n’importe quel déménageur : polie et interchangeable. Pour rédiger avec l’IA des textes qui sonnent juste, travaillez ce qui entre avant de corriger ce qui sort, puis relisez le brouillon sans complaisance.
 
-C’est ainsi que je rédige les textes des sites de mes clients. Une fois la charte graphique et les maquettes validées, je fais la recherche SEO et la rédaction, puis je mélange le tout avec l’IA et je fais des allers-retours, rédaction puis correction, jusqu’à ce que les textes et le site me conviennent. Le client ne les voit qu’à ce moment-là.
+C’est ainsi que je rédige les textes des sites de mes clients, et depuis l’arrivée de l’IA, mes délais de livraison ont raccourci. Une fois la charte graphique et les maquettes validées, je fais la recherche SEO et la rédaction, puis je mélange le tout avec l’IA et je fais des allers-retours, rédaction puis correction, jusqu’à ce que les textes et le site me conviennent. Le client ne les voit qu’à ce moment-là.
 
 Voici cette méthode en six étapes, avec un prompt à adapter et la liste des tics à supprimer. Elle fait partie de mon guide sur l’{{< a key="ai-small-business-guide" >}}IA pour les TPE et PME{{< /a >}} et s’insère dans mes {{< a key="web-design-process" >}}étapes de création d’un site internet{{< /a >}}.
 
-## Pourquoi les textes écrits par l’IA sonnent génériques
+## Pourquoi les textes écrits par l’IA se ressemblent tous
 
 Un modèle de langage écrit les mots les plus probables. Sans faits sur votre entreprise, la page la plus probable est la moyenne de milliers de pages semblables : les mêmes promesses et les mêmes adjectifs, sur le même rythme rassurant. Rien n’y est faux, et rien n’y est à vous.
 
@@ -39,7 +39,7 @@ Or je veux que mes clients fassent bonne impression, et même que leurs prospect
 
 {{< callout type="tip" >}}**Le test du remplacement.** Remplacez le nom de votre entreprise par celui d’un concurrent. Si le paragraphe tient toujours, il ne dit rien de vous, et le prospect n’a aucune raison de vous choisir plutôt que le résultat suivant.{{< /callout >}}
 
-L’autre risque, ce sont les faits inventés : un modèle à court d’informations comble le vide avec quelque chose de plausible, comme une garantie que personne n’a donnée. Dans mon travail, ChatGPT a tendance à halluciner un peu trop, alors que Claude, et Fable 5.1 en particulier, s’est montré extrêmement fiable : c’est pour cela que j’utilise Claude (le détail est dans mon comparatif {{< a key="claude-vs-chatgpt" >}}Claude ou ChatGPT{{< /a >}}). Quel que soit votre assistant, la méthode ci-dessous rend les inventions plus faciles à repérer.
+L’autre risque, ce sont les faits inventés : un modèle à court d’informations comble le vide avec quelque chose de plausible, comme une garantie que personne n’a donnée. Dans mon travail, certains assistants le font plus souvent que d’autres, et c’est pour cela que je rédige avec Claude (le détail est dans mon comparatif {{< a key="claude-vs-chatgpt" >}}Claude ou ChatGPT{{< /a >}}). Aucun n’en est à l’abri, et la méthode ci-dessous rend les inventions plus faciles à repérer.
 
 ## Rédiger avec l’IA en six étapes : la méthode en un coup d’œil
 
@@ -58,7 +58,7 @@ L’essentiel du travail se fait avant le premier prompt : réunir une matière
 
 - **Le brief.** Chaque site commence par mes questions sur l’entreprise, ce qu’elle propose et le type de clients avec qui elle préfère travailler. Les réponses vont dans le prompt sous forme de faits simples, avec l’action que la page doit déclencher : un appel, une demande de devis.
 - **Les preuves.** Les zones couvertes, le délai de réponse, ce que comprend la garantie. Un détail que le prospect peut vérifier vaut mieux que trois adjectifs.
-- **Les mots de vos clients.** J’utilise la deep research pour savoir ce dont les gens se plaignent le plus dans une niche. Ces plaintes donnent son angle au texte, et la façon dont les clients les formulent fait les meilleurs titres. Ma méthode est détaillée dans {{< a key="deep-research-copywriting-seo" >}}deep research ChatGPT et Claude pour le copywriting et le SEO{{< /a >}}.
+- **Les mots de vos clients.** J’utilise Deep Research pour savoir ce dont les gens se plaignent le plus dans une niche. Ces plaintes donnent son angle au texte, et la façon dont les clients les formulent fait les meilleurs titres. Je détaille ma méthode dans mon tutoriel {{< a key="deep-research-copywriting-seo" >}}Deep Research pour le copywriting et le SEO{{< /a >}}.
 - **La façon de parler de l’entreprise.** Ce que l’on dit à un client au téléphone, c’est la voix que le site doit avoir. Un message vocal de deux minutes, retranscrit, peut contenir de meilleures phrases qu’un premier jet.
 
 Prenons un exemple, un déménageur à Nantes. Sa matière pourrait ressembler à ceci :
@@ -94,7 +94,7 @@ Le guide d’Anthropic propose de considérer le modèle comme un employé brill
 
 1. **Donnez-lui un rôle.** Une phrase suffit : ce qu’il écrit, et pour qui.
 2. **Expliquez pourquoi.** « Trois phrases au maximum » est une règle. Ajouter « parce que le visiteur décide dès les premières lignes s’il continue à lire » permet au modèle d’appliquer la raison à des cas que vous n’aviez pas prévus.
-3. **Dites quoi faire, pas quoi éviter.** Plutôt que « n’écrivez pas comme un robot », décrivez la voix : « phrases courtes, faits concrets, “nous” et “vous”, comme on parle à un client au téléphone ». Rédigez le prompt lui-même dans ce style simple : le style d’un prompt peut déteindre sur la réponse.
+3. **Dites quoi faire, pas quoi éviter.** Plutôt que « n’écrivez pas comme un robot », décrivez la voix : « phrases courtes, faits concrets, “nous” et “vous”, comme on parle à un client au téléphone ». Rédigez aussi le prompt lui-même en phrases simples : selon Anthropic, la mise en forme d’un prompt peut déteindre sur la réponse, et un prompt truffé de listes à puces appelle des listes à puces.
 
 Voici un prompt pour le déménageur, construit sur ces réflexes :
 
@@ -125,13 +125,13 @@ Rangez le brief, les exemples et les consignes de ton dans un projet Claude (Cha
 
 ## Étape 4 : rédiger section par section et faire des allers-retours
 
-Une page entière demandée d’un coup revient sous forme de page entière de moyennes. Demandez une section à la fois, avec plusieurs versions des phrases qui comptent le plus : le titre, la phrase en dessous et l’appel à l’action. Choisir entre trois titres va plus vite qu’en corriger un.
+Demandez une page entière d’un coup, et vous recevrez une page entière de formules passe-partout. Procédez plutôt section par section, avec plusieurs versions des phrases qui comptent le plus : le titre, la phrase en dessous et l’appel à l’action. Choisir entre trois titres va plus vite que d’en corriger un seul.
 
-Faites ensuite des allers-retours, en disant au modèle ce qui fonctionne et pourquoi : « La version 2 est la bonne, mais “sans stress” vaut pour n’importe quel déménageur : mettez plutôt le prix ferme. » Depuis l’arrivée de l’IA, mes délais de livraison ont raccourci, et le temps gagné me permet parfois de chercher des solutions supplémentaires pour un client.
+Faites ensuite des allers-retours, en disant au modèle ce qui fonctionne et pourquoi : « La version 2 est la bonne, mais “sans stress” vaut pour n’importe quel déménageur : mettez plutôt le prix ferme. »
 
-Un dernier tour avant votre propre relecture : demandez au modèle de « citer chaque phrase qui fonctionnerait encore pour un concurrent, et chaque affirmation absente du brief ». Il en attrape une partie ; l’étape 5 attrape le reste.
+Un dernier tour avant votre propre relecture : demandez au modèle de « citer chaque phrase qui fonctionnerait encore pour un concurrent, et chaque affirmation absente du brief ». Il en repère une partie ; l’étape 5 se charge du reste.
 
-## Étape 5 : relire sans complaisance et couper ce qui sonne généré
+## Étape 5 : relire sans complaisance et couper ce qui trahit l’IA
 
 C’est à la relecture que le texte commence à sonner comme une personne. Lisez le brouillon à voix haute : là où vous manquez de souffle, ou là où vous ne diriez jamais la phrase à un client, réécrivez. Passez ensuite en revue ces tics :
 
@@ -154,19 +154,19 @@ Notre équipe de professionnels passionnés s’engage à vous offrir un
 service de qualité, adapté à vos besoins.
 
 Après (brief, exemples, relecture) :
-Votre déménagement à Nantes, fait en une journée.
+Déménagement à Nantes : le plus souvent bouclé en une journée.
 Nous visitons votre logement gratuitement avant de chiffrer, et le
 prix du devis est celui que vous payez le jour J. En cas de casse,
-un seul numéro à appeler : nous gérons la déclaration.
+un seul numéro à appeler.
 ```
 
-**Court et net, ça marche.** C’est ma règle en cold emailing : le premier email tient en trois lignes au plus, une présentation et un appel à l’action, parce que personne n’aime recevoir un long email d’un inconnu à qui il n’a rien demandé. Le visiteur d’une page de services n’a pas demandé votre biographie non plus : donnez-lui d’abord l’offre, la preuve et l’étape suivante, et les détails plus bas. Les relations presse ne sont pas mon métier, et en essayant à peine, j’ai obtenu dans le magazine Match un article sur une personne de mon entourage, coach de profession : j’y vois l’effet des réflexes de rédaction et de ciblage acquis en cold emailing.
+**Court et net, ça marche.** C’est ma règle en cold emailing : le premier email tient en trois lignes au plus, une présentation et un appel à l’action, parce que personne n’aime recevoir un long email d’un inconnu à qui il n’a rien demandé. Le visiteur d’une page de services n’a pas demandé votre biographie non plus : donnez-lui d’abord l’offre, la preuve et l’étape suivante, et les détails plus bas. Il en va de même pour un message à un journaliste : les relations presse ne sont pas mon métier, et en essayant à peine, j’ai obtenu dans le magazine Match un article sur une personne de mon entourage, coach sportif de profession. J’y vois l’effet des réflexes de rédaction et de ciblage acquis en cold emailing.
 
 ## Étape 6 : vérifier chaque fait, puis montrer le texte au client
 
 Une phrase peut sonner parfaitement humaine et rester fausse. Avant la mise en ligne, vérifiez chaque chiffre, prix, zone, horaire, garantie et nom dans le brief ou auprès du client.
 
-Google dit désormais la même chose. En octobre 2026, il a mis à jour ses [consignes sur les contenus générés par IA](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) pour y qualifier de « critique » (critical) la vérification et la relecture manuelles de tout contenu généré par IA avant publication. Ses conseils sur l’exactitude visent aussi les métadonnées : balise title, meta description et texte alternatif des images.
+Google dit désormais la même chose. En octobre 2026, il a mis à jour ses [consignes sur les contenus générés par IA](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) pour y qualifier de « critique » (critical, dans la version anglaise) la vérification et la relecture manuelles de tout contenu généré par IA avant publication. Ses conseils sur l’exactitude visent aussi les métadonnées : balise title, meta description et texte alternatif des images.
 
 {{< callout type="warning" >}}Cherchez **[À CONFIRMER]** dans la page avant la mise en ligne. Chaque mention devient un fait confirmé ou disparaît, avec la phrase qui l’entoure si besoin.{{< /callout >}}
 
@@ -177,7 +177,7 @@ Je présente ensuite le site au client et j’apporte les modifications qu’il 
 En cherchant ce sujet, vous tomberez sur des outils pour « humaniser » un texte IA, qui le réécrivent pour que les détecteurs le jugent humain. Ils règlent le mauvais problème.
 
 - **Les détecteurs sont de mauvais arbitres.** OpenAI a retiré son propre détecteur de textes générés par IA en juillet 2023, en raison de son faible taux de précision. Dans les tests d’OpenAI au lancement, il identifiait correctement 26 % des textes écrits par IA et classait à tort 9 % des textes humains parmi les textes générés.
-- **Google juge la page, pas l’outil.** Un contenu rédigé avec l’IA doit respecter les mêmes règles que les autres, et générer de nombreuses pages avec l’IA sans apporter de valeur aux utilisateurs peut enfreindre ses règles contre le spam (le « scaled content abuse », la production de contenus en masse).
+- **Google juge la page, pas l’outil.** Un contenu rédigé avec l’IA doit respecter les mêmes règles que les autres, et générer de nombreuses pages avec l’IA sans apporter de valeur aux utilisateurs peut enfreindre ses règles sur le spam, qui visent l’utilisation abusive de contenus à grande échelle (« scaled content abuse »).
 - **Vos prospects sont le seul test qui rapporte.** Personne ne passe une page de services dans un détecteur avant d’appeler. Un tel outil change des mots ; il n’ajoute ni votre zone, ni votre garantie, ni votre façon de parler aux clients.
 
 Les mêmes réflexes rendent une page digne d’être citée par ChatGPT, Gemini ou Perplexity : des réponses claires et des faits que personne d’autre n’a. C’est le sujet de mon article pour {{< a key="write-content-for-ai-search" >}}être cité par les IA{{< /a >}}.

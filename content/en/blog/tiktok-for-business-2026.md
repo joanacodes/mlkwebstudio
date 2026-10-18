@@ -1,7 +1,7 @@
 ---
 title: "TikTok for small business in 2026: what changed and when it is worth your time"
 seo_title: "TikTok for small business in 2026: what changed"
-description: "TikTok for small business in 2026: the dated changes that matter (TikTok Shop, a €530m fine, rules for teens, the US deal) and who should still use it."
+description: "TikTok for small business in 2026: what changed (TikTok Shop, a €530m fine, the UK's planned under-16 ban, the US deal) and who should still use it."
 slug: "tiktok-for-small-business"
 translationKey: "tiktok-for-business-2026"
 date: 2026-10-17T09:33:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:33:00+02:00
 category: "social-media"
 article_type: "news"
 keywords: ["TikTok for small business", "TikTok for business 2026", "is TikTok worth it for small business", "TikTok Shop", "TikTok business account"]
-summary: "TikTok for small business is mainly a brand awareness channel in 2026: people come to be entertained, not to buy, and you must keep posting to stay visible. The changes since 2025 concern selling (TikTok Shop in France), privacy (a €530 million fine) and young users, while the January 2026 US deal changes nothing in Europe. It suits consumer products, young audiences and visual trades; if you work alone, YouTube Shorts and Pinterest pay back more."
+summary: "TikTok for small business is mainly a brand awareness channel in 2026: people come to be entertained, not to buy, and you must keep posting to stay visible. Since 2025, TikTok Shop has opened in France, TikTok has been fined €530 million over EU users' data and the UK has announced a ban for under-16s; the US deal changes nothing in Europe. It suits consumer products, young adults and visual trades; if you work alone, YouTube Shorts and Pinterest repay your time better."
 cover: "tiktok-for-business-2026"
 cover_alt: "A grid of video tiles with a heart and a play button beside the words TikTok 2026"
 related: ["social-media-small-business", "youtube-shorts-for-business", "google-ads-vs-facebook-ads", "pinterest-for-business", "shiny-object-syndrome"]
@@ -20,7 +20,7 @@ faq:
   - q: "Can a business use trending songs on TikTok?"
     a: "Not freely. Business accounts can only use the Commercial Music Library, a catalogue of tracks cleared for brands. The general music library is licensed for personal use, so promoting a business with it, even from a personal account, can lead to copyright claims."
   - q: "Is TikTok going to be banned in the UK or France?"
-    a: "Nothing points that way at the time of writing (October 2026). The January 2026 deal settled the American case and only concerns the US app; in Europe, regulators and lawmakers are working on how TikTok treats minors and personal data, not on banning the app."
+    a: "Not for adults: nothing points that way at the time of writing (October 2026), and the January 2026 deal only concerns the US app. The rules target minors instead: the UK government announced in June 2026 that it will ban under-16s from social media, while France's under-15 ban was struck down by the Conseil constitutionnel in August 2026."
   - q: "Does TikTok help my Google rankings?"
     a: "Not directly: your rankings depend on your own website. A TikTok video can make people curious enough to search for your business name, and that search pays off when your website and your Google Business Profile are ready for them."
 ---
@@ -31,17 +31,18 @@ This article lists the changes that matter to a business in the UK or France, ea
 
 The short version: TikTok builds awareness, rarely sales, and it only pays off if you can keep posting for months.
 
-## What changed on TikTok since 2025, date by date
+## What has changed on TikTok since 2025, date by date
 
-Six changes matter to a small business in the UK or France. The table sums them up; the details follow.
+Seven changes since 2025 are worth knowing about, even the two that happened outside Europe. The table sums them up; the details follow.
 
 | Date | What changed | What it means for you |
 |---|---|---|
 | 31 March 2025 | TikTok Shop opens in France, Germany and Italy | Product brands in France can sell inside the app; UK sellers already could |
-| 2 May 2025 | Ireland's privacy regulator fines TikTok €530 million | No change to how you post; worth knowing if your clients are strict about data |
-| 25 July 2025 | Ofcom's child-safety codes apply in the UK | Teenagers face age checks and a filtered feed |
+| 2 May 2025 | Ireland's privacy regulator fines TikTok €530 million; TikTok appeals | No change to how you post; worth knowing if your clients are strict about data |
+| 25 July 2025 | Ofcom's child-safety codes apply in the UK | UK teenagers face age checks and a filtered feed |
 | 10 December 2025 | Australia bars under-16s from social media accounts, TikTok included | Not a UK or French rule, but a sign of where the debate is heading |
 | 22 January 2026 | TikTok's US joint venture is finalised | Only the American app is concerned |
+| June 2026 | The UK government announces a social media ban for under-16s | If you sell to under-16s, plan to reach them another way |
 | 21 July and 14 August 2026 | France adopts an under-15 ban, then the Conseil constitutionnel strikes it down | No ban applies in France at the time of writing |
 
 ### TikTok Shop: selling without leaving the app
@@ -52,23 +53,25 @@ It suits physical products with an obvious use and a price people pay without a 
 
 ### A €530 million fine over European users' data
 
-On 2 May 2025, Ireland's Data Protection Commission, TikTok's lead privacy regulator in the EU, fined it €530 million (about £450 million). It found that staff in China could access the personal data of users in Europe without TikTok showing that the data was protected to EU standards, and that users had not been told clearly. TikTok had six months to bring those transfers into line or suspend them, and said it would appeal.
+On 2 May 2025, Ireland's Data Protection Commission, TikTok's lead privacy regulator in the EU, announced a €530 million fine (about £450 million). Of that, €485 million is for letting staff in China access the personal data of users in the European Economic Area (EEA) without showing that the data was protected to EU standards, and €45 million for not telling users clearly. The regulator also gave TikTok six months to bring those transfers into line or suspend them.
 
-The decision covers the EU and the EEA; in the UK, the regulator is the ICO. It changes nothing in how you post. It matters more if your clients are organisations with strict rules on personal data.
+TikTok appealed. In November 2025, Ireland's High Court put the suspension order on hold until the appeal is decided, and on 30 April 2026 the Supreme Court rejected the regulator's attempt to overturn that decision ([The Irish Times](https://www.irishtimes.com/crime-law/courts/2026/04/30/supreme-court-finds-for-tiktok-in-dispute-with-data-protection-commission/)).
+
+The case covers users in the EEA; in the UK, the privacy regulator is the ICO. It changes nothing in how you post. It matters more if your clients are organisations with strict rules on personal data.
 
 ### Rules for young users in the UK, Australia and France
 
 TikTok's minimum age is 13, and governments are pushing further:
 
-- **UK:** since 25 July 2025, apps that children use must follow Ofcom's child-safety codes under the Online Safety Act, which call for effective age checks and feeds that filter harmful content out for under-18s.
+- **UK:** since 25 July 2025, apps that children use must follow Ofcom's child-safety codes under the Online Safety Act, which call for highly effective age checks and feeds that filter harmful content out for under-18s. Then, after a national consultation that ran from 2 March to 26 May 2026, the government announced in June 2026 that it will ban under-16s from social media. Check the [GOV.UK consultation page](https://www.gov.uk/government/consultations/growing-up-in-the-online-world-a-national-consultation) for the start date before you plan around it.
 - **Australia:** since 10 December 2025, platforms including TikTok must take reasonable steps to stop under-16s holding accounts.
-- **France:** Parliament adopted a ban on social media accounts for under-15s in July 2026, due to start on 1 September 2026 for new accounts. On 14 August 2026, the Conseil constitutionnel struck it down as a disproportionate restriction on freedom of expression, partly because everyone, adults included, would have had to prove their age ([LCP](https://lcp.fr/actualites/reseaux-sociaux-pourquoi-le-conseil-constitutionnel-a-censure-l-interdiction-pour-les), in French). The government said it would rewrite the text.
+- **France:** Parliament adopted a ban on social media accounts for under-15s in July 2026, due to start on 1 September 2026 for new accounts. On 14 August 2026, the Conseil constitutionnel struck it down as a disproportionate restriction on freedom of expression, partly because everyone, adults included, would have had to prove their age. The French government said it would rewrite the text.
 
 In the EU, the Digital Services Act also bars platforms from showing ads based on profiling to users they know are minors. If your customers are teenagers, do not build your marketing on one app: these rules will keep moving.
 
 ### The US deal changes nothing in Europe
 
-On 22 January 2026, TikTok closed the deal that moves its American app into a joint venture with a majority of US investors: Oracle, Silver Lake and MGX hold 15% each, and ByteDance keeps 19.9% ([Axios](https://axios.com/2026/01/23/tiktok-deal-trump-app-ban)). The American recommendation algorithm is to be retrained on US users' data. None of this concerns accounts in the UK or France: the app, your profile and your ads work as before.
+On 22 January 2026, TikTok closed the deal that moves its American app into a joint venture with majority American ownership: Oracle, Silver Lake and the Abu Dhabi investment firm MGX hold 15% each, and ByteDance keeps 19.9% ([Axios](https://axios.com/2026/01/23/tiktok-deal-trump-app-ban)). The American recommendation algorithm is to be retrained on US users' data. None of this concerns accounts in the UK or France: the app, your profile and your ads work as before.
 
 ## TikTok for small business: my honest verdict
 
@@ -99,11 +102,11 @@ Skip it, or keep it for later, in three cases:
 
 If TikTok fits your business, treat it as a test with an end date, not as a new habit you cannot drop.
 
-1. **Switch to a business account.** It is free: in the app, open **Settings and privacy**, then **Account**, then **Switch to Business Account**.
+1. **Switch to a business account.** It is free: in the app, tap your profile, then the menu (three lines), **Settings and privacy**, **Account** and **Switch to Business Account**, and pick a category. The wording varies a little between app versions, and you can switch back from the same menu at any time.
 2. **Write a clear profile.** Your business name, your town, what you do in one line, and a link to a page of your website that loads fast on a phone and offers one next step: call, book or buy. That link only pays off if the page turns a curious visitor into an enquiry, which is the whole job of a {{< a page="/services/websites" >}}well-built business website{{< /a >}}.
 3. **Film what you already do.** The process, the before-and-after, the answer to a question customers ask every week. Post the same vertical video to YouTube Shorts and Instagram Reels, from your original file rather than a copy with TikTok's watermark; my article on the {{< a key="instagram-algorithm-2026" >}}Instagram algorithm in 2026{{< /a >}} covers the Instagram side.
 4. **Hold a pace you can keep.** Two or three videos a week for 90 days do more than ten in the first week and nothing after.
-5. **Measure enquiries, not views.** Put a tracked link on your profile and ask every new customer how they found you.
+5. **Measure enquiries, not views.** Put a link with UTM tags on your profile, like the one below, so those visits show up as TikTok in your website analytics, and ask every new customer how they found you.
 
 ```text
 https://www.yourbusiness.co.uk/?utm_source=tiktok&utm_medium=social&utm_campaign=profile

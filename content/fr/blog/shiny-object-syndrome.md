@@ -31,7 +31,7 @@ Chaque mois apporte un nouvel outil, un nouveau réseau ou une nouvelle tactique
 
 Je n’ai pas de grande théorie sur le marketing : c’est parfois pénible, mais toute entreprise en a besoin. Une chose, en revanche, me paraît certaine : il est facile de se laisser séduire par les nouveaux outils et les nouvelles pratiques, alors que ce qui paie, c’est de se concentrer sur les canaux que vous utilisez déjà et de les faire prospérer. Le marketing fait beaucoup de bruit. Ce bruit est voulu, et les dirigeants de petites entreprises ou de petites équipes s’y laissent facilement prendre.
 
-Mon guide pour {{< a key="how-to-get-more-clients" >}}trouver des clients quand on est une petite entreprise{{< /a >}} compare les canaux d’acquisition eux-mêmes. Cet article répond à la question suivante : combien en faire tourner à la fois, et quand en ajouter un autre.
+Mon guide pour {{< a key="how-to-get-more-clients" >}}trouver des clients quand on est une petite entreprise{{< /a >}} compare les canaux d’acquisition eux-mêmes. Cet article répond à la question suivante : combien en faire tourner à la fois, et quand en ajouter un autre.
 
 ## À quoi ressemble le syndrome de l’objet brillant dans une petite entreprise
 
@@ -74,7 +74,7 @@ L’abonnement est la plus petite partie de la facture. Chaque nouveau canal dem
 
 Ce que vous perdez surtout, c’est l’effet cumulé. Un canal s’améliore à mesure que vous le pratiquez, parce que vous apprenez ce qui marche :
 
-- Cold emailing : je fais des tests A/B sur les textes, et avec le temps, une campagne obtient en général plus de réponses, puisque je sais quelle formulation a marché et laquelle non. Le troisième email apporte aussi des réponses positives : les gens occupés avaient simplement oublié de répondre aux deux premiers. Arrêtez-vous après deux emails et ces réponses n’arriveront jamais.
+- Cold emailing : je fais des tests A/B sur les textes, et avec le temps, une campagne obtient en général plus de réponses, puisque je sais quelle formulation a marché et laquelle non. Le troisième email apporte aussi des réponses positives : les gens occupés avaient oublié les deux premiers, ou n’avaient pas eu le temps d’y répondre. Arrêtez-vous après deux emails et vous passez à côté de ces réponses.
 - Référencement : les pages continuent de travailler après leur publication, et chaque nouvelle page soutient les autres. Les abandonner au bout de six semaines, c’est partir avant l’arrivée des résultats.
 - Pinterest et YouTube Shorts : chaque publication s’ajoute à celles qui apportent déjà des vues.
 
@@ -90,9 +90,9 @@ Côté outils, je m’en tiens à ce qui marche. J’ai commencé le cold emaili
 
 Pour une entreprise B2B, le cold emailing est, à mon avis, le canal qui peut vraiment vous faire décoller, et vos concurrents le feront de toute façon. Mais la méthode qui suit ne dépend pas de mon canal préféré. Je serai toujours honnête avec vous, pour que vous gardiez le cap sur ce qui peut marcher pour vous sur la durée, avec les outils et le budget dont vous disposez. Parfois, c’est le cold emailing ; pour un commerce de proximité, ce sera peut-être la recherche Google et votre fiche d’établissement (l’ancien Google My Business).
 
-## Une méthode simple : maîtriser un canal, puis ajouter le suivant
+## Comment surmonter le syndrome de l’objet brillant : maîtriser un canal, puis le suivant
 
-Le remède au syndrome de l’objet brillant n’est pas la volonté : c’est une routine décidée à l’avance. Ce qui suit relève du conseil général, pas d’une formule tirée de mes propres chiffres, et vaut pour n’importe quel canal.
+Le remède n’est pas la volonté : c’est une routine décidée à l’avance. Ce qui suit relève du conseil général, pas d’une formule tirée de mes propres chiffres, et vaut pour n’importe quel canal.
 
 ### 1. Listez les canaux que vous utilisez déjà
 

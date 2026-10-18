@@ -63,13 +63,13 @@ A custom channel group is your own version of GA4's list of channels. Unlike the
 
 ### Create the group
 
-In GA4, open **Admin**, then **Channel groups** under **Data display**, and click **Create new channel group**. GA4 starts you with a copy of the default group. Give yours a name, for example "Channels with AI".
+In GA4, open **Admin**, then **Channel groups** under **Data display**, and create a new channel group. GA4 starts you with a copy of the default group. Give yours a name, for example "Channels with AI". A standard GA4 property allows two custom channel groups, and this tutorial needs only one.
 
 {{< screenshot id="track-ai-traffic-02" alt="GA4 Admin, Channel groups page with the button to create a new channel group" >}}
 
 ### Add the AI channel
 
-Add a new channel called "AI assistants". Set its condition on the source, choose **matches regex** and paste this value:
+At the bottom of the channel list, click **Add new channel** and call it "AI assistants". Set its condition to **Source**, choose **matches regex** and paste this value:
 
 ```
 .*(chatgpt|chat\.openai|perplexity|claude\.ai|gemini\.google|copilot|deepseek|chat\.mistral|grok).*
@@ -87,7 +87,7 @@ Save the channel, then reorder the list to put "AI assistants" at the very top. 
 
 ### Read it in your reports
 
-Back in **Traffic acquisition**, click the first column's title, which opens a drop-down, and pick your channel group instead of the default one. Set a date range that starts before 13 May 2026: the "AI assistants" row now shows the older visits too.
+Back in **Traffic acquisition**, click the first column's title, which opens a drop-down, and pick your channel group instead of the default one. Set a date range that starts before 13 May 2026: the "AI assistants" row now shows the older visits too. Pick the group in the report like this rather than making it your primary channel group in Admin, because a primary group only applies from the day you set it.
 
 {{< screenshot id="track-ai-traffic-05" alt="Traffic acquisition report using the custom channel group, with AI visits from before May 2026" >}}
 
@@ -132,14 +132,14 @@ Since 29 August 2025, Clarity has sorted visits from AI assistants such as ChatG
 
 I use Clarity to see where people engage, whether they came for something specific and what makes them leave, so I can fix it: the copy, a picture or the user experience. Visitors sent by an assistant arrive with a question already in mind, which makes their sessions quick to read.
 
-1. Open your Clarity project and filter the **Dashboard** on the AIPlatform channel to see which pages these visitors read.
+1. Open your Clarity project's **Dashboard**, go to the **Channels** tab of the card that lists your traffic sources (called Referrer or Traffic, depending on the version) and click **AIPlatform**. The dashboard then shows only these visits and the pages they read.
 2. Apply the same filter in **Recordings** and watch five sessions.
 3. Note where people stop scrolling, what they click and whether they reach your contact page or your phone number.
 4. Fix the most common problem first, then come back a month later.
 
 {{< screenshot id="track-ai-traffic-09" alt="Microsoft Clarity recordings filtered on the AIPlatform channel" >}}
 
-Clarity has also made a Citations report generally available, aimed at citations in AI answers rather than visits. If Clarity is not on your site yet, my {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity tutorial{{< /a >}} covers the tracking code and the consent signal Clarity has needed for visitors from the UK and the EEA since 31 October 2025.
+Clarity's free Citations report, now generally available, measures something else: how often AI answers, mostly Copilot's, cite your site. If Clarity is not on your site yet, my {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity tutorial{{< /a >}} covers the tracking code and the consent signal Clarity has needed for visitors from the UK and the EEA since 31 October 2025.
 
 ## Step 6: count enquiries, not just visits
 

@@ -39,7 +39,7 @@ WordPress is still a sound choice if you have the budget: my clients with a big 
 
 One honest limit before you commit. Squarespace is closed: you get no access to the source code, so a custom-coded site or a carefully built WordPress site gives a specialist more room for technical SEO, and may rank higher for it. The work matters more than the platform, though. The first site I built for Pilotech, an HVAC installer near Paris, was on Squarespace, and **it ranks first or second on Google** with the basics done right: the right keywords and careful metadata. The {{< a page="/projects/pilotech" >}}Pilotech project page{{< /a >}} shows its sites.
 
-If your WordPress site has been hacked, deal with that first. The import copies the content of your posts as it is, so spam links an attacker slipped into them would come across too. Follow my checklist for a {{< a key="wordpress-site-hacked" >}}hacked WordPress site{{< /a >}} before you export anything.
+If your WordPress site has been hacked, deal with that first: the import copies your posts as they are, spam links included. Follow my checklist for a {{< a key="wordpress-site-hacked" >}}hacked WordPress site{{< /a >}} before you export anything.
 
 ## What moves from WordPress to Squarespace, and what stays behind
 
@@ -55,8 +55,6 @@ Squarespace's import reads the .xml file that WordPress exports. According to [S
 | Plugin content: forms, sliders, page builder layouts, SEO titles and descriptions | No | Rebuild the features and paste the SEO text back (step 6) |
 | Theme, design and CSS | No | Choose a template and rebuild the design |
 | Your URLs | They change format | Keep or redirect them (step 5) |
-
-The import is a one-time copy from a file, not a sync. Anything you publish on WordPress after the export has to be added by hand, so plan the move for a quiet period.
 
 ## Step 1: list every URL of your WordPress site
 
@@ -81,7 +79,7 @@ If the file turns out too large to import, export by date range instead and impo
 
 {{< screenshot id="wordpress-to-squarespace-02" alt="WordPress Export screen under Tools, with All content selected and the Download Export File button" >}}
 
-{{< callout type="tip" >}}From the moment you export, **freeze the content**: no new posts or pages on WordPress until the move is finished. Anything added later will not be in the file, and it is easy to forget.{{< /callout >}}
+{{< callout type="tip" >}}The import is a one-time copy, not a sync. From the moment you export, **freeze the content**: no new posts or pages on WordPress until the move is finished, or you will have to add them by hand.{{< /callout >}}
 
 ## Step 3: import the file into Squarespace
 
@@ -104,7 +102,6 @@ The import gives you raw content inside a template. Go through the site and rebu
 - **Galleries and captions**: recreate them with gallery and image blocks.
 - **Forms, sliders, booking tools and anything else a plugin did**: replace them with Squarespace blocks or extensions, or let them go.
 - **Links inside your posts**: they still point to the old addresses. Update the ones that matter most; the redirects in step 5 catch the rest.
-- **Alt text**: check it on every image that came across.
 
 Some features need a little code. I usually add some to the Squarespace sites I build, and clients call me for that part. I keep it to small additions, nothing destructive: a Squarespace site loaded with custom code is no longer easy for its owner to edit. Code injection is available from the Core plan upwards, not on Basic.
 
@@ -112,7 +109,7 @@ Some features need a little code. I usually add some to the Squarespace sites I 
 
 ## Step 5: keep your URLs, or redirect them with 301s
 
-This is the step that protects your rankings. When an old address returns an error, the page drops out of Google's results over time, and the links other sites gave it lead nowhere. A 301 redirect says the page has moved for good, and Google treats it as a strong signal that the new address replaces the old one.
+This is the step that protects your rankings: without a redirect, an old address drops out of Google's results over time, and the links other sites gave it lead nowhere. A 301 redirect says the page has moved for good, and Google treats it as a strong signal that the new address replaces the old one.
 
 ### Keep the same slugs where you can
 

@@ -9,14 +9,14 @@ lastmod: 2026-10-17T08:57:00+02:00
 category: "domains"
 article_type: "comparison"
 keywords: ["Hostinger vs OVH", "Hostinger vs Infomaniak", "OVH vs Infomaniak", "web hosting for small business UK", "web hosting comparison"]
-summary: "For a UK small business owner who runs the website alone, I recommend Infomaniak over Hostinger and OVHcloud: it keeps your data in Switzerland and is the easiest of the three to live with. Hostinger is cheap only if you prepay four years: Premium costs £2.99 (about $4) a month excluding VAT, then renews at £10.99 (about $15). OVHcloud suits technical users, and a Squarespace site needs no separate host at all."
+summary: "For a UK small business owner who runs the website alone, I recommend Infomaniak over Hostinger and OVHcloud: it keeps your data in Switzerland, while the other two are a bit complicated to handle when hosting is not your job. Hostinger's low price needs four years paid upfront: Premium costs £2.99 (about $4) a month excluding VAT, then renews at £10.99 (about $15). OVHcloud suits technical users, and a Squarespace site needs no separate host at all."
 cover: "web-hosting-comparison"
 cover_alt: "The words Hostinger vs OVH beside two compared panels with a vs badge, behind ribbed glass"
 related: ["infomaniak-review", "hostinger-renewal-transfer", "ovh-dns-squarespace", "spaceship-hosting", "domain-hosting-email-guide"]
 services: ["websites"]
 faq:
   - q: "Is OVH better than Hostinger?"
-    a: "Not for everyone. OVHcloud suits technical users who want a French provider with its own data centres; Hostinger suits hands-on owners who want a low monthly price and accept a long prepaid term. For an owner without technical help, I would choose Infomaniak over both."
+    a: "It depends on who runs the site. OVHcloud suits technical users who want a French provider with its own data centres; Hostinger suits hands-on owners who want a low monthly price and accept a long prepaid term. For an owner without technical help, I would choose Infomaniak over both."
   - q: "Can I change web host without losing my email?"
     a: "Yes, if you prepare the switch. If your email is with another provider, copy its MX and TXT records into the new DNS zone before you change anything. If your mailboxes are at the old host, recreate them at the new provider and move your messages before you cancel."
   - q: "Can a UK business host its website in France or Switzerland?"
@@ -27,20 +27,18 @@ faq:
 
 Hostinger vs OVH is a comparison many small businesses make when they need web hosting: both advertise low monthly prices, and both sell domains, email and hosting from one account. I have added Infomaniak, the Swiss host, because of the three it is the one I recommend to owners who look after their own site.
 
-My view does not come from a review site. I have worked in OVH and Hostinger accounts because my clients were already there, and I discovered Infomaniak the same way. For my own projects I mostly use Spaceship, out of habit.
+My view does not come from a review site. I have worked in OVH and Hostinger accounts because my clients were already there, and I discovered Infomaniak the same way. Out of habit, I mostly use Spaceship myself.
 
 A web host rents you the server space where your website's files live. Your domain name and your email can sit with other companies, and my guide to {{< a key="domain-hosting-email-guide" >}}domain vs hosting vs email{{< /a >}} explains how the three connect. Below, the three hosts are compared on what matters to a small business in the UK: ease of use, the price after the first term, support, where your data lives and what email you get. Prices are those shown at the time of writing (October 2026).
 
 ## Hostinger vs OVH vs Infomaniak at a glance
 
-Each line of this table has its own section further down.
-
 | | Hostinger | OVHcloud | Infomaniak |
 |---|---|---|---|
 | Origin | Lithuania | Roubaix, France, since 1999 | Geneva, Switzerland |
 | Control panel | hPanel | OVHcloud Control Panel | Infomaniak Manager |
-| Starting offer | £2.99 a month on a 48-month term (Premium) | Reduced price for the first period | Prices in Swiss francs or euros |
-| After the first term | £10.99 a month | Higher since the May 2026 price change | Check the renewal line before you order |
+| Starting offer | £2.99 (about $4) a month on a 48-month term (Premium) | A lower first-period price (Starter: £1.39, about $1.85, a month) | No confirmed figure (see below) |
+| After the first term | £10.99 (about $15) a month | £5.19 (about $7) a month for Personal, £2.29 (about $3) for Starter | Check the renewal price before you order |
 | Data location | You choose a data centre region | Its own data centres | Its own data centres in Switzerland |
 | Email | Mailboxes listed in each plan | Email accounts included with hosting | Sold separately, or in kSuite |
 | Best for | Hands-on owners on a tight budget | Technical users and developers | Owners who run their site alone |
@@ -49,7 +47,7 @@ My short verdict: if you will edit the site yourself without technical help, cho
 
 ## First-year price vs renewal: what you really pay
 
-Every host shows two prices: the offer that gets you to sign up, and the price you pay when the first term ends. The second one decides what the site costs you over five years, so it is the one to compare.
+Most hosts show two prices: the offer that gets you to sign up, and the price you pay when the first term ends. The second one decides what the site costs you over the years, so it is the one to compare.
 
 ### Hostinger: cheap if you prepay four years
 
@@ -57,20 +55,20 @@ Hostinger's Premium plan costs £2.99 (about $4) a month excluding VAT, on a 48-
 
 | Hostinger Premium (UK) | Excluding VAT | Including 20% VAT |
 |---|---|---|
-| First 48 months, paid upfront | £143.52 (about $192) | £172.22 |
-| Next 48 months at £10.99 a month | £527.52 (about $707) | £633.02 |
+| First 48 months, paid upfront | £143.52 (about $192) | £172.22 (about $231) |
+| Next 48 months at £10.99 a month | £527.52 (about $707) | £633.02 (about $848) |
 
-This jump is what I hold against Hostinger: the advertised price is real, but it is a four-year deposit, not the monthly cost of a website. Premium also includes a domain for the first year only, after which the domain renews at Hostinger's own rate; my article on {{< a key="hostinger-renewal-transfer" >}}Hostinger renewal prices and moving your domain out{{< /a >}} covers that side.
+This jump is what I hold against Hostinger: the advertised price is real, but it is four years paid upfront, not the monthly cost of a website. Premium also includes a domain for the first year only, after which the domain renews at Hostinger's own rate; my article on {{< a key="hostinger-renewal-transfer" >}}Hostinger renewal prices and moving your domain out{{< /a >}} covers that side.
 
 ### OVHcloud: new ranges and higher prices since May 2026
 
-OVHcloud changed its web hosting on 1 May 2026. The plans are now grouped into three ranges (Eco, Business and one for agencies), with new resources, support access and prices, and existing customers saw their bills rise too. New subscribers get a reduced price for the first period, then pay noticeably more: on OVHcloud's French price list, for example, the Perso plan renews at €5.99 (about £5.20, or $7) a month excluding VAT. Check the pound prices and the renewal line on [OVHcloud's UK web hosting page](https://www.ovhcloud.com/en-gb/web-hosting/) before you order.
+OVHcloud changed its web hosting on 1 May 2026. The plans are now grouped into three ranges (Eco, Business and one for agencies), with new resources, support access and prices, and existing customers saw their bills rise too. New subscribers get a reduced price for the first period, then pay noticeably more. On OVHcloud's UK pages at the time of writing, the entry-level Starter plan (one site) costs £1.39 (about $1.85) a month excluding VAT at first, then renews at £2.29 (about $3); the Personal plan renews at £5.19 (about $7). Check the current figures on [OVHcloud's UK web hosting page](https://www.ovhcloud.com/en-gb/web-hosting/) before you order.
 
-### Infomaniak: no figure from me
+### Infomaniak: read the official price list
 
-Infomaniak shows its prices in Swiss francs or euros, and the reviews I checked disagree on what its web hosting costs today, so I am not quoting a figure. It will rarely be the cheapest offer in year one. Open the official price page, pick your currency and read the renewal price as carefully as you would anywhere else; my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}} goes through its plans and its other services.
+Infomaniak shows its prices in Swiss francs or euros, and review sites disagree on what its web hosting costs today, so I am not quoting a figure. It will rarely be the cheapest offer in year one. Open the official price page, pick your currency and read the renewal price as carefully as you would anywhere else; my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}} goes through its plans and its other services.
 
-{{< callout type="tip" >}}Compare hosts on the **total over four years, renewal included**, with VAT if your business is not VAT-registered. A host that is cheap for four years and three times the price afterwards is not a cheap host.{{< /callout >}}
+{{< callout type="tip" >}}Compare hosts on **the first term plus one renewal**, with VAT if your business is not VAT-registered. A host that is cheap for four years and three times the price afterwards is not a cheap host.{{< /callout >}}
 
 ## Ease of use: which panel can a non-technical owner handle?
 
@@ -110,11 +108,11 @@ It does not suit an owner who wants to forget about hosting. The renewal more th
 
 OVHcloud suits technical users: developers, agencies and businesses that want a French provider with its own data centres, and that may need more than hosting later, such as servers or a long list of domains in one account. It is a long-established company, founded in 1999 and listed on the Paris stock exchange since 2021.
 
-It does not suit an owner who wants to change a phone number on the site and get back to work. The Control Panel is dense, faster help is sold as separate paid support plans, and the May 2026 change showed that the price you sign up at can move. I only work in OVH when a client's domain or site is already there. If it works, I connect it and leave it: moving for the sake of it is rarely worth the risk.
+It does not suit an owner who wants to change a phone number on the site and get back to work. The Control Panel is dense, faster help is sold as separate paid support plans, and the May 2026 change showed that the price you sign up at can move. I only work in OVH when a client's domain or site is already there.
 
 ## Infomaniak: who it suits, and who it does not
 
-Infomaniak suits small businesses that want one provider for the domain, the site and the email, and that care where their data is kept. It is a Geneva company with its own Swiss data centres, and its tools go beyond hosting: kSuite for email and storage, and SwissTransfer for sending large files, which I find far better than WeTransfer. I discovered Infomaniak through clients, like OVH and Hostinger, and it is the one I recommend, even though out of habit I use Spaceship for most of my own work.
+Infomaniak suits small businesses that want one provider for the domain, the site and the email, and that care where their data is kept. It is a Geneva company with its own Swiss data centres, and its tools go beyond hosting: kSuite for email and storage, and SwissTransfer for sending large files, which I find far better than WeTransfer.
 
 It is not the pick if the lowest possible first-year price matters more to you than anything else. And if you want to be billed in pounds, check the currencies on offer before you order.
 
@@ -126,7 +124,7 @@ Check this before you compare hosts, because many small business sites do not ne
 
 - **Squarespace, Wix or Shopify**: hosting is part of the subscription. You need a domain and an email provider, not a web host. Every client who came to me from WordPress called in an emergency, so I move owners who edit their site alone to Squarespace, where hosting, security and updates come with the plan.
 - **A simple static site**, coded by hand or built with AI: GitHub Pages hosts it for free, within limits, and this site runs on it. GitHub says Pages is [not meant to run an online shop or a SaaS](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits), so keep it for a brochure site.
-- **WordPress, a custom PHP site or a shop on your own software**: you need a host, and this comparison applies. Spaceship, which I use out of habit, sells hosting too, and my guide to {{< a key="spaceship-hosting" >}}Spaceship hosting{{< /a >}} explains which of its products fits which site.
+- **WordPress, a custom PHP site or a shop on your own software**: you need a host, and this comparison applies. Spaceship also sells hosting, and my guide to {{< a key="spaceship-hosting" >}}Spaceship hosting{{< /a >}} explains which of its products fits which site.
 
 ## How to choose in five minutes
 

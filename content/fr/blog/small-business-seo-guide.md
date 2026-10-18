@@ -9,14 +9,14 @@ lastmod: 2026-10-17T09:52:00+02:00
 category: "seo"
 article_type: "pillar"
 keywords: ["référencement naturel", "SEO", "qu’est-ce que le SEO", "référencement naturel petite entreprise", "faire son référencement soi-même", "améliorer son référencement naturel"]
-summary: "Le référencement naturel (SEO) fait apparaître votre site dans les résultats gratuits de Google, et dans ses réponses IA, quand on cherche ce que vous vendez : les demandes viennent de gens qui cherchent déjà. Vous pouvez en faire l’essentiel vous-même, dans cet ordre : les mots de vos clients, une page par service, des réponses à leurs questions, une fiche Google complète, puis la technique. Comptez quatre mois à un an avant un flux régulier de demandes, d’après Google."
+summary: "Le référencement naturel (SEO) fait apparaître votre site dans les résultats gratuits de Google, et dans ses réponses IA, quand on cherche ce que vous vendez : les demandes viennent de gens qui cherchent déjà. Vous pouvez en faire l’essentiel vous-même, dans cet ordre : les mots de vos clients, une page par service, des réponses à leurs questions, une fiche Google complète, puis la technique. D’après Google, comptez quatre mois à un an avant d’en voir les bénéfices."
 cover: "small-business-seo-guide"
 cover_alt: "Le mot SEO et une courbe en hausse jusqu’à la première place, à côté d’un ordinateur portable et de deux classeurs"
 related: ["keyword-research-small-business", "local-seo-guide", "how-long-does-seo-take", "google-search-console-tutorial", "google-business-profile-setup"]
 services: ["seo"]
 faq:
   - q: "Peut-on faire son référencement naturel soi-même ?"
-    a: "Oui. L’essentiel tient à des pages de services claires, une fiche Google complète et un coup d’œil mensuel à la Search Console, avec des outils gratuits. Faites appel à un spécialiste pour une refonte, un site piraté ou un marché où des concurrents bien installés occupent déjà la première page."
+    a: "Oui. L’essentiel tient à des pages de services claires, une fiche Google complète et un coup d’œil mensuel à la Search Console, avec des outils gratuits. Faites appel à un spécialiste pour un changement de plateforme, un site piraté ou un marché où des concurrents bien installés occupent déjà la première page."
   - q: "Le référencement naturel est-il gratuit ?"
     a: "Google ne fait pas payer ses résultats naturels, et la Search Console, la fiche Google, Google Trends et le planificateur de mots clés sont gratuits. Le SEO coûte du temps, ou les honoraires de la personne que vous payez pour le faire. Un outil payant comme Semrush reste facultatif pour un seul site."
   - q: "Quelle différence entre SEO et SEA ?"
@@ -42,7 +42,7 @@ Pour une petite entreprise, le but n’est pas le trafic pour le trafic. Ce sont
 Quand quelqu’un fait une recherche, votre entreprise peut apparaître à trois endroits :
 
 - les résultats classiques, la liste de pages sous les annonces ;
-- les résultats sur la carte, pour les recherches locales comme « électricien Créteil » ou « dépannage chaudière Lyon », qui viennent de votre fiche Google et relèvent du {{< a key="local-seo-guide" >}}référencement local{{< /a >}} ;
+- les résultats sur la carte, pour les recherches locales comme « électricien Créteil » ou « dépannage chaudière Lyon », qui viennent de votre fiche Google et relèvent du {{< a key="local-seo-guide" >}}référencement local{{< /a >}} ;
 - les réponses de l’IA : les Aperçus IA et le Mode IA de Google, et les assistants comme ChatGPT, Claude, Perplexity ou Gemini quand ils cherchent sur le web.
 
 Google reste le point de départ : il domine très largement la recherche en France, où Bing, deuxième, ne pèse qu’environ 5,5 % des recherches d’après [Statcounter (septembre 2026)](https://gs.statcounter.com/search-engine-market-share/all/france). Le SEO est d’ailleurs l’un des canaux par lesquels mes propres clients me trouvent, après le bouche-à-oreille et les cold emails : je connais les deux côtés de la barre de recherche.
@@ -51,13 +51,13 @@ Google reste le point de départ : il domine très largement la recherche en Fr
 
 Plus longtemps qu’on ne l’espère. Dans [ses conseils pour faire appel à un spécialiste du SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo?hl=fr), Google indique qu’il faut le plus souvent de quatre mois à un an pour mettre en place les améliorations et commencer à en voir les bénéfices. Une nouvelle page peut être indexée en quelques jours et se positionner sur des recherches très précises en quelques semaines ; un flux régulier de demandes vient plus tard.
 
-Pilotech fait figure d’exception. Son site s’est hissé en tête des résultats un ou deux jours après sa mise en ligne, ce qui est très inhabituel, et je ne le promettrais à personne. Il vend un service très précis, la climatisation sans unité extérieure, à des gens qui le cherchent avec ces mots-là. Vous pouvez voir les pages sur le {{< a page="/projects/pilotech-teknopoint" >}}projet Pilotech Teknopoint{{< /a >}}, et toute l’histoire, étape par étape, dans mon {{< a key="pilotech-seo-case-study" >}}étude de cas SEO{{< /a >}}.
+Pilotech fait figure d’exception. Son site s’est hissé en tête sur l’une de ses recherches un ou deux jours après sa mise en ligne, ce qui est très inhabituel, et je ne le promettrais à personne. Il vend un service très précis, la climatisation sans unité extérieure, à des gens qui le cherchent avec ces mots-là. Vous pouvez voir les pages sur le {{< a page="/projects/pilotech-teknopoint" >}}projet Pilotech Teknopoint{{< /a >}}, et toute l’histoire, étape par étape, dans mon {{< a key="pilotech-seo-case-study" >}}étude de cas SEO{{< /a >}}.
 
 Parce que le SEO prend du temps, je mets les attentes par écrit avant de commencer. J’ai appris cette leçon à mes dépens, avec un client qui a refusé de payer au bout de six mois parce que les résultats n’étaient pas encore là. Désormais, le plan précise ce que je vais faire, ce que personne ne peut promettre et quand nous ferons le point ensemble. Si vous confiez votre SEO à quelqu’un, demandez la même chose ; si vous le faites vous-même, écrivez-le pour vous. Mon article {{< a key="how-long-does-seo-take" >}}combien de temps pour être référencé sur Google{{< /a >}} détaille le calendrier, étape par étape.
 
 ## Le référencement naturel pas à pas : l’ordre qui fonctionne
 
-L’ordre compte. C’est celui que j’ai suivi pour Pilotech : les pages d’abord, puis les contenus, puis la fiche Google, puis les corrections techniques. Avant tout cela vient la recherche de mots-clés, parce qu’une page ne peut se positionner que sur des mots choisis exprès.
+L’ordre compte. Pour Pilotech, j’ai travaillé les pages d’abord, puis les contenus, puis la fiche Google, puis les corrections techniques. La recherche de mots-clés passe avant tout cela, parce qu’une page ne peut se positionner que sur des mots choisis exprès.
 
 | Étape | Ce que vous faites | Outils gratuits |
 |---|---|---|
@@ -67,7 +67,7 @@ L’ordre compte. C’est celui que j’ai suivi pour Pilotech : les pages d’
 | 4. Fiche Google | Valider et compléter la fiche, recueillir des avis | Google Business Profile |
 | 5. Technique | Vérifier l’indexation, la vitesse, le mobile et les langues | Google Search Console, PageSpeed Insights |
 
-Ensuite, vous mesurez, vous ajustez et vous continuez. Ne sautez pas directement à l’étape 5 parce qu’elle paraît plus technique, donc plus sérieuse : un site rapide aux pages floues n’a toujours rien à positionner. Si vous n’avez pas encore de site, commencez par mon guide pour {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}} : le SEO s’intègre bien plus facilement dès la première page qu’après coup.
+Ensuite, vous mesurez, vous ajustez et vous continuez. Ne sautez pas directement à l’étape 5 parce qu’elle paraît plus technique, donc plus sérieuse : un site rapide aux pages floues n’a toujours rien à positionner. Si vous n’avez pas encore de site, commencez par mon guide pour {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}} : le SEO s’intègre bien plus facilement dès la première page qu’après coup.
 
 ## Étape 1 : trouver les mots que tapent vos clients
 
@@ -76,7 +76,7 @@ La recherche de mots-clés consiste à trouver les recherches que font vos futur
 1. Partez des mots de vos clients. Relisez vos emails, vos demandes de devis et vos notes d’appels : les gens tapent rarement le jargon de votre métier, ils tapent leur problème et leur ville.
 2. Comparez les formulations dans Google Trends. L’outil montre quelle formulation les gens utilisent le plus, sur une échelle d’intérêt relatif de 0 à 100, pas en volumes de recherche. Mon tuto pour {{< a key="google-trends-tutorial" >}}utiliser Google Trends{{< /a >}} explique comment lire la courbe.
 3. Vérifiez les volumes dans le planificateur de mots clés de Google. Il est gratuit dans Google Ads et, sans dépense publicitaire, affiche les volumes en fourchettes, ce qui suffit pour comparer. Voici mon tuto du {{< a key="google-keyword-planner-tutorial" >}}planificateur de mots clés Google{{< /a >}}, à utiliser sans lancer de campagne.
-4. Regardez ce que paient les annonceurs. C’est surtout pour cela que j’utilise Semrush : un mot-clé que les annonceurs paient cher est un mot-clé qui rapporte, alors je le vise en SEO plutôt qu’en SEA. Le compte gratuit donne 10 requêtes par jour, et mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} dit quand la version payante vaut la dépense.
+4. Regardez ce que paient les annonceurs. Le planificateur affiche gratuitement une fourchette d’enchères pour le haut de page, et Semrush, que j’utilise pour ma recherche de mots-clés, donne le coût par clic. Un mot-clé que les annonceurs paient cher est un mot-clé qui rapporte, alors je le vise en SEO plutôt qu’en SEA. Le compte gratuit de Semrush donne 10 requêtes par jour, et mon {{< a key="semrush-review" >}}avis sur Semrush{{< /a >}} dit quand la version payante vaut la dépense.
 5. Faites lire les plaintes à l’IA. J’utilise des outils de deep research pour repérer ce dont les gens se plaignent le plus dans un secteur et les mots qui reviennent sans cesse, comme je l’explique dans {{< a key="deep-research-copywriting-seo" >}}ma méthode deep research pour le copywriting et le SEO{{< /a >}}.
 
 Visez ensuite **des recherches précises que vous pouvez gagner** plutôt que des termes larges déjà tenus par les grandes enseignes. Le site Teknopoint de Pilotech ne court pas après « climatisation » : il répond à « climatisation sans unité extérieure », les mots exacts que tapent ses acheteurs.
@@ -120,11 +120,11 @@ Mon guide de {{< a key="write-seo-blog-posts" >}}rédaction SEO{{< /a >}} repren
 
 Votre fiche d’établissement Google (l’ancienne fiche Google My Business) présente gratuitement votre entreprise sur Google Maps et dans les résultats sur la carte. Pour une recherche locale, c’est souvent la première chose que l’on voit, avant votre site.
 
-Google classe ces résultats locaux selon trois critères : la pertinence, la distance et la notoriété. Les avis comptent, et personne ne peut payer Google pour une meilleure position. Pour créer la fiche, revendiquez-la ou créez-la sur business.google.com, validez-la (le plus souvent par une courte vidéo de vos locaux, de votre véhicule ou de vos outils), choisissez une catégorie principale précise, puis renseignez vos services, votre zone d’intervention, vos horaires et de vraies photos. Mon tuto pour créer votre {{< a key="google-business-profile-setup" >}}fiche Google My Business{{< /a >}} détaille chaque étape.
+Google classe ces résultats locaux selon trois critères : la pertinence, la distance et la notoriété. Les avis comptent, et personne ne peut payer Google pour une meilleure position. Pour créer la fiche, revendiquez-la ou créez-la sur business.google.com, puis validez-la. Google choisit la méthode et, pour une nouvelle fiche, il s’agit le plus souvent d’une vidéo filmée d’un seul tenant avec votre téléphone, qui montre où vous êtes, votre entreprise et la preuve que vous la gérez. Choisissez ensuite une catégorie principale précise, puis renseignez vos services, votre zone d’intervention, vos horaires et de vraies photos. Mon tuto pour créer votre {{< a key="google-business-profile-setup" >}}fiche Google My Business{{< /a >}} détaille chaque étape.
 
-{{< callout type="warning" >}}**N’achetez jamais d’avis, n’en inventez jamais.** En France, les faux avis sont des pratiques commerciales trompeuses, interdites en toutes circonstances par le Code de la consommation, et la DGCCRF les traque. Demandez plutôt un avis sincère à chaque client satisfait, sans contrepartie.{{< /callout >}}
+{{< callout type="warning" >}}**N’achetez jamais d’avis, n’en inventez jamais.** En France, le Code de la consommation range les faux avis parmi les pratiques commerciales réputées trompeuses en toutes circonstances, et la DGCCRF les contrôle. Demandez plutôt un avis sincère à chaque client satisfait, sans contrepartie.{{< /callout >}}
 
-Faites vivre la fiche avec des {{< a key="google-business-profile-posts" >}}publications Google My Business{{< /a >}} : actualités, offres et événements. J’y trouve un endroit bien plus agréable pour publier que la plupart des réseaux sociaux. Et gardez chaque information exacte : Google a retiré les anciennes questions-réponses des fiches au profit de réponses générées par l’IA dans Maps, qui s’appuient sur votre fiche, vos avis, votre site et d’autres sources.
+Faites vivre la fiche avec des {{< a key="google-business-profile-posts" >}}publications Google My Business{{< /a >}} : actualités, offres et événements. J’y trouve un endroit bien plus agréable pour publier que la plupart des réseaux sociaux. Et gardez chaque information exacte : Google a retiré les anciennes questions-réponses des fiches au profit de réponses générées par l’IA dans Maps, qui s’appuient sur votre fiche, vos avis, votre site et d’autres sources.
 
 ## Étape 5 : régler les bases techniques
 
@@ -164,8 +164,8 @@ Mon conseil : ne courez pas après chaque nouveau sigle. GEO, AEO, AIO : chaqu
 
 Inutile de payer un tableau de bord. Trois outils gratuits couvrent les besoins d’une petite entreprise :
 
-- La Google Search Console. Une fois par mois, ouvrez le rapport Performances pour les clics, les impressions, la position moyenne et les recherches qui ont affiché vos pages. Le filtre des requêtes de marque, si votre site y a accès, sépare les recherches sur votre nom de celles sur votre service, que le SEO doit gagner. Depuis le 31 août 2026, un rapport consacré à l’IA générative montre aussi vos impressions dans les Aperçus IA et le Mode IA, sans les clics.
-- Les statistiques de votre fiche Google : appels, demandes d’itinéraire et clics vers votre site depuis la recherche Google et Maps.
+- La Google Search Console. Une fois par mois, ouvrez le rapport Performances pour les clics, les impressions, la position moyenne et les recherches qui ont affiché vos pages. Le filtre des requêtes de marque, si votre site y a accès, sépare les recherches sur votre nom de celles sur votre service, que le SEO doit gagner. Depuis le 31 août 2026, tous les sites disposent aussi d’un rapport consacré à l’IA générative, qui montre vos impressions dans les Aperçus IA et le Mode IA, mais pas les clics.
+- Les performances de votre fiche Google, une fois celle-ci validée : appels, demandes d’itinéraire et clics vers votre site depuis la recherche Google et Maps.
 - Microsoft Clarity, qui montre où les visiteurs s’attardent et quelles parties d’une page les font fuir, pour savoir si le problème vient du texte, d’une image ou de la mise en page. Voici mon tuto {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity{{< /a >}}.
 
 Regardez une fois par mois plutôt que chaque jour : les positions bougent, surtout pendant les mises à jour majeures de Google (les core updates), comme celles de mars et de mai 2026. Et souvenez-vous que **le chiffre qui compte n’est dans aucun de ces outils** : ce sont les appels et les demandes de devis. Demandez à chaque nouveau client comment il a connu votre entreprise, et notez-le.

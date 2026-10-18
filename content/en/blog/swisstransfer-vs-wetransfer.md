@@ -18,9 +18,9 @@ faq:
   - q: "Does the recipient need an account to download a SwissTransfer?"
     a: "No. The recipient opens the link, types the password if you set one, and downloads the files in the browser, on a computer or a phone."
   - q: "Can I put my logo on SwissTransfer?"
-    a: "Yes, with one of Infomaniak's paid kSuite offers. You can then customise the SwissTransfer interface with your logo, colours, background images and links to your social media accounts, and the Custom Brand option customises the link addresses too."
+    a: "Yes, but not on the free version. With a paid Infomaniak kSuite offer, you can customise the SwissTransfer interface with your logo, colours and background images, plus links to your social media accounts on kSuite Business and Enterprise. The Custom Brand option customises the link addresses too."
   - q: "What happens when a SwissTransfer or WeTransfer link expires?"
-    a: "The link stops working and the files are deleted from the service. The recipient has to ask the sender for a new transfer, so download what you receive as soon as it arrives."
+    a: "The link stops working and the files are deleted. On SwissTransfer, an expired transfer cannot be reactivated, not even by Infomaniak's support, so the recipient has to ask the sender for a new one: download what you receive as soon as it arrives."
   - q: "Does SwissTransfer show adverts?"
     a: "Infomaniak presents SwissTransfer as free, with no registration and no advertising. The company earns its money from paid services such as hosting, domain names and kSuite."
 ---
@@ -29,7 +29,7 @@ The WeTransfer alternative I recommend is SwissTransfer. It is free, it needs no
 
 My verdict fits in one line: SwissTransfer is way better than WeTransfer. WeTransfer is not a bad service, and it still suits teams that pay for it, but its free plan has shrunk so much that one video or one folder of full-resolution photos can use up a whole month's allowance.
 
-This comparison puts the two side by side, explains what changed at WeTransfer and what it means for your clients' files, and ends with a checklist for sending large files safely. SwissTransfer belongs with the other {{< a key="small-business-tools-guide" >}}small business tools{{< /a >}} I recommend: it does one job, costs nothing and asks nothing of you.
+This comparison puts the two side by side, explains what changed at WeTransfer and what it means for your clients' files, and ends with a checklist for sending large files safely. SwissTransfer belongs with the other {{< a key="small-business-tools-guide" >}}small business tools{{< /a >}} I recommend: it does one job, and it costs nothing.
 
 ## SwissTransfer vs WeTransfer at a glance
 
@@ -43,7 +43,7 @@ A file transfer service stores your files for a few days and gives you a downloa
 | Paid options | Infomaniak's kSuite offers: your own branding, a transfer history, unlimited downloads, up to 60 days on kSuite Enterprise | Starter, Ultimate and Teams plans, plus Enterprise |
 | Best for | Anyone who sends large files and wants to pay nothing | Teams that already pay for a WeTransfer plan |
 
-SwissTransfer also needs no account to send, and lets you add a password and cap the number of downloads (up to 250) for free. The details, plan by plan, are on [Infomaniak's help page about SwissTransfer limits](https://www.infomaniak.com/en/support/faq/2929/understanding-swisstransfer-data-limits). WeTransfer adjusts its limits from time to time, so check the [WeTransfer plans page](https://wetransfer.com/plans) before you count on the figures above.
+SwissTransfer also lets you add a password and cap the number of downloads (up to 250) for free. The details, plan by plan, are on [Infomaniak's help page about SwissTransfer limits](https://www.infomaniak.com/en/support/faq/2929/understanding-swisstransfer-data-limits). WeTransfer counts its free allowance over a rolling 30 days and adjusts its limits from time to time, so check [WeTransfer's help page on plan limits](https://wetransfer.com/help-center/subscriptions/plan-limits) before you count on the figures above.
 
 ## Why I recommend SwissTransfer as a WeTransfer alternative
 
@@ -53,7 +53,7 @@ On the points that matter when you send files for work, SwissTransfer wins:
 
 - The free limit is in another league. One SwissTransfer can carry 50 GB; WeTransfer's free plan allows 3 GB in total over 30 days. **A single SwissTransfer holds more than a year of WeTransfer's free allowance.**
 - Your recipient has time. Files can stay online for up to 30 days, against 3 days on WeTransfer's free plan. Send a file on a Friday to a client who is away for the week, and on WeTransfer it has gone before they are back.
-- There is no account and nothing to cancel. You open the site, add your files and get a link: no sign-up, no subscription to remember.
+- There is no account and nothing to cancel. You open the site, add your files, confirm your email address and get a link: no sign-up, no subscription to remember.
 - A password and a download limit come free, which matters for contracts, payslips or anything with personal data in it.
 - Your files stay in Switzerland, with a company that sells hosting, email and storage to businesses.
 
@@ -63,7 +63,7 @@ Switching here is not the shiny-object chase I warn small business owners about.
 
 For years, WeTransfer's free version meant 2 GB per transfer, kept for a week. It has been cut back since. At the time of writing, the free plan allows 10 transfers or 3 GB in total over any 30 days, whichever comes first, and the files expire after 3 days.
 
-That covers a signed contract, a logo pack or a short presentation. It does not cover a video, a photo shoot or the images for a new website, and three days is short if your recipient is on holiday or simply busy that week.
+That covers a signed contract, a logo pack or a short presentation. It does not cover video footage, a photo shoot or the images for a new website, and three days is short if your recipient is on holiday or simply busy that week.
 
 The paid plans, Starter, Ultimate and Teams (plus Enterprise for large organisations), raise those limits to different degrees. Prices depend on your country and on monthly or yearly billing, so I am not quoting them here: compare them on the [WeTransfer plans page](https://wetransfer.com/plans).
 
@@ -73,7 +73,7 @@ If your team pays for WeTransfer and it works for you, I would not move everyone
 
 ### SwissTransfer keeps your files in Switzerland
 
-Infomaniak stores SwissTransfer files in Switzerland. The European Commission recognises Switzerland as giving personal data an adequate level of protection, as its [list of adequacy decisions](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en) shows, and the UK recognises Switzerland as adequate too. For a business in the UK or France, that makes a Swiss service one of the simpler choices under the GDPR: your files are not leaving for a country without that status.
+Infomaniak stores SwissTransfer files in Switzerland. The European Commission recognises Switzerland as giving personal data an adequate level of protection, as its [list of adequacy decisions](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en) shows, and the UK recognises Switzerland as adequate too. For a business in the UK or France, that makes a Swiss service one of the simpler choices under the UK GDPR and the EU GDPR: your files are not leaving for a country without that status. Infomaniak also says it does not use SwissTransfer data for anything else, such as training AI or targeting adverts.
 
 ### WeTransfer and the July 2025 terms row
 
@@ -81,7 +81,7 @@ In July 2025, WeTransfer announced new terms of service, due to apply from 8 Aug
 
 On 15 July 2025, WeTransfer rewrote the clause without any mention of machine learning. It said that it does not use machine learning or any form of AI to process the content people share, and that it does not sell content or data to third parties.
 
-I take that answer as given, and the new clause is clearer. The lesson goes beyond WeTransfer: the terms of a free tool can change, and most people only notice when someone else reads them. Before you send client files through any service, SwissTransfer included, read the part of its terms that says what it may do with your files.
+The new clause is clearer, and the episode holds a lesson that goes beyond WeTransfer: the terms of a free tool can change, and most people only notice when someone else reads them. Before you send client files through any service, SwissTransfer included, read the part of its terms that says what it may do with your files.
 
 ### Client files and the GDPR
 
@@ -91,16 +91,16 @@ Whichever service you use, a download link is only as private as the people who 
 
 ## How to send a large file with SwissTransfer
 
-It takes a couple of minutes, and your recipient needs nothing but the link.
+Setting up a transfer takes a couple of minutes; the upload itself depends on the size of your files and your connection. Your recipient needs nothing but the link.
 
 1. Go to [swisstransfer.com](https://www.swisstransfer.com/en). There is no account to create.
-2. Add your files, up to 50 GB in total. To send a folder with its structure intact, compress it into a .zip file first.
-3. Choose how to send: a link that you copy and share yourself, or an email that SwissTransfer sends to your recipients for you.
-4. In the transfer settings, choose how long the files stay online, the maximum number of downloads (up to 250) and a password.
+2. Add your files, up to 50 GB in total. If you are sending a whole folder, zip it first: your recipient gets one file, with the folders inside intact.
+3. Choose how to send: a link that you share yourself, or an email that SwissTransfer sends to your recipients once the upload has finished. Either way, SwissTransfer asks for your own email address and, the first time you use it on a browser or device, sends you a code to confirm it.
+4. In the transfer settings, choose how long the files stay online (1 to 30 days), the maximum number of downloads (up to 250) and a password.
 5. Send, then pass the password on by text message or phone.
 6. If you chose 30 days, watch your inbox around day 12, for the reason below.
 
-{{< callout type="warning" >}}Choosing **30 days** is not quite enough on its own. According to Infomaniak's help centre, files set to 30 days are deleted after 15 days unless the sender accepts the extension offered by email on day 12, and that offer lasts 3 days. Use an address you actually read.{{< /callout >}}
+{{< callout type="warning" >}}Choosing **30 days** is not quite enough on its own. According to Infomaniak's help centre, files set to 30 days are deleted after 15 days unless the sender accepts the extension offered by email on day 12, and that offer lasts 3 days. That email goes to the address you confirmed, so use one you actually read.{{< /callout >}}
 
 ## When WeTransfer, or another tool, is the better choice
 
@@ -110,7 +110,7 @@ SwissTransfer is the right tool for sending files once. It is not the right tool
 - You share the same files for months. A transfer link expires by design. For a library of photos, contracts or brand files that people come back to, use cloud storage with a shared folder, such as Infomaniak's kDrive, Google Drive or OneDrive.
 - You need to send more than 50 GB in one go. Split the files across several transfers, or share a folder from cloud storage.
 - The file is small. Below your email provider's attachment limit, a plain attachment is simpler: Gmail accepts up to 25 MB per email and turns anything bigger into a Google Drive link. Sending from a {{< a key="professional-email-address" >}}professional email address{{< /a >}} on your own domain also makes any link you send look more trustworthy.
-- It is a first email to a prospect. **Never put a transfer link in a cold email.** A download link from a sender nobody knows looks like phishing, and I never put any link in a cold email anyway, for the deliverability reasons in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}.
+- It is a first email to a prospect. **Never put a transfer link in a cold email.** A download link from a sender nobody knows looks like phishing, and I never put any link in a cold email anyway, for deliverability reasons I explain in {{< a key="plain-text-cold-emails" >}}my article on links in cold emails{{< /a >}}.
 
 ## Before you send: a short checklist
 
@@ -122,4 +122,4 @@ SwissTransfer is the right tool for sending files once. It is not the right tool
 6. Keep your own copy of everything you send: a transfer service is not a backup.
 7. Send originals. Messaging apps often compress photos, and a website needs them at full quality.
 
-That last point matters most on a {{< a page="/services/websites" >}}website project{{< /a >}}. When I build a site, I need photos of your work, your premises and your team (if you have none, I generate or buy them), and a transfer link is the easiest way to send a whole folder of them at full resolution. My {{< a key="web-design-process" >}}web design process{{< /a >}} shows where they come in, from the first call to launch.
+That last point matters most on a {{< a page="/services/websites" >}}website project{{< /a >}}. When I build a site, I need your photos (if you have none, I generate or buy them), and a transfer link is the easiest way to send a whole folder of them at full resolution. My {{< a key="web-design-process" >}}web design process{{< /a >}} shows where they come in, from the first call to launch.

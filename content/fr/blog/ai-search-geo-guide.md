@@ -27,24 +27,24 @@ faq:
     a: "Oui. Dans la Search Console, la page Paramètres comporte une section consacrée à l’IA générative (Search generative AI dans l’interface en anglais) qui permet d’exclure votre site des Aperçus IA, du Mode IA et des résumés IA de Discover. Le changement prend quelques jours, Google indique qu’il n’influence pas le classement, et l’application Gemini reste gérée à part par Google-Extended."
 ---
 
-Le référencement IA, ou GEO (*generative engine optimisation*, l’optimisation pour les moteurs génératifs), consiste à faire en sorte que les assistants IA trouvent votre entreprise, comprennent ce que vous faites et vous citent. Quand quelqu’un demande à ChatGPT un expert-comptable à Nantes, ou tape une question qui déclenche un Aperçu IA de Google, l’assistant cherche sur le Web, lit quelques pages et rédige une réponse avec une poignée de sources. Le but : faire partie de ces sources, avec une description juste de votre entreprise.
+Quand quelqu’un demande à ChatGPT un expert-comptable à Nantes, ou tape une question qui déclenche un Aperçu IA de Google, l’assistant cherche sur le Web, lit quelques pages et rédige une réponse avec une poignée de sources. Le référencement IA, ou GEO (*generative engine optimization*, l’optimisation pour les moteurs génératifs), vise à faire partie de ces sources, avec une description juste de votre entreprise.
 
-Pour une TPE, l’essentiel relève du SEO que vous devriez déjà faire. Le guide que Google consacre à ses fonctions d’IA, publié en mai 2026, traite leur optimisation comme du référencement classique, et rien dans cette page n’exige d’outil payant ni de fichier spécial. Ce qui change vraiment tient en trois lignes : plus de robots à laisser entrer, des mentions sur d’autres sites qui pèsent davantage, et une mesure pleine de trous.
+Pour une TPE, l’essentiel relève du SEO que vous devriez déjà pratiquer, plus quelques vérifications que vous pouvez faire vous-même. Ce qui change, c’est l’enjeu : la réponse nomme quelques entreprises au lieu d’afficher une page de liens, et moins d’internautes cliquent pour comparer.
 
 Cette page est le point d’entrée de la rubrique Référencement IA du blog. Elle explique comment les moteurs de recherche IA choisissent leurs sources, détaille cinq étapes avec un guide pour chacune, puis liste ce que vous pouvez ignorer sans risque. Je l’ai écrite comme je conseille mes clients : franchement, y compris sur ce que vous pouvez faire sans moi.
 
 ## Ce qu’est le référencement IA (et ses autres noms)
 
-Le référencement IA regroupe tout ce qui rend votre site et votre réputation faciles à trouver, à citer et à recommander pour les systèmes d’IA qui génèrent des réponses. Le sigle GEO vient d’un article de recherche d’Aggarwal et de ses collègues de l’université de Princeton et d’autres établissements, [présenté à la conférence KDD 2024](https://arxiv.org/abs/2311.09735). Dans leurs tests, modifier la rédaction d’une page augmentait sa visibilité dans les réponses générées jusqu’à 40 %. Citer ses sources, ajouter des citations et ajouter des statistiques figuraient parmi les changements les plus efficaces, avec des résultats variables selon les sujets.
+Le référencement IA regroupe tout ce qui rend votre site et votre réputation faciles à trouver, à citer et à recommander pour les systèmes d’IA qui génèrent des réponses. Le sigle GEO vient d’[un article de recherche d’Aggarwal et de ses collègues](https://arxiv.org/abs/2311.09735) de l’université de Princeton et d’autres établissements, présenté à la conférence KDD 2024. Dans leurs tests, modifier la rédaction d’une page augmentait sa visibilité dans les réponses générées jusqu’à 40 %. Citer ses sources, ajouter des citations et des statistiques figuraient parmi les changements les plus efficaces, avec des résultats variables selon les sujets.
 
 Vous croiserez plusieurs noms pour la même idée :
 
-- **GEO** (*generative engine optimisation*) : le terme des chercheurs, repris par le marketing.
-- **AIO** (*AI optimisation*) : le terme générique qu’utilise ce blog pour la visibilité dans les assistants IA.
-- **AEO** (*answer engine optimisation*) : un terme employé en SEO pour les extraits optimisés et les assistants vocaux, avant d’être appliqué aux réponses des IA.
-- **LLMO** (*large language model optimisation*) : le même objectif, nommé d’après les modèles.
+- **GEO** (*generative engine optimization*) : le terme des chercheurs, repris par le marketing.
+- **AIO** (*AI optimization*) : le terme générique qu’utilise ce blog pour la visibilité dans les assistants IA.
+- **AEO** (*answer engine optimization*) : un terme employé en SEO pour les extraits optimisés et les assistants vocaux, avant d’être appliqué aux réponses des IA.
+- **LLMO** (*large language model optimization*) : le même objectif, nommé d’après les modèles.
 
-En France, on parle aussi de « SEO IA » ou de « référencement sur les IA ». Les noms comptent moins qu’une distinction. Ce qu’un modèle a appris pendant son entraînement reste figé jusqu’à sa version suivante, et vous ne pouvez pas le changer rapidement. Ce qu’il trouve en cherchant sur le Web au moment de répondre est vivant, et c’est là que le référencement IA agit. Quand on dit qu’une entreprise « apparaît dans ChatGPT », c’est presque toujours de ce second cas qu’il s’agit.
+En France, on parle aussi de « SEO IA » ou de « référencement sur les IA ». Les noms comptent moins qu’une distinction. Ce qu’un modèle a appris pendant son entraînement reste figé jusqu’à sa version suivante, et vous ne pouvez pas le changer rapidement. Ce qu’il trouve en cherchant sur le Web au moment de répondre se renouvelle sans cesse, et c’est là que le référencement IA agit. Quand on dit qu’une entreprise « apparaît dans ChatGPT », c’est presque toujours de ce second cas qu’il s’agit.
 
 ## Comment les moteurs de recherche IA choisissent leurs sources
 
@@ -58,16 +58,16 @@ C’est l’index utilisé par chaque assistant qui décide si votre site peut �
 
 | Assistant | Où il cherche | Robot qui doit accéder à votre site |
 |---|---|---|
-| ChatGPT (recherche) | L’index d’OpenAI et des moteurs de recherche tiers (la part de Bing n’est pas documentée) | OAI-SearchBot |
+| ChatGPT (recherche) | L’index d’OpenAI, complété par des moteurs de recherche tiers (la part de Bing n’est pas documentée) | OAI-SearchBot |
 | Aperçus IA et Mode IA de Google | L’index habituel de Google | Googlebot |
 | Application Gemini | La recherche Google | Googlebot (le jeton Google-Extended décide si Gemini peut utiliser vos pages) |
-| Claude | Brave Search (fournisseur déclaré par Anthropic depuis mars 2025), en plus du robot d’Anthropic | Claude-SearchBot |
+| Claude | Brave Search (sur la liste des sous-traitants d’Anthropic depuis mars 2025), en plus du robot d’Anthropic | Claude-SearchBot |
 | Perplexity | Son propre index | PerplexityBot |
 | Microsoft Copilot | Bing | Bingbot |
 
 Trois conséquences pratiques en découlent. D’abord, si un robot ne peut pas lire vos pages, la qualité de vos textes n’y change rien : un site qui bloque OAI-SearchBot disparaît des réponses de la recherche ChatGPT. Ensuite, comme les assistants lancent plusieurs requêtes précises, une page qui répond clairement à une question donnée a plus de chances qu’une page d’accueil vague. Enfin, la réponse est générée : elle peut être fausse.
 
-C’est pour cette dernière raison que je choisis avec soin l’assistant auquel je me fie. J’utilise Claude tous les jours : dans mon travail, ChatGPT invente un peu trop souvent, alors que Claude s’est montré extrêmement fiable. Je compare les deux dans {{< a key="claude-vs-chatgpt" >}}Claude ou ChatGPT : lequel choisir pour votre entreprise{{< /a >}}. Quel que soit l’assistant de vos clients, vérifiez ce qu’il dit de vous (étape 4 ci-dessous).
+C’est pour cette dernière raison que je choisis avec soin l’assistant auquel je me fie. J’utilise Claude, car dans mon travail ChatGPT invente un peu trop souvent, alors que Claude s’est montré extrêmement fiable. Je compare les deux dans {{< a key="claude-vs-chatgpt" >}}Claude ou ChatGPT : lequel choisir pour votre entreprise{{< /a >}}. Quel que soit l’assistant de vos clients, vérifiez ce qu’il dit de vous (étape 4 ci-dessous).
 
 Les deux plus grandes audiences ont leur propre guide : {{< a key="get-recommended-by-chatgpt" >}}comment apparaître dans ChatGPT{{< /a >}} et {{< a key="google-ai-overviews-ai-mode" >}}comment faire citer votre site dans les Aperçus IA et le Mode IA{{< /a >}}.
 
@@ -98,7 +98,7 @@ Je développe l’argument complet dans {{< a key="geo-vs-seo" >}}GEO vs SEO : 
 Commencez par là, car tout le reste en dépend.
 
 1. Vérifiez votre robots.txt. Ouvrez votredomaine.fr/robots.txt et assurez-vous que rien ne bloque OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot ou Bingbot. Les robots d’entraînement comme GPTBot et ClaudeBot relèvent d’un autre choix : {{< a key="robots-txt-ai-crawlers" >}}l’article sur le robots.txt et les robots IA{{< /a >}} les liste et propose trois fichiers à copier.
-2. Vérifiez les couches au-dessus. Cloudflare bloque par défaut les robots IA connus sur les domaines ajoutés depuis le 1er juillet 2025, et certains outils de création de site ou extensions de sécurité ont leur propre interrupteur. Sur Squarespace, une option des paramètres (**Settings > Crawlers** dans l’interface en anglais) bloque les robots d’IA connus ; elle est désactivée par défaut.
+2. Vérifiez les couches au-dessus. Cloudflare bloque par défaut les robots IA connus sur les domaines ajoutés depuis le 1er juillet 2025, et certains outils de création de site ou extensions de sécurité ont leur propre interrupteur : vérifiez que les robots de recherche cités plus haut y sont autorisés. Sur Squarespace, une option des paramètres (**Settings > Crawlers** dans l’interface en anglais) bloque les robots d’IA connus ; elle est désactivée par défaut.
 3. Vérifiez que vos textes sont dans le HTML. Selon une analyse de Vercel, GPTBot, ClaudeBot et PerplexityBot n’exécutent pas JavaScript, contrairement à Googlebot. Si la description de vos services n’apparaît qu’après l’exécution d’un script, ces robots risquent de voir une page vide.
 4. Faites indexer votre site par Google et Bing. Validez votre site dans la Google Search Console et dans Bing Webmaster Tools, qui peut importer vos sites depuis la Search Console, puis envoyez votre sitemap. Bing est l’index qui alimente Copilot.
 
@@ -106,7 +106,7 @@ Commencez par là, car tout le reste en dépend.
 
 Deux sujets font plus parler d’eux qu’ils ne le méritent. Le fichier llms.txt est un résumé de votre site en Markdown destiné aux outils d’IA : la recherche Google l’ignore, et aucun grand acteur de l’IA n’a confirmé s’en servir pour choisir les entreprises qu’il recommande, comme l’explique {{< a key="llms-txt-explained" >}}l’article sur le fichier llms.txt{{< /a >}}. Les données structurées décrivent votre entreprise dans le code. Elles gardent une utilité sur Google, mais un test d’Ahrefs qui a ajouté du JSON-LD à 1 885 pages n’a mesuré aucune hausse notable des citations par les IA ; {{< a key="schema-markup-small-business" >}}le guide des données structurées{{< /a >}} liste les balisages qui valent encore la peine.
 
-Pour information, ce site laisse entrer tous les robots et publie un fichier llms.txt. Cela m’a pris quelques minutes et ne coûte rien, donc je le garde, mais je n’en attends pas un seul client.
+Pour information, ce site laisse entrer tous les robots et publie un fichier llms.txt. Le garder ne coûte rien, mais je ne compte pas sur lui pour m’amener un seul client.
 
 ## Étape 2 : rédiger des pages qui répondent aux questions de vos clients
 
@@ -119,7 +119,7 @@ Les assistants citent des pages qui répondent à une question précise, avec de
 
 {{< a key="write-content-for-ai-search" >}}Être cité par les IA : comment rédiger des contenus qu’elles reprennent{{< /a >}} montre ces réflexes avec des exemples avant/après.
 
-**Être précis compte encore plus que la forme.** Pour un client, le site qui vend un service très spécifique s’est retrouvé en tête de Google un ou deux jours après sa mise en ligne, ce qui est inhabituellement rapide. Celui d’une société sœur, un fourre-tout qui proposait tous les métiers du bâtiment à la fois, n’a jamais fonctionné. Un assistant à qui l’on demande « un électricien à Lyon qui installe des bornes de recharge » ne peut citer qu’une entreprise dont les pages disent exactement cela.
+**Être précis compte encore plus que la forme.** Pour un client, le site qui vend des services très spécifiques s’est hissé en tête de Google sur l’une de ses recherches un ou deux jours après sa mise en ligne, ce qui est inhabituellement rapide. Celui d’une société sœur, un fourre-tout qui proposait de nombreux métiers du bâtiment à la fois, n’a jamais fonctionné. Un assistant à qui l’on demande « un électricien à Lyon qui installe des bornes de recharge » cherche une entreprise dont les pages disent exactement cela.
 
 L’IA est une bonne assistante de recherche pour ce travail, pas une usine à pages. J’utilise Deep Research pour repérer ce dont les gens se plaignent le plus dans un secteur et les mots-clés qui reviennent sans cesse, puis je retravaille le texte jusqu’à ce qu’il ressemble à l’entreprise ; la méthode est dans {{< a key="deep-research-copywriting-seo" >}}l’article sur Deep Research pour le copywriting et le SEO{{< /a >}}. Publier des pages en masse est une autre affaire : les consignes de Google sur les contenus générés par IA préviennent que de nombreuses pages produites sans valeur ajoutée pour les lecteurs peuvent relever de l’abus de contenu à grande échelle, et depuis octobre 2026 elles insistent pour que tout contenu généré par IA soit vérifié à la main avant publication.
 
@@ -134,16 +134,16 @@ Pour une TPE, les mentions les plus utiles sont souvent plus proches :
 - Les fournisseurs et partenaires qui ont une page « trouver un installateur » ou « nos partenaires ».
 - La presse, en commençant par le journal local.
 
-Les relations presse sont moins inaccessibles qu’il n’y paraît. Ce n’est pas mon métier et j’ai à peine essayé, pourtant un message court et bien ciblé a valu à une personne de mon entourage, qui est coach, un article dans le magazine Match ; j’y vois l’effet des réflexes de rédaction et de ciblage que m’a donnés le cold emailing. Vous n’avez pas besoin d’abonnés, seulement de quelque chose d’intéressant à proposer et d’une page qui montre votre travail. Commencez par le journal de votre ville, puis la presse régionale, puis nationale : chaque article est une mention, souvent un lien, et une preuve à montrer. {{< a key="get-press-coverage" >}}Comment passer dans la presse sans abonnés{{< /a >}} détaille la méthode.
+Les relations presse sont moins inaccessibles qu’il n’y paraît. Ce n’est pas mon métier et j’ai à peine essayé, pourtant j’ai réussi à faire parler dans le magazine Match d’une personne de mon entourage qui fait du coaching sportif ; j’y vois l’effet des réflexes de rédaction et de ciblage que m’a donnés le cold emailing. Vous n’avez pas besoin d’abonnés, seulement de quelque chose d’intéressant à proposer et d’une page qui montre votre travail. Commencez par le journal de votre ville, puis la presse régionale, puis nationale : chaque article est une mention, souvent un lien, et une preuve à montrer. {{< a key="get-press-coverage" >}}Comment passer dans la presse sans abonnés{{< /a >}} détaille la méthode.
 
-En revanche, tricher ne marche pas. Les faux avis enfreignent les règles de Google, et le guide IA de Google traite aussi des mentions artificielles. L’objectif est qu’on parle de vous, pas de fabriquer des conversations.
+En revanche, tricher ne marche pas. Les faux avis enfreignent les règles de Google, qui interdisent également de ne solliciter que les clients dont on attend un avis positif. En France, le Code de la consommation range les faux avis parmi les pratiques commerciales trompeuses, et la DGCCRF les contrôle. Le guide IA de Google traite aussi des mentions artificielles. L’objectif est qu’on parle de vous, pas de fabriquer des conversations.
 
 ## Étape 4 : vérifier ce que les IA disent de vous
 
 Une fois par mois, testez les questions que vos clients posent vraiment. Cela prend moins d’une heure.
 
 1. Notez dix questions : votre service et votre ville, « meilleur [service] pour [type de client] », une comparaison avec un concurrent, le nom de votre entreprise suivi de « avis » ou de « prix ».
-2. Posez chacune à ChatGPT, Gemini, Perplexity, Claude et Copilot, puis à Google pour voir les Aperçus IA et le Mode IA. Utilisez si possible une conversation temporaire ou une session déconnectée, pour que vos échanges passés n’influencent pas la réponse.
+2. Posez chacune à ChatGPT, Gemini, Perplexity, Claude et Copilot, puis à Google pour voir les Aperçus IA et le Mode IA. Utilisez si possible une fenêtre de navigation privée, sans vous connecter à votre compte, ou désactivez d’abord la mémoire et la personnalisation, pour que vos échanges passés n’influencent pas la réponse.
 3. Notez qui est cité, quelles sources apparaissent et tout ce qui est faux à votre sujet : anciens prix, ancienne adresse, service que vous ne proposez plus.
 4. Corrigez les erreurs là où les assistants les lisent : vos pages, votre fiche Google et vos fiches d’annuaires.
 
@@ -164,7 +164,7 @@ La mesure est le point faible du référencement IA : combinez plusieurs source
 
 Je me sers de Clarity pour voir où les visiteurs s’attardent, s’ils sont venus pour quelque chose de précis et quelles parties d’une page les font fuir. Je sais alors si le problème vient du texte, d’une image ou de l’ergonomie, ce qui est exactement ce qu’il faut savoir quand une page reçoit des visites venues des IA mais aucune demande. {{< a key="microsoft-clarity-tutorial" >}}Le tutoriel Microsoft Clarity{{< /a >}} montre comment l’installer.
 
-{{< callout type="note" >}}ChatGPT ajoute `utm_source=chatgpt.com` aux liens qu’il affiche, ce qui permet aux outils de mesure de le reconnaître. Tous les liens ne portent pas cette balise : à partir du 9 octobre 2026, de nombreux sites ont vu les visites venues de ChatGPT chuter dans GA4 pendant que le trafic direct augmentait, et OpenAI n’avait annoncé aucun changement au moment de la rédaction. Interprétez une baisse soudaine avec prudence.{{< /callout >}}
+{{< callout type="note" >}}ChatGPT ajoute `utm_source=chatgpt.com` aux liens qu’il affiche, ce qui aide les outils de mesure à le reconnaître. Tous les liens ne portent pas cette balise : à partir du 9 octobre 2026, de nombreux sites ont vu les visites venues de ChatGPT chuter dans GA4 pendant que le trafic direct augmentait, et OpenAI n’avait annoncé aucun changement au moment de la rédaction. Interprétez une baisse soudaine avec prudence.{{< /callout >}}
 
 Comptez ensuite ce qui compte vraiment : les demandes. Ajoutez « un assistant IA (ChatGPT, Gemini…) » aux réponses possibles à la question « Comment nous avez-vous connus ? » de votre formulaire de contact, et posez la question au téléphone. Les outils de mesure rateront toujours une partie de ce trafic.
 
@@ -173,7 +173,7 @@ Comptez ensuite ce qui compte vraiment : les demandes. Ajoutez « un assistant
 Un sujet nouveau attire toujours des vendeurs. Voici ce pour quoi je ne paierais pas :
 
 - Une place garantie dans ChatGPT ou les Aperçus IA. OpenAI indique que l’apparition dans la recherche ChatGPT n’est pas garantie, et Google rappelle que personne ne peut garantir la première place. Les réponses changent selon la question et l’utilisateur.
-- Un fichier llms.txt, un « balisage IA » ou une réécriture « en fragments » vendus en forfait. Google dit que ses fonctions d’IA n’en ont pas besoin, et aucun autre assistant n’a déclaré s’en servir.
+- Un fichier llms.txt, un « balisage IA » ou une réécriture « en fragments » vendus en forfait. Google dit que ses fonctions d’IA n’en ont pas besoin, et aucun autre acteur de l’IA n’a déclaré choisir ses sources en fonction de ces éléments.
 - Des centaines de pages rédigées par IA, une par ville ou par question, où seuls quelques détails changent. C’est exactement ce que visent les règles de Google contre l’abus de contenu à grande échelle et les pages satellites.
 - Les faux avis, les mentions achetées et les faux messages publiés sur les forums, pour les raisons vues à l’étape 3.
 - Un outil de suivi payant avant les bases. Un outil peut vous dire que votre entreprise n’est pas citée ; il n’en corrige pas les causes. Faites d’abord les étapes 1 à 4.
@@ -184,10 +184,10 @@ Un sujet nouveau attire toujours des vendeurs. Voici ce pour quoi je ne paierais
 
 Vous pouvez tout faire vous-même, à raison de quelques heures par semaine :
 
-1. Semaine 1, l’accès : vérifiez le robots.txt, Cloudflare et les réglages de votre outil de création de site, validez la Search Console et Bing Webmaster Tools, et envoyez votre sitemap.
+1. Semaine 1, l’accès et le point de départ : vérifiez le robots.txt, Cloudflare et les réglages de votre outil de création de site, validez votre site dans la Search Console et Bing Webmaster Tools, envoyez votre sitemap, puis faites une première fois le test des dix questions de l’étape 4 pour noter d’où vous partez.
 2. Semaines 2 à 4, les pages : une page par service avec la réponse d’abord, vos prix ou fourchettes de prix, vos zones d’intervention et de vraies photos. Mettez à jour vos pages « À propos » et contact avec des informations qu’un assistant peut citer.
-3. Mois 2, les preuves : complétez votre fiche Google, demandez un avis à vos dix derniers clients satisfaits, harmonisez vos fiches d’annuaires et proposez un sujet à un journaliste local.
-4. Mois 3, test et mesure : faites le test des dix questions, vérifiez les canaux IA dans GA4 et Clarity, et notez votre point de départ.
+3. Mois 2, les preuves : complétez votre fiche Google, demandez un avis à vos dix derniers clients, harmonisez vos fiches d’annuaires et proposez un sujet à un journaliste local.
+4. Mois 3, test et mesure : refaites le test des dix questions, comparez avec votre point de départ et vérifiez les canaux IA dans GA4 et Clarity.
 5. Ensuite, chaque mois : refaites le test, mettez à jour les pages là où les réponses étaient fausses ou incomplètes, et datez vos modifications.
 
 ### Quand déléguer

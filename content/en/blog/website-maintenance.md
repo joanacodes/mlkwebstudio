@@ -1,7 +1,7 @@
 ---
 title: "Website maintenance: what it covers, what it costs and why no site is ever free"
 seo_title: "Website maintenance: what it covers and what it costs"
-description: "Website maintenance explained: the updates, backups, renewals and checks a small business site needs, what it costs each year and why a free site never is."
+description: "Website maintenance explained: the updates, backups, renewals and checks a small business site needs, what it costs and why a free site is never free."
 slug: "website-maintenance-guide"
 translationKey: "website-maintenance"
 date: 2026-10-17T08:17:00+02:00
@@ -22,14 +22,14 @@ faq:
   - q: "Who should hold the logins if someone else maintains my website?"
     a: "You should. Keep the domain, the hosting or builder account and the main administrator login in your business's name, with your own email address, and give your web designer an account of their own. If you part ways, you remove their access instead of asking for yours back."
   - q: "Can I download a backup of my Squarespace site?"
-    a: "Not a complete one. Squarespace's export covers some content, such as pages and blog posts, in a WordPress-format file, and leaves out the design, products, events and custom CSS. Keep your own copies of your texts, your images and any code you add."
+    a: "Not a complete one. Squarespace's export puts some content, such as pages and blog posts, in a WordPress-format file and leaves out the design, products, events and custom CSS. Before a big change, duplicate the site instead (you need owner or administrator access): the copy, a new trial site, keeps the pages, the design and the code injection. Keep your own copies of your texts and images too."
   - q: "Is website maintenance a legal requirement?"
     a: "No law requires a maintenance contract. But if your site collects personal data, even through a contact form, the UK GDPR requires you to keep that data secure, and a leak from an unpatched site may have to be reported to the ICO within 72 hours."
 ---
 
 Website maintenance is everything a site needs after launch to stay online, safe and accurate: software updates, backups, security checks, renewals and content changes. A website is closer to a car than to a printed brochure. It runs on software that keeps changing, on a domain and a plan that renew every year, and on details such as prices and opening hours that go out of date.
 
-I see what skipped maintenance costs in the calls I get: every client who has called me in an emergency called about a WordPress site. It also sits behind one of the early mistakes I warn founders about: building a website for free for a friend or a relative, with no plan for who will look after it.
+Every client who has called me in an emergency called about a WordPress site, the platform that needs the most upkeep. Upkeep also sits behind one of the early mistakes I warn founders about: building a website for free for a friend or a relative, with no plan for who will look after it.
 
 This guide covers what maintenance includes on each platform, what it costs, what changes in 2026 and 2027, and a schedule you can follow. It is part of my {{< a key="small-business-website-guide" >}}guide to small business websites{{< /a >}}.
 
@@ -51,7 +51,7 @@ Google helps with part of the checking. Search Console warns you when Google fin
 
 ## Website maintenance on WordPress, Squarespace and custom-coded sites
 
-The five jobs are the same everywhere. What changes is how many of them land on you.
+What changes from one platform to another is how many of them land on you.
 
 | | WordPress (self-hosted) | Squarespace | Custom-coded or AI-built site |
 |---|---|---|---|
@@ -71,13 +71,13 @@ Updates carry their own risk: one can clash with the theme or with another plugi
 
 WordPress does part of the work: by default, it installs minor core releases (maintenance and security) by itself, and on the **Plugins** screen each plugin has an **Enable auto-updates** link. **Tools > Site Health** flags problems such as an outdated PHP version or inactive plugins you should delete. Automatic updates save time; they do not replace the check afterwards.
 
-Skipping all this has a price. Pilotech, an HVAC installer near Paris, called me in an emergency when its WordPress site was hacked: I recovered it and built a new one, and two years on I still build its websites, such as the {{< a page="/projects/pilotech" >}}site that brings its three product lines together{{< /a >}}. WordPress remains a sound choice when the budget is there: my clients who can afford it keep it and pay a specialist every month. If yours has already been hacked, follow my checklist for a {{< a key="wordpress-site-hacked" >}}hacked WordPress site{{< /a >}}.
+When a WordPress site does break, the bill arrives all at once. Pilotech, an HVAC installer near Paris, called me in an emergency when its WordPress site was hacked: I recovered it and built a new one, and two years on I still build its websites, such as the {{< a page="/projects/pilotech" >}}site that brings its three product lines together{{< /a >}}. WordPress remains a sound choice when the budget is there: my clients in that position keep it and can hire a specialist to look after it every month. If yours has already been hacked, follow my checklist for a {{< a key="wordpress-site-hacked" >}}hacked WordPress site{{< /a >}}.
 
 ### Squarespace: the platform does the heavy lifting
 
 On Squarespace, the hosting, the SSL certificate, the security patches and the platform updates are included in the subscription. With no plugins to update, most of the software side disappears. My {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress comparison{{< /a >}} goes through the other differences.
 
-What remains is yours: the content, the renewals, a strong password with two-step verification, and any custom code. I usually add some code to the Squarespace sites I build: clients call me for that part, and those additions never get in the way of what they edit. Everything else they change whenever they want, without calling anyone, which is why I move owners who run their own site to Squarespace.
+What remains is yours: the content, the renewals, a strong password with two-step verification, and any custom code. I usually add some code to the Squarespace sites I build: clients call me for that part, and nothing I add is destructive. Everything else they change whenever they want, without calling anyone, which is why I move owners who run their own site to Squarespace.
 
 The trade-off is control. Squarespace is closed: you have no access to the source code, and you cannot move the site to another host.
 
@@ -87,17 +87,17 @@ A custom-coded site has no plugins to patch, but it still has code libraries, a 
 
 A simple brochure site that you {{< a key="build-website-with-ai" >}}build with AI and host on GitHub Pages{{< /a >}} costs very little to run, but it makes you the maintainer: the code, the domain and every change are yours. GitHub Pages has limits too: it suits a brochure site, not a shop.
 
-## Two changes that make maintenance more frequent in 2026 and 2027
+## Two changes to plan for in 2026 and 2027
 
 ### SSL certificates now expire sooner
 
-The padlock in the address bar depends on an SSL certificate (strictly speaking, a TLS certificate). Since 15 March 2026, a newly issued public certificate can be valid for at most 200 days, down from 398. The limit falls to 100 days on 15 March 2027 and to 47 days on 15 March 2029, under a schedule agreed by the CA/Browser Forum, the body of certificate authorities and browser makers that sets these rules.
+Your site's HTTPS connection, the padlock some browsers show next to your address, depends on an SSL certificate (strictly speaking, a TLS certificate). Since 15 March 2026, a newly issued public certificate can be valid for at most 200 days, down from 398. The limit falls to 100 days on 15 March 2027 and to 47 days on 15 March 2029, under a schedule agreed by the CA/Browser Forum, the body of certificate authorities and browser makers that sets these rules ([its Baseline Requirements, section 6.3.2](https://github.com/cabforum/servercert/blob/main/docs/BR.md)).
 
 If your site is on Squarespace, or on a host that installs free Let's Encrypt certificates automatically, nothing changes for you: those certificates already last well under 200 days and renew on their own. If someone installed a paid certificate by hand, ask your host or your developer to automate its renewal. An expired certificate shows visitors a full-page security warning instead of your site.
 
 ### PHP 8.2 loses its security fixes on 31 December 2026
 
-WordPress sites, like many others, run on PHP, the programming language your host installs on the server. Each PHP version gets two years of full support, then two years of security fixes only. PHP 8.1 reached its end of life on 31 December 2025, and **PHP 8.2 stops receiving security fixes on 31 December 2026** ([PHP's supported versions page](https://www.php.net/supported-versions.php)).
+WordPress runs on PHP, the programming language your host installs on the server. Each PHP version gets two years of full support, then two years of security fixes only. PHP 8.1 reached its end of life on 31 December 2025, and **PHP 8.2 stops receiving security fixes on 31 December 2026** ([PHP's supported versions page](https://www.php.net/supported-versions.php)).
 
 On WordPress, the version shows in **Tools > Site Health**, on the **Info** tab under **Server**; your hosting control panel shows it too. Before you switch to a newer version, take a backup and check that your theme and plugins support it, because one old plugin that fails on the new version can take the whole site down.
 
@@ -130,7 +130,7 @@ Before you sign a maintenance plan, ask:
 
 Building a website for a friend or a relative looks like a generous gift. But a website is not a one-time gift: if you give one, you give maintenance for life, unless you agree in advance that upkeep will cost something. And because the work is free, the requests never stop: a new photo, a new page, a different colour, one small change on a Sunday evening.
 
-There is one exception: a Squarespace site without heavy custom code. It is the easiest website builder I know, and the person you build it for can change things themselves. Its weakness is that it is closed, so custom-coded, Webflow or WordPress sites might rank higher. Yet the Squarespace site I built for Pilotech ranks first or second on Google: with the right keywords and careful metadata, the platform is not what holds you back.
+There is one exception: a Squarespace site without heavy custom code. It is the easiest website builder I know, and the person you build it for can change things themselves. Because it is closed, custom-coded, Webflow or WordPress sites might rank higher. Yet the Squarespace site I built for Pilotech ranks first or second on Google: with the right keywords and careful metadata, you give yourself every chance.
 
 If you build a site for someone anyway, put three things in writing before you start:
 

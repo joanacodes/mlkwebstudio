@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:22:00+02:00
 category: "websites"
 article_type: "tutorial"
 keywords: ["Squarespace code injection", "Squarespace custom code", "add code to Squarespace", "Squarespace header code injection", "Squarespace code block", "Squarespace custom CSS"]
-summary: "Squarespace code injection lets you paste HTML and scripts into the header or footer of every page, or into the header of one page; on a version 7.1 site it sits under Custom Code at the bottom of the Pages panel. It needs the Core, Plus or Advanced plan, not Basic. Paste only code from sources you trust, label each snippet, test it on the live site, and use safe mode if a snippet breaks the editor."
+summary: "Squarespace code injection lets you paste HTML and scripts into the header or footer of every page, or into the header of one page; on a version 7.1 site it sits under Custom Code at the bottom of the Pages panel. It needs the Core, Plus or Advanced plan (or some legacy plans), not Basic. Paste only code from sources you trust, label each snippet, test it on the live site, and use safe mode if a snippet breaks the editor."
 cover: "squarespace-code-injection"
 cover_alt: "Terminal window labelled Squarespace </> with lines of code"
 related: ["squarespace-tutorial", "microsoft-clarity-tutorial", "schema-markup-small-business", "youcanbookme-tutorial", "squarespace-vs-wordpress"]
@@ -18,18 +18,18 @@ faq:
   - q: "Does code injection slow down a Squarespace site?"
     a: "It can. Every script adds work for the visitor's browser: one or two tags from well-known tools rarely make a visible difference, but a pile of widgets will. Run your main pages through PageSpeed Insights before and after you add code, and compare."
   - q: "Will Squarespace support fix my custom code?"
-    a: "No. Squarespace's help centre says it does not provide support for code-based modifications, unless stated otherwise. For a tool's tracking code or widget, ask that tool's support; for code someone wrote for you, ask the person who wrote it."
+    a: "No. Squarespace's help centre says it does not provide support for code-based modifications. For a tool's tracking code or widget, ask that tool's support; for code someone wrote for you, ask the person who wrote it."
   - q: "Where is code injection on Squarespace 7.0?"
-    a: "On version 7.0 sites, code injection sits under Website Tools rather than in a Custom Code section. The header, footer and page header fields do the same job as on version 7.1."
+    a: "In the Pages panel, as on 7.1: under Custom Code, below the Not linked section, or under Website Tools if your panel still shows the older layout. The header, footer and page header fields do the same job as on version 7.1."
   - q: "Do I need code injection to verify my site in Google Search Console?"
     a: "No. Squarespace's own guide has you add Google's TXT record in your domain's DNS settings, and the HTML file method is not supported. Verification does not work on trial sites, so publish on a paid plan first."
 ---
 
-Squarespace code injection is the setting that lets you paste code where the page editor cannot reach: into the `<head>` of every page, at the very end of every page, or into the header of a single page. It is how you install a tracking tag such as Microsoft Clarity, add structured data for search engines, or run a script that a booking or chat tool gives you.
+Squarespace code injection is the setting that lets you paste code where the page editor cannot reach: into the `<head>` of every page, at the very end of every page, or into the header of a single page. It is how you install a tracking tag such as Microsoft Clarity, add structured data for search engines, or load the script a chat tool gives you.
 
-I usually add some code to the Squarespace sites I build for clients. Nothing destructive: they edit their own pages, and they call me for that part. This tutorial follows the same method, from choosing where each kind of code goes to testing it and undoing a snippet that breaks something.
+I usually add some code to the Squarespace sites I build for clients. Nothing destructive: they edit their own pages, and they call me for that part. This tutorial walks you through it, from choosing where each kind of code goes to testing it and undoing a snippet that breaks something.
 
-You need the Core plan or above, and about fifteen minutes per snippet. Menu names are those of the English interface on a version 7.1 site in October 2026, and Squarespace moves them from time to time. If your site is not built yet, start with my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}}; for the wider picture, see my {{< a key="small-business-website-guide" >}}guide to small business websites{{< /a >}}.
+You need the Core plan or above. Menu names are those of the English interface on a version 7.1 site, as Squarespace's help centre gives them in October 2026; Squarespace moves them from time to time. If your site is not built yet, start with my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}}; for the wider picture, see my {{< a key="small-business-website-guide" >}}guide to small business websites{{< /a >}}.
 
 ## What Squarespace code injection is, and where code can go
 
@@ -39,7 +39,7 @@ Code injection is a set of fields where you paste HTML or scripts that Squarespa
 |---|---|---|
 | Code Injection, **Header** | The `<head>` of every page | Analytics and heatmap tags, verification tags |
 | Code Injection, **Footer** | Every page, just before the closing `</body>` tag | Chat widgets, scripts a tool asks you to load last |
-| Code Injection, **Lock Page** and order fields | Your password page and, for online shops, the order confirmation and order status pages | Conversion tracking after a purchase |
+| Code Injection, **Lock Page** and order fields | Your password page (above the password field) and, for online shops, the order confirmation and order status pages | A message on the password page, conversion tracking after a purchase |
 | **Page Header Code Injection** | The `<head>` of one page | Structured data for that page, a script only one page needs |
 | **Code Block** | One spot inside a page | A booking calendar, an embedded form, a map |
 | **Custom CSS** | The styles of the whole site | Visual changes that Site Styles cannot make |
@@ -50,18 +50,18 @@ Code injection is mostly for code that works in the background. When you want so
 
 Squarespace calls code injection a premium feature. It is included on the Core, Plus and Advanced plans and on some legacy plans, but not on Basic, according to [Squarespace's code injection guide](https://support.squarespace.com/hc/en-us/articles/205815908-Customize-parts-of-your-site-with-code-injection). Basic has a second limit: Code Blocks will not run scripts or iframes, which rules out most embedded widgets.
 
-At the time of writing (October 2026), UK pricing guides list Core at £17 a month on annual billing, against £12 for Basic. In the US, Core has cost $29 a month on annual billing since the July 2026 price rise, so pound prices may have moved too: check the [official pricing page](https://www.squarespace.com/pricing) before you upgrade.
+At the time of writing (October 2026), UK pricing guides list Core at £17 a month on annual billing, against £12 for Basic. On the US site, the July 2026 price rise took Core to $29 and Basic to $19 a month on annual billing; none of those UK guides reports the same rise in pounds yet, so check the [official pricing page](https://www.squarespace.com/pricing) before you upgrade.
 
-If you would rather stay on Basic, check whether you need code at all. A button linking to your booking page works on every plan, and fonts, colours and buttons are set in **Site Styles** without a line of code.
+If you would rather stay on Basic, check whether you need code at all: a button linking to your booking page works on every plan, and a Code Block on Basic still shows plain HTML and CSS.
 
 ## Before you paste anything: four checks
 
-A snippet in code injection runs on every page, for every visitor, with the same rights as Squarespace's own code: it can change what people see and read what they type into forms. Four checks take two minutes:
+A snippet in the Header or Footer field runs on every page, for every visitor, with the same rights as Squarespace's own code: it can change what people see and read what they type into forms. Run four checks first:
 
-1. **Is the source official?** Copy code from the tool's own dashboard or documentation, never from a forum post you cannot read. If a tool gives you bare JavaScript, wrap it in `<script>` tags yourself: the fields expect valid HTML or scripts.
+1. **Is the source official?** Copy code from the tool's own dashboard or documentation, never from a forum post whose code you do not understand. If a tool gives you bare JavaScript, wrap it in `<script>` tags yourself: the fields expect valid HTML or scripts.
 2. **Is it already installed?** A tag added twice, once by hand and once through an integration, can count every visit twice.
 3. **Does it need consent?** Tags that set cookies or record visits may need the visitor's agreement first. Microsoft Clarity, for instance, has required a consent signal for visitors from the UK, the EEA and Switzerland since 31 October 2025.
-4. **Where will you note it?** Keep one document that lists every snippet: what it does, where it sits, who added it and when. It turns "something broke" into a five-minute fix, and it is what you hand over if someone else takes on the site.
+4. **Where will you note it?** Keep one document that lists every snippet: what it does, where it sits, who added it and when. It turns "something broke" into a quick fix, and it is what you hand over if someone else takes on the site.
 
 {{< callout type="warning" >}}Never paste code that someone sends you to "fix" your site unless you know what it does. Injected code does not show in the page editor, which makes it the easiest place to hide a script that redirects visitors or copies what they type.{{< /callout >}}
 
@@ -71,7 +71,7 @@ A snippet in code injection runs on every page, for every visitor, with the same
 2. Scroll to the bottom, below your pages and the **Not linked** section, and click **Custom Code**.
 3. Click **Code Injection**. The panel shows one field per area: **Header**, **Footer**, **Lock Page** and, if you sell online, the order page fields.
 
-Older guides may give you another path. Squarespace has moved this panel more than once, but the fields inside do the same job.
+Older guides may send you to Website Tools or to Settings > Advanced instead: Squarespace has moved this panel more than once, but the fields inside do the same job.
 
 {{< screenshot id="squarespace-code-injection-01" alt="Squarespace Pages panel scrolled to the bottom, with the Custom Code section and its Code Injection option" >}}
 
@@ -97,7 +97,7 @@ Microsoft Clarity, a free heatmap and session recording tool, makes a good first
 
 ### Header or footer?
 
-The **Header** field puts code inside the `<head>` of every page, so it loads before the content. The **Footer** field puts it just before the closing `</body>` tag, after the content. Follow the tool's instructions: "in the head" means Header, "before the closing body tag" means Footer. With no instruction, analytics and verification tags go in the header, and widgets that can wait, such as a chat button, go in the footer, where they do not hold up the content above them.
+Follow the tool's instructions: "in the head" means **Header**, "before the closing body tag" means **Footer**. With no instruction, analytics and verification tags go in the header, where they load before the content, and widgets that can wait, such as a chat button, go in the footer, where they do not hold up the content above them.
 
 ## Step 3: add code to a single page (structured data)
 
@@ -117,7 +117,7 @@ Squarespace advises against HTML in this field, because it can disappear if you 
   "@type": "LocalBusiness",
   "name": "Your Business Name",
   "url": "https://www.example.com",
-  "telephone": "+44 20 XXXX XXXX",
+  "telephone": "+44 117 XXX XXXX",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1 High Street",
@@ -186,12 +186,10 @@ A faulty snippet usually shows itself in one of three ways: part of a page disap
 
 1. Log in, then change the address in your browser from `yoursite.com/config` to `yoursite.com/config/safe`. Custom code and scripts are now switched off in the editor.
 2. Open the field you changed last and delete the snippet, everything between its START and END comments. Click **Save**.
-3. Leave safe mode by switching scripts back on in the preview, or by reloading the page.
+3. Leave safe mode by switching scripts back on in the preview, or by opening `yoursite.com/config` again without `/safe`.
 4. Test the live site again in a private window.
 
 {{< callout type="warning" >}}Safe mode only changes what you see while editing. **Your visitors get the broken code until you delete it and save.**{{< /callout >}}
-
-If the snippet came from a tool, its support team can tell you why it failed. If someone wrote it for you, send it back with the date you added it and what broke.
 
 {{< screenshot id="squarespace-code-injection-07" alt="Squarespace editor opened through the /config/safe address, with custom scripts switched off" >}}
 
@@ -199,14 +197,14 @@ If the snippet came from a tool, its support team can tell you why it failed. If
 
 Squarespace's main advantage is that you, or your client, can change a word without the whole structure falling apart. That is why I move owners who edit their own site onto it. Load it with custom code and you lose that advantage: the more code there is, the more an ordinary edit can break something you cannot see, and the sooner a simple change needs a developer.
 
-So I sort code into two piles:
+It helps to sort code into two piles:
 
-- **Additions that sit beside the content**: a tracking tag, structured data, a booking widget, a small style fix. These are what I add to clients' sites, and they never get in the way of what clients edit themselves.
+- **Additions that sit beside the content**: a tracking tag, structured data, a booking widget, a small style fix. This is the "nothing destructive" kind: it stays out of the way of what you edit yourself.
 - **Rebuilds of what Squarespace already does**: a menu rewritten in JavaScript, every block restyled in CSS. A site that needs many of these is on the wrong platform, and my comparison of {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress{{< /a >}} covers the alternatives.
 
-The same goes for a website you build for a friend or a relative: a Squarespace site without heavy custom code is the one kind they can keep editing on their own.
+The same goes for a website you build for a friend or a relative. A website is not a one-off gift, since it needs maintenance, but a Squarespace site without heavy custom code is the easiest kind for them to keep editing on their own.
 
-You do not need custom code to rank, either. Squarespace is closed, with no access to the source code, and a custom-coded site gives a specialist more room. Yet the Squarespace site I built for {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}} ranks first or second on Google, because the SEO basics were done properly: metadata and the right keywords. My {{< a key="squarespace-seo" >}}Squarespace SEO tutorial{{< /a >}} lists those settings.
+You do not need custom code to rank, either. Squarespace is closed, with no access to the source code, which is why custom-coded, WordPress or Webflow sites might rank higher. Yet the Squarespace site I built for Pilotech ranks first or second on Google (my {{< a key="pilotech-seo-case-study" >}}SEO case study{{< /a >}} tells that story): do the SEO right, with careful metadata and the right keywords, and the odds are on your side. My {{< a key="squarespace-seo" >}}Squarespace SEO tutorial{{< /a >}} lists those settings.
 
 ## Your code injection checklist, and when to hand it over
 

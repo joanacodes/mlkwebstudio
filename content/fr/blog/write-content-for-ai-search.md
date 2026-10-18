@@ -24,18 +24,18 @@ faq:
   - q: "Une FAQ sert-elle encore depuis que Google n’affiche plus les résultats enrichis FAQ ?"
     a: "Oui, pour vos lecteurs. Google a cessé d’afficher les résultats enrichis FAQ le 7 mai 2026, mais une courte section de questions-réponses répond toujours à de vraies questions en texte clair, que lisent les internautes comme les assistants IA. Le balisage FAQ peut rester en place : il est toujours valide."
   - q: "Faut-il écrire différemment pour ChatGPT, Perplexity et Google ?"
-    a: "Non. Les fonctionnalités d’IA de Google s’appuient sur l’index de Google, ChatGPT combine son propre index et des moteurs de recherche tiers, et Perplexity comme Claude envoient leurs propres robots d’exploration. Une page claire, avec la réponse d’abord, les sert tous : une seule version de chaque page suffit."
+    a: "Non. Les fonctionnalités d’IA de Google s’appuient sur l’index de Google, ChatGPT combine son propre index et des moteurs de recherche tiers, et Perplexity comme Anthropic, l’éditeur de Claude, ont leurs propres robots d’exploration pour la recherche. Une page claire, avec la réponse d’abord, les sert tous : une seule version de chaque page suffit."
 ---
 
-Quand vous posez une question à ChatGPT, à Gemini ou au Mode IA de Google, l’assistant lance une recherche sur le Web, lit quelques pages et construit sa réponse à partir des passages qui répondent le mieux, en général avec un lien vers chaque source. Pour être cité par les IA, il faut donc écrire des passages qui méritent d’être repris : la réponse d’abord, des définitions simples, des chiffres datés et des faits que seule votre entreprise possède.
+Quand vous posez à ChatGPT, à Gemini ou au Mode IA de Google une question qui demande des informations récentes ou locales, l’assistant lance une recherche sur le Web, lit quelques pages et construit sa réponse à partir des passages qui répondent le mieux, souvent avec un lien vers chaque source. Pour être cité par les IA, il faut donc écrire des passages qui méritent d’être repris : la réponse d’abord, des définitions simples, des chiffres datés et des faits que seule votre entreprise possède.
 
-Rien de tout cela n’est une nouvelle discipline. Le guide de Google consacré à ses fonctionnalités d’IA générative, publié en mai 2026, affirme que les optimiser, « c’est toujours du SEO », et qu’il est inutile de découper vos pages en fragments ou de les réécrire pour l’IA ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr)). Les réflexes qui suivent sont des réflexes de clarté : ils servent d’abord le lecteur pressé, puis l’assistant qui cherche une phrase à citer.
+Rien de tout cela n’est une nouvelle discipline. Le guide de Google consacré à ses fonctionnalités d’IA générative, publié le 15 mai 2026, affirme que les optimiser relève toujours du SEO, puisqu’elles reposent sur les mêmes systèmes de classement et de qualité que le reste de la recherche, et qu’il est inutile de découper vos pages en fragments ou de les réécrire pour l’IA ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide?hl=fr)). Les réflexes qui suivent sont des réflexes de clarté : ils servent d’abord le lecteur pressé, puis l’assistant qui cherche une phrase à citer.
 
 Ce tutoriel les reprend un par un, avec des exemples avant/après à adapter à vos pages. Il fait partie de mon {{< a key="ai-search-geo-guide" >}}guide complet du référencement IA{{< /a >}}.
 
 ## Ce que les assistants IA reprennent d’une page
 
-Une réponse d’IA commence par une recherche, et souvent par plusieurs. Google appelle cela le « query fan-out » : pour une seule question, ses fonctionnalités d’IA lancent des recherches voisines sur les sous-thèmes, puis rédigent la réponse à partir des résultats. ChatGPT, Perplexity et Claude cherchent eux aussi avant de répondre, chacun avec ses outils. Mon guide pour {{< a key="google-ai-overviews-ai-mode" >}}faire citer votre site dans les Aperçus IA et le Mode IA{{< /a >}} explique comment Google choisit ses sources.
+Une réponse d’IA qui cite ses sources commence par une recherche, et souvent par plusieurs. Google appelle cela le « query fan-out » : pour une seule question, les Aperçus IA et le Mode IA peuvent lancer des recherches voisines sur ses sous-thèmes, puis rédiger la réponse à partir des résultats. ChatGPT, Perplexity et Claude peuvent eux aussi chercher sur le Web, chacun avec ses outils. Mon guide pour {{< a key="google-ai-overviews-ai-mode" >}}faire citer votre site dans les Aperçus IA et le Mode IA{{< /a >}} explique comment Google choisit ses sources.
 
 Ce qui est repris, c’est rarement une page entière. C’est une phrase ou un court passage qui répond à lui seul à l’une de ces questions : une définition, un chiffre, une étape, une ligne de tableau. Une page dont la réponse se cache sous trois paragraphes d’introduction n’offre rien de net à reprendre pour un assistant, ni rien à lire pour un lecteur pressé.
 
@@ -58,12 +58,12 @@ Chaque réflexe améliore la page pour un humain, ce qui vous donne un bon test�
 
 Impossible de répondre d’abord sans connaître la question. Trois sources vous donnent les vraies.
 
-**Votre boîte mail et votre téléphone.** Lors des premiers appels, les prospects me posent les trois mêmes questions : avez-vous de l’expérience, qu’est-ce que le SEO et qu’est-ce que ça va m’apporter, combien de temps faut-il pour être bien positionné ? Notez les questions de vos propres clients, avec leurs mots plutôt que les vôtres. Chacune mérite une page ou une section qui y répond.
+**Votre boîte mail et votre téléphone.** Lors des premiers appels, les prospects me posent les trois mêmes questions : avez-vous de l’expérience, qu’est-ce que le SEO et qu’est-ce que ça va m’apporter, combien de temps faut-il pour se positionner sur Google ? Notez les questions de vos propres clients, avec leurs mots plutôt que les vôtres. Chacune mérite une page ou une section qui y répond.
 
-**La Search Console.** Ouvrez **Performances** > **Résultats de recherche**, cliquez sur **Ajouter un filtre**, choisissez **Requête**, puis l’option personnalisée par expression régulière (regex), et collez l’expression ci-dessous. Elle ne garde que les recherches qui contiennent un mot interrogatif :
+**La Search Console.** Ouvrez **Performances** > **Résultats de recherche**, cliquez sur **Ajouter un filtre**, choisissez **Requête**, puis l’option personnalisée par expression régulière (regex), et collez l’expression ci-dessous. Elle ne garde que les recherches qui contiennent un mot interrogatif entier, si bien que « commentaire » ou « quelque » ne passent pas :
 
 ```text
-comment|pourquoi|combien|quand|quel|quoi|est-ce|faut-il|peut-on
+\b(comment|pourquoi|combien|quand|quels?|quelles?|quoi|est-ce|faut-il|peut-on)\b
 ```
 
 La liste montre les questions que les internautes tapent déjà avant d’arriver sur votre site.
@@ -101,7 +101,7 @@ La première version n’a rien de faux, mais elle ne répond à rien, et chacun
 
 Ce blog suit la même règle. Chaque article s’ouvre sur un encadré **En bref** de deux ou trois phrases : c’est la première chose que voit le lecteur, et le passage que je souhaite le plus voir repris par un assistant.
 
-{{< screenshot id="write-content-for-ai-search-03" alt="L’encadré En bref en haut d’un article de ce blog, qui répond à la question en deux phrases" >}}
+{{< screenshot id="write-content-for-ai-search-03" alt="L’encadré En bref en haut d’un article de ce blog, qui répond à la question en deux ou trois phrases" >}}
 
 {{< callout type="tip" >}}**Le test de la première phrase.** Lisez uniquement la première phrase sous chaque intertitre de votre page. Si, mises bout à bout, ces phrases répondent aux questions des intertitres, la page fonctionne. Si ce sont des formules d’accueil, du contexte ou des promesses, remontez la réponse.{{< /callout >}}
 
@@ -149,7 +149,7 @@ C’est sur la structure que la rédaction pour les IA ressemble le plus au SEO 
 - **Des tableaux** pour tout ce qui se compare sur les mêmes critères.
 - **Des paragraphes courts**, de deux à quatre phrases, chacun sur une seule idée.
 
-Voici une comparaison sur laquelle mes clients m’interrogent, d’abord en paragraphe :
+Voici une comparaison tirée de mon travail, d’abord en paragraphe :
 
 ```text
 Avant :
@@ -199,15 +199,15 @@ La seconde version ne pouvait venir que de quelqu’un qui a mené ces campagnes
 
 ## Utiliser l’IA pour le brouillon sans perdre ce qui fait citer une page
 
-Je rédige moi aussi avec l’IA. J’utilise Claude, en partie parce que, d’après mon expérience, ChatGPT invente un peu trop souvent, et je fais des allers-retours, corrections et nouvelles versions, jusqu’à ce que le texte soit juste.
+Je rédige moi aussi avec l’IA. J’utilise Claude, en partie parce que, d’après mon expérience, ChatGPT invente un peu trop souvent, et je corrige, je redemande des versions, jusqu’à ce que le texte soit juste.
 
-Laissé à lui-même, pourtant, un brouillon d’IA produit les versions « avant » ci-dessus : la moyenne de toutes les pages semblables, sans dates, sans noms et sans rien de vous. Donnez-lui vos faits avant de lui demander du texte, et vérifiez chaque chiffre ensuite. Les [consignes de Google sur les contenus générés par IA](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=fr) soumettent les pages rédigées avec l’IA aux mêmes exigences que les autres, et préviennent que produire de nombreuses pages avec l’IA sans valeur ajoutée peut relever de l’abus de contenu à grande échelle. Ma méthode pour {{< a key="ai-writing-sound-human" >}}rédiger avec l’IA sans texte générique{{< /a >}} détaille les prompts et la relecture.
+Laissé à lui-même, pourtant, un brouillon d’IA produit les versions « avant » ci-dessus : la moyenne de toutes les pages semblables, sans dates, sans noms et sans rien de vous. Donnez-lui vos faits avant de lui demander du texte, et vérifiez chaque chiffre ensuite. Les [consignes de Google sur les contenus générés par IA](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content?hl=fr) soumettent les pages rédigées avec l’IA aux mêmes exigences que les autres, et préviennent que produire de nombreuses pages avec l’IA sans valeur ajoutée peut relever de l’abus de contenu à grande échelle. Depuis une mise à jour du 1er octobre 2026, elles précisent aussi que tout contenu généré par IA doit être vérifié et relu à la main avant sa publication. Ma méthode pour {{< a key="ai-writing-sound-human" >}}rédiger avec l’IA sans texte générique{{< /a >}} détaille les prompts et la relecture.
 
 ## Comment vérifier si une page réécrite est citée
 
 Laissez à Google le temps de réexplorer la page, ce qui peut prendre de quelques jours à quelques semaines, puis regardez à trois endroits :
 
-1. **La Search Console.** Le rapport sur l’IA générative de la recherche, avec les autres rapports **Performances**, montre combien de fois chaque page apparaît dans les Aperçus IA et le Mode IA. Il ne compte que des impressions, sans clics ni requêtes : comparez donc la même page sur des périodes de même durée, avant et après la réécriture.
+1. **La Search Console.** Le rapport sur l’IA générative de la recherche, parmi les autres rapports **Performances**, montre combien de fois chaque page apparaît dans les Aperçus IA et le Mode IA. Il ne compte que des impressions, sans clics ni requêtes, et ces impressions figurent déjà dans le rapport Web principal : ne les additionnez jamais. Comparez la même page sur des périodes de même durée, avant et après la réécriture.
 2. **Bing Webmaster Tools.** Le rapport **AI Performance** compte les citations de chaque page dans Copilot et dans les résumés IA de Bing.
 3. **Les assistants eux-mêmes.** Une fois par mois, posez les questions de l’étape 1 à ChatGPT, Gemini et Perplexity, en navigation privée, avec exactement la même formulation, et notez les sites cités. Mon tutoriel pour {{< a key="check-ai-visibility" >}}vérifier votre visibilité IA{{< /a >}} montre comment consigner les réponses mois après mois.
 
@@ -226,4 +226,4 @@ Laissez à Google le temps de réexplorer la page, ce qui peut prendre de quelqu
 7. Ajoutez un élément que seule votre entreprise peut apporter : un cas, une garantie ou une erreur.
 8. Vérifiez chaque fait, puis relisez uniquement la première phrase sous chaque intertitre.
 
-Soignez ensuite les bases, comme le titre et la meta description, avec ma {{< a key="on-page-seo-checklist" >}}checklist SEO on-page{{< /a >}} ; pour les articles de blog, mon guide de {{< a key="write-seo-blog-posts" >}}rédaction SEO{{< /a >}} complète le reste. Une page par semaine est un rythme réaliste si vous le faites vous-même. Si vous préférez confier ce travail, la réécriture des pages autour des vraies questions fait partie de mon {{< a page="/services/seo" >}}accompagnement SEO{{< /a >}}.
+Soignez ensuite les bases, comme le titre et la meta description, avec ma {{< a key="on-page-seo-checklist" >}}checklist SEO on-page{{< /a >}} ; pour les articles de blog, mon guide de {{< a key="write-seo-blog-posts" >}}rédaction SEO{{< /a >}} complète le reste. Si vous préférez confier ce travail, la réécriture des pages autour des vraies questions fait partie de mon {{< a page="/services/seo" >}}accompagnement SEO{{< /a >}}.

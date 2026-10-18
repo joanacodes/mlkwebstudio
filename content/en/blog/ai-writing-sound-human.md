@@ -1,7 +1,7 @@
 ---
 title: "How to make AI writing sound human: my method for website copy"
 seo_title: "Make AI writing sound human: my method for website copy"
-description: "How to make AI writing sound human on your website: real inputs, 3 to 5 examples of your voice, a clear brief, a hard edit. My method, prompts and cut list."
+description: "How to make AI writing sound human on your website: real facts, 3 to 5 examples of your voice, a clear brief, a hard edit. My method, with a prompt to copy."
 slug: "make-ai-writing-sound-human"
 translationKey: "ai-writing-sound-human"
 date: 2026-10-17T09:09:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:09:00+02:00
 category: "ai-automation"
 article_type: "guide"
 keywords: ["make AI writing sound human", "AI website copy", "AI copywriting prompts", "edit AI writing", "AI humaniser", "Claude for copywriting"]
-summary: "To make AI writing sound human, change what goes in before you fix what comes out: give the AI facts only your business has, your customers' own words and three to five examples of your voice, with a role and the reason behind each rule. Then edit hard, cutting grand openings, adjectives that stand in for proof and hype, and check every fact before the page goes live. A humaniser tool cannot add what makes copy sound like you: what you know about your business."
+summary: "To make AI writing sound human, change what goes in before you fix what comes out: give the AI facts only your business has, your customers' own words and three to five examples of your voice, with a role and the reason behind each rule. Then edit hard, cutting grand openings, hype and adjectives that stand in for proof, and check every fact before the page goes live. A humaniser tool cannot add what makes copy sound like you: what you know about your business."
 cover: "ai-writing-sound-human"
 cover_alt: "The word Copywriting under a web page wireframe, beside a phone showing an inbox, held over a laptop"
 related: ["deep-research-copywriting-seo", "claude-vs-chatgpt", "write-seo-blog-posts", "write-content-for-ai-search", "web-design-process"]
@@ -18,7 +18,7 @@ faq:
   - q: "Which AI writes the most natural website copy?"
     a: "The one you give the best material to. I use Claude: in my work, ChatGPT tends to hallucinate a bit too much, while Claude, and Fable 5.1 in particular, has been extremely accurate. The method works with both."
   - q: "Can I do this with Claude's free plan?"
-    a: "Yes. The free plan includes up to five Projects, enough to keep each client's brief, examples and rules apart, with the Sonnet and Haiku models. Research, which I use to collect customer complaints, needs a paid plan such as Pro, and Fable 5.1 runs on Pro's usage credits or comes with Max ([Claude's pricing page](https://claude.com/pricing))."
+    a: "Yes. At the time of writing (October 2026), the free plan includes up to five Projects, enough to keep each client's brief, examples and rules apart, with the Sonnet and Haiku models. Research, Claude's deep research tool, needs a paid plan such as Pro, and Fable 5.1 runs on Pro's usage credits or comes with Max ([Claude's pricing page](https://claude.com/pricing))."
   - q: "Can I use a competitor's website as an example of the tone I want?"
     a: "No. The AI copies its examples closely, so you would get a page that sounds like your competitor, and reusing their sentences can infringe their copyright. Use your own emails, quotes and answers to customers, or write one paragraph yourself in the tone you want."
   - q: "Should I translate my English copy with AI for a French version of the site?"
@@ -27,7 +27,7 @@ faq:
 
 AI writing sounds generic when it starts from nothing. Ask for "a home page for a removals firm" and you get the most likely home page for any removals firm: polite and interchangeable. To make AI writing sound human, change what goes in before you fix what comes out, then edit the draft hard.
 
-This is how I write my clients' website copy. Once the visual identity and the page layouts are approved, I do the SEO research and the copywriting, then mix everything together with AI and go round, drafting and editing, until I am happy with the copy and the site. Only then does the client see it.
+This is how I write my clients' website copy, and since AI arrived, my delivery times have shrunk. Once the visual identity and the page layouts are approved, I do the SEO research and the copywriting, then mix everything together with AI, drafting and editing in rounds until I am happy with the copy and the site. Only then does the client see it.
 
 Below is that method in six steps, with a prompt to adapt and a list of patterns to cut. It is part of my guide to {{< a key="ai-small-business-guide" >}}AI for small businesses{{< /a >}} and fits into my {{< a key="web-design-process" >}}web design process{{< /a >}}.
 
@@ -35,11 +35,11 @@ Below is that method in six steps, with a prompt to adapt and a list of patterns
 
 A language model writes the most likely next words. With no facts about your business, the most likely page is the average of thousands of similar pages: the same promises and adjectives, in the same reassuring rhythm. Nothing in it is wrong, and nothing in it is yours.
 
-That matters. I want my clients to look good, and their prospects to be a little intimidated by the website, so that the business is taken seriously. It also cuts down on negotiation: a prospect who thinks you are not that respectable will not think you are worth that price. Copy that could belong to anyone works against both.
+I want my clients to look good, and their prospects to be a little intimidated by the website, so that the business is taken seriously. It also cuts down on negotiation: a prospect who thinks you are not that respectable will not think you are worth that price. Copy that could belong to anyone works against both.
 
 {{< callout type="tip" >}}**The swap test.** Replace your business's name with a competitor's. If the paragraph still works, it says nothing about you, and a prospect has no reason to choose you over the next result.{{< /callout >}}
 
-The other risk is invented facts: a model short of information fills the gap with something plausible, such as a guarantee nobody gave. In my work, ChatGPT tends to hallucinate a bit too much, while Claude, and Fable 5.1 in particular, has been extremely accurate, which is why I use Claude (my {{< a key="claude-vs-chatgpt" >}}Claude vs ChatGPT{{< /a >}} comparison has the details). Whichever assistant you use, the method below makes invented details easier to catch.
+The other risk is invented facts: a model short of information fills the gap with something plausible, such as a guarantee nobody gave. In my work, some assistants do it more often than others, which is why I write with Claude (my {{< a key="claude-vs-chatgpt" >}}Claude vs ChatGPT{{< /a >}} comparison has the details). None is immune, and the method below makes invented details easier to catch.
 
 ## How to make AI writing sound human: the six steps at a glance
 
@@ -93,7 +93,7 @@ Anthropic's guide suggests treating the model as a brilliant but new employee wh
 
 1. **Give it a role.** One sentence is enough: what it writes, and for whom.
 2. **Explain why.** "Three sentences at most" is a rule. Adding "because visitors decide in the first lines whether to read on" lets the model apply the reason to cases you did not foresee.
-3. **Say what to do, not what to avoid.** Instead of "don't sound like a robot", describe the voice: "short sentences, concrete facts, 'we' and 'you', the way the owner talks on the phone". Write the prompt in that plain style too, as the style of a prompt can carry over into the answer.
+3. **Say what to do, not what to avoid.** Instead of "don't sound like a robot", describe the voice: "short sentences, concrete facts, 'we' and 'you', the way the owner talks on the phone". Write the prompt itself in plain prose too: Anthropic notes that a prompt's formatting can carry over into the answer, so a prompt full of bullet points tends to get bullet points back.
 
 Here is a prompt for the removals firm, built on those habits:
 
@@ -122,11 +122,11 @@ it. Give me three versions of the headline.
 
 Keep the brief, the examples and the voice rules in a Project in Claude (ChatGPT has projects too). Project instructions apply only to the chats inside that project, so each client keeps its own voice. The **Instructions for Claude** field in **Settings** is the wrong place for one client's voice, because it applies to all your conversations ([Anthropic's help page](https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features)).
 
-## Step 4: draft one section at a time and go round
+## Step 4: draft one section at a time, then refine in rounds
 
 A whole page requested in one go comes back as a whole page of averages. Ask for one section at a time, with several versions of the lines that matter most: the headline, the sentence under it and the call to action. Choosing between three headlines is faster than fixing one.
 
-Then go round, telling the model what works and why: "Version 2 is right, but 'hassle-free' could be any firm: use the fixed price instead." Since AI arrived, my delivery times have shrunk, and the time saved sometimes lets me look for additional solutions for a client.
+Then refine in rounds, telling the model what works and why: "Version 2 is right, but 'hassle-free' could be any firm: use the fixed price instead."
 
 One last round before your own edit: ask the model to "quote every sentence that would still work for a competitor, and every claim that is not in the brief". It catches some; step 5 catches the rest.
 
@@ -153,13 +153,13 @@ dedicated team of professionals is committed to delivering a
 first-class service tailored to your needs.
 
 After (brief, examples, edit):
-House removals in Leeds, done in one day.
+House removals in Leeds: most homes moved in one day.
 We survey your home for free before we quote, and the price we
 quote is the price you pay on the day. If anything gets damaged,
-you call one number and we handle the claim.
+one phone number deals with your claim.
 ```
 
-**Short and sharp works.** It is my rule for cold emails: the first email is three lines at most, an introduction and a call to action, because people hate receiving long emails they never asked for from people they do not know. A visitor on a service page did not ask for your life story either: give them the offer, the proof and the next step first, and the details further down. I am no PR specialist and barely tried, yet I got a personal trainer friend featured in the French magazine Match, and I credit the copywriting and targeting skills that cold emailing gave me.
+**Short and sharp works.** It is my rule for cold emails: the first email is three lines at most, an introduction and a call to action, because people hate receiving long emails they never asked for from people they do not know. A visitor on a service page did not ask for your life story either: give them the offer, the proof and the next step first, and the details further down. The same goes for a press pitch: I am no PR specialist and barely tried, yet I got a personal trainer friend featured in the French magazine Match, and I credit the copywriting and targeting skills that cold emailing gave me.
 
 ## Step 6: check every fact, then show the client
 

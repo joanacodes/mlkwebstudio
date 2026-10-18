@@ -18,7 +18,7 @@ faq:
   - q: "How long do SPF, DKIM and DMARC take to work?"
     a: "Usually a few hours after you save the records, as cached DNS answers expire; OVHcloud quotes 4 to 24 hours for SPF changes. On a new Google Workspace account, Google says you may have to wait 24 to 72 hours after turning on Gmail before you can generate the DKIM key."
   - q: "Do I need DMARC if I only send a few emails a day?"
-    a: "Yes, in practice. Gmail and Outlook.com formally require all three records only from senders of about 5,000 messages a day and above, but every sender needs SPF or DKIM, and business inboxes run their own filters. A DMARC record costs nothing, and its reports are the only way to see who sends email in your name."
+    a: "Yes, in practice. Gmail and Outlook.com formally require all three records only from senders of about 5,000 messages a day and above, but every sender needs SPF or DKIM, and business inboxes run their own filters. A DMARC record costs nothing, and its reports show you who sends email in your name."
   - q: "Do SPF, DKIM and DMARC stop people from spoofing my domain?"
     a: "Once your DMARC policy is at reject, receivers that apply DMARC refuse emails that use your exact domain without passing SPF or DKIM. Nothing stops lookalike domains, such as a swapped letter or an added hyphen, so warn your team and clients about those."
   - q: "What is BIMI, and do I need it?"
@@ -45,7 +45,7 @@ Before a receiving server weighs your words, it checks whether the email really 
 
 They prove who you are. They do not rescue an email that reads like spam, or one sent to people who never asked for it.
 
-The big mailbox providers now insist on them. Since February 2024, [Google's email sender guidelines](https://support.google.com/a/answer/81126) have required everyone sending to Gmail addresses to pass SPF or DKIM, and senders of more than 5,000 messages a day to have all three, aligned with the From domain; Yahoo brought in similar rules at the same time. Google says Gmail has been ramping up enforcement since November 2025, with temporary and permanent rejections. Outlook.com has required the three records from domains sending it 5,000 or more messages a day since 5 May 2025.
+The big mailbox providers now insist on them. Since February 2024, [Google's email sender guidelines](https://support.google.com/a/answer/81126) have required everyone sending to Gmail addresses to pass SPF or DKIM and to keep the share of their emails that Gmail users mark as spam below 0.1%, never reaching 0.3%. Senders of about 5,000 or more messages a day must also have all three records, aligned with the From domain; Yahoo brought in similar rules at the same time. Google says Gmail has been ramping up enforcement since November 2025, with temporary and permanent rejections. Outlook.com has required the three records from domains sending it 5,000 or more messages a day since 5 May 2025.
 
 ## Step 1: check what Gmail sees with "Show original"
 
@@ -90,7 +90,7 @@ The records go wherever your domain's DNS is hosted: usually the registrar, unle
 | Namecheap | Domain List > Manage > Advanced DNS | `@` | Add New Record under Host Records |
 | OVHcloud | Web Cloud > Domain names > your domain > DNS zone | Empty sub-domain | Add an entry |
 
-Type names relative to your domain: `_dmarc`, not `_dmarc.yourbusiness.co.uk`, or some panels create `_dmarc.yourbusiness.co.uk.yourbusiness.co.uk`. Out of habit I use Spaceship, and my {{< a key="spaceship-domain-dns-tutorial" >}}Spaceship DNS tutorial{{< /a >}} walks through its Advanced DNS page.
+Type host names without your domain: `_dmarc`, not `_dmarc.yourbusiness.co.uk`, or some panels create `_dmarc.yourbusiness.co.uk.yourbusiness.co.uk`. Out of habit I use Spaceship, and my {{< a key="spaceship-domain-dns-tutorial" >}}Spaceship DNS tutorial{{< /a >}} walks through its Advanced DNS page.
 
 {{< callout type="tip" >}}**Copy the zone before you touch it.** Paste every record into a text file. If a TXT record on the root already starts with `v=spf1`, edit it in step 4: never add a second one.{{< /callout >}}
 
@@ -161,7 +161,7 @@ _dmarc   TXT   "v=DMARC1; p=none; rua=mailto:dmarc@yourbusiness.co.uk"
 ```
 
 - `p=none` asks for reports only, and already meets the Gmail, Yahoo and Outlook.com rules for large senders.
-- `rua=` is where the daily summary reports go. Give them their own mailbox or alias: they arrive as XML attachments. An address on another domain, such as a report service's, must be authorised by that domain, which report services handle for you.
+- `rua=` is where the daily summary reports go. Give them their own mailbox or alias: they arrive as zipped XML attachments. An address on another domain, such as a report service's, must be authorised by that domain, which report services handle for you.
 
 Keep one `_dmarc` record per domain. Your provider may not create it: Spacemail, for one, does not. At OVH, the DMARC entry type works, but a TXT record on the `_dmarc` sub-domain accepts every tag.
 
@@ -216,7 +216,7 @@ When a few weeks of reports show your own services passing, tighten the policy i
 _dmarc   TXT   "v=DMARC1; p=reject; rua=mailto:dmarc@yourbusiness.co.uk"
 ```
 
-Keep the `rua=` address at reject: the reports are how you spot a new tool that nobody authenticated.
+Keep the `rua=` address after the move to reject: the reports are how you spot a new tool that nobody authenticated.
 
 ## Domains that send no email, and cold email domains
 
@@ -229,7 +229,7 @@ _dmarc   TXT   "v=DMARC1; p=reject"
 
 For UK readers, the NCSC's guidance on [email security and anti-spoofing](https://www.ncsc.gov.uk/collection/email-security-and-anti-spoofing) covers the same records from a security angle.
 
-Cold email is the opposite case: secondary domains that send a lot, never your main one, for the reasons MLK Leadhunters gives in [never send cold emails from your main domain](https://mlkleadhunters.com/blog/never-send-from-your-main-domain/). Each secondary domain needs MX, SPF, DKIM and DMARC, and `p=none` meets the sender rules. The records are only the entry ticket: my campaigns use plain text with no links and no HTML, three emails at most, because that is what delivers best. My guide to {{< a key="cold-email-infrastructure" >}}cold email infrastructure{{< /a >}} sizes the domains and mailboxes.
+Cold email is the opposite case: secondary domains that exist only to send, never your main one, for the reasons MLK Leadhunters gives in [never send cold emails from your main domain](https://mlkleadhunters.com/blog/never-send-from-your-main-domain/). Each secondary domain needs MX, SPF, DKIM and DMARC, and `p=none` meets the sender rules. The records are only the entry ticket: my campaigns are plain text, with no links and no HTML, to ensure good delivery, and stop at three emails. My guide to {{< a key="cold-email-infrastructure" >}}cold email infrastructure{{< /a >}} sizes the domains and mailboxes.
 
 Spacemail is the provider I encourage for its easy set-up, but Spaceship's rules forbid unsolicited bulk email and automated warm-up through third-party tools: read its policy and get its written agreement before you use Spacemail for cold email. If you would rather hand campaigns over, that is what [MLK Leadhunters](https://mlkleadhunters.com/) does.
 

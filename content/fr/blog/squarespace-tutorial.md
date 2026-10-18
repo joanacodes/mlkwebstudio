@@ -75,10 +75,10 @@ Si Blueprint AI rédige vos premiers textes, relisez chaque phrase : un texte g
 
 Dans l’éditeur, cliquez sur l’icône du pinceau pour ouvrir les styles du site (**Site styles**). Réglez votre identité ici une fois pour toutes, pas bloc par bloc : chaque modification s’applique à tout le site et garde les pages cohérentes.
 
-1. Essayez d’abord les thèmes, des combinaisons de styles prêtes à l’emploi, au cas où l’un d’eux serait proche de votre identité.
+1. Essayez d’abord les thèmes, des combinaisons de styles toutes prêtes : l’un d’eux est peut-être proche de votre identité.
 2. Choisissez la police des titres et celle des paragraphes, ou un pack de polices qui s’en approche.
 3. Ajoutez les couleurs de votre marque ; les sections y puisent leurs fonds et la couleur de leurs textes.
-4. Définissez un seul style de bouton, pour que chaque appel à l’action ait la même apparence.
+4. Définissez un seul style de bouton, pour que tous vos appels à l’action se ressemblent.
 5. Vérifiez le style des formulaires, que votre formulaire de contact reprendra.
 
 Si une modification tourne mal, vous pouvez réinitialiser les réglages de style sans perdre votre contenu.
@@ -114,9 +114,9 @@ Ensuite, dans le panneau **Pages** :
 
 L’éditeur de Squarespace, Fluid Engine, est arrivé en juillet 2022. Il fonctionne sur deux niveaux : des sections empilées de haut en bas, et des blocs placés sur une grille à l’intérieur de chaque section.
 
-1. Ouvrez une page et cliquez sur le bouton de modification (**Edit**).
-2. Cliquez sur le bouton d’ajout de section (**Add section**) et choisissez une section toute faite ou vierge.
-3. Dans la section, cliquez sur le bouton d’ajout de bloc (**Add block**) et choisissez ce qu’il vous faut : texte, image, bouton, formulaire, carte.
+1. Ouvrez une page et passez en mode édition (**Edit**).
+2. Ajoutez une section (**Add section**), toute faite ou vierge.
+3. Dans la section, ajoutez un bloc (**Add block**) selon vos besoins : texte, image, bouton, formulaire, carte.
 4. Faites glisser le bloc à sa place sur la grille et redimensionnez-le par ses bords.
 5. Enregistrez avant de quitter l’éditeur.
 
@@ -143,7 +143,7 @@ Vérifiez que le téléphone et le bouton de contact apparaissent tôt, que les 
 
 Chez Pilotech, les demandes arrivent par deux portes : les formulaires et le téléphone. Offrez les deux à vos visiteurs, et assurez-vous que le formulaire vous parvient bien.
 
-1. Sur la page de contact, cliquez sur le bouton d’ajout de bloc (**Add block**) et choisissez le bloc formulaire (**Form**).
+1. Sur la page de contact, ajoutez un bloc formulaire (**Add block**, puis **Form**).
 2. Limitez les champs : nom, email, téléphone, message, et le service recherché.
 3. Choisissez où vont les envois : par email, dans une feuille de calcul Google Drive créée par Squarespace, ou dans Mailchimp. Vous pouvez en combiner plusieurs, par sécurité.
 4. Vérifiez l’adresse de notification : par défaut, les envois partent vers l’email du compte de la personne qui a ajouté le formulaire. Changez-la si les demandes doivent arriver ailleurs.

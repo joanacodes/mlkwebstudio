@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:17:00+02:00
 category: "tools"
 article_type: "comparison"
 keywords: ["Clarity vs Hotjar", "Clarity ou Hotjar", "alternative gratuite à Hotjar", "Hotjar gratuit", "Hotjar Contentsquare", "carte de chaleur gratuite"]
-summary: "Pour la plupart des sites de TPE, l’outil gratuit suffit : Microsoft Clarity ne coûte rien et offre cartes de chaleur et enregistrements de sessions sur un nombre illimité de sites, jusqu’à 100 000 sessions par projet et par jour, de quoi voir pourquoi les visiteurs partent. Hotjar, désormais intégré à Contentsquare, se justifie si vous voulez aussi des sondages sur le site, plus d’historique avec une offre payante ou des outils d’études pour une équipe ; les nouveaux comptes s’ouvrent chez Contentsquare, dont l’offre gratuite couvre 200 000 sessions par mois."
+summary: "Pour la plupart des sites de TPE, l’outil gratuit suffit : Microsoft Clarity offre gratuitement cartes de chaleur et enregistrements de sessions, sur un nombre illimité de sites et jusqu’à 100 000 sessions par projet et par jour. Hotjar, désormais intégré à Contentsquare, où s’ouvrent les nouveaux comptes, se justifie si vous voulez aussi des sondages sur le site, plus d’historique avec une offre payante ou des outils d’études pour une équipe."
 cover: "clarity-vs-hotjar"
 cover_alt: "Les mots Clarity vs Hotjar à côté de deux colonnes comparées, d’une tasse de café et d’une main qui écrit dans un carnet"
 related: ["microsoft-clarity-tutorial", "website-conversion-rate", "track-ai-traffic", "small-business-tools-guide", "google-search-console-tutorial"]
@@ -52,9 +52,9 @@ Ces chiffres viennent de la documentation de Microsoft et des pages de prix et d
 
 Pendant des années, Hotjar a été le nom que beaucoup donnaient aux cartes de chaleur. Il appartient désormais à Contentsquare, une plateforme d’analyse plus large pensée pour les équipes marketing, produit et e-commerce, et le site de Hotjar indique qu’il n’est plus possible d’y créer un compte. Si vous vous inscrivez aujourd’hui, vous ouvrez un compte Contentsquare.
 
-L’offre gratuite a changé en même temps. L’ancienne offre gratuite de Hotjar enregistrait 35 sessions par jour. Celle de Contentsquare couvre, au moment où j’écris, 200 000 sessions par mois, avec des cartes de chaleur illimitées, jusqu’à 10 000 enregistrements de sessions par mois, des entonnoirs de conversion et un nombre limité de réponses aux sondages. Pour le site d’une petite entreprise, **ces limites sont généreuses**.
+L’offre gratuite a changé en même temps. L’ancienne offre gratuite de Hotjar enregistrait 35 sessions par jour ; celle de Contentsquare couvre 200 000 sessions par mois, avec des entonnoirs de conversion en plus des cartes de chaleur, enregistrements et sondages détaillés dans le tableau. Pour le site d’une petite entreprise, **ces limites sont généreuses**.
 
-Ce que vous ouvrez, en revanche, c’est une plateforme plus vaste. Les pages de Contentsquare citent les sondages, les tests utilisateurs et les entretiens en plus des cartes de chaleur et des enregistrements, ainsi que des offres payantes qui ajoutent du volume et un historique plus long. Cela convient à une équipe qui mène des études chaque semaine. Pour quelqu’un qui regarde son site une fois par mois, c’est plus d’outil que le travail n’en demande.
+Ce que vous ouvrez, en revanche, c’est une plateforme plus vaste, avec des tests utilisateurs et des entretiens en plus des cartes de chaleur, des enregistrements et des sondages. Pour quelqu’un qui regarde son site une fois par mois, c’est plus d’outil que le travail n’en demande.
 
 {{< callout type="note" >}}Vous payez déjà Hotjar ? Vérifiez votre compte et la page de prix de Contentsquare avant votre prochain renouvellement, pour éviter toute surprise sur les noms d’offres ou les limites.{{< /callout >}}
 
@@ -79,7 +79,7 @@ L’avantage de Contentsquare, c’est tout ce qui entoure les enregistrements.
 
 ### Les sondages et les retours des visiteurs
 
-Vous pouvez poser une question sur la page elle-même : ce que le visiteur cherchait, ce qui l’a arrêté, pourquoi il n’a pas pris contact. Un enregistrement montre où quelqu’un a hésité ; un sondage d’une seule question peut dire pourquoi. L’offre gratuite plafonne les réponses à 100 par mois au moment où j’écris, avec trois sondages ou modules de feedback actifs en même temps d’après son tableau des offres, ce qui suffit largement pour un petit site.
+Vous pouvez poser une question sur la page elle-même : ce que le visiteur cherchait, ce qui l’a arrêté, pourquoi il n’a pas pris contact. Un enregistrement montre où quelqu’un a hésité ; un sondage d’une seule question peut dire pourquoi. L’offre gratuite plafonne les réponses à 100 par mois, avec trois sondages ou modules de feedback actifs en même temps d’après son tableau des offres, ce qui suffit largement pour un petit site.
 
 ### Plus d’historique, mais seulement avec une offre payante
 
@@ -102,7 +102,7 @@ Voici ce que coûte chaque outil au moment où j’écris (octobre 2026).
 
 Ces montants sont les prix en dollars affichés sur la page de prix de Contentsquare au moment où j’écris. Contentsquare indique facturer ses clients européens en euros : vérifiez le montant exact en euros sur la [page de prix de Contentsquare](https://contentsquare.com/pricing/) avant de vous abonner. Le tarif annuel correspond à une remise de 20 % sur le prix mensuel, et la formule au mois n’impose aucun engagement annuel : vous pouvez revenir à l’offre gratuite à tout moment.
 
-Le vrai coût des deux outils, c’est le temps passé à regarder les enregistrements et à agir. Prévoyez une heure par mois, quel que soit votre choix.
+Quel que soit votre choix, le vrai coût, c’est le temps passé à regarder les enregistrements et à agir.
 
 ## Consentement : les deux outils passent par votre bandeau cookies
 

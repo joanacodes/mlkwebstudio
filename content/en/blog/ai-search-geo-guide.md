@@ -27,15 +27,15 @@ faq:
     a: "Yes. In Search Console, the Settings page has a Search generative AI section where you can exclude your site from AI Overviews, AI Mode and the AI summaries in Discover. The change takes a few days, Google says it is not a ranking signal, and the Gemini app is still controlled separately by Google-Extended."
 ---
 
-Generative engine optimisation (GEO) is the work that gets your business found, understood and named by AI assistants. When someone asks ChatGPT for a bookkeeper in Bristol, or types a question that brings up one of Google's AI Overviews, the assistant searches the web, reads a few pages and writes an answer with a handful of sources. GEO is about being one of those sources, and being described correctly.
+When someone asks ChatGPT for a bookkeeper in Bristol, or types a question that brings up one of Google's AI Overviews, the assistant searches the web, reads a few pages and writes an answer with a handful of sources. Generative engine optimisation (GEO) is about being one of those sources, and being described correctly.
 
-For a small business, most of it is SEO you should be doing anyway. Google's own guide to its AI features, published in May 2026, treats optimising for them as ordinary SEO, and nothing on this page requires a paid tool or a special file. What is genuinely new fits in three lines: more crawlers to let in, mentions on other sites that weigh more, and measurement with gaps.
+For a small business, most of it is SEO you should be doing anyway, plus a few checks you can run yourself. What changes is the reward for getting it right: the answer names a few businesses instead of showing a page of links, and fewer people click through to compare them.
 
 This page is the hub of the blog's AI search section. It explains how AI search engines choose their sources, walks through five steps with a detailed guide for each, and ends with what you can safely ignore. I have written it the way I advise clients: honestly, including the parts you do not need me for.
 
 ## What generative engine optimisation is (and its other names)
 
-Generative engine optimisation is the practice of making your website and your reputation easy for AI systems to find, quote and recommend when they generate an answer. The term comes from a research paper by Aggarwal and colleagues from Princeton University and other institutions, [presented at the KDD 2024 conference](https://arxiv.org/abs/2311.09735). In their tests, changing how a page was written raised its visibility in generated answers by up to 40%. Citing sources, adding quotations and adding statistics were among the most effective changes, and the results varied by subject.
+Generative engine optimisation is the practice of making your website and your reputation easy for AI systems to find, quote and recommend when they generate an answer. The term comes from [a research paper by Aggarwal and colleagues](https://arxiv.org/abs/2311.09735) from Princeton University and other institutions, presented at the KDD 2024 conference. In their tests, changing how a page was written raised its visibility in generated answers by up to 40%. Citing sources, adding quotations and adding statistics were among the most effective changes, and the results varied by subject.
 
 You will meet several names for the same idea:
 
@@ -61,13 +61,13 @@ The index behind each assistant decides whether your site can be found at all:
 | ChatGPT search | OpenAI's own index plus third-party search providers (how much it relies on Bing is not documented) | OAI-SearchBot |
 | Google AI Overviews and AI Mode | Google's ordinary search index | Googlebot |
 | Gemini app | Google Search | Googlebot (the Google-Extended token decides whether Gemini may use your pages) |
-| Claude | Brave Search (Anthropic's declared provider since March 2025), alongside Anthropic's own crawler | Claude-SearchBot |
+| Claude | Brave Search (on Anthropic's list of subprocessors since March 2025), alongside Anthropic's own crawler | Claude-SearchBot |
 | Perplexity | Its own index | PerplexityBot |
 | Microsoft Copilot | Bing | Bingbot |
 
 Three practical consequences follow. First, if a crawler cannot read your pages, good writing will not help: a site that blocks OAI-SearchBot drops out of ChatGPT's search answers. Second, because assistants send several precise queries, a page that answers one specific question clearly stands a better chance than a vague homepage. Third, the answer is generated, so it can be wrong.
 
-That last point is why I am careful about which assistant I trust. I use Claude every day, because in my work ChatGPT has made things up a bit too often, while Claude has been extremely accurate; I compare them in {{< a key="claude-vs-chatgpt" >}}Claude vs ChatGPT for business{{< /a >}}. Whatever your customers use, check what it says about you (Step 4 below).
+That last point is why I am careful about which assistant I trust. I use Claude, because in my work ChatGPT has made things up a bit too often, while Claude has been extremely accurate; I compare them in {{< a key="claude-vs-chatgpt" >}}Claude vs ChatGPT for business{{< /a >}}. Whatever your customers use, check what it says about you (Step 4 below).
 
 The two biggest audiences have their own guides: {{< a key="get-recommended-by-chatgpt" >}}how to get your business recommended by ChatGPT{{< /a >}} and {{< a key="google-ai-overviews-ai-mode" >}}how to get your site cited in AI Overviews and AI Mode{{< /a >}}.
 
@@ -98,7 +98,7 @@ I make the full argument in {{< a key="geo-vs-seo" >}}GEO vs SEO: what really ch
 Start here, because everything else depends on it.
 
 1. Check your robots.txt. Open yourdomain.co.uk/robots.txt and make sure nothing blocks OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot or Bingbot. Training crawlers such as GPTBot and ClaudeBot are a separate decision: {{< a key="robots-txt-ai-crawlers" >}}robots.txt for AI crawlers{{< /a >}} lists the bots and gives three files to copy.
-2. Check the layers above it. Cloudflare has blocked known AI crawlers by default on newly added domains since 1 July 2025, and some website builders and security plugins have their own switch. On Squarespace, **Settings > Crawlers** has a "Block known artificial intelligence crawlers" option, off by default.
+2. Check the layers above it. Cloudflare has blocked known AI crawlers by default on newly added domains since 1 July 2025, and some website builders and security plugins have their own switch: make sure the search crawlers listed above are allowed there too. On Squarespace, **Settings > Crawlers** has a "Block known artificial intelligence crawlers" option, off by default.
 3. Make sure your text is in the HTML. Vercel found that GPTBot, ClaudeBot and PerplexityBot do not run JavaScript, unlike Googlebot. If your service descriptions only appear once a script has run, those crawlers may see an empty page.
 4. Get indexed by Google and Bing. Verify your site in Google Search Console and in Bing Webmaster Tools, which can import your sites from Search Console, then submit your sitemap. Bing is the index behind Copilot.
 
@@ -106,7 +106,7 @@ Start here, because everything else depends on it.
 
 Two extras get more attention than they deserve. An llms.txt file is a Markdown summary of your site for AI tools: Google Search ignores it, and no major AI company has confirmed using it to choose the businesses it recommends, as {{< a key="llms-txt-explained" >}}llms.txt explained{{< /a >}} sets out. Schema markup describes your business in code. It still has uses in Google, but an Ahrefs test that added JSON-LD to 1,885 pages found no meaningful rise in AI citations; {{< a key="schema-markup-small-business" >}}schema markup for small businesses{{< /a >}} lists the types still worth adding.
 
-For the record, this site lets every crawler in and publishes an llms.txt. It took minutes and costs nothing, so I keep it, but I do not expect it to bring in a single client.
+For the record, this site lets every crawler in and publishes an llms.txt. Keeping the file costs nothing, but I would not count on it to bring in a single client.
 
 ## Step 2: write pages that answer your customers' questions
 
@@ -119,7 +119,7 @@ Assistants quote pages that answer a precise question in plain words. In practic
 
 {{< a key="write-content-for-ai-search" >}}How to write content that AI assistants quote{{< /a >}} shows these habits with before-and-after rewrites.
 
-**Being specific matters even more than format.** For one client, the site that sells one very specific service was at the top of Google within a day or two of going live, which is unusually fast. The site of a sister company, which offered every building trade at once, did not work at all. An assistant asked for "an electrician in Croydon who installs EV chargers" can only name a business whose pages say exactly that.
+**Being specific matters even more than format.** For one client, the site that sells very specific services reached a top ranking for one of its searches within a day or two of going live, which is unusually fast. The site of a sister company, which offered a long list of building trades at once, did not work at all. An assistant asked for "an electrician in Croydon who installs EV chargers" looks for a business whose pages say exactly that.
 
 AI is a good research assistant for this work, not a page factory. I use Deep Research to find what people complain about most in a niche and which keywords keep coming back, then I edit the copy until it sounds like the business; the method is in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}. Publishing pages in bulk is another matter: Google's guidance on AI-generated content warns that many pages generated without adding value for users may break its scaled content abuse policy, and since October 2026 it insists on checking AI-generated content by hand before publishing.
 
@@ -134,16 +134,16 @@ For a small business, the most useful mentions are usually closer to home:
 - Suppliers and partners with a "find an installer" or "our partners" page.
 - The press, starting with your local paper.
 
-The press is less out of reach than it seems. I am not a PR specialist and barely tried, yet a short, targeted pitch got a personal trainer friend into the French magazine Match; I put it down to the copywriting and targeting habits that cold emailing taught me. You do not need followers, just something interesting to bring to the table and a page that shows your work. Start with your town's paper, then the regional press, then the national one: each article is a mention, often a link, and proof you can show. {{< a key="get-press-coverage" >}}How to get press coverage without followers{{< /a >}} explains the method.
+The press is less out of reach than it seems. I am not a PR specialist and barely tried, yet I got a personal trainer friend into the French magazine Match; I put it down to the copywriting and targeting habits that cold emailing taught me. You do not need followers, just something interesting to bring to the table and a page that shows your work. Start with your town's paper, then the regional press, then the national one: each article is a mention, often a link, and proof you can show. {{< a key="get-press-coverage" >}}How to get press coverage without followers{{< /a >}} explains the method.
 
-What does not work is faking it. Fake reviews break Google's policies, and Google's AI guide also addresses inauthentic mentions. The aim is to be talked about, not to manufacture the talk.
+What does not work is faking it. Fake reviews break Google's policies, which also forbid asking only the customers you expect to be pleased. In the UK, the Digital Markets, Competition and Consumers Act has banned fake reviews, and reviews presented in a misleading way, since 6 April 2025. Google's AI guide also addresses inauthentic mentions. The aim is to be talked about, not to manufacture the talk.
 
 ## Step 4: check what AI assistants say about you
 
 Once a month, test the questions your customers really ask. It takes less than an hour.
 
 1. Write down ten questions: your service plus your town, "best [service] for [type of client]", a comparison with a competitor, and your business name plus "reviews" or "prices".
-2. Ask each one in ChatGPT, Gemini, Perplexity, Claude and Copilot, then in Google to see AI Overviews and AI Mode. Use a temporary or logged-out chat where you can, so your past conversations do not colour the answer.
+2. Ask each one in ChatGPT, Gemini, Perplexity, Claude and Copilot, then in Google to see AI Overviews and AI Mode. Where you can, use a private browser window without signing in, or switch off memory and personalisation first, so your past conversations do not colour the answer.
 3. Note who is named, which sources are cited and anything wrong about you: old prices, a former address, a service you no longer offer.
 4. Correct errors where the assistants read them: your own pages, your Business Profile and your directory listings.
 
@@ -164,7 +164,7 @@ Measurement is the weakest part of GEO, so combine several free sources:
 
 I rely on Clarity to see where visitors engage the most, whether they came for something specific and which parts of a page make them leave. It tells me whether the copy, a picture or the layout is the problem, which is exactly what you need to know when a page gets AI visits but no enquiries. The {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity tutorial{{< /a >}} shows how to install it.
 
-{{< callout type="note" >}}ChatGPT adds `utm_source=chatgpt.com` to the links it shows, which is how analytics tools recognise it. Not every link carries the tag: from 9 October 2026, many sites saw ChatGPT visits fall in GA4 while direct visits rose, and OpenAI had not announced any change at the time of writing. Read a sudden drop with caution.{{< /callout >}}
+{{< callout type="note" >}}ChatGPT adds `utm_source=chatgpt.com` to the links it shows, which helps analytics tools recognise it. Not every link carries the tag: from 9 October 2026, many sites saw ChatGPT visits fall in GA4 while direct visits rose, and OpenAI had not announced any change at the time of writing. Read a sudden drop with caution.{{< /callout >}}
 
 Then count what really matters: enquiries. Add "an AI assistant (ChatGPT, Gemini…)" to the "How did you hear about us?" options on your contact form, and ask the question on the phone. Analytics will always miss part of this traffic.
 
@@ -173,7 +173,7 @@ Then count what really matters: enquiries. Add "an AI assistant (ChatGPT, Gemini
 A new topic always attracts sellers. Here is what I would not pay for:
 
 - Guaranteed placement in ChatGPT or AI Overviews. OpenAI says placement in ChatGPT search is not guaranteed, and Google says nobody can guarantee a top ranking. Answers change with each question and each user.
-- An llms.txt file, "AI schema" or "chunked" rewrites sold as a package. Google says its AI features need none of them, and no other assistant has said it relies on them.
+- An llms.txt file, "AI schema" or "chunked" rewrites sold as a package. Google says its AI features need none of them, and no other AI company has said it chooses sources because of them.
 - Hundreds of AI-written pages, one per town or per question with the details swapped. That is the scaled content and doorway pattern Google's spam policies target.
 - Fake reviews, bought mentions and planted forum posts, for the reasons in Step 3.
 - A paid tracker before the basics. A tool can tell you that you are not mentioned; it cannot fix the reasons. Do Steps 1 to 4 first.
@@ -184,10 +184,10 @@ A new topic always attracts sellers. Here is what I would not pay for:
 
 You can do all of this yourself in a few hours a week:
 
-1. Week 1, access: check robots.txt, Cloudflare and your website builder's crawler settings, verify Search Console and Bing Webmaster Tools, and submit your sitemap.
+1. Week 1, access and starting point: check robots.txt, Cloudflare and your website builder's crawler settings, verify your site in Search Console and Bing Webmaster Tools, submit your sitemap, and run the ten-question test from Step 4 once to record where you start.
 2. Weeks 2 to 4, pages: one page per service with the answer first, your prices or price ranges, the areas you cover and real photos. Update your About and contact pages with facts an assistant can quote.
-3. Month 2, proof: complete your Google Business Profile, ask your ten most recent happy clients for a review, align your directory listings and pitch one local journalist.
-4. Month 3, test and measure: run the ten-question test, check the AI channels in GA4 and Clarity, and note your starting point.
+3. Month 2, proof: complete your Google Business Profile, ask your ten most recent clients for a review, align your directory listings and pitch one local journalist.
+4. Month 3, test and measure: rerun the ten-question test, compare it with your starting point and check the AI channels in GA4 and Clarity.
 5. Every month after that: rerun the test, update the pages where answers were wrong or missing, and date your changes.
 
 ### When to hand it over

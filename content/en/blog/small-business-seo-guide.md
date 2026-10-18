@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:52:00+02:00
 category: "seo"
 article_type: "pillar"
 keywords: ["small business SEO", "SEO for small businesses", "what is SEO", "how to do SEO yourself", "DIY SEO", "SEO basics"]
-summary: "Small business SEO is the work that gets your website shown on Google, and in its AI answers, when people search for what you sell, so enquiries come from people already looking. You can do most of it yourself, in this order: find the words your clients type, give each service its own page, answer their questions, complete your Google Business Profile, then fix the technical basics. Expect four months to a year before enquiries flow steadily, as Google's guidance says."
+summary: "Small business SEO is the work that gets your website shown on Google, and in its AI answers, when people search for what you sell, so enquiries come from people already looking. You can do most of it yourself, in this order: find the words your clients type, give each service its own page, answer their questions, complete your Google Business Profile, then fix the technical basics. Google's guidance on hiring an SEO says to expect results in four months to a year."
 cover: "small-business-seo-guide"
 cover_alt: "The word SEO and a rising chart that reaches number one, beside a laptop and two binders on a desk"
 related: ["keyword-research-small-business", "on-page-seo-checklist", "local-seo-guide", "how-long-does-seo-take", "google-search-console-tutorial"]
@@ -51,13 +51,13 @@ Google is where to start. It handles about 91% of searches in the UK, against ab
 
 Longer than most owners hope. [Google's guidance on hiring an SEO](https://developers.google.com/search/docs/fundamentals/do-i-need-seo) says that in most cases it takes four months to a year to put the improvements in place and start seeing the benefit. A new page can be indexed within days and rank for very specific searches within weeks; a steady flow of enquiries comes later.
 
-Pilotech was the exception. Its site reached the top positions within a day or two of going live, which is unusually fast, and I would not promise that to anyone. It sells one very specific service, air conditioning with no outdoor unit, to people who search for it in precise words. You can see the pages on the {{< a page="/projects/pilotech-teknopoint" >}}Pilotech Teknopoint project{{< /a >}}, and the full story, step by step, in my {{< a key="pilotech-seo-case-study" >}}SEO case study{{< /a >}}.
+Pilotech was the exception. Its site reached a top ranking for one of its searches within a day or two of going live, which is unusually fast, and I would not promise that to anyone. It sells one very specific service, air conditioning with no outdoor unit, to people who search for it in precise words. You can see the pages on the {{< a page="/projects/pilotech-teknopoint" >}}Pilotech Teknopoint project{{< /a >}}, and the full story, step by step, in my {{< a key="pilotech-seo-case-study" >}}SEO case study{{< /a >}}.
 
 Because SEO is slow, I put expectations in writing before I start. I learnt that the hard way, with a client who refused to pay after six months because the results had not come yet. Now the plan says what I will do, what nobody can promise and when we will review it together. If you hire someone, ask for the same; if you do it yourself, write it down for yourself. My guide to {{< a key="how-long-does-seo-take" >}}how long SEO takes{{< /a >}} breaks the timeline down stage by stage.
 
 ## Small business SEO step by step: the order that works
 
-Order matters. That is why I followed the same sequence for Pilotech: pages first, then content, then the Google Business Profile, then the technical fixes. Before all of that comes keyword research, because a page can only rank for words you chose on purpose.
+Order matters. For Pilotech, I worked on the pages first, then the content, then the Google Business Profile, then the technical fixes. Keyword research comes before all of that, because a page can only rank for words you chose on purpose.
 
 | Step | What you do | Free tools |
 |---|---|---|
@@ -76,7 +76,7 @@ Keyword research means finding the searches your future clients make when they n
 1. Start with your clients' own words. Read your emails, quote requests and call notes: people rarely type your trade's jargon, they type their problem and their town.
 2. Compare phrasings in Google Trends. It shows which wording people use more, on a 0 to 100 scale of relative interest, not in search volumes. My {{< a key="google-trends-tutorial" >}}Google Trends tutorial{{< /a >}} shows how to read the chart.
 3. Check volumes in Google Keyword Planner. It is free inside Google Ads and, without ad spend, shows volumes as ranges, which is enough to compare. Here is {{< a key="google-keyword-planner-tutorial" >}}how to use Keyword Planner without running ads{{< /a >}}.
-4. Look at what advertisers pay. This is mainly what I use Semrush for: a keyword that advertisers pay a lot for is one that brings business, so I go after it with SEO instead of ads. The free account gives you 10 requests a day, and whether {{< a key="semrush-review" >}}Semrush is worth paying for{{< /a >}} depends on how often you do this.
+4. Look at what advertisers pay. Keyword Planner shows top-of-page bid ranges for free, and Semrush, which I use for keyword research, shows the cost per click. A keyword advertisers pay a lot for is one that brings business, so I go after it with SEO instead of ads. Semrush's free account gives you 10 requests a day; whether {{< a key="semrush-review" >}}Semrush is worth paying for{{< /a >}} depends on how often you do this.
 5. Let AI read the complaints. I use deep research tools to find what people complain about most in a niche and which words keep coming back, as I explain in my {{< a key="deep-research-copywriting-seo" >}}Deep Research method for copywriting and SEO{{< /a >}}.
 
 Then favour **specific searches you can win** over broad words that national brands already own. Pilotech's Teknopoint site does not chase 'air conditioning'; it answers the French for 'air conditioning without an outdoor unit', the exact words its buyers type.
@@ -120,7 +120,7 @@ Write as long as the answer needs: Google's guidance on helpful content states p
 
 Your Google Business Profile is the free listing that shows your business on Google Maps and in the map results. For a local search, it is often the first thing people see, before your website.
 
-Google ranks these local results on three things: relevance, distance and prominence. Reviews help, and nobody can pay Google for a better position. To set up the profile, claim or create it at business.google.com, verify it (most often with a short video of your premises, van or tools), choose one precise primary category, then add your services, service area, opening hours and real photos. My {{< a key="google-business-profile-setup" >}}Google Business Profile setup tutorial{{< /a >}} goes through it step by step.
+Google ranks these local results on three things: relevance, distance and prominence. Reviews help, and nobody can pay Google for a better position. To set up the profile, claim or create it at business.google.com, then verify it. Google chooses the method, and for a new profile it is most often one continuous phone video that shows your location, your business and proof that you run it. Then choose one precise primary category and add your services, service area, opening hours and real photos. My {{< a key="google-business-profile-setup" >}}Google Business Profile setup tutorial{{< /a >}} goes through it step by step.
 
 {{< callout type="warning" >}}**Never buy or fake reviews.** Since 6 April 2025, the DMCC Act has banned fake reviews in the UK, as well as reviews that hide an incentive. Ask every happy client for an honest review instead, with nothing offered in return.{{< /callout >}}
 
@@ -164,8 +164,8 @@ My advice is not to chase every new acronym. GEO, AEO, AIO: each month brings a 
 
 You do not need a paid dashboard. Three free tools cover what a small business needs:
 
-- Google Search Console. Once a month, open the Performance report for clicks, impressions, average position and the searches that showed your pages. The branded queries filter, where your site has it, separates searches for your name from searches for your service, which are the ones SEO has to win. Since 31 August 2026, a generative AI report also shows your impressions in AI Overviews and AI Mode, without clicks.
-- Your Business Profile's performance figures: calls, direction requests and website clicks from Google Search and Maps.
+- Google Search Console. Once a month, open the Performance report for clicks, impressions, average position and the searches that showed your pages. The branded queries filter, where your site has it, separates searches for your name from searches for your service, which are the ones SEO has to win. Since 31 August 2026, every site also has a generative AI report, which shows your impressions in AI Overviews and AI Mode, but no clicks.
+- Your Business Profile's performance figures, available once the profile is verified: calls, direction requests and website clicks from Google Search and Maps.
 - Microsoft Clarity, which shows where visitors engage and which parts of a page make them leave, so you can tell whether the problem is the copy, a picture or the layout. Here is {{< a key="microsoft-clarity-tutorial" >}}how to use Microsoft Clarity{{< /a >}}.
 
 Look monthly rather than daily: positions move, especially during Google's core updates, such as those of March and May 2026. And remember that **the number that matters is not in any of these tools**: it is calls and quote requests. Ask every new client how they found you, and write it down.
