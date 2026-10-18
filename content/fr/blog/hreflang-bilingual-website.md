@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:08:00+02:00
 category: "seo"
 article_type: "tutorial"
 keywords: ["balise hreflang", "hreflang", "référencement site multilingue", "site bilingue SEO", "x-default", "hreflang sitemap"]
-summary: "La balise hreflang indique à Google quelles pages sont les versions linguistiques les unes des autres, pour montrer votre page française aux francophones et votre page anglaise aux anglophones. Chaque version liste toutes les versions, elle comprise, avec des adresses complètes, des codes valides (fr, en, fr-FR) et une valeur x-default, dans le head, un en-tête HTTP ou le sitemap. Elle ne fait pas monter une page dans Google : chaque version doit être écrite pour son marché."
+summary: "La balise hreflang signale à Google les différentes versions linguistiques d’une même page, pour qu’il montre votre page française aux francophones et votre page anglaise aux anglophones. Chaque version liste toutes les versions, y compris elle-même, avec des adresses complètes, des codes valides (fr, en, fr-FR) et une valeur x-default, dans le head, un en-tête HTTP ou le sitemap. Elle ne fait pas monter une page dans Google : chaque version doit être écrite pour son marché."
 cover: "hreflang-bilingual-website"
 cover_alt: "Les mots hreflang EN · FR à côté d’une fenêtre de terminal"
 related: ["google-search-console-tutorial", "on-page-seo-checklist", "squarespace-seo", "keyword-research-small-business", "eden-flats-corporate-mobility"]
@@ -29,9 +29,9 @@ faq:
 
 La balise hreflang est une courte ligne de code qui indique à Google que deux pages disent la même chose dans deux langues, et laquelle montrer à qui. Sur un site bilingue ou multilingue, elle montre votre page française à ceux qui cherchent en français et votre page anglaise à ceux qui cherchent en anglais, au lieu de laisser Google choisir une version pour tous.
 
-Ce blog s’en sert : chaque article existe en français et en anglais, et chaque version désigne l’autre. J’ai fait de même pour un client, Eden Corporate Mobility, dont le site bilingue compte 17 pages dans chaque langue. Voici les codes à utiliser, les trois endroits où placer les balises, la mise en place selon votre plateforme et les vérifications à faire.
+Ce blog s’en sert : presque tous les articles existent en français et en anglais, et chaque version désigne l’autre. J’ai fait de même pour un client, Eden Corporate Mobility, dont le site bilingue compte 17 pages dans chaque langue. Voici les codes à utiliser, les trois endroits où placer les balises, la mise en place selon votre plateforme et les vérifications à faire.
 
-Une mise en garde avant le code : hreflang envoie chaque internaute vers la bonne version sans l’aider à se positionner, d’où la section sur la rédaction juste après les bases. Ce tutoriel fait partie de mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel pour les petites entreprises{{< /a >}}.
+Ce tutoriel fait partie de mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel pour les petites entreprises{{< /a >}}.
 
 ## Ce que fait la balise hreflang (et ce qu’elle ne fait pas)
 
@@ -41,7 +41,7 @@ Une balise hreflang est un lien qui désigne une autre version linguistique de l
 <link rel="alternate" hreflang="en" href="https://votreentreprise.fr/en/services/office-cleaning/">
 ```
 
-Elle se lit ainsi : la version anglaise de cette page se trouve à cette adresse. Quand les deux versions se désignent l’une l’autre, Google peut montrer à chacun la version dans sa langue. Sans balise, il retrouve parfois les paires seul, mais vous lui laissez deviner.
+Elle se lit ainsi : la version anglaise de cette page se trouve à cette adresse. Quand les deux versions se désignent l’une l’autre, Google peut montrer à chacun la version dans sa langue. Sans balise, il retrouve parfois les paires seul, mais vous le laissez deviner.
 
 Ce que la balise ne fait pas compte autant :
 
@@ -101,13 +101,13 @@ Pour la plupart des petites entreprises bilingues, fr et en suffisent, et c’es
 
 {{< callout type="warning" >}}**Le code du Royaume-Uni est GB, pas UK.** en-UK n’est pas une valeur valide, et uk seul est le code de l’ukrainien. Mettez aussi un tiret : fr_FR, avec un tiret bas, est le format d’autres balises (og:locale, par exemple), pas celui de hreflang.{{< /callout >}}
 
-La valeur x-default sert aux visiteurs dont la langue ne correspond à aucune des vôtres, comme un germanophone sur un site en français et en anglais. Facultative mais utile, elle a été prévue pour les pages de choix de la langue ; si vous n’en avez pas, faites-la pointer vers la version que ces visiteurs liront le plus facilement. Sur ce site, c’est l’anglais, et c’est en général le bon choix pour une entreprise française : un visiteur qui ne lit pas le français a plus de chances de lire l’anglais.
+La valeur x-default sert aux visiteurs dont la langue ne correspond à aucune des vôtres, comme un germanophone sur un site en français et en anglais. Facultative mais utile, elle a été prévue pour les pages de choix de la langue ; si vous n’en avez pas, faites-la pointer vers la version que ces visiteurs liront le plus facilement. Sur ce site, c’est l’anglais, le bon choix pour la plupart des entreprises françaises : un visiteur qui ne lit pas le français lit plus souvent l’anglais.
 
 ## Étape 3 : placer les balises dans le head, le sitemap ou un en-tête HTTP
 
-Google lit hreflang à trois endroits, et un seul suffit ([le guide de Google sur les versions localisées d’une page](https://developers.google.com/search/docs/specialty/international/localized-versions?hl=fr)). Où que vous les placiez, quatre règles s’appliquent :
+Google lit hreflang à trois endroits, et un seul suffit ([le guide de Google sur les versions localisées d’une page](https://developers.google.com/search/docs/specialty/international/localized-versions?hl=fr)). Où que vous placiez les balises, quatre règles s’appliquent :
 
-1. Chaque version liste **toutes les versions, elle comprise**, plus la valeur x-default.
+1. Chaque version liste **toutes les versions, y compris elle-même**, plus la valeur x-default.
 2. Les lignes sont **identiques sur chaque version**.
 3. Chaque adresse est **complète**, avec https:// et le domaine : un lien relatif comme /en/ ne compte pas.
 4. Les liens vont **dans les deux sens**. Si la page française cite la page anglaise et pas l’inverse, Google peut ignorer la paire.
@@ -124,7 +124,7 @@ Les lignes vont dans la section head des deux pages. Pour un site avec le franç
 <link rel="alternate" hreflang="x-default" href="https://votreentreprise.fr/en/services/office-cleaning/">
 ```
 
-Les trois mêmes lignes vont sur les deux pages. Remarquez le slug anglais : chaque version garde ses propres mots. Ici, x-default vise l’anglais (voir l’étape 2).
+Les trois mêmes lignes vont sur les deux pages. Remarquez le slug anglais : chaque version garde ses propres mots.
 
 Sur ce site, un modèle les écrit sur chaque article. Pour celui-ci, le head des deux versions contient :
 
@@ -173,38 +173,38 @@ Choisissez un seul endroit et tenez-vous-y. Si votre plateforme écrit déjà le
 
 {{< callout type="note" >}}**Vérifiez aussi la balise canonique de chaque version.** La canonique indique à Google quelle adresse garder parmi des copies. Celle de la page anglaise doit pointer vers elle-même : si elle pointe vers la page française, elle demande à Google de traiter la version anglaise comme une copie et de l’écarter.{{< /callout >}}
 
-## Étape 4 : la mise en place sur votre plateforme
+## Étape 4 : mettre en place les balises sur votre plateforme
 
 ### WordPress, Wix et outils de traduction
 
-Les extensions de traduction et les créateurs de sites écrivent les balises pour vous : WPML et Polylang sur WordPress, Wix Multilingual sur Wix, ou un service comme Weglot. À vous de vérifier ce qu’ils produisent (étape 5), sans ajouter vos propres lignes : un second jeu écrit à la main finit par contredire le premier dès qu’une page change.
+La plupart des outils de traduction écrivent les balises pour vous : WPML et Polylang sur WordPress, la fonction multilingue de Wix, ou un service comme Weglot. À vous de vérifier ce qu’ils produisent (étape 5), sans ajouter vos propres lignes.
 
 ### Squarespace
 
 Squarespace n’a pas de traduction intégrée. Son centre d’aide décrit deux voies : Weglot, ou la construction à la main des pages de chaque langue ([le guide de Squarespace sur les sites multilingues faits à la main](https://support.squarespace.com/hc/fr-fr/articles/16552875658765)).
 
 - **Avec Weglot**, vous gérez les traductions dans son tableau de bord, et Weglot dit ajouter lui-même les balises hreflang. Son prix dépend du nombre de mots et de langues de votre site.
-- **À la main**, vous dupliquez chaque page, donnez à la copie le slug, le titre SEO et la description de l’autre langue, la traduisez, puis collez les lignes hreflang sur les deux versions, dans le champ **Page Header Code Injection** de l’onglet **Advanced** des paramètres de la page. Le forfait Basic n’inclut pas l’injection de code : vérifiez le vôtre avant de commencer.
+- **À la main**, vous dupliquez chaque page, donnez à la copie le slug, le titre SEO et la description de l’autre langue, la traduisez, puis collez les lignes hreflang sur les deux versions, dans le champ **Page Header Code Injection** de l’onglet **Advanced** (avancé) des paramètres de la page. Il faut le forfait Essentiel ou supérieur, pas Basic : voyez mon tuto sur l’{{< a key="squarespace-code-injection" >}}injection de code Squarespace{{< /a >}}.
 
-Je propose Squarespace aux clients qui veulent modifier leur site eux-mêmes, et j’y ajoute en général un peu de code. Les lignes hreflang se prêtent bien à ce partage : collées une fois, elles laissent le client réécrire le texte autour sans rien casser. Le piège, c’est un slug renommé : les lignes des deux pages doivent changer avec lui. Mon {{< a key="squarespace-seo" >}}tuto de référencement Squarespace{{< /a >}} montre où se règlent le slug, le titre et la description de chaque page.
+Je propose Squarespace aux clients qui veulent modifier leur site eux-mêmes, et j’y ajoute en général un peu de code. Les lignes hreflang se prêtent bien à ce partage : collées une fois, elles laissent le client réécrire le texte autour sans rien casser. Le piège, c’est un slug renommé : les lignes des deux pages doivent changer avec lui. Squarespace prévient aussi que du HTML placé dans ce champ peut disparaître si vous désactivez la transparence de l’en-tête : vérifiez le code source après l’enregistrement (étape 5), puis après toute modification de l’en-tête. Mon {{< a key="squarespace-seo" >}}tuto de référencement Squarespace{{< /a >}} montre où se règlent le slug, le titre et la description de chaque page.
 
 {{< screenshot id="hreflang-bilingual-website-02" alt="Paramètres d’une page Squarespace, onglet Advanced, avec les lignes hreflang en, fr et x-default dans le champ Page Header Code Injection" >}}
 
 ### Sites codés sur mesure
 
-Sur un site sur mesure, le modèle écrit les lignes à partir des données : personne ne tape deux fois une adresse. Sur ce site, chaque article et sa traduction partagent une clé : le modèle trouve l’autre version, écrit une ligne par langue plus x-default, et un nouvel article a ses balises dès sa mise en ligne.
+Sur un site sur mesure, le modèle écrit les lignes à partir des données : personne ne tape deux fois une adresse. Sur ce site, construit avec Hugo, chaque article et sa traduction partagent une clé : le modèle trouve l’autre version, écrit une ligne par langue plus x-default, et un nouvel article a ses balises dès sa mise en ligne.
 
 ## Étape 5 : vérifier que Google lit vos balises
 
 La Search Console listait autrefois les erreurs hreflang dans un rapport sur le ciblage international. Google a supprimé ce rapport le 22 septembre 2022 ([l’annonce de Google](https://support.google.com/webmasters/answer/12474899?hl=fr)). Il utilise toujours les balises, mais plus aucun rapport ne liste leurs erreurs : les vérifications vous reviennent.
 
-1. **Lisez le code source des deux versions.** Faites un clic droit sur la page, choisissez d’afficher le code source et cherchez hreflang. Les deux versions doivent montrer les mêmes lignes, avec des adresses complètes qui ouvrent les bonnes pages.
+1. **Lisez le code source des deux versions.** Faites un clic droit sur la page, choisissez d’afficher le code source et cherchez hreflang (Ctrl+F, ou Cmd+F sur Mac). Les deux versions doivent montrer les mêmes lignes, avec des adresses complètes qui ouvrent les bonnes pages.
 2. **Inspectez la page de la seconde langue dans la Search Console.** Collez son adresse dans la barre d’**Inspection de l’URL** et dépliez le détail de l’indexation : la canonique que vous avez déclarée et celle que Google a sélectionnée doivent toutes deux être l’adresse de cette page. Si Google a retenu l’autre langue, il voit la page comme une copie, et le rapport d’indexation des pages la classe parmi les doublons pour lesquels Google a choisi une autre canonique que la vôtre. Mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}} montre où se trouvent ces rapports.
 3. **Lancez un audit sur un site plus grand.** Les crawlers SEO et les outils d’audit signalent les liens de retour manquants et les codes invalides sur toutes les pages, plus vite que cinquante codes sources lus un par un.
 
 {{< screenshot id="hreflang-bilingual-website-03" alt="Inspection de l’URL dans la Search Console pour la version française d’un article de mlkwebstudio.com, avec la même adresse française en canonique déclarée et en canonique sélectionnée par Google" >}}
 
-Voici les erreurs que je cherche en premier :
+Les erreurs à chercher en premier :
 
 | Erreur | Ce qui se passe | Correction |
 |---|---|---|
@@ -221,11 +221,11 @@ Avant de dire que c’est fini :
 
 1. Chaque langue a sa propre adresse, de préférence en sous-dossier.
 2. Chaque version vise son marché : mot-clé, slug, titre, description, exemples et devise.
-3. Chaque version liste toutes les versions, elle comprise, plus une valeur x-default.
+3. Chaque version liste toutes les versions, y compris elle-même, plus une valeur x-default.
 4. Les codes sont valides : fr, en, fr-FR ou en-GB, jamais en-UK ni fr_FR.
 5. Chaque adresse est complète et ouvre une page en ligne.
 6. La canonique de chaque version pointe vers elle-même.
 7. Aucune redirection automatique, et un sélecteur qui mène à la même page dans l’autre langue.
 8. Le code source et l’inspection de l’URL vérifiés sur quelques pages dans chaque langue.
 
-Si votre plateforme écrit les balises (extension WordPress, Wix Multilingual, Weglot), vous n’avez besoin de personne : faites une fois ces vérifications et consacrez votre temps au contenu de chaque version. Passer la main vaut la peine quand les balises sont tapées à la main sur des dizaines de pages, quand vous avez un domaine par pays, ou quand Google affiche toujours la mauvaise version sans que les vérifications expliquent pourquoi.
+Si votre plateforme écrit les balises (extension WordPress, fonction multilingue de Wix, Weglot), vous n’avez besoin de personne : faites une fois ces vérifications et consacrez votre temps au contenu de chaque version. Passer la main vaut la peine quand les balises sont tapées à la main sur des dizaines de pages, quand vous avez un domaine par pays, ou quand Google affiche toujours la mauvaise version sans que les vérifications expliquent pourquoi.

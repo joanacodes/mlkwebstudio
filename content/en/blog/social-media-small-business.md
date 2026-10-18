@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:46:00+02:00
 category: "social-media"
 article_type: "pillar"
 keywords: ["best social media for small business", "best social media platform for small business", "which social media is best for business", "social media for small business 2026", "Threads for business", "Bluesky custom domain"]
-summary: "For most small businesses in 2026, the best social media are those where a post keeps working long after you publish it: Pinterest if your work is visual, YouTube Shorts if you can film, plus a Google Business Profile if you serve a local area. Instagram, TikTok and Facebook reward constant posting or an ad budget, and LinkedIn suits B2B. Pick one platform, keep a pace you can hold and point every post to your website."
+summary: "For most small businesses in 2026, the best social media platforms are the ones where a post keeps working long after you publish it: Pinterest if your work is visual, YouTube Shorts if you can film, plus a Google Business Profile if you serve a local area. Instagram, TikTok and Facebook reward constant posting or an ad budget, and LinkedIn suits B2B. Pick one platform, keep a pace you can hold and point every post to your website."
 cover: "social-media-small-business"
 cover_alt: "A laptop and a notebook beside a grid of post tiles with a heart and a play icon, titled Social media 2026"
 related: ["pinterest-for-business", "youtube-shorts-for-business", "google-business-profile-posts", "social-media-scheduling-tools", "shiny-object-syndrome"]
@@ -24,14 +24,14 @@ faq:
   - q: "Can I schedule social media posts for free?"
     a: "Yes, with each platform's own tools: Meta Business Suite for Facebook and Instagram, YouTube Studio for Shorts, and the scheduling option in Google Business Profile posts. A tool such as Metricool, which has a free plan, saves time once you post on several platforms."
   - q: "Do social media posts help my Google rankings?"
-    a: "Not directly: Google has repeatedly said that likes, shares and follower counts are not ranking signals. Social media helps indirectly, when people discover you on a platform, search for your name and then visit your website."
+    a: "Not directly: Google's spokespeople have said several times that social signals such as likes, shares and follower counts are not used to rank pages. Social media helps indirectly, when people discover you on a platform, search for your name and then visit your website."
 ---
 
-I'm not a social media manager, and MLK Web Studio doesn't sell social media management. That makes this guide easier to write honestly: there is no package waiting at the end of the page, only my opinion and the facts, each one dated.
+I'm not a social media manager, and MLK Web Studio doesn't sell social media management. That makes this guide easier to write honestly: there is no social media package waiting at the end of this page, only my opinion and the facts, each one dated.
 
-So here is my answer on the best social media for small business in 2026. If you work alone, choose Pinterest or YouTube Shorts, and add a Google Business Profile if you serve a local area. On those platforms, a post keeps working long after you publish it. On Instagram, TikTok and Facebook, you have to keep begging for attention.
+So here is my view on the best social media for small business in 2026. If you work alone, choose Pinterest or YouTube Shorts, and add a Google Business Profile if you serve a local area. On those platforms, a post keeps working long after you publish it. On Instagram, TikTok and Facebook, you have to keep begging for attention.
 
-Below, you'll find how to choose, one short section per platform with what changed in 2025 and 2026 (Threads and Bluesky included), and a table that puts every change in date order. Each section links to the full article on that platform.
+Below, I explain how to choose, then give one short section per platform with what changed in 2025 and 2026 (Threads and Bluesky included), and a table that puts the main changes in date order. Most sections link to a full article on that platform.
 
 ## The best social media for small business: my verdict
 
@@ -39,7 +39,7 @@ Pinterest and YouTube Shorts are probably your best allies in 2026. Once somethi
 
 Instagram, TikTok and Facebook work the other way round. To be seen, you have to keep finding new ways to catch people's attention, and keep at it for a long time. They turn business owners into unpaid employees who beg to be seen. Even Google Business Profile is nicer: the people who see it are already looking for what you do.
 
-I have done this work for a client: by engaging with other accounts on the platform and posting content, I brought them 60 new, relevant followers in a month. It worked, but I prefer the services whose results are more palpable, and a follower is not yet a client.
+I have done it to help a client: by engaging with other accounts on the platform and posting content, I brought them 60 new, relevant followers in a month. It worked, but I prefer my other services, whose results are more palpable: a follower is not yet a client.
 
 So my advice depends on what you have:
 
@@ -49,7 +49,7 @@ So my advice depends on what you have:
 
 I will always be honest about what can work for you in the long run with the tools and budget you have, even when the answer has nothing to do with what I sell.
 
-{{< callout type="tip" >}}If you remember one thing: **choose one platform where posts last, and link every post to a page of your website.** Your followers belong to the platform; a visitor on your site can call you, fill in a form or come back.{{< /callout >}}
+{{< callout type="tip" >}}If you remember one thing: **choose one platform where posts last, and point every post to a page of your website.** Your followers belong to the platform; a visitor on your site can call you, fill in a form or come back.{{< /callout >}}
 
 ## Evergreen platforms and treadmill platforms
 
@@ -76,17 +76,17 @@ If people look for ideas or answers before they spend (a kitchen, a wedding, a g
 
 ### 2. How many hours a week can you give, for a whole year?
 
-Be honest with yourself. Two hours a week kept up for twelve months beat ten hours a week for three weeks. On a feed, your visibility fades as soon as you stop posting. On a search platform, what you published keeps working while you take a break.
+Be honest with yourself. Two hours a week kept up for twelve months beats ten hours a week for three weeks. On a feed, your visibility fades as soon as you stop posting. On a search platform, what you published keeps working while you take a break.
 
 ### 3. Do you have an ad budget?
 
 Ads change the maths, platform by platform:
 
-- **Instagram and Facebook ads** work for awareness and for conversion, but you have to burn cash on A/B tests to see what works best. The usual mistakes are skipping keyword research and skipping the tests: see {{< a key="facebook-ads-mistakes" >}}the Facebook ads mistakes to avoid{{< /a >}}.
+- **Instagram and Facebook ads** work for awareness and for conversion, but you have to burn cash on A/B tests to see what works best. The two mistakes I warn founders about are skipping keyword research and skipping the tests: see {{< a key="facebook-ads-mistakes" >}}the Facebook ads mistakes to avoid{{< /a >}}.
 - **TikTok ads** are mostly about brand awareness, because people on TikTok are not really buyers.
 - **LinkedIn ads** burn your cash very fast, but the deals are bigger if you do things right: {{< a key="linkedin-ads-tutorial" >}}how to run LinkedIn Ads{{< /a >}} explains the method.
 
-Whatever you choose, choose one platform and master it before adding the next. New platforms and tools appear every month, and dropping what you do for each one is the trap I describe in {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}. Social media is also only one way to find clients: I compare it with SEO, cold emailing and the rest in {{< a key="how-to-get-more-clients" >}}how to get more clients{{< /a >}}.
+Whatever you pick, master one platform before you add the next. New platforms and tools appear every month, and dropping what you do for each one is the trap I describe in {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}. Social media is also only one way to find clients: I compare it with SEO, cold emailing and the rest in {{< a key="how-to-get-more-clients" >}}how to get more clients{{< /a >}}.
 
 ## Pinterest: visual search that keeps sending visitors
 
@@ -105,7 +105,7 @@ A Short is a vertical video of up to three minutes: YouTube raised the limit fro
 **What changed:**
 
 - Links in Shorts descriptions and comments have not been clickable since 31 August 2023, and I found no official sign that they came back in 2026. Put your website on your channel page, where links still work, and mention it in the video.
-- In August 2026, YouTube announced that from 1 February 2027, new creators will need 1,000 subscribers plus 8,000 watch hours in a year, or 20 million Shorts views in 90 days, to join the YouTube Partner Programme. That only matters if you want ad revenue: for a business, the views and the visits are the point.
+- In August 2026, YouTube announced that from 1 February 2027, new creators will need 1,000 subscribers plus either 8,000 watch hours in a year or 20 million Shorts views in 90 days to join the YouTube Partner Programme. That only matters if you want ad revenue: for a business, the views and the visits are the point.
 
 The easiest format for a small business is one customer question and its answer, in under a minute. Film four in one sitting and you have a month of Shorts. Details are in {{< a key="youtube-shorts-for-business" >}}YouTube Shorts for business{{< /a >}}.
 
@@ -113,9 +113,9 @@ The easiest format for a small business is one customer question and its answer,
 
 Google Business Profile (called Google My Business until November 2021) is not a social network, but it does what I wish social networks did: it shows your business to people who are already looking for it, on Google Search and Maps. You don't have to catch anyone's attention.
 
-You can publish three kinds of posts there: updates, offers and events. Google lets you schedule them and repeat them, but it does not allow phone numbers in the text: the call button dials your verified number instead ([Google's help page on posts](https://support.google.com/business/answer/7342169)). Posts are not among the three factors Google uses to rank local results (relevance, distance and prominence), but they help the people who see your profile choose you.
+You can publish three kinds of posts there: updates, offers and events. Google lets you schedule them and repeat them ([Google's help page on posts](https://support.google.com/business/answer/7342169)), but its content policy does not allow phone numbers in the text: the call button dials your verified number instead. Google says local results are based mainly on relevance, distance and prominence, and posts appear nowhere in that explanation. What they do is help the people who see your profile choose you.
 
-**What changed:** the questions and answers section is going. Google discontinued the Q&A API on 3 November 2025 and is replacing Q&A on Maps with an AI "Ask" feature. In March 2026, it described Ask Maps, which answers questions from your profile, your reviews, your website and other sources. What you write on your profile and your site now feeds Google's AI answers about you.
+**What changed:** the questions and answers section is going. Google discontinued the Q&A API on 3 November 2025, and Q&A on Maps is giving way to an AI-powered "Ask" button. In March 2026, Google described Ask Maps, which answers questions from your profile, your reviews, your website and other sources (not yet in every business category). What you write on your profile and your site now feeds Google's AI answers about you.
 
 When I worked on the SEO of Pilotech, an air conditioning installer near Paris, the Google Business Profile was one of four steps, after the pages and the content and before the technical fixes; the {{< a key="pilotech-seo-case-study" >}}Pilotech SEO case study{{< /a >}} tells the whole story. If you don't have a profile yet, start with {{< a key="google-business-profile-setup" >}}setting up your Google Business Profile{{< /a >}}, then read {{< a key="google-business-profile-posts" >}}what to post on Google Business Profile{{< /a >}}.
 
@@ -127,7 +127,7 @@ Instagram passed 3 billion monthly users in September 2025. For a small business
 
 - 10 July 2025: public photos and videos from professional accounts can appear in search engines such as Google, unless you switch this off.
 - December 2025: hashtags are capped at five per post and per Reel.
-- 10 December 2025: [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) lets users see and edit the topics behind their Reels recommendations, first in the US; it has since reached Explore and the main feed.
+- 10 December 2025: [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) lets users see and edit the topics behind their Reels recommendations, first in the US, then for English-language users worldwide; it has since reached Explore and the main feed.
 - April 2026: an account whose posts over 30 days are mostly reposts is treated as an aggregator and loses its place in recommendations until most of its posts are original again.
 
 The direction is clear: Instagram favours original work that people watch to the end and send to friends. Reposting other people's content and stacking hashtags no longer gets you far. The update-by-update detail is in {{< a key="instagram-algorithm-2026" >}}Instagram algorithm 2026{{< /a >}}.
@@ -141,7 +141,7 @@ People on TikTok are not really buyers: they come to be entertained. That makes 
 **What changed:**
 
 - 31 March 2025: TikTok Shop opened in France, Germany and Italy, so people can buy without leaving the app. It was already open in the UK.
-- 2 May 2025: Ireland's Data Protection Commission fined TikTok €530 million (about £450 million) over transfers of EEA users' data to China.
+- 2 May 2025: Ireland's Data Protection Commission fined TikTok €530 million (about £450 million) because EEA users' data was accessed from China and TikTok was not transparent about it. TikTok appealed.
 - 22 January 2026: the deal creating a US joint venture for TikTok closed. It covers the American app only; nothing changes in the UK or France.
 - Young users: in the UK, the Online Safety Act's child-safety duties have applied since 25 July 2025, and Australia's ban on social media accounts for under-16s took effect on 10 December 2025. In France, a law banning social media for under-15s was passed in July 2026, but the Conseil constitutionnel struck the ban down on 14 August 2026.
 
@@ -151,7 +151,7 @@ More in {{< a key="tiktok-for-business-2026" >}}TikTok for small business{{< /a 
 
 If you sell to other businesses, LinkedIn is the feed I would look at first. On 12 March 2026, LinkedIn said it had rebuilt its feed with large language models: a post is now matched to members interested in its subject, beyond your own network, and the feed shows less engagement bait, such as posts asking you to "comment YES". LinkedIn also said it acts against engagement pods and comment automation tools.
 
-{{< callout type="warning" >}}Since 3 November 2025, LinkedIn has used the profile details and public posts of members in the UK, the EU, the EEA and Switzerland, among other regions, to train its generative AI unless they opt out. To switch it off, go to **Settings**, then **Data privacy**, then **Data for Generative AI Improvement**. Opting out only covers future use.{{< /callout >}}
+{{< callout type="warning" >}}Since 3 November 2025, LinkedIn has used the profile details and public content of members in the UK, the EEA and Switzerland, among other regions, to train its generative AI unless they opt out. To switch it off, go to **Settings**, then **Data privacy**, then **Data for Generative AI Improvement**, and turn off **Use my data for training content creation AI models**. Opting out only covers future use.{{< /callout >}}
 
 If you sell B2B, I would still put cold emailing before any feed: in my view, it is the one thing that can take a small business to the moon, and my {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}} shows how it works. The feed changes are detailed in {{< a key="linkedin-algorithm-2026" >}}LinkedIn algorithm 2026{{< /a >}}.
 
@@ -179,7 +179,7 @@ In the Bluesky app, open your account settings, choose to change your handle and
 
 ## Every change since 2025, dated
 
-Here are the changes from this guide in date order, with what each one means for you.
+Here are the main changes from this guide in date order, with what each one means for you.
 
 | Date | Platform | What changed | What to do |
 |---|---|---|---|
@@ -215,15 +215,15 @@ Compare two sentences: "I have 10,000 followers on Instagram" and "This magazine
 
 PR platforms such as Prowly, now Semrush's AI PR Toolkit, are valuable for finding journalists who could be interested in your story, products or services. I'm not a PR specialist and I barely tried, yet I helped a personal trainer friend get featured in a French magazine. I think the copywriting and targeting skills I built through cold emailing made the difference.
 
-The method: be concise, have a website or a page that shows your work, and start with your local paper, then the regional press, then the national press. An article gives your website a valuable link, gives you proof to show prospects and gives you something worth posting. The full guide is {{< a key="get-press-coverage" >}}how to get press coverage{{< /a >}}.
+The method: be concise, bring something interesting to the table, have a website or a page that shows your work, and start with your local paper, then the regional press, then the national press. An article can give your website a valuable link, and it gives you proof to show prospects and something worth posting. The full guide is {{< a key="get-press-coverage" >}}how to get press coverage{{< /a >}}.
 
 ## Your next steps (and when to hand it over)
 
 1. **Choose one main platform** on the evergreen side: Pinterest if your work is visual, YouTube Shorts if you can talk to a camera.
 2. **Complete your Google Business Profile** if you serve a local area: hours, photos, services and replies to reviews.
-3. **Claim what proves the account is yours:** your website on Pinterest, a link to your site on your YouTube channel, your domain as your Bluesky handle if you use Bluesky.
+3. **Connect your accounts to your website:** claim your site on Pinterest, add its link to your YouTube channel and, if you use Bluesky, make your domain your handle.
 4. **Batch your posts:** one sitting a week, Canva templates and a scheduler.
-5. **Link every post to a specific page of your site**, not only to your home page.
+5. **Point every post to a specific page of your site**, not only to your home page: a link where the platform allows one, a mention in the video on Shorts.
 6. **Set a test period and a stop rule before you start**, for example three months, then keep going, adjust or stop.
 
 When should you hand it over? When you have a budget but not the time. Choose an agency that shows proven results for businesses like yours, agree in writing on what it will measure, and give it a few months before you judge. And if you would rather spend those hours on channels with more palpable results, that is a sound choice too: a website that ranks and a press article keep working long after you have done the work.

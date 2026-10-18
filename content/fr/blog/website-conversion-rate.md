@@ -27,23 +27,23 @@ faq:
 
 Un site qui ne génère aucune demande a l’un de ces deux problèmes. Soit les bons visiteurs n’y arrivent jamais, soit ils arrivent, regardent et repartent avant d’avoir trouvé une raison, ou un moyen simple, de vous contacter. Les remèdes diffèrent : avant de chercher à améliorer le taux de conversion de votre site internet, et surtout avant de payer une refonte, sachez lequel des deux vous concerne.
 
-Quand les visiteurs sont là, je retrouve presque toujours les mêmes fuites sur les sites vitrines de TPE : une offre trop large pour être comprise d’un coup d’œil, un numéro de téléphone caché dans le pied de page, un formulaire de devis qui demande tout, une page qui rame sur mobile et des demandes qui attendent un jour avant d’obtenir une réponse. Aucune ne nécessite un nouveau site.
+Quand les visiteurs sont là, on retrouve le plus souvent les mêmes fuites sur les sites vitrines de TPE : une offre trop large pour être comprise d’un coup d’œil, un numéro de téléphone caché dans le pied de page, un formulaire de devis qui demande tout, une page qui rame sur mobile et des demandes qui attendent un jour avant d’obtenir une réponse. Aucune ne nécessite un nouveau site.
 
-Ce guide montre comment voir où vos visiteurs décrochent, avec des outils gratuits, puis comment corriger chaque fuite, dans l’ordre où je les vérifie. Il complète mon guide pour {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}}.
+Ce guide montre comment voir où vos visiteurs décrochent, avec des outils gratuits, puis comment corriger chaque fuite. Il complète mon guide pour {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}}.
 
 ## Problème de trafic ou de conversion : faites d’abord le tri
 
-Commencez par les chiffres que vous avez déjà. Dans Google Search Console, ouvrez **Performances** > **Résultats de recherche**, puis l’onglet **Pages** : vous voyez combien de clics chaque page a reçus de Google sur les trois derniers mois.
+Commencez par les chiffres que vous avez déjà. Dans Google Search Console, ouvrez le rapport **Performances** sur les résultats de recherche, puis l’onglet **Pages** : par défaut, vous voyez combien de clics chaque page a reçus de Google sur les trois derniers mois.
 
-Si vos pages de services reçoivent quelques clics par mois, vous avez un problème de trafic, et aucun bouton ne transformera dix visites en vingt demandes. Eden Flats, une conciergerie Airbnb d’Île-de-France, en est un bon exemple. Son ancien site n’apportait aucun contact : sa direction, prise par l’activité, n’avait pas le temps d’apprendre comment se fait le référencement. Une fois le nouveau site, le SEO et l’identité visuelle en place, des propriétaires ont commencé à appeler pour confier la gestion de leurs biens.
+Si vos pages de services reçoivent quelques clics par mois, vous avez un problème de trafic, et aucun bouton ne transformera dix visites en vingt demandes. Eden Flats, une conciergerie Airbnb d’Île-de-France, en est un bon exemple. Son ancien site n’apportait aucun contact : la personne qui la dirigeait, prise par l’activité, n’avait pas le temps d’apprendre comment se fait le référencement. Une fois le nouveau site, le SEO et l’identité visuelle en place, des propriétaires ont commencé à appeler pour confier la gestion de leurs biens.
 
 Si vos pages reçoivent des visites régulières et toujours aucun appel, vous avez un problème de conversion, et la suite de ce guide est pour vous. Votre **taux de conversion**, c’est la part des visites qui se terminent par une demande : 4 demandes pour 400 visites, cela fait 1 %.
 
-Comptez les appels autant que les formulaires. Un visiteur qui appuie sur votre numéro depuis son téléphone ne laisse aucune trace dans vos statistiques si vous ne l’enregistrez pas. Dans Google Analytics 4, suivez les clics sur votre lien téléphone comme un événement, puis marquez-le comme **événement clé** (key event), le nom que GA4 donne désormais à ce qu’il appelait les conversions ([aide de Google](https://support.google.com/analytics/answer/13128484?hl=fr)). Et demandez à chaque nouvel appelant comment il vous a trouvé.
+Comptez les appels autant que les formulaires. Un visiteur qui appuie sur votre numéro depuis son téléphone ne laisse aucune trace dans vos statistiques si vous ne l’enregistrez pas. Dans Google Analytics 4, enregistrez les appuis sur votre lien téléphone comme un événement (dans Google Tag Manager, un déclencheur sur les clics de liens qui commencent par `tel:` s’en charge), puis marquez cet événement comme **événement clé**, le nom que GA4 donne désormais à ce qu’il appelait les conversions : **Administration** > **Affichage des données** > **Événements** ([aide de Google](https://support.google.com/analytics/answer/13128484?hl=fr)). Le marquage n’est pas rétroactif : le décompte commence le jour où vous l’activez. Et demandez à chaque nouvel appelant comment il vous a trouvé.
 
 ## Pourquoi votre site ne génère pas de demandes : les fuites habituelles
 
-Une fois le trafic écarté, la fuite est presque toujours l’une de ces six. La colonne du milieu liste les signes à surveiller, que vous repérerez pour la plupart en regardant de vraies visites, comme l’explique la section suivante.
+Une fois le trafic écarté, la fuite est le plus souvent l’une de ces six. La colonne du milieu liste les signes à surveiller, que vous repérerez pour la plupart en regardant de vraies visites, comme l’explique la section suivante.
 
 | Fuite | Signes typiques | Première correction |
 |---|---|---|
@@ -66,32 +66,32 @@ Commencez par trois vues :
 
 Clarity repère aussi quatre signes de frustration, et vous pouvez filtrer les enregistrements sur chacun (nom dans l’interface anglaise entre parenthèses) : les **clics de rage** (rage clicks), des clics répétés au même endroit ; les **clics morts** (dead clicks), des clics sans aucune réaction ; le **défilement excessif** (excessive scrolling), plus rapide que la lecture, signe d’un visiteur perdu ; les **retours rapides** (quick backs), quand un visiteur ouvre une page et revient aussitôt.
 
-Côté cookies, depuis le 31 octobre 2025, Clarity exige un signal de consentement pour les visiteurs de l’Espace économique européen, du Royaume-Uni et de la Suisse. Sans ce signal, Clarity ne dépose aucun cookie et des fonctions comme les enregistrements peuvent être limitées : reliez-le à votre bandeau cookies. Dans son [projet de recommandation sur le rejeu de session](https://www.cnil.fr/fr/rejeu-de-session-la-cnil-lance-une-consultation-publique-sur-son-projet-de-recommandation), la CNIL fait du consentement préalable la règle pour ces enregistrements ; je n’en ai pas trouvé de version définitive en octobre 2026. Mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} détaille l’installation, et mon comparatif {{< a key="clarity-vs-hotjar" >}}Clarity vs Hotjar{{< /a >}} présente la principale alternative.
+Côté cookies, depuis le 31 octobre 2025, Clarity exige un signal de consentement pour les visiteurs de l’Espace économique européen, du Royaume-Uni et de la Suisse. Sans ce signal, Clarity ne dépose aucun cookie et des fonctions comme les enregistrements peuvent être limitées : reliez-le à votre bandeau cookies. Dans son [projet de recommandation sur le rejeu de session](https://www.cnil.fr/fr/rejeu-de-session-la-cnil-lance-une-consultation-publique-sur-son-projet-de-recommandation), la CNIL fait du consentement préalable la règle pour ces enregistrements ; la version issue de la consultation était inscrite à l’ordre du jour de sa séance plénière du 8 octobre 2026, mais je n’ai pas trouvé de texte définitif publié à la mi-octobre. Mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} détaille l’installation, et mon comparatif {{< a key="clarity-vs-hotjar" >}}Clarity vs Hotjar{{< /a >}} présente la principale alternative.
 
 Puis faites comme vos visiteurs : ouvrez votre site sur votre téléphone, en données mobiles plutôt que sur le wifi du bureau, et essayez de vous contacter.
 
 ## Une offre claire par page
 
-La plus grosse fuite que j’aie vue n’était pas un bouton. Sur les cinq sites que j’ai créés pour le fondateur de Pilotech, l’un n’a pas fonctionné du tout : il proposait trop de services, il était trop large. Celui qui est 1er ou 2e sur Google vend des services très précis. Son autre entreprise, Ginov, proposait une longue liste de métiers du bâtiment, un vrai fourre-tout, et elle a fermé pendant que Pilotech, avec une offre précise, décollait.
+La plus grosse fuite que j’aie vue n’était pas un bouton. Sur les cinq sites que j’ai créés pour le fondateur de Pilotech, l’un n’a pas fonctionné du tout : il proposait trop de services et ratissait trop large. Celui qui est 1er ou 2e sur Google vend des services très précis. Son autre entreprise, Ginov, proposait une longue liste de métiers du bâtiment, un fourre-tout, et elle a fermé pendant que Pilotech, avec une offre précise, décollait.
 
-Un visiteur décide vite si une page est pour lui. Le haut de chaque page de service doit répondre à quatre questions sans qu’il ait à défiler : ce que vous faites, pour qui, où, et quoi faire ensuite. « Plomberie, chauffage, électricité » ne répond à aucune. « Remplacement de chaudière à Nantes, devis ferme après visite gratuite » répond à trois, et un numéro de téléphone juste à côté répond à la quatrième.
+Un visiteur décide vite si une page est pour lui. Le haut de chaque page de service doit répondre à quatre questions sans qu’il ait à défiler : ce que vous faites, pour qui, où, et quoi faire ensuite. « Plomberie, chauffage, électricité » répond à peine à la première. « Remplacement de chaudière pour particuliers à Nantes, devis ferme après visite gratuite » répond à trois, et un numéro de téléphone juste à côté répond à la quatrième.
 
-Si vous lancez des publicités ou des cold emails sur une seule offre, envoyez les gens vers une page consacrée à cette offre, pas vers votre page d’accueil. Mon comparatif {{< a key="landing-page-vs-website" >}}site vitrine ou landing page{{< /a >}} explique quand une page séparée vaut la peine.
+Si vous lancez une campagne de publicité sur une seule offre, envoyez les gens vers une page consacrée à cette offre, pas vers votre page d’accueil. Mon comparatif {{< a key="landing-page-vs-website" >}}site vitrine ou landing page{{< /a >}} explique quand une page séparée vaut la peine.
 
 ## Faites de l’appel le geste le plus simple de la page
 
-Dans les campagnes de cold emailing de Pilotech, beaucoup de prospects, surtout les architectes, ont appelé au lieu de répondre. Mon explication : un appel est plus rapide et raye la tâche de leur liste, une réponse écrite prend du temps et se noie parmi les autres emails, et les gens aiment parler à un humain. Ce sont les mêmes personnes qui visitent votre site : mettez le téléphone en premier.
+Dans les campagnes de cold emailing de Pilotech, beaucoup de prospects, surtout les architectes, ont appelé au lieu de répondre. Mon explication : un appel est plus rapide et raye la tâche de leur liste, une réponse écrite prend du temps et se noie parmi les autres emails, et les gens aiment parler à un humain. Les visiteurs de votre site sont tout aussi pressés : mettez le téléphone en avant.
 
-Sur un téléphone, un numéro ne sert que s’il est un lien. En HTML, c’est un lien `tel:` avec le numéro au format international (+33, sans le premier 0), et la plupart des outils de création de site acceptent la même adresse `tel:` dans leur champ de lien :
+Sur un téléphone, un numéro n’est cliquable à coup sûr que s’il s’agit d’un lien. En HTML, c’est un lien `tel:`, avec le numéro au format international (+33, sans le premier 0) :
 
 ```html
 <a href="tel:+33XXXXXXXXX">0X XX XX XX XX</a>
 ```
 
-Ensuite :
+La plupart des outils de création de site permettent de lier un bouton ou un texte à un numéro de téléphone, ou acceptent une adresse `tel:` saisie dans le champ du lien. Ensuite :
 
 - **Affichez le numéro dans l’en-tête de chaque page**, pas seulement sur la page contact.
-- **Ajoutez une barre d’appel sur mobile**, fixée en bas de l’écran. Le {{< a page="/projects/eden-corporate-mobility" >}}site d’Eden Corporate Mobility{{< /a >}} en a une : un responsable RH peut appeler depuis n’importe quelle page, ou décrire sa mission dans le formulaire.
+- **Ajoutez une barre d’appel sur mobile** : un bouton d’appel qui reste à l’écran pendant que le visiteur fait défiler la page. Sur le {{< a page="/projects/eden-corporate-mobility" >}}site d’Eden Corporate Mobility{{< /a >}}, la barre d’appel reste visible sur mobile : un responsable RH peut appeler depuis n’importe quelle page, ou décrire sa mission dans le formulaire.
 - **Indiquez vos horaires à côté du numéro**, et enregistrez une annonce de messagerie qui dit quand vous rappelez.
 
 ## Un formulaire de devis court et précis
@@ -114,13 +114,13 @@ Votre site se charge sans doute vite sur l’ordinateur du bureau. Une bonne par
 
 ### Un site qui ne fait pas sérieux
 
-Des chercheurs ont montré que l’on juge l’attrait visuel d’une page web en 50 millisecondes environ, et que cette première impression colore la crédibilité qu’on lui accorde ([Lindgaard et al., 2006](https://doi.org/10.1080/01449290500330448)). Avant d’avoir lu un mot, le visiteur a décidé si vous ressemblez à une entreprise qu’on appelle.
+Des chercheurs ont montré que l’on juge l’attrait visuel d’une page web en 50 millisecondes environ ([Lindgaard et al., 2006](https://doi.org/10.1080/01449290500330448)). Avant d’avoir lu un mot, le visiteur s’est déjà fait une idée : vous ressemblez, ou non, à une entreprise qu’on appelle.
 
 Je veux que les prospects de mes clients soient un peu intimidés par leur site. Un site qui fait sérieux est pris au sérieux, et il réduit aussi les négociations : si quelqu’un ne vous trouve pas si respectable, il ne pensera pas non plus que vous valez ce prix-là. Les preuves aident un inconnu à vous faire confiance : de vrais avis Google (le portail que j’ai créé pour Pilotech les présente dans un carrousel), des photos de vos propres réalisations quand vous en avez, les villes où vous intervenez, des coordonnées complètes et vos mentions légales. Mon article sur le {{< a key="professional-looking-website" >}}site internet haut de gamme{{< /a >}} va plus loin.
 
 ## Répondez à chaque demande dans l’heure
 
-Un formulaire qui marche ne sert à rien si la demande attend le lendemain. Une étude publiée en 2011 dans la Harvard Business Review, portant sur 1,25 million de demandes reçues par des entreprises américaines, montre que celles qui tentaient de joindre le prospect dans l’heure avaient près de sept fois plus de chances de le qualifier que celles qui essayaient ne serait-ce qu’une heure plus tard, et plus de 60 fois plus que celles qui attendaient 24 heures ou davantage ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). Les chiffres ont vieilli, mais la logique tient : la personne qui vient de remplir votre formulaire remplit peut-être aussi celui de vos concurrents.
+Un formulaire qui marche ne sert à rien si la demande attend le lendemain. Une étude publiée en 2011 dans la Harvard Business Review, portant sur 1,25 million de demandes reçues par 42 entreprises américaines, montre que celles qui tentaient de joindre le prospect dans l’heure avaient près de sept fois plus de chances de le qualifier que celles qui essayaient ne serait-ce qu’une heure plus tard, et plus de 60 fois plus que celles qui attendaient 24 heures ou davantage ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). Les chiffres ont vieilli, mais la logique tient : la personne qui vient de remplir votre formulaire remplit peut-être aussi celui de vos concurrents.
 
 Pilotech m’a montré l’autre face du problème. J’apporte à Pilotech une dizaine de prospects par jour, et à un moment, il y en avait plus que l’équipe ne pouvait en suivre. Le fondateur m’a demandé de créer une application interne pour tout voir clairement et ne jamais oublier de rappeler un prospect ou de lui répondre.
 
@@ -137,7 +137,7 @@ Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi de
 1. Vérifiez votre trafic dans la Search Console. Trop peu de visites : travaillez le référencement avant tout le reste.
 2. Installez Clarity, relié à votre bandeau cookies, et laissez-le collecter quelques semaines de visites.
 3. Regardez les enregistrements des visites sur vos deux ou trois pages de services les plus vues.
-4. Réécrivez le haut de chaque page de service : quoi, pour qui, où, et ensuite.
+4. Réécrivez le haut de chaque page de service : quoi, pour qui, où, et que faire ensuite.
 5. Mettez un numéro cliquable sur chaque page, et une barre d’appel sur mobile.
 6. Réduisez le formulaire à l’essentiel et envoyez-vous une demande test.
 7. Testez vos pages sur un téléphone, en données mobiles.

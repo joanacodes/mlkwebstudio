@@ -27,7 +27,7 @@ faq:
     a: "The website and the email that use it stop working and, if nobody renews it, the name is eventually released for anyone to register. Turn on auto-renewal, keep the card on the account up to date and put the expiry date in your calendar."
 ---
 
-The best domain registrar in the UK, for most small businesses, is the one whose renewal price you will still find fair in five years, with a dashboard you understand and support that answers. My pick is Spaceship. At the time of writing (October 2026), it charges $5.42 (about £4) a year for a .co.uk, and the renewal costs exactly the same. Namecheap, which built Spaceship, is a safe second choice.
+The best domain registrar in the UK, for most small businesses, is the one whose renewal price you will still find fair in five years, with a dashboard you understand and support that answers. My pick is Spaceship, whose .co.uk renews at exactly its first-year price. Namecheap, which built Spaceship, is a safe second choice.
 
 I have registered or looked after domains at six registrars: Spaceship, Namecheap, Squarespace (which took over Google Domains), Infomaniak, OVHcloud and Hostinger. Some I chose; others I inherited, because a client's domains were already there. This comparison ranks them on the price you pay every year after the first, then on privacy, DNS and support.
 
@@ -39,7 +39,7 @@ A domain registrar is the company you rent your domain name from, one year at a 
 
 | Registrar | .co.uk | .com | Best for |
 |---|---|---|---|
-| Spaceship | $5.42 (about £4) a year, renewal included | Renewal below Namecheap's, OVHcloud's, Squarespace's and Hostinger's, per price trackers | Most small businesses: my pick |
+| Spaceship | $5.42 (about £4) a year, and the same to renew | Renewal below Namecheap's, OVHcloud's, Squarespace's and Hostinger's, per price trackers | Most small businesses: my pick |
 | Namecheap | $6.98 (about £5) the first year, then a higher renewal | Renewal above Spaceship's, per price trackers | Owners whose domains are already there |
 | Squarespace | Not confirmed | $20 (about £15) a year | Websites built on Squarespace |
 | Infomaniak | Not confirmed | Not confirmed | Email and files kept in Switzerland |
@@ -74,7 +74,7 @@ Spaceship's .com is missing on purpose. The price trackers I checked all put its
 
 ### Spaceship: my first choice
 
-Spaceship suits most small businesses and any new project. Namecheap built it and unveiled it in August 2023, and it is now an ICANN-accredited registrar in its own right. To me, it is an up-to-date version of Namecheap: the same fair prices, in a more modern dashboard where domains, email and hosting sit together.
+Spaceship suits most small businesses and any new project. Namecheap built it and unveiled it in August 2023, and it is now an ICANN-accredited registrar in its own right. To me, it is an up-to-date version of Namecheap: fair prices, often a little below the original's, in a more modern dashboard where domains, email and hosting sit together.
 
 It is also where my habits are. The .co.uk costs $5.42 (about £4) a year with no jump at renewal, WHOIS privacy is free on eligible domains, and the **Advanced DNS** page shows the records, the nameservers and DNSSEC in one view. Support is there around the clock, and every issue I have raised has been resolved. The only reason to look elsewhere is an extension Spaceship does not sell, so search for yours first. My {{< a key="spaceship-vs-namecheap" >}}Spaceship vs Namecheap{{< /a >}} comparison goes through the differences between the two.
 
@@ -106,13 +106,13 @@ I worked on OVHcloud because clients' domains were already there, and I do not r
 
 Hostinger suits people who already host their websites there and are comfortable in hPanel, its control panel. I inherited it through clients too, and I find hPanel a bit complicated for an owner who handles everything alone.
 
-Its domains follow the same pattern as its hosting: a tiny first price on a long commitment, then the real rate. A .co.uk costs £0.01 for the first year and £10.99 (about $15) a year after that; a .com renews at £16.99 (about $23). If your domains are there, budget for those figures, or move them before they renew. My guide to the {{< a key="hostinger-renewal-transfer" >}}Hostinger renewal price{{< /a >}} shows how, step by step.
+Its domains follow the same pattern as its hosting: a tiny first price on a long commitment, then the real rate: £10.99 (about $15) a year for a .co.uk and £16.99 (about $23) for a .com. If your domains are there, budget for those figures, or move them before they renew. My guide to the {{< a key="hostinger-renewal-transfer" >}}Hostinger renewal price{{< /a >}} shows how, step by step.
 
 ## Privacy, DNS and support: what to check besides the price
 
 **WHOIS privacy** keeps your name, address and phone number out of the public record of the domain. Spaceship and Namecheap include it free on the extensions that allow it; at the other four, check whether it is included for your extension before you pay. Spaceship runs its service through a third-party provider which, like any privacy service, can disclose your details on a valid legal request.
 
-**DNS** is the set of records that points your domain to your website and your mailbox. You will edit it at least twice, to connect the site and to set up email, so a clear editor saves you an afternoon. Spaceship's and Namecheap's are the easiest I know; OVHcloud's works once you know about the final dot.
+**DNS** is the set of records that points your domain to your website and your mailbox. You will edit it at least twice, to connect the site and to set up email, so a clear editor saves you an afternoon. Spaceship's and Namecheap's are the ones I find easiest, and I know my way around both; OVHcloud's works once you know about the final dot.
 
 **Support** matters on the day something breaks. When a domain stops working, the website and the email stop with it. At Spaceship and Namecheap, support has answered me around the clock.
 
@@ -122,13 +122,13 @@ Its domains follow the same pattern as its hosting: a tiny first price on a long
 
 ## Which registrar should you choose?
 
-- **Your first domain, or a new business:** Spaceship. Register the .co.uk and the .com together, and point one to the other with a 301 redirect, which Spaceship includes free. For the studio, the site lives on the .com, and I hold the .co.uk and the .fr as well.
+- **Your first domain, or a new business:** Spaceship. Register the .co.uk and the .com together, and point one to the other with a 301 redirect, which Spaceship includes free when the domain uses its nameservers. For the studio, the site lives on the .com, and I hold the .co.uk and the .fr as well.
 - **Domains already at Namecheap:** stay. Moving domains that work to save a few pounds a year is the kind of shiny-object chase I warn small business owners about.
 - **A website on Squarespace, where one account matters more than price:** Squarespace, knowing that a .com costs $20 (about £15) a year.
 - **Email and files kept in Switzerland:** Infomaniak, with kSuite.
 - **Domains at OVHcloud or Hostinger:** no emergency. Note the renewal date and price; if the figure or the dashboard bothers you, move the domain before it renews.
 
-Moving is routine. For a .com, you switch off the transfer lock, get the authorisation (EPP) code and start the transfer at the new registrar. A .co.uk has no such code: it moves when its IPS tag is changed to the new registrar's tag. My guide on {{< a key="transfer-domain-name" >}}how to transfer a domain{{< /a >}} covers both, in an order that keeps your site and email online.
+Moving is routine. For a .com, you switch off the transfer lock, get the authorisation (EPP) code and start the transfer at the new registrar; a .com registered or transferred less than 60 days ago usually has to wait. A .co.uk has no such code: it moves when its IPS tag is changed to the new registrar's tag (SPACESHIP, for a move to Spaceship). My guide on {{< a key="transfer-domain-name" >}}how to transfer a domain{{< /a >}} covers both, in an order that keeps your site and email online.
 
 ## Before you buy a domain: a short checklist
 

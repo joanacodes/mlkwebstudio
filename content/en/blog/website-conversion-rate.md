@@ -27,23 +27,23 @@ faq:
 
 A website not getting enquiries has one of two problems. Either the right people never reach it, or they arrive, look around and leave before they find a reason, or an easy way, to contact you. The fixes are different, so find out which one you have before you spend anything on a new design.
 
-When the visitors are there, the leaks I find on small business sites are nearly always the same: an offer too broad to grasp at a glance, a phone number buried in the footer, a quote form that asks for everything, a page that crawls on a phone, and enquiries that wait a day for an answer. None of them needs a new website.
+When the visitors are there, the same few leaks turn up on most small business sites: an offer too broad to grasp at a glance, a phone number buried in the footer, a quote form that asks for everything, a page that crawls on a phone, and enquiries that wait a day for an answer. None of them needs a new website.
 
-This guide shows how to see where your visitors drop off, with free tools, then how to fix each leak, in the order I check them. It is one chapter of my {{< a key="small-business-website-guide" >}}guide to small business websites{{< /a >}}.
+This guide shows how to see where your visitors drop off, with free tools, then how to fix each leak. It is one chapter of my {{< a key="small-business-website-guide" >}}guide to small business websites{{< /a >}}.
 
 ## Traffic or conversion: find out which problem you have
 
-Start with the numbers you already have. In Google Search Console, open **Performance** > **Search results**, then the **Pages** tab: it shows how many clicks each page received from Google over the last three months.
+Start with the numbers you already have. In Google Search Console, open **Performance** > **Search results**, then the **Pages** tab: by default, it shows how many clicks each page received from Google over the last three months.
 
 If your service pages get a handful of clicks a month, you have a traffic problem, and no button will turn ten visits into twenty enquiries. Eden Flats, an Airbnb concierge in the Paris region, is a good example. Its previous website brought in no leads because its founder, busy running the business, had no time to learn how SEO works. Once the new site, the SEO and the visual branding were in place, property owners started calling to have their properties managed.
 
 If your pages get regular visits and still no calls, you have a conversion problem, and the rest of this guide is for you. Your **conversion rate** is the share of visits that end in an enquiry: 4 enquiries from 400 visits is 1%.
 
-Count calls as well as forms. A visitor who taps your phone number leaves no trace in your statistics unless you record it. In Google Analytics 4, track taps on your phone link as an event, then mark it as a **key event**, the name GA4 now gives to what it used to call conversions (Admin > Data display > Events, as [Google's help page](https://support.google.com/analytics/answer/13128484) explains). And ask every new caller how they found you.
+Count calls as well as forms. A visitor who taps your phone number leaves no trace in your statistics unless you record it. In Google Analytics 4, record taps on your phone link as an event (in Google Tag Manager, a link-click trigger for links that start with `tel:` does this), then mark that event as a **key event**, the name GA4 now gives to what it used to call conversions: **Admin** > **Data display** > **Events** ([Google's help page](https://support.google.com/analytics/answer/13128484)). Marking is not retroactive, so the count starts on the day you do it. And ask every new caller how they found you.
 
 ## Why your website is not getting enquiries: the usual leaks
 
-Once traffic is ruled out, the leak is nearly always one of these six. The middle column lists the signs to look for, most of which you will spot when you watch real visits, as the next section explains.
+Once traffic is ruled out, the leak is usually one of these six. The middle column lists the signs to look for, most of which you will spot when you watch real visits, as the next section explains.
 
 | Leak | Typical signs | First fix |
 |---|---|---|
@@ -72,26 +72,26 @@ Then do what your visitors do: open your site on your phone, on mobile data rath
 
 ## Make one clear offer per page
 
-The biggest leak I have seen was not a button. Of the five websites I have built for Pilotech's founder, one did not work at all: it offered too many services, it was too broad. The one that ranks first or second on Google sells very specific services. His other company, Ginov, offered a long list of building trades, a catch-all, and it closed while Pilotech, with one specific offer, took off.
+The biggest leak I have seen was not a button. Of the five websites I have built for Pilotech's founder, one did not work at all: it offered too many services and was too broad. The one that ranks first or second on Google sells very specific services. His other company, Ginov, offered a long list of building trades, a catch-all, and it closed while Pilotech, with one specific offer, took off.
 
-A visitor decides quickly whether a page is for them. The top of each service page should answer four questions without scrolling: what you do, for whom, where, and what to do next. "Plumbing, heating and electrical services" answers none of them. "Boiler replacement in Croydon, fixed quote after a free visit" answers three, and a phone number beside it answers the fourth.
+A visitor decides quickly whether a page is for them. The top of each service page should answer four questions without scrolling: what you do, for whom, where, and what to do next. "Plumbing, heating and electrical services" barely answers the first. "Boiler replacement for homes in Croydon, fixed quote after a free visit" answers three, and a phone number beside it answers the fourth.
 
-If you run ads or cold emails for one offer, send people to a page about that offer, not to your home page. My comparison of a {{< a key="landing-page-vs-website" >}}landing page vs a website{{< /a >}} explains when a separate page is worth it.
+If you run ads for one offer, send people to a page about that offer, not to your home page. My comparison of a {{< a key="landing-page-vs-website" >}}landing page vs a website{{< /a >}} explains when a separate page is worth it.
 
 ## Make calling you the easiest thing on the page
 
-In Pilotech's cold email campaigns, many prospects, architects especially, called instead of replying. My explanation: a call is quicker and ticks the task off their to-do list, a written reply takes time and gets buried under other emails, and people like talking to a human. The same people visit your website, so put the phone first.
+In Pilotech's cold email campaigns, many prospects, architects especially, called instead of replying. My explanation: a call is quicker and ticks the task off their to-do list, a written reply takes time and gets buried under other emails, and people like talking to a human. Your website's visitors are just as busy, so put the phone first.
 
-On a phone, a number only works if it is a link. In HTML, that is a `tel:` link with the number in international format (+44, without the first 0), and most site builders accept the same `tel:` address in their link field:
+On a phone, a number is only reliably tappable if it is a link. In HTML, that is a `tel:` link, with the number in international format (+44, without the first 0):
 
 ```html
 <a href="tel:+44XXXXXXXXXX">0XXXX XXXXXX</a>
 ```
 
-Then:
+Most site builders let you link a button or a line of text to a phone number, or accept a `tel:` address typed into the link field. Then:
 
 - **Show the number in the header of every page**, not only on the contact page.
-- **Add a call bar on phones**, fixed at the bottom of the screen. The {{< a page="/projects/eden-corporate-mobility" >}}Eden Corporate Mobility site{{< /a >}} has one: an HR manager can call from any page, or describe the assignment in the form.
+- **Add a call bar on phones**: a call button that stays on screen while the visitor scrolls. On the {{< a page="/projects/eden-corporate-mobility" >}}Eden Corporate Mobility site{{< /a >}}, the call bar stays visible on phones, so an HR manager can call from any page, or describe the assignment in the form.
 - **Put your opening hours next to the number**, and record a voicemail that says when you will call back.
 
 ## Shorten your quote form and make it specific
@@ -114,13 +114,13 @@ Your site probably loads fast on your office computer. Many of your visitors are
 
 ### A site that does not look serious
 
-Researchers found that people judge a web page's visual appeal in about 50 milliseconds, and that this first impression colours how credible they find it ([Lindgaard et al., 2006](https://doi.org/10.1080/01449290500330448)). Before reading a word, visitors have decided whether you look like a business worth calling.
+Researchers found that people judge a web page's visual appeal in about 50 milliseconds ([Lindgaard et al., 2006](https://doi.org/10.1080/01449290500330448)). Before reading a word, visitors already have an impression of whether you look like a business worth calling.
 
 I want my clients' prospects to be a little intimidated by their website. A site that looks serious gets taken seriously, and it cuts the haggling too: if someone does not think you are that respectable, they will not think you are worth that price. Proof helps a stranger trust you: real Google reviews (the portal I built for Pilotech has a carousel of them), photos of your own work where you have them, the towns you serve by name and full contact details. My guide on {{< a key="professional-looking-website" >}}how to make your website look professional{{< /a >}} goes further.
 
 ## Answer every enquiry within the hour
 
-A form that works is wasted if the enquiry waits until tomorrow. A study published in Harvard Business Review in 2011, based on 1.25 million leads received by US companies, found that firms that tried to contact a lead within an hour were nearly seven times as likely to qualify it as firms that tried even an hour later, and more than 60 times as likely as firms that waited 24 hours or more ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). The figures are old, but the logic holds: someone who has just filled in your form may be filling in your competitors' forms too.
+A form that works is wasted if the enquiry waits until tomorrow. A study published in Harvard Business Review in 2011, based on 1.25 million leads received by 42 US companies, found that firms that tried to contact a lead within an hour were nearly seven times as likely to qualify it as firms that tried even an hour later, and more than 60 times as likely as firms that waited 24 hours or more ([HBR](https://hbr.org/2011/03/the-short-life-of-online-sales-leads)). The figures are old, but the logic holds: someone who has just filled in your form may be filling in your competitors' forms too.
 
 Pilotech showed me the other side of the problem. I bring Pilotech about ten prospects a day, and at one point there were more than the team could handle. The founder asked me to build an internal app to see everything clearly and never forget to call a prospect back or answer them.
 

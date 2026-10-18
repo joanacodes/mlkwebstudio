@@ -1,7 +1,7 @@
 ---
-title: "Quel réseau social choisir pour son entreprise en 2026 : ce qui a changé"
+title: "Quel réseau social choisir pour son entreprise en 2026 ? Ce qui a changé"
 seo_title: "Quel réseau social choisir pour son entreprise en 2026 ?"
-description: "Quel réseau social choisir pour son entreprise en 2026 ? Mon avis honnête, réseau par réseau, avec chaque changement daté et ce qu’il change pour vous."
+description: "Quel réseau social choisir pour son entreprise en 2026 ? Mon avis honnête, réseau par réseau, et chaque nouveauté datée avec ce qu’elle implique pour vous."
 slug: "quel-reseau-social-choisir-entreprise"
 translationKey: "social-media-small-business"
 date: 2026-10-17T09:46:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:46:00+02:00
 category: "social-media"
 article_type: "pillar"
 keywords: ["quel réseau social choisir pour son entreprise", "meilleur réseau social pour entreprise", "réseaux sociaux pour TPE", "réseaux sociaux entreprise 2026", "Threads pour les entreprises", "Bluesky nom de domaine"]
-summary: "Pour la plupart des petites entreprises, en 2026, le bon réseau social est celui où une publication continue de travailler après sa mise en ligne : Pinterest pour les métiers visuels, YouTube Shorts si vous pouvez filmer, et votre fiche Google si vous travaillez localement. Instagram, TikTok et Facebook exigent de publier sans cesse ou un budget publicitaire, et LinkedIn convient au B2B. Choisissez un réseau, tenez un rythme réaliste et renvoyez vers votre site."
+summary: "Pour la plupart des petites entreprises, en 2026, le bon réseau social est celui où une publication continue de travailler après sa mise en ligne : Pinterest pour les métiers visuels, YouTube Shorts si vous pouvez filmer, et votre fiche Google si vous travaillez localement. Instagram, TikTok et Facebook demandent des publications constantes ou un budget publicitaire, et LinkedIn convient au B2B. Choisissez un réseau, tenez un rythme réaliste et renvoyez vers votre site."
 cover: "social-media-small-business"
 cover_alt: "Un ordinateur portable et un carnet à côté d’une grille de publications avec un cœur et un bouton lecture, sous le titre Social media 2026"
 related: ["pinterest-for-business", "youtube-shorts-for-business", "google-business-profile-posts", "social-media-scheduling-tools", "shiny-object-syndrome"]
@@ -20,26 +20,26 @@ faq:
   - q: "À quelle fréquence publier sur les réseaux sociaux pour une entreprise ?"
     a: "À un rythme que vous pouvez tenir toute l’année. Sur Pinterest et YouTube Shorts, quelques épingles ou un Short par semaine suffisent pour démarrer, car les publications continuent de travailler ; sur Instagram, TikTok ou Facebook, une pause se voit beaucoup plus vite."
   - q: "Les comptes professionnels sur les réseaux sociaux sont-ils gratuits ?"
-    a: "Oui. Un compte professionnel Pinterest ou Instagram, un compte TikTok Entreprise, une chaîne YouTube, une page LinkedIn et une fiche Google ne coûtent rien. Vous ne payez que la publicité et les outils facultatifs, comme un outil de planification."
+    a: "Oui. Un compte professionnel Pinterest ou Instagram, un compte TikTok Entreprise, une chaîne YouTube, une page LinkedIn et une fiche Google ne coûtent rien. Vous ne payez que la publicité et les options facultatives, comme un outil de planification."
   - q: "Peut-on programmer ses publications gratuitement ?"
     a: "Oui, avec les outils des plateformes : Meta Business Suite pour Facebook et Instagram, YouTube Studio pour les Shorts et l’option de programmation des posts de votre fiche Google. Un outil comme Metricool, qui propose une offre gratuite, fait gagner du temps dès que vous publiez sur plusieurs réseaux."
   - q: "Les réseaux sociaux améliorent-ils le référencement de mon site ?"
-    a: "Pas directement : Google a répété à plusieurs reprises que les likes, les partages et le nombre d’abonnés ne sont pas des critères de classement. Ils aident indirectement, quand des internautes vous découvrent sur un réseau, cherchent votre nom puis visitent votre site."
+    a: "Pas directement : les porte-parole de Google ont dit à plusieurs reprises que les signaux sociaux, comme les likes, les partages ou le nombre d’abonnés, ne servent pas à classer les pages. Ils aident indirectement, quand des internautes vous découvrent sur un réseau, cherchent votre nom puis visitent votre site."
 ---
 
-Je ne suis pas community manager, et MLK Web Studio ne vend pas de gestion de réseaux sociaux. C’est justement ce qui me permet d’écrire ce guide en toute honnêteté : aucune offre ne vous attend en bas de page, seulement mon avis et des faits, tous datés.
+Je ne suis pas community manager, et MLK Web Studio ne vend pas de gestion de réseaux sociaux. C’est justement ce qui me permet d’écrire ce guide en toute honnêteté : aucune offre de gestion de réseaux sociaux ne vous attend en bas de page, seulement mon avis et des faits, tous datés.
 
-À la question « quel réseau social choisir pour son entreprise en 2026 ? », ma réponse tient en quelques lignes. Si vous travaillez sans équipe, choisissez Pinterest ou YouTube Shorts, et ajoutez votre fiche Google si vous servez une zone locale. Sur ces plateformes, une publication continue de travailler longtemps après sa mise en ligne. Sur Instagram, TikTok et Facebook, il faut sans cesse quémander l’attention.
+À la question « quel réseau social choisir pour son entreprise en 2026 ? », ma réponse tient en quelques lignes. Si vous travaillez sans équipe, choisissez Pinterest ou YouTube Shorts, et ajoutez votre fiche Google si votre clientèle est locale. Sur ces plateformes, une publication continue de travailler longtemps après sa mise en ligne. Sur Instagram, TikTok et Facebook, il faut sans cesse quémander l’attention.
 
-Vous trouverez ci-dessous comment choisir, une courte section par réseau avec ce qui a changé en 2025 et 2026 (Threads et Bluesky compris), puis un tableau qui reprend chaque changement dans l’ordre chronologique. Chaque section renvoie vers l’article complet consacré au réseau.
+Vous trouverez ci-dessous une méthode pour choisir, une courte section par réseau avec ce qui a changé en 2025 et 2026 (Threads et Bluesky compris), puis un tableau qui reprend les principaux changements dans l’ordre chronologique. La plupart des sections renvoient vers l’article complet consacré au réseau.
 
 ## Quel réseau social choisir pour son entreprise : mon avis
 
 Pinterest et YouTube Shorts sont probablement vos meilleurs alliés en 2026. Une fois qu’un contenu y est publié, les résultats durent : on le retrouve par la recherche des semaines, voire des mois plus tard. Ces deux plateformes travaillent pour vous.
 
-Instagram, TikTok et Facebook fonctionnent à l’inverse. Pour gagner en visibilité, il faut trouver sans cesse de nouvelles façons d’attirer l’attention, et tenir longtemps. Ces réseaux transforment les chefs d’entreprise en employés non rémunérés qui supplient qu’on les remarque. Même la fiche Google est plus sympathique : ceux qui la voient cherchent déjà ce que vous faites.
+Instagram, TikTok et Facebook fonctionnent à l’inverse. Pour gagner en visibilité, il faut trouver sans cesse de nouvelles façons d’attirer l’attention, et tenir longtemps. Ces réseaux transforment les chefs d’entreprise en employés non rémunérés qui supplient qu’on les remarque. Même la fiche Google est plus agréable : ceux qui la voient cherchent déjà ce que vous faites.
 
-J’ai fait ce travail pour une entreprise cliente : en interagissant avec d’autres comptes sur la plateforme et en publiant du contenu, je lui ai apporté 60 nouveaux abonnés pertinents en un mois. Cela a fonctionné, mais je préfère les services dont les résultats sont plus concrets, et un abonné n’est pas encore un client.
+Je l’ai fait pour rendre service à une entreprise cliente : en interagissant avec d’autres comptes sur la plateforme et en publiant du contenu, je lui ai apporté 60 nouveaux abonnés pertinents en un mois. Cela a fonctionné, mais je préfère mes autres services, dont les résultats sont plus concrets : un abonné n’est pas encore un client.
 
 Mon conseil dépend donc de ce que vous avez :
 
@@ -49,7 +49,7 @@ Mon conseil dépend donc de ce que vous avez :
 
 Je vous dirai toujours honnêtement ce qui peut marcher pour vous sur la durée, avec vos outils et votre budget, même quand la réponse n’a rien à voir avec ce que je vends.
 
-{{< callout type="tip" >}}Si vous ne retenez qu’une chose : **choisissez un réseau où les publications durent, et reliez chaque publication à une page de votre site.** Vos abonnés appartiennent à la plateforme ; un visiteur sur votre site peut vous appeler, remplir un formulaire ou revenir.{{< /callout >}}
+{{< callout type="tip" >}}Si vous ne retenez qu’une chose : **choisissez un réseau où les publications durent, et renvoyez chaque publication vers une page de votre site.** Vos abonnés appartiennent à la plateforme ; un visiteur sur votre site peut vous appeler, remplir un formulaire ou revenir.{{< /callout >}}
 
 ## Les réseaux qui durent et ceux qui vous font courir
 
@@ -82,11 +82,11 @@ Soyez honnête avec vous-même. Deux heures par semaine tenues pendant douze moi
 
 La publicité change la donne, réseau par réseau :
 
-- **La publicité Instagram et Facebook** fonctionne pour la notoriété comme pour la conversion, mais il faut brûler du budget en tests A/B pour voir ce qui marche le mieux. Les erreurs classiques : sauter la recherche de mots-clés et sauter les tests ; voyez {{< a key="facebook-ads-mistakes" >}}les erreurs à éviter avec la publicité Facebook{{< /a >}}.
+- **La publicité Instagram et Facebook** fonctionne pour la notoriété comme pour la conversion, mais il faut brûler du budget en tests A/B pour voir ce qui marche le mieux. Les deux erreurs contre lesquelles je mets en garde : sauter la recherche de mots-clés et sauter les tests ; je les détaille dans {{< a key="facebook-ads-mistakes" >}}les erreurs à éviter avec la publicité Facebook{{< /a >}}.
 - **La publicité TikTok** sert surtout la notoriété de marque, car les utilisateurs de TikTok ne sont pas vraiment des acheteurs.
 - **La publicité LinkedIn** brûle votre budget très vite, mais les contrats sont plus gros si vous faites les choses bien : {{< a key="linkedin-ads-tutorial" >}}mon tutoriel LinkedIn Ads{{< /a >}} détaille la méthode.
 
-Quel que soit votre choix, choisissez un seul réseau et maîtrisez-le avant d’ajouter le suivant. De nouveaux réseaux et outils apparaissent chaque mois, et tout lâcher pour chacun d’eux, c’est le piège que je décris dans {{< a key="shiny-object-syndrome" >}}le syndrome de l’objet brillant{{< /a >}}. Les réseaux sociaux ne sont d’ailleurs qu’un moyen parmi d’autres de trouver des clients : je les compare au SEO, au cold emailing et aux autres canaux dans {{< a key="how-to-get-more-clients" >}}comment trouver des clients{{< /a >}}.
+Quel que soit votre choix, maîtrisez un seul réseau avant d’ajouter le suivant. De nouveaux réseaux et outils apparaissent chaque mois, et tout lâcher pour chacun d’eux, c’est le piège que je décris dans {{< a key="shiny-object-syndrome" >}}le syndrome de l’objet brillant{{< /a >}}. Les réseaux sociaux ne sont d’ailleurs qu’un moyen parmi d’autres de trouver des clients : je les compare au SEO, au cold emailing et aux autres canaux dans {{< a key="how-to-get-more-clients" >}}comment trouver des clients{{< /a >}}.
 
 ## Pinterest : la recherche visuelle qui envoie des visiteurs
 
@@ -105,7 +105,7 @@ Un Short est une vidéo verticale de trois minutes au maximum : YouTube a relev
 **Ce qui a changé :**
 
 - Les liens dans les descriptions et les commentaires des Shorts ne sont plus cliquables depuis le 31 août 2023, et je n’ai trouvé aucun signe officiel de leur retour en 2026. Mettez votre site sur la page de votre chaîne, où les liens fonctionnent toujours, et citez-le dans la vidéo.
-- En août 2026, YouTube a annoncé qu’à partir du 1er février 2027, les nouveaux créateurs devront réunir 1 000 abonnés et 8 000 heures de visionnage sur un an, ou 20 millions de vues de Shorts en 90 jours, pour rejoindre le Programme Partenaire YouTube. Cela ne compte que si vous visez les revenus publicitaires : pour une entreprise, ce sont les vues et les visites qui comptent.
+- En août 2026, YouTube a annoncé qu’à partir du 1er février 2027, les nouveaux créateurs devront réunir 1 000 abonnés et, au choix, 8 000 heures de visionnage sur un an ou 20 millions de vues de Shorts en 90 jours pour rejoindre le Programme Partenaire YouTube. Cela ne compte que si vous visez les revenus publicitaires : pour une entreprise, ce sont les vues et les visites qui comptent.
 
 Le format le plus simple pour une petite entreprise : une question de client et sa réponse, en moins d’une minute. Filmez-en quatre en une séance et vous avez un mois de Shorts. Les détails sont dans {{< a key="youtube-shorts-for-business" >}}YouTube Shorts pour les entreprises{{< /a >}}.
 
@@ -113,21 +113,21 @@ Le format le plus simple pour une petite entreprise : une question de client et
 
 La fiche d’établissement Google (Google Business Profile, qui s’appelait Google My Business jusqu’en novembre 2021, et beaucoup l’appellent encore ainsi) n’est pas un réseau social, mais elle fait ce que j’aimerais voir les réseaux sociaux faire : elle montre votre entreprise à des gens qui la cherchent déjà, dans la recherche Google et dans Maps. Inutile d’attirer l’attention de qui que ce soit.
 
-Vous pouvez y publier trois types de posts : des actualités, des offres et des événements. Google permet de les programmer et de les répéter, mais n’accepte pas de numéro de téléphone dans le texte : le bouton d’appel compose votre numéro vérifié à la place ([l’aide de Google sur les posts](https://support.google.com/business/answer/7342169?hl=fr)). Les posts ne font pas partie des trois critères du classement local de Google, mais ils aident ceux qui voient votre fiche à vous choisir.
+Vous pouvez y publier trois types de posts : des actualités, des offres et des événements. Google permet de les programmer et de les répéter ([l’aide de Google sur les posts](https://support.google.com/business/answer/7342169?hl=fr)), mais ses règles de contenu interdisent les numéros de téléphone dans le texte : le bouton d’appel compose votre numéro vérifié à la place. Selon Google, le classement local repose surtout sur la pertinence, la distance et la notoriété, et les posts n’apparaissent nulle part dans cette explication. En revanche, ils aident ceux qui voient votre fiche à vous choisir.
 
-**Ce qui a changé :** la rubrique questions-réponses disparaît. Google a arrêté l’API Questions et réponses le 3 novembre 2025 et remplace les questions-réponses de Maps par une fonction « Ask » propulsée par l’IA. En mars 2026, Google a présenté Ask Maps, qui répond aux questions à partir de votre fiche, de vos avis, de votre site et d’autres sources. Ce que vous écrivez sur votre fiche et sur votre site alimente désormais les réponses de l’IA de Google à votre sujet.
+**Ce qui a changé :** la rubrique questions-réponses disparaît. Google a arrêté l’API Questions et réponses le 3 novembre 2025, et les questions-réponses de Maps cèdent la place à un bouton « Ask » dont les réponses sont générées par l’IA. En mars 2026, Google a présenté Ask Maps, qui répond aux questions à partir de votre fiche, de vos avis, de votre site et d’autres sources (pas encore dans toutes les catégories d’établissements). Ce que vous écrivez sur votre fiche et sur votre site alimente désormais les réponses de l’IA de Google à votre sujet.
 
-Quand j’ai travaillé sur le référencement de Pilotech, installateur de climatisation en Île-de-France, la fiche Google était l’une des quatre étapes, après les pages et le contenu, avant les corrections techniques ; {{< a key="pilotech-seo-case-study" >}}l’étude de cas SEO de Pilotech{{< /a >}} raconte toute l’histoire. Si vous n’avez pas encore de fiche, commencez par {{< a key="google-business-profile-setup" >}}créer votre fiche Google{{< /a >}}, puis lisez {{< a key="google-business-profile-posts" >}}quoi publier sur Google My Business{{< /a >}}.
+Quand j’ai travaillé sur le référencement de Pilotech, installateur de climatisation en Île-de-France, la fiche Google était l’une des quatre étapes, après les pages et le contenu, avant les corrections techniques ; {{< a key="pilotech-seo-case-study" >}}l’étude de cas SEO de Pilotech{{< /a >}} raconte toute l’histoire. Si vous n’avez pas encore de fiche, commencez par {{< a key="google-business-profile-setup" >}}créer votre fiche Google{{< /a >}}, puis lisez {{< a key="google-business-profile-posts" >}}mon guide pour publier sur Google My Business{{< /a >}}.
 
 ## Instagram et Facebook : une visibilité à regagner sans cesse
 
-Instagram a dépassé les 3 milliards d’utilisateurs mensuels en septembre 2025. Pour une petite entreprise, il paie avec du temps ou un budget publicitaire ; sans l’un ni l’autre, il devient le tapis roulant décrit plus haut.
+Instagram a dépassé les 3 milliards d’utilisateurs mensuels en septembre 2025. Pour une petite entreprise, il rapporte si vous y consacrez du temps ou un budget publicitaire ; sans l’un ni l’autre, il devient le tapis roulant décrit plus haut.
 
 **Ce qui a changé :**
 
 - 10 juillet 2025 : les photos et vidéos publiques des comptes professionnels peuvent apparaître dans les moteurs de recherche comme Google, sauf si vous désactivez cette option.
 - Décembre 2025 : les hashtags sont limités à cinq par publication et par Reel.
-- 10 décembre 2025 : [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) permet de voir et de modifier les sujets qui guident les recommandations de Reels, d’abord aux États-Unis ; l’outil a depuis gagné Explorer et le fil principal.
+- 10 décembre 2025 : [Your Algorithm](https://about.instagram.com/blog/announcements/reels-algorithm-control) permet de voir et de modifier les sujets qui guident les recommandations de Reels, d’abord aux États-Unis, puis pour les utilisateurs anglophones du monde entier ; l’outil a depuis gagné Explorer et le fil principal, mais aucun lancement en français n’a été annoncé : vérifiez dans votre application.
 - Avril 2026 : un compte dont les publications des 30 derniers jours sont surtout des republications est traité comme un agrégateur et perd sa place dans les recommandations, jusqu’à ce que la plupart de ses publications redeviennent originales.
 
 La direction est claire : Instagram favorise les contenus originaux que l’on regarde jusqu’au bout et que l’on envoie à ses proches. Republier le travail des autres et empiler les hashtags ne mène plus bien loin. Le détail, mise à jour par mise à jour, est dans {{< a key="instagram-algorithm-2026" >}}algorithme Instagram 2026{{< /a >}}.
@@ -140,8 +140,8 @@ Sur TikTok, les gens ne sont pas vraiment des acheteurs : ils viennent se diver
 
 **Ce qui a changé :**
 
-- 31 mars 2025 : TikTok Shop a ouvert en France, en Allemagne et en Italie : on peut acheter sans quitter l’application.
-- 2 mai 2025 : la Commission irlandaise de protection des données a infligé à TikTok une amende de 530 millions d’euros pour des transferts de données d’utilisateurs de l’Espace économique européen vers la Chine.
+- 31 mars 2025 : TikTok Shop a ouvert en France, en Allemagne et en Italie, ce qui permet d’acheter sans quitter l’application.
+- 2 mai 2025 : la Commission irlandaise de protection des données a infligé à TikTok une amende de 530 millions d’euros, parce que des données d’utilisateurs de l’Espace économique européen étaient consultées depuis la Chine et que TikTok manquait de transparence à ce sujet. TikTok a fait appel.
 - 22 janvier 2026 : l’accord créant une coentreprise américaine pour TikTok a été finalisé. Il ne concerne que l’application américaine ; rien ne change en France.
 - Mineurs : en France, la loi interdisant les réseaux sociaux aux moins de 15 ans a été adoptée définitivement en juillet 2026, mais le Conseil constitutionnel a censuré cette interdiction le 14 août 2026, et le gouvernement a annoncé une réécriture du texte. En Australie, l’interdiction aux moins de 16 ans s’applique depuis le 10 décembre 2025.
 
@@ -149,9 +149,9 @@ Plus de détails dans {{< a key="tiktok-for-business-2026" >}}TikTok pour les en
 
 ## LinkedIn : le réseau du B2B, et un réglage à vérifier
 
-Si vous vendez à d’autres entreprises, LinkedIn est le fil que je regarderais en premier. Le 12 mars 2026, LinkedIn a annoncé avoir reconstruit son fil d’actualité avec de grands modèles de langage : chaque post est désormais proposé aux membres intéressés par son sujet, au-delà de votre réseau, et le fil montre moins d’appâts à engagement, comme les posts qui demandent de « commenter OUI ». LinkedIn dit aussi lutter contre les pods d’engagement et les outils qui automatisent les commentaires.
+Si vous vendez à d’autres entreprises, LinkedIn est le fil que je regarderais en premier. Le 12 mars 2026, LinkedIn a annoncé avoir reconstruit son fil d’actualité avec de grands modèles de langage : chaque post est désormais proposé aux membres intéressés par son sujet, au-delà de votre réseau, et le fil montre moins de posts qui quémandent des réactions, comme ceux qui demandent de « commenter OUI ». LinkedIn dit aussi lutter contre les pods d’engagement et les outils qui automatisent les commentaires.
 
-{{< callout type="warning" >}}Depuis le 3 novembre 2025, LinkedIn utilise les informations de profil et les contenus publics des membres de l’Union européenne, de l’EEE, de la Suisse et du Royaume-Uni, entre autres, pour entraîner son IA générative, sauf refus de leur part. Pour refuser, ouvrez **Préférences et confidentialité**, puis **Confidentialité des données**, et désactivez l’option qui autorise l’utilisation de vos données pour entraîner des modèles d’IA de création de contenu. Le refus ne vaut que pour l’avenir.{{< /callout >}}
+{{< callout type="warning" >}}Depuis le 3 novembre 2025, LinkedIn utilise les informations de profil et les contenus publics des membres de l’Union européenne, de l’EEE, de la Suisse et du Royaume-Uni, entre autres, pour entraîner son IA générative, sauf refus de leur part. Pour refuser, ouvrez **Préférences et confidentialité**, puis **Confidentialité des données** et **Données pour l’amélioration de l’IA générative**, et désactivez **Utiliser mes données pour entraîner des modèles d’IA de création de contenu**. Le refus ne vaut que pour l’avenir.{{< /callout >}}
 
 Si vous vendez en B2B, je placerais tout de même le cold emailing avant n’importe quel fil d’actualité : à mon sens, c’est le canal qui peut faire décoller une petite entreprise, et mon {{< a key="b2b-cold-emailing-guide" >}}guide du cold emailing B2B{{< /a >}} explique comment il fonctionne. Les changements du fil sont détaillés dans {{< a key="linkedin-algorithm-2026" >}}algorithme LinkedIn 2026{{< /a >}}.
 
@@ -179,7 +179,7 @@ Dans l’application Bluesky, ouvrez les réglages de votre compte, choisissez d
 
 ## Tous les changements depuis 2025, datés
 
-Voici les changements de ce guide dans l’ordre chronologique, avec ce que chacun implique pour vous.
+Voici les principaux changements de ce guide dans l’ordre chronologique, avec ce que chacun implique pour vous.
 
 | Date | Réseau | Ce qui a changé | Ce qu’il faut faire |
 |---|---|---|---|
@@ -187,7 +187,7 @@ Voici les changements de ce guide dans l’ordre chronologique, avec ce que chac
 | 2 mai 2025 | TikTok | Amende RGPD de 530 millions d’euros en Irlande | Rien de votre côté |
 | 10 juillet 2025 | Instagram | Les publications publiques des comptes professionnels peuvent apparaître dans les moteurs de recherche | Écrire des légendes avec les mots que l’on recherche |
 | 3 novembre 2025 | LinkedIn | Les données des membres entraînent l’IA générative, sauf refus | Vérifier le réglage dans Confidentialité des données |
-| 3 novembre 2025 | Google | Fin de l’API Questions et réponses ; les questions-réponses cèdent peu à peu la place à une fonction « Ask » propulsée par l’IA | Tenir à jour votre fiche, vos avis et votre site |
+| 3 novembre 2025 | Google | Fin de l’API Questions et réponses ; les questions-réponses cèdent peu à peu la place à un bouton « Ask » fondé sur l’IA | Tenir à jour votre fiche, vos avis et votre site |
 | Décembre 2025 | Instagram | Cinq hashtags au maximum par publication | En choisir cinq, précis |
 | 10 décembre 2025 | Instagram | Your Algorithm pour les Reels, d’abord aux États-Unis | Rester sur des sujets clairs et constants |
 | 22 janvier 2026 | TikTok | Coentreprise américaine finalisée (application américaine seulement) | Rien ne change en France |
@@ -212,17 +212,17 @@ Pour la programmation, Metricool est vraiment bon. En plus de publier vos posts,
 
 Comparez deux phrases : « J’ai 10 000 abonnés sur Instagram » et « Ce magazine a publié un article entier sur mon entreprise ». La deuxième l’emporte, et vous n’avez besoin d’aucun abonné pour l’obtenir.
 
-Les plateformes de relations presse comme Prowly, devenu l’AI PR Toolkit de Semrush, sont précieuses pour trouver les journalistes que votre histoire, vos produits ou vos services pourraient intéresser. Je ne suis pas spécialiste des relations presse et j’ai à peine essayé, pourtant j’ai aidé une personne de mon entourage, coach sportif, à obtenir un article dans un magazine français. Je pense que mes compétences en rédaction et en ciblage, acquises grâce au cold emailing, ont fait la différence.
+Les plateformes de relations presse comme Prowly, devenu l’AI PR Toolkit de Semrush, sont précieuses pour trouver les journalistes que votre histoire, vos produits ou vos services pourraient intéresser. Je ne suis pas spécialiste des relations presse et j’ai à peine essayé, pourtant j’ai aidé une personne de mon entourage, coach sportif, à obtenir un article dans un magazine. Je pense que mes compétences en rédaction et en ciblage, acquises grâce au cold emailing, ont fait la différence.
 
-La méthode : allez droit au but, ayez un site ou une page qui montre votre travail, et commencez par le journal de votre ville, puis la presse régionale, puis la presse nationale. Un article apporte un lien de valeur à votre site, une preuve à montrer à vos prospects et un contenu qui mérite d’être publié. Le guide complet : {{< a key="get-press-coverage" >}}comment passer dans la presse{{< /a >}}.
+La méthode : allez droit au but, apportez quelque chose d’intéressant, ayez un site ou une page qui montre votre travail, et commencez par le journal de votre ville, puis la presse régionale, puis la presse nationale. Un article peut apporter un lien de valeur à votre site ; il vous donne aussi une preuve à montrer à vos prospects et de quoi alimenter vos réseaux sociaux. Le guide complet : {{< a key="get-press-coverage" >}}comment passer dans la presse{{< /a >}}.
 
 ## Vos prochaines étapes (et quand passer la main)
 
 1. **Choisissez un réseau principal** parmi ceux qui durent : Pinterest si votre travail est visuel, YouTube Shorts si vous êtes à l’aise face caméra.
 2. **Complétez votre fiche Google** si vous travaillez localement : horaires, photos, services et réponses aux avis.
-3. **Revendiquez ce qui prouve que le compte est à vous :** votre site sur Pinterest, un lien vers votre site sur votre chaîne YouTube, votre domaine comme identifiant Bluesky si vous utilisez Bluesky.
+3. **Reliez vos comptes à votre site :** revendiquez-le sur Pinterest, ajoutez son lien à votre chaîne YouTube et, si vous êtes sur Bluesky, faites de votre domaine votre identifiant.
 4. **Préparez vos publications en lot :** une séance par semaine, des modèles Canva et un outil de planification.
-5. **Reliez chaque publication à une page précise de votre site**, pas seulement à la page d’accueil.
+5. **Renvoyez chaque publication vers une page précise de votre site**, pas seulement vers la page d’accueil : un lien quand le réseau le permet, une mention dans la vidéo sur les Shorts.
 6. **Fixez une période de test et une règle d’arrêt avant de commencer**, par exemple trois mois, puis continuez, ajustez ou arrêtez.
 
 Quand passer la main ? Quand vous avez un budget mais pas le temps. Choisissez une agence qui montre des résultats prouvés pour des entreprises comme la vôtre, mettez par écrit ce qu’elle mesurera, et laissez-lui quelques mois avant de juger. Et si vous préférez consacrer ces heures à des canaux aux résultats plus concrets, c’est un choix tout aussi sensé : un site bien référencé et un article de presse continuent de travailler longtemps après l’effort.

@@ -35,7 +35,7 @@ This tutorial is part of my {{< a key="ai-search-geo-guide" >}}complete guide to
 
 ## What schema markup is, in plain words
 
-Schema markup attaches a label to each fact on a page, using the names schema.org defines. A person reading your contact page knows that "12 Example Street, Bristol" is an address. A crawler sees a line of text, unless the markup labels it as one.
+A person reading your contact page knows that "12 Example Street, Bristol" is an address. A crawler sees a line of text, unless the markup labels it as one.
 
 Every example in this tutorial is in JSON-LD, which sits in a single `<script>` block in the page's code, apart from your design. Here is what that block can do for you:
 
@@ -134,8 +134,7 @@ A few rules for yours:
 - **Copy your name, address and phone number exactly as they appear on your Google Business Profile and your contact page.** One version of each, everywhere.
 - `@id` is a label of your choice that your other blocks can point to, as the service example below does.
 - `sameAs` lists your profiles on other sites, so they can be tied to the same business.
-- The opening hours must match the ones shown on your page.
-- If you work from home and hide your address on your Business Profile, leave the street out here too and keep the town: markup must never publish what your page does not show.
+- If you work from home and hide your address on your Business Profile, leave the street out here too and keep the town.
 
 ### Service, Product and BreadcrumbList: the shorter blocks
 
@@ -181,13 +180,11 @@ Add the blocks to the `<head>` of your templates, and generate them from the sam
 
 ### On Squarespace
 
-Squarespace already outputs basic markup for the website, the business, products, events and blog posts, partly from the business information in your settings, and you cannot edit that markup directly. Fill in your business information first, then see what the validator finds.
+Squarespace already outputs basic markup (website, business, products, events, blog posts), partly from the business information in your settings, and you cannot edit it directly. Fill in your business information first, then see what the validator finds.
 
 For what is missing, the route is code injection: the site-wide header field for a fuller business block that repeats exactly the same details, and the page header field in each page's settings (**Advanced** tab) for that page's service or breadcrumb block. Code injection is not included in every plan, and Squarespace has moved its menus more than once, so my {{< a key="squarespace-code-injection" >}}Squarespace code injection tutorial{{< /a >}} has the current steps.
 
 {{< screenshot id="schema-markup-small-business-01" alt="Squarespace page settings, Advanced tab, with a JSON-LD block pasted into the page header code injection field" >}}
-
-On the Squarespace sites I build, I usually add some code myself; my clients can call me for that part and edit everything else on their own.
 
 ### On WordPress and other builders
 
@@ -205,7 +202,7 @@ Test one page of each kind before you publish, then let Search Console watch the
 
 {{< screenshot id="schema-markup-small-business-03" alt="Rich Results Test result listing the items detected on a page, with their errors and warnings" >}}
 
-3. Paste the same page into the Schema Markup Validator, at `validator.schema.org`. It reads every schema.org type, including those the Rich Results Test leaves out because Google has no rich result for them, such as `Service` and, since June 2026, `FAQPage`.
+3. Run the same page through the Schema Markup Validator, at `validator.schema.org`. It reads every schema.org type, including those the Rich Results Test leaves out because Google has no rich result for them, such as `Service` and, since June 2026, `FAQPage`.
 
 {{< screenshot id="schema-markup-small-business-04" alt="Schema Markup Validator showing the LocalBusiness, Service and BreadcrumbList blocks found on a page" >}}
 
@@ -215,11 +212,10 @@ Test one page of each kind before you publish, then let Search Console watch the
 
 ## Mistakes that cost you rich results
 
-- **Marking up what the page does not show.** Google's guidelines say markup must describe content visitors can see. Opening hours that appear nowhere on the page, or a service you do not list, break that rule.
+- **Marking up what the page does not show.** Google's guidelines say markup must describe content visitors can see. Opening hours that appear nowhere on the page, or a service you do not list, break that rule, and misleading markup can earn a manual action that removes your rich results until you fix it.
 - **Adding your own star rating.** Google does not show stars for reviews a business publishes about itself, so an `aggregateRating` copied from your Google reviews earns nothing on your own site. The stars beside your name in Google Maps come from your Business Profile.
 - **Two blocks that disagree.** If a plugin's block gives one phone number and your own block another, fix the source rather than adding a third block.
 - **Forgetting the markup when things change.** When you move, change your number or your hours, update it on the same day as your Business Profile.
-- **Misleading markup.** Google can apply a manual action to structured data that misleads, which removes your rich results until you fix it.
 
 {{< callout type="warning" >}}**Don't pay for an "AI schema" package.** If an offer to get you into ChatGPT rests on structured data, ask what else it includes. The markup in this tutorial takes an afternoon, and its effect is mostly in Google.{{< /callout >}}
 

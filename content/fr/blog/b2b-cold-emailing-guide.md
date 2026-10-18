@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:49:00+02:00
 category: "cold-emailing"
 article_type: "pillar"
 keywords: ["cold emailing", "cold emailing B2B", "prospection par email B2B", "campagne de cold emailing", "prospection commerciale par email"]
-summary: "Le cold emailing B2B, c’est écrire des emails courts et personnels à des professionnels qui ne vous connaissent pas ; en France, c’est légal sans consentement si le message concerne leur métier et permet de se désinscrire. Une bonne campagne suit cet ordre : une cible, une liste vérifiée, des boîtes chauffées sur des domaines secondaires, puis trois emails en texte brut, sans lien, avec votre numéro. Dans mes campagnes, le premier retour arrive en général sous 36 heures."
+summary: "Le cold emailing B2B, c’est écrire des emails courts et personnels à des professionnels qui ne vous connaissent pas ; en France, c’est légal sans consentement si le message concerne leur métier et qu’ils peuvent s’y opposer simplement. Une bonne campagne suit cet ordre : une cible, une liste vérifiée, des boîtes chauffées sur des domaines secondaires, puis trois emails en texte brut, sans lien, avec votre numéro. Dans mes campagnes, le premier retour arrive sous 36 heures."
 cover: "b2b-cold-emailing-guide"
 cover_alt: "Un ordinateur portable et un document imprimé, à côté de trois enveloppes empilées, dont l’une porte une pastille de nouveau message, et les mots « Cold emailing »"
 related: ["cold-email-infrastructure", "cold-email-gdpr-uk-france", "instantly-ai-tutorial", "architects-cold-email-case-study", "cold-email-follow-up"]
@@ -20,9 +20,9 @@ faq:
   - q: "Peut-on acheter un fichier d’emails pour faire du cold emailing ?"
     a: "Je préfère construire mes listes. Un fichier acheté est souvent périmé, et vous en restez responsable : la CNIL attend que vous vérifiiez que les contacts ont été informés de l’usage de leur adresse pour la prospection. Elle a d’ailleurs [sanctionné KASPR de 240 000 €](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr) en décembre 2024 pour des coordonnées collectées depuis LinkedIn."
   - q: "Faut-il un site internet avant de lancer une campagne de cold emailing ?"
-    a: "C’est préférable. Un prospect intéressé vous cherche avant d’appeler, et mes emails invitent à consulter le catalogue sur le site du client, sans lien. Un site vitrine clair, qui montre votre travail et votre numéro, suffit pour commencer."
+    a: "C’est préférable. Un prospect intéressé vous cherche souvent avant d’appeler, et mes emails invitent à consulter le catalogue sur le site du client, sans lien. Un site vitrine clair, qui montre votre travail et votre numéro, suffit pour commencer."
   - q: "Peut-on faire du cold emailing depuis Gmail ou Outlook, sans outil ?"
-    a: "Pour quelques emails par jour, oui, depuis un domaine secondaire. Au-delà, un outil comme Instantly répartit les envois entre les boîtes, arrête la séquence dès qu’on vous répond et gère la chauffe, ce qu’on ne fait pas proprement à la main."
+    a: "Pour quelques emails par jour, oui, depuis un domaine secondaire. Au-delà, un outil comme Instantly répartit les envois entre les boîtes, arrête la séquence dès qu’on vous répond et gère la chauffe : autant de tâches longues et faciles à rater à la main."
   - q: "Combien de cold emails faut-il pour signer un client ?"
     a: "Cela dépend de la liste, de l’offre et du marché : méfiez-vous des chiffres universels. Jugez une campagne sur les réponses positives et les appels, sur plusieurs semaines ; MLK Leadhunters donne [des repères réalistes pour une liste B2B précise](https://mlkleadhunters.com/fr/blog/how-many-emails-to-get-a-client/)."
 ---
@@ -57,7 +57,7 @@ Trois points pèsent sur l’organisation de la campagne. Les adresses génériq
 
 ### Au Royaume-Uni : PECR et UK GDPR
 
-Si vous prospectez des entreprises britanniques, les règles changent. Le PECR permet d’écrire sans consentement aux sociétés (limited companies), aux LLP, aux sociétés de personnes écossaises et aux organismes publics. En revanche, les entrepreneurs individuels (sole traders) et la plupart des sociétés de personnes hors d’Écosse comptent comme des particuliers : ils doivent avoir donné leur accord, sauf s’ils sont déjà clients (soft opt-in). La page de l’ICO sur [le marketing entre entreprises](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) ajoute une règle utile : si l’adresse ne permet pas de savoir de quel type d’entreprise il s’agit, traitez-la comme celle d’un particulier.
+Si vous prospectez des entreprises britanniques, les règles changent. Le PECR permet d’écrire sans consentement aux sociétés (limited companies), aux LLP, aux sociétés de personnes écossaises et à certains organismes publics. En revanche, les entrepreneurs individuels (sole traders) et la plupart des sociétés de personnes hors d’Écosse comptent comme des particuliers : ils doivent avoir donné leur accord, sauf s’ils sont déjà clients (soft opt-in). La page de l’ICO sur [le marketing entre entreprises](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) ajoute une règle utile : si l’adresse ne permet pas de savoir de quel type d’entreprise il s’agit, traitez-la comme celle d’un particulier.
 
 Chaque email doit identifier l’expéditeur et donner une adresse valable pour se désinscrire. Quand l’adresse désigne une personne, l’UK GDPR s’applique aussi : intérêt légitime documenté par écrit, informations sur le traitement au plus tard dans le premier email, arrêt dès la première opposition. Depuis février 2026, les amendes prévues par le PECR peuvent atteindre 17,5 millions de livres sterling ou 4 % du chiffre d’affaires mondial.
 
@@ -67,27 +67,27 @@ Chaque campagne que je mène commence par la même conversation : le client me 
 
 Pour {{< a page="/projects/pilotech-teknopoint" >}}les campagnes Teknopoint de Pilotech{{< /a >}}, il y avait trois publics, chacun avec ses emails : les restaurants parisiens, les bureaux et commerces parisiens, et les architectes. Les architectes étaient la cible principale, et ceux qui appelaient le plus. Beaucoup travaillent à leur compte sur de gros projets, comme 16 climatiseurs à installer dans des hôtels ; d’autres dirigent des cabinets d’architecture. La plupart étaient à Paris, même si un architecte basé à Toulouse a aussi pris contact.
 
-L’offre était tout aussi étroite : une visite technique gratuite et un devis ferme, pour une climatisation invisible depuis la rue. **Le précis l’emporte sur le général.** Je l’ai aussi appris avec les sites web : l’un des sites que j’ai réalisés pour ce même client n’a rien donné, parce qu’il proposait trop de services à la fois, alors que celui construit autour d’un service très précis est bien classé. Un cold email qui propose trois choses a le même défaut, en trois lignes.
+L’offre était tout aussi ciblée : une visite technique gratuite et un devis ferme, pour une climatisation invisible depuis la rue. **Le précis l’emporte sur le général.** Je l’ai aussi appris avec les sites web : l’un des sites que j’ai réalisés pour ce même client n’a rien donné, parce qu’il proposait trop de services à la fois, alors que celui construit autour d’un service très précis est bien classé. Un cold email qui propose trois choses a le même défaut, en trois lignes.
 
 ## Étape 2 : constituer la liste et vérifier chaque adresse
 
 La liste fait l’essentiel du travail. Il vous faut des entreprises qui correspondent au public, la bonne personne dans chacune, et une adresse qui fonctionne. MLK Leadhunters explique [d’où viennent les contacts et comment les nettoyer](https://mlkleadhunters.com/fr/blog/building-a-cold-email-list/) ; voici comment je procède.
 
-Pour les entreprises présentes sur Google, comme les artisans, commerces, restaurants et cabinets, un {{< a key="google-maps-scraper-outscraper" >}}scraper Google Maps comme Outscraper{{< /a >}} transforme une recherche en tableau de noms, de numéros et de sites, avec les emails publiés sur ces sites. Il me revient à une fraction de centime par contact. Sa limite tient dans son nom : il ne trouve que les entreprises présentes sur Google, et les autres publics demandent d’autres sources.
+Pour les entreprises présentes sur Google, comme les plombiers, les garages, les salons de coiffure ou les cabinets dentaires, un {{< a key="google-maps-scraper-outscraper" >}}scraper Google Maps comme Outscraper{{< /a >}} transforme une recherche en tableau de noms, de numéros et de sites, avec les emails publiés sur ces sites. Il me revient à une fraction de centime par contact. Sa limite tient dans son nom : il ne trouve que les entreprises présentes sur Google, et les autres publics demandent d’autres sources.
 
-Ensuite, **vérifiez chaque adresse avant qu’elle n’approche un outil d’envoi**. Les adresses mortes rebondissent, et les rebonds usent la réputation de vos domaines d’envoi. Je nettoie chaque liste avec Reoon, le seul achat AppSumo que j’utilise tous les jours, et son offre d’entrée donne largement assez de vérifications à une petite entreprise. La méthode est dans {{< a key="email-list-verification-reoon" >}}vérifier une liste d’emails avec Reoon{{< /a >}}.
+Ensuite, **vérifiez chaque adresse avant qu’elle n’approche un outil d’envoi**. Les adresses mortes provoquent des rebonds (bounces), qui usent la réputation de vos domaines d’envoi. Je nettoie chaque liste avec Reoon, le seul achat AppSumo que j’utilise tous les jours, et son offre d’entrée donne largement assez de vérifications à une petite entreprise. La méthode est dans {{< a key="email-list-verification-reoon" >}}vérifier une liste d’emails avec Reoon{{< /a >}}.
 
 Enfin, comparez la liste à votre liste repoussoir : chaque adresse et chaque domaine qui a demandé à ne plus recevoir vos emails, en France comme au Royaume-Uni. Un tableur suffit, tant que vous le consultez avant chaque campagne.
 
 ## Étape 3 : préparer les domaines et les boîtes d’envoi
 
-C’est l’étape que l’on saute, et la raison principale pour laquelle les premières campagnes finissent en spam. L’infrastructure compte quatre éléments : des domaines secondaires, des boîtes mail, des enregistrements DNS et la chauffe. Mon guide {{< a key="cold-email-infrastructure" >}}infrastructure de cold emailing{{< /a >}} dimensionne chacun, avec l’exemple de 30 adresses.
+C’est l’étape que l’on saute, et souvent la raison pour laquelle une première campagne finit en spam. L’infrastructure compte quatre éléments : des domaines secondaires, des boîtes mail, des enregistrements DNS et la chauffe. Mon guide {{< a key="cold-email-infrastructure" >}}infrastructure de cold emailing{{< /a >}} dimensionne chacun, avec l’exemple de 30 adresses.
 
 ### Domaines secondaires et boîtes mail
 
 {{< callout type="warning" >}}**N’envoyez jamais de cold emails depuis votre domaine principal.** Si une campagne abîme sa réputation, ce sont vos emails de tous les jours, aux clients comme aux fournisseurs, qui en pâtissent. MLK Leadhunters explique [pourquoi des domaines secondaires absorbent le risque](https://mlkleadhunters.com/fr/blog/never-send-from-your-main-domain/).{{< /callout >}}
 
-Achetez quelques domaines proches de votre marque, comme votremarque-conseil.fr ou votremarque-pro.com, et créez quelques boîtes sur chacun, au nom de vraies personnes. Les guides d’Instantly conseillent environ 30 cold emails par jour et par boîte, et l’on grandit en ajoutant des boîtes plutôt qu’en envoyant davantage depuis chacune. Pilotech dispose de 30 adresses réservées au cold emailing.
+Achetez quelques domaines proches de votre marque, comme votremarque-conseil.fr ou votremarque-pro.com, et créez quelques boîtes sur chacun, au nom de vraies personnes. Les guides d’Instantly conseillent environ 30 cold emails par jour et par boîte, et l’on augmente les volumes en ajoutant des boîtes plutôt qu’en envoyant davantage depuis chacune. Pilotech dispose de 30 adresses réservées au cold emailing.
 
 ### SPF, DKIM, DMARC et chauffe
 
@@ -99,15 +99,15 @@ Une boîte neuve n’a aucune réputation : chauffez-la avant toute campagne, c
 
 ### Quel fournisseur de messagerie
 
-Par expérience, Microsoft 365 fonctionne très bien pour le cold emailing mais reste délicat à configurer, et Google Workspace fait moins bien. Je recommande Spacemail, la messagerie de Spaceship, simple à configurer et la moins chère des trois. Une réserve : les règles de Spaceship interdisent les envois massifs non sollicités et la chauffe automatisée, donc obtenez l’accord écrit de Spaceship avant de relier Spacemail à un outil d’envoi. Le comparatif est dans {{< a key="best-email-provider-cold-email" >}}quelle boîte mail pour le cold emailing{{< /a >}}, et la mise en place dans mon tuto pour {{< a key="spacemail-setup" >}}configurer Spacemail{{< /a >}}.
+Par expérience, Microsoft 365 fonctionne très bien pour le cold emailing mais reste délicat à configurer, et Google Workspace fait moins bien. Celle que je recommande est Spacemail, la messagerie de Spaceship, simple à configurer et la moins chère des trois. La réserve est de taille : les règles de Spaceship considèrent comme non sollicité tout email envoyé à une personne qui n’a pas donné son accord, interdisent les envois commerciaux ou massifs non sollicités et prohibent la chauffe automatisée par des outils tiers. Lisez-les, et obtenez l’accord écrit de Spaceship avant de relier des boîtes Spacemail à un outil d’envoi ou à sa chauffe. Le comparatif est dans {{< a key="best-email-provider-cold-email" >}}quelle boîte mail pour le cold emailing{{< /a >}}, et la mise en place dans mon tuto pour {{< a key="spacemail-setup" >}}configurer Spacemail{{< /a >}}.
 
 ## Étape 4 : choisir l’outil d’envoi et les bons réglages
 
 Un outil d’envoi répartit les emails entre vos boîtes, envoie les relances à l’heure prévue, s’arrête quand on vous répond et gère la chauffe. J’utilise Instantly parce qu’il est simple et qu’il a les réglages qui évitent le spam. J’ai commencé avec lui et je n’ai trouvé aucune raison d’en changer : une fois la bonne recette trouvée, tout tourne.
 
-Au moment où j’écris (octobre 2026), [les offres d’Instantly](https://instantly.ai/pricing) commencent à 47 $ (environ 42 €) par mois avec Growth, qui couvre 5 000 emails par mois, et toutes incluent boîtes mail et warm-up illimités. Smartlead fonctionne de la même façon, avec boîtes et warm-up illimités sur toutes ses offres ; lemlist, édité par la société parisienne lempire, ajoute LinkedIn et les appels. Je compare les trois dans {{< a key="instantly-vs-smartlead-vs-lemlist" >}}lemlist vs Instantly vs Smartlead{{< /a >}}.
+Au moment où j’écris (octobre 2026), [les offres d’Instantly](https://instantly.ai/pricing) commencent à environ 42 € (47 $) par mois avec Growth, qui couvre 5 000 emails par mois, et toutes incluent la chauffe (warm-up) et un nombre illimité de boîtes mail. Smartlead fonctionne de la même façon, avec boîtes et warm-up illimités sur toutes ses offres ; lemlist, édité par la société parisienne lempire, ajoute LinkedIn et les appels avec son offre Multichannel. Je compare les trois dans {{< a key="instantly-vs-smartlead-vs-lemlist" >}}lemlist vs Instantly vs Smartlead{{< /a >}}.
 
-Quel que soit l’outil, ces réglages comptent plus que l’offre :
+Quel que soit l’outil, ces réglages comptent plus que la formule choisie :
 
 - Envoi en **texte seul**, suivi des ouvertures et des clics désactivé.
 - Arrêt de la séquence pour toute personne qui répond.
@@ -129,9 +129,9 @@ Objet : Éclairage LED pour [nom du commerce]
 
 Bonjour [Prénom],
 
-Je suis [prénom] de [Entreprise] : nous installons l’éclairage LED des commerces à [ville].
-Nous commençons par une visite gratuite et un devis ferme, pour que vous connaissiez le coût.
-Si cela mérite un coup d’œil, appelez-moi au [votre ligne directe].
+Je suis [prénom], de [Entreprise] : nous installons l’éclairage LED des commerces à [ville].
+Nous commençons par une visite gratuite et un devis ferme : vous connaissez le prix avant de vous engager.
+Si cela vous intéresse, appelez-moi au [votre ligne directe].
 
 [Prénom Nom], [Entreprise], [adresse postale]
 J’ai trouvé votre adresse sur [source]. Ce n’est pas pour vous ? Répondez « non » et je ne vous écrirai plus.
@@ -153,7 +153,7 @@ Le volume peut devenir un problème en soi. À un moment, j’apportais à Pilot
 
 ## Étape 7 : tester, mesurer, améliorer
 
-Considérez la première version d’une campagne comme un brouillon. Je fais des tests A/B sur le texte pendant toute la campagne, si bien que les réponses augmentent en général avec le temps : au bout de quelques semaines, je sais quelle formulation a marché et laquelle non.
+Considérez la première version d’une campagne comme un brouillon. Je fais des tests A/B sur le texte pendant toute la campagne, si bien que les réponses augmentent en général avec le temps : j’apprends quelle formulation marche et laquelle ne marche pas.
 
 Changez une seule chose à la fois, par exemple la première ligne, l’offre ou l’objet, et laissez à chaque version assez d’envois pour voir une différence. Dans Instantly, vous ajoutez des variantes à une étape, et l’outil peut garder la version au meilleur taux de réponse. MLK Leadhunters liste [les tests A/B qui comptent vraiment](https://mlkleadhunters.com/fr/blog/ab-tests-that-matter/).
 
@@ -161,12 +161,12 @@ Mesurez ce qui est fiable. Suivi désactivé, vous ne verrez pas les ouvertures,
 
 ## Combien coûte le cold emailing, et en combien de temps il donne des résultats
 
-Si vous le faites vous-même, les outils sont le principal coût. Voici ceux que j’utilise ou conseille, au moment où j’écris (octobre 2026) :
+Si vous le faites vous-même, les outils sont le principal coût. Voici ceux de ce guide, aux prix pratiqués au moment où j’écris (octobre 2026) :
 
 | Poste | Outil | Coût |
 |---|---|---|
-| Outil d’envoi | Instantly, offre Growth | 47 $ (environ 42 €) par mois |
-| Boîtes mail | Spacemail | moins de 1 € par boîte et par mois |
+| Outil d’envoi | Instantly, offre Growth | environ 42 € (47 $) par mois |
+| Boîtes mail | Spacemail, avec l’accord écrit de Spaceship | moins de 1 € par boîte et par mois |
 | Boîtes mail | Google Workspace Business Starter | 6,80 € HT par utilisateur et par mois, engagement annuel |
 | Domaines d’envoi | Un .fr chez Infomaniak | 7 € HT par an au renouvellement |
 | Liste | Outscraper | environ 0,003 € par contact, 0,006 € une fois vérifié, selon mon usage |
@@ -202,6 +202,6 @@ Avant le premier envoi, vérifiez chaque point :
 7. L’outil réglé en texte seul, suivi désactivé, arrêt à la réponse et environ 30 emails par jour et par boîte.
 8. Quelqu’un prêt à répondre aux emails et aux appels dans la journée, et un seul test à la fois.
 
-Vous n’avez pas besoin de moi pour cela : avec les guides ci-dessus et un peu de patience, vous pouvez mener une campagne propre vous-même. Déléguez quand vous préférez consacrer ce temps aux appels plutôt qu’aux enregistrements DNS et aux tableurs.
+Vous n’avez pas besoin de moi pour cela : avec les guides ci-dessus et un peu de patience, vous pouvez mener une campagne propre vous-même. Déléguez le jour où vous préférerez consacrer ce temps aux appels plutôt qu’aux enregistrements DNS et aux tableurs.
 
 C’est ce que je fais avec MLK Leadhunters. Le client me dit quelle clientèle il vise et ne fournit rien d’autre ; je fais tout, sauf répondre ; et si aucun prospect ne répond ni n’appelle, j’ajoute un mois de service gratuit. Vous pouvez voir comment cela fonctionne sur [MLK Leadhunters](https://mlkleadhunters.com/fr/).

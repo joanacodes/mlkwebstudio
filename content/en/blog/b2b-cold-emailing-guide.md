@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:49:00+02:00
 category: "cold-emailing"
 article_type: "pillar"
 keywords: ["B2B cold emailing", "cold emailing for small businesses", "B2B cold email campaign", "how to start cold emailing", "cold email strategy"]
-summary: "B2B cold emailing means sending short, personal emails to businesses that do not know you yet; in the UK and France it is legal when you write to companies about their work, name yourself and honour opt-outs. A campaign that works follows one order: one audience and one offer, a verified list, warmed-up mailboxes on secondary domains, then three plain-text emails with a phone number and no links. In my campaigns, the first reply or call usually comes within 36 hours."
+summary: "B2B cold emailing means sending short, personal emails to businesses that do not know you; in the UK and France it is legal without consent if you write to companies about their work, name yourself and honour opt-outs. A good campaign follows one order: one audience and one offer, a verified list, warmed-up mailboxes on secondary domains, then three plain-text emails with a phone number and no links. In my campaigns, the first reply or call usually comes within 36 hours."
 cover: "b2b-cold-emailing-guide"
 cover_alt: "A laptop and a printed document beside three stacked envelopes, one with a new-message badge, and the words Cold emailing"
 related: ["cold-email-infrastructure", "cold-email-examples", "cold-email-gdpr-uk-france", "instantly-ai-tutorial", "architects-cold-email-case-study"]
@@ -20,9 +20,9 @@ faq:
   - q: "Should I buy an email list for B2B cold emailing?"
     a: "I would build my own. A bought list is often out of date, and you stay responsible for it: you must be able to tell each named contact where you got their details, and in France the CNIL expects you to check they were told their address could be used for prospecting."
   - q: "Do I need a website before I start cold emailing?"
-    a: "It helps. Interested prospects look you up before they call, and my emails invite them to look at the catalogue on the client's website, without a link. One clear page that shows your work and your phone number is enough to start."
+    a: "It helps. Interested prospects often look you up before they call, and my emails invite them to look at the catalogue on the client's website, without a link. One clear page that shows your work and your phone number is enough to start."
   - q: "Can I send cold emails from Gmail or Outlook without a tool?"
-    a: "For a handful a day, yes, from a secondary domain. Beyond that, a sending tool such as Instantly spreads the volume across mailboxes, stops the sequence when someone replies and runs the warm-up, which you cannot do safely by hand."
+    a: "For a handful a day, yes, from a secondary domain. Beyond that, a sending tool such as Instantly spreads the volume across mailboxes, stops the sequence when someone replies and runs the warm-up: work that is slow and easy to get wrong by hand."
   - q: "How many cold emails does it take to win a client?"
     a: "It depends on the list, the offer and the market, so be wary of universal figures. Judge a campaign on positive replies and calls over several weeks; MLK Leadhunters gives [realistic ranges for a precise B2B list](https://mlkleadhunters.com/blog/how-many-emails-to-get-a-client/)."
 ---
@@ -51,7 +51,7 @@ The objection I hear is that cold emailing is illegal. For B2B, it is not, as lo
 
 ### In the UK: PECR and UK GDPR
 
-Under PECR, you can email limited companies, LLPs, Scottish partnerships and public bodies without their prior consent. Sole traders and most partnerships outside Scotland count as individuals, so they must have agreed first, unless they are customers covered by the soft opt-in. The ICO's page on [business-to-business marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) adds a useful rule: if you cannot tell from the address which kind of business it is, treat it as an individual.
+Under PECR, you can email limited companies, LLPs, Scottish partnerships and some public bodies without their prior consent. Sole traders and most partnerships outside Scotland count as individuals, so they must have agreed first, unless they are customers covered by the soft opt-in. The ICO's page on [business-to-business marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) adds a useful rule: if you cannot tell from the address which kind of business it is, treat it as an individual.
 
 Every marketing email must say who is sending it and give a valid address to opt out. When the address names a person, such as jane.smith@firm.co.uk, UK GDPR applies as well: rely on legitimate interests and write your assessment down, give your privacy information in the first email at the latest, and stop at the first objection. Since February 2026, PECR fines can reach £17.5 million or 4% of worldwide turnover.
 
@@ -73,7 +73,7 @@ The offer was just as narrow: a free technical visit and a firm quote, for air c
 
 The list does most of the work. You need businesses that match the audience, the right person in each, and an address that works. MLK Leadhunters covers [where leads come from and how to clean them](https://mlkleadhunters.com/blog/building-a-cold-email-list/); this is how I do it.
 
-For businesses with a Google listing, such as trades, shops, restaurants and practices, a {{< a key="google-maps-scraper-outscraper" >}}Google Maps scraper like Outscraper{{< /a >}} turns a search into a spreadsheet of names, phone numbers, websites and the emails those websites publish. It costs me a fraction of a penny per lead. Its limit is in the name: it only finds businesses that are on Google, so other audiences need other sources.
+For businesses with a Google listing, such as plumbers, garages, hair salons or dental practices, a {{< a key="google-maps-scraper-outscraper" >}}Google Maps scraper like Outscraper{{< /a >}} turns a search into a spreadsheet of names, phone numbers, websites and the emails those websites publish. It costs me a fraction of a penny per lead. Its limit is in the name: it only finds businesses that are on Google, so other audiences need other sources.
 
 Then **verify every address before it goes near a sending tool**. Dead addresses bounce, and bounces wear down the reputation of your sending domains. I clean every list with Reoon, the only thing I bought on AppSumo that I use every single day, and its starter deal gives a small business plenty of verifications. The method is in {{< a key="email-list-verification-reoon" >}}email list verification with Reoon{{< /a >}}.
 
@@ -81,7 +81,7 @@ Finally, check the list against your suppression list: every address and domain 
 
 ## Step 3: set up sending domains and mailboxes
 
-This is the step people skip, and the main reason first campaigns land in spam. The set-up has four parts: secondary domains, mailboxes, DNS records and warm-up. My {{< a key="cold-email-infrastructure" >}}cold email infrastructure guide{{< /a >}} sizes each one, with a 30-mailbox example.
+This is the step people skip, and a common reason first campaigns land in spam. The set-up has four parts: secondary domains, mailboxes, DNS records and warm-up. My {{< a key="cold-email-infrastructure" >}}cold email infrastructure guide{{< /a >}} sizes each one, with a 30-mailbox example.
 
 ### Secondary domains and mailboxes
 
@@ -99,13 +99,13 @@ New mailboxes have no reputation, so warm them up before any campaign: each mail
 
 ### Which email provider
 
-In my experience, Microsoft 365 works very well for cold email but is tricky to set up, and Google Workspace does worse. I encourage Spacemail, Spaceship's email service, which is simple to set up and the cheapest of the three. One catch: Spaceship's rules forbid unsolicited bulk mail and automated warm-up, so get Spaceship's agreement in writing before you connect Spacemail to a sending tool. The comparison is in {{< a key="best-email-provider-cold-email" >}}best email provider for cold email{{< /a >}}, and the set-up in my {{< a key="spacemail-setup" >}}Spacemail tutorial{{< /a >}}.
+In my experience, Microsoft 365 works very well for cold email but is tricky to set up, and Google Workspace does worse. The one I encourage is Spacemail, Spaceship's email service, because it is simple to set up and the cheapest of the three. The catch is serious: Spaceship's rules count any email to people who have not opted in as unsolicited, ban unsolicited commercial or bulk email and prohibit automated warm-up through third-party tools. Read them, and get Spaceship's written agreement before you connect Spacemail mailboxes to a sending tool or its warm-up. The comparison is in {{< a key="best-email-provider-cold-email" >}}best email provider for cold email{{< /a >}}, and the set-up in my {{< a key="spacemail-setup" >}}Spacemail tutorial{{< /a >}}.
 
 ## Step 4: choose a sending tool and the right settings
 
 A sending tool spreads the emails across your mailboxes, sends the follow-ups on schedule, stops when someone replies and runs the warm-up. I use Instantly because it is straightforward and has the settings that keep you out of spam. I started with it and have found no reason to change: once you find the right recipe, it runs.
 
-At the time of writing (October 2026), [Instantly's plans](https://instantly.ai/pricing) start at $47 (about £35) a month for Growth, which covers 5,000 emails a month, and every plan includes unlimited mailboxes and warm-up. Smartlead works the same way, with unlimited mailboxes and warm-up on every plan; lemlist, from the Paris company lempire, adds LinkedIn and call steps. I compare the three in {{< a key="instantly-vs-smartlead-vs-lemlist" >}}Instantly vs Smartlead vs lemlist{{< /a >}}.
+At the time of writing (October 2026), [Instantly's plans](https://instantly.ai/pricing) start at about £35 ($47) a month for Growth, which covers 5,000 emails a month, and every plan includes unlimited mailboxes and warm-up. Smartlead works the same way, with unlimited mailboxes and warm-up on every plan; lemlist, from the Paris company lempire, adds LinkedIn and call steps on its Multichannel plan. I compare the three in {{< a key="instantly-vs-smartlead-vs-lemlist" >}}Instantly vs Smartlead vs lemlist{{< /a >}}.
 
 Whichever tool you pick, these settings matter more than the plan:
 
@@ -153,7 +153,7 @@ Volume can become a problem of its own. At one point I was bringing Pilotech mor
 
 ## Step 7: test, measure and improve
 
-Treat the first version of a campaign as a draft. I A/B test the copy while the campaign runs, so responses usually grow over time: after a few weeks, I know which wording worked and which did not.
+Treat the first version of a campaign as a draft. I A/B test the copy while the campaign runs, so responses usually grow as it goes on: I learn which wording works and which does not.
 
 Change one thing at a time, such as the first line, the offer or the subject, and give each version enough emails to show a difference. In Instantly, you add variants to a step, and the tool can keep the version with the best reply rate. MLK Leadhunters lists [the A/B tests that actually matter](https://mlkleadhunters.com/blog/ab-tests-that-matter/).
 
@@ -161,14 +161,14 @@ Measure what you can trust. With tracking off you will not see opens, and that i
 
 ## What B2B cold emailing costs, and how soon it works
 
-If you do it yourself, the tools are the main cost. These are the ones I use or suggest, at the time of writing (October 2026):
+If you do it yourself, the tools are the main cost. Here are the ones from this guide, at their prices at the time of writing (October 2026):
 
 | Item | Tool | Cost |
 |---|---|---|
-| Sending tool | Instantly, Growth plan | $47 (about £35) a month |
-| Mailboxes | Spacemail | under $1 (less than £1) a mailbox a month |
+| Sending tool | Instantly, Growth plan | about £35 ($47) a month |
+| Mailboxes | Spacemail, only with Spaceship's written agreement | less than £1 (under $1) a mailbox a month |
 | Mailboxes | Google Workspace Business Starter | £5.90 (about $8) a user a month, annual plan, excluding VAT |
-| Sending domains | A .co.uk at Spaceship | $5.42 (about £4) a year each |
+| Sending domains | A .co.uk at Spaceship | about £4 ($5.42) a year each |
 | Lead list | Outscraper | about a quarter of a penny (€0.003) per lead, half a penny (€0.006) once verified, in my own use |
 | Verification | Reoon, AppSumo deal | about £60 ($79) for 100,000 verifications, plus 500 a day, in my case |
 

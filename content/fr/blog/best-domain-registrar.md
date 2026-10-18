@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:58:00+02:00
 category: "domains"
 article_type: "comparison"
 keywords: ["où acheter un nom de domaine", "acheter un nom de domaine", "meilleur registrar", "registrar nom de domaine", "prix renouvellement nom de domaine", "comparatif registrar"]
-summary: "Pour savoir où acheter un nom de domaine, comparez le prix du renouvellement, pas celui de la première année. Pour un .com, je choisis Spaceship, et Namecheap, qui l’a conçu, reste un second choix sûr ; pour un .fr, je recommande Infomaniak, qui le renouvelle à 7,00 € HT par an au moment où j’écris (octobre 2026). Méfiez-vous des prix d’appel : Hostinger affiche un .com à 0,01 $ la première année, puis à 19,99 $ par an (environ 17 €)."
+summary: "Pour savoir où acheter un nom de domaine, comparez le prix du renouvellement, pas celui de la première année. Pour un .com, je choisis Spaceship, et Namecheap, qui l’a conçu, reste un second choix sûr ; pour un .fr, je recommande Infomaniak, qui le renouvelle à 7,00 € HT par an au moment où j’écris (octobre 2026). Méfiez-vous des prix d’appel : sur son site international, Hostinger affiche un .com à 0,01 $ la première année, puis 19,99 $ par an."
 cover: "best-domain-registrar"
 cover_alt: "Un tableur sur un écran d’ordinateur, à côté d’un graphique de prix en hausse et des extensions .com, .co.uk et .fr"
 related: ["spaceship-vs-namecheap", "fr-domain-names", "hostinger-renewal-transfer", "transfer-domain-name", "infomaniak-review"]
@@ -27,7 +27,7 @@ faq:
     a: "Oui. Un particulier peut enregistrer un .com, et un .fr s’il réside dans l’Union européenne, en Islande, au Liechtenstein, en Norvège ou en Suisse. Si vous créez une société ensuite, le changement de titulaire se demande au registrar."
 ---
 
-Pour savoir où acheter un nom de domaine, regardez d’abord le prix du renouvellement, pas celui de la première année : c’est lui que vous paierez chaque année, tant que vous garderez le nom. Pour un .com, mon choix est Spaceship ; Namecheap, qui l’a conçu, reste un second choix sûr. Pour un .fr, je recommande Infomaniak, qui le renouvelle à 7,00 € HT par an au moment où j’écris (octobre 2026).
+Pour savoir où acheter un nom de domaine, regardez d’abord le prix du renouvellement, pas celui de la première année : c’est lui que vous paierez chaque année, tant que vous garderez le nom. Pour un .com, mon choix est Spaceship ; Namecheap, qui l’a conçu, reste un second choix sûr. Pour un .fr, je recommande Infomaniak, dont le renouvellement est le plus bas que j’ai pu vérifier.
 
 J’ai enregistré ou géré des domaines chez six registrars : Spaceship, Namecheap, Squarespace (qui a repris Google Domains), Infomaniak, OVHcloud et Hostinger. J’ai choisi certains d’entre eux ; j’ai hérité des autres, parce que les domaines d’un client s’y trouvaient déjà. Ce comparatif les classe sur le prix payé chaque année après la première, puis sur la confidentialité, les DNS et le support.
 
@@ -44,7 +44,7 @@ Un registrar, ou bureau d’enregistrement, est la société auprès de laquelle
 | Squarespace | Non confirmé | 20 $ (environ 17 €) par an | Les sites construits sur Squarespace |
 | Infomaniak | Première année en promotion, puis 7,00 € HT par an | Non confirmé | Un .fr, des emails et des fichiers gardés en Suisse |
 | OVHcloud | 4,99 € HT la première année, puis 7,79 € HT | 7,99 € HT la première année, puis 13,49 € HT | Les profils techniques |
-| Hostinger | 8,99 $ (environ 7,70 €) la première année, puis 12,99 $ (environ 11 €) | 0,01 $ la première année, puis 19,99 $ (environ 17 €) | Les clients de son hébergement qui prévoient le renouvellement |
+| Hostinger | 8,99 $ la première année, puis 12,99 $, sur son site international (prix en euros non confirmé) | 0,01 $ la première année, puis 19,99 $, sur son site international | Les clients de son hébergement qui prévoient le renouvellement |
 
 « Non confirmé » signifie que je n’ai pas pu vérifier un prix actuel sur une page officielle pour cet article : consultez la grille du registrar avant d’acheter.
 
@@ -54,7 +54,7 @@ Les avis, eux, viennent de mon travail. Je fais confiance à Spaceship et à Nam
 
 Chaque extension a deux prix sur la grille d’un registrar. La première année sert de vitrine ; le renouvellement, c’est ce que vous payez chaque année ensuite, aussi longtemps que vous gardez le nom. Un nom de domaine est un achat sur dix ans réglé en plusieurs fois : c’est le second chiffre qu’il faut comparer.
 
-C’est aussi là que les registrars se distinguent le plus. D’après mon expérience, certains prestataires, dont Hostinger et GoDaddy, facturent bien plus cher dès la deuxième année ; Spaceship et Namecheap ne m’ont jamais réservé cette surprise. Les pages d’Hostinger, qui affichent ses prix en dollars et hors TVA, montrent l’écart. Au moment où j’écris, son .com coûte 0,01 $ la première année, puis 19,99 $ par an (environ 17 €), et ce prix d’un centime exige un enregistrement d’au moins trois ans, dont seule la première année est remisée. Son .fr passe de [8,99 $ la première année à 12,99 $ par an](https://www.hostinger.com/tld/fr-domain), soit environ 7,70 € puis 11 €.
+C’est aussi là que les registrars se distinguent le plus. D’après mon expérience, certains prestataires, dont Hostinger et GoDaddy, facturent bien plus cher dès la deuxième année ; Spaceship et Namecheap ne m’ont jamais réservé cette surprise. Les pages internationales d’Hostinger, en dollars et hors TVA, montrent l’écart. Au moment où j’écris, son .com coûte 0,01 $ la première année, à condition de l’enregistrer pour trois ans, puis 19,99 $ par an. Son .fr passe de [8,99 $ la première année à 12,99 $ par an](https://www.hostinger.com/tld/fr-domain). Sur hostinger.fr, les prix s’affichent en euros, et ceux que j’ai trouvés ne concordent pas : lisez la ligne du renouvellement dans le panier, où Hostinger l’indique avant le paiement.
 
 Voici ce que donnent ces écarts sur cinq ans, aux prix affichés aujourd’hui :
 
@@ -62,15 +62,15 @@ Voici ce que donnent ces écarts sur cinq ans, aux prix affichés aujourd’hui�
 |---|---|---|---|
 | .fr chez Infomaniak | Prix promotionnel | 4 × 7,00 € HT | Moins de 35,00 € HT |
 | .fr chez OVHcloud | 4,99 € HT | 4 × 7,79 € HT | 36,15 € HT |
-| .fr chez Hostinger | 8,99 $ | 4 × 12,99 $ | 60,95 $ (environ 52 €) |
+| .fr chez Hostinger (site international) | 8,99 $ | 4 × 12,99 $ | 60,95 $ (environ 52 €) |
 | .fr chez Namecheap | 17,98 $ | 4 × 20,98 $ | 101,90 $ (environ 88 €) |
 | .com chez OVHcloud | 7,99 € HT | 4 × 13,49 € HT | 61,95 € HT |
-| .com chez Hostinger | 0,01 $ | 4 × 19,99 $ | 79,97 $ (environ 69 €) |
+| .com chez Hostinger (site international) | 0,01 $ | 4 × 19,99 $ | 79,97 $ (environ 69 €) |
 | .com chez Squarespace | 20 $, ou offert avec un forfait de site annuel | 4 × 20 $ | 100 $ (environ 86 €), ou 80 $ (environ 69 €) |
 
 Spaceship manque à ce tableau, et c’est voulu. Les comparateurs de prix que j’ai consultés placent tous son renouvellement .com sous celui de Namecheap et sous les renouvellements officiels de ce tableau, mais ils ne s’accordent pas sur le montant exact, et la presse spécialisée signale une hausse à partir du 1er novembre 2026. Lisez la ligne du renouvellement sur sa grille de prix le jour de l’achat. Pour le .fr, je n’y ai trouvé ni prix ni page d’aide.
 
-Les montants ne partent pas tous de la même base : les prix HT s’entendent hors TVA, et ceux en dollars varient avec le taux de change. Sur un prix HT, un particulier paie 20 % de TVA en plus, qu’une entreprise assujettie récupère. Comparez donc les totaux au moment de payer, pas les bannières.
+Les montants ne partent pas tous de la même base : certains sont hors taxes (HT), d’autres en dollars, et ces derniers varient avec le taux de change. Sur un prix HT, un particulier paie 20 % de TVA en plus, qu’une entreprise assujettie récupère. Comparez donc les totaux au moment de payer, pas les bannières.
 
 {{< callout type="tip" >}}Avant de payer un nom de domaine, **cherchez son prix de renouvellement sur la page du registrar et multipliez-le par le nombre d’années où vous comptez garder le nom**. Ce seul calcul classe mieux les registrars que n’importe quelle offre de première année.{{< /callout >}}
 
@@ -78,9 +78,9 @@ Les montants ne partent pas tous de la même base : les prix HT s’entendent h
 
 ### Spaceship : mon premier choix pour un .com
 
-Spaceship convient à la plupart des petites entreprises et à tout nouveau projet. Namecheap l’a construit et dévoilé en août 2023, et c’est aujourd’hui un registrar accrédité par l’ICANN à part entière. Pour moi, c’est une version à jour de Namecheap : les mêmes prix justes, dans une interface plus moderne où domaines, messagerie et hébergement se retrouvent au même endroit.
+Spaceship convient à la plupart des petites entreprises et à tout nouveau projet. Namecheap l’a construit et dévoilé en août 2023, et c’est aujourd’hui un registrar accrédité par l’ICANN à part entière. Pour moi, c’est une version à jour de Namecheap : des prix justes, souvent un peu plus bas que les siens, dans une interface plus moderne où domaines, messagerie et hébergement se retrouvent au même endroit.
 
-C’est aussi là que j’ai mes habitudes. La confidentialité Whois y est gratuite sur les domaines éligibles, et la page **Advanced DNS** réunit les enregistrements, les serveurs DNS et DNSSEC sur un seul écran. Le support répond à toute heure, et chaque problème que j’ai signalé a été réglé. Sa limite pour une entreprise française : le .fr, que je n’ai pas trouvé dans ses tarifs. Tapez votre nom dans sa recherche avant de compter dessus. Je détaille le reste dans {{< a key="spaceship-vs-namecheap" >}}mon avis sur Spaceship{{< /a >}}, comparé à Namecheap.
+C’est aussi là que j’ai mes habitudes. La confidentialité Whois y est gratuite sur les domaines éligibles, et la page **Advanced DNS** réunit les enregistrements, les serveurs DNS et DNSSEC sur un seul écran. Le support répond à toute heure, et chaque problème que j’ai signalé a été réglé. Un point à vérifier pour une entreprise française : le .fr, que je n’ai trouvé ni dans ses tarifs ni dans son centre d’aide. Tapez votre nom dans sa recherche avant de compter dessus. Je détaille le reste dans {{< a key="spaceship-vs-namecheap" >}}mon avis sur Spaceship{{< /a >}}, comparé à Namecheap.
 
 ### Namecheap : l’original, toujours un choix sûr
 
@@ -110,11 +110,11 @@ J’ai travaillé sur OVHcloud parce que des clients y avaient déjà leurs doma
 
 Hostinger convient à ceux qui hébergent déjà leurs sites chez lui et sont à l’aise dans hPanel, son espace client. J’en ai hérité par des clients, là aussi, et je trouve hPanel un peu compliqué pour un dirigeant sans équipe technique.
 
-Pour le .com, ses domaines suivent la même logique que ses hébergements : un prix minuscule sur un engagement long, puis le vrai tarif, soit 19,99 $ par an. Le .fr, lui, passe de 8,99 $ à 12,99 $ dès la deuxième année. Si vos domaines sont chez Hostinger, prévoyez ces montants dans votre budget, ou déplacez-les avant l’échéance. Mon tutoriel pour {{< a key="hostinger-renewal-transfer" >}}transférer un domaine Hostinger{{< /a >}} montre comment, étape par étape.
+Pour le .com, ses domaines suivent la même logique que ses hébergements : un prix minuscule sur un engagement long, puis le vrai tarif, soit 19,99 $ par an sur son site international, où le .fr passe de 8,99 $ à 12,99 $ dès la deuxième année. Si vos domaines sont chez Hostinger, prévoyez le montant du renouvellement dans votre budget, ou déplacez-les avant l’échéance. Mon tutoriel pour {{< a key="hostinger-renewal-transfer" >}}transférer un domaine Hostinger{{< /a >}} montre comment, étape par étape.
 
 ## Confidentialité, DNS et support : ce qu’il faut vérifier en plus du prix
 
-**La confidentialité Whois** retire votre nom, votre adresse et votre téléphone de la fiche publique du domaine. Spaceship et Namecheap l’incluent gratuitement sur les extensions qui le permettent ; chez les quatre autres, vérifiez qu’elle est comprise pour votre extension avant de payer. Pour un .fr, l’Afnic masque déjà par défaut les coordonnées d’un particulier ; pour une entreprise, le Whois affiche en général sa dénomination. Spaceship passe par un prestataire tiers qui, comme tout service de ce type, peut communiquer vos coordonnées sur demande légale.
+**La confidentialité Whois** retire votre nom, votre adresse et votre téléphone de la fiche publique du domaine. Spaceship et Namecheap l’incluent gratuitement sur les extensions qui le permettent ; chez les quatre autres, vérifiez qu’elle est comprise pour votre extension avant de payer. Pour un .fr, l’Afnic masque déjà par défaut les coordonnées d’un particulier (« diffusion restreinte ») ; ce masquage ne s’applique pas aux entreprises. Spaceship passe par un prestataire tiers qui, comme tout service de ce type, peut communiquer vos coordonnées sur demande légale.
 
 **Les DNS** sont les enregistrements qui relient votre domaine à votre site et à votre boîte mail. Vous les modifierez au moins deux fois, pour brancher le site puis pour mettre en place les emails : une interface claire vous fait gagner un après-midi. Je me retrouve le plus facilement dans celles de Spaceship et de Namecheap ; celle d’OVHcloud fonctionne, une fois qu’on connaît l’histoire du point final.
 
@@ -126,7 +126,7 @@ Pour le .com, ses domaines suivent la même logique que ses hébergements : un 
 
 ## Quel registrar choisir pour votre nom de domaine ?
 
-- **Un .com pour une nouvelle entreprise ou un nouveau projet :** Spaceship. Il inclut gratuitement les redirections 301, utiles pour renvoyer une seconde extension vers la principale.
+- **Un .com pour une nouvelle entreprise ou un nouveau projet :** Spaceship. Il inclut gratuitement les redirections 301, utiles pour renvoyer une seconde extension vers la principale, à condition que le domaine utilise ses serveurs DNS.
 - **Un .fr :** Infomaniak, pour le renouvellement le plus bas que j’ai pu vérifier. Mon guide du {{< a key="fr-domain-names" >}}nom de domaine .fr{{< /a >}} détaille les conditions de l’Afnic et l’enregistrement pas à pas.
 - **Le .fr et le .com ensemble :** déposez les deux et redirigez l’un vers l’autre. Infomaniak et Namecheap vendent les deux, si vous voulez un seul compte ; sinon, rien ne vous empêche de garder le .com chez Spaceship et le .fr chez Infomaniak, avec deux dates d’échéance à noter. Pour le studio, le site vit sur le .com, et j’ai aussi le .fr et le .co.uk.
 - **Des domaines déjà chez Namecheap :** restez. Déménager des domaines qui fonctionnent pour gagner quelques euros par an, c’est le syndrome de l’objet brillant contre lequel je mets en garde les petites entreprises.

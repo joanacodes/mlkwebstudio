@@ -27,9 +27,9 @@ faq:
     a: "Donnez-le uniquement au registrar d’arrivée, dans son formulaire de transfert. Qui détient ce code peut demander le transfert de votre domaine : gardez-le hors des emails et des documents partagés. S’il a pu fuiter, demandez-en un nouveau et laissez le verrou activé jusqu’au jour du transfert."
 ---
 
-Transférer un nom de domaine, c’est le faire passer chez un autre registrar, l’entreprise qui l’enregistre et le renouvelle pour vous. En pratique : désactivez le verrou de transfert chez le registrar actuel, demandez-lui le code de transfert (code EPP, ou authinfo pour un .fr) et saisissez-le chez le nouveau, qui fait le reste en quelques jours. Ce qui tourne mal, c’est rarement le transfert lui-même, mais les DNS : un domaine qui part sans ses enregistrements peut emporter votre site et vos emails avec lui.
+Transférer un nom de domaine, c’est le faire passer chez un autre registrar, l’entreprise qui l’enregistre et le renouvelle pour vous. En pratique : désactivez le verrou de transfert chez le registrar actuel, demandez-lui le code de transfert (code EPP, ou authinfo pour un .fr) et saisissez-le chez le nouveau, qui fait le reste. Ce qui tourne mal, c’est rarement le transfert lui-même, mais les DNS : un domaine qui part sans ses enregistrements peut emporter votre site et vos emails avec lui.
 
-J’ai travaillé avec six registrars, certains par choix, d’autres parce qu’un client y avait déjà son domaine : Google Domains (aujourd’hui Squarespace), Namecheap, Spaceship, Infomaniak, Hostinger et OVHcloud. Les interfaces changent, pas la méthode, car les règles viennent de l’ICANN pour le .com et les autres extensions génériques, et de l’Afnic pour le .fr. Les captures d’écran montrent Spaceship, où j’ai mes habitudes, comme registrar d’arrivée.
+J’ai travaillé avec six registrars, certains par choix, d’autres parce qu’un client y avait déjà son domaine : Google Domains (aujourd’hui Squarespace), Namecheap, Spaceship, Infomaniak, Hostinger et OVHcloud. Les interfaces changent, pas la méthode, car les règles viennent de l’ICANN pour le .com et les autres extensions génériques, et de l’Afnic pour le .fr. Les captures montrent Spaceship, où j’ai mes habitudes, comme registrar d’arrivée.
 
 Un transfert change l’entreprise à qui vous payez le domaine, rien d’autre : pour afficher un nouveau site, inutile de transférer. Mon guide sur {{< a key="domain-hosting-email-guide" >}}le nom de domaine et l’hébergement{{< /a >}} explique quel service fait quoi.
 
@@ -42,9 +42,8 @@ Le transfert déplace l’enregistrement du domaine chez un autre registrar (ou 
 | Payer une autre entreprise pour le domaine, ou réunir vos domaines dans un seul compte | Un transfert entre registrars | Oui |
 | Afficher un nouveau site sur le domaine | Modifier ses enregistrements DNS | Non |
 | Céder le domaine à quelqu’un d’autre | Un changement de titulaire | Non |
-| Déménager le site ou les boîtes mail | Un nouvel hébergeur ou une nouvelle messagerie | Non |
 
-Les bonnes raisons de transférer : un seul compte et une seule facture pour tous vos domaines, un renouvellement qui a flambé, une interface où vous ne vous retrouvez pas, ou un prestataire que vous quittez. Je ne recommande par exemple ni OVHcloud ni Hostinger aux dirigeants de petites entreprises : je les trouve un peu compliqués à gérer sans équipe technique.
+Les bonnes raisons de transférer : un seul compte et une seule facture pour tous vos domaines, un renouvellement qui a flambé, une interface confuse, ou un prestataire que vous quittez. Je ne recommande par exemple ni OVHcloud ni Hostinger aux dirigeants de petites entreprises : je les trouve un peu compliqués à gérer sans équipe technique.
 
 ## Avant de commencer : votre nom de domaine peut-il être transféré ?
 
@@ -97,12 +96,11 @@ MX     @                     0 mx1.spacemail.com.
 MX     @                     0 mx2.spacemail.com.
 TXT    @                     "v=spf1 include:spf.spacemail.com ~all"
 TXT    spacemail._domainkey  "v=DKIM1; k=rsa; p=MIIBIjANB..."
-TXT    _dmarc                "v=DMARC1; p=none; rua=mailto:dmarc@votredomaine.fr"
 ```
 
-Les A et CNAME font fonctionner le site, les MX reçoivent vos emails, et les TXT évitent à vos messages de finir en spam. Oubliez-en un et quelque chose s’arrête, souvent des jours plus tard, quand plus personne ne pense au transfert. Mon article sur les {{< a key="dns-records-explained" >}}enregistrements DNS{{< /a >}} explique chaque type.
+Les A et CNAME font fonctionner le site, les MX reçoivent vos emails, et les TXT évitent à vos messages de finir en spam. Oubliez-en un et quelque chose s’arrête, souvent des jours plus tard. Mon article sur les {{< a key="dns-records-explained" >}}enregistrements DNS{{< /a >}} explique chaque type.
 
-Deux précautions avant de continuer :
+Deux précautions encore :
 
 - **DNSSEC.** S’il est activé et que les DNS vont changer de fournisseur, désactivez-le maintenant et réactivez-le quand les nouveaux serveurs répondent : une signature qui ne correspond plus rend le domaine injoignable.
 - **TTL.** La veille de tout changement de serveurs de noms, baissez le TTL de vos enregistrements à 300 secondes (cinq minutes) : les caches oublieront vite les anciennes réponses.
@@ -128,7 +126,7 @@ Chez Spaceship, d’après son [guide de transfert](https://www.spaceship.com/kn
 2. Saisissez le code obtenu à l’étape 3.
 3. Ajoutez le domaine au panier et payez.
 
-Spaceship demande un domaine déverrouillé, au statut normal (ok ou active) chez le registrar actuel. Avant de payer, si la commande propose de garder les serveurs de noms actuels, gardez-les : vous déplacerez les DNS à votre rythme, à l’étape 6. La protection Whois est incluse gratuitement sur les domaines éligibles.
+Spaceship demande un domaine déverrouillé, au statut normal (ok ou active) chez le registrar actuel. Avant de payer, si la commande propose de garder les serveurs de noms actuels, gardez-les : vous déplacerez les DNS à votre rythme, à l’étape 6.
 
 {{< screenshot id="transfer-domain-name-04" alt="Recherche de domaines de Spaceship basculée sur Transfer, avec le nom de domaine saisi" >}}
 
@@ -136,7 +134,7 @@ Spaceship demande un domaine déverrouillé, au statut normal (ok ou active) che
 
 ### Étape 5 : valider le transfert, puis ne plus rien toucher
 
-Surveillez la boîte de l’adresse de contact du domaine : selon les registrars, vous recevrez une demande de validation, un avis de transfert en cours, ou les deux. Répondez-y. Pour un .com, le registrar actuel a ensuite cinq jours pour réagir, et le transfert se fait automatiquement s’il ne dit rien ; pour un .fr, ce délai est de 8 jours.
+Surveillez la boîte de l’adresse de contact du domaine et répondez à la demande de validation ou à l’avis de transfert qui y arrive. Pour un .com, le registrar actuel a ensuite cinq jours pour réagir, et le transfert se fait automatiquement s’il ne dit rien ; pour un .fr, ce délai est de 8 jours.
 
 C’est l’étape la plus difficile, parce qu’il n’y a rien à faire. Pendant le transfert, ne changez ni les serveurs de noms, ni les enregistrements, ni les coordonnées du titulaire, et ne résiliez rien chez l’ancien registrar. Votre site et vos emails continuent d’utiliser la même zone : personne ne remarque rien.
 
@@ -144,7 +142,7 @@ C’est l’étape la plus difficile, parce qu’il n’y a rien à faire. Penda
 
 ### Étape 6 : déplacer les DNS et sécuriser le domaine
 
-Quand le domaine apparaît comme actif dans votre nouveau compte, regardez de nouveau ses serveurs de noms :
+Quand le domaine est actif dans votre nouveau compte, regardez ses serveurs de noms :
 
 - **Ceux de votre hébergeur, ou d’un service DNS comme Cloudflare** : rien à déplacer, la zone n’a jamais été chez l’ancien registrar.
 - **Encore ceux de l’ancien registrar** : recréez chaque enregistrement de votre copie chez le nouveau, puis passez à ses serveurs de noms, le jour même : l’ancienne zone ne reste en ligne que tant que l’ancien registrar la garde.
@@ -164,11 +162,11 @@ Enfin, réactivez le verrou si le nouveau registrar ne l’a pas fait, activez l
 
 {{< screenshot id="transfer-domain-name-07" alt="Page Advanced DNS de Spaceship pour le domaine transféré, avec ses serveurs de noms et les enregistrements copiés depuis l’ancien registrar" >}}
 
-{{< callout type="warning" >}}**L’hébergement et les boîtes mail achetés chez l’ancien registrar ne suivent pas le domaine.** Si votre site ou vos emails y sont hébergés, gardez ces services jusqu’à ce que leur remplaçant fonctionne et que les enregistrements pointent vers lui. Résiliez les anciens services en dernier.{{< /callout >}}
+{{< callout type="warning" >}}**L’hébergement et les boîtes mail achetés chez l’ancien registrar ne suivent pas le domaine.** Gardez-les jusqu’à ce que leurs remplaçants fonctionnent et que les enregistrements pointent vers eux : résiliez-les en dernier.{{< /callout >}}
 
 ## Transférer un nom de domaine .fr : l’authinfo et les règles de l’Afnic
 
-Le .fr est géré par l’Afnic, qui ne vend rien au public : vous passez d’un registrar accrédité à un autre, selon les six étapes ci-dessus, avec trois différences :
+Le .fr est géré par l’Afnic, qui ne vend rien au public : vous passez d’un registrar accrédité à un autre, avec trois différences :
 
 1. **Le code s’appelle authinfo.** Votre registrar actuel le génère et vous le remet gratuitement, précise l’Afnic ; le transfert, lui, est facturé par le nouveau registrar. Ne le confondez pas avec le « code d’autorisation » au sens de l’Afnic, qu’elle délivre elle-même pour des opérations particulières, pas pour un transfert ordinaire.
 2. **Le registrar sortant a 8 jours.** Le nouveau registrar dépose la demande, le sortant en est averti et, s’il ne se passe rien entre-temps, le transfert se fait au bout de 8 jours.
@@ -178,7 +176,7 @@ Le transfert ne change pas le titulaire. Céder le domaine est une autre opérat
 
 ## Quitter Squarespace Domains (ex-Google Domains)
 
-Google a vendu son activité de noms de domaine à Squarespace : la vente, annoncée le 15 juin 2023, a été finalisée le 7 septembre 2023, puis les clients ont basculé dans les mois suivants. Google Domains faisant partie des registrars que j’ai utilisés, j’ai vécu ce changement côté client.
+Google a vendu son activité de noms de domaine à Squarespace : la vente, annoncée le 15 juin 2023, a été finalisée le 7 septembre 2023, puis les clients ont basculé dans les mois suivants. Ayant utilisé Google Domains, j’ai vécu ce changement côté client.
 
 Si votre site est sur Squarespace, y garder le domaine reste le plus simple, et rien ne vous oblige à partir. Pour réunir vos domaines ailleurs, des guides tiers décrivent ainsi le côté Squarespace (les libellés peuvent changer) :
 
@@ -198,11 +196,11 @@ Deux précautions propres à ce cas :
 | | .com et autres extensions génériques | .fr |
 |---|---|---|
 | Ce qui le déclenche | Le code EPP | L’authinfo |
-| Date au plus tôt | 60 jours après la création, un transfert ou un changement de titulaire | Pas de délai de l’ICANN : vérifiez le contrat de votre registrar |
-| Durée | Une semaine environ : le registrar actuel a cinq jours pour répondre | 8 jours au plus : le registrar sortant a ce délai pour réagir |
+| Date au plus tôt | 60 jours après la création, un transfert ou un changement de titulaire | Pas de délai de l’ICANN : voyez votre contrat |
+| Durée | Une semaine environ : le registrar actuel a cinq jours pour répondre | 8 jours au plus |
 | Prix | En général un an d’enregistrement, ajouté au temps restant | Fixé par le nouveau registrar : demandez s’il inclut un an |
 
-Pour un .com, l’année payée n’est pas perdue : l’expiration est repoussée d’un an, et Spaceship, par exemple, conserve le temps restant. Transférer quelques semaines avant l’échéance vous fait donc payer l’année suivante au prix du nouveau registrar ; évitez seulement la dernière semaine, au cas où le transfert serait retardé.
+Pour un .com, l’année payée avec le transfert n’est pas perdue : l’expiration est repoussée d’un an, et Spaceship, par exemple, conserve le temps restant. Transférer quelques semaines avant l’échéance vous fait donc payer l’année suivante au prix du nouveau registrar ; évitez seulement la dernière semaine, au cas où le transfert serait retardé.
 
 Pour un .fr, je n’ai pas trouvé de règle de l’Afnic sur ce point : demandez au nouveau registrar ce que comprend son prix, puis contrôlez la date d’expiration dans le Whois une fois le domaine arrivé.
 

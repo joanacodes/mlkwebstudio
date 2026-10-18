@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:10:00+02:00
 category: "ai-automation"
 article_type: "guide"
 keywords: ["ChatGPT RGPD", "ChatGPT données personnelles", "ChatGPT conforme RGPD", "IA générative RGPD", "données clients IA", "ChatGPT entreprise confidentialité"]
-summary: "Au regard du RGPD, un texte anonymisé peut aller dans n’importe quelle offre de ChatGPT, entraînement désactivé dans les Contrôles des données. Les noms, emails et téléphones de vos clients relèvent d’une offre professionnelle (ChatGPT Business ou Enterprise) ou de l’API, qui prévoient un contrat de sous-traitance (DPA) et n’utilisent pas vos contenus pour l’entraînement par défaut ; même là, ne transmettez que ce que la tâche exige. Gardez les données de santé, numéros d’identité, coordonnées bancaires et mots de passe hors de tout assistant IA."
+summary: "Au regard du RGPD, un texte anonymisé peut aller dans toute offre de ChatGPT, entraînement désactivé. Les noms, emails et téléphones de vos clients relèvent d’une offre professionnelle (ChatGPT Business ou Enterprise) ou de l’API, couvertes par un contrat de sous-traitance (DPA) et sans entraînement par défaut, et seulement s’ils sont utiles à la tâche. Gardez les données de santé, numéros d’identité, RIB et mots de passe hors de tout assistant IA."
 cover: "chatgpt-gdpr-client-data"
 cover_alt: "Un bouclier coché au-dessus des sigles GDPR et RGPD, derrière une vitre cannelée"
 related: ["claude-vs-chatgpt", "cold-email-gdpr-uk-france", "zapier-vs-make-vs-n8n", "openai-api-tutorial", "bespoke-crm-internal-app"]
