@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:42:00+02:00
 category: "cold-emailing"
 article_type: "comparison"
 keywords: ["prospection téléphonique ou emailing", "prospection téléphonique B2B", "phoning ou emailing", "démarchage téléphonique professionnels", "cold emailing et téléphone"]
-summary: "La prospection téléphonique permet une conversation en direct, mais elle dérange et ne traite qu’un appel à la fois ; le cold emailing touche beaucoup d’entreprises, qui répondent quand cela les arrange. Inutile de choisir : dans mes campagnes, trois emails courts indiquent un numéro de téléphone, et beaucoup de prospects, surtout les architectes, appellent au lieu de répondre, car c’est plus rapide. Laissez l’email faire le premier pas, et assurez-vous que quelqu’un décroche."
+summary: "La prospection téléphonique permet une conversation en direct, mais elle dérange et ne traite qu’un appel à la fois ; le cold emailing touche beaucoup d’entreprises, qui répondent quand cela les arrange. Inutile de choisir : dans mes campagnes, trois emails courts indiquent un numéro à appeler, et beaucoup de prospects, surtout les architectes, appellent au lieu de répondre, car c’est plus rapide. Laissez l’email faire le premier pas, et assurez-vous que quelqu’un décroche."
 cover: "cold-calling-vs-cold-emailing"
 cover_alt: "Une main qui remplit un tableau imprimé au stylo, à côté de deux panneaux comparés et des mots « Cold call vs email »"
 related: ["architects-cold-email-case-study", "b2b-cold-emailing-guide", "cold-email-examples", "cold-email-gdpr-uk-france", "automate-lead-follow-up"]
