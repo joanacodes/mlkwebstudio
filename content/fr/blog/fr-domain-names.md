@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:00:00+02:00
 category: "domains"
 article_type: "guide"
 keywords: ["nom de domaine .fr", "acheter un nom de domaine .fr", "prix nom de domaine .fr", "Afnic", "conditions Afnic .fr", ".fr ou .com"]
-summary: "Le .fr se dépose chez un registrar, pas auprès de l’Afnic qui le gère, au nom d’un particulier qui réside ou d’une entreprise établie dans l’Union européenne, en Islande, au Liechtenstein, en Norvège ou en Suisse. Comparez le prix de renouvellement, pas celui de la première année : en octobre 2026, Infomaniak renouvelle un .fr à 7 € HT par an, Namecheap à 20,98 $. Pour une entreprise qui vend en France, déposez le .fr et le .com, puis redirigez l’un vers l’autre."
+summary: "Selon les règles de l’Afnic, un nom de domaine .fr s’achète chez un registrar, au nom d’un particulier qui réside ou d’une entreprise établie dans l’Union européenne, en Islande, au Liechtenstein, en Norvège ou en Suisse. Comparez le prix de renouvellement, pas celui de la première année : en octobre 2026, Infomaniak renouvelle un .fr à 7 € HT par an, Namecheap à 20,98 $ (environ 18 €). Si vous vendez en France, déposez le .fr et le .com, puis redirigez l’un vers l’autre."
 cover: "fr-domain-names"
 cover_alt: "Une personne devant un ordinateur, à côté d’enregistrements DNS et de l’extension .fr"
 related: ["best-domain-registrar", "transfer-domain-name", "recover-domain-name", "domain-hosting-email-guide", "dns-records-explained"]
@@ -27,7 +27,7 @@ faq:
     a: "Un domaine non renouvelé finit par être supprimé : le site et les emails qui en dépendent s’arrêtent, et le nom redevient libre pour n’importe qui. Demandez à votre registrar quels délais et quels frais s’appliquent pour le restaurer après l’échéance, et activez le renouvellement automatique."
 ---
 
-Un nom de domaine .fr s’achète chez un registrar, et non auprès de l’Afnic, l’association qui gère l’extension. Il est réservé aux particuliers qui résident, et aux entreprises établies, dans l’Union européenne, en Islande, au Liechtenstein, en Norvège ou en Suisse. Il coûte de quelques euros à une vingtaine d’euros par an selon le registrar, d’où l’intérêt de comparer le bon prix.
+Déposer un nom de domaine .fr chez un registrar prend quelques minutes. Les conditions de l’Afnic, l’association qui gère l’extension, tiennent en quelques lignes. Les pièges sont ailleurs : un domaine enregistré au nom du prestataire plutôt qu’à celui de l’entreprise, une adresse email que plus personne ne lit, un prix de renouvellement que personne n’a regardé.
 
 Ce guide reprend les règles de la charte de nommage de l’Afnic dans sa version du 6 juillet 2026, ce que coûte un .fr en octobre 2026, les étapes pour l’enregistrer au bon nom, puis le choix entre .fr et .com.
 
@@ -49,7 +49,7 @@ J’ai enregistré ou relié des domaines chez six registrars, de Namecheap et S
 
 L’article 5.1 de la [charte de nommage de l’Afnic](https://www.afnic.fr/wp-media/uploads/2026/07/afnic-charte-de-nommage-06-07-2026.pdf) fixe la règle : un .fr peut être enregistré par toute personne physique qui réside, et par toute personne morale qui a son siège ou son établissement principal, dans un pays de l’Union européenne, en Islande, au Liechtenstein, en Norvège ou en Suisse.
 
-Ce qui compte, c’est donc le pays où vous vivez, ou celui où votre structure est établie. Sociétés, associations, indépendants et particuliers sont éligibles s’ils remplissent cette condition. Pour un projet personnel, vous n’avez besoin ni d’entreprise ni de numéro SIRET.
+Ce qui compte, c’est donc le pays où vous vivez, ou celui où votre structure est établie, pas votre nationalité. Sociétés, associations, indépendants et particuliers sont éligibles s’ils remplissent cette condition. Pour un projet personnel, vous n’avez besoin ni d’entreprise ni de numéro SIRET.
 
 La charte ajoute trois points à retenir :
 
@@ -76,18 +76,18 @@ Pour un .fr au nom d’un particulier, inutile donc de payer une option « Whoi
 
 ## Combien coûte un nom de domaine .fr ?
 
-Le prix affiché en gros est souvent celui de la première année, réduit pour attirer de nouveaux clients. Le prix qui compte est celui du renouvellement, que vous paierez chaque année tant que vous garderez le domaine. Deux exemples relevés au moment où j’écris (octobre 2026) :
+Le prix affiché en gros est souvent celui de la première année, réduit pour attirer de nouveaux clients. Le prix qui compte est celui du renouvellement, que vous paierez chaque année tant que vous garderez le domaine : j’ai vu des registrars tripler leur prix dès la deuxième année. Deux exemples relevés au moment où j’écris (octobre 2026) :
 
 | Registrar | Première année | Renouvellement | Source |
 |---|---|---|---|
-| Infomaniak | Prix réduit en promotion | 7,00 € HT par an | [page du .fr chez Infomaniak](https://www.infomaniak.com/en/domains/prices/fr) |
+| Infomaniak | Prix réduit en promotion | 7,00 € HT par an | [page du .fr chez Infomaniak](https://www.infomaniak.com/en/domains/prices/fr) (en anglais) |
 | Namecheap | 17,98 $ (environ 15,50 €) | 20,98 $ par an (environ 18 €) | [page du .fr chez Namecheap](https://www.namecheap.com/domains/registration/cctld/fr/) (en anglais) |
 
 Namecheap facture en dollars : les montants en euros sont des ordres de grandeur, qui varient avec le taux de change. Les prix HT s’entendent hors TVA : un particulier paie 20 % de plus, une entreprise assujettie la récupère.
 
-Pour le même nom, le renouvellement coûte donc plus du double chez Namecheap, un registrar que j’utilise et auquel je fais confiance pour d’autres extensions. Chez Spaceship, où j’ai mes habitudes, je n’ai trouvé ni prix ni page d’aide pour le .fr : tapez votre nom dans sa recherche avant de compter dessus. OVHcloud, Gandi et IONOS publient aussi leurs tarifs. Comparez-les à la même date, au même régime de TVA, et toujours sur le renouvellement.
+Pour le même nom, le renouvellement coûte donc plus du double chez Namecheap, un registrar que j’utilise et auquel je fais confiance par ailleurs. Chez Spaceship, où j’ai mes habitudes, je n’ai trouvé ni prix ni page d’aide pour le .fr : tapez votre nom dans sa recherche avant de compter dessus. OVHcloud, Gandi et IONOS publient aussi leurs tarifs. Comparez-les à la même date, au même régime de TVA, et toujours sur le renouvellement.
 
-Je regarde toujours ce chiffre avant de conseiller un registrar, parce que j’ai vu des prix tripler dès la deuxième année. Vous pouvez aussi payer plusieurs années d’avance, jusqu’à 10 ans chez Infomaniak : le prix est réglé pour toute la durée, et un oubli ne peut plus vous coûter le domaine pendant ce temps. Je compare six registrars sur ce critère dans {{< a key="best-domain-registrar" >}}où acheter un nom de domaine{{< /a >}}.
+Vous pouvez aussi payer plusieurs années d’avance, jusqu’à 10 ans chez Infomaniak : le prix est réglé pour toute la durée, et un oubli ne peut plus vous coûter le domaine pendant ce temps. Je compare six registrars sur leur prix de renouvellement dans {{< a key="best-domain-registrar" >}}où acheter un nom de domaine{{< /a >}}.
 
 ## Enregistrer un nom de domaine .fr, étape par étape
 
@@ -108,9 +108,9 @@ Trois opérations reviennent dans la vie d’un .fr, et elles ne se font pas au 
 
 **Changer de registrar.** C’est le transfert. Votre registrar actuel vous donne un code d’autorisation, souvent appelé code de transfert, que vous saisissez chez le nouveau ; le titulaire ne change pas. Avant de lancer l’opération, copiez vos enregistrements DNS : si la zone est hébergée chez l’ancien registrar, elle peut disparaître une fois le domaine parti, et votre site et vos emails avec elle. Mon tutoriel pour {{< a key="transfer-domain-name" >}}transférer un nom de domaine{{< /a >}} reprend les étapes dans l’ordre.
 
-**Changer de titulaire.** L’Afnic appelle cette opération une transmission. Vous vendez votre activité, ou vous passez d’une entreprise individuelle à une société : le domaine doit suivre. La demande se fait auprès du registrar du domaine, avec l’accord du titulaire actuel.
+**Changer de titulaire.** L’Afnic appelle cette opération une transmission. Vous vendez votre activité, ou vous passez d’une entreprise individuelle à une société : le domaine doit suivre. La demande se fait auprès du registrar du domaine, qui doit recueillir l’accord de l’ancien et du nouveau titulaire ; ce dernier doit lui aussi remplir les conditions d’éligibilité.
 
-**Récupérer un nom qui reprend votre marque ou le nom de votre entreprise.** L’Afnic propose deux procédures fondées sur l’article L.45-2 : SYRELI et PARL EXPERT. Elles sont alternatives (vous choisissez l’une ou l’autre), se déroulent en français et appliquent le droit français ; SYRELI se fait entièrement en ligne et dure environ deux mois. Si la décision vous donne raison, l’Afnic fait passer le domaine à votre nom, comme après une décision de justice. Son [guide pratique du titulaire](https://www.afnic.fr/wp-media/uploads/2024/07/Afnic-Guide-pratique-du-Titulaire.pdf) détaille ces situations.
+**Récupérer un nom qui reprend votre marque ou le nom de votre entreprise.** L’Afnic propose deux procédures fondées sur l’article L.45-2 : SYRELI et PARL EXPERT. Elles sont alternatives (vous choisissez l’une ou l’autre), se déroulent en français et appliquent le droit français ; SYRELI se fait entièrement en ligne et dure environ deux mois. Si la décision vous donne raison, l’Afnic vous transmet le domaine ou le supprime, selon ce que vous avez demandé. Son [guide pratique du titulaire](https://www.afnic.fr/wp-media/uploads/2024/07/Afnic-Guide-pratique-du-Titulaire.pdf) détaille ces situations.
 
 ## .fr ou .com : lequel choisir pour une entreprise française ?
 
@@ -118,9 +118,9 @@ Le .fr annonce tout de suite que vous vous adressez à la France. Le .com ne dit
 
 - **Le .fr** convient à une entreprise dont la clientèle est en France : artisan, commerce, cabinet, prestataire local.
 - **Le .com** convient si vous travaillez à l’international ou en plusieurs langues, ou si votre marque est déjà connue sous ce nom.
-- **Les deux** : c’est mon conseil dès qu’ils sont libres. Choisissez celui qui portera le site et les adresses email, et redirigez l’autre vers lui avec une redirection permanente (301). Ainsi, personne ne pourra déposer l’autre extension à votre place.
+- **Les deux** : c’est mon conseil dès qu’ils sont libres. Choisissez celui qui portera le site, et redirigez l’autre vers lui avec une redirection permanente (301). Ainsi, personne ne pourra déposer l’autre extension à votre place.
 
-Pour le studio, qui travaille en France et au Royaume-Uni, j’ai appliqué ce conseil avec trois extensions. Le site, en anglais et en français, vit sur le .com ; le .fr et le .co.uk protègent le nom et doivent renvoyer chacun vers la bonne langue, le .fr vers la version française et le .co.uk vers la version anglaise.
+Le studio, qui travaille en France et au Royaume-Uni, a trois extensions. Le site, en anglais et en français, vit sur le .com. Le .fr et le .co.uk protègent le nom et renverront chacun vers la bonne langue : le .fr vers la version française, le .co.uk vers la version anglaise. Le .fr garde aussi l’adresse email du studio : sa redirection ne touchera qu’aux enregistrements web.
 
 {{< callout type="tip" >}}Avant de trancher, dictez votre futur nom de domaine au téléphone. S’il faut l’épeler, ou préciser « avec un tiret », cherchez plus simple : l’extension compte moins qu’un nom facile à retenir et à taper.{{< /callout >}}
 
@@ -131,7 +131,7 @@ Un domaine seul n’affiche rien : ce sont ses enregistrements DNS qui envoient
 Deux familles d’enregistrements sont à prévoir :
 
 - **Pour le site** : des enregistrements A sur la racine du domaine et un CNAME sur www, avec les valeurs que donne votre plateforme ou votre hébergeur.
-- **Pour les emails** : les enregistrements MX de votre messagerie, puis SPF, DKIM et DMARC pour que vos messages n’arrivent pas en spam.
+- **Pour les emails** : les enregistrements MX de votre messagerie, puis SPF, DKIM et DMARC pour que vos messages n’arrivent pas en spam. Mon tutoriel pour {{< a key="spf-dkim-dmarc-setup" >}}configurer SPF, DKIM et DMARC{{< /a >}} les reprend un par un.
 
 Mon article sur les {{< a key="dns-records-explained" >}}enregistrements DNS{{< /a >}} explique le rôle de chacun.
 

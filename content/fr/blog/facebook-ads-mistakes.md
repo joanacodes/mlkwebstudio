@@ -9,16 +9,16 @@ lastmod: 2026-10-17T09:25:00+02:00
 category: "marketing"
 article_type: "guide"
 keywords: ["erreurs publicité Facebook", "erreurs Facebook Ads", "publicité Facebook qui ne marche pas", "test A/B Facebook", "Bibliothèque publicitaire Meta", "publicité Facebook petite entreprise"]
-summary: "Les deux erreurs en publicité Facebook qui coûtent le plus cher : sauter la recherche et sauter les tests A/B. Meta n’a pas de mots clés : la recherche consiste à trouver les mots et les problèmes de vos clients et à étudier les publicités déjà en ligne dans la Bibliothèque publicitaire, puis à tester un élément à la fois, au moins 7 jours, avec un budget prévu. Viennent ensuite le mauvais objectif, l’absence de suivi et une page qui ne répond pas à l’annonce."
+summary: "Les deux erreurs en publicité Facebook que je signale d’abord aux dirigeants : sauter la recherche et sauter les tests A/B. Meta n’a pas de mots-clés, donc la recherche porte sur les mots et les problèmes de vos clients et sur les publicités déjà en ligne dans la Bibliothèque publicitaire ; les tests, eux, se font un élément à la fois, pendant au moins 7 jours, avec un budget prévu. Viennent ensuite le mauvais objectif, l’absence de suivi et une page qui ne répond pas à l’annonce."
 cover: "facebook-ads-mistakes"
 cover_alt: "Les mots Meta Ads et un mégaphone stylisé, à côté d’une main qui note des chiffres dans un tableau"
 related: ["google-ads-vs-facebook-ads", "instagram-algorithm-2026", "google-ads-small-business", "keyword-research-small-business", "shiny-object-syndrome"]
 services: ["websites"]
 faq:
   - q: "Quel budget prévoir pour la publicité Facebook ?"
-    a: "Il n’y a pas de minimum global. La [page de Meta sur le coût des publicités](https://www.facebook.com/business/ads/pricing) parle de budgets quotidiens recommandés selon l’objectif, et le Gestionnaire de publicités vous alerte quand le budget d’un ensemble de publicités est trop bas pour être diffusé. Partez de ce que vous pouvez perdre pendant les tests, sur une durée fixée, plutôt que de ce que vous espérez gagner."
+    a: "Il n’y a pas de minimum global. La [page de Meta sur le coût des publicités](https://www.facebook.com/business/ads/pricing) parle de budgets quotidiens recommandés selon l’objectif, et le Gestionnaire de publicités vous alerte quand le budget d’un ensemble de publicités est trop bas pour permettre la diffusion. Partez de ce que vous pouvez perdre pendant les tests, sur une durée fixée, plutôt que de ce que vous espérez gagner."
   - q: "Meta facture-t-il quelque chose en plus du budget publicitaire ?"
-    a: "Oui, dans certains pays. Depuis le 1er juillet 2026, Meta ajoute des frais de localisation aux publicités diffusées en France (3 %) et au Royaume-Uni (2 %), selon le pays de l’audience et non celui de votre entreprise, comme l’a rapporté Reuters en mars 2026. Comptez-les dans votre budget de test."
+    a: "Oui, dans certains pays. Depuis le 1er juillet 2026, Meta ajoute des frais de localisation aux publicités diffusées en France (3 %) et au Royaume-Uni (2 %), selon le pays de l’audience et non celui de votre entreprise, comme l’a rapporté Reuters en mars 2026. Comptez-les dans votre budget de test."
   - q: "Les publicités Facebook s’affichent-elles aussi sur Instagram ?"
     a: "Oui. Une campagne créée dans le Gestionnaire de publicités peut être diffusée sur Facebook, Instagram et les autres emplacements de Meta. Par défaut, Meta choisit où la montrer ; vous pouvez choisir les emplacements à la main, par exemple quand une publicité n’a été conçue que pour un format."
   - q: "Faut-il un site internet pour faire de la publicité Facebook ?"
@@ -27,27 +27,27 @@ faq:
 
 Les erreurs en publicité Facebook viennent rarement de l’interface. Elles se jouent avant la mise en ligne de la première annonce : aucune recherche sur les personnes à toucher, et aucun test pour trouver la version de l’annonce à laquelle elles réagissent. Ce sont les deux erreurs contre lesquelles je mets en garde les dirigeants en premier.
 
-La publicité Facebook (Meta Ads, de son nom officiel) se crée dans le Gestionnaire de publicités et peut être diffusée sur Facebook, Instagram et les autres applications de Meta. À mon avis, elle fonctionne pour la notoriété comme pour les ventes. Le revers : il faut dépenser de l’argent en tests A/B avant de savoir ce qui marche, et chaque erreur ci-dessous rend ces tests plus chers.
+La publicité Facebook (Meta Ads, de son nom officiel) se crée dans le Gestionnaire de publicités et peut être diffusée sur Facebook, Instagram et les autres applications de Meta. À mon avis, elle fonctionne pour la notoriété comme pour les ventes. La contrepartie : il faut dépenser de l’argent en tests A/B avant de savoir ce qui marche, et chaque erreur ci-dessous rend ces tests plus chers.
 
-Voici les dix que je vérifierais en premier, à peu près dans l’ordre où elles arrivent, avec la solution pour chacune. Ce guide fait partie de mon guide pour {{< a key="how-to-get-more-clients" >}}trouver des clients{{< /a >}}, qui compare tous les canaux.
+Voici les dix que je vérifierais en premier, à peu près dans l’ordre où elles arrivent, avec la solution pour chacune. Pour comparer la publicité Meta aux autres canaux, lisez mon guide pour {{< a key="how-to-get-more-clients" >}}trouver des clients{{< /a >}}.
 
-## Erreur n° 1 : sauter la recherche, parce que Meta n’a pas de mots clés
+## Erreur n° 1 : sauter la recherche, parce que Meta n’a pas de mots-clés
 
-Sur Google, vous enchérissez sur ce que les gens tapent. Meta fonctionne à l’inverse : vous choisissez des personnes, pas des recherches. Vous pouvez cibler un lieu, une tranche d’âge, des centres d’intérêt, vos propres audiences (audiences personnalisées) et les personnes qui leur ressemblent (audiences similaires), ou laisser Meta trouver les acheteurs avec l’audience Advantage+. Personne n’a demandé à voir votre publicité : elle doit arrêter la bonne personne en plein défilement.
+Sur Google, vous enchérissez sur ce que les gens tapent. Meta fonctionne à l’inverse : vous choisissez des personnes, pas des recherches. Vous pouvez cibler un lieu, une tranche d’âge, des centres d’intérêt, vos propres audiences (audiences personnalisées) et les personnes qui leur ressemblent (audiences similaires), ou laisser Meta trouver les acheteurs avec l’audience Advantage+. Personne n’a demandé à voir votre publicité : elle doit arrêter la bonne personne pendant qu’elle fait défiler son fil.
 
-La recherche de mots clés garde donc tout son sens, sous une autre forme : vous cherchez les mots que vos clients emploient pour parler de leur problème, et vous les mettez dans l’annonce. Un propriétaire bailleur qui « n’arrive pas à faire venir le chauffagiste » s’arrêtera sur une annonce qui dit exactement cela, et passera devant celle qui parle de « solutions de chauffage ».
+La recherche de mots-clés garde donc tout son sens, sous une autre forme : vous cherchez les mots que vos clients emploient pour parler de leur problème, et vous les mettez dans l’annonce. Un propriétaire bailleur qui « n’arrive pas à faire venir le chauffagiste » s’arrêtera sur une annonce qui dit exactement cela, et ignorera celle qui parle de « solutions de chauffage ».
 
 ### Où trouver les mots de vos clients
 
 - **Ce dont ils se plaignent.** Je lance Deep Research sur ce dont les gens se plaignent le plus dans un secteur et sur les mots qui reviennent sans cesse ; ma {{< a key="deep-research-copywriting-seo" >}}méthode Deep Research{{< /a >}} donne les prompts. Les avis laissés à vos concurrents, les forums et les questions posées au premier appel sont la même matière première.
-- **Ce qu’ils tapent dans Google.** Les requêtes montrent les mots avec lesquels les gens pensent, même si Meta ne s’en sert pas pour cibler. Une {{< a key="keyword-research-small-business" >}}recherche de mots-clés{{< /a >}} simple vous en donne la liste.
+- **Ce qu’ils tapent dans Google.** Les requêtes montrent les mots que les gens ont en tête, même si Meta ne s’en sert pas pour cibler. Une {{< a key="keyword-research-small-business" >}}recherche de mots-clés{{< /a >}} simple vous en donne la liste.
 - **Ce qu’on leur vend déjà.** C’est le rôle de la Bibliothèque publicitaire.
 
 ### Étudier les publicités en ligne dans la Bibliothèque publicitaire
 
-La [Bibliothèque publicitaire de Meta](https://www.facebook.com/ads/library/) est gratuite et ouverte à tous. Elle montre les publicités en cours de diffusion sur Facebook, Instagram et les autres applications de Meta, quel que soit l’annonceur. Cherchez vos concurrents par leur nom, ou un mot de votre métier, et choisissez la France comme pays.
+La [Bibliothèque publicitaire de Meta](https://www.facebook.com/ads/library/) est gratuite et ouverte à tous. Elle montre les publicités en cours de diffusion sur Facebook, Instagram et les autres applications de Meta, quel que soit l’annonceur. Choisissez la France comme pays et la catégorie qui couvre toutes les publicités (pas seulement les publicités politiques), puis cherchez vos concurrents par leur nom ou un mot de votre métier.
 
-Pour chaque publicité, notez l’offre, la première ligne, le format et la date de début de diffusion. Une publicité qui tourne depuis des mois est probablement rentable ; une publicité qui change chaque semaine l’est sans doute moins.
+Pour chaque publicité, notez l’offre, la première ligne, le format et la date de début de diffusion. Une publicité qui tourne depuis des mois est probablement rentable ; un annonceur dont les publicités changent chaque semaine est sans doute encore en train de tester.
 
 Ne les copiez pas. Repérez ce qu’elles promettent toutes, puis ce qu’aucune ne dit : c’est votre angle. Rédigez ensuite l’annonce à partir de vos notes : la première ligne nomme le problème avec les mots de votre client, et l’image montre le résultat ou le type de personne que vous aidez.
 
@@ -62,10 +62,10 @@ Meta propose un outil intégré pour cela. Il répartit l’audience pour que ch
 ### Mener un test propre
 
 1. **Testez une seule variable.** L’image ou la première ligne, l’audience ou l’emplacement : une à la fois, sinon vous ne saurez pas ce qui a fait la différence.
-2. **Commencez par ce que les gens voient.** Je testerais la première ligne et l’image avant d’affiner le ciblage.
-3. **Laissez tourner au moins 7 jours.** Meta recommande 7 jours minimum, car un test plus court risque de ne rien conclure, et un test ne peut pas dépasser 30 jours.
+2. **Commencez par ce que les gens voient.** Testez la première ligne et l’image avant d’affiner le ciblage.
+3. **Laissez tourner au moins 7 jours.** Meta recommande 7 jours minimum, car un test plus court risque de ne pas être concluant, et un test ne peut pas dépasser 30 jours.
 4. **Lisez le résultat à la fin du test,** pas au deuxième jour.
-5. **Gardez la version gagnante,** puis testez l’élément suivant contre elle.
+5. **Gardez la version gagnante,** puis testez l’élément suivant face à elle.
 
 {{< callout type="warning" >}}Une fois le test lancé, vous ne pouvez plus changer la variable testée. Et annuler un test n’arrête pas les campagnes qu’il contient : **mettez-les en pause séparément**, sinon elles continuent de dépenser.{{< /callout >}}
 
@@ -73,7 +73,7 @@ Meta propose un outil intégré pour cela. Il répartit l’audience pour que ch
 
 Chiffrez l’apprentissage avant le lancement : combien vous dépenserez, sur combien de jours, et quel résultat vous ferait arrêter. Voyez cet argent comme le prix de la recherche, pas comme une campagne ratée.
 
-Chaque version a besoin d’assez de budget pour produire ses propres résultats. Deux versions qui se partagent un budget minuscule ne vous apprennent rien, même en attendant longtemps.
+Chaque version a besoin d’assez de budget pour produire ses propres résultats. Deux versions qui se partagent un budget minuscule donnent rarement un gagnant net, même sur la durée maximale de 30 jours.
 
 ## Erreur n° 3 : choisir un objectif qui ne correspond pas au résultat voulu
 
@@ -81,7 +81,7 @@ Le Gestionnaire de publicités demande d’abord un objectif : notoriété, tra
 
 Pour des demandes, choisissez l’objectif **Prospects**, avec un formulaire instantané ou un formulaire sur votre site. Pour des ventes en ligne, choisissez **Ventes**. Gardez la notoriété pour le moment où les gens doivent savoir que vous existez avant d’acheter, et jugez-la sur la couverture, pas sur les appels.
 
-Sponsoriser une publication en un clic depuis votre Page est le même piège, en raccourci. C’est rapide, et suffisant pour donner un peu plus de portée à une publication qui marche déjà, mais vous avez moins de choix que dans le Gestionnaire de publicités, où se construisent les tests décrits plus haut. Une publication sponsorisée ne corrige pas non plus une faible portée naturelle : ce qui décide qui voit vos publications non payantes est expliqué dans mon point sur l’{{< a key="instagram-algorithm-2026" >}}algorithme Instagram 2026{{< /a >}}.
+Sponsoriser une publication en un clic depuis votre Page est un raccourci vers le même piège. C’est rapide, et suffisant pour donner un peu plus de portée à une publication qui marche déjà, mais vous avez moins de choix que dans le Gestionnaire de publicités, où se construisent les tests décrits plus haut. Une publication sponsorisée ne corrige pas non plus une faible portée naturelle : ce qui décide qui voit vos publications non payantes est expliqué dans mon point sur l’{{< a key="instagram-algorithm-2026" >}}algorithme Instagram 2026{{< /a >}}.
 
 ## Erreur n° 4 : lancer sans suivi des conversions
 
@@ -90,15 +90,15 @@ Si Meta ne voit pas les demandes et les ventes, il optimise pour ce qu’il voit
 - **le pixel Meta**, un bout de code sur votre site qui signale ce que font les visiteurs après le clic (un formulaire envoyé, un achat) ;
 - **l’API Conversions**, qui envoie les mêmes événements depuis le serveur ou la plateforme de votre site, pour en perdre moins à cause des navigateurs qui bloquent les traceurs.
 
-La plupart des créateurs de sites et des plateformes de boutique en ligne proposent une intégration Meta : utilisez-la plutôt que de coller du code à la main. Faites ensuite un essai : remplissez votre propre formulaire et vérifiez que l’événement apparaît dans le gestionnaire d’événements avant de dépenser le moindre euro.
+La plupart des créateurs de sites et des plateformes de boutique en ligne proposent une intégration Meta : utilisez-la plutôt que de coller du code à la main. Faites ensuite un essai : remplissez votre propre formulaire et vérifiez dans l’onglet de test du gestionnaire d’événements que l’événement arrive bien, avant de dépenser le moindre euro.
 
-{{< callout type="note" >}}En France comme au Royaume-Uni, le pixel est un traceur publicitaire : il ne doit se déclencher qu’après l’accord du visiteur dans votre bandeau cookies. Réglez-le pour respecter ce choix, et attendez-vous à ce qu’il compte moins de résultats que votre boîte de réception.{{< /callout >}}
+{{< callout type="note" >}}En France comme au Royaume-Uni, le pixel est un traceur publicitaire : il ne doit se déclencher qu’après l’accord du visiteur dans votre bandeau cookies. Réglez le pixel et l’API Conversions pour respecter ce choix, et attendez-vous à ce qu’ils comptent moins de résultats que votre boîte de réception.{{< /callout >}}
 
-## Erreur n° 5 : construire l’audience comme une liste de mots clés
+## Erreur n° 5 : construire l’audience comme une liste de mots-clés
 
-Empiler cinq centres d’intérêt et un rayon de 5 km donne une impression de précision. En pratique, cela laisse très peu de monde au système de diffusion de Meta, ce qui tend à rendre chaque résultat plus cher. Sur beaucoup de campagnes, le Gestionnaire de publicités propose désormais l’audience Advantage+, qui garde votre zone géographique comme limite ferme mais traite les centres d’intérêt et les autres détails comme des suggestions.
+Exiger que les gens correspondent à plusieurs centres d’intérêt à la fois, dans un rayon de 5 km, donne une impression de précision. En pratique, cela laisse très peu de monde au système de diffusion de Meta, ce qui tend à rendre chaque résultat plus cher. Sur beaucoup de campagnes, le Gestionnaire de publicités part désormais de l’audience Advantage+ : votre zone géographique et l’âge minimum restent des limites fermes, tandis que les centres d’intérêt, les tranches d’âge et vos propres audiences deviennent des suggestions que Meta peut dépasser.
 
-Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propriétaires bailleurs à Lyon » est ignorée par tous les autres, quels que soient les réglages. Limitez la zone à celle que vous servez vraiment, et gardez votre précision pour ce qui rapporte :
+Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propriétaires bailleurs à Lyon » est ignorée par tous les autres, quels que soient les réglages. Limitez la zone à celle que vous servez vraiment, et concentrez vos efforts sur ce qui rapporte :
 
 - **les audiences personnalisées** : les personnes qui ont visité votre site, interagi avec votre Page ou votre compte Instagram, ou qui figurent sur une liste de clients que vous avez le droit d’utiliser pour la publicité ;
 - **les audiences similaires** : des personnes qui ressemblent à vos meilleurs clients ;
@@ -108,7 +108,7 @@ Laissez donc l’annonce faire le tri. Une publicité qui commence par « Propr
 
 Après le lancement, et après chaque modification importante, un ensemble de publicités passe par une phase d’apprentissage, le temps que Meta trouve à qui le montrer. Les résultats varient beaucoup pendant cette période. La [page d’aide de Meta sur la phase d’apprentissage](https://fr-fr.facebook.com/business/help/112167992830700) la décrit, et ses recommandations parlent d’environ 50 résultats en une semaine avant que la diffusion se stabilise.
 
-Toute modification du ciblage, de la publicité ou de l’optimisation, comme une forte hausse du budget, peut renvoyer l’ensemble de publicités au point de départ. Choisissez donc un jour par semaine pour lire les résultats, faites vos changements ce jour-là, et laissez la campagne tranquille entre deux. Un petit budget complique les choses : moins vous obtenez de résultats, plus l’apprentissage dure.
+Une modification du ciblage, de la publicité ou de l’événement d’optimisation, ou une forte hausse du budget, peut renvoyer l’ensemble de publicités au point de départ. Choisissez donc un jour par semaine pour lire les résultats, faites vos changements ce jour-là, et laissez la campagne tranquille entre deux. Un petit budget complique les choses : moins vous obtenez de résultats, plus l’apprentissage dure. Si un ensemble de publicités n’obtient pas assez de résultats, le Gestionnaire de publicités signale un apprentissage limité : regroupez les ensembles de publicités, élargissez l’audience ou optimisez pour un résultat plus fréquent, comme un formulaire envoyé plutôt qu’une vente, au lieu de le modifier tous les jours.
 
 ## Erreur n° 7 : juger les publicités sur les J’aime et les clics
 
@@ -126,22 +126,22 @@ Ces chiffres ronds servent à montrer le calcul : prenez les vôtres, et soyez 
 
 L’annonce fait une promesse, et la page doit la tenir en quelques secondes, sur un téléphone. Envoyer tout le monde sur votre page d’accueil, où il faut chercher l’offre, gaspille des clics déjà payés. Une page lente ou un formulaire de dix champs aussi.
 
-Quand je {{< a page="/services/websites" >}}conçois un site web{{< /a >}}, je veux que les prospects de mon client le prennent au sérieux dès le premier écran, et un visiteur payant ne vous laisse que quelques secondes pour y parvenir. Reprenez les mots de l’annonce dans le titre de la page, montrez l’offre et affichez un numéro de téléphone bien en vue. Dans les campagnes de cold emailing que je mène, les prospects appellent souvent plutôt que de répondre, parce qu’un appel est plus rapide et plus humain ; je donnerais la même possibilité aux visiteurs payants.
+Quand je {{< a page="/services/websites" >}}conçois un site web{{< /a >}}, je veux que les prospects de mon client le prennent au sérieux dès le premier écran, et un visiteur venu d’une publicité ne vous laisse que quelques secondes pour y parvenir. Reprenez les mots de l’annonce dans le titre de la page, montrez l’offre et affichez un numéro de téléphone bien en vue. Dans les campagnes de cold emailing que je mène, les prospects appellent souvent plutôt que de répondre, parce qu’un appel est plus rapide et plus humain ; je donnerais la même possibilité aux visiteurs venus de vos publicités.
 
 Observez ensuite ce que font les visiteurs. J’utilise Microsoft Clarity pour voir où les gens s’attardent, s’ils sont venus pour quelque chose de précis et quelles zones les font partir : je sais alors si c’est le texte, une image ou la mise en page qu’il faut corriger.
 
 ## Erreur n° 9 : diffuser la même publicité jusqu’à la lassitude
 
-Une publicité gagnante ne gagne pas éternellement. Le Gestionnaire de publicités indique la répétition : le nombre moyen de fois où chaque personne a vu votre publicité. Quand elle grimpe et que les résultats baissent, les personnes touchées l’ont trop vue : montrez-leur la version suivante, que vos tests devraient déjà avoir prête.
+Une publicité gagnante ne gagne pas éternellement. Le Gestionnaire de publicités indique la répétition : le nombre moyen de fois où chaque personne a vu votre publicité. Quand elle grimpe et que les résultats baissent, les personnes touchées l’ont trop vue : montrez-leur la version suivante, que vos tests vous ont normalement déjà permis de préparer.
 
 Lisez aussi les commentaires sous vos publicités. Répondez aux questions, masquez les commentaires indésirables et notez les mots employés : c’est de la recherche pour votre prochaine annonce, ce qui ramène à l’erreur n° 1.
 
 ## Erreur n° 10 : ajouter Meta Ads quand un autre canal convient mieux
 
-La publicité Meta vous place devant des gens qui ne vous cherchent pas encore. À mon avis, elle convient à la notoriété comme à la conversion, à condition de prévoir le budget des tests. Ce n’est pas toujours le bon canal pour autant :
+La publicité Meta vous place devant des gens qui ne vous cherchent pas encore, et ce n’est pas toujours ce qu’il vous faut :
 
 - si les gens cherchent déjà ce que vous vendez, {{< a key="google-ads-small-business" >}}Google Ads{{< /a >}} vous place devant eux au moment où ils cherchent, et ce n’est pas si compliqué une fois la recherche faite ;
-- si vous vendez à des entreprises, avec des paniers plus élevés, LinkedIn Ads brûle le budget très vite, mais peut rapporter de plus gros contrats quand c’est bien fait ;
+- si vous vendez cher à des entreprises, LinkedIn Ads brûle votre budget très vite, mais peut rapporter de plus gros contrats quand c’est bien fait ;
 - sur TikTok, les gens ne sont pas vraiment là pour acheter : la publicité y sert surtout la notoriété.
 
 Mon comparatif {{< a key="google-ads-vs-facebook-ads" >}}Google Ads ou Facebook Ads{{< /a >}} associe chaque plateforme à un objectif.

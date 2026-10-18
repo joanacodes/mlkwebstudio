@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:14:00+02:00
 category: "tools"
 article_type: "tutorial"
 keywords: ["free online booking system", "YouCanBookMe tutorial", "free appointment booking system", "YouCanBookMe free plan", "online booking system for small business", "add a booking page to a website"]
-summary: "YouCanBookMe's free plan gives you one booking page connected to one calendar (Google, Microsoft, Apple or Fastmail), which is enough to take appointments online without the email back-and-forth. Connect your calendar, set your hours, padding and notice periods, keep the booking form short, make a test booking, then share the link or embed the page on your website. The limits: one page, a 'Powered for free' button, and reminders listed with the paid plans."
+summary: "YouCanBookMe's free plan is a free online booking system for one kind of appointment: one booking page connected to one calendar (Google, Microsoft, Apple or Fastmail). Connect the calendar, set your hours, padding and notice periods, keep the form short, make a test booking, then share the link or embed the page on your website. The limits: one page, a 'Powered for free' button, and reminders, which the pricing page lists under the paid plans."
 cover: "youcanbookme-tutorial"
 cover_alt: "A man at a desktop computer beside a weekly calendar grid of booked slots, titled YouCanBookMe"
 related: ["calendly-vs-youcanbookme", "small-business-tools-guide", "squarespace-code-injection", "website-conversion-rate", "automate-lead-follow-up"]
@@ -20,7 +20,7 @@ faq:
   - q: "Does YouCanBookMe work with Outlook and iCloud calendars?"
     a: "Yes. It connects to Microsoft calendars, Outlook included, and to Apple iCloud, as well as Google Calendar and Fastmail. The free plan connects one calendar, the Individual plan two and Professional six."
   - q: "Can my booking page be shown in French?"
-    a: "Yes. YouCanBookMe can display the booking page in French. Write the title, the description and the form questions in French as well: those are your own words, and no tool translates them for you. Then make a test booking to read the emails."
+    a: "Yes. Under Additional options, then Language & timezones, choose French, or let the page follow each visitor's browser; YouCanBookMe offers more than 40 languages. That setting only translates the built-in text: write the title, the introduction, the form questions and the emails in French yourself, then make a test booking to read them."
   - q: "Is a booking page better than a contact form?"
     a: "Neither is better: they do different jobs. A form suits enquiries that need a quote or a question answered first; a booking page suits a call or a visit that can go straight into the diary. Most small business sites benefit from both, next to the phone number."
 ---
@@ -29,7 +29,7 @@ A free online booking system is a page connected to your calendar where clients 
 
 I prefer YouCanBookMe to Calendly: it does everything I need from Calendly, the team behind it is smaller, it is easy to find your way around and it is a bit cheaper. Calendly is good too, don't get me wrong, and my {{< a key="calendly-vs-youcanbookme" >}}Calendly vs YouCanBookMe comparison{{< /a >}} covers the differences. You can see YouCanBookMe at work on the contact page of [MLK Leadhunters](https://mlkleadhunters.com/), the studio's sister brand for cold emailing, where prospects book a free fifteen-minute call.
 
-Allow an hour or so. I name the menus as YouCanBookMe's help centre does in October 2026; if a label has moved, look for the nearest one. The tool has its place in my {{< a key="small-business-tools-guide" >}}small business marketing tools{{< /a >}} stack.
+Allow an hour or two. I name the menus as YouCanBookMe's help centre does in October 2026; if a label has moved, look for the nearest one. The tool has its place in my {{< a key="small-business-tools-guide" >}}small business marketing tools{{< /a >}} stack.
 
 ## Free online booking system: what YouCanBookMe's free plan includes
 
@@ -40,8 +40,7 @@ Start by knowing where "free" stops. Here is the split at the time of writing (O
 | One booking page | Two pages on Individual, more on Professional |
 | One calendar connection: Google, Microsoft, Apple or Fastmail | Two calendars on Individual, six on Professional |
 | Confirmation emails | Reminder emails and text messages |
-| Your logo and an introduction text | Your own colours, backgrounds and footer |
-| A "Powered for free" YouCanBookMe button on the page and in emails | Removing the YouCanBookMe branding |
+| A "Powered for free" YouCanBookMe button on the page and in emails | Your own colours, backgrounds and footer, without the YouCanBookMe branding |
 
 For one kind of appointment and one calendar, the free plan does the job: a discovery call, a quote visit, a first consultation. The missing reminders are the limit you will feel first, and step 6 comes back to them.
 
@@ -59,12 +58,11 @@ On the free plan, choose carefully: you get one calendar connection. If your per
 
 ## Step 2: create the booking page and choose its link
 
-The booking page is the public page that shows your free slots. Fill in four things:
+The booking page is the public page that shows your free slots. Fill in three things:
 
 - **The title**: what people book, in their words. "Free 15-minute call", "Kitchen survey at your home", "First consultation (45 minutes)".
 - **The link**: your page lives at an address such as `yourbusiness.youcanbook.me`. Use the business name, since it appears in every link you share.
 - **The description**: how long the appointment lasts, whether it happens by phone, by video or in person, and the time zone.
-- **Your logo**, which the free plan allows.
 
 Offer one thing per page. On MLK Leadhunters, the page offers a single free fifteen-minute call, with nothing else to choose. **Every extra choice is a reason to put off booking.**
 
@@ -121,15 +119,15 @@ Reminders are usually the first paid feature worth having. The pricing page list
 
 France is one hour ahead of the UK all year round: both countries change their clocks on the same Sundays, the last one in March and the last one in October (the next change is on 25 October 2026). A 10:00 slot in Paris is 9:00 in London.
 
-Booking tools, YouCanBookMe included, can show your slots in the visitor's own time zone. For calls, that is what you want: a client in Paris sees your 9:00 London slot at 10:00, and you both join at the same moment. For in-person appointments, it can mislead: someone on holiday abroad may see your Manchester survey at a shifted time.
+YouCanBookMe can detect each visitor's time zone and show your slots in it. For calls, that is what you want: a client in Paris sees your 9:00 London slot at 10:00, and you both join at the same moment. For in-person appointments, it can mislead: someone on holiday abroad may see your Manchester survey at a shifted time.
 
-Three checks:
+Three checks, under **Additional options**, then **Language & timezones**:
 
-1. Set your own time zone in your YouCanBookMe account, London or Paris. If it is wrong, every slot moves by an hour.
-2. Look at the booking page's time zone options and decide what visitors see: their own time for calls, yours for visits.
-3. Write the time zone in the description anyway: "All times are UK time".
+1. Your own time zone. YouCanBookMe takes it from your calendar; if it is wrong, untick **Automatically detect time zone from my calendar** and choose London or Paris. A wrong zone shifts every slot.
+2. **Automatically detect bookers timezone**: keep it for calls; untick it for visits, so that everyone sees your local time, confirmation emails included.
+3. **Display booking page timezone**: tick it so visitors know which time zone the slots are in, and write it in the description anyway: "All times are UK time".
 
-{{< callout type="tip" >}}To see what a client abroad sees, change the time zone in your phone's settings, open your booking page, then **switch it back**.{{< /callout >}}
+{{< callout type="tip" >}}Your test booking in step 8 doubles as a time zone check: the time in the confirmation email must match the event in your calendar. **An hour's difference means a wrong time zone.**{{< /callout >}}
 
 {{< screenshot id="youcanbookme-tutorial-07" alt="YouCanBookMe booking page showing the time zone above the available slots" >}}
 
@@ -152,7 +150,7 @@ Cancel the test booking and check that the slot comes back. Five minutes now sav
 
 The simplest option works on every website builder: a "Book a call" button on your contact page that opens your booking page. Put it next to your phone number, not instead of it. In my cold email campaigns, prospects called rather than replied: calling is faster, and people like real human contact. The booking link is for the others, who would rather pick a time than pick up the phone. Add it to your email signature as well.
 
-One place I never put it: a first cold email. My cold emails are plain text with no links at all, only a phone number, because that is what gets delivered; I explain why in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. Save the booking link for the people who reply.
+One place I never put it: a first cold email. My cold emails are plain text with no links at all, just a phone number and an invitation to call, because that is what gets delivered; I explain why in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. Save the booking link for the people who reply.
 
 ### The calendar inside your page
 
@@ -191,4 +189,4 @@ Upgrade when one of these becomes true:
 
 The Individual plan covers two pages and two calendars for $9 a month, or $8.10 a month billed yearly. Those are US-dollar list prices at the time of writing; I could not confirm the £ price, so check the amount at checkout.
 
-You do not need me for any of this: the free plan and an afternoon are enough. It gets harder when bookings have to feed the rest of the business. A booking page catches the people who are ready; for the others, you can {{< a key="automate-lead-follow-up" >}}automate lead follow-up{{< /a >}} with instant alerts and call-back reminders. And when prospects, job sites and the calendar outgrow a set of free tools, an internal app starts to make sense. I built one for {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer in Paris and the Île-de-France, when the team could no longer keep up with the prospects coming in; my {{< a key="bespoke-crm-internal-app" >}}bespoke CRM guide{{< /a >}} explains when that is worth it.
+You do not need me for any of this: the free plan and an hour or two are enough. It gets harder when bookings have to feed the rest of the business. A booking page catches the people who are ready; for the others, you can {{< a key="automate-lead-follow-up" >}}automate lead follow-up{{< /a >}} with instant alerts and call-back reminders. And when prospects, job sites and the calendar outgrow a set of free tools, an internal app starts to make sense. I built one for {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer in Paris and the Île-de-France, when the team could no longer keep up with the prospects coming in; my {{< a key="bespoke-crm-internal-app" >}}bespoke CRM guide{{< /a >}} explains when that is worth it.

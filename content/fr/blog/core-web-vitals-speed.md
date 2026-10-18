@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:12:00+02:00
 category: "seo"
 article_type: "guide"
 keywords: ["vitesse de chargement site internet", "Core Web Vitals", "Signaux Web essentiels", "PageSpeed Insights", "accélérer son site internet", "temps de chargement d’une page"]
-summary: "La vitesse de chargement d’un site internet se mesure, chez Google, avec les Core Web Vitals : le LCP (contenu principal affiché en 2,5 secondes au plus), l’INP (réaction à un appui ou à un clic en 200 millisecondes au plus) et le CLS (mise en page stable, score de 0,1 au plus). Google s’en sert pour classer les pages, sans que de bons scores garantissent un bon classement. Sur un site vitrine, images lourdes, polices et scripts tiers causent l’essentiel des lenteurs."
+summary: "La vitesse de chargement d’un site internet se mesure, chez Google, avec les Core Web Vitals : le LCP (contenu principal affiché en 2,5 secondes au plus), l’INP (réaction à un appui ou à un clic en 200 millisecondes au plus) et le CLS (mise en page stable, score de 0,1 au plus). Google s’en sert pour classer les pages, sans que de bons scores garantissent un bon classement. Pour accélérer un site vitrine, commencez par les causes habituelles : images trop lourdes, polices trop nombreuses et scripts tiers."
 cover: "core-web-vitals-speed"
 cover_alt: "Une courbe ascendante derrière du verre cannelé, à côté d’une tasse de café et d’un ordinateur portable, avec les lettres LCP, INP et CLS"
 related: ["google-search-console-tutorial", "website-conversion-rate", "on-page-seo-checklist", "build-website-with-ai", "wix-platforms-history"]
@@ -18,7 +18,7 @@ faq:
   - q: "Quel est un bon score PageSpeed Insights ?"
     a: "Le score de laboratoire va de 0 à 100 : vert à partir de 90, orange de 50 à 89, rouge en dessous de 50. C’est un outil de diagnostic. L’évaluation des Core Web Vitals, en haut du rapport, repose sur de vraies visites et reflète ce que Google mesure."
   - q: "Qu’est-ce qui a remplacé le FID ?"
-    a: "L’INP (Interaction to Next Paint) a remplacé le FID (First Input Delay) parmi les Core Web Vitals le 12 mars 2024. Le FID ne mesurait que le délai avant la première interaction ; l’INP observe les appuis, les clics et les frappes au clavier pendant toute la visite, et retient l’un des plus lents."
+    a: "L’INP (Interaction to Next Paint) a remplacé le FID (First Input Delay) parmi les Core Web Vitals le 12 mars 2024. Le FID ne mesurait que le temps d’attente de la première interaction avant son traitement ; l’INP chronomètre les appuis, les clics et les frappes au clavier pendant toute la visite, jusqu’à la réaction visible de la page, et retient l’un des plus lents."
   - q: "Pourquoi mon site est-il plus lent sur mobile que sur ordinateur ?"
     a: "Un téléphone a moins de puissance qu’un ordinateur et sa connexion est souvent plus lente : la même page s’y charge moins vite. PageSpeed Insights simule ces conditions avec un téléphone de milieu de gamme, d’où un score plus bas sur mobile. Google évalue le mobile et l’ordinateur séparément : commencez par le mobile."
   - q: "L’hébergement influence-t-il la vitesse de chargement ?"
@@ -43,7 +43,7 @@ Les Core Web Vitals sont trois indicateurs définis par Google pour mesurer le c
 | **INP**, Interaction to Next Paint | Le temps que met la page à réagir visiblement à un appui, un clic ou une touche du clavier | 200 millisecondes ou moins | Plus de 500 millisecondes |
 | **CLS**, Cumulative Layout Shift | L’ampleur des déplacements inattendus du contenu tant que la page est ouverte | 0,1 ou moins | Plus de 0,25 |
 
-Une page atteint un seuil quand au moins 75 % des visites l’atteignent, ce que Google appelle le 75e centile, et le mobile et l’ordinateur sont évalués séparément ([web.dev](https://web.dev/articles/defining-core-web-vitals-thresholds?hl=fr)). Autrement dit, trois visites sur quatre doivent voir le contenu principal en 2,5 secondes au plus, obtenir une réaction à leurs appuis en un cinquième de seconde et ne jamais voir la page bouger sous leur pouce. Une page ne réussit l’évaluation que si les trois indicateurs sont bons.
+Une page atteint un seuil quand au moins 75 % des visites l’atteignent, ce que Google appelle le 75e centile, et le mobile et l’ordinateur sont évalués séparément ([web.dev](https://web.dev/articles/defining-core-web-vitals-thresholds?hl=fr)). Autrement dit, trois visites sur quatre doivent voir le contenu principal en 2,5 secondes au plus, obtenir une réaction à leurs appuis en un cinquième de seconde et voir la page à peine bouger sous leur pouce. Une page ne réussit l’évaluation que si les trois indicateurs sont bons.
 
 ## La vitesse de chargement compte-t-elle pour le référencement ?
 
@@ -51,7 +51,7 @@ Oui, mais moins que le bruit qui l’entoure ne le laisse croire. La documentati
 
 Une page rapide qui ne répond pas à la recherche ne se positionnera donc pas, et la page qui y répond le mieux peut se positionner tout en étant lente. La pertinence passe en premier : les mots de la page, son titre, ses intertitres et les liens qui y mènent. Ma {{< a key="on-page-seo-checklist" >}}checklist SEO on-page{{< /a >}} les reprend page par page.
 
-La vitesse compte surtout après le clic. Quelqu’un qui cherche un plombier en urgence sur son téléphone n’attendra pas une page lente : il revient en arrière et touche le résultat suivant. Une page lente perd des demandes même quand elle est bien placée, et c’est pourquoi la vitesse fait partie de tout travail pour {{< a key="website-conversion-rate" >}}améliorer le taux de conversion d’un site internet{{< /a >}}.
+La vitesse compte surtout après le clic. Quelqu’un qui cherche un plombier en urgence sur son téléphone n’attendra pas une page lente : il revient en arrière et ouvre le résultat suivant. Une page lente perd des demandes même quand elle est bien placée, et c’est pourquoi la vitesse fait partie de tout travail pour {{< a key="website-conversion-rate" >}}améliorer le taux de conversion d’un site internet{{< /a >}}.
 
 ## Mesurer la vitesse de chargement de votre site internet avec PageSpeed Insights
 
@@ -94,7 +94,7 @@ Si le rapport reste vide faute de données, votre site a trop peu de visites dan
 
 ## Ce qui ralentit un site vitrine, indicateur par indicateur
 
-L’évaluation vous dit quel indicateur échoue, et chacun a ses suspects habituels.
+L’évaluation vous dit quel indicateur échoue, et chacun a ses causes habituelles.
 
 ### LCP : le contenu principal s’affiche tard
 
@@ -120,21 +120,19 @@ J’utilise {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity{{< /a >}
 |---|---|
 | Des images et des contenus intégrés sans espace réservé : le texte en dessous saute à leur arrivée | Indiquer la largeur et la hauteur de chaque image et de chaque contenu intégré |
 | Une bannière de cookies ou d’annonce insérée au-dessus du contenu | L’afficher par-dessus la page, fixée en bas de l’écran |
-| Des polices web qui arrivent tard et changent la taille du texte | Moins de fichiers de police : deux familles avec deux graisses chacune suffisent à la plupart des sites |
+| Des polices web qui arrivent tard et changent la taille du texte | Précharger le fichier de police principal et choisir une police de secours de largeur proche, pour que le changement de police déplace à peine le texte. Limiter le nombre de fichiers aide aussi : deux familles avec deux graisses chacune suffisent à la plupart des sites |
 
 ## Les corrections selon votre plateforme : Squarespace, Wix, WordPress, site codé
 
-Ce que vous pouvez changer dépend de l’outil sur lequel le site est construit.
+**Squarespace** héberge le site et sert chaque image envoyée en plusieurs tailles. Vos leviers sont donc ce que vous mettez sur la page : des images plus légères dès le départ, moins de polices, une photo fixe plutôt qu’une vidéo d’arrière-plan, et le moins de code tiers possible dans l’injection de code et les blocs de code. Je propose Squarespace aux clients qui veulent modifier leur site eux-mêmes. J’ajoute souvent un peu de code à ces sites, en restant léger : un script injecté sur tout le site s’exécute sur chaque page.
 
-**Squarespace** héberge le site et sert chaque image envoyée en plusieurs tailles. Vos leviers sont donc ce que vous mettez sur la page : des images plus légères dès le départ, moins de polices, une photo fixe plutôt qu’une vidéo d’arrière-plan, et le moins de code tiers possible dans l’injection de code et les blocs de code. Je confie Squarespace aux clients qui veulent modifier leur site eux-mêmes. J’ajoute souvent un peu de code à ces sites, en restant léger : un script injecté sur tout le site s’exécute sur chaque page.
+**Wix** m’a toujours paru lent, quels que soient l’appareil, la connexion ou le pays où je l’ai utilisé. C’est mon expérience quand je crée des sites dessus ; la vitesse du site publié, côté visiteurs, est une autre question, alors mesurez-la dans PageSpeed Insights plutôt que de vous fier à mon impression. S’il échoue, les leviers sont les mêmes que sur Squarespace, plus les applications ajoutées depuis le Wix App Market, qui peuvent chacune apporter leur propre code. Mon {{< a key="wix-platforms-history" >}}avis sur Wix{{< /a >}} explique pourquoi j’oriente les entrepreneurs qui travaillent seuls vers d’autres outils.
 
-**Wix** me paraît lent, sur tous les appareils, toutes les connexions et dans tous les pays où je l’ai utilisé. C’est mon expérience de l’éditeur, là où l’on travaille ; le site publié est une autre question, alors mesurez-le dans PageSpeed Insights plutôt que de vous fier à mon impression. S’il échoue, les leviers sont les mêmes que sur Squarespace, plus les applications ajoutées depuis le Wix App Market, qui peuvent chacune apporter leur propre code. Mon {{< a key="wix-platforms-history" >}}avis sur Wix{{< /a >}} explique pourquoi j’oriente les entrepreneurs seuls vers d’autres outils.
+**WordPress** donne plus de contrôle qu’un constructeur de sites, et plus de façons de ralentir un site : un thème ou un constructeur de pages lourd, des extensions qui ajoutent chacune leurs fichiers à toutes les pages, un hébergement bon marché sans cache. Les clients sous WordPress qui viennent me voir veulent en général le quitter, à cause de la prise en main et des extensions à gérer. Avec un spécialiste qui s’en occupe chaque mois, WordPress peut être rapide : moins d’extensions, la mise en cache des pages et un hébergement correct font l’essentiel du travail.
 
-**WordPress** donne le plus de contrôle, et le plus de façons de ralentir un site : un thème ou un constructeur de pages lourd, des extensions qui ajoutent chacune leurs fichiers à toutes les pages, un hébergement bon marché sans cache. Les clients sous WordPress qui viennent me voir veulent en général le quitter, à cause de la prise en main et des extensions à gérer ; aux entrepreneurs seuls qui modifient eux-mêmes leur site, je propose donc Squarespace. Avec un spécialiste qui s’en occupe chaque mois, WordPress peut être rapide : moins d’extensions, la mise en cache des pages et un hébergement correct font l’essentiel du travail.
+**Les sites codés sur mesure et les sites statiques** partent avec une longueur d’avance. Un site statique est un ensemble de pages préparées à l’avance, sans base de données à interroger à chaque visite ; ce blog est construit avec Hugo, un générateur de sites statiques, et hébergé sur GitHub Pages. Sur le {{< a page="/projects/pilotech-toshiba" >}}site de climatisation Toshiba que j’ai créé pour Pilotech{{< /a >}}, construit avec Jekyll, le CSS est précompilé en une feuille de style finie avant la mise en ligne, et les icônes sont servies par le site lui-même plutôt que par le serveur d’une autre entreprise. Deux sources de lenteur courantes disparaissent ainsi avant même le premier test. Si vous préparez un site simple, mon tuto pour {{< a key="build-website-with-ai" >}}créer un site internet avec l’IA{{< /a >}} et l’héberger sur GitHub Pages part de ce type de site.
 
-**Les sites codés sur mesure et les sites statiques** partent avec une longueur d’avance. Un site statique est un ensemble de pages préparées à l’avance, sans base de données à interroger à chaque visite ; ce blog tourne sur Hugo, un générateur de sites statiques, hébergé sur GitHub Pages. Sur le {{< a page="/projects/pilotech-toshiba" >}}site de climatisation Toshiba que j’ai créé pour Pilotech{{< /a >}}, construit avec Jekyll, le CSS est précompilé en une feuille de style finie avant la mise en ligne, et les icônes sont servies par le site lui-même plutôt que par le serveur d’une autre entreprise. Deux sources de lenteur courantes disparaissent ainsi avant même le premier test. Si vous préparez un site simple, mon tuto pour {{< a key="build-website-with-ai" >}}créer un site internet avec l’IA{{< /a >}} et l’héberger sur GitHub Pages part de ce type de site.
-
-Sur un site codé, les corrections d’images et de polices ci-dessus tiennent en quelques attributs :
+Sur un site codé, les corrections d’images et de polices ci-dessus tiennent en quelques lignes de HTML :
 
 ```html
 <!-- Grande image : taille réservée, prioritaire, jamais en différé -->
@@ -143,7 +141,10 @@ Sur un site codé, les corrections d’images et de polices ci-dessus tiennent e
 <!-- Plus bas dans la page : taille réservée, chargement différé -->
 <img src="/images/equipe.webp" width="800" height="600" loading="lazy" alt="L’équipe sur un chantier">
 
-<!-- Police de secours affichée tout de suite, remplacée par la police web à son arrivée -->
+<!-- Dans le <head> : fichier de police principal demandé en priorité -->
+<link rel="preload" href="/fonts/brand.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Texte affiché tout de suite dans une police de secours, remplacée par la police web à son arrivée -->
 <style>
   @font-face {
     font-family: "Brand";
@@ -152,6 +153,8 @@ Sur un site codé, les corrections d’images et de polices ci-dessus tiennent e
   }
 </style>
 ```
+
+Avec `swap`, le texte reste lisible pendant le chargement de la police, mais le changement de police peut le décaler légèrement. Si la police apparaît encore dans **Layout shift culprits**, `font-display: optional` supprime ce décalage : lors d’une visite où la police web arrive trop tard, le navigateur garde simplement la police de secours.
 
 ## Une vérification en une heure, et quand passer la main
 

@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:32:00+02:00
 category: "aio"
 article_type: "tutorial"
 keywords: ["AI visibility", "check AI visibility", "AI visibility tracker", "does ChatGPT mention my business", "brand visibility in AI search", "AI visibility tool"]
-summary: "AI visibility is how often assistants such as ChatGPT, Gemini and Perplexity name your business when someone asks about what you sell. To check it for free, ask each one the same ten prompts every month, logged out or in a chat without memory, and record in a spreadsheet whether you are named, linked and described correctly. Paid trackers such as Semrush's AI Visibility Toolkit automate the test, and Bing, Clarity and Search Console add free data for Copilot and Google."
+summary: "AI visibility is how often assistants such as ChatGPT, Gemini and Perplexity name your business when someone asks about what you sell. To check it for free, ask each one the same ten prompts every month, logged out or in a chat without memory, and record whether you are named, linked and described correctly. Paid trackers such as Semrush's AI Visibility Toolkit automate the test; Bing, Clarity and Search Console add free data for Copilot and Google."
 cover: "check-ai-visibility"
 cover_alt: "Hand holding a phone above a laptop, an orbit around a star and the words ChatGPT and Perplexity"
 related: ["get-recommended-by-chatgpt", "track-ai-traffic", "write-content-for-ai-search", "semrush-review", "google-ai-overviews-ai-mode"]
@@ -60,15 +60,14 @@ A prompt is the question someone types into an assistant. People write longer, m
 | Alternatives | "Alternatives to [competitor] for office cleaning in Manchester" |
 | Price | "How much does office cleaning cost in Manchester?" |
 | Your name | "What do you know about [your business] in Manchester?" |
-| Reviews | "[Your business] reviews" |
-| Trust | "Is [your business] reliable?" |
+| Reputation | "[Your business] reviews", "Is [your business] reliable?" |
 
 Ten prompts are enough to start. More prompts give you more rows to fill, not necessarily more insight.
 
 To find the words your customers use, look in four places:
 
 - **Your phone calls.** Questions my clients ask on a first call, such as "Do you have experience?" or "How long will it take?", are what people now ask an assistant before calling anyone.
-- **Search Console.** The queries that already bring your site impressions on Google show the words people use for your trade.
+- **Search Console.** Your queries on Google show the words people use for your trade.
 - **Keyword costs.** I use Semrush mainly for keyword research and for what keywords cost in ads. Advertisers pay most for the searches that bring business, so an expensive keyword usually makes a good prompt.
 - **Deep research.** I use deep research tools to find what people in a niche complain about most and which words keep coming back. My method is in {{< a key="deep-research-copywriting-seo" >}}how to use Deep Research for copywriting and SEO{{< /a >}}.
 
@@ -93,11 +92,11 @@ Create a spreadsheet in Google Sheets or Excel, with one tab per month and these
 
 {{< screenshot id="check-ai-visibility-01" alt="Empty AI visibility spreadsheet with columns for date, assistant, prompt, named, position, link, what it said, accurate, competitors and sources" >}}
 
-Each answer is one row: ten prompts in four assistants make forty rows a month. Next month, duplicate the tab and clear everything except the prompts.
+Each answer is one row: ten prompts in four assistants make forty rows a month.
 
 ## Step 3: ask each assistant without memory or history
 
-Your own account would skew the test. An assistant that remembers your past chats, or knows that you run the business, may mention you more readily than it would for a stranger. So test the way a new customer would: logged out where you can, otherwise in a chat that uses no memory. Start a new chat for every prompt, so one answer does not colour the next.
+Your own account would skew the test: an assistant that remembers your chats, or knows you run the business, may mention you more readily than it would for a stranger. Test as a new customer would, logged out where you can, otherwise in a chat without memory, and start a new chat for every prompt so one answer does not colour the next.
 
 ### ChatGPT
 
@@ -133,11 +132,9 @@ If your customers use Microsoft Copilot or Claude, add them under the same rule:
 
 Fill in each row as soon as the answer appears: by the fifth answer about office cleaning, they all start to blur.
 
-- **Named:** Yes only if your business name appears. A link to a directory that lists you, without your name in the answer, counts as No.
-- **Position:** where you appear among the businesses named. In a list of three, being first matters.
-- **What it said:** copy the sentence about you exactly, mistakes included.
-- **Accurate:** compare it with your current services, area, prices, opening hours and phone number.
-- **Competitors and Sources:** note the names in order, and the domains cited: directories, review sites, local press, forum threads, your own site.
+- **Named:** Yes only if your business name appears. A link to a directory that lists you, without your name, counts as No.
+- **What it said:** copy the sentence about you exactly, mistakes included, then compare it with your current services, area, prices, hours and phone number.
+- **Sources:** note the domains cited: directories, review sites, local press, forum threads, your own site.
 
 I check the Accurate column closely with ChatGPT. In my experience it makes things up a bit too often, which is one reason I use Claude for my own work. An invented service or an old phone number can usually be traced to a source, and a source can be corrected.
 
@@ -173,7 +170,7 @@ Grounding queries are the searches an assistant runs before it answers. They sho
 
 ## Paid trackers: Semrush and Squarespace
 
-Paid trackers run your prompts on a schedule and chart how often you are named. They save time and handle more prompts than you would by hand; read their figures as a trend, as you would your spreadsheet.
+Paid trackers run your prompts on a schedule and chart how often you are named. They save time and handle more prompts than you would by hand; read their figures as a trend, as you would your spreadsheet. Run the free test for three months before paying for one, though: it is easy for a small team to fall for every new tool, and the channels that already bring you clients come first.
 
 ### Semrush AI Visibility Toolkit
 
@@ -188,11 +185,6 @@ These are the prices at the time of writing (October 2026), taken from Semrush's
 If your site runs on Squarespace, as the sites I build for clients who edit their own pages usually do, look at its AI Visibility tool, released in July 2026. It sits in the SEO & AIO section of the dashboard, next to the SEO report. Squarespace drafts up to 12 example prompts from your site's content and industry, which you can edit or add to. It then shows when your site appears in answers, for which prompts, and who appears when you do not.
 
 For now it covers ChatGPT and Gemini, on English-language sites built on version 7.1 ([Squarespace's announcement](https://www.squarespace.com/blog/ai-visibility)). I found no published price or list of plans for it, so check your own dashboard.
-
-### Should you pay for a tracker?
-
-Run the free test for three months first. A tracker makes sense if the spreadsheet takes more time than you can spare, or if you need far more than ten prompts. If its main appeal is that AI search is new, be careful: it is easy for a small team to fall for every new tool, and the channels that already bring you clients come first.
-
 ## What to do with your results
 
 | What you see | What it usually means | What to do |
@@ -218,4 +210,4 @@ Mentions on other sites take the longest to earn and count the most. Start with 
 5. Look at Bing's AI Performance report, Clarity's Citations report and Search Console's generative AI report.
 6. Choose one fix for the month: a page, a correction, a directory listing or a pitch to a journalist.
 
-Once the spreadsheet exists, the round takes an hour or so. You do not need me or an agency to run it. If the results show you are missing from most answers and you would rather hand over the fixes, that groundwork is what my {{< a page="/services/seo" >}}SEO service{{< /a >}} is built on.
+You do not need me or an agency to run this check. If the results show you are missing from most answers and you would rather hand over the fixes, that groundwork is what my {{< a page="/services/seo" >}}SEO service{{< /a >}} is built on.

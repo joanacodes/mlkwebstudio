@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:48:00+02:00
 category: "domains"
 article_type: "pillar"
 keywords: ["nom de domaine et hébergement", "différence entre nom de domaine et hébergement", "hébergement web", "hébergement email", "registrar ou hébergeur", "nom de domaine .fr ou .com"]
-summary: "Le nom de domaine est l’adresse que vous louez chez un registrar (votre-entreprise.fr), l’hébergement est le serveur qui stocke votre site et l’envoie aux visiteurs, et la messagerie gère les boîtes derrière contact@votre-entreprise.fr. Les trois peuvent être chez trois sociétés différentes, car les DNS les relient : les enregistrements A et CNAME pointent vers le site, les MX vers les boîtes mail. Déposez le domaine au nom de votre entreprise et gardez cet accès."
+summary: "Le nom de domaine est l’adresse que vous louez chez un registrar (votre-entreprise.fr), l’hébergement est le serveur qui stocke votre site et l’envoie aux visiteurs, et la messagerie gère les boîtes derrière contact@votre-entreprise.fr. Les trois peuvent être chez trois sociétés, car les DNS les relient : les enregistrements A et CNAME pointent vers le site, les MX vers les boîtes mail. Déposez le domaine au nom de l’entreprise et gardez vous-même l’accès au registrar."
 cover: "domain-hosting-email-guide"
 cover_alt: "Un nom de domaine relié par les DNS à un hébergeur web et à une messagerie"
 related: ["dns-records-explained", "fr-domain-names", "web-hosting-comparison", "professional-email-address", "o2switch-review"]
@@ -22,7 +22,7 @@ faq:
   - q: "Combien de temps faut-il pour relier un domaine à un site ?"
     a: "Les changements DNS apparaissent souvent en quelques heures, mais les fournisseurs demandent plus de marge : jusqu’à 24 heures chez OVHcloud et pour GitHub Pages, et de 24 à 72 heures avant que Squarespace affiche un domaine externe comme connecté."
   - q: "Peut-on changer de registrar sans couper son site ?"
-    a: "Oui, tant que les DNS continuent de répondre pendant le transfert. Recopiez tous les enregistrements avant de commencer et gardez les mêmes serveurs de noms jusqu’à la fin du transfert : le site et les emails restent en ligne, et vous pourrez déplacer la zone DNS ensuite."
+    a: "Oui, tant que les DNS continuent de répondre. Recopiez tous les enregistrements avant de commencer et gardez les mêmes serveurs de noms jusqu’à la fin du transfert : le site et les emails restent en ligne. Si ces serveurs de noms sont ceux du registrar que vous quittez, recréez la zone chez le nouveau et basculez aussitôt, car l’ancienne zone peut disparaître une fois le domaine parti."
   - q: "Faut-il masquer ses coordonnées dans le Whois ?"
     a: "Pour un .fr, l’Afnic restreint par défaut la publication des coordonnées d’un particulier titulaire. Pour un .com, Spaceship et Namecheap incluent gratuitement la protection Whois sur les extensions qui l’acceptent : laissez-la activée, surtout si votre adresse professionnelle est celle de votre domicile."
 ---
@@ -43,10 +43,10 @@ Chaque colonne est un service distinct, que vous pouvez acheter, renouveler et d
 | Exemple | votre-entreprise.fr | Squarespace, GitHub Pages, une offre cPanel | contact@votre-entreprise.fr chez Spacemail ou Google Workspace |
 | Qui le vend | Un registrar : OVHcloud, Infomaniak, Spaceship, Namecheap | Un hébergeur ou un créateur de sites | Un fournisseur de messagerie |
 | Comment on paie | Un renouvellement chaque année | Au mois ou à l’année, ou inclus dans l’abonnement d’un créateur de sites | Par boîte mail ou par utilisateur |
-| Exemple de prix (octobre 2026) | 7 € HT par an pour un .fr chez Infomaniak | 0 € sur GitHub Pages, inclus dans un abonnement Squarespace | Moins de 1 € par mois chez Spacemail, 6,80 € HT par utilisateur chez Google Workspace |
+| Exemple de prix (octobre 2026) | 7 € HT par an pour un .fr chez Infomaniak | 0 € sur GitHub Pages, inclus dans un abonnement Squarespace | Moins de 1 € par mois et par boîte chez Spacemail, 6,80 € HT par utilisateur et par mois chez Google Workspace |
 | Ses enregistrements DNS | Les serveurs de noms (NS) | A, AAAA et CNAME | MX, plus TXT pour SPF, DKIM et DMARC |
 
-Si vous ne retenez qu’une image, gardez celle-ci : le domaine est votre adresse postale, l’hébergement vos locaux, l’email votre boîte aux lettres. Vous pouvez déménager dans des locaux plus grands sans changer d’adresse, à condition de mettre l’annuaire à jour. Cet annuaire, ce sont les DNS.
+Si vous ne retenez qu’une image, gardez celle-ci : le domaine est le nom de votre entreprise dans l’annuaire, l’hébergement vos locaux, l’email votre boîte aux lettres. Vous pouvez déménager dans des locaux plus grands et garder le même nom, à condition que l’annuaire indique la nouvelle adresse. Cet annuaire, ce sont les DNS.
 
 ## Le nom de domaine : ce que vous louez, et à qui
 
@@ -58,9 +58,9 @@ Trois acteurs entrent en jeu :
 - Le **registrar** vous vend le nom pour le compte du registre : OVHcloud, Infomaniak, Spaceship, Namecheap et bien d’autres.
 - Le **titulaire** est la personne ou la société au nom de laquelle le domaine est déposé. Ce doit être votre entreprise, et la partie sur les comptes, plus bas, explique pourquoi.
 
-Le registrar compte pour trois choses : le prix de renouvellement, l’éditeur DNS et le support. Comparez toujours le renouvellement, pas la première année. Au moment où j’écris (octobre 2026), un .fr se renouvelle à [7 € HT par an chez Infomaniak](https://www.infomaniak.com/en/domains/prices/fr), après une première année en promotion. {{< a key="best-domain-registrar" >}}Où acheter un nom de domaine{{< /a >}} compare six registrars sur ce point précis, et {{< a key="hostinger-renewal-transfer" >}}transférer un domaine Hostinger{{< /a >}} montre ce que devient un prix d’appel une fois l’engagement terminé.
+Le choix du registrar se joue sur trois points : le prix de renouvellement, l’éditeur DNS et le support. Comparez toujours le renouvellement, pas la première année. Au moment où j’écris (octobre 2026), un .fr se renouvelle à [7 € HT par an chez Infomaniak](https://www.infomaniak.com/en/domains/prices/fr), après une première année en promotion. {{< a key="best-domain-registrar" >}}Où acheter un nom de domaine{{< /a >}} compare six registrars sur ce point précis, et {{< a key="hostinger-renewal-transfer" >}}transférer un domaine Hostinger{{< /a >}} montre ce que devient un prix d’appel une fois l’engagement terminé.
 
-Je fais confiance à Namecheap comme à Spaceship, que Namecheap a créé. Pour moi, Spaceship est une version à jour de Namecheap : des prix justes, un support joignable 24 h/24 et 7 j/7, et tous les problèmes que j’ai signalés ont été résolus. C’est là que j’ai mes habitudes. {{< a key="spaceship-vs-namecheap" >}}Mon avis sur Spaceship{{< /a >}} compare les deux, et {{< a key="spaceship-domain-dns-tutorial" >}}acheter un nom de domaine sur Spaceship{{< /a >}} vous guide de l’achat à la configuration des DNS, pas à pas.
+Je fais confiance à Namecheap comme à Spaceship, que Namecheap a créé. Pour moi, Spaceship est une version à jour de Namecheap : des prix justes, un support joignable 24 h/24 et 7 j/7, et tous les problèmes que j’ai signalés ont été résolus. C’est là que j’ai mes habitudes. {{< a key="spaceship-vs-namecheap" >}}Mon avis sur Spaceship{{< /a >}} compare les deux, et {{< a key="spaceship-domain-dns-tutorial" >}}acheter un nom de domaine sur Spaceship{{< /a >}} vous guide de l’achat à la configuration des DNS, pas à pas.
 
 Si votre domaine est chez un registrar qui ne vous convient plus, vous pouvez le déplacer sans rien changer d’autre : {{< a key="transfer-domain-name" >}}transférer un nom de domaine{{< /a >}} détaille la méthode, code de transfert compris.
 
@@ -71,7 +71,7 @@ L’hébergement web est un espace loué sur un serveur allumé jour et nuit, qu
 | Comment le site est construit | Où il est hébergé | Pour qui |
 |---|---|---|
 | Créateur de sites (Squarespace, Shopify) | Inclus dans l’abonnement | Les entreprises qui veulent modifier leur site sans aide |
-| WordPress ou site codé sur hébergement mutualisé (cPanel) | o2switch, Infomaniak, Spaceship Web Hosting, Hostinger, OVHcloud | Les sites qui ont besoin d’une base de données ou d’extensions |
+| WordPress ou site codé sur hébergement mutualisé | o2switch et Spaceship Web Hosting (cPanel), Infomaniak, Hostinger, OVHcloud | Les sites qui ont besoin d’une base de données ou d’extensions |
 | Site statique (HTML et CSS) | GitHub Pages, gratuit pour un dépôt public | Les sites vitrines sans boutique ni espace client |
 | Application ou outil sur mesure | Un serveur cloud ou une plateforme d’applications, comme la gamme Starlight de Spaceship | Les logiciels, pas les sites vitrines |
 
@@ -83,14 +83,14 @@ Un site vitrine simple peut aussi se créer avec l’IA et s’héberger gratuit
 
 ## L’hébergement des emails : la troisième pièce qu’on oublie
 
-L’hébergement email est le service qui fait tourner vos boîtes mail : il reçoit les messages envoyés à votre domaine, les stocke et envoie vos réponses. Acheter un domaine n’en crée aucune, et un créateur de sites non plus.
+L’hébergement email est le service qui fait tourner vos boîtes mail : il reçoit les messages envoyés à votre domaine, les stocke et envoie vos réponses. C’est un service distinct du domaine et du site, même quand une seule société vous vend les trois.
 
 Squarespace, par exemple, ne gère pas de boîtes mail lui-même. Son offre email est Google Workspace, à acheter depuis le panneau Domaines, et d’autres fournisseurs se branchent sur un domaine Squarespace par les enregistrements DNS. Certains hébergements web incluent en revanche des boîtes mail : o2switch fournit des adresses illimitées, et le Web Hosting de Spaceship est livré avec une offre Spacemail spéciale. C’est pratique, mais vos emails dépendent alors de votre hébergement : résilier ou déplacer l’un oblige à s’occuper de l’autre.
 
-**Je préfère garder l’email sur un service à part.** Vous pouvez alors refaire le site, changer de plateforme ou d’hébergeur sans que votre boîte mail s’en aperçoive. Les principales options pour une petite entreprise :
+**Mieux vaut garder l’email sur un service à part.** Vous pouvez alors refaire le site, changer de plateforme ou d’hébergeur sans que votre boîte mail s’en aperçoive. Les principales options pour une petite entreprise :
 
-- Spacemail, la messagerie de Spaceship : moins de 1 € par mois et par boîte au moment où j’écris (octobre 2026), le prix étant affiché en dollars sur [les offres Spacemail de Spaceship](https://www.spaceship.com/business-email/). C’est l’option que je recommande quand on travaille à son compte, et {{< a key="spacemail-setup" >}}configurer Spacemail{{< /a >}} couvre la boîte, les DNS et les réglages IMAP.
-- Google Workspace : l’offre Business Starter coûte 6,80 € HT par utilisateur et par mois avec l’engagement annuel, [d’après Google](https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans?hl=fr). Elle a du sens si votre équipe vit déjà dans Gmail, Drive et Meet.
+- Spacemail, la messagerie de Spaceship : moins de 1 € par mois et par boîte au moment où j’écris (octobre 2026), le prix étant affiché en dollars sur [les offres Spacemail de Spaceship](https://www.spaceship.com/business-email/). C’est celle que je recommande, et {{< a key="spacemail-setup" >}}configurer Spacemail{{< /a >}} couvre la boîte, les DNS et les réglages IMAP.
+- Google Workspace : l’offre Business Starter coûte 6,80 € HT par utilisateur et par mois avec l’engagement annuel, [d’après Google](https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans?hl=fr). Elle se justifie si votre équipe travaille déjà dans Gmail, Drive et Meet.
 - Microsoft 365 : le même principe, autour d’Outlook et de Teams. J’ai géré mes emails chez Microsoft, et c’était pénible. Je n’ai jamais eu ce problème avec les messageries de Namecheap et de Spaceship.
 - La kSuite d’Infomaniak : messagerie, stockage et outils collaboratifs hébergés en Suisse, présentés dans l’avis Infomaniak cité plus haut.
 
@@ -127,11 +127,11 @@ spacemail._domainkey      TXT    "v=DKIM1; k=rsa; p=<clé fournie par Spaceship>
 _dmarc                    TXT    "v=DMARC1; p=none; rua=mailto:dmarc@votre-entreprise.fr"
 ```
 
-Dans la zone DNS d’OVHcloud, la racine (@) correspond au sous-domaine laissé vide.
+Dans la zone DNS d’OVHcloud, la racine (@) correspond au sous-domaine laissé vide. Comme le domaine n’est pas chez Spaceship, Spacemail demande aussi un enregistrement TXT de vérification, dont la valeur figure dans votre compte Spaceship.
 
 La moitié haute concerne le site, la moitié basse les emails. **Pour déménager le site, vous ne touchez qu’à la moitié haute ; pour changer de messagerie, qu’à la moitié basse.** C’est cette séparation qui permet à trois sociétés de travailler ensemble sans se connaître.
 
-Deux erreurs reviennent souvent. Un CNAME ne se met jamais sur la racine du domaine (les lignes @) : la racine porte déjà d’autres enregistrements, comme les serveurs de noms, les MX et les TXT, et un CNAME ne peut partager son nom avec aucun autre enregistrement. Certains hébergeurs DNS, dont Spaceship, proposent pour ce cas un enregistrement Alias. Et quand une plateforme propose de reprendre vos serveurs de noms, lisez d’abord les conditions. Squarespace prévient que sa connexion par serveurs de noms supprime les CNAME et peut casser une messagerie configurée par enregistrements DNS : il conseille alors de relier le domaine par enregistrements DNS pour garder les vôtres.
+Deux erreurs sont fréquentes. Un CNAME ne se met jamais sur la racine du domaine (les lignes @) : la racine porte déjà d’autres enregistrements, comme les serveurs de noms, les MX et les TXT, et un CNAME ne peut partager son nom avec aucun autre enregistrement. Certains hébergeurs DNS, dont Spaceship, proposent pour ce cas un enregistrement Alias. Et quand une plateforme propose de reprendre vos serveurs de noms, lisez d’abord les conditions. Squarespace prévient que sa connexion par serveurs de noms supprime les CNAME et peut casser une messagerie configurée par enregistrements DNS : il conseille alors de relier le domaine par enregistrements DNS pour garder les vôtres.
 
 {{< callout type="warning" >}}**Le point final.** Dans la zone DNS d’OVHcloud, une cible CNAME saisie `ext-cust.squarespace.com` peut être enregistrée comme `ext-cust.squarespace.com.votre-entreprise.fr`, et la connexion échoue. Tapez-la avec un point final : `ext-cust.squarespace.com.` Les domaines OVHcloud et Squarespace sont ceux qui m’ont donné du fil à retordre, et le seul problème, c’était ce point.{{< /callout >}}
 
@@ -146,7 +146,7 @@ Tout prendre chez la même société est tentant : un compte, une facture, un s
 | Mise en place | La plus rapide, avec des enregistrements souvent ajoutés pour vous | Quelques enregistrements à recopier à la main |
 | Facturation | Une seule facture, mais des prix d’appel souvent liés à un long engagement | Plusieurs petites factures, faciles à comparer |
 | Changer une pièce | Les autres peuvent être emportées avec | Vous en déplacez une, les autres continuent |
-| Compte perdu ou piraté | Tout tombe en même temps | Les dégâts restent au même endroit |
+| Compte perdu ou piraté | Tout tombe en même temps | Seule cette pièce est exposée, sauf s’il s’agit du compte du registrar |
 
 La configuration que je conseille à la plupart des petites entreprises : le domaine et les emails chez un registrar de confiance (pour moi, par habitude, Spaceship et Spacemail), et le site là où il est le mieux construit. Autrement dit, Squarespace pour qui veut modifier son site sans aide, o2switch ou GitHub Pages pour un site codé. Ce que j’éviterais : un pack choisi pour son prix de première année. Les offres de Hostinger ne sont bon marché que sur de longs engagements prépayés, et le renouvellement raconte une autre histoire.
 
@@ -170,10 +170,7 @@ Pour une entreprise qui vend en France, le .fr est le choix naturel : il dit au
 
 Le .fr a ses règles. D’après [la charte de nommage de l’Afnic](https://www.afnic.fr/wp-media/uploads/2026/07/afnic-charte-de-nommage-06-07-2026.pdf) (juillet 2026), il peut être déposé par une personne qui réside, ou une entreprise établie, dans l’Union européenne, en Islande, au Liechtenstein, en Norvège ou en Suisse : une société établie uniquement au Royaume-Uni ne peut donc pas en être titulaire. Le titulaire doit aussi rester joignable, par téléphone et par email, sous peine de blocage puis de suppression du domaine. {{< a key="fr-domain-names" >}}Le guide du nom de domaine .fr{{< /a >}} détaille ces conditions, les prix et l’enregistrement pas à pas.
 
-Deux conseils pratiques :
-
-- Choisissez l’extension que vous imprimerez, puis gardez-la. Changer de domaine plus tard signifie des redirections, de nouvelles adresses email et une nouvelle série de DNS.
-- Comparez le renouvellement, pas la première année : c’est là que les écarts se creusent.
+Enfin, choisissez l’extension que vous imprimerez, puis gardez-la : changer de domaine plus tard signifie des redirections, de nouvelles adresses email et une nouvelle série de DNS.
 
 ## Tout mettre en place dans le bon ordre (et quand passer la main)
 
@@ -183,7 +180,7 @@ Voici l’ordre que je conseille. Il se termine comme chacun des sites que je li
 2. Choisissez où vivra le site : un créateur comme Squarespace, un hébergeur pour WordPress ou un site codé, ou GitHub Pages pour un site vitrine statique.
 3. Installez la messagerie. Créez les boîtes, ajoutez les MX, puis SPF, DKIM et DMARC.
 4. Construisez le site sur son adresse provisoire. La plupart des plateformes en fournissent une pendant le travail, comme l’adresse intégrée de Squarespace ou `<utilisateur>.github.io`.
-5. Reliez le domaine en dernier. Supprimez la page de parking ou les redirections sur @ et www, ajoutez les enregistrements A et CNAME de la plateforme, et ne touchez ni aux MX ni aux TXT. Attention au point final.
+5. Reliez le domaine en dernier. Ajoutez-le d’abord sur la plateforme (GitHub l’exige avant tout changement DNS, pour qu’aucun autre compte ne puisse utiliser votre domaine), puis supprimez la page de parking ou les redirections sur @ et www, ajoutez les enregistrements A et CNAME de la plateforme, et ne touchez ni aux MX ni aux TXT. Attention au point final.
 6. Vérifiez tout. Ouvrez le site avec et sans www, contrôlez le cadenas (HTTPS), et envoyez un email de test vers une adresse Gmail : **Afficher l’original** doit indiquer PASS pour SPF, DKIM et DMARC.
 7. Notez où tout se trouve : registrar, hébergeur DNS, hébergeur du site, messagerie, dates de renouvellement, et qui a accès à quoi.
 

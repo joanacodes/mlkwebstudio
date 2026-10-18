@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:12:00+02:00
 category: "seo"
 article_type: "guide"
 keywords: ["Core Web Vitals", "website speed", "how to speed up a website", "PageSpeed Insights", "LCP INP CLS", "Core Web Vitals report"]
-summary: "Core Web Vitals are Google's three measures of how a page feels to real visitors: LCP, how quickly the main content appears (good at 2.5 seconds or less), INP, how quickly the page reacts to a tap or click (200 milliseconds or less), and CLS, how much the layout moves (0.1 or less). Google's ranking systems use them, but good scores do not guarantee rankings. On small business sites, heavy images, fonts and third-party scripts cause most of the slowness."
+summary: "Core Web Vitals are Google's three measures of how a page feels to real visitors: LCP, how quickly the main content appears (good at 2.5 seconds or less), INP, how quickly the page reacts to a tap or click (200 milliseconds or less), and CLS, how much the layout moves (0.1 or less). Google's ranking systems use them, but good scores do not guarantee rankings. To speed up a small business site, start with the usual culprits: oversized images, too many fonts and third-party scripts."
 cover: "core-web-vitals-speed"
 cover_alt: "A rising line chart behind fluted glass, next to a cup of coffee and a laptop, with the letters LCP, INP and CLS"
 related: ["google-search-console-tutorial", "website-conversion-rate", "on-page-seo-checklist", "build-website-with-ai", "wix-platforms-history"]
@@ -18,7 +18,7 @@ faq:
   - q: "What is a good PageSpeed Insights score?"
     a: "The lab score runs from 0 to 100: 90 and above shows in green, 50 to 89 in orange and below 50 in red. Treat it as a diagnostic. The Core Web Vitals assessment at the top of the report, based on real visits, is the part that reflects what Google measures."
   - q: "What replaced First Input Delay (FID)?"
-    a: "Interaction to Next Paint (INP) replaced First Input Delay as a Core Web Vital on 12 March 2024. FID only measured the delay before the first interaction; INP looks at taps, clicks and key presses throughout the visit and reports one of the slowest."
+    a: "Interaction to Next Paint (INP) replaced First Input Delay as a Core Web Vital on 12 March 2024. FID only measured how long the first interaction waited before the browser started handling it; INP times taps, clicks and key presses throughout the visit, up to the moment the page visibly responds, and reports one of the slowest."
   - q: "Why is my mobile score lower than my desktop score?"
     a: "PageSpeed Insights tests the mobile version on a simulated mid-range phone with a slower connection, so the same page scores lower. Google assesses phones and computers separately: check mobile first, because that is where a heavy page hurts most."
   - q: "Does web hosting affect Core Web Vitals?"
@@ -29,7 +29,7 @@ faq:
 
 Core Web Vitals are three measures Google uses to judge how a page feels to the people who visit it: how quickly the main content appears, how quickly the page reacts when someone taps it, and whether the layout jumps around while it loads. They are measured on real visits, separately for phones and computers, and Google's ranking systems use them.
 
-On a small business website, the causes of a poor result are rarely clever. A photo straight off a phone at the top of the home page, four font families, a chat widget nobody uses, a cookie banner that pushes the page down: you can fix most of it yourself, without a developer.
+On a small business website, the causes of a poor result are rarely mysterious. A photo straight off a phone at the top of the home page, four font families, a chat widget nobody uses, a cookie banner that pushes the page down: you can fix most of it yourself, without a developer.
 
 This guide explains what each measure means, how to test your pages in PageSpeed Insights and Search Console, and what to fix first on Squarespace, Wix, WordPress or a hand-built site. It is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}.
 
@@ -43,7 +43,7 @@ Core Web Vitals are three metrics, defined by Google, that measure loading, resp
 | **INP**, Interaction to Next Paint | How long the page takes to react visibly to a tap, click or key press | 200 milliseconds or less | Over 500 milliseconds |
 | **CLS**, Cumulative Layout Shift | How much the content moves unexpectedly while the page is open | 0.1 or less | Over 0.25 |
 
-A page meets a threshold when at least 75 per cent of visits do, which Google calls the 75th percentile, and phones and computers are assessed separately ([web.dev](https://web.dev/articles/defining-core-web-vitals-thresholds)). In plain words, three visits out of four should see the main content within 2.5 seconds, get a response to their taps within a fifth of a second and never see the page jump under their thumb. A page passes only when all three metrics are good.
+A page meets a threshold when at least 75 per cent of visits do, which Google calls the 75th percentile, and phones and computers are assessed separately ([web.dev](https://web.dev/articles/defining-core-web-vitals-thresholds)). In plain words, three visits out of four should see the main content within 2.5 seconds, get a response to their taps within a fifth of a second and barely see the layout move under their thumb. A page passes only when all three metrics are good.
 
 ## Do Core Web Vitals affect your Google rankings?
 
@@ -120,21 +120,19 @@ I use {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity{{< /a >}} to s
 |---|---|
 | Images and embeds with no reserved space, so the text below jumps when they arrive | Give every image and embed its width and height |
 | A cookie banner or announcement bar inserted above the content | Display it over the page, fixed at the bottom of the screen |
-| Web fonts that arrive late and change the size of the text | Fewer font files: two families with two weights each is plenty for most sites |
+| Web fonts that arrive late and change the size of the text | Preload the main font file and pick a fallback font of similar width, so the swap barely moves the text. Fewer files help too: two families with two weights each is plenty for most sites |
 
 ## Fixes by platform: Squarespace, Wix, WordPress and hand-built sites
 
-What you can change depends on where the site is built.
-
 **Squarespace** hosts the site and serves each image you upload in several sizes, so your levers are what you put on the page: lighter images to start with, fewer fonts, a still photo instead of a background video, and as little third-party code as possible in code injection and code blocks. I give Squarespace to clients who want to edit their own site. I usually add some code to those sites, and I keep it light, because a script injected site-wide runs on every page.
 
-**Wix** feels laggy to me, on every device, connection and country where I have used it. That is my experience of working in the editor; your published site is a separate question, so measure it in PageSpeed Insights rather than trust my impression. If it fails, the levers are the same as on Squarespace, plus the apps added from the Wix App Market, each of which can bring its own code. My {{< a key="wix-platforms-history" >}}verdict on Wix's platforms{{< /a >}} explains why I steer solo owners elsewhere.
+**Wix** feels laggy to me, on every device, connection and country where I have used it. That is my experience of building sites with it; how fast your published site loads for visitors is a separate question, so measure it in PageSpeed Insights rather than trust my impression. If it fails, the levers are the same as on Squarespace, plus the apps added from the Wix App Market, each of which can bring its own code. My {{< a key="wix-platforms-history" >}}verdict on Wix's platforms{{< /a >}} explains why I steer solo owners elsewhere.
 
-**WordPress** gives you the most control, and the most ways to slow a site down: a heavy theme or page builder, plugins that each add files to every page, and cheap hosting without a cache. The WordPress clients who come to me usually want to leave because of the learning curve and the plugins to manage, so I move solo owners who edit their own site to Squarespace. With a specialist who looks after it every month, WordPress can be fast: fewer plugins, page caching and decent hosting do most of the work.
+**WordPress** gives you more control than a site builder, and more ways to slow a site down: a heavy theme or page builder, plugins that each add files to every page, and cheap hosting without a cache. The WordPress clients who come to me usually want to leave it, because of the learning curve and the plugins to manage. With a specialist who looks after it every month, WordPress can be fast: fewer plugins, page caching and decent hosting do most of the work.
 
 **Hand-built and static sites** start with an advantage. A static site is a set of pages built in advance, with no database to query on each visit; this blog runs on Hugo, a static site generator, on GitHub Pages. On the {{< a page="/projects/pilotech-toshiba" >}}Toshiba air conditioning site I built for Pilotech{{< /a >}}, which runs on Jekyll, the CSS is precompiled into a finished stylesheet before publication, and the icons are served from the site itself rather than from another company's server. That removes two common sources of delay before any testing starts. If you are planning a simple site, my tutorial on how to {{< a key="build-website-with-ai" >}}build a website with AI{{< /a >}} and host it on GitHub Pages starts from this kind of set-up.
 
-On a hand-built site, the image and font fixes above come down to a few attributes:
+On a hand-built site, the image and font fixes above come down to a few lines of HTML:
 
 ```html
 <!-- Hero image: size reserved, fetched first, never lazy-loaded -->
@@ -143,7 +141,10 @@ On a hand-built site, the image and font fixes above come down to a few attribut
 <!-- Further down the page: size reserved, lazy-loaded -->
 <img src="/images/team.webp" width="800" height="600" loading="lazy" alt="The team on a job">
 
-<!-- Fallback font shown at once, replaced by the web font when it arrives -->
+<!-- In the <head>: main font file requested early -->
+<link rel="preload" href="/fonts/brand.woff2" as="font" type="font/woff2" crossorigin>
+
+<!-- Text shown at once in a fallback font, swapped when the web font arrives -->
 <style>
   @font-face {
     font-family: "Brand";
@@ -152,6 +153,8 @@ On a hand-built site, the image and font fixes above come down to a few attribut
   }
 </style>
 ```
+
+With `swap`, the text is readable while the font loads, but the swap itself can nudge it. If the font still shows up under **Layout shift culprits**, `font-display: optional` removes the shift: on a visit where the web font arrives too late, the browser simply keeps the fallback font.
 
 ## A one-hour speed check, and when to hand it over
 

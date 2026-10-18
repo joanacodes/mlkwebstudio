@@ -35,7 +35,7 @@ Ces huit étapes complètent mon {{< a key="small-business-seo-guide" >}}guide d
 
 ## Ce qui fait qu’un article de blog amène des clients
 
-Un article qui rapporte du travail fait deux choses : il se positionne sur la recherche de quelqu’un qui a un problème, puis l’emmène en un clic vers la page qui le résout.
+Un article qui rapporte du travail se positionne sur la recherche de quelqu’un qui a un problème, puis l’emmène en un clic vers la page qui le résout.
 
 Mon exemple le plus parlant est le {{< a page="/projects/pilotech-vmi" >}}site de Pilotech consacré à la ventilation{{< /a >}}. Son blog compte 21 articles, chacun construit autour d’un problème concret : la condensation dans les combles, les taches noires et les moisissures en appartement, une cave à vin trop humide. **Chaque article renvoie vers la fiche de la centrale adaptée au problème qu’il décrit.** Le visiteur peut lire l’article, passer à la centrale, télécharger sa brochure, puis appeler ou écrire pour un devis.
 
@@ -131,7 +131,7 @@ Les [conseils de Google sur les contenus utiles, fiables et axés sur les person
 
 ## Étape 6 : rédiger avec l’IA, puis retravailler à la main
 
-J’écris avec l’IA, et depuis son arrivée mes délais de livraison ont fondu. Avec elle, je rassemble ce que j’ai appris sur l’entreprise et ma recherche SEO, puis je reprends et je corrige jusqu’à ce que le texte me satisfasse. J’utilise Claude : dans mon travail, ChatGPT a tendance à halluciner un peu trop, alors que Claude est extrêmement fiable.
+J’écris avec l’IA, et depuis son arrivée mes délais de livraison ont fondu. Avec elle, je rassemble ce que j’ai appris sur l’entreprise et ma recherche SEO, puis je reprends et corrige jusqu’à ce que le texte me satisfasse. J’utilise Claude : dans mon travail, ChatGPT a tendance à halluciner un peu trop, alors que Claude est extrêmement fiable.
 
 C’est la reprise qui fait l’article :
 
@@ -148,7 +148,7 @@ Un article qui se positionne mais ne mène nulle part apporte des visites, pas d
 
 Depuis la page de service, renvoyez vers les articles qui répondent à ses questions fréquentes, et reliez les articles voisins entre eux et au guide principal de leur sujet.
 
-Rendez ensuite l’étape suivante facile. Beaucoup de prospects préfèrent appeler : dans les campagnes de cold emailing que je mène pour Pilotech, les architectes surtout ont souvent appelé au lieu de répondre, parce qu’un appel se glisse mieux dans une journée chargée. La page de destination doit donc afficher un numéro de téléphone, pas seulement un formulaire. Sur le {{< a page="/projects/pilotech-teknopoint" >}}site Teknopoint{{< /a >}}, le blog répond aux questions que l’on se pose avant d’acheter, comme camoufler sa climatisation, et les pages des gammes donnent l’étape suivante.
+Beaucoup de prospects préfèrent appeler : dans les campagnes de cold emailing que je mène pour Pilotech, les architectes surtout ont souvent appelé au lieu de répondre, parce qu’un appel se glisse mieux dans une journée chargée. La page de destination doit donc afficher un numéro de téléphone, pas seulement un formulaire. Sur le {{< a page="/projects/pilotech-teknopoint" >}}site Teknopoint{{< /a >}}, le blog répond aux questions que l’on se pose avant d’acheter, comme camoufler sa climatisation, et les pages des gammes donnent l’étape suivante.
 
 ## Étape 8 : écrire le titre, la meta description et l’adresse de la page
 
@@ -162,7 +162,7 @@ Les [Essentiels de la recherche Google](https://developers.google.com/search/doc
 | Meta description | Ce que le lecteur va apprendre, en 150 caractères environ | Pourquoi la condensation se forme dans un appartement, les gestes qui la réduisent et quelle ventilation choisir quand aérer ne suffit plus. |
 | Texte alternatif | Ce que montre la photo | Condensation sur la fenêtre d’une chambre en hiver |
 
-Google décide de ce qui apparaît dans ses résultats. Il part en général de votre balise title, mais peut reprendre votre titre principal ou un autre texte quand le title est vague ou bourré de mots-clés, et il affiche votre meta description quand elle décrit la page mieux qu’un extrait de son texte. Écrivez les deux pour une personne qui choisit entre dix résultats.
+Google décide de ce qu’il affiche. Il part en général de votre balise title, mais peut lui préférer votre titre principal ou un autre texte si elle est vague ou bourrée de mots-clés ; il n’affiche votre meta description que si elle décrit mieux la page qu’un extrait du texte. Écrivez les deux pour une personne qui choisit entre dix résultats.
 
 Je rédige les métadonnées une fois le contenu terminé, et cela paie : un site que j’ai réalisé pour un client sur Squarespace, une plateforme fermée, se classe premier ou deuxième sur Google grâce aux bons mots-clés et aux bonnes métadonnées. Chaque réglage figure dans ma {{< a key="on-page-seo-checklist" >}}checklist SEO on-page{{< /a >}}.
 
@@ -176,7 +176,7 @@ La Search Console vous dit sur quelles recherches chaque article se positionne. 
 
 Si la Search Console n’est pas encore installée, mon {{< a key="google-search-console-tutorial" >}}tuto Google Search Console{{< /a >}} vous guide pas à pas.
 
-La Search Console compte des clics, pas des clients. Les demandes arrivent par formulaire et par téléphone : demandez donc à chaque nouveau client comment il a connu votre entreprise, et quel article il a lu s’il s’en souvient. J’utilise aussi Microsoft Clarity pour voir où les visiteurs s’attardent et quelles parties les font fuir, et savoir s’il faut corriger le texte, une image ou la mise en page.
+La Search Console compte des clics, pas des clients. Les demandes arrivent par formulaire et par téléphone : demandez donc à chaque nouveau client comment il a connu votre entreprise, et quel article il a lu s’il s’en souvient. J’utilise aussi Microsoft Clarity pour voir où les visiteurs s’attardent et ce qui les fait fuir : le texte, une image ou la mise en page.
 
 Laissez quelques mois à un article avant de le juger, et mettez-le à jour dès qu’un fait change : un prix, une règle, un produit.
 

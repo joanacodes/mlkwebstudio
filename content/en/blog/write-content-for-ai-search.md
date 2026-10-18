@@ -29,7 +29,7 @@ faq:
 
 When someone asks ChatGPT, Gemini or Google's AI Mode a question that needs current or local information, the assistant searches the web, reads a handful of pages and builds its answer from the passages that answer best, often with a link to each source. To write content for AI search, you write passages worth lifting: the answer first, plain definitions, figures with a date, and facts that only your business has.
 
-None of this is a new discipline. Google's guide to its generative AI features, published on 15 May 2026, says that optimising for them is still SEO, because they rest on the same ranking and quality systems as the rest of Search, and that you do not need to cut your pages into chunks or rewrite them for AI ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). The habits below are clarity habits: they help a hurried reader first, and an assistant looking for a sentence to quote second.
+Google's guide to its generative AI features, published on 15 May 2026, says that optimising for them is still SEO, because they rest on the same ranking and quality systems as the rest of Search, and that you do not need to cut your pages into chunks or rewrite them for AI ([Google Search Central](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide)). The habits below are clarity habits: they help a hurried reader first, and an assistant looking for a sentence to quote second.
 
 This tutorial takes them one by one, with before-and-after rewrites you can adapt for your own pages. It is part of my {{< a key="ai-search-geo-guide" >}}complete guide to generative engine optimisation{{< /a >}}.
 
@@ -65,8 +65,6 @@ You cannot answer first if you do not know the question. Three sources give you 
 ```text
 ^(how|what|why|when|where|which|who|can|do|does|is|should)\s
 ```
-
-The list shows the questions people already type before they reach your site.
 
 {{< screenshot id="write-content-for-ai-search-01" alt="Search Console Performance report with a Custom (regex) query filter, listing searches that start with how, what or why" >}}
 
@@ -119,7 +117,7 @@ An air-to-air heat pump is air conditioning that also heats: the
 same indoor units cool the room in summer and heat it in winter.
 ```
 
-The second version is shorter and says more. "Increasingly popular" and "for good reason" are claims with nothing behind them, while the definition is a fact the reader can use.
+The second version is shorter and says more: "increasingly popular" and "for good reason" claim nothing a reader can check, while the definition gives a usable fact.
 
 ## Step 4: swap vague claims for numbers, dates and names
 
@@ -197,13 +195,13 @@ The second version could only come from someone who has run those campaigns, and
 
 I draft with AI myself. I use Claude, partly because in my experience ChatGPT makes things up a bit too often, and I keep editing and asking for new versions until the copy is right.
 
-Left alone, though, an AI draft produces the "before" versions above: the average of every similar page, with no dates, no names and nothing of yours. Give it your facts before you ask for text, and check every figure afterwards. Google's [guidance on AI-generated content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) holds AI-assisted pages to the same standards as any other, and warns that producing many pages with AI without adding value for users can count as scaled content abuse. Since an update on 1 October 2026, it also says that all AI-generated content should be fact-checked and reviewed by hand before publishing. My method for {{< a key="ai-writing-sound-human" >}}making AI writing sound human{{< /a >}} covers the prompts and the edit.
+Left alone, though, an AI draft produces the "before" versions above: the average of every similar page, with no dates, no names and nothing of yours. Give it your facts before you ask for text, and check every figure afterwards. Google's [guidance on AI-generated content](https://developers.google.com/search/docs/fundamentals/using-gen-ai-content) holds AI-assisted pages to the same standards as any other, and warns that producing many pages with AI without adding value for users can count as scaled content abuse. Since 1 October 2026, it also says that all AI-generated content must be fact-checked and reviewed by hand before publishing. My method for {{< a key="ai-writing-sound-human" >}}making AI writing sound human{{< /a >}} covers the prompts and the edit.
 
 ## How to check whether a rewritten page gets quoted
 
 Give Google time to recrawl the page, which can take from a few days to a few weeks, then look in three places:
 
-1. **Search Console.** The generative AI report for Search, next to the other **Performance** reports, shows how often each page appears in AI Overviews and AI Mode. It counts impressions only, with no clicks or queries, and the same impressions are already counted in the main Web report, so never add the two together. Compare the same page over periods of the same length, before and after the rewrite.
+1. **Search Console.** The generative AI report for Search, next to the other **Performance** reports, shows how often each page appears in AI Overviews and AI Mode. It counts impressions only, already included in the main Web report, with no clicks or queries, so compare the same page over periods of the same length, before and after the rewrite.
 2. **Bing Webmaster Tools.** The **AI Performance** report counts the citations of each page in Copilot and Bing's AI summaries.
 3. **The assistants themselves.** Once a month, ask the questions from step 1 in ChatGPT, Gemini and Perplexity, in a private window, with exactly the same wording, and note which sites are cited. My tutorial on how to {{< a key="check-ai-visibility" >}}check your AI visibility{{< /a >}} shows how to log the answers month by month.
 

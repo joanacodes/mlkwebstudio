@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:25:00+02:00
 category: "marketing"
 article_type: "guide"
 keywords: ["Facebook ads mistakes", "Meta ads mistakes", "Facebook ads not working", "Facebook ads A/B testing", "Facebook Ad Library", "Facebook ads for small business"]
-summary: "The two Facebook ads mistakes that waste the most money are skipping the research and skipping A/B tests. Meta has no keywords, so research means learning your buyers' words and problems and studying the ads already running in the Ad Library; then test one change at a time, for at least 7 days, with money set aside for it. Next come the wrong objective, missing tracking and a landing page that does not answer the ad."
+summary: "The two Facebook ads mistakes I warn founders about first are skipping the research and skipping A/B tests. Meta has no keywords, so research means learning your buyers' words and problems and studying the ads already running in the Ad Library; then test one change at a time, for at least 7 days, with money set aside for it. Next come the wrong objective, missing tracking and a landing page that does not answer the ad."
 cover: "facebook-ads-mistakes"
 cover_alt: "The words Meta Ads with a megaphone outline, next to a hand writing figures in a table"
 related: ["google-ads-vs-facebook-ads", "instagram-algorithm-2026", "google-ads-small-business", "keyword-research-small-business", "shiny-object-syndrome"]
@@ -29,7 +29,7 @@ Facebook ads mistakes rarely come from the interface. They happen before the fir
 
 Facebook ads (Meta ads, officially) are built in Ads Manager and can run on Facebook, Instagram and Meta's other apps. In my view, they work for both awareness and sales. The catch is that you have to spend money on A/B tests before you know what works, and each mistake below makes those tests more expensive.
 
-Here are the ten I would check first, roughly in the order they happen, with the fix for each. This guide is part of my guide on {{< a key="how-to-get-more-clients" >}}how to get more clients{{< /a >}}, which compares every channel.
+Here are the ten I would check first, roughly in the order they happen, with the fix for each. To see how Meta ads compare with the other channels, read my guide on {{< a key="how-to-get-more-clients" >}}how to get more clients{{< /a >}}.
 
 ## Mistake 1: skipping the research, because Meta has no keywords
 
@@ -45,9 +45,9 @@ That is why keyword research still matters here, in another form: you research t
 
 ### Study the ads already running in the Ad Library
 
-[Meta's Ad Library](https://www.facebook.com/ads/library/) is free and open to anyone. It shows the ads currently running on Facebook, Instagram and Meta's other apps, for any advertiser. Search for your competitors by name, or for a word from your trade, and set the country to the United Kingdom.
+[Meta's Ad Library](https://www.facebook.com/ads/library/) is free and open to anyone. It shows the ads currently running on Facebook, Instagram and Meta's other apps, for any advertiser. Set the country to the United Kingdom and the ad category to **All ads**, then search for your competitors by name or for a word from your trade.
 
-For each ad, note the offer, the first line, the format and the date it started running. An ad that has been running for months is probably paying for itself; one that changes every week probably is not.
+For each ad, note the offer, the first line, the format and the date it started running. An ad that has been running for months is probably paying for itself; an advertiser whose ads change every week is probably still testing.
 
 Do not copy them. Look for what they all promise, then for what none of them says: that gap is your angle. Then write the ad from your notes: the first line names the problem in your buyer's words, and the image shows the result or the kind of person you help.
 
@@ -62,7 +62,7 @@ Meta has a built-in tool for this. It splits the audience so that each version g
 ### How to run a clean test
 
 1. **Test one variable.** The image or the first line, the audience or the placement: one at a time, or you will not know what made the difference.
-2. **Start with what people see.** I would test the first line and the image before any fine-tuning of the targeting.
+2. **Start with what people see.** Test the first line and the image before you fine-tune the targeting.
 3. **Run it for at least 7 days.** Meta recommends a minimum of 7 days, because shorter tests may be inconclusive, and a test cannot run longer than 30.
 4. **Read the result when the test ends,** not on day two.
 5. **Keep the winner,** then test the next element against it.
@@ -73,7 +73,7 @@ Meta has a built-in tool for this. It splits the audience so that each version g
 
 Put a figure on the learning before launch: how much you will spend, over how many days, and what result would make you stop. Treat that money as the price of the research, not as a failed campaign.
 
-Each version needs enough budget to produce results of its own. Two versions sharing a tiny budget tell you nothing, however long you wait.
+Each version needs enough budget to produce results of its own. Two versions sharing a tiny budget rarely produce a clear winner, even over the full 30 days.
 
 ## Mistake 3: choosing an objective that does not match the result you want
 
@@ -81,7 +81,7 @@ Ads Manager asks for an objective first: **Awareness**, **Traffic**, **Engagemen
 
 If you want enquiries, choose Leads, with an instant form or a form on your site. If you want online sales, choose Sales. Keep Awareness for when people need to know you exist before they will buy, and judge it on reach, not on calls.
 
-The **Boost** button under a post is the same trap in a shortcut. It is quick, and fine for giving a post that already works a little more reach, but it offers fewer choices than Ads Manager, where the tests above are built. Boosting does not fix weak organic reach either: what decides who sees your unpaid posts is covered in my update on the {{< a key="instagram-algorithm-2026" >}}Instagram algorithm in 2026{{< /a >}}.
+The **Boost** button under a post is a shortcut to the same trap. It is quick, and fine for giving a post that already works a little more reach, but it offers fewer choices than Ads Manager, where the tests above are built. Boosting does not fix weak organic reach either: what decides who sees your unpaid posts is covered in my update on the {{< a key="instagram-algorithm-2026" >}}Instagram algorithm in 2026{{< /a >}}.
 
 ## Mistake 4: launching without tracking
 
@@ -90,15 +90,15 @@ If Meta cannot see the enquiries and sales, it optimises for whatever it can see
 - **the Meta Pixel**, a snippet of code on your site that reports what visitors do after the click (a form sent, a purchase);
 - **the Conversions API**, which sends the same events from your website's server or platform, so fewer are lost to browsers that block trackers.
 
-Most website builders and online shop platforms offer a Meta integration: use it rather than pasting code by hand. Then run a test of your own: fill in your form and check that the event appears in Events Manager before you spend a penny.
+Most website builders and online shop platforms offer a Meta integration: use it rather than pasting code by hand. Then run a test of your own: fill in your form and check that the event arrives in the **Test events** tab of Events Manager before you spend a penny.
 
-{{< callout type="note" >}}In the UK and in France, the Pixel is an advertising tracker, so it should only fire once the visitor has accepted it in your cookie banner. Set it up to respect that choice, and expect it to count fewer results than your inbox does.{{< /callout >}}
+{{< callout type="note" >}}In the UK and in France, the Pixel is an advertising tracker, so it should only fire once the visitor has accepted it in your cookie banner. Set up the Pixel and the Conversions API to respect that choice, and expect them to count fewer results than your inbox does.{{< /callout >}}
 
 ## Mistake 5: building the audience like a keyword list
 
-Stacking five interests and a three-mile radius feels precise. In practice, it leaves Meta's delivery system very few people to choose from, which tends to make each result more expensive. On many campaigns, Ads Manager now offers Advantage+ audience, which keeps your location as a firm limit but treats interests and other details as suggestions.
+Requiring people to match several interests at once, inside a three-mile radius, feels precise. In practice, it leaves Meta's delivery system very few people to choose from, which tends to make each result more expensive. On many campaigns, Ads Manager now starts with Advantage+ audience: your location and minimum age stay firm limits, while interests, age ranges and your own audiences become suggestions that Meta may go beyond.
 
-So let the ad do the filtering. An ad that opens with "For landlords with tenants in Leeds" is ignored by everyone else, whatever the settings say. Keep the location to the area you really serve, and spend your precision where it pays:
+So let the ad do the filtering. An ad that opens with "For landlords with tenants in Leeds" is ignored by everyone else, whatever the settings say. Keep the location to the area you really serve, and put your effort where it pays:
 
 - **custom audiences**: people who visited your website, engaged with your Page or Instagram account, or are on a customer list you are allowed to use for advertising;
 - **lookalike audiences**: people who resemble your best customers;
@@ -108,7 +108,7 @@ So let the ad do the filtering. An ad that opens with "For landlords with tenant
 
 After launch, and after every significant edit, an ad set goes through a learning phase while Meta works out who to show it to. Results swing during this period. [Meta's help on the learning phase](https://www.facebook.com/business/help/112167992830700) describes it, and its guidance talks of about 50 results in a week before delivery settles.
 
-Any change to the targeting, the creative or the optimisation, like a large jump in budget, can send the ad set back to the start. So pick one day a week to read the results, make your changes then, and leave the campaign alone in between. A small budget makes this harder, not easier: the fewer results you get, the longer the learning lasts.
+A change to the targeting, the creative or the optimisation event, or a large jump in budget, can send the ad set back to the start. So pick one day a week to read the results, make your changes then, and leave the campaign alone in between. A small budget makes this harder, not easier: the fewer results you get, the longer the learning lasts. If an ad set cannot get enough results, Ads Manager marks it **Learning limited**: combine ad sets, widen the audience or optimise for a more frequent result, such as a form sent rather than a sale, instead of editing it every day.
 
 ## Mistake 7: judging the ads on likes and clicks
 
@@ -138,7 +138,7 @@ Read the comments under your ads too. Answer the questions, hide the spam and no
 
 ## Mistake 10: adding Meta ads when another channel fits better
 
-Meta ads put you in front of people who are not looking for you yet. In my view, they suit awareness and conversion, as long as you budget for the testing. They are not always the right channel, though:
+Meta ads put you in front of people who are not looking for you yet, and that is not always what you need:
 
 - if people already search for what you sell, {{< a key="google-ads-small-business" >}}Google Ads{{< /a >}} meets them at the moment they look, and it is not that tricky once you have done the research;
 - if you sell to businesses with bigger tickets, LinkedIn Ads burn cash fast, but they can bring larger deals when you do things right;

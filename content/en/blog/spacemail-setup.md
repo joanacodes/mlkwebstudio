@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:48:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["Spacemail setup", "Spacemail DNS records", "Spacemail IMAP settings", "Spacemail SMTP settings", "Spacemail MX records", "Spacemail price"]
-summary: "To set up Spacemail, choose a plan (Pro, Business or Advanced, each with a 30-day free trial), connect it to your domain with Unbox in Spacemail Manager and create the mailbox. On Spaceship's nameservers the mail records are added for you; elsewhere, add two MX records (mx1 and mx2.spacemail.com), the SPF include and the DKIM key, and check that a DMARC record exists. Then connect your apps over IMAP (mail.spacemail.com, port 993) and SMTP (port 465)."
+summary: "To set up Spacemail, choose a plan (Pro, Business or Advanced, each with a 30-day free trial), connect it to your domain with Unbox in Spacemail Manager and create the mailbox. On Spaceship's nameservers the mail records are added for you; elsewhere, add two MX records (mx1 and mx2.spacemail.com), the SPF include and the DKIM key. Either way, add a DMARC record if the domain has none, then connect your apps over IMAP (mail.spacemail.com, port 993) and SMTP (port 465)."
 cover: "spacemail-setup"
 cover_alt: "Spacemail inbox connected to a domain through its MX, SPF and DKIM records"
 related: ["spaceship-domain-dns-tutorial", "professional-email-address", "spf-dkim-dmarc-setup", "best-email-provider-cold-email", "spaceship-vs-namecheap"]
@@ -29,25 +29,25 @@ faq:
 
 Spacemail is the business email service of Spaceship, the registrar Namecheap built, and a Spacemail setup comes down to three jobs: create the mailbox, publish the DNS records that route mail to it, and connect the apps you read it in. This tutorial covers all three, with the values from Spaceship's help pages at the time of writing (October 2026).
 
-I have my habits at Spaceship, and email is where the difference with my old set-up showed most. I used to run my email on Microsoft, and it was a pain. With Namecheap and Spaceship, it has not been: the set-up is easy, or at least I know my way around it.
+I have my habits at Spaceship. I used to run my email on Microsoft, and it was a pain; with Namecheap and Spaceship, it has not been: the set-up is easy, or at least I know my way around it.
 
-Below: the plans and prices, how to tell whether the DNS part will be done for you, then seven steps from the order to the mailbox on your phone. If you are still choosing a provider, my guide to getting a {{< a key="professional-email-address" >}}professional email address{{< /a >}} compares the options and what they cost, and {{< a key="domain-hosting-email-guide" >}}domain vs hosting vs email{{< /a >}} explains how the three fit together.
+If you are still choosing a provider, my guide to getting a {{< a key="professional-email-address" >}}professional email address{{< /a >}} compares the options and what they cost, and {{< a key="domain-hosting-email-guide" >}}domain vs hosting vs email{{< /a >}} explains how the three fit together.
 
 ## Spacemail plans and prices in October 2026
 
 Spacemail is a subscription of its own, separate from the domain. At the time of writing (October 2026), [Spaceship's Spacemail page](https://www.spaceship.com/business-email/) lists three plans, priced for a two-year term:
 
-| Plan | Mailboxes included | Storage per mailbox | Two-year price, then renewal |
-|---|---|---|---|
-| Pro | 1 | 5 GB | $18.88 (about £14), the same at renewal |
-| Business | 3 | 10 GB | $28.68 (about £21.50), then $39.84 (about £30) |
-| Advanced | 5 | 15 GB | $44.69 (about £33.50), then $63.84 (about £48) |
+| Plan | Mailboxes included | Storage per mailbox | Aliases per mailbox | Two-year price, then renewal |
+|---|---|---|---|---|
+| Pro | 1 | 5 GB | 10 | $18.88 (about £14), the same at renewal |
+| Business | 3 | 10 GB | 50 | $28.68 (about £21.50), then $39.84 (about £30) |
+| Advanced | 5 | 15 GB | Unlimited | $44.69 (about £33.50), then $63.84 (about £48) |
 
 Pro works out at about $0.79 (about 60p) a month. Prices are in US dollars and the pound figures are my approximate conversions. Spaceship runs promotions, and some of its other pages quote different starting prices, so the order page has the final word.
 
 Every plan starts with a **30-day free trial**. Two limits apply during those 30 days: you cannot add extra mailboxes, and each mailbox may send far fewer emails per hour than on a paid plan (the FAQ below gives the figures). Fine for testing, not for a launch week.
 
-To choose, count the people who need their own inbox. One person working alone fits Pro; a team of two or three fits Business, whose extra storage also helps if you keep years of attachments. More storage can be bought separately on every plan.
+To choose, count the people who need their own inbox, not the addresses: an alias such as invoices@ delivers to an existing mailbox at no extra cost. One person working alone fits Pro. For two or three people, Business costs less than Pro plus extra mailboxes ($21.12, about £16, each per two years), and its 10 GB help if you keep years of attachments. Advanced suits a team of five. Every plan can take more storage, at $20 (about £15) per 10 GB.
 
 ## Before your Spacemail setup: where is your domain's DNS?
 
@@ -66,7 +66,7 @@ A domain registered at Spaceship normally uses Spaceship's nameservers, shown on
 2. In your Spaceship account, open **Spacemail Manager**.
 3. Click **Unbox** on the new subscription to connect it to a domain, choose the domain, then click **Start**.
 
-Unbox is Spaceship's word for attaching a product to a domain, and you will meet it elsewhere in the account. The domain does not have to be registered at Spaceship: Spacemail also works with a domain registered elsewhere, which stays where it is.
+Unbox is Spaceship's word for attaching a product to a domain. The domain does not have to be registered at Spaceship: one registered elsewhere stays where it is, and you prove that it is yours with a TXT record (step 3).
 
 {{< screenshot id="spacemail-setup-01" alt="Spacemail Manager showing a new subscription with the Unbox button, and the domain chosen before clicking Start" >}}
 
@@ -74,7 +74,7 @@ Unbox is Spaceship's word for attaching a product to a domain, and you will meet
 
 1. With the subscription connected, click **Configure Products**, then **Configure**.
 2. Type the name that goes before the @: `contact` gives contact@yourdomain.co.uk.
-3. Click **Create mailboxes**. Spacemail generates a password: copy it, or type your own instead (possible since a June 2025 update).
+3. Click **Create mailboxes**. Spacemail generates a password: copy it, or type your own instead.
 4. Click **Finish**.
 
 Choose names that will outlive staff changes. A role address such as contact@ or accounts@ can pass from one person to the next, while firstname@ leaves with its owner. Store each password in a password manager straight away: every phone, computer and app you connect will ask for it, and it is not your Spaceship account password.
@@ -89,7 +89,11 @@ Spaceship adds the mail records when you connect Spacemail, and the mailbox work
 
 ### DNS elsewhere: copy the records to your DNS host
 
-Spaceship still prepares the exact values for your domain. In **Advanced DNS**, they sit under **Inactive records**, in the group **Spacemail DNS records**: inactive because the internet does not read that zone. Your job is to copy them to the company that hosts the zone the internet does read. According to [Spaceship's help page on third-party domains](https://www.spaceship.com/knowledgebase/spacemail-dns-records-third-party-domain/), they are:
+Spaceship still prepares the exact values for your domain. In **Advanced DNS**, they sit under **Inactive records**, in the group **Spacemail DNS records**: inactive because the internet does not read that zone. Your job is to copy them to the company that hosts the zone the internet does read.
+
+If the domain is registered at another registrar, start with the **verification TXT record**: according to [Spaceship's help page on third-party domains](https://www.spaceship.com/knowledgebase/spacemail-dns-records-third-party-domain/), it must be in place before Spacemail is activated, or the subscription does not connect to the domain and the mailbox can neither sign in nor send. Its value is in **Advanced DNS**: click **Manage**, then **View guides** in the section **Configure your DNS settings for products to work correctly**, and open **Verifying domain ownership**.
+
+Then add the mail records:
 
 ```
 Type   Host                   Value                                   Priority
@@ -97,6 +101,7 @@ MX     @                      mx1.spacemail.com                       0
 MX     @                      mx2.spacemail.com                       0
 TXT    @                      v=spf1 include:spf.spacemail.com ~all
 TXT    spacemail._domainkey   v=DKIM1; k=rsa; p=... (your own key, copied from Spaceship)
+SRV    _autodiscover._tcp     weight 0, port 443, autoconfig.spacemail.com   0
 ```
 
 Line by line:
@@ -104,7 +109,7 @@ Line by line:
 - **MX**: add both, with priority 0. Some hosts impose their own numbers (Wix sets 10 and 20), which is fine as long as both records are there. Delete the MX records of any previous provider, or part of your mail will keep going to it.
 - **SPF**: a domain may have only one TXT record starting with `v=spf1`, and two make SPF fail. If one already exists, for a newsletter tool for example, add `include:spf.spacemail.com` inside it, before the `~all` (or `-all`) at the end.
 - **DKIM**: copy the value in full. It is long, and one missing character breaks the signature. Enter the host as `spacemail._domainkey` only: most panels add your domain after it themselves.
-- **Domain registered elsewhere**: add the verification TXT record too. Its value is in **Advanced DNS**, behind the **Manage** button and the **View guides** link, in the section **Verifying domain ownership**.
+- **SRV**: mail arrives without it, but it helps some apps, Outlook in particular, find the server settings by themselves. Some panels split the host into a service (`autodiscover`) and a protocol (`tcp`), as Wix does.
 
 Spaceship's help has separate step-by-step guides for Namecheap, GoDaddy, Squarespace, Wix and Cloudflare. Changes usually show within a few hours, and up to 48 hours if you also changed nameservers.
 
@@ -151,7 +156,7 @@ Then the real test: send an email from the new mailbox to a Gmail address. In Gm
 
 The webmail is at www.spacemail.com. Sign in with the full email address as the username and the mailbox password. You can also open it from **Spacemail Manager**: choose the mailbox, then click **Login**.
 
-The webmail includes a calendar, and its settings hold the switches for IMAP, POP3 and SMTP access, which are on by default. Leave them on if you want to read the mailbox in other apps.
+The webmail includes a calendar, and its settings hold the switches for IMAP, POP3 and SMTP access. IMAP and SMTP are on by default: leave them on if you want to read the mailbox in other apps.
 
 {{< screenshot id="spacemail-setup-06" alt="Spacemail webmail inbox at spacemail.com after the first sign-in" >}}
 
@@ -174,15 +179,15 @@ Where to type them:
 - **iPhone**: in the Mail settings, add an account, choose **Other**, then **Add Mail Account**, and pick IMAP when asked.
 - **Android**: in the Gmail app, choose **Add another account**, then **Other**.
 
-Spaceship's help has separate guides for macOS Mail, Apple Mail on the iPhone and Outlook for iOS, in case a screen does not match these steps.
+Spaceship's help has separate guides for Outlook, Outlook for iOS, macOS Mail, Apple Mail on the iPhone and the Spark app, in case a screen does not match these steps.
 
 {{< screenshot id="spacemail-setup-07" alt="Outlook manual IMAP account form filled in with mail.spacemail.com, port 993 for incoming and 465 for outgoing mail, SSL/TLS" >}}
 
 ## Can you use Spacemail for cold email?
 
-Spaceship's published rules say no to unsolicited bulk email, so not without its written agreement.
+Not without Spaceship's written agreement: its published rules say no to unsolicited bulk email.
 
-My own preference is clear: Microsoft works very well for cold email but is tricky to set up, Google is worse, and Spacemail is the one I encourage people to look at, because in my experience it is the easiest of the three to set up. Spaceship's rules are just as clear, and they come first.
+My own preference is clear: Microsoft works very well for cold email but is tricky to set up, Google is worse, and Spacemail is the one I encourage, because its set-up is easy. Spaceship's rules are just as clear, and they come first.
 
 {{< callout type="warning" >}}**Spaceship forbids unsolicited bulk email.** Its help pages ban unsolicited commercial, bulk or automated email with zero tolerance and say the service is not designed for mass mailing, and its hosting acceptable use policy counts any email sent to people who have not opted in as unsolicited. Its [guide to warming up a domain](https://www.spaceship.com/knowledgebase/warm-up-domain-email-deliverability/) allows only a manual, gradual warm-up with genuine opt-in recipients, and prohibits automated warm-up through third-party tools, which is exactly what a sending platform's warm-up does. Its terms also set liquidated damages for spam of $500 (about £375) or $1 per message, whichever is greater.{{< /callout >}}
 

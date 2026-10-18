@@ -16,9 +16,9 @@ related: ["clarity-vs-hotjar", "website-conversion-rate", "track-ai-traffic", "s
 services: ["websites"]
 faq:
   - q: "Is Microsoft Clarity really free?"
-    a: "Yes. Clarity has no paid plan and no limit on the number of sites. Microsoft records up to 100,000 sessions per project per day and keeps recordings for 30 days, according to the [Clarity FAQ](https://learn.microsoft.com/en-us/clarity/faq)."
+    a: "Yes. Microsoft lists Clarity as free, with no limit on the number of sites. It records up to 100,000 sessions per project per day and keeps ordinary recordings for 30 days, according to the [Clarity FAQ](https://learn.microsoft.com/en-us/clarity/faq)."
   - q: "Is Microsoft Clarity GDPR compliant?"
-    a: "That depends on your set-up more than on the tool. Keep masking on, name Clarity in your cookie policy and privacy notice, and send Microsoft's consent signal from your cookie banner for visitors from the UK and the EEA."
+    a: "That depends on your set-up more than on the tool. Keep masking on Balanced or Strict, name Clarity in your cookie policy and privacy notice, and send Microsoft's consent signal from your cookie banner for visitors from the UK and the EEA."
   - q: "Can I use Microsoft Clarity and Google Analytics together?"
     a: "Yes, and they answer different questions: Google Analytics counts visits and conversions, while Clarity shows what people do on the page. Clarity's setup page also offers a Google Analytics integration to link the two."
   - q: "Does Microsoft Clarity slow down a website?"
@@ -29,7 +29,7 @@ Microsoft Clarity is a free behaviour analytics tool: it records how visitors us
 
 I use Clarity to see where people engage the most, whether they came for something specific and which areas make them leave, so I can fix it. Is it the copy? A picture? The user experience (UX)? The steps below follow that order: install, check, protect the data, then read.
 
-Allow about thirty minutes, plus access to your site's code settings or to Google Tag Manager. Menu names are those of the English interface in October 2026. Clarity is one of the tools in my {{< a key="small-business-tools-guide" >}}small business tool stack{{< /a >}}.
+Allow about thirty minutes, plus access to your site's code settings or to Google Tag Manager. Menu names are those of Clarity's English interface at the time of writing (October 2026). Clarity is one of the tools in my {{< a key="small-business-tools-guide" >}}small business tool stack{{< /a >}}.
 
 ## What Microsoft Clarity shows you (and what it does not)
 
@@ -49,7 +49,7 @@ What Clarity does not show is what happens before the visit: the searches that b
 
 A project is one website in Clarity. You can create as many as you need under one account.
 
-1. Go to `clarity.microsoft.com` and sign in with a Microsoft, Google or Facebook account. Choose an account the business will keep, not a freelancer's.
+1. Go to `clarity.microsoft.com` and sign in, for example with a Microsoft or Google account. Choose an account the business will keep, not a freelancer's.
 2. Create a new project: give it the name of the site and enter its address.
 3. Clarity then shows the installation options. You can come back to them later from the project's **Settings**.
 
@@ -67,9 +67,9 @@ The tracking code is a short script, unique to your project, that has to load on
 
 ### On Squarespace: Code Injection
 
-Copy the code with **Get tracking code**. In Squarespace, open **Code Injection**, paste the code into the **Header** box and save: it then loads on every page. Code Injection is included on the Core, Plus and Advanced plans, not on Basic ([Squarespace help](https://support.squarespace.com/hc/en-us/articles/205815908)).
+Copy the code with **Get tracking code**. In Squarespace (version 7.1), scroll to the bottom of the **Pages** panel, click **Custom Code**, then **Code Injection**, paste the code into the **Header** field and save: it then loads on every page. Code Injection is included on the Core, Plus and Advanced plans, not on Basic ([Squarespace help](https://support.squarespace.com/hc/en-us/articles/205815908)).
 
-This is the kind of small, non-destructive code I add to my clients' Squarespace sites: it sits in the header and changes nothing on the pages. My {{< a key="squarespace-code-injection" >}}Squarespace code injection tutorial{{< /a >}} shows where the setting sits and how to test what you paste.
+This is the kind of small, non-destructive code I add to my clients' Squarespace sites: it sits in the header and changes nothing on the pages. My {{< a key="squarespace-code-injection" >}}Squarespace code injection tutorial{{< /a >}} shows how to label each snippet and what to do if a script stops the editor from working.
 
 {{< screenshot id="microsoft-clarity-tutorial-03" alt="Squarespace Code Injection panel with the Clarity tracking code pasted into the Header box" >}}
 
@@ -79,7 +79,7 @@ Clarity has step-by-step guides for third-party platforms such as Shopify, Squar
 
 ### With Google Tag Manager
 
-If your site already runs Google Tag Manager, add Clarity there, so all your tags stay in one place. Clarity's installation page can connect to your Tag Manager account and add the tag for you. To do it by hand:
+If your site already runs Google Tag Manager, add Clarity there, so all your tags stay in one place. Clarity's installation page also offers an integration that connects to your Tag Manager account. To add the tag by hand:
 
 1. In Tag Manager, open **Tags** and click **New**.
 2. Under **Tag Configuration**, choose **Custom HTML** and paste the Clarity code.
@@ -92,7 +92,7 @@ On a custom-coded site, paste the code inside the `<head>` section of the templa
 
 ## Step 3: check that Clarity is recording
 
-Open your site in a private browser window and click around for a minute. Then check in two places:
+Open your site in a private browser window, accept cookies if a banner appears, then click around for a minute. Then check in two places:
 
 - **In your browser.** Open the developer tools (F12 on Windows, Cmd+Option+I on a Mac), go to the **Network** tab and type `collect` in the filter. Requests to Clarity's collect address mean the tag is sending data.
 - **In Clarity.** Your visit appears in **Recordings** after a while, not instantly, so come back later in the day.
@@ -126,14 +126,14 @@ window.clarity('consentv2', {
 
 The parameter names are case-sensitive (note the capital S in `ad_Storage` and `analytics_Storage`) and the values are lowercase: `granted` or `denied`, according to the visitor's choice. `consentv2` replaces Clarity's older consent call, which Microsoft plans to retire, so update any banner code that still uses it. Then name Clarity in your cookie policy and privacy notice, with what it collects and why.
 
-{{< callout type="note" >}}Microsoft's rule is a condition of using the tool, not legal advice. France's data protection authority, the CNIL, went further in 2026: its draft recommendation on session replay, open to public consultation until 22 April 2026, treats these tools as needing the visitor's prior consent. If your site has French visitors, plan on asking for it.{{< /callout >}}
+{{< callout type="note" >}}Microsoft's rule is a condition of using the tool, not legal advice. France's data protection authority, the CNIL, went further in 2026: its draft recommendation on session replay, open to public consultation until 22 April 2026, treats these tools as needing the visitor's prior consent, and I found no final version at the time of writing. If your site has French visitors, plan on asking for it.{{< /callout >}}
 
 ## Step 5: set masking and exclude your own visits
 
 Two settings deserve a minute before the data piles up. Both are in the project's **Settings**.
 
-- **Masking** decides what Clarity hides in recordings and heatmaps. The default, **Balanced**, hides content Clarity treats as sensitive, such as what people type into forms; **Strict** hides all the text on the page. Keep Balanced at least, and switch to Strict if your pages display customer details, such as an account area or an order confirmation.
-- **IP blocking** leaves out visits from the IP addresses you enter. Add your office's address so your own checks and edits stay out of the heatmaps.
+- **Masking** decides what Clarity hides in recordings and heatmaps. The default, **Balanced**, hides content Clarity treats as sensitive, such as numbers and email addresses; **Strict** hides all the content on the page; **Relaxed** hides only form fields and drop-down menus, which are masked whatever the mode. Keep Balanced at least, and switch to Strict if your pages display customer details, such as an account area or an order confirmation. A change applies only to new recordings, so make the choice now.
+- **IP blocking** leaves out visits from the IP addresses you enter: they are not recorded and do not count in the dashboard or the heatmaps. Add your office's address so your own checks and edits do not skew the data. You need to be an admin of the project, and only fixed IPv4 addresses work (four numbers separated by dots, such as 203.0.113.10): an IPv6 address, a VPN or a phone on mobile data cannot be blocked.
 
 {{< screenshot id="microsoft-clarity-tutorial-05" alt="Clarity masking settings with the Balanced and Strict options" >}}
 
@@ -145,7 +145,7 @@ The **Dashboard** sums up your traffic and flags moments of frustration. These f
 |---|---|---|
 | Dead clicks | Clicks that have no effect on the page | Something looks clickable but is not: a photo, an underlined word, a card |
 | Rage clicks | Several quick clicks in the same small area | A button or a form that fails or responds slowly, often on a phone |
-| Excessive scrolling | Scrolling up and down more than expected | The visitor is hunting for something: prices, a phone number, a service |
+| Excessive scrolling | Far more scrolling than reading the page would need | The visitor is hunting for something: prices, a phone number, a service |
 | Quick backs | Arriving on a page, then going straight back to the previous one | The page did not match what the link or the menu promised |
 
 Read each signal page by page, not as a total. Twenty dead clicks on a photo of your work can simply mean people want to see it bigger; twenty rage clicks on a quote button mean you are losing enquiries. Note the pages concerned, then watch their recordings in step 8.
@@ -174,7 +174,7 @@ This is where I decide what to fix. The pattern usually points to one of three c
 | Taps on a photo that leads nowhere | The picture | Link it to the project it shows, or choose a photo that answers a question |
 | Clicks scattered across the menu, few on the main button | The UX | One main action per page, visible without scrolling |
 
-**Visitors who came for something specific leave a page that does not show it quickly.** I learnt that lesson with two companies run by the same client: the site that offered too many services never brought leads, while the one built around a few specific services ranked and did.
+**Visitors who came for something specific leave a page that does not show it quickly.** I have seen the same thing at the scale of a whole site, with two companies run by the same client: the site that offered too many services never brought leads, while the one built around a few specific services ranked and did.
 
 ## Step 8: watch recordings with one question in mind
 
@@ -183,12 +183,13 @@ Recordings replay real visits: pointer or finger movements, scrolling and clicks
 1. Open **Recordings** and use the filters to narrow the list: a page, a device, a channel, or sessions with rage clicks or quick backs.
 2. Watch about ten recordings of the same situation, sped up. One visitor proves nothing; the same hesitation in six recordings is a pattern.
 3. Write each pattern down next to the page it affects, then change one thing at a time, so you know what made the difference.
+4. Add the recordings that show a problem to your favourites: Clarity deletes ordinary recordings after 30 days but keeps favourites much longer.
 
 {{< screenshot id="microsoft-clarity-tutorial-09" alt="Clarity recordings list filtered on sessions with rage clicks, with the replay player open" >}}
 
 ## Step 9: see which visits come from AI assistants
 
-Since 29 August 2025, Clarity has grouped visits from AI assistants such as ChatGPT, Claude, Copilot, Gemini and Perplexity into their own channel, **AIPlatform**, with **PaidAIPlatform** for paid traffic from them ([Microsoft's page on the AI channel group](https://learn.microsoft.com/en-us/clarity/insights/ai-channel-group)). Filter the dashboard or the recordings on that channel to see which pages these visitors read and whether they reach your contact page.
+Since 29 August 2025, Clarity has grouped visits from AI assistants such as ChatGPT, Claude, Copilot, Gemini and Perplexity into their own channel, **AIPlatform**, with **PaidAIPlatform** for paid traffic from them ([Microsoft's page on the AI channel group](https://learn.microsoft.com/en-us/clarity/insights/ai-channel-group)). Filter the dashboard or the recordings on that channel to see which pages these visitors read and whether they reach your contact page. Clarity's free **Citations** report, in its AI Visibility section, measures something else: how often AI answers, mostly Microsoft Copilot's, cite your site.
 
 On a small business site the numbers may be modest, but these people arrive after an assistant has mentioned you, so a few minutes on their recordings is time well spent. To follow the same traffic in Google Analytics and Search Console, see {{< a key="track-ai-traffic" >}}how to track AI traffic{{< /a >}}.
 

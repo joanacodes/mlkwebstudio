@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:48:00+02:00
 category: "domains"
 article_type: "pillar"
 keywords: ["domain vs hosting", "difference between domain and hosting", "do I need hosting for my domain", "email hosting vs web hosting", "domain registrar vs web host", "how DNS connects domain and hosting"]
-summary: "A domain is the address you rent from a registrar, such as yourbusiness.co.uk; web hosting is the server that stores your website and sends it to visitors; email hosting runs the mailboxes behind hello@yourbusiness.co.uk. All three can sit with different companies because DNS links them: A and CNAME records point the domain at the website, MX records at the mailboxes. Register the domain in your business's name and keep that login yourself."
+summary: "A domain is the address you rent from a registrar, such as yourbusiness.co.uk; web hosting is the server that stores your website and sends it to visitors; email hosting runs the mailboxes behind hello@yourbusiness.co.uk. All three can sit with different companies because DNS links them: A and CNAME records point the domain at the website, MX records at the mailboxes. Register the domain in your business's name and keep the registrar login yourself."
 cover: "domain-hosting-email-guide"
 cover_alt: "A domain name linked by DNS records to a web host and an email provider"
 related: ["dns-records-explained", "best-domain-registrar", "web-hosting-comparison", "professional-email-address", "transfer-domain-name"]
@@ -22,7 +22,7 @@ faq:
   - q: "How long does it take for a domain to connect to a website?"
     a: "DNS changes often show within a few hours, but providers ask you to allow longer: up to 24 hours at OVHcloud and for GitHub Pages, and 24 to 72 hours before Squarespace shows a third-party domain as Connected."
   - q: "Can I move my domain to another registrar without taking my site offline?"
-    a: "Yes, as long as the DNS keeps answering during the move. Copy every record before you start and keep the same nameservers until the transfer completes: the website and email stay online throughout, and you can move the DNS zone afterwards if you want to."
+    a: "Yes, as long as the DNS keeps answering. Copy every record before you start and keep the same nameservers until the transfer completes, so the website and email stay online throughout. If those nameservers belong to the registrar you are leaving, recreate the records at the new one and switch straight away, because the old zone can disappear once the domain has gone."
   - q: "What is WHOIS privacy, and do I need it?"
     a: "WHOIS privacy replaces the registrant's contact details with a proxy in public domain lookups. Spaceship and Namecheap include it free on the extensions that allow it. Leave it on, especially if you are a sole trader whose address is your home."
 ---
@@ -43,10 +43,10 @@ Each column is a separate service that you can buy, renew and move on its own.
 | Example | yourbusiness.co.uk | Squarespace, GitHub Pages, a cPanel plan | hello@yourbusiness.co.uk on Spacemail or Google Workspace |
 | Who sells it | A registrar: Spaceship, Namecheap, Squarespace, OVHcloud | A web host or a website builder | An email provider |
 | How you pay | A yearly renewal | Monthly or yearly, or included in a builder's plan | Per mailbox or per user |
-| Example price (October 2026) | $5.42 (about £4) a year for a .co.uk at Spaceship | £0 on GitHub Pages, included in a Squarespace plan | Under $1 (less than £1) a month at Spacemail; £5.90 (about $8) per user at Google Workspace |
+| Example price (October 2026) | $5.42 (about £4) a year for a .co.uk at Spaceship | £0 on GitHub Pages, included in a Squarespace plan | Under $1 (less than £1) a month per mailbox at Spacemail; £5.90 (about $8) per user a month at Google Workspace |
 | Its records in the DNS | The nameservers (NS) | A, AAAA and CNAME | MX, plus TXT for SPF, DKIM and DMARC |
 
-If you keep one picture in mind, make it this one: the domain is your business address, the hosting is your premises and the email is your letterbox. You can move to bigger premises without changing address, as long as you update the directory. That directory is DNS.
+If you keep one picture in mind, make it this one: the domain is your business's name in the directory, the hosting is your premises and the email is your letterbox. You can move to bigger premises and keep the same name, as long as the directory lists the new address. That directory is DNS.
 
 ## What a domain name is, and who you really pay for it
 
@@ -71,25 +71,25 @@ Web hosting is rented space on a server that stays online day and night, stores 
 | How the site is built | Where it is hosted | Who it suits |
 |---|---|---|
 | Website builder (Squarespace, Shopify) | Included in the subscription | Owners who want to edit their own site |
-| WordPress or a coded site on shared hosting (cPanel) | Spaceship Web Hosting, Infomaniak, Hostinger, OVHcloud | Sites that need a database or plugins |
+| WordPress or a coded site on shared hosting | Spaceship Web Hosting (cPanel), Infomaniak, Hostinger, OVHcloud | Sites that need a database or plugins |
 | Static site (plain HTML and CSS) | GitHub Pages, free for a public repository | Brochure sites with no shop and no login |
 | Web app or custom tool | A cloud server or an app platform, such as Spaceship's Starlight range | Software, not brochure sites |
 
 **If your site is on Squarespace, the hosting is part of the plan**: all you add is the domain. Squarespace is what I give clients who want to make their own changes, because changing a word there never brings the layout down. If you are still choosing a platform, the {{< a key="small-business-website-guide" >}}small business website guide{{< /a >}} compares the options, and {{< a key="website-cost" >}}how much a website costs in the UK{{< /a >}} covers the price of the site itself.
 
-For WordPress or a coded site, you need a host. I have worked with OVHcloud and Hostinger because clients were already there. Both suit people with technical skills, but I do not recommend either to a small business owner who runs the site alone: they are a bit complicated to handle. Infomaniak, which I discovered the same way, I recommend highly. {{< a key="infomaniak-review" >}}My Infomaniak review{{< /a >}} explains why, and {{< a key="web-hosting-comparison" >}}Hostinger vs OVH vs Infomaniak{{< /a >}} puts the three side by side. Spaceship sells hosting too, from cPanel plans to cloud servers for apps, and {{< a key="spaceship-hosting" >}}Spaceship hosting explained{{< /a >}} sorts out which product suits which site.
+For WordPress or a coded site, you need a host. I have worked with OVHcloud and Hostinger because clients were already there. Both suit people with technical skills, but I do not recommend either to a small business owner who runs the site alone: they are a bit complicated to handle. I discovered Infomaniak the same way, and I recommend it highly. {{< a key="infomaniak-review" >}}My Infomaniak review{{< /a >}} explains why, and {{< a key="web-hosting-comparison" >}}Hostinger vs OVH vs Infomaniak{{< /a >}} puts the three side by side. Spaceship sells hosting too, from cPanel plans to cloud servers for apps, and {{< a key="spaceship-hosting" >}}Spaceship hosting explained{{< /a >}} sorts out which product suits which site.
 
 A simple brochure site can also be built with AI and hosted for free. This site is a static site on GitHub Pages under its own domain, and {{< a key="build-website-with-ai" >}}building a website with AI and hosting it on GitHub Pages{{< /a >}} shows the whole method. GitHub states that Pages is not meant for running an online business such as a shop, so keep it for a showcase site.
 
 ## Email hosting: the third piece people forget
 
-Email hosting is the service that runs your mailboxes: it receives the mail sent to your domain, stores it and sends your replies. Buying a domain does not create one, and neither does a website builder.
+Email hosting is the service that runs your mailboxes: it receives the mail sent to your domain, stores it and sends your replies. It is a separate service from the domain and the website, even when one company sells you all three.
 
 Squarespace, for example, does not run mailboxes itself. Its email offer is Google Workspace, bought from the Domains panel, and other providers connect to a Squarespace domain with DNS records. Some web hosting plans do include basic mailboxes: Spaceship's Web Hosting comes with a special Spacemail plan, for instance. That is convenient, but it ties your email to your hosting, so cancelling or moving one means dealing with the other.
 
-**I prefer to keep email on its own service.** You can then rebuild the website, change platform or change host without your inbox ever noticing. The main options for a small business:
+**Email is best kept on a service of its own.** You can then rebuild the website, change platform or change host without your inbox ever noticing. The main options for a small business:
 
-- Spacemail, Spaceship's email: under $1 (less than £1) a month per mailbox at the time of writing (October 2026), on [Spaceship's Spacemail plans](https://www.spaceship.com/business-email/). It is the option I recommend to owners who work alone, and {{< a key="spacemail-setup" >}}the Spacemail setup guide{{< /a >}} covers the mailbox, the DNS records and the email app settings.
+- Spacemail, Spaceship's email: under $1 (less than £1) a month per mailbox at the time of writing (October 2026), on [Spaceship's Spacemail plans](https://www.spaceship.com/business-email/). It is the one I recommend, and {{< a key="spacemail-setup" >}}the Spacemail setup guide{{< /a >}} covers the mailbox, the DNS records and the email app settings.
 - Google Workspace: Business Starter costs £5.90 (about $8) per user a month on the annual plan, excluding VAT, [according to Google](https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans). It makes sense when your team already lives in Gmail, Drive and Meet.
 - Microsoft 365: the same idea, built around Outlook and Teams. I used to run my email on Microsoft and it was a pain to manage. I have never had that trouble with Namecheap's or Spaceship's email.
 - Infomaniak's kSuite: mail, storage and collaboration tools hosted in Switzerland, covered in the Infomaniak review above.
@@ -129,7 +129,7 @@ _dmarc                    TXT    "v=DMARC1; p=none; rua=mailto:dmarc@yourbusines
 
 The top half is the website and the bottom half is the email. **To move the website, you change only the top half; to change email provider, only the bottom half.** That separation is why three companies can work together without knowing about each other.
 
-Two mistakes come up again and again. A CNAME never goes on the root of the domain (the @ lines): the root already carries other records, such as the nameservers, MX and TXT, and a CNAME cannot share its name with any other record. Some DNS hosts, Spaceship among them, offer an Alias record for that case. And when a platform offers to take over your nameservers, read the small print first. Squarespace warns that its nameserver connection removes CNAME records and can break email set up with DNS records, so it advises connecting with DNS records instead when you want to keep your own.
+Two mistakes are common. A CNAME never goes on the root of the domain (the @ lines): the root already carries other records, such as the nameservers, MX and TXT, and a CNAME cannot share its name with any other record. Some DNS hosts, Spaceship among them, offer an Alias record for that case. And when a platform offers to take over your nameservers, read the small print first. Squarespace warns that its nameserver connection removes CNAME records and can break email set up with DNS records, so it advises connecting with DNS records instead when you want to keep your own.
 
 {{< callout type="warning" >}}**The trailing dot.** In the OVHcloud zone editor, a CNAME target typed as `ext-cust.squarespace.com` can be saved as `ext-cust.squarespace.com.yourbusiness.co.uk`, and the connection fails. Type it with a final dot: `ext-cust.squarespace.com.` OVHcloud and Squarespace domains are the ones that gave me trouble, and the only issue was that dot.{{< /callout >}}
 
@@ -144,7 +144,7 @@ Buying everything from one company is tempting: one account, one bill, one suppo
 | Setup | Fastest, with records often added for you | A few records to copy by hand |
 | Billing | One bill, but introductory prices often tied to long terms | Several small bills, each easy to compare |
 | Changing one piece | The others can get caught up in it | Move one, the others carry on |
-| If an account is lost or hacked | Everything goes at once | The damage stays in one place |
+| If an account is lost or hacked | Everything goes at once | Only that piece is exposed, unless it is the registrar account |
 
 The setup I recommend to most small businesses: the domain and the email with a registrar you trust (for me, by habit, Spaceship and Spacemail), and the website wherever it is built best. That means Squarespace for owners who edit their own site, and GitHub Pages or a host for a coded one. What I would avoid is a bundle chosen for its first-year price. Hostinger's offers are cheap only on long prepaid terms, and the renewal is a different story, as the .co.uk example above shows.
 
@@ -169,7 +169,6 @@ For a business that sells in the UK, .co.uk is the natural choice: it tells visi
 A few practical points:
 
 - Pick the extension you will print, then keep it. Changing domain later means redirects, new email addresses and a new round of DNS.
-- Compare renewals, not first years: the .co.uk figures above are a good reminder of why.
 - If you also sell in France, a .fr can only be held by a person resident, or a company established, in the EU, Iceland, Liechtenstein, Norway or Switzerland, under Afnic's naming policy. A company established only in the UK cannot hold one in its own name.
 
 ## Setting it all up in the right order (and when to hand it over)
@@ -180,7 +179,7 @@ Here is the order I recommend. It ends the way every website project I deliver e
 2. Choose where the website lives: a builder such as Squarespace, a host for WordPress or a coded site, or GitHub Pages for a static brochure site.
 3. Set up the email. Create the mailboxes, add the MX records, then SPF, DKIM and DMARC.
 4. Build the site on its temporary address. Most platforms give you one while you work, such as a built-in Squarespace address or `<username>.github.io`.
-5. Connect the domain last. Delete the parking page or redirect records on @ and www, add the platform's A and CNAME records, and leave the MX and TXT records alone. Mind the trailing dot.
+5. Connect the domain last. Add it on the platform first (GitHub asks for this before any DNS change, so that no other account can use your domain), then delete the parking page or redirect records on @ and www, add the platform's A and CNAME records, and leave the MX and TXT records alone. Mind the trailing dot.
 6. Check everything. Open the site with and without www, make sure the padlock (HTTPS) shows, and send a test email to a Gmail address: **Show original** should say PASS for SPF, DKIM and DMARC.
 7. Write down where everything lives: registrar, DNS host, website host, email provider, renewal dates, and who has access to what.
 

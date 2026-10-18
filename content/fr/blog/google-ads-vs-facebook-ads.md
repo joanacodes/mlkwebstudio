@@ -1,7 +1,7 @@
 ---
 title: "Google Ads ou Facebook Ads (et LinkedIn, TikTok) : quelle plateforme choisir ?"
 seo_title: "Google Ads ou Facebook Ads : lequel choisir en 2026 ?"
-description: "Google Ads ou Facebook Ads (et LinkedIn, TikTok) : quelle plateforme pour quel objectif, quel budget minimum et comment tester sans gaspiller votre budget."
+description: "Google Ads ou Facebook Ads (et LinkedIn, TikTok) : quelle plateforme pour quel objectif, quel budget minimum prévoir et comment tester sans perdre d’argent."
 slug: "google-ads-ou-facebook-ads"
 translationKey: "google-ads-vs-facebook-ads"
 date: 2026-10-17T09:26:00+02:00
@@ -27,11 +27,11 @@ faq:
     a: "Pour les annonces sur le Réseau de Recherche de Google, en pratique oui : chaque annonce renvoie vers une page, et Google en tient compte dans le niveau de qualité. Meta, LinkedIn et TikTok peuvent recueillir des coordonnées dans un formulaire intégré à leur application, mais la plupart des acheteurs vous chercheront quand même avant de s’engager : un site clair n’est jamais perdu."
 ---
 
-Google Ads ou Facebook Ads : c’est souvent la première question que se pose une petite entreprise quand elle décide de payer pour trouver des clients. La réponse dépend moins de la « meilleure » plateforme que de l’endroit où se trouvent vos acheteurs au moment où ils ont besoin de vous. Google montre votre annonce à ceux qui cherchent ce que vous vendez ; Facebook et Instagram, vendus tous deux par Meta, la montrent à des personnes qui correspondent à une audience pendant qu’elles font défiler leur fil.
+Google Ads ou Facebook Ads : c’est souvent la première question que se pose une petite entreprise quand elle décide de payer pour trouver des clients. La réponse dépend moins de la « meilleure » plateforme que de l’endroit où se trouvent vos acheteurs au moment où ils ont besoin de vous. Google montre votre annonce à ceux qui cherchent ce que vous vendez ; Facebook et Instagram, dont les publicités s’achètent toutes deux chez Meta, la montrent à des personnes qui correspondent à une audience pendant qu’elles font défiler leur fil.
 
-Dans le jargon, c’est le choix entre SEA (la publicité sur les moteurs de recherche) et SMA (la publicité sur les réseaux sociaux). LinkedIn et TikTok complètent la liste de la plupart des petites entreprises : ce comparatif couvre donc les quatre, objectif par objectif, avec les budgets minimums publiés par chaque plateforme et mon avis honnête sur chacune. Les chiffres datent d’octobre 2026.
+Dans le jargon, c’est le choix entre SEA (la publicité sur les moteurs de recherche) et SMA (la publicité sur les réseaux sociaux). LinkedIn et TikTok complètent la liste des options pour la plupart des petites entreprises : ce comparatif couvre donc les quatre, objectif par objectif, avec les budgets minimums publiés par chaque plateforme et mon avis honnête sur chacune. Les chiffres datent d’octobre 2026.
 
-Il fait partie de mon guide pour savoir {{< a key="how-to-get-more-clients" >}}comment trouver des clients{{< /a >}}, qui couvre aussi les canaux qu’on ne paie pas au clic.
+Ce comparatif fait partie de mon guide sur les canaux d’acquisition : {{< a key="how-to-get-more-clients" >}}comment trouver des clients{{< /a >}} quand on est une petite entreprise, y compris par des canaux qu’on ne paie pas au clic.
 
 ## Google Ads ou Facebook Ads : une question d’intention
 
@@ -39,26 +39,26 @@ Ce qui tranche dans la plupart des cas, c’est l’intention. Sur Google, quelq
 
 Chaque plateforme a donc son rôle :
 
-- **Google Ads capte une demande qui existe déjà.** Vous choisissez les recherches (les mots clés) et la zone, et sur une campagne sur le Réseau de Recherche, vous payez en général quand quelqu’un clique.
+- **Google Ads capte une demande qui existe déjà.** Vous choisissez les recherches (les mots clés) et la zone, et pour une campagne sur le Réseau de Recherche, vous payez en général au clic.
 - **Les publicités Meta créent la demande, ou la réveillent.** Vous choisissez des personnes plutôt que des recherches : leur lieu, leur âge, leurs centres d’intérêt, vos propres listes de clients, les visiteurs de votre site et des audiences qui leur ressemblent. Selon vos réglages, vous payez à l’impression ou au clic.
 
 Les formats en découlent. Une annonce sur le Réseau de Recherche est un texte : des titres et des descriptions qui répondent à une recherche, et une annonce responsive accepte jusqu’à 15 titres et 4 descriptions, que Google combine. Une publicité Meta est une image, une vidéo ou un carrousel : il vous faut des visuels qui arrêtent le défilement.
 
-Une nuance : Google vend aussi des annonces display et YouTube, qui touchent les gens pendant qu’ils naviguent ou regardent une vidéo plutôt qu’au moment où ils cherchent : elles fonctionnent donc davantage comme celles de Meta. Quand un dirigeant de petite entreprise parle de Google Ads, il pense le plus souvent aux annonces sur le Réseau de Recherche, et c’est ce que je compare ici.
+Une nuance : Google vend aussi des annonces display et YouTube, qui touchent les gens pendant qu’ils naviguent ou regardent une vidéo, et non au moment où ils cherchent. Elles fonctionnent donc davantage comme celles de Meta. Quand un dirigeant de petite entreprise parle de Google Ads, il pense le plus souvent aux annonces sur le Réseau de Recherche, et c’est ce que je compare ici.
 
 ## Google, Meta, LinkedIn et TikTok côte à côte
 
-Le tableau résume les quatre plateformes. Les minimums viennent des pages d’aide de chacune en octobre 2026 et sont exprimés en dollars américains : comptez l’équivalent en euros dans votre compte.
+Les minimums viennent des pages d’aide de chacune en octobre 2026 et sont exprimés en dollars américains : comptez l’équivalent en euros dans votre compte.
 
 | | Google Ads (Recherche) | Meta (Facebook, Instagram) | LinkedIn Ads | TikTok Ads |
 |---|---|---|---|---|
-| Où s’affichent les annonces | Dans les résultats Google, après une recherche | Dans le fil, les stories et les reels | Dans le fil LinkedIn | Entre les vidéos du fil Pour toi |
+| Où s’affichent les annonces | Dans les résultats Google, après une recherche | Dans le fil, les stories et les reels | Surtout dans le fil LinkedIn | Entre les vidéos du fil Pour toi |
 | Ce que vous ciblez | Des recherches et une zone | Des personnes : lieu, âge, centres d’intérêt, vos listes | Poste, niveau hiérarchique, entreprise, secteur | Des personnes : lieu, âge, centres d’intérêt, comportements |
 | Meilleur objectif | Des demandes de gens prêts à acheter | Notoriété et ventes au grand public | Des prospects B2B parmi les décideurs | Notoriété |
-| Budget minimum | Aucun minimum publié : vous fixez un budget quotidien moyen | Environ 1 dollar par jour et par ensemble de publicités (variable) | 10 dollars par jour | 20 dollars par jour et par groupe d’annonces, 50 pour un budget de campagne |
+| Budget minimum | Aucun minimum publié : vous fixez un budget quotidien moyen | Pas de minimum fixe : à partir d’environ 1 dollar par jour et par ensemble de publicités, selon les réglages | 10 dollars par jour | 20 dollars par jour et par groupe d’annonces, 50 dollars par jour pour un budget de campagne |
 | Pour qui | Services locaux, urgences, services B2B qu’on recherche | Produits visuels, offres locales grand public, reciblage | Offres B2B où un client vaut des milliers d’euros | Marques grand public à l’audience jeune |
 
-Un minimum, c’est ce qu’une plateforme accepte, pas ce qu’un test demande. J’y reviens après les quatre plateformes.
+Ce sont des planchers, pas des budgets de test : j’y reviens après les quatre plateformes.
 
 ## Quand Google Ads est le meilleur choix
 
@@ -68,7 +68,7 @@ Choisissez Google quand les gens cherchent déjà ce que vous vendez, avec des m
 - Les services locaux qu’on compare : un expert-comptable, un dentiste, une auto-école, une entreprise de nettoyage de bureaux.
 - Les services B2B au nom précis : « installation climatisation bureaux », « infogérance PME ».
 
-Mon avis : Google Ads n’est pas si compliqué, mais il demande des recherches avant de dépenser le premier euro. Il faut savoir qui est votre cible et ce qu’elle tape, pour choisir où être vu et mieux convertir les clics que vous payez. L’Outil de planification des mots clés, gratuit dans un compte Google Ads, indique combien de fois chaque expression est recherchée et la fourchette d’enchères pour apparaître en haut de la page.
+Mon avis : Google Ads n’est pas si compliqué, mais il faut faire quelques recherches avant de dépenser le premier euro. Vous devez savoir qui est votre cible et ce qu’elle tape, pour choisir où être vu et mieux convertir les clics que vous payez. L’Outil de planification des mots clés, gratuit dans un compte Google Ads, indique combien de fois chaque expression est recherchée et la fourchette d’enchères pour apparaître en haut de la page. J’utilise surtout Semrush pour cette recherche : il montre les mots clés sur lesquels les annonceurs enchérissent et ce qu’ils coûtent, et ceux qui marchent valent souvent la peine d’être gagnés en SEO plutôt que payés au clic.
 
 La dépense se plafonne facilement. Vous fixez un budget quotidien moyen, et [l’aide Google Ads](https://support.google.com/google-ads/answer/6385083?hl=fr) explique la règle : une journée peut coûter jusqu’à deux fois ce budget, mais un mois ne coûte jamais plus de 30,4 fois ce montant. À 15 € par jour, le mois s’arrête à 456 €.
 
@@ -85,11 +85,11 @@ Choisissez Meta quand votre offre se montre facilement et que personne ne la che
 
 Dans le Gestionnaire de publicités, chaque campagne commence par l’un des six objectifs : notoriété, trafic, interactions, prospects, promotion d’application ou ventes. Avec l’objectif prospects, les gens peuvent envoyer leurs coordonnées par un formulaire intégré à Facebook ou à Instagram, sans quitter l’application.
 
-Mon avis sur la publicité Facebook et Instagram : elle marche pour la notoriété comme pour la conversion, mais il faut brûler du budget en tests A/B pour voir ce qui fonctionne le mieux. L’image, la première ligne et l’audience restent des hypothèses tant que les chiffres ne sont pas là, et tester chaque hypothèse coûte de l’argent. Servez-vous du test A/B intégré au Gestionnaire de publicités plutôt que de tout modifier à la main chaque matin, et prévoyez dès le départ le budget des versions perdantes.
+Mon avis sur la publicité Facebook et Instagram : elle marche pour la notoriété comme pour la conversion, mais il faut brûler du budget en tests A/B pour voir ce qui fonctionne le mieux. L’image, la première ligne et l’audience restent des hypothèses tant que les chiffres ne sont pas là, et tester chaque hypothèse coûte de l’argent. Servez-vous du test A/B intégré au Gestionnaire de publicités plutôt que de tout modifier à la main chaque matin : les modifications peuvent renvoyer un ensemble de publicités en phase d’apprentissage, et Meta conseille de laisser tourner un test au moins sept jours.
 
-Les deux erreurs contre lesquelles je mets en garde chez Meta : sauter la recherche et sauter les tests. Meta ne propose aucun mot clé à cibler : la recherche porte donc sur les mots de votre audience, ce dont elle se plaint et la façon dont elle le formule. Pour mes textes, j’utilise Deep Research afin de repérer ce dont les gens se plaignent le plus dans une niche ; sur Meta, ces mots nourrissent les annonces et aident à choisir les centres d’intérêt à cibler. Mon article sur les {{< a key="facebook-ads-mistakes" >}}erreurs en publicité Facebook{{< /a >}} détaille celles-ci et les autres façons de brûler un budget.
+Les deux erreurs contre lesquelles je mets en garde chez Meta : sauter la recherche et sauter les tests. Meta ne propose aucun mot clé à cibler : la recherche porte donc sur les mots de votre audience, ce dont elle se plaint et la façon dont elle le formule. Pour mes propres textes, je lance des recherches approfondies avec l’IA afin de repérer ce dont les gens se plaignent le plus dans une niche ; sur Meta, ces mots nourrissent les annonces et aident à choisir les centres d’intérêt à cibler. Mon article sur les {{< a key="facebook-ads-mistakes" >}}erreurs en publicité Facebook{{< /a >}} détaille celles-ci et les autres façons de brûler un budget.
 
-Meta permet aussi de commencer petit. Sa page d’aide sur les [budgets minimums](https://www.facebook.com/business/help/203183363050448) suggère au moins 1 dollar par jour pour un ensemble de publicités facturé à l’impression, et le Gestionnaire de publicités vous prévient quand un budget est trop bas pour vos réglages. Un dollar par jour ne vous apprendra pas grand-chose, cela dit.
+Meta permet aussi de commencer petit. Sa page d’aide sur les [budgets minimums](https://fr-fr.facebook.com/business/help/203183363050448) suggère au moins 1 dollar par jour pour un ensemble de publicités facturé à l’impression, et le Gestionnaire de publicités vous prévient quand un budget est trop bas pour vos réglages. Un dollar par jour ne vous apprendra pas grand-chose, cela dit.
 
 {{< callout type="tip" >}}**Prévoyez le budget des tests, pas seulement celui des annonces.** Chez Meta comme chez TikTok, une partie de chaque test paie les versions qui perdent. Intégrez-la avant de commencer, pour ne pas arrêter une campagne juste avant qu’elle trouve la version qui marche.{{< /callout >}}
 
@@ -97,7 +97,7 @@ Meta permet aussi de commencer petit. Sa page d’aide sur les [budgets minimums
 
 LinkedIn est la plateforme construite sur le métier des gens : vous les choisissez selon leur poste, leur niveau hiérarchique, la taille et le secteur de leur entreprise, tirés de leur propre profil. C’est cette précision que paient les entreprises B2B, et elle se paie cher.
 
-Mon avis : les LinkedIn Ads brûlent votre budget très vite, mais bien menées, elles amènent des contrats plus importants. La [page de bonnes pratiques budgétaires de LinkedIn](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget) fixe un minimum de 10 dollars par jour, ou l’équivalent dans votre devise, et conseille environ 25 dollars par jour à un nouvel annonceur. Cela fait 750 dollars pour un test de 30 jours, avant de savoir si cela marche.
+Mon avis : les LinkedIn Ads brûlent votre budget très vite, mais bien menées, elles amènent des contrats plus importants. La [page de bonnes pratiques budgétaires de LinkedIn](https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget) (en anglais) indique un minimum de 10 dollars par jour, ou l’équivalent dans votre devise, et conseille environ 25 dollars par jour à un nouvel annonceur. Soit 750 dollars pour un test de 30 jours, avant même de savoir si la campagne marche.
 
 LinkedIn n’a donc de sens que si vous savez nommer les postes de ceux qui achètent et qu’un client vaut des milliers d’euros. Mon tutoriel sur la {{< a key="linkedin-ads-tutorial" >}}publicité LinkedIn{{< /a >}} déroule une première campagne avec ses garde-fous. Si le calcul ne tient pas, les mêmes décideurs se joignent aussi par email : mon comparatif entre {{< a key="ppc-vs-cold-emailing" >}}publicité payante et cold emailing{{< /a >}} montre en quoi les coûts diffèrent.
 
@@ -107,19 +107,20 @@ Les publicités TikTok s’affichent entre les vidéos du fil Pour toi, et elles
 
 Mon avis : les gens sur TikTok ne sont pas vraiment des acheteurs. Ils viennent pour se divertir : pour la plupart des petites entreprises, la publicité TikTok sert la notoriété, pas les demandes de la semaine prochaine. Elle convient aux marques grand public qui visent une audience jeune, avec un produit qui rend bien en vidéo : alimentation, mode, beauté, un métier visuel.
 
-TikTok Ads Manager range ses objectifs en trois étapes : la notoriété (la portée), la considération (le trafic, les vues de vidéos, les interactions avec la communauté) et la conversion (la génération de prospects, les ventes). Ses minimums dépassent ceux de Meta : selon la [page d’aide de TikTok sur le budget](https://ads.tiktok.com/resources/help/article/budget), un budget de campagne doit atteindre au moins 50 dollars par jour et chaque groupe d’annonces au moins 20 dollars par jour, ou l’équivalent dans votre devise. Pour les campagnes de conversions sur un site web, TikTok recommande au moins 30 dollars par jour et par groupe d’annonces aux annonceurs européens.
+TikTok Ads Manager range ses objectifs en trois étapes : la notoriété (la portée), la considération (le trafic, les vues de vidéos, les interactions avec la communauté) et la conversion (la génération de prospects, les ventes), sans compter la promotion d’application. Ses minimums dépassent ceux de Meta : selon la [page d’aide de TikTok sur le budget](https://ads.tiktok.com/resources/help/article/budget), un budget de campagne commence à 50 dollars par jour et un groupe d’annonces à 20 dollars par jour, ou l’équivalent dans votre devise. Pour les campagnes de conversions sur un site web, TikTok recommande au moins 30 dollars par jour et par groupe d’annonces aux annonceurs européens.
 
-Si vous publiez déjà sur TikTok, commencez par les **Spark Ads**. Elles mettent de l’argent derrière une vidéo déjà publiée, la vôtre ou celle d’un créateur avec son accord, et les vues, mentions J’aime et abonnements obtenus s’ajoutent à la publication d’origine. Choisissez les vidéos qui ont bien marché toutes seules. Mon article sur {{< a key="tiktok-for-business-2026" >}}TikTok pour les entreprises en 2026{{< /a >}} fait le point sur ce qui a changé dans l’application cette année.
+Si vous publiez déjà sur TikTok, commencez par les **Spark Ads**. Elles transforment en publicité une vidéo déjà publiée, la vôtre ou celle d’un créateur avec son accord, et les vues, mentions J’aime et abonnements obtenus s’ajoutent à la publication d’origine. Choisissez les vidéos qui ont bien marché toutes seules. Mon article sur {{< a key="tiktok-for-business-2026" >}}TikTok pour les entreprises en 2026{{< /a >}} fait le point sur ce qui a changé dans l’application cette année.
 
 ## Un budget minimum n’est pas un budget de test
 
-Les minimums disent ce que chaque plateforme accepte, pas ce qu’il faut pour apprendre quoi que ce soit. Un test utile achète assez de clics ou de prospects pour dégager une tendance, et chez Meta ou TikTok, il paie aussi les versions qui perdent.
+Les minimums disent ce que chaque plateforme accepte, pas ce qu’il faut pour apprendre quoi que ce soit. Un test utile achète assez de clics ou de prospects pour dégager une tendance.
 
 Partez plutôt de ce que vaut un client pour vous :
 
-1. Ce que rapporte un nouveau client la première année : disons 2 000 €.
+1. Ce que vous laisse un nouveau client la première année, une fois payé le coût du travail : disons 2 000 €.
 2. La part des prospects qui deviennent clients : disons un sur quatre.
-3. Le maximum que vous pouvez payer par prospect : 2 000 € ÷ 4 = 500 €. Visez bien en dessous : votre temps et votre marge ont un coût, eux aussi.
+3. Le coût maximal par prospect : 2 000 € ÷ 4 = 500 €. Au-delà, la publicité vous coûte plus qu’elle ne rapporte ; visez bien en dessous, car votre temps a un coût, lui aussi.
+4. Votre budget de test : de quoi obtenir assez de prospects pour juger, au coût visé. À 100 € le prospect et dix prospects avant de trancher, comptez 1 000 €, étalés sur quelques semaines plutôt que dépensés en trois jours.
 
 Comparez ensuite les plateformes sur le coût par client, pas sur le coût par clic. Un clic sur Google peut coûter plus cher qu’un clic chez Meta, mais s’il vient de quelqu’un prêt à acheter, le client peut revenir moins cher. Sur une même période, additionnez ce qu’a coûté chaque test et comptez les clients qu’il a amenés.
 
@@ -131,7 +132,7 @@ Deux coûts s’oublient facilement. La page où arrivent les clics : une page 
 2. **Vérifiez d’abord la demande sur Google.** Dans l’Outil de planification des mots clés, regardez les recherches mensuelles et les enchères pour le haut de page sur ce que vous vendez, dans votre zone. Si les gens le cherchent, commencez par Google ; sinon, il faudra créer la demande : sur Meta ou TikTok pour le grand public, sur LinkedIn pour les entreprises.
 3. **Préparez la page vers laquelle les annonces renverront** : une offre, un moyen de vous contacter, un chargement rapide sur mobile. J’utilise Microsoft Clarity pour voir où les visiteurs hésitent ou repartent, et si le texte, une image ou la mise en page est en cause. Si votre site n’est pas prêt à recevoir des visiteurs payants, c’est la priorité, et c’est le rôle de mon {{< a page="/services/websites" >}}offre de création de site{{< /a >}}.
 4. **Installez le suivi des conversions avant la première annonce** : une conversion Google Ads, le pixel Meta, l’Insight Tag de LinkedIn ou le pixel TikTok, chargés seulement après l’accord du visiteur dans votre bandeau cookies.
-5. **Lancez une seule plateforme, un seul objectif et un budget que vous pouvez vous permettre de perdre, avec une date de fin.** Changez une chose à la fois, pour savoir quel changement a fait la différence.
+5. **Lancez une seule plateforme et un seul objectif, avec un budget que vous pouvez vous permettre de perdre et une date de fin.** Changez une chose à la fois, pour savoir quel changement a fait la différence.
 6. **Jugez sur le coût par client**, puis augmentez le budget, changez l’offre ou arrêtez.
 
-N’ajoutez une deuxième plateforme que lorsque la première tourne sans vous. Une petite entreprise se laisse facilement séduire par chaque nouveau canal : le marketing fait beaucoup de bruit, c’est même tout son principe. Mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}} explique pourquoi un canal maîtrisé rapporte plus que quatre canaux à moitié tenus.
+N’ajoutez une deuxième plateforme qu’une fois que la première amène des clients à un coût acceptable et que son suivi est devenu une routine. Une petite entreprise se laisse facilement séduire par chaque nouveau canal : le marketing fait beaucoup de bruit, c’est même tout son principe. Mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}} explique pourquoi un canal maîtrisé rapporte plus que quatre canaux à moitié tenus.

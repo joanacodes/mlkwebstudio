@@ -27,15 +27,15 @@ faq:
     a: "Yes, eventually. After expiry, registrars hold the domain for a grace period, often with a higher fee to restore it, then release it, and anyone can register it. Auto-renewal with a valid card avoids the risk."
 ---
 
-Website security for small business sites is less about firewalls than about keys: who holds them, how they are protected and what happens when one goes missing. Most sites are not hacked by someone who chose them. A bot finds an outdated plugin or a reused password, or the domain lapses because the renewal reminders go to a former designer's inbox.
+Website security for small business owners is less about firewalls than about keys: who holds them, how they are protected and what happens when one goes missing. Most sites are not hacked by someone who chose them: a bot finds an outdated plugin or a reused password. And many outages involve no hacker at all, just a domain that lapsed because the renewal reminders went to a former designer's inbox.
 
 I mostly see the emergency side. Pilotech called me in a hurry when their old WordPress site was hacked: I got it back, built them a new website, and two years later we still work together. Eden Flats called me after a hack too. In fact, every client who has ever called me in an emergency was on WordPress.
 
-This guide is the hub of the rescue section. It starts with what to do in the first hour if your site is hacked, down or locked, then covers the habits that stop it happening: accounts, two-factor authentication, updates, backups and your domain name. You can do most of it yourself in an afternoon.
+This guide is the hub of the rescue section. It starts with what to do first, and in what order, if your site is hacked, down or locked, then covers the habits that stop it happening: accounts, two-factor authentication, updates, backups and your domain name. You can do most of it yourself in an afternoon.
 
 ## Website security for small business: what you are protecting
 
-A small business website has four things worth protecting, and the site itself is only one of them:
+Four things are at stake, and the website's code is only one of them:
 
 - Accounts: the domain registrar, the hosting or website builder, the email. Whoever controls them controls the site.
 - Software: WordPress with its plugins and theme, or the platform you build on.
@@ -53,23 +53,23 @@ Here is what goes wrong most often, and what prevents it.
 | Someone spoofs your domain | Fake emails "from" you reach your clients | SPF, DKIM and DMARC records |
 | There is no usable backup | A bad update or a hack means starting again | Backups and a tested restore |
 
-None of this needs a security budget: **an hour or two of setup and a short check every month cover most of it**. For the rest of your IT, from laptops to phishing emails, the NCSC's [Small Business Guide](https://www.ncsc.gov.uk/collection/small-business-guide) is the best free starting point in the UK.
+None of this needs a security budget: **a few hours of set-up, then a short check every month, cover most of it**. For the rest of your IT, from laptops to phishing emails, the NCSC's free [small organisations guide to cyber security](https://www.ncsc.gov.uk/collection/small-business-guide) is a good place to start.
 
 ## Hacked, down or locked out: what to do first
 
-When something breaks, the order of your moves matters more than their speed. This is the sequence I follow, whatever the platform.
+When something breaks, the order of your moves matters more than their speed. Here is the sequence to follow, whatever the platform.
 
 ### If your site has been hacked
 
 1. Secure the inbox that receives your password resets: new password, two-factor authentication, and sign out every other session. Whoever controls that inbox can reset everything else.
 2. Do the same for the registrar, the hosting or builder account and the site's admin area, and remove any user you do not recognise.
 3. Take the site offline, or put up a maintenance page, if it sends visitors elsewhere or shows spam. You protect your visitors, and your name.
-4. Save a copy of the files and the database, the server logs, screenshots and dates before you clean anything. They show how the attacker got in.
-5. Check whether personal data was exposed through forms, customer accounts or orders. If it was and it puts people at risk, report it to the ICO within 72 hours of finding out, through its [personal data breach page](https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach). You can report the crime to Report Fraud (reportfraud.police.uk or 0300 123 2040), which replaced Action Fraud on 4 December 2025; in Scotland, call Police Scotland on 101.
+4. Before you clean anything, save a copy of the files, the database and the server logs, take screenshots and note the dates. They show how the attacker got in.
+5. Check whether personal data was exposed through forms, customer accounts or orders. If it was, and the breach is likely to put people at risk, report it to the ICO within 72 hours of finding out, through its [personal data breach page](https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach), and keep a written record of the breach either way. You can report the crime to Report Fraud (reportfraud.police.uk or 0300 123 2040), the service for England, Wales and Northern Ireland that replaced Action Fraud on 4 December 2025; in Scotland, call Police Scotland on 101.
 6. Clean the site, restore a backup from before the hack, or rebuild. If you do not know how the attacker got in, rebuilding on clean ground with your own texts and images is often faster and safer than hunting infected files. For Pilotech, I recovered the old site and built a new one.
-7. If Google shows "This site may be hacked" under your results, open the **Security issues** report in Search Console, fix everything it lists, then click **Request Review**. According to [Google's help page](https://support.google.com/webmasters/answer/9044101), malware reviews take a few days, and sites hacked with spam can wait several weeks.
+7. If Google shows "This site may be hacked" under your results, open the **Security issues** report in Search Console, fix everything it lists, then click **Request Review** and explain what you fixed. According to [Google's help page](https://support.google.com/webmasters/answer/9044101), malware reviews take a few days, and sites hacked with spam can wait several weeks.
 
-{{< callout type="warning" >}}Do not wipe the site or reinstall everything before step 4. Once the files are gone, so is the evidence of how the attacker got in, and the same hole stays open on the new site.{{< /callout >}}
+{{< callout type="warning" >}}Do not wipe the site or reinstall everything before step 4. Once the files are gone, so is the evidence of how the attacker got in, and you risk leaving the same hole open on the new site.{{< /callout >}}
 
 The WordPress version of these steps, with what to look for in the files and the database, is in {{< a key="wordpress-site-hacked" >}}WordPress site hacked? What to do in the first 24 hours{{< /a >}}. If you have never opened Search Console, {{< a key="google-search-console-tutorial" >}}my Search Console guide{{< /a >}} shows how to add your site first.
 
@@ -80,7 +80,7 @@ Check the boring causes first, in this order:
 1. The domain. Look up its expiry date (ICANN Lookup for a .com, Nominet's WHOIS for a .co.uk). An expired domain takes the website and the email down at the same time.
 2. The DNS. A deleted record, or nameservers changed during a "quick fix", is enough to take a site down. {{< a key="dns-records-explained" >}}DNS records explained{{< /a >}} shows what each record does.
 3. The host or platform. Check its status page before you change anything.
-4. The last thing that changed: an update, a new plugin, a snippet of code. On WordPress, if the dashboard will not load, renaming a plugin's folder in `wp-content/plugins` through your host's file manager switches it off. On Squarespace, safe mode (add `/safe` after `/config` in your admin address) turns off custom code in the editor while you remove the faulty snippet, as explained in {{< a key="squarespace-code-injection" >}}Squarespace code injection{{< /a >}}. On Wix, Site History restores an earlier version.
+4. The last thing that changed: an update, a new plugin, a snippet of code. On WordPress, if the dashboard will not load, renaming a plugin's folder in `wp-content/plugins` through your host's file manager switches it off. On Squarespace, safe mode (add `/safe` after `/config` in your admin address) turns off custom code in the editor while you remove the faulty snippet, as I explain in {{< a key="squarespace-code-injection" >}}my Squarespace code injection guide{{< /a >}}. On Wix, Site History restores an earlier version.
 5. The last backup that worked, if nothing else helps.
 
 ### If you are locked out, or a former provider holds the keys
@@ -93,7 +93,7 @@ Lockouts often start with a shortcut. A designer opens the domain, hosting and G
 
 - Open each account with an email address on your own domain that you control, never a personal address or your designer's.
 - Make the business the registrant of the domain, not the person who happened to register it.
-- Give your designer, developer or assistant their own access: a contributor on Squarespace, a collaborator on Wix, a user with the Editor role on WordPress. You can then remove them in one click without changing your own password.
+- Give your designer, developer or assistant their own access: a contributor on Squarespace, a collaborator on Wix, their own user on WordPress, with the Editor role if they only change content. You can then remove that access when the work ends, without changing your own password.
 - Never share your own password, even with someone you trust. A shared login cannot be taken back from one person.
 
 Then write an access list, one line per account, and keep it in your password manager or a secure document that does not live in your inbox.
@@ -126,11 +126,11 @@ An authenticator app or a passkey is safer than a code sent by text message, whi
 
 Squarespace, Wix, Google, Microsoft and most registrars have two-factor authentication built in. WordPress does not: you add it with a plugin, and you keep administrator accounts for the people who really need them.
 
-{{< callout type="tip" >}}If you only do one thing after reading this, turn on two-factor authentication for **your email account**. It protects every other account, because that is where their password resets go.{{< /callout >}}
+{{< callout type="tip" >}}If you only do one thing after reading this guide, make it two-factor authentication on **your email account**.{{< /callout >}}
 
 ## Updates and plugins: where WordPress sites get into trouble
 
-WordPress itself is well maintained; the risk lies in what you add to it. Patchstack counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, 42% more than in 2024, and about 91% of them were in plugins ([Patchstack's 2026 report](https://www.patchstack.com/whitepaper/state-of-wordpress-security-in-2026/)). Each plugin is code written by a different developer, updated on their schedule, or not at all.
+WordPress itself is well maintained; the risk lies in what you add to it. Patchstack counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, 42% more than in 2024. About 91% of them were in plugins, and 46% had no fix from the developer when they were made public ([Patchstack's 2026 report](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/)). Each plugin is code written by a different developer, updated on their schedule, or not at all, which is why the number of plugins matters as much as the updates.
 
 If your site runs on WordPress:
 
@@ -139,7 +139,7 @@ If your site runs on WordPress:
 - Avoid plugins that have gone a long time without an update, and never install a free copy of a paid theme or plugin: pirated copies are a classic way in for malware.
 - Ask your host to keep PHP up to date, and take a backup before any major update.
 
-My honest view: WordPress is not insecure, it is demanding. Someone has to look after it every week, and an out-of-date WordPress site is exactly what bots look for. When owners edit their site themselves, I move them to Squarespace, where the platform handles the software, the hosting and the security updates, and changing a word cannot break the layout. Businesses with the budget for a specialist every month can keep WordPress. The full comparison is in {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress{{< /a >}}, and the move itself in {{< a key="wordpress-to-squarespace" >}}WordPress to Squarespace without losing your rankings{{< /a >}}.
+My honest view: WordPress is not insecure, it is demanding. It needs a webmaster all year round, and an out-of-date WordPress site is exactly what bots look for. When owners edit their site themselves, I move them to Squarespace, where the platform handles the software, the hosting and the security updates, and changing a word cannot break the layout. Businesses with the budget for a specialist every month can keep WordPress. The full comparison is in {{< a key="squarespace-vs-wordpress" >}}Squarespace vs WordPress{{< /a >}}, and the move itself in {{< a key="wordpress-to-squarespace" >}}WordPress to Squarespace without losing your rankings{{< /a >}}.
 
 On a builder like Squarespace or Wix, the platform patches its own software and servers. Your share is the accounts, the code you paste in and the apps you connect. A static site, such as one built with AI and published on GitHub Pages, has no database and no admin login on a server, so there is very little to attack; the risk moves to your GitHub account and your DNS. {{< a key="build-website-with-ai" >}}How to build a website with AI and host it on GitHub Pages{{< /a >}} shows that set-up.
 
@@ -173,13 +173,13 @@ Your domain is the master key. Your website, your email and the password resets 
 3. **Keep the transfer lock on.** Registrars call it a registrar lock, domain lock or transfer lock, and most switch it on by default. It stops anyone moving the domain to another registrar without your say-so. A .co.uk has no transfer code (it moves when its IPS tag is changed), so the security of the registrar account matters even more.
 4. Turn on auto-renewal, with a card that will still be valid on the renewal date. Some registrars charge well before it: Squarespace, for example, charges the card 15 days ahead. Make sure the reminders reach an inbox someone reads.
 5. Clean up your DNS. Delete records that point to services you no longer use: a forgotten record can let someone else claim the subdomain it points to. GitHub, for example, warns against wildcard records such as `*.example.com` for that reason.
-6. Authenticate your email. SPF, DKIM and DMARC stop other people sending messages that claim to come from your domain, and Gmail has required SPF or DKIM from every sender since February 2024. {{< a key="spf-dkim-dmarc-setup" >}}How to set up SPF, DKIM and DMARC{{< /a >}} walks you through each record.
+6. Authenticate your email. SPF, DKIM and DMARC let receiving mail servers spot and reject messages that pretend to come from your domain, and Gmail has required SPF or DKIM from every sender since February 2024. {{< a key="spf-dkim-dmarc-setup" >}}How to set up SPF, DKIM and DMARC{{< /a >}} walks you through each record.
 
-If you want to move the domain to another registrar, do it while everything works: {{< a key="transfer-domain-name" >}}how to transfer a domain{{< /a >}} explains the authorisation code and the .co.uk IPS tag. Under ICANN's current rules, a change of registrant on a .com can block transfers for 60 days unless your registrar offers an opt-out, one more reason not to leave it to the last minute. I compare the registrars I have used, on renewal price, in {{< a key="best-domain-registrar" >}}best domain registrar in the UK{{< /a >}}.
+If you want to move the domain to another registrar, do it while everything works: {{< a key="transfer-domain-name" >}}how to transfer a domain{{< /a >}} explains the authorisation code and the .co.uk IPS tag. Under the ICANN rules in force at the time of writing, a change of registrant on a .com can block transfers for 60 days unless your registrar offers an opt-out, one more reason not to leave it to the last minute. ICANN has adopted new rules but has not announced when they take effect, so check your registrar's help page before a move. {{< a key="best-domain-registrar" >}}My comparison of UK domain registrars{{< /a >}} looks at the six I have used, on renewal price.
 
 ## A website security checklist for every month, quarter and year
 
-Most security is maintenance. Here is the checklist I would pin next to the desk.
+Most security is maintenance. Here is a checklist to pin next to your desk.
 
 ### Every month
 

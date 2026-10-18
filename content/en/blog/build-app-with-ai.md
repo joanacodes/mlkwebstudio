@@ -20,7 +20,7 @@ faq:
   - q: "Can I use ChatGPT instead of Claude to build an app?"
     a: "Yes. Any capable AI assistant can write a single-page tool from the same description. I use Claude because, in my work, ChatGPT tends to make things up a bit too often, while Claude, and its Fable 5.1 model in particular, has been extremely accurate."
   - q: "Can I move an app built with Lovable or Bolt to my own hosting?"
-    a: "Usually, if the builder lets you export the code or connect it to GitHub. The database and the user accounts have to move with it, so plan for a developer's help rather than a one-click move."
+    a: "Usually, if the builder lets you export the code or connect it to GitHub. The code is the easy part: the database and the user accounts also have to be moved or reconnected, so plan for a developer's help rather than a one-click move."
   - q: "Can I build a mobile app with AI?"
     a: "Most AI builders make web apps, which open in the phone's browser and can be added to the home screen like an app. Publishing in the App Store or Google Play adds developer accounts, store reviews and fees: that part is a job for a developer."
 ---
@@ -35,7 +35,7 @@ I build software for my own use, not for sale, so I know what it feels like to n
 
 Vibe coding means building software by describing what you want in plain words, letting an AI write the code, and correcting the result by asking for changes rather than by reading the code. Three families of tools do it, and they are not interchangeable.
 
-- **An assistant that builds inside the chat.** Claude's Artifacts turn a description into a small interactive tool that you open in Claude, and they come with every Claude plan, the free one included. An artifact can even call Claude itself: according to Anthropic's [help page on Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them), that needs no API key and costs its creator nothing, because each user's usage counts against their own plan. On paid plans, an artifact can also keep up to 20 MB of text between sessions, private to each person or shared by everyone who opens it.
+- **An assistant that builds inside the chat.** Claude's Artifacts turn a description into a small interactive tool that you open in Claude, and they come with every Claude plan, the free one included. An artifact can even call Claude itself: according to Anthropic's [help page on Artifacts](https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them), that needs no API key and costs its creator nothing, because each user's usage counts against their own plan. With a paid plan, on the web or the desktop app, an artifact can also keep up to 20 MB of text between sessions, private to each person or shared by everyone who opens it.
 - **Vibe-coding builders.** Lovable, Bolt, v0 and Base44, the start-up Wix bought in June 2025, generate a complete web app from a chat, often with a database and user accounts, and put it online for you. Lovable, Bolt and v0 mostly produce React or Next.js projects, which need a build step before they can run anywhere else.
 - **A coding agent.** Claude Code, included in the Claude Pro plan, works directly on a project's files. In Anthropic's words: "Describe what you want and it plans, writes code, runs tests, and opens pull requests." It gives you the most control of the three, and it is the least forgiving if files, folders and version control mean nothing to you.
 
@@ -61,7 +61,7 @@ In each case a mistake costs you a few minutes, not a client, which makes these 
 | What it costs | Included in every Claude plan | Usually a free allowance, then a monthly plan metered in credits or tokens | Included in Claude Pro |
 | Best for | A tool for you or your team | A prototype to show a partner or a developer | A small project whose code you want to keep |
 
-Claude Pro costs $20 a month in the US at the time of writing (October 2026), or $17 a month billed annually, before tax, on [Claude's pricing page](https://claude.com/pricing). Anthropic bills in local currency where it can but publishes no pound price, so check the amount at checkout. The builders' plans change regularly and they meter usage, so a project with many rounds of changes costs more than the headline price: read their pricing pages before you start.
+Claude Pro costs $20 a month in the US at the time of writing (October 2026), or $17 a month billed annually, before tax, on [Claude's pricing page](https://claude.com/pricing). Anthropic charges in local currency where it can, but its pricing page shows no pound price, so check the amount at checkout. The builders' plans change regularly and they meter usage, so a project with many rounds of changes costs more than the headline price: read their pricing pages before you start.
 
 My advice for a first project: start with an artifact. Move to a builder when you need to show a working prototype to someone else, and to Claude Code when you want to own every file.
 
@@ -70,8 +70,8 @@ My advice for a first project: start with an artifact. Move to a builder when yo
 Take a painter and decorator who prices every job by hand. The method is the same for any small tool.
 
 1. **Describe the problem in two sentences**: who uses the tool, what goes in, what comes out. "I price painting jobs on site from the wall area and the number of coats, and I want the total with VAT on my phone."
-2. **Gather the real numbers**: your price list, minimum charge, VAT rate and rounding rules. If you do not give an AI your prices, it will happily invent plausible ones.
-3. **Ask for one page, with no database and no login.** The smaller the request, the fewer places a bug can hide. In Claude, artifacts need **Cloud code execution and file creation** switched on in **Settings > Capabilities**.
+2. **Gather the real numbers**: your price list, minimum charge, VAT rate (if you are VAT-registered) and rounding rules. If you do not give an AI your prices, it will happily invent plausible ones.
+3. **Ask for one page, with no database and no login.** The smaller the request, the fewer places a bug can hide. In Claude, paste the request into any chat. Artifacts need **Cloud code execution and file creation** in **Settings > Capabilities**, which Anthropic turns on by default on the Free, Pro and Max plans.
 
 ```text
 Build a quote calculator as a single HTML page for a painter and decorator.
@@ -103,17 +103,17 @@ The quote and ordering app I built into {{< a page="/projects/edenel-nettoyage" 
 
 ## Where a DIY app stops: data, logins, payments and upkeep
 
-The AI writes the code either way. What changes at this line is who answers for the consequences.
+Crossing one of these four lines does not mean you have to stop building. It means a mistake no longer costs you just a few minutes: it can hurt someone else.
 
 ### Your clients' personal data
 
-As soon as the app stores names, phone numbers, addresses or anything else about your clients, UK GDPR applies to that data. You decide what you collect, who can read it, where it is stored and when it is deleted, and the ICO's guidance on [privacy in the product design lifecycle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/designing-products-that-protect-privacy/privacy-in-the-product-design-lifecycle/) is written for exactly this stage. If the data leaks and the breach puts people at risk, you must report it to the ICO within 72 hours of finding out.
+As soon as the app stores your clients' names, phone numbers, addresses or anything else that identifies a person, UK GDPR applies to that data. You decide what you collect, who can read it, where it is stored and when it is deleted, and the ICO's guidance on [privacy in the product design lifecycle](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/designing-products-that-protect-privacy/privacy-in-the-product-design-lifecycle/) is written for exactly this stage. If the data leaks and the breach puts people at risk, you must report it to the ICO within 72 hours of finding out.
 
 Two traps catch owners who build their own tools. Shared storage in an artifact shows the same data to everyone who opens it, so keep client details out of it. And test data pasted into an AI chat is still client data: my guide on {{< a key="chatgpt-gdpr-client-data" >}}what client data you can put into an AI assistant{{< /a >}} covers that second point.
 
 ### Logins and security
 
-Logins and databases are where vibe-coded apps go wrong most visibly. In 2025, a researcher scanned 1,645 apps from Lovable's public showcase and found 170 that let outsiders read data such as email addresses, because the access rules on their databases (row level security) were missing or too weak. The case is recorded as [CVE-2025-48757](https://nvd.nist.gov/vuln/detail/CVE-2025-48757), and Lovable disputes it on the grounds that each customer is responsible for protecting their own app's data. Whoever is right, the lesson is the same: the builder writes the code, and the responsibility stays with you.
+Logins and databases are where vibe-coded apps go wrong most visibly. In 2025, a researcher scanned 1,645 apps from Lovable's public showcase and found 170 that let outsiders read data such as email addresses, because the access rules on their databases (row level security) were missing or too weak. The case is recorded as [CVE-2025-48757](https://nvd.nist.gov/vuln/detail/CVE-2025-48757), and Lovable disputes it on the grounds that each customer is responsible for protecting their own app's data. Whoever is right, the practical lesson is the same: if your app has logins or a database, someone has to check who can read and change each table before real data goes in, and you cannot assume the builder has done it for you.
 
 API keys are the other classic leak. An app that calls an AI model needs a key, and a key placed in a web page can be read by every visitor; my {{< a key="claude-api-tutorial" >}}Claude API tutorial{{< /a >}} explains where to keep one. An artifact that calls Claude avoids the problem, because it needs no key at all.
 
@@ -139,6 +139,6 @@ You do not need me, or any developer, for the tools in the first list: build the
 - It runs on its own, on a schedule, with nobody watching.
 - You can no longer predict what a change will break.
 
-That list describes the app I built for Pilotech. I had brought the company more prospects than its team could handle, and the client asked for a tool to see everything clearly and never miss a call-back. The result is custom-coded: it manages prospects, job sites, communication with employees, the calendar and accounting analytics, with AI and phone integrations, and an automation like that needs access to the client's mailbox, for example. I tell that story in {{< a key="bespoke-crm-internal-app" >}}bespoke CRM for a small business{{< /a >}}.
+The app I built for Pilotech ticks several of these boxes. I had brought the company more prospects than its team could handle, and the client asked for a tool to see everything clearly and never miss a call-back. The result is custom-coded: it manages prospects, job sites, communication with employees, the calendar and accounting analytics, with AI and phone integrations, and an automation like that needs access to the client's mailbox, for example. I tell that story in {{< a key="bespoke-crm-internal-app" >}}bespoke CRM for a small business{{< /a >}}.
 
 AI made that kind of project faster to deliver; it did not remove the need for someone who answers for it. When I build an app for a client, 30% or 50% is paid upfront and the rest on delivery.
