@@ -31,7 +31,7 @@ Quand un chef d’entreprise m’appelle pour la première fois au sujet du SEO,
 
 Cet exemple, c’est Pilotech, un installateur de climatisation d’Île-de-France. J’ai créé son site en un mois environ, puis travaillé son référencement dans un ordre précis : les pages, les contenus, la fiche Google, puis les corrections techniques. Le premier prospect est arrivé trois semaines après la mise en ligne. Les étapes ci-dessous suivent le même ordre, pour que vous puissiez les appliquer à votre propre site.
 
-Pas besoin d’agence ni d’outil payant pour commencer : il vous faut un site que vous pouvez modifier, un compte Google gratuit et de la patience. Chaque partie donne la version courte et renvoie au guide détaillé sur ce blog : cette page est la carte, les autres articles donnent l’itinéraire.
+Pas besoin d’agence ni d’outil payant pour commencer : il vous faut un site que vous pouvez modifier, un compte Google gratuit et de la patience. Et si vous vous demandez si le SEO vaut encore la peine maintenant qu’on interroge des assistants IA, ma réponse courte est dans {{< a key="is-seo-dead" >}}Le SEO est-il mort ?{{< /a >}} Chaque partie donne la version courte et renvoie au guide détaillé sur ce blog : cette page est la carte, les autres articles donnent l’itinéraire.
 
 ## Qu’est-ce que le référencement naturel, et que rapporte-t-il à une petite entreprise ?
 

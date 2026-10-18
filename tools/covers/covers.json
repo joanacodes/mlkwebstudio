@@ -732,5 +732,11 @@
   "category": "seo",
   "label": "SEO",
   "motif": "chart"
+ },
+ {
+  "key": "is-seo-dead",
+  "category": "seo",
+  "label": "SEO ↗",
+  "motif": "search"
  }
 ]
