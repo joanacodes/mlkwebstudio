@@ -9,7 +9,7 @@ lastmod: 2026-10-17T09:20:00+02:00
 category: "tools"
 article_type: "comparison"
 keywords: ["social media scheduling tools", "Metricool vs Postly", "Metricool vs Buffer", "Metricool pricing", "Postly pricing", "free social media scheduler"]
-summary: "Social media scheduling tools publish the posts you prepared in one sitting, at the times you chose. For a small business, Metricool is the most complete: it schedules on every major network, shows what successful competitors post and tracks your growth, with a free plan and five brands for about £15 ($20) a month billed yearly (October 2026). Postly is good enough to get going and also posts to Google Business Profile and WordPress; Buffer charges per channel, from about £3.80 ($5) a month each."
+summary: "Social media scheduling tools publish a month of prepared posts at the times you choose. For a small business, Metricool is the most complete: besides scheduling, it shows what successful competitors post and tracks your growth, with a free plan and five brands for about £15 ($20) a month billed yearly (October 2026). Postly is good enough to get going and also posts to Google Business Profile and WordPress; Buffer charges per channel, from about £3.80 ($5) a month each."
 cover: "social-media-scheduling-tools"
 cover_alt: "A monthly calendar of scheduled social media posts, titled Metricool vs Postly"
 related: ["social-media-small-business", "pinterest-for-business", "youtube-shorts-for-business", "google-business-profile-posts", "small-business-tools-guide"]

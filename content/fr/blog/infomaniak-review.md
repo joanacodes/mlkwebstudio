@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:53:00+02:00
 category: "domains"
 article_type: "guide"
 keywords: ["Infomaniak avis", "avis kSuite", "kSuite prix", "alternative à Google Workspace", "hébergement suisse", "Infomaniak hébergement"]
-summary: "Infomaniak, entreprise genevoise, vend des noms de domaine, de l’hébergement web et la kSuite, une alternative suisse à Google Workspace et Microsoft 365, et propose SwissTransfer gratuitement. Je recommande vivement Infomaniak aux TPE qui veulent garder emails et fichiers en Suisse : la kSuite pour les entreprises commence à 1,76 CHF HT par utilisateur et par mois, soit environ 1,90 € (octobre 2026). Pour une seule boîte mail, une messagerie seule comme Spacemail coûte moins cher ; pour une équipe installée chez Google ou Microsoft, pesez d’abord le temps qu’un changement demande."
+summary: "Infomaniak, société genevoise, vend des domaines, de l’hébergement web et la kSuite, alternative suisse à Google Workspace et Microsoft 365, et offre SwissTransfer. Je le recommande vivement aux TPE qui veulent leurs emails et fichiers en Suisse : la kSuite pour entreprises démarre à 1,76 CHF HT par utilisateur et par mois (environ 1,90 €, octobre 2026). Une seule boîte mail coûte moins cher ailleurs ; une équipe à l’aise chez Google ou Microsoft a peu à gagner à changer."
 cover: "infomaniak-review"
 cover_alt: "Le nom Infomaniak, le fournisseur suisse de la kSuite et de SwissTransfer, sur un fond de verre"
 related: ["o2switch-review", "web-hosting-comparison", "professional-email-address", "swisstransfer-vs-wetransfer", "domain-hosting-email-guide"]
