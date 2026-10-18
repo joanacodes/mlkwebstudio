@@ -9,7 +9,7 @@ lastmod: 2026-10-17T08:49:00+02:00
 category: "domains"
 article_type: "tutorial"
 keywords: ["hébergement Spaceship", "hébergement web Spaceship", "Spaceship hébergement WordPress", "EasyWP Spaceship", "Starlight Hyperlift", "Spaceship cPanel"]
-summary: "L’hébergement Spaceship se décline en cinq produits : Web Hosting, un hébergement mutualisé sous cPanel (offres Essential, Pro et Supreme), EasyWP pour WordPress infogéré, le créateur de site par IA Alf Website Studio, ainsi que Starlight Hyperlift et Virtual Machines pour les applications. Pour le site d’une petite entreprise, commencez par Essential : 19,88 $ (environ 17 €) la première année, puis 28,88 $ (environ 25 €), avec 30 jours d’essai gratuit, le SSL offert et jusqu’à cinq domaines. Un site Squarespace n’a besoin d’aucune de ces offres."
+summary: "L’hébergement Spaceship compte cinq produits : Web Hosting, un mutualisé sous cPanel (offres Essential, Pro et Supreme), EasyWP pour WordPress infogéré, le créateur de site par IA Alf Website Studio, et Starlight Hyperlift et Virtual Machines pour les applications. Pour une petite entreprise, commencez par Essential : 19,88 $ (environ 17 €) la première année, puis 28,88 $ (environ 25 €), avec 30 jours d’essai gratuit, le SSL offert et cinq domaines. Un site Squarespace n’en a pas besoin."
 cover: "spaceship-hosting"
 cover_alt: "Les mots Spaceship hosting à côté d’une étoile entourée d’orbites, derrière un verre cannelé"
 related: ["spaceship-vs-namecheap", "build-website-with-ai", "spaceship-domain-dns-tutorial", "web-hosting-comparison", "spacemail-setup"]
