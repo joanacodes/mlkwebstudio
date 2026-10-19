@@ -27,9 +27,9 @@ faq:
 
 The 3-2-1 backup rule is the simplest standard there is: keep three copies of your data, on two different kinds of storage, with one copy away from your office. It protects a small team against the ways files really disappear: a shared folder deleted by mistake, a laptop stolen from a car, ransomware that encrypts everything it can reach, or the account of someone who has left, deleted along with the only copy of a client file.
 
-Many teams assume they are covered because everything is "in the cloud". Google Workspace and Microsoft 365 do keep deleted files for a while, but for weeks or months, not years, and sync copies your mistakes as faithfully as your work.
+Many teams feel covered because everything is "in the cloud". Google Workspace and Microsoft 365 keep deleted files for weeks or months, not years, and sync copies your mistakes as faithfully as your work.
 
-This guide applies the rule to your files, Google Workspace, Microsoft 365 and laptops, then gives a plan for a five-person team and a restore test to run every quarter. It is part of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}.
+This guide applies the rule to Google Workspace, Microsoft 365 and laptops, with a plan for a five-person team and a quarterly restore test. It is part of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}.
 
 ## What the 3-2-1 backup rule means
 
@@ -38,22 +38,22 @@ Each number covers a different way of losing data.
 | Rule | In practice | Protects you against |
 |---|---|---|
 | 3 copies | The original and two backups | One copy being deleted, corrupted or encrypted |
-| 2 kinds of storage | For example a cloud service and an external drive | One technology or one supplier failing |
-| 1 copy off site | Another building, or another provider than your main one | Fire, flood, theft or a break-in at the office |
+| 2 kinds of storage | Say, a cloud service and an external drive | One technology or one supplier failing |
+| 1 copy off site | Another building or another provider | Fire, flood, theft or a break-in at the office |
 
-A backup is a copy kept apart from the original that you can restore as it was on a chosen date. The UK's NCSC covers backups in its [guide for small organisations](https://www.ncsc.gov.uk/collection/small-business-guide), alongside email, accounts and devices. France's national cybersecurity agency, ANSSI, recommends the 3-2-1 rule in its guide to backup fundamentals, with one detail worth copying: at least one of the backups should be offline, disconnected from your network and your accounts.
+A backup is a copy kept apart from the original that you can restore as it was on a chosen date. The UK's NCSC covers backups in its [guide for small organisations](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security). France's national cybersecurity agency, ANSSI, recommends the 3-2-1 rule in its guide to backup fundamentals, with one detail worth copying: at least one of the backups should be offline, disconnected from your network and your accounts.
 
 That detail is the point of the extended version, **3-2-1-1-0**: one copy offline or immutable, and zero errors when you test a restore. An immutable backup is one that nobody, not even an administrator, can change or delete before a date you set. It is what keeps a backup alive when ransomware or an intruder has your admin password.
 
 ## Sync is not a backup
 
-Google Drive, OneDrive and Dropbox keep the same files on your computer and in the cloud. That is sync: a change on one side is copied to the other within seconds. It is excellent for working together, and no help against the most common accidents:
+Google Drive, OneDrive and Dropbox keep the same files on your computer and in the cloud: a change on one side is copied to the other within seconds. That is excellent for working together, and no help against the most common accidents:
 
 - you delete a folder, and it disappears everywhere;
 - ransomware encrypts your laptop, and the encrypted files replace the good ones in the cloud;
 - someone saves over a spreadsheet, and the old version is gone from every device.
 
-The bin and the version history are safety nets, not backups. They are run by the same provider, opened with the same admin account and emptied on a fixed schedule, so they save you from the mistake you notice the same week. A backup is a separate copy, behind a different login, that you can restore to a date of your choice. If ransomware is already on your screen, follow my {{< a key="incident-response-first-hour" >}}first-hour plan{{< /a >}} before you touch any backup.
+The bin and the version history are safety nets, not backups. They are run by the same provider, opened with the same admin account and emptied on a fixed schedule, so they save you from the mistake you notice the same week. If ransomware is already on your screen, follow my {{< a key="incident-response-first-hour" >}}first-hour plan{{< /a >}} before you touch any backup.
 
 ## Google Workspace: what Google can restore, and for how long
 
@@ -63,7 +63,7 @@ As of 19 October 2026, Google's safety nets work like this:
 2. Once it has left the bin, an administrator can still restore it for 25 days from the Admin console: open the user's account, choose **Restore data**, then pick a date range and the app, Drive or Gmail. Google brings back everything deleted in that range, not one chosen file, and a large restore can take several days, according to [Google's admin help](https://knowledge.workspace.google.com/admin/drive/recover-deleted-files-and-folders-for-drive-users).
 3. After that, the data is purged for good.
 
-Google Vault is often taken for a backup. It is a retention and eDiscovery tool, built to keep data for legal holds and searches. Google's own Vault FAQ sends administrators to the Admin console to restore Gmail or Drive data deleted less than 25 days ago, and notes that Vault has no automated recovery tools. To go back further, you need a backup of your own.
+Google Vault is often taken for a backup, but it is a retention and eDiscovery tool for legal holds and searches: Google's own Vault FAQ sends administrators to the Admin console for Gmail or Drive data deleted less than 25 days ago, and notes that Vault has no automated recovery tools. To go back further, you need your own backup.
 
 {{< callout type="warning" >}}**Do not delete a departing employee's account straight away.** Once a Google Workspace user is deleted, you have 20 days to restore the account and its files. Transfer their files to a colleague first, then follow my {{< a key="offboarding-checklist" >}}offboarding checklist{{< /a >}} for the rest.{{< /callout >}}
 
@@ -76,22 +76,22 @@ Microsoft's safety nets last longer, but they have limits too, as of 19 October 
 - A deleted email can be recovered for a limited period after it leaves the Deleted Items folder, then it is gone.
 - Retention policies, set in Microsoft Purview, stop content from being permanently deleted before a date. They serve compliance and legal holds, not putting a folder back the way it was on Tuesday.
 
-Microsoft also sells **Microsoft 365 Backup**, a paid service for OneDrive, SharePoint and Exchange Online, set up and billed pay-as-you-go from the Microsoft 365 admin centre. At the time of writing (October 2026), [Microsoft's pricing page](https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing) gives $0.15 (about £0.11) per gigabyte of protected content per month. Microsoft publishes the price in dollars, and deleted items in recycle bins and mailbox archives count towards the size. It is a useful second copy, but it is still Microsoft keeping it, managed from the same admin accounts as everything else, so it is not your copy out of reach.
+Microsoft also sells **Microsoft 365 Backup**, a paid service for OneDrive, SharePoint and Exchange Online, set up and billed pay-as-you-go from the Microsoft 365 admin centre. At the time of writing (October 2026), [Microsoft's pricing page](https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing) gives $0.15 (about £0.11) per gigabyte of protected content per month, a price Microsoft publishes in dollars; deleted items in recycle bins and mailbox archives count towards the size. It is a useful second copy, but Microsoft still holds it and the same admin accounts manage it, so it is not your copy out of reach.
 
-Whichever suite you use, the settings that keep these restores possible, starting with who holds the admin accounts, are in my guide to {{< a key="secure-google-workspace-microsoft-365" >}}securing Google Workspace and Microsoft 365{{< /a >}}.
+The admin settings that keep these restores possible are in my guide to {{< a key="secure-google-workspace-microsoft-365" >}}securing Google Workspace and Microsoft 365{{< /a >}}.
 
 ## Backing up your suite outside Google and Microsoft
 
-For a copy beyond your provider's reach, use a cloud-to-cloud backup service. It connects to Google Workspace or Microsoft 365 through the admin console, copies mail, files, calendars and contacts every day, and keeps versions on its own storage. Acronis, Backupify, IDrive, Spin.ai and Veeam are among the vendors. I am not ranking them here; compare them on these points:
+For a copy beyond your provider's reach, use a cloud-to-cloud backup service: it connects to your suite through the admin console, copies mail, files, calendars and contacts every day and keeps versions on its own storage. Acronis, Backupify, IDrive, Spin.ai and Veeam are among the vendors. I am not ranking them; compare them on these points:
 
-- which suites and data it covers: mailboxes, personal drives, shared drives or SharePoint sites, calendars, contacts;
+- what it covers: mailboxes, shared drives or SharePoint sites, calendars, contacts;
 - how often it runs, and how long versions are kept;
 - where the data is stored, and whether you can choose a European data centre;
-- what you can restore: one file, one email or a whole account, to the same user or to another one;
-- its own admin login with two-factor authentication, separate from your Google or Microsoft admin;
-- how you get all your data out if you stop paying.
+- what you can restore: one file, one email or a whole account;
+- its own admin login with two-factor authentication;
+- how you get your data out if you stop paying.
 
-Most of them charge per user per month, and prices change: check the vendor's own pricing page, and its date, before you sign.
+Most charge per user per month: check the vendor's pricing page, and its date, before you sign.
 
 ## Laptops: Time Machine, File History and an external drive
 
@@ -108,7 +108,7 @@ This is the copy that saves you when everything else is hit at once. There are t
 
 1. **Two encrypted external drives in rotation**: one at the office for the backup, the other at home, swapped every week. Cheap and offline by design, but it depends on someone remembering.
 2. **A cloud backup with versioning and immutability**, sometimes called object lock: copies that cannot be changed or deleted for a period you set, even with your password.
-3. **Another provider, somewhere else.** Infomaniak, the Swiss company behind SwissTransfer, which I recommend, sells Swiss Backup: storage in its Swiss data centres for backups of computers, servers and phones made with Acronis software, for Synology or QNAP NAS boxes and for tools that use the S3 standard. It is priced in Swiss francs by storage and by device, with a 90-day trial; check the current prices on Infomaniak's site. There is more on the company in my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}}.
+3. **Another provider, somewhere else.** Infomaniak, the Swiss company behind SwissTransfer, which I recommend, sells Swiss Backup: storage in Switzerland for backups of computers, servers and phones made with Acronis software, for Synology or QNAP NAS boxes and for S3-compatible tools, priced in Swiss francs by storage and by device, with a 90-day trial. More in my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}}.
 
 {{< callout type="tip" >}}**Give the backup its own login**: a separate account, a long unique password and two-factor authentication, used by one or two people only. If the password that opens your mailbox also opens your backups, an intruder can delete both.{{< /callout >}}
 
@@ -118,14 +118,14 @@ This plan works without an IT department, as long as one person owns it and a se
 
 | Data | Backup | Copy out of reach | How often |
 |---|---|---|---|
-| Email, calendars, Drive or OneDrive, shared drives | A cloud-to-cloud backup service | That service, if it keeps immutable copies behind its own login; if not, a monthly export of the shared drives on the rotation drive | Daily, automatic |
+| Email, calendars, Drive or OneDrive, shared drives | A cloud-to-cloud backup service | That service, if it has immutable copies and its own login; otherwise a monthly export to the rotation drive | Daily, automatic |
 | Laptops | Time Machine or File History on an encrypted external drive | Work files kept in the shared drive, backed up above | Daily |
 | Office NAS or server, if you have one | A cloud backup such as Swiss Backup | The rotation drive | Nightly, weekly for the drive |
 | Accounting, CRM and other online tools | The export each tool offers (CSV or PDF) | Saved in the shared drive and on the rotation drive | Monthly |
 | Website | Your host's or platform's backups | A copy kept outside the hosting | Before each update |
 | Passwords and recovery codes | Your password manager | The recovery codes, printed and locked away | When they change |
 
-Your website follows its own routine, which depends on the platform: my {{< a key="website-security-guide" >}}website security guide{{< /a >}} covers backups platform by platform, and my guide to {{< a key="website-maintenance" >}}website maintenance{{< /a >}} explains who should run them. Two of my client relationships began with a call about a hacked website, so keep it on the list even if it rarely changes.
+Website backups depend on the platform: my {{< a key="website-security-guide" >}}website security guide{{< /a >}} covers them platform by platform, and my guide to {{< a key="website-maintenance" >}}website maintenance{{< /a >}} explains who should run them. Two of my client relationships began with a call about a hacked website, so keep it on the list even if it rarely changes.
 
 Then write one page: what is backed up, where, by which service, which login opens it (stored in the password manager), who restores and when the last test took place. Print it, because on the day your accounts are locked or encrypted, you will not be able to open a document stored in them.
 
@@ -133,13 +133,11 @@ Then write one page: what is backed up, where, by which service, which login ope
 
 A backup you have never restored is a hope, not a backup. Backups fail without telling anyone: a licence expires, a password changes, a drive fills up. Once a quarter, set aside half an hour:
 
-1. Restore one file from the shared drive as it was about a month ago, to a different folder, not over the original.
-2. Restore one email from a mailbox.
-3. Restore one folder from a laptop backup.
-4. Open everything you restored: a file that comes back but will not open does not count.
-5. Check the date of the latest backup for each line of your plan. If the most recent one is three weeks old, a job has stopped.
-6. Sign in to the backup service with its separate login, and check that nobody who has left the team still has access.
-7. Write the date, how long each restore took and any problem on your backup sheet.
+1. Restore three things to a different folder, never over the originals: a file from the shared drive as it was a month ago, an email, and a folder from a laptop backup.
+2. Open them: a file that comes back but will not open does not count.
+3. Check the date of the latest backup for each line of your plan. If the most recent one is three weeks old, a job has stopped.
+4. Sign in to the backup service with its separate login, and check that nobody who has left still has access.
+5. Note the date, how long each restore took and any problem on your backup sheet.
 
 That is the 0 of 3-2-1-1-0. The GDPR asks for the same thing in its own words: [Article 32](https://eur-lex.europa.eu/eli/reg/2016/679/oj) lists "the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident" and "a process for regularly testing" security measures, and the UK GDPR has the same article. This is practical guidance, not legal advice: if you hold health records or other sensitive data, a DPO or a lawyer can tell you what your backups must cover and how long you may keep them.
 

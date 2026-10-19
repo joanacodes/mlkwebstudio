@@ -27,7 +27,7 @@ faq:
     a: "Non, dans la plupart des cas. Un court appel ou l’annonce de votre répondeur peut suffire à copier votre voix : la cacher n’est pas une protection fiable. Continuez à publier et mettez plutôt en place la règle du rappel."
 ---
 
-Le téléphone sonne : c’est votre dirigeant, même voix, un peu pressé. Une acquisition confidentielle est en cours, les avocats attendent un virement avant 17 h, et personne ne doit être au courant avant l’annonce. Sauf que votre dirigeant est dans un TGV sans réseau, et que la voix a été fabriquée par un logiciel à partir d’une vidéo de votre site.
+Le téléphone sonne : c’est votre dirigeant, même voix, un peu pressé. Une acquisition confidentielle est en cours, les avocats attendent un virement avant 17 h, et personne ne doit être au courant avant l’annonce. Sauf que votre dirigeant est dans un TGV sans réseau, et que cette voix sort d’un logiciel nourri d’une vidéo de votre site.
 
 C’est la fraude au président par deepfake : la vieille arnaque au faux dirigeant (un FOVI, faux ordre de virement, pour les autorités), jouée avec une copie par IA de la voix d’une personne réelle, parfois avec un faux visage en visio. Ce qui a changé, c’est que l’imitation sonne juste. L’IA a accéléré beaucoup de métiers, le mien compris (mon {{< a key="ai-small-business-guide" >}}guide de l’IA pour les petites équipes{{< /a >}} en montre le bon côté), et la fraude aussi.
 
@@ -43,7 +43,7 @@ Le scénario vient des informations publiques : votre site, LinkedIn, les regis
 
 ## Trois cas réels : Arup, WPP et Ferrari
 
-Ce sont les cas les mieux documentés. Il s’agit de grands groupes, mais rien dans la méthode n’exige une grande cible.
+Ce sont les cas les mieux documentés : de grands groupes, mais une méthode qui marche contre n’importe quelle équipe.
 
 | Cas | Ce qui s’est passé | Résultat |
 |---|---|---|
@@ -51,24 +51,24 @@ Ce sont les cas les mieux documentés. Il s’agit de grands groupes, mais rien 
 | WPP (mai 2024) | Un compte WhatsApp avec une photo publique du directeur général, Mark Read, organise une réunion Teams, avec une voix clonée d’un autre dirigeant et des images tirées de YouTube | Un dirigeant d’agence est invité à créer une nouvelle activité, pour obtenir de l’argent et des données personnelles ; la tentative échoue |
 | Ferrari (juillet 2024) | Des messages WhatsApp depuis un numéro inhabituel, à propos d’une opération et d’un accord de confidentialité, puis un appel qui imite la voix et l’accent du directeur général, Benedetto Vigna | Le cadre demande quel livre Benedetto Vigna lui a recommandé quelques jours plus tôt ; l’interlocuteur raccroche |
 
-Arup a indiqué qu’aucun de ses systèmes internes n’avait été compromis ([article sur la confirmation d’Arup, en anglais](https://www.constructionbriefing.com/news/arup-employee-falls-victim-to-us-25-million-deepfake-video-call-scam/8037338.article)). The Guardian a révélé la tentative contre WPP grâce à l’email de Mark Read à ses équipes, qui mettait en garde contre les demandes de passeport ou d’argent et toute mention d’une « acquisition, transaction ou paiement secret dont personne d’autre n’est au courant ». Bloomberg a révélé celle contre Ferrari, qui n’a pas fait de commentaire.
+Arup a indiqué qu’aucun de ses systèmes internes n’avait été compromis ([article sur la confirmation d’Arup, en anglais](https://www.constructionbriefing.com/news/arup-employee-falls-victim-to-us-25-million-deepfake-video-call-scam/8037338.article)). The Guardian a révélé la tentative contre WPP, d’après l’email de Mark Read à ses équipes ; Bloomberg, celle contre Ferrari, qui n’a pas fait de commentaire.
 
-En France, la DGSI décrit une tentative contre une entreprise française : le responsable d’un site a reçu un appel, puis une visioconférence, d’une personne qui avait le visage et la voix du dirigeant, pour un virement lié à un projet d’acquisition ([page de la DGSI](https://www.dgsi.interieur.gouv.fr/risques-associes-aux-escroqueries-par-usurpation-didentite)).
+En France, la DGSI décrit une tentative contre une entreprise française : un responsable de site reçoit un appel, puis une visio, d’une personne qui a le visage et la voix du dirigeant et demande un virement pour un projet d’acquisition ([page de la DGSI](https://www.dgsi.interieur.gouv.fr/risques-associes-aux-escroqueries-par-usurpation-didentite)).
 
-Chez WPP et chez Ferrari, quelqu’un s’est arrêté pour vérifier ; chez Arup, la vérification est venue après le départ de l’argent. À chaque fois, la demande trahissait l’arnaque : une opération secrète, un canal inhabituel, un paiement que personne d’autre ne devait connaître.
+Chez WPP et Ferrari, quelqu’un a vérifié ; chez Arup, la vérification est venue après le départ de l’argent. À chaque fois, la demande trahissait l’arnaque : opération secrète, canal inhabituel, paiement que personne d’autre ne devait connaître.
 
 ## Pourquoi votre oreille ne suffit pas
 
 Le cadre de Ferrari a perçu de légères intonations mécaniques, et le site Ma Sécurité du ministère de l’Intérieur conseille d’écouter s’il manque des hésitations ou des variations naturelles du ton, et de guetter en vidéo un décalage entre les lèvres et la voix. Utiles, mais insuffisants : une mauvaise ligne, un « problème de caméra » ou un court message vocal les masquent, et vous écoutez votre dirigeant, vous ne cherchez pas l’erreur.
 
-Des logiciels de détection existent, mais personne ne les lance en plein appel, et « probablement authentique » ne vaut pas validation d’un virement. La reconnaissance vocale perd aussi de sa valeur : dans le même billet de 2024, OpenAI recommandait d’abandonner progressivement l’authentification par la voix, par exemple pour l’accès aux comptes bancaires.
+Personne ne lance un logiciel de détection en plein appel, et « probablement authentique » ne vaut pas validation d’un virement. Même la reconnaissance vocale faiblit : dans le même billet, OpenAI recommandait d’abandonner progressivement l’authentification par la voix, par exemple pour les comptes bancaires.
 
 Prenez ces signaux comme des raisons de vérifier, pas comme un examen que l’appel doit rater :
 
 - un nouveau numéro, un nouveau compte ou un canal inhabituel
 - l’urgence, liée à une échéance que vous ne pouvez pas vérifier
-- le secret : « n’en parlez à personne pour l’instant », « c’est sous accord de confidentialité »
-- une raison qui vous empêche de rappeler ou de demander à quelqu’un d’autre
+- le secret : « n’en parlez à personne pour l’instant »
+- une raison de ne pas rappeler ni de demander à un collègue
 - une demande de contourner la procédure habituelle, « juste cette fois »
 
 **La procédure bat la technologie :** une règle appliquée à chaque demande arrête une imitation parfaite aussi sûrement qu’une imitation grossière.
@@ -77,13 +77,13 @@ Prenez ces signaux comme des raisons de vérifier, pas comme un examen que l’a
 
 Ces règles ne demandent ni logiciel ni service informatique, et vous n’avez pas besoin de moi pour les mettre en place : écrivez-les sur une page et appliquez-les à chaque demande, celles du dirigeant comprises.
 
-1. **Raccrocher et rappeler.** Toute demande d’argent, de RIB, de mots de passe ou de fichiers confidentiels reçue par téléphone, message vocal, visioconférence ou messagerie se confirme en rappelant la personne au numéro enregistré dans vos contacts, jamais au numéro qui a appelé ni à celui donné dans le message. Un compte WhatsApp au nom et à la photo du dirigeant ne prouve rien : les escrocs qui visaient WPP en ont créé un à partir d’une photo publique. Si vous ne joignez pas la personne, la demande attend.
+1. **Raccrocher et rappeler.** Toute demande d’argent, de RIB, de mots de passe ou de fichiers confidentiels reçue par téléphone, message vocal, visio ou messagerie se confirme en rappelant le numéro enregistré dans vos contacts, jamais celui qui a appelé ni celui donné dans le message. Un compte WhatsApp au nom et à la photo du dirigeant ne prouve rien : les escrocs qui visaient WPP en ont créé un à partir d’une photo publique. Si vous ne joignez pas la personne, la demande attend.
 2. **Poser une question dont seule la vraie personne connaît la réponse.** La question du cadre de Ferrari est le modèle : un détail d’une conversation récente qui ne figure nulle part en ligne. Un mot de code convenu de vive voix fonctionne aussi ; ne le fixez jamais par email ou par messagerie, et changez-le dès qu’il a servi au téléphone.
-3. **Deux personnes pour tout virement inhabituel.** L’une le prépare, l’autre le valide après sa propre vérification. Depuis le 9 octobre 2025, votre banque vérifie aussi que le nom du bénéficiaire correspond à l’IBAN pour les virements en euros, mais un nom qui correspond ne rend pas une demande légitime. Mon guide sur la {{< a key="invoice-fraud-bank-details" >}}fraude au faux RIB et au président{{< /a >}} détaille la procédure de paiement.
+3. **Deux personnes pour tout virement inhabituel.** L’une le prépare, l’autre le valide après sa propre vérification. Depuis le 9 octobre 2025, votre banque vérifie aussi que le nom du bénéficiaire correspond à l’IBAN des virements en euros, mais une correspondance ne rend pas une demande légitime. Mon guide sur la {{< a key="invoice-fraud-bank-details" >}}fraude au faux RIB et au président{{< /a >}} détaille la procédure de paiement.
 4. **Urgence et secret, c’est stop.** Le dirigeant écrit à toute l’équipe : « Je ne vous demanderai jamais de virement secret ou urgent par téléphone, message vocal ou visio. Si cela semble arriver, rappelez-moi. » Et vérifier ne sera jamais reproché à personne, même quand la demande se révèle authentique. Les fiches officielles recommandent d’ailleurs une validation interne sans dérogation possible.
 5. **Informer tous ceux qui peuvent payer ou ouvrir des accès :** l’assistant ou l’assistante de direction, votre expert-comptable, toute personne qui peut modifier un RIB, réinitialiser un mot de passe, envoyer la paie ou des fichiers clients. Dix minutes en réunion d’équipe suffisent.
 
-{{< callout type="tip" >}}**La phrase à répéter :** « Je vous rappelle tout de suite sur votre numéro habituel. » Un vrai dirigeant dit oui. Un escroc trouve une raison pour que vous ne le fassiez pas, et cette raison est votre réponse.{{< /callout >}}
+{{< callout type="tip" >}}**La phrase à répéter :** « Je vous rappelle tout de suite sur votre numéro habituel. » Un vrai dirigeant dit oui. Un escroc trouve une raison de vous en empêcher, et cette raison est votre réponse.{{< /callout >}}
 
 Les voix clonées visent aussi les familles, avec un « petit-fils » en difficulté qui demande de l’argent : le FBI recommande aux familles de convenir à l’avance d’un mot ou d’une phrase secrète.
 
@@ -98,7 +98,7 @@ Vous ne pouvez pas empêcher qu’on entende votre voix, mais vous pouvez priver
 
 ## Si l’appel arrive, ou si l’argent est déjà parti
 
-Pendant l’appel, gardez votre calme et n’essayez pas de piéger l’interlocuteur : dites que vous rappelez, raccrochez et appliquez la règle 1. Notez le numéro, l’heure et la demande, et faites des captures d’écran des messages et du profil qui les a envoyés.
+Pendant l’appel, gardez votre calme et n’essayez pas de piéger l’interlocuteur : dites que vous rappelez, raccrochez et appliquez la règle 1. Notez le numéro, l’heure et la demande, et capturez à l’écran les messages et le profil qui les a envoyés.
 
 Si l’argent est parti :
 
