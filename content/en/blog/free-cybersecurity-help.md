@@ -37,14 +37,14 @@ Public help comes in four kinds, and knowing which one you need saves an afterno
 
 - **Guidance**: what to do, in plain language, written for organisations without IT staff.
 - **Tools and practice**: a self-assessment that turns the guidance into a to-do list, and exercises to rehearse an incident with your team.
-- **A person who looks at your set-up**: in France, MonAideCyber pairs you with a trained volunteer for a free diagnostic; the UK's closest equivalent is funded Cyber Essentials support, for those who qualify.
+- **A person who looks at your set-up**: in France, MonAideCyber pairs you with a trained volunteer for a free diagnostic; in the UK, the nearest thing has been funded Cyber Essentials support for organisations that qualify.
 - **Help during an attack**: somewhere to report the crime and get advice, at any hour.
 
 None of them fixes your systems, certifies you, gives legal advice or insures you: those parts are paid, and I come back to them at the end.
 
 ## The UK: what the NCSC and the police give you for free
 
-The NCSC, part of GCHQ, publishes most of the free help, at no cost and without a sales call.
+Most of the free help comes from the NCSC, which is part of GCHQ, and none of it comes with a sales call.
 
 | Free service | What you get | Best for |
 |---|---|---|
@@ -57,7 +57,7 @@ The NCSC, part of GCHQ, publishes most of the free help, at no cost and without 
 
 ### The guide and the Cyber Action Toolkit
 
-The guide for small organisations is the April 2026 edition of what used to be the NCSC's Small Business Guide, and the old address still leads to it. Read it first: it is short, and it is written for people who do not work in IT.
+The guide for small organisations is the April 2026 edition of what used to be the NCSC's Small Business Guide, and the old address still leads to it. Read it first: it is written for people who do not work in IT.
 
 If you would rather work from a checklist, the Cyber Action Toolkit breaks the same advice into small steps tailored to your organisation. It points you towards Cyber Essentials, so nothing you do there is wasted if a client later asks for the certificate.
 
@@ -105,7 +105,7 @@ If you run a French office from the UK, save the 17Cyber address next to the UK 
 ## Where to start: a free plan for a small team
 
 1. **Today: save the numbers.** Put your bank's fraud line and 0300 123 2040 in your phone, plus 17cyber.gouv.fr if you have a French office. My {{< a key="incident-response-first-hour" >}}first-hour plan after a cyber attack{{< /a >}} explains what to do with them.
-2. **This week: read the NCSC guide or start the Cyber Action Toolkit.** The first actions take minutes each: {{< a key="two-factor-authentication-passkeys" >}}two-factor authentication{{< /a >}} on email and banking, backups that run on their own, updates on every laptop and phone (my {{< a key="device-security-basics" >}}device security basics{{< /a >}} have the checklist).
+2. **This week: read the NCSC guide or start the Cyber Action Toolkit.** The first actions take minutes each: {{< a key="two-factor-authentication-passkeys" >}}two-factor authentication{{< /a >}} on email and banking, backups that run on their own, updates on every laptop and phone (my guide to {{< a key="device-security-basics" >}}device security basics{{< /a >}} has the checklist).
 3. **This quarter: run one Exercise in a Box scenario** with the people who would handle an incident, then fix the gaps it shows.
 4. **If you have a fixed IP address or your own servers, sign up for Early Warning.**
 5. **When a client asks for proof, certify with Cyber Essentials** and reuse the same evidence in their questionnaire.

@@ -83,7 +83,7 @@ Choisissez Meta quand votre offre se montre facilement et que personne ne la che
 - Une nouveauté que les gens voudraient s’ils la voyaient, mais qu’ils ne penseraient pas à chercher.
 - Le reciblage : remontrer une offre à ceux qui ont visité votre site sans prendre contact.
 
-Dans le Gestionnaire de publicités, chaque campagne commence par l’un des six objectifs : notoriété, trafic, interactions, prospects, promotion d’application ou ventes. Avec l’objectif prospects, les gens peuvent envoyer leurs coordonnées par un formulaire intégré à Facebook ou à Instagram, sans quitter l’application.
+Dans le Gestionnaire de publicités, chaque campagne commence par l’un des six objectifs : notoriété, trafic, interactions, prospects, promotion d’application ou ventes. Avec l’objectif prospects, les gens peuvent envoyer leurs coordonnées par un formulaire intégré à Facebook ou à Instagram, sans quitter l’application. Si c’est votre propre application mobile que vous voulez promouvoir, mon comparatif {{< a key="app-ads-budget-comparison" >}}Apple Ads, Google ou Meta pour une application{{< /a >}} vous dit où placer un premier budget.
 
 Mon avis sur la publicité Facebook et Instagram : elle marche pour la notoriété comme pour la conversion, mais il faut brûler du budget en tests A/B pour voir ce qui fonctionne le mieux. L’image, la première ligne et l’audience restent des hypothèses tant que les chiffres ne sont pas là, et tester chaque hypothèse coûte de l’argent. Servez-vous du test A/B intégré au Gestionnaire de publicités plutôt que de tout modifier à la main chaque matin : les modifications peuvent renvoyer un ensemble de publicités en phase d’apprentissage, et Meta conseille de laisser tourner un test au moins sept jours.
 
@@ -122,7 +122,7 @@ Partez plutôt de ce que vaut un client pour vous :
 3. Le coût maximal par prospect : 2 000 € ÷ 4 = 500 €. Au-delà, la publicité vous coûte plus qu’elle ne rapporte ; visez bien en dessous, car votre temps a un coût, lui aussi.
 4. Votre budget de test : de quoi obtenir assez de prospects pour juger, au coût visé. À 100 € le prospect et dix prospects avant de trancher, comptez 1 000 €, étalés sur quelques semaines plutôt que dépensés en trois jours.
 
-Comparez ensuite les plateformes sur le coût par client, pas sur le coût par clic. Un clic sur Google peut coûter plus cher qu’un clic chez Meta, mais s’il vient de quelqu’un prêt à acheter, le client peut revenir moins cher. Sur une même période, additionnez ce qu’a coûté chaque test et comptez les clients qu’il a amenés.
+Comparez ensuite les plateformes sur le coût par client, pas sur le coût par clic. Un clic sur Google peut coûter plus cher qu’un clic chez Meta, mais s’il vient de quelqu’un prêt à acheter, le client peut revenir moins cher. Sur une même période, additionnez ce qu’a coûté chaque test et comptez les clients qu’il a amenés. Mon tutoriel pour {{< a key="utm-ga4-funnel-tracking" >}}suivre votre tunnel avec les UTM et GA4{{< /a >}} montre quelle plateforme amène des rendez-vous.
 
 Deux coûts s’oublient facilement. La page où arrivent les clics : une page qui ne convertit pas gaspille le budget sur toutes les plateformes. Et votre temps : chaque plateforme demande un coup d’œil plusieurs fois par semaine.
 
@@ -131,7 +131,7 @@ Deux coûts s’oublient facilement. La page où arrivent les clics : une page 
 1. **Écrivez votre objectif en une phrase** : des appels ce mois-ci, la vente d’un produit, des rendez-vous avec des directeurs financiers, ou plus de gens qui connaissent votre nom. Le tableau ci-dessus donne la plateforme qui correspond.
 2. **Vérifiez d’abord la demande sur Google.** Dans l’Outil de planification des mots clés, regardez les recherches mensuelles et les enchères pour le haut de page sur ce que vous vendez, dans votre zone. Si les gens le cherchent, commencez par Google ; sinon, il faudra créer la demande : sur Meta ou TikTok pour le grand public, sur LinkedIn pour les entreprises.
 3. **Préparez la page vers laquelle les annonces renverront** : une offre, un moyen de vous contacter, un chargement rapide sur mobile. J’utilise Microsoft Clarity pour voir où les visiteurs hésitent ou repartent, et si le texte, une image ou la mise en page est en cause. Si votre site n’est pas prêt à recevoir des visiteurs payants, c’est la priorité, et c’est le rôle de mon {{< a page="/services/websites" >}}offre de création de site{{< /a >}}.
-4. **Installez le suivi des conversions avant la première annonce** : une conversion Google Ads, le pixel Meta, l’Insight Tag de LinkedIn ou le pixel TikTok, chargés seulement après l’accord du visiteur dans votre bandeau cookies.
+4. **Installez le suivi des conversions avant la première annonce** : une conversion Google Ads, le pixel Meta, l’Insight Tag de LinkedIn ou le pixel TikTok, chargés seulement après l’accord du visiteur dans {{< a key="cookie-banner-setup" >}}votre bandeau cookies{{< /a >}}.
 5. **Lancez une seule plateforme et un seul objectif, avec un budget que vous pouvez vous permettre de perdre et une date de fin.** Changez une chose à la fois, pour savoir quel changement a fait la différence.
 6. **Jugez sur le coût par client**, puis augmentez le budget, changez l’offre ou arrêtez.
 

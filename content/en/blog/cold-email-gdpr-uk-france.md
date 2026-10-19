@@ -12,7 +12,7 @@ keywords: ["cold email GDPR", "PECR cold email rules", "B2B cold email UK GDPR",
 summary: "Under PECR, you can send B2B cold emails to limited companies, LLPs and public bodies without prior consent, but sole traders and partnerships outside Scotland need consent. When the address names a person, UK GDPR also applies: document a legitimate interests assessment, give privacy information in the first email at the latest and honour every opt-out at once. Since February 2026, PECR fines can reach £17.5 million or 4% of worldwide turnover."
 cover: "cold-email-gdpr-uk-france"
 cover_alt: "A laptop and a printed document beside a ticked shield, labelled PECR and CNIL"
-related: ["email-list-verification-reoon", "google-maps-scraper-outscraper", "plain-text-cold-emails", "cold-calling-vs-cold-emailing", "chatgpt-gdpr-client-data"]
+related: ["email-list-verification-reoon", "google-maps-scraper-outscraper", "plain-text-cold-emails", "gdpr-data-retention-crm", "chatgpt-gdpr-client-data"]
 services: ["cold-emailing"]
 faq:
   - q: "Does a business email address published online count as consent?"
@@ -75,7 +75,7 @@ PECR decides whether you may send; UK GDPR governs the list itself. As soon as a
 1. **A lawful basis, written down.** For B2B prospecting it is usually legitimate interests. The ICO's three-part test asks what the interest is (finding clients), whether emailing this person is necessary for it, and whether their interests override yours. Answer the three questions on one page, date it and keep it. An email that matches the recipient's job passes the balancing part far more easily than a broad one.
 2. **Privacy information by the first email.** Article 14 applies when you did not get the details from the person. Tell them who you are, why you hold their details, where you found them and how to object, within a month, and at the latest in the first message you send them.
 3. **Only the data you need.** Name, job title, company, work address, where you found it and when. Personal mobile numbers and home addresses have no place in a B2B list.
-4. **A retention period.** UK law sets no fixed number, so choose one you can defend, write it down and delete non-responders when it ends.
+4. **A retention period.** UK law sets no fixed number, so choose one you can defend, write it down and delete non-responders when it ends. My guide to {{< a key="gdpr-data-retention-crm" >}}GDPR retention periods for your CRM{{< /a >}} has a schedule you can copy.
 
 Two habits complete the picture. I verify lists with Reoon before they reach the sending tool, which keeps the data accurate and the bounces down; my {{< a key="email-list-verification-reoon" >}}email list verification tutorial{{< /a >}} shows the steps. And every tool that holds the list, from the scraper to the sending platform, processes personal data on your behalf, so read its data processing terms. The same applies to an AI assistant you paste prospect details into, as I explain in {{< a key="chatgpt-gdpr-client-data" >}}ChatGPT and GDPR{{< /a >}}.
 
@@ -110,7 +110,7 @@ My cold emails do not raise the question. They are plain text, with no HTML and 
 
 ## PECR fines since February 2026
 
-The Data (Use and Access) Act 2025 received Royal Assent on 19 June 2025 and comes into force in stages. One stage matters here: since February 2026, the maximum PECR fine has been £17.5 million or 4% of worldwide annual turnover, whichever is higher, the same ceiling as UK GDPR. It used to be £500,000. The government's [commencement page](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) lists what applies from when.
+The {{< a key="uk-gdpr-data-use-access-act" >}}Data (Use and Access) Act 2025{{< /a >}} received Royal Assent on 19 June 2025 and comes into force in stages. One stage matters here: since February 2026, the maximum PECR fine has been £17.5 million or 4% of worldwide annual turnover, whichever is higher, the same ceiling as UK GDPR. It used to be £500,000. The government's [commencement page](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) lists what applies from when.
 
 The ceiling is for the worst cases, but two consequences are worth knowing. The PECR side of a campaign, once the cheap part to get wrong, now weighs as much as the GDPR side. And PECR applies to whoever sends a marketing email and to whoever instigates it: if you hire someone to run your campaign, the rules are still yours.
 
@@ -137,7 +137,7 @@ If some of your prospects are French businesses, follow the French rules for tho
 - they are told their address is used for prospecting, and can object simply and free of charge;
 - every email names the sender and offers a way to opt out.
 
-Generic company addresses such as contact@ or info@ are the company's details, not a person's, so the first two conditions do not apply to them; the third still does. The CNIL's page on [email prospecting](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel) (in French) sets this out.
+Generic company addresses such as contact@ or info@ are the company's details, not a person's, so the first two conditions do not apply to them; the third still does. The CNIL's page on [email prospecting](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel) (in French) sets this out. If you prospect in France from the UK, also check {{< a key="gdpr-outside-eu" >}}whether the EU GDPR applies to your company{{< /a >}}.
 
 The biggest difference with the UK: the CNIL's B2B rule speaks of professionals and their profession, and does not ask whether the business is a company. The campaigns I run for {{< a page="/projects/pilotech-teknopoint" >}}Pilotech{{< /a >}}, an air conditioning installer in the Paris region, go to three audiences: Paris restaurants, Paris offices and shops, and architects, the main focus and the ones who called most ({{< a key="architects-cold-email-case-study" >}}the full case study{{< /a >}}). Many of those architects work on their own. In France, an email about air conditioning for their projects falls under the B2B rule; the same email to London architects who trade as sole traders would need their consent.
 

@@ -12,7 +12,7 @@ keywords: ["site WordPress piraté", "site WordPress hacké", "que faire si son 
 summary: "Si votre site WordPress a été piraté, mettez-le hors ligne, changez tous les mots de passe et fermez les sessions, puis copiez le site infecté et ses journaux avant de nettoyer. Si des données personnelles ont fuité avec un risque pour les personnes, notifiez la CNIL sous 72 heures. Ensuite, nettoyez, restaurez une sauvegarde saine ou reconstruisez le site, puis demandez un examen dans la Search Console pour lever l’avertissement de Google."
 cover: "wordpress-site-hacked"
 cover_alt: "Bouclier coché devant une personne au travail sur un ordinateur portable, et la mention WordPress 24 h"
-related: ["website-security-guide", "regain-website-access", "wordpress-to-squarespace", "website-maintenance", "google-search-console-tutorial"]
+related: ["website-security-guide", "regain-website-access", "wordpress-to-squarespace", "website-maintenance", "gdpr-data-breach"]
 services: ["rescue"]
 faq:
   - q: "Mon référencement Google reviendra-t-il après le piratage ?"

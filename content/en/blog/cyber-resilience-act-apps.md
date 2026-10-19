@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:57:00+02:00
 category: "mobile-apps"
 article_type: "news"
 keywords: ["Cyber Resilience Act apps", "Cyber Resilience Act mobile apps", "CRA reporting obligations", "CRA 24-hour reporting", "Cyber Resilience Act 2027", "CRA SBOM"]
-summary: "Since 11 September 2026, a business offering an app in the EU, paid or free, must report actively exploited vulnerabilities and severe incidents through ENISA's Single Reporting Platform, with an early warning within 24 hours. From 11 December 2027, the app must also meet the Act's security requirements, get security updates for usually at least five years and carry the CE marking. UK and other non-EU developers are covered for their EU users."
+summary: "Since 11 September 2026, a business offering an app in the EU, paid or free, must report actively exploited vulnerabilities and severe incidents through ENISA's Single Reporting Platform, with an early warning within 24 hours. From 11 December 2027, the app must also meet the Act's security requirements, receive security updates for its support period (usually at least five years) and carry the CE marking. UK and other non-EU developers are covered for their EU users."
 cover: "cyber-resilience-act-apps"
 cover_alt: "The article's title in white on a ribbed-glass panel over a photo of a shield with a check mark"
 related: ["mobile-app-security-checklist", "api-keys-mobile-apps", "nis2-small-business", "gdpr-outside-eu", "mobile-app-launch-guide"]
@@ -38,7 +38,7 @@ Everything below is as of 19 October 2026, from [Regulation (EU) 2024/2847](http
 The Act regulates "products with digital elements": hardware or software placed on the EU market, together with the remote data processing they rely on (Article 3). A mobile app is standalone software, and the Commission's guidance confirms that such software can be in scope. Your app is covered when three things are true:
 
 1. **It connects to something.** The Act applies to products meant to connect, directly or indirectly, to a device or a network (Article 2). Almost every app does.
-2. **It is supplied in the EU as part of a business**, paid or free. Software you keep to yourself is not, like the tools I build for my own work.
+2. **It is supplied in the EU as part of a business**, paid or free. Software only you use, like the tools I build for my own work, is not.
 3. **It carries your name.** The manufacturer is whoever markets the product under its own name or trade mark (Article 3). If an agency, a freelancer or an AI app builder made the app and you publish it under your company's name, the obligations are yours.
 
 The server behind the app counts too: when the app cannot perform one of its functions without a backend you designed, or had designed, for it, that backend is part of the product. Your API and database fall under the same rules as the app on the phone.
@@ -96,7 +96,7 @@ Apps already on the market only have to meet these requirements if they undergo 
 
 ## If your company is outside the EU
 
-The Act follows the app, not the company. A Manchester gym chain with its booking app in the French App Store, a Swiss fitness app on Google Play in Germany and a Montreal start-up with users in Belgium all follow the CRA there. It is the same logic as the GDPR's reach, which I explain in {{< a key="gdpr-outside-eu" >}}my article on GDPR outside the EU{{< /a >}}.
+The Act follows the app, not the company. A Manchester gym chain with its booking app in the French App Store, a Swiss fitness app on Google Play in Germany and a Montreal start-up with users in Belgium are all covered. It is the same logic as the GDPR's reach, which I explain in {{< a key="gdpr-outside-eu" >}}my article on GDPR outside the EU{{< /a >}}.
 
 You report on the same platform. Without an establishment in the EU, Article 14(7) decides which national CSIRT receives your reports, starting with the country of your authorised representative if you have one; the duty stays with you either way.
 
@@ -108,7 +108,7 @@ For users in Great Britain, the reference is the government's voluntary [code of
 
 The 2027 requirements are a project; the 2026 duty is a routine you need now. In order:
 
-1. **Name a person and a deputy.** Decide who judges that a flaw is being exploited, who files the early warning and who tells users. Twenty-four hours include weekends, so rehearse once with a past bug.
+1. **Name a person and a deputy.** Decide who judges that a flaw is being exploited, who files the early warning and who tells users. The 24 hours run through weekends, so rehearse once with a past bug.
 2. **Bring your developer into the routine.** If an agency, a freelancer or your host is likely to spot an attack first, your contract should require them to tell you at once and say who patches, and how fast.
 3. **Publish a security contact.** Set up an address such as security@ followed by your domain, a short disclosure policy page and a security.txt file (RFC 9116) at /.well-known/security.txt on your app's website, then link the policy from your store listings.
 
