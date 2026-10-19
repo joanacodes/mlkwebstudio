@@ -64,7 +64,7 @@ Les campagnes de promotion d’application de Meta, dites Advantage+ dans leur v
 
 La diffusion reste en phase d’apprentissage tant qu’un ensemble de publicités n’a pas obtenu environ 50 événements d’optimisation en 7 jours, selon l’[aide de Meta](https://fr-fr.facebook.com/business/help/112167992830700) ; en dessous, le Gestionnaire de publicités signale un apprentissage limité. Meta facture aussi des frais de localisation depuis le 1er juillet 2026 : 3 % pour les publicités diffusées en France, selon Reuters.
 
-Sur iPhone, les résultats sont plus maigres. Depuis iOS 14.5 (26 avril 2021), l’App Tracking Transparency d’Apple oblige les apps à demander l’autorisation avant de suivre les personnes dans les apps et sites d’autres entreprises, et beaucoup refusent. Meta mesure alors les installations sur iPhone via SKAdNetwork d’Apple ou sa propre Aggregated Event Measurement, au choix pour chaque campagne, et les résultats arrivent plus tard, regroupés et moins détaillés. Pour les comparer au-delà des apps, voyez mon article {{< a key="google-ads-vs-facebook-ads" >}}Google Ads ou Facebook Ads{{< /a >}}.
+Sur iPhone, les résultats sont plus maigres. Depuis iOS 14.5 (26 avril 2021), l’App Tracking Transparency d’Apple oblige les apps à demander l’autorisation avant de suivre les personnes dans les apps et sites d’autres entreprises, et beaucoup refusent. Meta mesure alors les installations sur iPhone via SKAdNetwork d’Apple ou sa propre Aggregated Event Measurement, au choix pour chaque campagne, et les résultats arrivent plus tard, regroupés et moins détaillés. Pour comparer Google et Meta au-delà des apps, voyez mon article {{< a key="google-ads-vs-facebook-ads" >}}Google Ads ou Facebook Ads{{< /a >}}.
 
 ## TikTok et LinkedIn : pas pour les 1 000 premiers euros
 
@@ -85,9 +85,9 @@ Apple et Google comptent un mois comme 30,4 jours de budget quotidien moyen : 1
 
 {{< callout type="note" >}}Ce sont des **ordres de grandeur, pas des prévisions** : le coût d’une installation dépend du pays, de votre catégorie et de votre fiche.{{< /callout >}}
 
-D’où l’intérêt de ne pas répartir, et d’Apple Ads en enchères manuelles comme départ le plus tolérant quand votre app est recherchée et que votre public a des iPhone. Pour choisir, répondez à trois questions :
+D’où l’intérêt de ne pas répartir le budget, et de commencer par Apple Ads en enchères manuelles, le départ le plus tolérant, quand votre app est recherchée et que votre public a des iPhone. Pour choisir, répondez à trois questions :
 
-1. **Cherche-t-on ce que fait votre app ?** Quand vous ajoutez des mots-clés dans Apple Ads Advanced, Apple affiche pour chacun une popularité de recherche de 1 à 5 ; une liste de 1 signale peu de demande.
+1. **Cherche-t-on ce que fait votre app ?** Quand vous ajoutez des mots-clés dans Apple Ads Advanced, Apple affiche pour chacun une popularité de recherche de 1 à 5 ; des scores de 1 partout signalent peu de demande.
 2. **Quel téléphone ont vos utilisateurs ?** Regardez les appareils dans les statistiques de votre site ou de votre liste d’attente plutôt que les moyennes nationales.
 3. **L’app montre-t-elle sa valeur en dix secondes de vidéo ?** Si oui, et que personne ne la cherche, Meta est le meilleur pari.
 
