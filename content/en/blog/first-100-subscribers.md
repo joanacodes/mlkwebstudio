@@ -98,7 +98,7 @@ Next come audiences that belong to someone else, with their agreement:
 
 A referral programme gives every subscriber a personal link; when friends sign up through it, the subscriber earns a reward, such as a template or a mention in an issue. At the time of writing (October 2026), beehiiv includes one from its paid Scale plan (not the free Launch plan), and Kit offers a newsletter referral system, run with SparkLoop, on its Pro plan, according to [Kit's plan comparison](https://help.kit.com/en/articles/4494683-creator-vs-pro). For other tools, check their integrations and {{< a key="newsletter-tools-comparison" >}}my comparison of newsletter tools{{< /a >}}.
 
-Two rules keep it clean. Friends sign up through the link themselves: never a form where subscribers type a friend's address for your tool to email. And keep rewards modest, or you attract people who want the reward rather than your emails. It multiplies the audience you already have, so wait until readers clearly like what they receive.
+Two rules keep it clean. Friends sign up through the link themselves: never a form where subscribers type a friend's address for your tool to email. And keep rewards modest, or you attract people who want the reward rather than your emails. A referral programme multiplies the audience you already have, so wait until readers clearly like what they receive.
 
 ## Tag every sign-up with its source
 

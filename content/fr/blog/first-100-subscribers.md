@@ -82,7 +82,7 @@ Si ajouter un formulaire à vos articles revient à vous battre avec votre thèm
 
 ## LinkedIn : vos posts et la section Sélection
 
-Si vos clients sont des entreprises, beaucoup vous lisent déjà sur LinkedIn. Deux habitudes en font des abonnés. D’abord, tirez un post de chaque numéro : une idée, écrite pour tenir seule, terminée par une ligne qui annonce la version complète par email, avec le lien. Ensuite, utilisez la section **Sélection** de votre profil (« Featured » en anglais), en haut sous Infos : elle peut contenir un lien vers votre page d’inscription, avec un titre qui dit ce que le lecteur y gagne.
+Si vos clients sont des entreprises, beaucoup vous lisent déjà sur LinkedIn. Deux habitudes en font des abonnés. D’abord, tirez un post de chaque numéro : une idée, écrite pour tenir seule, terminée par une ligne qui annonce la version complète par email, avec le lien. Ensuite, utilisez la section **Sélection** de votre profil (« Featured » en anglais), en haut sous Infos : elle peut contenir un lien vers votre page d’inscription.
 
 N’envoyez pas la même invitation à tous vos contacts en message privé : cela se lit comme un mailing de masse, parce que c’en est un. La newsletter intégrée à LinkedIn est un autre choix, que je compare dans {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}newsletter LinkedIn, emailing ou Substack{{< /a >}}.
 
@@ -90,7 +90,7 @@ N’envoyez pas la même invitation à tous vos contacts en message privé : ce
 
 Viennent ensuite des audiences qui appartiennent à quelqu’un d’autre, avec son accord :
 
-- Conférences, ateliers et salons : un QR code vers votre page d’inscription sur votre dernière diapositive ou sur votre stand, avec une ligne sur ce que l’on y gagne. Une carte de visite qu’on vous tend n’est pas une inscription : demandez, ou laissez la personne scanner le code.
+- Conférences, ateliers et salons : un QR code vers votre page d’inscription sur votre dernière diapositive ou votre stand, avec une ligne sur ce que l’on y gagne. Une carte de visite qu’on vous tend n’est pas une inscription : demandez, ou laissez la personne scanner le code.
 - Partenaires et échanges de recommandations : une entreprise qui sert les mêmes clients sans vous faire concurrence, comme un expert-comptable et un avocat en droit social, recommande votre newsletter dans un numéro et vous recommandez la sienne. **Vous échangez des mentions, jamais des adresses.**
 - Articles invités et podcasts : écrivez pour une revue professionnelle ou le blog d’un partenaire, ou passez dans un podcast que vos clients écoutent, avec une présentation qui renvoie vers votre page d’inscription.
 
@@ -98,14 +98,14 @@ Viennent ensuite des audiences qui appartiennent à quelqu’un d’autre, avec 
 
 Un programme de parrainage donne à chaque abonné un lien personnel ; quand des proches s’inscrivent par ce lien, l’abonné gagne une récompense, comme un modèle ou une mention dans un numéro. Au moment où j’écris (octobre 2026), beehiiv l’inclut à partir de son offre payante Scale (pas dans l’offre gratuite Launch), et Kit propose un système de parrainage, qui fonctionne avec SparkLoop, sur son offre Pro. Pour les autres outils, regardez leurs intégrations et {{< a key="newsletter-tools-comparison" >}}mon comparatif des outils de newsletter{{< /a >}}.
 
-Deux règles le gardent propre. Les proches s’inscrivent eux-mêmes par le lien : jamais de formulaire où l’abonné tape l’adresse d’un ami que votre outil écrira ensuite. Et gardez des récompenses modestes, sinon vous attirerez des gens qui veulent la récompense plutôt que vos emails. Le parrainage multiplie l’audience que vous avez déjà : attendez que vos lecteurs apprécient clairement ce qu’ils reçoivent.
+Deux règles le gardent propre. Les proches s’inscrivent eux-mêmes par le lien : jamais de formulaire où l’abonné tape l’adresse d’un ami, à qui votre outil écrirait ensuite. Et gardez des récompenses modestes, sinon vous attirerez des chasseurs de cadeaux plutôt que des lecteurs. Le parrainage multiplie l’audience que vous avez déjà : attendez que vos lecteurs apprécient clairement ce qu’ils reçoivent.
 
 ## Notez la source de chaque inscription
 
 Dans trois mois, vous voudrez savoir quels canaux ont amené des lecteurs qui ouvrent, répondent et restent. Préparez-le dès le premier abonné :
 
 - Un formulaire par emplacement (fin d’article, pied de page, page d’inscription, pop-up), chacun avec son propre tag. Kit et Mailchimp parlent de tags, MailerLite de groupes, Brevo de listes.
-- Un lien par canal hors de votre site (signature, LinkedIn, numéro d’un partenaire, notes d’un podcast), avec des paramètres UTM pour que vos statistiques montrent d’où viennent les visiteurs de la page d’inscription.
+- Un lien par canal hors de votre site (signature, LinkedIn, numéro d’un partenaire, notes d’un podcast), avec des paramètres UTM pour que vos statistiques montrent la provenance des visiteurs de la page d’inscription.
 - Une trace du consentement : la date, le formulaire et le texte que chaque abonné a vus, y compris les anciennes versions de vos formulaires.
 
 Chaque trimestre, gardez les deux ou trois canaux qui amènent des lecteurs fidèles et abandonnez le reste. S’il fallait n’insister que sur une chose en marketing, ce serait celle-ci : il est facile de céder au nouveau canal à la mode, et bien plus utile de se concentrer sur ceux que l’on utilise déjà.
@@ -124,7 +124,7 @@ Aucune moyenne honnête ne dit combien de temps prennent 100 abonnés : tout d�
 | Partenaires, articles invités, podcasts | Moyen, à chaque fois | À la parution |
 | Parrainage | Moyen, offre payante | Quand les lecteurs aiment les numéros |
 
-Attendez-vous à une première vague venue des gens que vous invitez, puis à un flux plus lent et plus régulier venu du site et des partenaires ; c’est normal. Ce qui rend la deuxième centaine plus facile, c’est ce que reçoit la première : une {{< a key="welcome-email-sequence" >}}séquence de bienvenue{{< /a >}} qui vous présente, et des numéros qui arrivent à la date annoncée.
+Attendez-vous à une première vague venue des gens que vous invitez, puis à un flux plus lent et régulier venu du site et des partenaires ; c’est normal. Ce qui rend la deuxième centaine plus facile, c’est ce que reçoit la première : une {{< a key="welcome-email-sequence" >}}séquence de bienvenue{{< /a >}} qui vous présente, et des numéros qui arrivent à la date annoncée.
 
 ## Votre check-list des 100 premiers abonnés
 

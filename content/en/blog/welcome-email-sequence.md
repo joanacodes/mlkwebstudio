@@ -20,7 +20,7 @@ faq:
   - q: "Does the double opt-in confirmation email count as the first welcome email?"
     a: "No. The confirmation email only asks the person to confirm their address, so keep it free of promotion. The sequence starts after the click, with the email that delivers what you promised."
   - q: "Should I send the welcome sequence to contacts imported from an old list?"
-    a: "No. It is written for people who have just signed up, and someone on an old list will not remember asking. Email them only if your consent records or a business-to-business rule allow it, with a one-off message that reminds them who you are."
+    a: "No. It is written for people who have just signed up, and someone on an old list will not remember asking. Email them only if your consent records, the soft opt-in or a business-to-business rule cover them, with a one-off message that reminds them who you are."
   - q: "What should I do when someone replies to a welcome email?"
     a: "Answer personally, within a day if you can. A reply tells you that the email arrived, that it was read and what the reader cares about, and it can be the start of a conversation."
   - q: "Can I use AI to write my welcome emails?"
@@ -55,7 +55,7 @@ Days count from the sign-up, or from the confirmation click if you use double op
 
 The sequence is for people who asked for your emails, through a newsletter sign-up form or a separate, unticked box under your lead magnet form. Someone who only downloaded a checklist gets the email that delivers it, and nothing else. My article on {{< a key="lead-magnet-ideas" >}}lead magnets for service businesses{{< /a >}} shows how to keep the two apart.
 
-There are exceptions, such as the soft opt-in for existing customers and looser rules for some business addresses. The rules also follow your subscribers: a UK, Swiss or US business that collects sign-ups from people in the EU falls under EU rules for them. My guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent{{< /a >}} explains the details. This is general information, not legal advice.
+There are exceptions, such as the soft opt-in for existing customers and looser rules for some business addresses. The rules also follow your subscribers: a UK, Swiss or US business whose newsletter targets people in the EU falls under the EU GDPR for them (Article 3(2)). My guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent{{< /a >}} explains the details. This is general information, not legal advice.
 
 ## Email 1, straight away: deliver what you promised
 
@@ -95,7 +95,7 @@ And one promise: if you ask me something and I am not the right person, I will t
 
 [Your name]
 
-P.S. What made you sign up? Reply in one line, I read every answer.
+P.S. What made you sign up? Reply in one line: I read every answer.
 ```
 
 ## Email 3, day 4: your most useful guide
@@ -144,7 +144,7 @@ The last email makes the offer: a short call, a visit or a quote, whatever your 
 
 Give a phone number next to the booking link. In my cold email campaigns, many prospects call rather than reply: a call is quicker than writing an email, and people like talking to a human. For the booking page, my preference is YouCanBookMe, but Calendly does the job too.
 
-End with a line on preferences or unsubscribing. Your email tool adds an unsubscribe link to every message, as the law expects every marketing email to offer a way to opt out, and [Google's email sender guidelines](https://support.google.com/a/answer/81126) also ask senders of more than 5,000 messages a day for one-click unsubscribe and a visible link in the body. Saying it in words, in the last email, shows that you mean it.
+End with a line on preferences or unsubscribing. Your email tool adds an unsubscribe link to every message, as the law expects every marketing email to offer a way to opt out, and [Google's email sender guidelines](https://support.google.com/a/answer/81126) also ask senders of more than 5,000 messages a day to Gmail addresses for one-click unsubscribe and a visible link in the body. Saying it in words, in the last email, shows that you mean it.
 
 ```text
 Subject: Shall we talk about [problem]?
@@ -163,22 +163,20 @@ Not for you? No problem: choose what you receive, or unsubscribe, here: [prefere
 
 ## Plain text or a designed template
 
-Plain text, or a light template that looks like a personal email, often feels more personal: one column, your name, no banner. It suits a sequence whose job is to start a conversation.
+Plain text, or a light template that looks like a personal email (one column, your name, no banner), often feels more personal, which suits a sequence meant to start a conversation.
 
-In cold emails I go further, with plain text, a phone number and no links at all, as I explain in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. A welcome sequence is a different case: the person asked for it, and most of these emails need one link. Nor does a newsletter have to be plain. If your work is visual, as an interior designer's or a photographer's is, a designed template with real photos makes sense. Either way, read every email on a phone before it goes live.
+In cold emails I go further, with plain text, a phone number and no links at all, as I explain in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. A welcome sequence is different: the person asked for it, and most of these emails need a link. Nor does a newsletter have to be plain: if your work is visual, as an interior designer's is, a designed template with real photos makes sense. Either way, read every email on a phone before it goes live.
 
 ## How to set up the sequence in your email tool
 
-You do not need a funnel builder: the tool that sends your newsletter can run the sequence. It is easy to buy a new tool for every idea, and the one you already pay for usually does the job.
+You do not need a funnel builder: the tool that sends your newsletter can run the sequence. It is easy to buy a new tool for every idea; the one you already have usually does the job.
 
-1. Write the five emails in one document first: the sequence reads better as a whole.
-2. Create an automation (some tools call it a workflow, a journey or a sequence) that starts when someone joins the list or group your sign-up form feeds. With double opt-in, check that it starts after the confirmation click.
-3. Add email 1 with no delay, then waits of 2, 2, 3 and 3 days before emails 2 to 5.
-4. Send as a person, from an address on your own domain that receives replies, never from a no-reply address.
-5. Give the first name a fallback, such as "Hi there", for sign-ups that left it empty.
-6. If your tool allows it, add an exit condition: someone who books a call or becomes a client leaves the sequence.
-7. After email 5, move subscribers to your regular newsletter; my {{< a key="b2b-newsletter-ideas" >}}B2B newsletter ideas{{< /a >}} help with what to send next.
-8. Sign up with your own address, and with a Gmail and an Outlook address if you have them, then read each email on your phone.
+1. Create an automation (some tools call it a workflow, a journey or a sequence) that starts when someone joins the list or group your sign-up form feeds. With double opt-in, check that it starts after the confirmation click.
+2. Add email 1 with no delay, then waits of 2, 2, 3 and 3 days before emails 2 to 5.
+3. Send as a person, from an address on your own domain that receives replies, never from a no-reply address.
+4. Give the first name a fallback, such as "Hi there", for sign-ups that left it empty.
+5. If your tool allows it, add an exit condition: someone who books a call or becomes a client leaves the sequence.
+6. After email 5, move subscribers to your regular newsletter; my {{< a key="b2b-newsletter-ideas" >}}B2B newsletter ideas{{< /a >}} help with what to send next.
 
 Check where the free plan stops before you build. At the time of writing (October 2026), Kit's free plan has no sequences or visual automations, while MailerLite's includes three automations, enough for this sequence. My {{< a key="newsletter-tools-comparison" >}}comparison of newsletter tools{{< /a >}} covers Brevo, Mailchimp and beehiiv as well.
 
@@ -206,6 +204,6 @@ Wait until 50 to 100 people have been through the sequence before you judge it, 
 5. Email 4 uses real proof, shared with the client's permission.
 6. The sender is a person on your domain, and replies reach you.
 7. Every email carries an unsubscribe link.
-8. You have read the whole sequence on a phone.
+8. You signed up with your own address, and a Gmail and an Outlook one if you have them, and read every email on a phone.
 
 You do not need me for any of this: an afternoon is enough to write and set up five emails. It gets more involved when each sign-up must also reach a CRM, a lead list or a booking tool, and that is where an automation earns its keep.

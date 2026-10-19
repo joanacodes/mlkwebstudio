@@ -11,7 +11,7 @@ article_type: "guide"
 keywords: ["newsletter consent GDPR", "soft opt-in", "double opt-in GDPR", "PECR email marketing consent", "email marketing consent UK", "newsletter sign-up form GDPR"]
 summary: "To send a marketing newsletter to individuals in the EU or the UK, you need their consent: a box they tick or a form they submit themselves, recorded with the date and the wording shown. The soft opt-in lets you email existing customers about your own similar products, if they could refuse when you took their address and can opt out of every email. Double opt-in is not required by the GDPR, but it is the best proof of consent you can keep."
 cover: "newsletter-consent-gdpr"
-cover_alt: "The article title in white on a ribbed-glass panel over a photo of a cookie consent banner with Refuse all and Accept all buttons of the same size"
+cover_alt: "The article title in white on a ribbed-glass panel over a photo, with a drawn consent banner whose Refuse all and Accept all buttons are the same size"
 related: ["cold-email-gdpr-uk-france", "newsletter-tools-comparison", "first-100-subscribers", "gdpr-guide", "uk-gdpr-data-use-access-act"]
 services: ["websites"]
 faq:
@@ -124,7 +124,7 @@ Phone contacts, business cards, LinkedIn connections, old enquiries, a list boug
 
 Invite those contacts through channels you already use: the sign-up link on your website, your printed invoices and receipts, your email signature, your social profiles, a QR code on the counter. My guide to {{< a key="first-100-subscribers" >}}your first 100 subscribers{{< /a >}} covers these channels, without buying a list.
 
-For contacts in France, mind the clock too: under the CNIL's reference framework for customer and prospect management, a prospect's data is kept three years at most from collection or from the last contact that came from them, such as a click or a request (opening an email does not count). When that time is up, you may ask once whether they still want to hear from you, if you could lawfully email them; without a clear yes, delete them.
+For contacts in France, mind the clock too: under the CNIL's reference framework for customer and prospect management, a prospect's data is kept three years at most from collection or from the last contact that came from them, such as a click or a request (opening an email does not count). When that time is up, you may ask once whether they still want to hear from you, if you could lawfully email them; without a clear yes, delete their details.
 
 ## Newsletter consent checklist, and when to get help
 

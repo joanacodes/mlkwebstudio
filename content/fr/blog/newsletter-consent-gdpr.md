@@ -11,7 +11,7 @@ article_type: "guide"
 keywords: ["newsletter RGPD consentement", "consentement newsletter", "soft opt-in", "double opt-in RGPD", "case à cocher newsletter", "prospection email CNIL"]
 summary: "Pour envoyer une newsletter commerciale à des particuliers, en France comme au Royaume-Uni, il faut leur consentement : une case qu’ils cochent ou un formulaire qu’ils envoient eux-mêmes, avec la date et le texte affiché en preuve. Le soft opt-in permet d’écrire à vos clients au sujet de produits analogues à ceux qu’ils ont achetés, s’ils ont pu refuser à la collecte et le peuvent à chaque email. Le double opt-in n’est pas obligatoire, mais c’est la meilleure preuve."
 cover: "newsletter-consent-gdpr"
-cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, au-dessus de la photo d’un bandeau cookies aux boutons « Tout refuser » et « Tout accepter » de même taille"
+cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé posé sur une photo, avec le dessin d’un bandeau de consentement aux boutons « Tout refuser » et « Tout accepter » de même taille"
 related: ["cold-email-gdpr-uk-france", "newsletter-tools-comparison", "first-100-subscribers", "gdpr-guide", "uk-gdpr-data-use-access-act"]
 services: ["websites"]
 faq:
