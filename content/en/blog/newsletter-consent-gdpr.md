@@ -29,7 +29,7 @@ faq:
 
 Newsletter consent under the GDPR comes down to two questions: did this person agree to receive your newsletter, and can you prove it? For individuals in the EU and the UK, both answers must be yes before the first issue, with two exceptions: existing customers under the soft opt-in and, in some countries, business addresses.
 
-When I suggest cold emailing to clients, the objection I hear is that it is illegal. In B2B it usually is not, and the same rules decide who may receive your newsletter. This guide is part of my {{< a key="funnels-newsletters-guide" >}}guide to funnels and newsletters{{< /a >}}.
+One objection I hear from clients about cold emailing is that it is illegal. In B2B it usually is not, and the same rules decide who may receive your newsletter. This guide is part of my {{< a key="funnels-newsletters-guide" >}}guide to funnels and newsletters{{< /a >}}.
 
 It is general information, not legal advice: the last section says when a lawyer is worth calling.
 
