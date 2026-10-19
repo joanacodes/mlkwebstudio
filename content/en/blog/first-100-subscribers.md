@@ -37,7 +37,7 @@ A ready-made file of thousands of "opted-in" addresses looks like a shortcut. Fo
 
 ### The consent was given to someone else
 
-In the UK, marketing emails to individuals, sole traders included, need their consent or the soft opt-in (regulation 22 of PECR, explained in the [ICO's email marketing guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/)). The ICO has long held that consent collected by someone else only covers you if it named your organisation, or a precise category you clearly belong to: "selected third parties" is not enough. In France, the CNIL expects the full list of partners to be available, on the form or through a link, when people consent. Companies fall outside PECR's consent rule, but the next three problems still apply.
+In the UK, marketing emails to individuals, sole traders included, need their consent or the soft opt-in (regulation 22 of PECR, explained in the [ICO's email marketing guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/)). The ICO's guidance has long been that consent collected by someone else rarely covers you: it must clearly identify your organisation, and "selected third parties" is not enough. In France, the CNIL expects the full list of partners to be available, on the form or through a link, when people consent. Companies fall outside PECR's consent rule, but the next three problems still apply.
 
 ### Your email tool forbids it
 
@@ -62,7 +62,7 @@ Then **invite them; do not import them**. A short personal message with a link t
 Who can receive that invitation by email depends on who they are:
 
 - People at companies: PECR's consent rule does not cover companies, and in France the CNIL accepts emails to professionals about their line of work if they were told and can object easily. A one-to-one invitation is fine.
-- Clients who are individuals: the soft opt-in covers people whose details you collected during a sale, or negotiations for one, for your own similar services, but only if you offered a way to refuse then and in every message since (in France, only for people who are already your clients).
+- Individual clients, and in the UK people who asked you for a quote: the soft opt-in covers details you collected during a sale or negotiations for one, for your own similar services, but only if you offered a way to refuse then and in every message since. In France, the equivalent exception only covers people who are already your clients.
 - Everyone else: ask in person, on a call or at the end of a project. In the UK, an email asking whether people want your marketing is itself marketing: the ICO fined Flybe and Honda for exactly that in 2017.
 
 Finally, add one line to your email signature: what the newsletter is, how often it arrives, and the link, such as "One practical tip on [your subject] every month: subscribe here." Every email you send becomes a quiet invitation.
