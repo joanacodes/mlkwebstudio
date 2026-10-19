@@ -22,7 +22,7 @@ faq:
   - q: "How many steps should a sales funnel have?"
     a: "As few as the sale needs. For a service sold in a conversation, the visitor sees three: a page, a booking form and a confirmation. Every extra step loses people, so add one only when it removes a reason not to book."
   - q: "Should I put my booking link in cold emails?"
-    a: "Not in the first one. My first cold emails are plain text with no links at all, just a phone number and an invitation to call, because that is what gets delivered. Send the booking link to the people who reply."
+    a: "No. My cold emails are plain text with no links at all, just a phone number and an invitation to call, because that is what gets delivered. Send the booking link to the people who reply."
 ---
 
 You already own most of a sales funnel: a website, a calendar, an email address and a phone. What is missing is the wiring, so that a visitor who is ready can book a call in a few taps, one who is not can stay in touch, and you can see which channel brought each enquiry. This is how to build a sales funnel from those pieces, in seven steps and mostly on free plans, for a business that sells in a conversation: a call, a visit or a quote.
@@ -53,13 +53,13 @@ Give that page **one action to take**, at the top and again at the bottom: a "Bo
 
 Around the button, answer what people ask before booking: who the service is for, proof (reviews, photos of real jobs), how pricing works and what happens on the call.
 
-I put clients who edit their own site on Squarespace, because they can change a word or a photo without the layout falling apart. There, the button is a Button block linked to your booking page. For a campaign page, you can hide the menu so that the button is the only way forward: gear icon next to the page in the Pages panel, **Navigation** tab, then switch off **Show Header** and **Show Footer**. On WordPress, a Buttons block does the same job; on Wix, a button element. No site yet: my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}} builds one step by step.
+I put clients who edit their own site on Squarespace, because they can change a word or a photo without the layout falling apart. There, the button is a Button block linked to your booking page. For a campaign page, you can hide the menu so that the button is the only way forward: gear icon next to the page in the Pages panel, **Navigation** tab, then switch off **Show Header** and **Show Footer**. On WordPress, a Buttons block does the same job; on Wix, a button element. If you have no site yet, my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}} builds one step by step.
 
 {{< screenshot id="build-sales-funnel-01" alt="Squarespace service page with a Book a free 15-minute call button and the phone number next to it" >}}
 
 ## Step 2: add a booking page with two or three qualifying questions
 
-The button opens a booking page where people pick a free slot in your calendar. I use YouCanBookMe: it does everything Calendly does, it is easy to find your way around and it costs a little less. Calendly is good too. At the time of writing (October 2026), YouCanBookMe's free plan includes one booking page connected to one calendar, and Calendly's free plan one event type. My {{< a key="youcanbookme-tutorial" >}}YouCanBookMe tutorial{{< /a >}} covers the set-up, from working hours to time zones.
+The button opens a booking page where people pick a free slot in your calendar. I use YouCanBookMe: for what I need, it does everything Calendly does, it is easy to find your way around and it costs a little less. Calendly is good too. At the time of writing (October 2026), YouCanBookMe's free plan includes one booking page connected to one calendar, and Calendly's free plan one event type. My {{< a key="youcanbookme-tutorial" >}}YouCanBookMe tutorial{{< /a >}} covers the set-up, from working hours to time zones.
 
 What makes the booking page a funnel step is **the questions on its form**. After the name and email, pick two or three that tell you whether the call is worth having and how to prepare for it:
 
@@ -91,7 +91,7 @@ Reminders are usually **the first paid feature worth having**. YouCanBookMe list
 
 ## Step 4: offer a sign-up form to people who are not ready
 
-Most visitors will not book on their first visit: some are comparing, others are months away. Give them a reason to stay in touch, such as a monthly newsletter or a one-page price guide, and a form to sign up.
+Most visitors will not book on their first visit: some are comparing, others are months away. Give them a reason to stay in touch, such as a monthly newsletter or a one-page price guide, a form to sign up and a welcome email that delivers what you promised.
 
 Two email tools with free plans, at the time of writing (October 2026):
 
@@ -110,11 +110,11 @@ Keep the lists apart, too: someone who booked a call did not ask for your newsle
 
 ## Step 5: add one automation that logs every lead and alerts you
 
-Leads arrive by form, booking, email and phone. The automation puts them all in one list and tells you as soon as one arrives, so that nobody waits two days for an answer.
+Leads arrive by form, booking, email and phone. Keep them in one list, with an alert as soon as one arrives, so that nobody waits two days for an answer: the settings below cover forms and bookings, and you add calls and emails by hand.
 
 Start with forms, which Squarespace handles without any extra tool. In the form block's storage settings, connect Google Drive: Squarespace creates a spreadsheet and adds a row for each submission. Do not rename that spreadsheet, or it disconnects, and keep the email notification on as well.
 
-Bookings land in your calendar, and the booking tool notifies you. To copy them into the same spreadsheet, an automation tool can start on each new calendar event and add a row; set it to keep only events whose title matches your bookings, so that your dentist appointment stays out. At the time of writing:
+Bookings land in your calendar, and the booking tool notifies you. To copy them into the same spreadsheet, an automation tool can start on each new calendar event and add a row. Make it pick only events whose title matches your bookings, so that your dentist appointment stays out: on Zapier, the Google Calendar trigger **New Event Matching Search** does this with a word that all your booking titles share. At the time of writing:
 
 - **Zapier**: 100 tasks a month free; a booking that adds one row uses one task, as the trigger does not count.
 - **Make**: 1,000 credits a month free, but a scheduled check uses a credit each time it runs, even when nothing new has arrived: checking every hour costs about 720 credits a month.
@@ -130,16 +130,16 @@ If you would rather depend on none of them, my tutorial to {{< a key="automate-l
 https://www.yourbusiness.co.uk/kitchen-fitting?utm_source=newsletter&utm_medium=email&utm_campaign=autumn-2026
 ```
 
-Use lower case, spell them the same way every time, and never add them to links between your own pages, where they would replace the real source of the visit. My {{< a key="utm-ga4-funnel-tracking" >}}UTM and GA4 tutorial{{< /a >}} covers naming, reports and installing GA4.
+Use lower case, spell them the same way every time, and never add them to links between your own pages, where they would replace the real source of the visit. My {{< a key="utm-ga4-funnel-tracking" >}}UTM and GA4 tutorial{{< /a >}} covers naming and the reports to read.
 
-**A thank-you page.** Create a page that only loads after an enquiry: in Squarespace, put it in the **Not linked** section of the Pages panel and switch on **Hide page from search results** in its SEO tab. Then send people to it:
+**A thank-you page.** Create a page that people reach only after an enquiry: in Squarespace, put it in the **Not linked** section of the Pages panel and switch on **Hide page from search results** in its SEO tab. Then send people to it:
 
 - after the form: form block, **Content** tab, **Edit Post-Submit**, then **Redirect** ([Squarespace help](https://support.squarespace.com/hc/en-us/articles/206566737-Form-blocks)). The redirect does not run while you are logged in, so test it in a private window;
 - after a booking: YouCanBookMe sends bookers to your own page on its Professional and Teams plans ([YouCanBookMe help](https://ycbm.capacity.com/article/406807/thank-you-page-doesnt-forward-to-a-url-after-booking)), Calendly on its paid plans. On YouCanBookMe, the address must start with https, and an embedded calendar needs the option that updates the whole browser window.
 
 {{< callout type="warning" >}}YouCanBookMe can add the booker's name and email to the redirect address. Leave those codes out: **Google Analytics' rules forbid sending it personal information**.{{< /callout >}}
 
-On a free booking plan there is no redirect: count bookings in the booking tool and read the answers to "How did you hear about us?".
+Without a redirect (YouCanBookMe's Free and Individual plans, Calendly's free plan), count bookings in the booking tool and read the answers to "How did you hear about us?".
 
 **The key event.** In GA4, open **Admin** > **Data display** > **Events** and click **Create event**. Name it `generate_lead`, the name Google recommends for a lead, and switch on **Mark as key event**. Choose **Create without code**, pick `page_view` as the source event, enter the address of your thank-you page and click **Create** ([Google's help page](https://support.google.com/analytics/answer/12844695)). Do not mark `page_view` itself, or every page view would count. Counting starts on the day you set it up.
 
@@ -147,7 +147,7 @@ On a free booking plan there is no redirect: count bookings in the booking tool 
 
 ## Step 7: test the whole path on your phone
 
-Your prospects will meet the funnel on a phone, so test it there: logged out, on mobile data, with a second email address.
+Your prospects will meet the funnel on a phone, so test it there: in a private window, so that you are logged out, on mobile data and with a second email address.
 
 1. Open one of your UTM links and tap the button. The booking page loads and fits the screen.
 2. Book a slot. The confirmation arrives (check the spam folder too), the event sits in your calendar at the right time, and a row appears in your spreadsheet.
@@ -168,4 +168,4 @@ Upgrade one piece at a time, when a real problem shows up:
 
 A funnel builder such as Systeme.io or ClickFunnels earns its place when you sell online, with checkout pages and upsells; a service sold on a call rarely needs one. Once real visitors arrive, Microsoft Clarity, which is free, shows where they hesitate or leave: the copy, a photo or the layout.
 
-You do not need me for any of this. It gets harder when the volume grows: {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer in Paris and the Île-de-France, receives about ten prospects a day, and when the team could no longer keep up, I built an internal app so that no prospect waits for a call back. Until you reach that point, the seven steps above will carry a small team a long way.
+You do not need me for any of this. It gets harder when the volume grows: {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer in Paris and the Île-de-France, receives about ten prospects a day, and when the team could no longer keep up, I built an internal app so that nobody forgets to call a prospect back. Until you reach that point, the seven steps above will carry a small team a long way.

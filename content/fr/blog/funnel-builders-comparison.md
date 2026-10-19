@@ -44,7 +44,7 @@ La version courte : **Systeme.io pour vendre seul avec un petit budget**, Click
 | SMS et appels | Pas son cœur de métier | Pas son cœur de métier | Oui, facturés à l’usage |
 | Société et données | Exploitant irlandais, serveurs en Irlande | Société américaine | Société américaine |
 
-Tarifs au moment où j’écris (octobre 2026) : ClickFunnels et HighLevel affichent leurs prix en dollars, donc les montants en euros sont approximatifs, et la TVA peut s’ajouter. Vérifiez les pages officielles de [Systeme.io](https://systeme.io/pricing), [ClickFunnels](https://www.clickfunnels.com/pricing) et [HighLevel](https://www.gohighlevel.com/pricing) avant de payer.
+Tarifs au moment où j’écris (octobre 2026). ClickFunnels et HighLevel affichent leurs prix en dollars, donc les montants en euros sont approximatifs, et la TVA peut s’ajouter. Vérifiez les pages officielles de [Systeme.io](https://systeme.io/pricing), [ClickFunnels](https://www.clickfunnels.com/pricing) et [HighLevel](https://www.gohighlevel.com/pricing) avant de payer.
 
 La ligne qui tranche la plupart des choix est **« Pensé pour »**. Sur le papier, les trois se recoupent : chacun crée des pages, envoie des emails et vend des formations. Mais chacun est conçu pour un client différent, et vous payez les fonctions faites pour ce client, que vous vous en serviez ou non.
 
@@ -65,9 +65,9 @@ Systeme.io réunit dans un même compte les pages et les tunnels, l’emailing, 
 
 Le paiement à l’année revient moins cher. Les paiements par carte passent par un prestataire que vous connectez, comme Stripe ou PayPal, qui prélève ses propres frais sur chaque vente.
 
-**À qui il convient :** un coach, un formateur ou un créateur qui vend une formation, un abonnement ou un produit numérique, et qui veut tout au même endroit pour peu ou pas d’argent. Le plan gratuit suffit pour tester une offre sans rien payer.
+**À qui il convient :** à un coach, un formateur ou un créateur qui vend une formation, un abonnement ou un produit numérique, et qui veut tout au même endroit pour peu ou pas d’argent. Le plan gratuit suffit pour tester une offre sans rien payer.
 
-**À qui il ne convient pas :** une équipe commerciale qui a besoin d’appels, de SMS et d’une boîte de réception partagée, ou une entreprise de services qui vend sur devis et n’utiliserait qu’une petite partie de l’outil.
+**À qui il ne convient pas :** à une équipe commerciale qui a besoin d’appels, de SMS et d’une boîte de réception partagée, ou à une entreprise de services qui vend sur devis et n’utiliserait qu’une petite partie de l’outil.
 
 ## ClickFunnels : le spécialiste des pages de vente, en plus cher
 
@@ -75,9 +75,9 @@ ClickFunnels est l’outil américain auquel beaucoup de vendeurs en ligne pense
 
 Pas de plan gratuit, seulement un essai gratuit de 14 jours. L’offre d’entrée coûte 97 $ par mois (environ 86 €), ou environ 81 $ par mois (environ 72 €) en paiement annuel, et l’offre supérieure 297 $ (environ 264 €). Les noms des formules ont changé depuis ClickFunnels 2.0 et varient selon les sources : vérifiez ce que comprend chaque niveau sur la page des tarifs.
 
-**À qui il convient :** aux vendeurs qui envoient du trafic payant vers des pages de vente, font des lancements et misent sur les ventes additionnelles et les « order bumps » (une offre complémentaire à cocher sur le bon de commande), et qui apprécient ses modèles. Si une formation que vous suivez enseigne sa méthode sur ClickFunnels, le même outil vous évite de tout transposer.
+**À qui il convient :** aux vendeurs qui envoient du trafic payant vers des pages de vente, font des lancements et misent sur les ventes additionnelles et les « order bumps » (une offre complémentaire à cocher sur le bon de commande), et qui apprécient ses modèles. Si une formation que vous suivez enseigne sa méthode sur ClickFunnels, utiliser le même outil vous évite de tout transposer.
 
-**À qui il ne convient pas :** à qui teste une première offre avec un petit budget, et aux équipes qui ont besoin d’appels, de SMS ou d’un CRM pour des commerciaux.
+**À qui il ne convient pas :** à ceux qui testent une première offre avec un petit budget, et aux équipes qui ont besoin d’appels, de SMS ou d’un CRM pour des commerciaux.
 
 ## GoHighLevel : un CRM pensé pour les agences
 
@@ -105,7 +105,7 @@ Chaque contact collecté par un tunnel est une donnée personnelle, et l’outil
 
 Transférer les données de contacts européens vers une société américaine repose sur ce cadre, si la société est certifiée, ou sur des clauses contractuelles types. Vérifiez l’éditeur sur la liste officielle, dataprivacyframework.gov, plutôt que de croire une page commerciale sur parole. Au 19 octobre 2026, le cadre est en vigueur, mais il a déjà été contesté en justice ; mon article sur {{< a key="gdpr-us-tools-data-transfers" >}}les outils américains et le Data Privacy Framework{{< /a >}} détaille ce point.
 
-Être installé hors de l’Union ne vous sort pas du champ : selon l’article 3, paragraphe 2, une entreprise suisse, britannique, canadienne ou marocaine qui propose ses produits à des personnes situées dans l’Union applique le RGPD à ces clients. Un outil européen ne vous rend pas conforme pour autant : il vous faut une base légale pour chaque contact, une information claire sur le formulaire d’inscription et un lien de désinscription dans chaque email. Ceci est une information générale, pas un conseil juridique ; pour une grosse base de contacts ou des données sensibles, une heure avec un avocat ou un DPO est un bon investissement.
+Être établi hors de l’Union ne vous dispense pas du RGPD : selon l’article 3, paragraphe 2, une entreprise suisse, britannique, canadienne ou marocaine qui propose ses produits à des personnes situées dans l’Union applique le RGPD à ces clients. Un outil européen ne vous rend pas conforme pour autant : il vous faut une base légale pour chaque contact, une information claire sur le formulaire d’inscription et un lien de désinscription dans chaque email. Ceci est une information générale, pas un conseil juridique ; pour une grosse base de contacts ou des données sensibles, une heure avec un avocat ou un DPO est un bon investissement.
 
 ## Quand vous n’avez besoin d’aucun outil de tunnel
 
@@ -117,7 +117,7 @@ La plupart de mes clients vendent des prestations, et leur tunnel ressemble à c
 
 Avec leurs plans gratuits, la page de réservation et l’outil d’emailing ne coûtent rien de plus que le site que vous payez déjà.
 
-Les campagnes de cold emailing que je mène pour Pilotech montrent à quel point un tunnel de services demande peu de logiciels : trois emails en texte brut au maximum, aucun lien, un numéro de téléphone et une invitation à appeler ou à consulter le catalogue sur le site. Les architectes, la cible principale, sont ceux qui appelaient le plus.
+Les campagnes de cold emailing que je mène pour Pilotech montrent à quel point un tunnel de services demande peu de logiciels : trois emails en texte brut au maximum, aucun lien, un numéro de téléphone et une invitation à appeler ou à consulter le catalogue sur le site. Les architectes, la cible principale, étaient ceux qui appelaient le plus souvent.
 
 ## Avant d’en acheter un : le test de l’objet brillant
 

@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:24:00+02:00
 category: "mobile-apps"
 article_type: "tutorial"
 keywords: ["mots-clés ASO", "recherche de mots-clés ASO", "mots-clés App Store", "mots-clés Google Play", "champ de mots-clés App Store", "popularité Apple Ads"]
-summary: "Les mots-clés ASO sont les mots tapés dans la recherche de l’App Store et de Google Play : il faut trouver ceux qui décrivent votre application, puis les placer là où chaque store les lit. Partez des mots de vos utilisateurs, testez-les dans les suggestions des stores, les fiches concurrentes et la popularité Apple Ads, et visez d’abord des expressions précises. Remplissez ensuite les champs de chaque store, puis faites le bilan après quatre à six semaines."
+summary: "Les mots-clés ASO sont les mots tapés dans la recherche de l’App Store et de Google Play : il faut trouver ceux qui décrivent votre application, puis les placer là où chaque store les lit. Partez des mots de vos utilisateurs, confrontez-les aux suggestions des stores, aux fiches concurrentes et à la popularité Apple Ads, et visez d’abord des expressions précises. Remplissez ensuite les champs de chaque store, puis faites le bilan après quatre à six semaines."
 cover: "aso-keyword-research"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’une barre de recherche au-dessus d’une liste de résultats"
 related: ["aso-guide", "app-store-listing", "apple-ads-tutorial", "keyword-research-small-business", "mobile-app-launch-guide"]
@@ -20,12 +20,12 @@ faq:
   - q: "Le nom du développeur compte-t-il comme mot-clé ?"
     a: "Oui, sur les deux stores. La référence d’App Store Connect indique que votre app est déjà trouvable par son nom et par le nom de votre entreprise : les répéter dans le champ de mots-clés gaspille de la place. Google cite le nom du développeur parmi les facteurs de la recherche Google Play."
   - q: "Faut-il traduire ses mots-clés anglais pour l’App Store français ?"
-    a: "Non. Refaites la recherche en français : une liste traduite passe à côté des mots que les Français tapent vraiment, comme « drive » pour le retrait des courses en magasin, et chaque localisation a ses propres nom, sous-titre et champ de mots-clés. Le tableau des langues d’Apple associe à la France le français, avec l’anglais (Royaume-Uni) en langue supplémentaire."
+    a: "Non. Refaites la recherche en français : une liste traduite passe à côté des mots que les Français tapent vraiment, comme « drive » pour les courses commandées en ligne puis retirées en magasin, et chaque localisation a ses propres nom, sous-titre et champ de mots-clés. Le tableau des langues d’Apple associe à la France le français, avec l’anglais (Royaume-Uni) en langue supplémentaire."
   - q: "Peut-on mettre « gratuit » ou « n° 1 » dans le nom de son application ?"
     a: "Non. La règle 2.3.7 des App Review Guidelines d’Apple interdit de bourrer les métadonnées d’informations tarifaires ou d’expressions sans rapport, et la politique de Google Play sur les métadonnées exclut, dans le titre, l’icône et le nom du développeur, les mentions de performance ou de classement sur le store et les mentions de prix ou de promotion."
 ---
 
-La recherche de mots-clés ASO décide des recherches sur lesquelles votre application peut apparaître dans l’App Store et Google Play. Dans les stores, on tape quelques mots, comme « liste de courses » ou « suivi d’habitudes », puis on choisit parmi les applications qui s’affichent. Sur son site Apple Ads, Apple indique que près de 65 % des téléchargements sur l’App Store ont lieu juste après une recherche.
+La recherche de mots-clés ASO détermine sur quelles recherches votre application peut apparaître, dans l’App Store comme sur Google Play. Dans les stores, on tape quelques mots, comme « liste de courses » ou « suivi d’habitudes », puis on choisit parmi les applications qui s’affichent. Sur son site Apple Ads, Apple indique que près de 65 % des téléchargements sur l’App Store ont lieu juste après une recherche.
 
 Voici la méthode que je suivrais pour une nouvelle application : sept étapes, surtout avec des outils gratuits, à la portée des petites équipes sans budget ASO.
 
@@ -47,9 +47,9 @@ Il vous faut un tableur, un téléphone par store (ou le site de Google Play), u
 
 On cherche une tâche ou un problème, pas votre marque, tant qu’on ne la connaît pas. Notez 20 à 30 expressions qu’un utilisateur pourrait taper : la tâche (« partager les courses »), l’objet (« liste de courses »), le public (« colocation », « famille ») et les fonctions (« scanner de code-barres »).
 
-Prenez leurs mots, pas les vôtres : personne ne tape « gestionnaire d’achats du foyer ». Puisez dans vos e-mails de support, dans les avis sur les applications concurrentes, où les gens se plaignent avec leurs propres mots, dans les forums et dans les questions de vos clients.
+Prenez leurs mots, pas les vôtres : personne ne tape « gestionnaire d’achats du foyer ». Puisez dans vos emails de support, dans les avis sur les applications concurrentes, où les gens se plaignent avec leurs propres mots, dans les forums et dans les questions de vos clients.
 
-Pour les sites web, j’utilise la Recherche de Claude pour trouver ce dont les gens se plaignent le plus dans une niche et les mots-clés qui reviennent. La même demande vaut pour une application : demandez les mots exacts des utilisateurs, avec des sources à vérifier.
+Pour le SEO et la rédaction, j’utilise la Recherche de Claude pour trouver ce dont les gens se plaignent le plus dans une niche et les mots-clés qui reviennent. La même demande vaut pour une application : demandez les mots exacts des utilisateurs, avec des sources à vérifier.
 
 ## Étape 2 : relevez les suggestions de recherche des stores
 
@@ -73,13 +73,13 @@ Cherchez chaque expression principale dans les deux stores et ouvrez les cinq à
 - les mots de ses avis, qui citent souvent des fonctions que la fiche oublie ;
 - sa force (nombre de notes, marque connue ou non), pour l’étape 5.
 
-Le champ de mots-clés des autres applications reste invisible, mais leurs noms suffisent : quand la plupart des applications en tête placent le même mot dans leur nom, ce mot compte sans doute pour cette recherche.
+Le champ de mots-clés des autres applications reste invisible, mais leurs noms et sous-titres suffisent : quand la plupart des applications en tête placent le même mot dans leur nom, ce mot compte sans doute pour cette recherche.
 
 Repérez aussi les manques : un besoin que les avis citent sans cesse mais qu’aucune fiche ne nomme est une expression que vous pourriez occuper.
 
 ## Étape 4 : mesurez la demande avec la popularité Apple Ads
 
-Apple offre un signal gratuit : quand vous ajoutez des mots-clés à un groupe d’annonces dans Apple Ads, ses suggestions affichent pour chacun une popularité de recherche (search popularity), fondée sur les recherches dans l’App Store et notée de 1 à 5, 5 étant le plus populaire, comme l’expliquent les [bonnes pratiques d’Apple sur les mots-clés](https://ads.apple.com/app-store/best-practices/keywords) (en anglais).
+Apple offre un signal gratuit : quand vous ajoutez des mots-clés à un groupe d’annonces dans Apple Ads Advanced, ses suggestions affichent pour chacun une popularité de recherche (search popularity), fondée sur les recherches dans l’App Store et notée de 1 à 5, 5 étant le plus populaire, comme l’expliquent les [bonnes pratiques d’Apple sur les mots-clés](https://ads.apple.com/app-store/best-practices/keywords) (en anglais).
 
 Il faut un compte Apple Ads et une application sur l’App Store (précommandes comprises), puisque chaque groupe d’annonces dépend d’une campagne pour une application. Consulter les suggestions ne coûte rien : Apple Ads ne facture qu’une fois les annonces diffusées. Lisez le score ainsi :
 
@@ -89,7 +89,7 @@ Il faut un compte Apple Ads et une application sur l’App Store (précommandes 
 
 {{< screenshot id="aso-keyword-research-02" alt="Suggestions de mots-clés Apple Ads pour un groupe d’annonces, avec la popularité de recherche de chaque mot-clé" >}}
 
-Si vous faites déjà de la publicité, le rapport des termes de recherche montre les mots vraiment tapés avant de toucher votre annonce, et les installations qui ont suivi. C’est l’équivalent de mon usage de Semrush en SEO : les mots-clés que paient les annonceurs, et leur coût, montrent ceux qui fonctionnent, et je mise dessus en référencement naturel plutôt qu’en publicité. Mon {{< a key="apple-ads-tutorial" >}}tutoriel Apple Ads{{< /a >}} montre comment une campagne de découverte collecte ces termes.
+Si vous faites déjà de la publicité, le rapport des termes de recherche montre les mots vraiment tapés quand votre annonce s’est affichée, avec les taps et les installations qui ont suivi. C’est l’équivalent de mon usage de Semrush en SEO : les mots-clés que paient les annonceurs, et leur coût, montrent ceux qui fonctionnent, et je mise dessus en référencement naturel plutôt qu’en publicité. Mon {{< a key="apple-ads-tutorial" >}}tutoriel Apple Ads{{< /a >}} montre comment une campagne de découverte collecte ces termes.
 
 Le Planificateur de mots clés de Google et Google Trends mesurent les recherches sur Google, pas dans les stores. Servez-vous-en pour choisir entre deux formulations ou repérer une saisonnalité, pas pour estimer le trafic d’un store : mes tutoriels sur le {{< a key="google-keyword-planner-tutorial" >}}Planificateur de mots clés{{< /a >}} et {{< a key="google-trends-tutorial" >}}Google Trends{{< /a >}} montrent comment faire.
 
@@ -111,7 +111,7 @@ Puis triez :
 
 Pour Panier, imaginons que « liste de courses » soit dominée par des applications bien établies, aux milliers de notes. « Liste de courses partagée » et « liste de courses colocation », tout aussi pertinentes et moins disputées, passent en premier.
 
-J’ai vu la même chose sur le web. Sur les cinq sites que j’ai créés pour un même client, l’un n’a pas fonctionné du tout : il proposait trop de services. Celui qui se classe vend un service très précis.
+J’ai vu la même chose sur le web. Sur les cinq sites que j’ai créés pour un même client, l’un n’a pas fonctionné du tout : il proposait trop de services. Celui qui se classe vend des services très précis.
 
 Les outils ASO payants, comme AppTweak, Appfigures, MobileAction ou Sensor Tower, estiment la popularité et la concurrence de milliers de mots-clés, montrent sur quoi se classent vos concurrents et suivent vos positions ; Astro est une application Mac limitée à l’App Store. Appfigures a une formule gratuite (Starter), mais le suivi des mots-clés dépend de la formule payante, et AppTweak propose un essai gratuit. Ces outils valent leur prix quand vous suivez des dizaines de mots-clés dans plusieurs pays ; avant cela, un abonnement relève du syndrome de l’objet brillant contre lequel je mets en garde en marketing.
 
@@ -127,7 +127,7 @@ Placez votre expression la plus importante dans le nom, une deuxième dans le so
 - **Des virgules sans espace** : « colocation,recettes », pas « colocation, recettes ».
 - **Des mots-clés de plus de deux caractères.**
 - **Aucune répétition.** Évitez les mots déjà présents dans le nom, le sous-titre ou la catégorie, les pluriels de mots déjà utilisés, et « app ».
-- **Aucun nom d’autre application ou entreprise.** La [règle 2.3.7](https://developer.apple.com/app-store/review/guidelines/#2.3.7) des App Review Guidelines exclut aussi marques déposées, noms d’applications populaires, informations tarifaires et expressions sans rapport ; Apple peut modifier à tout moment les mots-clés inappropriés.
+- **Aucun nom d’autre application ou entreprise.** La [règle 2.3.7](https://developer.apple.com/app-store/review/guidelines/#2.3.7) des App Review Guidelines interdit aussi de truffer les métadonnées de marques déposées, de noms d’applications populaires, d’informations tarifaires ou d’expressions sans rapport ; Apple peut modifier à tout moment les mots-clés inappropriés.
 - **Une nouvelle version pour les changer.** Le champ fait partie des informations de chaque version : changez-le avec vos mises à jour.
 
 Selon de nombreux praticiens, l’App Store combine les mots du nom, du sous-titre et du champ en expressions : des mots isolés vont donc plus loin que des expressions entières. Apple ne le documente pas : vérifiez vos positions.
@@ -148,11 +148,11 @@ Google Play n’a pas de champ de mots-clés : selon la [page d’aide de Googl
 - **Description courte (80 caractères)** : votre deuxième expression et le bénéfice, par exemple « Une liste de courses partagée en famille, avec les repas de la semaine ».
 - **Description complète (4 000 caractères)** : vos expressions principales dès les premières lignes, puis là où elles viennent naturellement.
 
-Ne collez pas de liste de mots-clés : Google donne justement une suite de quasi-synonymes comme contre-exemple, et sa politique sur les métadonnées exclut les mots-clés répétitifs ou sans rapport.
+Ne collez pas de liste de mots-clés : Google donne justement une suite de quasi-synonymes comme contre-exemple, et sa politique sur les métadonnées range les blocs et les listes de mots parmi les infractions courantes.
 
 ## Étape 7 : faites le bilan après quatre à six semaines
 
-Aucun store n’indique de délai : attendez quatre à six semaines, puis comparez des périodes de même durée avant et après. Où regarder :
+Aucun store n’indique en combien de temps un nouveau mot-clé agit sur le classement : attendez quatre à six semaines, puis comparez des périodes de même durée avant et après. Où regarder :
 
 - **App Store Connect** : ouvrez votre app, puis **Analytics**, puis **Sources** sous **Acquisition** (libellés anglais d’Apple). La source « App Store search » indique combien de visites et de téléchargements viennent de la recherche, publicités dans les résultats comprises, mais pas les mots tapés.
 - **Apple Ads** : le rapport des termes de recherche, si vous faites de la publicité.
@@ -173,4 +173,4 @@ Remplacez les mots-clés qui n’ont rien apporté par les suivants de votre lis
 6. Remplissez les champs de l’App Store ; écrivez ceux de Google Play en phrases.
 7. Faites le bilan après quatre à six semaines, puis à chaque mise à jour.
 
-Nul besoin d’une agence : un après-midi, un tableur et les outils des stores suffisent pour une première liste. La différence se fait en y revenant à chaque mise à jour.
+Nul besoin d’une agence pour une première liste. La différence se fait en y revenant à chaque mise à jour, avec les chiffres de l’étape 7 sous les yeux.

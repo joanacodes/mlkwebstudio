@@ -35,14 +35,14 @@ It sets out the rules as they stand on 19 October 2026, as general information, 
 
 ## What a website legal notice is, and what it is not
 
-A legal notice answers one question: who is behind this website? It names the business, says where it is established and gives a way to contact it. Careful clients read it before paying a deposit.
+A legal notice answers one question: who is behind this website? It names the business, says where it is established and gives a way to contact it.
 
 It is not the only legal page in your footer:
 
 | Page | The question it answers | Main rules |
 |---|---|---|
-| Legal notice | Who runs this site, and how do I reach them? | E-Commerce Directive (Article 5), the LCEN in France, the E-Commerce Regulations 2002 in the UK |
-| Privacy policy | What data do you collect about me, why, and what are my rights? | GDPR and UK GDPR, Articles 13 and 14 |
+| Legal notice | Who runs this site, and how do I reach them? | E-Commerce Directive, Article 5 |
+| Privacy policy | What data do you collect about me, why, and what are my rights? | GDPR, Articles 13 and 14 |
 | Cookie information | Which trackers do you use, and how do I refuse them? | ePrivacy Directive, Article 5(3); PECR in the UK |
 | Terms of sale | On what terms do I buy from you? | Consumer law |
 
@@ -66,7 +66,7 @@ Each country writes this list into its own law, and an EU business follows the r
 
 ## Website legal notice requirements in France: the mentions légales
 
-The French list applies to every professional website, whatever the size of the business. It comes from the [loi pour la confiance dans l’économie numérique](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164) of 21 June 2004 (LCEN). The core list now sits in its article 1-1, where the SREN law of 21 May 2024 moved it from the former article 6, III. The LCEN also transposes the directive’s Article 5, which is where the email address, the VAT number and the regulated-profession details come from.
+The French list applies to every professional website, whatever the size of the business. It comes from the [loi pour la confiance dans l’économie numérique](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164) of 21 June 2004 (LCEN). The core list now sits in its article 1-1, where the SREN law of 21 May 2024 moved it from the former article 6, III. The LCEN also transposes Article 5, which adds the email address, the VAT number and the regulated-profession details.
 
 | What to publish | Company (SARL, SAS…) | Sole trader (EI, micro-entrepreneur) |
 |---|---|---|
@@ -79,7 +79,7 @@ The French list applies to every professional website, whatever the size of the 
 | Publication director | The legal representative, such as the gérant or the président | You |
 | Host | Legal name, address and phone number of the company that hosts the site | The same |
 
-Regulated professions add their professional body, their title and the rules they follow: an architect, for example, names the regional council of the Ordre des architectes they are registered with.
+Regulated professions add the details listed above: an architect, for example, names the regional council of the Ordre des architectes.
 
 The penalty is criminal: up to one year in prison and a €75,000 fine for an individual or a company’s manager, and up to €375,000 for a company. Convictions are rare, and the everyday cost is quieter. I want the sites I build to make a business look serious enough to be taken at its price, and a missing or half-empty legal notice works against that with any client who checks.
 
@@ -91,7 +91,7 @@ A site that sells to consumers adds terms of sale (*conditions générales de ve
 
 ## What a UK website must display
 
-UK law has no page called a legal notice, but the information is compulsory all the same, and it comes from two places.
+UK law has no page called a legal notice, but the information is compulsory, and it comes from two places.
 
 1. **The Electronic Commerce (EC Directive) Regulations 2002**, still in force after Brexit. [Regulation 6](https://www.legislation.gov.uk/uksi/2002/2013/regulation/6) follows Article 5 of the directive: name, geographic address, email address, register and number, VAT number if you are VAT-registered, and the authority and profession details where they apply. It covers sole traders and partnerships as well as companies.
 2. **The trading disclosure rules** for companies, in the Company, Limited Liability Partnership and Business (Names and Trading Disclosures) Regulations 2015. A limited company’s website must show its registered name, company number, registered office address and the part of the UK where it is registered, as [GOV.UK sums up](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material).
@@ -104,7 +104,7 @@ Registered office: [full address] · VAT number: GB[9 digits]
 Contact: [email address]
 ```
 
-A sole trader has no company number to show. The name the 2002 Regulations ask for is the name of the person who runs the business, so put your own name next to your trading name, with a geographic address and an email address.
+A sole trader has no company number to show, but the 2002 Regulations ask for the name of the person behind the business: put your own name next to your trading name, with a geographic address and an email address.
 
 Missing company disclosures are an offence by the company and every officer in default, with a fine of up to £1,000. Under section 83 of the Companies Act 2006, a court can also dismiss the company’s claim on a contract made during the breach, if the other side shows the missing details cost it money or blocked its own claim.
 

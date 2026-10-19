@@ -1,5 +1,5 @@
 ---
-title: "Two-factor authentication and passkeys: turn them on everywhere in one afternoon"
+title: "Two-factor authentication and passkeys: switch them on everywhere in one afternoon"
 seo_title: "How to set up two-factor authentication and passkeys"
 description: "How to set up two-factor authentication and passkeys on your email, domain, bank and payment accounts in one afternoon, then enforce 2FA for the whole team."
 slug: "set-up-two-factor-authentication"
@@ -9,14 +9,14 @@ lastmod: 2026-10-18T21:45:00+02:00
 category: "cybersecurity"
 article_type: "tutorial"
 keywords: ["how to set up two-factor authentication", "passkeys", "2FA for small business", "enforce 2-step verification Google Workspace", "Microsoft 365 security defaults", "authenticator app vs SMS"]
-summary: "Start with email, then turn on two-factor authentication at your domain registrar, bank, website, payment, accounting, storage and social accounts. Use a passkey or a security key wherever a service offers one, an authenticator app where it does not, and SMS only when nothing else exists. Then enforce it for the whole team in Google Workspace or Microsoft 365, and give every important account a second method and backup codes."
+summary: "Turn on two-factor authentication in each account's security settings, starting with email, then your domain registrar, bank, website, payment, accounting, storage and social accounts. Use a passkey or a security key wherever a service offers one, an authenticator app where it does not, and SMS only when nothing else exists. Then enforce it for the whole team in Google Workspace or Microsoft 365, and give every important account a second method and backup codes."
 cover: "two-factor-authentication-passkeys"
 cover_alt: "The article title in white on a ribbed-glass panel over a photo, with a padlock"
 related: ["password-manager-teams", "secure-google-workspace-microsoft-365", "cybersecurity-guide", "recover-domain-name", "regain-website-access"]
 services: ["rescue"]
 faq:
   - q: "What is the difference between 2FA, 2-step verification and MFA?"
-    a: "For a small team, none that matters: all three mean a second proof after the password. Google says 2-Step Verification, Microsoft says multifactor authentication (MFA) and the NCSC says 2-step verification (2SV)."
+    a: "For a small team, none that matters: all three mean a second proof after the password. Google says 2-Step Verification, Microsoft 365 says multifactor authentication (MFA) and the NCSC says 2-step verification (2SV)."
   - q: "Can I use the same passkey on my phone and my laptop?"
     a: "Yes, if it is synced: a passkey saved in iCloud Keychain, Google Password Manager or a password manager such as Bitwarden, 1Password or Proton Pass appears on your other devices signed in to the same account. A passkey stored on a hardware security key stays on that key, so register a spare."
   - q: "Do passkeys replace passwords completely?"
@@ -31,7 +31,7 @@ Two-factor authentication (2FA) means an account asks for a second proof after y
 
 Where a service offers passkeys, make one your main way in: they are stronger than codes and quicker to use. I will show you both.
 
-Some of my clients first called me in an emergency, after their website had been hacked. A hack has many possible causes, so I won't claim a second factor would have prevented each one. But a stolen password is one of the doors it closes, and closing it costs you an afternoon.
+Some of my clients called me in an emergency after their website had been hacked. Hacks have many possible causes, so I won't claim a second factor would have prevented every one of them. But a stolen password is one of the doors it closes, and closing it costs you an afternoon.
 
 This tutorial is one chapter of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}. It works best with a {{< a key="password-manager-teams" >}}password manager for the whole team{{< /a >}}, because that is where your backup codes will go.
 
@@ -46,8 +46,6 @@ Second factors are not equal. In 2026 the UK's National Cyber Security Centre (N
 | Authenticator app | A six-digit code that changes every 30 seconds | No | Services without passkeys |
 | Push approval | A prompt on your phone; Microsoft Authenticator makes you type the number shown on the sign-in screen | No, but harder to trick | Microsoft 365, Google prompts |
 | SMS or email code | A code sent to your number or your inbox | No, and texts can be intercepted | Only when nothing else exists |
-
-The NCSC still calls traditional 2-step verification an important fallback where passkeys are not offered.
 
 ### What a passkey is, in plain words
 
@@ -79,7 +77,7 @@ The password manager comes last for one reason only: you keep it open all aftern
 
 - Your phone, with an authenticator app (Google Authenticator or Microsoft Authenticator) or your password manager's code generator.
 - Your password manager, with a folder or shared vault for backup codes, and the list above with the person who owns each account.
-- Optional: two security keys for the Google Workspace or Microsoft 365 super administrator, one to carry and a spare kept somewhere else.
+- Optional: two security keys for your main administrator account (super administrator in Google Workspace, Global Administrator in Microsoft 365), one to carry and a spare kept somewhere else.
 
 ## Step 1: turn on 2-Step Verification on your Google account
 
@@ -88,7 +86,7 @@ Google's name for 2FA is 2-Step Verification. On a personal account, or on your 
 1. Open your Google Account and select **Security & sign-in**.
 2. Under **How you sign in to Google**, select **Turn on 2-Step Verification** and follow the instructions.
 3. Add a second step on your phone. Google recommends its prompts over typed codes, because tapping a prompt is easier than typing a code. Add an authenticator app as well.
-4. Download or print your backup codes: a list of 8-digit codes, each of which works once. Save them in your password manager.
+4. Download or print your backup codes: ten 8-digit codes, each of which works once. Save them in your password manager.
 5. If you want a phone number as a backup, add it now: Google says validating a number for this can take up to seven days.
 
 {{< screenshot id="two-factor-authentication-passkeys-01" alt="Google Account Security & sign-in page, with Turn on 2-Step Verification under How you sign in to Google" >}}
@@ -107,7 +105,7 @@ An authenticator app covers the services without passkeys. Pairing works the sam
 
 {{< screenshot id="two-factor-authentication-passkeys-02" alt="An authenticator app adding an account by scanning the QR code shown on a service's two-factor settings page" >}}
 
-Microsoft 365 work accounts are the exception. Once security defaults are on (Step 5), each person registers Microsoft Authenticator with notifications at their next sign-in. After that, the app can also give codes, and other authenticator apps can generate codes too.
+Microsoft 365 work accounts are the exception: once security defaults are on (Step 5), everyone registers Microsoft Authenticator with notifications. After that, it or another authenticator app can also provide codes.
 
 ## Step 3: create a passkey and test it
 
@@ -125,11 +123,11 @@ Start with your Google or Microsoft account, then look for the word passkey in t
 ## Step 4: work through the rest of the list
 
 - **Domain registrar.** The setting is in your account's security settings, not in the domain's DNS. While you are there, check that the domain lock and auto-renew are on, and that the account belongs to the business, with an email address the business controls: {{< a key="recover-domain-name" >}}getting a domain back from a former web designer{{< /a >}} takes far longer than protecting it today.
-- **Bank.** Your bank already makes you confirm sign-ins and payments in its app. Check which phone receives those approvals (yours, not a former employee's) and, if your bank offers it, require a second person to approve new payees. It also helps against {{< a key="invoice-fraud-bank-details" >}}fake "new bank details" emails{{< /a >}}.
+- **Bank.** Your bank already makes you confirm sign-ins and payments, usually in its app. Check which phone receives those approvals (yours, not a former employee's) and, if your bank offers it, require a second person to approve new payees. It also helps against {{< a key="invoice-fraud-bank-details" >}}fake "new bank details" emails{{< /a >}}.
 - **Website.** On Squarespace (the builder I give clients who edit their own site), Wix and WordPress.com, two-factor authentication is a setting of each person's own account, so every contributor turns it on for their own login. A self-hosted WordPress site needs a plugin, such as Two Factor from the WordPress.org directory. Give designers and freelancers their own login rather than yours: {{< a key="regain-website-access" >}}regaining access when a former provider holds the keys{{< /a >}} is the long version of why.
 - **Payments.** In Stripe and PayPal, pick an authenticator app or a passkey over SMS where the security settings offer it, and give each colleague their own user instead of the owner's login.
 - **Accounting, invoicing and cloud storage.** Xero, QuickBooks, FreeAgent, Dropbox, Box and the rest hold client data and bank details: look in your user profile or the account's security settings.
-- **Social media and ad accounts.** Facebook, Instagram, LinkedIn, TikTok and your ad accounts. In Meta's business settings, an admin can require two-factor authentication for everyone who has access. Google Ads uses your Google account, so Step 1 already covers it.
+- **Social media and ad accounts.** Facebook, Instagram, LinkedIn, TikTok and your ad accounts. In Meta Business Suite, **Settings > Security Centre** lets an admin require two-factor authentication for everyone who has access to the business portfolio. Google Ads uses your Google account, so Step 1 already covers it.
 - **The password manager.** Turn on its second factor, then keep its recovery kit or recovery code on paper, somewhere safe, never inside the vault it opens.
 
 {{< callout type="note" >}}Shared logins are the weak spot. If the company Instagram or the registrar sends its codes to one employee's personal phone, move them to a company number or to an authenticator entry in the shared vault now, not on the day that person leaves.{{< /callout >}}
@@ -157,7 +155,7 @@ You need a super administrator account. Google already enforces 2-Step Verificat
 Security defaults are free and switch on multifactor authentication for the whole tenant in one go. They suit a team that does not use Conditional Access.
 
 1. Tell the team the day and time, and check that everyone has Microsoft Authenticator on their phone.
-2. Sign in to the Microsoft Entra admin centre with an administrator account and go to **Entra ID > Overview > Properties**.
+2. Sign in to the Microsoft Entra admin centre (entra.microsoft.com) with a Global Administrator account and go to **Entra ID > Overview > Properties**.
 3. Select **Manage security defaults**, set them to **Enabled** and save.
 4. Microsoft recommends revoking existing sessions afterwards, so that everyone signs in again with the second factor.
 
@@ -169,7 +167,7 @@ Microsoft's [security defaults page](https://learn.microsoft.com/en-us/entra/fun
 
 ### Where to keep backup codes
 
-Keep them in the password manager, in a vault that you and one other trusted person can open, never in a desktop file or your inbox. Each Google backup code works once, and a new set cancels the old one. The exception is the password manager's own recovery kit: keep it on paper, somewhere safe.
+Keep them in the password manager, in a vault that you and one other trusted person can open, never in a desktop file or your inbox; only the password manager's own recovery kit stays on paper. When you generate a new set of Google backup codes, the old set stops working, so replace the copy in the vault straight away.
 
 ### When a phone is lost or replaced
 
@@ -180,7 +178,7 @@ Keep them in the password manager, in a vault that you and one other trusted per
 
 ### When someone leaves
 
-Remove their access, their registered devices and their security keys on their last day, and move the codes of any shared account that still reach their phone before they go. The {{< a key="offboarding-checklist" >}}offboarding checklist{{< /a >}} lists every access to close.
+Remove their access, their registered devices and their security keys on their last day. The {{< a key="offboarding-checklist" >}}offboarding checklist{{< /a >}} lists every access to close.
 
 ## Your one-afternoon checklist
 

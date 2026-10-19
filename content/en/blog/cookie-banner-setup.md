@@ -1,5 +1,5 @@
 ---
-title: "Set up a compliant cookie banner: Squarespace, Wix, WordPress (Consent Mode v2)"
+title: "Set up a compliant cookie banner on Squarespace, Wix or WordPress (with Consent Mode v2)"
 seo_title: "How to add a cookie banner to a website (Consent Mode v2)"
 description: "How to add a cookie banner to a website on Squarespace, Wix or WordPress: block trackers until consent, set up Consent Mode v2 and test it in DevTools."
 slug: "add-cookie-banner-website"
@@ -22,7 +22,7 @@ faq:
   - q: "How long should my banner remember a visitor's choice?"
     a: "France's CNIL treats six months as good practice, for a refusal as well as for consent, before asking again. Consent platforms usually let you set this period."
   - q: "Do I need a Google-certified consent platform?"
-    a: "Only if your site shows Google ads through AdSense, Ad Manager or AdMob. Those publishers need a Google-certified CMP that uses the IAB's TCF to serve personalised ads in the EEA and the UK (since 16 January 2024) and in Switzerland (since 31 July 2024). For Google Analytics and Google Ads tracking, Google asks for Consent Mode v2 signals, which a certified CMP sends for you and a home-made banner must send itself."
+    a: "Only if your site shows Google ads through AdSense, Ad Manager or AdMob. Those publishers need a Google-certified CMP that uses the IAB's TCF when serving ads in the EEA and the UK (since 16 January 2024) and in Switzerland (since 31 July 2024); without one, only limited ads can show. For Google Analytics and Google Ads tracking, Google asks for Consent Mode v2 signals, which a certified CMP sends for you and a home-made banner must send itself."
   - q: "Why does Google Analytics show fewer visitors after I add a banner?"
     a: "Because visitors who refuse are no longer tracked with cookies. Squarespace warns that once its banner restricts cookies, its own analytics can show many more visitors than Google Analytics. Compare trends over time rather than the two totals."
 ---
@@ -48,7 +48,7 @@ Where each item was added decides whether a built-in banner can control it:
 |---|---|---|
 | Squarespace | Yes, in the Cookies & Data Privacy panel | As soon as code injection, code blocks or embeds add trackers |
 | Wix | Usercentrics for Wix, added from the dashboard | It already is one: check how your custom code is classified |
-| WordPress | None | Always: install a consent plugin |
+| WordPress | None | As soon as anything non-essential loads: install a consent plugin |
 
 A consent management platform (CMP) is a service that shows the banner, blocks scripts until the visitor answers, records each choice and passes it on to tools such as Google's. One more point to settle first: in the UK, since February 2026, analytics used only for statistics can run without consent if you explain it and make objecting easy, but advertising still needs consent. With visitors on both sides of the Channel, one banner built to the EU standard keeps things simple.
 
@@ -122,7 +122,7 @@ The set-up follows the same pattern whichever you choose:
 
 Consent mode passes the visitor's answer to Google's tags. Version 2, introduced in November 2023, uses four signals: `ad_storage` and `analytics_storage` (may Google's tags use cookies for ads or for analytics), `ad_user_data` (may data be sent to Google for advertising) and `ad_personalization` (may it be used for personalised ads). Google's EU user consent policy covers visitors in the EEA, the UK and Switzerland, and accounts that send no v2 signals can lose remarketing, ad personalisation and part of their conversion measurement.
 
-Each signal starts as denied and changes to granted only when the visitor accepts. A CMP does this for you once its Google option is on. On Squarespace, Google tags added by code need a CMP with that option, as Squarespace refers consent mode questions to Google. On Wix, Usercentrics says no extra set-up is needed once consent mode is on in your Tag Manager configuration. On WordPress, it is the plugin's option. If you write it yourself, the default must run before the Google tag, as [Google's consent mode guide](https://developers.google.com/tag-platform/security/guides/consent) shows:
+Each signal starts as denied and changes to granted only when the visitor accepts. A CMP does this for you once its Google option is on. Squarespace's help says its built-in Google Analytics integration needs only your measurement ID and the banner, and calls consent mode a Google feature; Google tags added by code need a CMP with that option. On Wix, Usercentrics says no extra set-up is needed once consent mode is on in your Tag Manager configuration. On WordPress, it is the plugin's option. If you write it yourself, the default must run before the Google tag, as [Google's consent mode guide](https://developers.google.com/tag-platform/security/guides/consent) shows:
 
 ```html
 <script>

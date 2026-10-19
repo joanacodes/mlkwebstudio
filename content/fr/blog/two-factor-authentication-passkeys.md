@@ -9,14 +9,14 @@ lastmod: 2026-10-18T21:45:00+02:00
 category: "cybersecurity"
 article_type: "tutorial"
 keywords: ["activer la double authentification", "double authentification entreprise", "passkeys", "clé d’accès", "validation en deux étapes Google Workspace", "paramètres de sécurité par défaut Microsoft 365", "double authentification PME"]
-summary: "Commencez par la messagerie, puis activez la double authentification sur les comptes du nom de domaine, de la banque, du site, des paiements, de la comptabilité, du stockage et des réseaux sociaux. Préférez une passkey ou une clé de sécurité, sinon une application d’authentification, et le SMS en dernier recours. Imposez-la ensuite à toute l’équipe dans Google Workspace ou Microsoft 365, avec deux méthodes et des codes de secours par compte important."
+summary: "Activez la double authentification dans les réglages de sécurité de chaque compte, messagerie d’abord, puis nom de domaine, banque, site, paiements, comptabilité, stockage et réseaux sociaux. Préférez une passkey ou une clé de sécurité, sinon une application d’authentification, et le SMS en dernier recours. Imposez-la ensuite à toute l’équipe dans Google Workspace ou Microsoft 365, avec deux méthodes et des codes de secours par compte important."
 cover: "two-factor-authentication-passkeys"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé au-dessus d’une photo, avec un cadenas"
 related: ["password-manager-teams", "secure-google-workspace-microsoft-365", "cybersecurity-guide", "recover-domain-name", "regain-website-access"]
 services: ["rescue"]
 faq:
   - q: "Quelle différence entre 2FA, double authentification, validation en deux étapes et MFA ?"
-    a: "Pour une petite équipe, aucune qui compte : tous ces termes désignent une deuxième preuve demandée après le mot de passe. Google parle de validation en deux étapes, Microsoft d’authentification multifacteur (MFA) et cybermalveillance.gouv.fr de double authentification."
+    a: "Pour une petite équipe, aucune qui compte : tous ces termes désignent une deuxième preuve demandée après le mot de passe. Google parle de validation en deux étapes, Microsoft 365 d’authentification multifacteur (MFA) et cybermalveillance.gouv.fr de double authentification."
   - q: "Peut-on utiliser la même passkey sur son téléphone et sur son ordinateur ?"
     a: "Oui, si elle est synchronisée : une passkey enregistrée dans le trousseau iCloud, le gestionnaire de mots de passe de Google ou un gestionnaire comme Bitwarden, 1Password ou Proton Pass apparaît sur vos autres appareils connectés au même compte. Une passkey stockée sur une clé de sécurité physique reste sur cette clé : enregistrez-en une seconde."
   - q: "Les passkeys remplacent-elles complètement les mots de passe ?"
@@ -27,11 +27,11 @@ faq:
     a: "Activez-le quand même : un code par SMS arrête quelqu’un qui n’a que votre mot de passe. Utilisez un numéro que l’entreprise contrôle, sachez qu’un escroc peut convaincre un opérateur de transférer un numéro sur une nouvelle carte SIM (« SIM swapping »), et vérifiez de temps en temps si le service propose enfin une application ou une passkey."
 ---
 
-La double authentification (2FA) consiste à demander une deuxième preuve après le mot de passe : un code d’application, une validation sur votre téléphone, une clé de sécurité ou une passkey. Quelqu’un qui a volé ou deviné votre mot de passe reste alors à la porte. Ce guide montre comment activer la double authentification sur tous les comptes qui comptent en un après-midi, dans l’ordre qui vous protège le plus, puis comment l’imposer à toute l’équipe.
+La double authentification (2FA) consiste à demander une deuxième preuve après le mot de passe : un code d’application, une validation sur votre téléphone, une clé de sécurité ou une passkey. Quelqu’un qui a volé ou deviné votre mot de passe reste alors à la porte. Ce guide montre comment activer la double authentification sur tous vos comptes importants en un après-midi, dans l’ordre qui vous protège le plus, puis comment l’imposer à toute l’équipe.
 
 Quand un service propose les passkeys, faites-en votre accès principal : plus solides que les codes, elles sont aussi plus rapides à l’usage. Je vous montre les deux.
 
-Plusieurs de mes clients ont fait appel à moi en urgence, après le piratage de leur site. Un piratage a bien des causes possibles, et je ne prétendrai pas qu’une deuxième preuve aurait évité chacun d’eux. Mais un mot de passe volé est l’une des portes qu’elle ferme, et la fermer vous coûte un après-midi.
+Plusieurs de mes clients ont fait appel à moi en urgence, après le piratage de leur site. Je ne prétendrai pas qu’une deuxième preuve aurait évité chacun de ces piratages, qui ont bien des causes possibles. Mais un mot de passe volé est l’une des portes qu’elle ferme, et la fermer vous coûte un après-midi.
 
 Ce tutoriel est un chapitre de mon {{< a key="cybersecurity-guide" >}}guide de la cybersécurité pour les petites équipes{{< /a >}}. Il va de pair avec un {{< a key="password-manager-teams" >}}gestionnaire de mots de passe pour toute l’équipe{{< /a >}}, puisque c’est là que vous rangerez vos codes de secours.
 
@@ -47,13 +47,11 @@ Cybermalveillance.gouv.fr [recommande d’activer la double authentification](ht
 | Notification | Demande de validation sur le téléphone ; Microsoft Authenticator fait saisir le nombre affiché sur l’écran de connexion | Non, mais plus difficile à piéger | Microsoft 365, invites Google |
 | Code par SMS ou e-mail | Code envoyé sur votre numéro ou dans votre boîte | Non, et un SMS peut être intercepté | Seulement s’il n’existe rien d’autre |
 
-Le NCSC voit toujours dans la validation en deux étapes classique un filet de sécurité important là où les passkeys n’existent pas.
-
 ### Une passkey, en termes simples
 
 Une passkey remplace le mot de passe par une paire de clés cryptographiques. Le site garde la moitié publique ; la moitié privée reste chez vous, sur votre appareil ou dans votre gestionnaire de mots de passe, et n’est jamais envoyée au site. À la connexion, vous confirmez avec votre empreinte, votre visage ou le code de l’appareil : il n’y a rien à taper qu’une fausse page pourrait récupérer.
 
-Google et Microsoft les appellent « clés d’accès » en français, Apple « clés d’identification ». Les comptes Google, Microsoft et Apple les acceptent, tout comme les gestionnaires de mots de passe Bitwarden, 1Password et Proton Pass. Sur un compte Google, la passkey remplace à elle seule la deuxième étape, puisqu’elle prouve déjà que vous détenez l’appareil.
+En français, Google et Microsoft les appellent « clés d’accès ». Les comptes Google, Microsoft et Apple les acceptent, tout comme les gestionnaires de mots de passe Bitwarden, 1Password et Proton Pass. Sur un compte Google, la passkey remplace à elle seule la deuxième étape, puisqu’elle prouve déjà que vous détenez l’appareil.
 
 Une réserve, signalée par le NCSC : une passkey synchronisée par votre compte Apple, Google ou votre gestionnaire de mots de passe ne vaut que ce que vaut la protection de ce compte. Protégez-le en premier, avec deux méthodes.
 
@@ -79,7 +77,7 @@ Le gestionnaire de mots de passe arrive en dernier pour une seule raison : il r
 
 - Votre téléphone, avec une application d’authentification (Google Authenticator ou Microsoft Authenticator) ou le générateur de codes de votre gestionnaire de mots de passe.
 - Votre gestionnaire de mots de passe, avec un dossier ou un coffre partagé pour les codes de secours, et la liste ci-dessus avec le responsable de chaque compte.
-- En option : deux clés de sécurité pour le super-administrateur de Google Workspace ou de Microsoft 365, l’une sur vous, l’autre de secours, rangée ailleurs.
+- En option : deux clés de sécurité pour le compte administrateur principal (super-administrateur Google Workspace, administrateur général Microsoft 365), l’une sur vous, l’autre de secours, rangée ailleurs.
 
 ## Étape 1 : activer la validation en deux étapes sur votre compte Google
 
@@ -88,7 +86,7 @@ Chez Google, la double authentification s’appelle « validation en deux étap
 1. Ouvrez votre compte Google et sélectionnez **Sécurité et connexion**.
 2. Sous **Comment vous connecter à Google**, sélectionnez **Activer la validation en deux étapes** et suivez les instructions.
 3. Ajoutez une deuxième étape sur votre téléphone. Google conseille ses invites plutôt que les codes, car appuyer sur une invite est plus simple que saisir un code. Ajoutez aussi une application d’authentification.
-4. Téléchargez ou imprimez vos codes de secours : des codes à 8 chiffres, utilisables une seule fois chacun. Rangez-les dans votre gestionnaire de mots de passe.
+4. Téléchargez ou imprimez vos codes de secours : dix codes à 8 chiffres, utilisables une seule fois chacun. Rangez-les dans votre gestionnaire de mots de passe.
 5. Si vous voulez un numéro de téléphone de secours, ajoutez-le maintenant : selon Google, la validation d’un numéro pour cet usage peut prendre jusqu’à sept jours.
 
 {{< screenshot id="two-factor-authentication-passkeys-01" alt="Page Sécurité et connexion du compte Google, avec Activer la validation en deux étapes sous Comment vous connecter à Google" >}}
@@ -107,7 +105,7 @@ Pour les services sans passkey, l’application d’authentification prend le re
 
 {{< screenshot id="two-factor-authentication-passkeys-02" alt="Une application d’authentification qui ajoute un compte en scannant le QR code affiché dans les réglages de double authentification d’un service" >}}
 
-Les comptes professionnels Microsoft 365 font exception. Une fois les paramètres de sécurité par défaut activés (étape 5), chaque personne enregistre Microsoft Authenticator avec les notifications à sa prochaine connexion. L’application peut ensuite fournir aussi des codes, et d’autres applications d’authentification peuvent en générer.
+Les comptes professionnels Microsoft 365 font exception : une fois les paramètres de sécurité par défaut activés (étape 5), chacun enregistre Microsoft Authenticator avec les notifications. Ensuite, cette application ou une autre application d’authentification peut aussi fournir des codes.
 
 ## Étape 3 : créer une passkey et la tester
 
@@ -125,11 +123,11 @@ Commencez par votre compte Google ou Microsoft, puis cherchez « passkey » ou
 ## Étape 4 : passer le reste de la liste
 
 - **Registrar.** Le réglage se trouve dans la sécurité de votre compte client, pas dans la zone DNS du domaine. Vérifiez au passage que le verrouillage du domaine et le renouvellement automatique sont actifs, et que le compte appartient à l’entreprise, avec une adresse e-mail qu’elle contrôle : {{< a key="recover-domain-name" >}}récupérer un nom de domaine auprès d’un ancien prestataire{{< /a >}} prend bien plus longtemps que le protéger aujourd’hui.
-- **Banque.** Votre banque vous fait déjà confirmer connexions et paiements dans son application. Vérifiez quel téléphone reçoit ces validations (le vôtre, pas celui d’un ancien salarié) et, si votre banque le propose, exigez l’accord d’une deuxième personne pour tout nouveau bénéficiaire. C’est aussi une parade contre la {{< a key="invoice-fraud-bank-details" >}}fraude au faux RIB{{< /a >}}.
+- **Banque.** Votre banque vous fait déjà confirmer connexions et paiements, le plus souvent dans son application. Vérifiez quel téléphone reçoit ces validations (le vôtre, pas celui d’un ancien salarié) et, si votre banque le propose, exigez l’accord d’une deuxième personne pour tout nouveau bénéficiaire. C’est aussi une parade contre la {{< a key="invoice-fraud-bank-details" >}}fraude au faux RIB{{< /a >}}.
 - **Site web.** Sur Squarespace (l’outil que je confie aux clients qui modifient eux-mêmes leur site), Wix et WordPress.com, la double authentification se règle dans le compte de chaque personne : chaque contributeur l’active pour sa propre connexion. Un site WordPress auto-hébergé a besoin d’une extension, par exemple Two Factor, disponible dans le répertoire de WordPress.org. Donnez aux graphistes et aux freelances leur propre accès plutôt que le vôtre : mon guide pour {{< a key="regain-website-access" >}}récupérer son site auprès d’un ancien prestataire{{< /a >}} explique pourquoi.
 - **Paiements.** Dans Stripe et PayPal, préférez une application d’authentification ou une passkey au SMS quand les réglages de sécurité le permettent, et donnez à chaque collègue son propre utilisateur au lieu de l’accès du dirigeant.
-- **Comptabilité, facturation et stockage en ligne.** Pennylane, Tiime, Indy, Dropbox, Box et les autres gardent des données clients et des coordonnées bancaires : cherchez le réglage dans votre profil ou dans la sécurité du compte.
-- **Réseaux sociaux et publicité.** Facebook, Instagram, LinkedIn, TikTok et vos comptes publicitaires. Dans les paramètres d’entreprise de Meta, un administrateur peut exiger la double authentification de toutes les personnes qui y ont accès. Google Ads utilise votre compte Google : l’étape 1 le couvre déjà.
+- **Comptabilité, facturation et stockage en ligne.** Pennylane, Tiime, Indy, Dropbox, Box et les autres gardent des données clients et des coordonnées bancaires : cherchez la double authentification dans votre profil ou dans la sécurité du compte, et activez-la dès qu’elle est proposée.
+- **Réseaux sociaux et publicité.** Facebook, Instagram, LinkedIn, TikTok et vos comptes publicitaires. Dans les paramètres de Meta Business Suite, un administrateur peut exiger la double authentification de toutes les personnes qui y ont accès. Google Ads utilise votre compte Google : l’étape 1 le couvre déjà.
 - **Le gestionnaire de mots de passe.** Activez son deuxième facteur, puis gardez son kit ou son code de récupération sur papier, en lieu sûr, jamais dans le coffre qu’il ouvre.
 
 {{< callout type="note" >}}Les accès partagés sont le point faible. Si l’Instagram de l’entreprise ou le registrar envoie ses codes sur le téléphone personnel d’un salarié, déplacez-les vers un numéro de l’entreprise ou vers une entrée d’authentification du coffre partagé dès maintenant, pas le jour de son départ.{{< /callout >}}
@@ -157,7 +155,7 @@ Il vous faut un compte super-administrateur. Google impose déjà lui-même la v
 Les paramètres de sécurité par défaut sont gratuits et activent l’authentification multifacteur pour tout le locataire (tenant) d’un coup. Ils conviennent à une équipe qui n’utilise pas l’accès conditionnel.
 
 1. Prévenez l’équipe du jour et de l’heure, et vérifiez que chacun a installé Microsoft Authenticator sur son téléphone.
-2. Connectez-vous au centre d’administration Microsoft Entra avec un compte administrateur et ouvrez **Entra ID > Vue d’ensemble > Propriétés**, puis **Gérer les paramètres de sécurité par défaut** (dans l’interface en anglais : Overview > Properties > Manage security defaults).
+2. Connectez-vous au centre d’administration Microsoft Entra (entra.microsoft.com) avec un compte d’administrateur général et ouvrez **Entra ID > Vue d’ensemble > Propriétés**, puis **Gérer les paramètres de sécurité par défaut** (dans l’interface en anglais : Overview > Properties > Manage security defaults).
 3. Passez les paramètres de sécurité par défaut sur **Activé** et enregistrez.
 4. Microsoft recommande ensuite de révoquer les sessions en cours, pour que chacun se reconnecte avec le deuxième facteur.
 
@@ -169,7 +167,7 @@ La [page de Microsoft sur les paramètres de sécurité par défaut](https://lea
 
 ### Où ranger les codes de secours
 
-Dans le gestionnaire de mots de passe, dans un coffre que vous et une autre personne de confiance pouvez ouvrir, jamais dans un fichier sur le bureau ou dans votre boîte mail. Chaque code de secours Google ne sert qu’une fois, et une nouvelle série annule l’ancienne. Seule exception : le kit de récupération du gestionnaire lui-même se garde sur papier, en lieu sûr.
+Dans le gestionnaire de mots de passe, dans un coffre que vous et une autre personne de confiance pouvez ouvrir, jamais dans un fichier sur le bureau ou dans votre boîte mail ; seul le kit de récupération du gestionnaire lui-même se garde sur papier. Une nouvelle série de codes de secours Google annule l’ancienne : remplacez aussitôt la copie du coffre.
 
 ### Téléphone perdu ou remplacé
 
@@ -180,7 +178,7 @@ Dans le gestionnaire de mots de passe, dans un coffre que vous et une autre pers
 
 ### Quand quelqu’un quitte l’équipe
 
-Le jour du départ, retirez ses accès, ses appareils enregistrés et ses clés de sécurité ; avant ce jour-là, déplacez les codes des comptes partagés qui arrivent encore sur son téléphone. La {{< a key="offboarding-checklist" >}}checklist de départ d’un salarié ou d’un freelance{{< /a >}} liste tous les accès à fermer.
+Le jour du départ, retirez ses accès, ses appareils enregistrés et ses clés de sécurité. La {{< a key="offboarding-checklist" >}}checklist de départ d’un salarié ou d’un freelance{{< /a >}} liste tous les accès à fermer.
 
 ## Votre checklist pour l’après-midi
 

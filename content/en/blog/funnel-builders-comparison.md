@@ -75,7 +75,7 @@ ClickFunnels is the American tool many online sellers think of first when they h
 
 There is no free plan, only a 14-day free trial. The entry plan costs $97 (about £73) a month, or about $81 (about £61) a month billed yearly, and the higher plan $297 (about £224). The plan names have changed since ClickFunnels 2.0 and 2026 sources disagree on them, so check what each tier includes on the pricing page rather than relying on a name.
 
-**Who it suits:** sellers who send paid traffic to sales pages, run launches and rely on upsells and order bumps (an extra offer ticked on the order form), and who value the templates and the large community of users around the product. If a course you follow teaches its method on ClickFunnels, the same tool saves you translating every lesson.
+**Who it suits:** sellers who send paid traffic to sales pages, run launches and rely on upsells and order bumps (an extra offer ticked on the order form), and who value the templates and the large community of users around the product. If a course you follow teaches its method on ClickFunnels, using the same tool saves you translating every lesson.
 
 **Who it does not suit:** anyone testing a first offer on a small budget, and any team that needs calls, SMS or a CRM for salespeople.
 

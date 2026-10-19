@@ -50,7 +50,7 @@ Two questions often get mixed up. The data processing agreement required by Arti
 Transfers to the US have been rebuilt twice, each time because the Court of Justice found that US surveillance law did not protect Europeans enough:
 
 - Safe Harbor (2000) was struck down in October 2015, in the first case brought by the privacy campaigner Max Schrems.
-- Privacy Shield (2016) was struck down on 16 July 2020, in the Schrems II judgment. The Court kept standard contractual clauses but required businesses to check whether the destination’s laws let the recipient keep its promises. There was no grace period: transfers based on the Privacy Shield lost their legal basis overnight.
+- Privacy Shield (2016) was struck down on 16 July 2020, in the Schrems II judgment, with no grace period: transfers based on it lost their legal basis overnight.
 - The Data Privacy Framework followed Executive Order 14086 of October 2022, which limited US intelligence access to what is necessary and proportionate and created a redress route ending at a new Data Protection Review Court. The Commission’s adequacy decision (Implementing Decision (EU) 2023/1795) has applied since 10 July 2023.
 
 This framework has survived its first test. On 3 September 2025, the EU General Court dismissed the action brought by Philippe Latombe, a French member of parliament (case T-553/23). He appealed to the Court of Justice on 31 October 2025 (case C-703/25 P), arguing in particular that a court created by an executive order rather than an Act of Congress is not independent. As of 19 October 2026, I found no judgment: the framework applies, and transfers based on it are lawful.
@@ -85,7 +85,7 @@ Run the same check on every other American tool: Zoom, Slack, your CRM, your boo
 
 Standard contractual clauses are a model contract adopted by the European Commission in June 2021 (Implementing Decision (EU) 2021/914). The module for a provider working on your behalf is “controller to processor”. You do not negotiate them: they are built into the provider’s data processing agreement, and accepting the agreement accepts them.
 
-Since Schrems II, a business relying on these clauses must also check whether the destination country’s laws let the recipient honour them: this is the transfer impact assessment. For the US, the task is lighter than it was in 2021, because the European Commission has said that the safeguards of Executive Order 14086 apply to all transfers to the US, whatever the tool used. In practice, ask the provider for its transfer documentation (many publish a transfer impact assessment), file it with the agreement alongside a dated note on which data goes there and why the risk is acceptable, and review it when something changes.
+Since Schrems II, which kept the clauses alive, a business relying on them must also check whether the destination country’s laws let the recipient honour them: this is the transfer impact assessment. For the US, the task is lighter than it was in 2021, because the European Commission has said that the safeguards of Executive Order 14086 apply to all transfers to the US, whatever the tool used. In practice, ask the provider for its transfer documentation (many publish a transfer impact assessment), file it with the agreement alongside a dated note on which data goes there and why the risk is acceptable, and review it when something changes.
 
 If a provider offers neither the framework nor the clauses, keep client data out of it. The derogations of Article 49, such as explicit consent, are for occasional transfers; the EDPB reads them narrowly, and they cannot carry a tool you use every day.
 
@@ -97,7 +97,7 @@ Without that certification, UK businesses use the ICO’s International Data Tra
 
 Switzerland has its own Swiss-US framework: the Federal Council recognised it in a decision of 14 August 2024, and Swiss businesses have been able to rely on it since 15 September 2024. Without that part of the certification, contractual clauses adapted to Swiss law are the usual route.
 
-The logic also follows the GDPR outside Europe. A company in New York, Montreal or Casablanca that sells to people in the EU (see my guide on {{< a key="gdpr-outside-eu" >}}whether GDPR applies outside the EU{{< /a >}}) can still make a transfer, according to the EDPB, when it passes their data to another company outside the EU, so its tools need the same agreement and mechanism.
+The same checks apply outside Europe: a company in New York, Montreal or Casablanca that sells to people in the EU (see my guide on {{< a key="gdpr-outside-eu" >}}whether GDPR applies outside the EU{{< /a >}}) can make a transfer, for the EDPB, when it passes their data on to another company outside the EU.
 
 ## Keeping data in Europe: EU data regions and European tools
 
@@ -110,8 +110,8 @@ A European data region reduces transfers but does not make the provider European
 
 If you would rather avoid the question for some tools, European options exist for most jobs:
 
-- newsletters: Brevo, a French company, compared with Mailchimp and others in my {{< a key="newsletter-tools-comparison" >}}newsletter tools comparison{{< /a >}};
-- email, files and video calls: kSuite from Infomaniak, based in Geneva, which I recommend highly even though my own habits are with Spaceship (details in my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}});
+- newsletters: Brevo, a French company (see my {{< a key="newsletter-tools-comparison" >}}newsletter tools comparison{{< /a >}});
+- email, files and video calls: Infomaniak’s kSuite, from Geneva, which I recommend highly even though my own habits are with Spaceship (see my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}});
 - large files: SwissTransfer, also from Infomaniak, which I find way better than WeTransfer (my {{< a key="swisstransfer-vs-wetransfer" >}}WeTransfer alternative guide{{< /a >}} explains why);
 - encrypted email: Proton, based in Switzerland;
 - website analytics: Matomo, which you can host yourself; the CNIL publishes a guide to configuring it so that it needs no consent in France.
@@ -127,6 +127,6 @@ A European provider can still use American sub-processors, so read its sub-proce
 5. **Update your privacy policy** with the tools that send data outside the EEA and the basis for each.
 6. **Set a yearly reminder** to check again, and watch for the Court of Justice’s ruling in case C-703/25 P.
 
-This guide is general information, not legal advice. For the usual tools of a small team, the checks above are enough, and you do not need a lawyer to run them. A lawyer or a DPO is worth paying for when you send health or other sensitive data to a US tool, put staff records into a US HR platform, receive a transfer questionnaire from a large client or a public body, or depend on a tool that offers neither the framework nor the clauses.
+This guide is general information, not legal advice. You do not need a lawyer to run these checks on everyday tools. A lawyer or a DPO is worth paying for when you send health or other sensitive data to a US tool, put staff records into a US HR platform, receive a transfer questionnaire from a large client or a public body, or depend on a tool that offers neither the framework nor the clauses.
 
 The website side, a privacy page that names your tools and a consent banner that holds US trackers back until visitors agree, is part of the {{< a page="/services/websites" >}}websites I build{{< /a >}}.
