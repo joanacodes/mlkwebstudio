@@ -1,7 +1,7 @@
 ---
 title: "Welcome sequence: the five emails every new subscriber should get"
 seo_title: "Welcome email sequence: 5 emails, timings and templates"
-description: "A welcome email sequence in five emails: when to send each one, a short template for every email, how to set it up in your email tool and what to measure."
+description: "A welcome email sequence in five emails: when to send each one, a short template for each, how to set it up in your email tool and what to measure."
 slug: "welcome-email-sequence"
 translationKey: "welcome-email-sequence"
 date: 2026-10-18T23:21:00+02:00
@@ -163,7 +163,7 @@ Not for you? No problem: choose what you receive, or unsubscribe, here: [prefere
 
 ## Plain text or a designed template
 
-Plain text, or a light template that looks like a personal email (one column, your name, no banner), often feels more personal, which suits a sequence meant to start a conversation.
+Plain text, or a light template that looks like an ordinary email (one column, your name, no banner), often feels more personal, which suits a sequence meant to start a conversation.
 
 In cold emails I go further, with plain text, a phone number and no links at all, as I explain in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. A welcome sequence is different: the person asked for it, and most of these emails need a link. Nor does a newsletter have to be plain: if your work is visual, as an interior designer's is, a designed template with real photos makes sense.
 

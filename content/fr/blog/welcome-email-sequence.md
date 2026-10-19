@@ -1,7 +1,7 @@
 ---
 title: "Séquence de bienvenue : les 5 emails à envoyer à chaque nouvel abonné"
 seo_title: "Séquence email de bienvenue : 5 emails, délais et modèles"
-description: "Séquence email de bienvenue : les 5 emails à envoyer à chaque nouvel abonné, quand les envoyer, un modèle pour chacun, le paramétrage et quoi mesurer."
+description: "Séquence email de bienvenue : les 5 emails à envoyer à chaque nouvel abonné, le bon délai, un modèle pour chacun, le paramétrage et quoi mesurer."
 slug: "sequence-email-de-bienvenue"
 translationKey: "welcome-email-sequence"
 date: 2026-10-18T23:21:00+02:00
@@ -55,7 +55,7 @@ Les jours se comptent à partir de l’inscription (J+2 = deux jours après), ou
 
 La séquence s’adresse aux personnes qui ont demandé vos emails : par un formulaire d’inscription à la newsletter, ou par une case séparée, non cochée, sous le formulaire de votre lead magnet. Quelqu’un qui a seulement téléchargé une checklist reçoit l’email qui la livre, et rien d’autre. Mon article sur les {{< a key="lead-magnet-ideas" >}}idées de lead magnet{{< /a >}} montre comment séparer les deux.
 
-Il existe des exceptions, comme l’exception client (soft opt-in) et des règles plus souples pour les adresses professionnelles. Et les règles suivent vos abonnés : une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève du RGPD pour elles (article 3, paragraphe 2). Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille ces règles ; ceci est une information générale, pas un conseil juridique.
+La loi prévoit des exceptions, comme le soft opt-in pour vos clients et des règles plus souples pour les adresses professionnelles. Et les règles suivent vos abonnés : une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève du RGPD pour elles (article 3, paragraphe 2). Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille ces règles ; ceci est une information générale, pas un conseil juridique.
 
 ## Email 1, tout de suite : livrer ce que vous avez promis
 
@@ -78,7 +78,7 @@ Une question ? Répondez simplement à cet email : c’est moi qui le lis.
 
 ## Email 2, à J+2 : pourquoi vous faites ce métier
 
-On confie un projet à quelqu’un de confiance, et la confiance commence par savoir pourquoi et comment vous travaillez. À J+2, racontez une histoire courte et faites une promesse : pas votre CV.
+On confie un projet à quelqu’un de confiance, et la confiance commence par savoir pourquoi et comment vous travaillez. Le deuxième email tient en une histoire courte et une promesse : ce n’est pas un CV.
 
 Pour mon studio, l’histoire se terminerait par la phrase que je dis à mes proches : j’aide les entreprises à être vues, à attirer des prospects, à être fières de leur présence en ligne et à automatiser leur travail pour se simplifier la vie. La promesse serait l’honnêteté que mes clients connaissent déjà : je leur dis quand ils feraient mieux d’appeler quelqu’un d’autre que moi.
 
@@ -122,7 +122,7 @@ La réponse complète, avec des exemples, est ici : [lien vers votre guide]
 
 À J+7, votre lecteur sait ce que vous faites ; montrez maintenant que ça marche. Racontez un projet réel en trois lignes (le problème, ce que vous avez fait, ce qui a changé), puis mettez le lien vers l’étude de cas complète.
 
-Uniquement du réel : un client nommé avec son accord, des chiffres que vous pouvez montrer, des photos de votre travail. Sans étude de cas, décrivez honnêtement un projet récent, sans chiffres plutôt qu’avec des chiffres gonflés. Pour mon studio, ce serait Pilotech, installateur de climatisation à Paris et en Île-de-France : un site construit en un mois environ et un premier prospect trois semaines après sa mise en ligne, avec un lien vers mes {{< a page="/projects" >}}pages projets{{< /a >}}.
+Uniquement du réel : un client nommé avec son accord, des chiffres que vous pouvez montrer, des photos de votre travail. Si vous n’avez pas encore d’étude de cas, décrivez honnêtement un projet récent : mieux vaut aucun chiffre qu’un chiffre gonflé. Pour mon studio, ce serait Pilotech, installateur de climatisation à Paris et en Île-de-France : un site construit en un mois environ et un premier prospect trois semaines après sa mise en ligne, avec un lien vers mes {{< a page="/projects" >}}pages projets{{< /a >}}.
 
 ```text
 Objet : Ce qui a changé pour [client ou type de client]
@@ -163,7 +163,7 @@ Ce n’est pas pour vous ? Aucun souci : choisissez ce que vous recevez, ou dés
 
 ## Texte brut ou modèle graphique ?
 
-Un email en texte brut, ou un modèle léger qui ressemble à un email personnel (une colonne, votre nom, pas de bannière), paraît souvent plus personnel, ce qui convient à une séquence censée ouvrir une conversation.
+Un email en texte brut, ou un modèle léger qui ressemble à un email ordinaire (une colonne, votre nom, pas de bannière), paraît souvent plus personnel, ce qui convient à une séquence censée ouvrir une conversation.
 
 En cold emailing, je vais plus loin : texte brut, un numéro de téléphone et aucun lien, comme je l’explique dans {{< a key="plain-text-cold-emails" >}}pourquoi mes cold emails n’ont ni lien ni HTML{{< /a >}}. Une séquence de bienvenue, c’est autre chose : la personne l’a demandée, et la plupart de ces emails ont besoin d’un lien. Une newsletter n’a pas non plus à être en texte brut : si votre métier est visuel, comme celui d’un architecte d’intérieur, un modèle graphique avec de vraies photos a tout son sens.
 

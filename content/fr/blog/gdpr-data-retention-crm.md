@@ -41,8 +41,6 @@ Trois sources fournissent les chiffres :
 2. **Les référentiels de la CNIL.** Ils ne sont pas obligatoires, mais si vous retenez une autre durée, vous devez pouvoir expliquer pourquoi.
 3. **Vos propres raisons** : la longueur de votre cycle de vente, la durée de validité d’un devis, le rythme auquel vos clients reviennent.
 
-Le RGPD britannique (UK GDPR) reprend le même principe, et l’ICO, l’autorité britannique, le dit sans détour : la loi ne fixe aucun délai, c’est à vous de le faire, et vous ne pouvez pas garder des données indéfiniment « au cas où ».
-
 Les durées suivent aussi vos contacts hors des frontières. Une entreprise installée en Suisse, au Québec, au Maroc ou en Tunisie qui propose ses services à des personnes dans l’Union est soumise au RGPD pour leurs données (article 3, paragraphe 2), où que soient ses bureaux ou ses serveurs. Mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}} explique dans quels cas.
 
 ## Prospects et clients : les trois ans du référentiel de la CNIL
@@ -56,9 +54,9 @@ Le référentiel de la CNIL relatif à la gestion des activités commerciales (d
 
 {{< callout type="tip" >}}Seul **le prospect** relance le compteur : une réponse, un appel, une demande de documentation, un clic sur un lien de vos emails. Vos relances ne comptent pas, pas plus qu’un email simplement ouvert.{{< /callout >}}
 
-La CNIL détaille ces règles dans ses [questions-réponses sur les référentiels de gestion commerciale](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des). Un référentiel n’est pas une loi, mais tout écart doit pouvoir se justifier.
+La CNIL détaille ces règles dans ses [questions-réponses sur les référentiels de gestion commerciale](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des).
 
-Au Royaume-Uni, l’ICO ne publie pas de durée équivalente pour les prospects. Rien n’empêche une entreprise britannique de reprendre les trois ans comme règle interne : un délai qu’un régulateur juge déjà raisonnable se défend mieux qu’un chiffre sorti de nulle part. Si vos prospects viennent du cold emailing, mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}} précise ce que vous leur devez dès le premier email.
+Au Royaume-Uni, le UK GDPR reprend le même principe, mais l’ICO ne fixe aucune durée : c’est à vous de le faire, sans garder de données « au cas où ». Reprendre les trois ans de la CNIL comme règle interne reste une bonne option : un délai qu’un régulateur juge déjà raisonnable se défend mieux qu’un chiffre sorti de nulle part. Si vos prospects viennent du cold emailing, mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}} précise ce que vous leur devez dès le premier email.
 
 ## Factures, contrats, cartes bancaires : les durées fixées par d’autres lois
 
@@ -70,13 +68,13 @@ Certains documents doivent survivre à la relation, et le droit commercial, fisc
 | Devis, contrats et échanges utiles en cas de litige | La durée de prescription, en général 5 ans (article 2224 du Code civil) | 6 ans pour une action contractuelle en Angleterre et au pays de Galles (Limitation Act 1980), 5 ans en Écosse |
 | Données de carte bancaire | Pas de conservation après la transaction par défaut ; 13 mois après le débit (15 pour une carte à débit différé) en archive, en cas de contestation | Pas de durée fixée : gardez les numéros de carte hors du CRM et laissez votre prestataire de paiement les conserver |
 
-La page de la CNIL sur le [paiement à distance par carte bancaire](https://www.cnil.fr/fr/le-paiement-distance-par-carte-bancaire) traite aussi du client qui enregistre sa carte pour ses prochains achats : il faut alors son consentement, valable jusqu’à son retrait ou l’expiration de la carte.
+La CNIL précise, dans sa page sur le [paiement à distance par carte bancaire](https://www.cnil.fr/fr/le-paiement-distance-par-carte-bancaire), qu’enregistrer la carte d’un client pour ses prochains achats demande son consentement, valable jusqu’à son retrait ou l’expiration de la carte.
 
 Regardez ce que ces lois imposent de garder : la facture, le contrat, la preuve du paiement. Aucune ne justifie de garder le portable d’un ancien client dans votre pipeline commercial pendant dix ans. La facture part dans l’archive comptable ; la fiche commerciale suit la règle des trois ans.
 
 ## Un tableau de conservation pour le CRM d’une petite équipe
 
-Voici une base à recopier dans votre propre documentation. Les durées reprennent les repères de la CNIL et les minimums légaux ci-dessus ; notez à côté de chaque ligne la raison de votre choix.
+Voici une base à recopier dans votre documentation, avec les repères de la CNIL et les minimums légaux ci-dessus ; notez à côté de chaque ligne la raison de votre choix.
 
 | Ce que contient le CRM | Dans le CRM actif | Ensuite |
 |---|---|---|
@@ -94,10 +92,10 @@ Une raison ressemble à « trois ans, parce que nos clients planifient leurs tr
 Le [guide de la CNIL sur les durées de conservation](https://www.cnil.fr/fr/les-durees-de-conservation-des-donnees) distingue trois phases, qui se transposent bien à un CRM :
 
 1. **La base active** : ce que l’équipe utilise au quotidien, comme les affaires en cours, les clients actuels et les prospects dans leurs trois ans.
-2. **L’archivage intermédiaire** : les dossiers clos, gardés seulement parce qu’une loi l’impose ou qu’un litige reste possible, comme les factures et les devis signés. Ils sont séparés de la base active, physiquement ou logiquement, et seules les personnes qui en ont besoin y accèdent ; dans une petite équipe, souvent la seule personne qui tient la comptabilité.
-3. **La suppression ou l’anonymisation**, au terme de la dernière durée. (L’archivage définitif décrit par le guide concerne les archives publiques, pas les entreprises.)
+2. **L’archivage intermédiaire** : les dossiers clos, gardés seulement parce qu’une loi l’impose ou qu’un litige reste possible, comme les factures et les devis signés. Ils sont séparés de la base active, physiquement ou logiquement, et seules les personnes qui en ont besoin y accèdent.
+3. **La suppression ou l’anonymisation**, au terme de la dernière durée. (L’archivage définitif du guide vise les archives publiques, pas les entreprises.)
 
-L’anonymisation permet de garder vos statistiques : « douze demandes venues du site en mars, quatre par recommandation » est une information utile qui n’identifie personne. Remplacer un nom par un numéro de contact ne suffit pas : c’est une pseudonymisation, et le RGPD considère toujours le résultat comme une donnée personnelle (considérant 26).
+L’anonymisation permet de garder vos statistiques : « douze demandes venues du site en mars, quatre par recommandation » est utile et n’identifie personne. Remplacer un nom par un numéro de contact ne suffit pas : c’est une pseudonymisation, et le RGPD considère toujours le résultat comme une donnée personnelle (considérant 26).
 
 {{< callout type="warning" >}}Supprimer un contact dans le CRM ne supprime ni l’export CSV de votre dossier Téléchargements, ni la liste de votre outil de cold emailing, ni le tableur d’un collègue, ni le fil de discussion dans votre boîte mail. Vos durées s’appliquent à **chaque copie**.{{< /callout >}}
 
@@ -114,7 +112,7 @@ Une durée que personne n’applique reste une phrase dans votre politique de co
 - un statut : prospect, client ou ancien client ;
 - pour les clients, la date de fin de la relation.
 
-**Faites le point chaque mois.** Enregistrez un filtre sur les prospects dont le dernier contact entrant date de 35 mois ou plus. Ils reçoivent un court message pour savoir s’ils veulent encore avoir de vos nouvelles ; ceux qui n’ont pas dit oui à la fin du 36e mois sont supprimés en une fois. Les anciens clients suivent la même routine trois ans après la fin de la relation. La plupart des CRM savent filtrer sur un champ date personnalisé et supprimer le résultat en masse.
+**Faites le point chaque mois.** Enregistrez un filtre sur les prospects dont le dernier contact entrant date de 35 mois ou plus. Ils reçoivent un court message pour savoir s’ils veulent encore avoir de vos nouvelles ; ceux qui n’ont pas dit oui à la fin du 36e mois sont supprimés en une fois (la plupart des CRM savent le faire). Les anciens clients suivent la même routine trois ans après la fin de la relation.
 
 **Dans un tableur**, une colonne de formule donne à chaque ligne sa date de suppression, avec la date de collecte en colonne B et celle du dernier contact en colonne C :
 
@@ -122,9 +120,9 @@ Une durée que personne n’applique reste une phrase dans votre politique de co
 =EDATE(MAX(B2;C2);36)
 ```
 
-Si votre tableur affiche les fonctions en français, écrivez `MOIS.DECALER` à la place d’`EDATE`. Filtrez ensuite cette colonne une fois par mois. Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} avec Google Apps Script ajoute alertes et rappels au même type de tableau ; un rappel mensuel de nettoyage fonctionne de la même façon.
+Si votre tableur affiche les fonctions en français, écrivez `MOIS.DECALER` au lieu d’`EDATE`, puis filtrez cette colonne chaque mois. Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} avec Google Apps Script ajoute alertes et rappels au même type de tableau ; un rappel mensuel de nettoyage se construit pareil.
 
-**Dans un outil sur mesure**, tout cela peut tourner seul. Quand l’équipe d’un client a reçu plus de prospects qu’elle ne pouvait en rappeler, j’ai développé pour ce client une application interne afin que personne ne soit oublié ; l’histoire est racontée dans mon article sur le {{< a key="bespoke-crm-internal-app" >}}CRM sur mesure{{< /a >}}. La conservation est l’autre moitié de ce travail : un CRM sur mesure peut lancer chaque nuit une tâche qui déplace les dossiers clos vers une table d’archive et supprime les prospects arrivés à échéance, en comptant ce qu’elle a retiré. Si vous faites développer un outil, demandez ces quatre champs et cette tâche dès le départ : les ajouter plus tard oblige à reconstituer des dates que personne n’a notées.
+**Dans un outil sur mesure**, tout cela tourne seul. Quand l’équipe d’un client a reçu plus de prospects qu’elle ne pouvait en rappeler, j’ai développé pour ce client une application interne afin que personne ne soit oublié (l’histoire est dans mon article sur le {{< a key="bespoke-crm-internal-app" >}}CRM sur mesure{{< /a >}}). La conservation en est l’autre moitié : une tâche lancée chaque nuit peut déplacer les dossiers clos vers une table d’archive et supprimer les prospects arrivés à échéance, en comptant ce qu’elle a retiré. Si vous faites développer un outil, demandez ces quatre champs et cette tâche dès le départ : les ajouter plus tard oblige à reconstituer des dates que personne n’a notées.
 
 ## Votre liste de contrôle, et quand se faire aider
 

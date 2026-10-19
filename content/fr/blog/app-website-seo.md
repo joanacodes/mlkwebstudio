@@ -143,7 +143,7 @@ Apple prévient par ailleurs que ces liens sont une porte d’entrée : l’app
 
 ### Les liens différés après Firebase Dynamic Links
 
-Ouvrir le bon écran juste après l’installation s’appelle le deep linking différé. D’anciens tutoriels recommandent pour cela Firebase Dynamic Links, que Google a fermé le 25 août 2025 : tous ses liens ont cessé de fonctionner. Les App Links et les liens universels, vers lesquels Google renvoie, ne couvrent pas cette partie, qui passe désormais par des services tiers de deep linking et d’attribution. Remplacez les anciennes adresses en page.link, et celles du domaine personnalisé que vous aviez configuré pour le service, dans vos e-mails, QR codes et imprimés.
+Ouvrir le bon écran juste après l’installation s’appelle le deep linking différé. D’anciens tutoriels recommandent pour cela Firebase Dynamic Links, que Google a fermé le 25 août 2025 : tous ses liens ont cessé de fonctionner. Les App Links et les liens universels, vers lesquels Google renvoie, ne couvrent pas cette partie, qui passe désormais par des services tiers de deep linking et d’attribution. Remplacez les anciennes adresses en page.link, et celles du domaine personnalisé que vous auriez configuré pour le service, dans vos e-mails, QR codes et imprimés.
 
 ## La bannière intelligente : inviter sans masquer la page
 

@@ -27,9 +27,9 @@ faq:
 
 Without an IT department, the security of your business rests on a few laptops and phones, set up by whoever took them out of the box. The protections that matter are built into Windows, macOS, iOS and Android: they cost nothing, and switching them on takes about an hour per device.
 
-This laptop security checklist covers those settings on Mac and Windows, then phones, lost devices, personal devices used for work, and the Wi-Fi and VPN worries. It is written for teams of two to twenty people where nobody's job is IT.
+This laptop security checklist covers Mac and Windows, phones, lost devices, personal devices and public Wi-Fi, for teams of two to twenty people where nobody's job is IT.
 
-It is part of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}. The UK's NCSC covers devices in its [guide for small organisations](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security), alongside email, accounts and backups.
+It is part of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}. The UK's NCSC covers the same ground in its [guide for small organisations](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security).
 
 ## Updates first, browsers and apps included
 
@@ -41,7 +41,7 @@ Most attacks on laptops use flaws that already have a fix. Automatic updates do 
 
 Ignore any pop-up offering an urgent update while you browse: Cybermalveillance.gouv.fr, France's public service for victims of cybercrime, lists it as a classic trap. Real updates come from the system settings or the app itself.
 
-Apple publishes no end-of-support dates, but a Mac or an iPhone that can no longer install the current system gets fewer fixes, so plan its replacement. Before buying an Android phone, check how long the maker promises security updates.
+Apple publishes no end-of-support dates: plan to replace a Mac or an iPhone that can no longer install the current system. Before buying an Android phone, check how long the maker promises security updates.
 
 ### Still running Windows 10
 
@@ -51,7 +51,7 @@ Microsoft ended Windows 10 support on 14 October 2025 ([Microsoft's end-of-suppo
 2. **Pay for Extended Security Updates.** For organisations, Microsoft set the first year at $61 per device and doubles the price every year. The second year started on 14 October 2026 at $122 (about £90) per device and cannot be bought without the first, so a PC never enrolled costs $183 (about £135). Microsoft publishes these prices in dollars.
 3. **Replace the PC.** Next to that bill, I would usually replace an old laptop.
 
-{{< callout type="warning" >}}The free extended updates for home users now run to 12 October 2027, but not for work PCs: Microsoft says that programme **cannot be used in commercial scenarios** and excludes devices managed by an organisation.{{< /callout >}}
+{{< callout type="warning" >}}Microsoft's free extended updates for home users now run to 12 October 2027, but Microsoft says that programme **cannot be used in commercial scenarios**.{{< /callout >}}
 
 ## Encryption: what protects a laptop left on a train
 
@@ -68,10 +68,10 @@ Article 32 of the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) names en
 
 ## Screen lock, a standard account and the built-in antivirus
 
-These three settings stop opportunistic attacks: the open laptop on a café table, the booby-trapped attachment, the fake download.
+These three settings stop most opportunistic attacks.
 
 - **A screen lock after five minutes or less.** Mac: System Settings > Lock Screen. Windows: Settings > Accounts > Sign-in options, and Settings > System > Power & battery for the screen timeout. Lock by hand when you stand up: Windows key + L, or Control + Command + Q on a Mac.
-- **A standard account for daily work.** From an administrator account, anything malicious you open gets administrator rights too. Create a separate admin account for installing software (Windows: Settings > Accounts > Other users; Mac: System Settings > Users & Groups) and switch your daily account to Standard. The password prompt that appears when something tries to install itself is the moment to think twice.
+- **A standard account for daily work.** From an administrator account, anything malicious you open gets administrator rights too. Create a separate admin account for installing software (Windows: Settings > Accounts > Other users; Mac: System Settings > Users & Groups) and switch your daily account to Standard. When something tries to install itself, the password prompt is your moment to think twice.
 - **The built-in antivirus, left on.** Windows has Microsoft Defender Antivirus (in the Windows Security app), macOS has XProtect and Gatekeeper. With updates on, they are enough for most small teams. A free third-party antivirus switches Defender off rather than adding to it, and some push adverts, so I would not swap.
 
 ## Phones: updates, a real passcode and official stores
@@ -97,7 +97,7 @@ Locating, locking and erasing a device only work if the feature was on before it
 | Android phone | Google's Find Hub (formerly Find My Device) | Locate, lock, erase |
 | Windows PC | Settings > Privacy & security > Find my device | Locate and lock from your Microsoft account |
 
-Keep **a simple list of every device**: who has it, its serial number, its system version and whether encryption is on. It takes ten minutes, and it is what you need on the day a laptop disappears or someone leaves: my {{< a key="offboarding-checklist" >}}offboarding checklist{{< /a >}} starts from it. If a device does go missing, the first-hour plan linked above gives the steps in order.
+Keep **a simple list of every device**: who has it, its serial number, its system version and whether encryption is on. It is what you need on the day a laptop disappears or someone leaves, and my {{< a key="offboarding-checklist" >}}offboarding checklist{{< /a >}} starts from it. If a device does go missing, the first-hour plan linked above gives the steps in order.
 
 ## Device management without an IT department
 
@@ -124,7 +124,7 @@ The risk is real. When the ICO fined LastPass UK £1,228,283 in December 2025 ov
 
 Each of these gets more attention than it deserves, with one real point:
 
-- Public Wi-Fi: almost every website and app now encrypts its traffic, so a café network cannot read your email as it could fifteen years ago. The remaining risks are fake hotspots named like the real one and sign-in pages asking for an account password. For anything sensitive, use your phone's connection.
+- Public Wi-Fi: almost every website and app now encrypts its traffic, so a café network cannot read your email. The remaining risks are fake hotspots named like the real one and sign-in pages asking for an account password. For anything sensitive, use your phone's connection.
 - VPNs: useful when your company provides one to reach internal systems. **I would avoid free VPN apps**: all your traffic passes through a company whose business model you do not know.
 - USB sticks: never plug in one you found or did not expect, and keep separate sticks for work and personal use, as Cybermalveillance.gouv.fr recommends.
 - Public chargers: use your own plug and adapter. On a public USB port, a charge-only cable settles it; refuse any "trust this computer" prompt you did not expect.
@@ -144,4 +144,4 @@ Go through it once per device, then every three months:
 9. Personal devices: rules written down and accepted.
 10. Laptop files backed up: my {{< a key="backups-3-2-1" >}}guide to the 3-2-1 backup rule{{< /a >}} explains how.
 
-You do not need me, or anyone, for this list: it is an afternoon's work for a small team. Bring in help when a device behaves strangely after a suspicious email or download, when a laptop holding client data has gone and you are unsure what to report, or when you want device management across a mix of Macs, PCs and phones.
+You do not need me, or anyone, for this list: it is an afternoon's work for a small team. Bring in help when a device behaves strangely after a suspicious email, when a laptop holding client data has gone and you are unsure what to report, or to set up device management across Macs, PCs and phones.
