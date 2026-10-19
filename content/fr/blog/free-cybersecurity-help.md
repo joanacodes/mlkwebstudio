@@ -70,7 +70,7 @@ Il labellise aussi des prestataires (label ExpertCyber) vers lesquels vous tourn
 
 La plupart des régions disposent désormais d’un centre régional de réponse aux incidents cyber, ou CSIRT territorial. Il assure gratuitement un premier niveau de réponse pour les entreprises, les collectivités et les associations de son territoire, puis les oriente vers des prestataires spécialisés ; il mène aussi des actions de prévention et de sensibilisation. Ces centres travaillent avec Cybermalveillance.gouv.fr et le CERT-FR, l’équipe de réponse aux incidents de l’ANSSI.
 
-En Auvergne-Rhône-Alpes, par exemple, Cyber Assistance est opéré par la CCI Lyon Métropole Saint-Étienne Roanne, avec l’appui de la Région et un financement de l’ANSSI, et répond 24 heures sur 24. Cherchez « CSIRT » et le nom de votre région pour trouver le vôtre, et notez son numéro avant d’en avoir besoin.
+Par exemple, Cyber Assistance Auvergne-Rhône-Alpes est opéré par la CCI Lyon Métropole Saint-Étienne Roanne, avec l’appui de la Région et un financement de l’ANSSI, et répond 24 heures sur 24. Cherchez « CSIRT » et le nom de votre région pour trouver le vôtre, et notez son numéro avant d’en avoir besoin.
 
 ## MonAideCyber : le diagnostic gratuit de l’ANSSI
 
@@ -80,7 +80,7 @@ MonAideCyber est un service gratuit de l’ANSSI. Un « Aidant cyber », bén�
 
 Le service s’adresse aux entités publiques et privées de toute taille, mais il n’est pas adapté aux entreprises d’une seule personne, aux micro-entrepreneurs ni aux structures déjà avancées en cybersécurité.
 
-Pour une équipe de quelques personnes qui ne sait pas par où commencer, c’est à mes yeux le meilleur point de départ : une heure et demie de votre temps, et vous repartez avec six actions concrètes plutôt qu’une liste interminable. Ce n’est ni un audit ni une certification, mais un diagnostic daté, suivi des mesures appliquées, fait une réponse crédible quand un client vous interroge sur votre sécurité.
+Pour une équipe de quelques personnes qui ne sait pas par où commencer, c’est à mes yeux le meilleur point de départ : une heure et demie de votre temps, et vous repartez avec six actions concrètes plutôt qu’une liste interminable. Ce n’est ni un audit ni une certification ; en revanche, un diagnostic daté et la liste des mesures appliquées font une réponse crédible quand un client vous interroge sur votre sécurité.
 
 Pour aller plus loin, l’ANSSI publie gratuitement ses guides, dont le guide d’hygiène informatique et un guide sur les fondamentaux de la sauvegarde, qui recommande la règle 3-2-1. Ils sont plus techniques : confiez-les à la personne la plus à l’aise avec l’informatique, ou à votre prestataire.
 

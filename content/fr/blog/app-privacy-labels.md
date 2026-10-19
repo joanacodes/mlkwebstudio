@@ -121,7 +121,7 @@ Apple précise que les lois locales ne suffisent pas : chacun doit pouvoir supp
 
 Il s’agit d’informations générales, pas d’un conseil juridique : si votre app traite des données de santé, financières ou d’enfants, ou vit de la publicité, une heure avec un avocat spécialisé ou un DPO est un bon investissement.
 
-En France, l’article 82 de la loi Informatique et Libertés, qui transpose l’article 5(3) de la [directive ePrivacy](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32002L0058), impose le consentement avant qu’une app n’écrive sur le téléphone ou n’y lise des informations, sauf si c’est strictement nécessaire au service demandé par l’utilisateur. C’est la règle des cookies, appliquée aux SDK qui déposent un identifiant sur l’appareil ou lisent l’identifiant publicitaire. Le Royaume-Uni applique une règle proche (règlement 6 des PECR), assouplie depuis le 5 février 2026 pour la mesure d’audience à seule fin statistique, mais pas pour la publicité ; mon {{< a key="cookie-banner-rules" >}}guide du bandeau cookies{{< /a >}} détaille les deux.
+En France, l’article 82 de la loi Informatique et Libertés, qui transpose l’article 5(3) de la [directive ePrivacy](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32002L0058), impose le consentement avant qu’une app n’écrive sur le téléphone ou n’y lise des informations, sauf si c’est strictement nécessaire au service demandé par l’utilisateur. C’est la règle des cookies, appliquée aux SDK qui déposent un identifiant sur l’appareil ou lisent l’identifiant publicitaire. Le Royaume-Uni (règlement 6 des PECR) l’a assouplie le 5 février 2026, notamment pour la mesure d’audience à seule fin statistique ; mon {{< a key="cookie-banner-rules" >}}guide du bandeau cookies{{< /a >}} détaille les deux règles.
 
 Le siège de votre entreprise compte moins que la localisation de vos utilisateurs : le RGPD s’applique à une entreprise hors de l’UE qui suit le comportement de personnes dans l’UE (article 3, paragraphe 2, point b). Une app québécoise, suisse ou marocaine qui piste des utilisateurs en France doit donc leur appliquer ces règles. Mon {{< a key="gdpr-guide" >}}guide complet du RGPD{{< /a >}} couvre le reste.
 
@@ -133,7 +133,7 @@ En pratique :
 4. **Avec des annonces AdMob**, Google exige une plateforme de gestion du consentement (CMP) certifiée pour les annonces personnalisées dans l’EEE, au Royaume-Uni (depuis le 16 janvier 2024) et en Suisse (depuis le 31 juillet 2024), sinon seules des annonces limitées s’affichent. Son SDK User Messaging Platform (UMP) affiche le message créé dans l’onglet **Privacy & messaging** d’AdMob ; les CMP tierces certifiées conviennent aussi.
 5. **Laissez chacun changer d’avis** depuis les réglages de l’app : selon l’article 7, paragraphe 3, du RGPD, retirer son consentement doit être aussi simple que le donner.
 
-Un piège : les fenêtres de permission du téléphone ne valent pas consentement. Selon la CNIL, une permission système, comme l’accès à la localisation, ne doit généralement pas être confondue avec un consentement au sens du RGPD : autoriser la carte de Fournée à trouver la boutique la plus proche, ce n’est pas accepter de partager sa position avec une régie publicitaire. Elle recommande aussi de demander les permissions quand une fonction en a besoin plutôt qu’à l’installation, et a annoncé des contrôles en 2025 sur le paramétrage des SDK et la gestion des permissions.
+Un piège : les fenêtres de permission du téléphone ne valent pas consentement. Selon la CNIL, une permission système, comme l’accès à la localisation, ne doit généralement pas être confondue avec un consentement au sens du RGPD : autoriser la carte de Fournée à trouver la boutique la plus proche, ce n’est pas accepter de partager sa position avec une régie publicitaire. Elle recommande aussi de demander les permissions quand une fonction en a besoin, pas à l’installation, et a annoncé des contrôles en 2025 sur le paramétrage des SDK et les permissions.
 
 {{< callout type="warning" >}}Testez votre écran de consentement : sur une installation neuve, refusez tout, puis vérifiez avec le mode debug de vos SDK qu’aucun événement de mesure d’audience ou de publicité ne quitte le téléphone.{{< /callout >}}
 
@@ -141,7 +141,7 @@ Au 19 octobre 2026, la proposition européenne Digital Omnibus ajouterait des ex
 
 ## Étape 6 : la fenêtre de suivi d’Apple (ATT), si vous pistez
 
-Depuis iOS 14.5 (26 avril 2021), une app doit obtenir l’autorisation de l’utilisateur via le framework App Tracking Transparency pour le suivre ou lire l’identifiant publicitaire de l’appareil, qui sinon ne contient que des zéros. Pour Apple, suivre, c’est relier les données de votre app à celles d’autres entreprises pour cibler ou mesurer la publicité, ou les transmettre à un courtier en données, y compris quand un SDK le fait avec les données de vos utilisateurs, même si vous n’utilisez pas cette fonction.
+Depuis iOS 14.5 (26 avril 2021), une app doit obtenir l’autorisation de l’utilisateur via le framework App Tracking Transparency pour le suivre ou lire l’identifiant publicitaire, qui sinon ne contient que des zéros. Pour Apple, suivre, c’est relier les données de votre app à celles d’autres entreprises pour cibler ou mesurer la publicité, ou les transmettre à un courtier en données, y compris quand un SDK le fait avec les données de vos utilisateurs, même si vous n’utilisez pas cette fonction.
 
 - Ajoutez une phrase d’explication (la clé `NSUserTrackingUsageDescription`) qui dit pourquoi vous voulez suivre l’utilisateur.
 - Vous pouvez afficher votre propre explication avant la fenêtre d’Apple, si elle dit honnêtement ce que vous faites des données.
@@ -157,12 +157,12 @@ Au Royaume-Uni, l’âge retenu est 13 ans, et le Children’s code (Age appropr
 
 ## Avant de soumettre : la checklist, et quand se faire aider
 
-1. Inventaire rédigé, SDK par SDK, manifestes de confidentialité vérifiés sur iOS.
+1. Inventaire rédigé SDK par SDK, manifestes vérifiés sur iOS.
 2. Réponses App Privacy publiées, URL de la politique de confidentialité saisie.
-3. Formulaire Sécurité des données envoyé, avec le lien de suppression si l’on peut créer un compte.
+3. Formulaire Sécurité des données envoyé, avec le lien de suppression si l’app a des comptes.
 4. Suppression du compte facile à trouver dans l’app.
-5. Écran de consentement avant les SDK non essentiels, refus aussi simple que l’acceptation, choix transmis aux SDK et modifiables ensuite.
+5. Écran de consentement avant les SDK non essentiels, refus aussi simple que l’acceptation, choix transmis et modifiables.
 6. Fenêtre ATT seulement si vous pistez, avec une explication claire.
-7. Étiquettes et formulaire mis à jour à chaque version qui ajoute ou modifie un SDK.
+7. Étiquettes et formulaire mis à jour à chaque ajout ou changement de SDK.
 
 Vous n’avez pas besoin d’une agence pour remplir ces formulaires : avec un inventaire complet, c’est la partie facile. Le plus dur, c’est de savoir ce que font vraiment vos SDK. Faites appel à un avocat ou à un DPO quand les données sont sensibles ou que vos revenus dépendent de la publicité, et à un développeur quand l’écran de consentement doit être branché sur plusieurs SDK.

@@ -120,7 +120,7 @@ ce que vous rapporte un nouveau client, après coûts   800 €
 = le maximum à payer pour une demande                 160 €
 ```
 
-Ces chiffres ronds servent à montrer le calcul : prenez les vôtres, et soyez pessimiste si vous n’en avez pas encore. À la fin de chaque test, comparez à ce chiffre le coût par résultat affiché dans le Gestionnaire de publicités. Le taux de clics vous dit si l’annonce accroche ; seuls le coût par demande, et ce que deviennent ces demandes, vous disent si elle est rentable.
+Ces chiffres ronds servent à montrer le calcul : prenez les vôtres, et soyez pessimiste si vous n’en avez pas encore. À la fin de chaque test, comparez à ce chiffre le coût par résultat affiché dans le Gestionnaire de publicités. Le taux de clics vous dit si l’annonce accroche ; seuls le coût par demande, et {{< a key="utm-ga4-funnel-tracking" >}}ce que deviennent ces demandes{{< /a >}}, vous disent si elle est rentable.
 
 ## Erreur n° 8 : envoyer les clics payés vers une page qui ne répond pas à l’annonce
 

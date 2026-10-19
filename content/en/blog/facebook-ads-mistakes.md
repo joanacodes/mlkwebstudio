@@ -120,7 +120,7 @@ what a new client brings you, after costs     £800
 = the most you can pay for one enquiry         £160
 ```
 
-These are round numbers to show the arithmetic: use your own, and be pessimistic if you have none yet. At the end of each test, compare the **Cost per result** column in Ads Manager with that figure. The click-through rate tells you whether the ad catches attention; only the cost per enquiry, and what those enquiries become, tells you whether it pays.
+These are round numbers to show the arithmetic: use your own, and be pessimistic if you have none yet. At the end of each test, compare the **Cost per result** column in Ads Manager with that figure. The click-through rate tells you whether the ad catches attention; only the cost per enquiry, and {{< a key="utm-ga4-funnel-tracking" >}}what those enquiries become{{< /a >}}, tells you whether it pays.
 
 ## Mistake 8: sending paid clicks to a page that does not answer the ad
 
