@@ -84,7 +84,7 @@ I often add a little custom code to the Squarespace sites I build, nothing that 
 
 ### WordPress: a big budget and a specialist every month
 
-WordPress can do almost anything, which is why so many developers and agencies use it. The price of that freedom is upkeep: the core, the theme and every plugin need updating, and plugins are where most of the risk sits. Patchstack's State of WordPress Security in 2026 report counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, about 91 per cent of them in plugins. Pilotech first called me in an emergency because its WordPress site had been hacked; I recovered it, then built the company a new website.
+WordPress can do almost anything, which is why so many developers and agencies use it. The price of that freedom is upkeep: the core, the theme and every plugin need updating, and plugins are where most of the risk sits. Patchstack's State of WordPress Security in 2026 report counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, about 91 per cent of them in plugins. Pilotech called me in an emergency when its old WordPress site was hacked, and I recovered it.
 
 I usually discourage solo owners from WordPress. The learning curve is steep, and they end up having to become their own webmaster. If you have a large budget and a specialist who looks after the site every month, WordPress is a fine choice: you get the control, and someone else does the upkeep.
 
