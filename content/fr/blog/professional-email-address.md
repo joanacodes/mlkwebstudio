@@ -93,7 +93,7 @@ Chaque personne qui a sa propre boîte compte comme un utilisateur : une équip
 
 Microsoft 365 Business Basic vous donne la messagerie Outlook et les versions web et mobiles de Word, Excel et PowerPoint ; les logiciels à installer sur ordinateur commencent avec Business Standard. Microsoft a relevé le prix de Business Basic de 6 $ à 7 $ par utilisateur et par mois aux États-Unis le 1er juillet 2026. Les prix en euros que j’ai trouvés ne concordent pas, alors vérifiez-les sur [la page de comparaison des offres de Microsoft](https://www.microsoft.com/fr-fr/microsoft-365/business/compare-all-microsoft-365-business-products). Pour la messagerie seule, la page américaine de Microsoft affiche Exchange Online Plan 1 à 4 $ par utilisateur et par mois, facturé à l’année.
 
-L’offre convient aux entreprises dont les clients envoient des fichiers Word et Excel toute la journée, avec quelqu’un d’à l’aise dans le centre d’administration de Microsoft. Pour mes propres emails, c’était pénible, mais c’est une expérience, pas un banc d’essai.
+L’offre convient aux entreprises dont les clients envoient des fichiers Word et Excel toute la journée, avec quelqu’un d’à l’aise dans le {{< a key="secure-google-workspace-microsoft-365" >}}centre d’administration de Microsoft{{< /a >}}. Pour mes propres emails, c’était pénible, mais c’est une expérience, pas un banc d’essai.
 
 ### La kSuite d’Infomaniak
 
@@ -129,7 +129,7 @@ L’ordre compte plus que le fournisseur. Quel que soit votre choix :
 4. Faites pointer les enregistrements MX vers le nouveau fournisseur, chez l’hébergeur DNS désigné par vos serveurs de noms, et supprimez les MX de l’ancien fournisseur.
 5. Ajoutez SPF, DKIM et DMARC, comme expliqué dans la section suivante.
 6. Testez. Envoyez un email vers une adresse Gmail, ouvrez-le, cliquez sur les trois points et choisissez **Afficher l’original** : SPF, DKIM et DMARC doivent chacun indiquer PASS. Répondez-y aussi, pour vérifier que les emails arrivent.
-7. Reliez votre téléphone et votre ordinateur, avec l’application du fournisseur ou en IMAP et SMTP dans Outlook ou Apple Mail. Choisissez IMAP plutôt que POP3, pour que chaque appareil affiche la même boîte.
+7. Reliez votre téléphone et votre ordinateur, avec l’application du fournisseur ou en IMAP et SMTP dans Outlook ou Apple Mail. Choisissez IMAP plutôt que POP3, pour que chaque appareil affiche la même boîte. Activez la {{< a key="two-factor-authentication-passkeys" >}}double authentification{{< /a >}}.
 8. Transférez vos anciens emails et prévenez vos contacts. Utilisez l’outil de migration du fournisseur s’il en a un, mettez à jour votre site, votre signature et vos factures, et laissez une réponse automatique sur l’ancienne adresse pendant quelques mois.
 
 {{< callout type="warning" >}}**Créez les boîtes avant de modifier les enregistrements MX.** Dès que les MX pointent vers le nouveau fournisseur, le courrier entrant y arrive. Si les boîtes n’existent pas encore, les messages repartent vers leurs expéditeurs, et certains seront des clients.{{< /callout >}}
