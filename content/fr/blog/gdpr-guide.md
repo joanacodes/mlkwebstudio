@@ -9,7 +9,7 @@ lastmod: 2026-10-18T23:39:00+02:00
 category: "gdpr"
 article_type: "pillar"
 keywords: ["RGPD TPE PME", "mise en conformité RGPD", "RGPD petite entreprise", "registre des activités de traitement", "RGPD entreprise hors UE", "obligations RGPD"]
-summary: "Le RGPD s’applique à toute entreprise, quelle que soit sa taille, établie dans l’UE ou qui vise des personnes qui s’y trouvent ; le Royaume-Uni et la Suisse ont leurs propres règles. Pour une petite équipe, l’essentiel tient en une liste : tenir un registre, mettre en ordre bandeau cookies, politique de confidentialité et mentions légales, signer les contrats de sous-traitance, répondre aux demandes sous un mois et notifier les violations à risque sous 72 heures."
+summary: "Le RGPD s’applique à toute entreprise, quelle que soit sa taille, établie dans l’UE ou qui vise des personnes qui s’y trouvent ; le Royaume-Uni et la Suisse ont leurs propres règles. Pour une petite équipe, l’essentiel tient en une liste : tenir un registre, mettre en ordre le bandeau cookies, la politique de confidentialité et les mentions légales, signer les contrats de sous-traitance, répondre aux demandes sous un mois et notifier les violations à risque sous 72 heures."
 cover: "gdpr-guide"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un bandeau cookies aux boutons « Tout refuser » et « Tout accepter » de même taille"
 related: ["gdpr-outside-eu", "cookie-banner-rules", "privacy-policy-guide", "gdpr-data-processing-agreement", "gdpr-fines-small-business"]
