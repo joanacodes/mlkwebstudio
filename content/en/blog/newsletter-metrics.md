@@ -25,9 +25,9 @@ faq:
     a: "Tools do not all use the same words. Brevo, for instance, calls the share of recipients who clicked at least one link its click-through rate, while some reports divide clicks by opens. Check your tool's definition before comparing yourself with a benchmark."
 ---
 
-Your newsletter open rate looks healthy, yet the bookings do not follow. That gap is real. The figure counts how many emails loaded a tiny image, and since 2021 some of those loads have come from Apple's servers and from security filters rather than from people.
+Your newsletter open rate looks healthy, yet the bookings do not follow. That gap is real. The figure counts how many emails loaded a tiny image, and some of those loads come from Apple's servers and from security filters rather than from people.
 
-This guide explains how an open is counted, the three ways the open rate goes wrong, and what I would track in its place: clicks, replies, conversions, unsubscribes, spam complaints and list growth. It is part of my {{< a key="funnels-newsletters-guide" >}}guide to sales funnels and newsletters{{< /a >}}.
+This guide explains how an open is counted, why the figure goes wrong, and what I would track in its place. It is part of my {{< a key="funnels-newsletters-guide" >}}guide to sales funnels and newsletters{{< /a >}}.
 
 The short version: keep opens as a rough trend line, and judge each issue on what readers do after reading it.
 
@@ -37,7 +37,7 @@ Your newsletter tool adds a tracking pixel to every HTML email: an invisible ima
 
 The open rate is unique opens divided by delivered emails: 300 opens on 1,000 delivered emails gives 30%. The whole calculation rests on one assumption: the image loads when a person reads the email, and only then.
 
-A plain-text email carries no image, so it records no opens at all. A newsletter is usually HTML, which brings the pixel back, along with its blind spots.
+A plain-text email carries no image, so it records no opens at all.
 
 ## Why open rates lie: three distortions
 
@@ -55,7 +55,7 @@ The opposite happens too. Some email programs and company mail systems do not lo
 
 Many work mailboxes sit behind security filters that fetch images and follow links to check them before the email reaches the inbox, and link previews do something similar. Mailchimp's help centre names anti-spam security, Apple's feature and link previews as the usual sources of this bot activity, and notes that a bot's click is also recorded as an open.
 
-The tell-tale sign is a subscriber who opens and clicks several times within the same few seconds, often on every link of the issue. If most of your subscribers use work addresses, look for this pattern first.
+The tell-tale sign is a subscriber who opens and clicks several times within the same few seconds, sometimes on every link of the issue. If most of your subscribers use work addresses, look for this pattern first.
 
 | Distortion | Effect on opens | Effect on clicks |
 |---|---|---|
@@ -73,7 +73,7 @@ Click rates also vary by sector, from 0.83% to 4.90% depending on the industry i
 
 ## What to track instead
 
-These are the figures I would put on a newsletter report, most useful first.
+These are the figures I would put on a newsletter report.
 
 | Metric | How to work it out | What it tells you |
 |---|---|---|
@@ -88,7 +88,7 @@ These are the figures I would put on a newsletter report, most useful first.
 
 ### Click rate, on delivered emails
 
-Use unique clickers divided by delivered emails. Avoid the click-to-open rate (clicks divided by opens): it inherits every flaw of the open. If your tool offers bot filtering, switch it on before you compare issues. Mailchimp warns that opens and clicks drop significantly once it is on, which is rather the point.
+Avoid the click-to-open rate (clicks divided by opens): it inherits every flaw of the open. If your tool offers bot filtering, switch it on before you compare issues. Mailchimp warns that opens and clicks drop significantly once it is on, which is rather the point.
 
 An issue built around one clear link gives you a cleaner reading, and my {{< a key="b2b-newsletter-ideas" >}}ideas for a B2B newsletter{{< /a >}} will help you find things worth clicking.
 

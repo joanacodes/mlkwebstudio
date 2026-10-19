@@ -1,6 +1,6 @@
 ---
 title: "How long can you keep client and prospect data? GDPR retention periods for your CRM"
-seo_title: "GDPR data retention periods for client and prospect data"
+seo_title: "GDPR data retention periods for clients and prospects"
 description: "GDPR data retention periods for clients and prospects: what the CNIL and the ICO expect, a schedule to copy, and how to make your CRM delete on time."
 slug: "gdpr-data-retention-periods"
 translationKey: "gdpr-data-retention-crm"
@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:24:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["GDPR data retention periods", "how long to keep customer data under GDPR", "CNIL retention period for prospects", "CRM data retention policy", "storage limitation principle"]
-summary: "The GDPR sets no fixed retention periods: you keep personal data only as long as its purpose requires, and you must be able to justify the period you choose. In France, the CNIL's benchmark is three years from collection or from a prospect's last contact, and three years after a client relationship ends for marketing; invoices stay ten years. In the UK you set your own periods, anchored on rules such as HMRC's six years for company records."
+summary: "The GDPR sets no fixed retention periods: you keep personal data only as long as its purpose requires, and you must be able to justify the period you choose. In France, the CNIL's benchmark is three years from collection or from the last time a prospect contacted you, and three years after a client relationship ends for marketing, while the Code de commerce keeps invoices for ten years. In the UK you set your own periods, anchored on rules such as HMRC's six years for company records."
 cover: "gdpr-data-retention-crm"
 cover_alt: "The article's title in white on a ribbed-glass panel over a photo of a calendar grid with booked slots"
 related: ["bespoke-crm-internal-app", "privacy-policy-guide", "cold-email-gdpr-uk-france", "gdpr-subject-access-request", "automate-lead-follow-up"]
