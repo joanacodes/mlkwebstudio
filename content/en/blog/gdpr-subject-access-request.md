@@ -125,7 +125,7 @@ For the retention periods, see my guide to {{< a key="gdpr-data-retention-crm" >
 
 Many requests come with a dispute in the background, and that is allowed. The person need not say why, and the Court of Justice confirmed in October 2023 that the first copy stays free even when they want it for a claim against you (case C-307/22). Answer on time and in full: a late or patchy reply hands them a second complaint.
 
-You can refuse an abusive request, but the bar is high. In March 2026 the Court accepted refusing even a first request as abusive, but only on documented facts about that request; wanting damages as well is not enough (case C-526/24, Brillen Rottler). The Commission's Digital Omnibus proposal would make it easier to refuse requests used for other purposes; as of 19 October 2026 it is still being negotiated and is not law (see my article on {{< a key="digital-omnibus-gdpr" >}}the Digital Omnibus{{< /a >}}).
+You can refuse an abusive request, but the bar is high. In March 2026 the Court ruled that even a first request can be refused as abusive, but only on documented facts about that request; a damages claim in the background is not enough on its own (case C-526/24, Brillen Rottler). The Commission's Digital Omnibus proposal would make it easier to refuse requests made for purposes other than data protection; as of 19 October 2026 it is still being negotiated and is not law (see my article on {{< a key="digital-omnibus-gdpr" >}}the Digital Omnibus{{< /a >}}).
 
 In the UK, the Data Protection Act 2018 lets you withhold privileged legal advice, records of your negotiations with the requester and confidential references you gave. It also makes it an offence to alter or delete data to stop it being disclosed after a request (section 173).
 
@@ -138,7 +138,7 @@ The other rights in Articles 16 to 22 have the same one-month deadline and fit t
 - **Erasure (Article 17)**: delete data you no longer need, or after consent is withdrawn or an objection you cannot override. Keep what the law or a legal claim requires, such as invoices (Article 17(3)), and tell anyone you shared the data with (Article 19).
 - **Rectification (Article 16)**: correct inaccurate data and complete what is missing.
 - **Objection to direct marketing (Article 21(3))**: absolute. Stop at once and keep the address on a suppression list so the next import does not bring it back.
-- **Portability (Article 20)**: data the person gave you, processed automatically under consent or a contract, goes back as a machine-readable file such as CSV, or straight to another provider when feasible.
+- **Portability (Article 20)**: data the person gave you, processed automatically under consent or a contract, goes back as a machine-readable file such as CSV, or straight to another provider when technically feasible.
 
 ## Keep a log, and know when to hand it over
 

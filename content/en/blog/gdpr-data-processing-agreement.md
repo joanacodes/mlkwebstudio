@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:21:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["data processing agreement", "GDPR Article 28", "controller vs processor", "data processing agreement template", "GDPR sub-processors", "DPA GDPR"]
-summary: "You need a data processing agreement whenever a supplier handles personal data on your behalf, from your CRM to a freelancer, and whenever you do the same for a client. Article 28 of the GDPR, and of the UK GDPR, lists what it must contain: documented instructions, confidentiality, security, sub-processor rules, help with rights and breaches, deletion at the end and audits. Big providers build theirs into their terms; for the rest, the EU’s free model clauses do the job."
+summary: "You need a data processing agreement whenever a supplier handles personal data on your behalf, from your CRM to a freelancer, and whenever you do the same for a client. Article 28 of the GDPR, and of the UK GDPR, lists what it must contain: documented instructions, confidentiality, security, sub-processor rules, help with rights and breaches, deletion at the end and audits. Big providers build theirs into their terms; for the rest, start from the EU’s free model clauses."
 cover: "gdpr-data-processing-agreement"
 cover_alt: "The article’s title in white on a ribbed-glass panel over a photo of a blueprint grid with a target"
 related: ["gdpr-us-tools-data-transfers", "security-questionnaire", "gdpr-data-retention-crm", "cold-email-gdpr-uk-france", "gdpr-guide"]
@@ -89,7 +89,7 @@ Large providers usually rely on general authorisation: they publish a list of su
 
 ## Free templates: the EU model clauses and the CNIL guide
 
-You don’t need to pay for a template. On 4 June 2021, the European Commission adopted [standard contractual clauses between controllers and processors](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021D0915) (Implementing Decision (EU) 2021/915). They meet the requirements of Article 28(3) and (4) and can be used between any controller and its processor. You keep the clauses as they are and fill in the annexes: the parties, the description of the processing, the security measures and the list of sub-processors, with a choice between specific and general authorisation.
+You don’t need to pay for a template. On 4 June 2021, the European Commission adopted [standard contractual clauses between controllers and processors](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021D0915) (Implementing Decision (EU) 2021/915). They meet the requirements of Article 28(3) and (4) and can be used between any controller and its processor. You keep their wording as it is, pick one of the two sub-processor options in Clause 7.7 (specific or general authorisation) and fill in the annexes: the parties, the description of the processing, the security measures and the list of sub-processors.
 
 Don’t confuse them with the clauses adopted the same day for transfers outside the EU (Decision 2021/914), which my guide to {{< a key="gdpr-us-tools-data-transfers" >}}US tools and the Data Privacy Framework{{< /a >}} covers.
 
@@ -99,7 +99,7 @@ Model clauses cover data protection only: price, liability caps and intellectual
 
 ## Getting your suppliers’ DPAs: Google, Microsoft and the rest
 
-With big providers, you don’t negotiate: you accept. Menu names below are those at the time of writing (October 2026).
+With big providers, you don’t negotiate: you accept. Menu names and plans below are those at the time of writing (October 2026).
 
 - **Google Workspace** uses its Cloud Data Processing Addendum. A super administrator reviews and accepts it in the Admin console under **Account > Account settings > Legal and compliance** (Security and Privacy Additional Terms). [Google’s help page](https://support.google.com/a/answer/3407074) says this is only needed if your agreement does not already include it, and changes nothing if it does, so accept it when in doubt.
 - **Microsoft 365**: the Products and Services Data Protection Addendum is incorporated by reference into Microsoft’s Product Terms, so there is nothing to sign. Download a copy from aka.ms/dpa for your records.
@@ -115,7 +115,7 @@ If you work for larger clients, the DPA often arrives with the contract, sometim
 2. **Breach notification**: the GDPR asks processors to warn the controller without undue delay (Article 33(2)). Some DPAs set a fixed number of hours: accept only a deadline you can keep, weekends included. The controller then has its own {{< a key="gdpr-data-breach" >}}72 hours to notify the regulator{{< /a >}}.
 3. **Sub-processors**: list your own tools in the annex (hosting, email, file sharing) so that you comply from day one.
 4. **Audits**: the right to audit is mandatory, but you can propose reasonable conditions, such as notice and documents first.
-5. **Liability and indemnities** go beyond Article 28. An unlimited indemnity in a client’s template is a good reason to call a lawyer.
+5. **Liability and indemnities** go beyond Article 28: check that the DPA does not lift the liability cap set in your main contract.
 
 At the end of the contract, return or delete the data as agreed, within the deadline you set together (see my guide to {{< a key="gdpr-data-retention-crm" >}}GDPR retention periods{{< /a >}}). Then remove your access: the mailbox, the CRM login, the API keys.
 

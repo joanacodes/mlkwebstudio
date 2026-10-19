@@ -1,5 +1,5 @@
 ---
-title: "Sécuriser Google Workspace et Microsoft 365 : les réglages d’administration clés"
+title: "Sécuriser Google Workspace et Microsoft 365 : les réglages d’administration qui comptent"
 seo_title: "Sécuriser Google Workspace et Microsoft 365 : la checklist"
 description: "Sécuriser Google Workspace et Microsoft 365 sans service informatique : comptes admin, phishing, transferts, partage et alertes, réglage par réglage."
 slug: "securiser-google-workspace"
@@ -20,7 +20,7 @@ faq:
   - q: "Google Workspace est-il plus sûr que Microsoft 365 ?"
     a: "Aucun des deux n’est réglé pour votre équipe à l’ouverture du compte, et les deux sont assez sûrs une fois les réglages de ce guide activés. La vraie différence tient à l’endroit où se trouvent les réglages : Google en regroupe la plupart dans une seule console, Microsoft les répartit entre plusieurs centres d’administration, ce qui rend un oubli plus facile."
   - q: "Google Workspace et Microsoft 365 sauvegardent-ils mes données ?"
-    a: "Pas comme une vraie sauvegarde. Google Vault (Business Plus et au-delà) conserve et recherche les données pour l’archivage et les besoins juridiques, mais la FAQ de Google précise qu’il n’a pas d’outil de restauration automatique ; un administrateur peut restaurer les fichiers Drive supprimés pendant 25 jours après leur sortie de la corbeille. Microsoft vend Microsoft 365 Backup à part. Prévoyez votre propre sauvegarde."
+    a: "Pas comme une vraie sauvegarde. Google Vault (Business Plus et au-delà) conserve des données et permet d’y faire des recherches, pour les obligations de conservation et les litiges, mais la FAQ de Google précise qu’il n’a pas d’outil de restauration automatique ; un administrateur peut restaurer les fichiers Drive supprimés pendant 25 jours après leur sortie de la corbeille. Microsoft vend Microsoft 365 Backup à part. Prévoyez votre propre sauvegarde."
   - q: "Puis-je donner un accès administrateur à mon webdesigner ou à mon prestataire informatique ?"
     a: "Oui, avec un compte nominatif et le rôle le plus restreint possible, jamais en partageant votre mot de passe, et supprimez ce compte à la fin de la mission. Un rôle de type support suffit pour réinitialiser des mots de passe ; très peu de tâches exigent les droits de super-administrateur ou d’administrateur général."
 ---
@@ -45,13 +45,13 @@ Si un libellé a changé, la barre de recherche en haut de chaque console retrou
 |---|---|
 | Google Workspace Business Starter | Validation en deux étapes imposée, clés de sécurité, sécurité de Gmail, contrôle du partage Drive et des applications, centre d’alertes, gestion des appareils de base |
 | Google Workspace Business Standard | Idem, plus un bac à sable pour les pièces jointes suspectes de Gmail |
-| Google Workspace Business Plus | En plus : Vault et la gestion avancée des appareils (codes d’accès forts, règles de sécurité mobiles, effacement à distance) |
+| Google Workspace Business Plus | En plus : Vault et la gestion avancée des appareils (codes d’accès forts, règles de sécurité mobiles, effacement à distance des appareils) |
 | Microsoft 365 Business Basic et Standard | Paramètres de sécurité par défaut, protection intégrée contre les logiciels malveillants, le spam et l’usurpation, stratégies de sécurité prédéfinies, Basic Mobility and Security |
 | Microsoft 365 Business Premium | En plus : accès conditionnel (Microsoft Entra ID P1), Defender pour Office 365 Plan 1 (Safe Links, Safe Attachments, protection contre l’usurpation d’identité), Intune Plan 1, Defender for Business |
 
 Sauf mention contraire, chaque étape fonctionne avec Business Starter ou Microsoft 365 Business Basic : sécurisez l’offre que vous avez avant de payer la suivante.
 
-Seul manque côté Google : son aide ne cite la page sur l’état de la sécurité (security health), qui compare vos réglages à ses recommandations, que pour les éditions Enterprise, Education et certaines éditions Frontline, à l’heure où j’écris. Avec une offre Business, cette liste en tient lieu.
+Seul manque côté Google : à l’heure où j’écris, son aide ne cite la page sur l’état de la sécurité (security health), qui compare vos réglages à ses recommandations, que pour les éditions Enterprise, Education et certaines éditions Frontline. Les offres Business ont à la place un conseiller de sécurité (security advisor), qui propose d’activer des réglages recommandés comme la protection contre le phishing et les logiciels malveillants : servez-vous-en, puis suivez cette liste.
 
 ## Sécuriser Google Workspace : les réglages, étape par étape
 
@@ -59,14 +59,14 @@ Tous les chemins partent de la console d’administration (admin.google.com), av
 
 ### 1. Un compte super-administrateur séparé, protégé par deux clés
 
-Un super-administrateur peut tout modifier et réinitialiser tous les mots de passe, y compris ceux des autres administrateurs. Les [bonnes pratiques de Google pour les comptes administrateur](https://knowledge.workspace.google.com/admin/users/security-best-practices-for-administrator-accounts?hl=fr) tiennent en quatre habitudes :
+Les [bonnes pratiques de Google pour les comptes administrateur](https://knowledge.workspace.google.com/admin/users/security-best-practices-for-administrator-accounts?hl=fr) tiennent en quatre habitudes :
 
 1. Deux comptes par super-administrateur : l’un pour l’administration, l’autre pour les mails du quotidien, là où arrive le phishing.
 2. Plusieurs super-administrateurs, chacun tenu par une personne différente, pour qu’un téléphone perdu ne bloque pas l’entreprise.
 3. Se connecter en super-administrateur seulement pour administrer, puis se déconnecter.
 4. Deux clés de sécurité par compte super-administrateur, celle de secours rangée ailleurs.
 
-Un rôle plus limité suffit pour réinitialiser un mot de passe. Protégez aussi l’accès à votre registrar : Google désactive par défaut la récupération des comptes super-administrateur pour les nouveaux clients, et son support vous demandera de prouver que vous contrôlez le DNS du domaine.
+Un rôle plus limité suffit pour réinitialiser un mot de passe. Protégez aussi l’accès à votre registrar : Google désactive par défaut la récupération en libre-service des comptes super-administrateur pour les nouveaux clients, et son support vous demandera de prouver que vous contrôlez le DNS du domaine.
 
 ### 2. Imposer la validation en deux étapes à tous
 
@@ -81,6 +81,8 @@ Allez dans **Apps > Google Workspace > Gmail > Safety**. Trois sections comptent
 - **Spoofing and authentication** : noms de domaine qui ressemblent au vôtre, nom d’un collègue utilisé depuis une adresse extérieure (grand classique des fausses demandes de virement), mails qui se font passer pour votre domaine, mails non authentifiés.
 
 Dans chaque section, cochez **Apply future recommended settings automatically** pour que les nouvelles protections s’activent sans vous. Choisissez ensuite l’action de chaque protection : avertissement dans la boîte de réception, dossier spam ou quarantaine, qui n’a de sens que si un administrateur examine les messages.
+
+Avec Business Standard ou Plus, activez aussi le bac à sable du tableau, dans la section **Security sandbox** de **Apps > Google Workspace > Gmail > Spam, Phishing and Malware**. Il est désactivé par défaut, et ses vérifications peuvent retarder un message de trois minutes au plus.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-01" alt="Console d’administration Google, page Safety de Gmail avec les sections Attachments, Links and external images et Spoofing and authentication" >}}
 
@@ -119,24 +121,24 @@ Microsoft répartit ces réglages entre le centre d’administration Microsoft 3
 La personne qui a acheté l’abonnement est administrateur général (Global Administrator). Microsoft recommande :
 
 - **Moins de cinq administrateurs généraux**, chacun avec un compte normal pour le quotidien. Un compte réservé à l’administration n’a pas besoin de licence Microsoft 365.
-- **Au moins deux comptes d’accès d’urgence** qui n’appartiennent à personne : uniquement dans le cloud (adresse en .onmicrosoft.com), protégés par une passkey sur une clé de sécurité, une méthode différente de votre connexion habituelle, et jamais utilisés au quotidien.
+- **Au moins deux comptes d’accès d’urgence** qui n’appartiennent à personne : uniquement dans le cloud (adresse en .onmicrosoft.com), jamais utilisés au quotidien et protégés par une passkey sur une clé de sécurité. Microsoft veut une méthode de connexion différente de celle de vos comptes d’administration habituels, par exemple les clés pour ces comptes et Microsoft Authenticator pour l’administration courante.
 - **Le rôle le plus restreint pour les autres** : User Administrator pour créer les comptes, Helpdesk Administrator ou Password Administrator pour les mots de passe, Billing Administrator pour les factures, attribués dans le centre d’administration Microsoft 365 sous **Roles > Role assignments**.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-04" alt="Centre d’administration Microsoft 365, page Role assignments avec des rôles comme Global Administrator, User Administrator et Helpdesk Administrator" >}}
 
 ### 2. L’authentification multifacteur pour tout le monde
 
-Les organisations Microsoft 365 créées après octobre 2019 ont les paramètres de sécurité par défaut (security defaults) activés, sauf si quelqu’un les a coupés. Dans le centre d’administration Microsoft Entra, **Entra ID > Overview > Properties > Manage security defaults** doit afficher **Enabled**. Ils imposent Microsoft Authenticator à chacun et bloquent l’authentification héritée (étape 3).
+La plupart des organisations Microsoft 365 créées depuis octobre 2019 ont les paramètres de sécurité par défaut (security defaults) activés, sauf si quelqu’un les a coupés. Dans le centre d’administration Microsoft Entra, **Entra ID > Overview > Properties > Manage security defaults** (en français : **Vue d’ensemble > Propriétés > Gérer les paramètres de sécurité par défaut**) doit afficher **Enabled** (**Activé**). Ils imposent Microsoft Authenticator à chacun et bloquent l’authentification héritée (étape 3).
 
 {{< screenshot id="secure-google-workspace-microsoft-365-05" alt="Centre d’administration Microsoft Entra, onglet Properties de la page Overview avec le panneau Security defaults sur Enabled" >}}
 
-Avec Business Premium, l’accès conditionnel les remplace par des règles que vous choisissez. Ne coupez les paramètres par défaut qu’à ce moment-là, comme le conseille Microsoft, puis créez aussitôt les stratégies depuis **Entra ID > Conditional Access > Create new policy from templates** : la catégorie Secure foundation comprend **Require multifactor authentication for admins**, **Require multifactor authentication for all users** et **Block legacy authentication**. Excluez vos comptes d’urgence des stratégies qui bloquent la connexion, et testez les règles plus strictes en mode **Report-only**.
+Avec Business Premium, l’accès conditionnel peut les remplacer par des règles que vous choisissez. Ne coupez les paramètres par défaut que lorsque vous êtes en mesure d’activer aussitôt les stratégies qui les remplacent, comme le conseille Microsoft. Créez-les depuis **Entra ID > Conditional Access > Create new policy from templates** : la catégorie Secure foundation comprend **Require multifactor authentication for admins**, **Require multifactor authentication for all users** et **Block legacy authentication**. Chaque nouvelle stratégie démarre en mode **Report-only**, qui se contente de noter ce qu’elle ferait, et n’exclut que le compte qui l’a créée : ajoutez vos comptes d’accès d’urgence, que Microsoft demande de tenir à l’écart de toute stratégie qui bloque ou restreint la connexion, puis passez la stratégie sur **On**.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-06" alt="Centre d’administration Microsoft Entra, modèles de stratégies d’accès conditionnel de la catégorie Secure foundation, dont Block legacy authentication" >}}
 
 ### 3. Bloquer l’authentification héritée, et trouver ce qui l’utilise encore
 
-L’authentification héritée (legacy authentication) désigne les anciennes connexions, comme les applications de messagerie en IMAP, POP3 ou SMTP avec un simple mot de passe. Elles ne savent pas demander de second facteur : un mot de passe volé y fonctionne toujours. Les paramètres par défaut comme le modèle Block legacy authentication les bloquent.
+L’authentification héritée (legacy authentication) désigne les anciennes connexions, comme les applications de messagerie en IMAP, POP3 ou SMTP avec un simple mot de passe. Elles ne savent pas demander de second facteur : un mot de passe volé y fonctionne toujours.
 
 Avant de bloquer, ouvrez **Entra ID > Monitoring & health > Sign-in logs**, ajoutez la colonne **Client App** et filtrez sur les protocoles hérités. Suspects habituels : le copieur qui envoie les scans par mail, une vieille application de messagerie sur un téléphone, un formulaire de site qui envoie par une boîte mail. Passez-les d’abord à une connexion moderne ou à un service d’envoi dédié.
 
@@ -144,7 +146,7 @@ Avant de bloquer, ouvrez **Entra ID > Monitoring & health > Sign-in logs**, ajou
 
 Microsoft commence la protection de la messagerie par SPF, DKIM et DMARC sur chaque domaine du tenant, y compris ceux qui n’envoient jamais de mails ; le tutoriel SPF, DKIM et DMARC cité plus haut montre ses deux enregistrements DKIM.
 
-Ensuite, dans le portail Defender, allez dans **Email & collaboration > Policies & rules > Threat policies > Preset security policies** (stratégies de sécurité prédéfinies) et activez **Standard protection** pour tous les destinataires, comme le recommande Microsoft. Strict, plus serré, vise les personnes les plus ciblées, comme celle qui valide les virements. Avec Business Premium, ces stratégies ajoutent Defender pour Office 365 : Safe Links vérifie les liens au clic, Safe Attachments ouvre les pièces jointes dans un bac à sable avant la remise, et la protection contre l’usurpation signale les mails qui imitent un collègue ou votre domaine.
+Ensuite, dans le portail Defender, allez dans **Email & collaboration > Policies & rules > Threat policies > Preset security policies** (stratégies de sécurité prédéfinies), sélectionnez **Manage** sous **Standard protection** et appliquez-la à tous les destinataires, comme le recommande Microsoft. Strict, plus serré, vise les personnes les plus ciblées, comme celle qui valide les virements. Avec Business Premium, ces stratégies ajoutent Defender pour Office 365 : Safe Links vérifie les liens au clic, Safe Attachments ouvre les pièces jointes dans un bac à sable avant la remise, et la protection contre l’usurpation d’identité signale les mails qui imitent les collègues que vous désignez ou votre propre domaine.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-07" alt="Portail Microsoft Defender, page Preset security policies avec Standard protection activé" >}}
 
@@ -152,13 +154,13 @@ Ensuite, dans le portail Defender, allez dans **Email & collaboration > Policies
 
 Dans le portail Defender, allez dans **Email & collaboration > Policies & rules > Threat policies > Anti-spam**, ouvrez **Anti-spam outbound policy (Default)** et modifiez ses paramètres de protection. Sous **Forwarding rules**, réglez **Automatic forwarding rules** sur **Off - Forwarding is disabled**.
 
-La valeur par défaut, **Automatic - System-controlled**, vaut Off pour les nouvelles organisations depuis 2021 mais peut encore valoir On dans les plus anciennes : Microsoft conseille donc de choisir explicitement. Off bloque les règles de boîte de réception et le transfert vers l’extérieur (l’expéditeur reçoit l’erreur 5.7.520), pas le transfert entre collègues. Une boîte qui en a vraiment besoin peut avoir sa propre stratégie sortante ; la [page de Microsoft sur le transfert externe](https://learn.microsoft.com/fr-fr/defender-office-365/outbound-spam-policies-external-email-forwarding) détaille les autres contrôles.
+La valeur par défaut, **Automatic - System-controlled**, vaut Off pour les nouvelles organisations depuis 2021 mais peut encore valoir On dans certaines plus anciennes : Microsoft conseille donc de choisir explicitement. Off bloque les règles de boîte de réception et le transfert vers l’extérieur (la boîte qui tentait le transfert reçoit un message d’erreur 5.7.520), pas le transfert entre collègues. Une boîte qui en a vraiment besoin peut avoir sa propre stratégie sortante ; la [page de Microsoft sur le transfert externe](https://learn.microsoft.com/fr-fr/defender-office-365/outbound-spam-policies-external-email-forwarding) détaille les autres contrôles.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-08" alt="Portail Microsoft Defender, paramètres de la stratégie anti-spam sortante avec Automatic forwarding rules sur Off - Forwarding is disabled" >}}
 
 ### 6. Resserrer le partage SharePoint et OneDrive
 
-Par défaut, le partage SharePoint et OneDrive est au niveau le plus permissif. Dans le centre d’administration SharePoint, allez dans **Policies > Sharing**. Si personne ne partage de fichiers hors de l’entreprise, Microsoft recommande le niveau le plus restrictif pour les deux. Sinon, réglez au moins le type de lien par défaut sur **Specific people** et l’autorisation par défaut sur **View**, pour qu’un lien transféré n’ouvre pas le fichier à n’importe qui.
+Par défaut, le partage SharePoint et OneDrive est au niveau le plus permissif. Dans le centre d’administration SharePoint, allez dans **Policies > Sharing**. Microsoft recommande pour les deux le niveau le plus restrictif, qui bloque tout partage externe : il convient à une équipe qui ne partage jamais de fichiers à l’extérieur. Si vous partagez avec des clients, suivez au moins ses deux autres recommandations, le type de lien par défaut **Specific people** et l’autorisation par défaut **View**, pour qu’un lien transféré n’ouvre pas le fichier à n’importe qui.
 
 ### 7. Alertes, Secure Score, journal d’audit et appareils
 
@@ -171,7 +173,7 @@ Par défaut, le partage SharePoint et OneDrive est au niveau le plus permissif. 
 
 - **Couper les paramètres de sécurité par défaut pour régler un problème.** Cela retire l’authentification multifacteur à tout le monde : réglez plutôt le cas du copieur ou de l’application.
 - **Oublier les départs.** Le compte d’un ancien collaborateur, ses appareils et ses applications connectées restent ouverts tant que vous ne les fermez pas ; ma {{< a key="offboarding-checklist" >}}checklist de départ d’un salarié ou d’un freelance{{< /a >}} les liste.
-- **Prendre la suite pour une sauvegarde.** Ces réglages protègent les accès, pas les données : un dossier supprimé reste perdu. Mon {{< a key="backups-3-2-1" >}}guide de la règle de sauvegarde 3-2-1{{< /a >}} couvre les deux suites.
+- **Prendre la suite pour une sauvegarde.** Ces réglages protègent les accès, pas les données : un dossier supprimé, ou des fichiers chiffrés par un rançongiciel puis synchronisés dans le cloud, peuvent encore vous coûter du travail. Mon {{< a key="backups-3-2-1" >}}guide de la règle de sauvegarde 3-2-1{{< /a >}} couvre les deux suites.
 
 ## Votre checklist, et quand passer la main
 

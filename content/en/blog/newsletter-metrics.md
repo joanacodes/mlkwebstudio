@@ -16,7 +16,7 @@ related: ["newsletter-deliverability", "utm-ga4-funnel-tracking", "welcome-email
 services: ["automation"]
 faq:
   - q: "Why is my newsletter open rate higher than the benchmarks?"
-    a: "Often because more of your subscribers read in Apple Mail with Mail Privacy Protection on, or use work addresses behind security filters: both record opens without a reader. Compare your click rate with the benchmarks instead, as it is far less affected."
+    a: "Often because more of your subscribers read in Apple Mail with Mail Privacy Protection on, or use work addresses behind security filters: both record opens without a reader. Compare your click rate with the benchmarks instead, as it is less affected."
   - q: "Do plain-text newsletters track opens?"
     a: "No. Open tracking needs an image, and a plain-text email has none, so it records no opens. Links tagged with UTM parameters still show visits and key events in GA4, and replies need no tracking at all."
   - q: "What counts as a delivered email?"
@@ -134,9 +134,9 @@ Double the windows for a monthly newsletter. Send the inactive segment one short
 
 ## Tracking pixels and consent in the UK and France
 
-The pixel behind every open is also a privacy question. The ICO's guidance on email marketing says the PECR rules on marketing emails apply to the email itself, while tracking pixels fall under the separate rules on storage and access technologies, regulation 6 of PECR: if your newsletter contains a pixel, you must comply with both ([ICO guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/what-else-do-we-need-to-consider/)). That means clear information and consent of the UK GDPR standard unless an exception applies, and the ICO says these rules apply to every type of subscriber, companies included. The Data (Use and Access) Act 2025 lets the government add exceptions, so this is the position as of 19 October 2026.
+The ICO's guidance on email marketing says the PECR rules on marketing emails apply to the email itself, while tracking pixels fall under the separate rules on storage and access technologies, regulation 6 of PECR: if your newsletter contains a pixel, you must comply with both ([ICO guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/what-else-do-we-need-to-consider/)). That means clear information and consent of the UK GDPR standard unless an exception applies, and the ICO says these rules apply to every type of subscriber, companies included. The Data (Use and Access) Act 2025 lets the government add exceptions, so this is the position as of 19 October 2026.
 
-In France, the CNIL adopted a recommendation on email tracking pixels on 12 March 2026 and published it on 14 April 2026. Its reading of article 82 of the French Data Protection Act is that tracking opens for marketing needs the recipient's prior consent, separate from their agreement to receive the newsletter, business addresses included, with narrow exemptions such as security and measuring deliverability. If part of your list is in France, read it before your next send.
+In France, the CNIL adopted a recommendation on email tracking pixels on 12 March 2026 and published it on 14 April 2026. Its reading of article 82 of the French Data Protection Act: tracking opens for marketing needs the recipient's prior consent, separate from their agreement to receive the newsletter, business addresses included. The exemptions are narrow, such as security and measuring deliverability.
 
 Since this article argues for judging a newsletter on what readers do, switching open tracking off, or asking for consent to it, costs you little. My guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent{{< /a >}} covers the sign-up side. This is general information, not legal advice: if your list is large, or you combine email data with advertising, an hour with a privacy lawyer or a DPO is money well spent.
 
@@ -151,4 +151,4 @@ Once a month, with bot filtering on if your tool has it:
 5. Work out net list growth and churn.
 6. Decide one thing to keep, change or drop next month.
 
-If the report starts taking longer than writing the issue, it is worth automating the collection into one spreadsheet or dashboard, so that the figures are waiting for you instead of the other way round.
+If the report starts taking longer than writing the issue, automate the collection into one spreadsheet or dashboard.

@@ -22,7 +22,7 @@ faq:
   - q: "Should I send the welcome sequence to contacts imported from an old list?"
     a: "No. It is written for people who have just signed up, and someone on an old list will not remember asking. Email them only if your consent records, the soft opt-in or a business-to-business rule cover them, with a one-off message that reminds them who you are."
   - q: "What should I do when someone replies to a welcome email?"
-    a: "Answer personally, within a day if you can. A reply tells you that the email arrived, that it was read and what the reader cares about, and it can be the start of a conversation."
+    a: "Answer personally, within a day if you can. The reply tells you what the reader cares about, and it can be the start of a conversation."
   - q: "Can I use AI to write my welcome emails?"
     a: "Yes, for a first draft and to shorten your sentences. Then rewrite it in your own words: the second email in particular has to sound like you, and only you know why you started."
 ---
@@ -35,7 +35,7 @@ This tutorial is part of my {{< a key="funnels-newsletters-guide" >}}complete gu
 
 ## Why the first days matter
 
-Welcome emails are among the most clicked emails a business sends. In [GetResponse's 2024 email marketing benchmarks](https://www.getresponse.com/resources/reports/email-marketing-benchmarks), welcome emails had an average click-through rate of 16.6%, against 3.84% for newsletters: more than four times as many clicks. It is an average across one vendor's customers, so take the ratio from it, not a target.
+Welcome emails are among the most clicked emails a business sends. In [GetResponse's 2024 email marketing benchmarks](https://www.getresponse.com/resources/reports/email-marketing-benchmarks), welcome emails had an average click-through rate of 16.6%, against 3.84% for newsletters, more than four times higher. These are averages across one vendor's customers: read them as the gap between two kinds of email, not as a target for yours.
 
 The reason is simple: the person asked for this email a few minutes ago. A sequence spreads your introduction over ten days, so each email has one job and stays short.
 
@@ -80,7 +80,7 @@ Any questions? Just reply: this address reaches me.
 
 People hire someone they trust, and trust starts with knowing why and how you work. Day 2 is for one short story and one promise, not your CV.
 
-For my studio, the story would end with the sentence I use with friends: I help businesses be seen, bring prospects in, feel proud of their online presence and automate their workflow to make their lives easier. The promise would be the honest advice my clients already get: I tell them when they should call someone else rather than me.
+For my studio, the story would end with the way I would put it to a friend: I help businesses be seen, bring prospects in, feel proud of their online presence and automate their workflow to make their lives easier. The promise would be the honest advice my clients already get: I tell them when they should call someone else rather than me.
 
 ```text
 Subject: Why I do this
@@ -144,7 +144,7 @@ The last email makes the offer: a short call, a visit or a quote, whatever your 
 
 Give a phone number next to the booking link. In my cold email campaigns, many prospects call rather than reply: a call is quicker than writing an email, and people like talking to a human. For the booking page, my preference is YouCanBookMe, but Calendly does the job too.
 
-End with a line on preferences or unsubscribing. Your email tool adds an unsubscribe link to every message, as the law expects every marketing email to offer a way to opt out, and [Google's email sender guidelines](https://support.google.com/a/answer/81126) also ask senders of more than 5,000 messages a day to Gmail addresses for one-click unsubscribe and a visible link in the body. Saying it in words, in the last email, shows that you mean it.
+End with a line on preferences or unsubscribing. Your email tool already adds an unsubscribe link to every message: the law expects every marketing email to offer a way to opt out, and [Google's email sender guidelines](https://support.google.com/a/answer/81126) require senders of more than 5,000 messages a day to Gmail addresses to offer one-click unsubscribe and a visible link in the body. Saying it in words, in the last email, shows that you mean it.
 
 ```text
 Subject: Shall we talk about [problem]?
@@ -169,7 +169,7 @@ In cold emails I go further, with plain text, a phone number and no links at all
 
 ## How to set up the sequence in your email tool
 
-You do not need a funnel builder: the tool that sends your newsletter can run the sequence. It is easy to buy a new tool for every idea; the one you already have usually does the job.
+You do not need a funnel builder, or a new tool for every idea: the tool that already sends your newsletter can run the sequence.
 
 1. Create an automation (some tools call it a workflow, a journey or a sequence) that starts when someone joins the list or group your sign-up form feeds. With double opt-in, check that it starts after the confirmation click.
 2. Add email 1 with no delay, then waits of 2, 2, 3 and 3 days before emails 2 to 5.
@@ -182,9 +182,9 @@ Check where the free plan stops before you build. At the time of writing (Octobe
 
 ## What to measure: clicks and replies, not opens
 
-Open rates look precise, but they are not. An open is counted when a tiny image in the email loads, and [Apple's Mail Privacy Protection](https://www.apple.com/uk/legal/privacy/data/en/mail-privacy-protection/) downloads that content in the background whether or not the email is opened: an open can be recorded for an email nobody read.
+Open rates look precise, but they are not. An open is counted when a tiny image in the email loads, and [Apple's Mail Privacy Protection](https://www.apple.com/uk/legal/privacy/data/en/mail-privacy-protection/) downloads remote content, that image included, in the background whether or not the email is opened: an open can be recorded for an email nobody read.
 
-If you have subscribers in France, there is a second reason. The CNIL, France's data protection regulator, published a [recommendation on email tracking pixels](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf) in April 2026: measuring opens for marketing purposes needs the reader's consent, separate from the consent to receive your emails. It does not deal with tracked links, but the CNIL ties consent to the purpose rather than the technology, so check its guidance before you profile readers by their clicks too (as of 19 October 2026).
+If you have subscribers in France, there is a second reason. The CNIL, France's data protection regulator, published a [recommendation on email tracking pixels](https://www.cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) in April 2026: measuring opens for marketing purposes needs the reader's consent, separate from their consent to receive your emails. If your email tool tracks opens, turn that tracking off or ask for this consent separately. Tracked links are not directly covered, but the CNIL says the same principles help you assess them, so check its guidance before you profile readers by their clicks too (as of 19 October 2026).
 
 Watch these instead, email by email:
 

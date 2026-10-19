@@ -22,7 +22,7 @@ faq:
   - q: "Faut-il envoyer la séquence de bienvenue à des contacts importés d’un ancien fichier ?"
     a: "Non. Elle est écrite pour des personnes qui viennent de s’inscrire, et un contact d’un ancien fichier ne se souvient pas de l’avoir demandée. Écrivez-lui seulement si votre preuve de consentement, l’exception client (soft opt-in) ou une règle B2B le permet, avec un message unique qui rappelle qui vous êtes."
   - q: "Que faire quand un abonné répond à un email de bienvenue ?"
-    a: "Répondez personnellement, dans la journée si possible. Une réponse vous apprend que l’email est arrivé, qu’il a été lu et ce qui intéresse votre lecteur, et elle peut ouvrir une conversation."
+    a: "Répondez personnellement, dans la journée si possible. Son message vous dit ce qui l’intéresse, et il peut ouvrir une conversation."
   - q: "Peut-on écrire ses emails de bienvenue avec l’IA ?"
     a: "Oui, pour un premier jet et pour raccourcir vos phrases. Réécrivez ensuite avec vos mots : le deuxième email en particulier doit vous ressembler, et personne d’autre que vous ne sait pourquoi vous avez commencé."
 ---
@@ -35,7 +35,7 @@ Ce tutoriel fait partie de mon {{< a key="funnels-newsletters-guide" >}}guide co
 
 ## Pourquoi les premiers jours comptent
 
-Les emails de bienvenue font partie des emails les plus cliqués qu’une entreprise envoie. Dans les [statistiques d’emailing 2024 de GetResponse](https://www.getresponse.com/resources/reports/email-marketing-benchmarks) (en anglais), les emails de bienvenue obtenaient un taux de clic moyen de 16,6 %, contre 3,84 % pour les newsletters : plus de quatre fois plus de clics. C’est une moyenne sur les clients d’un seul éditeur : retenez-en l’écart, pas un objectif.
+Les emails de bienvenue font partie des emails les plus cliqués qu’une entreprise envoie. Dans les [statistiques d’emailing 2024 de GetResponse](https://www.getresponse.com/resources/reports/email-marketing-benchmarks) (en anglais), les emails de bienvenue obtenaient un taux de clic moyen de 16,6 %, contre 3,84 % pour les newsletters, soit plus de quatre fois plus. Ce sont des moyennes sur les clients d’un seul éditeur : retenez l’écart entre les deux types d’email, pas un objectif à atteindre.
 
 La raison est simple : la personne a demandé cet email il y a quelques minutes. Une séquence étale votre présentation sur dix jours, pour que chaque email ait un seul rôle et reste court.
 
@@ -55,11 +55,11 @@ Les jours se comptent à partir de l’inscription (J+2 = deux jours après), ou
 
 La séquence s’adresse aux personnes qui ont demandé vos emails : par un formulaire d’inscription à la newsletter, ou par une case séparée, non cochée, sous le formulaire de votre lead magnet. Quelqu’un qui a seulement téléchargé une checklist reçoit l’email qui la livre, et rien d’autre. Mon article sur les {{< a key="lead-magnet-ideas" >}}idées de lead magnet{{< /a >}} montre comment séparer les deux.
 
-La loi prévoit des exceptions, comme le soft opt-in pour vos clients et des règles plus souples pour les adresses professionnelles. Et les règles suivent vos abonnés : une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève du RGPD pour elles (article 3, paragraphe 2). Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille ces règles ; ceci est une information générale, pas un conseil juridique.
+La loi prévoit des exceptions, comme le soft opt-in pour vos clients et des règles plus souples pour les adresses professionnelles. Et les règles suivent vos abonnés : une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève du RGPD pour elles (article 3, paragraphe 2). Mon guide sur {{< a key="newsletter-consent-gdpr" >}}la newsletter et le RGPD{{< /a >}} détaille ces règles. Ceci est une information générale, pas un conseil juridique.
 
 ## Email 1, tout de suite : livrer ce que vous avez promis
 
-Le premier email a deux rôles : remettre ce que la personne est venue chercher, et annoncer la suite. Envoyez-le dans les minutes qui suivent. Mettez un lien vers la ressource plutôt qu’une pièce jointe, pour pouvoir corriger le fichier sans rien renvoyer, et invitez aux questions : une réponse est le signe le plus sûr que votre email est arrivé et qu’il a été lu.
+Le premier email a deux rôles : remettre ce que la personne est venue chercher, et annoncer la suite. Envoyez-le dans les minutes qui suivent. Mettez un lien vers la ressource plutôt qu’une pièce jointe, pour pouvoir corriger le fichier sans rien renvoyer, et invitez la personne à vous écrire : une réponse est le signe le plus sûr que votre email est arrivé et qu’il a été lu.
 
 ```text
 Objet : Votre [ressource] est là
@@ -80,7 +80,7 @@ Une question ? Répondez simplement à cet email : c’est moi qui le lis.
 
 On confie un projet à quelqu’un de confiance, et la confiance commence par savoir pourquoi et comment vous travaillez. Le deuxième email tient en une histoire courte et une promesse : ce n’est pas un CV.
 
-Pour mon studio, l’histoire se terminerait par la phrase que je dis à mes proches : j’aide les entreprises à être vues, à attirer des prospects, à être fières de leur présence en ligne et à automatiser leur travail pour se simplifier la vie. La promesse serait l’honnêteté que mes clients connaissent déjà : je leur dis quand ils feraient mieux d’appeler quelqu’un d’autre que moi.
+Pour mon studio, l’histoire se terminerait par la phrase que j’emploierais avec un proche : j’aide les entreprises à être vues, à attirer des prospects, à être fières de leur présence en ligne et à automatiser leur travail pour se simplifier la vie. La promesse serait l’honnêteté que mes clients connaissent déjà : je leur dis quand ils feraient mieux d’appeler quelqu’un d’autre que moi.
 
 ```text
 Objet : Pourquoi je fais ce métier
@@ -100,7 +100,7 @@ P.-S. Qu’est-ce qui vous a donné envie de vous inscrire ? Répondez en une li
 
 ## Email 3, à J+4 : votre guide le plus utile
 
-Le troisième email donne avant de demander : la chose la plus utile que vous ayez écrite. Pour la choisir, partez des questions posées au premier appel. Mes prospects me demandent si j’ai de l’expérience, ce que le SEO va leur apporter et en combien de temps on est bien classé ; chaque réponse ferait un bon troisième email.
+Le troisième email donne avant de demander : la chose la plus utile que vous ayez écrite. Pour la choisir, partez des questions posées au premier appel. Mes prospects me demandent si j’ai de l’expérience, ce que le SEO va leur apporter et combien de temps il faut pour être bien positionné sur Google ; chacune de ces réponses ferait un bon troisième email.
 
 Donnez la réponse courte dans l’email, pour ceux qui ne cliqueront pas, et le lien vers le guide complet sur votre site.
 
@@ -169,7 +169,7 @@ En cold emailing, je vais plus loin : texte brut, un numéro de téléphone et 
 
 ## Paramétrer la séquence dans votre outil d’emailing
 
-Pas besoin d’un outil de tunnel de vente : celui qui envoie votre newsletter peut faire tourner la séquence. On se laisse vite tenter par un nouvel outil à chaque idée ; celui que vous avez déjà suffit presque toujours.
+Pas besoin d’un outil de tunnel de vente, ni d’un nouvel outil à chaque idée : celui qui envoie déjà votre newsletter peut faire tourner la séquence.
 
 1. Créez une automatisation (selon l’outil : scénario, workflow, parcours ou séquence) qui démarre quand quelqu’un rejoint la liste ou le groupe alimenté par votre formulaire. Avec le double opt-in, vérifiez qu’elle démarre après le clic de confirmation.
 2. Ajoutez l’email 1 sans délai, puis des attentes de 2, 2, 3 et 3 jours avant les emails 2 à 5.
@@ -178,15 +178,15 @@ Pas besoin d’un outil de tunnel de vente : celui qui envoie votre newsletter 
 5. Si votre outil le permet, ajoutez une condition de sortie : quelqu’un qui réserve un appel ou devient client quitte la séquence.
 6. Après l’email 5, basculez l’abonné vers votre newsletter habituelle ; mes {{< a key="b2b-newsletter-ideas" >}}idées de newsletter B2B{{< /a >}} vous aideront pour la suite.
 
-Vérifiez où s’arrête l’offre gratuite avant de construire. Au moment où j’écris (octobre 2026), l’offre gratuite de Kit ne comprend ni séquences ni automatisations visuelles, alors que celle de MailerLite inclut trois automatisations, de quoi faire tourner cette séquence. Mon {{< a key="newsletter-tools-comparison" >}}comparatif des outils de newsletter{{< /a >}} couvre aussi Brevo, Mailchimp et beehiiv.
+Avant de vous lancer, vérifiez où s’arrête l’offre gratuite. Au moment où j’écris (octobre 2026), l’offre gratuite de Kit ne comprend ni séquences ni automatisations visuelles, alors que celle de MailerLite inclut trois automatisations, de quoi faire tourner cette séquence. Mon {{< a key="newsletter-tools-comparison" >}}comparatif des outils de newsletter{{< /a >}} couvre aussi Brevo, Mailchimp et beehiiv.
 
 ## Que mesurer : les clics et les réponses, pas les ouvertures
 
-Le taux d’ouverture a l’air précis, mais il ne l’est pas. Une ouverture est comptée quand une minuscule image de l’email se charge, et la fonction Mail Privacy Protection de l’app Mail d’Apple télécharge ces images en arrière-plan, que l’email soit ouvert ou non : une ouverture peut donc être enregistrée sans aucune lecture.
+Le taux d’ouverture a l’air précis, mais il ne l’est pas. Une ouverture est comptée quand une minuscule image de l’email se charge, et la fonction Mail Privacy Protection de l’app Mail d’Apple télécharge le contenu distant de l’email, cette image comprise, en arrière-plan, que l’email soit ouvert ou non : une ouverture peut donc être enregistrée sans aucune lecture.
 
 En France, une deuxième raison s’ajoute. Dans sa [recommandation sur les pixels de suivi](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf), publiée le 14 avril 2026, la CNIL considère que mesurer les ouvertures à des fins marketing demande le consentement du destinataire, distinct du droit de lui envoyer l’email, y compris en B2B. Quelques usages y échappent, comme la mesure de la délivrabilité adresse par adresse pour retirer les inactifs. Si votre outil mesure les ouvertures, désactivez ce suivi ou recueillez ce consentement à part.
 
-La recommandation ne traite pas des liens traçants, mais la CNIL rattache le consentement à la finalité plutôt qu’à la technique : consultez sa [FAQ sur les pixels](https://www.cnil.fr/fr/faq-recommandation-pixels-courriers-electroniques) avant de classer vos lecteurs selon leurs clics (au 19 octobre 2026).
+Les liens traçants ne relèvent pas directement de la recommandation, mais la CNIL précise dans sa [FAQ sur les pixels](https://www.cnil.fr/fr/faq-recommandation-pixels-courriers-electroniques) que ses principes aident à évaluer leur conformité : relisez-la avant de classer vos lecteurs selon leurs clics (au 19 octobre 2026).
 
 Surveillez plutôt, email par email :
 

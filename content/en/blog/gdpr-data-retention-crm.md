@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:24:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["GDPR data retention periods", "how long to keep customer data under GDPR", "CNIL retention period for prospects", "CRM data retention policy", "storage limitation principle"]
-summary: "The GDPR sets no fixed retention periods: you keep personal data only as long as its purpose requires, and you must be able to justify the period you choose. In France, the CNIL's benchmark is three years from collection or from the last time a prospect contacted you, and three years after a client relationship ends for marketing, while the Code de commerce keeps invoices for ten years. In the UK you set your own periods, anchored on rules such as HMRC's six years for company records."
+summary: "The GDPR sets no fixed retention periods: you keep personal data only as long as its purpose requires, and you must be able to justify the period you choose. In France, the CNIL's benchmark is three years from collection or from the last time a prospect contacted you, and three years after a client relationship ends for marketing; French law keeps invoices ten years. In the UK you set your own periods, anchored on rules such as HMRC's six years for company records."
 cover: "gdpr-data-retention-crm"
 cover_alt: "The article's title in white on a ribbed-glass panel over a photo of a calendar grid with booked slots"
 related: ["bespoke-crm-internal-app", "privacy-policy-guide", "cold-email-gdpr-uk-france", "gdpr-subject-access-request", "automate-lead-follow-up"]
@@ -18,7 +18,7 @@ faq:
   - q: "Can I keep a contact's data if I never use it?"
     a: "No. Storing personal data is itself processing under the GDPR, so your retention periods apply to dormant records too. A contact nobody has touched for years is exactly what the storage limitation principle targets."
   - q: "Does the three-year rule apply to newsletter subscribers?"
-    a: "The CNIL's framework does not mention newsletters by name, but a subscriber who has never bought from you is a prospect, so in France the safe answer is yes. A click on a link in your newsletter counts as a contact from them and restarts the three years; an open does not. Subscribers with no click for three years get one last message and leave the list unless they say yes."
+    a: "In France, the safe answer is yes: a subscriber who has never bought from you is a prospect. A click on a link in your newsletter counts as a contact from them and restarts the three years; an open does not. Subscribers with no click for three years get one last message and leave the list unless they say yes."
   - q: "What if someone asks me to delete their data before the period ends?"
     a: "Their request wins for everything you no longer need, and you answer within one month. Article 17(3) of the GDPR lets you keep what a law requires, such as invoices, and what you need for a legal claim. Keep only their email address on your do-not-contact list, so a later import does not bring them back."
   - q: "Do I need a written retention policy?"
@@ -85,17 +85,17 @@ Here is a starting point to copy into your own records. The periods are the Fren
 | Quotes, contracts, project emails | The relationship | Archive for the limitation period |
 | Invoices | The relationship | Accounting archive (10 years in France, 6 for a UK company) |
 | Do-not-contact list | At least 3 years | Keep only what identifies the person, such as the email address |
-| Unsuccessful job applicants | Up to 3 months after the recruitment ends | Up to 2 years from the last contact, only if they agree to stay in your pool (CNIL) |
+| Unsuccessful job applicants | Up to 3 months after the recruitment ends | Up to 2 years from the last contact, if they agree to stay in your talent pool (CNIL) |
 
 A reason sounds like "three years, because our clients plan building work up to two years ahead". "Because we might need it" is not a reason.
 
 ## When the clock runs out: archive, delete or anonymise
 
-The CNIL's guide on retention periods describes three stages, and they map neatly onto a CRM:
+The CNIL's guide on retention periods splits a record's life into phases, and for a CRM they come down to three:
 
 1. **Active base**: what the team uses every day, such as open deals, current clients and prospects within their three years.
 2. **Intermediate archive**: closed files kept only because a law requires it or a dispute is possible, such as invoices and signed quotes. They are separated from the active base, physically or logically, and only the people who need them can open them; in a small team, often just whoever does the accounts.
-3. **Deletion or anonymisation**, when the last period ends. (The guide's permanent archiving stage is for public archives, not for businesses.)
+3. **Deletion or anonymisation**, when the last period ends. (The guide's third phase, permanent archiving, is only for archiving in the public interest, not for a sales database.)
 
 Anonymisation is how you keep your statistics. "Twelve leads from the website in March, four from referrals" is useful and identifies nobody. Swapping a name for a contact number is not enough: that is pseudonymisation, and the GDPR still treats the result as personal data (Recital 26).
 
@@ -116,15 +116,15 @@ A retention period nobody applies is just a sentence in your privacy policy. The
 
 **Review once a month.** Save a filter for prospects whose last inbound contact is 35 months old or more. They get one short message asking whether they still want to hear from you; those who have not said yes by month 36 are deleted in bulk. Former clients follow the same routine three years after the relationship ends. Most CRMs can filter on a custom date field and delete the results in bulk.
 
-**In a spreadsheet**, one formula column gives each row its deletion date, with the collection date in column B and the date of their last contact in column C:
+**In a spreadsheet**, one formula column gives each row its deletion date, with the collection date in column B and the date of the last contact from them in column C:
 
 ```
 =EDATE(MAX(B2, C2), 36)
 ```
 
-Filter that column once a month. My {{< a key="automate-lead-follow-up" >}}tutorial on automating lead follow-up{{< /a >}} with Google Apps Script adds alerts and reminders to the same kind of sheet; a monthly retention reminder works the same way.
+Format the column as a date and filter it once a month. My {{< a key="automate-lead-follow-up" >}}tutorial on automating lead follow-up{{< /a >}} with Google Apps Script adds alerts and reminders to the same kind of sheet; a monthly retention reminder works the same way.
 
-**In a custom tool**, the schedule can run by itself. When a client's team had more prospects than it could call back, I built them an internal app so that no one would be forgotten; the story is in my article on {{< a key="bespoke-crm-internal-app" >}}building a bespoke CRM{{< /a >}}. Retention is the other half of that job: a custom CRM can run a nightly task that moves closed files to an archive table and deletes expired prospects, keeping a count of what it removed. If you are having a tool built, ask for the four fields and that task from day one; adding them later means rebuilding dates nobody recorded.
+**In a custom tool**, the schedule can run by itself. When a client's team had more prospects than it could call back, I built them an internal app so that no one would be forgotten; the story is in my article on {{< a key="bespoke-crm-internal-app" >}}building a bespoke CRM{{< /a >}}. Retention is the mirror image of that problem, making sure the tool forgets on time, and a custom CRM can handle it too: a nightly task can move closed files to an archive table and delete expired prospects, keeping a count of what it removed. If you are having a tool built, ask for the four fields and that task from day one; adding them later means rebuilding dates nobody recorded.
 
 ## Your retention checklist, and when to get help
 
@@ -133,6 +133,6 @@ Filter that column once a month. My {{< a key="automate-lead-follow-up" >}}tutor
 3. Put the periods in your privacy policy: Article 13(2)(a) of the GDPR asks for the period or the criteria used to set it. My guide to {{< a key="privacy-policy-guide" >}}what a privacy policy must say{{< /a >}} shows where they go.
 4. Put them in your record of processing activities: Article 30(1)(f) asks for the time limits for erasure, where possible.
 5. Add the fields and the monthly filter to the CRM, clean the old copies, and book the first review in your calendar.
-6. Keep the periods to hand: when someone asks for a copy of their data, your answer must say how long you will keep it (Article 15(1)(d)). Here is {{< a key="gdpr-subject-access-request" >}}how to answer a subject access request{{< /a >}}.
+6. Keep the periods to hand: when someone asks for a copy of their data, your answer must say, where possible, how long you will keep it (Article 15(1)(d)). Here is {{< a key="gdpr-subject-access-request" >}}how to answer a subject access request{{< /a >}}.
 
 This article explains the rules and the regulators' guidance; it is not legal advice. A lawyer or a DPO is worth paying for if you hold health or other sensitive data, work in a sector with its own retention rules such as insurance, finance or healthcare, face a complaint, or hold large volumes of data on people in several countries. For an ordinary B2B contact list, the schedule above and an afternoon of work are a solid start.

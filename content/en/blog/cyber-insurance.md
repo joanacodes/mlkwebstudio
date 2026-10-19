@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:09:00+02:00
 category: "cybersecurity"
 article_type: "guide"
 keywords: ["cyber insurance for small business", "what does cyber insurance cover", "is cyber insurance worth it", "cyber insurance exclusions", "Cyber Essentials insurance", "social engineering cover"]
-summary: "Cyber insurance pays the costs of an attack or a data breach: incident responders, restoring systems and data, lost income, extortion, notification and claims from others. Payouts depend on the small print: payment fraud is often excluded or capped, state-backed attacks are excluded and the security you declared must be in place. It is worth it for a small team that stops earning when its IT stops, pays by transfer, holds personal data or has clients who require it."
+summary: "Cyber insurance pays the costs of an attack or a data breach: incident responders, restoring systems and data, lost income, extortion, notification and claims from others. Payouts depend on the small print: payment fraud and state-backed attacks are often excluded, and the security you declared must be in place. It is worth it for a small team that stops earning when its IT stops, pays by transfer, holds personal data in volume or has clients who require it."
 cover: "cyber-insurance"
 cover_alt: "The article title in white on a ribbed-glass panel over a photo, with a shield bearing a check mark"
 related: ["cybersecurity-guide", "incident-response-first-hour", "invoice-fraud-bank-details", "gdpr-data-breach", "security-questionnaire"]
@@ -24,7 +24,7 @@ faq:
   - q: "Does cyber insurance pay out if an employee clicked a phishing link?"
     a: "Usually yes for the attack that follows, such as ransomware or a hacked mailbox, since that is how many attacks start. The case to check is a payment the employee was tricked into making, which many policies exclude or cap."
   - q: "Does cyber insurance cover a hacked website?"
-    a: "Usually, when the hack is an attack: investigating, cleaning and rebuilding the site are first-party costs, paid within the limit and after the excess. If the site brings in sales, the income lost while it is down falls under business interruption, after the waiting period."
+    a: "Usually: investigating, cleaning and rebuilding a hacked site are first-party costs, paid within the limit and after the excess. If the site brings in sales, the income lost while it is down falls under business interruption, after the waiting period."
 ---
 
 Cyber insurance pays for what an attack or a data breach costs you: the specialists who contain it, rebuilding your systems and data, the income you lose while you are down, and the claims of people whose data leaked. For a team without an IT department, the incident line that comes with many policies can be worth as much as the money.
@@ -47,7 +47,7 @@ Most policies have two halves. **First-party cover** pays your own costs after a
 
 Some policies also cover what your website publishes, an outage at a provider you depend on, or an outage that is not an attack, such as a failed update. Others do not: read the list of insured events, not the brochure.
 
-On fines, I would plan as if a regulator's penalty stayed with you: whether a GDPR fine can legally be insured is uncertain at best. The legal costs of answering the regulator are the part you can count on.
+On fines, I would plan as if a regulator's penalty stayed with you: in the UK, whether an ICO fine can legally be insured is uncertain at best, and in France the insurance supervisor, the ACPR, considers that public policy rules out insuring administrative fines. The legal costs of answering the regulator are the part you can count on.
 
 ## The lines that decide whether you get paid
 
@@ -80,7 +80,7 @@ The insurance clock runs alongside the data protection one: when personal data i
 
 ## What insurers ask before they quote
 
-The proposal form reads like a security questionnaire, and your answers become part of the contract. Expect questions such as these:
+The proposal form reads like a security questionnaire, and the insurer prices the policy, and later assesses claims, on the strength of your answers. Expect questions such as these:
 
 1. Is multi-factor authentication on for email, remote access and every admin account? {{< a key="two-factor-authentication-passkeys" >}}Switching it on everywhere{{< /a >}} takes an afternoon.
 2. How often do you back up, is one copy offline or impossible to alter, and when did you last test a restore? My guide to the {{< a key="backups-3-2-1" >}}3-2-1 backup rule{{< /a >}} covers all three.
@@ -97,7 +97,7 @@ Answer as things are on the day, not as you plan them to be. Under the UK's Insu
 Before you buy, read the policies you already pay for.
 
 - **Business package and professional indemnity policies.** Some include a small cyber extension; others exclude cyber events outright. Professional indemnity answers claims that your work was negligent, not your own costs after an attack.
-- **Cyber Essentials (UK).** Organisations domiciled in the UK or a Crown Dependency, with a turnover under £20 million, that certify their whole organisation can opt in to cyber liability insurance at no extra cost when they apply. The [NCSC says](https://www.ncsc.gov.uk/cyberessentials/overview) it includes 24/7 incident response support with technical, legal and crisis management help. The limit is modest (£25,000, about $33,000, in the policy summaries certification bodies publish), so treat it as a floor, not a full policy. Certification starts at £320 plus VAT (about $425) at the time of writing (October 2026).
+- **Cyber Essentials (UK).** Organisations domiciled in the UK or a Crown Dependency, with a turnover under £20 million, that certify their whole organisation can opt in to cyber liability insurance at no extra cost when they apply. The [NCSC says](https://www.ncsc.gov.uk/cyberessentials/overview) it includes 24/7 incident response support with technical, legal and crisis management help. IASME, which delivers the scheme for the NCSC, sets the total limit at £25,000 (about $33,000), incident response included, and warns that this may not be enough for a serious incident: treat it as a floor, not a full policy. Certification starts at £320 plus VAT (about $425) at the time of writing (October 2026).
 
 ## When cyber insurance is worth it for a small team
 
@@ -130,4 +130,4 @@ Get the answers in writing. This guide describes how cyber insurance works as of
 - Make your declared answers true: multi-factor authentication, backups, updates, the call-back rule for bank details.
 - Review the policy at each renewal, and whenever you start taking payments, hold more data or sign a client with requirements.
 
-An insurer's panel handles the forensics on your computers; a hacked website, a lost domain or a locked account is the kind of rescue I take on myself, the same day or within 24 hours.
+Whether or not you have a policy, a hacked website, a lost domain or a locked account is the kind of rescue I take on, the same day or within 24 hours; if you are insured, check first whether the insurer has to approve who you call.

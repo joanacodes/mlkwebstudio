@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:21:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["contrat de sous-traitance RGPD", "article 28 RGPD", "responsable de traitement et sous-traitant", "clauses contractuelles types sous-traitance", "sous-traitant ultérieur RGPD", "DPA RGPD"]
-summary: "Il faut un contrat de sous-traitance RGPD dès qu’un prestataire traite des données personnelles pour votre compte, et dès que vous le faites pour un client. L’article 28 du RGPD fixe son contenu : instructions documentées, confidentialité, sécurité, sous-traitants ultérieurs, aide pour les droits et les violations, suppression en fin de contrat et audits. Les grands éditeurs l’intègrent à leurs conditions ; ailleurs, les clauses types gratuites de la Commission suffisent."
+summary: "Il faut un contrat de sous-traitance RGPD dès qu’un prestataire traite des données personnelles pour votre compte, et dès que vous le faites pour un client. L’article 28 du RGPD fixe son contenu : instructions documentées, confidentialité, sécurité, sous-traitants ultérieurs, aide pour les droits et les violations, suppression en fin de contrat et audits. Les grands éditeurs l’intègrent à leurs conditions ; sinon, partez des clauses types gratuites de l’UE."
 cover: "gdpr-data-processing-agreement"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un quadrillage de plan d’architecte avec une cible"
 related: ["gdpr-us-tools-data-transfers", "security-questionnaire", "gdpr-data-retention-crm", "cold-email-gdpr-uk-france", "gdpr-guide"]
@@ -29,13 +29,13 @@ faq:
 
 Un contrat de sous-traitance RGPD, souvent appelé DPA (pour Data Processing Agreement), encadre le travail de toute entreprise qui traite des données personnelles pour votre compte : l’agence qui maintient votre site, le freelance qui gère votre CRM, l’outil qui envoie votre newsletter. L’article 28 du RGPD le rend obligatoire et fixe son contenu.
 
-Les petites équipes se trouvent des deux côtés. Vous êtes le client d’une dizaine d’outils qui traitent les données de vos clients, et peut-être aussi le prestataire qui traite celles de vos propres clients. Quand je crée une automatisation pour un client, comme l’application interne que j’ai développée pour l’un d’eux, j’ai par exemple besoin d’accéder à sa boîte mail. C’est exactement le genre d’accès qu’un contrat de sous-traitance doit encadrer.
+Les petites équipes se trouvent des deux côtés. Vous confiez les données de vos clients à une dizaine d’outils, et vous êtes peut-être aussi le prestataire qui traite celles de vos propres clients. Quand je crée une automatisation pour un client, comme l’application interne que j’ai développée pour l’un d’eux, j’ai par exemple besoin d’accéder à sa boîte mail. C’est exactement le genre d’accès qu’un contrat de sous-traitance doit encadrer.
 
-Pour la vue d’ensemble, voyez mon {{< a key="gdpr-guide" >}}guide complet du RGPD{{< /a >}}.
+Pour une vue d’ensemble, consultez mon {{< a key="gdpr-guide" >}}guide complet du RGPD{{< /a >}}.
 
 ## Responsable du traitement ou sous-traitant : les deux rôles, avec des exemples
 
-Le **responsable du traitement** décide pourquoi et comment les données personnelles sont traitées (article 4, point 7, du RGPD). Le **sous-traitant** les traite pour son compte (article 4, point 8). Ce qui compte, c’est qui décide, pas qui détient les données ni qui est le plus gros : un studio d’une personne peut être le sous-traitant d’un grand groupe, et Google celui d’une boutique de deux personnes qui travaille sous Google Workspace.
+Le **responsable du traitement** décide pourquoi et comment les données personnelles sont traitées (article 4, point 7, du RGPD). Le **sous-traitant** les traite pour son compte (article 4, point 8). Ce qui compte, c’est qui décide, pas qui détient les données ni qui est le plus gros : un studio d’une personne peut être le sous-traitant d’un grand groupe, et Google celui d’une boutique de deux personnes qui utilise Google Workspace.
 
 | Situation | Rôle habituel |
 |---|---|
@@ -46,7 +46,7 @@ Le **responsable du traitement** décide pourquoi et comment les données person
 | Votre expert-comptable | Cela dépend : sous-traitant s’il tient vos comptes sur vos instructions, responsable du traitement pour les missions soumises à ses propres obligations professionnelles |
 | Un salarié | Ni l’un ni l’autre : il agit sous votre autorité (article 29) |
 
-Un prestataire de cold emailing qui trouve aussi les prospects fait des choix qu’un sous-traitant laisse d’ordinaire à son client : écrivez qui choisit les sources, qui informe les prospects et qui traite les oppositions (voir mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}}). Et un sous-traitant qui utilise vos données pour ses propres fins devient responsable de ce traitement (article 28, paragraphe 10).
+Un prestataire de cold emailing qui trouve aussi les prospects fait des choix qu’un sous-traitant laisse d’ordinaire à son client : écrivez qui choisit les sources, qui informe les prospects et qui traite les oppositions (voir mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}}). Et un sous-traitant qui utilise vos données à ses propres fins devient responsable de ce traitement (article 28, paragraphe 10).
 
 La distance ne change rien. Un développeur à Casablanca qui maintient la base clients d’une boutique en ligne française est son sous-traitant. Une entreprise suisse, québécoise ou marocaine soumise au RGPD parce qu’elle vend dans l’UE ({{< a key="gdpr-outside-eu" >}}voici les deux critères{{< /a >}}) doit elle aussi encadrer ses propres sous-traitants par contrat.
 
@@ -88,7 +88,7 @@ Les grands éditeurs choisissent le plus souvent l’autorisation générale : 
 
 ## Les modèles gratuits : clauses types de la Commission et guide de la CNIL
 
-Inutile de payer un modèle. Le 4 juin 2021, la Commission européenne a adopté des [clauses contractuelles types entre responsables du traitement et sous-traitants](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32021D0915) (décision d’exécution (UE) 2021/915). Elles satisfont aux exigences de l’article 28, paragraphes 3 et 4, et peuvent servir entre tout responsable du traitement et son sous-traitant. Vous gardez les clauses telles quelles et remplissez les annexes : les parties, la description du traitement, les mesures de sécurité et la liste des sous-traitants ultérieurs, avec le choix entre autorisation spécifique et générale.
+Inutile de payer un modèle. Le 4 juin 2021, la Commission européenne a adopté des [clauses contractuelles types entre responsables du traitement et sous-traitants](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32021D0915) (décision d’exécution (UE) 2021/915). Elles satisfont aux exigences de l’article 28, paragraphes 3 et 4, et peuvent servir entre tout responsable du traitement et son sous-traitant. Vous gardez leur texte tel quel, choisissez à la clause 7.7 l’une des deux options pour les sous-traitants ultérieurs (autorisation spécifique ou générale), puis remplissez les annexes : les parties, la description du traitement, les mesures de sécurité et la liste de ces sous-traitants.
 
 Ne les confondez pas avec les clauses adoptées le même jour pour les transferts hors de l’UE (décision 2021/914), que présente mon guide sur les {{< a key="gdpr-us-tools-data-transfers" >}}outils américains et le Data Privacy Framework{{< /a >}}.
 
@@ -98,11 +98,11 @@ Les clauses types ne couvrent que la protection des données : le prix, les pla
 
 ## Récupérer le contrat de vos prestataires : Google, Microsoft et les autres
 
-Avec les grands éditeurs, on ne négocie pas : on accepte. Les menus décrits ci-dessous sont ceux d’octobre 2026.
+Avec les grands éditeurs, on ne négocie pas : on accepte. Les menus et les offres décrits ci-dessous sont ceux d’octobre 2026.
 
 - **Google Workspace** s’appuie sur son Cloud Data Processing Addendum. Un super-administrateur le consulte et l’accepte dans la console d’administration, menu Compte puis paramètres du compte, rubrique juridique et conformité (« Legal and compliance » dans l’interface en anglais). Selon l’[aide de Google](https://support.google.com/a/answer/3407074?hl=fr), ce n’est utile que si votre contrat ne l’intègre pas déjà, et sans effet sinon : acceptez-le en cas de doute.
 - **Microsoft 365** : l’avenant sur la protection des données (Products and Services Data Protection Addendum) est intégré par référence aux conditions des produits Microsoft (Product Terms) ; il n’y a rien à signer. Téléchargez-en une copie via aka.ms/dpa pour vos archives.
-- **Les autres outils** : cherchez « DPA », « data processing addendum » ou « accord de traitement des données » dans les pages juridiques, de confidentialité ou de sécurité. Beaucoup l’intègrent à leurs conditions ; d’autres le font signer via un formulaire, comme OpenAI pour ChatGPT Business, ChatGPT Enterprise et son API.
+- **Les autres outils** : cherchez « DPA », « contrat de sous-traitance », « accord de traitement des données » ou « data processing addendum » dans les pages juridiques, de confidentialité ou de sécurité. Beaucoup l’intègrent à leurs conditions ; d’autres le font signer via un formulaire, comme OpenAI pour ChatGPT Business, ChatGPT Enterprise et son API.
 
 Les offres personnelles sont le point faible. OpenAI ne propose pas de DPA pour ses offres Free, Go, Plus et Pro, et les conditions de traitement de Google accompagnent Google Workspace, pas un compte Gmail personnel. Si un outil n’a pas de contrat de sous-traitance, n’y mettez pas les données de vos clients. Gardez un PDF daté de chaque contrat accepté : les conditions changent, et vous voudrez la version qui s’appliquait.
 
@@ -114,7 +114,7 @@ Si vous travaillez pour de grands comptes, le contrat de sous-traitance arrive s
 2. **La notification des violations** : le sous-traitant doit prévenir le responsable du traitement dans les meilleurs délais (article 33, paragraphe 2). Si le contrat fixe un nombre d’heures, vérifiez que vous pouvez le tenir, week-ends compris. Le responsable a ensuite ses propres {{< a key="gdpr-data-breach" >}}72 heures pour notifier la CNIL{{< /a >}}.
 3. **Les sous-traitants ultérieurs** : listez vos propres outils dans l’annexe (hébergement, messagerie, partage de fichiers) pour être en règle dès le premier jour.
 4. **Les audits** : le droit d’audit est obligatoire, mais vous pouvez proposer des conditions raisonnables, comme un préavis et un premier contrôle sur pièces.
-5. **La responsabilité et les indemnisations** dépassent l’article 28. Une garantie d’indemnisation illimitée dans le modèle d’un client justifie l’avis d’un avocat.
+5. **La responsabilité et les indemnisations** dépassent l’article 28 : vérifiez que le contrat de sous-traitance ne lève pas le plafond de responsabilité fixé dans votre contrat principal.
 
 À la fin du contrat, restituez ou supprimez les données comme convenu, dans le délai fixé ensemble (voir les {{< a key="gdpr-data-retention-crm" >}}durées de conservation des données{{< /a >}}). Puis retirez vos accès : la boîte mail, l’identifiant du CRM, les clés d’API.
 

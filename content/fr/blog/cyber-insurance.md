@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:09:00+02:00
 category: "cybersecurity"
 article_type: "guide"
 keywords: ["assurance cyber TPE", "assurance cyber PME", "que couvre une assurance cyber", "cyberassurance", "exclusions assurance cyber", "assurance cyber plainte 72 heures"]
-summary: "Une assurance cyber couvre le coût d’une attaque ou d’une fuite de données : experts, restauration, pertes d’exploitation, extorsion, notification, réclamations de tiers. Tout se joue dans les clauses : fraude au faux RIB souvent exclue, attaques étatiques exclues, sécurité déclarée à tenir, plainte sous 72 heures. Elle vaut le coup pour une petite équipe qui s’arrête sans informatique, paie par virement, détient des données personnelles ou dont les clients l’exigent."
+summary: "Une assurance cyber couvre le coût d’une attaque ou d’une fuite de données : experts, restauration, pertes d’exploitation, extorsion, notification, réclamations de tiers. Tout se joue dans les clauses : fraude au faux RIB et attaques étatiques souvent exclues, sécurité déclarée à tenir, plainte sous 72 heures. Elle vaut le coup pour une petite équipe qui s’arrête sans informatique, paie par virement, détient beaucoup de données personnelles ou dont les clients l’exigent."
 cover: "cyber-insurance"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé au-dessus d’une photo, avec un bouclier portant une coche"
 related: ["cybersecurity-guide", "incident-response-first-hour", "invoice-fraud-bank-details", "gdpr-data-breach", "security-questionnaire"]
@@ -24,7 +24,7 @@ faq:
   - q: "Un salarié a cliqué sur un lien piégé : l’assurance cyber joue-t-elle ?"
     a: "En général oui pour l’attaque qui suit, rançongiciel ou messagerie piratée, puisque beaucoup d’attaques commencent ainsi. Le cas à vérifier est le virement qu’un salarié aurait été poussé à faire : beaucoup de contrats l’excluent ou le plafonnent."
   - q: "L’assurance cyber couvre-t-elle un site internet piraté ?"
-    a: "En général oui quand il s’agit d’une attaque : l’enquête, le nettoyage et la remise en ligne relèvent des garanties dommages, dans la limite du plafond et après la franchise. Si le site vous apporte des ventes, le chiffre d’affaires perdu pendant l’arrêt relève des pertes d’exploitation, après le délai de carence."
+    a: "En général oui : l’enquête, le nettoyage et la remise en ligne d’un site piraté relèvent des garanties dommages, dans la limite du plafond et après la franchise. Si le site vous apporte des ventes, le chiffre d’affaires perdu pendant l’arrêt relève des pertes d’exploitation, après le délai de carence."
 ---
 
 Une assurance cyber paie ce que vous coûte une attaque ou une fuite de données : les spécialistes qui l’arrêtent, la remise en état de vos systèmes et de vos données, le chiffre d’affaires perdu pendant l’arrêt et les réclamations des personnes dont les données ont fuité. Pour une équipe sans service informatique, la ligne d’assistance fournie avec beaucoup de contrats compte autant que l’indemnité.
@@ -39,7 +39,7 @@ La plupart des contrats ont deux volets. Les **garanties dommages** paient vos p
 |---|---|---|
 | Assistance et gestion de crise | Une ligne joignable 24 h/24, l’enquête technique pour savoir comment l’attaquant est entré, un avocat les premiers jours | Si vous devez passer par les prestataires de l’assureur |
 | Restauration | Le nettoyage et la reconstruction des ordinateurs, serveurs, sites et données | Vous retrouvez ce que vous aviez, pas une version améliorée |
-| Pertes d’exploitation | Le chiffre d’affaires perdu pendant l’arrêt | Le délai de carence avant la prise en charge, et sa durée |
+| Pertes d’exploitation | Le chiffre d’affaires perdu pendant l’arrêt | Le délai de carence avant la prise en charge, et la durée d’indemnisation |
 | Extorsion | Des négociateurs et, quand c’est légal, la rançon | L’accord préalable de l’assureur |
 | Notification | L’information des personnes concernées, un centre d’appels | Si elle ne joue que lorsque la loi impose de prévenir |
 | Responsabilité civile | Les réclamations de clients ou de partenaires après une fuite, ou si vous leur avez transmis un virus | Le plafond, et si les frais de défense l’entament |
@@ -47,7 +47,7 @@ La plupart des contrats ont deux volets. Les **garanties dommages** paient vos p
 
 Certains contrats couvrent aussi ce que publie votre site, la panne d’un prestataire dont vous dépendez, ou un arrêt qui n’est pas une attaque, comme une mise à jour ratée. D’autres non : lisez la liste des événements garantis, pas la plaquette commerciale.
 
-Pour les amendes, je ferais comme si une sanction de la CNIL restait à votre charge : qu’elle puisse légalement être assurée est loin d’être acquis. Les frais d’avocat pour répondre à la CNIL sont la partie sur laquelle compter.
+Pour les amendes, je ferais comme si une sanction de la CNIL restait à votre charge : l’ACPR, qui contrôle les assureurs, estime que l’ordre public s’oppose à l’assurance des amendes administratives. Les frais d’avocat pour répondre à la CNIL sont la partie sur laquelle compter.
 
 ## Les clauses qui décident de l’indemnisation
 
@@ -65,12 +65,12 @@ Ce que vous saviez avant la date d’effet est exclu, et certains contrats ne co
 
 ### Franchise, délai de carence et sous-limites
 
-Vous payez d’abord la franchise. Les pertes d’exploitation ne sont en général prises en charge qu’après un délai de carence, souvent compté en heures, et jusqu’à la fin de la période d’indemnisation. L’extorsion, la fraude et la notification ont souvent leurs propres sous-limites : le plafond affiché est rarement ce que vous toucherez pour un incident donné.
+La franchise reste à votre charge. Les pertes d’exploitation ne sont en général prises en charge qu’après un délai de carence, souvent compté en heures, et jusqu’à la fin de la période d’indemnisation. L’extorsion, la fraude et la notification ont souvent leurs propres sous-limites : le plafond affiché est rarement ce que vous toucherez pour un incident donné.
 
 ## Ce que vous devez faire le jour de l’incident
 
 - **Appelez d’abord la ligne d’assistance de l’assureur.** Beaucoup de contrats exigent son accord avant de mandater un prestataire, de payer une rançon ou de reconnaître votre responsabilité ; les frais engagés sans cet accord peuvent rester à votre charge.
-- **Déclarez le sinistre dans le délai du contrat**, parfois « dès que possible ».
+- **Déclarez le sinistre dès que vous en avez connaissance**, et au plus tard dans le délai prévu au contrat.
 - **Gardez les preuves** : n’effacez ni l’ordinateur infecté ni la règle de transfert créée par l’attaquant avant qu’un spécialiste les ait examinés. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après une cyberattaque{{< /a >}} liste ce qu’il faut garder et qui appeler.
 - **Portez plainte dans les 72 heures.** Depuis le 24 avril 2023, l’article L. 12-10-1 du Code des assurances, issu de la loi LOPMI, subordonne l’indemnisation des pertes causées par une attaque contre vos systèmes au dépôt d’une plainte au plus tard 72 heures après que vous en avez eu connaissance ([FAQ de la direction générale du Trésor](https://www.tresor.economie.gouv.fr/Institutionnel/Niveau2/Pages/39db1de3-1230-46a0-8e1b-d38a739e0885/files/9065d98f-099e-4eb4-9ba5-23b68cd50feb)). La règle vise les entreprises et les personnes qui agissent à titre professionnel ; la plainte seule ne garantit pas la prise en charge. La plainte se dépose au commissariat, à la gendarmerie ou par écrit auprès du procureur de la République ; [17Cyber](https://www.17cyber.gouv.fr/) vous oriente.
 
@@ -129,4 +129,4 @@ Demandez les réponses par écrit. Ce guide décrit le fonctionnement de l’ass
 - Rendez vos réponses vraies : double authentification, sauvegardes, mises à jour, rappel téléphonique avant tout changement de RIB.
 - Revoyez le contrat à chaque échéance, et dès que vous commencez à encaisser des paiements, à détenir plus de données ou à signer avec un client exigeant.
 
-Les prestataires de l’assureur s’occupent de l’enquête sur vos ordinateurs ; un site piraté, un nom de domaine perdu ou un compte bloqué, c’est le type de dépannage que je prends en charge moi-même, le jour même ou sous 24 heures.
+Avec ou sans assurance, un site piraté, un nom de domaine perdu ou un compte bloqué, c’est le type de dépannage que je prends en charge, le jour même ou sous 24 heures ; si vous avez un contrat, vérifiez d’abord si l’assureur doit valider le prestataire.
