@@ -56,7 +56,7 @@ The CNIL's reference framework for managing commercial activities (the référen
 
 {{< callout type="tip" >}}Only **the prospect** restarts the clock: a reply, a call, a request for documentation, a click on a link in one of your emails. Your own follow-ups do not count, and neither does an email that was merely opened.{{< /callout >}}
 
-The CNIL's [questions and answers on these frameworks](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des) (in French) give the details. A framework is guidance rather than law, but if you depart from it, you must be able to justify the difference.
+The CNIL's [questions and answers on these frameworks](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des) (in French) give the details.
 
 The ICO publishes no equivalent figure for prospects. A UK business can still adopt three years as its own rule: a period a regulator already considers reasonable is easier to defend than one picked out of the air. If your sales cycle is short, choose shorter. If your prospects come from cold emailing, my {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers what you must tell them in the first message.
 

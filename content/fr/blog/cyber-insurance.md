@@ -29,7 +29,7 @@ faq:
 
 Une assurance cyber paie ce que vous coûte une attaque ou une fuite de données : les spécialistes qui l’arrêtent, la remise en état de vos systèmes et de vos données, le chiffre d’affaires perdu pendant l’arrêt et les réclamations des personnes dont les données ont fuité. Pour une équipe sans service informatique, la ligne d’assistance fournie avec beaucoup de contrats compte autant que l’indemnité.
 
-Elle ne remplace pas la sécurité et ne paie pas tout. Une indemnisation se joue sur quelques lignes : exclusions, sous-limites, conditions et réponses au questionnaire de souscription. Ce guide les passe en revue pour un contrat souscrit en France, avec la règle de la plainte sous 72 heures.
+Elle ne remplace pas la sécurité et ne paie pas tout. Une indemnisation se joue sur quelques lignes : exclusions, sous-limites, conditions et réponses au questionnaire de souscription. Ce guide les passe en revue pour un contrat souscrit en France.
 
 ## Ce que couvre une assurance cyber
 
@@ -47,15 +47,13 @@ La plupart des contrats ont deux volets. Les **garanties dommages** paient vos p
 
 Certains contrats couvrent aussi ce que publie votre site, la panne d’un prestataire dont vous dépendez, ou un arrêt qui n’est pas une attaque, comme une mise à jour ratée. D’autres non : lisez la liste des événements garantis, pas la plaquette commerciale.
 
-Pour les amendes, je ferais comme si une sanction de la CNIL restait à votre charge : qu’une amende administrative puisse légalement être assurée est loin d’être acquis. Les frais d’avocat pour répondre à la CNIL sont la partie sur laquelle compter.
+Pour les amendes, je ferais comme si une sanction de la CNIL restait à votre charge : qu’elle puisse légalement être assurée est loin d’être acquis. Les frais d’avocat pour lui répondre sont la partie sur laquelle compter.
 
 ## Les clauses qui décident de l’indemnisation
 
 ### Fraude au faux RIB et au président
 
-Si un escroc convainc quelqu’un de l’équipe de payer une fausse facture ou de virer de l’argent sur un « nouveau RIB », rien n’a été piraté : c’est votre équipe qui a fait le virement. Beaucoup de contrats cyber excluent ce cas, le proposent en option ou le plafonnent à une sous-limite bien inférieure au plafond principal, parfois à condition que le nouveau RIB ait été vérifié par téléphone. Certains assureurs le rangent dans un contrat « fraude » distinct. Si vous payez vos fournisseurs par virement, lisez cette ligne en premier ; mon guide sur {{< a key="invoice-fraud-bank-details" >}}la fraude au faux RIB{{< /a >}} détaille les habitudes qui l’empêchent.
-
-Depuis le 9 octobre 2025, votre banque vérifie aussi que le nom du bénéficiaire correspond à l’IBAN avant un virement en euros. Si elle affiche une absence de correspondance, arrêtez-vous et appelez le fournisseur au numéro que vous aviez déjà.
+Si un escroc convainc quelqu’un de l’équipe de payer une fausse facture ou de virer de l’argent sur un « nouveau RIB », rien n’a été piraté : c’est votre équipe qui a fait le virement. Beaucoup de contrats cyber excluent ce cas, le proposent en option ou le plafonnent à une sous-limite bien inférieure au plafond principal, parfois à condition que le nouveau RIB ait été vérifié par téléphone. Si vous payez vos fournisseurs par virement, lisez cette ligne en premier ; mon guide sur {{< a key="invoice-fraud-bank-details" >}}la fraude au faux RIB{{< /a >}} détaille les habitudes qui l’empêchent.
 
 ### Guerre et attaques soutenues par un État
 
@@ -73,8 +71,8 @@ Vous payez d’abord la franchise. Les pertes d’exploitation ne sont en géné
 
 - **Appelez d’abord la ligne d’assistance de l’assureur.** Beaucoup de contrats exigent son accord avant de mandater un prestataire, de payer une rançon ou de reconnaître votre responsabilité ; les frais engagés sans cet accord peuvent rester à votre charge.
 - **Déclarez le sinistre dans le délai du contrat**, parfois « dès que possible ».
-- **Gardez les preuves** : n’effacez pas un ordinateur infecté et ne supprimez pas la règle de transfert créée par l’attaquant avant qu’elle ait été relevée. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après une cyberattaque{{< /a >}} liste ce qu’il faut garder et qui appeler.
-- **Portez plainte dans les 72 heures.** Depuis le 24 avril 2023, l’article L. 12-10-1 du Code des assurances, issu de la loi LOPMI, subordonne l’indemnisation des pertes causées par une attaque contre vos systèmes au dépôt d’une plainte au plus tard 72 heures après que vous en avez eu connaissance ([FAQ de la direction générale du Trésor](https://www.tresor.economie.gouv.fr/Institutionnel/Niveau2/Pages/39db1de3-1230-46a0-8e1b-d38a739e0885/files/9065d98f-099e-4eb4-9ba5-23b68cd50feb)). La règle vise les entreprises et les personnes qui agissent à titre professionnel ; la plainte seule ne garantit pas la prise en charge. [17Cyber](https://www.17cyber.gouv.fr/) vous oriente et, pour une attaque grave, vous met en relation avec un policier ou un gendarme ; la plainte se dépose au commissariat, à la gendarmerie ou par écrit auprès du procureur de la République.
+- **Gardez les preuves** : n’effacez ni l’ordinateur infecté ni la règle de transfert créée par l’attaquant avant qu’un spécialiste les ait relevés. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après une cyberattaque{{< /a >}} liste ce qu’il faut garder et qui appeler.
+- **Portez plainte dans les 72 heures.** Depuis le 24 avril 2023, l’article L. 12-10-1 du Code des assurances, issu de la loi LOPMI, subordonne l’indemnisation des pertes causées par une attaque contre vos systèmes au dépôt d’une plainte au plus tard 72 heures après que vous en avez eu connaissance ([FAQ de la direction générale du Trésor](https://www.tresor.economie.gouv.fr/Institutionnel/Niveau2/Pages/39db1de3-1230-46a0-8e1b-d38a739e0885/files/9065d98f-099e-4eb4-9ba5-23b68cd50feb)). La règle vise les entreprises et les personnes qui agissent à titre professionnel ; la plainte seule ne garantit pas la prise en charge. La plainte se dépose au commissariat, à la gendarmerie ou par écrit auprès du procureur de la République ; [17Cyber](https://www.17cyber.gouv.fr/) vous oriente.
 
 Cette horloge court en parallèle de celle du RGPD : si des données personnelles sont en jeu, vous avez 72 heures pour notifier la CNIL, comme l’explique mon guide sur {{< a key="gdpr-data-breach" >}}la notification d’une violation de données{{< /a >}}.
 
@@ -98,8 +96,8 @@ Si vous partez de loin, le diagnostic gratuit MonAideCyber de l’ANSSI (environ
 
 Avant de souscrire, relisez les contrats que vous payez déjà.
 
-- **Multirisque professionnelle.** Certaines incluent une petite extension cyber ; d’autres excluent les événements cyber noir sur blanc. Cherchez le mot « cyber » dans les exclusions comme dans les garanties.
-- **Responsabilité civile professionnelle.** Elle répond des réclamations pour une faute dans votre travail, pas de vos propres frais après une attaque, et certaines excluent les fuites de données.
+- **Multirisque professionnelle.** Certaines incluent une petite extension cyber ; d’autres excluent les événements cyber noir sur blanc.
+- **Responsabilité civile professionnelle.** Elle répond des réclamations pour une faute dans votre travail, pas de vos propres frais après une attaque.
 
 ## Quand l’assurance cyber vaut le coup pour une petite équipe
 
@@ -112,7 +110,7 @@ Je regarderais sérieusement un contrat si l’un de ces points est vrai :
 
 C’est moins urgent pour un consultant indépendant dont le travail vit dans des services cloud courants avec des sauvegardes testées, et qui pourrait travailler une semaine depuis son téléphone. Dans ce cas, je mettrais le premier budget dans les bases de mon {{< a key="cybersecurity-guide" >}}guide de cybersécurité pour les petites équipes{{< /a >}} : elles rendent une attaque moins probable, alors qu’une assurance ne paie qu’après.
 
-Pour l’ordre de grandeur, l’étude [LUCY 2026 de l’AMRAE](https://www.amrae.fr/sites/default/files/public/2026-06/AMRAE_LUCY_2026_FR_Hdef.pdf), l’association qui réunit les risk managers des entreprises, compte 1 251 sinistres cyber indemnisés en 2025 contre 448 en 2024, pour 83,2 M€ (54,5 M€ un an plus tôt), et une forte hausse du nombre d’ETI (+75 %) et d’entreprises de taille moyenne (+97 %) assurées. Une édition précédente décrivait un taux de couverture très faible chez les TPE et PME.
+Pour l’ordre de grandeur, l’étude [LUCY 2026 de l’AMRAE](https://www.amrae.fr/sites/default/files/public/2026-06/AMRAE_LUCY_2026_FR_Hdef.pdf), l’association des risk managers, compte 1 251 sinistres cyber indemnisés en 2025 contre 448 en 2024, pour 83,2 M€ (54,5 M€ un an plus tôt), et une forte hausse du nombre d’ETI (+75 %) et d’entreprises de taille moyenne (+97 %) assurées. Une édition précédente décrivait un taux de couverture très faible chez les TPE et PME.
 
 ## Les questions à poser à votre courtier ou à votre assureur
 
@@ -121,7 +119,6 @@ Pour l’ordre de grandeur, l’étude [LUCY 2026 de l’AMRAE](https://www.amra
 3. Puis-je faire appel à mon prestataire informatique, ou dois-je passer par ceux de l’assureur ?
 4. Quelles mesures de sécurité le contrat suppose-t-il, et que se passe-t-il si l’une manquait le jour de l’attaque ?
 5. Comment l’exclusion de guerre ou d’attaque étatique définit-elle une attaque, et qui tranche l’attribution ?
-6. Les arrêts qui ne sont pas des attaques, ou qui touchent un prestataire dont je dépends, sont-ils couverts ?
 
 Demandez les réponses par écrit. Ce guide décrit le fonctionnement de l’assurance cyber au 19 octobre 2026 ; ce n’est pas un conseil juridique. Un courtier spécialisé en cyber vaut le coup dès que vous détenez beaucoup de données personnelles ou qu’un client impose ses conditions, et un avocat quand un contrat vous rend responsable au-delà de ce que couvre l’assurance.
 

@@ -168,7 +168,7 @@ Track these instead, issue by issue:
 
 A simple sheet is enough: issue, topic, clicks, replies, calls. After six issues, write more of what got replies.
 
-{{< callout type="note" >}}In France, the CNIL's [recommendation on email tracking pixels](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf) (April 2026, in French) says a pixel that measures opens for marketing needs the reader's consent, B2B emails included as law firms read it, with narrow exceptions such as security and deliverability. Replies and calls need no tracker. This is a summary, not legal advice: if you write to readers in France and measure opens, have your set-up checked by a lawyer or your DPO.{{< /callout >}}
+{{< callout type="note" >}}In France, the CNIL's [recommendation on email tracking pixels](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf) (April 2026, in French) says a pixel that measures opens for marketing needs the reader's consent, B2B included as law firms read it, with narrow exceptions such as deliverability. Replies need no tracker. This is a summary, not legal advice: if you measure opens of readers in France, ask a lawyer or your DPO.{{< /callout >}}
 
 ## Your first three issues: a plan for this month
 
