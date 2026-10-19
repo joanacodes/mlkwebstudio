@@ -115,7 +115,7 @@ In that case, the money may work harder elsewhere first. My comparison of {{< a 
 App campaigns optimise on the conversions you send back to Google Ads, so set up tracking and test it before launch. Three sources can feed Google Ads:
 
 1. **Firebase** (Google Analytics for Firebase), Google's SDK for Android and iOS: your developer adds it to the app, and the events that matter, such as a sign-up or a purchase, are imported into Google Ads as conversions.
-2. **Google Play**, for Android apps: Google Ads can measure installs through Google Play. Do not expect its totals to match the Play Console, because Google Ads only counts installs from its ads, while Google Play also counts direct ones.
+2. **Google Play**, for Android apps: Google Ads can measure installs through it, but its totals will not match the Play Console, which also counts direct installs.
 3. **A third-party attribution partner**, also called a mobile measurement partner, such as AppsFlyer or Adjust: useful when you advertise on several networks and want one source of truth.
 
 Even if you start with installs, send your key in-app events from day one, so the data is there when you move to in-app actions.
@@ -129,7 +129,7 @@ On iPhone, Apple's App Tracking Transparency (ATT) rules oblige an app to ask pe
 - decide whether the ATT prompt makes sense for your app: people who accept it give Google more observed conversions to learn from;
 - keep to eight or fewer iOS install campaigns per app, as Google says more harms performance and SKAdNetwork reporting.
 
-Expect iOS reports to rely more on modelled conversions, and judge iOS campaigns on trends over several weeks rather than day by day.
+Expect more modelled conversions in iOS reports, and judge iOS campaigns on trends over weeks, not days.
 
 ### Consent for users in Europe, the UK and Switzerland
 
@@ -141,10 +141,7 @@ A new campaign goes through a learning period while Google works out who install
 
 After that, read each campaign: installs, cost per install, the cost of the in-app action you care about, and the asset report. Compare the cost per install with the target you worked out from what a user is worth, not with what feels cheap.
 
-Besides the budget, tracking and asset mistakes covered above, watch two others:
-
-- **Locations and languages that do not match your assets.** Google shows the ads in the locations and languages you choose, and an English-only listing advertised in France is unlikely to convert well.
-- **Staying on installs too long.** Installs are the cheapest conversion and the least telling one.
+Besides the budget, tracking and asset mistakes covered above, watch one more: **locations and languages that do not match your assets**. Google shows the ads in the locations and languages you choose, and an English-only listing advertised in France is unlikely to convert well.
 
 ## When to start, and a launch checklist
 

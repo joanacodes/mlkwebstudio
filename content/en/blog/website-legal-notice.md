@@ -73,7 +73,7 @@ The French list applies to every professional website, whatever the size of the 
 | Name | Legal name and legal form | Your surname and first name, with “EI” or “entrepreneur individuel”, as on your invoices |
 | Address | Registered office | Your address |
 | Phone and email | Yes | Yes |
-| Registration number | SIREN number, written “RCS” plus the registry’s town and the number for a commercial company | SIREN number |
+| Registration number | SIREN number, shown as “RCS [registry town] [number]” for a commercial company | SIREN number |
 | Share capital | Yes | Not applicable |
 | VAT number | If you have one | If you have one |
 | Publication director | The legal representative, such as the gérant or the président | You |
@@ -106,7 +106,7 @@ Contact: [email address]
 
 A sole trader has no company number to show, but the 2002 Regulations ask for the name of the person behind the business: put your own name next to your trading name, with a geographic address and an email address.
 
-Missing company disclosures are an offence by the company and every officer in default, with a fine of up to £1,000. Under section 83 of the Companies Act 2006, a court can also dismiss the company’s claim on a contract made during the breach, if the other side shows the missing details cost it money or blocked its own claim.
+Missing company disclosures are an offence committed by the company and every officer in default, punishable by a fine of up to £1,000. Under section 83 of the Companies Act 2006, a court can also dismiss the company’s claim on a contract made during the breach, if the other side shows the missing details cost it money or blocked its own claim.
 
 ## Selling into France or the EU from outside it
 

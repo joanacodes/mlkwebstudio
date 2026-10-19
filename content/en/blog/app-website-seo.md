@@ -59,9 +59,7 @@ Google's rule is that its badge must be the same size as the other store badges,
 
 ## App landing page SEO: target what people type on Google
 
-Store keywords and web keywords overlap less than you would think: in a store, people type category words because they already want an app; on Google, many describe a problem before deciding they need one. Target those searches.
-
-My starting point is what people complain about: I use AI deep research to find the complaints and the words that come back most often in a niche, then check search volumes in Semrush. Reviews of competing apps and your own support emails are the best raw material. Then turn the research into pages:
+Store keywords and web keywords overlap less than you would think, so research the web ones separately. My starting point is what people complain about: I use AI deep research to find the complaints and the words that come back most often in a niche, then check search volumes in Semrush. Reviews of competing apps and your own support emails are the best raw material. Then turn the research into pages:
 
 - **One page per use case.** A bill-splitting app ranks better with a page for flatmates and another for group holidays than with one page covering both. Each ends with the badges.
 - **A title and a meta description per page**, built around that page's keyword.

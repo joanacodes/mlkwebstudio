@@ -41,7 +41,7 @@ Ce ne sont pas les seules pages légales de votre pied de page :
 
 | Page | La question à laquelle elle répond | Textes principaux |
 |---|---|---|
-| Mentions légales | Qui édite ce site, et comment le joindre ? | LCEN ; directive sur le commerce électronique, article 5 |
+| Mentions légales | Qui édite ce site, et comment le joindre ? | LCEN |
 | Politique de confidentialité | Quelles données collectez-vous sur moi, pourquoi, et quels sont mes droits ? | RGPD, articles 13 et 14 |
 | Information sur les cookies | Quels traceurs utilisez-vous, et comment les refuser ? | Loi Informatique et Libertés, article 82 |
 | CGV | À quelles conditions est-ce que j’achète chez vous ? | Code de la consommation |
@@ -66,7 +66,7 @@ Chaque pays transpose cette liste dans sa loi, et une entreprise de l’UE suit 
 
 ## Les mentions légales obligatoires sur un site internet en France
 
-La liste française s’applique à tout site professionnel, quelle que soit la taille de l’entreprise. Elle vient de la [loi pour la confiance dans l’économie numérique](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164) du 21 juin 2004 (LCEN), dont l’article 1-1 la regroupe : la loi SREN du 21 mai 2024 l’y a transférée de l’ancien article 6, III. La LCEN transpose aussi l’article 5 de la directive, qui ajoute l’adresse email, le numéro de TVA et les informations propres aux professions réglementées.
+La liste française vient de la [loi pour la confiance dans l’économie numérique](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164) du 21 juin 2004 (LCEN), dont l’article 1-1 la regroupe : la loi SREN du 21 mai 2024 l’y a transférée de l’ancien article 6, III. La LCEN transpose aussi l’article 5 de la directive, qui ajoute l’adresse email, le numéro de TVA et les informations propres aux professions réglementées.
 
 | À publier | Société (SARL, SAS…) | Entrepreneur individuel (micro-entrepreneur compris) |
 |---|---|---|
@@ -93,20 +93,12 @@ Un site qui vend à des consommateurs ajoute des conditions générales de vente
 
 Le droit britannique ne connaît pas de page « mentions légales », mais les informations y sont tout aussi obligatoires pour une société ou un site destiné au Royaume-Uni. Elles viennent de deux textes.
 
-1. **Les Electronic Commerce (EC Directive) Regulations 2002**, toujours en vigueur après le Brexit. Leur regulation 6 reprend l’article 5 de la directive : nom, adresse géographique, adresse email, registre et numéro, numéro de TVA si l’entreprise y est immatriculée, et les informations d’autorisation et de profession le cas échéant. Elle vise les sole traders (nos entrepreneurs individuels) et les partnerships autant que les sociétés.
+1. **Les Electronic Commerce (EC Directive) Regulations 2002**, toujours en vigueur après le Brexit. Leur regulation 6 reprend la liste de l’article 5 de la directive. Elle vise les sole traders (nos entrepreneurs individuels) et les partnerships autant que les sociétés.
 2. **Les règles de « trading disclosures »** des sociétés, dans les Company, Limited Liability Partnership and Business (Names and Trading Disclosures) Regulations 2015. Le site d’une limited company doit afficher sa dénomination, son company number, l’adresse de son siège (registered office) et la partie du Royaume-Uni où elle est immatriculée, comme le [résume GOV.UK](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material) (en anglais).
 
-Beaucoup de sociétés britanniques couvrent les deux avec quelques lignes en bas de chaque page :
+Un sole trader, sans company number, indique son propre nom à côté de son nom commercial, avec une adresse géographique et un email.
 
-```
-[Nom] Ltd · Registered in England and Wales · Company number [numéro]
-Registered office: [adresse complète] · VAT number: GB[9 chiffres]
-Contact: [adresse email]
-```
-
-Un sole trader n’a pas de company number, mais les Regulations de 2002 demandent le nom de la personne derrière l’entreprise : il indique son propre nom à côté de son nom commercial, avec une adresse géographique et un email.
-
-L’absence de ces informations est une infraction pour la société et chaque dirigeant fautif, punie d’une amende. L’article 83 du Companies Act 2006 permet aussi au juge de rejeter la demande de la société sur un contrat conclu pendant le manquement, si l’autre partie montre que ce défaut lui a coûté de l’argent ou l’a empêchée d’exercer ses propres recours.
+L’absence de ces informations est une infraction pour la société et chaque dirigeant fautif, punie d’une amende. Elle peut aussi fragiliser la société devant le juge quand elle réclame l’exécution d’un contrat conclu pendant le manquement (article 83 du Companies Act 2006).
 
 ## Vendre en France depuis l’étranger, et au Royaume-Uni depuis la France
 
