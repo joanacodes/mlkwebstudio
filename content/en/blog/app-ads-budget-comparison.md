@@ -64,7 +64,7 @@ In my view, Instagram and Facebook ads are good for awareness and for conversion
 
 Delivery stays in a learning phase until an ad set gets about 50 optimisation events in 7 days, according to [Meta's help centre](https://www.facebook.com/business/help/112167992830700); below that, Ads Manager shows the ad set as "Learning limited". Meta has also charged advertisers a location fee since 1 July 2026: 2% for ads shown in the UK, as reported by Reuters.
 
-iPhone results are the weak spot. Since iOS 14.5 (26 April 2021), Apple's App Tracking Transparency makes apps ask permission before tracking people across other companies' apps and websites, and many people say no. Meta then measures iPhone installs through Apple's SKAdNetwork or its own Aggregated Event Measurement, chosen per campaign, and the results arrive later, grouped and with less detail. For the two giants compared beyond apps, see my article on {{< a key="google-ads-vs-facebook-ads" >}}Google Ads vs Facebook Ads{{< /a >}}.
+iPhone results are the weak spot. Since iOS 14.5 (26 April 2021), Apple's App Tracking Transparency makes apps ask permission before tracking people across other companies' apps and websites, and many people say no. Meta then measures iPhone installs through Apple's SKAdNetwork or its own Aggregated Event Measurement, chosen per campaign, and the results arrive later, grouped and with less detail. For Google and Meta compared beyond apps, see my article on {{< a key="google-ads-vs-facebook-ads" >}}Google Ads vs Facebook Ads{{< /a >}}.
 
 ## TikTok and LinkedIn: not for the first £1,000
 
@@ -87,7 +87,7 @@ Apple and Google both count a month as 30.4 days of average daily budget, so £1
 
 The table explains why splitting is the classic way to waste a first budget, and why Apple Ads with manual bids is the most forgiving start when your app is searched for and your users carry iPhones. To choose, answer three questions:
 
-1. **Do people search for what your app does?** When you add keywords in Apple Ads Advanced, Apple shows a search popularity score from 1 to 5 for each one; a list of 1s means little demand.
+1. **Do people search for what your app does?** When you add keywords in Apple Ads Advanced, Apple shows a search popularity score from 1 to 5 for each one; scores of 1 across the board mean little demand.
 2. **Which phone do your users carry?** Look at the devices in your website analytics or on your waiting list rather than at national averages.
 3. **Can the app show its value in a ten-second video?** If it can, and nobody searches for it, Meta is the better bet.
 

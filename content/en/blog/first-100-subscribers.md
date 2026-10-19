@@ -16,11 +16,11 @@ related: ["funnels-newsletters-guide", "lead-magnet-ideas", "newsletter-consent-
 services: ["websites"]
 faq:
   - q: "Do I need double opt-in for a newsletter?"
-    a: "Neither the GDPR nor PECR requires it, but the GDPR does require you to be able to demonstrate consent (Article 7(1)), and a confirmation click is the simplest proof. It also keeps mistyped and fake addresses off your list."
+    a: "Neither the GDPR nor PECR requires it, but the GDPR does require you to be able to demonstrate consent (Article 7(1)), and a confirmation click is strong evidence that the owner of the address agreed. It also keeps mistyped and fake addresses off your list."
   - q: "Can I import my LinkedIn connections into my newsletter?"
     a: "No. Even when LinkedIn shows you a connection's email address, that person agreed to connect with you, not to receive a newsletter. Invite the people you actually know with a post or a personal message, and let them sign up themselves."
   - q: "Should I offer a gift or a prize for signing up?"
-    a: "A small, useful gift such as a checklist is fine. The ICO allows incentives but warns against unduly incentivising consent, and people who refuse must not be penalised. A prize draw tends to attract people who want the prize, not your emails."
+    a: "A small, useful gift such as a checklist is fine. The ICO allows incentives but warns against unduly incentivising consent, and people who refuse must not be unfairly penalised. A prize draw tends to attract people who want the prize, not your emails."
   - q: "Is it worth paying for ads to get my first subscribers?"
     a: "Rarely for the first 100. Ads bring strangers at a cost before you know whether your issues keep readers, while the people who already know you cost nothing. Test a small budget once your sign-up page converts and readers stay."
   - q: "How many subscribers do I need before sending the first issue?"
