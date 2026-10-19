@@ -20,7 +20,7 @@ faq:
   - q: "Should we pay if ransomware encrypts our files?"
     a: "The ANSSI and the NCSC both advise against it: paying does not guarantee you get your data back, it funds the criminals and it does not prevent the next attack. Isolate the infected machines, report the attack and restore from a backup made before the infection."
   - q: "Is Cyber Essentials worth it for a small team?"
-    a: "It is worth it when a client or a public contract asks for it. The certificate, renewed every 12 months, shows that five basic controls are in place, and a UK organisation with a turnover under £20 million that certifies all of its operations can opt in to cyber liability insurance arranged by IASME, with £25,000 (about $33,000) of cover. Otherwise, the five controls make a good free checklist."
+    a: "It is worth it when a client or a public contract asks for it. The certificate, renewed every 12 months, shows that five basic controls are in place, and a UK business or charity with a turnover under £20 million that certifies its whole organisation can opt in to cyber liability insurance arranged by IASME, with £25,000 (about $33,000) of cover. Otherwise, the five controls make a good free checklist."
   - q: "Who should look after cyber security in a team without an IT department?"
     a: "One named person, often the owner or an office manager, with a deputy. They keep the list of accounts and administrators, check that backups run, remove leavers' access and keep the incident plan up to date. They do not need to be technical, but they need an hour in the diary every month."
   - q: "Should we report a cyber attack to the police?"
@@ -75,7 +75,7 @@ Your domain needs protecting as well. Without SPF, DKIM and DMARC records, anyon
 
 ## Data: backups and your cloud suite
 
-Ransomware, a deleted folder and a sync that copies the damage everywhere all end the same way when there is no backup. The 3-2-1 rule is the standard answer, recommended by the ANSSI among others: three copies of your data, on two kinds of storage, one of them away from the office and ideally offline or impossible to modify.
+Ransomware, a deleted folder and a sync that copies the damage everywhere all end the same way when there is no backup. The 3-2-1 rule is the standard answer: three copies of your data, on two kinds of storage, one of them away from the office and ideally offline or impossible to modify. The ANSSI, which recommends it, treats an offline copy as indispensable.
 
 It is tempting to assume Google or Microsoft does it for you. Google Workspace and Microsoft 365 keep deleted items for weeks or months, not years, and sync faithfully copies deletions and encrypted files. {{< a key="backups-3-2-1" >}}My guide to the 3-2-1 backup rule{{< /a >}} covers your files, Google Workspace and Microsoft 365, with a restore test to run every three months.
 
@@ -150,7 +150,7 @@ You do not need me, or anyone, for most of this guide. Bring in help when:
 
 - an account or your website is still compromised after you changed the passwords;
 - money has gone and you need to know how the fraudster got in;
-- ransomware has encrypted your files and there is no clean backup: start with Report Fraud (Police Scotland in Scotland) or 17Cyber in France, which refers victims to referenced providers or ones labelled ExpertCyber, and call your insurer's incident line if you have one;
+- ransomware has encrypted your files and there is no clean backup: report it (Report Fraud, Police Scotland in Scotland, 17Cyber in France), call your insurer's incident line if you have one, and look for a specialist assured under the NCSC's Cyber Incident Response scheme in the UK, or labelled ExpertCyber in France (17Cyber can refer you);
 - a client's questionnaire asks for evidence you cannot produce alone;
 - nobody knows who holds the admin accounts or the domain.
 

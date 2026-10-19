@@ -64,7 +64,7 @@ If you cannot launch both at once, start where your customers are. Statcounter's
 
 ### Built with AI, by an agency, or for your team only
 
-How the app was built changes the risks, not the launch steps. If you are building it yourself, {{< a key="build-app-with-ai" >}}what is realistic when you build an app with AI{{< /a >}} draws the line: AI builders suit a small tool for you or your team, and a developer becomes necessary once the app stores clients' personal data, has customer logins or takes payments. AI has shortened my own delivery times a lot; it has not shortened this list.
+How the app was built changes the risks, not the launch steps. If you are building it yourself, my guide to {{< a key="build-app-with-ai" >}}what is realistic when you build an app with AI{{< /a >}} draws the line: AI builders suit a small tool for you or your team, and a developer becomes necessary once the app stores clients' personal data, has customer logins or takes payments. AI has shortened my own delivery times a lot; it has not shortened this list.
 
 If the app is only for your team, like {{< a key="bespoke-crm-internal-app" >}}the internal CRM I built for a client whose leads piled up{{< /a >}}, the marketing half of this guide does not apply: nobody needs to find it in a store or click an ad. The privacy and security half still does.
 
@@ -92,9 +92,9 @@ Store review checks the app you submit, not the server behind it, so an app can 
 3. {{< a key="ai-app-data-leaks" >}}Is your AI-built app leaking data?{{< /a >}} is for apps whose AI builder connected them straight to Supabase or Firebase. There, row level security or Firebase's Security Rules are the only lock on your data, and the tutorial shows how to test them the way a stranger would.
 4. {{< a key="cyber-resilience-act-apps" >}}The EU Cyber Resilience Act and your app{{< /a >}} covers the law that now sits on top of all this.
 
-The Cyber Resilience Act (Regulation (EU) 2024/2847, [full text on EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847)) makes security a legal duty as well as a practical one. As of 19 October 2026, its reporting duties have applied since 11 September 2026: if a vulnerability in your app is actively exploited, or a severe incident hits it, you send an early warning within 24 hours through ENISA's Single Reporting Platform (Article 14). Most other requirements, including security updates for the app's support period and the CE marking, apply from 11 December 2027. Micro and small enterprises cannot be fined for missing the 24-hour early warning (Article 64(10)), but the 72-hour notification and the final report still apply to them.
+The Cyber Resilience Act (Regulation (EU) 2024/2847, [full text on EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847)) makes security a legal duty as well as a practical one. As of 19 October 2026, its reporting duties have applied since 11 September 2026: if a vulnerability in your app is actively exploited, or a severe incident hits it, you send an early warning within 24 hours through ENISA's Single Reporting Platform (Article 14). Most other requirements, including security updates for the app's support period and the CE marking, apply from 11 December 2027, to new apps and to apps already on the market that change substantially after that date (Article 69). Micro and small enterprises cannot be fined for missing the 24-hour early warning (Article 64(10)), but the 72-hour notification and the final report still apply to them.
 
-In the UK, the government's voluntary code of practice for app store operators and app developers already asks for something similar: a vulnerability disclosure process that people can reach from your store listing. For the security of the rest of your business, see {{< a key="cybersecurity-guide" >}}my cybersecurity guide for small teams{{< /a >}}.
+In the UK, the government's voluntary code of practice for app store operators and app developers already asks for something similar: a vulnerability disclosure process that people can reach from your store listing. For the rest of your business (a password manager and two-factor authentication, backups, a check before paying new bank details, a plan for the first hour of an incident), see {{< a key="cybersecurity-guide" >}}my cybersecurity guide for small teams{{< /a >}}.
 
 ## Get found: app store optimisation
 
@@ -125,7 +125,7 @@ A small site is enough to start: a landing page, a privacy page and a support pa
 Paid installs only pay off when the page they land on converts. Before you spend, make sure your listing turns visitors into installs, you have a handful of genuine reviews and your installs are measured. Then choose one platform:
 
 - **Apple Ads** (called Apple Search Ads until April 2025) shows your app at the top of App Store search results, and also in the Today tab, the Search tab and on other apps' product pages. {{< a key="apple-ads-tutorial" >}}The Apple Ads tutorial{{< /a >}} sets up a first campaign step by step: exact match keywords for your brand and category, a daily budget, a maximum cost-per-tap bid and a discovery campaign that finds new searches.
-- **Google App campaigns** run one campaign across Google Search, YouTube, Discover, the Display Network and, for Android apps, Google Play, built from the text, images and videos you supply. {{< a key="google-app-campaigns" >}}How Google App campaigns work{{< /a >}} explains the budget rule that surprises people: Google advises a daily budget of at least 50 times your target cost per install, so a £1 target means £50 a day, about £1,520 a month.
+- **Google App campaigns** turn the text, images and videos you supply into ads on Google Search, YouTube, Discover, the Display Network and, for Android apps, Google Play, all from one campaign. {{< a key="google-app-campaigns" >}}How Google App campaigns work{{< /a >}} explains the budget rule that surprises people: Google advises a daily budget of at least 50 times your target cost per install, so a £1 target means £50 a day, about £1,520 a month.
 - **Meta** (Facebook and Instagram) reaches people who are not searching yet, which suits an app that explains itself in a short video.
 
 To choose, read {{< a key="app-ads-budget-comparison" >}}where to spend your app's first £1,000{{< /a >}}. Its advice is one platform, not three: Apple Ads if people search the App Store for what your app does and many of your users have iPhones, Google if they are mostly on Android, Meta if the app sells itself on screen.
@@ -146,7 +146,7 @@ Reply to reviews, and fix what they report. Google Play weights its public ratin
 
 Crashes cost you twice: in reviews, and on Google Play in visibility. Google says an app's core vitals affect its visibility, and above its bad behaviour thresholds (a user-perceived crash rate of 1.09% overall, or 0.47% for "app not responding" freezes) Play may reduce the app's visibility and show a warning on its listing. Check Android vitals in Play Console and your crash reports every week during the first month.
 
-Plan updates as part of the launch, not as an afterthought: from December 2027, the Cyber Resilience Act will require security updates for your app's support period.
+Plan updates as part of the launch, not as an afterthought: for an app released or substantially changed from 11 December 2027, the Cyber Resilience Act will require security updates throughout its support period, usually at least five years.
 
 ### The numbers that matter
 
@@ -168,6 +168,6 @@ Downloads alone tell you little. Four numbers tell you where the problem is:
 7. Installs measured, then one ad platform with one budget.
 8. A named person and a process for reporting an actively exploited vulnerability within 24 hours.
 
-You do not need anyone for the listing, the keyword research or replying to reviews: those are writing jobs, and nobody knows your users better than you do. Bring in a developer for the parts where a mistake leaks data: the server, the database rules, the keys and the sign-in. Pay for an independent security test, and a lawyer's review of your privacy set-up, once the app handles health, financial or children's data.
+You do not need anyone for the listing, the keyword research or replying to reviews: those are writing jobs, and nobody knows your users better than you do. Bring in a developer for the parts where a mistake leaks data: the server, the database rules, the keys and the sign-in. Pay for an independent security test once the app handles health, financial or children's data.
 
 When I build an app for a client, I build all of it, with 30% or 50% paid upfront and the rest at delivery. Whoever builds yours, ask before you sign who will handle the store accounts, the privacy forms and the security updates after launch: they are part of launching a mobile app, not extras.

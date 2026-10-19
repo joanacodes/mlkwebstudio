@@ -38,11 +38,11 @@ Je développe des applications de bout en bout pour des clients, et des logiciel
 | Étape | Ce que vous faites | Quand |
 |---|---|---|
 | 1. Préparer | Comptes développeur, tests, déclarations de confidentialité, contrôles de sécurité | Plusieurs semaines avant |
-| 2. Être trouvé | Fiche des stores, mots-clés, site de l’application | Avant le lancement, puis toutes les quelques semaines |
+| 2. Être visible | Fiche des stores, mots-clés, site de l’application | Avant le lancement, puis toutes les quelques semaines |
 | 3. Faire de la publicité | Apple Ads, campagnes Google ou Meta, une plateforme à la fois | Quand la fiche convertit |
 | 4. Durer | Avis, mises à jour, plantages, rétention | Dès le jour du lancement |
 
-L’ordre compte plus que n’importe quelle astuce. Une publicité qui envoie vers une fiche faible gaspille le budget, une fuite de données découverte après le lancement coûte bien plus cher qu’avant, et la règle de test de Google peut retarder de plusieurs semaines une sortie Android si vous la découvrez trop tard.
+L’ordre compte plus que n’importe quelle astuce. Une publicité qui envoie vers une fiche faible gaspille le budget, une fuite de données découverte après le lancement coûte bien plus cher qu’une fuite repérée avant, et la règle de test de Google peut retarder de plusieurs semaines une sortie Android si vous la découvrez trop tard.
 
 ## Avant le lancement : comptes développeur et tests
 
@@ -64,7 +64,7 @@ Si vous ne pouvez pas sortir les deux versions en même temps, commencez là où
 
 ### Créée avec l’IA, par une agence, ou pour votre seule équipe
 
-La façon dont l’application a été construite change les risques, pas les étapes du lancement. Si vous la construisez vous-même, {{< a key="build-app-with-ai" >}}ce qui est réaliste quand on crée une application avec l’IA{{< /a >}} trace la limite : ces générateurs conviennent à un petit outil pour vous ou votre équipe, et un développeur devient nécessaire dès que l’application stocke des données de clients, leur ouvre des comptes ou encaisse des paiements. L’IA a beaucoup raccourci mes propres délais de livraison ; elle n’a pas raccourci cette liste.
+La façon dont l’application a été construite change les risques, pas les étapes du lancement. Si vous la construisez vous-même, mon article sur {{< a key="build-app-with-ai" >}}ce qui est réaliste quand on crée une application avec l’IA{{< /a >}} trace la limite : les générateurs d’applications par IA conviennent à un petit outil pour vous ou votre équipe, et un développeur devient nécessaire dès que l’application stocke des données de clients, leur ouvre des comptes ou encaisse des paiements. L’IA a beaucoup raccourci mes propres délais de livraison ; elle n’a pas raccourci cette liste.
 
 Si l’application ne sert qu’à votre équipe, comme {{< a key="bespoke-crm-internal-app" >}}le CRM interne que j’ai développé pour un client débordé de prospects{{< /a >}}, la moitié marketing de ce guide ne vous concerne pas : personne n’a besoin de la trouver dans un store ni de cliquer sur une annonce. La moitié confidentialité et sécurité, elle, s’applique toujours.
 
@@ -92,11 +92,11 @@ L’examen des stores porte sur l’application que vous soumettez, pas sur le s
 3. {{< a key="ai-app-data-leaks" >}}Votre application créée avec l’IA laisse-t-elle fuiter des données ?{{< /a >}} concerne les applications que l’outil d’IA a reliées directement à Supabase ou Firebase. Là, la sécurité RLS ou les règles de sécurité de Firebase sont le seul verrou sur vos données, et le tutoriel montre comment les tester comme le ferait un inconnu.
 4. {{< a key="cyber-resilience-act-apps" >}}Le Cyber Resilience Act et votre app{{< /a >}} couvre le règlement qui s’ajoute désormais à tout cela.
 
-Le Cyber Resilience Act (règlement (UE) 2024/2847, [texte intégral sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847)) fait de la sécurité une obligation légale autant que pratique. Au 19 octobre 2026, ses obligations de signalement s’appliquent depuis le 11 septembre 2026 : si une faille de votre application est activement exploitée, ou si un incident grave la touche, vous envoyez une alerte précoce sous 24 heures via la plateforme unique de signalement de l’ENISA (article 14). La plupart des autres exigences, dont les mises à jour de sécurité pendant la période d’assistance et le marquage CE, s’appliquent à partir du 11 décembre 2027. Les microentreprises et les petites entreprises ne peuvent pas être sanctionnées pour une alerte précoce manquée (article 64, paragraphe 10), mais la notification sous 72 heures et le rapport final restent dus.
+Le Cyber Resilience Act (règlement (UE) 2024/2847, [texte intégral sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847)) fait de la sécurité une obligation légale autant que pratique. Au 19 octobre 2026, ses obligations de signalement s’appliquent depuis le 11 septembre 2026 : si une faille de votre application est activement exploitée, ou si un incident grave la touche, vous envoyez une alerte précoce sous 24 heures via la plateforme unique de signalement de l’ENISA (article 14). La plupart des autres exigences, dont les mises à jour de sécurité pendant la période d’assistance et le marquage CE, s’appliquent à partir du 11 décembre 2027 aux nouvelles applications, et aux applications déjà sur le marché qui subissent ensuite une modification substantielle (article 69). Les microentreprises et les petites entreprises ne peuvent pas être sanctionnées pour une alerte précoce manquée (article 64, paragraphe 10), mais la notification sous 72 heures et le rapport final restent dus.
 
-Pour la sécurité du reste de votre activité, voyez {{< a key="cybersecurity-guide" >}}mon guide de la cybersécurité pour les petites équipes{{< /a >}}.
+Pour le reste de votre activité (gestionnaire de mots de passe et double authentification, sauvegardes, vérification avant de payer un nouveau RIB, plan pour la première heure d’un incident), voyez {{< a key="cybersecurity-guide" >}}mon guide de la cybersécurité pour les petites équipes{{< /a >}}.
 
-## Être trouvé : l’ASO dans l’App Store et Google Play
+## Être visible : l’ASO dans l’App Store et Google Play
 
 L’ASO, c’est le référencement des applications dans l’App Store et Google Play : choisir les mots que chaque store compare aux recherches, puis rendre la fiche assez convaincante pour qu’on installe. Les deux stores ne lisent pas les mêmes champs, c’est pourquoi un même texte collé dans les deux fonctionne rarement.
 
@@ -118,14 +118,14 @@ Les stores classent votre fiche ; Google classe votre site. Ils répondent à d
 
 {{< a key="app-website-seo" >}}Le SEO du site de votre application{{< /a >}} couvre la landing page (le problème résolu, de vraies captures, les badges officiels des stores, une FAQ), les pages de confidentialité et d’assistance vers lesquelles pointent vos fiches, et les liens entre le site et l’application. Les liens universels d’iOS et les Android App Links ouvrent vos adresses web dans l’application quand elle est installée, et la Smart App Banner d’Apple invite les visiteurs sur iPhone à l’installer sans masquer la page. Si d’anciens liens reposaient sur Firebase Dynamic Links, remplacez-les : Google a fermé le service le 25 août 2025.
 
-Un petit site suffit pour commencer : une landing page, une page de confidentialité et une page d’assistance. C’est aussi une partie de ce qu’Apple demande aux organisations lors de l’inscription, donc il passe en tête de liste. {{< a page="/services/websites" >}}Les sites web{{< /a >}} représentent une grande part de mon travail, et un site simple peut être en ligne bien avant l’application.
+Un petit site suffit pour commencer : une landing page, une page de confidentialité et une page d’assistance. Apple en exige d’ailleurs un des organisations qui s’inscrivent : il passe donc en tête de liste. {{< a page="/services/websites" >}}Les sites web{{< /a >}} représentent une grande part de mon travail, et un site simple peut être en ligne bien avant l’application.
 
 ## Publicité : Apple Ads, campagnes Google ou Meta
 
 Les installations payées ne rapportent que si la page où elles arrivent convertit. Avant de dépenser, vérifiez que votre fiche transforme les visiteurs en installations, que vous avez quelques avis authentiques et que les installations sont mesurées. Choisissez ensuite une plateforme :
 
 - **Apple Ads** (Apple Search Ads jusqu’en avril 2025) affiche votre application en tête des résultats de recherche de l’App Store, mais aussi dans l’onglet Aujourd’hui, l’onglet Recherche et sur les fiches d’autres applications. {{< a key="apple-ads-tutorial" >}}Le tutoriel Apple Ads{{< /a >}} monte une première campagne pas à pas : mots-clés exacts pour votre marque et votre catégorie, budget quotidien, enchère maximale par tap et campagne de découverte qui repère de nouvelles recherches.
-- **Les campagnes pour applications de Google Ads** diffusent une seule campagne sur la recherche Google, YouTube, Discover, le Réseau Display et, pour Android, Google Play, à partir de vos textes, images et vidéos. {{< a key="google-app-campaigns" >}}Le fonctionnement et le budget de ces campagnes{{< /a >}} détaille la règle qui surprend : Google conseille un budget quotidien d’au moins 50 fois votre coût par installation cible, donc pour 1 € visé, 50 € par jour, soit environ 1 520 € par mois.
+- **Les campagnes pour applications de Google Ads** transforment vos textes, images et vidéos en annonces sur la recherche Google, YouTube, Discover, le Réseau Display et, pour Android, Google Play, le tout depuis une seule campagne. {{< a key="google-app-campaigns" >}}Le fonctionnement et le budget de ces campagnes{{< /a >}} détaille la règle qui surprend : Google conseille un budget quotidien d’au moins 50 fois votre coût par installation cible, donc pour 1 € visé, 50 € par jour, soit environ 1 520 € par mois.
 - **Meta** (Facebook et Instagram) touche des gens qui ne cherchent pas encore, ce qui convient à une application qui s’explique en une courte vidéo.
 
 Pour trancher, lisez {{< a key="app-ads-budget-comparison" >}}où investir les 1 000 premiers euros de votre app{{< /a >}}. Son conseil : une plateforme, pas trois. Apple Ads si l’on cherche dans l’App Store ce que fait votre application et qu’une bonne part de votre public a un iPhone, Google s’il est surtout sur Android, Meta si l’application se vend à l’écran.
@@ -146,7 +146,7 @@ Répondez aux avis et corrigez ce qu’ils signalent. Google Play pondère sa no
 
 Les plantages coûtent deux fois : dans les avis, et sur Google Play en visibilité. Google indique que les principales statistiques Android Vitals d’une application influencent sa visibilité, et qu’au-delà de ses seuils de mauvais comportement (un taux de plantage perçu par les utilisateurs de 1,09 % au total, ou de 0,47 % pour les blocages « L’application ne répond pas ») Google Play peut réduire sa visibilité et afficher un avertissement sur la fiche. Consultez Android Vitals dans la Play Console et vos rapports de plantage chaque semaine pendant le premier mois.
 
-Prévoyez les mises à jour dans le lancement, pas après coup : à partir de décembre 2027, le Cyber Resilience Act imposera des mises à jour de sécurité pendant toute la période d’assistance de votre application.
+Prévoyez les mises à jour dans le lancement, pas après coup : pour une application publiée ou modifiée de façon substantielle à partir du 11 décembre 2027, le Cyber Resilience Act imposera des mises à jour de sécurité pendant toute sa période d’assistance, en général cinq ans au moins.
 
 ### Les chiffres utiles
 
@@ -168,6 +168,6 @@ Les téléchargements seuls disent peu de chose. Quatre chiffres montrent où se
 7. Installations mesurées, puis une seule plateforme publicitaire avec un seul budget.
 8. Une personne désignée et une procédure pour signaler sous 24 heures une faille activement exploitée.
 
-Vous n’avez besoin de personne pour la fiche, la recherche de mots-clés ou les réponses aux avis : c’est de l’écriture, et personne ne connaît vos utilisateurs mieux que vous. Faites appel à un développeur pour les parties où une erreur fait fuiter des données : le serveur, les règles de la base, les clés et la connexion. Payez un test de sécurité indépendant, et une relecture juridique de votre dispositif de confidentialité, dès que l’application traite des données de santé, financières ou d’enfants.
+Vous n’avez besoin de personne pour la fiche, la recherche de mots-clés ou les réponses aux avis : c’est de l’écriture, et personne ne connaît vos utilisateurs mieux que vous. Faites appel à un développeur pour les parties où une erreur fait fuiter des données : le serveur, les règles de la base, les clés et la connexion. Payez un test de sécurité indépendant dès que l’application traite des données de santé, financières ou d’enfants.
 
 Quand je développe une application pour un client, je la construis de bout en bout, avec 30 % ou 50 % à la commande et le solde à la livraison. Quel que soit votre prestataire, demandez avant de signer qui s’occupera des comptes des stores, des déclarations de confidentialité et des mises à jour de sécurité après le lancement : ces tâches font partie du lancement d’une application mobile, ce ne sont pas des options.

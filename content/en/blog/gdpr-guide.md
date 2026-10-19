@@ -100,8 +100,6 @@ As of 19 October 2026, a separate EU proposal from May 2025 (the "Omnibus IV" pa
 
 ## Step 2: fix your cookie banner, privacy policy and legal notice
 
-Your website is the most visible part of your compliance, and the easiest to put right.
-
 **The cookie banner.** In the EU, any cookie or tracker that is not strictly necessary needs the visitor's consent before it is set, and refusing must be as easy as accepting. France's CNIL expects a "Refuse all" button as visible as "Accept all"; in January 2022 it announced fines of €150 million on Google and €60 million on Facebook because refusing cookies was harder than accepting them. In the UK, since February 2026, analytics used only for statistics can run without consent if you explain it and offer an easy way to object; advertising cookies still need consent. The rules are in {{< a key="cookie-banner-rules" >}}what cookie banners must do in 2026{{< /a >}}, and the set-up on Squarespace, Wix and WordPress, with Google's Consent Mode v2, in {{< a key="cookie-banner-setup" >}}my cookie banner tutorial{{< /a >}}.
 
 **The privacy policy.** Articles 13 and 14 list what people must be told, from who you are and why you collect their data to who receives it (your tools included), how long you keep it and their rights, including the right to complain to a regulator. {{< a key="privacy-policy-guide" >}}What a privacy policy must say{{< /a >}} takes it section by section, starting from your real tools rather than a copied template.
@@ -184,4 +182,4 @@ If you do nothing else this month, do these seven things, in this order:
 
 For the official version, the EDPB's [SME data protection guide](https://www.edpb.europa.eu/sme-data-protection-guide/be-compliant_en) covers the same ground for EU businesses, and [the GDPR itself on EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj) settles any doubt about an article.
 
-This guide explains the rules and the official guidance; it is not legal advice. A lawyer or a DPO is worth paying for when you handle health or other sensitive data, monitor people on a large scale, sell a product built on personal data, receive a letter from a regulator or a claim from a customer, or suffer a serious breach, ideally alongside a certified incident response provider for the technical side. For the rest, the official templates go a long way.
+This guide explains the rules and the official guidance; it is not legal advice. A lawyer or a DPO is worth paying for when you handle health or other sensitive data, monitor people on a large scale, sell a product built on personal data, receive a letter from a regulator or a claim from a customer, or suffer a serious breach, ideally alongside a certified incident response provider for the technical side.

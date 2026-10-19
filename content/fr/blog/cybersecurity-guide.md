@@ -61,7 +61,7 @@ Les comptes doivent aussi être au nom de l’entreprise. Un nom de domaine ou u
 
 ## Messagerie et paiements : là où part l’argent
 
-L’hameçonnage alimente une bonne part de ces piratages de compte, parce qu’il fonctionne : un email avec une fausse page de connexion suffit à livrer une messagerie, et c’est dans la messagerie que se trouvent les factures. Une bonne part des fraudes au paiement visant les petites équipes commence là.
+L’hameçonnage alimente une bonne part des piratages de compte, parce qu’il fonctionne : un email avec une fausse page de connexion suffit à livrer une messagerie, et c’est dans la messagerie que se trouvent les factures. C’est là que commencent bien des fraudes au paiement visant les petites équipes.
 
 **La fraude au faux RIB** en est la version classique : une facture de fournisseur, vraie ou copiée, arrive avec de nouvelles coordonnées bancaires, ou quelqu’un qui semble être le dirigeant demande un virement urgent et confidentiel. {{< a key="invoice-fraud-bank-details" >}}Mon guide sur la fraude au faux RIB et au président{{< /a >}} explique comment la repérer, et la règle qui la bloque : aucun RIB reçu par email n’est utilisé avant un appel à un numéro que vous aviez déjà, et une deuxième personne valide chaque nouveau bénéficiaire.
 
@@ -73,7 +73,7 @@ Votre nom de domaine mérite aussi une protection. Sans enregistrements SPF, DKI
 
 ## Données : sauvegardes et suite cloud
 
-Rançongiciel, dossier supprimé, synchronisation qui recopie les dégâts partout : sans sauvegarde, tout finit de la même façon. La règle 3-2-1 est la réponse classique, recommandée notamment par l’ANSSI dans son guide sur les sauvegardes : trois copies de vos données, sur deux types de supports, dont une hors de vos locaux et, idéalement, hors ligne ou impossible à modifier.
+Rançongiciel, dossier supprimé, synchronisation qui recopie les dégâts partout : sans sauvegarde, tout finit de la même façon. La règle 3-2-1 est la réponse classique : trois copies de vos données, sur deux types de supports, dont une hors de vos locaux et, idéalement, hors ligne ou impossible à modifier. L’ANSSI, qui la recommande dans son guide sur les sauvegardes, juge indispensable une copie hors ligne.
 
 On croit volontiers que Google ou Microsoft s’en charge. Google Workspace et Microsoft 365 ne gardent les éléments supprimés que quelques semaines ou quelques mois, et la synchronisation recopie fidèlement les suppressions comme les fichiers chiffrés. {{< a key="backups-3-2-1" >}}Mon guide de la règle de sauvegarde 3-2-1{{< /a >}} couvre vos fichiers, Google Workspace et Microsoft 365, avec un test de restauration à faire chaque trimestre.
 
@@ -126,7 +126,7 @@ Pour la plupart des petites équipes, NIS2 arrive par les clients plutôt que pa
 
 Ces demandes arrivent souvent sous la forme d’un {{< a key="security-questionnaire" >}}questionnaire de sécurité envoyé par un grand compte{{< /a >}}. Répondez à chaque question avec honnêteté : un « oui » avec une preuve, un « non » avec une mesure compensatoire ou une date, un « sans objet » avec la raison, puis gardez vos réponses et vos documents dans un dossier sécurité réutilisable.
 
-Si vous proposez une application ou un logiciel dans l’UE, lisez {{< a key="cyber-resilience-act-apps" >}}mon guide du Cyber Resilience Act pour les applications{{< /a >}}. Pour le reste des données personnelles, {{< a key="gdpr-guide" >}}mon guide du RGPD pour les petites équipes{{< /a >}} couvre les entreprises en Europe et hors d’Europe.
+Si vous proposez une application ou un logiciel dans l’UE, même gratuit et même depuis l’extérieur de l’UE, lisez {{< a key="cyber-resilience-act-apps" >}}mon guide du Cyber Resilience Act pour les applications{{< /a >}}. Pour le reste des données personnelles, {{< a key="gdpr-guide" >}}mon guide du RGPD pour les petites équipes{{< /a >}} couvre les entreprises en Europe et hors d’Europe.
 
 ## Les aides gratuites
 
