@@ -12,7 +12,7 @@ keywords: ["Calendly vs YouCanBookMe", "YouCanBookMe vs Calendly", "Calendly alt
 summary: "Calendly and YouCanBookMe do the same core job: they connect to your calendar and let clients book a free slot from a link. I use YouCanBookMe because it does everything I need from Calendly, I find my way around it easily and its cheapest paid plan costs less ($9 a month against $12 in October 2026). Calendly is a good tool too, and the better pick for teams that rely on its integrations and routing forms."
 cover: "calendly-vs-youcanbookme"
 cover_alt: "A laptop showing an online calendar with booked slots, titled Calendly vs YCBM"
-related: ["youcanbookme-tutorial", "small-business-tools-guide", "automate-lead-follow-up", "website-conversion-rate", "squarespace-code-injection"]
+related: ["youcanbookme-tutorial", "small-business-tools-guide", "automate-lead-follow-up", "website-conversion-rate", "build-sales-funnel"]
 services: ["automation"]
 faq:
   - q: "Can I put a Calendly or YouCanBookMe booking page on my website?"
@@ -156,6 +156,6 @@ Choose YouCanBookMe if:
 3. Decide whether clients pay when they book: both take card payments through Stripe, and Calendly also offers PayPal.
 4. Decide where the link goes. On your contact page, next to the phone number, a booking link gives visitors who will not call another way to take the next step; my guide to {{< a key="website-conversion-rate" >}}why a website gets no enquiries{{< /a >}} looks at where visitors drop off. Keep it out of a first cold email, though: I never put links in cold emails, only a phone number, because plain text without links gets delivered more reliably. Save the booking link for the replies; my {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}} covers the rest of the method.
 5. Plan the embed. A link on a button works on every site. To show the calendar inside a Squarespace page, you paste the embed code into a Code Block on that page, and my guide to {{< a key="squarespace-code-injection" >}}Squarespace code injection{{< /a >}} shows how to add custom code without breaking anything.
-6. Follow up the people who do not book. A booking page catches the ones who are ready; for the others, you can {{< a key="automate-lead-follow-up" >}}automate lead follow-up{{< /a >}} with instant alerts and call-back reminders, for free.
+6. Follow up the people who do not book. A booking page catches the ones who are ready; for the others, you can {{< a key="automate-lead-follow-up" >}}automate lead follow-up{{< /a >}} with instant alerts and call-back reminders, for free. To put your website, the booking page and your emails together in one path, follow my tutorial on how to {{< a key="build-sales-funnel" >}}build a funnel with the tools you already have{{< /a >}}.
 
 You do not need me to set up either tool: a free plan and an afternoon are enough. A booking page stops being enough when appointments have to feed the rest of the business. For {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer in Paris and the Île-de-France, I brought in more prospects than the team could follow. I then built an internal app that keeps prospects, job sites, the calendar and messages to the team in one place, so that no call-back slips through.
