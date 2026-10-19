@@ -70,7 +70,7 @@ iPhone results are the weak spot. Since iOS 14.5 (26 April 2021), Apple's App Tr
 
 TikTok has an app promotion objective too. My view is that people on TikTok are not really buyers, so the platform works better for brand awareness than for installs that pay back. Its minimums also weigh on a small budget: more than $20 (about £15) a day per ad group, and more than $50 (about £38) a day if you set a campaign budget. A free game or entertainment app may justify a test later; a paid utility rarely will.
 
-LinkedIn Ads burn through cash fast, though the deals can be bigger when you do it right. They suit a business app sold on subscription, sending people to a sign-up page, and only once you know what a customer is worth.
+LinkedIn Ads, in my view, burn through cash fast, though the deals can be bigger when you do it right. They suit a business app sold on subscription, sending people to a sign-up page, and only once you know what a customer is worth.
 
 ## The best ad platform for app installs on a £1,000 budget
 
@@ -127,4 +127,4 @@ A reasoned starting point, not a promise:
 4. **Weeks 3 and 4 (about £500)**: move the money towards the keywords, assets or creatives with the lowest cost per install, in steps (Google advises changing a budget or a target by 20% at most at a time), and run one A/B test on Meta for at least 7 days.
 5. **At the end of the month**: judge on the cost per install, then on the cost per sign-up or paying user, not on taps or impressions.
 
-If the numbers work, raise the budget on the same platform before you open a second one, and add an attribution partner when you do. It is the discipline I apply to any marketing channel: build on what already works instead of chasing the next shiny platform.
+If the numbers work, raise the budget on the same platform before you open a second one, and add an attribution partner when you do. It is my rule for any marketing channel: build on what already works instead of chasing the next shiny platform.
