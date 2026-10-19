@@ -55,7 +55,7 @@ Les jours se comptent à partir de l’inscription (J+2 = deux jours après), ou
 
 La séquence s’adresse aux personnes qui ont demandé vos emails : par un formulaire d’inscription à la newsletter, ou par une case séparée, non cochée, sous le formulaire de votre lead magnet. Quelqu’un qui a seulement téléchargé une checklist reçoit l’email qui la livre, et rien d’autre. Mon article sur les {{< a key="lead-magnet-ideas" >}}idées de lead magnet{{< /a >}} montre comment séparer les deux.
 
-Il existe des exceptions. Envers des particuliers, l’article L34-5 du Code des postes et des communications électroniques impose le consentement, sauf pour vos clients, au sujet de produits ou services analogues ; en B2B, un professionnel peut recevoir des emails liés à son métier s’il en a été informé et peut s’y opposer. Les règles suivent aussi vos abonnés : une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève du RGPD pour elles (article 3, paragraphe 2). Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille ces règles. Il s’agit d’une information générale, pas d’un conseil juridique.
+Il existe des exceptions : envers des particuliers, l’article L34-5 du Code des postes et des communications électroniques impose le consentement sauf pour vos clients, sur des produits ou services analogues ; en B2B, un professionnel peut recevoir des emails liés à son métier s’il en a été informé et peut s’y opposer. Une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève aussi du RGPD pour elles (article 3, paragraphe 2). Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille ces règles ; ceci est une information générale, pas un conseil juridique.
 
 ## Email 1, tout de suite : livrer ce que vous avez promis
 
@@ -78,7 +78,7 @@ Une question ? Répondez simplement à cet email : c’est moi qui le lis.
 
 ## Email 2, à J+2 : pourquoi vous faites ce métier
 
-On confie un projet à quelqu’un en qui on a confiance, et la confiance commence par savoir pourquoi et comment vous travaillez. Le deuxième email raconte une histoire courte et fait une promesse ; ce n’est pas votre CV.
+On confie un projet à quelqu’un de confiance, et la confiance commence par savoir pourquoi et comment vous travaillez. À J+2, racontez une histoire courte et faites une promesse : pas votre CV.
 
 Pour mon studio, l’histoire se terminerait par la phrase que je dis à mes proches : j’aide les entreprises à être vues, à attirer des prospects, à être fières de leur présence en ligne et à automatiser leur travail pour se simplifier la vie. La promesse serait l’honnêteté que mes clients connaissent déjà : je leur dis quand ils feraient mieux d’appeler quelqu’un d’autre que moi.
 
@@ -100,7 +100,7 @@ P.-S. Qu’est-ce qui vous a donné envie de vous inscrire ? Répondez en une li
 
 ## Email 3, à J+4 : votre guide le plus utile
 
-Le troisième email donne avant de demander : la chose la plus utile que vous ayez écrite. Pour la choisir, partez des questions que posent les prospects au premier appel. Les miens me demandent si j’ai de l’expérience, ce que le SEO va leur apporter et combien de temps il faut pour être bien classé ; chacune de ces réponses ferait un bon troisième email.
+Le troisième email donne avant de demander : la chose la plus utile que vous ayez écrite. Pour la choisir, partez des questions posées au premier appel. Mes prospects me demandent si j’ai de l’expérience, ce que le SEO va leur apporter et en combien de temps on est bien classé ; chaque réponse ferait un bon troisième email.
 
 Donnez la réponse courte dans l’email, pour ceux qui ne cliqueront pas, et le lien vers le guide complet sur votre site.
 
@@ -122,7 +122,7 @@ La réponse complète, avec des exemples, est ici : [lien vers votre guide]
 
 À J+7, votre lecteur sait ce que vous faites ; montrez maintenant que ça marche. Racontez un projet réel en trois lignes (le problème, ce que vous avez fait, ce qui a changé), puis mettez le lien vers l’étude de cas complète.
 
-Uniquement des preuves réelles : un client que vous nommez avec son accord, des chiffres que vous pouvez montrer, des photos de votre propre travail. Si vous n’avez pas encore d’étude de cas, décrivez honnêtement un projet récent et laissez les chiffres de côté plutôt que de les arrondir à la hausse. Pour mon studio, ce serait Pilotech, installateur de climatisation à Paris et en Île-de-France : un site construit en un mois environ et un premier prospect trois semaines après sa mise en ligne, avec un lien vers mes {{< a page="/projects" >}}pages projets{{< /a >}}.
+Uniquement du réel : un client nommé avec son accord, des chiffres que vous pouvez montrer, des photos de votre travail. Sans étude de cas, décrivez honnêtement un projet récent, sans chiffres plutôt qu’avec des chiffres gonflés. Pour mon studio, ce serait Pilotech, installateur de climatisation à Paris et en Île-de-France : un site construit en un mois environ et un premier prospect trois semaines après sa mise en ligne, avec un lien vers mes {{< a page="/projects" >}}pages projets{{< /a >}}.
 
 ```text
 Objet : Ce qui a changé pour [client ou type de client]
@@ -142,9 +142,9 @@ L’histoire complète, avec des photos : [lien vers l’étude de cas]
 
 Le dernier email fait l’offre : un appel court, une visite ou un devis, selon votre première étape. Légère veut dire une seule invitation, sans compte à rebours ni « dernière chance » dans l’objet.
 
-Donnez un numéro de téléphone à côté du lien de réservation. Dans mes campagnes de cold emailing, beaucoup de prospects appellent au lieu de répondre : un appel va plus vite qu’un email, et les gens aiment parler à quelqu’un. Pour la page de réservation, YouCanBookMe a ma préférence, mais Calendly fait très bien l’affaire.
+Donnez un numéro de téléphone à côté du lien de réservation. Dans mes campagnes de cold emailing, beaucoup de prospects appellent au lieu de répondre : un appel va plus vite qu’un email, et les gens aiment parler à quelqu’un. Pour la réservation, YouCanBookMe a ma préférence, mais Calendly fait aussi l’affaire.
 
-Terminez par une ligne sur les préférences ou la désinscription. Votre outil ajoute un lien de désinscription à chaque email, et l’article L34-5 du CPCE impose à tout email de prospection d’indiquer un moyen valable de demander l’arrêt des envois. Les [consignes de Google pour les expéditeurs](https://support.google.com/a/answer/81126?hl=fr) demandent en plus, au-delà de 5 000 messages par jour vers des adresses Gmail, la désinscription en un clic et un lien visible dans le corps du message. Le dire avec des mots, dans le dernier email, montre que vous êtes sincère.
+Terminez par une ligne sur les préférences ou la désinscription. Votre outil ajoute déjà un lien de désinscription à chaque email : l’article L34-5 du CPCE impose à tout email de prospection un moyen valable de demander l’arrêt des envois, et les [consignes de Google pour les expéditeurs](https://support.google.com/a/answer/81126?hl=fr) exigent en plus, au-delà de 5 000 messages par jour vers des adresses Gmail, la désinscription en un clic et un lien visible dans le message. L’écrire en toutes lettres dans le dernier email montre votre bonne foi.
 
 ```text
 Objet : Et si on parlait de [problème] ?
@@ -182,9 +182,9 @@ Vérifiez où s’arrête l’offre gratuite avant de construire. Au moment où 
 
 ## Que mesurer : les clics et les réponses, pas les ouvertures
 
-Le taux d’ouverture a l’air précis, mais il ne l’est pas. Une ouverture est comptée quand une minuscule image de l’email se charge, et la protection de la confidentialité de l’app Mail d’Apple (Mail Privacy Protection) télécharge ce contenu en arrière-plan, que l’email soit ouvert ou non : une ouverture peut être enregistrée pour un email que personne n’a lu.
+Le taux d’ouverture a l’air précis, mais il ne l’est pas. Une ouverture est comptée quand une minuscule image de l’email se charge, et la fonction Mail Privacy Protection de l’app Mail d’Apple télécharge ces images en arrière-plan, que l’email soit ouvert ou non : une ouverture peut donc être enregistrée sans aucune lecture.
 
-En France, une deuxième raison s’ajoute. Dans sa [recommandation sur les pixels de suivi](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf), publiée le 14 avril 2026, la CNIL considère que mesurer les ouvertures à des fins marketing demande le consentement du destinataire, distinct du droit de lui envoyer l’email, y compris en B2B. Seuls quelques usages y échappent, comme la mesure individuelle de la délivrabilité pour retirer les adresses inactives. Si votre outil mesure les ouvertures, désactivez ce suivi ou recueillez ce consentement à part.
+En France, une deuxième raison s’ajoute. Dans sa [recommandation sur les pixels de suivi](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf), publiée le 14 avril 2026, la CNIL considère que mesurer les ouvertures à des fins marketing demande le consentement du destinataire, distinct du droit de lui envoyer l’email, y compris en B2B. Quelques usages y échappent, comme la mesure de la délivrabilité adresse par adresse pour retirer les inactifs. Si votre outil mesure les ouvertures, désactivez ce suivi ou recueillez ce consentement à part.
 
 La recommandation ne traite pas des liens traçants, mais la CNIL rattache le consentement à la finalité plutôt qu’à la technique : consultez sa [FAQ sur les pixels](https://www.cnil.fr/fr/faq-recommandation-pixels-courriers-electroniques) avant de classer vos lecteurs selon leurs clics (au 19 octobre 2026).
 
