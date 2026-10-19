@@ -27,7 +27,7 @@ faq:
 
 If your company is based outside the EU, in London, Geneva, Toronto or New York, and the GDPR applies to you because you sell to people in the EU or track what they do online, one obligation is easy to miss: appointing a GDPR EU representative. It comes from Article 27 of the regulation and has applied since 25 May 2018.
 
-The representative is a person or company in the EU that regulators, and the people whose data you hold, can contact about your use of personal data. Setting one up takes a written mandate and a few lines in your privacy policy. Not having one has already cost a website based outside the EU a six-figure fine in the Netherlands.
+Setting one up takes a written mandate and a few lines in your privacy policy. Not having one has already cost a website based outside the EU a six-figure fine in the Netherlands.
 
 I work between London and Paris, so this guide looks at both sides of the Channel: businesses outside the EU selling into it, and EU businesses selling into the UK, which has its own version of the rule. It belongs to my {{< a key="gdpr-guide" >}}complete guide to GDPR{{< /a >}}. If you are not yet sure the GDPR applies to you at all, start with {{< a key="gdpr-outside-eu" >}}the two tests for companies outside the EU{{< /a >}}.
 
@@ -72,7 +72,7 @@ Article 27(2) lifts the obligation for public authorities and bodies, and for pr
 - it does not include, on a large scale, special categories of data (health, religion, sexual orientation and the others listed in Article 9) or data about criminal convictions and offences (Article 10);
 - it is unlikely to result in a risk to people’s rights and freedoms, given its nature, context, scope and purposes.
 
-The word doing the work is “occasional”. The European Data Protection Board (EDPB), which brings together the EU’s data protection authorities, reads it in line with earlier guidance from its predecessor, the Article 29 Working Party: processing that is not carried out regularly and falls outside the normal course of your business. Risk is judged on both its likelihood and its severity. Both points come from the EDPB’s [Guidelines 3/2018 on territorial scope](https://www.edpb.europa.eu/system/files/documents/files/file1/edpb_guidelines_3_2018_territorial_scope_after_public_consultation_en_1.pdf), which also deal with representatives.
+The word doing the work is “occasional”. The European Data Protection Board (EDPB), which brings together the EU’s data protection authorities, reads it as processing that is not carried out regularly and falls outside the normal course of your business, and weighs risk by both its likelihood and its severity. Both points are in its [Guidelines 3/2018 on territorial scope](https://www.edpb.europa.eu/system/files/documents/files/file1/edpb_guidelines_3_2018_territorial_scope_after_public_consultation_en_1.pdf), which also cover representatives.
 
 In practice, this rules out most businesses that target the EU on purpose. Weekly parcels to France, a subscription with EU users or ads aimed at EU countries are regular by design. The exemption is more plausible for a one-off, such as a single event in Lisbon with a simple registration form, run by a company whose business is elsewhere.
 
@@ -90,7 +90,7 @@ Everything else stays with you: the decisions, the compliance work and the answe
 
 ## How to appoint an EU representative, step by step
 
-1. **Confirm that Article 27 applies.** Check the two conditions and the exemption above, and keep a note of your reasoning.
+1. **Confirm that Article 27 applies.** Check the two conditions and the exemption above.
 2. **Choose the country.** The representative must be established in one of the EU countries where the people you serve or monitor are (Article 27(3)). The EDPB recommends, as good practice, the country where a significant share of them are: a Manchester shop whose EU customers are mostly in Ireland would pick Ireland. People in the other countries must still be able to reach it.
 3. **Choose who.** Any person or company established in that country can take the role: a law firm, a consultancy or a specialised representative service. Pick someone who replies quickly, handles your customers’ languages and will still be there in a few years. Leave out the processors that work for you, such as your hosting or email provider: the EDPB considers the two roles incompatible.
 4. **Sign a written mandate.** Article 27(1) requires the designation in writing, and Recital 80 speaks of a written mandate. It should say who represents whom, from which date, for which processing, which tasks the representative takes on, how fast it forwards messages and what happens when the contract ends. For the UK equivalent, the ICO says a simple service contract can be used.
@@ -106,7 +106,7 @@ An EU representative covers the EU only. Two neighbours have their own version, 
 
 UK GDPR keeps an Article 27 of its own. An organisation with no branch, office or other establishment in the UK that offers goods or services to people in the UK, or monitors their behaviour, must appoint a UK representative in writing, with the same exemptions. That catches EU businesses too: a French or Irish online shop that ships to Britain needs one.
 
-The ICO explains the rule in its guidance on [receiving personal information from the EEA](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/receiving-personal-information-from-the-eea/), in the section on UK representatives. The ICO formally became the Information Commission on 30 September 2026 but keeps its familiar name. The Data (Use and Access) Act 2025 has changed several parts of UK data law, which I cover in {{< a key="uk-gdpr-data-use-access-act" >}}what the Act changed{{< /a >}}. As of 19 October 2026, the ICO still describes the UK representative duty in these terms.
+The ICO explains the rule in its guidance on [receiving personal information from the EEA](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/receiving-personal-information-from-the-eea/), in the section on UK representatives. The ICO formally became the Information Commission on 30 September 2026 but keeps its familiar name. As of 19 October 2026, its guidance still describes the UK representative duty in these terms, although the Data (Use and Access) Act 2025 has changed several parts of UK data law, which I cover in {{< a key="uk-gdpr-data-use-access-act" >}}what the Act changed{{< /a >}}.
 
 ### Switzerland: a narrower rule
 
@@ -118,7 +118,7 @@ If all four are met, the representative must be in Switzerland, since an EU repr
 
 A missing representative is a breach of Article 27, which sits in the lower tier of GDPR fines: up to 10 million euros or 2% of worldwide annual turnover, whichever is higher (Article 83(4)). That is a ceiling. Regulators set each amount using the factors listed in Article 83(2), and my article on {{< a key="gdpr-fines-small-business" >}}what GDPR fines look like for small teams{{< /a >}} goes through real cases.
 
-The best-known case is Dutch. In May 2021 the Autoriteit Persoonsgegevens, the Netherlands’ regulator, announced a [fine of 525,000 euros against Locatefamily.com](https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-imposes-fine-of-eu525000-on-locatefamilycom), a website that published people’s contact details, had no establishment in the EU and had not appointed a representative since May 2018. People struggled to get their details removed, and the authority received 19 complaints. On top of the fine, it ordered the site to appoint a representative within 12 weeks, under a penalty of 20,000 euros per two weeks, capped at 120,000 euros.
+The case usually cited is Dutch. In May 2021 the Autoriteit Persoonsgegevens, the Netherlands’ regulator, announced a [fine of 525,000 euros against Locatefamily.com](https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-imposes-fine-of-eu525000-on-locatefamilycom), a website that published people’s contact details, had no establishment in the EU and had not appointed a representative since May 2018. People struggled to get their details removed, and the authority received 19 complaints. On top of the fine, it ordered the site to appoint a representative within 12 weeks, under a penalty of 20,000 euros per two weeks, capped at 120,000 euros.
 
 Two lessons for a small team. The case started with complaints from people who had no one in the EU to turn to. And the fine did not replace the obligation: the site still had to appoint a representative.
 
@@ -134,4 +134,4 @@ Two lessons for a small team. The case started with complaints from people who h
 
 This guide explains the rules as they stand on 19 October 2026; it is not legal advice. A lawyer, or your DPO if you have one, is worth involving if you handle health or other sensitive data, track people on a large scale, sell into many EU countries at once or have received a letter from a regulator.
 
-Where I can help is the website itself: privacy and legal pages are part of {{< a page="/services/websites" >}}my website projects{{< /a >}}, so your representative’s details have a proper place from day one. Acting as your representative, or deciding whether you need one, is a job for the specialists above.
+Privacy and legal pages are part of {{< a page="/services/websites" >}}my website projects{{< /a >}}, so your representative’s details have a proper place on your site from day one.

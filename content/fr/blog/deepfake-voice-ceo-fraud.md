@@ -29,9 +29,9 @@ faq:
 
 Le téléphone sonne : c’est votre dirigeant, même voix, un peu pressé. Une acquisition confidentielle est en cours, les avocats attendent un virement avant 17 h, et personne ne doit être au courant avant l’annonce. Sauf que votre dirigeant est dans un TGV sans réseau, et que cette voix sort d’un logiciel nourri d’une vidéo de votre site.
 
-C’est la fraude au président par deepfake : la vieille arnaque au faux dirigeant (un FOVI, faux ordre de virement, pour les autorités), jouée avec une copie par IA de la voix d’une personne réelle, parfois avec un faux visage en visio. Ce qui a changé, c’est que l’imitation sonne juste. L’IA a accéléré beaucoup de métiers, le mien compris (mon {{< a key="ai-small-business-guide" >}}guide de l’IA pour les petites équipes{{< /a >}} en montre le bon côté), et la fraude aussi.
+C’est la fraude au président par deepfake : la vieille arnaque au faux dirigeant (un FOVI, faux ordre de virement, pour les autorités), jouée avec une copie par IA d’une vraie voix, parfois d’un visage en visio. Ce qui change, c’est que l’imitation sonne juste. L’IA a accéléré beaucoup de métiers, le mien compris (mon {{< a key="ai-small-business-guide" >}}guide de l’IA pour les petites équipes{{< /a >}} en montre le bon côté), et la fraude aussi.
 
-La parade ne coûte rien et fonctionne même quand l’imitation est parfaite. Pour la vue d’ensemble, voyez mon {{< a key="cybersecurity-guide" >}}guide de cybersécurité pour les petites équipes{{< /a >}}.
+La parade ne coûte rien. Pour la vue d’ensemble, voyez mon {{< a key="cybersecurity-guide" >}}guide de cybersécurité pour les petites équipes{{< /a >}}.
 
 ## Comment on clone une voix, et ce dont le fraudeur a besoin
 
@@ -59,11 +59,11 @@ Chez WPP et Ferrari, quelqu’un a vérifié ; chez Arup, la vérification est 
 
 ## Pourquoi votre oreille ne suffit pas
 
-Le cadre de Ferrari a perçu de légères intonations mécaniques, et le site Ma Sécurité du ministère de l’Intérieur conseille d’écouter s’il manque des hésitations ou des variations naturelles du ton, et de guetter en vidéo un décalage entre les lèvres et la voix. Utiles, mais insuffisants : une mauvaise ligne, un « problème de caméra » ou un court message vocal les masquent, et vous écoutez votre dirigeant, vous ne cherchez pas l’erreur.
+Le cadre de Ferrari a perçu de légères intonations mécaniques, et le site Ma Sécurité du ministère de l’Intérieur conseille d’écouter s’il manque des hésitations ou des variations naturelles du ton, et de guetter en vidéo un décalage entre les lèvres et la voix. Ces indices aident, mais ne protègent pas : une mauvaise ligne, un « problème de caméra » ou un court message vocal les masquent, et vous écoutez votre dirigeant, vous ne cherchez pas l’erreur.
 
 Personne ne lance un logiciel de détection en plein appel, et « probablement authentique » ne vaut pas validation d’un virement. Même la reconnaissance vocale faiblit : dans le même billet, OpenAI recommandait d’abandonner progressivement l’authentification par la voix, par exemple pour les comptes bancaires.
 
-Prenez ces signaux comme des raisons de vérifier, pas comme un examen que l’appel doit rater :
+Ces signaux sont des raisons de vérifier, pas un examen que l’appel doit rater :
 
 - un nouveau numéro, un nouveau compte ou un canal inhabituel
 - l’urgence, liée à une échéance que vous ne pouvez pas vérifier
@@ -80,18 +80,18 @@ Ces règles ne demandent ni logiciel ni service informatique, et vous n’avez p
 1. **Raccrocher et rappeler.** Toute demande d’argent, de RIB, de mots de passe ou de fichiers confidentiels reçue par téléphone, message vocal, visio ou messagerie se confirme en rappelant le numéro enregistré dans vos contacts, jamais celui qui a appelé ni celui donné dans le message. Un compte WhatsApp au nom et à la photo du dirigeant ne prouve rien : les escrocs qui visaient WPP en ont créé un à partir d’une photo publique. Si vous ne joignez pas la personne, la demande attend.
 2. **Poser une question dont seule la vraie personne connaît la réponse.** La question du cadre de Ferrari est le modèle : un détail d’une conversation récente qui ne figure nulle part en ligne. Un mot de code convenu de vive voix fonctionne aussi ; ne le fixez jamais par email ou par messagerie, et changez-le dès qu’il a servi au téléphone.
 3. **Deux personnes pour tout virement inhabituel.** L’une le prépare, l’autre le valide après sa propre vérification. Depuis le 9 octobre 2025, votre banque vérifie aussi que le nom du bénéficiaire correspond à l’IBAN des virements en euros, mais une correspondance ne rend pas une demande légitime. Mon guide sur la {{< a key="invoice-fraud-bank-details" >}}fraude au faux RIB et au président{{< /a >}} détaille la procédure de paiement.
-4. **Urgence et secret, c’est stop.** Le dirigeant écrit à toute l’équipe : « Je ne vous demanderai jamais de virement secret ou urgent par téléphone, message vocal ou visio. Si cela semble arriver, rappelez-moi. » Et vérifier ne sera jamais reproché à personne, même quand la demande se révèle authentique. Les fiches officielles recommandent d’ailleurs une validation interne sans dérogation possible.
+4. **Urgence et secret, c’est stop.** Le dirigeant écrit à toute l’équipe : « Je ne vous demanderai jamais de virement secret ou urgent par téléphone, message vocal ou visio. Si cela semble arriver, rappelez-moi. » Et vérifier ne sera jamais reproché à personne, même quand la demande se révèle authentique.
 5. **Informer tous ceux qui peuvent payer ou ouvrir des accès :** l’assistant ou l’assistante de direction, votre expert-comptable, toute personne qui peut modifier un RIB, réinitialiser un mot de passe, envoyer la paie ou des fichiers clients. Dix minutes en réunion d’équipe suffisent.
 
 {{< callout type="tip" >}}**La phrase à répéter :** « Je vous rappelle tout de suite sur votre numéro habituel. » Un vrai dirigeant dit oui. Un escroc trouve une raison de vous en empêcher, et cette raison est votre réponse.{{< /callout >}}
 
-Les voix clonées visent aussi les familles, avec un « petit-fils » en difficulté qui demande de l’argent : le FBI recommande aux familles de convenir à l’avance d’un mot ou d’une phrase secrète.
+Les familles sont visées aussi, avec un « petit-fils » en difficulté qui réclame de l’argent : le FBI leur recommande un mot ou une phrase secrète convenue à l’avance.
 
 ## Rendre votre équipe plus difficile à piéger
 
 Vous ne pouvez pas empêcher qu’on entende votre voix, mais vous pouvez priver le scénario de matière.
 
-- **Dites moins qui paie.** Retirez des pages publiques le nom et la ligne directe des personnes qui valident les paiements : les fiches officielles le recommandent, car l’escroc étudie d’abord les réseaux sociaux et les organigrammes.
+- **Ne publiez pas qui paie.** Retirez des pages publiques le nom et la ligne directe des personnes qui valident les paiements : les fiches officielles le recommandent, car l’escroc étudie d’abord les réseaux sociaux et les organigrammes.
 - **Surveillez vos réponses d’absence.** « En déplacement à Singapour jusqu’à vendredi, pour les paiements urgents contactez Camille » dit à l’escroc quand le dirigeant est injoignable et qui appeler. Les mêmes fiches notent que ces appels arrivent souvent le soir, pendant les vacances ou au milieu d’un pont, quand le service comptable tourne au ralenti.
 - **Verrouillez vos messageries.** Une boîte mail piratée donne à l’escroc tout son scénario : qui paie qui, le ton du dirigeant, les dossiers en cours. Activez la {{< a key="two-factor-authentication-passkeys" >}}double authentification ou les passkeys{{< /a >}} partout.
 - **Faites un exercice.** Le dirigeant appelle un collègue depuis un numéro inconnu avec une demande urgente sans conséquence, et regarde si le rappel a lieu. Une fois, sans reproche.

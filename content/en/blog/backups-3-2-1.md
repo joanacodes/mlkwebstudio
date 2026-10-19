@@ -43,7 +43,7 @@ Each number covers a different way of losing data.
 
 A backup is a copy kept apart from the original that you can restore as it was on a chosen date. The UK's NCSC covers backups in its [guide for small organisations](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security). France's national cybersecurity agency, ANSSI, recommends the 3-2-1 rule in its guide to backup fundamentals, with one detail worth copying: at least one of the backups should be offline, disconnected from your network and your accounts.
 
-That detail is the point of the extended version, **3-2-1-1-0**: one copy offline or immutable, and zero errors when you test a restore. An immutable backup is one that nobody, not even an administrator, can change or delete before a date you set. It is what keeps a backup alive when ransomware or an intruder has your admin password.
+That detail is the point of the extended version, **3-2-1-1-0**: one copy offline or immutable, and zero errors when you test a restore. An immutable backup cannot be changed or deleted before a date you set, not even by an administrator. It is what keeps a backup alive when ransomware or an intruder has your admin password.
 
 ## Sync is not a backup
 
@@ -53,7 +53,7 @@ Google Drive, OneDrive and Dropbox keep the same files on your computer and in t
 - ransomware encrypts your laptop, and the encrypted files replace the good ones in the cloud;
 - someone saves over a spreadsheet, and the old version is gone from every device.
 
-The bin and the version history are safety nets, not backups. They are run by the same provider, opened with the same admin account and emptied on a fixed schedule, so they save you from the mistake you notice the same week. If ransomware is already on your screen, follow my {{< a key="incident-response-first-hour" >}}first-hour plan{{< /a >}} before you touch any backup.
+The bin and the version history are safety nets, not backups: same provider, same admin account, emptied on a fixed schedule. They save you from the mistake you notice the same week. If ransomware is already on your screen, follow my {{< a key="incident-response-first-hour" >}}first-hour plan{{< /a >}} before you touch any backup.
 
 ## Google Workspace: what Google can restore, and for how long
 
@@ -73,7 +73,7 @@ Microsoft's safety nets last longer, but they have limits too, as of 19 October 
 
 - OneDrive and SharePoint keep deleted files in the recycle bin for 93 days on work accounts, unless your administrator has changed that setting.
 - The "Restore your OneDrive" feature rolls a whole OneDrive back to a point in the last 30 days, which is the one to know after ransomware.
-- A deleted email can be recovered for a limited period after it leaves the Deleted Items folder, then it is gone.
+- Deleted emails stay recoverable for a limited period only.
 - Retention policies, set in Microsoft Purview, stop content from being permanently deleted before a date. They serve compliance and legal holds, not putting a folder back the way it was on Tuesday.
 
 Microsoft also sells **Microsoft 365 Backup**, a paid service for OneDrive, SharePoint and Exchange Online, set up and billed pay-as-you-go from the Microsoft 365 admin centre. At the time of writing (October 2026), [Microsoft's pricing page](https://learn.microsoft.com/en-us/microsoft-365/backup/backup-pricing) gives $0.15 (about £0.11) per gigabyte of protected content per month, a price Microsoft publishes in dollars; deleted items in recycle bins and mailbox archives count towards the size. It is a useful second copy, but Microsoft still holds it and the same admin accounts manage it, so it is not your copy out of reach.
@@ -91,11 +91,11 @@ For a copy beyond your provider's reach, use a cloud-to-cloud backup service: it
 - its own admin login with two-factor authentication;
 - how you get your data out if you stop paying.
 
-Most charge per user per month: check the vendor's pricing page, and its date, before you sign.
+Most charge per user per month; check the date on the vendor's pricing page.
 
 ## Laptops: Time Machine, File History and an external drive
 
-Laptops hold more unique data than people think: downloads, desktop folders, the file nobody moved to the shared drive. The first fix is a habit, saving work files in the shared drive. The second is a local backup:
+Laptops hold more unique data than people think: downloads, desktop folders, the file nobody moved to the shared drive. Save work files in the shared drive, then add a local backup:
 
 - **Mac**: Time Machine is built into macOS. Choose an external drive in its settings and tick the option to encrypt the backups. It then keeps hourly backups for the past 24 hours, daily ones for the past month and weekly ones until the drive is full.
 - **Windows 11**: File History keeps versions of your files on an external drive or a network location. The Windows Backup app copies your main folders and settings to OneDrive, which helps when you set up a new PC, but it is sync to the cloud, not a separate copy.
@@ -104,10 +104,10 @@ An external drive covers the stolen-laptop case, but it sits in the same office 
 
 ## The copy out of reach: off site and offline
 
-This is the copy that saves you when everything else is hit at once. There are three ways to get it:
+This is the copy that saves you when everything else is hit at once. Three ways to get it:
 
 1. **Two encrypted external drives in rotation**: one at the office for the backup, the other at home, swapped every week. Cheap and offline by design, but it depends on someone remembering.
-2. **A cloud backup with versioning and immutability**, sometimes called object lock: copies that cannot be changed or deleted for a period you set, even with your password.
+2. **A cloud backup with versioning and immutability**, sometimes called object lock, so that not even your own password can delete the copies early.
 3. **Another provider, somewhere else.** Infomaniak, the Swiss company behind SwissTransfer, which I recommend, sells Swiss Backup: storage in Switzerland for backups of computers, servers and phones made with Acronis software, for Synology or QNAP NAS boxes and for S3-compatible tools, priced in Swiss francs by storage and by device, with a 90-day trial. More in my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}}.
 
 {{< callout type="tip" >}}**Give the backup its own login**: a separate account, a long unique password and two-factor authentication, used by one or two people only. If the password that opens your mailbox also opens your backups, an intruder can delete both.{{< /callout >}}
@@ -135,7 +135,7 @@ A backup you have never restored is a hope, not a backup. Backups fail without t
 
 1. Restore three things to a different folder, never over the originals: a file from the shared drive as it was a month ago, an email, and a folder from a laptop backup.
 2. Open them: a file that comes back but will not open does not count.
-3. Check the date of the latest backup for each line of your plan. If the most recent one is three weeks old, a job has stopped.
+3. Check the date of the latest backup on each line of your plan: one from three weeks ago means a job has stopped.
 4. Sign in to the backup service with its separate login, and check that nobody who has left still has access.
 5. Note the date, how long each restore took and any problem on your backup sheet.
 

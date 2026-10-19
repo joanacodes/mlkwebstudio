@@ -31,7 +31,7 @@ The phone rings and it is your boss: same voice, a little rushed. There is a con
 
 That is deepfake CEO fraud: the old fake-boss payment scam, now run with an AI copy of a real person's voice, sometimes with a fake face on a video call. What has changed is that the impersonation now sounds right. AI has made a lot of work faster, mine included (my {{< a key="ai-small-business-guide" >}}guide to AI for small teams{{< /a >}} covers the useful side), and it has made fraud faster too.
 
-The defence costs nothing and works even when the fake is perfect. For the wider picture, see my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}.
+The defence costs nothing. For the wider picture, see my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}.
 
 ## How a voice clone is made, and what it needs from you
 
