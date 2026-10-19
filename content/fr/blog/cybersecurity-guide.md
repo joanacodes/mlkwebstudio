@@ -29,9 +29,9 @@ faq:
 
 La cybersécurité d’une petite équipe tient surtout à ses comptes, à ses paiements et à ses sauvegardes, bien plus qu’aux pare-feu. Les attaques qui touchent les entreprises sans service informatique sont rarement sophistiquées : un mot de passe volé ouvre une messagerie, un faux email change le RIB d’une facture, un ordinateur jamais mis à jour laisse entrer un logiciel malveillant. Les parades sont tout aussi simples, et la plupart sont gratuites.
 
-Je vois surtout le côté urgence. La première fois que {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, installateur de climatisation en Île-de-France, a fait appel à moi, son site WordPress venait d’être piraté. J’ai récupéré le site, puis construit un nouveau site web, et deux ans plus tard nous travaillons toujours ensemble, sur le référencement, le cold emailing et les sites.
+Je vois surtout le côté urgence. Pilotech, installateur de climatisation en Île-de-France, a fait appel à moi quand son ancien site WordPress a été piraté. J’ai récupéré le site, puis construit un nouveau site web, et deux ans plus tard nous travaillons toujours ensemble, sur le référencement, le cold emailing et {{< a page="/projects/pilotech" >}}de nouveaux sites{{< /a >}}.
 
-Ce guide est le point d’entrée de la rubrique cybersécurité, dans l’ordre que je suivrais avec un nouveau client : pourquoi les petites équipes sont visées, le socle officiel, puis les comptes, la messagerie et les paiements, les données, l’équipe, les appareils, votre site et vos applications, la première heure d’un incident, l’assurance, les règles qui s’appliquent à vous et les aides gratuites. Chaque partie renvoie vers un guide détaillé.
+Ce guide est le point d’entrée de la rubrique cybersécurité, dans l’ordre que je suivrais en partant de zéro : pourquoi les petites équipes sont visées, le socle officiel, puis les comptes, la messagerie et les paiements, les données, l’équipe, les appareils, votre site et vos applications, la première heure d’un incident, l’assurance, les règles qui s’appliquent à vous et les aides gratuites. Chaque partie renvoie vers un guide détaillé.
 
 ## Cybersécurité des petites équipes : pourquoi vous êtes une cible
 
@@ -47,7 +47,7 @@ Rien de tout cela ne justifie la panique. Les mêmes quelques mesures protègent
 
 Inutile d’écrire une politique de sécurité à partir de zéro. L’ANSSI et la Direction générale des entreprises publient [La cybersécurité pour les TPE/PME en 13 questions](https://www.entreprises.gouv.fr/la-dge/publications/la-cybersecurite-pour-les-tpepme-en-13-questions), un questionnaire d’autodiagnostic qui va des sauvegardes et des mises à jour jusqu’à l’assurance et à la gestion d’incident. Cybermalveillance.gouv.fr publie de son côté une fiche courte pour chaque type de menace.
 
-Mis côte à côte, ces documents disent la même chose : **protéger les comptes, vérifier les paiements, sauvegarder, mettre à jour les appareils, fermer les accès au départ et savoir quoi faire le jour J**. La suite de ce guide les reprend dans cet ordre.
+Mis bout à bout, ces documents se résument à une courte liste : **protéger les comptes, vérifier les paiements, sauvegarder, mettre à jour les appareils, fermer les accès au départ et savoir quoi faire le jour J**. La suite de ce guide les reprend dans cet ordre.
 
 ## Comptes et identités : les clés de tout le reste
 
@@ -61,7 +61,7 @@ Les comptes doivent aussi être au nom de l’entreprise. Un nom de domaine ou u
 
 ## Messagerie et paiements : là où part l’argent
 
-L’hameçonnage arrive en tête des statistiques parce qu’il fonctionne : un email avec une fausse page de connexion suffit à livrer une messagerie, et c’est dans la messagerie que se trouvent les factures. Une bonne part des fraudes au paiement visant les petites équipes commence là.
+L’hameçonnage alimente une bonne part de ces piratages de compte, parce qu’il fonctionne : un email avec une fausse page de connexion suffit à livrer une messagerie, et c’est dans la messagerie que se trouvent les factures. Une bonne part des fraudes au paiement visant les petites équipes commence là.
 
 **La fraude au faux RIB** en est la version classique : une facture de fournisseur, vraie ou copiée, arrive avec de nouvelles coordonnées bancaires, ou quelqu’un qui semble être le dirigeant demande un virement urgent et confidentiel. {{< a key="invoice-fraud-bank-details" >}}Mon guide sur la fraude au faux RIB et au président{{< /a >}} explique comment la repérer, et la règle qui la bloque : aucun RIB reçu par email n’est utilisé avant un appel à un numéro que vous aviez déjà, et une deuxième personne valide chaque nouveau bénéficiaire.
 
@@ -122,7 +122,7 @@ Cette partie décrit les règles telles qu’elles s’appliquent au 19 octobre 
 | DORA, règlement (UE) 2022/2554 | Banques, assureurs, entreprises d’investissement et autres entités financières | Indirect : elles doivent encadrer le risque lié à leurs prestataires informatiques | Applicable depuis le 17 janvier 2025 |
 | Cyber Resilience Act, règlement (UE) 2024/2847 | Les entreprises qui fournissent un logiciel ou un produit connecté dans l’UE, payant ou gratuit, applications comprises (les sites web et les SaaS seuls sont en général hors champ) | Signaler les failles activement exploitées et les incidents graves, puis respecter des exigences de sécurité | Signalement depuis le 11 septembre 2026 ; le reste à partir du 11 décembre 2027 |
 
-Pour la plupart des petites équipes, NIS2 arrive par les clients plutôt que par le régulateur. {{< a key="nis2-small-business" >}}Mon guide NIS2{{< /a >}} explique qui est concerné, y compris certains prestataires quelle que soit leur taille, comme les fournisseurs DNS, et ce que les clients concernés vont demander : double authentification, sauvegardes, signalement des incidents. Le projet de loi de transposition, adopté par le Sénat en mars 2025, a été retiré de l’ordre du jour de l’Assemblée nationale début octobre 2026, sans nouvelle date ; en attendant, l’ANSSI propose un pré-enregistrement volontaire sur son portail MonEspaceNIS2.
+Pour la plupart des petites équipes, NIS2 arrive par les clients plutôt que par le régulateur. {{< a key="nis2-small-business" >}}Mon guide NIS2{{< /a >}} explique qui est concerné, y compris certains prestataires quelle que soit leur taille, comme les fournisseurs DNS, et ce que les clients concernés vont demander : double authentification, sauvegardes, signalement des incidents. Le projet de loi de transposition, adopté par le Sénat en mars 2025, a été retiré le 6 octobre 2026 de l’ordre du jour de l’Assemblée nationale, et aucune nouvelle date n’avait été annoncée à l’heure où j’écris ces lignes ; en attendant, l’ANSSI propose un pré-enregistrement volontaire sur son portail MonEspaceNIS2.
 
 Ces demandes arrivent souvent sous la forme d’un {{< a key="security-questionnaire" >}}questionnaire de sécurité envoyé par un grand compte{{< /a >}}. Répondez à chaque question avec honnêteté : un « oui » avec une preuve, un « non » avec une mesure compensatoire ou une date, un « sans objet » avec la raison, puis gardez vos réponses et vos documents dans un dossier sécurité réutilisable.
 
