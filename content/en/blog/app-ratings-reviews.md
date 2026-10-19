@@ -84,7 +84,7 @@ Review gating means asking people whether they like your app first, then sending
 
 Guideline 3.2.2(x) says apps must not force people to rate or review the app to use it or reach its content. A screen that stays blocked until someone rates is out, and so is a home-made pop-up that imitates the system prompt (guideline 5.6.1 again).
 
-What you can do is make your support contact easy to find in the app and on your store page, as Apple recommends, so that unhappy users reach you before the review form. Unlike gating, support is open to everyone, not a filter in front of the prompt.
+You can, however, make your support contact easy to find in the app and on your store page, as Apple recommends: open to everyone, it lets unhappy users reach you before the review form, without filtering anyone.
 
 ## Fake and incentivised reviews also break UK and EU law
 
@@ -110,7 +110,7 @@ Open your app, go to **Ratings and reviews > Reviews**, type your reply and sele
 
 1. Start with the lowest ratings and bug reports on the current version, as Apple suggests when you cannot answer everything.
 2. Thank the person, name the exact problem and say what you are doing about it. Do not ask for a better rating.
-3. Point to your support address, never to personal details: guideline 5.6.1 rules out personal information, spam and marketing in replies.
+3. Give your support address, never personal details: guideline 5.6.1 also rules out spam and marketing in replies.
 4. Send iOS download and billing problems to Apple Support, as Apple asks.
 
 ```text

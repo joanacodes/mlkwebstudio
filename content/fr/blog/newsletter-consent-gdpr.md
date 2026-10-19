@@ -27,7 +27,7 @@ faq:
     a: "En France, la CNIL. Le RGPD prévoit des amendes jusqu’à 20 millions d’euros ou 4 % du chiffre d’affaires annuel mondial, et la CNIL a infligé 325 millions d’euros à Google en septembre 2025, notamment pour des publicités affichées comme des emails dans Gmail sans consentement. Au Royaume-Uni, c’est l’ICO, devenu formellement l’Information Commission le 30 septembre 2026."
 ---
 
-Le consentement à une newsletter, au sens du RGPD, se résume à deux questions : cette personne a-t-elle accepté de recevoir votre newsletter, et pouvez-vous le prouver ? Pour des particuliers, en France comme ailleurs dans l’UE et au Royaume-Uni, les deux réponses doivent être oui avant le premier envoi, avec deux exceptions : vos clients, grâce au soft opt-in, et, dans certains pays, les adresses professionnelles.
+Le consentement à une newsletter, au sens du RGPD, se résume à deux questions : cette personne a-t-elle accepté de recevoir votre newsletter, et pouvez-vous le prouver ? Pour des particuliers, en France, dans l’UE ou au Royaume-Uni, les deux réponses doivent être oui avant le premier envoi, avec deux exceptions : vos clients, grâce au soft opt-in, et, dans certains pays, les adresses professionnelles.
 
 Quand je propose du cold emailing à des clients, l’objection que j’entends, c’est que c’est illégal. En B2B, ce n’est généralement pas le cas, et ce sont les mêmes règles qui décident qui peut recevoir votre newsletter (ou vos mailings). Ce guide fait partie de mon {{< a key="funnels-newsletters-guide" >}}guide du tunnel de vente et de la newsletter{{< /a >}}.
 
@@ -73,7 +73,7 @@ Un fleuriste peut écrire à ses clients avant la fête des Mères au sujet de s
 
 **France.** La [CNIL](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel) autorise les emails de prospection vers des professionnels sans consentement préalable lorsque le message est en rapport avec leur métier (son exemple : un logiciel proposé à un directeur informatique), à condition qu’ils aient été informés de l’utilisation de leur adresse et puissent s’y opposer simplement et gratuitement. Les adresses génériques comme contact@ échappent aux règles de consentement et d’information.
 
-**Royaume-Uni.** La règle du consentement du PECR protège les particuliers, les entrepreneurs individuels (sole traders) et les sociétés de personnes hors d’Écosse. Les sociétés de capitaux (limited companies), les LLP, les partnerships écossais et les organismes publics peuvent recevoir des emails de prospection sans consentement, si chaque message identifie l’expéditeur et donne une adresse valable pour s’opposer (regulation 23). Une adresse nominative, comme jane.smith@firm.co.uk, reste une donnée personnelle au sens du UK GDPR, et en cas de doute sur le statut du destinataire, l’ICO recommande de le traiter comme un particulier.
+**Royaume-Uni.** Le PECR n’exige pas de consentement pour écrire aux sociétés (limited companies, LLP, partnerships écossais, organismes publics), à condition que chaque message identifie l’expéditeur et donne une adresse pour s’opposer (regulation 23). Les entrepreneurs individuels (sole traders) et les autres sociétés de personnes sont protégés comme des particuliers et, en cas de doute, l’ICO recommande de traiter le destinataire comme un particulier.
 
 **Ailleurs dans l’UE.** L’article 13, paragraphe 5, de la directive ePrivacy laisse chaque pays protéger les adresses professionnelles : l’Allemagne, par exemple, exige un consentement préalable même pour écrire à des entreprises.
 
@@ -120,9 +120,9 @@ Votre outil de newsletter enregistre presque tout. Le texte affiché est le plus
 
 Contacts du téléphone, cartes de visite, relations LinkedIn, anciennes demandes, fichier acheté à un courtier : aucune de ces personnes n’a accepté votre newsletter. Avant tout import, triez : les clients à qui l’on a proposé de refuser peuvent relever du soft opt-in, les adresses professionnelles suivent les règles B2B ci-dessus, et tous les autres doivent donner leur consentement. Le leur demander par email ne règle rien : le CPCE vise tout message destiné à promouvoir, « directement ou indirectement », des biens, des services ou l’image de l’entreprise.
 
-{{< callout type="warning" >}}Au Royaume-Uni, l’ICO a infligé en 2017 une amende de 70 000 livres sterling à Flybe, qui avait écrit à plus de trois millions de personnes désinscrites pour leur demander de mettre à jour leurs préférences, et de 13 000 livres sterling à Honda, pour des emails demandant à des clients s’ils voulaient recevoir ses offres. Pour l’ICO, un email qui demande un consentement à la prospection est lui-même un email de prospection.{{< /callout >}}
+{{< callout type="warning" >}}Au Royaume-Uni, l’ICO a infligé en 2017 une amende de 70 000 livres sterling à Flybe, qui avait écrit à plus de trois millions de personnes désinscrites pour leur demander de mettre à jour leurs préférences, et de 13 000 livres à Honda, pour des emails demandant à des clients s’ils voulaient recevoir ses offres. Pour l’ICO, un email qui demande un consentement à la prospection est lui-même un email de prospection.{{< /callout >}}
 
-Invitez plutôt ces contacts par les canaux que vous utilisez déjà : le lien d’inscription sur votre site, vos factures et reçus, votre signature email, vos réseaux sociaux, un QR code sur le comptoir. Mon guide pour {{< a key="first-100-subscribers" >}}trouver vos 100 premiers abonnés{{< /a >}} détaille ces canaux, sans acheter de fichier.
+Invitez plutôt ces contacts par vos canaux habituels : votre site, vos factures, votre signature email, vos réseaux sociaux, un QR code sur le comptoir. Mon guide pour {{< a key="first-100-subscribers" >}}trouver vos 100 premiers abonnés{{< /a >}} les détaille, sans acheter de fichier.
 
 Surveillez aussi l’horloge : pour la CNIL, les données d’un prospect ne se conservent pas plus de trois ans après leur collecte ou le dernier contact venant de lui. Au-delà, supprimez l’adresse au lieu de lui écrire.
 
@@ -132,7 +132,7 @@ Surveillez aussi l’horloge : pour la CNIL, les données d’un prospect ne se
 2. Double opt-in activé, y compris pour les inscriptions qui arrivent par une intégration.
 3. Page de commande : un moyen clair de refuser la prospection, si vous comptez sur le soft opt-in.
 4. Preuves : date, source, version du texte et confirmation pour chaque abonné.
-5. Chaque envoi : votre nom, une adresse de contact, un lien de désinscription et, pour les gros volumes vers Gmail, les en-têtes de désinscription en un clic.
+5. Chaque envoi : votre nom, une adresse de contact, un lien de désinscription et, pour les gros volumes, la désinscription en un clic.
 6. Une liste repoussoir, vérifiée avant chaque import.
 7. Anciens contacts importés seulement avec un consentement, le soft opt-in ou une règle B2B qui les couvre.
 

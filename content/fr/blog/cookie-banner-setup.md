@@ -1,5 +1,5 @@
 ---
-title: "Installer un bandeau cookies conforme sur Squarespace, Wix ou WordPress"
+title: "Installer un bandeau cookies conforme sur Squarespace, Wix ou WordPress (avec le Consent Mode v2)"
 seo_title: "Installer un bandeau cookies : Squarespace, Wix et WordPress"
 description: "Installer un bandeau cookies sur Squarespace, Wix ou WordPress : bloquer les traceurs avant le choix, activer le Consent Mode v2 et tester le résultat."
 slug: "installer-bandeau-cookies"
@@ -22,7 +22,7 @@ faq:
   - q: "Combien de temps le bandeau doit-il mémoriser le choix du visiteur ?"
     a: "La CNIL considère six mois comme une bonne pratique, pour un refus comme pour un consentement, avant de reposer la question. Les CMP permettent en général de régler cette durée."
   - q: "Faut-il une CMP certifiée par Google ?"
-    a: "Seulement si votre site affiche des annonces Google via AdSense, Ad Manager ou AdMob. Ces éditeurs doivent utiliser une CMP certifiée par Google et intégrée au TCF de l’IAB pour diffuser des annonces personnalisées dans l’EEE et au Royaume-Uni (depuis le 16 janvier 2024) et en Suisse (depuis le 31 juillet 2024). Pour Google Analytics et le suivi Google Ads, Google demande les signaux du Consent Mode v2 : une CMP certifiée les envoie pour vous, un bandeau fait maison doit les envoyer lui-même."
+    a: "Seulement si votre site affiche des annonces Google via AdSense, Ad Manager ou AdMob. Ces éditeurs doivent utiliser une CMP certifiée par Google et intégrée au TCF de l’IAB pour diffuser des annonces dans l’EEE et au Royaume-Uni (depuis le 16 janvier 2024) et en Suisse (depuis le 31 juillet 2024) ; sans elle, seules des annonces limitées peuvent s’afficher. Pour Google Analytics et le suivi Google Ads, Google demande les signaux du Consent Mode v2 : une CMP certifiée les envoie pour vous, un bandeau fait maison doit les envoyer lui-même."
   - q: "Pourquoi Google Analytics affiche-t-il moins de visiteurs après l’ajout du bandeau ?"
     a: "Parce que les visiteurs qui refusent ne sont plus suivis par cookies. Squarespace prévient qu’une fois les cookies restreints par son bandeau, ses propres statistiques peuvent afficher bien plus de visiteurs que Google Analytics. Comparez des tendances dans le temps plutôt que les deux totaux."
 ---
@@ -31,7 +31,7 @@ Un bandeau cookies a trois missions : bloquer les traceurs non essentiels tant 
 
 Je construis la plupart des sites de mes clients sur Squarespace, je commence donc par lui. Les règles derrière chaque réglage (quels cookies exigent un consentement, ce que contrôlent la CNIL et l’ICO britannique) sont dans mon guide sur {{< a key="cookie-banner-rules" >}}les règles du bandeau cookies en 2026{{< /a >}}, qui fait partie de mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}}. Ce tutoriel donne des informations pratiques, pas un conseil juridique.
 
-Il ne concerne pas que les entreprises de l’Union : une société suisse, québécoise ou marocaine qui dépose des traceurs chez des visiteurs en France doit prévoir le même bandeau (mon article sur {{< a key="gdpr-outside-eu" >}}le RGPD hors de l’UE{{< /a >}} explique quand les règles s’appliquent).
+Il ne concerne pas que les entreprises de l’Union : une société suisse, québécoise ou marocaine qui dépose des traceurs chez des visiteurs en France devrait prévoir le même bandeau (mon article sur {{< a key="gdpr-outside-eu" >}}le RGPD hors de l’UE{{< /a >}} explique quand les règles s’appliquent).
 
 ## Avant de commencer : listez ce que votre site charge
 
@@ -48,13 +48,13 @@ L’endroit où chaque élément a été ajouté détermine si un bandeau intég
 |---|---|---|
 | Squarespace | Oui, dans le panneau des cookies (Cookies & Data Privacy) | Dès que du code injecté, des blocs Code ou des contenus intégrés ajoutent des traceurs |
 | Wix | Usercentrics for Wix, ajouté depuis le tableau de bord | C’en est déjà une : vérifiez le classement de votre code personnalisé |
-| WordPress | Aucun | Toujours : installez une extension de consentement |
+| WordPress | Aucun | Dès qu’un élément non essentiel se charge : installez une extension de consentement |
 
 Une plateforme de gestion du consentement (CMP) est un service qui affiche le bandeau, bloque les scripts jusqu’à la réponse du visiteur, enregistre chaque choix et le transmet à des outils comme ceux de Google. Au Royaume-Uni, les règles sont plus souples depuis février 2026 pour la mesure d’audience à seule fin statistique, pas pour la publicité : un bandeau réglé sur les exigences de la CNIL couvre les deux pays.
 
 ## Installer un bandeau cookies sur Squarespace
 
-Le bandeau intégré de Squarespace contrôle ses propres cookies non essentiels et Google Analytics connecté par l’intégration native. Il ne bloque pas le code collé dans l’injection de code, et Squarespace précise dans sa liste des cookies qu’il restreint certains services tiers, pas tous. J’ajoute souvent un peu de code personnalisé aux sites Squarespace de mes clients : c’est justement la partie que le bandeau intégré laisse de côté.
+Le bandeau intégré de Squarespace contrôle ses propres cookies non essentiels, ainsi que Google Analytics lorsqu’il est connecté par l’intégration native. Il ne bloque pas le code collé dans l’injection de code, et Squarespace précise dans sa liste des cookies qu’il restreint certains services tiers, pas tous. J’ajoute souvent un peu de code personnalisé aux sites Squarespace de mes clients : c’est justement la partie que le bandeau intégré laisse de côté.
 
 Les intitulés ci-dessous sont ceux de l’interface en anglais (traduits dans l’interface en français, et variables d’une page d’aide à l’autre) : fiez-vous à la fonction de chaque option.
 
@@ -90,7 +90,7 @@ Au 19 octobre 2026, Wix ne propose plus son bandeau cookies d’origine aux nouv
 
 {{< screenshot id="cookie-banner-setup-03" alt="Page Privacy & Cookies du tableau de bord Wix avec le bouton Add to Site à côté de Add a cookie consent banner" >}}
 
-Ouvrez ensuite chaque extrait du code personnalisé (**Settings** > **Custom Code** en anglais). Réglez son type (**Code Type**) sur la catégorie mesure d’audience ou marketing s’il mesure ou fait de la publicité, ou fonctionnelle pour les préférences ; pour un script qui fait les deux, la documentation de Wix demande la catégorie la plus stricte. Son journal des consentements ne couvre pas le code personnalisé : gardez cette liste courte.
+Ouvrez ensuite chaque extrait du code personnalisé (**Settings** > **Custom Code** en anglais). Réglez son type (**Code Type**) sur la catégorie mesure d’audience ou marketing s’il mesure ou fait de la publicité, ou fonctionnelle pour les préférences ; pour un script qui fait les deux, la documentation de Wix demande la catégorie la plus stricte. Le journal des consentements de Wix ne couvre pas le code personnalisé : gardez cette liste courte.
 
 {{< callout type="warning" >}}**Wix classe le code personnalisé comme essentiel par défaut**, et le code essentiel se charge avant la réponse du visiteur. Un extrait de mesure d’audience ou de publicité laissé en « essentiel » s’exécute pour tout le monde.{{< /callout >}}
 
@@ -122,9 +122,9 @@ La mise en place suit le même schéma, quelle que soit l’extension :
 
 ## Consent Mode v2 de Google : ce qu’il transmet et comment l’activer
 
-Le Consent Mode transmet la réponse du visiteur aux balises Google. La version 2, lancée en novembre 2023, utilise quatre signaux : `ad_storage` et `analytics_storage` autorisent ou non les cookies publicitaires et de mesure, `ad_user_data` l’envoi de données à Google pour la publicité, et `ad_personalization` leur usage pour des annonces personnalisées. La politique de Google relative au consentement des utilisateurs de l’UE couvre les visiteurs de l’EEE, du Royaume-Uni et de la Suisse, et un compte qui n’envoie pas les signaux v2 peut perdre le remarketing, la personnalisation des annonces et une partie de la mesure des conversions.
+Le Consent Mode (« mode Consentement » dans la documentation française de Google) transmet la réponse du visiteur aux balises Google. La version 2, lancée en novembre 2023, utilise quatre signaux : `ad_storage` et `analytics_storage` autorisent ou non les cookies publicitaires et de mesure, `ad_user_data` l’envoi de données à Google pour la publicité, et `ad_personalization` leur usage pour des annonces personnalisées. La politique de Google relative au consentement des utilisateurs de l’UE couvre les visiteurs de l’EEE, du Royaume-Uni et de la Suisse, et un compte qui n’envoie pas les signaux v2 peut perdre le remarketing, la personnalisation des annonces et une partie de la mesure des conversions.
 
-Chaque signal part sur « denied » (refusé) et ne passe à « granted » (accordé) que si le visiteur accepte. Une CMP s’en charge dès que son option Google est activée : sur Squarespace, les balises Google ajoutées par code en demandent une ; sur Wix, selon Usercentrics, aucun réglage de plus n’est nécessaire si le Consent Mode est déjà activé dans votre configuration Tag Manager ; sur WordPress, c’est l’option de l’extension. Si vous l’écrivez vous-même, la valeur par défaut doit s’exécuter avant la balise Google, comme le montre [le guide du Consent Mode de Google](https://developers.google.com/tag-platform/security/guides/consent?hl=fr) :
+Chaque signal part sur « denied » (refusé) et ne passe à « granted » (accordé) que si le visiteur accepte. Une CMP s’en charge dès que son option Google est activée. L’aide de Squarespace indique que son intégration native de Google Analytics ne demande que votre identifiant de mesure et le bandeau, et présente le Consent Mode comme une fonction de Google ; les balises Google ajoutées par code, elles, demandent une CMP dotée de cette option. Sur Wix, selon Usercentrics, aucun réglage de plus n’est nécessaire si le Consent Mode est déjà activé dans votre configuration Tag Manager ; sur WordPress, c’est l’option de l’extension. Si vous l’écrivez vous-même, la valeur par défaut doit s’exécuter avant la balise Google, comme le montre [le guide du Consent Mode de Google](https://developers.google.com/tag-platform/security/guides/consent?hl=fr) :
 
 ```html
 <script>
@@ -163,7 +163,7 @@ Un bandeau peut sembler parfait et laisser passer des traceurs. En septembre 202
 2. Ouvrez les outils de développement (F12, ou Cmd+Option+I sur Mac). Dans Chrome ou Edge, allez dans **Application** > **Stockage** > **Cookies** ; dans Firefox, dans l’onglet **Stockage**. Sélectionnez votre domaine.
 3. Avant tout choix, vous ne devez voir que des cookies strictement nécessaires. Cherchez `_ga` et `_ga_…` (Google Analytics), `_gcl_au` (Google Ads), `_fbp` (pixel Meta), `_clck` et `_clsk` (Clarity) : aucun ne doit apparaître.
 4. Cliquez sur **Tout refuser**, rechargez la page et vérifiez de nouveau : la liste ne doit pas s’allonger. Si votre bandeau a une croix de fermeture, fermer doit valoir refus, comme dans l’exemple de bandeau de la CNIL.
-5. Dans l’onglet **Réseau**, filtrez sur `collect`. Après un refus en mode basique, aucune requête ne doit partir vers Google Analytics ou Clarity ; en mode avancé, des requêtes Google sans cookies sont normales.
+5. Dans l’onglet **Réseau**, filtrez sur `collect`. Après un refus en mode basique, aucune requête ne doit partir vers Google Analytics ; en mode avancé, des requêtes Google sans cookies sont normales. Clarity peut lui aussi envoyer des requêtes sans cookies si votre bandeau le charge avec un consentement refusé au lieu de le bloquer.
 6. Ouvrez une nouvelle fenêtre privée, cliquez sur **Tout accepter** et vérifiez que les cookies apparaissent. Sinon, le bandeau bloque trop et vos statistiques resteront vides.
 7. Utilisez le lien du pied de page pour changer d’avis, refusez, et vérifiez que les balises s’arrêtent.
 
