@@ -29,7 +29,7 @@ NIS2 est la directive européenne qui impose des obligations de cybersécurité 
 
 Ce qui vous rattrape, c’est la chaîne d’approvisionnement. Vos clients peuvent être soumis à NIS2, et la directive les oblige à vérifier la sécurité de leurs fournisseurs. La question utile devient alors moins « mon entreprise est-elle concernée ? » que « que vont me demander mes clients, et saurai-je répondre ? »
 
-Ce guide vous donne trois tests pour situer votre entreprise, l’état des lieux en France, dans l’Union et au Royaume-Uni au 19 octobre 2026, puis les questions et les clauses à préparer. Il fait partie de mon {{< a key="cybersecurity-guide" >}}guide de la cybersécurité pour les petites équipes{{< /a >}}.
+Ce guide vous donne trois tests pour situer votre entreprise, l’état des lieux au 19 octobre 2026, puis les questions et les clauses à préparer. Il fait partie de mon {{< a key="cybersecurity-guide" >}}guide de la cybersécurité pour les petites équipes{{< /a >}}.
 
 ## Ce qu’est NIS2
 
@@ -50,7 +50,7 @@ L’annexe I de la directive liste les secteurs hautement critiques, l’annexe 
 | Énergie, transports, banque, infrastructures des marchés financiers | Services postaux et d’expédition, gestion des déchets |
 | Santé, eau potable, eaux usées | Produits chimiques, production et distribution alimentaires |
 | Infrastructures numériques : cloud, centres de données, DNS, services de confiance, télécoms | Fabrication : dispositifs médicaux, électronique, machines, véhicules, etc. |
-| Gestion des services TIC entre entreprises : infogérance et services de sécurité gérés | Fournisseurs numériques : places de marché en ligne, moteurs de recherche, réseaux sociaux |
+| Services TIC entre entreprises : infogérance, sécurité gérée | Fournisseurs numériques : places de marché en ligne, moteurs de recherche, réseaux sociaux |
 | Administration publique, espace | Organismes de recherche |
 
 Un cabinet comptable, une agence de communication, un architecte ou un restaurant ne figurent pas dans ces listes. Une société informatique qui exploite ou maintient les systèmes de ses clients, si : NIS2 la qualifie de fournisseur de services gérés.
@@ -68,9 +68,7 @@ Certaines activités sont couvertes même pour une entreprise de deux personnes�
 - les registres de noms de domaine de premier niveau et les fournisseurs de services DNS ;
 - les organisations désignées par leur État, par exemple comme seul fournisseur d’un service essentiel.
 
-{{< callout type="warning" >}}Si vous gérez le DNS des noms de domaine de vos clients, lisez la définition du **fournisseur de services DNS** à l’article 6 : elle inclut les services DNS faisant autorité proposés à des tiers, sans seuil de taille. Les hébergeurs et agences web qui rendent ce service ont intérêt à vérifier leur situation.{{< /callout >}}
-
-Si vous avez répondu non à la question 1, ou non aux questions 2 et 3, NIS2 ne s’applique pas directement à votre entreprise.
+{{< callout type="warning" >}}Si vous gérez le DNS des noms de domaine de vos clients, lisez la définition du **fournisseur de services DNS** à l’article 6 : elle inclut les services DNS faisant autorité proposés à des tiers, sans seuil de taille. Hébergeurs et agences web qui le proposent : vérifiez votre situation.{{< /callout >}}
 
 ## Ce que NIS2 impose aux entreprises concernées
 
@@ -107,7 +105,7 @@ Relisez la liste des mesures avec les yeux d’un fournisseur : le point 4 expl
 
 Le projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité, qui transpose NIS2, a été adopté par le Sénat le 12 mars 2025, puis voté par une commission spéciale de l’Assemblée nationale le 10 septembre 2025. Son examen en séance, prévu les 7 et 9 octobre 2026, a été retiré de l’ordre du jour, et aucune nouvelle date n’était annoncée au moment où j’écris. Tant que la loi et son décret d’application ne sont pas adoptés, les obligations de NIS2 ne s’imposent pas encore aux entreprises pour leurs activités en France.
 
-L’ANSSI propose depuis le 24 novembre 2025 un [pré-enregistrement volontaire](https://cyber.gouv.fr/actualites/nis-2-les-entit%C3%A9s-assujetties-peuvent-se-pre-enregistrer/) sur son portail MonEspaceNIS2 : un formulaire de 5 à 10 minutes, et un simulateur pour savoir si votre entreprise sera probablement concernée. L’enregistrement ne deviendra obligatoire qu’une fois la loi et son décret publiés. Le 1er octobre 2026, l’ANSSI a indiqué aux députés qu’elle envisageait une mise en conformité complète à fin 2028 : une intention, pas une règle.
+L’ANSSI propose depuis le 24 novembre 2025 un [pré-enregistrement volontaire](https://cyber.gouv.fr/actualites/nis-2-les-entit%C3%A9s-assujetties-peuvent-se-pre-enregistrer/) sur son portail MonEspaceNIS2, avec un simulateur pour savoir si votre entreprise sera probablement concernée. L’enregistrement ne deviendra obligatoire qu’une fois la loi et son décret publiés. Le 1er octobre 2026, l’ANSSI a indiqué aux députés qu’elle envisageait une mise en conformité complète à fin 2028 : une intention, pas une règle.
 
 ### Dans le reste de l’Union
 
