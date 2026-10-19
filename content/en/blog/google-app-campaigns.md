@@ -59,7 +59,7 @@ For a new app, the choice is made for you: installs, or pre-registration if your
 
 ## The assets you give Google
 
-You write the text and supply the visuals; Google handles the layout. The limits per ad group, from Google's specifications as of October 2026:
+The limits per ad group, from Google's specifications as of October 2026:
 
 - headlines: up to 5, 30 characters each;
 - descriptions: up to 5, 90 characters each;
@@ -95,7 +95,7 @@ Work backwards from what a new user brings you. Say one install in 20 becomes a 
 
 Google's [best practices for App campaigns](https://support.google.com/google-ads/answer/6167162) give the rule: when you optimise for install volume, set a daily budget of at least 50 times your target CPI. For in-app actions, the floor is 10 times your target CPA (another Google page says 10 to 15 times). The reason is data: the system needs enough conversions every day to learn who converts.
 
-Here is what that means in money. The monthly column uses Google's general budget rule: a campaign can spend up to twice its daily budget on a given day, but you are not charged more than 30.4 times the daily budget in a month.
+In money, that gives the table below. The monthly column uses Google's general budget rule: a campaign can spend up to twice its daily budget on a given day, but is not charged more than 30.4 times it in a month.
 
 | Your target | Minimum daily budget | About per month |
 |---|---|---|
@@ -112,7 +112,7 @@ In that case, the money may work harder elsewhere first. My comparison of {{< a 
 
 ## Tracking installs and in-app actions
 
-App campaigns optimise on the conversions you send back to Google Ads. Without tracking, Google bids blind, so set it up and test it before the campaign goes live. There are three ways to feed Google Ads:
+App campaigns optimise on the conversions you send back to Google Ads, so set up tracking and test it before launch. Three sources can feed Google Ads:
 
 1. **Firebase** (Google Analytics for Firebase), Google's SDK for Android and iOS: your developer adds it to the app, and the events that matter, such as a sign-up or a purchase, are imported into Google Ads as conversions.
 2. **Google Play**, for Android apps: Google Ads can measure installs through Google Play. Do not expect its totals to match the Play Console, because Google Ads only counts installs from its ads, while Google Play also counts direct ones.
