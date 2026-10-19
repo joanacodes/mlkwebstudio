@@ -16,13 +16,13 @@ related: ["security-questionnaire", "free-cybersecurity-help", "cyber-resilience
 services: ["rescue"]
 faq:
   - q: "NIS2, c’est la même chose que le RGPD ?"
-    a: "Non. Le RGPD protège les données personnelles et s’applique à presque toutes les entreprises qui en traitent, y compris son obligation de sécurité (article 32). NIS2 porte sur la sécurité des réseaux et des systèmes d’information des organisations de secteurs critiques, quelles que soient leurs données. Un même incident peut déclencher les deux : un rançongiciel chez une entreprise concernée peut exiger un signalement NIS2 et une notification à la CNIL."
+    a: "Non. Le RGPD protège les données personnelles et s’applique à presque toutes les entreprises qui en traitent ; son article 32 impose déjà une obligation de sécurité. NIS2 porte sur la sécurité des réseaux et des systèmes d’information des organisations de secteurs critiques, quelles que soient leurs données. Un même incident peut déclencher les deux : un rançongiciel chez une entreprise concernée peut exiger un signalement NIS2 et une notification à la CNIL."
   - q: "Quelle différence entre une entité essentielle et une entité importante ?"
-    a: "Les entités essentielles sont surtout les grandes organisations des secteurs de l’annexe I, plus quelques prestataires comme les fournisseurs DNS quelle que soit leur taille ; les autres entités concernées sont importantes. Les essentielles peuvent être contrôlées et auditées à tout moment, avec des amendes maximales d’au moins 10 millions d’euros ou 2 % du chiffre d’affaires annuel mondial. Les importantes sont contrôlées a posteriori, sur des indices de manquement, avec des plafonds d’au moins 7 millions d’euros ou 1,4 %."
+    a: "Les entités essentielles sont surtout les grandes organisations des secteurs de l’annexe I, plus quelques prestataires comme les fournisseurs DNS quelle que soit leur taille ; les autres entités concernées sont importantes. Les essentielles peuvent être contrôlées et auditées à tout moment, avec des amendes maximales d’au moins 10 millions d’euros ou 2 % du chiffre d’affaires annuel mondial, le montant le plus élevé étant retenu. Les importantes sont contrôlées a posteriori, sur des indices de manquement, avec des plafonds d’au moins 7 millions d’euros ou 1,4 %."
   - q: "Une entreprise suisse, canadienne ou marocaine est-elle concernée par NIS2 ?"
-    a: "Seulement si elle entre elle-même dans le champ, par exemple un prestataire de cloud, de centres de données ou d’infogérance, de taille moyenne ou plus, qui propose ses services dans l’Union. Ce type de prestataire doit alors désigner un représentant dans un État membre où il opère (article 26). Sinon, elle rencontre NIS2 à travers les exigences fournisseurs de ses clients européens."
+    a: "Seulement si elle entre elle-même dans le champ, par exemple un prestataire de cloud, de centres de données ou d’infogérance, de taille moyenne ou plus, qui propose ses services dans l’Union. Ce type de prestataire doit alors désigner un représentant dans l’un des États membres où il propose ses services (article 26). Sinon, elle rencontre NIS2 à travers les exigences fournisseurs de ses clients européens."
   - q: "Existe-t-il une certification NIS2 pour les fournisseurs ?"
-    a: "Non. Au 19 octobre 2026, NIS2 ne crée aucun certificat qui prouverait qu’un fournisseur s’y conforme. Les clients acceptent d’autres preuves : un questionnaire rempli avec ses justificatifs, une certification ISO/IEC 27001 ou, pour les clients britanniques, le label Cyber Essentials."
+    a: "Non. Au 19 octobre 2026, NIS2 ne crée aucun certificat qui prouverait qu’un fournisseur s’y conforme. Les clients s’appuient sur d’autres preuves : un questionnaire rempli avec ses justificatifs, une certification ISO/IEC 27001 ou, pour les clients britanniques, le label Cyber Essentials."
 ---
 
 NIS2 est la directive européenne qui impose des obligations de cybersécurité aux organisations dont dépend l’économie. Pour une PME, tout dépend de sa taille et de son secteur : la directive vise les entreprises moyennes et grandes de 18 secteurs, plus quelques prestataires quelle que soit leur taille. La plupart des petites équipes, sous les 50 salariés, n’entrent donc pas dans son champ.
@@ -57,7 +57,7 @@ Un cabinet comptable, une agence de communication, un architecte ou un restauran
 
 ### 2. Votre entreprise est-elle au moins de taille moyenne ?
 
-NIS2 reprend la définition européenne des entreprises. Vous restez sous le seuil, donc hors de NIS2, si vous comptez **moins de 50 salariés et un chiffre d’affaires annuel ou un total de bilan qui ne dépasse pas 10 millions d’euros**. Les effectifs se comptent en équivalents temps plein. Dans un groupe, la définition additionne en principe les chiffres des entreprises liées : faites le calcul avec ceux du groupe.
+NIS2 reprend la définition européenne de la taille des entreprises. Vous restez sous le seuil si vous comptez **moins de 50 salariés et un chiffre d’affaires annuel ou un total de bilan qui ne dépasse pas 10 millions d’euros** ; sauf si la question 3 s’applique à vous, vous êtes alors hors du champ de NIS2. Les effectifs se comptent en équivalents temps plein. Dans un groupe, la définition additionne en principe les chiffres des entreprises liées : faites le calcul avec ceux du groupe.
 
 ### 3. Votre activité est-elle visée quelle que soit sa taille ?
 
@@ -103,9 +103,9 @@ Relisez la liste des mesures avec les yeux d’un fournisseur : le point 4 expl
 
 ### En France
 
-Le projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité, qui transpose NIS2, a été adopté par le Sénat le 12 mars 2025, puis voté par une commission spéciale de l’Assemblée nationale le 10 septembre 2025. Son examen en séance, prévu les 7 et 9 octobre 2026, a été retiré de l’ordre du jour, et aucune nouvelle date n’était annoncée au moment où j’écris. Tant que la loi et son décret d’application ne sont pas adoptés, les obligations de NIS2 ne s’imposent pas encore aux entreprises pour leurs activités en France.
+Le projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité, qui transpose NIS2, a été adopté par le Sénat le 12 mars 2025, puis voté par une commission spéciale de l’Assemblée nationale le 10 septembre 2025. Son examen en séance, prévu les 7 et 9 octobre 2026, a été retiré de l’ordre du jour le 6 octobre sans nouvelle date, et aucune n’était connue au moment où j’écris. Tant que la loi n’est pas votée et ses décrets d’application publiés, les obligations de NIS2 ne s’imposent pas encore aux entreprises pour leurs activités en France.
 
-L’ANSSI propose depuis le 24 novembre 2025 un [pré-enregistrement volontaire](https://cyber.gouv.fr/actualites/nis-2-les-entit%C3%A9s-assujetties-peuvent-se-pre-enregistrer/) sur son portail MonEspaceNIS2, avec un simulateur pour savoir si votre entreprise sera probablement concernée. L’enregistrement ne deviendra obligatoire qu’une fois la loi et son décret publiés. Le 1er octobre 2026, l’ANSSI a indiqué aux députés qu’elle envisageait une mise en conformité complète à fin 2028 : une intention, pas une règle.
+L’ANSSI propose depuis le 24 novembre 2025 un [pré-enregistrement volontaire](https://cyber.gouv.fr/actualites/nis-2-les-entit%C3%A9s-assujetties-peuvent-se-pre-enregistrer/) sur son portail MonEspaceNIS2, avec un simulateur pour savoir si votre entreprise sera probablement concernée. L’enregistrement ne deviendra obligatoire qu’une fois la loi et son décret publiés. Le 1er octobre 2026, le directeur général de l’ANSSI a indiqué aux députés que l’agence envisageait d’exiger une conformité complète des entités concernées d’ici fin 2028 : une intention, pas une règle.
 
 ### Dans le reste de l’Union
 
@@ -113,7 +113,7 @@ Les États membres avancent à des rythmes différents : un client établi aill
 
 ### Au Royaume-Uni
 
-NIS2 ne s’applique pas au Royaume-Uni, sorti de l’Union avant son adoption. Le pays garde ses NIS Regulations de 2018 et prépare le Cyber Security and Resilience Bill, qui ferait entrer pour la première fois les prestataires de services informatiques gérés de taille moyenne et grande dans ce régime ; au 19 octobre 2026, le texte est encore devant la Chambre des lords. Avec des clients britanniques, attendez-vous à entendre parler du label Cyber Essentials, que le NCSC recommande d’exiger de certains fournisseurs.
+NIS2 ne s’applique pas au Royaume-Uni, sorti de l’Union avant son adoption. Le pays garde ses NIS Regulations de 2018 et prépare le Cyber Security and Resilience Bill, qui ferait entrer pour la première fois dans ce régime les prestataires d’infogérance de taille moyenne ou grande ; au 19 octobre 2026, le texte est encore devant la Chambre des lords. Avec des clients britanniques, attendez-vous à entendre parler du label Cyber Essentials, que le NCSC, l’homologue britannique de l’ANSSI, recommande d’exiger de certains fournisseurs.
 
 ## Pourquoi vos clients vous interrogeront quand même
 
@@ -128,7 +128,7 @@ Pour les clients du numérique visés par le règlement d’exécution (UE) 2024
 
 ## Les questions à prévoir, et ce qu’il faut avoir prêt
 
-Rapprochées des mesures de l’article 21, paragraphe 2, voici les questions à prévoir et ce qu’une petite équipe doit pouvoir montrer :
+Voici, rapprochées des mesures de l’article 21, paragraphe 2, les questions à prévoir et ce qu’une petite équipe doit pouvoir montrer :
 
 | Ce que votre client doit gérer | La question que vous recevrez | Ce qu’il faut avoir prêt |
 |---|---|---|

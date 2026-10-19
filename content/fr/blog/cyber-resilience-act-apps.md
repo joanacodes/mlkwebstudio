@@ -52,7 +52,7 @@ L’article 14, la partie déjà applicable, vise deux événements, et aucun de
 - **Une vulnérabilité activement exploitée** : il existe des preuves fiables que quelqu’un a utilisé la faille contre un système sans l’autorisation de son propriétaire (article 3). Une faiblesse repérée par votre développeur lors d’une relecture de code, sans signe d’utilisation, ne déclenche pas de signalement.
 - **Un incident grave** touchant la sécurité de l’application : il compromet, ou pourrait compromettre, la protection de données ou de fonctions sensibles ou importantes, ou il a introduit, ou pourrait introduire, du code malveillant dans l’application ou chez vos utilisateurs.
 
-Le délai court à partir du moment où vous en avez connaissance :
+Le délai court dès que vous en avez connaissance :
 
 | Étape | Délai | Contenu |
 |---|---|---|
@@ -60,7 +60,7 @@ Le délai court à partir du moment où vous en avez connaissance :
 | Notification | Sous 72 heures | L’application, la nature de l’exploitation ou de l’incident, vos mesures et ce que les utilisateurs peuvent faire |
 | Rapport final | 14 jours après la mise à disposition d’un correctif (vulnérabilité), un mois après la notification (incident) | Description, gravité et impact, cause, correctif |
 
-Vous déclarez une seule fois, sur la plateforme de signalement unique de l’ENISA, la Single Reporting Platform, [mise en service le 11 septembre 2026](https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched) : le signalement parvient en même temps à l’ENISA et au CSIRT national concerné (l’équipe de réponse aux incidents de sécurité informatique). Les manuels et tutoriels vidéo de l’ENISA méritent une lecture avant d’en avoir besoin. La [page de la Commission consacrée au CRA](https://digital-strategy.ec.europa.eu/fr/policies/cyber-resilience-act) résume le texte.
+Vous déclarez une seule fois, sur la plateforme de signalement unique de l’ENISA, la Single Reporting Platform, [mise en service le 11 septembre 2026](https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched) : le signalement parvient en même temps à l’ENISA et au CSIRT national concerné (l’équipe de réponse aux incidents de sécurité informatique). Lisez les manuels et tutoriels vidéo de l’ENISA avant d’en avoir besoin. La [page de la Commission consacrée au CRA](https://digital-strategy.ec.europa.eu/fr/policies/cyber-resilience-act) résume le texte.
 
 Trois points comptent pour les petites équipes :
 

@@ -31,7 +31,7 @@ A subject access request is a person asking you for the personal data you hold a
 
 Requests rarely arrive at a good moment: an employee who has just left, a client disputing an invoice, a prospect who did not enjoy your cold email. No magic words are needed: "send me all the data you have about me" in a reply counts.
 
-This guide is for small teams in the EU and for businesses outside it that deal with people in Europe. It is part of my {{< a key="gdpr-guide" >}}GDPR guide for small-team businesses{{< /a >}}.
+This guide is for small teams in the EU and for businesses outside it that deal with people in the EU. It is part of my {{< a key="gdpr-guide" >}}GDPR guide for small-team businesses{{< /a >}}.
 
 ## Who must answer, and who can ask
 
@@ -127,7 +127,7 @@ Many requests come with a dispute in the background, and that is allowed. The pe
 
 You can refuse an abusive request, but the bar is high. In March 2026 the Court ruled that even a first request can be refused as abusive, but only on documented facts about that request; a damages claim in the background is not enough on its own (case C-526/24, Brillen Rottler). The Commission's Digital Omnibus proposal would make it easier to refuse requests made for purposes other than data protection; as of 19 October 2026 it is still being negotiated and is not law (see my article on {{< a key="digital-omnibus-gdpr" >}}the Digital Omnibus{{< /a >}}).
 
-In the UK, the Data Protection Act 2018 lets you withhold legally privileged material, confidential references and records of your intentions in negotiations with the requester, where disclosing them would harm those negotiations. It also makes it an offence to alter or delete data to stop it being disclosed after a request (section 173).
+In the UK, the Data Protection Act 2018 lets you withhold legally privileged material, confidential references and, where disclosure would harm the negotiations, records of your intentions in negotiations with the requester. It also makes it an offence to alter or delete data to stop it being disclosed after a request (section 173).
 
 Route everything through one person, and write internal emails as if the requester will read them one day. After a subject access request, they might.
 

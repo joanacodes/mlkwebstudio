@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:45:00+02:00
 category: "mobile-apps"
 article_type: "guide"
 keywords: ["sécurité application mobile", "checklist sécurité application mobile", "OWASP MASVS", "OWASP Mobile Top 10", "test d’intrusion application mobile", "MobSF"]
-summary: "Avant le lancement, vérifiez que l’application ne contient aucune clé secrète, que le serveur contrôle les droits à chaque requête, que les jetons sont rangés dans le trousseau d’iOS ou l’Android Keystore et que tout le trafic passe en TLS. Auditez ensuite vos SDK, sortez les données personnelles des journaux et publiez un moyen de signaler une faille. Un test d’intrusion payant se justifie dès que l’app traite des données de santé ou financières."
+summary: "Avant le lancement, vérifiez que l’application ne contient aucune clé secrète, que le serveur contrôle les droits à chaque requête, que les jetons sont protégés par le trousseau d’iOS ou l’Android Keystore et que tout le trafic passe en TLS. Auditez ensuite vos SDK, sortez les données personnelles des journaux et publiez un moyen de signaler une faille. Un test d’intrusion payant se justifie dès que l’app traite des données de santé ou financières."
 cover: "mobile-app-security-checklist"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un cadenas"
 related: ["api-keys-mobile-apps", "ai-app-data-leaks", "cyber-resilience-act-apps", "app-privacy-labels", "mobile-app-launch-guide"]
@@ -27,11 +27,11 @@ faq:
     a: "Pas par nature. Mais les outils de création d’apps par IA relient souvent l’app directement à une base de données, avec une clé lisible par tous : les règles de la base deviennent alors la seule protection. Vérifiez-les avant le lancement et demandez à l’outil où chaque clé est stockée."
 ---
 
-La plupart des applications qui laissent fuiter des données ne sont pas forcées par des pirates de génie. Elles embarquent une clé que n’importe qui peut extraire, ou interrogent un serveur qui croit tout ce que l’app lui dit. Cette checklist pour la sécurité de votre application mobile ferme d’abord ces deux portes, puis reprend ce que la norme mobile de l’OWASP, le MASVS, attend avant une publication.
+Beaucoup d’applications qui laissent fuiter des données ne sont pas forcées par des pirates de génie. Elles embarquent une clé que n’importe qui peut extraire, ou interrogent un serveur qui croit tout ce que l’app lui dit. Cette checklist pour la sécurité de votre application mobile ferme d’abord ces deux portes, puis reprend ce que la norme mobile de l’OWASP, le MASVS, attend avant une publication.
 
 Je construis des applications de bout en bout, des écrans au serveur, et c’est le serveur que je surveillerais de plus près : l’app n’est qu’une fenêtre sur vos données, le serveur décide qui peut regarder.
 
-La liste s’adresse aux dirigeants de petites équipes qui font développer une app par un développeur, une agence ou un outil d’IA. Nul besoin de lire du code : la dernière partie traduit chaque point en question pour la personne qui la construit. C’est le volet sécurité de mon {{< a key="mobile-app-launch-guide" >}}guide pour lancer une application mobile{{< /a >}}.
+La liste s’adresse aux dirigeants de petites équipes qui font développer une app par un développeur, une agence ou un outil d’IA. Nul besoin de lire du code : la dernière partie traduit chaque point en question pour la personne qui construit l’app. C’est le volet sécurité de mon {{< a key="mobile-app-launch-guide" >}}guide pour lancer une application mobile{{< /a >}}.
 
 ## L’OWASP MASVS en clair
 
@@ -43,7 +43,7 @@ L’OWASP (Open Worldwide Application Security Project) est une fondation à but
 | CRYPTO | Chiffrement à jour, clés rangées dans le coffre de la plateforme | 6 |
 | AUTH | Connexion, droits d’accès, vérification renforcée des actions sensibles | 2, 4, 5 |
 | NETWORK | Trafic chiffré, épinglage quand il se justifie | 9, 10 |
-| PLATFORM | Liens, WebViews et écrans partagés avec le téléphone | 3, 8 |
+| PLATFORM | Liens et échanges avec les autres apps, WebViews, contenu affiché à l’écran | 3, 8 |
 | CODE | Versions d’OS prises en charge, composants sûrs, mises à jour, contrôle des entrées | 3, 11, 15 |
 | RESILIENCE | Freiner la modification et la rétro-ingénierie | 12, 13, 14 |
 | PRIVACY | Collecter moins, le dire, laisser la main aux utilisateurs | 7, 8 |
@@ -62,7 +62,7 @@ Masquer un bouton dans l’app n’empêche personne d’appeler votre API avec 
 
 ### 3. Tout ce qui vous parvient est suspect
 
-Validez les entrées côté serveur, même si l’app les a déjà contrôlées : types, longueurs, valeurs autorisées, formats de fichiers. Dans l’app, traitez les liens profonds, le contenu des notifications et les pages chargées dans une WebView comme venant d’inconnus : ils le peuvent. Un lien comme `votreapp://payer?montant=500` doit ouvrir un écran que l’utilisateur confirme, jamais déclencher une action à lui seul.
+Validez les entrées côté serveur, même si l’app les a déjà contrôlées : types, longueurs, valeurs autorisées, formats de fichiers. Dans l’app, traitez les liens profonds, le contenu des notifications et les pages chargées dans une WebView comme s’ils venaient d’inconnus : c’est parfois le cas. Un lien comme `votreapp://payer?montant=500` doit ouvrir un écran que l’utilisateur confirme, jamais déclencher une action à lui seul.
 
 ## Connexion, jetons et données sur le téléphone
 
@@ -94,7 +94,7 @@ Sur iOS, App Transport Security bloque le HTTP simple, sauf si l’app le désac
 
 ### 10. L’épinglage de certificat, seulement si vous pouvez l’entretenir
 
-L’épinglage (certificate pinning) oblige l’app à n’accepter que la clé de votre serveur, ce qui déjoue certaines interceptions ; les profils de l’OWASP le rangent parmi les mesures des apps aux données plus sensibles (L2), comme une app bancaire. Le revers, détaillé par la documentation d’Android : sans clé de secours, un changement de clé ou d’autorité de certification vous oblige à publier une mise à jour avant que les utilisateurs puissent se reconnecter. Si personne ne suivra ce calendrier, renoncez-y et contentez-vous de TLS avec les réglages par défaut.
+L’épinglage (certificate pinning) oblige l’app à n’accepter que la clé de votre serveur, ce qui déjoue certaines interceptions ; les profils de l’OWASP le rangent parmi les mesures des apps aux données plus sensibles (L2), comme une app bancaire. Le revers, détaillé par la documentation d’Android : sans clé de secours, un changement de clé ou d’autorité de certification vous oblige à publier une mise à jour avant que les utilisateurs puissent se reconnecter. Si personne n’est là pour suivre ce calendrier, renoncez-y et contentez-vous de TLS avec les réglages par défaut.
 
 ## SDK tiers et version publiée
 
@@ -122,7 +122,7 @@ Fixez les plus anciennes versions d’iOS et d’Android prises en charge, et re
 
 ### 16. Un moyen public de signaler une vulnérabilité
 
-Le MASVS ne l’exige pas, mais la loi s’en charge. Au 19 octobre 2026, le règlement européen sur la cyberrésilience, ou Cyber Resilience Act ([règlement (UE) 2024/2847](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847)), oblige depuis le 11 septembre 2026 les fabricants à signaler les vulnérabilités activement exploitées et les incidents graves (article 14) : alerte précoce sous 24 heures, puis notification sous 72 heures, via la plateforme unique de signalement de l’ENISA. À partir du 11 décembre 2027, ses règles de gestion des vulnérabilités (annexe I, partie II) ajoutent une politique de divulgation coordonnée, un moyen pour quiconque de signaler une faille, une nomenclature logicielle (SBOM) et des mises à jour de sécurité rapides. Selon les lignes directrices de la Commission (juillet 2026), une application mobile autonome peut entrer dans le champ, y compris quand l’éditeur est installé hors de l’UE, en Suisse ou au Québec.
+Le MASVS ne l’impose pas, mais la loi commence à l’exiger. Au 19 octobre 2026, le règlement européen sur la cyberrésilience, ou Cyber Resilience Act ([règlement (UE) 2024/2847](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847)), oblige depuis le 11 septembre 2026 les fabricants à signaler les vulnérabilités activement exploitées et les incidents graves (article 14) : alerte précoce sous 24 heures, puis notification sous 72 heures, via la plateforme unique de signalement de l’ENISA. À partir du 11 décembre 2027, ses règles de gestion des vulnérabilités (annexe I, partie II) ajoutent une politique de divulgation coordonnée, un moyen pour quiconque de signaler une faille, une nomenclature logicielle (SBOM) et des mises à jour de sécurité rapides. Selon les lignes directrices de la Commission (juillet 2026), une application mobile autonome peut entrer dans son champ, et le règlement vise les apps proposées dans l’UE même quand l’éditeur est installé ailleurs, en Suisse ou au Québec par exemple.
 
 En pratique : une adresse comme securite@votredomaine, une courte page ou un fichier security.txt (RFC 9116) qui explique comment signaler une faille, un lien depuis votre fiche dans les stores, et une personne nommée qui lit les messages. Mon article sur {{< a key="cyber-resilience-act-apps" >}}le Cyber Resilience Act et les applications{{< /a >}} détaille le calendrier. Ceci est une information générale, pas un conseil juridique : si votre app traite des données de santé, financières ou concernant des enfants, ou si vous ignorez si vous êtes « fabricant » au sens du texte, une heure avec un avocat qui connaît la réglementation européenne des produits est un bon investissement.
 

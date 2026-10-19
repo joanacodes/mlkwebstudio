@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:36:00+02:00
 category: "gdpr"
 article_type: "news"
 keywords: ["RGPD Royaume-Uni", "RGPD britannique", "UK GDPR", "Data (Use and Access) Act 2025", "transfert de données Royaume-Uni", "décision d’adéquation Royaume-Uni", "représentant UK GDPR"]
-summary: "Le Data (Use and Access) Act 2025 modifie le RGPD britannique (UK GDPR) et les règles britanniques sur les cookies et la prospection, sans les remplacer ; au 19 octobre 2026, ses principales mesures s’appliquent. Pour une entreprise française, deux points comptent : le UK GDPR s’ajoute au RGPD dès que vous visez des personnes au Royaume-Uni, et les données circulent toujours librement de l’UE vers le Royaume-Uni, dont l’adéquation a été renouvelée jusqu’en 2031."
+summary: "Le Data (Use and Access) Act 2025 modifie le RGPD britannique (UK GDPR) et les règles britanniques sur les cookies et la prospection, sans les remplacer ; au 19 octobre 2026, l’essentiel de ces modifications s’applique. Pour une entreprise française, deux points comptent : le UK GDPR s’ajoute au RGPD dès que vous visez des personnes au Royaume-Uni, et les données circulent toujours librement de l’UE vers le Royaume-Uni, dont l’adéquation a été renouvelée jusqu’en 2031."
 cover: "uk-gdpr-data-use-access-act"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un quadrillage de plan d’architecte avec une cible"
 related: ["cookie-banner-rules", "gdpr-subject-access-request", "cold-email-gdpr-uk-france", "gdpr-outside-eu", "newsletter-consent-gdpr"]

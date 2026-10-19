@@ -31,16 +31,16 @@ If your app calls OpenAI, Claude, Stripe or any other paid service with a secret
 
 Below: which keys must stay secret, what to build instead (one small function) and what to do if a key has already leaked. It is part of my guide to {{< a key="mobile-app-launch-guide" >}}launching a mobile app{{< /a >}}.
 
-AI has shrunk the time it takes to build an app, for me as for everyone: the {{< a key="bespoke-crm-internal-app" >}}internal app I built for a client whose leads piled up{{< /a >}} has AI and phone integrations. It has not changed where a secret key belongs.
+AI has changed app projects, for me as for everyone: they take less time, and more apps now include AI features, like the {{< a key="bespoke-crm-internal-app" >}}internal app I built for a client whose leads piled up{{< /a >}}, with its AI and phone integrations. None of that changes where a secret key belongs.
 
 ## API key security in a mobile app: every key you ship is public
 
-An Android app is an APK file and an iPhone app an IPA file: archives that free, well-documented tools open in minutes, listing the text inside. Android's documentation says it plainly: "When your app is compiled, and your app's source code includes API keys, it's possible for an attacker to decompile the app and find these resources" ([Android Developers](https://developer.android.com/privacy-and-security/security-tips)).
+An Android app is an APK file and an iPhone app an IPA file: archives that free, well-documented tools take apart, listing the text inside. Android's documentation says it plainly: "When your app is compiled, and your app's source code includes API keys, it's possible for an attacker to decompile the app and find these resources" ([Android Developers](https://developer.android.com/privacy-and-security/security-tips)).
 
 Hiding the key does not change that:
 
 - **Obfuscation**, or splitting the key into pieces, slows a reader down. But the app must rebuild the key to use it, and anyone running your app on their own phone can read the requests it sends.
-- **.env files and build variables** are copied into the app. Expo's documentation warns that `EXPO_PUBLIC_` variables "will be visible in plain-text in your compiled application"; the same goes for any value compiled into a Flutter, Swift or Kotlin build.
+- **.env files and build variables** hide nothing: any value your app's code reads from them ends up in the app. Expo's documentation warns that `EXPO_PUBLIC_` variables "will be visible in plain-text in your compiled application"; the same goes for any value compiled into a Flutter, Swift or Kotlin build.
 
 The providers agree. OpenAI's help centre tells you never to deploy a key in client-side environments such as browsers or mobile apps, and to send requests through your own backend ([OpenAI](https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety)). Anthropic says never to include the key directly in your code or configuration files ([Claude help centre](https://support.claude.com/en/articles/9767949-api-key-best-practices-keeping-your-keys-safe-and-secure)). Both companies' JavaScript libraries even refuse to run in a browser unless the developer sets an option called `dangerouslyAllowBrowser`.
 
@@ -54,7 +54,7 @@ Not every key in an app is a mistake: some are made to be public, and the protec
 |---|---|---|
 | OpenAI or Claude API key (`sk-ant-…` for Claude) | Never | Requests billed to you |
 | Stripe secret key (`sk_live_…`) or restricted key (`rk_live_…`) | Never | Your Stripe account, within the key's permissions |
-| Supabase secret key (`sb_secret_…`) or legacy `service_role` key | Never | Every table, with row level security bypassed |
+| Supabase secret key (`sb_secret_…`) or legacy `service_role` key | Never | Full access to your data, row level security bypassed |
 | Cloud credentials (Google Cloud service account, AWS access key) | Never | Whatever their permissions allow |
 | Stripe publishable key (`pk_live_…`) | Yes | Little on its own: it is made to be public |
 | Firebase configuration (`apiKey`) | Yes | What your Security Rules allow |
@@ -63,7 +63,7 @@ Not every key in an app is a mistake: some are made to be public, and the protec
 
 A public key is only as safe as the rules behind it. Firebase's documentation says its keys identify your project and do not control access to your data; the Security Rules do, hence my tutorial on {{< a key="ai-app-data-leaks" >}}checking your Firebase and Supabase rules{{< /a >}}. Two more precautions:
 
-- **Restrict each public key** to your app and to the APIs it needs. Android's documentation cites Google Maps, whose keys can be limited to your app's package name and signing key (on iOS, to its bundle identifier).
+- **Restrict each public key**, where the provider allows it, to your app and to the APIs it needs. Android's documentation cites Google Maps, whose keys can be limited to your app's package name and signing key (on iOS, to its bundle identifier).
 - **Never let a public key call a paid AI API.** Firebase warns against adding the Gemini Developer API to the allowlist of a publicly accessible key: a key made for a map would open your AI budget.
 
 ## What to do instead: a small function between your app and the API
@@ -101,7 +101,8 @@ exports.askAssistant = onCall(
       },
       body: JSON.stringify({
         model: "claude-haiku-5-5",
-        max_tokens: 500,
+        max_tokens: 1024, // includes the model's thinking
+        output_config: { effort: "low" }, // less thinking, faster answers
         messages: [{ role: "user", content: question }],
       }),
     });
@@ -118,7 +119,7 @@ exports.askAssistant = onCall(
 );
 ```
 
-Store the key once with the Firebase command line, then deploy:
+Store the key once with the Firebase command line, then deploy (Cloud Functions need Firebase's pay-as-you-go Blaze plan):
 
 ```bash
 firebase functions:secrets:set ANTHROPIC_API_KEY
@@ -133,20 +134,20 @@ For Gemini, a ready-made version exists: Firebase AI Logic is a managed proxy, s
 
 Once the key sits behind your function, the function is the door to protect:
 
-1. **Signed-in users only.** The `request.auth` check above refuses anonymous calls.
+1. **Signed-in users only.** The `request.auth` check above refuses calls from users who are not signed in.
 2. **Requests from your genuine app.** Apple's App Attest and Google's Play Integrity let your server check that a request comes from an unmodified copy of your app on a genuine device; Firebase App Check wraps both, and `enforceAppCheck: true` refuses calls without a valid token. Google says to use Play Integrity as part of an anti-abuse strategy, "not as your sole anti-abuse mechanism", and Apple warns that not every device supports App Attest: plan for the check being unavailable.
 3. **A daily limit per user.** Count requests per user in your database and refuse beyond your number: accounts are easy to create, and this stops one person from emptying your budget.
-4. **A spend limit at the provider.** In the Claude Console, set it on the Billing page under **Spend limits**; OpenAI offers a monthly limit per project. Choose an amount you could lose without drama: it is roughly the most a leak can cost.
+4. **A spend limit at the provider.** In the Claude Console, set it on the Billing page under **Spend limits**; OpenAI offers a monthly limit per project. Choose an amount you could lose without drama: it is roughly the most a leak can cost you in a month.
 
 Use separate keys for development and production too. Anthropic lets you set an expiry date when you create a key and suggests rotating keys on a schedule, for example every 90 days.
 
-{{< callout type="warning" >}}**Firebase AI Logic users:** as of 19 October 2026, Firebase says App Check enforcement will be required to use Firebase AI Logic from **2 November 2026**; requests without a valid App Check token will be blocked, including from app versions with no production attestation provider ([Firebase documentation](https://firebase.google.com/docs/ai-logic/app-check)). If you set it up before early July 2026, enforcement was not switched on for you: add App Check to the app and ship the update before that date.{{< /callout >}}
+{{< callout type="warning" >}}**Firebase AI Logic users:** as of 19 October 2026, Firebase says App Check enforcement will be required to use Firebase AI Logic from **2 November 2026**; requests without a valid App Check token will be blocked, including from app versions with no production attestation provider ([Firebase documentation](https://firebase.google.com/docs/ai-logic/app-check)). If you set it up before early July 2026, enforcement may not be on for your project yet: add App Check to the app and ship the update before that date.{{< /callout >}}
 
 ## Keep keys out of your code repository
 
 Your function's code lives in a repository; the key must not. Keep it in the platform's secret store, and if you test with a local `.env` file, add it to `.gitignore` before your first commit. Deleting a key in a later commit leaves it in the history: a key that has been pushed is a leaked key.
 
-GitHub adds two safety nets. **Push protection** blocks a push containing a recognised secret: it is on by default for public repositories, and for private ones it comes with the paid GitHub Secret Protection. GitHub also scans public repositories for Claude API keys, and Anthropic then deactivates the key automatically and emails you. Welcome, but you will need a new key anyway.
+GitHub adds two safety nets. **Push protection** blocks a push containing a recognised secret: it is on by default for public repositories, and for private ones it comes with the paid GitHub Secret Protection. GitHub also scans public repositories for Claude API keys, and Anthropic then deactivates the key automatically and emails you. Useful, but you will need a new key anyway.
 
 ## If a key has already leaked: the first hour
 
@@ -155,7 +156,7 @@ Fix first, investigate second:
 1. **Create a new key** and store it in your server's secrets, so your function keeps working.
 2. **Revoke the old one.** In the Claude Console: **API keys**, the three-dot menu next to the key, **Delete API Key**. With OpenAI, Stripe or Supabase, delete or replace it in the dashboard's API keys section. Only revocation makes the copies worthless; an app update does not.
 3. **Check usage and billing** since the key may have been exposed, and lower your spend limit meanwhile.
-4. **Release an update** that goes through your function. Old installed versions still hold the dead key and their AI or payment features will stop, so show their users a message asking them to update.
+4. **Release an update** that goes through your function. Old installed versions still hold the dead key, so their AI or payment features stop working until people update; if your app already has a forced-update check, use it.
 5. **Ask whether personal data was reachable.** A leaked database or cloud key can mean a personal data breach. Under Article 33 of the GDPR and of the UK GDPR, the controller must notify the regulator (the ICO in the UK, the CNIL in France) without undue delay and, where feasible, within 72 hours of becoming aware of it, unless the breach is unlikely to result in a risk to people. My guide to {{< a key="gdpr-data-breach" >}}the first 72 hours after a data breach{{< /a >}} covers the steps. This is general information, not legal advice: if personal data may have been exposed, ask a lawyer or your DPO what you must report.
 
 ## Before you publish: check the built app, then the checklist

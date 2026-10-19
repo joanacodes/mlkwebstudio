@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:45:00+02:00
 category: "mobile-apps"
 article_type: "guide"
 keywords: ["mobile app security checklist", "OWASP MASVS", "OWASP Mobile Top 10", "mobile app security testing", "app security before launch", "MobSF"]
-summary: "Before launch, make sure the app contains no secret keys, your server checks permissions on every request, tokens live in the iOS Keychain or the Android Keystore and all traffic uses TLS. Then audit your SDKs, keep personal data out of logs, ship a clean release build and publish a way to report vulnerabilities. Those checks cover the core of OWASP MASVS; pay for a penetration test once the app holds health, financial or other sensitive data."
+summary: "Before launch, make sure the app contains no secret keys, your server checks permissions on every request, tokens are protected by the iOS Keychain or the Android Keystore and all traffic uses TLS. Then audit your SDKs, keep personal data out of logs, ship a clean release build and publish a way to report vulnerabilities. Those checks cover the core of OWASP MASVS; pay for a penetration test once the app holds health, financial or other sensitive data."
 cover: "mobile-app-security-checklist"
 cover_alt: "The article's title in white on a ribbed-glass panel over a photo of a padlock"
 related: ["api-keys-mobile-apps", "ai-app-data-leaks", "cyber-resilience-act-apps", "app-privacy-labels", "mobile-app-launch-guide"]
@@ -27,7 +27,7 @@ faq:
     a: "Not by nature. But AI app builders often connect the app straight to a database with a key anyone can read, which leaves the database rules as the only lock. Check those rules before launch, and ask the tool where every key is stored."
 ---
 
-Most apps that leak data are not broken into by clever attackers. They ship with a key anyone can pull out of the app, or they talk to a server that believes whatever the app tells it. This mobile app security checklist closes those two gaps first, then covers the rest of what OWASP's mobile standard, MASVS, expects before you publish.
+Many apps that leak data are not broken into by clever attackers. They ship with a key anyone can pull out of the app, or they talk to a server that believes whatever the app tells it. This mobile app security checklist closes those two gaps first, then covers the rest of what OWASP's mobile standard, MASVS, expects before you publish.
 
 I build apps end to end, from the screens to the server, and the server is the half I would watch most closely: a phone app is a window onto your data, and the server decides who may look through it.
 
@@ -43,7 +43,7 @@ OWASP, the Open Worldwide Application Security Project, is a non-profit foundati
 | CRYPTO | Current encryption, with keys kept in the platform's keystore | 6 |
 | AUTH | Sign-in, permissions, extra checks for sensitive actions | 2, 4, 5 |
 | NETWORK | Encrypted traffic, and pinning where it is justified | 9, 10 |
-| PLATFORM | Links, WebViews and screens the app shares with the phone | 3, 8 |
+| PLATFORM | Links and data exchanged with other apps, WebViews, what the screen shows | 3, 8 |
 | CODE | Supported OS versions, safe components, updates, input checks | 3, 11, 15 |
 | RESILIENCE | Making tampering and reverse engineering slower | 12, 13, 14 |
 | PRIVACY | Collecting less, saying what you collect, giving users control | 7, 8 |
@@ -122,7 +122,7 @@ Decide the oldest iOS and Android versions you support, and raise that floor as 
 
 ### 16. A published way to report vulnerabilities
 
-MASVS does not require one, but the law is catching up. As of 19 October 2026, the EU Cyber Resilience Act ([Regulation (EU) 2024/2847](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847)) has required manufacturers since 11 September 2026 to report actively exploited vulnerabilities and severe incidents (Article 14): an early warning within 24 hours, then a notification within 72 hours, through ENISA's single reporting platform. From 11 December 2027, its vulnerability handling rules (Annex I, Part II) add a coordinated disclosure policy, a way for anyone to report a flaw, a software bill of materials and prompt security updates. The European Commission's guidance of July 2026 says a standalone mobile app can be in scope, and the Act covers apps on the EU market even when the developer is based in London or New York.
+MASVS does not require one, but the law is catching up. As of 19 October 2026, the EU Cyber Resilience Act ([Regulation (EU) 2024/2847](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847)) has required manufacturers since 11 September 2026 to report actively exploited vulnerabilities and severe incidents (Article 14): an early warning within 24 hours, then a notification within 72 hours, through ENISA's Single Reporting Platform. From 11 December 2027, its vulnerability handling rules (Annex I, Part II) add a coordinated disclosure policy, a way for anyone to report a flaw, a software bill of materials and prompt security updates. The European Commission's guidance of July 2026 says a standalone mobile app can be in scope, and the Act covers apps on the EU market even when the developer is based in London or New York.
 
 In the UK, the government's voluntary code of practice for app store operators and app developers (December 2022, updated October 2023) already asks for a vulnerability disclosure process that people can reach from the app store. In practice: a security address such as security@yourdomain, a short page or a security.txt file (RFC 9116) explaining how to report, a link from your store listing, and a named person who reads it. My article on {{< a key="cyber-resilience-act-apps" >}}the Cyber Resilience Act and apps{{< /a >}} has the details. This is general information, not legal advice: if your app handles health, financial or children's data, or you are unsure whether you count as a manufacturer, an hour with a lawyer who knows EU product rules is money well spent.
 

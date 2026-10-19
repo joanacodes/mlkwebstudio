@@ -29,9 +29,9 @@ faq:
 
 Une demande de droit d’accès RGPD, c’est une personne qui vous demande les données personnelles que vous détenez sur elle. L’article 15 du RGPD lui donne droit à une copie de ces données et à une explication de leur usage, dans un délai d’un mois et, le plus souvent, gratuitement.
 
-Elle arrive rarement au bon moment : un salarié qui vient de partir, un client qui conteste une facture, un prospect agacé par un cold email. Aucune formule n’est exigée : « envoyez-moi toutes les données que vous avez sur moi » suffit.
+Ces demandes arrivent rarement au bon moment : un salarié qui vient de partir, un client qui conteste une facture, un prospect agacé par un cold email. Aucune formule n’est exigée : « envoyez-moi toutes les données que vous avez sur moi » suffit.
 
-Ce guide vaut pour les petites équipes de l’UE comme pour les entreprises hors d’Europe qui ont des clients européens. Il fait partie de mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}}.
+Ce guide vaut pour les petites équipes de l’UE comme pour les entreprises hors de l’UE qui ont des clients européens. Il fait partie de mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}}.
 
 ## Qui doit répondre, et qui peut demander
 
@@ -54,7 +54,7 @@ Votre réponse comporte deux parties : une copie des données, et les informati
 7. **Source** des données, si elles ne viennent pas de la personne.
 8. **Décisions automatisées**, profilage compris, et leur logique.
 
-Les points 1 à 6 figurent pour l’essentiel dans votre {{< a key="privacy-policy-guide" >}}politique de confidentialité{{< /a >}}. Le point 7 est celui qu’oublient les entreprises qui prospectent : en décembre 2024, la CNIL a infligé 240 000 € d’amende à KASPR, un outil de recherche de coordonnées, notamment parce que ses réponses aux demandes d’accès taisaient l’origine des données ([annonce de la CNIL](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr)).
+Les points 1 à 6 figurent pour l’essentiel dans votre {{< a key="privacy-policy-guide" >}}politique de confidentialité{{< /a >}}. Le point 7 est celui qu’oublient les entreprises qui prospectent : en décembre 2024, la CNIL a infligé 240 000 € d’amende à KASPR, dont l’extension Chrome fournit des coordonnées de contacts, notamment parce que ses réponses aux demandes d’accès taisaient l’origine des données ([annonce de la CNIL](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr)).
 
 La copie doit être complète et intelligible, ce qui peut impliquer des extraits, voire des documents entiers, quand le contexte est nécessaire (affaire C-487/21). Une demande reçue par e-mail appelle une réponse électronique, en PDF par exemple, sauf demande contraire (article 15.3).
 
@@ -135,7 +135,7 @@ Faites tout passer par une seule personne, et écrivez vos e-mails internes comm
 
 Les autres droits des articles 16 à 22 suivent le même délai d’un mois et le même registre.
 
-- **Effacement (article 17)** : supprimez les données dont vous n’avez plus besoin, ou après un retrait du consentement ou une opposition que vous ne pouvez pas écarter. Gardez ce qu’imposent la loi ou un contentieux, comme les factures (article 17.3), et prévenez ceux à qui vous avez communiqué les données (article 19).
+- **Effacement (article 17)** : supprimez les données dont vous n’avez plus besoin, ou celles visées par un retrait du consentement ou par une opposition que vous ne pouvez pas écarter. Gardez ce qu’imposent la loi ou un contentieux, comme les factures (article 17.3), et prévenez ceux à qui vous avez communiqué les données (article 19).
 - **Rectification (article 16)** : corrigez les données inexactes et complétez celles qui sont incomplètes.
 - **Opposition à la prospection (article 21.3)** : absolue. Arrêtez immédiatement et gardez l’adresse dans une liste d’exclusion pour qu’un prochain import ne la fasse pas revenir.
 - **Portabilité (article 20)** : les données fournies par la personne et traitées de façon automatisée, sur la base du consentement ou d’un contrat, lui reviennent dans un fichier lisible par machine (un CSV par exemple) ou partent chez un autre prestataire si c’est techniquement possible.

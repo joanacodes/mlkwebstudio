@@ -1,7 +1,7 @@
 ---
 title: "UK GDPR after the Data (Use and Access) Act 2025: what changed"
 seo_title: "Data (Use and Access) Act 2025: what changed for UK GDPR"
-description: "The Data (Use and Access) Act 2025 now applies: cookie exemptions, access requests, a complaints duty, higher PECR fines. What changed and what to update."
+description: "The Data (Use and Access) Act 2025’s UK GDPR and PECR changes now apply: cookie exemptions, access requests, a complaints duty, higher fines. What to update."
 slug: "data-use-and-access-act-2025"
 translationKey: "uk-gdpr-data-use-access-act"
 date: 2026-10-18T21:36:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:36:00+02:00
 category: "gdpr"
 article_type: "news"
 keywords: ["Data (Use and Access) Act 2025", "UK GDPR changes", "DUAA", "Data (Use and Access) Act commencement", "PECR cookie exemptions", "recognised legitimate interests", "data protection complaints procedure"]
-summary: "The Data (Use and Access) Act 2025 amends the UK GDPR, the Data Protection Act 2018 and PECR rather than replacing them, and as of 19 October 2026 its main changes for websites and marketing apply. Since February 2026, analytics used only for statistics can run without consent and PECR fines can reach £17.5 million or 4% of worldwide turnover; since 19 June 2026, you must accept and answer data protection complaints yourself."
+summary: "The Data (Use and Access) Act 2025 amends the UK GDPR, the Data Protection Act 2018 and PECR rather than replacing them, and as of 19 October 2026 its main changes for websites and marketing apply. Since February 2026, analytics used only for statistics can run without consent if visitors are told and can easily object, and PECR fines can reach £17.5 million or 4% of worldwide turnover. Since 19 June 2026, you must accept and answer data protection complaints yourself."
 cover: "uk-gdpr-data-use-access-act"
 cover_alt: "The article’s title in white on a ribbed-glass panel over a photo of a blueprint grid with a target"
 related: ["cookie-banner-rules", "gdpr-subject-access-request", "cold-email-gdpr-uk-france", "gdpr-outside-eu", "newsletter-consent-gdpr"]
@@ -40,17 +40,17 @@ This article explains the law and the official guidance; it is not legal advice.
 | 19 June 2026 | Organisations must accept and handle data protection complaints |
 | 30 September 2026 | The ICO formally becomes the Information Commission |
 
-The February step came from a single statutory instrument, the Commencement No. 6 Regulations (SI 2026/82). The government’s [commencement page](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) lists every stage, and the [text of the Act](https://www.legislation.gov.uk/ukpga/2025/18/contents) is on legislation.gov.uk.
+Most of the February changes came from one statutory instrument, the Commencement No. 6 Regulations (SI 2026/82), which also set the 19 June 2026 start for complaints. The government’s [commencement page](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) lists every stage, and the [text of the Act](https://www.legislation.gov.uk/ukpga/2025/18/contents) is on legislation.gov.uk.
 
 ## Cookies: analytics without a banner, on conditions
 
 PECR regulation 6 still requires consent before you store or read anything on a visitor’s device, unless an exception applies. Since 5 February 2026, the list of exceptions has three new entries, which the [ICO’s guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/) explains:
 
-- **Statistical purposes**: analytics used only to produce statistics about how people use your site.
+- **Statistical purposes**: analytics used only to produce statistics about how people use your site, so you can improve it. You may share the data with a third party only so that it can help you make those improvements.
 - **Appearance**: remembering how a visitor wants the site to look or work, such as their language or text size.
 - **Emergency assistance**: locating a device to send help in an emergency.
 
-For the first two, you must give clear and comprehensive information and an easy way to object, for example a paragraph in your cookie policy with an opt-out link. If the same analytics data also feeds advertising, such as remarketing audiences, the exception no longer applies. Advertising cookies still need consent.
+For the first two, you must give clear and comprehensive information and an easy way to object, for example a paragraph in your cookie policy with an opt-out link. If the same analytics data also feeds advertising, such as remarketing audiences, or tracks individual visitors, the exception no longer applies. Advertising cookies still need consent.
 
 The result: a UK site with only strictly necessary cookies, statistics-only analytics and preference cookies can drop its consent banner, provided it informs visitors and offers the opt-out. My article on {{< a key="cookie-banner-rules" >}}cookie banner rules{{< /a >}} compares the UK, EU and French regimes; the EU section below explains why many UK sites will keep a banner anyway.
 
@@ -89,7 +89,7 @@ For transfers out of the UK, a new “data protection test” asks whether prote
 
 ## Customers in the EU: EU rules still apply
 
-None of this changes the EU GDPR. If you offer goods or services to people in the EU, or monitor their behaviour, for example with advertising cookies, the EU GDPR applies to that processing under its Article 3(2), wherever your company is based. Take a Bristol online shop that ships to France and Ireland: UK rules for its UK customers, EU rules for the others. The reverse holds too: a company in Paris or Dublin that sells to people in the UK falls under the UK GDPR for those customers.
+None of this changes the EU GDPR. If you offer goods or services to people in the EU, or monitor their behaviour, for example with advertising cookies, the EU GDPR applies to that processing under its Article 3(2), wherever your company is based. Take a Bristol online shop that ships to France and Ireland: the UK GDPR covers all its customers, and the EU GDPR applies as well to those in France and Ireland. The reverse holds too: a company in Paris or Dublin that sells to people in the UK falls under the UK GDPR for those customers.
 
 Two practical consequences for a UK business:
 

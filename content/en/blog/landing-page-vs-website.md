@@ -49,7 +49,7 @@ One point of vocabulary: a long home page that lists every service is a one-page
 
 ## What a landing page does well
 
-A landing page works because it removes choices. The visitor arrives with one need, reads one offer and has one thing to do: call, fill in a short form or book a slot. Nothing on the page sends them anywhere else.
+A landing page works because it removes choices. The visitor arrives with one need, reads one offer and has one thing to do: call, fill in a short form or book a slot. Nothing on the page sends them anywhere else. The offer can also be free, such as a checklist or a short diagnostic in exchange for an email address: my list of {{< a key="lead-magnet-ideas" >}}lead magnet ideas for service businesses{{< /a >}} gives examples by trade.
 
 That makes it the right tool when you control where visitors come from. Take a heating engineer who runs ads in September for a fixed-price boiler service. The ad promises the price; the page repeats it in its headline, lists what the service includes, shows a few reviews and asks for a phone number. Nobody who clicked has to look for anything.
 
@@ -114,7 +114,7 @@ The cost people underestimate, in both cases, is the copy. A landing page has to
 
 ## Landing page or website: how to choose
 
-For most small businesses, the answer is both, in this order: a website first, then a landing page for each paid campaign, on the same domain.
+For most small businesses, the answer is both, in this order: a website first, then a landing page for each paid campaign, on the same domain. If you are launching a mobile app, my guide to {{< a key="app-website-seo" >}}SEO for your app's website{{< /a >}} covers its landing page and how to connect it to the app.
 
 A landing page on its own is enough when:
 
@@ -145,4 +145,4 @@ When a campaign does need its own page, these are the steps I would follow:
 8. Test it on your own phone, on mobile data, before the first ad runs.
 9. Measure it: track calls and form submissions as conversions, and install Microsoft Clarity, which is free, to see where visitors stop reading. For visitors in the UK and the EU, Clarity needs a consent signal from your cookie banner; my {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity tutorial{{< /a >}} shows how to set it up.
 
-If the page gets visits but no enquiries, look at the page before you raise the budget: my guide to a {{< a key="website-conversion-rate" >}}website not getting enquiries{{< /a >}} shows where visitors drop off and how to fix it.
+If the page gets visits but no enquiries, look at the page before you raise the budget: my guide to a {{< a key="website-conversion-rate" >}}website not getting enquiries{{< /a >}} shows where visitors drop off and how to fix it. To see the page as one step on the path from first visit to booked call, read my {{< a key="sales-funnel-explained" >}}simple sales funnel example{{< /a >}}.
