@@ -29,7 +29,7 @@ Si vous vendez des formations en ligne, de l’accompagnement ou des produits nu
 
 J’ai comparé les trois, d’après leurs grilles tarifaires et leur documentation, sur ce qui compte pour une petite équipe : pour qui chacun est conçu, le prix à votre taille, ce qui est inclus (emailing, CRM, paiements, formations), la difficulté pour en sortir et l’endroit où partent les données de vos contacts.
 
-Pour faire court : **Systeme.io pour vendre seul avec un petit budget**, ClickFunnels si vous vendez par pages de vente et ventes additionnelles et que le budget suit, GoHighLevel si vous êtes une agence, et aucun des trois pour la plupart des entreprises de services. Ce comparatif fait partie de mon {{< a key="funnels-newsletters-guide" >}}guide du tunnel de vente et de la newsletter{{< /a >}}, qui montre où chaque pièce s’emboîte.
+Pour faire court : **Systeme.io pour vendre en solo avec un petit budget**, ClickFunnels si vous vendez par pages de vente et ventes additionnelles et que le budget suit, GoHighLevel si vous êtes une agence, et aucun des trois pour la plupart des entreprises de services. Ce comparatif fait partie de mon {{< a key="funnels-newsletters-guide" >}}guide du tunnel de vente et de la newsletter{{< /a >}}, qui montre où chaque pièce s’emboîte.
 
 ## Systeme.io, ClickFunnels ou GoHighLevel : le comparatif en un tableau (octobre 2026)
 
