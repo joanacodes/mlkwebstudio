@@ -55,7 +55,7 @@ Les jours se comptent à partir de l’inscription (J+2 = deux jours après), ou
 
 La séquence s’adresse aux personnes qui ont demandé vos emails : par un formulaire d’inscription à la newsletter, ou par une case séparée, non cochée, sous le formulaire de votre lead magnet. Quelqu’un qui a seulement téléchargé une checklist reçoit l’email qui la livre, et rien d’autre. Mon article sur les {{< a key="lead-magnet-ideas" >}}idées de lead magnet{{< /a >}} montre comment séparer les deux.
 
-Il existe des exceptions : envers des particuliers, l’article L34-5 du Code des postes et des communications électroniques impose le consentement sauf pour vos clients, sur des produits ou services analogues ; en B2B, un professionnel peut recevoir des emails liés à son métier s’il en a été informé et peut s’y opposer. Une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève aussi du RGPD pour elles (article 3, paragraphe 2). Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille ces règles ; ceci est une information générale, pas un conseil juridique.
+Il existe des exceptions, comme l’exception client (soft opt-in) et des règles plus souples pour les adresses professionnelles. Et les règles suivent vos abonnés : une entreprise suisse, québécoise ou marocaine dont la newsletter vise des personnes dans l’UE relève du RGPD pour elles (article 3, paragraphe 2). Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille ces règles ; ceci est une information générale, pas un conseil juridique.
 
 ## Email 1, tout de suite : livrer ce que vous avez promis
 
@@ -144,7 +144,7 @@ Le dernier email fait l’offre : un appel court, une visite ou un devis, selon
 
 Donnez un numéro de téléphone à côté du lien de réservation. Dans mes campagnes de cold emailing, beaucoup de prospects appellent au lieu de répondre : un appel va plus vite qu’un email, et les gens aiment parler à quelqu’un. Pour la réservation, YouCanBookMe a ma préférence, mais Calendly fait aussi l’affaire.
 
-Terminez par une ligne sur les préférences ou la désinscription. Votre outil ajoute déjà un lien de désinscription à chaque email : l’article L34-5 du CPCE impose à tout email de prospection un moyen valable de demander l’arrêt des envois, et les [consignes de Google pour les expéditeurs](https://support.google.com/a/answer/81126?hl=fr) exigent en plus, au-delà de 5 000 messages par jour vers des adresses Gmail, la désinscription en un clic et un lien visible dans le message. L’écrire en toutes lettres dans le dernier email montre votre bonne foi.
+Terminez par une ligne sur les préférences ou la désinscription. Votre outil ajoute déjà un lien de désinscription à chaque email : l’article L34-5 du Code des postes et des communications électroniques impose à tout email de prospection un moyen valable de demander l’arrêt des envois, et les [consignes de Google pour les expéditeurs](https://support.google.com/a/answer/81126?hl=fr) exigent en plus, au-delà de 5 000 messages par jour vers des adresses Gmail, la désinscription en un clic et un lien visible dans le message. L’écrire en toutes lettres dans le dernier email montre votre bonne foi.
 
 ```text
 Objet : Et si on parlait de [problème] ?

@@ -72,27 +72,27 @@ Your newsletter tool adds the footer with the unsubscribe link.
 
 ## How often to send a B2B newsletter
 
-Consistency matters more than volume. For a small team, **monthly or fortnightly** is the rhythm that lasts: often enough to stay in mind, rarely enough that writing it does not eat a day a week.
+Consistency matters more than volume. For a small team, **monthly or fortnightly** is the rhythm that lasts: often enough to stay in mind, rarely enough that writing does not eat a day a week.
 
 | Rhythm | Issues a year | Suits |
 |---|---|---|
-| Monthly | 12 | Most service businesses, and anyone writing it alone |
-| Fortnightly | 26 | Fields that change often (tax, law, IT) or teams with frequent news |
+| Monthly | 12 | Most service businesses, and anyone writing alone |
+| Fortnightly | 26 | Fields that change often, such as tax, law or IT |
 | Weekly | 52 | Only if someone has a few hours for it every week |
 
-People are busy. In my cold email campaigns, the third email brings positive replies from people who simply had not found the time to answer the first two. A newsletter relies on the same patience: being in the inbox, regularly, on the day the reader finally has the need and the time.
+People are busy. In my cold email campaigns, the third email brings positive replies from people who simply had not found the time to answer the first two. A newsletter relies on the same patience: being there, regularly, on the day the reader has the need and the time.
 
-So choose the rhythm you can keep for a year, not the one you can keep in January, and state it on the sign-up form ("one email a month"). If a month is thin, send a short issue with one tip and one link rather than nothing. And resist launching a newsletter, a podcast and a LinkedIn routine in the same month: it is easy to fall for every new channel, and one channel kept up beats three abandoned.
+So choose the rhythm you can keep for a year, not just in January, and state it on the sign-up form ("one email a month"). In a thin month, send one tip and one link rather than nothing. And do not launch a newsletter, a podcast and a LinkedIn routine at once: it is easy to fall for every new channel, and one channel kept up beats three abandoned.
 
 ## Length, subject line and one call to action
 
 ### Length: a two- or three-minute read
 
-Your readers open it at work, between two tasks. One main item and two or three short ones are plenty. If an issue runs long, split it: you have next month's.
+Your readers open it at work, between two tasks. One main item and two or three short ones are plenty; if an issue runs long, split it and you have next month's.
 
 ### Subject line and preview text
 
-The subject says what the reader gets; the preview text, the line shown after it in most inboxes, completes it. Put the useful words first, because phones cut long subjects off.
+The subject says what the reader gets, and the preview text (the line shown after it in most inboxes) completes it. Put the useful words first: phones cut long subjects off.
 
 | Vague | Specific |
 |---|---|

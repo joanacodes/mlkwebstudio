@@ -41,20 +41,20 @@ Le **responsable du traitement** décide pourquoi et comment les données person
 |---|---|
 | L’agence web qui maintient votre site et peut lire les messages du formulaire de contact | Sous-traitant |
 | Le freelance qui gère votre CRM, le développeur qui automatise votre messagerie, le prestataire informatique qui se connecte pour dépanner | Sous-traitant |
-| Votre hébergeur, outil d’emailing, CRM, stockage en ligne ou logiciel de prise de rendez-vous | Sous-traitant pour les données que vous y mettez ; responsable pour ses propres besoins, comme votre facturation |
+| Votre hébergeur, outil d’emailing, CRM, stockage en ligne ou logiciel de prise de rendez-vous | Sous-traitant pour les données que vous y mettez ; responsable du traitement pour ses propres besoins, comme votre facturation |
 | Le prestataire de cold emailing qui envoie vos campagnes à une liste que vous fournissez | Sous-traitant |
-| Votre expert-comptable | Cela dépend : sous-traitant s’il tient vos comptes sur vos instructions, responsable pour les missions soumises à ses propres obligations professionnelles |
+| Votre expert-comptable | Cela dépend : sous-traitant s’il tient vos comptes sur vos instructions, responsable du traitement pour les missions soumises à ses propres obligations professionnelles |
 | Un salarié | Ni l’un ni l’autre : il agit sous votre autorité (article 29) |
 
 Un prestataire de cold emailing qui trouve aussi les prospects fait des choix qu’un sous-traitant laisse d’ordinaire à son client : écrivez qui choisit les sources, qui informe les prospects et qui traite les oppositions (voir mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}}). Et un sous-traitant qui utilise vos données pour ses propres fins devient responsable de ce traitement (article 28, paragraphe 10).
 
-La distance ne change rien. Un développeur à Casablanca qui maintient la base clients d’une boutique en ligne française est son sous-traitant. Une entreprise suisse, québécoise ou marocaine soumise au RGPD parce qu’elle vend dans l’UE ({{< a key="gdpr-outside-eu" >}}voici les deux critères{{< /a >}}) doit aussi en signer un avec ses propres sous-traitants.
+La distance ne change rien. Un développeur à Casablanca qui maintient la base clients d’une boutique en ligne française est son sous-traitant. Une entreprise suisse, québécoise ou marocaine soumise au RGPD parce qu’elle vend dans l’UE ({{< a key="gdpr-outside-eu" >}}voici les deux critères{{< /a >}}) doit elle aussi encadrer ses propres sous-traitants par contrat.
 
 ## Quand faut-il un contrat de sous-traitance RGPD, et quand n’en faut-il pas ?
 
 Il en faut un dans deux situations :
 
-1. **Comme client**, avec chaque prestataire qui traite des données personnelles pour vous, quelle que soit sa taille et que vous le payiez ou non. L’article 28, paragraphe 1, exige aussi des sous-traitants qui présentent des garanties suffisantes, et c’est le contrat qui les consigne.
+1. **Comme client**, avec chaque prestataire qui traite des données personnelles pour vous, quelle que soit sa taille et que vous le payiez ou non. L’article 28, paragraphe 1, vous impose aussi de choisir des sous-traitants qui présentent des garanties suffisantes, et c’est le contrat qui les consigne.
 2. **Comme prestataire**, dès que vous accédez aux données personnelles d’un client, même avec un simple identifiant. Consulter des données est déjà un traitement (article 4, point 2).
 
 Il n’en faut pas quand l’autre partie décide elle-même de ce qu’elle fait des données, comme votre banque pour un paiement : vous êtes alors deux responsables du traitement distincts.
@@ -65,7 +65,7 @@ Quand deux entreprises décident ensemble pourquoi et comment des données sont 
 
 ## Ce que doit contenir le contrat selon l’article 28
 
-L’[article 28 du RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679) fixe le minimum. Le contrat doit être écrit, la forme électronique comprise (article 28, paragraphe 9) : des conditions acceptées en ligne ou un PDF signé conviennent. Il commence par décrire le traitement : son objet et sa durée, sa nature et sa finalité, le type de données personnelles, les catégories de personnes concernées, et les obligations et droits du responsable du traitement. Le sous-traitant s’engage ensuite sur huit points :
+L’[article 28 du RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679) fixe le minimum. Le contrat doit être écrit, la forme électronique comprise (article 28, paragraphe 9) : des conditions acceptées en ligne ou un PDF signé conviennent. Il doit décrire le traitement : son objet et sa durée, sa nature et sa finalité, le type de données personnelles, les catégories de personnes concernées, et les obligations et droits du responsable du traitement. Le sous-traitant s’engage ensuite sur huit points :
 
 1. **N’agir que sur vos instructions documentées**, y compris pour les transferts hors de l’UE.
 2. **Confidentialité** : toutes les personnes qui traitent les données y sont tenues.
@@ -84,7 +84,7 @@ Le sous-traitant doit aussi vous prévenir immédiatement s’il estime qu’une
 
 Vos prestataires ont leurs propres prestataires : votre CRM tourne chez un hébergeur cloud, votre outil d’emailing s’appuie sur un service d’envoi. Selon l’article 28, paragraphe 2, un sous-traitant ne peut en faire intervenir un autre qu’avec votre autorisation écrite préalable. Elle peut être spécifique, au cas par cas, ou générale : il doit alors vous informer à l’avance de tout changement pour que vous puissiez vous y opposer. L’article 28, paragraphe 4, impose les mêmes obligations tout au long de la chaîne, et votre sous-traitant reste pleinement responsable envers vous de ceux qu’il fait intervenir.
 
-Les grands éditeurs choisissent l’autorisation générale : ils publient la liste de leurs sous-traitants ultérieurs, et certains permettent de s’abonner aux avis de modification. Tenez une liste simple de vos propres sous-traitants, avec le lien vers le contrat et la liste des sous-traitants ultérieurs de chacun. Elle alimente votre registre des traitements (article 30) et votre politique de confidentialité, et elle répond au client qui demande qui accède à ses données.
+Les grands éditeurs choisissent le plus souvent l’autorisation générale : ils publient la liste de leurs sous-traitants ultérieurs, et certains permettent de s’abonner aux avis de modification. Tenez une liste simple de vos propres sous-traitants, avec le lien vers le contrat et la liste des sous-traitants ultérieurs de chacun. Elle alimente votre registre des traitements (article 30) et votre politique de confidentialité, et elle répond au client qui demande qui accède à ses données.
 
 ## Les modèles gratuits : clauses types de la Commission et guide de la CNIL
 
@@ -101,7 +101,7 @@ Les clauses types ne couvrent que la protection des données : le prix, les pla
 Avec les grands éditeurs, on ne négocie pas : on accepte. Les menus décrits ci-dessous sont ceux d’octobre 2026.
 
 - **Google Workspace** s’appuie sur son Cloud Data Processing Addendum. Un super-administrateur le consulte et l’accepte dans la console d’administration, menu Compte puis paramètres du compte, rubrique juridique et conformité (« Legal and compliance » dans l’interface en anglais). Selon l’[aide de Google](https://support.google.com/a/answer/3407074?hl=fr), ce n’est utile que si votre contrat ne l’intègre pas déjà, et sans effet sinon : acceptez-le en cas de doute.
-- **Microsoft 365** : l’avenant sur la protection des données (Products and Services Data Protection Addendum) est intégré par référence aux conditions des produits Microsoft (Product Terms), donc rien à signer. Téléchargez-en une copie via aka.ms/dpa pour vos archives.
+- **Microsoft 365** : l’avenant sur la protection des données (Products and Services Data Protection Addendum) est intégré par référence aux conditions des produits Microsoft (Product Terms) ; il n’y a rien à signer. Téléchargez-en une copie via aka.ms/dpa pour vos archives.
 - **Les autres outils** : cherchez « DPA », « data processing addendum » ou « accord de traitement des données » dans les pages juridiques, de confidentialité ou de sécurité. Beaucoup l’intègrent à leurs conditions ; d’autres le font signer via un formulaire, comme OpenAI pour ChatGPT Business, ChatGPT Enterprise et son API.
 
 Les offres personnelles sont le point faible. OpenAI ne propose pas de DPA pour ses offres Free, Go, Plus et Pro, et les conditions de traitement de Google accompagnent Google Workspace, pas un compte Gmail personnel. Si un outil n’a pas de contrat de sous-traitance, n’y mettez pas les données de vos clients. Gardez un PDF daté de chaque contrat accepté : les conditions changent, et vous voudrez la version qui s’appliquait.
