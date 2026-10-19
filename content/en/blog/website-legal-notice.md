@@ -129,11 +129,11 @@ Three mistakes to check for:
 
 ## Your legal notice in five steps, with a template
 
-1. Get your official record: the Companies House entry for a UK company, your Kbis or RNE extract in France, and your VAT number if you have one.
-2. Find your host’s legal name, address and phone number in its own legal pages.
-3. Fill in the template below, deleting the lines that do not apply to you.
-4. Publish it as a page and link it from the footer of every page, next to your privacy policy and cookie settings.
-5. Check it once a year, and after any move, change of platform or change in the company.
+1. Get your official record: the Companies House entry for a UK company, a Kbis or RNE extract in France, and your VAT number.
+2. Find your host’s legal name, address and phone number in its legal pages.
+3. Fill in the template below and delete the lines that do not apply.
+4. Publish it as a page linked from the footer of every page, next to your privacy policy and cookie settings.
+5. Check it once a year, and after any move, platform change or company change.
 
 ```
 Legal notice

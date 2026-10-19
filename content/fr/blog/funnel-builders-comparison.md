@@ -25,7 +25,7 @@ faq:
     a: "Pour une formation en ligne ou un produit numérique, oui : les trois hébergent des pages sur votre propre nom de domaine. Pour une entreprise de services qui doit se positionner sur Google avec une page par prestation, un vrai site reste la meilleure base, et l’outil de tunnel se limite à une landing page ou à une page de paiement si besoin."
 ---
 
-Si vous vendez des formations en ligne, de l’accompagnement ou des produits numériques, chercher un avis sur Systeme.io face à ClickFunnels a du sens, et GoHighLevel finit souvent dans la liste. Si vous vendez des prestations qui se concluent par un devis ou un appel, la question utile est plutôt de savoir si vous avez besoin d’un outil de tunnel.
+Si vous vendez des formations en ligne, de l’accompagnement ou des produits numériques, chercher un avis sur Systeme.io face à ClickFunnels a du sens, et GoHighLevel finit souvent dans la liste. Si vous vendez des prestations qui se concluent par un devis ou un appel, la vraie question est de savoir si un outil de tunnel vous sert.
 
 J’ai comparé les trois sur ce qui compte pour une petite équipe : pour qui chacun est conçu, le prix à votre taille, ce qui est inclus (emailing, CRM, paiements, formations), la difficulté pour en sortir et l’endroit où partent les données de vos contacts.
 
@@ -44,7 +44,7 @@ La version courte : **Systeme.io pour vendre seul avec un petit budget**, Click
 | SMS et appels | Pas son cœur de métier | Pas son cœur de métier | Oui, facturés à l’usage |
 | Société et données | Exploitant irlandais, serveurs en Irlande | Société américaine | Société américaine |
 
-Ce sont les tarifs au moment où j’écris (octobre 2026). ClickFunnels et HighLevel affichent leurs prix en dollars, donc les montants en euros sont approximatifs, et la TVA peut s’ajouter. Les offres changent souvent : vérifiez les pages officielles de [Systeme.io](https://systeme.io/pricing), [ClickFunnels](https://www.clickfunnels.com/pricing) et [HighLevel](https://www.gohighlevel.com/pricing) avant de payer.
+Tarifs au moment où j’écris (octobre 2026) : ClickFunnels et HighLevel affichent leurs prix en dollars, donc les montants en euros sont approximatifs, et la TVA peut s’ajouter. Vérifiez les pages officielles de [Systeme.io](https://systeme.io/pricing), [ClickFunnels](https://www.clickfunnels.com/pricing) et [HighLevel](https://www.gohighlevel.com/pricing) avant de payer.
 
 La ligne qui tranche la plupart des choix est **« Pensé pour »**. Sur le papier, les trois se recoupent : chacun crée des pages, envoie des emails et vend des formations. Mais chacun est conçu pour un client différent, et vous payez les fonctions faites pour ce client, que vous vous en serviez ou non.
 
@@ -52,7 +52,7 @@ La ligne qui tranche la plupart des choix est **« Pensé pour »**. Sur le pa
 
 Un outil de tunnel de vente est un logiciel qui héberge, dans un seul compte, les pages, les formulaires, la page de paiement et les emails qui mènent un visiteur du premier clic à l’achat. Le schéma classique : une ressource gratuite contre une adresse email, quelques emails, une page de vente, puis un bon de commande avec une offre complémentaire au moment de payer.
 
-Ce schéma fonctionne quand la vente se fait en ligne, sans conversation : une formation, un pack de modèles, un atelier payant. Il sert beaucoup moins quand la vente passe par un appel, une visite ou un devis, ce qui est le cas de la plupart des entreprises de services. Pour elles, mon tutoriel pour {{< a key="build-sales-funnel" >}}créer son tunnel de vente avec ses outils actuels{{< /a >}} monte un tunnel simple étape par étape : site, page de réservation et emails.
+Ce schéma fonctionne quand la vente se fait en ligne, sans conversation : une formation, un pack de modèles, un atelier payant. Il sert beaucoup moins quand la vente passe par un appel, une visite ou un devis, ce qui est le cas de la plupart des entreprises de services. Pour elles, mon tutoriel pour {{< a key="build-sales-funnel" >}}créer son tunnel de vente avec ses outils actuels{{< /a >}} détaille le montage étape par étape : site, page de réservation et emails.
 
 ## Systeme.io : avis, prix et limites du plan gratuit
 
@@ -65,7 +65,7 @@ Systeme.io réunit dans un même compte les pages et les tunnels, l’emailing, 
 
 Le paiement à l’année revient moins cher. Les paiements par carte passent par un prestataire que vous connectez, comme Stripe ou PayPal, qui prélève ses propres frais sur chaque vente.
 
-**À qui il convient :** un coach, un formateur ou un créateur qui vend une formation, un abonnement ou un produit numérique, et qui veut tout au même endroit pour peu ou pas d’argent. Le plan gratuit suffit pour lancer et tester une offre avant de payer quoi que ce soit.
+**À qui il convient :** un coach, un formateur ou un créateur qui vend une formation, un abonnement ou un produit numérique, et qui veut tout au même endroit pour peu ou pas d’argent. Le plan gratuit suffit pour tester une offre sans rien payer.
 
 **À qui il ne convient pas :** une équipe commerciale qui a besoin d’appels, de SMS et d’une boîte de réception partagée, ou une entreprise de services qui vend sur devis et n’utiliserait qu’une petite partie de l’outil.
 
@@ -109,7 +109,7 @@ Transférer les données de contacts européens vers une société américaine r
 
 ## Quand vous n’avez besoin d’aucun outil de tunnel
 
-La plupart de mes clients vendent des prestations, et leur tunnel ressemble à ceci : quelqu’un les trouve sur Google, par recommandation ou par un cold email, lit le site, puis appelle ou prend rendez-vous. Rien de tout cela ne demande un outil de tunnel. Il faut trois outils, et vous en avez sans doute déjà un :
+La plupart de mes clients vendent des prestations, et leur tunnel ressemble à ceci : quelqu’un les trouve sur Google, par recommandation ou par un cold email, lit le site, puis appelle ou prend rendez-vous. Rien de tout cela ne demande un outil de tunnel, seulement trois outils, dont vous avez sans doute déjà un :
 
 1. **Un site qui convainc**, avec une page par prestation, des preuves de réalisations et un numéro de téléphone sur chaque page. Pour les dirigeants qui modifient eux-mêmes leur site, j’installe Squarespace : on y change un mot sans que toute la mise en page s’effondre, et c’est ce qui a poussé mes clients sous WordPress à changer.
 2. **Une page de réservation**, pour qu’un prospect choisisse un créneau sans échange d’emails. Ma préférence va à YouCanBookMe, dont le plan gratuit offre une page de réservation reliée à un agenda.
