@@ -157,12 +157,12 @@ LinkedIn retired lookalike audiences on 29 February 2024 and now points advertis
 For a first campaign, three formats cover most needs:
 
 - **Single image ad**: an image, a short text above it, a headline and a button. The simplest to produce and to compare.
-- **Document ad**: a PDF read in the feed, such as a guide or a checklist, with the option to ask for contact details before the full document.
+- **Document ad**: a PDF read in the feed, such as {{< a key="lead-magnet-ideas" >}}a guide or a checklist{{< /a >}}, with the option to ask for contact details before the full document.
 - **Thought Leader ad**: a post by a person, usually the founder or an employee, sponsored with their approval; it reads like a post, not an advert.
 
 Video and carousel ads take longer to produce. Message and conversation ads land in LinkedIn inboxes, but the [message ads help page](https://www.linkedin.com/help/lms/answer/a427509) says members in the EEA and Switzerland receive them only if they have opted in, which limits their reach in France and the rest of the EU.
 
-If you already post from your profile, a Thought Leader ad puts money behind a post that has proved itself; what changed for unpaid posts this year is in my article on the {{< a key="linkedin-algorithm-2026" >}}LinkedIn algorithm in 2026{{< /a >}}.
+If you already post from your profile, a Thought Leader ad puts money behind a post that has proved itself; what changed for unpaid posts this year is in my article on the {{< a key="linkedin-algorithm-2026" >}}LinkedIn algorithm in 2026{{< /a >}}. If you are thinking of a LinkedIn newsletter, my comparison of {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}LinkedIn newsletters, email newsletters and Substack{{< /a >}} shows who keeps the subscribers on each.
 
 Under placement, untick **LinkedIn Audience Network** for a first test: it shows your ads on partner apps and sites outside LinkedIn, and keeping them on LinkedIn makes the first results easier to read.
 
@@ -211,7 +211,7 @@ After a week or two, look at four things in Campaign Manager:
 3. **Demographics**: the job titles, seniority and companies of the people reached. If they are not your buyers, fix the targeting first.
 4. **Lead quality**: the only figure that pays the bills. Ten leads from the wrong companies are worth less than two from the right ones.
 
-If the test budget is spent and a lead still costs more than a client justifies, stop: change the offer or the audience, or move the money to a channel that works.
+If the test budget is spent and a lead still costs more than a client justifies, stop: change the offer or the audience, or move the money to a channel that works. My tutorial on {{< a key="utm-ga4-funnel-tracking" >}}tracking your funnel with UTM links and GA4{{< /a >}} shows which channel brings booked calls.
 
 {{< screenshot id="linkedin-ads-tutorial-11" alt="Demographics report in Campaign Manager with impressions and clicks broken down by job title" >}}
 

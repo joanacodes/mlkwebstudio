@@ -29,7 +29,7 @@ The Digital Omnibus is a proposal the European Commission published on 19 Novemb
 
 It is not law. As of 19 October 2026, EU governments have not agreed their negotiating position and the European Parliament's committees have not voted, so every rule you follow today still applies. Below, I set out the Digital Omnibus GDPR changes one by one, where the negotiations stand and what you need to do now, which is not much.
 
-This article is part of my {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}}. It concerns businesses outside the EU too, as soon as they have customers or users in it. It is general information, not legal advice.
+It is part of my {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}} and concerns businesses outside the EU too, as soon as they have customers or users in it. It is general information, not legal advice.
 
 ## Digital Omnibus and GDPR: where the proposal stands on 19 October 2026
 
@@ -44,17 +44,15 @@ The Commission's text is proposal [COM(2025) 837](https://eur-lex.europa.eu/lega
 | Final negotiations (trilogues) | Not started |
 | Publication and application | Not before the steps above |
 
-The Council's vote was postponed after France and Germany asked for stronger protection of trade secrets in the Data Act part of the package, and no Council position has been confirmed since. In the Parliament, the two rapporteurs, Aura Salla (EPP, Finland) and Marina Kaljurand (S&D, Estonia), have no date for the committee vote yet.
+The Council's vote was postponed after France and Germany asked for stronger protection of trade secrets in the Data Act part of the package. In the Parliament, the rapporteurs, Aura Salla (EPP, Finland) and Marina Kaljurand (S&D, Estonia), have no committee vote date yet. In their joint opinion, the European Data Protection Board (EDPB) and the European Data Protection Supervisor (EDPS) back some changes and oppose others: I give their position under each change below.
 
-The regulators have taken sides. In their joint opinion, the European Data Protection Board (EDPB) and the European Data Protection Supervisor (EDPS) welcomed some simplifications and supported the breach-notification changes, but asked the Parliament and the Council not to adopt the new definition of personal data.
-
-{{< callout type="tip" >}}**How to read the headlines.** A Commission proposal, a Council position, a Parliament position and a provisional agreement are four different stages, and none of them is law. A change applies only once the final text is published in the Official Journal of the EU and its application date has arrived.{{< /callout >}}
+{{< callout type="tip" >}}**How to read the headlines.** A Commission proposal, a Council position, a Parliament position and a provisional agreement are four different stages, and none of them is law. A change applies only once the final text is published in the Official Journal of the EU and its application date arrives.{{< /callout >}}
 
 ## Personal data: a narrower, business-by-business test
 
 [Article 4(1) of the GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) defines personal data as any information relating to an identified or identifiable person. In the SRB case (C-413/23 P, judgment of 4 September 2025), the Court of Justice of the EU held that pseudonymised data are not necessarily personal data for every recipient: it depends on whether that recipient has means reasonably likely to be used to identify the person.
 
-The Commission wants to write this into the GDPR. Information would not be personal data for a business that cannot identify the person with the means it is reasonably likely to use, and it would not become personal data for that business just because a later recipient could. A new Article 41a would let the Commission decide, in implementing acts, when pseudonymised data stop being personal data for certain recipients. This is the change the EDPB and the EDPS oppose most strongly: in their view it goes further than the case law and could weaken protection.
+The Commission wants to write this into the GDPR. Information would not be personal data for a business that cannot identify the person with the means it is reasonably likely to use, and it would not become personal data for that business just because a later recipient could. A new Article 41a would let the Commission decide, in implementing acts, when pseudonymised data stop being personal data for certain recipients. The EDPB and the EDPS asked the Parliament and the Council not to adopt this change: in their view it goes further than the case law and could weaken protection.
 
 For most small teams, little would change. Your client list, your CRM and your inbox name people, so they remain personal data for you. The new test would matter when you receive data with names replaced by codes, such as a pseudonymised export from a partner, or when you pass such data on to a provider.
 
@@ -103,8 +101,8 @@ UK businesses have two rule books. For people in the UK, the UK GDPR applies, an
 Nothing in the Digital Omnibus applies yet, so your to-do list has not changed:
 
 1. **Keep following today's rules.** Notify breaches within 72 hours, ask for consent before non-essential cookies and give people the Article 13 information.
-2. **Leave a compliant cookie banner alone.** Do not rebuild it for a text that may still change. Check it against today's rules instead: refusing as easy as accepting, nothing non-essential loaded before the answer, the choice recorded.
+2. **Leave a compliant cookie banner alone.** Rather than rebuilding it for a text that may still change, check it against today's rules: refusing as easy as accepting, nothing non-essential loaded before the answer, the choice recorded.
 3. **Watch four milestones.** The Council's negotiating position, the Parliament's committee vote, the start of trilogues, then publication in the Official Journal with its application dates.
-4. **Note which changes would touch you.** For most small teams, that means the cookie and breach rules. If you work with pseudonymised data, use customer data to train AI or track visitors at scale, a lawyer or a DPO is worth consulting before you change anything, as these are the parts most likely to move.
+4. **Note which changes would touch you.** For most small teams, that means the cookie and breach rules. If you work with pseudonymised data, use customer data to train AI or track visitors at scale, a lawyer or a DPO is worth consulting before you change anything: these are the parts most likely to move.
 
 When I build a site, the cookie banner and the privacy pages are part of the {{< a page="/services/websites" >}}website work{{< /a >}}, so they follow the rules in force on the day it goes live, not a proposal.

@@ -12,7 +12,7 @@ keywords: ["scraper Google Maps", "tuto Outscraper", "extraire des emails de Goo
 summary: "Un scraper Google Maps comme Outscraper transforme une recherche telle que « expert-comptable à Lyon » en tableau d’entreprises avec catégorie, adresse, téléphone et site, plus les emails publiés sur ces sites. En octobre 2026, les 500 premières entreprises sont gratuites tous les 30 jours, puis environ 2,70 € (3 $) les 1 000, enrichissement des emails en plus. Il ne trouve que les entreprises présentes sur Google, et chaque email doit être vérifié avant une campagne."
 cover: "google-maps-scraper-outscraper"
 cover_alt: "Une main qui coche les lignes d’un tableau imprimé à côté d’épingles de carte sur une grille, avec le mot Outscraper"
-related: ["email-list-verification-reoon", "cold-email-gdpr-uk-france", "cold-email-infrastructure", "instantly-campaign-setup", "small-business-tools-guide"]
+related: ["email-list-verification-reoon", "cold-email-gdpr-uk-france", "cold-email-infrastructure", "instantly-campaign-setup", "gdpr-data-retention-crm"]
 services: ["cold-emailing"]
 faq:
   - q: "Est-il légal de scraper Google Maps ?"
@@ -74,7 +74,7 @@ Vérifiez ensuite à qui vous pouvez écrire. Une fiche Google est publique, mai
 - **En France**, la CNIL admet la prospection B2B par email sans consentement préalable si le message concerne le métier du destinataire, à condition qu’il en ait été informé et puisse s’y opposer simplement et gratuitement. Chaque email doit aussi indiquer qui l’envoie et offrir un moyen simple de ne plus en recevoir. La fiche de la CNIL sur [la prospection commerciale par courrier électronique](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel) détaille ces règles.
 - **Au Royaume-Uni**, c’est la forme juridique qui compte : les sociétés (limited companies et LLP) peuvent recevoir un cold email sans consentement, mais pas les entrepreneurs individuels (sole traders) ni les partnerships hors d’Écosse. Si vous prospectez aussi outre-Manche, triez votre fichier en conséquence.
 
-Dans les deux pays, une adresse nominative est une donnée personnelle, et le RGPD (ou l’UK GDPR outre-Manche) s’applique : une base légale documentée, en général l’intérêt légitime, et l’information de la personne au plus tard dans le premier email, source des données comprise. Ajoutez une colonne « source » à chaque fichier, par exemple « fiche Google Maps et site web, extraction du 17 octobre 2026 », et cette partie du premier email est déjà prête. Mon article {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et RGPD{{< /a >}} couvre le reste.
+Dans les deux pays, une adresse nominative est une donnée personnelle, et {{< a key="gdpr-guide" >}}le RGPD{{< /a >}} (ou l’UK GDPR outre-Manche) s’applique : une base légale documentée, en général l’intérêt légitime, et l’information de la personne au plus tard dans le premier email, source des données comprise. Ajoutez une colonne « source » à chaque fichier, par exemple « fiche Google Maps et site web, extraction du 17 octobre 2026 », et cette partie du premier email est déjà prête. Mon article {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et RGPD{{< /a >}} couvre le reste.
 
 {{< callout type="note" >}}Ceci est une information générale, pas un conseil juridique. Pour une grosse campagne ou un secteur réglementé, lisez les fiches de la CNIL en entier ou demandez l’avis d’un avocat.{{< /callout >}}
 
@@ -139,7 +139,7 @@ Un export brut n’est pas encore une liste de campagne. Procédez dans cet ordr
 
 1. **Une ligne par entreprise, une adresse par ligne.** Quand plusieurs emails ont été trouvés, gardez celui qui a le plus de chances d’atteindre la bonne personne : une adresse nominative qui correspond au poste visé, ou l’adresse de contact principale d’une petite structure.
 2. **Retirez ceux à qui vous ne pouvez pas écrire.** Si vous prospectez au Royaume-Uni, retirez les sole traders, les partnerships hors d’Écosse et tous ceux que vous ne savez pas classer. Partout, retirez les personnes inscrites sur votre liste repoussoir, celles qui vous ont déjà demandé d’arrêter.
-3. **Ajoutez les colonnes source et date** si le fichier ne les a pas encore. Elles servent à l’information de la personne dans votre premier email.
+3. **Ajoutez les colonnes source et date** si le fichier ne les a pas encore. Elles servent à l’information de la personne dans votre premier email. La date compte aussi pour {{< a key="gdpr-data-retention-crm" >}}la durée de conservation des données{{< /a >}}.
 4. **Vérifiez chaque adresse.** Je vérifie mes listes avec Reoon, l’outil de vérification que j’utilise tous les jours, et je retire les adresses déclarées invalides. Mon tuto pour {{< a key="email-list-verification-reoon" >}}vérifier une liste d’emails{{< /a >}} explique quoi faire de chaque résultat, y compris les adresses risquées et catch-all.
 
 Ce qui reste après la vérification, c’est ce que j’appelle un contact actif et qualifié : le chiffre de 0,006 € plus haut. Importez ensuite le fichier dans votre outil d’envoi ; dans Instantly, cela se fait au moment de {{< a key="instantly-campaign-setup" >}}créer la campagne{{< /a >}}.

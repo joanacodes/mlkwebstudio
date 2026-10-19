@@ -84,15 +84,15 @@ And you take on three jobs LinkedIn did for you:
 
 ## Substack: a publication with a list you can take away
 
-Substack is a publishing platform: each newsletter is also a website, at yourname.substack.com, with an archive readers can browse and an app they can read in. Starting is free. If you turn on paid subscriptions, Substack takes 10% of the revenue, and Stripe, which processes the payments, adds its own fees ([Substack's pricing page](https://support.substack.com/hc/en-us/articles/360037607131-How-much-does-Substack-cost)).
+Substack is a publishing platform: each newsletter is also a website, at yourname.substack.com, with an archive readers can browse and an app they can read in. Starting is free. If you turn on paid subscriptions, Substack takes 10% of the revenue, and Stripe, which processes the payments, adds its own fees ([Substack's help centre on pricing](https://support.substack.com/hc/en-us/articles/360037607131-How-much-does-Substack-cost)).
 
 Three things set it apart from a LinkedIn newsletter:
 
 - **You can export your subscriber list** at any time, so you can leave with your readers.
 - **It has its own network.** Other writers can recommend your publication to their readers, and Notes, Substack's feed of short posts, helps people who do not know you yet find you.
-- **Your own domain is an option.** It costs a one-off $50 (about £37) per publication at the time of writing, on top of the domain name itself, which you buy from a registrar ([Substack's help centre](https://support.substack.com/hc/en-us/articles/360051222571-How-do-I-set-up-my-custom-domain-on-Substack)).
+- **Your own domain is an option.** Substack prices it in dollars: a one-off $50 (about £37) per publication at the time of writing (October 2026), on top of the domain name itself, which you buy from a registrar ([Substack's help centre](https://support.substack.com/hc/en-us/articles/360051222571-How-do-I-set-up-my-custom-domain-on-Substack)).
 
-The drawbacks: the design, the reading experience and the app belong to Substack, and its network is built for people who come to read, which suits commentary and expertise better than a list of services. For a team that wants clients to book a call, a website plus an email tool does the same job under your own brand.
+The drawbacks: the design, the reading experience and the app belong to Substack, and its network is built for people who come to read, which suits commentary and expertise better than a list of services. For a team that wants clients to book a call, a website plus an email tool does the same job under its own brand.
 
 **Who it suits:** experts, consultants and trainers whose newsletter is itself the product, and anyone planning paid subscriptions.
 
@@ -101,16 +101,16 @@ The drawbacks: the design, the reading experience and the app belong to Substack
 Each option gives you a different role under data protection law. This is general information, not legal advice; if your list mixes customers, prospects and countries, an hour with a lawyer or a data protection officer is worth it.
 
 - **LinkedIn newsletter.** Your subscribers are LinkedIn members, and LinkedIn handles their data under its own privacy policy. You never receive their addresses, so there is no list for you to secure, and none to keep.
-- **Your own list.** You decide why and how the addresses are used, which makes you the controller under Article 4(7) of the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj). Your email tool processes them on your behalf and must be bound by a contract that meets Article 28. You also need a lawful basis for each subscriber, usually consent, or the soft opt-in for existing customers: my guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent under the GDPR and PECR{{< /a >}} covers the rules.
-- **Substack.** Substack collects the sign-ups and sends the emails under its own terms. Once you export the list to use it elsewhere, that copy is yours to protect, with the same duties as any list you run yourself.
+- **Your own list.** You decide why and how the addresses are used, which makes you the controller under Article 4(7) of the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj). Your email tool processes them on your behalf and must be bound by a contract that meets Article 28. You also need each subscriber's consent, unless the soft opt-in for existing customers or, in some countries, the rules for business addresses apply: my guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent under the GDPR and PECR{{< /a >}} covers the rules.
+- **Substack.** Substack collects the sign-ups and sends the emails under its own terms. Any list you import into it must already meet the consent rules, and once you export your subscribers to use them elsewhere, that copy is yours to protect, with the same duties as any list you run yourself.
 
-The GDPR also reaches businesses outside the EU when they offer their services to people in the EU (Article 3(2)), so a Swiss, Canadian or US team with subscribers in France follows these rules for them. For subscribers in the UK, the UK GDPR and PECR set very similar rules.
+The GDPR also reaches businesses outside the EU when they offer their services to people in the EU (Article 3(2)), so a Swiss, Canadian or US team that offers its services in France follows these rules for its subscribers there. For subscribers in the UK, the UK GDPR and PECR set very similar rules.
 
 ## SEO: only one option builds your own website
 
 For search, the three are not equal. LinkedIn editions are pages on linkedin.com: even when one shows up in Google, the visit lands on LinkedIn, not on your site. Substack posts are public pages on a substack.com address, or on your own domain if you pay for it, in which case your domain gathers the links and the visits. An email is not a web page at all: it ranks nowhere until you publish it on your website.
 
-So whatever you choose, publish each issue, or its best part, as an article on your own site. Your newsletter then works for your search visibility too, and every link to it points to your name.
+So whatever you choose, publish each issue, or its best part, as an article on your own site. Your newsletter then works for your search visibility too, and every link to it points to your own domain.
 
 ## My verdict: publish where your clients read, build the list you own
 

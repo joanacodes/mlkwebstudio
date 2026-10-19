@@ -118,7 +118,7 @@ Calculez la croissance nette sur un mois, et l’attrition (le churn), soit les 
 
 Un test d’objet jugé sur les ouvertures mesure en partie du bruit. Les ouvertures automatiques tombent sur les deux versions, quel que soit l’objet : l’écart se réduit, et la version gagnante peut l’être par hasard. Jugez vos tests sur les clics, ou mieux, sur les réponses et les conversions. Si votre outil désigne le gagnant automatiquement, vérifiez sur quel indicateur.
 
-Sur quelques centaines d’abonnés, un test isolé ne prouve pas grand-chose : refaites la comparaison sur plusieurs envois avant de changer vos habitudes. C’est ainsi que je mène les tests de cold emailing pour mes clients. Les emails sont en texte brut, avec un numéro de téléphone et sans lien : il n’y a ni ouverture ni clic à compter, et les versions se comparent sur les réponses et les appels. Avec le temps, le texte qui obtient des réponses l’emporte.
+Sur quelques centaines d’abonnés, un test isolé ne prouve pas grand-chose : refaites la comparaison sur plusieurs envois avant de changer vos habitudes. C’est ainsi que je mène les tests de cold emailing pour mes clients. Les emails sont en texte brut, avec un numéro de téléphone et sans lien : il n’y a ni ouverture ni clic à compter, et les versions se comparent sur le nombre de réponses. Avec le temps, le texte qui obtient des réponses l’emporte.
 
 ## Segments d’engagement : qui lit vraiment
 

@@ -118,7 +118,7 @@ Count net growth over a month, and churn as the people who left divided by the l
 
 A subject line test judged on opens is now partly a test of noise. Machine opens land on both versions whatever the subject line says, so the gap between them shrinks and the winner can be down to chance. Judge tests on clicks, or better, on replies and conversions. If your tool picks the winner automatically, check which metric it uses.
 
-On a list of a few hundred people, one test proves little: run the same comparison over several issues before you change your habits. That is how I run cold email tests for clients. The emails are plain text with a phone number and no links, so there are no opens or clicks to count, and versions are compared on replies and calls. Over time, the copy that gets answers wins.
+On a list of a few hundred people, one test proves little: run the same comparison over several issues before you change your habits. That is how I run cold email tests for clients. The emails are plain text with a phone number and no links, so there are no opens or clicks to count, and versions are compared on the responses they bring. Over time, the copy that gets answers wins.
 
 ## Engagement segments: who is really reading
 

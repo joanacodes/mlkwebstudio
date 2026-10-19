@@ -157,12 +157,12 @@ LinkedIn a supprimé les audiences similaires (lookalike audiences) le 29 févri
 Pour une première campagne, trois formats couvrent l’essentiel :
 
 - **L’annonce à image unique** (single image ad) : une image, un court texte au-dessus, un titre et un bouton. La plus simple à produire et à comparer.
-- **L’annonce Document** (document ad) : un PDF lu dans le fil, comme un guide ou une checklist, avec la possibilité de demander les coordonnées avant le document complet.
+- **L’annonce Document** (document ad) : un PDF lu dans le fil, comme {{< a key="lead-magnet-ideas" >}}un guide ou une checklist{{< /a >}}, avec la possibilité de demander les coordonnées avant le document complet.
 - **La Thought Leader Ad** : un post publié par une personne, en général le dirigeant ou un salarié, sponsorisé avec son accord ; il se lit comme un post, pas comme une publicité.
 
 Les annonces vidéo et carrousel demandent plus de production. Les publicités par message (message ads et conversation ads) arrivent dans la messagerie LinkedIn, mais la [page d’aide de LinkedIn sur ces annonces](https://www.linkedin.com/help/lms/answer/a427509) précise que les membres de l’EEE et de la Suisse ne les reçoivent que s’ils ont donné leur accord : en France, leur portée est donc limitée.
 
-Si vous publiez déjà depuis votre profil, une Thought Leader Ad met de l’argent derrière un post qui a fait ses preuves ; ce qui a changé cette année pour les posts non sponsorisés est dans mon article sur {{< a key="linkedin-algorithm-2026" >}}l’algorithme LinkedIn en 2026{{< /a >}}.
+Si vous publiez déjà depuis votre profil, une Thought Leader Ad met de l’argent derrière un post qui a fait ses preuves ; ce qui a changé cette année pour les posts non sponsorisés est dans mon article sur {{< a key="linkedin-algorithm-2026" >}}l’algorithme LinkedIn en 2026{{< /a >}}. Si vous pensez à une newsletter LinkedIn, mon comparatif {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}newsletter LinkedIn, emailing ou Substack{{< /a >}} montre qui garde les abonnés dans chaque cas.
 
 Dans la section des emplacements (placement), décochez **LinkedIn Audience Network** pour un premier test : cette option diffuse vos annonces sur des sites et applications partenaires, hors de LinkedIn, ce qui rend les premiers résultats moins lisibles.
 
@@ -211,7 +211,7 @@ Au bout d’une à deux semaines, regardez quatre choses dans Campaign Manager 
 3. **Les données démographiques** (Demographics) : les postes, niveaux hiérarchiques et entreprises des personnes touchées. Si ce ne sont pas vos acheteurs, corrigez d’abord le ciblage.
 4. **La qualité des prospects** : le seul chiffre qui paie les factures. Dix prospects dans les mauvaises entreprises valent moins que deux dans les bonnes.
 
-Si le budget du test est dépensé et qu’un prospect coûte toujours plus que ce qu’un client justifie, arrêtez : changez l’offre ou l’audience, ou déplacez l’argent vers un canal qui marche.
+Si le budget du test est dépensé et qu’un prospect coûte toujours plus que ce qu’un client justifie, arrêtez : changez l’offre ou l’audience, ou déplacez l’argent vers un canal qui marche. Mon tutoriel pour {{< a key="utm-ga4-funnel-tracking" >}}suivre votre tunnel avec les UTM et GA4{{< /a >}} montre quel canal amène des rendez-vous.
 
 {{< screenshot id="linkedin-ads-tutorial-11" alt="Rapport démographique de Campaign Manager avec les impressions et les clics répartis par poste" >}}
 
