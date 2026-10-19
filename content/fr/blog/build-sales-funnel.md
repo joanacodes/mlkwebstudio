@@ -49,7 +49,7 @@ Les exemples suivent un cuisiniste qui propose un appel gratuit de 15 minutes av
 
 Partez de la page où les gens arrivent déjà : la page de service que Google leur montre, ou une landing page créée pour une campagne. Pas la page d’accueil, qui a trop de rôles à jouer.
 
-Donnez à cette page **une seule action à faire**, en haut puis en bas : un bouton « Réserver un appel gratuit de 15 minutes ». Mettez votre numéro de téléphone à côté, pas à la place. Dans les campagnes de cold emailing que je mène pour un client, les prospects appelaient plutôt que de répondre : appeler va plus vite, et les gens aiment le contact humain.
+Donnez à cette page **une seule action à faire**, en haut puis en bas : un bouton « Réserver un appel gratuit de 15 minutes ». Mettez votre numéro de téléphone à côté, pas à la place. Dans les campagnes de cold emailing que je mène pour un client, les prospects appelaient plutôt que de répondre par email : appeler va plus vite, et les gens aiment le contact humain.
 
 Autour du bouton, répondez à ce qu’on veut savoir avant de réserver : pour qui est le service, des preuves (avis, photos de chantiers), comment se calculent vos prix et le déroulé de l’appel.
 
@@ -160,7 +160,7 @@ Refaites le test après chaque changement du site ou des outils, et de toute fa�
 
 ## Quand passer à une offre payante, et quand déléguer
 
-Passez à l’offre payante une brique à la fois, quand un vrai problème se présente :
+Ne payez qu’une brique à la fois, quand un vrai problème se présente :
 
 - les rendez-vous manqués vous coûtent des déplacements : payez les rappels ;
 - vous voulez savoir quel canal amène des rendez-vous, pas seulement des demandes par formulaire : payez la redirection après réservation ;

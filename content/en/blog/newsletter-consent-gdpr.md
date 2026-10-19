@@ -22,7 +22,7 @@ faq:
   - q: "Do I need separate consent to track who opens my newsletter?"
     a: "In France, yes: the CNIL's recommendation on email tracking pixels, published in April 2026, says that measuring opens for marketing purposes needs the reader's consent, separate from the newsletter consent. Elsewhere, check your regulator's current guidance before relying on open tracking."
   - q: "Do UK charities need consent to email their supporters?"
-    a: "Not always, since 5 February 2026. The Data (Use and Access) Act 2025 added a charitable purpose soft opt-in to PECR: a charity can email people who gave it their details while showing an interest in, or supporting, its cause, if they could refuse at the time and can opt out of every message. It covers only details collected from that date."
+    a: "Not always. Since 5 February 2026, PECR has a charitable purpose soft opt-in, added by the Data (Use and Access) Act 2025: a charity can email people about its charitable purposes if they gave it their details while showing an interest in, or supporting, its cause, could refuse at the time and can opt out of every message. It covers only details collected from that date."
   - q: "Who enforces newsletter consent rules?"
     a: "In the UK, the ICO, formally the Information Commission since 30 September 2026; since February 2026 it can fine PECR breaches up to £17.5 million or 4% of worldwide annual turnover, whichever is higher. In France, the CNIL, and elsewhere in the EU, each country's regulator."
 ---
@@ -71,13 +71,13 @@ A UK bike shop can email past buyers about servicing and accessories, but needs 
 
 ## B2B newsletters: business addresses follow other rules
 
-**UK.** PECR's consent rule covers individuals, sole traders and partnerships outside Scotland. Limited companies, LLPs, Scottish partnerships and public bodies can be emailed without consent, but every message must name the sender and give a valid address to opt out (regulation 23). An address that names a person, such as jane.smith@firm.co.uk, is still personal data under the UK GDPR. An address alone does not show whether it belongs to a company or a sole trader: when in doubt, the [ICO's business-to-business guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to treat it as an individual's.
+**UK.** PECR's consent rule covers individuals, sole traders and partnerships outside Scotland. Limited companies, LLPs, Scottish partnerships and public bodies can be emailed without consent, but every message must name the sender and give a valid address to opt out (regulation 23). An address that names a person, such as jane.smith@example.co.uk, is still personal data under the UK GDPR. An address alone does not show whether it belongs to a company or a sole trader: when in doubt, the [ICO's business-to-business guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to treat it as an individual's.
 
 **France.** The CNIL allows marketing emails to professionals without prior consent when the message relates to their job (its example: software offered to an IT director), provided they were told their address would be used and can object simply and free of charge. Generic addresses such as contact@ fall outside the consent and information rules.
 
 **Elsewhere in the EU.** Article 13(5) of the ePrivacy Directive leaves business addresses to national law, and Germany, for one, requires prior consent for marketing emails to businesses too.
 
-Even where the law allows it, adding business contacts who never asked is a poor trade: people who did not expect your newsletter report it as spam more readily, and complaints count against you under {{< a key="newsletter-deliverability" >}}the Gmail, Yahoo and Outlook sender rules{{< /a >}}. My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers the B2B rules line by line.
+Even where the law allows it, adding business contacts who never asked is a poor trade: people who did not expect your newsletter report it as spam more readily, and Gmail and Yahoo count those complaints against you (my guide to {{< a key="newsletter-deliverability" >}}newsletter deliverability{{< /a >}} gives the thresholds). My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers the B2B rules line by line.
 
 ## Double opt-in: not required, but the best proof
 

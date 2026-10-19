@@ -16,7 +16,7 @@ related: ["newsletter-consent-gdpr", "welcome-email-sequence", "first-100-subscr
 services: ["websites"]
 faq:
   - q: "Should a lead magnet be gated or free to download?"
-    a: "Gate it when you want to follow up with the people who take it. Keep in the open the content you want Google and AI assistants to read: a common compromise is an open article, with the template, the calculator or the printable version behind the form."
+    a: "Gate it when you want to build a list: the form that sends it is also where people opt in to your newsletter. Keep in the open the content you want Google and AI assistants to read: a common compromise is an open article, with the template, the calculator or the printable version behind the form."
   - q: "What is a content upgrade?"
     a: "A lead magnet made for one article: a checklist, a template or a worked example that extends what the reader is reading, offered inside that article. It suits articles that already get steady traffic."
   - q: "What is the difference between a lead magnet and a tripwire?"
@@ -111,7 +111,7 @@ You do not need a funnel builder: Brevo, MailerLite, Mailchimp and Kit all offer
 1. **A page and a form.** One page per lead magnet, and the same form at the end of related articles. Ask for an email address, and a first name only if you will use it.
 2. **A confirmation email.** The person clicks to confirm the address (double opt-in), then gets the resource. Typos and fake addresses stay off your list, and you keep a record of each sign-up.
 3. **A link, not an attachment**, to a file you can correct without sending anything again.
-4. **A short follow-up**: two or three emails ending with an invitation to book a call, as in my {{< a key="welcome-email-sequence" >}}welcome email sequence{{< /a >}}.
+4. **A short follow-up** for those who tick the newsletter box (see below): two or three emails ending with an invitation to book a call, as in my {{< a key="welcome-email-sequence" >}}welcome email sequence{{< /a >}}.
 
 No article of the [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679) requires double opt-in, but Article 7(1) requires you to be able to show that a person consented, and a confirmation click is the simplest proof.
 
@@ -119,9 +119,9 @@ No article of the [GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CEL
 
 Sending the resource to someone who asked for it is one thing; adding them to your newsletter is another, which usually needs its own yes. Put an unticked box under the form ("Also send me the monthly newsletter") and deliver the resource either way.
 
-Making the newsletter the price of the download is risky. Under Article 7(4) and Recital 43 of the GDPR (same wording in the UK GDPR), consent is presumed not to be free when a service depends on it without needing it, and the EDPB's consent guidelines put the burden of proof on you. The [ICO](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/) takes the same line for email marketing, while allowing incentives if people who refuse are not penalised. I found no CNIL text on downloads as such; its general rule is a real choice, with no negative consequence for saying no.
+Making the newsletter the price of the download is risky. Under Article 7(4) and Recital 43 of the GDPR (Article 7(4) is the same in the UK GDPR), consent is presumed not to be free when a service depends on it without needing it, and the EDPB's consent guidelines put the burden of proof on you. The [ICO](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/) takes the same line for email marketing, while allowing incentives if people who refuse are not unfairly penalised. As of 19 October 2026, I found no text from the CNIL, France's regulator, on downloads as such; its general rule is a real choice, with no negative consequence for saying no.
 
-Business-to-business rules are looser: no prior consent is needed to email limited companies in the UK, or professionals about their work in France, provided they were told and can opt out. But a form rarely tells you who signed up in which capacity, so the separate box stays the simplest route. The rules also follow your readers: a UK, Swiss or US business whose resource targets people in the EU falls under the EU GDPR for those sign-ups (Article 3(2)).
+Business-to-business rules are looser: no prior consent is needed to [email limited companies in the UK](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/), or professionals about their work in France, provided they were told and can opt out. But a form rarely tells you who signed up in which capacity, so the separate box stays the simplest route. The rules also follow your readers: a UK, Swiss or US business whose resource targets people in the EU falls under the EU GDPR for those sign-ups (Article 3(2)).
 
 My guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent, soft opt-in and double opt-in{{< /a >}} covers the details. This is a summary, not legal advice: if your form feeds several lists or partners, have it checked by a lawyer or your DPO.
 
@@ -165,6 +165,6 @@ Readers but no sign-ups: change the promise (the title and the line under it) be
 2. Pick the idea that answers one of them and sits closest to your paid service, and draft it with your own figures.
 3. Build the page, the form with double opt-in, the newsletter box and two or three follow-up emails.
 4. Place it at the end of related articles, on the service page, on LinkedIn and in your signature.
-5. After a month, fix the weakest placement before you make a second one.
+5. After a month, fix the weakest placement before you make a second lead magnet.
 
 You do not need an agency for this. If your website makes even a page and a form hard, the problem is the site, and that is what my {{< a page="/services/websites" >}}website service{{< /a >}} fixes.

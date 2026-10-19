@@ -59,7 +59,7 @@ Google's rule is that its badge must be the same size as the other store badges,
 
 ## App landing page SEO: target what people type on Google
 
-Store keywords and web keywords overlap less than you would think. In a store, people type short category words because they already want an app. On Google, many have not decided that yet: they describe a problem or ask how to do something. Target that.
+Store keywords and web keywords overlap less than you would think: in a store, people type category words because they already want an app; on Google, many describe a problem before deciding they need one. Target those searches.
 
 My starting point is what people complain about: I use AI deep research to find the complaints and the words that come back most often in a niche, then check search volumes in Semrush. Reviews of competing apps and your own support emails are the best raw material. Then turn the research into pages:
 
@@ -92,7 +92,7 @@ For an app, the schema.org type is `SoftwareApplication`, or the more specific `
 </script>
 ```
 
-The example has no rating on purpose. Add `aggregateRating` only when the rating is genuine and visible on the page, as Google's guidelines ask. Without a rating or a review, the page cannot get the rich result, but the markup stays valid. Do not count on it to get the app quoted by AI assistants either: my {{< a key="schema-markup-small-business" >}}guide to schema markup{{< /a >}} explains why.
+The example has no rating on purpose: add `aggregateRating` only when the rating is genuine and visible on the page, as Google's guidelines ask. Without a rating or a review, the page cannot get the rich result, but the markup stays valid. Do not count on it to get the app quoted by AI assistants either; my {{< a key="schema-markup-small-business" >}}guide to schema markup{{< /a >}} explains why.
 
 ## Deep links: Universal Links and Android App Links
 
@@ -141,32 +141,32 @@ The app's intent filter needs `android:autoVerify="true"`, and Android's [App Li
 
 Both files must answer at those exact addresses on your own domain, without a redirect. Some builders document a way to publish them (Framer does); on others, forum threads show people falling back on redirects, which Apple and Android reject. Ask your builder before you commit. If it cannot, serve the deep links from a subdomain such as `go.example.com`, on a host where you control the files.
 
-To test, open both addresses in a browser (you should see the file, not a redirect), then try the links on a phone after a fresh install; on Android, `adb shell pm verify-app-links --re-verify` followed by the package name re-runs the check. Apple also warns that these links are a way into your app: it should validate every parameter and never let a link delete data or show sensitive information by itself. My {{< a key="mobile-app-security-checklist" >}}mobile app security checklist{{< /a >}} covers the rest.
+To test, open both addresses in a browser (you should see the file, not a redirect), then try the links on a phone after a fresh install. Apple also warns that these links are a way into your app: it should validate every parameter and never let a link delete data or show sensitive information by itself. My {{< a key="mobile-app-security-checklist" >}}mobile app security checklist{{< /a >}} covers the rest.
 
 ### Deferred deep links after Firebase Dynamic Links
 
-Opening the right screen after a new user installs the app is called deferred deep linking. Older tutorials recommend Firebase Dynamic Links for it, but Google shut the service down on 25 August 2025 and every link it served stopped working. Google points to App Links and Universal Links, which do not cover the deferred part; that now comes from third-party deep-linking and attribution services. Replace any old page.link addresses in your emails, QR codes and print.
+Opening the right screen after a new user installs the app is called deferred deep linking. Older tutorials recommend Firebase Dynamic Links for it, but Google shut the service down on 25 August 2025, and every link it served stopped working. Google's suggested replacements, App Links and Universal Links, do not cover the deferred part, which now comes from third-party deep-linking and attribution services. Replace any old page.link addresses in your emails, QR codes and print.
 
 ## Smart app banners: invite visitors without blocking the page
 
-Apple's Smart App Banner is a slim bar that Safari shows at the top of the page on iPhone and iPad. It opens your app if it is installed, and its App Store page if not. Add this tag to the `<head>` of each page concerned:
+Apple's Smart App Banner is a slim bar that Safari shows at the top of the page on iPhone and iPad, opening your app if it is installed and its App Store page if not. Add this tag to the `<head>` of each page concerned:
 
 ```html
 <meta name="apple-itunes-app" content="app-id=123456789, app-argument=https://example.com/bills/123">
 ```
 
-`app-id` (required) is the number shown as **Apple ID** in your app's information in App Store Connect; `app-argument` (optional) is a URL passed to the app so it opens the matching screen. A closed banner does not come back when the visitor returns, and it does not show if their device cannot run the app or the app is not available where they are. On Squarespace, the tag goes in the header field of code injection.
+`app-id` (required) is the number shown as **Apple ID** in your app's information in App Store Connect; `app-argument` (optional) is a URL passed to the app so it opens the matching screen. Once closed, the banner does not come back, and it stays hidden on devices that cannot run the app or where the app is unavailable. On Squarespace, the tag goes in the header field of code injection.
 
 Do not swap it for a full-screen "download our app" pop-up. Apple contrasts its banner with "a full screen that interrupts" the visitor, and Google's Search Central guidance on intrusive interstitials asks for a banner that takes up a small part of the screen, so that visitors and search engines reach the content straight away. For Android visitors, a light banner of your own fits that guidance: one line of text, the Google Play badge and a close button, shown only on Android and hidden once closed.
 
 ## Before launch: a checklist for your app's website
 
-1. Landing page live: the problem in the headline, real screenshots, both badges (App Store first, same height), an FAQ.
-2. Privacy policy and support pages published, their URLs in App Store Connect and Play Console, plus the account deletion link if users create accounts.
-3. One page per use case with its own title and meta description, and the site in Google Search Console.
-4. SoftwareApplication markup without a rating you cannot show, checked in Google's Rich Results Test.
-5. Both association files answering at their `.well-known` addresses over HTTPS with no redirect, and links tested on a fresh install.
-6. The Smart App Banner tag on the pages that need it, and a light banner Android visitors can close.
+1. Landing page live: problem-led headline, real screenshots, both badges (App Store first, same height), FAQ.
+2. Privacy and support pages published and entered in both stores, plus the account deletion link if users create accounts.
+3. One page per use case, each with its own title and meta description; site added to Google Search Console.
+4. SoftwareApplication markup with no rating you cannot show, checked in Google's Rich Results Test.
+5. Both association files served at their `.well-known` addresses over HTTPS with no redirect; links tested on a fresh install.
+6. Smart App Banner tag where it helps; a light, closable banner for Android visitors.
 7. Old Firebase Dynamic Links replaced everywhere.
 
 Most of this needs no developer: the pages, keywords, badges and banner tag are website work you can do yourself. The association files and the settings inside the app belong to whoever builds the app, so send them this page.

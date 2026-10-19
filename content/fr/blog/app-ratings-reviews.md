@@ -35,11 +35,11 @@ Apple affiche une note de synthèse sur votre fiche et dans les résultats de re
 
 Google Play ne publie pas le poids des notes dans sa recherche, mais indique que des taux de plantage et de blocage au-dessus des seuils Android vitals peuvent réduire la visibilité d’une app : les bugs qui agacent vos utilisateurs peuvent aussi la faire reculer.
 
-Les mots comptent autant que les étoiles. Aux États-Unis et dans huit autres pays anglophones, dont le Royaume-Uni, l’App Store affiche un résumé des avis généré par des grands modèles de langage ; au 19 octobre 2026, la France n’en fait pas partie. Plus de détails sur le classement dans mon {{< a key="aso-guide" >}}guide de l’ASO pour débutants{{< /a >}}, et sur les textes autour de votre note dans mon {{< a key="app-store-listing" >}}guide de la fiche App Store et Google Play{{< /a >}}.
+Aux États-Unis et dans huit autres pays anglophones, dont le Royaume-Uni, l’App Store affiche en plus un résumé des avis généré par des grands modèles de langage ; au 19 octobre 2026, la France n’en fait pas partie. Voir aussi mon {{< a key="aso-guide" >}}guide de l’ASO pour débutants{{< /a >}} et mon {{< a key="app-store-listing" >}}guide de la fiche App Store et Google Play{{< /a >}}.
 
 ## Obtenir des avis pour votre application : passer par les invites officielles
 
-Les deux stores fournissent une fenêtre de notation qui s’ouvre dans votre app. Utilisez-la, et rien d’autre : la règle 5.6.1 des App Review Guidelines demande d’utiliser l’API fournie et précise qu’Apple refusera les invites de notation maison.
+Utilisez la fenêtre de notation que chaque store fournit, et rien d’autre : la règle 5.6.1 des App Review Guidelines demande d’utiliser l’API fournie et précise qu’Apple refusera les invites de notation maison.
 
 ### Sur iOS : la demande d’avis de StoreKit
 
@@ -53,13 +53,13 @@ Comme l’appel peut ne rien afficher, Apple déconseille de le déclencher par 
 
 ### Sur Android : l’API In-App Review de Google Play
 
-La fiche d’évaluation de Google suit la même logique, avec un quota que Google ne communique pas : lancez-la plus d’une fois sur une courte période (moins d’un mois, dans l’exemple de Google) et il se peut que rien ne s’affiche. Montrez-la telle quelle, sans rien par-dessus, et jamais depuis un bouton : un lien dans les réglages doit plutôt ouvrir votre fiche Play Store.
+La fiche d’évaluation de Google suit la même logique, avec un quota non communiqué : lancée plus d’une fois sur une courte période (moins d’un mois, selon l’exemple de Google), elle peut ne pas s’afficher. Montrez-la telle quelle, sans rien par-dessus, et jamais depuis un bouton : un lien dans les réglages doit plutôt ouvrir votre fiche Play Store.
 
 Aucune des deux API ne dit à votre app si la personne a laissé une note ; celle de Google ne dit même pas si la fiche s’est affichée. Impossible de récompenser un avis qu’on ne voit pas, et c’est tant mieux.
 
 ## Quand demander : juste après une réussite
 
-Les Human Interface Guidelines d’Apple recommandent de demander une note seulement après un vrai usage de l’app, par exemple un niveau terminé ou une tâche importante, et d’éviter le premier lancement et l’accueil (onboarding), où les gens risquent davantage de laisser un avis négatif. Google conseille d’attendre que l’utilisateur connaisse assez l’app pour donner un avis utile.
+Les Human Interface Guidelines d’Apple recommandent de demander une note seulement après un vrai usage de l’app, par exemple un niveau terminé ou une tâche importante, et d’éviter le premier lancement et l’accueil (onboarding), où les gens risquent davantage de laisser un avis négatif. Google conseille lui aussi d’attendre un usage suffisant pour un avis utile.
 
 | Bons moments pour demander | Moments à éviter |
 |---|---|
@@ -84,13 +84,13 @@ Le review gating consiste à demander d’abord aux gens s’ils aiment l’app,
 
 La règle 3.2.2(x) interdit d’obliger les gens à noter ou commenter l’app pour l’utiliser ou accéder à son contenu. Un écran bloqué tant qu’on n’a pas noté est exclu, tout comme une fenêtre maison qui imite l’invite du système (règle 5.6.1).
 
-En revanche, rendez votre contact support facile à trouver dans l’app et sur votre fiche, comme Apple le recommande : les mécontents vous joignent avant le formulaire d’avis. Le support est ouvert à tous ; le filtrage, lui, trie les gens devant l’invite.
+En revanche, rendez votre contact support facile à trouver, dans l’app et sur votre fiche, comme le recommande Apple : ouvert à tous, il permet aux mécontents de vous joindre avant le formulaire d’avis, sans trier personne.
 
 ## Faux avis et avis récompensés : ce que dit la loi
 
-En France, depuis le 28 mai 2022, l’article L121-4 du Code de la consommation (27° et 28°) range parmi les pratiques commerciales réputées trompeuses le fait de publier ou de faire publier de faux avis, et celui d’affirmer que des avis viennent de vrais clients sans contrôle raisonnable. La DGCCRF vise aussi la modération biaisée, comme supprimer ou retarder les avis négatifs. Les peines encourues vont jusqu’à deux ans d’emprisonnement et 300 000 € d’amende, et, depuis la loi du 10 mai 2024, jusqu’à cinq ans et 750 000 € quand la pratique est commise en ligne (3,75 millions d’euros pour une société). La [fiche de la DGCCRF sur les faux avis](https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/faux-avis-consommateurs-sur-internet) détaille ce qui est visé.
+En France, depuis le 28 mai 2022, l’article L121-4 du Code de la consommation (27° et 28°) range parmi les pratiques commerciales réputées trompeuses le fait de publier ou de faire publier de faux avis, et celui d’affirmer que des avis viennent de vrais clients sans contrôle raisonnable. La DGCCRF vise aussi la modération biaisée, comme supprimer ou retarder les avis négatifs. Depuis la loi du 10 mai 2024, les peines vont jusqu’à cinq ans d’emprisonnement et 750 000 € d’amende (3,75 millions d’euros pour une société) quand la pratique est commise en ligne. Voir la [fiche de la DGCCRF sur les faux avis](https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/faux-avis-consommateurs-sur-internet).
 
-Ces règles viennent de la directive Omnibus (UE) 2019/2161, qui a ajouté les points 23 ter et 23 quater à l’annexe I de la directive sur les pratiques commerciales déloyales, et un article 7, paragraphe 6 : dire si et comment vous vérifiez les avis publiés est une information essentielle, y compris sur {{< a key="app-website-seo" >}}le site de votre application{{< /a >}}. Elles s’appliquent dans toute l’UE ([texte sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019L2161)) : avec des utilisateurs européens, considérez-les comme les vôtres, où que soit installée votre société. Au Royaume-Uni, le DMCC Act 2024 interdit aussi, depuis le 6 avril 2025, les faux avis et les avis à récompense cachée (Schedule 20, paragraphe 13).
+Ces règles viennent de la directive Omnibus (UE) 2019/2161, qui a ajouté les points 23 ter et 23 quater à l’annexe I de la directive sur les pratiques commerciales déloyales, et un article 7, paragraphe 6 : dire si et comment vous vérifiez les avis publiés est une information essentielle, y compris sur {{< a key="app-website-seo" >}}le site de votre application{{< /a >}}. Elles s’appliquent dans toute l’UE ([texte sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019L2161)) : avec des utilisateurs européens, considérez-les comme les vôtres, où que soit installée votre société. Au Royaume-Uni, le DMCC Act 2024 interdit aussi les faux avis depuis le 6 avril 2025.
 
 Ceci est une information générale, pas un conseil juridique : avant un programme de testeurs, un parrainage ou une agence qui promet des avis, faites valider le projet par un avocat en droit de la consommation.
 
@@ -100,24 +100,23 @@ Une réponse ne change pas les étoiles, mais sur les deux stores l’auteur est
 
 ### Dans App Store Connect
 
-Ouvrez **Apps**, choisissez votre app, cliquez sur **Ratings and Reviews** dans la barre latérale, choisissez la plateforme en haut à droite, puis **Reply** à côté de l’avis. Il faut le rôle Account Holder, Admin ou Customer Support. Une réponse peut mettre jusqu’à 24 heures à apparaître, une seule par avis est affichée, et vous pouvez la modifier ou la supprimer à tout moment.
+Ouvrez **Apps**, choisissez votre app, cliquez sur **Ratings and Reviews** dans la barre latérale, choisissez la plateforme en haut à droite, puis **Reply** à côté de l’avis. Il faut le rôle Account Holder, Admin ou Customer Support. Une réponse peut mettre 24 heures à apparaître ; une seule par avis est affichée, modifiable ou supprimable à tout moment.
 
 ### Dans la Play Console
 
-Ouvrez votre app, allez dans **Ratings and reviews > Reviews**, rédigez votre réponse et sélectionnez **Publish reply** (autorisation « Reply to reviews » requise). Chaque avis reçoit une seule réponse publique, l’utilisateur est prévenu par une notification push et un e-mail, et vous pouvez modifier la réponse ensuite.
+Ouvrez votre app, allez dans **Ratings and reviews > Reviews**, rédigez votre réponse et sélectionnez **Publish reply** (autorisation « Reply to reviews » requise). Une seule réponse publique par avis, modifiable ensuite ; l’utilisateur la reçoit par notification push et par e-mail.
 
 ### Ma façon de les rédiger
 
 1. Commencez par les notes les plus basses et les bugs de la version en cours, comme le suggère Apple quand on ne peut pas répondre à tout.
 2. Remerciez, nommez le problème précis et dites ce que vous faites. Ne demandez pas une meilleure note.
-3. Renvoyez vers votre adresse de support, jamais vers des données personnelles : la règle 5.6.1 exclut données personnelles, spam et marketing des réponses.
-4. Orientez les problèmes de téléchargement et de facturation sur iOS vers l’assistance Apple, comme Apple le demande.
+3. Donnez votre adresse de support, jamais de données personnelles : la règle 5.6.1 exclut aussi le spam et le marketing.
+4. Renvoyez les problèmes de paiement ou de téléchargement sur iOS vers l’assistance Apple.
 
 ```text
 Merci pour ce signalement, et toutes nos excuses pour la réservation perdue.
-Le bug de synchronisation est corrigé dans la version 2.4, disponible
-aujourd’hui. Si cela se reproduit, écrivez à support@votreapp.fr et nous
-regarderons votre compte.
+Le bug est corrigé dans la version 2.4, disponible aujourd’hui. Si cela se
+reproduit, écrivez à support@votreapp.fr.
 ```
 
 ## Transformer les avis négatifs en corrections, puis décider d’une remise à zéro
