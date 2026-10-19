@@ -112,7 +112,7 @@ Envoyez chaque groupe de mots clés vers une page consacrée à ce service préc
 
 La page doit aussi inspirer confiance. Quand je {{< a page="/services/websites" >}}conçois un site{{< /a >}}, je veux que les prospects de mon client le prennent au sérieux dès le premier écran, ce qui réduit aussi les négociations sur le prix. Chaque clic est une première impression que vous avez déjà payée.
 
-Installez ensuite le suivi des conversions, avant le premier clic. Décidez de ce qui compte comme un résultat (un formulaire envoyé, un clic sur votre numéro, un appel depuis l’annonce), installez la balise Google sur votre site et créez une action de conversion pour chacun. Testez-les vous-même, en acceptant les cookies de votre bandeau : les visiteurs qui les refusent ne sont mesurés qu’en partie, voire pas du tout, selon la façon dont la balise gère le consentement. Sans suivi, Google ne peut viser que des clics, et vous ne saurez jamais quel mot clé a amené le client.
+Installez ensuite le suivi des conversions, avant le premier clic. Décidez de ce qui compte comme un résultat (un formulaire envoyé, un clic sur votre numéro, un appel depuis l’annonce), installez la balise Google sur votre site et créez une action de conversion pour chacun. Testez-les vous-même, en acceptant les cookies de votre bandeau : les visiteurs qui les refusent ne sont mesurés qu’en partie, voire pas du tout, selon {{< a key="cookie-banner-setup" >}}la façon dont la balise gère le consentement{{< /a >}}. Sans suivi, Google ne peut viser que des clics, et vous ne saurez jamais quel mot clé a amené le client.
 
 ## Choisir le bon type de campagne
 
@@ -125,7 +125,7 @@ Google propose plus de types de campagnes qu’il n’en faut à une petite entr
 | Display, Vidéo, Demand Gen | Sites, applications, YouTube, Gmail, Discover | Notoriété et reciblage des visiteurs passés, rarement les premières demandes |
 | Shopping | Fiches produits avec photo et prix | Les boutiques en ligne avec un flux de produits |
 
-Google réduit aussi son soutien aux campagnes intelligentes (Smart), la version simplifiée longtemps proposée aux petites entreprises : depuis le 3 août 2026, on ne peut plus en créer via l’API Google Ads (celle qu’utilisent les outils tiers), et Google oriente les annonceurs vers le Réseau de Recherche ou Performance Max. Quoi que propose votre compte, je commencerais par le Réseau de Recherche.
+Google réduit aussi son soutien aux campagnes intelligentes (Smart), la version simplifiée longtemps proposée aux petites entreprises : depuis le 3 août 2026, on ne peut plus en créer via l’API Google Ads (celle qu’utilisent les outils tiers), et Google oriente les annonceurs vers le Réseau de Recherche ou Performance Max. Quoi que propose votre compte, je commencerais par le Réseau de Recherche. Une application mobile a son propre type de campagne : mon guide des {{< a key="google-app-campaigns" >}}campagnes Google Ads pour applications{{< /a >}} explique leur fonctionnement et le budget à prévoir.
 
 ### Vérifier les réglages AI Max
 
@@ -185,4 +185,4 @@ Quand les conversions arrivent régulièrement, testez une à une les options qu
 - Un budget quotidien, une durée de test et une règle d’arrêt, écrits avant le lancement.
 - Un créneau par semaine pour le rapport sur les termes de recherche.
 
-Si les clics arrivent mais pas les appels, regardez la page avant d’augmenter le budget. Et donnez à ce canal un vrai test avant d’en ajouter un autre : un canal mené à moitié ne vous apprend rien.
+Si les clics arrivent mais pas les appels, regardez la page avant d’augmenter le budget. Et donnez à ce canal un vrai test avant d’en ajouter un autre : un canal mené à moitié ne vous apprend rien. Quand vous en ajouterez un, mon tutoriel pour {{< a key="utm-ga4-funnel-tracking" >}}suivre votre tunnel avec les UTM et GA4{{< /a >}} vous montrera quel canal amène des rendez-vous.

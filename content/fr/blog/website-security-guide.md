@@ -12,7 +12,7 @@ keywords: ["sécuriser son site internet", "sécurité site internet", "sécuris
 summary: "Sécuriser son site internet repose sur quatre habitudes : des comptes au nom de l’entreprise protégés par la double authentification, des logiciels à jour avec le moins d’extensions possible, des sauvegardes déjà restaurées une fois, et un nom de domaine verrouillé qui se renouvelle automatiquement. En cas de problème, reprenez d’abord la messagerie et le domaine, changez les mots de passe, gardez des preuves, puis nettoyez, restaurez ou reconstruisez."
 cover: "website-security-guide"
 cover_alt: "Bouclier bleu coché derrière une vitre cannelée, avec les mots HTTPS et 2FA"
-related: ["wordpress-site-hacked", "regain-website-access", "recover-domain-name", "wordpress-to-squarespace", "website-maintenance"]
+related: ["wordpress-site-hacked", "regain-website-access", "recover-domain-name", "incident-response-first-hour", "website-maintenance"]
 services: ["rescue"]
 faq:
   - q: "Comment savoir si mon site internet a été piraté ?"
@@ -53,7 +53,7 @@ Voici ce qui arrive le plus souvent, et ce qui l’évite.
 | Quelqu’un usurpe votre domaine | De faux emails « de votre part » arrivent chez vos clients | Les enregistrements SPF, DKIM et DMARC |
 | Aucune sauvegarde utilisable | Une mise à jour ratée ou un piratage oblige à tout refaire | Des sauvegardes et une restauration testée |
 
-Rien de tout cela ne demande un budget sécurité : **quelques heures de réglages, puis un contrôle rapide chaque mois, couvrent l’essentiel**. Pour le reste de votre informatique, des ordinateurs aux emails d’hameçonnage, cybermalveillance.gouv.fr, le dispositif national d’assistance aux victimes, publie des fiches de bonnes pratiques gratuites, dont un [guide destiné aux dirigeants](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/cyberattaque-que-faire-guide-dirigeants) sur les réflexes en cas de cyberattaque.
+Rien de tout cela ne demande un budget sécurité : **quelques heures de réglages, puis un contrôle rapide chaque mois, couvrent l’essentiel**. Pour le reste de votre informatique, des ordinateurs aux emails d’hameçonnage, cybermalveillance.gouv.fr, le dispositif national d’assistance aux victimes, publie des fiches de bonnes pratiques gratuites, dont un [guide destiné aux dirigeants](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/bonnes-pratiques/cyberattaque-que-faire-guide-dirigeants) sur les réflexes en cas de cyberattaque. {{< a key="cybersecurity-guide" >}}Mon guide complet de la cybersécurité des petites équipes{{< /a >}} couvre toute l’entreprise, pas seulement le site.
 
 ## Piratage, panne ou accès perdu : les premiers gestes
 
@@ -122,7 +122,7 @@ La double authentification (2FA, que Google appelle validation en deux étapes) 
 3. Votre outil de création de site ou votre hébergement, et l’administration du site.
 4. Les comptes Google et réseaux sociaux liés à l’entreprise.
 
-Une application d’authentification ou une clé d’accès protège mieux qu’un code par SMS, qui peut être détourné si quelqu’un s’empare de votre numéro, mais n’importe quel second facteur vaut mieux qu’aucun. Notez les codes de secours au moment de l’activation, sur papier ou dans votre gestionnaire. Quand le service le permet, ajoutez une deuxième personne de confiance comme administrateur, pour qu’un téléphone perdu ne bloque pas l’entreprise.
+Une application d’authentification ou une clé d’accès protège mieux qu’un code par SMS, qui peut être détourné si quelqu’un s’empare de votre numéro, mais n’importe quel second facteur vaut mieux qu’aucun. Notez les codes de secours au moment de l’activation, sur papier ou dans votre gestionnaire. Quand le service le permet, ajoutez une deuxième personne de confiance comme administrateur, pour qu’un téléphone perdu ne bloque pas l’entreprise. {{< a key="two-factor-authentication-passkeys" >}}Mon guide de la double authentification et des passkeys{{< /a >}} montre comment les activer partout en un après-midi, banque et paiements compris.
 
 Squarespace, Wix, Google, Microsoft et la plupart des registrars intègrent la double authentification. WordPress non : il faut l’ajouter avec une extension, et réserver les comptes administrateur aux personnes qui en ont vraiment besoin.
 
@@ -162,7 +162,7 @@ Trois habitudes font la différence :
 2. Gardez une copie hors de la plateforme. Une sauvegarde stockée sur le même serveur que le site peut être piratée ou perdue avec lui.
 3. Testez une restauration tous les trois mois, sur une copie de test ou un double du site, et vérifiez les pages, les formulaires et les images. Une sauvegarde jamais restaurée est un espoir, pas un plan.
 
-Vos boîtes mail ne font pas partie de la sauvegarde du site, pas plus que ce qui vit dans des applications tierces comme un outil de réservation : vérifiez comment chacune exporte ses données.
+Vos boîtes mail ne font pas partie de la sauvegarde du site, pas plus que ce qui vit dans des applications tierces comme un outil de réservation : vérifiez comment chacune exporte ses données. Pour vos boîtes mail et vos fichiers, {{< a key="backups-3-2-1" >}}mon guide des sauvegardes pour une petite équipe{{< /a >}} applique la même règle du 3-2-1 à Google Workspace, à Microsoft 365 et à vos ordinateurs.
 
 ## Nom de domaine : verrouillé, renouvelé, DNS propres
 

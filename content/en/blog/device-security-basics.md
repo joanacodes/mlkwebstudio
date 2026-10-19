@@ -70,7 +70,7 @@ Article 32 of the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) names en
 
 - **A screen lock after five minutes or less.** Mac: System Settings > Lock Screen. Windows: Settings > Accounts > Sign-in options, and Settings > System > Power & battery for the screen timeout. Lock by hand when you stand up: Windows key + L, or Control + Command + Q on a Mac.
 - **A standard account for daily work.** From an administrator account, anything malicious you open gets administrator rights too. Create a separate admin account for installing software (Windows: Settings > Accounts > Other users; Mac: System Settings > Users & Groups) and switch your daily account to Standard. When something tries to install itself, the password prompt is your moment to think twice.
-- **The built-in antivirus, left on.** Windows has Microsoft Defender Antivirus (in the Windows Security app), macOS has XProtect and Gatekeeper. With updates on, they are enough for most small teams. A free third-party antivirus switches Defender off rather than adding to it, and some push adverts, so I would not swap. The Windows firewall is on by default; on a Mac, switch it on in System Settings > Network > Firewall.
+- **The built-in antivirus, left on.** Windows has Microsoft Defender Antivirus (in the Windows Security app), macOS has XProtect and Gatekeeper. With updates on, they are enough for most small teams. A free third-party antivirus switches Defender off rather than adding to it, and some push adverts, so I would not swap. The Windows firewall is on by default; the Mac's is not, so switch it on in System Settings > Network > Firewall.
 
 ## Phones: updates, a real passcode and official stores
 
@@ -109,7 +109,7 @@ For three people, the device list and a quarterly check are enough. **From five 
 
 ## Personal devices at work: write the rules down
 
-Most small teams run on personal phones, and some on personal laptops. That is workable with a few rules everyone has read:
+Many small teams run on personal phones, and some on personal laptops. That is workable with a few rules everyone has read:
 
 - the device has updates, a passcode and encryption on, like a company one;
 - work data stays in work accounts and apps, not in a personal cloud drive or a family-shared account;

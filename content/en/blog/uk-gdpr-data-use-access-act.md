@@ -36,7 +36,7 @@ This article explains the law and the official guidance; it is not legal advice.
 | Date | What applies from then |
 |---|---|
 | 19 June 2025 | Royal Assent; searches for subject access requests only need to be reasonable and proportionate |
-| 5 February 2026 | Most changes to the UK GDPR, the Data Protection Act 2018 and PECR: cookie exceptions, higher PECR fines, recognised legitimate interests, automated decisions, "stop the clock" for access requests, the transfer test, the charity soft opt-in |
+| 5 February 2026 | Most changes to the UK GDPR, the Data Protection Act 2018 and PECR: cookie exceptions, higher PECR fines, recognised legitimate interests, automated decisions, “stop the clock” for access requests, the transfer test, the charity soft opt-in |
 | 19 June 2026 | Organisations must accept and handle data protection complaints |
 | 30 September 2026 | The ICO formally becomes the Information Commission |
 
@@ -61,7 +61,7 @@ Two changes make access requests easier to handle without weakening the right it
 - **Reasonable and proportionate searches** (since 19 June 2025). You do not have to comb every backup and archived mailbox, but you do have to search where the data is likely to be and be able to explain where you stopped.
 - **Stop the clock** (since 5 February 2026). A new Article 12A of the UK GDPR sets out the time limit and lets you pause it while you wait for a clarification you genuinely need, for example which period or which project the request is about.
 
-What has not changed: the one-month deadline, the possible two-month extension for complex or numerous requests, and the grounds for refusing or charging, which remain "manifestly unfounded or excessive". A broader "vexatious" test, proposed in an earlier bill, did not make it into the Act. My guide to {{< a key="gdpr-subject-access-request" >}}answering a subject access request within one month{{< /a >}} has the full process.
+What has not changed: the one-month deadline, the possible two-month extension for complex or numerous requests, and the grounds for refusing or charging, which remain “manifestly unfounded or excessive”. A broader “vexatious” test, proposed in an earlier bill, did not make it into the Act. My guide to {{< a key="gdpr-subject-access-request" >}}answering a subject access request within one month{{< /a >}} has the full process.
 
 ## Complaints: a new duty since 19 June 2026
 
@@ -71,7 +71,7 @@ This is the change that asks something of every organisation. Section 103 of the
 2. acknowledge the complaint within 30 days, counted from the day after you receive it;
 3. look into it without undue delay, keep the person informed and tell them the outcome.
 
-The ICO’s guidance, "How to deal with data protection complaints" (12 February 2026), lets you choose your channels but says you must accept a complaint however it arrives, including through any member of staff. Your privacy notice should also tell people how to complain to you: my guide to {{< a key="privacy-policy-guide" >}}what a privacy policy must say{{< /a >}} shows where it fits.
+The ICO’s guidance, “How to deal with data protection complaints” (12 February 2026), lets you choose your channels but says you must accept a complaint however it arrives, including through any member of staff. Your privacy notice should also tell people how to complain to you: my guide to {{< a key="privacy-policy-guide" >}}what a privacy policy must say{{< /a >}} shows where it fits.
 
 ## Legitimate interests, marketing and higher PECR fines
 
@@ -85,7 +85,7 @@ PECR, which decides whether you may send a marketing email at all, keeps its bas
 
 If software makes decisions about people without a human involved, such as screening out job applicants, the rules are now looser. Section 80 of the Act replaced Article 22 of the UK GDPR with Articles 22A to 22D, in force since 5 February 2026. **Significant decisions based solely on automated processing are allowed with safeguards**: you tell people about such decisions, let them make representations, offer human intervention and let them contest the outcome. Decisions using special category data, such as health or ethnic origin, remain tightly restricted.
 
-For transfers out of the UK, a new "data protection test" asks whether protection after the transfer is "not materially lower" than in the UK, replacing the EU standard of "essentially equivalent". Transfers already covered by the ICO’s International Data Transfer Agreement or the UK Addendum to the EU clauses remain valid, so there is nothing to redo.
+For transfers out of the UK, a new “data protection test” asks whether protection after the transfer is “not materially lower” than in the UK, replacing the EU standard of “essentially equivalent”. Transfers already covered by the ICO’s International Data Transfer Agreement or the UK Addendum to the EU clauses remain valid, so there is nothing to redo.
 
 ## Customers in the EU: EU rules still apply
 

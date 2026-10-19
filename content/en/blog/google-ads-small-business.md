@@ -112,7 +112,7 @@ Send each group of keywords to a page about exactly that service, not to your ho
 
 The page also has to make you look serious. When I {{< a page="/services/websites" >}}design a website{{< /a >}}, I want my client's prospects to take them seriously from the first screen, which also cuts down the haggling over price. A paid click is a first impression you have already paid for.
 
-Then set up conversion tracking, before the first click. Decide what counts as a result (a form sent, a tap on your phone number, a call from the ad), add the Google tag to your site and create a conversion action for each. Test them yourself, and accept the cookies on your own banner when you do: in the UK and France, visitors who refuse cookies are measured only in part, or not at all, depending on how the tag handles consent. Without tracking, Google can only chase clicks, and you will never know which keyword brought the client.
+Then set up conversion tracking, before the first click. Decide what counts as a result (a form sent, a tap on your phone number, a call from the ad), add the Google tag to your site and create a conversion action for each. Test them yourself, and accept the cookies on your own banner when you do: in the UK and France, visitors who refuse cookies are measured only in part, or not at all, depending on {{< a key="cookie-banner-setup" >}}how the tag handles consent{{< /a >}}. Without tracking, Google can only chase clicks, and you will never know which keyword brought the client.
 
 ## Choose the right campaign type
 
@@ -125,7 +125,7 @@ The list of campaign types is longer than a small business needs:
 | Display, Video, Demand Gen | Websites, apps, YouTube, Gmail, Discover | Awareness and remarketing to past visitors, rarely first enquiries |
 | Shopping | Product listings with a photo and a price | Online shops with a product feed |
 
-Google is also cutting back its support for Smart campaigns, the simplified campaigns it long offered small businesses. Since 3 August 2026, new ones can no longer be created through the Google Ads API, which third-party tools use to build campaigns, and Google points advertisers to Search or Performance Max instead. Whatever your account still shows, I would start with Search: you choose the keywords, you see the searches and you keep control.
+Google is also cutting back its support for Smart campaigns, the simplified campaigns it long offered small businesses. Since 3 August 2026, new ones can no longer be created through the Google Ads API, which third-party tools use to build campaigns, and Google points advertisers to Search or Performance Max instead. Whatever your account still shows, I would start with Search: you choose the keywords, you see the searches and you keep control. A mobile app has a campaign type of its own: my guide to {{< a key="google-app-campaigns" >}}Google App campaigns{{< /a >}} explains how they work and what to budget.
 
 ### Check the AI Max settings
 
@@ -185,4 +185,4 @@ Once conversions come in regularly, you can test what Google pushes by default, 
 - A daily budget, a test length and a stop rule, written down before launch.
 - A weekly slot in your diary for the search terms report.
 
-If the clicks come but the calls do not, look at the page before you raise the budget. And give this channel a fair test before you add another: a channel you only half run teaches you nothing.
+If the clicks come but the calls do not, look at the page before you raise the budget. And give this channel a fair test before you add another: a channel you only half run teaches you nothing. When you do add one, my tutorial on {{< a key="utm-ga4-funnel-tracking" >}}tracking your funnel with UTM links and GA4{{< /a >}} shows which channel brings booked calls.

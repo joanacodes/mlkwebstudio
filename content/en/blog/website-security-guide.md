@@ -12,7 +12,7 @@ keywords: ["website security for small business", "small business website securi
 summary: "Website security for a small business rests on four habits: every account in the business's name with two-factor authentication, software kept up to date with as few plugins as possible, backups you have restored at least once, and a domain that is locked and renews automatically. If something has already gone wrong, take back your email and domain first, change passwords and sign everyone out, save evidence, then clean, restore or rebuild."
 cover: "website-security-guide"
 cover_alt: "Blue shield with a tick behind fluted glass, with the words HTTPS and 2FA"
-related: ["wordpress-site-hacked", "regain-website-access", "recover-domain-name", "wordpress-to-squarespace", "website-maintenance"]
+related: ["wordpress-site-hacked", "regain-website-access", "recover-domain-name", "incident-response-first-hour", "website-maintenance"]
 services: ["rescue"]
 faq:
   - q: "How do I know if my website has been hacked?"
@@ -53,7 +53,7 @@ Here is what goes wrong most often, and what prevents it.
 | Someone spoofs your domain | Fake emails "from" you reach your clients | SPF, DKIM and DMARC records |
 | There is no usable backup | A bad update or a hack means starting again | Backups and a tested restore |
 
-None of this needs a security budget: **a few hours of set-up, then a short check every month, cover most of it**. For the rest of your IT, from laptops to phishing emails, the NCSC's free [small organisations guide to cyber security](https://www.ncsc.gov.uk/collection/small-business-guide) is a good place to start.
+None of this needs a security budget: **a few hours of set-up, then a short check every month, cover most of it**. For the rest of your IT, from laptops to phishing emails, the NCSC's free [small organisations guide to cyber security](https://www.ncsc.gov.uk/collection/small-business-guide) is a good place to start. {{< a key="cybersecurity-guide" >}}My complete guide to cybersecurity for small teams{{< /a >}} covers the whole business, not just the website.
 
 ## Hacked, down or locked out: what to do first
 
@@ -122,7 +122,7 @@ Two-factor authentication (2FA, also called 2-step verification) asks for a seco
 3. Your website builder or hosting account, and the site's admin area.
 4. The Google and social media accounts tied to the business.
 
-An authenticator app or a passkey is safer than a code sent by text message, which can be diverted if someone takes over your phone number, but any second factor beats none. Save the recovery codes when you turn it on, on paper or in your password manager. Where the service allows it, add a second trusted person as an administrator, so that a lost phone does not lock the business out.
+An authenticator app or a passkey is safer than a code sent by text message, which can be diverted if someone takes over your phone number, but any second factor beats none. Save the recovery codes when you turn it on, on paper or in your password manager. Where the service allows it, add a second trusted person as an administrator, so that a lost phone does not lock the business out. {{< a key="two-factor-authentication-passkeys" >}}My guide to two-factor authentication and passkeys{{< /a >}} shows how to switch them on everywhere in one afternoon, bank and payment accounts included.
 
 Squarespace, Wix, Google, Microsoft and most registrars have two-factor authentication built in. WordPress does not: you add it with a plugin, and you keep administrator accounts for the people who really need them.
 
@@ -162,7 +162,7 @@ Three habits make the difference:
 2. Keep one copy off the platform. A backup stored on the same server as the site can be hacked or lost with it.
 3. Test a restore every three months, on a test copy or a duplicate, and check the pages, the forms and the images. A backup you have never restored is a hope, not a plan.
 
-Your mailboxes are not part of a website backup, and neither is what lives in third-party apps such as a booking tool: check how each one exports its data.
+Your mailboxes are not part of a website backup, and neither is what lives in third-party apps such as a booking tool: check how each one exports its data. For your mailboxes and files, {{< a key="backups-3-2-1" >}}my guide to backups for a small team{{< /a >}} applies the same 3-2-1 rule to Google Workspace, Microsoft 365 and your laptops.
 
 ## Your domain name: locked, renewed and clean
 
