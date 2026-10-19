@@ -29,7 +29,7 @@ faq:
 
 Newsletter consent under the GDPR comes down to two questions: did this person agree to receive your newsletter, and can you prove it? For individuals in the EU and the UK, both answers must be yes before the first issue, with two exceptions: existing customers under the soft opt-in and, in some countries, business addresses.
 
-When I suggest cold emailing to clients, the objection I hear is that it is illegal. In B2B it usually is not, and the rules that allow a cold email to a company are the same ones that decide who may receive your newsletter. This guide, part of my {{< a key="funnels-newsletters-guide" >}}guide to funnels and newsletters{{< /a >}}, covers the EU and UK rules, the soft opt-in, double opt-in, the records to keep and what to do with an old list.
+When I suggest cold emailing to clients, the objection I hear is that it is illegal. In B2B it usually is not, and the same rules decide who may receive your newsletter. This guide is part of my {{< a key="funnels-newsletters-guide" >}}guide to funnels and newsletters{{< /a >}}.
 
 It is general information, not legal advice: the last section says when a lawyer is worth calling.
 
@@ -37,7 +37,7 @@ It is general information, not legal advice: the last section says when a lawyer
 
 **The email marketing rule decides whether you may send at all.** In the EU, it is [Article 13 of the ePrivacy Directive](https://eur-lex.europa.eu/eli/dir/2002/58/oj): marketing emails to individuals need their prior consent unless the soft opt-in applies. Each country writes it into its own law; in France, that is article L34-5 of the Code des postes et des communications électroniques (CPCE). In the UK, it is [regulation 22 of PECR](https://www.legislation.gov.uk/uksi/2003/2426/regulation/22), the Privacy and Electronic Communications Regulations, amended by the Data (Use and Access) Act 2025 (here is {{< a key="uk-gdpr-data-use-access-act" >}}what that Act changed{{< /a >}}).
 
-**The GDPR decides what valid consent is and how you handle the data.** Both email rules borrow its definition of consent, and the UK GDPR does the same job in the UK.
+**The GDPR decides what valid consent is.** Both email rules borrow its definition, and the UK GDPR plays the same role in the UK.
 
 These rules follow your readers, not your company. A Swiss consultancy, a Canadian software firm or a Moroccan agency whose newsletter offers its services to readers in France or Belgium comes under the GDPR through Article 3(2), and the safest course is to follow the email rules of the country where each reader lives. My {{< a key="gdpr-guide" >}}GDPR guide{{< /a >}} covers the rest of the regulation.
 
@@ -67,25 +67,23 @@ The soft opt-in is the exception for your own customers, in Article 13(2) of the
 2. **You write about your own similar products or services**, never a partner's offer.
 3. **They could refuse, simply and free of charge, when you collected the address**, and every email lets them opt out.
 
-A UK bike shop can email past buyers about servicing and accessories. It cannot use the soft opt-in to promote a partner's insurance, and it needs consent for people who never bought anything or asked for a quote. The refusal at collection is usually a clearly worded box at checkout: customers who were never offered that choice are not covered.
+A UK bike shop can email past buyers about servicing and accessories, but needs consent for people who never bought anything or asked for a quote. The refusal at collection is usually a clearly worded box at checkout: customers who were never offered that choice are not covered.
 
 ## B2B newsletters: business addresses follow other rules
 
-The consent rule protects individuals, and each country decides how far it reaches into business addresses.
-
-**UK.** PECR's consent rule covers individuals, sole traders and partnerships outside Scotland. Limited companies, LLPs, Scottish partnerships and public bodies can be emailed without consent, but every message must name the sender and give a valid address to opt out (regulation 23). An address that names a person, such as jane.smith@firm.co.uk, is still personal data under the UK GDPR, and an objection to direct marketing must be honoured at once (Article 21(3)). An address alone does not show whether it belongs to a company or a sole trader: when in doubt, the [ICO's business-to-business guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to treat it as an individual's.
+**UK.** PECR's consent rule covers individuals, sole traders and partnerships outside Scotland. Limited companies, LLPs, Scottish partnerships and public bodies can be emailed without consent, but every message must name the sender and give a valid address to opt out (regulation 23). An address that names a person, such as jane.smith@firm.co.uk, is still personal data under the UK GDPR. An address alone does not show whether it belongs to a company or a sole trader: when in doubt, the [ICO's business-to-business guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to treat it as an individual's.
 
 **France.** The CNIL allows marketing emails to professionals without prior consent when the message relates to their job (its example: software offered to an IT director), provided they were told their address would be used and can object simply and free of charge. Generic addresses such as contact@ fall outside the consent and information rules.
 
 **Elsewhere in the EU.** Article 13(5) of the ePrivacy Directive leaves business addresses to national law, and Germany, for one, requires prior consent for marketing emails to businesses too.
 
-Even where the law allows it, adding business contacts who never asked is a poor trade for a newsletter: people who did not expect it are quicker to report it as spam, and complaints count against your sending reputation (see {{< a key="newsletter-deliverability" >}}the Gmail, Yahoo and Outlook sender rules{{< /a >}}). For prospecting emails, my {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} goes through the B2B rules line by line.
+Even where the law allows it, adding business contacts who never asked is a poor trade: people who did not expect your newsletter report it as spam more readily, and complaints count against you under {{< a key="newsletter-deliverability" >}}the Gmail, Yahoo and Outlook sender rules{{< /a >}}. My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers the B2B rules line by line.
 
 ## Double opt-in: not required, but the best proof
 
 Double opt-in means the person signs up, receives an email with a confirmation link and joins your list only after clicking it. Neither the GDPR nor PECR requires it. The GDPR does require proof: you must "be able to demonstrate" consent (Article 7(1)). A form submission shows that someone typed an address; the click shows that the owner of the inbox agreed.
 
-Germany is where this matters most. Its Federal Court of Justice accepted, in a judgment of 10 February 2011 (I ZR 164/09), that a sign-up confirmed by email can be assumed to come from the owner of the address, and double opt-in is the prevailing practice there.
+In Germany, the Federal Court of Justice accepted in a judgment of 10 February 2011 (I ZR 164/09) that a sign-up confirmed by email can be assumed to come from the owner of the address, and double opt-in is the prevailing practice there.
 
 It also keeps the list clean: no typos, no colleague or rival signed up as a joke, fewer bots and spam traps. The cost is that some people never click, so your thank-you page should tell them to check their inbox.
 
@@ -120,11 +118,7 @@ Your newsletter tool logs most of this. The wording is the part people lose: whe
 
 ## Importing an old list: ask again, the right way
 
-Phone contacts, business cards, LinkedIn connections, old enquiries, a list bought from a broker: none of these people agreed to your newsletter. Sort them before you import anything:
-
-- customers who were offered a way to refuse when they bought may be covered by the soft opt-in, for your own similar products;
-- business addresses follow the B2B rules above, country by country;
-- everyone else needs consent, and you cannot email them to ask for it.
+Phone contacts, business cards, LinkedIn connections, old enquiries, a list bought from a broker: none of these people agreed to your newsletter. Before importing, sort them: customers offered a way to refuse may fall under the soft opt-in, business addresses follow the B2B rules above, and everyone else needs consent, which you cannot ask for by email.
 
 {{< callout type="warning" >}}In 2017, the ICO fined Flybe £70,000 for emailing more than three million people who had opted out, asking them to update their marketing preferences, and Honda £13,000 for emails asking customers whether they wanted to hear from it. An email that asks for marketing consent is itself a marketing email.{{< /callout >}}
 

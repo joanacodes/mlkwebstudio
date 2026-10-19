@@ -53,7 +53,7 @@ Google Drive, OneDrive et Dropbox gardent les mêmes fichiers sur votre ordinate
 - un rançongiciel chiffre votre ordinateur, et les fichiers chiffrés remplacent les bons dans le cloud ;
 - quelqu’un enregistre par-dessus un tableau, et l’ancienne version disparaît de tous les appareils.
 
-La corbeille et l’historique des versions sont des filets de sécurité, pas des sauvegardes : gérés par le même fournisseur, ouverts avec le même compte administrateur, vidés selon un calendrier fixe. Ils rattrapent l’erreur remarquée dans la semaine. Si un rançongiciel s’affiche déjà sur votre écran, suivez mon {{< a key="incident-response-first-hour" >}}plan de la première heure{{< /a >}} avant de toucher à vos sauvegardes.
+La corbeille et l’historique des versions sont des filets de sécurité, pas des sauvegardes : même fournisseur, même compte administrateur, vidage à date fixe. Ils rattrapent l’erreur remarquée dans la semaine. Si un rançongiciel s’affiche déjà sur votre écran, suivez mon {{< a key="incident-response-first-hour" >}}plan de la première heure{{< /a >}} avant de toucher à vos sauvegardes.
 
 ## Google Workspace : ce que Google peut restaurer, et pendant combien de temps
 
@@ -69,14 +69,14 @@ Google Vault passe souvent pour une sauvegarde, mais c’est un outil de conserv
 
 ## Microsoft 365 : la rétention n’est pas une sauvegarde
 
-Les filets de Microsoft durent plus longtemps, mais ils ont aussi leurs limites, au 19 octobre 2026 :
+Les filets de Microsoft durent plus longtemps, mais restent limités, au 19 octobre 2026 :
 
 - OneDrive et SharePoint gardent les fichiers supprimés 93 jours dans la corbeille pour les comptes professionnels, sauf si votre administrateur a modifié ce réglage.
 - La fonction de restauration de OneDrive ramène tout un OneDrive à un moment des 30 derniers jours : c’est celle à connaître après un rançongiciel.
 - Les e-mails supprimés ne restent récupérables que pendant une durée limitée.
 - Les stratégies de rétention, réglées dans Microsoft Purview, empêchent la suppression définitive d’un contenu avant une date. Elles servent la conformité et les litiges, pas à remettre un dossier dans l’état où il était mardi.
 
-Microsoft vend aussi **Microsoft 365 Backup**, un service payant pour OneDrive, SharePoint et Exchange Online, activé et facturé à l’usage depuis le centre d’administration Microsoft 365. À l’heure où j’écris ces lignes (octobre 2026), [la page de tarification de Microsoft](https://learn.microsoft.com/microsoft-365/backup/backup-pricing) indique 0,15 $ (environ 0,13 €) par Go de contenu protégé et par mois, un prix publié en dollars ; les éléments des corbeilles et les archives des boîtes aux lettres entrent dans le volume facturé. C’est une deuxième copie utile, mais Microsoft la détient toujours et les mêmes comptes administrateurs la gèrent : ce n’est pas votre copie hors d’atteinte.
+Microsoft vend aussi **Microsoft 365 Backup**, un service payant pour OneDrive, SharePoint et Exchange Online, activé et facturé à l’usage depuis le centre d’administration Microsoft 365. À l’heure où j’écris ces lignes (octobre 2026), [la page de tarification de Microsoft](https://learn.microsoft.com/microsoft-365/backup/backup-pricing) indique 0,15 $ (environ 0,13 €) par Go de contenu protégé et par mois, un prix publié en dollars ; les éléments des corbeilles et les archives des boîtes aux lettres entrent dans le volume facturé. C’est une deuxième copie utile, mais Microsoft la détient toujours et les mêmes comptes administrateurs la gèrent : ce n’est pas votre copie hors d’atteinte.
 
 Les réglages d’administration qui rendent ces restaurations possibles sont dans mon guide pour {{< a key="secure-google-workspace-microsoft-365" >}}sécuriser Google Workspace et Microsoft 365{{< /a >}}.
 
@@ -108,9 +108,9 @@ C’est la copie qui vous sauve quand tout le reste est touché en même temps. 
 
 1. **Deux disques externes chiffrés en rotation** : l’un au bureau pour la sauvegarde, l’autre à la maison, échangés chaque semaine. Peu coûteux et hors ligne par nature, mais cela dépend de quelqu’un qui y pense.
 2. **Une sauvegarde cloud avec versions et immuabilité**, parfois appelée verrouillage d’objet (object lock), pour que même votre propre mot de passe ne puisse pas effacer les copies avant l’heure.
-3. **Un autre fournisseur, ailleurs.** Infomaniak, l’entreprise suisse derrière SwissTransfer, que je recommande, propose Swiss Backup : un stockage en Suisse pour les sauvegardes d’ordinateurs, de serveurs et de téléphones réalisées avec le logiciel Acronis, pour les NAS Synology ou QNAP et pour les outils compatibles S3, facturé en francs suisses selon l’espace et le nombre d’appareils, avec un essai de 90 jours. Plus de détails dans mon {{< a key="infomaniak-review" >}}avis sur Infomaniak{{< /a >}}.
+3. **Un autre fournisseur, ailleurs.** Infomaniak, l’entreprise suisse derrière SwissTransfer, que je recommande, propose Swiss Backup : un stockage en Suisse pour les sauvegardes d’ordinateurs, de serveurs et de téléphones faites avec le logiciel Acronis, pour les NAS Synology ou QNAP et pour les outils compatibles S3, facturé en francs suisses selon l’espace et le nombre d’appareils, avec un essai de 90 jours. Plus de détails dans mon {{< a key="infomaniak-review" >}}avis sur Infomaniak{{< /a >}}.
 
-{{< callout type="tip" >}}**Donnez à la sauvegarde son propre identifiant** : un compte séparé, un mot de passe long et unique, la double authentification, et une ou deux personnes seulement pour s’en servir. Si le mot de passe de votre messagerie ouvre aussi vos sauvegardes, un intrus peut effacer les deux.{{< /callout >}}
+{{< callout type="tip" >}}**Donnez à la sauvegarde son propre identifiant** : un compte séparé, un mot de passe long et unique, la double authentification, le tout réservé à une ou deux personnes. Si le mot de passe de votre messagerie ouvre aussi vos sauvegardes, un intrus peut effacer les deux.{{< /callout >}}
 
 ## Un plan de sauvegarde pour une équipe de cinq personnes
 
@@ -139,7 +139,7 @@ Une sauvegarde jamais restaurée est un espoir, pas une sauvegarde. Les sauvegar
 4. Connectez-vous au service de sauvegarde avec son identifiant séparé, et vérifiez qu’aucun ancien membre de l’équipe n’y a encore accès.
 5. Notez la date, la durée de chaque restauration et les problèmes rencontrés sur votre fiche.
 
-C’est le 0 de 3-2-1-1-0. Le RGPD demande la même chose avec ses mots : son [article 32](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679) cite « des moyens permettant de rétablir la disponibilité des données à caractère personnel et l’accès à celles-ci dans des délais appropriés en cas d’incident physique ou technique » et « une procédure visant à tester, à analyser et à évaluer régulièrement l’efficacité des mesures techniques et organisationnelles ». Ce guide donne des repères pratiques, pas un conseil juridique : si vous détenez des données de santé ou d’autres données sensibles, un DPO ou un avocat vous dira ce que vos sauvegardes doivent couvrir et combien de temps les garder.
+C’est le 0 de 3-2-1-1-0. Le RGPD demande la même chose avec ses mots : son [article 32](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679) cite « des moyens permettant de rétablir la disponibilité des données à caractère personnel et l’accès à celles-ci dans des délais appropriés en cas d’incident physique ou technique » et « une procédure visant à tester, à analyser et à évaluer régulièrement l’efficacité des mesures ». Ce guide donne des repères pratiques, pas un conseil juridique : si vous détenez des données de santé ou d’autres données sensibles, un DPO ou un avocat vous dira ce que vos sauvegardes doivent couvrir et combien de temps les garder.
 
 ## Par où commencer cette semaine
 
