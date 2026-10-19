@@ -22,12 +22,12 @@ faq:
   - q: "Je suis micro-entrepreneur : quelle aide gratuite puis-je utiliser ?"
     a: "17Cyber est ouvert à toutes les victimes, et les fiches pratiques de Cybermalveillance.gouv.fr couvrent l’essentiel de la prévention : mots de passe, double authentification, appareils mobiles, séparation des usages pro et perso. MonAideCyber, lui, n’est pas conçu pour les entreprises d’une seule personne."
   - q: "Un service public peut-il récupérer des fichiers chiffrés par un rançongiciel ?"
-    a: "Pas directement : 17Cyber et les CSIRT vous conseillent et vous orientent vers un prestataire. Ne payez pas la rançon, que l’ANSSI déconseille faute de garantie d’obtenir la clé ; restaurez à partir de sauvegardes antérieures à l’attaque, et regardez si le site No More Ransom propose un outil de déchiffrement gratuit pour votre cas."
+    a: "Pas directement : 17Cyber et les CSIRT vous conseillent et vous orientent vers un prestataire. Ne payez pas la rançon : l’ANSSI le déconseille, faute de garantie d’obtenir la clé ; restaurez à partir de sauvegardes antérieures à l’attaque, et regardez si le site No More Ransom propose un outil de déchiffrement gratuit pour votre cas."
 ---
 
 Une aide cybersécurité gratuite existe bel et bien pour les TPE et les petites équipes, et l’essentiel vient de l’État : un service d’assistance en ligne ouvert à toute heure, un diagnostic avec un bénévole formé, des centres régionaux qui répondent aux incidents et des guides écrits pour les structures sans service informatique. Ce qui reste payant : la remise en état par un prestataire, les certifications et l’assurance.
 
-Ce guide passe en revue ce qui est gratuit en France, ce que fait réellement chaque service, l’ordre dans lequel les utiliser, et ce qui existe au Royaume-Uni si vous y avez des clients. Tout a été vérifié au 19 octobre 2026. Il fait partie de mon {{< a key="cybersecurity-guide" >}}guide de la cybersécurité pour les petites équipes{{< /a >}}.
+Ce guide passe en revue ce qui est gratuit en France, ce que fait réellement chaque service, l’ordre dans lequel les utiliser, et ce qui existe au Royaume-Uni si vous y avez des clients. Tout a été vérifié le 19 octobre 2026. Il fait partie de mon {{< a key="cybersecurity-guide" >}}guide de la cybersécurité pour les petites équipes{{< /a >}}.
 
 Quand un client m’appelle avec un problème, une partie de mon travail consiste à lui dire honnêtement s’il a besoin de moi ou de quelqu’un d’autre. Pour une bonne partie de ce qui suit, ce quelqu’un d’autre est un service public gratuit.
 
@@ -44,7 +44,7 @@ Aucun de ces services ne répare vos systèmes, ne vous certifie, ne vous donne 
 
 ## France : ce que l’État vous offre, de 17Cyber aux CSIRT régionaux
 
-Trois acteurs publics se partagent l’essentiel : Cybermalveillance.gouv.fr, la police et la gendarmerie (avec 17Cyber), et l’ANSSI, l’agence nationale de la sécurité des systèmes d’information.
+Trois acteurs nationaux se partagent l’essentiel : Cybermalveillance.gouv.fr, la police et la gendarmerie (avec 17Cyber), et l’ANSSI, l’agence nationale de la sécurité des systèmes d’information. Les régions complètent avec leurs CSIRT.
 
 | Service gratuit | Ce que vous obtenez | Quand l’utiliser |
 |---|---|---|
@@ -62,9 +62,9 @@ Si le diagnostic révèle une attaque grave, vous pouvez échanger par écrit av
 
 ### Cybermalveillance.gouv.fr : prévention et prestataires labellisés
 
-Cybermalveillance.gouv.fr, le dispositif national d’assistance aux victimes, sert aussi avant l’incident. Ses fiches pratiques (mots de passe, appareils mobiles, séparation des usages pro et perso) et ses fiches réflexes (piratage de compte, faux ordres de virement) sont courtes et claires. Son kit de sensibilisation gratuit vous donne de quoi former l’équipe sans prestataire.
+Cybermalveillance.gouv.fr, le dispositif national d’assistance aux victimes, sert aussi avant l’incident. Ses fiches pratiques (mots de passe, appareils mobiles, séparation des usages pro et perso) et ses fiches réflexes (piratage de compte, faux ordres de virement) sont courtes et claires. Pour former l’équipe sans prestataire, il a lancé en juin 2026 la MalletteCyber Pro, un kit de sensibilisation gratuit pensé pour les dirigeants de petites équipes et leurs salariés : livret pédagogique, jeu de cartes, affiche et infographie, sous licence ouverte.
 
-Il labellise aussi des prestataires (label ExpertCyber) vers lesquels vous tourner pour une intervention, payante celle-là. En juin 2026, il a annoncé MalletteCyber Pro, une boîte à outils destinée aux PME.
+Il labellise aussi des prestataires (label ExpertCyber) vers lesquels vous tourner pour une intervention, payante celle-là.
 
 ### Les CSIRT régionaux, le premier niveau de réponse
 
@@ -93,17 +93,17 @@ Si vous avez des clients, des salariés ou un bureau au Royaume-Uni, l’aide gr
 | [Guide pour les petites organisations](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security) | Nouvelle édition d’avril 2026 : messagerie, comptes importants, appareils, sauvegardes, repérage des attaques |
 | Cyber Action Toolkit | Les mêmes conseils découpés en petites étapes adaptées à votre structure, avec un chemin vers Cyber Essentials |
 | Exercise in a Box | Des scénarios réalistes pour s’entraîner à gérer un incident en équipe |
-| Early Warning | Des alertes sur les menaces liées aux adresses IP de votre entreprise |
+| Early Warning | Des alertes sur les menaces et les vulnérabilités liées à vos noms de domaine et adresses IP (réservé aux organisations britanniques) |
 | Report Fraud | Le signalement des fraudes et de la cybercriminalité (Angleterre, pays de Galles, Irlande du Nord), en ligne ou au 0300 123 2040 ; en Écosse, Police Scotland au 101 |
 
-La certification Cyber Essentials, que le NCSC encourage les grandes organisations à exiger de certains fournisseurs, est en revanche payante : 320 livres sterling hors TVA (environ 370 €) jusqu’à neuf salariés, au moment où j’écris (octobre 2026). Elle porte sur cinq mesures : pare-feu, configuration sécurisée, mises à jour de sécurité, gestion des droits d’accès et protection contre les logiciels malveillants. Si un client britannique vous envoie un {{< a key="security-questionnaire" >}}questionnaire de sécurité fournisseur{{< /a >}}, attendez-vous à la question.
+La certification Cyber Essentials, que le NCSC encourage les grandes organisations à exiger de certains fournisseurs, est en revanche payante : 320 livres sterling hors TVA (environ 375 €) jusqu’à neuf salariés, au moment où j’écris (octobre 2026). Elle porte sur cinq mesures : pare-feu, configuration sécurisée, mises à jour de sécurité, gestion des droits d’accès et protection contre les logiciels malveillants. Si un client britannique vous envoie un {{< a key="security-questionnaire" >}}questionnaire de sécurité fournisseur{{< /a >}}, attendez-vous à la question.
 
 ## Par où commencer : un plan gratuit pour une petite équipe
 
 1. **Aujourd’hui : enregistrez les contacts d’urgence.** Le numéro de votre banque en cas de fraude, l’adresse 17cyber.gouv.fr et le numéro du CSIRT de votre région. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après une cyberattaque{{< /a >}} explique quoi en faire.
 2. **Cette semaine : les bases.** La {{< a key="two-factor-authentication-passkeys" >}}double authentification{{< /a >}} sur la messagerie et la banque, des sauvegardes automatiques, les mises à jour sur chaque ordinateur et téléphone (la checklist est dans mon article sur les {{< a key="device-security-basics" >}}bases de la sécurité des appareils{{< /a >}}).
 3. **Ce mois-ci : demandez un diagnostic MonAideCyber** et inscrivez les six mesures dans votre agenda.
-4. **Ce trimestre : sensibilisez l’équipe** avec le kit de Cybermalveillance.gouv.fr, le temps d’une réunion.
+4. **Ce trimestre : sensibilisez l’équipe** avec la MalletteCyber Pro de Cybermalveillance.gouv.fr, le temps d’une réunion.
 5. **Quand un client demande des preuves : appuyez-vous sur le diagnostic** et sur les mesures appliquées. Si vos clients sont soumis à {{< a key="nis2-small-business" >}}NIS2{{< /a >}}, la directive les oblige à gérer la sécurité de leur chaîne d’approvisionnement (article 21) : attendez-vous à des questions plus précises. En France, la loi de transposition n’était toujours pas adoptée au 19 octobre 2026.
 
 ## Ce que l’aide gratuite ne fait pas, et quand payer un prestataire
@@ -120,4 +120,4 @@ En France, cherchez un prestataire labellisé ExpertCyber, vers lequel 17Cyber p
 
 Cet article n’est pas un avis juridique : pour une clause de contrat, une violation de données personnelles ou la question de savoir si NIS2 vous concerne, un avocat ou un délégué à la protection des données (DPO) vaut la dépense.
 
-Les sites piratés, les accès administrateur perdus et les messageries dont vous avez perdu le contrôle, c’est le dépannage que je fais, en général le jour même ou sous 24 heures. Pour le reste, commencez par les services gratuits ci-dessus : je préfère vous y envoyer plutôt que de vous vendre ce que vous pouvez obtenir pour rien.
+Les sites piratés, les accès administrateur perdus et les messageries dont vous avez perdu le contrôle, c’est le dépannage que je fais, avec une réponse le jour même ou sous 24 heures. Pour le reste, commencez par les services gratuits ci-dessus : je préfère vous y envoyer plutôt que de vous vendre ce que vous pouvez obtenir pour rien.

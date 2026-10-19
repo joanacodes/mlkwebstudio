@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:18:00+02:00
 category: "cybersecurity"
 article_type: "guide"
 keywords: ["free cyber security help for small business", "free cyber security advice UK", "NCSC Cyber Action Toolkit", "Cyber Essentials cost", "17Cyber", "MonAideCyber"]
-summary: "Both countries give small teams real cyber security help for free, mostly from public bodies. In the UK, the NCSC's guide for small organisations, its Cyber Action Toolkit, Exercise in a Box and Early Warning cost nothing, but Cyber Essentials certification does, from £320 plus VAT. In France, 17Cyber helps victims at any hour, MonAideCyber offers a free diagnostic of about 1h30 and regional CSIRTs handle the first response to an incident."
+summary: "Both countries give small teams real cyber security help for free, mostly from public bodies. In the UK, the NCSC's guide for small organisations, its Cyber Action Toolkit, Exercise in a Box and Early Warning cost nothing, but Cyber Essentials certification does, from £320 (about $425) plus VAT. In France, 17Cyber helps victims at any hour, MonAideCyber offers a free diagnostic of about 90 minutes and regional CSIRTs handle the first response to an incident."
 cover: "free-cybersecurity-help"
 cover_alt: "The article title in white on a ribbed-glass panel over a photo, with a map and location pins"
 related: ["cybersecurity-guide", "incident-response-first-hour", "security-questionnaire", "nis2-small-business", "device-security-basics"]
@@ -22,7 +22,7 @@ faq:
   - q: "Do I report a data breach to the NCSC?"
     a: "No. The NCSC is not a regulator. If personal data was exposed, you report the breach to the ICO within 72 hours of becoming aware of it, unless it is unlikely to put people at risk (Article 33 of the UK GDPR). Reporting the attack to the NCSC or to Report Fraud does not replace that notification."
   - q: "Can a sole trader use these free services?"
-    a: "Yes, most of them. The Cyber Action Toolkit is designed for sole traders as well as small organisations, and Report Fraud and 17Cyber take reports from individuals and businesses alike. The exception is MonAideCyber, which is not designed for single-person companies or French micro-entrepreneurs."
+    a: "Yes, most of them. The Cyber Action Toolkit is designed for sole traders as well as small organisations, and Report Fraud and 17Cyber are open to individuals and businesses alike. The exception is MonAideCyber, which is not designed for single-person companies or French micro-entrepreneurs."
 ---
 
 You can get a surprising amount of free cyber security help as a small-team business, and almost all of it comes from public bodies: guides written for teams without an IT department, a self-assessment tool, practice exercises, threat alerts, a free diagnostic in France and someone to call while an attack is under way. What you pay for is certification and the hands-on repair work.
@@ -37,7 +37,7 @@ Public help comes in four kinds, and knowing which one you need saves an afterno
 
 - **Guidance**: what to do, in plain language, written for organisations without IT staff.
 - **Tools and practice**: a self-assessment that turns the guidance into a to-do list, and exercises to rehearse an incident with your team.
-- **A person who looks at your set-up**: in France, MonAideCyber pairs you with a trained volunteer for a free diagnostic; in the UK, the nearest thing has been funded Cyber Essentials support for organisations that qualify.
+- **A person who looks at your set-up**: in France, MonAideCyber pairs you with a trained volunteer for a free diagnostic; in the UK, the closest equivalent was funded Cyber Essentials support, which the NCSC said in 2025 was in its final year.
 - **Help during an attack**: somewhere to report the crime and get advice, at any hour.
 
 None of them fixes your systems, certifies you, gives legal advice or insures you: those parts are paid, and I come back to them at the end.
@@ -52,7 +52,7 @@ Most of the free help comes from the NCSC, which is part of GCHQ, and none of it
 | Small Business Guide: Response & Recovery | How to prepare for an incident and plan your recovery | Writing your incident plan |
 | Cyber Action Toolkit | Small steps tailored to your organisation, done at your own pace, with your progress recorded | Sole traders and small teams who want a to-do list |
 | Exercise in a Box | Realistic scenarios to practise how your team responds to an incident | Teams that want to rehearse before the real thing |
-| Early Warning | Alerts about threats tied to your organisation's IP addresses | Businesses with a fixed IP address or their own servers |
+| Early Warning | Alerts about threats and vulnerabilities linked to the domain names and IP addresses you register | Any UK organisation with its own domain name or a fixed IP address |
 | [Report Fraud](https://www.reportfraud.police.uk/) | Reporting of fraud and cyber crime, online or on 0300 123 2040 | Any attack or scam |
 
 ### The guide and the Cyber Action Toolkit
@@ -63,9 +63,9 @@ If you would rather work from a checklist, the Cyber Action Toolkit breaks the s
 
 ### Exercise in a Box and Early Warning
 
-Exercise in a Box gives you realistic incident scenarios to rehearse with your team. Run one as an hour-long discussion with the people who would be on the phone during a real incident: you find out who has the admin passwords, who calls the bank and who talks to clients before it matters.
+Exercise in a Box gives you realistic incident scenarios to rehearse with your team. Run one as a round-table discussion with the people who would be on the phone during a real incident: you find out who has the admin passwords, who calls the bank and who talks to clients before it matters.
 
-Early Warning takes a few minutes to set up, and its findings arrive through a MyNCSC account.
+Early Warning is open to any UK organisation with a domain name or a fixed IP address, so a team with its own website or email domain qualifies. You sign up through a MyNCSC account and register your domains and IP addresses; the service then sends threat alerts daily and vulnerability alerts weekly to the contacts you nominate.
 
 {{< callout type="note" >}}**Web Check and Mail Check have gone.** The NCSC retired both on 31 March 2026, saying commercial tools now cover the same ground. If an older article sends you there, Early Warning is the free NCSC alert service that carries on.{{< /callout >}}
 
@@ -83,15 +83,15 @@ Cyber Essentials is the government-backed certification, run by the NCSC with it
 
 What is free around it:
 
-- **The preparation.** The requirements, the NCSC's guidance and IASME's readiness tool cost nothing, and the Cyber Action Toolkit leads into the same five controls.
-- **Insurance.** Organisations based in the UK or the Crown Dependencies, with a turnover under £20 million, that certify their whole organisation can opt in to cyber liability insurance arranged by IASME at no extra cost. My guide to {{< a key="cyber-insurance" >}}cyber insurance{{< /a >}} explains what a policy covers and where a free one stops.
-- **Funded support, for some.** The NCSC has run a Funded Cyber Essentials Programme that paid for about 20 hours of an assessor's help for eligible micro and small organisations, such as legal-aid firms and some small charities. I could not confirm that it is open in October 2026, so check IASME's website first.
+- **The preparation.** The requirements, the NCSC's guidance and the Cyber Essentials Readiness Tool (built by IASME for the NCSC, it turns your answers into an action plan) cost nothing, and the Cyber Action Toolkit leads into the same five controls.
+- **Insurance.** Organisations based in the UK or the Crown Dependencies, with a turnover under £20 million, that certify their whole organisation can opt in to cyber liability insurance arranged by IASME, with £25,000 of cover (about $33,000), at no extra cost. My guide to {{< a key="cyber-insurance" >}}cyber insurance{{< /a >}} explains what a policy covers and where a free one stops.
+- **Funded support, probably over.** The NCSC's Funded Cyber Essentials Programme paid for about 20 hours of an assessor's help for eligible micro and small organisations, such as legal-aid firms and some small charities. The NCSC's 2025 annual review described it as being in its third and final year, so check IASME's website before you count on it.
 
-Pay for the certificate when a client asks for it or when you want the insurance. The NCSC encourages large organisations to set Cyber Essentials as a minimum for some suppliers, so the question often arrives inside a {{< a key="security-questionnaire" >}}security questionnaire{{< /a >}}, and EU clients covered by {{< a key="nis2-small-business" >}}NIS2{{< /a >}} must also manage the security of their supply chain (Article 21 of the directive). If nobody has asked yet, spend the first month on the free toolkit: the controls are the same, and the certificate can follow when someone needs to see it.
+Pay for the certificate when a client asks for it or when you want the insurance. The NCSC encourages large organisations to set Cyber Essentials as a minimum for some suppliers, so the question often arrives inside a {{< a key="security-questionnaire" >}}security questionnaire{{< /a >}}, and EU clients covered by {{< a key="nis2-small-business" >}}NIS2{{< /a >}} must also manage the security of their supply chain (Article 21 of the directive). If nobody has asked yet, spend the first month on the free tools: they work towards the same controls, and the certificate can follow when someone needs to see it.
 
 ## France: 17Cyber, Cybermalveillance.gouv.fr and MonAideCyber
 
-If you have clients, staff or an office in France, the French state's free help is more hands-on than the UK's: it includes a diagnostic with a person and regional teams that respond to incidents.
+If you have staff or an office in France, the French state's free help is more hands-on than the UK's: it includes a diagnostic with a person and regional teams that respond to incidents.
 
 | Service | What it does |
 |---|---|
@@ -106,8 +106,8 @@ If you run a French office from the UK, save the 17Cyber address next to the UK 
 
 1. **Today: save the numbers.** Put your bank's fraud line and 0300 123 2040 in your phone, plus 17cyber.gouv.fr if you have a French office. My {{< a key="incident-response-first-hour" >}}first-hour plan after a cyber attack{{< /a >}} explains what to do with them.
 2. **This week: read the NCSC guide or start the Cyber Action Toolkit.** The first actions take minutes each: {{< a key="two-factor-authentication-passkeys" >}}two-factor authentication{{< /a >}} on email and banking, backups that run on their own, updates on every laptop and phone (my guide to {{< a key="device-security-basics" >}}device security basics{{< /a >}} has the checklist).
-3. **This quarter: run one Exercise in a Box scenario** with the people who would handle an incident, then fix the gaps it shows.
-4. **If you have a fixed IP address or your own servers, sign up for Early Warning.**
+3. **This month: sign up for Early Warning** and register your domain names, so the NCSC can warn you about threats it sees against them.
+4. **This quarter: run one Exercise in a Box scenario** with the people who would handle an incident, then fix the gaps it shows.
 5. **When a client asks for proof, certify with Cyber Essentials** and reuse the same evidence in their questionnaire.
 6. **For a French office, request a MonAideCyber diagnostic** and put the six measures in the diary.
 
@@ -125,4 +125,4 @@ In the UK, companies assured under the NCSC's Cyber Incident Response scheme han
 
 This article is not legal advice: for a contract clause, a personal data breach or the question of whether NIS2 applies to you, a lawyer or a data protection officer is worth paying for.
 
-Hacked websites, lost admin access and mailboxes you cannot get back into are the IT rescue work I do, usually starting the same day or within 24 hours. For the rest, start with the free services above: I would rather send you there than sell you something you can get for nothing.
+Hacked websites, lost admin access and mailboxes you cannot get back into are the IT rescue work I do, with a response the same day or within 24 hours. For the rest, start with the free services above: I would rather send you there than sell you something you can get for nothing.

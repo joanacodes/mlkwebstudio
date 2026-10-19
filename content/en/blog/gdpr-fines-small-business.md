@@ -27,7 +27,7 @@ faq:
 
 The figure everyone quotes is €20 million or 4% of worldwide annual turnover. It is the GDPR's maximum fine, and it tells a team of six almost nothing about what it actually risks.
 
-GDPR fines for small-team businesses are set on the size, the finances and the behaviour of the business. In France, simple cases go through a procedure in which the fine cannot exceed €20,000. In the published cases below, two doctors in private practice paid €3,000 and €6,000, a translation company with nine employees €20,000 and a UK pharmacy £92,000 after appeal.
+GDPR fines for small-team businesses depend on the size, the finances and the behaviour of the business. In France, simple cases go through a procedure in which the fine cannot exceed €20,000. In the published cases below, two doctors in private practice were fined €3,000 and €6,000, a translation company with nine employees €20,000 and a UK pharmacy £92,000 after appeal.
 
 This guide covers the EU GDPR, the UK GDPR and the UK's marketing rules (PECR), for businesses in the EU and for those outside it with customers or users there. For the wider picture, start with my {{< a key="gdpr-guide" >}}GDPR guide for small-team businesses{{< /a >}}.
 
@@ -63,9 +63,9 @@ Under Article 58(2), a regulator can also issue a warning or a reprimand, order 
 
 ### France: the CNIL's simplified procedure
 
-Since the law of 24 January 2022, the CNIL can deal with simple cases through a [simplified sanction procedure](https://www.cnil.fr/fr/procedure-de-sanction-simplifiee-la-cnil-presente-son-premier-bilan-2022) (page in French). The chair of its sanctions committee, or a member they appoint, decides alone, without a public hearing unless the organisation asks for one. The possible measures are a reprimand, a fine of up to €20,000 and an order to comply with a penalty of up to €100 per day of delay. In the CNIL's first review, covering 2022, the fines ranged from €5,000 to €15,000, and half of them came with a penalty-backed order.
+Since the law of 24 January 2022, the CNIL can deal with simple cases through a [simplified sanction procedure](https://www.cnil.fr/fr/procedure-de-sanction-simplifiee-la-cnil-presente-son-premier-bilan-2022) (page in French). The chair of its sanctions committee, or a member they appoint, decides alone, without a public hearing. The possible measures are a reprimand, a fine of up to €20,000 and an order to comply with a penalty of up to €100 per day of delay.
 
-This is now the CNIL's main route. In 2025 it issued 83 sanctions: 67 under the simplified procedure and 16 under the ordinary one, according to its [2025 enforcement review](https://www.cnil.fr/fr/bilan-sanctions-2025) (in French). The year's total, €486.8 million, came almost entirely from two cookie decisions against Google (€325 million) and Shein (€150 million). The main themes of the year were cookies, employee monitoring and data security.
+This is now the CNIL's main route. In 2025 it issued 83 sanctions: 67 under the simplified procedure, so capped at €20,000 each, and 16 under the ordinary one, according to its [2025 enforcement review](https://www.cnil.fr/fr/bilan-sanctions-2025) (in French). The year's total, €486.8 million, came almost entirely from two cookie decisions against Google (€325 million) and Shein (€150 million). The main themes of the year were cookies, employee monitoring and data security.
 
 ### United Kingdom: the ICO and PECR
 
@@ -77,13 +77,13 @@ UK GDPR cases can also end with a reprimand or an enforcement notice rather than
 
 | Who | Where and when | What went wrong | Outcome |
 |---|---|---|---|
-| UNIONTRAD COMPANY, translation company, nine employees | France, 2019 | Camera filming staff at their desks all day, no passwords, formal notice ignored | €20,000 fine and an order with a €200 daily penalty |
+| UNIONTRAD COMPANY, translation company, nine employees | France, 2019 | Camera filming staff at their desks all day, computers without passwords, formal notice not complied with | €20,000 fine and an order with a €200 daily penalty |
 | Two doctors in private practice | France, 2020 | Thousands of medical images open on the internet, breach not notified | €3,000 and €6,000 |
 | Doorstep Dispensaree, pharmacy | UK, 2019 to 2024 | Sensitive documents stored insecurely within public reach | £275,000, cut to £92,000 on appeal |
 
-**UNIONTRAD COMPANY.** A camera filmed the translators at their desks all day, the computers had no passwords and staff shared one password for a common mailbox. Employees complained; the CNIL sent a formal notice in July 2018, which the company ignored. The fine (deliberation SAN-2019-006 of 13 June 2019) took its nine employees and its 2017 loss into account.
+**UNIONTRAD COMPANY.** A camera filmed the translators at their desks all day, the computers had no passwords and staff shared one password for a common mailbox. Employees complained; the CNIL sent a formal notice in July 2018, which the company did not comply with. The amount (deliberation SAN-2019-006 of 13 June 2019) took into account the company's size, nine employees, and its loss in 2017.
 
-**Two doctors in private practice.** During an online check in September 2019, the CNIL found thousands of MRI, CT and X-ray images on the two doctors' servers open on the internet, not always encrypted, with patients' names and dates of birth. One had opened the ports of their home internet box to view images remotely. The CNIL also found a failure to notify the breach (decisions SAN-2020-014 and SAN-2020-015 of 7 December 2020) and did not publish their names.
+**Two doctors in private practice.** During an online check in September 2019, the CNIL found thousands of MRI, CT and X-ray images on the two doctors' servers open on the internet, not always encrypted, with patients' names and dates of birth. One had opened ports on their internet router to view images remotely. The CNIL also found a failure to notify the breach (decisions SAN-2020-014 and SAN-2020-015 of 7 December 2020) and did not publish their names.
 
 **Doorstep Dispensaree.** The medicines regulator, the MHRA, alerted the ICO after finding the pharmacy's sensitive documents in containers that were not locked, where the public could reach them. The ICO's notice of intent proposed £400,000, reduced to £275,000 in the penalty of 17 December 2019 after representations about the pharmacy's finances. In August 2021 the First-tier Tribunal cut it to £92,000 because less personal data was involved than assumed; the Court of Appeal dismissed the last appeal on 9 December 2024.
 
@@ -91,13 +91,13 @@ None of these fines was about the wording of a privacy policy. They were about a
 
 ## What puts a small team on a regulator's radar
 
-Cases start from one of these points.
+Cases usually start in one of these five ways.
 
-**A complaint.** The CNIL received more than 20,000 complaints in 2025, according to its annual report. A complaint can come from a customer whose access request went unanswered, from someone who still gets your marketing after saying stop, or from an employee who feels watched, as in the UNIONTRAD case. Access requests have a one-month deadline: here is how to {{< a key="gdpr-subject-access-request" >}}answer a subject access request{{< /a >}}.
+**A complaint.** Complaints to the CNIL rose sharply in 2025, according to its annual report. A complaint can come from a customer whose access request went unanswered, from someone who still gets your marketing after saying stop, or from an employee who feels watched, as in the UNIONTRAD case. Access requests have a one-month deadline: here is how to {{< a key="gdpr-subject-access-request" >}}answer a subject access request{{< /a >}}.
 
 **A data breach.** A breach that puts people at risk must be reported to the regulator within 72 hours (Article 33), and failing to report is an infringement of its own, as the two doctors found. Two of my clients called me after their website was hacked; at that point the GDPR question is what personal data the attacker could reach. See {{< a key="gdpr-data-breach" >}}what to do in the first 72 hours{{< /a >}}.
 
-**Marketing.** One objection I hear about cold emailing is that it is illegal: in B2B it is not, in France or in the UK, as long as you follow each country's rules, which my {{< a key="cold-email-gdpr-uk-france" >}}cold email compliance checklist{{< /a >}} sets out.
+**Marketing.** One objection I hear about cold emailing is that it is illegal: in B2B it is not, in France or in the UK, as long as you follow each country's rules, which my {{< a key="cold-email-gdpr-uk-france" >}}cold email compliance checklist{{< /a >}} sets out. The PECR fines above, by contrast, were for calls to numbers registered on opt-out lists.
 
 **The regulator's own checks.** The CNIL found the doctors' images itself. Cookies are the easiest thing to check from outside, since anyone can open your site and see what loads before consent: see {{< a key="cookie-banner-rules" >}}what cookie banners must do{{< /a >}}.
 
@@ -123,4 +123,4 @@ You do not need a consultant for most of this list:
 8. In the UK, make complaints easy: since 19 June 2026, organisations must help people complain, acknowledge complaints within 30 days and investigate them.
 9. If a regulator writes to you, answer within the deadline and do what the letter asks: cooperation and compliance with earlier orders count when a fine is set.
 
-This article explains the rules and published decisions; it is not legal advice. Bring in a data protection lawyer as soon as a regulator opens a procedure (a formal notice, a notice of intent, an inspection), when a breach involves health data or many people, or when a dispute with an employee turns on monitoring. A DPO is compulsory when your core activity involves large-scale monitoring of people or large-scale processing of sensitive data (Article 37).
+This article explains the rules and published decisions; it is not legal advice. Bring in a data protection lawyer as soon as a regulator opens a procedure (a formal notice, a notice of intent, an inspection), when a breach involves health data or many people, or when a dispute with an employee turns on monitoring. A DPO is compulsory when your core activities involve regular and systematic monitoring of people on a large scale, or large-scale processing of sensitive data (Article 37).

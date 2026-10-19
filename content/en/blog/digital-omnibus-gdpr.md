@@ -46,8 +46,6 @@ The Commission's text is proposal [COM(2025) 837](https://eur-lex.europa.eu/lega
 
 The Council's vote was postponed after France and Germany asked for stronger protection of trade secrets in the Data Act part of the package. In the Parliament, the rapporteurs, Aura Salla (EPP, Finland) and Marina Kaljurand (S&D, Estonia), have no committee vote date yet. In their joint opinion, the European Data Protection Board (EDPB) and the European Data Protection Supervisor (EDPS) back some changes and oppose others; I note their position where it matters below.
 
-{{< callout type="tip" >}}**How to read the headlines.** A Commission proposal, a Council or Parliament position and a provisional agreement are stages, not law. A change applies only once the final text is published in the Official Journal of the EU and its application date arrives.{{< /callout >}}
-
 ## Personal data: a narrower, business-by-business test
 
 [Article 4(1) of the GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) defines personal data as any information relating to an identified or identifiable person. In the SRB case (C-413/23 P, judgment of 4 September 2025), the Court of Justice of the EU held that pseudonymised data are not necessarily personal data for every recipient: it depends on whether that recipient has means reasonably likely to be used to identify the person.
@@ -94,7 +92,7 @@ Four other changes would affect small teams less directly.
 
 The GDPR follows your customers, not your address. Under Article 3(2), it applies to a business outside the EU that offers goods or services to people in the EU, or monitors their behaviour there. So the Omnibus changes, if adopted, would apply to a Swiss online shop delivering to France, a US app with users in Germany or a Moroccan training company selling online courses to Belgian customers, for those customers. My article on {{< a key="gdpr-outside-eu" >}}whether GDPR applies outside the EU{{< /a >}} explains the two tests.
 
-UK businesses have two rule books. For people in the UK, the UK GDPR applies, and the Data (Use and Access) Act 2025 has already amended it: most of its data protection changes have been in force since 5 February 2026, including a cookie exception for analytics used only for statistics, provided visitors are told and can object easily. For people in the EU, the EU GDPR applies as it stands today. A UK shop with French customers could end up with different cookie rules for each audience. I cover the UK side in {{< a key="uk-gdpr-data-use-access-act" >}}UK GDPR after the Data (Use and Access) Act{{< /a >}}.
+UK businesses have two rule books. For people in the UK, the UK GDPR and the UK cookie rules (PECR) apply, and the Data (Use and Access) Act 2025 has already amended both: most of its changes have been in force since 5 February 2026, including a cookie exception for analytics used only for statistics, provided visitors are told and can object easily. For people in the EU, the EU rules apply as they stand today. A UK shop with French customers could end up with different cookie rules for each audience. I cover the UK side in {{< a key="uk-gdpr-data-use-access-act" >}}UK GDPR after the Data (Use and Access) Act{{< /a >}}.
 
 ## What to do now, and when to get help
 

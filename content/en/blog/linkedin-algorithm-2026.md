@@ -105,7 +105,7 @@ The March rebuild rewards posts that the system can understand and that people a
 
 ## Is LinkedIn worth your time in 2026?
 
-If you sell to other businesses, yes, as long as you treat it as a long game. LinkedIn is where your buyers are in work mode, and a clear profile with useful posts makes you easier to trust when they look you up.
+If you sell to other businesses, yes, as long as you treat it as a long game. LinkedIn is where your buyers are in work mode, and a clear profile with useful posts makes you easier to trust when they look you up. If you are thinking of a LinkedIn newsletter, my comparison of {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}LinkedIn newsletters, email newsletters and Substack{{< /a >}} shows who keeps the subscribers on each.
 
 But do not add LinkedIn on top of five other channels. It is easy to fall for every new tool and platform; what works is to focus on the channels you already run and master one before adding the next, as I explain in {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}. If your customers are households rather than companies, LinkedIn is probably not that channel.
 
@@ -119,7 +119,7 @@ And do not chase followers for credibility. "I have 10k followers" impresses les
 2. **Rewrite your headline**: what you do, for whom and where. "Air conditioning for restaurants and offices in Leeds" says more than "Founder and CEO". Then make your company page say the same.
 3. **List ten questions** clients ask you on the phone, and turn four of them into posts, one a week.
 4. **Clean up your habits**: remove the bait from any post templates you reuse, leave any engagement pod or automation tool, and reply to every comment within a day.
-5. **Add your website** to your profile and your page with a tracking link, so LinkedIn visits show up in your analytics:
+5. **Add your website** to your profile and your page with {{< a key="utm-ga4-funnel-tracking" >}}a tracking link{{< /a >}}, so LinkedIn visits show up in your analytics:
 
 ```text
 https://www.yourbusiness.co.uk/?utm_source=linkedin&utm_medium=social&utm_campaign=profile
