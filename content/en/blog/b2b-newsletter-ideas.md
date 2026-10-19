@@ -27,37 +27,35 @@ faq:
     a: "There is no minimum. Start with the clients and contacts who agreed to hear from you: a few dozen people who know your work are a better first audience than thousands of strangers, and their replies tell you what to write next."
 ---
 
-A good B2B newsletter brings one useful thing per issue, taken from your clients' questions, your projects and what changes in your field. The first issue is easy to write. The eighth, written in a busy month, is the real test.
+A good B2B newsletter brings one useful thing per issue, taken from your clients' questions, your projects and what changes in your field. The first issue is easy; the eighth, in a busy month, is the real test.
 
-**A B2B newsletter is a regular email to clients, prospects and business contacts that keeps you in mind until they need what you sell, by being useful rather than by selling.** The B2B newsletter ideas below are written for service businesses, with the formats that carry them, how often to send, how long to write and how to tell whether it works.
+**A B2B newsletter is a regular email to clients, prospects and business contacts that keeps you in mind until they need what you sell, by being useful rather than by selling.** Below: the formats, how often to send, how long to write, 20 B2B newsletter ideas for service businesses and how to tell whether it works.
 
-Where you publish is a separate choice, covered in my comparison of {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}LinkedIn newsletters, email newsletters and Substack{{< /a >}}; the ideas work on all three. This article is part of my {{< a key="funnels-newsletters-guide" >}}complete guide to sales funnels and newsletters{{< /a >}}.
+Where you publish is a separate choice, covered in my comparison of {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}LinkedIn newsletters, email and Substack{{< /a >}}; the ideas work on all three. This article is part of my {{< a key="funnels-newsletters-guide" >}}complete guide to sales funnels and newsletters{{< /a >}}.
 
 ## The formats that work in a B2B newsletter
 
-A format is the shape of an issue. Choose two or three as your defaults and rotate the others, so readers know what to expect without receiving the same email every month.
+A format is the shape of an issue. Choose two or three as defaults and rotate the others, so readers know what to expect without getting the same email every month.
 
 | Format | What it looks like | Effort |
 |---|---|---|
-| One lesson | One idea, one example, 200 to 400 words | Medium |
-| A client question answered | A question from a call or an email, answered in full | Low |
+| One lesson | One idea, one example | Medium |
+| A client question answered | A question from a call, answered in full | Low |
 | A case study | The brief, what you did, the result | Medium |
-| Behind the scenes | How a project or a week really runs | Low |
-| A tool review | Who the tool suits, who it does not, what it costs | Medium |
-| A regulation update | What changes, for whom, from when, what to do | Medium (check the source) |
-| A template | A checklist, a brief or a spreadsheet to copy | High once, then reusable |
-| Curated links | Three to five links, one line each on why they matter | Low |
-| Monthly numbers | A few figures from your work and what they mean | Low once you track them |
+| Behind the scenes | How a project really runs | Low |
+| A tool review | Who it suits, who it does not, the cost | Medium |
+| A regulation update | What changes, for whom, from when | Medium |
+| A template | A checklist or a brief to copy | High once |
+| Curated links | Three to five links, one line each | Low |
+| Monthly numbers | A few figures from your work, explained | Low |
 
-Most issues work best as one main item in one of these formats, plus two or three short ones. Here is a skeleton to copy into your newsletter tool:
+Most issues work best as one main item in one of these formats, plus two or three short ones:
 
 ```
-Subject: [what the reader gets, in a few words]
-Preview text: [the line that completes the subject]
+Subject: [what the reader gets]
+Preview text: [the line that completes it]
 
 Hello [first name],
-
-[One sentence on why this matters this month.]
 
 [Main item: one idea, one example, 200 to 400 words.]
 
@@ -67,8 +65,7 @@ Also this month:
 
 [One call to action: a question to reply to, or a booking link.]
 
-[Your name], [your role]
-[Your phone number]
+[Your name], [your role], [your phone number]
 ```
 
 Your newsletter tool adds the footer with the unsubscribe link.

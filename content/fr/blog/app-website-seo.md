@@ -1,5 +1,5 @@
 ---
-title: "SEO du site de votre app : landing page, liens profonds et bannière intelligente"
+title: "SEO du site de votre application : landing page, liens profonds et bannière intelligente"
 seo_title: "Landing page application mobile : SEO et liens profonds"
 description: "Landing page d’application mobile : les pages à créer, le balisage SoftwareApplication, les liens profonds iOS et Android et la Smart App Banner d’Apple."
 slug: "landing-page-application-mobile"
@@ -16,11 +16,11 @@ related: ["aso-guide", "landing-page-vs-website", "schema-markup-small-business"
 services: ["seo"]
 faq:
   - q: "Puis-je reprendre la note App Store de mon app dans les données structurées de mon site ?"
-    a: "Je ne le ferais pas. Ces notes ont été recueillies par Apple et Google, pas sur votre site, et les consignes de Google sur les avis demandent depuis longtemps des notes collectées directement auprès de vos utilisateurs et visibles sur la page. Laissez la note de côté : le reste du balisage reste valide, même si la page ne peut alors pas afficher d’étoiles."
+    a: "Je ne le ferais pas. Ces notes ont été recueillies par Apple et Google, pas sur votre site, et les consignes de Google sur les extraits d’avis demandent de ne pas agréger les avis ou les notes d’autres sites, et de ne baliser que des notes visibles sur la page. Laissez la note de côté : le reste du balisage reste valide, même si la page ne peut alors pas afficher d’étoiles."
   - q: "Combien de temps faut-il à Apple pour prendre en compte une modification du fichier apple-app-site-association ?"
     a: "Selon la documentation d’Apple, son réseau de diffusion de contenu récupère le fichier dans les 24 heures, et les appareils vérifient les mises à jour environ une fois par semaine après l’installation de l’app. Testez vos changements sur une installation neuve plutôt que d’attendre un effet immédiat."
   - q: "Faut-il un fichier d’association pour exemple.fr et pour www.exemple.fr ?"
-    a: "Oui. Apple demande une entrée par sous-domaine dans la capacité Associated Domains de l’app et un fichier servi sur chacun, et Android va chercher assetlinks.json sur chaque hôte déclaré dans le manifeste de l’app. Choisissez la version du domaine qu’utilisent vos liens, et couvrez aussi l’autre."
+    a: "Oui. Apple demande une entrée par sous-domaine dans la capacité Associated Domains de l’app et un fichier servi sur chacun, et Android va chercher assetlinks.json sur chaque hôte déclaré dans le manifeste de l’app. Dans tous vos liens, utilisez la version du domaine qui ne redirige pas, et ne déclarez l’autre que si elle sert elle-même les fichiers."
   - q: "Comment envoyer vers l’app les visiteurs qui sont sur ordinateur ?"
     a: "Affichez les badges des stores et un QR code à scanner avec leur téléphone. Les outils marketing de l’App Store génèrent un badge, un lien court ou un QR code vers la page de votre app."
 ---
@@ -31,11 +31,11 @@ Ce guide couvre la page, ses mots-clés, ses données structurées, les liens pr
 
 ## Pourquoi une application a besoin d’un site en plus de sa fiche
 
-Dans les stores, on tape deux ou trois mots et on choisit dans une grille d’icônes ; mon {{< a key="aso-guide" >}}guide de l’ASO{{< /a >}} explique ce classement. Sur Google, les mêmes personnes tapent « partager les dépenses en colocation » ou une question sur une fonction. Seul un site peut se classer sur ces recherches, et trois autres raisons plaident pour lui :
+Dans les stores, on tape deux ou trois mots et on choisit dans une liste d’icônes et de captures ; mon {{< a key="aso-guide" >}}guide de l’ASO{{< /a >}} explique ce classement. Sur Google, les mêmes personnes tapent « partager les dépenses en colocation » ou une question sur une fonction. Seul un site peut se classer sur ces recherches, et trois autres raisons plaident pour lui :
 
-- **Les assistants IA lisent le web.** ChatGPT, Perplexity, Gemini et les AI Overviews de Google répondent souvent à partir de pages trouvées par la recherche ; une page qui dit ce que fait votre app, et pour qui, leur donne de quoi vous citer.
+- **Les assistants IA lisent le web.** ChatGPT, Perplexity, Gemini et les Aperçus IA de Google répondent souvent à partir de pages trouvées par la recherche ; une page qui dit ce que fait votre app, et pour qui, leur donne de quoi vous citer.
 - **La confiance.** Avant de confier leurs données ou leur carte bancaire à une app, beaucoup cherchent qui est derrière : une vraie adresse, une page d’assistance, une politique de confidentialité.
-- **Les stores le demandent.** App Store Connect exige une URL d’assistance (Support URL) menant à de vraies coordonnées et, pour les apps iOS, une URL de politique de confidentialité. La Play Console a son propre champ pour la politique de confidentialité, et une app qui permet de créer un compte doit fournir un lien web pour en demander la suppression, déclaré dans le formulaire Sécurité des données.
+- **Les stores le demandent.** App Store Connect exige une URL d’assistance (Support URL) menant à de vraies coordonnées et, pour les apps iOS, une URL de politique de confidentialité. Google Play exige de chaque app, même si elle ne collecte aucune donnée personnelle, un lien vers sa politique de confidentialité dans la Play Console (une page web publique, pas un PDF), et une app qui permet de créer un compte doit aussi fournir un lien web pour en demander la suppression, déclaré dans le formulaire Sécurité des données.
 
 ## Que mettre sur la landing page de votre application
 
@@ -53,7 +53,7 @@ Quand je conçois un site, je veux que les visiteurs prennent l’entreprise au 
 
 ### Les règles des badges
 
-Les [consignes marketing de l’App Store](https://developer.apple.com/app-store/marketing/guidelines/) demandent d’utiliser uniquement les visuels d’Apple, sans les modifier, les incliner ni les animer ; de prendre le badge localisé (50 langues, dont « Télécharger dans l’App Store » ; « App Store » reste en anglais) ; de laisser autour un espace libre égal au quart de sa hauteur, avec 40 px de haut au minimum à l’écran ; de placer le badge App Store en premier, en noir, s’il est accompagné d’autres badges ; et de citer Apple et son logo dans les mentions de marques de vos informations légales.
+Les [consignes marketing de l’App Store](https://developer.apple.com/app-store/marketing/guidelines/) demandent d’utiliser uniquement les visuels d’Apple, sans les modifier, les incliner ni les animer ; de prendre le badge localisé (50 versions, dont « Télécharger dans l’App Store » en français ; « App Store » y reste toujours en anglais) ; de laisser autour un espace libre égal au quart de sa hauteur, avec 40 px de haut au minimum à l’écran ; de placer le badge App Store en premier, en noir, s’il est accompagné d’autres badges ; et de citer Apple et son logo dans les mentions de marques de vos informations légales.
 
 Google, lui, veut que son badge soit aussi grand que les autres, ou plus. Mettez donc le badge App Store en premier, donnez aux deux la même hauteur, et prenez chacun dans la langue de la page (« Disponible sur Google Play » en français).
 
@@ -71,7 +71,7 @@ Choisissez une plateforme que vous pouvez mettre à jour vous-même : le site d
 
 ## Données structurées : décrire l’app avec SoftwareApplication
 
-Pour une application, le type schema.org est `SoftwareApplication`, ou le plus précis `MobileApplication`. Google documente un [résultat enrichi pour les applications](https://developers.google.com/search/docs/appearance/structured-data/software-app?hl=fr) qui peut afficher une note et le prix. Il exige `name`, `offers.price` (0 pour une app gratuite) et soit `aggregateRating`, soit `review` ; `applicationCategory` est recommandée, et j’ajoute `operatingSystem`.
+Pour une application, le type schema.org est `SoftwareApplication`, ou le plus précis `MobileApplication`. Google documente un [résultat enrichi pour les applications](https://developers.google.com/search/docs/appearance/structured-data/software-app?hl=fr) qui peut afficher une note et le prix. Il exige `name`, `offers.price` (0 pour une app gratuite) et soit `aggregateRating`, soit `review` ; `applicationCategory` est recommandée (prenez la valeur dans la liste de la page de Google), et `operatingSystem` indique les plateformes de l’app.
 
 ```html
 <script type="application/ld+json">
@@ -90,7 +90,7 @@ Pour une application, le type schema.org est `SoftwareApplication`, ou le plus p
 </script>
 ```
 
-L’exemple n’a volontairement pas de note : n’ajoutez `aggregateRating` que si la note est authentique et visible sur la page, comme le demandent les consignes de Google. Sans note ni avis, pas de résultat enrichi, mais le balisage reste valide. Ne comptez pas non plus dessus pour être cité par les assistants IA ; mon guide sur les {{< a key="schema-markup-small-business" >}}données structurées{{< /a >}} explique pourquoi.
+L’exemple n’a volontairement pas de note : n’ajoutez `aggregateRating` que si la note est authentique et visible sur la page, comme le demandent les consignes de Google. Sans note ni avis, pas de résultat enrichi (le test des résultats enrichis de Google vous le signalera), mais le balisage reste valide au sens de schema.org : vérifiez-le plutôt avec le Schema Markup Validator. Ne comptez pas non plus dessus pour être cité par les assistants IA ; mon guide sur les {{< a key="schema-markup-small-business" >}}données structurées{{< /a >}} explique pourquoi.
 
 ## Liens profonds : liens universels et Android App Links
 
@@ -133,17 +133,17 @@ Servez ce fichier à l’adresse `https://exemple.fr/.well-known/assetlinks.json
 }]
 ```
 
-Le filtre d’intent de l’app doit porter `android:autoVerify="true"`, et la [documentation Android sur les App Links](https://developer.android.com/training/app-links/configure-assetlinks?hl=fr) demande le type de contenu `application/json`, le HTTPS et aucune redirection 301 ou 302. Le piège habituel est l’empreinte : si Google Play signe votre app (signature d’application Play), celle de votre propre clé ne correspondra généralement pas ; copiez l’extrait fourni sur la page de signature de l’app dans la Play Console. Depuis Android 12, un lien qui échoue à la vérification s’ouvre dans le navigateur : aucune erreur ne s’affiche, l’app ne s’ouvre simplement jamais.
+Le filtre d’intent de l’app doit porter `android:autoVerify="true"`, et la [documentation Android sur les App Links](https://developer.android.com/training/app-links/configure-assetlinks?hl=fr) demande le type de contenu `application/json`, le HTTPS et aucune redirection 301 ou 302. Le piège habituel est l’empreinte : si Google Play signe votre app (signature d’application Play), celle de votre propre clé ne correspondra généralement pas ; copiez l’extrait fourni sur la page de signature de l’app dans la Play Console. Depuis Android 12, un lien qui échoue à la vérification s’ouvre dans le navigateur : aucune erreur ne s’affiche, l’app ne s’ouvre tout simplement pas.
 
 ### Vérifier que votre plateforme peut servir ces fichiers
 
-Les deux fichiers doivent répondre à ces adresses exactes, sur votre domaine, sans redirection. Certains créateurs de sites documentent comment les publier (Framer, par exemple) ; pour d’autres, des fils de forum montrent des utilisateurs réduits aux redirections, qu’Apple et Android refusent. Demandez avant de vous engager. À défaut, servez les liens profonds depuis un sous-domaine comme `go.exemple.fr`, chez un hébergeur où vous contrôlez les fichiers.
+Les deux fichiers doivent répondre à ces adresses exactes, sur votre domaine, sans redirection. Certains créateurs de sites documentent comment les publier (Framer, par exemple) ; pour d’autres, des fils de forum montrent des utilisateurs réduits aux redirections, qu’Apple et Android refusent. Posez la question au support de votre outil avant de vous engager. À défaut, servez les liens profonds depuis un sous-domaine comme `go.exemple.fr`, chez un hébergeur où vous contrôlez les fichiers.
 
 Apple prévient par ailleurs que ces liens sont une porte d’entrée : l’app doit valider chaque paramètre et ne jamais laisser un lien supprimer des données ou afficher des informations sensibles à lui seul. Ma {{< a key="mobile-app-security-checklist" >}}checklist de sécurité d’une application mobile{{< /a >}} couvre le reste.
 
 ### Les liens différés après Firebase Dynamic Links
 
-Ouvrir le bon écran juste après l’installation s’appelle le deep linking différé. D’anciens tutoriels recommandent pour cela Firebase Dynamic Links, que Google a fermé le 25 août 2025 : tous ses liens ont cessé de fonctionner. Les App Links et les liens universels, vers lesquels Google renvoie, ne couvrent pas cette partie, qui passe désormais par des services tiers de deep linking et d’attribution. Remplacez les anciennes adresses en page.link dans vos e-mails, QR codes et imprimés.
+Ouvrir le bon écran juste après l’installation s’appelle le deep linking différé. D’anciens tutoriels recommandent pour cela Firebase Dynamic Links, que Google a fermé le 25 août 2025 : tous ses liens ont cessé de fonctionner. Les App Links et les liens universels, vers lesquels Google renvoie, ne couvrent pas cette partie, qui passe désormais par des services tiers de deep linking et d’attribution. Remplacez les anciennes adresses en page.link, et celles du domaine personnalisé que vous aviez configuré pour le service, dans vos e-mails, QR codes et imprimés.
 
 ## La bannière intelligente : inviter sans masquer la page
 
@@ -155,14 +155,14 @@ La Smart App Banner d’Apple est une fine barre que Safari affiche en haut de l
 
 `app-id` (obligatoire) est le numéro affiché comme **Apple ID** dans les informations de l’app sur App Store Connect ; `app-argument` (facultatif) est une URL transmise à l’app pour ouvrir l’écran correspondant. Une fois fermée, la bannière ne revient pas, et elle ne s’affiche ni sur les appareils incompatibles ni là où l’app n’est pas disponible. Sur Squarespace, la balise va dans le champ d’en-tête de l’injection de code.
 
-Ne remplacez pas cette bannière par une fenêtre « Téléchargez notre app » en plein écran. Apple oppose sa bannière à un plein écran qui interrompt la lecture, et Google Search Central, dans ses consignes sur les interstitiels intrusifs, préfère une bannière qui n’occupe qu’une petite partie de l’écran, pour que visiteurs et moteurs de recherche accèdent tout de suite au contenu. Sur Android, une bannière légère faite maison respecte ces consignes : une ligne de texte, le badge Google Play et un bouton de fermeture, affichés seulement sur Android et masqués une fois fermés.
+Ne remplacez pas cette bannière par une fenêtre « Téléchargez notre app » en plein écran. Apple oppose sa bannière à un plein écran qui interrompt la lecture, et Google Search Central, dans ses consignes sur les interstitiels intrusifs, préfère une bannière qui n’occupe qu’une petite partie de l’écran, pour que visiteurs et moteurs de recherche accèdent tout de suite au contenu. Sur Android, une bannière légère faite maison respecte ces consignes : une ligne de texte, le badge Google Play et un bouton de fermeture ; affichez-la seulement sur Android, et plus du tout une fois fermée.
 
 ## Avant le lancement : la checklist du site de votre app
 
 1. Landing page en ligne : problème dans le titre, vraies captures, deux badges (App Store en premier, même hauteur), FAQ.
 2. Pages de confidentialité et d’assistance publiées et liées à vos fiches, plus le lien de suppression de compte si besoin.
 3. Une page par usage, avec titre et meta description ; site déclaré dans la Search Console.
-4. Balisage SoftwareApplication sans note qui ne figure pas sur la page, vérifié avec le test des résultats enrichis.
+4. Balisage SoftwareApplication sans note qui ne figure pas sur la page, vérifié avec le Schema Markup Validator.
 5. Fichiers d’association servis en HTTPS à leurs adresses `.well-known`, sans redirection (ouvrez-les dans un navigateur : vous devez voir le fichier) ; liens testés sur une installation neuve.
 6. Balise de la Smart App Banner là où elle sert ; bannière légère et refermable pour Android.
 7. Anciens liens Firebase Dynamic Links remplacés partout.
