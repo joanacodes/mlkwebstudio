@@ -9,7 +9,7 @@ lastmod: 2026-10-18T23:45:00+02:00
 category: "mobile-apps"
 article_type: "pillar"
 keywords: ["lancer une application mobile", "lancement application mobile", "publier une application sur l’App Store", "publier une application sur Google Play", "checklist lancement application", "marketing application mobile"]
-summary: "Pour lancer une application mobile, préparez le terrain avant les stores : comptes développeur, déclarations de confidentialité, contrôle de sécurité et petit site web. Rédigez ensuite une fiche qui reprend les mots tapés dans les stores, payez des installations seulement quand elle convertit, puis suivez avis, plantages et rétention. Apple facture 99 dollars US par an, Google Play 25 dollars une fois, et un nouveau compte Play personnel passe d’abord 14 jours de test fermé avec 12 testeurs."
+summary: "Pour lancer une application mobile, préparez le terrain en amont : comptes développeur, déclarations de confidentialité, contrôle de sécurité et petit site web. Rédigez ensuite une fiche avec les mots tapés dans les stores, n’achetez des installations que si elle convertit, puis suivez avis, plantages et rétention. Apple facture 99 dollars US par an, Google Play 25 dollars une fois, et un nouveau compte Play personnel passe d’abord 14 jours de test fermé avec 12 testeurs."
 cover: "mobile-app-launch-guide"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un smartphone affichant la page d’une application et ses étoiles, à côté d’une liste de résultats d’un store"
 related: ["aso-guide", "mobile-app-security-checklist", "app-privacy-labels", "app-ads-budget-comparison", "app-website-seo"]
