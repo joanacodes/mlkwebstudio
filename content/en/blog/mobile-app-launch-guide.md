@@ -77,9 +77,9 @@ Two jobs get mixed up here. The stores want a description of the data your app c
 - **Account deletion**: if people can create an account, Apple has required since 30 June 2022 that they can start deleting it inside the app, and Google Play asks for an in-app option plus a web link.
 - **Tracking on iOS**: since iOS 14.5 (26 April 2021), App Tracking Transparency means you show Apple's prompt and get permission before tracking people across other companies' apps and websites or reading the advertising identifier.
 
-{{< a key="app-privacy-labels" >}}My tutorial on privacy labels, the Data safety section and GDPR consent{{< /a >}} walks through both store forms and the consent screen, field by field.
+{{< a key="app-privacy-labels" >}}My tutorial on privacy labels, the Data safety section and GDPR consent{{< /a >}} walks through both store forms and the consent your SDKs need.
 
-Consent is where the EU and the UK now differ. In the EU, analytics and advertising SDKs that read or store data on the phone generally need consent before they run, and the CNIL's recommendations on mobile apps (September 2024) add that an operating-system permission should not be confused with GDPR consent. In the UK, since 5 February 2026, analytics used only for statistics can run without consent as long as you inform users and let them object; advertising SDKs still need consent. For the rest of the subject, from privacy notices to processors, see {{< a key="gdpr-guide" >}}my GDPR guide for small teams, inside and outside the EU{{< /a >}}.
+Consent is where the EU and the UK now differ. In the EU, analytics and advertising SDKs that read or store data on the phone generally need consent before they run, and the CNIL's recommendations on mobile apps (September 2024) add that an operating-system permission should not be confused with GDPR consent. In the UK, since 5 February 2026, analytics used only for statistics can run without consent as long as you inform users and let them object; advertising SDKs still need consent. For the rest of the subject, see {{< a key="gdpr-guide" >}}my GDPR guide for small teams, inside and outside the EU{{< /a >}}.
 
 This guide explains the rules and the official guidance; it is not legal advice. If your app handles health or financial data, or data about children, paying a lawyer or a DPO to review it before launch is money well spent.
 
@@ -94,7 +94,7 @@ Store review checks the app you submit, not the server behind it, so an app can 
 
 The Cyber Resilience Act (Regulation (EU) 2024/2847, [full text on EUR-Lex](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32024R2847)) makes security a legal duty as well as a practical one. As of 19 October 2026, its reporting duties have applied since 11 September 2026: if a vulnerability in your app is actively exploited, or a severe incident hits it, you send an early warning within 24 hours through ENISA's Single Reporting Platform (Article 14). Most other requirements, including security updates for the app's support period and the CE marking, apply from 11 December 2027. Micro and small enterprises cannot be fined for missing the 24-hour early warning (Article 64(10)), but the 72-hour notification and the final report still apply to them.
 
-In the UK, the government's voluntary code of practice for app store operators and app developers already asks for something similar: a vulnerability disclosure process that people can reach from your store listing. For the security of the rest of your business, from email accounts to backups, see {{< a key="cybersecurity-guide" >}}my cybersecurity guide for small teams{{< /a >}}.
+In the UK, the government's voluntary code of practice for app store operators and app developers already asks for something similar: a vulnerability disclosure process that people can reach from your store listing. For the security of the rest of your business, see {{< a key="cybersecurity-guide" >}}my cybersecurity guide for small teams{{< /a >}}.
 
 ## Get found: app store optimisation
 
