@@ -70,7 +70,7 @@ A few activities are covered even for a two-person company:
 
 {{< callout type="warning" >}}If you run DNS for your clients' domains, read the definition of a **DNS service provider** in Article 6: it includes authoritative DNS offered to third parties, with no size threshold. Web hosts and agencies that offer it should check where they stand.{{< /callout >}}
 
-If you answered no to question 1, or no to both questions 2 and 3, NIS2 does not apply to your company directly. The Commission's [NIS2 FAQ](https://digital-strategy.ec.europa.eu/en/faqs/directive-measures-high-common-level-cybersecurity-across-union-nis2-directive-faqs) covers the edge cases.
+For the edge cases, see the Commission's [NIS2 FAQ](https://digital-strategy.ec.europa.eu/en/faqs/directive-measures-high-common-level-cybersecurity-across-union-nis2-directive-faqs).
 
 ## What NIS2 requires from the companies in scope
 
