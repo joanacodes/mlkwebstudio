@@ -1,5 +1,5 @@
 ---
-title: "Voice clones and deepfake calls: the new CEO fraud, and how to protect your team"
+title: "AI voice clones and deepfake calls: the new CEO fraud, and how to protect your team"
 seo_title: "Deepfake CEO fraud: how to stop voice-clone payment scams"
 description: "Deepfake CEO fraud uses a cloned voice or a fake video call to rush a payment. Real cases, why spotting fakes fails, and the simple rules that stop it."
 slug: "deepfake-ceo-fraud"
