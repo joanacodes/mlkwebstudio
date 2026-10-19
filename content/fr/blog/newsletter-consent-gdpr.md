@@ -35,7 +35,7 @@ Il s’agit d’une information générale, pas d’un conseil juridique : la d
 
 ## Deux niveaux de règles : le droit de la prospection, puis le RGPD
 
-**La règle sur la prospection par email décide si vous pouvez envoyer.** Dans l’UE, c’est l’[article 13 de la directive ePrivacy](https://eur-lex.europa.eu/eli/dir/2002/58/oj) : les emails de prospection adressés à des particuliers exigent leur consentement préalable, sauf soft opt-in. Chaque pays la transpose ; en France, c’est l’article L34-5 du Code des postes et des communications électroniques (CPCE). Au Royaume-Uni, c’est la regulation 22 du PECR, le texte britannique sur les communications électroniques, modifié par le Data (Use and Access) Act 2025 ({{< a key="uk-gdpr-data-use-access-act" >}}ce que cette loi a changé{{< /a >}}).
+**La règle sur la prospection par email décide si vous pouvez envoyer.** Dans l’UE, c’est l’[article 13 de la directive ePrivacy](https://eur-lex.europa.eu/eli/dir/2002/58/2009-12-19/fra) : les emails de prospection adressés à des particuliers exigent leur consentement préalable, sauf soft opt-in. Chaque pays la transpose ; en France, c’est l’article L34-5 du Code des postes et des communications électroniques (CPCE). Au Royaume-Uni, c’est la regulation 22 du PECR, le texte britannique sur les communications électroniques, modifié par le Data (Use and Access) Act 2025 ({{< a key="uk-gdpr-data-use-access-act" >}}ce que cette loi a changé{{< /a >}}).
 
 **Le RGPD décide de ce qu’est un consentement valable.** La directive ePrivacy renvoie à sa définition, et le RGPD britannique (UK GDPR) joue le même rôle pour le PECR.
 

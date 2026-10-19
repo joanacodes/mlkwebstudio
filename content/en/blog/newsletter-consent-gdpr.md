@@ -35,7 +35,7 @@ It is general information, not legal advice: the last section says when a lawyer
 
 ## Two layers of law: the email rule, then the GDPR
 
-**The email marketing rule decides whether you may send at all.** In the EU, it is [Article 13 of the ePrivacy Directive](https://eur-lex.europa.eu/eli/dir/2002/58/oj): marketing emails to individuals need their prior consent unless the soft opt-in applies. Each country writes it into its own law; in France, that is article L34-5 of the Code des postes et des communications électroniques (CPCE). In the UK, it is [regulation 22 of PECR](https://www.legislation.gov.uk/uksi/2003/2426/regulation/22), the Privacy and Electronic Communications Regulations, amended by the Data (Use and Access) Act 2025 (here is {{< a key="uk-gdpr-data-use-access-act" >}}what that Act changed{{< /a >}}).
+**The email marketing rule decides whether you may send at all.** In the EU, it is [Article 13 of the ePrivacy Directive](https://eur-lex.europa.eu/eli/dir/2002/58/2009-12-19/eng): marketing emails to individuals need their prior consent unless the soft opt-in applies. Each country writes it into its own law; in France, that is article L34-5 of the Code des postes et des communications électroniques (CPCE). In the UK, it is [regulation 22 of PECR](https://www.legislation.gov.uk/uksi/2003/2426/regulation/22), the Privacy and Electronic Communications Regulations, amended by the Data (Use and Access) Act 2025 (here is {{< a key="uk-gdpr-data-use-access-act" >}}what that Act changed{{< /a >}}).
 
 **The GDPR decides what valid consent is.** The ePrivacy Directive points to its definition, and the UK GDPR plays the same role for PECR.
 
