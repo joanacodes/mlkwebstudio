@@ -45,7 +45,7 @@ Mon exemple le plus parlant est le {{< a page="/projects/pilotech-vmi" >}}site d
 | Des conseils génériques que n’importe qui aurait pu écrire | Une question posée avant d’acheter : « peut-on avoir la climatisation sans unité extérieure ? » |
 | Une définition réécrite à partir d’autres sites | Un comparatif des solutions, qui dit à qui chacune convient |
 
-Les actualités intéressent ceux qui vous connaissent déjà, mais elles se positionnent rarement : personne ne les cherche.
+Les actualités intéressent ceux qui vous connaissent déjà, mais elles se positionnent rarement : personne ne les cherche. Pour eux, pensez plutôt à une {{< a key="b2b-newsletter-ideas" >}}newsletter B2B{{< /a >}}.
 
 ## Étape 1 : trouver vos sujets dans les problèmes de vos clients
 
@@ -148,7 +148,7 @@ Un article qui se positionne mais ne mène nulle part apporte des visites, pas d
 
 Depuis la page de service, renvoyez vers les articles qui répondent à ses questions fréquentes, et reliez les articles voisins entre eux et au guide principal de leur sujet.
 
-Beaucoup de prospects préfèrent appeler : dans les campagnes de cold emailing que je mène pour Pilotech, les architectes surtout ont souvent appelé au lieu de répondre, parce qu’un appel se glisse mieux dans une journée chargée. La page de destination doit donc afficher un numéro de téléphone, pas seulement un formulaire. Sur le {{< a page="/projects/pilotech-teknopoint" >}}site Teknopoint{{< /a >}}, le blog répond aux questions que l’on se pose avant d’acheter, comme camoufler sa climatisation, et les pages des gammes donnent l’étape suivante.
+Beaucoup de prospects préfèrent appeler : dans les campagnes de cold emailing que je mène pour Pilotech, les architectes surtout ont souvent appelé au lieu de répondre, parce qu’un appel se glisse mieux dans une journée chargée. La page de destination doit donc afficher un numéro de téléphone, pas seulement un formulaire. Sur le {{< a page="/projects/pilotech-teknopoint" >}}site Teknopoint{{< /a >}}, le blog répond aux questions que l’on se pose avant d’acheter, comme camoufler sa climatisation, et les pages des gammes donnent l’étape suivante. Aux indécis, offrez un {{< a key="lead-magnet-ideas" >}}lead magnet{{< /a >}}.
 
 ## Étape 8 : écrire le titre, la meta description et l’adresse de la page
 

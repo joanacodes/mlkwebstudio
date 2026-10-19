@@ -125,4 +125,4 @@ In the UK, companies assured under the NCSC's Cyber Incident Response scheme han
 
 This article is not legal advice: for a contract clause, a personal data breach or the question of whether NIS2 applies to you, a lawyer or a data protection officer is worth paying for.
 
-Hacked websites, lost admin access and mailboxes you cannot get back into are the IT rescue work I do, with a response the same day or within 24 hours. For the rest, start with the free services above: I would rather send you there than sell you something you can get for nothing.
+Hacked websites and lost access are the IT rescue work I do, with a response the same day or within 24 hours. For the rest, start with the free services above: I would rather send you there than sell you something you can get for nothing.

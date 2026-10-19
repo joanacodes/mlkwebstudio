@@ -106,7 +106,7 @@ Then, in the **Pages** panel:
 2. Drag the pages into the order you want in the menu.
 3. Put pages that should stay out of the menu, such as a thank-you page, in the **Not linked** section. They remain public and can still be indexed.
 4. Set your homepage from that page's settings.
-5. Add the privacy policy as a text link in the footer: version 7.1 has no separate footer menu.
+5. Add the privacy policy as a text link in the footer: version 7.1 has no separate footer menu. Your {{< a key="website-legal-notice" >}}legal notice{{< /a >}}, the page that says who runs the site, can sit there too.
 
 {{< screenshot id="squarespace-tutorial-03" alt="Pages panel with the main navigation, the Not linked section and the + icon to add a page" >}}
 
@@ -122,7 +122,7 @@ Squarespace's editor, Fluid Engine, arrived in July 2022. It works in two layers
 
 Open each page with a heading that says what you do and where, with a contact button near the top. Once one service page works, duplicate it for the next service: the structure stays consistent and you only rewrite the content.
 
-Squarespace is closed: you have no access to the source code. Whatever the blocks cannot do goes through code injection, on the Core plan or above. I usually add some code to the Squarespace sites I build, and clients call me for that part; I keep it to additions that never get in the way of what they edit. My {{< a key="squarespace-code-injection" >}}Squarespace code injection tutorial{{< /a >}} shows how to do it safely.
+Squarespace is closed: you have no access to the source code. Whatever the blocks cannot do goes through code injection, on the Core plan or above. I usually add some code to the Squarespace sites I build, and clients call me for that part; I keep it to additions that never get in the way of what they edit. My {{< a key="squarespace-code-injection" >}}Squarespace code injection tutorial{{< /a >}} shows how to do it safely. If that code sets cookies, plan for a {{< a key="cookie-banner-setup" >}}compliant cookie banner{{< /a >}}.
 
 {{< screenshot id="squarespace-tutorial-04" alt="A page in edit mode with the Add section and Add block buttons visible on the Fluid Engine grid" >}}
 
@@ -148,7 +148,7 @@ For Pilotech, enquiries arrive through two doors: the forms and the phone. Give 
 3. Choose where submissions go: email, a Google Drive spreadsheet that Squarespace creates, or Mailchimp. You can combine several as a backup.
 4. Check the notification address: by default, submissions go to the account email of whoever added the form. Change it if enquiries belong in another inbox.
 5. Write the message visitors see after sending, and tell them when you will reply.
-6. Link your privacy policy next to the form.
+6. Link {{< a key="privacy-policy-guide" >}}your privacy policy{{< /a >}} next to the form.
 
 {{< callout type="warning" >}}Email storage is disabled on trial sites. To test the form before you pay, connect Google Drive storage, then send a new test by email right after you subscribe. Squarespace lists the options in its [form storage help page](https://support.squarespace.com/hc/en-us/articles/205814638-Set-up-form-and-newsletter-storage).{{< /callout >}}
 

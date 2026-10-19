@@ -44,7 +44,7 @@ Aucun de ces services ne répare vos systèmes, ne vous certifie, ne vous donne 
 
 ## France : ce que l’État vous offre, de 17Cyber aux CSIRT régionaux
 
-Trois acteurs nationaux se partagent l’essentiel : Cybermalveillance.gouv.fr, la police et la gendarmerie (avec 17Cyber), et l’ANSSI, l’agence nationale de la sécurité des systèmes d’information. Les régions complètent avec leurs CSIRT.
+Trois acteurs nationaux se partagent l’essentiel : Cybermalveillance.gouv.fr, la police et la gendarmerie (avec 17Cyber), et l’ANSSI, l’agence nationale de la sécurité des systèmes d’information. Les CSIRT régionaux complètent le dispositif.
 
 | Service gratuit | Ce que vous obtenez | Quand l’utiliser |
 |---|---|---|
@@ -120,4 +120,4 @@ En France, cherchez un prestataire labellisé ExpertCyber, vers lequel 17Cyber p
 
 Cet article n’est pas un avis juridique : pour une clause de contrat, une violation de données personnelles ou la question de savoir si NIS2 vous concerne, un avocat ou un délégué à la protection des données (DPO) vaut la dépense.
 
-Les sites piratés, les accès administrateur perdus et les messageries dont vous avez perdu le contrôle, c’est le dépannage que je fais, avec une réponse le jour même ou sous 24 heures. Pour le reste, commencez par les services gratuits ci-dessus : je préfère vous y envoyer plutôt que de vous vendre ce que vous pouvez obtenir pour rien.
+Les sites piratés et les accès perdus, c’est le dépannage que je fais, avec une réponse le jour même ou sous 24 heures. Pour le reste, commencez par les services gratuits ci-dessus : je préfère vous y envoyer plutôt que de vous vendre ce que vous pouvez obtenir pour rien.
