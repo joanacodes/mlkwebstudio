@@ -67,7 +67,7 @@ Yearly billing is cheaper. Card payments go through a provider you connect, such
 
 **Who it suits:** a coach, trainer or creator who sells a course, a membership or a digital product and wants everything in one place for little or no money. The free plan is enough to launch and test an offer before you pay anything.
 
-**Who it does not suit:** a sales team that needs calls, SMS and a shared inbox, or a service business whose website has to rank on Google with a page for each service.
+**Who it does not suit:** a sales team that needs calls, SMS and a shared inbox, or a service business that sells by quote and would use a fraction of the tool.
 
 ## ClickFunnels: the sales-page specialist, at a higher price
 
