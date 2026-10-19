@@ -63,15 +63,15 @@ Accounts should also be in the business's name. A domain or a Google Workspace r
 
 ## Email and payments: where the money goes
 
-Phishing tops the statistics because it works: one email with a fake login page can hand over a mailbox, and the mailbox is where the invoices are. Most payment fraud against small teams starts there.
+Phishing tops the statistics because it works: one email with a fake login page can hand over a mailbox, and the mailbox is where the invoices are. A good share of the payment fraud against small teams starts there.
 
 **Invoice fraud** is the classic version: a supplier's invoice, real or copied, arrives with new bank details, or someone who seems to be the boss asks for an urgent, confidential transfer. {{< a key="invoice-fraud-bank-details" >}}My guide to fake invoices and “new bank details” emails{{< /a >}} shows how to spot it, and the rule that stops it: bank details received by email are never used before a call to a number you already had, and a second person approves every new payee.
 
 **Deepfake calls** are the same scam with a cloned voice or a fake video call built from public recordings. You will not reliably hear the difference, so {{< a key="deepfake-voice-ceo-fraud" >}}the defence against AI voice clones and deepfake calls{{< /a >}} is the same call-back rule, plus a question only the real person can answer.
 
-Banks now help a little. Since 9 October 2025, banks in the euro area must check that the payee's name matches the IBAN before a euro transfer leaves (Regulation (EU) 2024/886), and in the UK, Confirmation of Payee covers almost all Faster Payments and CHAPS transfers. A “no match” warning means stop and call; a match does not replace the call-back. UK consumers, micro-enterprises and charities who lose money to authorised push payment fraud can claim up to £85,000 per claim from their bank, a scheme that is under independent review as of 19 October 2026.
+Banks now help a little. Since 9 October 2025, banks in the euro area must check that the payee's name matches the IBAN before a euro transfer leaves (Regulation (EU) 2024/886), and in the UK, Confirmation of Payee covers almost all Faster Payments and CHAPS transfers. A “no match” warning means stop and call; a match does not replace the call-back. UK consumers, micro-enterprises and charities who lose money to authorised push payment fraud can claim up to £85,000 per claim from their bank, a scheme under review as of 19 October 2026.
 
-Your domain needs protecting as well. Without SPF, DKIM and DMARC records, anyone can send emails that look as if they came from your address, which is exactly what an invoice fraudster wants. {{< a key="spf-dkim-dmarc-setup" >}}Setting up SPF, DKIM and DMARC{{< /a >}} takes a few DNS records, and it keeps your real emails out of spam at the same time.
+Your domain needs protecting as well. Without SPF, DKIM and DMARC records, anyone can send emails that look as if they came from your address, which is exactly what an invoice fraudster wants. {{< a key="spf-dkim-dmarc-setup" >}}Setting up SPF, DKIM and DMARC{{< /a >}} takes a few DNS records, and it helps keep your real emails out of spam at the same time.
 
 ## Data: backups and your cloud suite
 
@@ -83,7 +83,7 @@ The cloud suite itself has a few settings worth more than any extra tool: two-st
 
 ## People: training and leavers
 
-Most incidents start with someone doing something reasonable at the wrong moment: clicking a link between two meetings, paying an invoice late on a Friday. Training helps when it is short, regular and about the scams your team actually receives; the NCSC guide and Cybermalveillance.gouv.fr's free awareness kit are good material for it. The rule that matters most costs nothing: **anyone who clicks something odd says so at once, and nobody is blamed for it**. The sooner you know, the cheaper it is.
+Many incidents start with someone doing something reasonable at the wrong moment: clicking a link between two meetings, paying an invoice late on a Friday. Training helps when it is short, regular and about the scams your team actually receives; the NCSC guide and Cybermalveillance.gouv.fr's free awareness kit are good material for it. The rule that matters most costs nothing: **anyone who clicks something odd says so at once, and nobody is blamed for it**. The sooner you know, the cheaper it is.
 
 Leavers are the other half. The NCSC warns that the accounts of staff and contractors who have left often stay active without anyone noticing. {{< a key="offboarding-checklist" >}}The offboarding checklist{{< /a >}} closes access in three moments: before the last day, list every account, device and code; on the day, suspend the work account rather than delete it and change the shared passwords; in the weeks after, rotate API keys, check forwarding rules and delete data on schedule. For a freelancer, plan the end of access when the job starts.
 
@@ -95,9 +95,9 @@ One date to check: Windows 10 support ended on 14 October 2025. As of 19 October
 
 ## Your website and your apps
 
-Your website is often the most exposed thing you own: it is public, it runs software that needs updates, and its domain also carries your email. {{< a key="website-security-guide" >}}My website security guide{{< /a >}} covers the four habits that prevent most hacks: accounts in the business's name with two-factor authentication, up-to-date software with few plugins, backups you have restored at least once, and a locked domain that renews automatically. If the worst has already happened, {{< a key="wordpress-site-hacked" >}}the first 24 hours after a WordPress hack{{< /a >}} are laid out step by step; WordPress is behind most of the emergency calls I get.
+Your website is often the most exposed thing you own: it is public, it runs software that needs updates, and its domain also carries your email. {{< a key="website-security-guide" >}}My website security guide{{< /a >}} covers the four habits that website security rests on: accounts in the business's name with two-factor authentication, up-to-date software with few plugins, backups you have restored at least once, and a locked domain that renews automatically. If the worst has already happened, {{< a key="wordpress-site-hacked" >}}the first 24 hours after a WordPress hack{{< /a >}} are laid out step by step; WordPress is behind most of the emergency calls I get.
 
-If you publish a mobile app, {{< a key="mobile-app-security-checklist" >}}the mobile app security checklist{{< /a >}} turns OWASP MASVS into the checks to run before launch: no secret keys in the app, permissions checked by your server on every request, tokens kept in the iOS Keychain or the Android Keystore, and TLS for all traffic.
+If you publish a mobile app, {{< a key="mobile-app-security-checklist" >}}the mobile app security checklist{{< /a >}} turns OWASP MASVS into the checks to run before launch: no secret keys in the app, permissions checked by your server on every request, tokens protected by the iOS Keychain or the Android Keystore, and TLS for all traffic.
 
 ## When something goes wrong: the first hour
 
@@ -119,13 +119,13 @@ This section describes the rules as they stand on 19 October 2026; it is not leg
 
 | Rule | Who it covers | What it means for a small team | Status on 19 October 2026 |
 |---|---|---|---|
-| GDPR and UK GDPR, Articles 32 to 34 | Anyone handling personal data of people in the EU or the UK, including businesses outside them that offer them goods or services | Security appropriate to the risk, and breach reporting within 72 hours | In force |
+| GDPR and UK GDPR, Articles 32 to 34 | Anyone handling personal data of people in the EU or the UK, including businesses based elsewhere that offer them goods or services | Security appropriate to the risk, and breach reporting within 72 hours | In force |
 | NIS2, [Directive (EU) 2022/2555](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng) | Medium and large organisations in 18 sectors, plus a few providers whatever their size | Mostly indirect: covered clients must check their suppliers | Transposition deadline passed on 17 October 2024; France has not adopted its law |
 | DORA, Regulation (EU) 2022/2554 | Banks, insurers, investment firms and other financial entities | Indirect: they must manage the risk from their ICT providers | Applies since 17 January 2025 |
 | UK Cyber Security and Resilience Bill | Would bring medium and large managed service providers into the UK's NIS rules | Mostly indirect, through clients | In the House of Lords, not law |
 | Cyber Resilience Act, Regulation (EU) 2024/2847 | Anyone offering software or connected products in the EU, apps included | Report actively exploited vulnerabilities and severe incidents, then meet security requirements | Reporting since 11 September 2026; the rest from 11 December 2027 |
 
-For most small teams, NIS2 arrives through clients rather than regulators. {{< a key="nis2-small-business" >}}My NIS2 guide{{< /a >}} explains who is covered, including DNS and trust service providers whatever their size, and what covered clients will ask: multi-factor authentication, backups, incident reporting. In France, the transposition bill was taken off the Assemblée nationale's agenda in early October 2026 with no new date. UK companies sit outside NIS2, but not outside their EU clients' contracts.
+For most small teams, NIS2 arrives through clients rather than regulators. {{< a key="nis2-small-business" >}}My NIS2 guide{{< /a >}} explains who is covered, including DNS and trust service providers whatever their size, and what covered clients will ask: multi-factor authentication, backups, incident reporting. In France, the transposition bill was taken off the Assemblée nationale's agenda in early October 2026 with no new date. Most UK companies sit outside NIS2, but not outside their EU clients' contracts.
 
 Those requests usually arrive as a {{< a key="security-questionnaire" >}}security questionnaire from a big client{{< /a >}}. Answer every question truthfully, a “yes” with evidence, a “no” with the measure you use instead or a date, “not applicable” with the reason, then keep your answers in a trust pack you can reuse for the next one.
 
@@ -133,14 +133,14 @@ If you sell an app or other software to people in the EU, from inside the EU or 
 
 ## Free help in the UK and France
 
-A lot of good help costs nothing, and most of it comes from public bodies. {{< a key="free-cybersecurity-help" >}}My guide to free cybersecurity help in the UK and France{{< /a >}} goes through it country by country. In the UK, the NCSC's guide for small organisations, its Cyber Action Toolkit, Exercise in a Box and Early Warning are free, while Cyber Essentials certification is paid. In France, 17Cyber helps victims at any hour, MonAideCyber offers a free diagnostic of about an hour and a half with a volunteer trained by the ANSSI, and regional CSIRTs handle the first response to an incident.
+A lot of good help costs nothing, and most of it comes from public bodies. {{< a key="free-cybersecurity-help" >}}My guide to free cybersecurity help in the UK and France{{< /a >}} goes through it country by country. In the UK, the NCSC's guide for small organisations, its Cyber Action Toolkit, Exercise in a Box and Early Warning are free, while Cyber Essentials certification is paid. In France, 17Cyber helps victims at any hour, MonAideCyber offers a free diagnostic of about 90 minutes with a volunteer trained by the ANSSI, and regional CSIRTs handle the first response to an incident.
 
 ## Your first month, in order
 
 1. **Week 1, accounts.** List every account the business depends on and who has admin rights. Set up the password manager, then two-factor authentication on email, the domain registrar and the bank.
 2. **Week 2, payments and email.** Write down the call-back rule and name the second approver for new payees. Publish SPF, DKIM and DMARC, and switch off automatic forwarding to outside addresses.
 3. **Week 3, data and devices.** Set up 3-2-1 backups, including the cloud suite, and test one restore. Check updates, encryption and screen locks on every laptop and phone, and find any PC still on Windows 10.
-4. **Week 4, people and plan.** Write the leaver checklist, run a short phishing session, print the one-page incident plan, and decide whether insurance, Cyber Essentials or a MonAideCyber diagnostic makes sense for you.
+4. **Week 4, people and plan.** Write the leaver checklist, run a short phishing session, print the one-page incident plan, and decide whether insurance, Cyber Essentials (UK) or a MonAideCyber diagnostic (France) makes sense for you.
 
 After that, every three months: test a restore, review admin accounts and former staff, and reread the plan.
 
@@ -150,7 +150,7 @@ You do not need me, or anyone, for most of this guide. Bring in help when:
 
 - an account or your website is still compromised after you changed the passwords;
 - money has gone and you need to know how the fraudster got in;
-- ransomware has encrypted your files and there is no clean backup: start with Report Fraud in the UK or 17Cyber in France, which refers victims to referenced providers or ones labelled ExpertCyber, and call your insurer's incident line if you have one;
+- ransomware has encrypted your files and there is no clean backup: start with Report Fraud (Police Scotland in Scotland) or 17Cyber in France, which refers victims to referenced providers or ones labelled ExpertCyber, and call your insurer's incident line if you have one;
 - a client's questionnaire asks for evidence you cannot produce alone;
 - nobody knows who holds the admin accounts or the domain.
 

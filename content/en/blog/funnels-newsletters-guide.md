@@ -29,7 +29,7 @@ faq:
 
 A sales funnel is the path a stranger takes to become your client. For a small-team business that sells services, it is rarely the machine of countdown timers and upsells you see in online ads. It is a page that answers a question, an easy way to get in touch, a reply that comes quickly and a follow-up after the quote. A newsletter is the slow lane of the same path, for people who are interested but not ready to buy.
 
-My own clients come from referrals first, then cold emails, then SEO, and the funnels I build for clients end with a phone call or a quote request, not a checkout page. That is the kind of funnel this guide is about.
+My own clients come from referrals first, then cold emails, then SEO, and the funnels I build for them end with a phone call or a quote request, not a checkout page. That is the kind of funnel this guide is about.
 
 It is also the map of my Funnels & newsletters series. Each section explains one part of the path in a few paragraphs and points to the article that covers it in full: first the funnel itself, from the first visit to the booked call, then the newsletter, from the first subscriber to the numbers worth watching.
 
@@ -45,7 +45,7 @@ A sales funnel is the series of steps between someone's first contact with your 
 | Call | You talk, qualify the need and agree the next step | A booking page, or a phone someone answers |
 | Proposal | They receive a quote and accept it, or not | A follow-up date in your calendar |
 
-Most people leave at each step, and that is normal. What is not normal is losing people you could have kept: a reply that comes two days later, a page with no clear next step, a twelve-field form, a phone that rings out. Fix those leaks before you pay for more traffic, because every visitor you buy will fall through the same holes.
+Most people leave at each step, and that is normal. What is not normal is losing people you could have kept: a reply that comes two days later, a page with no clear next step, a twelve-field form, a phone that rings out. **Fix those leaks before you pay for more traffic**, because every visitor you buy will fall through the same holes.
 
 If the idea is new to you, start with {{< a key="sales-funnel-explained" >}}my simple sales funnel example for a service business{{< /a >}}. It walks from the first visit to the booked call and shows where most funnels leak.
 
@@ -53,11 +53,11 @@ If the idea is new to you, start with {{< a key="sales-funnel-explained" >}}my s
 
 The top of the funnel is traffic, and a small team gets it from five places. They differ in speed, in cost and in how much of your week they take.
 
-- **Referrals** bring the warmest leads and are the hardest to scale. They are my own first source of clients.
-- **SEO and your Google Business Profile** are slow to start, then steady. For Pilotech, the site took about a month to build and the first lead came three weeks after it went live.
-- **Cold emailing** is the fastest way I know to reach businesses that have never heard of you: in my campaigns, the first reply or call usually comes within 36 hours.
-- **Social media** depends on the platform. In my view, Pinterest and YouTube Shorts keep working long after you post, while Instagram, TikTok and Facebook need constant posting to stay visible.
-- **Ads** bring enquiries this month, if you can afford the tests that show what works.
+- Referrals bring the warmest leads and are the hardest to scale. They are my own first source of clients.
+- SEO and your Google Business Profile are slow to start, then steady. For Pilotech, the site took about a month to build and the first lead came three weeks after it went live.
+- Cold emailing is the fastest way I know to reach businesses that have never heard of you: in my campaigns, the first reply or call usually comes within 36 hours.
+- Social media depends on the platform. In my view, Pinterest and YouTube Shorts keep working long after you post, while Instagram, TikTok and Facebook need constant posting to stay visible.
+- Ads bring enquiries this month, if you can afford the tests that show what works.
 
 Do not run all five. Marketing is noisy, and it is easy for a small team to chase every new tool and tactic; I would rather see you make one or two channels work than start a new one every month. {{< a key="how-to-get-more-clients" >}}My guide to choosing marketing channels{{< /a >}} compares them on cost, speed and lead quality, and {{< a key="b2b-cold-emailing-guide" >}}my complete guide to B2B cold emailing{{< /a >}} covers the channel I would pick first if you sell to other businesses.
 
@@ -79,19 +79,27 @@ The nurture funnel is for people who are interested but not ready: an office man
 
 Its steps are a lead magnet on a page of your site (a checklist, a price calculator, a short diagnostic), a sign-up form with a separate newsletter box, a short welcome sequence, then a regular newsletter that invites readers to book a call when they are ready. {{< a key="lead-magnet-ideas" >}}My 12 lead magnet ideas for service businesses{{< /a >}} help you choose a resource that attracts people who might hire you, not collectors of free downloads.
 
-{{< callout type="tip" >}}**Not sure which shape you need?** Look at how long your clients take to decide. If most decide after one conversation, build the direct funnel first. If they compare quotes for weeks, add the nurture funnel for everyone who is not ready to call.{{< /callout >}}
+{{< callout type="tip" >}}**Choosing a shape.** Look at how long your clients take to decide. If most decide after one conversation, build the direct funnel first. If they compare quotes for weeks, add the nurture funnel for everyone who is not ready to call.{{< /callout >}}
 
 ## The tools: a website, a booking page and an email tool
 
 You need three tools, and you probably have two of them already.
 
-**The website.** Each offer needs a page with one clear action: call, book or ask for a quote. A page that tries to sell everything sells nothing. I saw it with Pilotech: of the five websites I have made for the company, one offered too many services and did not work at all, while the one that ranked and brought leads sells very specific services. If you are unsure whether a campaign needs its own page, my comparison of {{< a key="landing-page-vs-website" >}}landing pages and websites{{< /a >}} will help. If visitors arrive but do not get in touch, {{< a key="website-conversion-rate" >}}my guide to where visitors drop off{{< /a >}} shows how to find the leak.
+### The website
 
-**The booking page.** A booking page turns "call me back sometime" into a slot in your calendar. I use YouCanBookMe: it has the features of Calendly, it is a bit cheaper, it is easy to find your way around, and I like that the team behind it is smaller. Calendly is good too. YouCanBookMe's free plan gives you one booking page connected to one calendar, and {{< a key="youcanbookme-tutorial" >}}my YouCanBookMe tutorial{{< /a >}} sets it up step by step, from the calendar connection to the page embedded on your site.
+Each offer needs a page with one clear action: call, book or ask for a quote. A page that tries to sell everything sells nothing. I saw it with Pilotech: of the five websites I have made for the company, one offered too many services and did not work at all, while the one that ranked and brought leads sells very specific services. If you are unsure whether a campaign needs its own page, my comparison of {{< a key="landing-page-vs-website" >}}landing pages and websites{{< /a >}} will help. If visitors arrive but do not get in touch, {{< a key="website-conversion-rate" >}}my guide to where visitors drop off{{< /a >}} shows how to find the leak.
 
-**The email tool.** It sends your newsletter and the automatic emails that follow a sign-up. Free plans are enough to start, and I come back to the choice in the newsletter sections below.
+### The booking page
 
-**Funnel builders.** Systeme.io, ClickFunnels and GoHighLevel put pages, emails, payments and sometimes a CRM in one place. They make sense if you sell online: courses, digital products, sales pages with upsells. For a business that sells through calls and quotes they are usually more than you need, and they are a classic shiny object: a new tool feels like progress, but your clients still come from the channels you already work. {{< a key="funnel-builders-comparison" >}}My comparison of Systeme.io, ClickFunnels and GoHighLevel{{< /a >}} sets out who each one suits, what it costs and when you need none of them.
+A booking page turns "call me back sometime" into a slot in your calendar. I use YouCanBookMe: it has the features of Calendly, it is a bit cheaper, it is easy to find your way around, and I like that the team behind it is smaller. Calendly is good too. YouCanBookMe's free plan gives you one booking page connected to one calendar, and {{< a key="youcanbookme-tutorial" >}}my YouCanBookMe tutorial{{< /a >}} sets it up step by step, from the calendar connection to the page embedded on your site.
+
+### The email tool
+
+An email tool sends your newsletter and the automatic emails that follow a sign-up. Free plans are enough to start, and I come back to the choice in the newsletter sections below.
+
+### When a funnel builder is overkill
+
+Systeme.io, ClickFunnels and GoHighLevel put pages, emails, payments and sometimes a CRM in one place. They make sense if you sell online: courses, digital products, sales pages with upsells. For a business that sells through calls and quotes they are usually more than you need, and they are a classic shiny object: a new tool feels like progress, but your clients still come from the channels you already work. {{< a key="funnel-builders-comparison" >}}My comparison of Systeme.io, ClickFunnels and GoHighLevel{{< /a >}} sets out who each one suits, what it costs and when you need none of them.
 
 When you are ready to connect the three tools, {{< a key="build-sales-funnel" >}}my step-by-step funnel tutorial{{< /a >}} gives one page a single call to action, links it to a booking page with two or three qualifying questions, adds a double opt-in sign-up form for people who are not ready and logs every lead in one list.
 
@@ -107,7 +115,7 @@ In practice, consent means a box people tick themselves (never pre-ticked), a re
 
 ### Your first 100 subscribers
 
-Your first subscribers are people who already know you: clients and contacts you invite one by one, your email signature, a sign-up form on your website, your LinkedIn profile, then other people's audiences. Never buy a list. The consent was given to someone else, tools such as Mailchimp forbid it, and the spam complaints that follow hurt your deliverability. {{< a key="first-100-subscribers" >}}Your first 100 newsletter subscribers{{< /a >}} goes through each source and shows how to tag every sign-up with where it came from, so you know which sources to keep.
+Your first subscribers are people who already know you: clients and contacts you invite one by one, your email signature, a sign-up form on your website, your LinkedIn profile, then other people's audiences. Never buy a list. The consent was given to someone else, tools such as Mailchimp forbid it, and the spam complaints that follow hurt your deliverability. {{< a key="first-100-subscribers" >}}My guide to your first 100 newsletter subscribers{{< /a >}} goes through each source and shows how to tag every sign-up with where it came from, so you know which sources to keep.
 
 ## Newsletters, part two: the tool, the platform and what to send
 
@@ -117,7 +125,7 @@ In {{< a key="newsletter-tools-comparison" >}}my comparison of Brevo, MailerLite
 
 ### Email, LinkedIn or Substack
 
-A LinkedIn newsletter gets read fastest if your clients spend time on LinkedIn, because your connections and followers are invited to subscribe, but you cannot export the subscribers. Substack is free to publish and takes 10% of paid subscriptions, plus payment fees. Your own email list is the only option you fully control. {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}LinkedIn newsletter, email newsletter or Substack{{< /a >}} weighs the three, and my answer for most small teams is to publish where your clients read and invite them to the list you own.
+A LinkedIn newsletter gets read fastest if your clients spend time on LinkedIn, because your connections and followers are invited to subscribe, but you cannot export the subscribers. Substack is free to publish and takes 10% of paid subscriptions, plus payment fees. Your own email list is the only option you fully control. {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}My comparison of LinkedIn newsletters, email newsletters and Substack{{< /a >}} weighs the three, and my answer for most small teams is to publish where your clients read and invite them to the list you own.
 
 ### The welcome sequence
 
@@ -125,7 +133,7 @@ Subscribers are never more interested than in their first days. {{< a key="welco
 
 ### What to write
 
-A B2B newsletter earns its place with one useful thing per issue: a client's question answered, a short case study, a change in the rules explained, a template to copy. {{< a key="b2b-newsletter-ideas" >}}What to write in a B2B newsletter{{< /a >}} covers formats and frequency and gives 20 ideas. The short version: monthly or fortnightly, on a rhythm you can keep for a year, two or three minutes to read, one call to action.
+A B2B newsletter earns its place with one useful thing per issue: a client's question answered, a short case study, a change in the rules explained, a template to copy. {{< a key="b2b-newsletter-ideas" >}}My guide to what to write in a B2B newsletter{{< /a >}} covers formats and frequency and gives 20 ideas. The short version: monthly or fortnightly, on a rhythm you can keep for a year, two or three minutes to read, one call to action.
 
 ## Deliverability and metrics: reaching the inbox, then reading the numbers
 
@@ -139,17 +147,17 @@ A small newsletter rarely reaches 5,000 emails a day, but the same habits keep y
 
 Open rates lie. An open is recorded when an email loads a tiny tracking image, and Apple Mail Privacy Protection, offered since iOS 15 in 2021, loads those images in the background whether or not the email is read; security filters also open and click on their own. Judge each issue on clicks, replies, booked calls, unsubscribes and spam complaints, and treat opens as a rough trend.
 
-There is a legal side too. As of 19 October 2026, the CNIL, France's data protection authority, says in a [recommendation on tracking pixels](https://www.cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) published in April 2026 that measuring opens for marketing needs the reader's prior consent, even for some emails that need no consent to be sent, such as B2B prospecting. {{< a key="newsletter-metrics" >}}Why open rates lie, and what to track instead{{< /a >}} explains what each number really measures.
+There is a legal side too. As of 19 October 2026, the CNIL, France's data protection authority, says in a [recommendation on tracking pixels](https://www.cnil.fr/sites/default/files/2026-05/recommandation_tracking_pixels_emails.pdf) published in April 2026 that measuring opens for marketing needs the reader's prior consent, even for some emails that need no consent to be sent, such as B2B prospecting. {{< a key="newsletter-metrics" >}}My guide to newsletter metrics{{< /a >}} explains what each number really measures and what to track instead.
 
 ## Tracking: which channel brings booked calls
 
 A funnel you cannot measure is a funnel you cannot fix. Three habits are enough to start.
 
-1. **Tag your links with UTM parameters.** Add utm_source, utm_medium and utm_campaign to every link you share in a newsletter, a post or an ad, always in lowercase and spelled the same way. Never tag links between your own pages.
-2. **Count enquiries and bookings in GA4.** Make each enquiry and each booking a key event (what GA4 used to call a conversion), then read the **Traffic acquisition** report by session source and medium.
-3. **Ask people.** Add a "How did you find us?" question to your booking and quote forms. Visitors who refuse cookies are missing from GA4 or only modelled, and no tag sees the friend who passed on your name.
+1. Tag your links with UTM parameters: add utm_source, utm_medium and utm_campaign to every link you share in a newsletter, a post or an ad, always in lowercase and spelled the same way. Never tag links between your own pages.
+2. Count enquiries and bookings in GA4: send each one to a thank-you page that GA4 counts as a key event (what it used to call a conversion), then read the **Traffic acquisition** report by session source / medium. On YouCanBookMe, that redirect needs the Professional plan or above.
+3. Ask people: add a "How did you find us?" question to your booking and quote forms. Visitors who refuse cookies are missing from GA4 or only modelled, and no tag sees the friend who passed on your name.
 
-{{< a key="utm-ga4-funnel-tracking" >}}My UTM and GA4 tutorial{{< /a >}} sets this up step by step, so you can see which channel brings booked calls.
+{{< a key="utm-ga4-funnel-tracking" >}}My UTM and GA4 tutorial{{< /a >}} sets this up step by step, from the naming sheet to a funnel exploration that shows where visitors drop out.
 
 ## The last mile: reply fast and forget nobody
 
@@ -163,9 +171,9 @@ You do not need a custom app to start. {{< a key="automate-lead-follow-up" >}}My
 
 If you are starting from scratch, take it one week at a time, in this order.
 
-1. **Week 1, the page and the phone.** Choose your main offer, give its page one call to action and a phone number people can tap, and set up your booking page.
-2. **Week 2, measurement.** Count enquiries and bookings as key events in GA4, add "How did you find us?" to your forms and keep one list of every lead with its source.
-3. **Week 3, the newsletter basics.** Choose an email tool, add a sign-up form with double opt-in (and a separate, unticked box next to any lead magnet) and write the first welcome email.
-4. **Week 4, one channel.** Feed the funnel with the channel that fits your buyers, such as a cold email sequence to a defined list or a new service page for search, and decide who answers every enquiry within the hour.
+1. Week 1, the page and the phone: choose your main offer, give its page one call to action and a phone number people can tap, and set up your booking page.
+2. Week 2, measurement: count enquiries and bookings as key events in GA4, add "How did you find us?" to your forms and keep one list of every lead with its source.
+3. Week 3, the newsletter basics: choose an email tool, add a sign-up form with double opt-in (and a separate, unticked box next to any lead magnet) and write the first welcome email.
+4. Week 4, one channel: feed the funnel with the channel that fits your buyers, such as a cold email sequence to a defined list or a new service page for search, and decide who answers every enquiry within the hour.
 
 After that, read your numbers once a month: where people come from, how many book a call, how many accept a quote. Fix the biggest leak first, then the next one.

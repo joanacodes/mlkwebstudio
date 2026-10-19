@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:57:00+02:00
 category: "mobile-apps"
 article_type: "news"
 keywords: ["Cyber Resilience Act application", "Cyber Resilience Act application mobile", "CRA obligation de signalement", "CRA 11 septembre 2026", "Cyber Resilience Act 2027", "règlement sur la cyberrésilience"]
-summary: "Depuis le 11 septembre 2026, une entreprise qui propose une application dans l’UE, payante ou gratuite, doit signaler les failles activement exploitées et les incidents graves via la plateforme de l’ENISA, avec une alerte précoce sous 24 heures. Dès le 11 décembre 2027, les nouvelles applications et celles qui changent de façon substantielle devront respecter les exigences de sécurité, recevoir des mises à jour de sécurité, en général pendant cinq ans au moins, et porter le marquage CE. Les éditeurs hors UE sont aussi concernés."
+summary: "Depuis le 11 septembre 2026, l’éditeur d’une application proposée dans l’UE, même gratuite, doit signaler les failles activement exploitées et les incidents graves via la plateforme de l’ENISA, avec une alerte précoce sous 24 heures. Dès le 11 décembre 2027, les applications nouvelles ou substantiellement modifiées devront respecter les exigences de sécurité, recevoir des correctifs, en général cinq ans au moins, et porter le marquage CE. Les éditeurs hors UE sont concernés."
 cover: "cyber-resilience-act-apps"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un bouclier marqué d’une coche"
 related: ["mobile-app-security-checklist", "api-keys-mobile-apps", "nis2-small-business", "gdpr-outside-eu", "mobile-app-launch-guide"]

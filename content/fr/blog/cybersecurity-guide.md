@@ -55,13 +55,13 @@ Votre messagerie est le passe-partout : qui la contrôle peut réinitialiser le
 
 1. **Un mot de passe unique par compte, rangé dans un gestionnaire de mots de passe.** Les accès partagés vont dans un coffre d’équipe, pas dans un tableur ni dans une conversation de messagerie instantanée. {{< a key="password-manager-teams" >}}Mon comparatif Bitwarden, 1Password et Proton Pass pour une équipe{{< /a >}} montre lequel convient à une équipe de dix personnes au plus qui veut une administration simple, lequel est open source et lequel coûte le moins cher.
 2. **La double authentification partout, les passkeys quand c’est possible.** Commencez par la messagerie, puis le nom de domaine, la banque, le site, les paiements, la comptabilité, le stockage et les réseaux sociaux. {{< a key="two-factor-authentication-passkeys" >}}Activer la double authentification et les passkeys{{< /a >}} tient en un après-midi : une passkey ou une clé de sécurité d’abord, une application d’authentification ensuite, le SMS en dernier recours.
-3. **Des comptes d’administration séparés.** Le compte qui peut tout modifier ne doit pas être celui qui ouvre des pièces jointes toute la journée. Confiez les droits d’administration à un compte dédié, et au moins de personnes possible.
+3. **Des comptes d’administration séparés.** Le compte qui peut tout modifier ne doit pas être celui qui ouvre des pièces jointes toute la journée. Confiez les droits d’administration à un compte dédié, et au plus petit nombre de personnes possible.
 
 Les comptes doivent aussi être au nom de l’entreprise. Un nom de domaine ou un Google Workspace enregistré au nom d’un ancien freelance, c’est une serrure dont vous n’avez plus la clé.
 
 ## Messagerie et paiements : là où part l’argent
 
-L’hameçonnage arrive en tête des statistiques parce qu’il fonctionne : un email avec une fausse page de connexion suffit à livrer une messagerie, et c’est dans la messagerie que se trouvent les factures. La plupart des fraudes au paiement contre les petites équipes commencent là.
+L’hameçonnage arrive en tête des statistiques parce qu’il fonctionne : un email avec une fausse page de connexion suffit à livrer une messagerie, et c’est dans la messagerie que se trouvent les factures. Une bonne part des fraudes au paiement visant les petites équipes commence là.
 
 **La fraude au faux RIB** en est la version classique : une facture de fournisseur, vraie ou copiée, arrive avec de nouvelles coordonnées bancaires, ou quelqu’un qui semble être le dirigeant demande un virement urgent et confidentiel. {{< a key="invoice-fraud-bank-details" >}}Mon guide sur la fraude au faux RIB et au président{{< /a >}} explique comment la repérer, et la règle qui la bloque : aucun RIB reçu par email n’est utilisé avant un appel à un numéro que vous aviez déjà, et une deuxième personne valide chaque nouveau bénéficiaire.
 
@@ -81,7 +81,7 @@ La suite cloud elle-même a quelques réglages qui valent mieux que n’importe 
 
 ## L’équipe : sensibilisation et départs
 
-La plupart des incidents commencent par quelqu’un qui fait quelque chose de raisonnable au mauvais moment : cliquer sur un lien entre deux rendez-vous, payer une facture un vendredi soir. La sensibilisation aide quand elle est courte, régulière et porte sur les arnaques que votre équipe reçoit vraiment ; le kit de sensibilisation gratuit de Cybermalveillance.gouv.fr est une bonne base. La règle la plus utile ne coûte rien : **quiconque clique sur quelque chose de suspect le dit tout de suite, et personne n’est blâmé**. Plus vous le savez tôt, moins cela coûte.
+Beaucoup d’incidents commencent par quelqu’un qui fait quelque chose de raisonnable au mauvais moment : cliquer sur un lien entre deux rendez-vous, payer une facture un vendredi soir. La sensibilisation aide quand elle est courte, régulière et porte sur les arnaques que votre équipe reçoit vraiment ; le kit de sensibilisation gratuit de Cybermalveillance.gouv.fr est une bonne base. La règle la plus utile ne coûte rien : **quiconque clique sur quelque chose de suspect le dit tout de suite, et personne n’est blâmé**. Plus vous le savez tôt, moins cela coûte.
 
 Les départs sont l’autre moitié du sujet. Le NCSC britannique le rappelle : les comptes d’anciens salariés ou prestataires restent souvent actifs sans que personne ne s’en aperçoive. {{< a key="offboarding-checklist" >}}La checklist de départ d’un salarié ou d’un freelance{{< /a >}} ferme les accès en trois temps : avant le dernier jour, listez ses comptes, appareils et codes ; le jour J, suspendez son compte sans le supprimer et changez les mots de passe partagés ; dans les semaines qui suivent, renouvelez les clés d’API, vérifiez les règles de transfert et supprimez ses données à l’échéance. Pour un freelance, prévoyez la fin des accès dès le premier jour.
 
@@ -93,9 +93,9 @@ Une date à vérifier : le support de Windows 10 a pris fin le 14 octobre 2025.
 
 ## Votre site et vos applications
 
-Votre site est souvent ce que vous avez de plus exposé : il est public, il fait tourner des logiciels à mettre à jour, et son nom de domaine porte aussi vos emails. {{< a key="website-security-guide" >}}Mon guide pour sécuriser son site internet{{< /a >}} présente les quatre habitudes qui évitent la plupart des piratages : des comptes au nom de l’entreprise protégés par la double authentification, des logiciels à jour avec le moins d’extensions possible, des sauvegardes déjà restaurées une fois, et un nom de domaine verrouillé qui se renouvelle automatiquement. Si le pire est arrivé, {{< a key="wordpress-site-hacked" >}}les 24 premières heures après le piratage d’un site WordPress{{< /a >}} sont détaillées pas à pas ; WordPress est derrière la plupart des appels d’urgence que je reçois.
+Votre site est souvent ce que vous avez de plus exposé : il est public, il fait tourner des logiciels à mettre à jour, et son nom de domaine porte aussi vos emails. {{< a key="website-security-guide" >}}Mon guide pour sécuriser son site internet{{< /a >}} présente les quatre habitudes sur lesquelles repose la sécurité d’un site : des comptes au nom de l’entreprise protégés par la double authentification, des logiciels à jour avec le moins d’extensions possible, des sauvegardes déjà restaurées une fois, et un nom de domaine verrouillé qui se renouvelle automatiquement. Si le pire est arrivé, {{< a key="wordpress-site-hacked" >}}les 24 premières heures après le piratage d’un site WordPress{{< /a >}} sont détaillées pas à pas ; WordPress est derrière la plupart des appels d’urgence que je reçois.
 
-Si vous publiez une application mobile, {{< a key="mobile-app-security-checklist" >}}la checklist de sécurité avant lancement{{< /a >}} traduit l’OWASP MASVS en vérifications concrètes : aucune clé secrète dans l’application, des droits contrôlés par le serveur à chaque requête, des jetons rangés dans le trousseau d’iOS ou l’Android Keystore, et du TLS pour tout le trafic.
+Si vous publiez une application mobile, {{< a key="mobile-app-security-checklist" >}}la checklist de sécurité avant lancement{{< /a >}} traduit l’OWASP MASVS en vérifications concrètes : aucune clé secrète dans l’application, des droits contrôlés par le serveur à chaque requête, des jetons protégés par le trousseau d’iOS ou l’Android Keystore, et du TLS pour tout le trafic.
 
 ## En cas d’attaque : la première heure
 

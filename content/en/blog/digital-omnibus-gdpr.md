@@ -64,7 +64,7 @@ Today, cookie consent comes from Article 5(3) of the ePrivacy Directive, which e
 
 The Council's latest draft, which EU governments have not approved yet, differs on several points. It keeps the cookie rules in the ePrivacy Directive, lists six exemptions from consent (measuring contextual advertising and capping how often an ad is shown among them) and cuts the wait before asking again to four months. A Council compromise text of June 2026 deleted Article 88b.
 
-If your visitors are in France, much of this will look familiar. The CNIL already expects a "Refuse all" button as easy to use as "Accept all", presents keeping a refusal for six months as good practice, and exempts audience measurement tools set up under strict conditions. My guide to {{< a key="cookie-banner-rules" >}}cookie banner requirements{{< /a >}} covers today's rules in the EU, France and the UK.
+If your visitors are in France, much of this will look familiar. The CNIL already expects a 'Refuse all' button as easy to use as 'Accept all', presents keeping a refusal for six months as good practice, and exempts audience measurement tools set up under strict conditions. My guide to {{< a key="cookie-banner-rules" >}}cookie banner requirements{{< /a >}} covers today's rules in the EU, France and the UK.
 
 ## Data breaches: 96 hours, only when the risk is high
 
@@ -86,7 +86,7 @@ Four other changes would affect small teams less directly.
 
 **Privacy notices.** Article 13 would gain an exemption when you collect data in a clear and limited relationship, your activity is not data-intensive and you can reasonably assume the person already has the information. The exemption would not apply if you pass the data on to other recipients, transfer it outside the EU or carry out high-risk processing, among other cases. My guide to {{< a key="privacy-policy-guide" >}}what a privacy policy must say{{< /a >}} explains the current duty.
 
-**Access requests.** You could treat a request as excessive when someone uses the right of access (Article 15) for purposes other than protecting their data, on reasonable grounds rather than proof of abuse. The EDPB and the EDPS oppose this lower bar.
+**Access requests.** The proposal would let you treat a request as excessive when someone uses the right of access (Article 15) for purposes other than protecting their data, on reasonable grounds rather than proof of abuse. The EDPB and the EDPS oppose this lower bar.
 
 ## Outside the EU: UK, Swiss, US and other businesses
 

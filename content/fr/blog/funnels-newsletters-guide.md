@@ -27,15 +27,15 @@ faq:
     a: "Non. Une promesse claire (ce que vous envoyez, à quel rythme) et un formulaire d’inscription sur votre site et dans votre signature d’email suffisent pour démarrer. Un lead magnet aide quand le visiteur a besoin d’une raison de s’inscrire aujourd’hui, à condition que la case newsletter reste séparée et non cochée."
 ---
 
-Un tunnel de vente, c’est le chemin que suit un inconnu jusqu’à devenir votre client. Pour une petite équipe qui vend des services, il ressemble rarement aux mécaniques à compte à rebours et à ventes additionnelles des publicités en ligne. C’est une page qui répond à une question, un moyen simple de vous joindre, une réponse rapide et une relance après le devis. La newsletter en est la voie lente, pour ceux qui sont intéressés sans être prêts à acheter.
+Un tunnel de vente, c’est le chemin que suit un inconnu jusqu’à devenir votre client. Pour une petite équipe qui vend des services, il ressemble rarement aux machines à compte à rebours et à ventes additionnelles que vantent les publicités en ligne. C’est une page qui répond à une question, un moyen simple de vous joindre, une réponse rapide et une relance après le devis. La newsletter en est la voie lente, pour ceux qui sont intéressés sans être prêts à acheter.
 
-Mes propres clients viennent d’abord du bouche-à-oreille, puis du cold emailing, puis du SEO, et les tunnels que je construis pour mes clients se terminent par un appel ou une demande de devis, pas par un panier. C’est de ce tunnel-là que parle ce guide.
+Mes propres clients viennent d’abord du bouche-à-oreille, puis du cold emailing, puis du SEO, et les tunnels que je construis pour eux se terminent par un appel ou une demande de devis, pas par un panier. C’est de ce tunnel-là que parle ce guide.
 
 Ce guide sert aussi de carte à ma série Tunnels de vente & newsletters. Chaque partie explique une étape en quelques paragraphes et renvoie vers l’article qui la traite en détail : d’abord le tunnel lui-même, de la première visite au rendez-vous, puis la newsletter, du premier abonné aux chiffres qui comptent.
 
 ## Qu’est-ce qu’un tunnel de vente pour une petite équipe ?
 
-Un tunnel de vente est la suite d’étapes entre le premier contact d’une personne avec votre entreprise et la signature. On le dessine en entonnoir parce que chaque étape perd une partie du monde. Pour une entreprise de services, cinq étapes suffisent :
+Un tunnel de vente est la suite d’étapes entre le premier contact d’une personne avec votre entreprise et la signature. On le dessine en entonnoir parce que moins de personnes atteignent chaque étape. Pour une entreprise de services, cinq étapes suffisent :
 
 | Étape | Ce qui se passe | Ce qu’il faut |
 |---|---|---|
@@ -45,19 +45,19 @@ Un tunnel de vente est la suite d’étapes entre le premier contact d’une per
 | Appel | Vous échangez, qualifiez le besoin et convenez de la suite | Une page de réservation, ou un téléphone qui répond |
 | Proposition | Le devis part, il est accepté ou non | Une date de relance dans votre agenda |
 
-Perdre du monde à chaque étape est normal. Ce qui ne l’est pas, c’est de perdre ceux que vous auriez pu garder : une réponse qui arrive deux jours plus tard, une page sans étape suivante claire, un formulaire de douze champs, un téléphone qui sonne dans le vide. Colmatez ces fuites avant de payer pour plus de trafic : chaque visiteur acheté passera par les mêmes trous.
+Perdre du monde à chaque étape est normal. Ce qui ne l’est pas, c’est de perdre ceux que vous auriez pu garder : une réponse qui arrive deux jours plus tard, une page sans étape suivante claire, un formulaire de douze champs, un téléphone qui sonne dans le vide. **Colmatez ces fuites avant de payer pour plus de trafic** : chaque visiteur acheté passera par les mêmes trous.
 
 Si la notion est nouvelle pour vous, commencez par {{< a key="sales-funnel-explained" >}}mon exemple simple de tunnel de vente pour une entreprise de services{{< /a >}}. Il va de la première visite au rendez-vous et montre où la plupart des tunnels fuient.
 
 ## Les canaux qui alimentent votre tunnel
 
-Le haut du tunnel, c’est le trafic, et une petite équipe le trouve à cinq sources. Elles diffèrent par la vitesse, par le coût et par le temps qu’elles vous prennent chaque semaine.
+Le haut du tunnel, c’est le trafic, et une petite équipe le tire de cinq sources. Elles diffèrent par la vitesse, par le coût et par le temps qu’elles vous prennent chaque semaine.
 
-- **Le bouche-à-oreille** apporte les prospects les plus chauds et se développe difficilement. C’est ma première source de clients.
-- **Le SEO et la fiche Google Business Profile** démarrent lentement, puis tiennent dans la durée. Pour Pilotech, le site a demandé environ un mois de travail et le premier prospect est arrivé trois semaines après la mise en ligne.
-- **Le cold emailing** est le moyen le plus rapide que je connaisse pour toucher des entreprises qui ne vous connaissent pas : dans mes campagnes, la première réponse ou le premier appel arrive en général sous 36 heures.
-- **Les réseaux sociaux** dépendent de la plateforme. À mon avis, Pinterest et YouTube Shorts continuent de travailler longtemps après la publication, alors qu’Instagram, TikTok et Facebook demandent de publier sans cesse pour rester visible.
-- **La publicité** apporte des demandes dès ce mois-ci, si vous pouvez payer les tests qui montrent ce qui marche.
+- Le bouche-à-oreille apporte les prospects les plus chauds et se développe difficilement. C’est ma première source de clients.
+- Le SEO et la fiche Google Business Profile démarrent lentement, puis tiennent dans la durée. Pour Pilotech, le site a demandé environ un mois de travail et le premier prospect est arrivé trois semaines après la mise en ligne.
+- Le cold emailing est le moyen le plus rapide que je connaisse pour toucher des entreprises qui ne vous connaissent pas : dans mes campagnes, la première réponse ou le premier appel arrive en général sous 36 heures.
+- Les réseaux sociaux dépendent de la plateforme. À mon avis, Pinterest et YouTube Shorts continuent de travailler longtemps après la publication, alors qu’Instagram, TikTok et Facebook demandent de publier sans cesse pour rester visible.
+- La publicité apporte des demandes dès ce mois-ci, si vous pouvez payer les tests qui montrent ce qui marche.
 
 N’activez pas les cinq. Le marketing est bruyant, et une petite équipe se laisse vite tenter par chaque nouvel outil ou nouvelle méthode ; je préfère vous voir faire fonctionner un ou deux canaux que d’en lancer un nouveau chaque mois. {{< a key="how-to-get-more-clients" >}}Mon guide pour choisir ses canaux d’acquisition{{< /a >}} les compare sur le coût, le délai et la qualité des prospects, et {{< a key="b2b-cold-emailing-guide" >}}mon guide complet du cold emailing B2B{{< /a >}} détaille le canal que je choisirais en premier si vous vendez à des entreprises.
 
@@ -67,7 +67,7 @@ La plupart des tunnels d’entreprises de services prennent l’une de ces deux 
 
 ### Le tunnel direct : un email court, un appel
 
-Le tunnel direct saute l’étape du milieu. Quelqu’un qui a besoin de ce que vous vendez lit un message court et décroche son téléphone. C’est ainsi que j’ai mené les campagnes de cold emailing de {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, installateur de climatisation en Île-de-France. Elles visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et les architectes, cible principale et ceux qui appelaient le plus.
+Le tunnel direct saute l’étape du milieu. Quelqu’un qui a besoin de ce que vous vendez lit un message court et décroche son téléphone. C’est ainsi que j’ai mené les campagnes de cold emailing pour {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, installateur de climatisation en Île-de-France. Elles visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et les architectes, cible principale et ceux qui appelaient le plus.
 
 Chaque séquence compte trois emails au maximum, en texte brut, sans aucun lien. Le premier tient en trois lignes : une présentation et une invitation à appeler, avec le numéro de téléphone dans le message et une mention du catalogue sur le site. D’expérience, les prospects appellent plutôt que de répondre : un appel va plus vite qu’un email, et ils aiment parler à une vraie personne. Le troisième email apporte encore des réponses positives, de gens occupés qui avaient oublié les deux premiers ou manqué de temps pour y répondre. En un an, ces campagnes ont apporté 15 nouveaux clients à Pilotech.
 
@@ -79,19 +79,27 @@ Le tunnel de maturation s’adresse à ceux qui sont intéressés sans être pr�
 
 Ses étapes : un lead magnet sur une page de votre site (une checklist, un simulateur de prix, un court diagnostic), un formulaire d’inscription avec une case newsletter séparée, une courte séquence de bienvenue, puis une newsletter régulière qui invite à réserver un appel le moment venu. {{< a key="lead-magnet-ideas" >}}Mes 12 idées de lead magnet{{< /a >}} vous aident à choisir une ressource qui attire des clients possibles, pas des collectionneurs de téléchargements gratuits.
 
-{{< callout type="tip" >}}**Vous hésitez entre les deux ?** Regardez combien de temps vos clients mettent à se décider. Si la plupart se décident après une conversation, construisez d’abord le tunnel direct. S’ils comparent des devis pendant des semaines, ajoutez le tunnel de maturation pour tous ceux qui ne sont pas prêts à appeler.{{< /callout >}}
+{{< callout type="tip" >}}**Choisir la forme.** Regardez combien de temps vos clients mettent à se décider. Si la plupart se décident après une conversation, construisez d’abord le tunnel direct. S’ils comparent des devis pendant des semaines, ajoutez le tunnel de maturation pour tous ceux qui ne sont pas prêts à appeler.{{< /callout >}}
 
 ## Les outils : un site, une page de réservation et un outil d’emailing
 
 Il vous faut trois outils, et vous en avez sans doute déjà deux.
 
-**Le site.** Chaque offre a besoin d’une page avec une seule action claire : appeler, réserver ou demander un devis. Une page qui veut tout vendre ne vend rien. Je l’ai vu avec Pilotech : sur les cinq sites que j’ai réalisés pour l’entreprise, l’un proposait trop de services et n’a rien donné, alors que celui qui s’est classé et a apporté des prospects vend des services très précis. Si vous hésitez à créer une page dédiée à une campagne, {{< a key="landing-page-vs-website" >}}mon comparatif site vitrine ou landing page{{< /a >}} vous aidera. Si les visiteurs viennent sans vous contacter, {{< a key="website-conversion-rate" >}}mon guide pour améliorer le taux de conversion de votre site{{< /a >}} montre comment trouver la fuite.
+### Le site
 
-**La page de réservation.** Elle transforme un « rappelez-moi un de ces jours » en créneau dans votre agenda. J’utilise YouCanBookMe : il a les fonctions de Calendly, il coûte un peu moins cher, on s’y retrouve facilement, et j’aime que l’équipe derrière soit plus petite. Calendly est bien aussi. Le plan gratuit de YouCanBookMe offre une page de réservation reliée à un agenda, et {{< a key="youcanbookme-tutorial" >}}mon tutoriel YouCanBookMe{{< /a >}} la configure pas à pas, de la connexion de l’agenda à l’intégration sur votre site.
+Chaque offre a besoin d’une page avec une seule action claire : appeler, réserver ou demander un devis. Une page qui veut tout vendre ne vend rien. Je l’ai vu avec Pilotech : sur les cinq sites que j’ai réalisés pour l’entreprise, l’un proposait trop de services et n’a rien donné, alors que celui qui s’est classé et a apporté des prospects vend des services très précis. Si vous hésitez à créer une page dédiée à une campagne, {{< a key="landing-page-vs-website" >}}mon comparatif site vitrine ou landing page{{< /a >}} vous aidera. Si les visiteurs viennent sans vous contacter, {{< a key="website-conversion-rate" >}}mon guide pour améliorer le taux de conversion de votre site{{< /a >}} montre comment trouver la fuite.
 
-**L’outil d’emailing.** Il envoie votre newsletter et les emails automatiques qui suivent une inscription. Les plans gratuits suffisent pour démarrer, et je reviens sur le choix dans les parties consacrées à la newsletter.
+### La page de réservation
 
-**Les outils de tunnel.** Systeme.io, ClickFunnels et GoHighLevel réunissent pages, emails, paiements et parfois un CRM. Ils ont du sens si vous vendez en ligne : formations, produits numériques, pages de vente avec ventes additionnelles. Pour une entreprise qui vend par téléphone et sur devis, ils en font souvent trop, et ce sont des objets brillants classiques : un nouvel outil donne l’impression d’avancer, mais vos clients viennent toujours des canaux que vous travaillez déjà. {{< a key="funnel-builders-comparison" >}}Mon comparatif de Systeme.io, ClickFunnels et GoHighLevel{{< /a >}} dit à qui chacun convient, ce qu’il coûte et quand vous passer des trois.
+Une page de réservation transforme un « rappelez-moi un de ces jours » en créneau dans votre agenda. J’utilise YouCanBookMe : il a les fonctions de Calendly, il coûte un peu moins cher, on s’y retrouve facilement, et j’aime que l’équipe derrière soit plus petite. Calendly est bien aussi. Le plan gratuit de YouCanBookMe offre une page de réservation reliée à un agenda, et {{< a key="youcanbookme-tutorial" >}}mon tutoriel YouCanBookMe{{< /a >}} la configure pas à pas, de la connexion de l’agenda à l’intégration sur votre site.
+
+### L’outil d’emailing
+
+Un outil d’emailing envoie votre newsletter et les emails automatiques qui suivent une inscription. Les plans gratuits suffisent pour démarrer, et je reviens sur le choix dans les parties consacrées à la newsletter.
+
+### Quand un outil de tunnel est superflu
+
+Systeme.io, ClickFunnels et GoHighLevel réunissent pages, emails, paiements et parfois un CRM. Ils ont du sens si vous vendez en ligne : formations, produits numériques, pages de vente avec ventes additionnelles. Pour une entreprise qui vend par téléphone et sur devis, ils sont souvent surdimensionnés, et c’est le piège classique de l’objet brillant : un nouvel outil donne l’impression d’avancer, mais vos clients viennent toujours des canaux que vous travaillez déjà. {{< a key="funnel-builders-comparison" >}}Mon comparatif de Systeme.io, ClickFunnels et GoHighLevel{{< /a >}} dit à qui chacun convient, ce qu’il coûte et quand vous passer des trois.
 
 Quand vous voudrez relier vos trois outils, {{< a key="build-sales-funnel" >}}mon tutoriel pour créer son tunnel de vente avec ses outils actuels{{< /a >}} donne à une page un seul appel à l’action, la relie à une page de réservation avec deux ou trois questions, ajoute un formulaire d’inscription en double opt-in pour ceux qui ne sont pas prêts et réunit tous les prospects dans une seule liste.
 
@@ -107,7 +115,7 @@ En pratique, le consentement, c’est une case que la personne coche elle-même 
 
 ### Vos 100 premiers abonnés
 
-Vos premiers abonnés sont des gens qui vous connaissent déjà : clients et contacts invités un par un, signature d’email, formulaire sur votre site, profil LinkedIn, puis l’audience des autres. N’achetez jamais de fichier : le consentement a été donné à quelqu’un d’autre, des outils comme Mailchimp l’interdisent, et les plaintes pour spam qui suivent abîment votre délivrabilité. {{< a key="first-100-subscribers" >}}Les 100 premiers abonnés de votre newsletter{{< /a >}} passe chaque source en revue et montre comment noter la provenance de chaque inscription, pour savoir lesquelles garder.
+Vos premiers abonnés sont des gens qui vous connaissent déjà : clients et contacts invités un par un, signature d’email, formulaire sur votre site, profil LinkedIn, puis l’audience des autres. N’achetez jamais de fichier : le consentement a été donné à quelqu’un d’autre, des outils comme Mailchimp l’interdisent, et les plaintes pour spam qui suivent abîment votre délivrabilité. {{< a key="first-100-subscribers" >}}Mon guide pour trouver vos 100 premiers abonnés{{< /a >}} passe chaque source en revue et montre comment noter la provenance de chaque inscription, pour savoir lesquelles garder.
 
 ## Newsletter, deuxième partie : l’outil, la plateforme et le contenu
 
@@ -117,7 +125,7 @@ Dans {{< a key="newsletter-tools-comparison" >}}mon comparatif Brevo, MailerLite
 
 ### Email, LinkedIn ou Substack
 
-Une newsletter LinkedIn est lue plus vite si vos clients passent du temps sur LinkedIn, car vos relations et vos abonnés sont invités à s’abonner, mais impossible d’exporter les abonnés. Substack est gratuit pour publier et prend 10 % des abonnements payants, plus les frais de paiement. Votre propre liste email reste la seule option que vous maîtrisez entièrement. {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}Newsletter LinkedIn, emailing ou Substack{{< /a >}} compare les trois, et ma réponse pour la plupart des petites équipes est de publier là où lisent vos clients, puis de les inviter sur la liste qui vous appartient.
+Une newsletter LinkedIn est lue plus vite si vos clients passent du temps sur LinkedIn, car vos relations et vos abonnés sont invités à s’abonner, mais impossible d’exporter les abonnés. Substack est gratuit pour publier et prend 10 % des abonnements payants, plus les frais de paiement. Votre propre liste email reste la seule option que vous maîtrisez entièrement. {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}Mon comparatif newsletter LinkedIn, emailing ou Substack{{< /a >}} examine les trois, et ma réponse pour la plupart des petites équipes est de publier là où lisent vos clients, puis de les inviter sur la liste qui vous appartient.
 
 ### La séquence de bienvenue
 
@@ -125,7 +133,7 @@ Un abonné n’est jamais aussi attentif que pendant ses premiers jours. {{< a k
 
 ### Quoi écrire
 
-Une newsletter B2B mérite sa place avec une chose utile par envoi : la réponse à une question de client, une courte étude de cas, un changement de réglementation expliqué, un modèle à réutiliser. {{< a key="b2b-newsletter-ideas" >}}Que mettre dans une newsletter B2B{{< /a >}} couvre les formats et la fréquence et donne 20 idées. En résumé : chaque mois ou tous les quinze jours, à un rythme tenable pendant un an, deux ou trois minutes de lecture, un seul appel à l’action.
+Une newsletter B2B mérite sa place avec une chose utile par envoi : la réponse à une question de client, une courte étude de cas, un changement de réglementation expliqué, un modèle à réutiliser. {{< a key="b2b-newsletter-ideas" >}}Mon guide du contenu d’une newsletter B2B{{< /a >}} couvre les formats et la fréquence et donne 20 idées. En résumé : chaque mois ou tous les quinze jours, à un rythme tenable pendant un an, deux ou trois minutes de lecture, un seul appel à l’action.
 
 ## Délivrabilité et statistiques : arriver en boîte de réception, puis lire les chiffres
 
@@ -139,17 +147,17 @@ Une petite newsletter atteint rarement 5 000 envois par jour, mais les mêmes h
 
 Le taux d’ouverture ment. Une ouverture est comptée quand l’email charge une minuscule image de suivi, et la Protection de la confidentialité dans Mail d’Apple, proposée depuis iOS 15 en 2021, charge ces images en arrière-plan, que l’email soit lu ou non ; les filtres de sécurité ouvrent et cliquent aussi d’eux-mêmes. Jugez chaque envoi sur les clics, les réponses, les rendez-vous, les désabonnements et les plaintes, et gardez les ouvertures comme une tendance approximative.
 
-Il y a aussi un volet juridique. Au 19 octobre 2026, la CNIL demande, dans une [recommandation sur les pixels de suivi](https://www.cnil.fr/fr/recommandation-pixel-suivi-courriels) publiée en avril 2026, un consentement préalable pour mesurer les ouvertures à des fins marketing, y compris pour certains emails qui n’en demandent pas pour être envoyés, comme la prospection B2B. {{< a key="newsletter-metrics" >}}Pourquoi le taux d’ouverture ment, et quoi suivre à la place{{< /a >}} explique ce que mesure vraiment chaque chiffre.
+Il y a aussi un volet juridique. Au 19 octobre 2026, la CNIL demande, dans une [recommandation sur les pixels de suivi](https://www.cnil.fr/fr/recommandation-pixel-suivi-courriels) publiée en avril 2026, un consentement préalable pour mesurer les ouvertures à des fins marketing, y compris pour certains emails qui n’en demandent pas pour être envoyés, comme la prospection B2B. {{< a key="newsletter-metrics" >}}Mon guide des statistiques de newsletter{{< /a >}} explique ce que mesure vraiment chaque chiffre, et quoi suivre à la place.
 
 ## Suivi : quel canal amène des rendez-vous
 
 Un tunnel qu’on ne mesure pas ne se répare pas. Trois habitudes suffisent pour commencer.
 
-1. **Balisez vos liens avec des paramètres UTM.** Ajoutez utm_source, utm_medium et utm_campaign à chaque lien partagé dans une newsletter, une publication ou une publicité, toujours en minuscules et écrits de la même façon. Ne balisez jamais les liens entre vos propres pages.
-2. **Comptez demandes et rendez-vous dans GA4.** Faites de chaque demande et de chaque réservation un **événement clé** (ce que GA4 appelait une conversion), puis regardez dans les rapports d’acquisition quelle source et quel support les amènent.
-3. **Demandez.** Ajoutez la question « Comment nous avez-vous connus ? » à vos formulaires de réservation et de devis. Les visiteurs qui refusent les cookies manquent dans GA4 ou n’y sont que modélisés, et aucune balise ne voit l’ami qui a donné votre nom.
+1. Balisez vos liens avec des paramètres UTM : ajoutez utm_source, utm_medium et utm_campaign à chaque lien partagé dans une newsletter, une publication ou une publicité, toujours en minuscules et écrits de la même façon. Ne balisez jamais les liens entre vos propres pages.
+2. Comptez demandes et rendez-vous dans GA4 : envoyez chaque demande et chaque réservation vers une page de remerciement comptée comme **événement clé** (ce que GA4 appelait une conversion), puis lisez le rapport Acquisition de trafic par source/support de la session. Sur YouCanBookMe, cette redirection demande l’offre Professional ou supérieure.
+3. Demandez : ajoutez la question « Comment nous avez-vous connus ? » à vos formulaires de réservation et de devis. Les visiteurs qui refusent les cookies manquent dans GA4 ou n’y sont que modélisés, et aucune balise ne voit l’ami qui a donné votre nom.
 
-{{< a key="utm-ga4-funnel-tracking" >}}Mon tutoriel UTM et Google Analytics 4{{< /a >}} met tout cela en place pas à pas, pour voir quel canal amène des rendez-vous.
+{{< a key="utm-ga4-funnel-tracking" >}}Mon tutoriel UTM et Google Analytics 4{{< /a >}} met tout cela en place pas à pas, jusqu’à l’exploration de l’entonnoir qui montre où les visiteurs abandonnent.
 
 ## Le dernier kilomètre : répondre vite et n’oublier personne
 
@@ -163,9 +171,9 @@ Pas besoin d’une application sur mesure pour commencer. {{< a key="automate-le
 
 Si vous partez de zéro, avancez une semaine à la fois, dans cet ordre.
 
-1. **Semaine 1, la page et le téléphone.** Choisissez votre offre principale, donnez à sa page un seul appel à l’action et un numéro cliquable sur mobile, puis créez votre page de réservation.
-2. **Semaine 2, la mesure.** Comptez demandes et réservations comme événements clés dans GA4, ajoutez « Comment nous avez-vous connus ? » à vos formulaires et tenez une liste unique des prospects avec leur source.
-3. **Semaine 3, les bases de la newsletter.** Choisissez un outil d’emailing, ajoutez un formulaire d’inscription en double opt-in (avec une case séparée et non cochée à côté de tout lead magnet) et écrivez le premier email de bienvenue.
-4. **Semaine 4, un canal.** Alimentez le tunnel avec le canal qui correspond à vos acheteurs, par exemple une séquence de cold emailing vers une liste définie ou une nouvelle page de service pour le référencement, et décidez qui répond à chaque demande dans l’heure.
+1. Semaine 1, la page et le téléphone : choisissez votre offre principale, donnez à sa page un seul appel à l’action et un numéro cliquable sur mobile, puis créez votre page de réservation.
+2. Semaine 2, la mesure : comptez demandes et réservations comme événements clés dans GA4, ajoutez « Comment nous avez-vous connus ? » à vos formulaires et tenez une liste unique des prospects avec leur source.
+3. Semaine 3, les bases de la newsletter : choisissez un outil d’emailing, ajoutez un formulaire d’inscription en double opt-in (avec une case séparée et non cochée à côté de tout lead magnet) et écrivez le premier email de bienvenue.
+4. Semaine 4, un canal : alimentez le tunnel avec le canal qui correspond à vos acheteurs, par exemple une séquence de cold emailing vers une liste définie ou une nouvelle page de service pour le référencement, et décidez qui répond à chaque demande dans l’heure.
 
 Ensuite, lisez vos chiffres une fois par mois : d’où viennent les gens, combien réservent un appel, combien acceptent un devis. Colmatez la plus grosse fuite d’abord, puis la suivante.

@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:57:00+02:00
 category: "mobile-apps"
 article_type: "news"
 keywords: ["Cyber Resilience Act apps", "Cyber Resilience Act mobile apps", "CRA reporting obligations", "CRA 24-hour reporting", "Cyber Resilience Act 2027", "CRA SBOM"]
-summary: "Since 11 September 2026, a business offering an app in the EU, paid or free, must report actively exploited vulnerabilities and severe incidents through ENISA's Single Reporting Platform, with an early warning within 24 hours. From 11 December 2027, new apps and substantially modified ones must also meet the Act's security requirements, receive security updates for a support period of usually at least five years and carry the CE marking. UK and other non-EU developers are covered for their EU users."
+summary: "Since 11 September 2026, a business offering an app in the EU, paid or free, must report actively exploited vulnerabilities and severe incidents through ENISA's Single Reporting Platform, with an early warning within 24 hours. From 11 December 2027, new or substantially modified apps must also meet the Act's security requirements, get security updates, usually for at least five years, and carry the CE marking. UK and other non-EU developers are covered for their EU users."
 cover: "cyber-resilience-act-apps"
 cover_alt: "The article's title in white on a ribbed-glass panel over a photo of a shield with a check mark"
 related: ["mobile-app-security-checklist", "api-keys-mobile-apps", "nis2-small-business", "gdpr-outside-eu", "mobile-app-launch-guide"]
@@ -66,7 +66,7 @@ Three details matter for small teams:
 
 - **Apps already in the stores are covered**, however long ago you published them (Article 69), but exploitation you knew about before 11 September 2026 does not have to be reported retroactively.
 - **Your users must hear from you.** Inform the users affected, or all users where appropriate, and tell them how to protect themselves.
-- **The fine carve-out for small companies is narrow.** Microenterprises and small enterprises (fewer than 50 staff and no more than 10 million euros in turnover or balance sheet) cannot be fined for missing the 24-hour early warning (Article 64(10)). The 72-hour notification and the final report still apply, and the top fines reach 15 million euros or 2.5% of worldwide annual turnover, whichever is higher (Article 64).
+- **The fine carve-out for micro and small enterprises is narrow.** Those with fewer than 50 staff and no more than 10 million euros in turnover or balance sheet cannot be fined for missing the 24-hour early warning (Article 64(10)). The 72-hour notification and the final report still apply, and the top fines reach 15 million euros or 2.5% of worldwide annual turnover, whichever is higher (Article 64).
 
 If personal data is involved, the GDPR's own 72-hour breach notification runs alongside (GDPR Article 33). The Digital Omnibus, a Commission proposal of 19 November 2025, would create a single entry point for incident notifications under several EU laws; as of 19 October 2026, it is still a proposal. My {{< a key="incident-response-first-hour" >}}plan for the first hour of an incident{{< /a >}} covers what to do before any form.
 
