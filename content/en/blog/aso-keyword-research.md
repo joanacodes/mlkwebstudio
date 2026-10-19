@@ -49,7 +49,7 @@ People search for a task or a problem, not for your brand, until they know it. W
 
 Use their words, not yours. Nobody types "household purchase manager"; they type "shopping list". The best sources are your support emails, the reviews of competing apps (people praise and complain there in their own words), forums and Reddit threads about the problem, and your customers' questions.
 
-For websites, I use Claude's Research mode to find what people complain about most in a niche and which keywords keep coming back. The same request works for an app: ask for the problems people describe and the exact words they use, with sources you can open and check.
+For SEO and copywriting, I use Claude's Research mode to find what people complain about most in a niche and which keywords keep coming back. The same request works for an app: ask for the problems people describe and the exact words they use, with sources you can open and check.
 
 ## Step 2: collect the stores' search suggestions
 
@@ -79,7 +79,7 @@ Note the gaps too: a need reviewers keep mentioning but no listing names is a ph
 
 ## Step 4: check demand with Apple Ads search popularity
 
-Apple offers one free demand signal. When you add keywords to an ad group in Apple Ads, the keyword suggestions show a **search popularity** for each one, based on App Store searches: a score from 1 to 5, 5 being the most popular, as Apple's [keyword best practices](https://ads.apple.com/app-store/best-practices/keywords) explain.
+Apple offers one free demand signal. When you add keywords to an ad group in Apple Ads Advanced, the keyword suggestions show a **search popularity** for each one, based on App Store searches: a score from 1 to 5, 5 being the most popular, as Apple's [keyword best practices](https://ads.apple.com/app-store/best-practices/keywords) explain.
 
 You need an Apple Ads account and an app on the App Store (pre-orders count), because every ad group sits inside a campaign that promotes one app. Looking at suggestions costs nothing: Apple Ads only charges once ads run. Read the score this way:
 
@@ -89,7 +89,7 @@ You need an Apple Ads account and an app on the App Store (pre-orders count), be
 
 {{< screenshot id="aso-keyword-research-02" alt="Apple Ads keyword suggestions for an ad group, with the search popularity of each keyword" >}}
 
-If you already run ads, the search terms report shows the words people actually typed before tapping your ad, and the installs that followed. It's the app version of how I use Semrush in SEO: the keywords advertisers pay for, and what they cost, show which ones work, so I double down on them organically instead of paying for ads. My {{< a key="apple-ads-tutorial" >}}Apple Ads tutorial{{< /a >}} shows how a discovery campaign collects these terms.
+If you already run ads, the search terms report shows the words people actually typed when your ad appeared, with the taps and installs that followed. It's the app version of how I use Semrush in SEO: the keywords advertisers pay for, and what they cost, show which ones work, so I double down on them organically instead of paying for ads. My {{< a key="apple-ads-tutorial" >}}Apple Ads tutorial{{< /a >}} shows how a discovery campaign collects these terms.
 
 Google's Keyword Planner and Google Trends measure searches on Google, not in the stores. Use them to choose between two phrasings or to spot seasonal interest, not to estimate store traffic; my tutorials on {{< a key="google-keyword-planner-tutorial" >}}Keyword Planner{{< /a >}} and {{< a key="google-trends-tutorial" >}}Google Trends{{< /a >}} show how.
 
@@ -111,7 +111,7 @@ Then sort:
 
 For Basket, say the top results for "shopping list" are established apps with thousands of ratings. "Shared shopping list" and "shopping list for flatmates" are just as relevant, less contested and closer to what Basket does best: they come first.
 
-I've seen the same on the web. Of the five websites I've built for one client, one didn't work at all because it offered too many services; the one that ranks sells a very specific service.
+I've seen the same on the web. Of the five websites I've built for one client, one didn't work at all because it offered too many services; the one that ranks sells very specific services.
 
 Paid ASO tools such as AppTweak, Appfigures, MobileAction or Sensor Tower estimate popularity and competition for thousands of keywords, show what competitors rank for and track your positions; Astro is a Mac app for the App Store only. Appfigures has a free Starter plan, though keyword tracking depends on the paid plan, and AppTweak offers a free trial. They earn their price once you track dozens of keywords in several countries; before that, a subscription is the shiny-object trap I warn about in marketing.
 
@@ -148,11 +148,11 @@ Google Play has no keyword field. Google's page [Get discovered on Google Play s
 - **Short description (80 characters)**: your second phrase and the benefit, for example "One shopping list for the whole household, with the week's meals planned".
 - **Full description (4,000 characters)**: your main phrases in the first lines, then wherever they fit naturally in sentences.
 
-Don't paste a list of keywords. Google's own guidance shows a run of near-synonyms as what not to do, and its metadata policy rules out repetitive or unrelated keywords.
+Don't paste a list of keywords. Google's own guidance shows a run of near-synonyms as what not to do, and its metadata policy counts blocks of words and word lists among the common violations.
 
 ## Step 7: review the results after four to six weeks
 
-Neither store says how long a change takes to show, so wait four to six weeks and compare equal periods before and after. Here is where to look:
+Neither store says how long a new keyword takes to move your rankings, so wait four to six weeks and compare equal periods before and after. Here is where to look:
 
 - **App Store Connect**: open your app, then **Analytics**, then **Sources** under **Acquisition**. "App Store search" shows how many people found you through search, ads in search results included, but not the words they typed.
 - **Apple Ads**: the search terms report, if you run ads.
@@ -173,4 +173,4 @@ Replace the keywords that brought nothing with the next ones on your list, one c
 6. Fill the App Store fields; write Google Play's in sentences.
 7. Review after four to six weeks, then with each release.
 
-You don't need an agency for this: an afternoon, a spreadsheet and the stores' own tools give you a first list. What makes the difference is coming back to it after every release.
+You don't need an agency for a first list. What makes the difference is coming back to it after every release, with the numbers from step 7 in front of you.

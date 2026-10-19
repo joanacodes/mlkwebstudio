@@ -22,7 +22,7 @@ faq:
   - q: "Ma politique de confidentialité doit-elle être en français ?"
     a: "Oui, si vous vous adressez à un public francophone. Les lignes directrices européennes sur la transparence demandent une traduction dans la langue des personnes que vous ciblez : un site britannique ou américain qui vend en France a donc intérêt à proposer une version française."
   - q: "Une application mobile a-t-elle besoin d’une politique de confidentialité ?"
-    a: "Oui. Les règles d’Apple (section 5.1.1 des App Review Guidelines) exigent un lien vers la politique de confidentialité dans App Store Connect et dans l’application, et Google Play en demande un dans la Play Console et dans l’application. Une seule politique peut couvrir le site et l’application si elle décrit les deux."
+    a: "Oui, même si elle ne collecte aucune donnée personnelle. Les règles d’Apple (section 5.1.1 des App Review Guidelines) exigent un lien vers la politique de confidentialité dans App Store Connect et dans l’application, et Google Play en exige un dans la Play Console et dans l’application, vers une page web publique et non un PDF. Une seule politique peut couvrir le site et l’application si elle décrit les deux."
   - q: "Les visiteurs doivent-ils accepter la politique de confidentialité ?"
     a: "Non. La politique de confidentialité informe, elle ne demande pas d’accord, et une case « J’accepte la politique de confidentialité » ne rend aucun traitement licite. Quand le consentement est nécessaire, pour des cookies publicitaires ou une newsletter envoyée à des particuliers par exemple, demandez-le à part, pour cet usage précis."
 ---
@@ -44,11 +44,11 @@ Il en faut une dès que vous collectez des données personnelles, ce qui arrive 
 
 ## Le contenu d’une politique de confidentialité RGPD, rubrique par rubrique
 
-Les articles 13 et 14 totalisent dix rubriques, ici dans l’ordre où je les placerais sur la page.
+Regroupées par thème, les informations qu’exigent les articles 13 et 14 tiennent en dix rubriques, ici dans l’ordre où je les placerais sur la page.
 
 ### 1. Qui vous êtes et comment vous joindre
 
-Indiquez la dénomination de l’entreprise, son adresse et une adresse email réellement consultée (un entrepreneur individuel donne son nom, comme sur ses factures). Ajoutez les coordonnées de votre délégué à la protection des données (DPO) si vous en avez un. La plupart des petites équipes n’en ont pas besoin : l’article 37 ne l’impose qu’aux organismes publics et aux activités principales de suivi à grande échelle ou de traitement à grande échelle de données sensibles.
+Indiquez la dénomination de l’entreprise, son adresse et une adresse email réellement consultée (un entrepreneur individuel donne son nom, comme sur ses factures). Ajoutez les coordonnées de votre délégué à la protection des données (DPO) si vous en avez un. La plupart des petites équipes n’en ont pas besoin : l’article 37 l’impose aux organismes publics et aux entreprises dont l’activité principale consiste à suivre des personnes à grande échelle ou à traiter des données sensibles à grande échelle.
 
 Une entreprise suisse ou québécoise qui cible des personnes dans l’UE doit en général désigner un représentant (article 27), dont les coordonnées figurent aussi ici ; le Royaume-Uni a la même règle pour les entreprises étrangères qui y ciblent des personnes. Voir mon guide sur le {{< a key="gdpr-eu-representative" >}}représentant dans l’UE (article 27){{< /a >}}.
 
@@ -73,7 +73,7 @@ C’est le cœur de la page : chaque finalité avec sa base légale (article 6)
 
 ### 4. Les destinataires
 
-Nommez les destinataires, ou au moins leurs catégories : créateur de site ou hébergeur, outils d’emailing et de newsletter, CRM, réservation et paiement, statistiques, expert-comptable. Les catégories sont permises, mais les noms sont plus clairs et vous obligent à vérifier la liste. Les outils qui traitent des données pour votre compte sont vos sous-traitants : l’article 28 impose un contrat avec chacun, en général l’accord de traitement des données (DPA) prévu dans leurs conditions.
+Nommez les destinataires, ou au moins leurs catégories : créateur de site ou hébergeur, outils d’emailing et de newsletter, CRM, réservation et paiement, statistiques, expert-comptable. Les catégories sont permises, mais les noms sont plus clairs et vous obligent à vérifier la liste. Les outils qui traitent des données pour votre compte sont vos sous-traitants : l’article 28 impose un contrat avec chacun, en général le contrat de sous-traitance (DPA) intégré à leurs conditions.
 
 {{< callout type="tip" >}}Rédigez cette rubrique à partir de vos abonnements et des réglages de votre site, pas de mémoire : tout outil, payant ou gratuit, qui voit un nom, une adresse email ou une adresse IP doit y figurer.{{< /callout >}}
 
@@ -122,12 +122,12 @@ Trois autres documents finissent souvent fusionnés avec elle. Ils fonctionnent 
 - **Le détail des cookies** : la liste des cookies et la façon de modifier son choix peuvent former une rubrique de la politique, mais le bandeau qui recueille le consentement est un mécanisme distinct, avec ses propres règles ; voir {{< a key="cookie-banner-rules" >}}ce qu’exige la CNIL pour le bandeau cookies{{< /a >}}.
 - **Les CGV ou CGU** : les clauses contractuelles ont leur propre page, et les lignes directrices sur la transparence demandent que l’information sur les données en reste clairement séparée.
 
-## Modèles, générateurs et piège du copier-coller
+## Modèles, générateurs et pièges du copier-coller
 
 Inutile de partir d’une page blanche. Deux points de départ officiels sont gratuits :
 
 - La CNIL publie des [exemples de mentions d’information](https://www.cnil.fr/fr/rgpd-exemples-de-mentions-dinformation), dont l’un pour les clients d’un site de vente en ligne (prospection par email comprise) et un autre pour des prospects démarchés par courrier, présentés comme des illustrations à adapter et non comme des modèles valables partout.
-- Pour une clientèle britannique, l’ICO propose un générateur gratuit en anglais, [Create your own privacy notice](https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/), décliné par public et par secteur et mis à jour pour le Data (Use and Access) Act. Il n’est pas conçu pour les organismes qui traitent beaucoup de données sensibles, prennent des décisions automatisées ou doivent désigner un DPO.
+- Pour une clientèle britannique, l’ICO propose un générateur gratuit en anglais, [Create your own privacy notice](https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/), décliné par public et par secteur et mis à jour en 2026 pour le Data (Use and Access) Act. Il n’est pas conçu pour les organismes qui traitent beaucoup de données sensibles, prennent des décisions automatisées ou doivent désigner un DPO.
 
 Un modèle vous donne la structure ; les faits doivent venir de vous. Les défauts habituels d’une politique copiée :
 

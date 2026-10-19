@@ -22,7 +22,7 @@ faq:
   - q: "Which language should a privacy policy be in?"
     a: "The language of the people you serve. The EU regulators' transparency guidelines say that when you target people who speak another language, you should give them a translation, so a UK site selling in France should offer the page in French as well."
   - q: "Does a mobile app need a privacy policy?"
-    a: "Yes. Apple's App Review Guidelines (section 5.1.1) require a privacy policy link in App Store Connect and inside the app, and Google Play asks for one in Play Console and in the app as well. One policy can cover your website and your app if it describes both."
+    a: "Yes, even if it collects no personal data. Apple's App Review Guidelines (section 5.1.1) require a privacy policy link in App Store Connect and inside the app, and Google Play requires one in Play Console and in the app, on a public web page rather than a PDF. One policy can cover your website and your app if it describes both."
   - q: "Do visitors have to accept my privacy policy?"
     a: "No. A privacy policy informs people; it does not ask for their agreement, and a box saying 'I accept the privacy policy' makes nothing lawful. When you need consent, for advertising cookies or a newsletter sent to private individuals for example, ask for it separately and for that purpose only."
 ---
@@ -44,11 +44,11 @@ You need one as soon as you collect personal data, which on a website happens ea
 
 ## What to include in a privacy policy, section by section
 
-Articles 13 and 14 add up to ten items. Here they are in the order I would put them on the page.
+Grouped by topic, the items Articles 13 and 14 require make ten sections. Here they are in the order I would put them on the page.
 
 ### 1. Who you are and how to reach you
 
-Give your business's legal name, its address and an email address someone actually reads (a sole trader gives their own name, as on their invoices). Add your data protection officer's contact details if you have one. Most small teams do not need one: Article 37 makes a DPO compulsory only for public bodies and for core activities involving large-scale monitoring or large-scale processing of sensitive data.
+Give your business's legal name, its address and an email address someone actually reads (a sole trader gives their own name, as on their invoices). Add your data protection officer's contact details if you have one. Most small teams do not need one: Article 37 requires a DPO for public bodies and for businesses whose core activities involve monitoring people on a large scale or processing sensitive data on a large scale.
 
 A business outside the EU that targets people in it usually needs an EU representative (Article 27), whose details go here too; the UK has the same rule for businesses outside the UK that target people there. See my guide to the {{< a key="gdpr-eu-representative" >}}EU representative under Article 27{{< /a >}}.
 
@@ -87,7 +87,7 @@ My guide to {{< a key="gdpr-us-tools-data-transfers" >}}US tools and the Data Pr
 
 ### 6. How long you keep it
 
-Give a period for each purpose, or the criteria that set it; "as long as necessary" is neither. In France, the CNIL's reference for prospects who never became clients is three years from collection or from their last contact with you, and commercial law requires invoices to be kept for ten years. UK law sets no fixed periods: the ICO expects you to set them and justify them. My article on {{< a key="gdpr-data-retention-crm" >}}retention periods for client and prospect data{{< /a >}} covers the usual cases.
+Give a period for each purpose, or the criteria that set it; "as long as necessary" is neither. In France, the CNIL's reference for prospects who never became clients is three years from collection or from the last contact that came from them, such as a reply or a click on a link, and commercial law requires invoices to be kept for ten years. UK data protection law sets no fixed periods: beyond what tax rules require for your accounts, the ICO expects you to set them and justify them. My article on {{< a key="gdpr-data-retention-crm" >}}retention periods for client and prospect data{{< /a >}} covers the usual cases.
 
 ### 7. People's rights, and how to use them
 
@@ -126,7 +126,7 @@ Three other documents often get merged into the privacy policy. They work better
 
 You do not have to start from a blank page. Two official starting points are free:
 
-- In the UK, the ICO's [Create your own privacy notice](https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/) tool asks questions step by step and produces a notice to copy, with versions for customers and suppliers, for staff and volunteers, and for some sectors; the ICO has updated it for the Data (Use and Access) Act. It is not designed for organisations that handle large amounts of sensitive data, make automated decisions or must appoint a DPO.
+- In the UK, the ICO's [Create your own privacy notice](https://ico.org.uk/for-organisations/advice-for-small-organisations/privacy-notices-and-cookies/create-your-own-privacy-notice/) tool asks questions step by step and produces a notice to copy, with versions for customers and suppliers, for staff and volunteers, and for some sectors; the ICO updated it in 2026 for the Data (Use and Access) Act. It is not designed for organisations that handle large amounts of sensitive data, make automated decisions or must appoint a DPO.
 - In France, the CNIL publishes [worked examples of privacy information](https://www.cnil.fr/fr/rgpd-exemples-de-mentions-dinformation) (in French), including one for an online shop's customers and one for prospects contacted by post, presented as illustrations to adapt, not ready-made models.
 
 Some consent plugins, such as CookieYes on WordPress, also include a policy generator. A template gives you the structure; the facts have to come from you. The usual problems with a copied policy:

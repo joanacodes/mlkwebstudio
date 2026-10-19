@@ -132,4 +132,4 @@ Run these six checks before you pay:
 5. **Read the data processing agreement** and check the Data Privacy Framework list before you import a client list.
 6. **Add up the real monthly cost:** the plan, the payment fees, the usage charges (on HighLevel) and the tools you will keep anyway.
 
-If the answer is still yes, pick the tool built for your customer: Systeme.io to sell a course on a small budget, ClickFunnels for sales pages and upsells at scale, HighLevel to run marketing for clients. For the rest of my setup, see {{< a key="small-business-tools-guide" >}}the tools I actually use and what they cost{{< /a >}}.
+If the answer is still yes, go back to the table at the top and pick the tool built for your kind of customer. For the rest of my setup, see {{< a key="small-business-tools-guide" >}}the tools I actually use and what they cost{{< /a >}}.
