@@ -27,29 +27,29 @@ faq:
 
 Google Workspace and Microsoft 365 come with strong security features, but a new account is set up for convenience, not for your team's risks. This tutorial lists the Google Workspace security settings that matter most for a small team, then the Microsoft 365 equivalents, with the menu path for each as of 19 October 2026.
 
-You do not need an IT department for this, or me. If you hold the admin password, an afternoon with this list closes the usual ways in: a stolen password, a fake sign-in page, a forwarding rule nobody noticed, a file that anyone with the link can open.
+You do not need an IT department for this, or me. An afternoon with this list closes the usual ways in: a stolen password, a fake sign-in page, a forwarding rule nobody noticed, a file that anyone with the link can open.
 
-This tutorial is one chapter of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}. If you have not picked a suite yet, my guide to getting a {{< a key="professional-email-address" >}}professional email address{{< /a >}} compares the options and their prices first.
+It is one chapter of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}. If you have not picked a suite yet, my guide to getting a {{< a key="professional-email-address" >}}professional email address{{< /a >}} compares the options first.
 
 ## Before you start: admin rights, two keys and a quiet afternoon
 
 - **Full admin rights**: super admin in Google Workspace, Global Administrator in Microsoft 365. Whoever signed up for the subscription has them.
-- **Two hardware security keys per admin**: small USB or NFC keys (FIDO2) that you touch to confirm a sign-in. One goes on your keyring, the spare somewhere else.
-- **A message to the team**: enforcing two-step verification or blocking old mail apps changes how everyone signs in, so warn people the day before and stay reachable.
+- **Two hardware security keys per admin**: small USB or NFC keys (FIDO2) that you touch to confirm a sign-in, one on your keyring and the spare elsewhere.
+- **A message to the team**: enforcing two-step verification or blocking old mail apps changes how everyone signs in, so warn people the day before.
 
-Menus move. If a label below has changed, the search bar at the top of both consoles finds a setting by name.
+Menus move. If a label below has changed, the search bar at the top of each console finds the setting by name.
 
 ## Which plan gives you what
 
 | Plan | Security settings you get |
 |---|---|
-| Google Workspace Business Starter | Enforced 2-Step Verification and security keys, Gmail Safety settings, Drive sharing and third-party app controls, the alert centre, fundamental endpoint management |
-| Google Workspace Business Standard | The same, plus a security sandbox that runs suspicious Gmail attachments in an isolated environment |
-| Google Workspace Business Plus | Plus Vault (retention and eDiscovery) and advanced endpoint management: strong passcodes, device security policies, remote device wipe |
-| Microsoft 365 Business Basic and Standard | Security defaults (multifactor authentication for everyone, legacy sign-ins blocked), built-in protection against malware, spam and spoofing, preset security policies, Basic Mobility and Security for phones |
-| Microsoft 365 Business Premium | Plus Conditional Access (Microsoft Entra ID P1), Defender for Office 365 Plan 1 (Safe Links, Safe Attachments, impersonation protection), Intune Plan 1 and Defender for Business |
+| Google Workspace Business Starter | 2-Step Verification enforcement, security keys, Gmail Safety settings, Drive sharing and app controls, alert centre, fundamental endpoint management |
+| Google Workspace Business Standard | The same, plus a sandbox that runs suspicious Gmail attachments in isolation |
+| Google Workspace Business Plus | Plus Vault and advanced endpoint management (strong passcodes, device security policies, remote wipe) |
+| Microsoft 365 Business Basic and Standard | Security defaults, built-in protection against malware, spam and spoofing, preset security policies, Basic Mobility and Security |
+| Microsoft 365 Business Premium | Plus Conditional Access (Microsoft Entra ID P1), Defender for Office 365 Plan 1 (Safe Links, Safe Attachments, impersonation protection), Intune Plan 1, Defender for Business |
 
-Every step below works on Business Starter or Microsoft 365 Business Basic unless I say otherwise. Secure the plan you have before paying for the next one.
+Every step below works on Business Starter or Microsoft 365 Business Basic unless I say otherwise, so secure the plan you have before paying for the next one.
 
 One gap on Google's side: the security health page, which compares your settings with Google's recommendations, is listed in Google's help for Enterprise, Education and some Frontline editions only, at the time of writing. On a Business plan, this list is your health check.
 
@@ -66,7 +66,7 @@ A super admin can change every setting and reset every password, including other
 3. Sign in as super admin only for admin tasks, then sign out.
 4. Two security keys on each super admin account, with the spare kept elsewhere.
 
-A more limited admin role is enough for jobs such as password resets. Guard your domain registrar's login too: Google switches super admin account recovery off by default for new customers, and its support team will ask you to prove you control the domain's DNS.
+A more limited admin role is enough for password resets. Guard your domain registrar's login too: Google switches super admin account recovery off by default for new customers, and its support team will ask you to prove you control the domain's DNS.
 
 ### 2. Enforce 2-Step Verification for everyone
 
@@ -80,7 +80,7 @@ Go to **Apps > Google Workspace > Gmail > Safety**. Three sections matter:
 - **Links and external images**: checks links hidden behind short URLs, scans linked images and warns before someone clicks a link to an untrusted domain.
 - **Spoofing and authentication**: catches domain names that look like yours, a colleague's name used from an outside address (a classic opening for a fake payment request), mail pretending to come from your own domain, and unauthenticated mail.
 
-In each section, tick **Apply future recommended settings automatically**, so new protections switch on without you. For each protection, choose the action: a warning in the inbox, the spam folder, or quarantine. Quarantine only makes sense if an admin will review and release the messages.
+In each section, tick **Apply future recommended settings automatically**, so new protections switch on without you. For each protection, pick the action: a warning in the inbox, the spam folder, or quarantine, which only makes sense if an admin will review the messages.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-01" alt="Google Admin console, Gmail Safety page with the Attachments, Links and external images, and Spoofing and authentication sections" >}}
 
@@ -118,35 +118,35 @@ Microsoft spreads these settings across the Microsoft 365 admin centre, the Micr
 
 Whoever bought the subscription is a Global Administrator. Microsoft's guidance:
 
-- **Fewer than five Global Administrators**, each with a normal account for daily work: use the admin account only for admin tasks, then sign out. Admin-only accounts don't need a Microsoft 365 licence.
-- **At least two emergency access accounts** that belong to nobody in particular: cloud-only (the address ending in .onmicrosoft.com), protected by a passkey on a security key that differs from your usual sign-in method, and never used day to day.
-- **The narrowest role for everyone else**: User Administrator to create accounts, Helpdesk Administrator or Password Administrator to reset passwords, Billing Administrator for invoices. Assign them in the Microsoft 365 admin centre under **Roles > Role assignments**.
+- **Fewer than five Global Administrators**, each with a normal account for daily work. Admin-only accounts don't need a Microsoft 365 licence.
+- **At least two emergency access accounts** that belong to nobody in particular: cloud-only (ending in .onmicrosoft.com), protected by a passkey on a security key that differs from your usual sign-in method, and never used day to day.
+- **The narrowest role for everyone else**: User Administrator to create accounts, Helpdesk or Password Administrator to reset passwords, Billing Administrator for invoices. Assign them in the Microsoft 365 admin centre under **Roles > Role assignments**.
 
-On every plan, admins can sign in with a passkey or Microsoft Authenticator instead of a password; Business Premium can make that compulsory through Conditional Access.
+On every plan, admins can sign in with a passkey or Microsoft Authenticator instead of a password; Business Premium can make it compulsory.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-04" alt="Microsoft 365 admin centre, Role assignments page listing roles such as Global Administrator, User Administrator and Helpdesk Administrator" >}}
 
 ### 2. Multifactor authentication for everyone
 
-Microsoft 365 organisations created after October 2019 have security defaults on, unless someone switched them off. In the Microsoft Entra admin centre, **Entra ID > Overview > Properties > Manage security defaults** should say **Enabled**. Security defaults make everyone register Microsoft Authenticator, whose notifications ask for the number shown on the sign-in screen, and they block legacy authentication (step 3). The two-factor tutorial linked above covers the switch-on day.
+Microsoft 365 organisations created after October 2019 have security defaults on, unless someone switched them off. In the Microsoft Entra admin centre, **Entra ID > Overview > Properties > Manage security defaults** should say **Enabled**. They make everyone register Microsoft Authenticator, whose notifications ask for the number shown on the sign-in screen, and they block legacy authentication (step 3).
 
 {{< screenshot id="secure-google-workspace-microsoft-365-05" alt="Microsoft Entra admin centre, Properties tab of the Overview page with the Security defaults panel set to Enabled" >}}
 
-On Business Premium, Conditional Access replaces security defaults with rules you choose. Turn security defaults off only at that point, as Microsoft advises, then create the policies straight away from **Entra ID > Conditional Access > Create new policy from templates**. The Secure foundation templates include **Require multifactor authentication for admins**, **Require multifactor authentication for all users** and **Block legacy authentication**. Exclude your emergency access accounts from any policy that blocks sign-in, and use **Report-only** mode to test the stricter rules you add later.
+On Business Premium, Conditional Access replaces security defaults with rules you choose. Turn security defaults off only at that point, as Microsoft advises, then create the policies straight away from **Entra ID > Conditional Access > Create new policy from templates**. The Secure foundation templates include **Require multifactor authentication for admins**, **Require multifactor authentication for all users** and **Block legacy authentication**. Exclude your emergency access accounts from policies that block sign-in, and test stricter rules later in **Report-only** mode.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-06" alt="Microsoft Entra admin centre, Conditional Access policy templates in the Secure foundation category, including Block legacy authentication" >}}
 
 ### 3. Block legacy authentication, and find what still uses it
 
-Legacy authentication covers older ways of signing in, such as mail apps that use IMAP, POP3 or SMTP with just a password. They can't ask for a second factor, so a stolen password still works through them. Security defaults block them, and so does the Block legacy authentication template.
+Legacy authentication covers older ways of signing in, such as mail apps that use IMAP, POP3 or SMTP with just a password. They can't ask for a second factor, so a stolen password still works through them. Security defaults and the Block legacy authentication template both shut them out.
 
-Before you block, open **Entra ID > Monitoring & health > Sign-in logs**, add the **Client App** column and filter on the legacy protocols. The usual suspects in a small office: a copier that emails scans, an old mail app on a phone, a website form that sends through a mailbox with a password. Move them to a modern sign-in or a dedicated sending service first, or they stop working.
+Before you block, open **Entra ID > Monitoring & health > Sign-in logs**, add the **Client App** column and filter on the legacy protocols. The usual suspects: a copier that emails scans, an old mail app on a phone, a website form that sends through a mailbox. Move them to a modern sign-in or a dedicated sending service first.
 
 ### 4. Authenticate your domains, then turn on the Standard preset policy
 
 Microsoft's own order for email protection starts with SPF, DKIM and DMARC for every domain in your tenant, including domains you never send from; the SPF, DKIM and DMARC tutorial above shows Microsoft's two DKIM records.
 
-Then, in the Defender portal, go to **Email & collaboration > Policies & rules > Threat policies > Preset security policies** and turn on **Standard protection** for all recipients, as Microsoft recommends. Strict is the tighter profile, meant for the people attackers target most, such as whoever approves payments. On Business Premium, the presets also bring Defender for Office 365: Safe Links checks links when they are clicked, Safe Attachments opens attachments in a sandbox before delivery, and impersonation protection flags mail pretending to come from a colleague or from your domain.
+Then, in the Defender portal, go to **Email & collaboration > Policies & rules > Threat policies > Preset security policies** and turn on **Standard protection** for all recipients, as Microsoft recommends. Strict is the tighter profile, for the people attackers target most, such as whoever approves payments. On Business Premium, the presets also bring Defender for Office 365: Safe Links checks links when they are clicked, Safe Attachments opens attachments in a sandbox before delivery, and impersonation protection flags mail pretending to come from a colleague or from your domain.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-07" alt="Microsoft Defender portal, Preset security policies page with Standard protection turned on" >}}
 
@@ -164,34 +164,22 @@ Out of the box, SharePoint and OneDrive sharing is set to the most permissive le
 
 ### 7. Alerts, Secure Score, the audit log and devices
 
-- **Alert policy**, in the Defender portal under **Email & collaboration > Policies & rules**, holds the default alert policies of your plan. Open the ones you care about and check who receives the email notifications.
-- **Microsoft Secure Score**, also in the Defender portal, lists improvement actions and the points each is worth: a good to-do list once the steps above are done.
+- **Alert policy**, in the Defender portal under **Email & collaboration > Policies & rules**, holds your plan's default alert policies: open the ones you care about and check who receives the emails.
+- **Microsoft Secure Score**, also in the Defender portal, lists improvement actions and the points each is worth: a good to-do list after this one.
 - **Audit**, in the Microsoft Purview portal, records who did what. Check that it is recording now, not on the day you need it.
-- **Devices**: Basic Mobility and Security, included in every Microsoft 365 for business plan, enrols phones and can wipe them; Business Premium adds Intune Plan 1 and Defender for Business to manage and protect computers too.
+- **Devices**: Basic Mobility and Security, in every Microsoft 365 for business plan, enrols phones and can wipe them; Business Premium adds Intune Plan 1 and Defender for Business for computers too.
 
 ## Mistakes that lock people out, or let attackers stay
 
-- **Enforcing without warning.** Microsoft no longer gives users 14 days to register once security defaults are on, and once Google's enforcement starts, anyone not enrolled is stuck at sign-in. Tell people first.
+- **Enforcing without warning.** Microsoft no longer gives users 14 days to register once security defaults are on, and once Google's enforcement starts, anyone not enrolled is stuck at sign-in.
 - **Switching off security defaults to fix one problem.** It removes multifactor authentication for everyone. Fix the copier or the app instead.
 - **Forgetting leavers.** A former colleague's account, devices and connected apps stay open until you close them; my {{< a key="offboarding-checklist" >}}offboarding checklist{{< /a >}} lists them all.
 - **Treating the suite as a backup.** These settings protect access, not data: a deleted folder, or files encrypted by ransomware and synced to the cloud, can still cost you work. My {{< a key="backups-3-2-1" >}}3-2-1 backup guide{{< /a >}} covers both suites.
 
 ## Your checklist, and when to hand it over
 
-**Google Workspace**
+- **Google Workspace**: two super admins with separate admin accounts and two keys each; 2-Step Verification enforced; Gmail Safety on; automatic forwarding off; DKIM on; external sharing warning on; apps reviewed; alert emails on.
+- **Microsoft 365**: fewer than five Global Administrators and two emergency accounts; security defaults or Conditional Access, with legacy authentication blocked; SPF, DKIM, DMARC and the Standard preset; forwarding Off; sharing links set to Specific people and View; alerts and audit checked.
+- **Every month**: review the list of admins and the connected apps.
 
-- Two super admins, each with a separate admin account and two security keys
-- 2-Step Verification enforced, text-message codes ruled out
-- Gmail Safety on in all three sections, automatic forwarding off, DKIM on
-- External sharing warning on, third-party apps reviewed, alert notifications on
-
-**Microsoft 365**
-
-- Fewer than five Global Administrators, two emergency access accounts, limited roles for everyone else
-- Security defaults on, or Conditional Access policies from the templates, with legacy authentication blocked
-- SPF, DKIM and DMARC published, Standard preset policy on, automatic forwarding set to Off
-- Sharing links defaulting to Specific people and View, alert recipients checked, audit recording
-
-Then once a month, review the list of admins and the connected apps.
-
-If you find a forwarding rule nobody set up, an app nobody recognises or an alert about a sign-in you can't explain, stop tidying settings and follow my {{< a key="incident-response-first-hour" >}}first-hour plan{{< /a >}}. If personal data was exposed, Article 33 of the GDPR (and of the UK GDPR) may require you to tell the regulator within 72 hours; that part is a legal question, and this article is not legal advice. An intrusion that has spread beyond one mailbox is a job for an incident response company assured by the NCSC, or the one your insurer names. And if you have lost the admin account itself, that is an IT rescue: I answer those the same day or within 24 hours, and if your case needs someone else, I will tell you.
+If you find a forwarding rule nobody set up, an app nobody recognises or an alert about a sign-in you can't explain, stop tidying settings and follow my {{< a key="incident-response-first-hour" >}}first-hour plan{{< /a >}}. If personal data was exposed, Article 33 of the GDPR (and of the UK GDPR) may require you to tell the regulator within 72 hours; that part is a legal question, and this article is not legal advice. An intrusion that has spread beyond one mailbox calls for an incident response company assured by the NCSC, or the one your insurer names. If you have lost the admin account itself, that is an IT rescue: I answer those the same day or within 24 hours, and I will tell you if your case needs someone else.

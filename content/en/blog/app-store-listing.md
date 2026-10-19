@@ -1,7 +1,7 @@
 ---
 title: "App Store and Google Play listings: title, subtitle, keywords and description"
-seo_title: "How to write an app store description, field by field"
-description: "How to write an app store description, plus every other App Store and Google Play listing field: 2026 limits, what to write and examples to copy."
+seo_title: "How to write an app store description (with examples)"
+description: "How to write an app store description, plus every other App Store and Google Play listing field: 2026 limits, what to write and examples to adapt."
 slug: "write-app-store-description"
 translationKey: "app-store-listing"
 date: 2026-10-18T22:27:00+02:00
@@ -22,7 +22,7 @@ faq:
   - q: "Should I mention prices or discounts in my app listing?"
     a: "Not in the description: Apple advises against specific prices there, because the store already shows the price and it can differ between regions. For a limited-time offer on the App Store, Apple suggests the promotional text instead."
   - q: "Can I use AI to write my app store listing?"
-    a: "Yes, for a first draft. When I write website copy, I use AI to combine my research and drafts, then edit until the text sounds like the business. Do the same: check every claim against what the app really does, and count the characters before you paste."
+    a: "Yes, for a first draft. When I write website copy, I use AI to bring my research and drafts together, then rework the text until I am happy with it. Do the same: check every claim against what the app really does, and count the characters before you paste."
 ---
 
 Your store listing is the sales page most people read before they install your app, and it is built from short fields with hard limits. This tutorial shows how to write an app store description and fill in every field around it, on the App Store and on Google Play, with the limits that apply in October 2026 and examples you can adapt.
@@ -46,7 +46,7 @@ Both stores ask for a name, a short line under it, a long description and images
 | Video | Up to 3 app previews of 15 to 30 seconds | One YouTube video, optional |
 | Feature graphic | None | 1024 x 500, required |
 
-In App Store Connect, the name and subtitle sit on the **App Information** page (under **General** in your app's sidebar), and the other fields on the page of the version you are preparing. In Play Console, everything is on the **Main store listing** page, which Google's help places under **Grow users**.
+In App Store Connect, the name and subtitle sit on the **App Information** page (under **General** in your app's sidebar), and the other fields on the page of the version you are preparing. In Play Console, the text and graphics are all on the **Main store listing** page, which Google's help places under **Grow users**.
 
 ## Step 1: choose a name people can read and search
 

@@ -160,7 +160,7 @@ Do not swap it for a full-screen "download our app" pop-up. Apple contrasts its 
 ## Before launch: a checklist for your app's website
 
 1. Landing page live: problem-led headline, real screenshots, both badges (App Store first, same height), FAQ.
-2. Privacy and support pages published and entered in both stores, plus the account deletion link if users create accounts.
+2. Privacy and support pages published, with their URLs in your store listings, plus the account deletion link if users create accounts.
 3. One page per use case, each with its own title and meta description; site added to Google Search Console.
 4. SoftwareApplication markup with no rating you cannot show, checked in Google's Rich Results Test.
 5. Both association files served at their `.well-known` addresses over HTTPS with no redirect; links tested on a fresh install.

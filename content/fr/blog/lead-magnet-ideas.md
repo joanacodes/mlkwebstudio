@@ -16,7 +16,7 @@ related: ["newsletter-consent-gdpr", "welcome-email-sequence", "first-100-subscr
 services: ["websites"]
 faq:
   - q: "Faut-il demander un email pour télécharger un lead magnet ?"
-    a: "Oui si vous voulez recontacter ceux qui le prennent. Laissez en accès libre ce que Google et les assistants IA doivent pouvoir lire : un compromis courant consiste à publier l’article en clair et à réserver le modèle, le simulateur ou la version imprimable au formulaire."
+    a: "Oui si vous voulez constituer une liste : le formulaire qui l’envoie est aussi celui où l’on s’inscrit à votre newsletter. Laissez en accès libre ce que Google et les assistants IA doivent pouvoir lire : un compromis courant consiste à publier l’article en clair et à réserver le modèle, le simulateur ou la version imprimable au formulaire."
   - q: "Qu’est-ce qu’un content upgrade ?"
     a: "Un lead magnet conçu pour un seul article : une checklist, un modèle ou un exemple détaillé qui prolonge ce que le lecteur est en train de lire, proposé dans l’article lui-même. Il convient aux articles qui ont déjà un trafic régulier."
   - q: "Quelle différence entre un lead magnet et un tripwire ?"
@@ -29,11 +29,11 @@ faq:
 
 Beaucoup d’idées de lead magnet que l’on trouve en ligne viennent de vendeurs de formations, et elles visent le volume. Une entreprise de services a besoin de l’inverse : moins d’inscrits, mais des personnes qui pourraient vous confier un projet cette année, et une raison de leur parler.
 
-Voici 12 idées, chacune avec un exemple dans un métier différent, puis comment livrer, promouvoir et mesurer la vôtre. Ce guide fait partie de mon {{< a key="funnels-newsletters-guide" >}}guide complet du tunnel de vente et de la newsletter{{< /a >}}.
+Voici 12 idées, chacune avec un exemple dans un métier différent, puis comment livrer, promouvoir et mesurer la vôtre. Cet article fait partie de mon {{< a key="funnels-newsletters-guide" >}}guide complet du tunnel de vente et de la newsletter{{< /a >}}.
 
 ## Qu’est-ce qu’un lead magnet ?
 
-**Un lead magnet est une ressource gratuite et utile que l’on obtient en échange de ses coordonnées, pour que vous puissiez recontacter les personnes intéressées mais pas encore prêtes à acheter.** Il agit au milieu du tunnel, comme le montre mon {{< a key="sales-funnel-explained" >}}exemple de tunnel de vente pour une entreprise de services{{< /a >}} : le visiteur a trouvé votre site mais n’est pas prêt à appeler.
+**Un lead magnet est une ressource gratuite et utile que l’on obtient en échange de ses coordonnées, pour que vous puissiez recontacter les personnes intéressées mais pas encore prêtes à acheter.** Il intervient au milieu du tunnel, comme le montre mon {{< a key="sales-funnel-explained" >}}exemple de tunnel de vente pour une entreprise de services{{< /a >}} : le visiteur a trouvé votre site mais n’est pas prêt à appeler.
 
 On parle aussi d’« aimant à prospects ». Pour un service, c’est un morceau de votre expertise que l’on peut utiliser sans vous.
 
@@ -60,7 +60,7 @@ Des questions qui débouchent sur une note commentée. *Exemple :* un consultan
 
 ### 3. Un modèle
 
-Un document que l’on devrait sinon construire de zéro. *Exemple :* un architecte d’intérieur propose un tableur de budget de rénovation pièce par pièce, qui montre combien de décisions une rénovation implique : les prendre, c’est son métier.
+Un document qu’il faudrait sinon créer de zéro. *Exemple :* un architecte d’intérieur propose un tableur de budget de rénovation pièce par pièce, qui montre combien de décisions une rénovation implique : les prendre, c’est son métier.
 
 ### 4. Un simulateur de prix
 
@@ -102,16 +102,16 @@ Des informations pratiques sur un lieu, que les concurrents nationaux ne peuvent
 
 Partez des questions posées au premier appel. Celles que j’entends : avez-vous de l’expérience, que va m’apporter le SEO, combien de temps pour être bien classé ? Chacune pourrait devenir une ressource. Pour mes textes de vente, j’utilise aussi Claude et la recherche approfondie (deep research) afin de trouver ce dont les gens d’un secteur se plaignent le plus : une plainte récurrente dans les avis est un sujet pour lequel on donne volontiers son email.
 
-Gardez les idées qui passent les quatre tests et faites-en un, pas cinq, sans céder chaque mois au format à la mode : un seul lead magnet bien placé fait plus que cinq que personne ne voit.
+Gardez les idées qui passent les quatre tests, puis n’en réalisez qu’une, pas cinq, sans céder chaque mois au format à la mode : un seul lead magnet bien placé fait plus que cinq que personne ne voit.
 
 ## Comment le livrer : un formulaire, un email de confirmation, un lien
 
-Pas besoin d’un logiciel de tunnel de vente : Brevo, MailerLite, Mailchimp et Kit proposent tous des formulaires d’inscription avec double opt-in.
+Pas besoin d’un logiciel de tunnel de vente : Brevo, MailerLite, Mailchimp et Kit proposent tous des formulaires d’inscription avec double opt-in. MailerLite l’active par défaut sur les nouveaux formulaires ; dans Brevo, vous choisissez l’email de double confirmation au paramétrage du formulaire.
 
 1. **Une page et un formulaire.** Une page par lead magnet, et le même formulaire à la fin des articles liés. Demandez l’adresse email, et le prénom seulement si vous vous en servirez.
 2. **Un email de confirmation.** La personne confirme son adresse d’un clic (double opt-in), puis reçoit la ressource : pas de fautes de frappe ni de fausses adresses dans votre liste, et une trace de chaque inscription.
 3. **Un lien plutôt qu’une pièce jointe**, vers un fichier que vous pouvez corriger sans rien renvoyer.
-4. **Un suivi court** : deux ou trois emails qui se terminent par une invitation à réserver un appel, comme dans ma {{< a key="welcome-email-sequence" >}}séquence email de bienvenue{{< /a >}}.
+4. **Un suivi court**, pour ceux qui cochent la case newsletter (voir plus bas) : deux ou trois emails qui se terminent par une invitation à réserver un appel, comme dans ma {{< a key="welcome-email-sequence" >}}séquence email de bienvenue{{< /a >}}.
 
 Aucun article du [RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679) n’impose le double opt-in, mais son article 7, paragraphe 1, vous oblige à pouvoir prouver le consentement, et un clic de confirmation est la preuve la plus simple.
 
@@ -119,7 +119,7 @@ Aucun article du [RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELE
 
 Envoyer la ressource à quelqu’un qui l’a demandée est une chose ; l’inscrire à votre newsletter en est une autre, qui demande en général son propre accord. Ajoutez sous le formulaire une case non cochée (« Recevoir aussi la newsletter mensuelle ») et envoyez la ressource dans tous les cas.
 
-Faire de la newsletter le prix du téléchargement est risqué. Selon l’article 7, paragraphe 4, et le considérant 43 du RGPD, le consentement est présumé ne pas être libre quand un service en dépend sans en avoir besoin, et les lignes directrices du CEPD font peser la preuve sur vous. Je n’ai pas trouvé de texte de la CNIL sur le téléchargement lui-même ; sa règle générale exige [un choix réel, sans conséquence négative en cas de refus](https://www.cnil.fr/fr/les-bases-legales/consentement). Au Royaume-Uni, l’ICO tient la même ligne.
+Faire de la newsletter le prix du téléchargement est risqué. Selon l’article 7, paragraphe 4, et le considérant 43 du RGPD, le consentement est présumé ne pas être libre quand un service en dépend sans en avoir besoin, et les lignes directrices du CEPD font peser la preuve sur vous. Au 19 octobre 2026, je n’ai pas trouvé de texte de la CNIL sur le téléchargement lui-même ; sa règle générale exige [un choix réel, sans conséquence négative en cas de refus](https://www.cnil.fr/fr/les-bases-legales/consentement). Au Royaume-Uni, l’ICO tient la même ligne.
 
 En B2B, la règle est plus souple : la CNIL admet [la prospection par email de professionnels](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique) sans consentement préalable si le message concerne leur métier, à condition qu’ils en aient été informés et puissent s’y opposer simplement. Mais un formulaire ne dit pas à quel titre chacun s’inscrit : la case séparée reste le plus simple. Les règles suivent aussi vos lecteurs : une entreprise suisse, québécoise ou marocaine dont la ressource vise des personnes dans l’Union relève du RGPD pour ces inscriptions (article 3, paragraphe 2).
 
@@ -129,14 +129,14 @@ Mon guide sur la {{< a key="newsletter-consent-gdpr" >}}newsletter et le consent
 
 - **À la fin des articles liés**, là où le lecteur vient de passer cinq minutes sur ce problème.
 - **Sur une page dédiée**, liée depuis la page du service correspondant et le pied de page.
-- **Sur LinkedIn.** Mettez l’essentiel dans la publication elle-même et ajoutez la page à la section Sélection (Featured) de votre profil. Évitez les « commentez OUI et je vous l’envoie » : LinkedIn a annoncé en mars 2026 que son fil montrerait moins ce type d’appât à engagement.
+- **Sur LinkedIn.** Mettez l’essentiel dans la publication elle-même et ajoutez la page à la section « Sélection » (Featured) de votre profil. Évitez les « commentez OUI et je vous l’envoie » : LinkedIn a annoncé en mars 2026 que son fil mettrait moins en avant ces publications qui quémandent des commentaires.
 - **Lors d’événements**, avec un QR code sur la dernière slide, et **dans votre signature email**.
 
 Mon guide pour {{< a key="first-100-subscribers" >}}trouver vos 100 premiers abonnés{{< /a >}} présente d’autres canaux.
 
 ### En cold emailing : proposez-le, sans lien
 
-Je ne mets jamais de lien dans un cold email : le texte brut avec un numéro de téléphone fait arriver mes emails et leur vaut des réponses, comme je l’explique dans mon article sur la {{< a key="plain-text-cold-emails" >}}délivrabilité en cold emailing{{< /a >}}. Proposez donc la ressource, et envoyez-la à ceux qui répondent :
+Je ne mets jamais de lien dans un cold email : du texte brut avec un numéro de téléphone, c’est ce qui permet à mes emails d’arriver en boîte de réception et d’obtenir des réponses, comme je l’explique dans mon article sur la {{< a key="plain-text-cold-emails" >}}délivrabilité en cold emailing{{< /a >}}. Proposez donc la ressource, et envoyez-la à ceux qui répondent :
 
 ```
 Objet : Nettoyage de bureaux à Montreuil
@@ -164,7 +164,7 @@ Des lecteurs mais pas d’inscriptions : changez la promesse (le titre et la li
 1. Notez les cinq questions les plus fréquentes au premier appel.
 2. Choisissez l’idée qui répond à l’une d’elles et colle le plus à votre service payant ; rédigez-la avec vos propres chiffres.
 3. Construisez la page, le formulaire avec double opt-in, la case newsletter et deux ou trois emails de suivi.
-4. Placez-la à la fin des articles liés, sur la page du service, sur LinkedIn et dans votre signature.
-5. Au bout d’un mois, corrigez l’emplacement le plus faible avant d’en créer un deuxième.
+4. Proposez votre lead magnet à la fin des articles liés, sur la page du service, sur LinkedIn et dans votre signature.
+5. Au bout d’un mois, corrigez l’emplacement le plus faible avant de créer un deuxième lead magnet.
 
 Pas besoin d’agence pour cela. Si votre site rend difficile ne serait-ce qu’une page et un formulaire, le problème vient du site, et c’est ce que règle mon {{< a page="/services/websites" >}}offre de création de sites{{< /a >}}.
