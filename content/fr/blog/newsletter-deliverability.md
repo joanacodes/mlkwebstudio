@@ -1,5 +1,5 @@
 ---
-title: "Délivrabilité d’une newsletter : règles de Gmail, Yahoo et Outlook expliquées"
+title: "Délivrabilité d’une newsletter : les règles de Gmail, Yahoo et Outlook expliquées"
 seo_title: "Délivrabilité newsletter : règles Gmail, Yahoo et Outlook"
 description: "Délivrabilité newsletter : ce qu’exigent Gmail, Yahoo et Outlook (SPF, DKIM, DMARC, désinscription en un clic, taux de spam) et la checklist de conformité."
 slug: "delivrabilite-newsletter-gmail-yahoo-outlook"

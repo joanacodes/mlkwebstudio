@@ -1,5 +1,5 @@
 ---
-title: "Gestionnaire de mots de passe d’équipe : Bitwarden, 1Password ou Proton Pass ?"
+title: "Gestionnaire de mots de passe pour une équipe : Bitwarden, 1Password ou Proton Pass ?"
 seo_title: "Gestionnaire de mots de passe entreprise : comparatif 2026"
 description: "Gestionnaire de mots de passe entreprise : Bitwarden, 1Password ou Proton Pass ? Prix d’octobre 2026, récupération des accès, départs et verdict par équipe."
 slug: "gestionnaire-mots-de-passe-entreprise"

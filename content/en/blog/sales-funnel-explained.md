@@ -1,5 +1,5 @@
 ---
-title: "What is a sales funnel? A service-business example, from visit to booked call"
+title: "What is a sales funnel? A simple example for service businesses, from first visit to booked call"
 seo_title: "What is a sales funnel? The stages and a simple example"
 description: "What is a sales funnel? The stages from first visit to booked call, a worked example for a service business, the numbers to watch and where leads leak."
 slug: "what-is-a-sales-funnel"

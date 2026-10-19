@@ -1,5 +1,5 @@
 ---
-title: "Does GDPR apply to your company outside the EU? The two tests, with examples"
+title: "Does GDPR apply to your company if it’s outside the EU? The two tests, with examples"
 seo_title: "Does GDPR apply to non-EU companies? The two tests explained"
 description: "Does GDPR apply to non-EU companies? Yes, if you have an EU establishment, sell to people in the EU or track them there. The two tests, with six examples."
 slug: "gdpr-non-eu-companies"

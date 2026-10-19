@@ -1,5 +1,5 @@
 ---
-title: "Tunnel de vente : un exemple dans les services, de la visite au rendez-vous"
+title: "Tunnel de vente : un exemple simple pour une entreprise de services, de la visite au rendez-vous"
 seo_title: "Tunnel de vente : un exemple simple, étape par étape"
 description: "Exemple de tunnel de vente pour une entreprise de services : de la recherche Google au rendez-vous, les chiffres à suivre et les fuites à colmater."
 slug: "tunnel-de-vente-exemple"

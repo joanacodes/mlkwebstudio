@@ -1,5 +1,5 @@
 ---
-title: "Brevo, MailerLite, Mailchimp, Kit ou beehiiv : quel outil newsletter choisir ?"
+title: "Brevo, MailerLite, Mailchimp, Kit ou beehiiv : quel outil de newsletter choisir ?"
 seo_title: "Outil newsletter : comparatif Brevo, Mailchimp, MailerLite"
 description: "Quel outil newsletter choisir ? Brevo, MailerLite, Mailchimp, Kit et beehiiv comparés : offres gratuites, prix d’octobre 2026, automatisations et RGPD."
 slug: "outil-newsletter-comparatif"

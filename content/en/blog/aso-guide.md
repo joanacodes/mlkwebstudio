@@ -1,5 +1,5 @@
 ---
-title: "App Store Optimisation (ASO) for beginners: how Apple and Google rank apps"
+title: "App Store Optimisation (ASO) for beginners: how the App Store and Google Play rank apps"
 seo_title: "App Store Optimization (ASO): how app stores rank your app"
 description: "App store optimization for beginners: how the App Store and Google Play rank apps, what Apple and Google document, and the first fixes worth making."
 slug: "app-store-optimization"

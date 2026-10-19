@@ -1,5 +1,5 @@
 ---
-title: "Représentant dans l’UE (article 27 du RGPD) : qui doit en désigner un et comment"
+title: "Représentant dans l’UE (article 27 du RGPD) : qui doit en désigner un, et comment"
 seo_title: "Représentant RGPD article 27 : qui doit en désigner un ?"
 description: "Représentant RGPD article 27 : obligatoire pour la plupart des entreprises hors UE qui vendent dans l’UE. Qui est concerné, l’exemption, comment le désigner."
 slug: "representant-rgpd-article-27"

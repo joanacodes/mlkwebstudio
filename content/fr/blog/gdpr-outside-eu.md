@@ -1,5 +1,5 @@
 ---
-title: "Le RGPD s’applique-t-il à votre entreprise hors UE ? Les deux critères, avec exemples"
+title: "Le RGPD s’applique-t-il à votre entreprise hors de l’UE ? Les deux critères, avec exemples"
 seo_title: "RGPD et entreprise hors UE : les deux critères à vérifier"
 description: "Entreprise hors UE : le RGPD s’applique si vous avez un établissement dans l’UE, y vendez ou y suivez vos visiteurs. Les deux critères, avec exemples."
 slug: "rgpd-entreprise-hors-ue"

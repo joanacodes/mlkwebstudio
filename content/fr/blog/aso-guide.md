@@ -1,5 +1,5 @@
 ---
-title: "ASO : comment l’App Store et Google Play classent les applications (débutants)"
+title: "ASO : comment l’App Store et Google Play classent les applications (guide débutant)"
 seo_title: "ASO : référencement App Store et Google Play pour débuter"
 description: "ASO pour débutants : comment fonctionne le référencement App Store et Google Play, ce qu’Apple et Google documentent et les premières corrections à faire."
 slug: "aso-referencement-app-store"
