@@ -18,7 +18,7 @@ faq:
   - q: "Can I keep a contact's data if I never use it?"
     a: "No. Storing personal data is itself processing under the GDPR, so your retention periods apply to dormant records too. A contact nobody has touched for years is exactly what the storage limitation principle targets."
   - q: "Does the three-year rule apply to newsletter subscribers?"
-    a: "In France, yes, if they have never bought from you: a subscriber is a prospect. A click on a link in your newsletter counts as a contact from them and restarts the three years; an open does not. Subscribers who have not clicked for three years get one last message and leave the list unless they say yes."
+    a: "The CNIL's framework does not mention newsletters by name, but a subscriber who has never bought from you is a prospect, so in France the safe answer is yes. A click on a link in your newsletter counts as a contact from them and restarts the three years; an open does not. Subscribers with no click for three years get one last message and leave the list unless they say yes."
   - q: "What if someone asks me to delete their data before the period ends?"
     a: "Their request wins for everything you no longer need, and you answer within one month. Article 17(3) of the GDPR lets you keep what a law requires, such as invoices, and what you need for a legal claim. Keep only their email address on your do-not-contact list, so a later import does not bring them back."
   - q: "Do I need a written retention policy?"
@@ -67,7 +67,7 @@ Some records must outlive the relationship, and commercial, tax and civil law se
 | Record | France | UK |
 |---|---|---|
 | Invoices and accounting records | 10 years (Code de commerce, article L123-22) | Limited company: 6 years from the end of the last financial year they relate to. Sole trader: at least 5 years after the 31 January filing deadline for the tax year |
-| Quotes, contracts and emails you may need in a dispute | The limitation period, generally 5 years (Code civil, article 2224) | 6 years for contract claims in England and Wales (Limitation Act 1980, section 5), 5 years in Scotland |
+| Quotes, contracts and emails you may need in a dispute | The limitation period, generally 5 years (Code civil, article 2224) | 6 years for contract claims in England and Wales (Limitation Act 1980, section 5); 5 years in Scotland (Prescription and Limitation (Scotland) Act 1973) |
 | Card details | Not kept after the payment by default; 13 months after the debit (15 for deferred-debit cards) in an archive, only for disputes (CNIL) | No set figure: keep card numbers out of your CRM and let your payment provider hold them |
 
 The GOV.UK [guidance on company records](https://www.gov.uk/running-a-limited-company/company-and-accounting-records) lists the cases where the six years run longer, such as a late Company Tax Return or an open compliance check.
@@ -80,7 +80,7 @@ Here is a starting point to copy into your own records. The periods are the Fren
 
 | What the CRM holds | Active in the CRM | Then |
 |---|---|---|
-| Prospect who never bought | 3 years from collection or their last contact | One last message; without a yes, delete |
+| Prospect who never bought | 3 years from collection or the last contact from them | One last message; without a yes, delete |
 | Client details and history | The relationship, then 3 years | Delete or anonymise |
 | Quotes, contracts, project emails | The relationship | Archive for the limitation period |
 | Invoices | The relationship | Accounting archive (10 years in France, 6 for a UK company) |

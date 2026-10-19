@@ -108,13 +108,13 @@ Then mark the booking confirmation or thank-you page as a key event (what GA4 us
 
 ### Unsubscribes and spam complaints
 
-An unsubscribe is a polite no; a spam complaint is a loud one, and it hurts your deliverability. Gmail wants the spam rate shown in Google Postmaster Tools below 0.1%, one complaint per 1,000 emails, and never at 0.3% or higher. On a small list, Postmaster Tools may show no data on quiet days, so read it over the month. My guide to the {{< a key="newsletter-deliverability" >}}Gmail, Yahoo and Outlook sender rules{{< /a >}} explains the rest.
+An unsubscribe is a polite no; a spam complaint is a loud one, and it hurts your deliverability. Gmail wants the spam rate shown in Google Postmaster Tools below 0.1%, one complaint per 1,000 emails, and never at 0.3% or higher. On a small list, Postmaster Tools may show incomplete data on quiet days, so read it over the month. My guide to the {{< a key="newsletter-deliverability" >}}Gmail, Yahoo and Outlook sender rules{{< /a >}} explains the rest.
 
 Read unsubscribes issue by issue rather than as an average: a spike after one issue tells you what that issue did differently.
 
 ### List growth and churn
 
-Net growth is new subscribers minus the people who left (unsubscribes, hard bounces and complaints) over a month. Churn is those losses divided by the list size at the start of the month. If people leave in their first weeks, look at your {{< a key="welcome-email-sequence" >}}welcome sequence{{< /a >}} before anything else.
+Count net growth over a month, and churn as the people who left divided by the list size at the start of that month. If people leave in their first weeks, look at your {{< a key="welcome-email-sequence" >}}welcome sequence{{< /a >}} before anything else.
 
 ## A/B test subject lines on clicks, not opens
 
@@ -130,7 +130,7 @@ Opens are also a poor way to find inactive subscribers. Apple Mail users look ac
 - **Quiet**: no click for 90 days, but at least one in the last six months.
 - **Inactive**: no click for six months.
 
-Double the windows for a monthly newsletter. Send the inactive segment one short email asking whether they still want to hear from you, and remove those who do not click to stay. A smaller list that clicks is worth more than a big one that only opens.
+Double the windows for a monthly newsletter. Send the inactive segment one short email asking whether they still want to hear from you, and remove those who do not click to stay.
 
 ## Tracking pixels and consent in the UK and France
 
