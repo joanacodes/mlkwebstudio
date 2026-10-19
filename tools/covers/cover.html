@@ -57,7 +57,11 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
     'marketing': ['meeting', 'cold-emailing-accountants', 'hero-glass'],
     'social-media': ['appointment-booking', 'footer-glass', 'meeting'],
     'website-rescue': ['hero-glass', 'footer-glass', 'selecting-leads'],
-    'case-studies': ['meeting', 'cold-emailing-accountants', 'receiving-emails']
+    'case-studies': ['meeting', 'cold-emailing-accountants', 'receiving-emails'],
+    'gdpr': ['cold-emailing', 'cold-emailing-accountants', 'agenda'],
+    'cybersecurity': ['hero-glass', 'footer-glass', 'agenda'],
+    'mobile-apps': ['receiving-emails', 'appointment-booking'],
+    'funnels': ['meeting', 'selecting-leads', 'appointment-booking']
   };
   var photo = 'photos/' + (cfg.photo || pick(photos[cfg.category] || ['hero-glass'])) + '.jpg';
   var c = document.getElementById('c');
@@ -302,6 +306,76 @@ html, body { margin: 0; width: 1600px; height: 900px; overflow: hidden; backgrou
         s += '<rect x="24" y="' + (y + 4) + '" width="' + (w * (i === 0 ? .66 : .56)) + '" height="20" fill="' + (i === 0 ? BLUE2 : ICE) + '" fill-opacity="' + (i === 0 ? 1 : .55) + '"/>';
         s += '<rect x="24" y="' + (y + 36) + '" width="' + (w * .78) + '" height="9" fill="' + STEEL + '" fill-opacity=".55"/><rect x="24" y="' + (y + 54) + '" width="' + (w * .52) + '" height="9" fill="' + STEEL + '" fill-opacity=".55"/>';
       }
+      return s + e;
+    }
+    if (name === 'consent') {
+      // a page with a cookie banner whose two buttons are the same size (refusing as easy as accepting)
+      var fr = cfg.lang === 'fr';
+      s += '<rect x="10" y="10" width="' + (w - 20) + '" height="' + (h - 30) + '" fill="#0D1017" fill-opacity=".5" stroke="' + ICE + '" stroke-opacity=".4" stroke-width="2"/>';
+      s += '<line x1="10" x2="' + (w - 10) + '" y1="50" y2="50" stroke="' + ICE + '" stroke-opacity=".25" stroke-width="2"/>';
+      for (i = 0; i < 3; i++) { s += '<circle cx="' + (32 + i * 22) + '" cy="30" r="6" fill="' + ICE + '" fill-opacity=".35"/>'; }
+      for (i = 0; i < 3; i++) { s += '<rect x="40" y="' + (78 + i * 30) + '" width="' + ((w - 80) * [.7, .55, .62][i]) + '" height="12" fill="' + ICE + '" fill-opacity=".14"/>'; }
+      var by0 = h - 196, bw0 = w - 60;
+      s += '<rect x="30" y="' + by0 + '" width="' + bw0 + '" height="160" fill="#0D1017" fill-opacity=".92" stroke="' + ICE + '" stroke-opacity=".45" stroke-width="2"/>';
+      s += '<circle cx="78" cy="' + (by0 + 50) + '" r="24" fill="' + OR + '" fill-opacity=".9"/>';
+      [[-8, -8, 4], [7, -2, 3.5], [-3, 9, 3]].forEach(function (c) { s += '<circle cx="' + (78 + c[0]) + '" cy="' + (by0 + 50 + c[1]) + '" r="' + c[2] + '" fill="#0D1017"/>'; });
+      s += '<rect x="122" y="' + (by0 + 36) + '" width="' + (bw0 * .55) + '" height="11" fill="' + ICE + '" fill-opacity=".7"/><rect x="122" y="' + (by0 + 58) + '" width="' + (bw0 * .4) + '" height="9" fill="' + STEEL + '" fill-opacity=".55"/>';
+      var btnW = (bw0 - 84) / 2, btnY = by0 + 96;
+      s += '<rect x="52" y="' + btnY + '" width="' + btnW + '" height="44" stroke="' + ICE + '" stroke-opacity=".8" stroke-width="2"/>';
+      s += '<rect x="' + (52 + btnW + 20) + '" y="' + btnY + '" width="' + btnW + '" height="44" fill="' + BLUE + '"/>';
+      s += '<text x="' + (52 + btnW / 2) + '" y="' + (btnY + 29) + '" font-size="19" text-anchor="middle" fill="' + ICE + '" font-weight="600" font-family="IS">' + (fr ? 'Tout refuser' : 'Refuse all') + '</text>';
+      s += '<text x="' + (52 + btnW * 1.5 + 20) + '" y="' + (btnY + 29) + '" font-size="19" text-anchor="middle" fill="#fff" font-weight="600" font-family="IS">' + (fr ? 'Tout accepter' : 'Accept all') + '</text>';
+      return s + e;
+    }
+    if (name === 'lock') {
+      // a padlock inside faint rings, with a masked password field
+      var lx = w / 2, bt = 150, bw1 = 200, bh = 150;
+      for (i = 0; i < 3; i++) { s += '<circle cx="' + lx + '" cy="190" r="' + (150 + i * 42) + '" stroke="' + ICE + '" stroke-opacity="' + (.16 - i * .04) + '" stroke-width="2"/>'; }
+      s += '<path d="M' + (lx - 58) + ' ' + bt + ' V' + (bt - 46) + ' A58 58 0 0 1 ' + (lx + 58) + ' ' + (bt - 46) + ' V' + bt + '" stroke="' + ICE + '" stroke-width="16"/>';
+      s += '<rect x="' + (lx - bw1 / 2) + '" y="' + bt + '" width="' + bw1 + '" height="' + bh + '" rx="14" fill="' + BLUE + '" fill-opacity=".28" stroke="' + BLUE2 + '" stroke-width="4"/>';
+      s += '<circle cx="' + lx + '" cy="' + (bt + 62) + '" r="15" fill="' + ICE + '"/><rect x="' + (lx - 6) + '" y="' + (bt + 70) + '" width="12" height="38" rx="4" fill="' + ICE + '"/>';
+      for (i = 0; i < 8; i++) { s += '<circle cx="' + (lx - 98 + i * 28) + '" cy="' + (h - 34) + '" r="7" fill="' + ICE + '" fill-opacity=".85"/>'; }
+      s += '<rect x="' + (lx + 128) + '" y="' + (h - 48) + '" width="4" height="28" fill="' + OR + '"/>';
+      s += '<rect x="' + (lx + bw1 / 2 - 22) + '" y="' + (bt + bh - 36) + '" width="18" height="18" fill="' + OR + '"/>';
+      return s + e;
+    }
+    if (name === 'phone') {
+      // a phone with an app page (icon, name, button, stars) beside store results, the first one highlighted
+      var px = Math.round(w * .07), pw = 236, ph = h - 16, sx0 = px + 18;
+      s += '<rect x="' + px + '" y="8" width="' + pw + '" height="' + ph + '" rx="34" fill="#0D1017" fill-opacity=".7" stroke="' + ICE + '" stroke-opacity=".6" stroke-width="3"/>';
+      s += '<rect x="' + (px + pw / 2 - 38) + '" y="22" width="76" height="16" rx="8" fill="' + ICE + '" fill-opacity=".25"/>';
+      s += '<rect x="' + sx0 + '" y="64" width="70" height="70" rx="16" fill="' + BLUE + '"/><path d="M' + (sx0 + 22) + ' 112 L' + (sx0 + 35) + ' 84 L' + (sx0 + 48) + ' 112" stroke="#fff" stroke-width="6"/>';
+      s += '<rect x="' + (sx0 + 86) + '" y="72" width="104" height="12" fill="' + ICE + '" fill-opacity=".85"/><rect x="' + (sx0 + 86) + '" y="92" width="70" height="9" fill="' + STEEL + '" fill-opacity=".6"/>';
+      s += '<rect x="' + (sx0 + 86) + '" y="110" width="62" height="24" rx="12" fill="' + OR + '"/>';
+      function star(cx, cy, r, fill, op) { var d = ''; for (var k = 0; k < 10; k++) { var a = -Math.PI / 2 + k * Math.PI / 5, rr = k % 2 ? r * .45 : r; d += (k ? 'L' : 'M') + (cx + Math.cos(a) * rr).toFixed(1) + ' ' + (cy + Math.sin(a) * rr).toFixed(1); } return '<path d="' + d + 'Z" fill="' + fill + '" fill-opacity="' + op + '"/>'; }
+      for (i = 0; i < 5; i++) { s += star(sx0 + 14 + i * 36, 172, 13, i < 4 ? OR : ICE, i < 4 ? 1 : .35); }
+      for (i = 0; i < 3; i++) { s += '<rect x="' + (sx0 + i * 68) + '" y="206" width="56" height="' + (ph - 226) + '" rx="8" fill="' + ICE + '" fill-opacity="' + (i === 0 ? .2 : .1) + '"/>'; }
+      var rx0 = px + pw + 56, rw = w - rx0 - 10;
+      for (i = 0; i < 3; i++) {
+        y = 40 + i * 104;
+        s += '<rect x="' + (rx0 - 16) + '" y="' + y + '" width="6" height="64" fill="' + (i === 0 ? OR : 'none') + '"/>';
+        s += '<rect x="' + rx0 + '" y="' + y + '" width="64" height="64" rx="14" fill="' + (i === 0 ? BLUE2 : ICE) + '" fill-opacity="' + (i === 0 ? .9 : .25) + '"/>';
+        s += '<rect x="' + (rx0 + 82) + '" y="' + (y + 10) + '" width="' + (rw - 82) * (i === 0 ? .8 : .65) + '" height="12" fill="' + ICE + '" fill-opacity="' + (i === 0 ? .85 : .45) + '"/>';
+        s += '<rect x="' + (rx0 + 82) + '" y="' + (y + 34) + '" width="' + (rw - 82) * .5 + '" height="9" fill="' + STEEL + '" fill-opacity=".5"/>';
+      }
+      return s + e;
+    }
+    if (name === 'funnel') {
+      // a funnel: many dots enter, fewer go through each band, one orange dot comes out
+      var fx = w / 2, y0 = 26, y1 = 286, topW = w - 70, botW = 74;
+      var wid = function (yy) { return topW - (topW - botW) * (yy - y0) / (y1 - y0); };
+      var bands = [[y0, 86], [98, 158], [170, 226], [238, y1]], counts = [11, 6, 3, 1];
+      bands.forEach(function (b, k) {
+        var wa = wid(b[0]), wb = wid(b[1]);
+        s += '<path d="M' + (fx - wa / 2) + ' ' + b[0] + ' L' + (fx + wa / 2) + ' ' + b[0] + ' L' + (fx + wb / 2) + ' ' + b[1] + ' L' + (fx - wb / 2) + ' ' + b[1] + 'Z" fill="' + BLUE + '" fill-opacity="' + (.12 + k * .08) + '" stroke="' + BLUE2 + '" stroke-opacity=".7" stroke-width="2"/>';
+        for (var j = 0; j < counts[k]; j++) {
+          var yy = (b[0] + b[1]) / 2 + r(-8, 8), ww = wid(yy) - 40;
+          var xx = counts[k] === 1 ? fx : fx - ww / 2 + (j + .5) * ww / counts[k] + r(-6, 6);
+          s += '<circle cx="' + xx.toFixed(1) + '" cy="' + yy.toFixed(1) + '" r="6" fill="' + ICE + '" fill-opacity=".85"/>';
+        }
+      });
+      s += '<rect x="' + (fx - 16) + '" y="' + y1 + '" width="32" height="30" fill="' + BLUE + '" fill-opacity=".45" stroke="' + BLUE2 + '" stroke-opacity=".7" stroke-width="2"/>';
+      s += '<circle cx="' + fx + '" cy="' + (h - 28) + '" r="12" fill="' + OR + '"/><circle cx="' + fx + '" cy="' + (h - 28) + '" r="24" stroke="' + OR + '" stroke-opacity=".45" stroke-width="3"/>';
       return s + e;
     }
     // blueprint (default)

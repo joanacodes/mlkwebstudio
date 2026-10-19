@@ -753,5 +753,396 @@
   "category": "seo",
   "label": "SEO ↗",
   "motif": "search"
+ },
+ {
+  "key": "gdpr-guide",
+  "category": "gdpr",
+  "label": "GDPR",
+  "label_fr": "RGPD",
+  "motif": "consent"
+ },
+ {
+  "key": "gdpr-outside-eu",
+  "category": "gdpr",
+  "label": "Outside the EU",
+  "label_fr": "Hors UE",
+  "motif": "orbit"
+ },
+ {
+  "key": "gdpr-eu-representative",
+  "category": "gdpr",
+  "label": "Article 27",
+  "label_fr": "Article 27",
+  "motif": "blueprint"
+ },
+ {
+  "key": "cookie-banner-rules",
+  "category": "gdpr",
+  "label": "Accept · Refuse",
+  "label_fr": "Accepter · Refuser",
+  "motif": "consent"
+ },
+ {
+  "key": "cookie-banner-setup",
+  "category": "gdpr",
+  "label": "Consent Mode v2",
+  "motif": "consent"
+ },
+ {
+  "key": "privacy-policy-guide",
+  "category": "gdpr",
+  "label": "Privacy policy",
+  "label_fr": "Confidentialité",
+  "motif": "browser"
+ },
+ {
+  "key": "website-legal-notice",
+  "category": "gdpr",
+  "label": "Legal notice",
+  "label_fr": "Mentions légales",
+  "motif": "browser"
+ },
+ {
+  "key": "gdpr-us-tools-data-transfers",
+  "category": "gdpr",
+  "label": "EU → US",
+  "label_fr": "UE → US",
+  "motif": "flow"
+ },
+ {
+  "key": "gdpr-data-processing-agreement",
+  "category": "gdpr",
+  "label": "Article 28",
+  "label_fr": "Article 28",
+  "motif": "blueprint"
+ },
+ {
+  "key": "gdpr-data-retention-crm",
+  "category": "gdpr",
+  "label": "3 years",
+  "label_fr": "3 ans",
+  "motif": "calendar"
+ },
+ {
+  "key": "gdpr-subject-access-request",
+  "category": "gdpr",
+  "label": "1 month",
+  "label_fr": "1 mois",
+  "motif": "inbox"
+ },
+ {
+  "key": "gdpr-data-breach",
+  "category": "gdpr",
+  "label": "72 h",
+  "motif": "shield"
+ },
+ {
+  "key": "gdpr-fines-small-business",
+  "category": "gdpr",
+  "label": "€ · £",
+  "motif": "chart"
+ },
+ {
+  "key": "uk-gdpr-data-use-access-act",
+  "category": "gdpr",
+  "label": "UK GDPR",
+  "label_fr": "RGPD britannique",
+  "motif": "blueprint"
+ },
+ {
+  "key": "digital-omnibus-gdpr",
+  "category": "gdpr",
+  "label": "Digital Omnibus",
+  "motif": "flow"
+ },
+ {
+  "key": "cybersecurity-guide",
+  "category": "cybersecurity",
+  "label": "Cybersecurity",
+  "label_fr": "Cybersécurité",
+  "motif": "lock"
+ },
+ {
+  "key": "password-manager-teams",
+  "category": "cybersecurity",
+  "label": "Bitwarden vs 1Password",
+  "motif": "versus"
+ },
+ {
+  "key": "two-factor-authentication-passkeys",
+  "category": "cybersecurity",
+  "label": "2FA · passkeys",
+  "motif": "lock"
+ },
+ {
+  "key": "invoice-fraud-bank-details",
+  "category": "cybersecurity",
+  "label": "New bank details?",
+  "label_fr": "Faux RIB",
+  "motif": "inbox"
+ },
+ {
+  "key": "deepfake-voice-ceo-fraud",
+  "category": "cybersecurity",
+  "label": "Voice clone",
+  "label_fr": "Voix clonée",
+  "motif": "megaphone"
+ },
+ {
+  "key": "backups-3-2-1",
+  "category": "cybersecurity",
+  "label": "3 · 2 · 1",
+  "motif": "blueprint"
+ },
+ {
+  "key": "secure-google-workspace-microsoft-365",
+  "category": "cybersecurity",
+  "label": "Workspace · 365",
+  "motif": "browser"
+ },
+ {
+  "key": "offboarding-checklist",
+  "category": "cybersecurity",
+  "label": "Offboarding",
+  "label_fr": "Départ",
+  "motif": "flow"
+ },
+ {
+  "key": "device-security-basics",
+  "category": "cybersecurity",
+  "label": "Updates · encryption",
+  "label_fr": "Mises à jour · chiffrement",
+  "motif": "shield"
+ },
+ {
+  "key": "incident-response-first-hour",
+  "category": "cybersecurity",
+  "label": "First hour",
+  "label_fr": "Première heure",
+  "motif": "shield"
+ },
+ {
+  "key": "cyber-insurance",
+  "category": "cybersecurity",
+  "label": "Cyber insurance",
+  "label_fr": "Assurance cyber",
+  "motif": "shield"
+ },
+ {
+  "key": "security-questionnaire",
+  "category": "cybersecurity",
+  "label": "Questionnaire",
+  "motif": "blueprint"
+ },
+ {
+  "key": "nis2-small-business",
+  "category": "cybersecurity",
+  "label": "NIS2",
+  "motif": "map"
+ },
+ {
+  "key": "free-cybersecurity-help",
+  "category": "cybersecurity",
+  "label": "Free help",
+  "label_fr": "Aides gratuites",
+  "motif": "map"
+ },
+ {
+  "key": "mobile-app-launch-guide",
+  "category": "mobile-apps",
+  "label": "iOS · Android",
+  "motif": "phone"
+ },
+ {
+  "key": "aso-guide",
+  "category": "mobile-apps",
+  "label": "ASO",
+  "motif": "phone"
+ },
+ {
+  "key": "aso-keyword-research",
+  "category": "mobile-apps",
+  "label": "ASO keywords",
+  "label_fr": "Mots-clés ASO",
+  "motif": "search"
+ },
+ {
+  "key": "app-store-listing",
+  "category": "mobile-apps",
+  "label": "Store listing",
+  "label_fr": "Fiche store",
+  "motif": "phone"
+ },
+ {
+  "key": "app-ratings-reviews",
+  "category": "mobile-apps",
+  "label": "Ratings · reviews",
+  "label_fr": "Notes · avis",
+  "motif": "phone"
+ },
+ {
+  "key": "app-website-seo",
+  "category": "mobile-apps",
+  "label": "Deep links",
+  "label_fr": "Liens profonds",
+  "motif": "browser"
+ },
+ {
+  "key": "apple-ads-tutorial",
+  "category": "mobile-apps",
+  "label": "Apple Ads",
+  "motif": "search"
+ },
+ {
+  "key": "google-app-campaigns",
+  "category": "mobile-apps",
+  "label": "App campaigns",
+  "label_fr": "Google Ads · apps",
+  "motif": "chart"
+ },
+ {
+  "key": "app-ads-budget-comparison",
+  "category": "mobile-apps",
+  "label": "£1,000",
+  "label_fr": "1 000 €",
+  "motif": "versus"
+ },
+ {
+  "key": "mobile-app-security-checklist",
+  "category": "mobile-apps",
+  "label": "OWASP MASVS",
+  "motif": "lock"
+ },
+ {
+  "key": "ai-app-data-leaks",
+  "category": "mobile-apps",
+  "label": "Supabase · Firebase",
+  "motif": "terminal",
+  "code": [
+   ["-- ", "STEEL", "each user sees only their own rows", "STEEL"],
+   ["", "STEEL", "alter table notes", "ICE"],
+   ["  ", "STEEL", "enable row level security;", "BLUE2"],
+   ["", "STEEL", "create policy \"own rows\" on notes", "ICE"],
+   ["  ", "STEEL", "using (auth.uid() = user_id);", "BLUE2"],
+   ["→ ", "OR", "RLS enabled", "BLUE2"]
+  ]
+ },
+ {
+  "key": "api-keys-mobile-apps",
+  "category": "mobile-apps",
+  "label": "API keys",
+  "label_fr": "Clés API",
+  "motif": "terminal",
+  "code": [
+   ["$ ", "OR", "grep -r \"sk-\" decompiled-app/", "ICE"],
+   ["", "STEEL", "Config.java: \"sk-proj-••••••••••••\"", "BLUE2"],
+   ["", "STEEL", "", "ICE"],
+   ["# ", "STEEL", "keep secrets on your server:", "STEEL"],
+   ["", "STEEL", "app → your API → AI provider", "ICE"],
+   ["→ ", "OR", "key revoked, proxy deployed", "BLUE2"]
+  ]
+ },
+ {
+  "key": "app-privacy-labels",
+  "category": "mobile-apps",
+  "label": "Privacy labels",
+  "label_fr": "Confidentialité",
+  "motif": "phone"
+ },
+ {
+  "key": "cyber-resilience-act-apps",
+  "category": "mobile-apps",
+  "label": "Cyber Resilience Act",
+  "motif": "shield"
+ },
+ {
+  "key": "funnels-newsletters-guide",
+  "category": "funnels",
+  "label": "Funnel",
+  "label_fr": "Tunnel de vente",
+  "motif": "funnel"
+ },
+ {
+  "key": "sales-funnel-explained",
+  "category": "funnels",
+  "label": "Visit → call",
+  "label_fr": "Visite → rendez-vous",
+  "motif": "funnel"
+ },
+ {
+  "key": "build-sales-funnel",
+  "category": "funnels",
+  "label": "Site · booking · email",
+  "label_fr": "Site · réservation · email",
+  "motif": "funnel"
+ },
+ {
+  "key": "lead-magnet-ideas",
+  "category": "funnels",
+  "label": "Lead magnet",
+  "motif": "funnel"
+ },
+ {
+  "key": "funnel-builders-comparison",
+  "category": "funnels",
+  "label": "Systeme.io vs ClickFunnels",
+  "motif": "versus"
+ },
+ {
+  "key": "newsletter-tools-comparison",
+  "category": "funnels",
+  "label": "Brevo · MailerLite",
+  "motif": "inbox"
+ },
+ {
+  "key": "newsletter-consent-gdpr",
+  "category": "funnels",
+  "label": "Opt-in",
+  "motif": "consent"
+ },
+ {
+  "key": "first-100-subscribers",
+  "category": "funnels",
+  "label": "100 subscribers",
+  "label_fr": "100 abonnés",
+  "motif": "chart"
+ },
+ {
+  "key": "welcome-email-sequence",
+  "category": "funnels",
+  "label": "Email 1 → 5",
+  "motif": "inbox"
+ },
+ {
+  "key": "b2b-newsletter-ideas",
+  "category": "funnels",
+  "label": "20 ideas",
+  "label_fr": "20 idées",
+  "motif": "feed"
+ },
+ {
+  "key": "newsletter-deliverability",
+  "category": "funnels",
+  "label": "SPF · DKIM · DMARC",
+  "motif": "inbox"
+ },
+ {
+  "key": "newsletter-metrics",
+  "category": "funnels",
+  "label": "Clicks > opens",
+  "label_fr": "Clics > ouvertures",
+  "motif": "chart"
+ },
+ {
+  "key": "linkedin-newsletter-vs-email-vs-substack",
+  "category": "funnels",
+  "label": "LinkedIn vs email",
+  "motif": "versus"
+ },
+ {
+  "key": "utm-ga4-funnel-tracking",
+  "category": "funnels",
+  "label": "utm_source",
+  "motif": "chart"
  }
 ]

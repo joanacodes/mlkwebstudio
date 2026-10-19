@@ -3,7 +3,7 @@
 // static/images/blog/<key>.jpg (English, or the only language) and static/images/blog/fr/<key>.jpg (French).
 // The title is the front matter's cover_title if there is one, otherwise its title.
 // Each entry of covers.json: { "key": "...", "category": "seo", "label": "Short label", "motif": "dns" }, plus "label_fr" when the French label differs.
-// Motifs: glass dns inbox chart browser versus flow orbit map shield terminal megaphone feed calendar search blueprint.
+// Motifs: glass dns inbox chart browser versus flow orbit map shield terminal megaphone feed calendar search blueprint consent lock phone funnel.
 // Needs Playwright with Chromium: npm i -D playwright && npx playwright install chromium
 let chromium;
 try { ({ chromium } = require('playwright')); } catch (e) { ({ chromium } = require('/opt/node-tools/node_modules/playwright')); }
