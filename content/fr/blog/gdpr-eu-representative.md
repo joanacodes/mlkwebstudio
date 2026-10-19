@@ -27,9 +27,9 @@ faq:
 
 Si votre entreprise est installée hors de l’Union européenne, à Genève, Montréal, Casablanca ou Londres, et que le RGPD s’applique à elle parce que vous vendez à des personnes qui se trouvent dans l’UE ou suivez leur comportement en ligne, une obligation passe facilement inaperçue : désigner un représentant RGPD au titre de l’article 27. Elle s’applique depuis le 25 mai 2018.
 
-Le représentant est une personne ou une société établie dans l’UE que les autorités de protection des données, et les personnes dont vous traitez les données, peuvent contacter au sujet de vos traitements. Le mettre en place demande un mandat écrit et quelques lignes dans votre politique de confidentialité. Ne pas en avoir a déjà valu à un site installé hors de l’UE une amende à six chiffres aux Pays-Bas.
+Désigner un représentant demande un mandat écrit et quelques lignes dans votre politique de confidentialité. Ne pas en avoir a déjà valu à un site installé hors de l’UE une amende à six chiffres aux Pays-Bas.
 
-Je travaille entre Paris et Londres, et ce guide regarde donc des deux côtés de la Manche : les entreprises hors UE qui vendent en France ou ailleurs dans l’Union, et les entreprises françaises qui vendent au Royaume-Uni, où une règle équivalente existe. Il fait partie de mon {{< a key="gdpr-guide" >}}guide complet du RGPD{{< /a >}}. Si vous ne savez pas encore si le RGPD vous concerne, commencez par {{< a key="gdpr-outside-eu" >}}les deux critères applicables aux entreprises hors UE{{< /a >}}.
+Je travaille entre Paris et Londres, et ce guide couvre donc les deux côtés de la Manche : les entreprises hors UE qui vendent en France ou ailleurs dans l’Union, et les entreprises françaises qui vendent au Royaume-Uni, où une règle équivalente existe. Il fait partie de mon {{< a key="gdpr-guide" >}}guide complet du RGPD{{< /a >}}. Si vous ne savez pas encore si le RGPD vous concerne, commencez par {{< a key="gdpr-outside-eu" >}}les deux critères applicables aux entreprises hors UE{{< /a >}}.
 
 ## Représentant RGPD (article 27) : ce qu’il est, et ce qu’il n’est pas
 
@@ -37,7 +37,7 @@ Le RGPD définit le représentant comme une personne physique ou morale établie
 
 [L’article 27 du RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679) fixe le mandat. Les autorités de contrôle, comme la CNIL en France ou l’Autorité de protection des données en Belgique, et les personnes dont vous traitez les données peuvent s’adresser au représentant, en plus de vous ou à votre place, pour toute question relative au traitement.
 
-Trois choses qu’il n’est pas :
+Ce qu’il n’est pas :
 
 - **Pas un DPO.** Le délégué à la protection des données (article 37) vous conseille et contrôle votre conformité, avec une indépendance garantie. Le représentant agit sur vos instructions, comme point de contact.
 - **Pas un transfert de responsabilité.** L’article 27, paragraphe 5, précise que des actions en justice peuvent toujours être intentées contre vous directement.
@@ -72,11 +72,11 @@ L’article 27, paragraphe 2, lève l’obligation pour les autorités et organi
 - ils n’impliquent pas, à grande échelle, de catégories particulières de données (santé, religion, orientation sexuelle et les autres énumérées à l’article 9) ni de données relatives aux condamnations pénales et aux infractions (article 10) ;
 - ils ne sont pas susceptibles d’engendrer un risque pour les droits et libertés des personnes, compte tenu de leur nature, de leur contexte, de leur portée et de leurs finalités.
 
-Tout se joue sur le mot « occasionnel ». Le Comité européen de la protection des données (CEPD), qui réunit les autorités de protection des données de l’UE, le lit à la lumière d’une position antérieure de son prédécesseur, le groupe de travail « article 29 » : un traitement occasionnel n’est pas effectué de façon régulière et sort du cours normal de votre activité. Le risque s’apprécie à la fois selon sa probabilité et selon sa gravité. Ces deux précisions figurent dans les [lignes directrices 3/2018 du CEPD sur le champ d’application territorial](https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_3_2018_territorial_scope_fr.pdf), qui traitent aussi du représentant.
+Tout se joue sur le mot « occasionnel ». Pour le Comité européen de la protection des données (CEPD), qui réunit les autorités de protection des données de l’UE, un traitement occasionnel n’est pas effectué de façon régulière et sort du cours normal de votre activité ; quant au risque, il s’apprécie à la fois selon sa probabilité et selon sa gravité. Ces deux précisions figurent dans ses [lignes directrices 3/2018 sur le champ d’application territorial](https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_3_2018_territorial_scope_fr.pdf), qui traitent aussi du représentant.
 
-En pratique, cela exclut la plupart des entreprises qui ciblent l’UE délibérément. Des colis expédiés chaque semaine en France, un abonnement avec des utilisateurs européens ou des publicités visant des pays de l’UE sont réguliers par nature. L’exemption est plus plausible pour une opération ponctuelle, comme un événement unique à Bruxelles avec un simple formulaire d’inscription, organisé par une entreprise dont l’activité est ailleurs.
+En pratique, cela exclut la plupart des entreprises qui ciblent l’UE délibérément. Des colis expédiés chaque semaine en France, un abonnement avec des utilisateurs dans l’UE ou des publicités visant des pays de l’UE sont réguliers par nature. L’exemption est plus plausible pour une opération ponctuelle, comme un événement unique à Bruxelles avec un simple formulaire d’inscription, organisé par une entreprise dont l’activité est ailleurs.
 
-{{< callout type="tip" >}}Si vous concluez que l’exemption s’applique, écrivez pourquoi, datez la note et relisez-la quand vos ventes en Europe progressent. C’est elle que vous montrerez à une autorité qui pose la question.{{< /callout >}}
+{{< callout type="tip" >}}Si vous concluez que l’exemption s’applique, notez pourquoi par écrit, datez cette note et relisez-la quand vos ventes dans l’UE progressent. C’est elle que vous montrerez à une autorité qui pose la question.{{< /callout >}}
 
 ## Ce que fait le représentant au quotidien
 
@@ -90,8 +90,8 @@ Tout le reste vous incombe : les décisions, la mise en conformité et les rép
 
 ## Désigner un représentant dans l’UE, étape par étape
 
-1. **Vérifiez que l’article 27 s’applique.** Reprenez les deux conditions et l’exemption ci-dessus, et gardez une trace de votre raisonnement.
-2. **Choisissez le pays.** Le représentant doit être établi dans l’un des pays de l’UE où se trouvent les personnes que vous servez ou dont vous suivez le comportement (article 27, paragraphe 3). Le CEPD recommande, comme bonne pratique, le pays où se trouve une part importante d’entre elles : une boutique genevoise dont les clients européens sont surtout en France choisira la France. Les personnes des autres pays doivent pouvoir le joindre aussi.
+1. **Vérifiez que l’article 27 s’applique.** Reprenez les deux conditions et l’exemption ci-dessus.
+2. **Choisissez le pays.** Le représentant doit être établi dans l’un des pays de l’UE où se trouvent les personnes que vous servez ou dont vous suivez le comportement (article 27, paragraphe 3). Le CEPD recommande, comme bonne pratique, le pays où se trouve une part importante d’entre elles : une boutique genevoise dont les clients de l’UE sont surtout en France choisira la France. Les personnes des autres pays doivent pouvoir le joindre aussi.
 3. **Choisissez qui.** Toute personne ou société établie dans ce pays peut tenir le rôle : un cabinet d’avocats, un cabinet de conseil ou un service spécialisé de représentation. Prenez quelqu’un qui répond vite, maîtrise les langues de vos clients et sera encore là dans quelques années. Écartez les sous-traitants qui travaillent pour vous, comme votre hébergeur ou votre outil d’emailing : le CEPD juge les deux rôles incompatibles.
 4. **Signez un mandat écrit.** L’article 27, paragraphe 1, exige une désignation par écrit, et le considérant 80 parle de mandat écrit. Le document doit préciser qui représente qui, à partir de quand, pour quels traitements, quelles missions le représentant assure, sous quel délai il transmet les messages et ce qui se passe à la fin du contrat. Pour l’équivalent britannique, l’ICO admet un simple contrat de prestation.
 5. **Transmettez votre registre des traitements.** Donnez au représentant une copie à jour de votre registre (article 30) et le nom d’une personne qui, chez vous, répond en quelques jours. Si vous n’avez pas encore de registre, c’est le moment de le rédiger.
@@ -106,7 +106,7 @@ Un représentant dans l’UE ne couvre que l’UE. Deux voisins ont leur propre 
 
 Le RGPD britannique (UK GDPR) conserve son propre article 27. Une organisation sans succursale, bureau ou autre établissement au Royaume-Uni, qui propose des biens ou des services à des personnes qui s’y trouvent ou suit leur comportement, doit désigner par écrit un représentant au Royaume-Uni, avec les mêmes exemptions. Les entreprises de l’UE sont concernées : une boutique en ligne française qui livre en Grande-Bretagne doit en désigner un.
 
-L’ICO, le régulateur britannique, détaille la règle dans sa page sur la [réception de données personnelles en provenance de l’EEE](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/receiving-personal-information-from-the-eea/) (en anglais, section consacrée aux représentants). Il est formellement devenu l’Information Commission le 30 septembre 2026, mais garde son nom usuel. Le Data (Use and Access) Act 2025 a modifié plusieurs pans du droit britannique, que je présente dans {{< a key="uk-gdpr-data-use-access-act" >}}ce qui change avec cette loi{{< /a >}}. Au 19 octobre 2026, l’ICO décrit toujours l’obligation de représentant en ces termes.
+L’ICO, le régulateur britannique, détaille la règle dans sa page sur la [réception de données personnelles en provenance de l’EEE](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/receiving-personal-information-from-the-eea/) (en anglais, section consacrée aux représentants). Il est formellement devenu l’Information Commission le 30 septembre 2026, mais garde son nom usuel. Au 19 octobre 2026, l’ICO décrit toujours l’obligation de représentant en ces termes, même si le Data (Use and Access) Act 2025 a modifié plusieurs pans du droit britannique, que je présente dans {{< a key="uk-gdpr-data-use-access-act" >}}ce qui change avec cette loi{{< /a >}}.
 
 ### Suisse : une règle plus étroite
 
@@ -118,15 +118,15 @@ Si les quatre sont réunies, le représentant doit se trouver en Suisse, car un 
 
 L’absence de représentant est un manquement à l’article 27, qui relève du premier niveau d’amendes du RGPD : jusqu’à 10 millions d’euros ou 2 % du chiffre d’affaires annuel mondial, le montant le plus élevé étant retenu (article 83, paragraphe 4). C’est un plafond. Les autorités fixent chaque montant selon les critères de l’article 83, paragraphe 2, et mon article sur {{< a key="gdpr-fines-small-business" >}}les sanctions RGPD pour une petite équipe{{< /a >}} passe en revue des cas réels.
 
-Le cas le plus connu est néerlandais. En mai 2021, l’Autoriteit Persoonsgegevens, l’autorité des Pays-Bas, a annoncé une [amende de 525 000 euros contre Locatefamily.com](https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-imposes-fine-of-eu525000-on-locatefamilycom), un site qui publiait les coordonnées de particuliers, n’avait aucun établissement dans l’UE et n’avait pas désigné de représentant depuis mai 2018. Les personnes concernées avaient du mal à faire retirer leurs données, et l’autorité avait reçu 19 réclamations. En plus de l’amende, elle a ordonné au site de désigner un représentant sous 12 semaines, sous astreinte de 20 000 euros par période de deux semaines, plafonnée à 120 000 euros.
+Le cas le plus souvent cité est néerlandais. En mai 2021, l’Autoriteit Persoonsgegevens, l’autorité des Pays-Bas, a annoncé une [amende de 525 000 euros contre Locatefamily.com](https://www.autoriteitpersoonsgegevens.nl/en/current/dutch-dpa-imposes-fine-of-eu525000-on-locatefamilycom), un site qui publiait les coordonnées de particuliers, n’avait aucun établissement dans l’UE et n’avait pas désigné de représentant depuis mai 2018. Les personnes concernées avaient du mal à faire retirer leurs données, et l’autorité avait reçu 19 réclamations. En plus de l’amende, elle a ordonné au site de désigner un représentant sous 12 semaines, sous astreinte de 20 000 euros par période de deux semaines, plafonnée à 120 000 euros.
 
-Deux leçons pour une petite équipe. L’affaire est partie de réclamations de personnes qui n’avaient personne à qui s’adresser dans l’UE. Et l’amende n’a pas remplacé l’obligation : le site devait toujours désigner un représentant.
+Deux leçons pour une petite équipe. L’affaire est partie de réclamations de particuliers qui n’avaient aucun interlocuteur dans l’UE. Et l’amende n’a pas remplacé l’obligation : le site devait toujours désigner un représentant.
 
 ## Votre check-list, et quand passer la main
 
 - Vérifiez si le RGPD s’applique à vous (article 3) et si vous avez un établissement dans l’UE.
-- Testez l’exemption honnêtement et écrivez votre conclusion.
-- Choisissez le pays, idéalement celui d’une part importante de vos clients ou utilisateurs européens, puis le représentant.
+- Testez l’exemption honnêtement et consignez votre conclusion par écrit.
+- Choisissez le pays, idéalement celui d’une part importante de vos clients ou utilisateurs dans l’UE, puis le représentant.
 - Signez le mandat écrit et transmettez votre registre des traitements.
 - Ajoutez le nom et les coordonnées du représentant à votre politique de confidentialité.
 - Vérifiez s’il vous faut aussi un représentant au Royaume-Uni (UK GDPR) ou en Suisse (article 14 de la nLPD).
@@ -134,4 +134,4 @@ Deux leçons pour une petite équipe. L’affaire est partie de réclamations de
 
 Ce guide présente les règles telles qu’elles s’appliquent au 19 octobre 2026 et ne constitue pas un conseil juridique. Un avocat, ou votre DPO si vous en avez un, mérite d’être consulté si vous traitez des données de santé ou d’autres données sensibles, suivez des personnes à grande échelle, vendez dans de nombreux pays de l’UE à la fois ou avez reçu un courrier d’une autorité.
 
-Ma partie, c’est le site lui-même : les pages de confidentialité et de mentions légales font partie de {{< a page="/services/websites" >}}mes projets de sites web{{< /a >}}, et les coordonnées de votre représentant y trouvent leur place dès le départ. Être votre représentant, ou décider s’il vous en faut un, relève des spécialistes cités plus haut.
+Les pages de confidentialité et de mentions légales font partie de {{< a page="/services/websites" >}}mes projets de sites web{{< /a >}} : les coordonnées de votre représentant y trouvent leur place dès la mise en ligne.

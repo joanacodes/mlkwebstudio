@@ -9,7 +9,7 @@ lastmod: 2026-10-18T23:06:00+02:00
 category: "funnels"
 article_type: "guide"
 keywords: ["idées de lead magnet", "lead magnet exemple", "lead magnet définition", "lead magnet B2B", "lead magnet RGPD"]
-summary: "Un lead magnet est une ressource gratuite, comme une checklist, un simulateur de prix ou un diagnostic de 15 minutes, que l’on obtient en échange de son adresse email. Pour une entreprise de services, les bons résolvent un problème précis en moins d’une demi-heure et collent à ce que vous vendez : ceux qui le prennent sont des clients possibles. Envoyez-le après un clic de confirmation, et proposez la newsletter dans une case séparée, non cochée."
+summary: "Un lead magnet est une ressource gratuite, comme une checklist, un simulateur de prix ou un diagnostic de 15 minutes, que l’on obtient en échange de son adresse email. Pour une entreprise de services, les bons résolvent un problème précis en moins d’une demi-heure et collent à ce que vous vendez : ceux qui les téléchargent sont des clients possibles. Envoyez-le après un clic de confirmation, et proposez la newsletter dans une case séparée, non cochée."
 cover: "lead-magnet-ideas"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, sur fond de photo, avec un entonnoir qui se resserre jusqu’à un point orange"
 related: ["newsletter-consent-gdpr", "welcome-email-sequence", "first-100-subscribers", "sales-funnel-explained", "plain-text-cold-emails"]

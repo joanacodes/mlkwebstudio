@@ -59,7 +59,7 @@ Neither API tells your app whether someone left a rating, and Google's does not 
 
 ## When to ask: right after a success moment
 
-Timing does most of the work. Apple's Human Interface Guidelines say to ask only once people have shown engagement, such as completing a level or a significant task, and to avoid first launch and onboarding, when people may be more likely to leave negative feedback. Google says to wait until the person has used enough of the app to give useful feedback.
+Apple's Human Interface Guidelines say to ask only once people have shown engagement, such as completing a level or a significant task, and to avoid first launch and onboarding, when people may be more likely to leave negative feedback. Google says to wait until the person has used enough of the app to give useful feedback.
 
 | Good moments to ask | Moments to avoid |
 |---|---|
@@ -68,13 +68,13 @@ Timing does most of the work. Apple's Human Interface Guidelines say to ask only
 | The third or fourth successful use of the main feature | Right after an error, a crash or a failed payment |
 | A goal or a streak is reached | A tap on a "Rate us" button (link to the store instead) |
 
-Space the requests out: Apple suggests at least a week or two between them. Its own sample code waits until someone has completed a task four times, has not been asked about the current version and has paused on the success screen for a few seconds; Apple calls the number four arbitrary, so pick the success moment that everybody using your app reaches.
+Space the requests out: Apple suggests at least a week or two between them. Its own sample code waits until someone has completed a task four times, has not been asked about the current version and has paused on the success screen for a few seconds. Apple calls the number four arbitrary: set your own threshold on a success moment every user reaches.
 
 ## What both stores forbid: rewards, review gating and pressure
 
 ### Rewards for ratings
 
-Apple's [App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) warn that developers who try to inflate their rankings with "paid, incentivized, filtered, or fake feedback" may be expelled from the Apple Developer Program. Google Play's policy on user ratings, reviews and installs bans inflating ratings or reviews by illegitimate means such as incentives, and gives the example of a notification offering a discount for a high rating. So no coins, extra lives, discount codes or prize draws in exchange for a review.
+Apple's [App Review Guidelines](https://developer.apple.com/app-store/review/guidelines/) warn that developers who try to inflate their rankings with "paid, incentivized, filtered, or fake feedback" may be expelled from the Apple Developer Program. Google Play's policy on user ratings, reviews and installs bans inflating ratings or reviews by illegitimate means such as incentives, and gives the example of a notification offering a discount for a high rating.
 
 ### Review gating
 
@@ -84,7 +84,7 @@ Review gating means asking people whether they like your app first, then sending
 
 Guideline 3.2.2(x) says apps must not force people to rate or review the app to use it or reach its content. A screen that stays blocked until someone rates is out, and so is a home-made pop-up that imitates the system prompt (guideline 5.6.1 again).
 
-What you can do is make your support contact easy to find, in the app and on your store page: Apple recommends it, so that unhappy users reach you before they reach the review form. Unlike gating, support is there for everyone rather than placed as a filter in front of the rating prompt.
+What you can do is make your support contact easy to find in the app and on your store page, as Apple recommends, so that unhappy users reach you before the review form. Unlike gating, support is open to everyone, not a filter in front of the prompt.
 
 ## Fake and incentivised reviews also break UK and EU law
 
@@ -96,7 +96,7 @@ This is general information, not legal advice: before a tester programme, a refe
 
 ## Reply to reviews on both stores
 
-A reply does not change the stars, but on both stores the reviewer is notified and can update their review. Everyone else reads your reply too, so write it for future users as much as for the reviewer.
+A reply does not change the stars, but on both stores the reviewer is notified and can update their review. Future users read it too.
 
 ### In App Store Connect
 
@@ -108,10 +108,10 @@ Open your app, go to **Ratings and reviews > Reviews**, type your reply and sele
 
 ### How I would write them
 
-1. Start with the lowest ratings and the reviews about bugs in the current version, the order Apple suggests when you cannot answer everything.
+1. Start with the lowest ratings and bug reports on the current version, as Apple suggests when you cannot answer everything.
 2. Thank the person, name the exact problem and say what you are doing about it. Do not ask for a better rating.
 3. Point to your support address, never to personal details: guideline 5.6.1 rules out personal information, spam and marketing in replies.
-4. On iOS, send download and billing problems to Apple Support, as Apple asks developers to do.
+4. Send iOS download and billing problems to Apple Support, as Apple asks.
 
 ```text
 Thanks for reporting this, and sorry about the lost booking. The sync bug is
@@ -121,7 +121,7 @@ support@yourapp.com and we will look into it.
 
 ## Turn bad reviews into fixes, then decide whether to reset
 
-Low ratings are bug reports with an audience. Read them version by version: App Store Connect filters reviews by version and rating, and Play Console breaks ratings down by app version and device type. When a complaint keeps coming back, fix it, mention the fix in your release notes and reply to the reviews that raised it. Apple recommends this to win back unhappy users, and the notification gives them a reason to update their review.
+Low ratings are bug reports with an audience. Read them version by version: App Store Connect filters reviews by version and rating, and Play Console breaks ratings down by app version and device type. When a complaint keeps coming back, fix it, mention the fix in your release notes and reply to the reviews that raised it, as Apple recommends to win back unhappy users.
 
 Google Play weights its public rating towards recent ratings, so a fix shows in the score as new ratings arrive. On the App Store, you can also reset the overview rating when you release a new version: select the version in the App Store Connect sidebar, select **Reset rating when this version is released** in the **Reset Overview Rating** section, then save. The reset applies to every country at once, written reviews stay, and once the version is out you cannot restore the old score. Until enough people rate the new version, your page says the rating was recently reset.
 
@@ -134,4 +134,4 @@ Apple recommends using this sparingly, because a page with few ratings can put p
 3. Your support contact is easy to find in the app and on both store pages.
 4. Someone answers new reviews every week, lowest ratings first.
 5. Your release notes name the fixes reviewers asked for, and those reviewers get a reply.
-6. If you buy installs with {{< a key="apple-ads-tutorial" >}}Apple Ads{{< /a >}}, work on the rating first: the ads send people to a product page where they see it before they install.
+6. Fix the rating before you buy installs with {{< a key="apple-ads-tutorial" >}}Apple Ads{{< /a >}}: the ads lead to a product page that shows it.
