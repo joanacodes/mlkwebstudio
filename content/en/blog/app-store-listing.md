@@ -178,7 +178,7 @@ Google's [preview assets help](https://support.google.com/googleplay/android-dev
 ## Step 7: support, privacy and contact details
 
 - **Support URL** (App Store, required): Apple says it must lead to actual contact information, such as a legal address, an email address and a phone number, as local law may require.
-- **Privacy policy URL** (App Store, required for iOS apps). On Google Play, the contact details and privacy policy are shared by every version of your listing.
+- **Privacy policy URL** (App Store, required for iOS apps). On Google Play, one set of contact details and one privacy policy serve your main listing and any custom store listings.
 - **Marketing URL** (App Store, optional): your app's own web page, which my guide to {{< a key="app-website-seo" >}}SEO for your app's website{{< /a >}} covers.
 - **Trader status** (App Store, to distribute in the EU): App Store Connect asks whether you are a trader under the EU Digital Services Act. If you are, your address and contact details are shown on your product page to customers in the EU.
 
@@ -193,7 +193,7 @@ Each language is a separate listing with its own text. Keep the meaning, but cho
 1. In **Apps**, select your app, then click the primary language at the top right to open the language menu.
 2. Scroll to **Not Localized**, hover over the language, for example English (U.K.) or French, and click the add button (+).
 3. Fill in the description and keywords: a new language copies your primary language's screenshots and fields, except those two.
-4. Open **App Information**, add the localised name and privacy policy URL, then click **Save**.
+4. Open **App Information**, add the localised name, subtitle and privacy policy URL, then click **Save**.
 
 Apple's storefront table gives English (U.K.) for the United Kingdom, and French, with English (U.K.) as an additional language, for France. Apple adds that people can search with your French keywords in every storefront that supports French.
 

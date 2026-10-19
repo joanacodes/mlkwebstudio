@@ -51,7 +51,7 @@ Menus move. If a label below has changed, the search bar at the top of each cons
 
 Every step below works on Business Starter or Microsoft 365 Business Basic unless I say otherwise, so secure the plan you have before paying for the next one.
 
-One gap on Google's side: the security health page, which compares your settings with Google's recommendations, is listed in Google's help for Enterprise, Education and some Frontline editions only, at the time of writing. On a Business plan, this list is your health check.
+One gap: Google's help lists its security health page, which compares your settings with its recommendations, for Enterprise, Education and some Frontline editions only, at the time of writing. On a Business plan, this list is your health check.
 
 ## Google Workspace security settings, step by step
 
@@ -94,13 +94,13 @@ While you are there, **Authenticate email** shows whether DKIM signs your mail. 
 
 Go to **Apps > Google Workspace > Drive and Docs > Sharing settings > Sharing options**. Sharing outside your organisation can be **Off**, **On** or **Allowlisted domains** (only the domains you list, such as your accountant's firm). Most teams that work with clients need On, with the box that starts with **Warn when files owned by users or shared drives** ticked, as Google's checklist recommends.
 
-For larger organisations, Google also recommends that new files are restricted by default, so only the people named on a file can open it. I would do the same in any team that holds client data: sharing becomes a decision, not an accident. Trust rules, if your plan has them and you switch them on, replace these settings.
+For larger organisations, Google also recommends restricted access by default for new files, so only the people named on a file can open it; I would do the same in any team holding client data. Trust rules, if your plan has them and you switch them on, replace these settings.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-02" alt="Google Admin console, Drive and Docs sharing options with sharing outside the organisation set to On and the warning box ticked" >}}
 
 ### 6. Review the apps connected to your data
 
-Go to **Security > Access and data control > API controls > Manage third-party app access**. The list shows the apps your users have connected with their Google account: a scheduling tool, an email warm-up service, an add-on someone tried once. Set the ones you rely on to **Trusted** and block anything nobody recognises. Trusting an app here is also the clean way to connect a tool, such as a cold email platform, for the whole team.
+Go to **Security > Access and data control > API controls > Manage third-party app access**. The list shows the apps your users have connected with their Google account: a scheduling tool, an email warm-up service, an add-on someone tried once. Set the ones you rely on to **Trusted** and block anything nobody recognises.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-03" alt="Google Admin console, API controls, Manage third-party app access list with apps set to Trusted, Limited or Blocked" >}}
 
@@ -108,7 +108,7 @@ Go to **Security > Access and data control > API controls > Manage third-party a
 
 **Security > Alert centre** collects Google's warnings, such as suspicious sign-ins, leaked passwords and phishing reported by your users. Check it every week, or turn on email notifications for the alerts you care about.
 
-Phones and laptops are managed under **Devices**. Business Starter and Standard include fundamental endpoint management; strong passcode enforcement, mobile security policies and remote device wipe need Business Plus. On any plan, updates, disk encryption and a screen lock on the devices themselves matter as much as the console.
+Phones and laptops are managed under **Devices**. Business Starter and Standard include fundamental endpoint management; strong passcode enforcement, mobile security policies and remote device wipe need Business Plus.
 
 ## Microsoft 365 security settings, step by step
 
@@ -128,7 +128,7 @@ On every plan, admins can sign in with a passkey or Microsoft Authenticator inst
 
 ### 2. Multifactor authentication for everyone
 
-Microsoft 365 organisations created after October 2019 have security defaults on, unless someone switched them off. In the Microsoft Entra admin centre, **Entra ID > Overview > Properties > Manage security defaults** should say **Enabled**. They make everyone register Microsoft Authenticator, whose notifications ask for the number shown on the sign-in screen, and they block legacy authentication (step 3).
+Microsoft 365 organisations created after October 2019 have security defaults on, unless someone switched them off. In the Microsoft Entra admin centre, **Entra ID > Overview > Properties > Manage security defaults** should say **Enabled**. They make everyone register Microsoft Authenticator and they block legacy authentication (step 3).
 
 {{< screenshot id="secure-google-workspace-microsoft-365-05" alt="Microsoft Entra admin centre, Properties tab of the Overview page with the Security defaults panel set to Enabled" >}}
 
@@ -169,9 +169,8 @@ Out of the box, SharePoint and OneDrive sharing is set to the most permissive le
 - **Audit**, in the Microsoft Purview portal, records who did what. Check that it is recording now, not on the day you need it.
 - **Devices**: Basic Mobility and Security, in every Microsoft 365 for business plan, enrols phones and can wipe them; Business Premium adds Intune Plan 1 and Defender for Business for computers too.
 
-## Mistakes that lock people out, or let attackers stay
+## Three mistakes I would avoid
 
-- **Enforcing without warning.** Microsoft no longer gives users 14 days to register once security defaults are on, and once Google's enforcement starts, anyone not enrolled is stuck at sign-in.
 - **Switching off security defaults to fix one problem.** It removes multifactor authentication for everyone. Fix the copier or the app instead.
 - **Forgetting leavers.** A former colleague's account, devices and connected apps stay open until you close them; my {{< a key="offboarding-checklist" >}}offboarding checklist{{< /a >}} lists them all.
 - **Treating the suite as a backup.** These settings protect access, not data: a deleted folder, or files encrypted by ransomware and synced to the cloud, can still cost you work. My {{< a key="backups-3-2-1" >}}3-2-1 backup guide{{< /a >}} covers both suites.
