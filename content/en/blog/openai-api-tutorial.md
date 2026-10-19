@@ -12,7 +12,7 @@ keywords: ["OpenAI API key", "how to get an OpenAI API key", "OpenAI API pricing
 summary: "To get an OpenAI API key, sign in at platform.openai.com, open the API keys page in the settings, click Create new secret key and store the key in an environment variable called OPENAI_API_KEY. Then add prepaid credits (from $5), set a monthly hard spend limit on the project and send a POST request to https://api.openai.com/v1/responses. A ChatGPT subscription does not include API usage: the API is billed separately, per token."
 cover: "openai-api-tutorial"
 cover_alt: "A phone showing an email inbox, and a terminal with a curl request and a 200 OK response above the words OpenAI API"
-related: ["claude-api-tutorial", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data", "claude-vs-chatgpt", "build-app-with-ai"]
+related: ["claude-api-tutorial", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data", "api-keys-mobile-apps", "build-app-with-ai"]
 services: ["automation"]
 faq:
   - q: "Is an OpenAI API key free?"
@@ -101,7 +101,7 @@ Visitor's browser  →  your server or automation tool (holds the key)  →  Ope
 Visitor's browser  ←  the answer only                                 ←  OpenAI API
 ```
 
-No server? Zapier, Make and n8n all have an OpenAI step that keeps your key on their side: my comparison of {{< a key="zapier-vs-make-vs-n8n" >}}Zapier vs Make vs n8n{{< /a >}} helps you choose. And **one key per tool**, never pasted into a public repository, an email, a shared document or a chat with an AI assistant.
+No server? Zapier, Make and n8n all have an OpenAI step that keeps your key on their side: my comparison of {{< a key="zapier-vs-make-vs-n8n" >}}Zapier vs Make vs n8n{{< /a >}} helps you choose. And **one key per tool**, never pasted into a public repository, an email, a shared document or a chat with an AI assistant. The same applies to {{< a key="api-keys-mobile-apps" >}}API keys in a mobile app{{< /a >}}.
 
 {{< callout type="warning" >}}Anyone holding your key can spend your credits until you delete it. Guard it like the PIN of the company card.{{< /callout >}}
 
@@ -256,7 +256,7 @@ An unexplained jump deserves a look the same day: a looping tool or a stolen key
 You do not need me, or any developer, to send a first request: if the commands above worked, it is done. The next step is one task you already do every week, not ten ideas at once:
 
 - **Answer leads faster.** Alerts and call-back reminders first, an AI draft second: my tutorial to {{< a key="automate-lead-follow-up" >}}automate lead follow-up{{< /a >}} sets up the alerts for free.
-- **Build a small internal tool**, such as a quote calculator: my guide to {{< a key="build-app-with-ai" >}}building an app with AI{{< /a >}} says what is realistic without a developer.
+- **Build a small internal tool**, such as a quote calculator: my guide to {{< a key="build-app-with-ai" >}}building an app with AI{{< /a >}} says what is realistic without a developer. If the tool keeps data in Supabase or Firebase, {{< a key="ai-app-data-leaks" >}}test who can read it{{< /a >}} before you share it.
 - **Compare with Claude**, whose steps are close to these, in my {{< a key="claude-api-tutorial" >}}Claude API tutorial{{< /a >}}.
 
 Before client data goes through the API, read my guide on {{< a key="chatgpt-gdpr-client-data" >}}what client data you can put into an AI assistant{{< /a >}}: the API has its own terms, but your duties towards your clients stay the same.

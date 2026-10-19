@@ -173,9 +173,11 @@ Avant d’ouvrir le site au public, passez cette liste en revue. Elle prend un a
 
 ### Obligations légales en France
 
-- Les mentions légales, obligatoires sur tout site professionnel quelle que soit la taille de l’entreprise (loi pour la confiance dans l’économie numérique, ou LCEN). Pour une société : dénomination sociale, forme juridique, siège social, capital social, numéro RCS ou RNE, nom du directeur de la publication et coordonnées de l’hébergeur, avec une adresse email et un numéro de téléphone.
-- Une politique de confidentialité qui explique ce que vous collectez par le formulaire et la mesure d’audience, et pourquoi (RGPD).
-- Un bandeau cookies pour les outils qui exigent un consentement. La [CNIL précise quand la mesure d’audience en est exemptée](https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience), et ses conditions sont strictes.
+- {{< a key="website-legal-notice" >}}Les mentions légales{{< /a >}}, obligatoires sur tout site professionnel quelle que soit la taille de l’entreprise (loi pour la confiance dans l’économie numérique, ou LCEN). Pour une société : dénomination sociale, forme juridique, siège social, capital social, numéro RCS ou RNE, nom du directeur de la publication et coordonnées de l’hébergeur, avec une adresse email et un numéro de téléphone.
+- {{< a key="privacy-policy-guide" >}}Une politique de confidentialité{{< /a >}} qui explique ce que vous collectez par le formulaire et la mesure d’audience, et pourquoi (RGPD).
+- {{< a key="cookie-banner-rules" >}}Un bandeau cookies pour les outils qui exigent un consentement{{< /a >}}. La [CNIL précise quand la mesure d’audience en est exemptée](https://www.cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience), et ses conditions sont strictes.
+
+Le site n’est qu’une partie de vos obligations sur les données : mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}} couvre le reste, des fichiers clients aux outils que vous utilisez.
 
 ## Après la mise en ligne : entretien, sécurité et demandes de contact
 
@@ -187,7 +189,7 @@ Sur WordPress, il faut vérifier chaque semaine les mises à jour du cœur, du t
 
 ### Le sécuriser
 
-Activez la double authentification sur chaque compte, gardez des sauvegardes et testez au moins une fois leur restauration, et vérifiez que le domaine se renouvelle automatiquement. {{< a key="website-security-guide" >}}Sécuriser son site internet{{< /a >}} couvre la prévention et la remise en route, et si c’est un site WordPress qui pose problème, voici {{< a key="wordpress-site-hacked" >}}que faire dans les 24 premières heures après un piratage{{< /a >}}.
+Activez la double authentification sur chaque compte, gardez des sauvegardes et testez au moins une fois leur restauration, et vérifiez que le domaine se renouvelle automatiquement. {{< a key="website-security-guide" >}}Sécuriser son site internet{{< /a >}} couvre la prévention et la remise en route, et si c’est un site WordPress qui pose problème, voici {{< a key="wordpress-site-hacked" >}}que faire dans les 24 premières heures après un piratage{{< /a >}}. Pour la messagerie, les ordinateurs et les paiements, mon {{< a key="cybersecurity-guide" >}}guide de la cybersécurité pour les petites équipes{{< /a >}} prend le relais.
 
 Eden Flats a fait appel à moi après le piratage de son site. Ce site n’avait jamais apporté le moindre contact, car la personne qui dirigeait l’entreprise avait trop à faire pour se former sérieusement au SEO. J’ai créé un nouveau site, fait le référencement et l’identité visuelle, et des propriétaires ont commencé à appeler pour confier la gestion de leur bien : {{< a page="/projects/eden-flats" >}}le projet Eden Flats{{< /a >}} présente le site.
 

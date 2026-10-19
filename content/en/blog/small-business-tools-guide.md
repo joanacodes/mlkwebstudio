@@ -52,7 +52,7 @@ Prices are for the entry paid plans shown at the time of writing (October 2026).
 
 There is no total at the bottom on purpose. Few businesses need every row, several rows cost nothing, and the right budget depends on the channel that brings you clients. Where a tool bills in US dollars, the pound figure is an approximate conversion.
 
-Websites, hosting and email are not in this table because they have guides of their own: {{< a key="small-business-website-guide" >}}small business websites{{< /a >}} and {{< a key="domain-hosting-email-guide" >}}domains, hosting and email{{< /a >}}.
+Websites, hosting and email are not in this table because they have guides of their own: {{< a key="small-business-website-guide" >}}small business websites{{< /a >}} and {{< a key="domain-hosting-email-guide" >}}domains, hosting and email{{< /a >}}. A password manager for the logins to all these tools is not in it either: I compare {{< a key="password-manager-teams" >}}Bitwarden, 1Password and Proton Pass for teams{{< /a >}} separately.
 
 ## How I choose a tool, and why the list stays short
 
@@ -66,7 +66,7 @@ In practice:
 4. Test on real work. A month of real posts, bookings or campaigns tells you more than any comparison table, mine included.
 5. Decide in advance what would make you cancel, so the subscription does not outlive its use.
 
-Staying put is a skill too: when a tool does the job, the next one has to be much better, not just newer. If you keep adding channels and tools before the first ones have had time to work, read my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}. And choose {{< a key="how-to-get-more-clients" >}}your marketing channels{{< /a >}} before your tools: the channel decides which rows of the table you need.
+Staying put is a skill too: when a tool does the job, the next one has to be much better, not just newer. If you keep adding channels and tools before the first ones have had time to work, read my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}. And choose {{< a key="how-to-get-more-clients" >}}your marketing channels{{< /a >}} before your tools: the channel decides which rows of the table you need. If an all-in-one funnel builder tempts you, my comparison of {{< a key="funnel-builders-comparison" >}}Systeme.io, ClickFunnels and GoHighLevel{{< /a >}} says when you need none of them.
 
 ## Design: Canva every day, Affinity or Adobe for heavy work
 
@@ -118,7 +118,7 @@ Prospecting is the part of this stack closest to my {{< a page="/services/cold-e
 
 ### Instantly, to send
 
-I use Instantly because it is straightforward and has good settings to keep your emails out of spam. I started with it and have found no reason to change: once you have the right recipe, it simply runs. The Growth plan costs $47 (about £35) a month at the time of writing, with unlimited mailboxes and warm-up, and room for 5,000 emails a month and 1,000 uploaded contacts. The setup is in my {{< a key="instantly-ai-tutorial" >}}Instantly tutorial{{< /a >}}, and the mailboxes you send from are a choice of their own, covered in {{< a key="best-email-provider-cold-email" >}}the best email provider for cold email{{< /a >}}.
+I use Instantly because it is straightforward and has good settings to keep your emails out of spam. I started with it and have found no reason to change: once you have the right recipe, it simply runs. The Growth plan costs $47 (about £35) a month at the time of writing, with unlimited mailboxes and warm-up, and room for 5,000 emails a month and 1,000 uploaded contacts. The setup is in my {{< a key="instantly-ai-tutorial" >}}Instantly tutorial{{< /a >}}, and the mailboxes you send from are a choice of their own, covered in {{< a key="best-email-provider-cold-email" >}}the best email provider for cold email{{< /a >}}. A newsletter to people who signed up is a different job: my comparison of {{< a key="newsletter-tools-comparison" >}}Brevo, MailerLite, Mailchimp, Kit and beehiiv{{< /a >}} covers the tools for it.
 
 ### Reoon, to verify
 

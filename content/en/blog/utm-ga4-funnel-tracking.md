@@ -44,7 +44,7 @@ A UTM parameter is a label added to the end of a link that tells Google Analytic
 | `utm_term` | The keyword, for paid search | Rarely needed |
 | `utm_id` | A campaign ID, for imported campaign data | Rarely needed |
 
-Google asks you to always set the first three ([Google's help page on campaign URLs](https://support.google.com/analytics/answer/10917952)). Leave one out and your reports show (not set) in its place.
+Google asks you to always set the first three ([Google's help page on campaign URLs](https://support.google.com/analytics/answer/10917952)).
 
 GA4 then sorts each visit into a channel, mostly from the medium, with fixed rules: `email` goes to Email, `social` to Organic Social, `referral` to Referral ([Google's channel rules](https://support.google.com/analytics/answer/9756891)). A medium it has no rule for, such as `newsletter-link`, goes to **Unassigned**, the bin for visits GA4 cannot classify. Visits with neither a tag nor a referring site go to **Direct**, mixed with the people who typed your address.
 
@@ -95,8 +95,6 @@ GA4 cannot see inside your booking tool, only the pages of your site. So each bo
 
 {{< callout type="warning" >}}YouCanBookMe can add the booker's name and email to the redirect address. Leave those codes out: **Google Analytics' terms forbid sending it personal information**, and the address of the page is exactly what GA4 records.{{< /callout >}}
 
-If your booking page opens on the booking tool's own domain, check after your first test booking whether that domain shows up as a referral source. If it does, add it to the unwanted referrals list in your web data stream's Google tag settings, in **Admin**, so it stops taking the credit.
-
 ## Step 4: count the thank-you page as a key event
 
 GA4 calls the actions that matter **key events**; older tutorials call them conversions. To turn a visit to your thank-you page into one ([Google's help page on creating events](https://support.google.com/analytics/answer/12844695)):
@@ -116,21 +114,20 @@ Then test the whole chain: open one of your tagged links in a private window, ac
 
 After a few weeks of data:
 
-1. In **Reports**, open **Traffic acquisition**, under **Acquisition** in most properties.
-2. Choose a date range of at least 28 days. On a site with modest traffic, three months says more.
-3. Click the title of the first column, which lists channels, and pick **Session source / medium**.
-4. If you track several key events, select `generate_lead` in the drop-down at the top of the **Key events** column.
-5. To compare campaigns, click the plus sign next to the first column's title and add **Session campaign** as a secondary dimension.
+1. In **Reports**, open **Traffic acquisition** (under **Acquisition** in most properties) for at least the last 28 days, or three months on a site with modest traffic.
+2. Click the title of the first column, which lists channels, and pick **Session source / medium**.
+3. If you track several key events, select `generate_lead` in the drop-down at the top of the **Key events** column.
+4. To compare campaigns, click the plus sign next to the first column's title and add **Session campaign** as a secondary dimension.
 
 {{< screenshot id="utm-ga4-funnel-tracking-03" alt="GA4 Traffic acquisition report by session source / medium, with the key events column set to generate_lead" >}}
 
-Read the key events first and the sessions second: a source with plenty of sessions and no bookings brings the wrong people or sends them to the wrong page, while one with few sessions and a couple of bookings deserves more of your links.
+Read the key events first: a source with plenty of sessions and no bookings brings the wrong people or sends them to the wrong page, while a small one with a couple of bookings deserves more of your links.
 
 GA4 credits a visit with no source of its own to the last channel that brought that visitor: someone who clicked your newsletter on Monday and typed your address on Thursday still counts for the newsletter, on the same browser. Visits from ChatGPT and other assistants have a channel of their own, covered in my guide to {{< a key="track-ai-traffic" >}}tracking AI traffic in GA4{{< /a >}}.
 
 ## Step 6: find where visitors drop out with a funnel exploration
 
-Traffic acquisition tells you which channel books. A funnel exploration tells you at which step everyone else stops ([Google's help page on funnel explorations](https://support.google.com/analytics/answer/9327974)).
+A funnel exploration shows at which step the people who do not book give up ([Google's help page on funnel explorations](https://support.google.com/analytics/answer/9327974)).
 
 1. Open **Explore** and pick the **Funnel exploration** template.
 2. Edit the steps. Step 1: a `page_view` of the page with your booking button. Step 2: a `page_view` of your booking page, if it sits on your site. Step 3: `generate_lead`.
@@ -153,10 +150,8 @@ Even with perfect tags, GA4 sees only part of your bookings.
 
 So keep two counts next to GA4's:
 
-1. **Your booking tool's total.** It records every booking, consent or not. The gap between that total and GA4's `generate_lead` count is the share of bookings GA4 cannot see.
-2. **A required 'How did you find us?' question** on the booking form, with fixed choices: Google search, recommendation, LinkedIn, newsletter, AI assistant, other. Ask the same question on the phone.
-
-When the counts disagree, trust the booking tool for the total, the question for referrals and calls, and GA4 for the channels it can see.
+1. **Your booking tool's total.** It records every booking, consent or not. The gap between that total and GA4's `generate_lead` count is the share of bookings GA4 cannot see. Trust it for the total.
+2. **A required 'How did you find us?' question** on the booking form, with fixed choices: Google search, recommendation, LinkedIn, newsletter, AI assistant, other. Ask the same question on the phone. It is the only count that covers referrals and calls.
 
 ## Your monthly check, and when to hand it over
 

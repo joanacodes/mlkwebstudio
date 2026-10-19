@@ -12,7 +12,7 @@ keywords: ["API Claude", "clé API Claude", "API Anthropic", "tutoriel API Claud
 summary: "Pour utiliser l’API Claude, créez un compte sur la Claude Console (platform.claude.com), ouvrez la page API keys, cliquez sur Create key et copiez la clé : elle commence par sk-ant- et ne s’affiche qu’une fois. Rangez-la dans une variable d’environnement ANTHROPIC_API_KEY, fixez un plafond de dépenses dans Billing, puis envoyez une requête POST à https://api.anthropic.com/v1/messages. L’API se paie au token, en dehors de l’abonnement Claude Pro."
 cover: "claude-api-tutorial"
 cover_alt: "Un terminal affichant une requête curl vers l’API et la réponse 200 OK, à côté des mots Claude API"
-related: ["openai-api-tutorial", "build-app-with-ai", "automate-lead-follow-up", "claude-vs-chatgpt", "chatgpt-gdpr-client-data"]
+related: ["openai-api-tutorial", "build-app-with-ai", "automate-lead-follow-up", "api-keys-mobile-apps", "chatgpt-gdpr-client-data"]
 services: ["automation"]
 faq:
   - q: "Clé API Claude ou clé API Anthropic : quelle différence ?"
@@ -94,7 +94,7 @@ Ouvrez ensuite une nouvelle fenêtre : `setx` enregistre la variable pour les f
 
 Quatre règles, quel que soit votre projet :
 
-- **Jamais dans le code front-end.** Tout visiteur peut lire le HTML et le JavaScript de votre site. La requête doit partir d’un serveur ou d’un outil d’automatisation qui détient la clé.
+- **Jamais dans le code front-end.** Tout visiteur peut lire le HTML et le JavaScript de votre site. La requête doit {{< a key="api-keys-mobile-apps" >}}partir d’un serveur{{< /a >}} ou d’un outil d’automatisation qui détient la clé.
 - **Jamais dans un dépôt public.** Si votre code est sur GitHub, gardez la clé dans un fichier `.env` listé dans `.gitignore`, pour qu’elle ne soit jamais envoyée.
 - **Jamais dans un email ou un document partagé**, ni dans une conversation avec un assistant IA.
 - **Une clé par outil.** Vous pourrez en révoquer une sans casser les autres.
@@ -262,7 +262,7 @@ Pour envoyer une première requête, vous n’avez besoin ni de moi ni d’un d�
 
 - **Répondre plus vite aux prospects.** Les alertes et les rappels viennent d’abord ; un brouillon de réponse peut suivre. Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} met en place les alertes gratuitement.
 - **Donner des consignes permanentes à Claude.** Un prompt `system` contient ce qui vaut pour chaque requête : votre ton, le vouvoiement, la conduite à tenir quand une information manque.
-- **Créer un petit outil interne**, comme un calculateur de devis. Mon guide pour {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}} dit ce qui est réaliste sans développeur.
+- **Créer un petit outil interne**, comme un calculateur de devis. Mon guide pour {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}} dit ce qui est réaliste sans développeur. {{< a key="ai-app-data-leaks" >}}Vérifiez ensuite qui peut lire ses données{{< /a >}}.
 - **Comparer avec OpenAI**, dont les étapes se ressemblent beaucoup : voyez mon tutoriel sur l’{{< a key="openai-api-tutorial" >}}API ChatGPT (OpenAI){{< /a >}}.
 
 Avant d’envoyer des données clients via l’API, vérifiez ce que permet le RGPD dans mon guide {{< a key="chatgpt-gdpr-client-data" >}}ChatGPT et RGPD : quelles données clients confier à une IA{{< /a >}}. L’API a ses propres conditions, mais vos obligations envers vos clients restent les mêmes.

@@ -173,9 +173,11 @@ Before the site goes live, run through this list. It takes an afternoon, and it 
 
 ### Legal basics in the UK
 
-- A privacy notice that says what you collect through the form and your analytics, and why.
-- If you trade as a limited company, your registered name, company number, registered office address and the part of the UK where the company is registered, as the [GOV.UK rules on company disclosures](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material) require.
-- A cookie banner for the tools that need consent. The [ICO lists the exceptions](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/), which since 2026 include some analytics.
+- {{< a key="privacy-policy-guide" >}}A privacy notice{{< /a >}} that says what you collect through the form and your analytics, and why.
+- If you trade as a limited company, your registered name, company number, registered office address and the part of the UK where the company is registered, as the [GOV.UK rules on company disclosures](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material) require. {{< a key="website-legal-notice" >}}What a website legal notice must include{{< /a >}} covers sole traders and France as well.
+- {{< a key="cookie-banner-rules" >}}A cookie banner for the tools that need consent{{< /a >}}. The [ICO lists the exceptions](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/), which since 2026 include some analytics.
+
+The website is only one part of your data duties: my {{< a key="gdpr-guide" >}}GDPR guide for small-team businesses{{< /a >}} covers the rest, from client files to the tools you use.
 
 ## After launch: upkeep, security and enquiries
 
@@ -187,7 +189,7 @@ On WordPress, someone has to check the core, the theme and the plugins for updat
 
 ### Keep it secure
 
-Turn on two-factor authentication for every account, keep backups and test a restore at least once, and make sure the domain renews automatically. {{< a key="website-security-guide" >}}Website security for small businesses{{< /a >}} covers prevention and recovery, and if a WordPress site is the problem, here is {{< a key="wordpress-site-hacked" >}}what to do in the first 24 hours after a hack{{< /a >}}.
+Turn on two-factor authentication for every account, keep backups and test a restore at least once, and make sure the domain renews automatically. {{< a key="website-security-guide" >}}Website security for small businesses{{< /a >}} covers prevention and recovery, and if a WordPress site is the problem, here is {{< a key="wordpress-site-hacked" >}}what to do in the first 24 hours after a hack{{< /a >}}. For your email, laptops and payments, my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}} takes it from there.
 
 Eden Flats called me after its site was hacked. That site had never brought in a lead, because the owner had too much on to learn how SEO is done properly. I built a new website, did the SEO and the visual identity, and property owners started calling to have their flats managed: {{< a page="/projects/eden-flats" >}}the Eden Flats project{{< /a >}} shows the site.
 

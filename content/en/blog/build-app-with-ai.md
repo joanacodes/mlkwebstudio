@@ -12,7 +12,7 @@ keywords: ["build an app with AI", "vibe coding", "build an app without coding",
 summary: "Yes, you can build an app with AI without being a developer if it stays a small tool for you or your team, such as a quote calculator, a checklist or a dashboard, made with Claude's Artifacts or a vibe-coding builder such as Lovable or Bolt. Call a developer once the app stores clients' personal data, has customer logins, takes payments or has to run every day: the AI writes the code, but the responsibility for security and maintenance stays with you."
 cover: "build-app-with-ai"
 cover_alt: "A person at a desk seen through ribbed glass, with a blueprint grid, a target and the words Vibe coding"
-related: ["bespoke-crm-internal-app", "build-website-with-ai", "claude-api-tutorial", "chatgpt-gdpr-client-data", "spaceship-hosting"]
+related: ["bespoke-crm-internal-app", "build-website-with-ai", "claude-api-tutorial", "chatgpt-gdpr-client-data", "ai-app-data-leaks"]
 services: ["automation"]
 faq:
   - q: "Is vibe coding the same as no-code?"
@@ -97,7 +97,7 @@ This choice matters more than the tool.
 
 **On your website.** A single-page tool with no server, like the calculator above, is just a file. It can sit on your site or on simple hosting such as GitHub Pages or Spaceship. My tutorial on how to {{< a key="build-website-with-ai" >}}build a website with AI{{< /a >}} covers publishing on GitHub Pages with your own domain, and my guide to {{< a key="spaceship-hosting" >}}Spaceship hosting{{< /a >}} explains which product suits which site. GitHub's rules keep Pages for sites, not for online shops or software sold as a service.
 
-**On the builder's hosting.** It is the fastest way to put a builder's app online, and the one that ties you most closely to that builder's plan.
+**On the builder's hosting.** It is the fastest way to put a builder's app online, and the one that ties you most closely to that builder's plan. Publishing in the App Store or Google Play is another project: {{< a key="mobile-app-launch-guide" >}}my guide to launching a mobile app{{< /a >}} covers it.
 
 The quote and ordering app I built into {{< a page="/projects/edenel-nettoyage" >}}Edenel Nettoyage's website{{< /a >}} shows how far a page with no server of its own can go. A simulator prices each job from the same price list as the pricing page, quotes and invoices are generated as PDF files in the browser, and the order history stays on the client's own device. It was a studio project, not a weekend experiment, but the principle carries over: **the less your app keeps on a server, the less there is to protect**.
 
@@ -113,9 +113,9 @@ Two traps catch owners who build their own tools. Shared storage in an artifact 
 
 ### Logins and security
 
-Logins and databases are where vibe-coded apps go wrong most visibly. In 2025, a researcher scanned 1,645 apps from Lovable's public showcase and found 170 that let outsiders read data such as email addresses, because the access rules on their databases (row level security) were missing or too weak. The case is recorded as [CVE-2025-48757](https://nvd.nist.gov/vuln/detail/CVE-2025-48757), and Lovable disputes it on the grounds that each customer is responsible for protecting their own app's data. Whoever is right, the practical lesson is the same: if your app has logins or a database, someone has to check who can read and change each table before real data goes in, and you cannot assume the builder has done it for you.
+Logins and databases are where vibe-coded apps go wrong most visibly. In 2025, a researcher scanned 1,645 apps from Lovable's public showcase and found 170 that let outsiders read data such as email addresses, because the access rules on their databases (row level security) were missing or too weak. The case is recorded as [CVE-2025-48757](https://nvd.nist.gov/vuln/detail/CVE-2025-48757), and Lovable disputes it on the grounds that each customer is responsible for protecting their own app's data. Whoever is right, the practical lesson is the same: if your app has logins or a database, someone has to {{< a key="ai-app-data-leaks" >}}check who can read and change each table{{< /a >}} before real data goes in, and you cannot assume the builder has done it for you.
 
-API keys are the other classic leak. An app that calls an AI model needs a key, and a key placed in a web page can be read by every visitor; my {{< a key="claude-api-tutorial" >}}Claude API tutorial{{< /a >}} explains where to keep one. An artifact that calls Claude avoids the problem, because it needs no key at all.
+{{< a key="api-keys-mobile-apps" >}}API keys{{< /a >}} are the other classic leak. An app that calls an AI model needs a key, and a key placed in a web page can be read by every visitor; my {{< a key="claude-api-tutorial" >}}Claude API tutorial{{< /a >}} explains where to keep one. An artifact that calls Claude avoids the problem, because it needs no key at all.
 
 ### Payments
 

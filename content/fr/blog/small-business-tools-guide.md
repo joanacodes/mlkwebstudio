@@ -52,7 +52,7 @@ Les prix sont ceux des premières formules payantes à la date de rédaction (oc
 
 Il n’y a pas de total en bas du tableau, et c’est voulu. Rares sont les entreprises qui ont besoin de chaque ligne, plusieurs lignes ne coûtent rien, et le bon budget dépend du canal qui vous amène vos clients. Quand un outil facture en dollars, le montant en euros est une conversion approximative.
 
-Le site, l’hébergement et la messagerie n’y figurent pas, car ils ont leurs propres guides : {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}} et {{< a key="domain-hosting-email-guide" >}}nom de domaine, hébergement et emails{{< /a >}}.
+Le site, l’hébergement et la messagerie n’y figurent pas, car ils ont leurs propres guides : {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}} et {{< a key="domain-hosting-email-guide" >}}nom de domaine, hébergement et emails{{< /a >}}. Un gestionnaire de mots de passe pour les accès à tous ces outils n’y figure pas non plus : je compare {{< a key="password-manager-teams" >}}Bitwarden, 1Password et Proton Pass pour une équipe{{< /a >}} dans un article à part.
 
 ## Comment je choisis un outil, et pourquoi la liste reste courte
 
@@ -66,7 +66,7 @@ Concrètement :
 4. Testez sur du vrai travail. Un mois de vraies publications, de vrais rendez-vous ou de vraies campagnes en dit plus que n’importe quel comparatif, le mien compris.
 5. Décidez à l’avance ce qui vous ferait résilier, pour que l’abonnement ne survive pas à son utilité.
 
-Savoir rester en place, c’est aussi une compétence : quand un outil fait le travail, le suivant doit être nettement meilleur, pas seulement plus récent. Si vous ajoutez canaux et outils avant que les premiers aient eu le temps de fonctionner, lisez mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}. Et choisissez {{< a key="how-to-get-more-clients" >}}vos canaux d’acquisition{{< /a >}} avant vos outils : c’est le canal qui décide des lignes du tableau dont vous avez besoin.
+Savoir rester en place, c’est aussi une compétence : quand un outil fait le travail, le suivant doit être nettement meilleur, pas seulement plus récent. Si vous ajoutez canaux et outils avant que les premiers aient eu le temps de fonctionner, lisez mon article sur le {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}. Et choisissez {{< a key="how-to-get-more-clients" >}}vos canaux d’acquisition{{< /a >}} avant vos outils : c’est le canal qui décide des lignes du tableau dont vous avez besoin. Si un outil de tunnel de vente tout-en-un vous tente, mon comparatif {{< a key="funnel-builders-comparison" >}}Systeme.io, ClickFunnels ou GoHighLevel{{< /a >}} dit quand vous pouvez vous en passer.
 
 ## Visuels : Canva tous les jours, Affinity ou Adobe pour le travail lourd
 
@@ -118,7 +118,7 @@ La prospection est la partie de cette boîte à outils la plus proche de mon {{<
 
 ### Instantly, pour envoyer
 
-J’utilise Instantly parce qu’il est simple et qu’il offre de bons réglages pour ne pas finir en spam. J’ai commencé avec lui et je n’ai trouvé aucune raison d’en changer : une fois la bonne recette trouvée, il tourne tout seul. La formule Growth coûte 47 $ (environ 40 €) par mois à la date de rédaction, avec boîtes mail et warm-up illimités, pour 5 000 emails par mois et 1 000 contacts importés. La configuration est dans mon {{< a key="instantly-ai-tutorial" >}}tuto Instantly{{< /a >}}, et le choix des boîtes d’envoi est un sujet à part, traité dans {{< a key="best-email-provider-cold-email" >}}quelle boîte mail pour le cold emailing{{< /a >}}.
+J’utilise Instantly parce qu’il est simple et qu’il offre de bons réglages pour ne pas finir en spam. J’ai commencé avec lui et je n’ai trouvé aucune raison d’en changer : une fois la bonne recette trouvée, il tourne tout seul. La formule Growth coûte 47 $ (environ 40 €) par mois à la date de rédaction, avec boîtes mail et warm-up illimités, pour 5 000 emails par mois et 1 000 contacts importés. La configuration est dans mon {{< a key="instantly-ai-tutorial" >}}tuto Instantly{{< /a >}}, et le choix des boîtes d’envoi est un sujet à part, traité dans {{< a key="best-email-provider-cold-email" >}}quelle boîte mail pour le cold emailing{{< /a >}}. Une newsletter envoyée à des abonnés est une autre tâche : mon comparatif {{< a key="newsletter-tools-comparison" >}}Brevo, MailerLite, Mailchimp, Kit ou beehiiv{{< /a >}} couvre les outils qui s’en chargent.
 
 ### Reoon, pour vérifier
 

@@ -102,7 +102,7 @@ If you insist on tracking, at least set up a custom tracking domain, so that you
 My rule is about the first contact, not the conversation that follows. A link is fine:
 
 - **When a prospect replies and asks for it.** The catalogue, a price list, a booking page: send it. They asked, and once someone has replied you are in a conversation, not a cold email. MLK Leadhunters' article on [what to do with replies](https://mlkleadhunters.com/blog/what-to-do-with-replies/) suggests offering two time slots or a booking link at that point.
-- **In emails people signed up for.** A newsletter sent to subscribers is not cold email, and other rules apply to it.
+- **In emails people signed up for.** A newsletter sent to subscribers is not cold email, and other rules apply to it. For the sending side, my guide to {{< a key="newsletter-deliverability" >}}newsletter deliverability{{< /a >}} explains the Gmail, Yahoo and Outlook sender rules.
 
 If you still want a link in a cold sequence, limit the damage: one link at most, to your own website, written out in full rather than hidden behind words or a shortener, with click tracking off, and never in the first email. Then compare the replies with a plain-text version before you keep it.
 

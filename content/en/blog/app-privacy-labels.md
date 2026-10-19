@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:54:00+02:00
 category: "mobile-apps"
 article_type: "tutorial"
 keywords: ["App Store privacy labels", "Google Play Data safety section", "App Store Connect App Privacy", "app GDPR consent", "App Tracking Transparency", "privacy manifest"]
-summary: "App Store privacy labels are the answers you give in App Store Connect about the data your app and its SDKs collect; Google Play asks the same questions in its Data safety form, and both stores show your answers on your listing. Labels describe, they don't ask permission: in the EU and the UK, analytics and advertising SDKs that store or read data on the phone also need the user's consent before they run, and tracking on iOS needs Apple's ATT prompt as well."
+summary: "App Store privacy labels are the answers you give in App Store Connect about the data your app and its SDKs collect; Google Play asks the same questions in its Data safety form, and both stores show your answers on your listing. Labels describe, they don't ask permission: in the EU and the UK, advertising SDKs and most analytics SDKs also need the user's consent before they store or read anything on the phone, and tracking on iOS needs Apple's ATT prompt as well."
 cover: "app-privacy-labels"
 cover_alt: "The article's title in white on a ribbed-glass panel over a photo of a smartphone showing an app page with star ratings, beside a list of store results"
 related: ["privacy-policy-guide", "cookie-banner-rules", "mobile-app-security-checklist", "gdpr-guide", "app-store-listing"]
@@ -25,11 +25,9 @@ faq:
     a: "The Account Holder, an Admin or an App Manager can answer and publish the privacy responses. People with the Marketing role can also enter the privacy policy URL."
 ---
 
-App Store privacy labels are the answers you give Apple about the data your app collects, shown on your product page before anyone downloads it. Google Play asks the same questions in its Data safety form. Both describe what your app does with data; neither asks anyone's permission.
+App Store privacy labels are the answers you give Apple about the data your app collects, shown on your product page before anyone downloads it; Google Play asks the same questions in its Data safety form. Neither asks anyone's permission: that is the job of your own consent screen for users in the EU and the UK, and of Apple's tracking prompt on iOS.
 
-Permission is a separate job: your own consent screen for users in the EU and the UK, and Apple's tracking prompt on iOS. This tutorial covers both in order, with the menus as Apple's and Google's help pages describe them in October 2026.
-
-My example is Crumbwise again, the pre-order app of a fictional Bristol bakery from my {{< a key="app-store-listing" >}}store listing tutorial{{< /a >}}. Privacy is one step of my {{< a key="mobile-app-launch-guide" >}}complete guide to launching a mobile app{{< /a >}}.
+This tutorial takes them in order, with the menus as Apple's and Google's help pages describe them in October 2026. My example is Crumbwise again, the pre-order app of a fictional Bristol bakery from my {{< a key="app-store-listing" >}}store listing tutorial{{< /a >}}. Privacy is one step of my {{< a key="mobile-app-launch-guide" >}}complete guide to launching a mobile app{{< /a >}}.
 
 ## Four separate jobs: two disclosures, two permissions
 
@@ -40,7 +38,7 @@ My example is Crumbwise again, the pre-order app of a fictional Bristol bakery f
 | Tracking prompt (ATT) | Your iOS app, as a system pop-up | Apple, since iOS 14.5 (26 April 2021) | iOS apps that track people, in every country |
 | Consent screen | Your app, before the SDKs start | EU and UK law | Users in the EU and the UK, on iOS and Android |
 
-The first two describe, the last two ask. Accurate labels don't make an advertising SDK legal if it starts collecting before anyone says yes.
+Accurate labels don't make an advertising SDK legal if it starts collecting before anyone says yes.
 
 ## Step 1: list what your app and its SDKs collect
 
@@ -78,7 +76,7 @@ Apple's [app privacy details page](https://developer.apple.com/app-store/app-pri
 
 {{< screenshot id="app-privacy-labels-01" alt="App Store Connect App Privacy page in the app's sidebar, with the Get Started button and the dialog asking whether you collect data from this app" >}}
 
-4. Under **Data Types**, click each type and answer its questions: what you use it for, whether it's linked to the user's identity and whether it's used for tracking.
+4. Under **Data Types**, click each type, answer its questions (what you use it for, whether it's linked to the user's identity, whether it's used for tracking) and click **Save**.
 
 {{< screenshot id="app-privacy-labels-02" alt="App Store Connect questions for one data type: purposes, linked to the user's identity, used for tracking" >}}
 
@@ -115,13 +113,13 @@ If people can create an account in your app, both stores require a way to delete
 - **Apple**, since 30 June 2022 (App Review Guideline 5.1.1(v)): deletion must start inside the app, and deactivating the account isn't enough. Make the option easy to find and, unless you work in a highly regulated industry, don't make people phone or email you. If deletion ends on your website, link straight to that page. With Sign in with Apple, revoke the user's tokens through Apple's REST API.
 - **Google Play**: the same in-app deletion, plus a web link for people who no longer have the app, which you enter in the Data safety form.
 
-Apple adds that regional laws aren't enough: everyone must be able to delete their account, wherever they live. In the EU and the UK, the GDPR's right to erasure (Article 17) applies anyway. Crumbwise puts **Delete my account** under **Account**, with a confirmation screen naming the records the bakery must keep, such as invoices.
+Offering deletion only where a law such as the GDPR requires it isn't enough for Apple: everyone must be able to delete their account, wherever they are. In the EU and the UK, the right to erasure (Article 17 of the GDPR) applies anyway. If the law makes you keep some data, say so: Crumbwise puts **Delete my account** under **Account**, with a confirmation screen naming the records the bakery must keep, such as invoices.
 
 ## Step 5: GDPR consent in your app, before the SDKs start
 
-This is general information, not legal advice: if your app handles health, financial or children's data, or relies on advertising, an hour with a privacy lawyer or a DPO is worth it.
+This is general information, not legal advice.
 
-In the EU, Article 5(3) of the [ePrivacy Directive](https://eur-lex.europa.eu/eli/dir/2002/58/oj) requires consent before an app stores information on a phone or reads information already there, unless that is strictly necessary for the service the user asked for. It's the cookie rule, and it covers the SDKs that write an identifier to the device or read the advertising ID; my {{< a key="cookie-banner-rules" >}}guide to cookie banner rules{{< /a >}} explains how regulators read it.
+In the EU, Article 5(3) of the [ePrivacy Directive](https://eur-lex.europa.eu/eli/dir/2002/58/2009-12-19/eng), as amended in 2009, requires consent before an app stores information on a phone or reads information already there, unless that is strictly necessary for the service the user asked for. It's the cookie rule, and it covers the SDKs that write an identifier to the device or read the advertising ID; my {{< a key="cookie-banner-rules" >}}guide to cookie banner rules{{< /a >}} explains how regulators read it. In France, the CNIL exempts analytics only when it produces anonymous statistics for you alone, isn't combined with other data and doesn't follow people across apps or sites.
 
 The UK rule is PECR regulation 6, with new exceptions since 5 February 2026 under the Data (Use and Access) Act 2025: analytics used only to produce statistics about your app no longer needs consent, if you explain it clearly and let people object easily. Advertising SDKs still need consent, and so does analytics data that also feeds advertising.
 
@@ -149,13 +147,15 @@ Since iOS 14.5 (26 April 2021), an app needs permission through Apple's App Trac
 - You may show your own explanation first, if it's honest about how you use the data.
 - Answer yes to the matching tracking questions in your App Store privacy labels.
 
-ATT and your consent screen don't replace each other: Apple's prompt answers Apple's rule on iOS, in every country; your screen answers EU and UK law on both platforms. If Crumbwise added an SDK for personalised ads, its UK iPhone users would see both. Respect the stricter answer: someone who refused advertising on your screen shouldn't be tracked because they later tapped Allow on Apple's.
+ATT and your consent screen don't replace each other: Apple's prompt answers Apple's rule on iOS, in every country; your screen answers EU and UK law on both platforms. If Crumbwise added an SDK for personalised ads, its UK iPhone users would see both. Respect the stricter answer. Apple's FAQ says a refusal in its prompt always wins, even over a yes on your screen, and advises against showing the prompt to someone who has already refused tracking on yours.
+
+In the EU, the prompt itself is changing. Apple announced on 16 September 2026 that from iOS 27.2 (in beta as of 19 October 2026), apps can use an alternative version with different wording and an optional **Additional Information** button for more detailed consent choices; in Germany, France, Italy, Poland and Romania it will be the only version. When you must ask doesn't change, and Apple's page adds that EU users can be asked again a year after their last answer, unless they've switched off tracking requests in Settings.
 
 ## If children may use your app
 
 In the UK, the ICO's Age appropriate design code, known as the Children's code, applies to apps likely to be used by under-18s, even when they aren't aimed at them. Its 15 standards include high privacy settings and location switched off by default, and conformance has been expected since 2 September 2021.
 
-In the EU, when an online service offered directly to a child relies on consent, Article 8 of the GDPR requires a parent's consent below 16, or below a lower age set by each country, never under 13: it's 15 in France. The UK chose 13. Both stores also have their own rules for apps made for children, and this is where a lawyer earns their fee.
+In the EU, when an online service offered directly to a child relies on consent, Article 8 of the GDPR requires a parent's consent below 16, or below a lower age set by each country, never under 13: it's 15 in France. The UK chose 13. Both stores also have their own rules for apps made for children.
 
 ## Before you submit: checklist and when to get help
 
@@ -167,4 +167,4 @@ In the EU, when an online service offered directly to a child relies on consent,
 6. ATT prompt only if you track, with a clear purpose string.
 7. Labels and Data safety form updated with every release that adds or changes an SDK.
 
-You don't need an agency to fill in these forms: with a complete inventory, they're the easy part. The hard part is knowing what your SDKs really do. Pay for a lawyer or a DPO when the data is sensitive or your revenue depends on advertising, and for a developer when the consent screen has to be wired into several SDKs.
+You don't need an agency to fill in these forms: with a complete inventory, they're the easy part. The hard part is knowing what your SDKs really do. Pay for a lawyer or a DPO when the data is sensitive, the app is meant for children or your revenue depends on advertising, and for a developer when the consent screen has to be wired into several SDKs.
