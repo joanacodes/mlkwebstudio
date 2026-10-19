@@ -18,7 +18,7 @@ faq:
   - q: "Un tunnel de vente, est-ce seulement pour l’e-commerce ?"
     a: "Non. Toute entreprise qui transforme des inconnus en clients en a un, écrit ou non. Pour une entreprise de services, il se termine par un appel ou un devis accepté plutôt que par un panier : ce sont la demande, la réponse et la relance qui comptent."
   - q: "Combien coûte la mise en place d’un tunnel de vente ?"
-    a: "Vous pouvez démarrer sans rien payer : GA4 est gratuit, le plan gratuit de YouCanBookMe offre une page de réservation et celui de Brevo envoie 300 emails par jour. Vous payez quand il vous faut plus de pages de réservation, plus d’envois ou un outil de tunnel ; les offres changent souvent, vérifiez chaque page de tarifs avant de choisir."
+    a: "Vous pouvez démarrer sans rien payer : GA4 est gratuit, l’offre gratuite de YouCanBookMe donne une page de réservation et celle de Brevo permet d’envoyer 300 emails par jour. Vous payez quand il vous faut plus de pages de réservation, une redirection vers votre propre page de remerciement, plus d’envois ou un outil de tunnel ; les offres changent souvent, vérifiez chaque page de tarifs avant de choisir."
   - q: "Puis-je ajouter mes prospects de cold emailing à ma newsletter ?"
     a: "Gardez les deux listes séparées. Les règles qui autorisent un cold email B2B (un message lié à la profession du destinataire, avec un moyen simple de s’y opposer) ne font pas de ce prospect un abonné qui a demandé votre newsletter. Invitez-le à s’abonner et laissez-le choisir."
   - q: "Tunnel de vente, tunnel de conversion, funnel : quelle différence ?"
@@ -35,7 +35,7 @@ Ce guide sert aussi de carte à ma série Tunnels de vente & newsletters. Chaque
 
 ## Qu’est-ce qu’un tunnel de vente pour une petite équipe ?
 
-Un tunnel de vente est la suite d’étapes entre le premier contact d’une personne avec votre entreprise et la signature. On le dessine en entonnoir parce que moins de personnes atteignent chaque étape. Pour une entreprise de services, cinq étapes suffisent :
+Un tunnel de vente est la suite d’étapes entre le premier contact d’une personne avec votre entreprise et la signature. On le dessine en entonnoir parce qu’à chaque étape, il reste moins de monde. Pour une entreprise de services, cinq étapes suffisent :
 
 | Étape | Ce qui se passe | Ce qu’il faut |
 |---|---|---|
@@ -51,10 +51,10 @@ Si la notion est nouvelle pour vous, commencez par {{< a key="sales-funnel-expla
 
 ## Les canaux qui alimentent votre tunnel
 
-Le haut du tunnel, c’est le trafic, et une petite équipe le tire de cinq sources. Elles diffèrent par la vitesse, par le coût et par le temps qu’elles vous prennent chaque semaine.
+Le haut du tunnel, c’est le trafic, et une petite équipe le tire surtout de cinq sources. Elles diffèrent par la vitesse, par le coût et par le temps qu’elles vous prennent chaque semaine.
 
 - Le bouche-à-oreille apporte les prospects les plus chauds et se développe difficilement. C’est ma première source de clients.
-- Le SEO et la fiche Google Business Profile démarrent lentement, puis tiennent dans la durée. Pour Pilotech, le site a demandé environ un mois de travail et le premier prospect est arrivé trois semaines après la mise en ligne.
+- Le SEO et la fiche Google Business Profile mettent en général des mois à démarrer, puis apportent des demandes régulières. Une offre précise peut aller plus vite : pour Pilotech, le site a demandé environ un mois de travail et le premier prospect est arrivé trois semaines après la mise en ligne.
 - Le cold emailing est le moyen le plus rapide que je connaisse pour toucher des entreprises qui ne vous connaissent pas : dans mes campagnes, la première réponse ou le premier appel arrive en général sous 36 heures.
 - Les réseaux sociaux dépendent de la plateforme. À mon avis, Pinterest et YouTube Shorts continuent de travailler longtemps après la publication, alors qu’Instagram, TikTok et Facebook demandent de publier sans cesse pour rester visible.
 - La publicité apporte des demandes dès ce mois-ci, si vous pouvez payer les tests qui montrent ce qui marche.
@@ -67,9 +67,9 @@ La plupart des tunnels d’entreprises de services prennent l’une de ces deux 
 
 ### Le tunnel direct : un email court, un appel
 
-Le tunnel direct saute l’étape du milieu. Quelqu’un qui a besoin de ce que vous vendez lit un message court et décroche son téléphone. C’est ainsi que j’ai mené les campagnes de cold emailing pour {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, installateur de climatisation en Île-de-France. Elles visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et les architectes, cible principale et ceux qui appelaient le plus.
+Le tunnel direct saute l’étape du milieu. Quelqu’un qui a besoin de ce que vous vendez lit un message court et décroche son téléphone. C’est ainsi que j’ai mené les campagnes de cold emailing pour {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, installateur de climatisation en Île-de-France. Elles visaient trois publics : les restaurants parisiens, les bureaux et commerces parisiens, et les architectes, la cible principale, qui appelaient aussi le plus souvent.
 
-Chaque séquence compte trois emails au maximum, en texte brut, sans aucun lien. Le premier tient en trois lignes : une présentation et une invitation à appeler, avec le numéro de téléphone dans le message et une mention du catalogue sur le site. D’expérience, les prospects appellent plutôt que de répondre : un appel va plus vite qu’un email, et ils aiment parler à une vraie personne. Le troisième email apporte encore des réponses positives, de gens occupés qui avaient oublié les deux premiers ou manqué de temps pour y répondre. En un an, ces campagnes ont apporté 15 nouveaux clients à Pilotech.
+Chaque séquence compte trois emails au maximum, en texte brut, sans aucun lien. Le premier tient en trois lignes au plus : une présentation et une invitation à appeler, avec le numéro de téléphone dans le message et une mention du catalogue sur le site. D’expérience, les prospects appellent plutôt que de répondre : un appel va plus vite qu’un email, et ils aiment parler à une vraie personne. Le troisième email apporte encore des réponses positives, de gens occupés qui avaient oublié les deux premiers ou manqué de temps pour y répondre. En un an, ces campagnes ont apporté 15 nouveaux clients à Pilotech.
 
 Cette forme convient aux offres dont le besoin est déjà connu, vendues à des entreprises que l’on peut lister, quand une conversation suffit pour avancer.
 
@@ -87,31 +87,31 @@ Il vous faut trois outils, et vous en avez sans doute déjà deux.
 
 ### Le site
 
-Chaque offre a besoin d’une page avec une seule action claire : appeler, réserver ou demander un devis. Une page qui veut tout vendre ne vend rien. Je l’ai vu avec Pilotech : sur les cinq sites que j’ai réalisés pour l’entreprise, l’un proposait trop de services et n’a rien donné, alors que celui qui s’est classé et a apporté des prospects vend des services très précis. Si vous hésitez à créer une page dédiée à une campagne, {{< a key="landing-page-vs-website" >}}mon comparatif site vitrine ou landing page{{< /a >}} vous aidera. Si les visiteurs viennent sans vous contacter, {{< a key="website-conversion-rate" >}}mon guide pour améliorer le taux de conversion de votre site{{< /a >}} montre comment trouver la fuite.
+Chaque offre a besoin d’une page avec une seule action claire : appeler, réserver ou demander un devis. Une page qui veut tout vendre ne vend rien. Je l’ai vu avec Pilotech : sur les cinq sites que j’ai réalisés pour son fondateur, l’un proposait trop de services et n’a rien donné, alors que celui qui se positionne sur Google et apporte des prospects vend des services très précis. Si vous hésitez à créer une page dédiée à une campagne, {{< a key="landing-page-vs-website" >}}mon comparatif site vitrine ou landing page{{< /a >}} vous aidera. Si les visiteurs viennent sans vous contacter, {{< a key="website-conversion-rate" >}}mon guide pour améliorer le taux de conversion de votre site{{< /a >}} montre comment trouver la fuite.
 
 ### La page de réservation
 
-Une page de réservation transforme un « rappelez-moi un de ces jours » en créneau dans votre agenda. J’utilise YouCanBookMe : il a les fonctions de Calendly, il coûte un peu moins cher, on s’y retrouve facilement, et j’aime que l’équipe derrière soit plus petite. Calendly est bien aussi. Le plan gratuit de YouCanBookMe offre une page de réservation reliée à un agenda, et {{< a key="youcanbookme-tutorial" >}}mon tutoriel YouCanBookMe{{< /a >}} la configure pas à pas, de la connexion de l’agenda à l’intégration sur votre site.
+Une page de réservation transforme un « rappelez-moi un de ces jours » en créneau dans votre agenda. J’utilise YouCanBookMe : il a les fonctions de Calendly, il coûte un peu moins cher, on s’y retrouve facilement, et j’aime que l’équipe derrière soit plus petite. Calendly est bien aussi. L’offre gratuite de YouCanBookMe donne une page de réservation reliée à un agenda, et {{< a key="youcanbookme-tutorial" >}}mon tutoriel YouCanBookMe{{< /a >}} la configure pas à pas, de la connexion de l’agenda à l’intégration sur votre site.
 
 ### L’outil d’emailing
 
-Un outil d’emailing envoie votre newsletter et les emails automatiques qui suivent une inscription. Les plans gratuits suffisent pour démarrer, et je reviens sur le choix dans les parties consacrées à la newsletter.
+Un outil d’emailing envoie votre newsletter et les emails automatiques qui suivent une inscription. Les offres gratuites suffisent pour démarrer, et je reviens sur le choix dans les parties consacrées à la newsletter.
 
 ### Quand un outil de tunnel est superflu
 
-Systeme.io, ClickFunnels et GoHighLevel réunissent pages, emails, paiements et parfois un CRM. Ils ont du sens si vous vendez en ligne : formations, produits numériques, pages de vente avec ventes additionnelles. Pour une entreprise qui vend par téléphone et sur devis, ils sont souvent surdimensionnés, et c’est le piège classique de l’objet brillant : un nouvel outil donne l’impression d’avancer, mais vos clients viennent toujours des canaux que vous travaillez déjà. {{< a key="funnel-builders-comparison" >}}Mon comparatif de Systeme.io, ClickFunnels et GoHighLevel{{< /a >}} dit à qui chacun convient, ce qu’il coûte et quand vous passer des trois.
+Systeme.io, ClickFunnels et GoHighLevel réunissent pages, emails, paiements et parfois un CRM. Ils se justifient si vous vendez en ligne (formations, produits numériques, pages de vente avec ventes additionnelles) ou, pour GoHighLevel, si vous dirigez une agence. Pour une entreprise qui vend par téléphone et sur devis, ils sont souvent surdimensionnés, et c’est le piège classique de l’objet brillant : un nouvel outil donne l’impression d’avancer, mais vos clients viennent toujours des canaux que vous travaillez déjà. {{< a key="funnel-builders-comparison" >}}Mon comparatif de Systeme.io, ClickFunnels et GoHighLevel{{< /a >}} dit à qui chacun convient, ce qu’il coûte et quand vous passer des trois.
 
-Quand vous voudrez relier vos trois outils, {{< a key="build-sales-funnel" >}}mon tutoriel pour créer son tunnel de vente avec ses outils actuels{{< /a >}} donne à une page un seul appel à l’action, la relie à une page de réservation avec deux ou trois questions, ajoute un formulaire d’inscription en double opt-in pour ceux qui ne sont pas prêts et réunit tous les prospects dans une seule liste.
+Quand vous voudrez relier vos trois outils, {{< a key="build-sales-funnel" >}}mon tutoriel pour créer votre tunnel de vente avec vos outils actuels{{< /a >}} donne à une page un seul appel à l’action, la relie à une page de réservation avec deux ou trois questions, ajoute un formulaire d’inscription en double opt-in pour ceux qui ne sont pas prêts et réunit tous les prospects dans une seule liste.
 
 ## Newsletter, première partie : le consentement et les premiers abonnés
 
-Une newsletter est un email régulier envoyé à des personnes qui l’ont demandé. Elle garde votre nom en tête des prospects qui ne sont pas prêts, et elle donne à vos anciens clients une raison de penser à vous quand on leur demande une recommandation.
+Une newsletter est un email régulier envoyé à des personnes qui l’ont demandé. Elle rappelle votre nom aux prospects qui ne sont pas encore prêts, et elle donne à vos anciens clients une raison de penser à vous quand on leur demande une recommandation.
 
 ### Le consentement d’abord
 
-Dans l’Union européenne, l’article 13 de la [directive ePrivacy](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32002L0058) impose le consentement préalable pour les emails de prospection, avec une exception pour les clients : vous pouvez leur écrire au sujet de vos propres produits ou services analogues, s’ils ont pu refuser lors de la collecte de leur adresse et peuvent refuser dans chaque email. En France, c’est l’article L34-5 du Code des postes et des communications électroniques qui l’applique ; au Royaume-Uni, le règlement 22 du PECR. Entre professionnels, la CNIL admet une règle plus souple : pas de consentement préalable si le message est en rapport avec la profession du destinataire, à condition de l’en avoir informé et de lui laisser un moyen simple et gratuit de s’opposer. La [page de la CNIL sur la prospection par courrier électronique](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique) résume ces règles.
+Dans l’Union européenne, l’article 13 de la [directive ePrivacy](https://eur-lex.europa.eu/eli/dir/2002/58/2009-12-19/fra) impose le consentement préalable pour les emails de prospection, avec une exception pour les clients : vous pouvez leur écrire au sujet de vos propres produits ou services analogues, s’ils ont pu refuser lors de la collecte de leur adresse et peuvent refuser dans chaque email. En France, c’est l’article L34-5 du Code des postes et des communications électroniques qui l’applique ; au Royaume-Uni, le règlement 22 du PECR. Entre professionnels, la CNIL admet une règle plus souple : pas de consentement préalable si le message est en rapport avec la profession du destinataire, à condition de l’en avoir informé et de lui laisser un moyen simple et gratuit de s’opposer. La [page de la CNIL sur la prospection par courrier électronique](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique) résume ces règles.
 
-En pratique, le consentement, c’est une case que la personne coche elle-même (jamais précochée), la date et le texte affiché gardés en preuve, et idéalement un clic de confirmation, le double opt-in. Il n’est pas obligatoire, mais c’est la meilleure preuve que vous puissiez garder. {{< a key="newsletter-consent-gdpr" >}}Mon guide newsletter et RGPD{{< /a >}} explique le consentement, le soft opt-in et le double opt-in avec des exemples en France et au Royaume-Uni. Ces informations sont générales et ne remplacent pas un conseil juridique : si vous collectez des adresses dans plusieurs pays ou vendez en volume à des particuliers, une heure avec un avocat ou votre DPO est bien investie.
+En pratique, le consentement, c’est une case que la personne coche elle-même (jamais précochée), la date et le texte affiché gardés en preuve, et idéalement un clic de confirmation, le double opt-in. Le RGPD ne l’impose pas, mais c’est la meilleure preuve que vous puissiez garder. {{< a key="newsletter-consent-gdpr" >}}Mon guide newsletter et RGPD{{< /a >}} explique le consentement, le soft opt-in et le double opt-in avec des exemples en France et au Royaume-Uni. Ces informations sont générales et ne remplacent pas un conseil juridique : si vous collectez des adresses dans plusieurs pays ou vendez en volume à des particuliers, une heure avec un avocat ou un délégué à la protection des données (DPO) est bien investie.
 
 ### Vos 100 premiers abonnés
 
@@ -121,11 +121,11 @@ Vos premiers abonnés sont des gens qui vous connaissent déjà : clients et co
 
 ### Choisir l’outil
 
-Dans {{< a key="newsletter-tools-comparison" >}}mon comparatif Brevo, MailerLite, Mailchimp, Kit et beehiiv{{< /a >}}, Brevo (l’ancien Sendinblue) ressort comme le choix le plus sûr pour une petite équipe qui écrit à ses clients et prospects : une entreprise française dont le plan gratuit envoie 300 emails par jour. Kit (l’ancien ConvertKit) convient aux créateurs qui vendent, beehiiv aux newsletters pensées comme des médias, MailerLite et Mailchimp à ceux qui tiennent à leur éditeur ou à leurs intégrations.
+Dans {{< a key="newsletter-tools-comparison" >}}mon comparatif Brevo, MailerLite, Mailchimp, Kit et beehiiv{{< /a >}}, Brevo (l’ancien Sendinblue) ressort comme le choix le plus sûr pour une petite équipe qui écrit à ses clients et prospects : une entreprise française dont l’offre gratuite permet d’envoyer 300 emails par jour. Kit (l’ancien ConvertKit) convient aux créateurs qui vendent, beehiiv aux newsletters pensées comme des médias, MailerLite et Mailchimp à ceux qui tiennent à leur éditeur ou à leurs intégrations.
 
 ### Email, LinkedIn ou Substack
 
-Une newsletter LinkedIn est lue plus vite si vos clients passent du temps sur LinkedIn, car vos relations et vos abonnés sont invités à s’abonner, mais impossible d’exporter les abonnés. Substack est gratuit pour publier et prend 10 % des abonnements payants, plus les frais de paiement. Votre propre liste email reste la seule option que vous maîtrisez entièrement. {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}Mon comparatif newsletter LinkedIn, emailing ou Substack{{< /a >}} examine les trois, et ma réponse pour la plupart des petites équipes est de publier là où lisent vos clients, puis de les inviter sur la liste qui vous appartient.
+Une newsletter LinkedIn est lue plus vite si vos clients passent du temps sur LinkedIn, car vos relations et vos abonnés sont invités à s’abonner, mais vous ne pouvez pas en exporter les abonnés. Substack est gratuit pour publier et prend 10 % des abonnements payants, plus les frais de paiement. Votre propre liste email reste la seule option que vous maîtrisez entièrement. {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}Mon comparatif newsletter LinkedIn, emailing ou Substack{{< /a >}} examine les trois, et ma réponse pour la plupart des petites équipes est de publier là où lisent vos clients, puis de les inviter sur la liste qui vous appartient.
 
 ### La séquence de bienvenue
 
@@ -139,9 +139,9 @@ Une newsletter B2B mérite sa place avec une chose utile par envoi : la répons
 
 ### Arriver en boîte de réception
 
-Depuis février 2024, les [consignes de Google pour les expéditeurs d’emails](https://support.google.com/a/answer/81126?hl=fr) imposent à tout expéditeur vers Gmail de passer SPF ou DKIM et de garder un taux de spam bas. À partir d’environ 5 000 messages par jour vers des comptes Gmail personnels, il faut aussi SPF, DKIM, un enregistrement DMARC aligné et une désinscription en un clic traitée sous deux jours. Yahoo applique des règles proches aux gros expéditeurs, et Outlook.com exige SPF, DKIM et DMARC à partir de 5 000 messages par jour depuis le 5 mai 2025. Depuis novembre 2025, Gmail applique ses règles plus strictement, jusqu’à rejeter les messages qui ne les respectent pas.
+Depuis février 2024, les [consignes de Google pour les expéditeurs d’emails](https://support.google.com/a/answer/81126?hl=fr) imposent à tout expéditeur vers Gmail d’authentifier ses envois avec SPF ou DKIM et de garder un taux de spam bas. À partir d’environ 5 000 messages par jour vers des comptes Gmail personnels, il faut aussi SPF, DKIM, un enregistrement DMARC aligné et une désinscription en un clic traitée sous deux jours. Yahoo applique des règles proches aux gros expéditeurs, et Outlook.com exige SPF, DKIM et DMARC à partir de 5 000 messages par jour depuis le 5 mai 2025. Depuis novembre 2025, Gmail applique ses règles plus strictement, jusqu’à rejeter les messages qui ne les respectent pas.
 
-Une petite newsletter atteint rarement 5 000 envois par jour, mais les mêmes habitudes vous gardent en boîte de réception : envoyer depuis votre propre domaine avec SPF, DKIM et DMARC en place, n’écrire qu’à des gens qui l’ont demandé et garder les plaintes pour spam sous 0,1 %. {{< a key="newsletter-deliverability" >}}Mon guide de la délivrabilité d’une newsletter{{< /a >}} explique chaque exigence simplement.
+Une petite newsletter atteint rarement 5 000 envois par jour, mais ce sont les mêmes habitudes qui vous font arriver en boîte de réception : envoyer depuis votre propre domaine avec SPF, DKIM et DMARC en place, n’écrire qu’à des gens qui l’ont demandé et garder les plaintes pour spam sous 0,1 %. {{< a key="newsletter-deliverability" >}}Mon guide de la délivrabilité d’une newsletter{{< /a >}} explique chaque exigence simplement.
 
 ### Lire les chiffres
 
@@ -155,7 +155,7 @@ Un tunnel qu’on ne mesure pas ne se répare pas. Trois habitudes suffisent pou
 
 1. Balisez vos liens avec des paramètres UTM : ajoutez utm_source, utm_medium et utm_campaign à chaque lien partagé dans une newsletter, une publication ou une publicité, toujours en minuscules et écrits de la même façon. Ne balisez jamais les liens entre vos propres pages.
 2. Comptez demandes et rendez-vous dans GA4 : envoyez chaque demande et chaque réservation vers une page de remerciement comptée comme **événement clé** (ce que GA4 appelait une conversion), puis lisez le rapport Acquisition de trafic par source/support de la session. Sur YouCanBookMe, cette redirection demande l’offre Professional ou supérieure.
-3. Demandez : ajoutez la question « Comment nous avez-vous connus ? » à vos formulaires de réservation et de devis. Les visiteurs qui refusent les cookies manquent dans GA4 ou n’y sont que modélisés, et aucune balise ne voit l’ami qui a donné votre nom.
+3. Demandez : ajoutez la question « Comment nous avez-vous connus ? » à vos formulaires de réservation et de devis. Les visiteurs qui refusent les cookies sont absents de GA4 ou n’y sont que modélisés, et aucune balise ne voit l’ami qui a donné votre nom.
 
 {{< a key="utm-ga4-funnel-tracking" >}}Mon tutoriel UTM et Google Analytics 4{{< /a >}} met tout cela en place pas à pas, jusqu’à l’exploration de l’entonnoir qui montre où les visiteurs abandonnent.
 
@@ -165,7 +165,7 @@ Le meilleur tunnel échoue si personne ne rappelle. Pilotech reçoit aujourd’h
 
 Cette dernière étape appartient à l’entreprise. Dans mes campagnes de cold emailing, je fais tout sauf répondre : la réponse au prospect revient au client, et sa rapidité aussi.
 
-Pas besoin d’une application sur mesure pour commencer. {{< a key="automate-lead-follow-up" >}}Mon automatisation gratuite du suivi des prospects{{< /a >}} vous envoie par email le nom et le numéro du prospect dès qu’un formulaire arrive, et vous relance si la demande attend encore une heure plus tard.
+Pas besoin d’une application sur mesure pour commencer. {{< a key="automate-lead-follow-up" >}}Mon automatisation gratuite du suivi des prospects{{< /a >}}, un formulaire Google Forms relié à une feuille Google Sheets avec un court script Apps Script, vous envoie par email le nom et le numéro du prospect dès l’envoi du formulaire, et vous relance si la demande est toujours en attente une heure après.
 
 ## Par où commencer : un plan sur quatre semaines
 
@@ -176,4 +176,4 @@ Si vous partez de zéro, avancez une semaine à la fois, dans cet ordre.
 3. Semaine 3, les bases de la newsletter : choisissez un outil d’emailing, ajoutez un formulaire d’inscription en double opt-in (avec une case séparée et non cochée à côté de tout lead magnet) et écrivez le premier email de bienvenue.
 4. Semaine 4, un canal : alimentez le tunnel avec le canal qui correspond à vos acheteurs, par exemple une séquence de cold emailing vers une liste définie ou une nouvelle page de service pour le référencement, et décidez qui répond à chaque demande dans l’heure.
 
-Ensuite, lisez vos chiffres une fois par mois : d’où viennent les gens, combien réservent un appel, combien acceptent un devis. Colmatez la plus grosse fuite d’abord, puis la suivante.
+Ensuite, faites le point sur vos chiffres une fois par mois : d’où viennent les gens, combien réservent un appel, combien acceptent un devis. Colmatez la plus grosse fuite d’abord, puis la suivante.

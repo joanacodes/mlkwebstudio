@@ -39,9 +39,9 @@ La plupart des attaques contre les petites équipes n’ont rien de personnel. D
 
 Le [rapport d’activité 2025 de Cybermalveillance.gouv.fr](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2025) donne l’ampleur du phénomène : plus de 500 000 demandes d’assistance en 2025, soit 20 % de plus qu’en 2024. Pour les entreprises et les associations, le piratage de compte est devenu la première menace, avec 21 % des parcours d’assistance, et la fraude au virement est entrée dans les trois premières.
 
-Il y a aussi la chaîne d’approvisionnement. Si vous travaillez pour de plus grandes entreprises, vous détenez leurs données ou un accès à leurs systèmes, et certaines doivent désormais vérifier la sécurité de leurs fournisseurs. Votre sécurité entre dans le contrat.
+Il y a aussi la chaîne d’approvisionnement. Si vous travaillez pour de plus grandes entreprises, vous détenez peut-être leurs données ou un accès à leurs systèmes, et certaines doivent désormais vérifier la sécurité de leurs fournisseurs. Votre sécurité entre dans le contrat.
 
-Rien de tout cela ne justifie la panique. Les mêmes quelques mesures bloquent l’essentiel de ces attaques, et ce sont celles que recommandent les autorités.
+Rien de tout cela ne justifie la panique. Les mêmes quelques mesures protègent contre les plus courantes de ces attaques, et ce sont celles que recommandent les autorités.
 
 ## Le socle : ce que recommandent l’ANSSI et Cybermalveillance.gouv.fr
 
@@ -51,7 +51,7 @@ Mis côte à côte, ces documents disent la même chose : **protéger les compt
 
 ## Comptes et identités : les clés de tout le reste
 
-Votre messagerie est le passe-partout : qui la contrôle peut réinitialiser le mot de passe de presque tout le reste, du nom de domaine à l’espace bancaire en ligne. Les comptes passent donc en premier, et trois habitudes font l’essentiel du travail.
+Votre messagerie est le passe-partout : qui la contrôle peut réinitialiser le mot de passe de presque tout le reste, du nom de domaine au logiciel de comptabilité. Les comptes passent donc en premier, et trois habitudes font l’essentiel du travail.
 
 1. **Un mot de passe unique par compte, rangé dans un gestionnaire de mots de passe.** Les accès partagés vont dans un coffre d’équipe, pas dans un tableur ni dans une conversation de messagerie instantanée. {{< a key="password-manager-teams" >}}Mon comparatif Bitwarden, 1Password et Proton Pass pour une équipe{{< /a >}} montre lequel convient à une équipe de dix personnes au plus qui veut une administration simple, lequel est open source et lequel coûte le moins cher.
 2. **La double authentification partout, les passkeys quand c’est possible.** Commencez par la messagerie, puis le nom de domaine, la banque, le site, les paiements, la comptabilité, le stockage et les réseaux sociaux. {{< a key="two-factor-authentication-passkeys" >}}Activer la double authentification et les passkeys{{< /a >}} tient en un après-midi : une passkey ou une clé de sécurité d’abord, une application d’authentification ensuite, le SMS en dernier recours.
@@ -65,7 +65,7 @@ L’hameçonnage arrive en tête des statistiques parce qu’il fonctionne : un
 
 **La fraude au faux RIB** en est la version classique : une facture de fournisseur, vraie ou copiée, arrive avec de nouvelles coordonnées bancaires, ou quelqu’un qui semble être le dirigeant demande un virement urgent et confidentiel. {{< a key="invoice-fraud-bank-details" >}}Mon guide sur la fraude au faux RIB et au président{{< /a >}} explique comment la repérer, et la règle qui la bloque : aucun RIB reçu par email n’est utilisé avant un appel à un numéro que vous aviez déjà, et une deuxième personne valide chaque nouveau bénéficiaire.
 
-**Les deepfakes** reprennent la même arnaque avec une voix clonée ou une fausse visioconférence, fabriquées à partir d’enregistrements publics. Vous ne repérerez pas l’imitation à coup sûr : {{< a key="deepfake-voice-ceo-fraud" >}}la parade contre les voix clonées et les deepfakes{{< /a >}} reste le rappel à un numéro connu, plus une question dont seule la vraie personne connaît la réponse.
+**Les deepfakes** reprennent la même arnaque avec une voix clonée ou une fausse visioconférence, fabriquées à partir d’enregistrements publics. Vous ne repérerez pas l’imitation à coup sûr : {{< a key="deepfake-voice-ceo-fraud" >}}la parade contre les voix clonées et les deepfakes{{< /a >}} reste le rappel à un numéro connu, ou une question dont seule la vraie personne connaît la réponse.
 
 Les banques aident un peu. Depuis le 9 octobre 2025, avant un virement en euros, votre banque vérifie que le nom du bénéficiaire correspond à l’IBAN (règlement (UE) 2024/886) et vous affiche le résultat : correspondance, correspondance partielle, absence de correspondance ou vérification impossible, avec des libellés qui varient d’une banque à l’autre. Une absence de correspondance veut dire qu’on s’arrête et qu’on appelle ; une correspondance ne dispense pas de l’appel.
 
@@ -75,7 +75,7 @@ Votre nom de domaine mérite aussi une protection. Sans enregistrements SPF, DKI
 
 Rançongiciel, dossier supprimé, synchronisation qui recopie les dégâts partout : sans sauvegarde, tout finit de la même façon. La règle 3-2-1 est la réponse classique, recommandée notamment par l’ANSSI dans son guide sur les sauvegardes : trois copies de vos données, sur deux types de supports, dont une hors de vos locaux et, idéalement, hors ligne ou impossible à modifier.
 
-On croit volontiers que Google ou Microsoft s’en charge. Google Workspace et Microsoft 365 ne gardent les éléments supprimés que quelques semaines ou quelques mois, et la synchronisation recopie fidèlement les suppressions comme les fichiers chiffrés. {{< a key="backups-3-2-1" >}}Mon guide de la règle de sauvegarde 3-2-1{{< /a >}} couvre vos fichiers, Google Workspace et Microsoft 365, et explique pourquoi une restauration testée chaque trimestre compte plus que n’importe quel réglage.
+On croit volontiers que Google ou Microsoft s’en charge. Google Workspace et Microsoft 365 ne gardent les éléments supprimés que quelques semaines ou quelques mois, et la synchronisation recopie fidèlement les suppressions comme les fichiers chiffrés. {{< a key="backups-3-2-1" >}}Mon guide de la règle de sauvegarde 3-2-1{{< /a >}} couvre vos fichiers, Google Workspace et Microsoft 365, avec un test de restauration à faire chaque trimestre.
 
 La suite cloud elle-même a quelques réglages qui valent mieux que n’importe quel outil supplémentaire : validation en deux étapes imposée à tous, le moins de super-administrateurs ou d’administrateurs généraux possible, la sécurité de Gmail ou la stratégie prédéfinie Standard de Microsoft, aucun transfert automatique vers l’extérieur, un partage de fichiers encadré et une revue des applications connectées. {{< a key="secure-google-workspace-microsoft-365" >}}Sécuriser Google Workspace et Microsoft 365{{< /a >}} les détaille un par un ; presque tout fonctionne avec les offres les moins chères.
 
@@ -118,9 +118,9 @@ Cette partie décrit les règles telles qu’elles s’appliquent au 19 octobre 
 | Texte | Qui est concerné | Ce que cela change pour une petite équipe | Situation au 19 octobre 2026 |
 |---|---|---|---|
 | RGPD, articles 32 à 34 | Toute structure qui traite des données personnelles de personnes dans l’UE, y compris hors de l’UE quand elle leur propose des biens ou des services | Une sécurité adaptée au risque et la notification des violations sous 72 heures | En vigueur |
-| NIS2, [directive (UE) 2022/2555](https://eur-lex.europa.eu/eli/dir/2022/2555/oj) | Les moyennes et grandes entreprises de 18 secteurs, plus quelques prestataires quelle que soit leur taille | Surtout indirect : vos clients concernés doivent contrôler leurs fournisseurs | Date limite de transposition dépassée depuis le 17 octobre 2024 ; loi française non adoptée |
+| NIS2, [directive (UE) 2022/2555](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32022L2555) | Les moyennes et grandes entreprises de 18 secteurs, plus quelques prestataires quelle que soit leur taille | Surtout indirect : vos clients concernés doivent contrôler leurs fournisseurs | Date limite de transposition dépassée depuis le 17 octobre 2024 ; loi française non adoptée |
 | DORA, règlement (UE) 2022/2554 | Banques, assureurs, entreprises d’investissement et autres entités financières | Indirect : elles doivent encadrer le risque lié à leurs prestataires informatiques | Applicable depuis le 17 janvier 2025 |
-| Cyber Resilience Act, règlement (UE) 2024/2847 | Quiconque propose un logiciel ou un produit connecté dans l’UE, applications comprises | Signaler les failles activement exploitées et les incidents graves, puis respecter des exigences de sécurité | Signalement depuis le 11 septembre 2026 ; le reste à partir du 11 décembre 2027 |
+| Cyber Resilience Act, règlement (UE) 2024/2847 | Les entreprises qui fournissent un logiciel ou un produit connecté dans l’UE, payant ou gratuit, applications comprises (les sites web et les SaaS seuls sont en général hors champ) | Signaler les failles activement exploitées et les incidents graves, puis respecter des exigences de sécurité | Signalement depuis le 11 septembre 2026 ; le reste à partir du 11 décembre 2027 |
 
 Pour la plupart des petites équipes, NIS2 arrive par les clients plutôt que par le régulateur. {{< a key="nis2-small-business" >}}Mon guide NIS2{{< /a >}} explique qui est concerné, y compris certains prestataires quelle que soit leur taille, comme les fournisseurs DNS, et ce que les clients concernés vont demander : double authentification, sauvegardes, signalement des incidents. Le projet de loi de transposition, adopté par le Sénat en mars 2025, a été retiré de l’ordre du jour de l’Assemblée nationale début octobre 2026, sans nouvelle date ; en attendant, l’ANSSI propose un pré-enregistrement volontaire sur son portail MonEspaceNIS2.
 
@@ -137,7 +137,7 @@ Une bonne partie de l’aide est publique et gratuite. {{< a key="free-cybersecu
 1. **Semaine 1, les comptes.** Listez tous les comptes dont dépend l’entreprise et qui en est administrateur. Installez le gestionnaire de mots de passe, puis la double authentification sur la messagerie, le nom de domaine et la banque.
 2. **Semaine 2, paiements et messagerie.** Écrivez la règle de l’appel de vérification et désignez la deuxième personne qui valide les nouveaux bénéficiaires. Publiez SPF, DKIM et DMARC, et bloquez le transfert automatique vers l’extérieur.
 3. **Semaine 3, données et appareils.** Mettez en place des sauvegardes 3-2-1, suite cloud comprise, et testez une restauration. Vérifiez mises à jour, chiffrement et verrouillage sur chaque ordinateur et téléphone, et repérez les PC encore sous Windows 10.
-4. **Semaine 4, équipe et plan.** Rédigez la checklist de départ, organisez une courte séance sur l’hameçonnage, imprimez le plan d’incident d’une page, et voyez si une assurance cyber ou un diagnostic MonAideCyber a du sens pour vous.
+4. **Semaine 4, équipe et plan.** Rédigez la checklist de départ, organisez une courte séance sur l’hameçonnage, imprimez le plan d’incident d’une page, et voyez si une assurance cyber ou un diagnostic MonAideCyber vous serait utile.
 
 Ensuite, tous les trois mois : testez une restauration, passez en revue les comptes d’administration et les anciens collaborateurs, et relisez le plan.
 

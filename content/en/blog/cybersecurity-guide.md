@@ -20,7 +20,7 @@ faq:
   - q: "Should we pay if ransomware encrypts our files?"
     a: "The ANSSI and the NCSC both advise against it: paying does not guarantee you get your data back, it funds the criminals and it does not prevent the next attack. Isolate the infected machines, report the attack and restore from a backup made before the infection."
   - q: "Is Cyber Essentials worth it for a small team?"
-    a: "It is worth it when a client or a public contract asks for it. The certificate, renewed every 12 months, shows that five basic controls are in place, and a UK company with a turnover under £20m that certifies its whole organisation can opt in to £25,000 of cyber liability insurance arranged by IASME. Otherwise, the five controls make a good free checklist."
+    a: "It is worth it when a client or a public contract asks for it. The certificate, renewed every 12 months, shows that five basic controls are in place, and a UK organisation with a turnover under £20 million that certifies all of its operations can opt in to cyber liability insurance arranged by IASME, with £25,000 (about $33,000) of cover. Otherwise, the five controls make a good free checklist."
   - q: "Who should look after cyber security in a team without an IT department?"
     a: "One named person, often the owner or an office manager, with a deputy. They keep the list of accounts and administrators, check that backups run, remove leavers' access and keep the incident plan up to date. They do not need to be technical, but they need an hour in the diary every month."
   - q: "Should we report a cyber attack to the police?"
@@ -29,9 +29,9 @@ faq:
 
 Cyber security for a small team is mostly about accounts, payments and backups, not firewalls. The attacks that hit teams without an IT department are rarely clever: a stolen password opens a mailbox, a fake email changes the bank details on an invoice, a laptop nobody updated lets malware in. The defences are just as ordinary, and most of them are free.
 
-I see the emergency side. {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer near Paris, first called me in a hurry because their WordPress site had been hacked. I got it back and built them a new website, and two years later we still work together on their SEO, cold emailing and websites.
+I see the emergency side. Pilotech, an air conditioning installer near Paris, called me in a hurry when their old WordPress site was hacked. I got it back and built them a new website, and two years later we still work together on their SEO, cold emailing and {{< a page="/projects/pilotech" >}}new websites{{< /a >}}.
 
-This guide is the hub of the cybersecurity section, in the order I would follow with a new client: why small teams are targets, the official baseline, then accounts, email and payments, data, people, devices, your website and apps, the first hour of an incident, insurance, the rules that apply to you and the free help available in the UK and France. Each section points to a detailed guide.
+This guide is the hub of the cybersecurity section, in the order I would tackle things if I were starting from zero: why small teams are targets, the official baseline, then accounts, email and payments, data, people, devices, your website and apps, the first hour of an incident, insurance, the rules that apply to you and the free help available in the UK and France. Each section points to a detailed guide.
 
 ## Cyber security for small teams: why you are a target
 
@@ -39,21 +39,21 @@ Most attacks on small teams are not personal. Bots scan the internet for outdate
 
 Two official sources give the scale. In the UK government's [Cyber Security Breaches Survey 2025/26](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026), 43% of businesses identified a breach or attack in the previous 12 months (42% of micro-businesses, 46% of small ones), and phishing, at 38% of businesses, was by far the most common kind. In France, [Cybermalveillance.gouv.fr's 2025 activity report](https://www.cybermalveillance.gouv.fr/tous-nos-contenus/actualites/rapport-activite-2025) counts more than 500,000 requests for help, up 20% in a year: account hacking became the first threat for businesses and associations, at 21% of cases, and transfer fraud entered their top three.
 
-There is a supply-chain side too. If you work for larger clients, you hold their data or have access to their systems, and some of them are now required to check their suppliers' security. Your defences become part of the contract.
+There is a supply-chain side too. If you work for larger clients, you may hold their data or have access to their systems, and some of them are now required to check their suppliers' security. Your defences become part of the contract.
 
-None of this calls for panic. The same few measures block most of these attacks, and they are the ones the authorities in both countries recommend.
+None of this calls for panic. The same few measures protect against the most common of these attacks, and they are the ones the authorities in both countries recommend.
 
 ## The baseline: what the NCSC, Cyber Essentials and the ANSSI recommend
 
-You do not need to write a security policy from scratch. In the UK, the NCSC's free [small organisations guide to cyber security](https://www.ncsc.gov.uk/collection/small-business-guide), published in its current form in April 2026, covers email, important online accounts, devices, backups and spotting attacks. Cyber Essentials, the government-backed certification, checks five technical controls: firewalls, secure configuration, security update management, user access control and malware protection.
+You do not need to write a security policy from scratch. In the UK, the NCSC's free [small organisations guide to cyber security](https://www.ncsc.gov.uk/collection/small-organisations-guide-to-cyber-security), published in its current form in April 2026, covers email, important online accounts, devices, backups and spotting attacks. Cyber Essentials, the government-backed certification, checks five technical controls: firewalls, secure configuration, security update management, user access control and malware protection.
 
 In France, the ANSSI and the Direction générale des entreprises publish *La cybersécurité pour les TPE/PME en 13 questions*, a self-assessment checklist that runs from backups and updates to insurance and incident response, and Cybermalveillance.gouv.fr publishes a short guide for each type of threat.
 
-Read side by side, these documents agree on the essentials: **protect accounts, check payments, back up, update devices, close leavers' access and know what to do on the day**. The rest of this guide takes them in that order.
+Taken together, these documents come down to a short list: **protect accounts, check payments, back up, update devices, close leavers' access and know what to do on the day**. The rest of this guide takes them in that order.
 
 ## Accounts and identity: the keys to everything else
 
-Your email account is the master key: whoever controls it can reset the password of almost everything else, from the domain name to the bank's online portal. That is why accounts come first, and three habits do most of the work.
+Your email account is the master key: whoever controls it can reset the password of almost everything else, from the domain name to your accounting software. That is why accounts come first, and three habits do most of the work.
 
 1. **One unique password per account, kept in a password manager.** Shared logins go in a team vault, not in a spreadsheet or a chat thread. {{< a key="password-manager-teams" >}}My comparison of Bitwarden, 1Password and Proton Pass for teams{{< /a >}} shows which one suits a team of up to ten that wants simple administration, which is the open-source choice and which costs least.
 2. **Two-factor authentication everywhere, passkeys where you can.** Start with email, then the domain registrar, the bank, the website, payments, accounting, storage and social accounts. {{< a key="two-factor-authentication-passkeys" >}}Switching on two-factor authentication and passkeys{{< /a >}} fits in one afternoon: a passkey or a security key first, an authenticator app next, SMS only when nothing else exists.
@@ -63,13 +63,13 @@ Accounts should also be in the business's name. A domain or a Google Workspace r
 
 ## Email and payments: where the money goes
 
-Phishing tops the statistics because it works: one email with a fake login page can hand over a mailbox, and the mailbox is where the invoices are. A good share of the payment fraud against small teams starts there.
+Phishing tops the UK survey because it works: one email with a fake login page can hand over a mailbox, and the mailbox is where the invoices are. A good share of the payment fraud against small teams starts there.
 
 **Invoice fraud** is the classic version: a supplier's invoice, real or copied, arrives with new bank details, or someone who seems to be the boss asks for an urgent, confidential transfer. {{< a key="invoice-fraud-bank-details" >}}My guide to fake invoices and “new bank details” emails{{< /a >}} shows how to spot it, and the rule that stops it: bank details received by email are never used before a call to a number you already had, and a second person approves every new payee.
 
-**Deepfake calls** are the same scam with a cloned voice or a fake video call built from public recordings. You will not reliably hear the difference, so {{< a key="deepfake-voice-ceo-fraud" >}}the defence against AI voice clones and deepfake calls{{< /a >}} is the same call-back rule, plus a question only the real person can answer.
+**Deepfake calls** are the same scam with a cloned voice or a fake video call built from public recordings. You will not reliably hear the difference, so {{< a key="deepfake-voice-ceo-fraud" >}}the defence against AI voice clones and deepfake calls{{< /a >}} is the same call-back rule, or a question only the real person can answer.
 
-Banks now help a little. Since 9 October 2025, banks in the euro area must check that the payee's name matches the IBAN before a euro transfer leaves (Regulation (EU) 2024/886), and in the UK, Confirmation of Payee covers almost all Faster Payments and CHAPS transfers. A “no match” warning means stop and call; a match does not replace the call-back. UK consumers, micro-enterprises and charities who lose money to authorised push payment fraud can claim up to £85,000 per claim from their bank, a scheme under review as of 19 October 2026.
+Banks now help a little. Since 9 October 2025, banks in the euro area must check that the payee's name matches the IBAN before a euro transfer leaves (Regulation (EU) 2024/886), and in the UK, Confirmation of Payee covers almost all Faster Payments and CHAPS transfers. A “no match” warning means stop and call; a match does not replace the call-back. UK consumers, micro-enterprises and small charities tricked into paying a fraudster by Faster Payments or CHAPS can also get their money back from their bank, with some exceptions, up to £85,000 (about $113,000) per claim; these rules are under review as of 19 October 2026.
 
 Your domain needs protecting as well. Without SPF, DKIM and DMARC records, anyone can send emails that look as if they came from your address, which is exactly what an invoice fraudster wants. {{< a key="spf-dkim-dmarc-setup" >}}Setting up SPF, DKIM and DMARC{{< /a >}} takes a few DNS records, and it helps keep your real emails out of spam at the same time.
 
@@ -77,7 +77,7 @@ Your domain needs protecting as well. Without SPF, DKIM and DMARC records, anyon
 
 Ransomware, a deleted folder and a sync that copies the damage everywhere all end the same way when there is no backup. The 3-2-1 rule is the standard answer, recommended by the ANSSI among others: three copies of your data, on two kinds of storage, one of them away from the office and ideally offline or impossible to modify.
 
-It is tempting to assume Google or Microsoft does it for you. Google Workspace and Microsoft 365 keep deleted items for weeks or months, not years, and sync faithfully copies deletions and encrypted files. {{< a key="backups-3-2-1" >}}My guide to the 3-2-1 backup rule{{< /a >}} covers your files, Google Workspace and Microsoft 365, and why a restore you test every three months matters more than any setting.
+It is tempting to assume Google or Microsoft does it for you. Google Workspace and Microsoft 365 keep deleted items for weeks or months, not years, and sync faithfully copies deletions and encrypted files. {{< a key="backups-3-2-1" >}}My guide to the 3-2-1 backup rule{{< /a >}} covers your files, Google Workspace and Microsoft 365, with a restore test to run every three months.
 
 The cloud suite itself has a few settings worth more than any extra tool: two-step verification enforced for everyone, as few super or global administrators as possible, Gmail's safety settings or Microsoft's Standard preset security policy, no automatic forwarding to outside addresses, tighter file sharing and a review of connected apps. {{< a key="secure-google-workspace-microsoft-365" >}}Securing Google Workspace and Microsoft 365{{< /a >}} walks through each one, and almost all of them work on the cheapest business plans.
 
@@ -123,13 +123,13 @@ This section describes the rules as they stand on 19 October 2026; it is not leg
 | NIS2, [Directive (EU) 2022/2555](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng) | Medium and large organisations in 18 sectors, plus a few providers whatever their size | Mostly indirect: covered clients must check their suppliers | Transposition deadline passed on 17 October 2024; France has not adopted its law |
 | DORA, Regulation (EU) 2022/2554 | Banks, insurers, investment firms and other financial entities | Indirect: they must manage the risk from their ICT providers | Applies since 17 January 2025 |
 | UK Cyber Security and Resilience Bill | Would bring medium and large managed service providers into the UK's NIS rules | Mostly indirect, through clients | In the House of Lords, not law |
-| Cyber Resilience Act, Regulation (EU) 2024/2847 | Anyone offering software or connected products in the EU, apps included | Report actively exploited vulnerabilities and severe incidents, then meet security requirements | Reporting since 11 September 2026; the rest from 11 December 2027 |
+| Cyber Resilience Act, Regulation (EU) 2024/2847 | Businesses supplying software or connected products in the EU, paid or free, apps included; websites and standalone SaaS are generally out of scope | Report actively exploited vulnerabilities and severe incidents, then meet security requirements | Reporting since 11 September 2026; the rest from 11 December 2027 |
 
-For most small teams, NIS2 arrives through clients rather than regulators. {{< a key="nis2-small-business" >}}My NIS2 guide{{< /a >}} explains who is covered, including DNS and trust service providers whatever their size, and what covered clients will ask: multi-factor authentication, backups, incident reporting. In France, the transposition bill was taken off the Assemblée nationale's agenda in early October 2026 with no new date. Most UK companies sit outside NIS2, but not outside their EU clients' contracts.
+For most small teams, NIS2 arrives through clients rather than regulators. {{< a key="nis2-small-business" >}}My NIS2 guide{{< /a >}} explains who is covered, including DNS and trust service providers whatever their size, and what covered clients will ask: multi-factor authentication, backups, incident reporting. In France, the transposition bill was taken off the Assemblée nationale's agenda on 6 October 2026, and no new date had been reported at the time of writing. Most UK companies sit outside NIS2, but not outside their EU clients' contracts.
 
 Those requests usually arrive as a {{< a key="security-questionnaire" >}}security questionnaire from a big client{{< /a >}}. Answer every question truthfully, a “yes” with evidence, a “no” with the measure you use instead or a date, “not applicable” with the reason, then keep your answers in a trust pack you can reuse for the next one.
 
-If you sell an app or other software to people in the EU, from inside the EU or from the UK, read {{< a key="cyber-resilience-act-apps" >}}my guide to the Cyber Resilience Act and your app{{< /a >}}. For everything else about personal data, {{< a key="gdpr-guide" >}}my GDPR guide{{< /a >}} covers businesses inside and outside the EU.
+If you offer an app or other software to people in the EU, paid or free, from inside the EU or from the UK, read {{< a key="cyber-resilience-act-apps" >}}my guide to the Cyber Resilience Act and your app{{< /a >}}. For everything else about personal data, {{< a key="gdpr-guide" >}}my GDPR guide{{< /a >}} covers businesses inside and outside the EU.
 
 ## Free help in the UK and France
 
