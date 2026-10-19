@@ -76,9 +76,9 @@ Consistency matters more than volume. For a small team, **monthly or fortnightly
 
 | Rhythm | Issues a year | Suits |
 |---|---|---|
-| Monthly | 12 | Most service businesses, and anyone writing alone |
-| Fortnightly | 26 | Fields that change often, such as tax, law or IT |
-| Weekly | 52 | Only if someone has a few hours for it every week |
+| Monthly | 12 | Most service businesses |
+| Fortnightly | 26 | Fields that change often (tax, law, IT) |
+| Weekly | 52 | Only with a few hours free every week |
 
 People are busy. In my cold email campaigns, the third email brings positive replies from people who simply had not found the time to answer the first two. A newsletter relies on the same patience: being there, regularly, on the day the reader has the need and the time.
 
@@ -122,7 +122,7 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 2. **What your service brings, honestly.** What it can do, what it will not, and who should not buy it yet.
 3. **How long it really takes.** A realistic timeline, step by step. For SEO, my honest answer is "usually months": I once saw a client's page reach the top of Google within a day or two, and I would still never promise it.
 4. **What it costs, and why.** What pushes a price up or down, without publishing a price list.
-5. **The objection you hear most.** Mine is "cold emailing is illegal". For B2B it is not, within rules that differ between the UK and France, as my {{< a key="b2b-cold-emailing-guide" >}}guide to B2B cold emailing{{< /a >}} explains; an issue setting them out answers it better than a sales page.
+5. **The objection you hear most.** Mine is "cold emailing is illegal": for B2B it is not, within rules that differ between the UK and France, as my {{< a key="b2b-cold-emailing-guide" >}}guide to B2B cold emailing{{< /a >}} explains.
 
 ### From your work
 
@@ -134,8 +134,8 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 
 ### From your field
 
-11. **A regulation update.** What changes, for whom, from when and what to do, with the official link. An accountant could remind sole traders and landlords that [Making Tax Digital for Income Tax](https://www.gov.uk/government/collections/making-tax-digital-for-income-tax) has applied since 6 April 2026 to qualifying income over £50,000, that the second quarterly update is due by 7 November 2026, and that the threshold falls to £30,000 in April 2027 (as of 19 October 2026).
-12. **Curated links.** Three to five things worth reading, with one line each on why they matter to your reader. The line is the value.
+11. **A regulation update.** What changes, for whom, from when and what to do, with the official link. An accountant could remind sole traders and landlords that [Making Tax Digital for Income Tax](https://www.gov.uk/government/collections/making-tax-digital-for-income-tax) has applied since 6 April 2026 to qualifying income over £50,000 and that the second quarterly update is due by 7 November 2026 (as of 19 October 2026).
+12. **Curated links.** Three to five things worth reading, each with one line on why it matters to your reader.
 13. **A tool review.** One tool you use: who it suits, who it does not, what it costs. Readers remember an honest verdict.
 14. **A myth in your trade.** Mine would be "a website is a one-off cost": it needs maintenance, like any tool you use every day.
 15. **A seasonal reminder.** What to do before the year end or your clients' busy season, such as an air conditioning installer reminding offices to book a service before summer.
@@ -144,7 +144,7 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 
 16. **Monthly numbers.** A few anonymised figures (projects delivered, response time, the most requested service) and what they mean for the reader.
 17. **A lesson from something that went wrong.** Mine: before an SEO project starts, I now put in writing how long results usually take, since a client expected them much faster than SEO delivers.
-18. **When not to hire you.** The jobs you send elsewhere, and to whom. Telling people honestly whether they need me or someone else is part of how I work, and it shows readers you will tell them the truth.
+18. **When not to hire you.** The jobs you send elsewhere, and to whom. I tell people honestly whether they need me or someone else; in a newsletter, it shows you will tell the truth.
 19. **Your view on a trend.** What AI or a new rule changes in your trade, and what it does not. In my work, AI has shortened delivery times, which leaves room to look for better solutions.
 20. **A reader's question, answered.** Ask readers to reply with theirs and answer one per issue, anonymised: the newsletter becomes a conversation.
 
@@ -153,7 +153,6 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 - **Keep a question log.** Every question a client or prospect asks goes into one note. After a month you have more topics than issues.
 - **Reuse your blog.** One article becomes one issue: the key point in 150 words and a link. The reverse works too: an issue that gets replies deserves a full article, written as in my guide to {{< a key="write-seo-blog-posts" >}}blog posts that bring in enquiries{{< /a >}}.
 - **Look for complaints.** When I research copy and SEO, I use Claude with deep research to find what people in a niche complain about most. Your readers have the same complaints.
-- **Write in batches.** Three issues drafted in one sitting are easier than one written the night before.
 
 ## How to tell whether it works: clicks, replies and calls
 

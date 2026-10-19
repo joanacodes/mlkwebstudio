@@ -1,15 +1,15 @@
 ---
 title: "Assurance cyber : ce qu’elle couvre et quand elle vaut le coup pour une petite équipe"
 seo_title: "Assurance cyber TPE : ce qu’elle couvre et quand la prendre"
-description: "Assurance cyber pour TPE : ce que couvrent les contrats, les exclusions à lire, la plainte sous 72 heures, les questions de l’assureur et quand souscrire."
+description: "Assurance cyber pour TPE : ce que couvrent les contrats, les exclusions à lire, la plainte sous 72 heures, les questions de l’assureur et quand souscrire."
 slug: "assurance-cyber-tpe"
 translationKey: "cyber-insurance"
 date: 2026-10-18T22:09:00+02:00
 lastmod: 2026-10-18T22:09:00+02:00
 category: "cybersecurity"
 article_type: "guide"
-keywords: ["assurance cyber TPE", "assurance cyber PME", "que couvre une assurance cyber", "cyberassurance", "exclusions assurance cyber", "assurance cyber plainte 72 heures"]
-summary: "Une assurance cyber paie les suites d’une attaque ou d’une fuite de données : experts, restauration, pertes d’exploitation, extorsion, notification, réclamations de tiers. Tout se joue dans les clauses : fraude au faux RIB souvent exclue, attaques étatiques exclues, sécurité déclarée à tenir, plainte sous 72 heures. Elle vaut le coup pour une petite équipe qui s’arrête sans informatique, paie par virement, détient des données personnelles ou dont les clients l’exigent."
+keywords: ["assurance cyber TPE", "assurance cyber PME", "que couvre une assurance cyber", "cyberassurance", "exclusions assurance cyber", "assurance cyber plainte 72 heures"]
+summary: "Une assurance cyber paie les suites d’une attaque ou d’une fuite de données : experts, restauration, pertes d’exploitation, extorsion, notification, réclamations de tiers. Tout se joue dans les clauses : fraude au faux RIB souvent exclue, attaques étatiques exclues, sécurité déclarée à tenir, plainte sous 72 heures. Elle vaut le coup pour une petite équipe qui s’arrête sans informatique, paie par virement, détient des données personnelles ou dont les clients l’exigent."
 cover: "cyber-insurance"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé au-dessus d’une photo, avec un bouclier portant une coche"
 related: ["cybersecurity-guide", "incident-response-first-hour", "invoice-fraud-bank-details", "gdpr-data-breach", "security-questionnaire"]
@@ -18,7 +18,7 @@ faq:
   - q: "Combien coûte une assurance cyber pour une petite équipe ?"
     a: "Il n’existe pas de grille publique fiable. La prime dépend du chiffre d’affaires et du secteur, des données que vous détenez, du plafond et de la franchise choisis et de vos réponses sur la sécurité : demandez deux ou trois devis avec le même plafond et la même franchise pour comparer ce qui est comparable."
   - q: "L’assurance cyber est-elle obligatoire ?"
-    a: "Non : au 19 octobre 2026, aucune loi n’oblige une entreprise à en souscrire une en France. Elle devient obligatoire quand un contrat l’exige, ce que certains grands comptes inscrivent dans leurs conditions fournisseurs."
+    a: "Non : au 19 octobre 2026, aucune loi n’oblige une entreprise à en souscrire une en France. Elle devient obligatoire quand un contrat l’exige, ce que certains grands comptes inscrivent dans leurs conditions fournisseurs."
   - q: "Peut-on souscrire une assurance cyber après une cyberattaque ?"
     a: "Oui, mais elle ne couvrira ni cette attaque ni ce que vous saviez avant la souscription. Attendez-vous à des questions sur l’incident et sur ce que vous avez changé depuis, et à une prime qui en tient compte."
   - q: "Un salarié a cliqué sur un lien piégé : l’assurance cyber joue-t-elle ?"
@@ -37,7 +37,7 @@ La plupart des contrats ont deux volets. Les **garanties dommages** paient vos p
 
 | Garantie | Ce qu’elle paie | À vérifier |
 |---|---|---|
-| Assistance et gestion de crise | Une ligne joignable 24 h/24, l’enquête technique pour savoir comment l’attaquant est entré, un avocat les premiers jours | Si vous devez passer par les prestataires de l’assureur |
+| Assistance et gestion de crise | Une ligne joignable 24 h/24, l’enquête technique pour savoir comment l’attaquant est entré, un avocat les premiers jours | Si vous devez passer par les prestataires de l’assureur |
 | Restauration | Le nettoyage et la reconstruction des ordinateurs, serveurs, sites et données | Vous retrouvez ce que vous aviez, pas une version améliorée |
 | Pertes d’exploitation | Le chiffre d’affaires perdu pendant l’arrêt | Le délai de carence avant la prise en charge, et sa durée |
 | Extorsion | Des négociateurs et, quand c’est légal, la rançon | L’accord préalable de l’assureur |
@@ -57,7 +57,7 @@ Si un escroc convainc quelqu’un de l’équipe de payer une fausse facture ou 
 
 ### Guerre et attaques soutenues par un État
 
-Depuis le 31 mars 2023, le Lloyd’s de Londres impose à tout contrat cyber autonome souscrit ou renouvelé sur son marché d’exclure les pertes dues aux cyberattaques soutenues par un État, en temps de guerre ou non, sauf accord du Lloyd’s ([bulletin Y5381](https://assets.lloyds.com/media/e9a4058c-4c25-48d6-99d3-0c466987e099/Y5381%20Market%20Bulletin%20-%20Cyber-attack%20exclusions.pdf), en anglais). Les autres assureurs ont leurs propres clauses de guerre. Demandez comment le contrat établit qu’une attaque vient d’un État, qui doit le prouver, et si vos systèmes restent couverts quand l’attaque visait un autre pays.
+Depuis le 31 mars 2023, le Lloyd’s de Londres impose à tout contrat cyber autonome souscrit ou renouvelé sur son marché d’exclure les pertes dues aux cyberattaques soutenues par un État, en temps de guerre ou non, sauf accord du Lloyd’s ([bulletin Y5381](https://assets.lloyds.com/media/e9a4058c-4c25-48d6-99d3-0c466987e099/Y5381%20Market%20Bulletin%20-%20Cyber-attack%20exclusions.pdf), en anglais). Les autres assureurs ont leurs propres clauses de guerre. Demandez comment le contrat établit qu’une attaque vient d’un État, qui doit le prouver, et si vos systèmes restent couverts quand l’attaque visait un autre pays.
 
 ### Faits antérieurs et failles non corrigées
 
@@ -72,9 +72,9 @@ Vous payez d’abord la franchise. Les pertes d’exploitation ne sont en géné
 - **Appelez d’abord la ligne d’assistance de l’assureur.** Beaucoup de contrats exigent son accord avant de mandater un prestataire, de payer une rançon ou de reconnaître votre responsabilité ; les frais engagés sans cet accord peuvent rester à votre charge.
 - **Déclarez le sinistre dans le délai du contrat**, parfois « dès que possible ».
 - **Gardez les preuves** : n’effacez ni l’ordinateur infecté ni la règle de transfert créée par l’attaquant avant qu’un spécialiste les ait relevés. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après une cyberattaque{{< /a >}} liste ce qu’il faut garder et qui appeler.
-- **Portez plainte dans les 72 heures.** Depuis le 24 avril 2023, l’article L. 12-10-1 du Code des assurances, issu de la loi LOPMI, subordonne l’indemnisation des pertes causées par une attaque contre vos systèmes au dépôt d’une plainte au plus tard 72 heures après que vous en avez eu connaissance ([FAQ de la direction générale du Trésor](https://www.tresor.economie.gouv.fr/Institutionnel/Niveau2/Pages/39db1de3-1230-46a0-8e1b-d38a739e0885/files/9065d98f-099e-4eb4-9ba5-23b68cd50feb)). La règle vise les entreprises et les personnes qui agissent à titre professionnel ; la plainte seule ne garantit pas la prise en charge. La plainte se dépose au commissariat, à la gendarmerie ou par écrit auprès du procureur de la République ; [17Cyber](https://www.17cyber.gouv.fr/) vous oriente.
+- **Portez plainte dans les 72 heures.** Depuis le 24 avril 2023, l’article L. 12-10-1 du Code des assurances, issu de la loi LOPMI, subordonne l’indemnisation des pertes causées par une attaque contre vos systèmes au dépôt d’une plainte au plus tard 72 heures après que vous en avez eu connaissance ([FAQ de la direction générale du Trésor](https://www.tresor.economie.gouv.fr/Institutionnel/Niveau2/Pages/39db1de3-1230-46a0-8e1b-d38a739e0885/files/9065d98f-099e-4eb4-9ba5-23b68cd50feb)). La règle vise les entreprises et les personnes qui agissent à titre professionnel ; la plainte seule ne garantit pas la prise en charge. La plainte se dépose au commissariat, à la gendarmerie ou par écrit auprès du procureur de la République ; [17Cyber](https://www.17cyber.gouv.fr/) vous oriente.
 
-Cette horloge court en parallèle de celle du RGPD : si des données personnelles sont en jeu, vous avez 72 heures pour notifier la CNIL, comme l’explique mon guide sur {{< a key="gdpr-data-breach" >}}la notification d’une violation de données{{< /a >}}.
+Cette horloge court en parallèle de celle du RGPD : si des données personnelles sont en jeu, vous avez 72 heures pour notifier la CNIL, comme l’explique mon guide sur {{< a key="gdpr-data-breach" >}}la notification d’une violation de données{{< /a >}}.
 
 ## Ce que demande l’assureur avant de vous couvrir
 
@@ -88,9 +88,9 @@ Le questionnaire de souscription ressemble à un questionnaire de sécurité, et
 6. Combien de fiches de données personnelles détenez-vous, et encaissez-vous des paiements par carte ?
 7. L’équipe a-t-elle été formée à repérer le hameçonnage ?
 
-Répondez selon la situation du jour, pas celle que vous prévoyez. Une fausse déclaration intentionnelle peut rendre le contrat nul (article L. 113-8 du Code des assurances) ; une erreur de bonne foi découverte après un sinistre réduit l’indemnité dans la proportion entre la prime payée et celle qui aurait été due (article L. 113-9).
+Répondez selon la situation du jour, pas celle que vous prévoyez. Une fausse déclaration intentionnelle peut rendre le contrat nul (article L. 113-8 du Code des assurances) ; une erreur de bonne foi découverte après un sinistre réduit l’indemnité dans la proportion entre la prime payée et celle qui aurait été due (article L. 113-9).
 
-Si vous partez de loin, le diagnostic gratuit MonAideCyber de l’ANSSI (environ 1 h 30 avec un « Aidant cyber », puis six mesures à appliquer en six mois) prépare bien ce questionnaire. Les grands comptes posent à peu près les mêmes questions à leurs fournisseurs : mon guide pour {{< a key="security-questionnaire" >}}répondre à un questionnaire de sécurité{{< /a >}} sert dans les deux cas.
+Si vous partez de loin, le diagnostic gratuit MonAideCyber de l’ANSSI (environ 1 h 30 avec un « Aidant cyber », puis six mesures à appliquer en six mois) prépare bien ce questionnaire. Les grands comptes posent à peu près les mêmes questions à leurs fournisseurs : mon guide pour {{< a key="security-questionnaire" >}}répondre à un questionnaire de sécurité{{< /a >}} sert dans les deux cas.
 
 ## Vérifiez ce que vous avez déjà
 
@@ -110,7 +110,7 @@ Je regarderais sérieusement un contrat si l’un de ces points est vrai :
 
 C’est moins urgent pour un consultant indépendant dont le travail vit dans des services cloud courants avec des sauvegardes testées, et qui pourrait travailler une semaine depuis son téléphone. Dans ce cas, je mettrais le premier budget dans les bases de mon {{< a key="cybersecurity-guide" >}}guide de cybersécurité pour les petites équipes{{< /a >}} : elles rendent une attaque moins probable, alors qu’une assurance ne paie qu’après.
 
-Pour l’ordre de grandeur, l’étude [LUCY 2026 de l’AMRAE](https://www.amrae.fr/sites/default/files/public/2026-06/AMRAE_LUCY_2026_FR_Hdef.pdf), l’association des risk managers, compte 1 251 sinistres cyber indemnisés en 2025 contre 448 en 2024, pour 83,2 M€ (54,5 M€ un an plus tôt), et une forte hausse du nombre d’ETI (+75 %) et d’entreprises de taille moyenne (+97 %) assurées. Une édition précédente décrivait un taux de couverture très faible chez les TPE et PME.
+Pour l’ordre de grandeur, l’étude [LUCY 2026 de l’AMRAE](https://www.amrae.fr/sites/default/files/public/2026-06/AMRAE_LUCY_2026_FR_Hdef.pdf), l’association des risk managers, compte 1 251 sinistres cyber indemnisés en 2025 contre 448 en 2024, pour 83,2 M€ (54,5 M€ un an plus tôt), et une forte hausse du nombre d’ETI (+75 %) et d’entreprises de taille moyenne (+97 %) assurées. Une édition précédente décrivait un taux de couverture très faible chez les TPE et PME.
 
 ## Les questions à poser à votre courtier ou à votre assureur
 
@@ -120,13 +120,13 @@ Pour l’ordre de grandeur, l’étude [LUCY 2026 de l’AMRAE](https://www.amra
 4. Quelles mesures de sécurité le contrat suppose-t-il, et que se passe-t-il si l’une manquait le jour de l’attaque ?
 5. Comment l’exclusion de guerre ou d’attaque étatique définit-elle une attaque, et qui tranche l’attribution ?
 
-Demandez les réponses par écrit. Ce guide décrit le fonctionnement de l’assurance cyber au 19 octobre 2026 ; ce n’est pas un conseil juridique. Un courtier spécialisé en cyber vaut le coup dès que vous détenez beaucoup de données personnelles ou qu’un client impose ses conditions, et un avocat quand un contrat vous rend responsable au-delà de ce que couvre l’assurance.
+Demandez les réponses par écrit. Ce guide décrit le fonctionnement de l’assurance cyber au 19 octobre 2026 ; ce n’est pas un conseil juridique. Un courtier spécialisé en cyber vaut le coup dès que vous détenez beaucoup de données personnelles ou qu’un client impose ses conditions, et un avocat quand un contrat vous rend responsable au-delà de ce que couvre l’assurance.
 
 ## Avant d’en avoir besoin : la checklist
 
 - Notez le numéro de contrat et la ligne d’assistance dans la liste de contacts hors ligne de votre plan d’incident.
-- Notez vos délais : déclaration à l’assureur, plainte sous 72 heures, notification à la CNIL sous 72 heures si des données personnelles sont en jeu.
+- Notez vos délais : déclaration à l’assureur, plainte sous 72 heures, notification à la CNIL sous 72 heures si des données personnelles sont en jeu.
 - Rendez vos réponses vraies : double authentification, sauvegardes, mises à jour, rappel téléphonique avant tout changement de RIB.
 - Revoyez le contrat à chaque échéance, et dès que vous commencez à encaisser des paiements, à détenir plus de données ou à signer avec un client exigeant.
 
-Les prestataires de l’assureur s’occupent de l’enquête sur vos ordinateurs ; un site piraté, un nom de domaine perdu ou un compte bloqué, c’est le type de dépannage que je prends en charge moi-même, le jour même ou sous 24 heures.
+Les prestataires de l’assureur s’occupent de l’enquête sur vos ordinateurs ; un site piraté, un nom de domaine perdu ou un compte bloqué, c’est le type de dépannage que je prends en charge moi-même, le jour même ou sous 24 heures.

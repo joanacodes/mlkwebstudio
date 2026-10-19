@@ -56,7 +56,7 @@ Le référentiel de la CNIL relatif à la gestion des activités commerciales (d
 
 La CNIL détaille ces règles dans ses [questions-réponses sur les référentiels de gestion commerciale](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des).
 
-Au Royaume-Uni, le UK GDPR reprend le même principe, mais l’ICO ne fixe aucune durée : c’est à vous de le faire, sans garder de données « au cas où ». Reprendre les trois ans de la CNIL comme règle interne reste une bonne option : un délai qu’un régulateur juge déjà raisonnable se défend mieux qu’un chiffre sorti de nulle part. Si vos prospects viennent du cold emailing, mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}} précise ce que vous leur devez dès le premier email.
+Au Royaume-Uni, le UK GDPR reprend le même principe, mais l’ICO ne fixe aucune durée : c’est à vous de la fixer, sans garder de données « au cas où ». Reprendre les trois ans de la CNIL comme règle interne reste une bonne option : un délai qu’un régulateur juge déjà raisonnable se défend mieux qu’un chiffre sorti de nulle part. Si vos prospects viennent du cold emailing, mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}} précise ce que vous leur devez dès le premier email.
 
 ## Factures, contrats, cartes bancaires : les durées fixées par d’autres lois
 
@@ -70,7 +70,7 @@ Certains documents doivent survivre à la relation, et le droit commercial, fisc
 
 La CNIL précise, dans sa page sur le [paiement à distance par carte bancaire](https://www.cnil.fr/fr/le-paiement-distance-par-carte-bancaire), qu’enregistrer la carte d’un client pour ses prochains achats demande son consentement, valable jusqu’à son retrait ou l’expiration de la carte.
 
-Regardez ce que ces lois imposent de garder : la facture, le contrat, la preuve du paiement. Aucune ne justifie de garder le portable d’un ancien client dans votre pipeline commercial pendant dix ans. La facture part dans l’archive comptable ; la fiche commerciale suit la règle des trois ans.
+Regardez ce que ces lois imposent de garder : la facture, le contrat, la preuve du paiement. Aucune ne justifie de garder le numéro de portable d’un ancien client dans votre pipeline commercial pendant dix ans. La facture part dans l’archive comptable ; la fiche commerciale suit la règle des trois ans.
 
 ## Un tableau de conservation pour le CRM d’une petite équipe
 
@@ -120,7 +120,7 @@ Une durée que personne n’applique reste une phrase dans votre politique de co
 =EDATE(MAX(B2;C2);36)
 ```
 
-Si votre tableur affiche les fonctions en français, écrivez `MOIS.DECALER` au lieu d’`EDATE`, puis filtrez cette colonne chaque mois. Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} avec Google Apps Script ajoute alertes et rappels au même type de tableau ; un rappel mensuel de nettoyage se construit pareil.
+Si votre tableur affiche les fonctions en français, écrivez `MOIS.DECALER` au lieu d’`EDATE`, puis filtrez cette colonne chaque mois. Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} avec Google Apps Script ajoute alertes et rappels au même type de tableau ; un rappel mensuel de nettoyage suit le même principe.
 
 **Dans un outil sur mesure**, tout cela tourne seul. Quand l’équipe d’un client a reçu plus de prospects qu’elle ne pouvait en rappeler, j’ai développé pour ce client une application interne afin que personne ne soit oublié (l’histoire est dans mon article sur le {{< a key="bespoke-crm-internal-app" >}}CRM sur mesure{{< /a >}}). La conservation en est l’autre moitié : une tâche lancée chaque nuit peut déplacer les dossiers clos vers une table d’archive et supprimer les prospects arrivés à échéance, en comptant ce qu’elle a retiré. Si vous faites développer un outil, demandez ces quatre champs et cette tâche dès le départ : les ajouter plus tard oblige à reconstituer des dates que personne n’a notées.
 

@@ -44,13 +44,13 @@ Mon conseil pour une petite équipe : choisissez-en une, pas trois. Chaque plat
 
 Apple Search Ads s’appelle Apple Ads depuis avril 2025, parce que ses annonces dépassent désormais les résultats de recherche. Sa force, c’est l’intention. Quelqu’un qui tape « facturation » ou « planning repas » dans l’App Store veut cette app tout de suite, et Apple affirme que près de 65 % des téléchargements dans l’App Store se font juste après une recherche.
 
-Pour un petit budget, Apple Ads a un autre avantage : avec les enchères manuelles (**Manage Bids**), vous fixez le maximum payé par tap, par groupe d’annonces ou par mot-clé, et Apple ne publie aucun seuil de volume. Pour sa stratégie automatique, **Maximize Conversions**, Apple recommande un budget qui permette au moins cinq conversions par jour. Apple Ads Basic, facturé à l’installation sur un budget mensuel, ne demande aucune gestion mais vous apprend peu sur les recherches qui amènent vos utilisateurs.
+Pour un petit budget, Apple Ads a un autre avantage : avec les enchères manuelles (**Manage Bids**), vous fixez le maximum payé par tap, par groupe d’annonces ou par mot-clé, et Apple ne publie aucun seuil de volume. Pour sa stratégie automatique, **Maximize Conversions**, Apple recommande un budget qui permette au moins cinq conversions par jour. Apple Ads Basic, facturé à l’installation sur un budget mensuel, ne demande aucune gestion mais vous apprend peu sur les recherches utiles.
 
 Apple Ads ne touche que les utilisateurs d’iPhone et d’iPad, et en France ils sont minoritaires : iOS représentait environ 36 % du trafic web mobile en août 2026 selon [Statcounter](https://gs.statcounter.com/os-market-share/mobile/france), contre environ 64 % pour Android. Le volume de recherche est l’autre plafond : si presque personne ne cherche ce que fait votre app, il n’y a pas grand-chose à acheter. Mon {{< a key="apple-ads-tutorial" >}}tutoriel Apple Ads{{< /a >}} détaille une première campagne, mot-clé par mot-clé.
 
 ## Campagnes Google pour applications : la plus large portée, le moins de contrôle
 
-Une campagne Google pour applications promeut une app sur un seul système, Android ou iOS, sur la recherche Google, YouTube, Discover, le Réseau Display et, pour Android, Google Play. Vous fournissez titres, descriptions, images et vidéos ; Google assemble les annonces et décide où et à qui les montrer. Mon avis sur Google Ads : ce n’est pas si compliqué, mais il faut d’abord chercher qui est votre cible et ce qu’elle tape. Ici, ce travail passe dans vos visuels et votre coût par installation cible.
+Une campagne Google pour applications promeut une app sur un seul système, Android ou iOS, sur la recherche Google, YouTube, Discover, le Réseau Display et, pour Android, Google Play. Vous fournissez titres, descriptions, images et vidéos ; Google assemble les annonces et décide où et à qui les montrer. Mon avis sur Google Ads : ce n’est pas si compliqué, mais il faut d’abord chercher qui est votre cible et ce qu’elle tape ; ici, ce travail passe dans vos visuels et votre coût cible.
 
 Le piège, c’est le volume. Les [bonnes pratiques de Google pour les campagnes pour applications](https://support.google.com/google-ads/answer/6167162?hl=fr) demandent un budget quotidien d’au moins 50 fois votre coût par installation cible quand vous optimisez le volume d’installations. Si les installations coûtent plus cher que votre budget ne le permet, la campagne risque de dépenser lentement et d’apprendre peu.
 
@@ -64,7 +64,7 @@ Les campagnes de promotion d’application de Meta, dites Advantage+ dans leur v
 
 La diffusion reste en phase d’apprentissage tant qu’un ensemble de publicités n’a pas obtenu environ 50 événements d’optimisation en 7 jours, selon l’[aide de Meta](https://fr-fr.facebook.com/business/help/112167992830700) ; en dessous, le Gestionnaire de publicités signale un apprentissage limité. Meta facture aussi des frais de localisation depuis le 1er juillet 2026 : 3 % pour les publicités diffusées en France, selon Reuters.
 
-Sur iPhone, les résultats sont plus maigres. Depuis iOS 14.5 (26 avril 2021), l’App Tracking Transparency d’Apple oblige les apps à demander l’autorisation avant de suivre les personnes dans les apps et sites d’autres entreprises, et beaucoup refusent. Meta mesure alors les installations sur iPhone via SKAdNetwork d’Apple ou sa propre Aggregated Event Measurement, au choix pour chaque campagne, et les résultats arrivent plus tard, regroupés et moins détaillés. Pour comparer les deux géants au-delà des apps, voyez mon article {{< a key="google-ads-vs-facebook-ads" >}}Google Ads ou Facebook Ads{{< /a >}}.
+Sur iPhone, les résultats sont plus maigres. Depuis iOS 14.5 (26 avril 2021), l’App Tracking Transparency d’Apple oblige les apps à demander l’autorisation avant de suivre les personnes dans les apps et sites d’autres entreprises, et beaucoup refusent. Meta mesure alors les installations sur iPhone via SKAdNetwork d’Apple ou sa propre Aggregated Event Measurement, au choix pour chaque campagne, et les résultats arrivent plus tard, regroupés et moins détaillés. Pour les comparer au-delà des apps, voyez mon article {{< a key="google-ads-vs-facebook-ads" >}}Google Ads ou Facebook Ads{{< /a >}}.
 
 ## TikTok et LinkedIn : pas pour les 1 000 premiers euros
 
@@ -99,11 +99,11 @@ Sans suivi, vous saurez ce que vous avez dépensé, pas ce que cela a rapporté.
 - **Google** importe installations et événements depuis Firebase (Google Analytics for Firebase) ou, pour Android, depuis Google Play.
 - **Meta** a besoin de son SDK dans l’app, ou d’un partenaire d’attribution, pour compter installations et événements.
 
-Sur iPhone, les régies s’appuient aussi sur SKAdNetwork et sur le plus récent AdAttributionKit (iOS 17.4 et suivants) d’Apple, qui remontent les installations sans identifier personne ; votre développeur choisit quels événements de l’app leurs valeurs de conversion décrivent.
+Sur iPhone, les régies s’appuient aussi sur SKAdNetwork et le plus récent AdAttributionKit d’Apple (iOS 17.4 et suivants), qui remontent les installations sans identifier personne ; votre développeur choisit quels événements de l’app leurs valeurs de conversion décrivent.
 
 Un partenaire d’attribution (MMP, mobile measurement partner) comme AppsFlyer ou Adjust devient utile quand vous diffusez sur deux régies ou plus : il évite de compter deux fois la même installation. La [page tarifs d’AppsFlyer](https://www.appsflyer.com/fr/pricing) affiche une offre gratuite qu’elle dit inadaptée aux campagnes payantes, et une offre à l’usage avec 12 000 conversions gratuites la première année, au moment où j’écris (octobre 2026).
 
-Si votre app a des utilisateurs dans l’Union européenne ou au Royaume-Uni, partager leurs données avec les régies demande aussi leur consentement préalable, selon les règles des plateformes et le droit des données personnelles. Ceci est une information générale, pas un conseil juridique.
+Si votre app a des utilisateurs dans l’UE ou au Royaume-Uni, partager leurs données avec les régies demande aussi leur consentement préalable, selon les règles des plateformes et le droit des données personnelles. Ceci est une information générale, pas un conseil juridique.
 
 ## Quand garder vos 1 000 € à la banque
 

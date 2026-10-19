@@ -47,7 +47,7 @@ The periods also follow your contacts across borders. A business in the UK, Swit
 
 ## Prospects and clients: the CNIL's three-year benchmark
 
-The CNIL's reference framework for managing commercial activities (the référentiel « gestion des activités commerciales », deliberation no. 2021-131 of 23 September 2021) sets these periods:
+The CNIL's reference framework for managing commercial activities (the "gestion des activités commerciales" référentiel, deliberation no. 2021-131 of 23 September 2021) sets these periods:
 
 - **A prospect who never became a client**: three years from collection, or from the last contact that came from the prospect.
 - **A client**: as long as the commercial relationship lasts, then three years from its end for marketing (in practice, from the end of the contract or the last order).

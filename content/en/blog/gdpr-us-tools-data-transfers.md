@@ -1,5 +1,5 @@
 ---
-title: "US tools under GDPR: Google, Microsoft, Mailchimp and the Data Privacy Framework"
+title: "Using US tools under GDPR: Google, Microsoft, Mailchimp and the Data Privacy Framework"
 seo_title: "EU-US Data Privacy Framework: using US tools under GDPR"
 description: "EU-US Data Privacy Framework explained: when you can use Google, Microsoft or Mailchimp under GDPR, how to check a US tool and what to do if it isn’t listed."
 slug: "eu-us-data-privacy-framework"
@@ -9,25 +9,25 @@ lastmod: 2026-10-18T21:18:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["EU-US Data Privacy Framework", "GDPR data transfers to the US", "is Google Workspace GDPR compliant", "is Mailchimp GDPR compliant", "standard contractual clauses", "UK-US data bridge"]
-summary: "A business subject to GDPR can use US tools such as Google Workspace, Microsoft 365 or Mailchimp if each transfer to the US rests on a legal mechanism. The simplest is the EU-US Data Privacy Framework, in force since 10 July 2023 for US companies listed as active on dataprivacyframework.gov; otherwise, standard contractual clauses in the provider’s data processing agreement cover it. An appeal against the framework is pending, so keep the clauses as a fallback."
+summary: "A business subject to GDPR can use US tools such as Google Workspace, Microsoft 365 or Mailchimp if each transfer to the US rests on a legal mechanism. The simplest is the EU-US Data Privacy Framework, in force since 10 July 2023 for US companies listed as active on dataprivacyframework.gov; otherwise, standard contractual clauses in the provider’s data processing agreement cover it. An appeal against the framework is still pending at the EU Court of Justice (as of 19 October 2026), so make sure the clauses are there as a fallback."
 cover: "gdpr-us-tools-data-transfers"
 cover_alt: "The article’s title in white on a ribbed-glass panel over a photo of connected boxes in a flow diagram"
 related: ["gdpr-data-processing-agreement", "gdpr-outside-eu", "newsletter-tools-comparison", "chatgpt-gdpr-client-data", "infomaniak-review"]
 services: ["automation"]
 faq:
   - q: "Do I have to tell customers that their data goes to the US?"
-    a: "Yes. Article 13(1)(f) of the GDPR requires your privacy policy to say that you transfer personal data outside the EEA and on what basis: an adequacy decision such as the Data Privacy Framework, or safeguards such as standard contractual clauses, with a way to obtain a copy of them."
+    a: "Yes. Articles 13(1)(f) and 14(1)(f) of the GDPR require your privacy policy to say that you transfer personal data outside the EEA and on what basis: an adequacy decision such as the Data Privacy Framework, or safeguards such as standard contractual clauses, with a way to obtain a copy of them."
   - q: "Can I use a free Gmail or ChatGPT account for client data?"
-    a: "Avoid it. Personal accounts come without a data processing agreement: OpenAI offers one only for ChatGPT Business, ChatGPT Enterprise and its API, not for Free, Go, Plus or Pro, and Google’s processing terms come with Google Workspace, not with a personal Gmail account."
+    a: "Avoid it. Personal accounts come without a data processing agreement: OpenAI offers one for ChatGPT Business, ChatGPT Enterprise and its API, not for Free, Go, Plus or Pro, and Google’s processing terms come with Google Workspace, not with a personal Gmail account."
   - q: "Do I need a transfer impact assessment if the US company is certified?"
-    a: "No. A transfer to a company listed as active under the Data Privacy Framework is covered by the adequacy decision, so no assessment is needed for it. You still need the provider’s data processing agreement under Article 28."
+    a: "Not for transfers that rely on the framework: a transfer to a company listed as active is covered by the adequacy decision. If the provider’s contract relies on standard contractual clauses instead, as Microsoft’s does, file its transfer documentation; either way, you still need its data processing agreement under Article 28."
   - q: "Is Mailchimp GDPR compliant?"
     a: "No tool is compliant on its own: it depends on how you use it. For transfers, Mailchimp’s owner Intuit is certified under the Data Privacy Framework, the UK Extension and the Swiss-US framework, and Mailchimp says the standard contractual clauses in its data processing addendum would take over if the framework fell. Consent at sign-up and clear information remain your job."
   - q: "Does the Data Privacy Framework cover data about my employees?"
     a: "Only if the US company’s certification covers HR data. The official list shows, for each company, whether it covers HR data, non-HR data (clients, prospects, subscribers) or both; an HR or payroll tool needs the first."
 ---
 
-If your team uses Gmail or Outlook for email, Mailchimp for the newsletter, Zoom for calls or ChatGPT for first drafts, it runs on American software. Each of these tools can send your clients’ personal data to the United States, which the GDPR allows only on a legal basis. Since 10 July 2023, the main one is the EU-US Data Privacy Framework: when the US company is certified, the transfer needs no extra safeguard.
+If your team uses Gmail or Outlook for email, Mailchimp for the newsletter, Zoom for calls or ChatGPT for first drafts, it runs on American software. Each of these tools can send your clients’ personal data to the United States, which the GDPR allows only through one of its transfer mechanisms. Since 10 July 2023, the main one is the EU-US Data Privacy Framework: when the US company is certified, the transfer needs no extra safeguard.
 
 The framework is the third attempt. The first two were struck down by the EU’s Court of Justice, and an appeal against this one is pending. A small team therefore needs two answers: whether each tool is covered today, and what happens if the framework falls. This guide gives both, with the rules for UK and Swiss businesses. It is part of my {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}} and reflects the rules as they stand on 19 October 2026.
 
@@ -55,7 +55,7 @@ Transfers to the US have been rebuilt twice, each time because the Court of Just
 
 This framework has survived its first test. On 3 September 2025, the EU General Court dismissed the action brought by Philippe Latombe, a French member of parliament (case T-553/23). He appealed to the Court of Justice on 31 October 2025 (case C-703/25 P), arguing in particular that a court created by an executive order rather than an Act of Congress is not independent. As of 19 October 2026, I found no judgment: the framework applies, and transfers based on it are lawful.
 
-{{< callout type="tip" >}}**Use the framework, but keep a spare.** Check that each US provider’s data processing agreement also contains standard contractual clauses. Mailchimp, for example, says its clauses would apply automatically if the framework were invalidated. If the Court of Justice strikes it down, your transfers still have a legal basis the next morning.{{< /callout >}}
+{{< callout type="tip" >}}**Use the framework, but keep a spare.** Check that each US provider’s data processing agreement also contains standard contractual clauses. Mailchimp, for example, says its clauses would apply automatically if the framework were invalidated. If the Court of Justice strikes it down, your transfers are still covered the next morning.{{< /callout >}}
 
 ## How to check a US company on the Data Privacy Framework list
 
@@ -66,7 +66,7 @@ The US Department of Commerce publishes the [official Data Privacy Framework lis
 3. Check which parts it joined. The EU-US framework, the UK Extension and the Swiss-US framework are listed separately.
 4. Save a dated PDF or screenshot of the entry with the provider’s agreement, as a record of what you checked and when.
 
-Then open the provider’s data processing agreement at its section on international transfers. **Being certified and relying on the framework are two different things.** Microsoft is certified, yet its [GDPR page](https://learn.microsoft.com/en-us/compliance/regulatory/gdpr) says it does not rely on the framework for transfers from the EU, and its contracts use standard contractual clauses instead. That is just as lawful: what you need is a valid mechanism in the contract you accepted.
+Then open the provider’s data processing agreement at its section on international transfers. **Being certified and relying on the framework are two different things.** Microsoft is certified, yet its [GDPR page](https://learn.microsoft.com/en-us/compliance/regulatory/gdpr) says it does not rely on the framework for transfers from the EU, and its contracts use standard contractual clauses instead. That is just as lawful: what matters is that a valid mechanism covers the transfer, and the contract tells you which one.
 
 ## Google, Microsoft, Mailchimp and ChatGPT: what I found
 
@@ -74,10 +74,10 @@ Here is where four tools that many small teams use stood on 19 October 2026. Cer
 
 | Tool | US company | Basis for transfers |
 |---|---|---|
-| Google Workspace | Google LLC | Certified under the EU-US framework, the UK Extension and the Swiss-US framework; Google’s privacy help centre says it does not currently rely on the last two for its transfers |
+| Google Workspace | Google LLC | Certified under the EU-US framework, the UK Extension and the Swiss-US framework, and Google’s page on data transfer frameworks says it relies on all three |
 | Microsoft 365 | Microsoft Corporation | Certified under all three, but relies on standard contractual clauses for transfers from the EU |
 | Mailchimp | Intuit | Certified under all three, with standard contractual clauses in Mailchimp’s data processing addendum as a fallback |
-| ChatGPT | OpenAI | A data processing addendum on request for ChatGPT Business, ChatGPT Enterprise and the API, with transfers on standard contractual clauses |
+| ChatGPT | OpenAI | A data processing addendum, signed through OpenAI’s DPA form, for ChatGPT Business, ChatGPT Enterprise and the API, with transfers on standard contractual clauses |
 
 Run the same check on every other American tool: Zoom, Slack, your CRM, your booking page, your cold email platform. Small add-ons count too: Microsoft Clarity, which I use to see where visitors engage on a page and which areas make them leave, is a US service like the others. For AI assistants, the transfer is only one of the questions; my guide on {{< a key="chatgpt-gdpr-client-data" >}}what client data you can put into ChatGPT{{< /a >}} covers the rest.
 
@@ -93,11 +93,11 @@ If a provider offers neither the framework nor the clauses, keep client data out
 
 The UK GDPR has its own transfer rules, explained in the [ICO’s guidance on international transfers](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/international-transfers/). Since 12 October 2023, the UK-US “data bridge” has let UK businesses send personal data to US companies certified under the UK Extension to the Data Privacy Framework. A US company can join the UK Extension only if it is also in the EU-US framework.
 
-Without that certification, UK businesses use the ICO’s International Data Transfer Agreement (IDTA) or the UK Addendum to the EU clauses, both available since 21 March 2022, with a transfer risk assessment. A UK team that also serves EU clients can use the EU clauses with the UK Addendum attached to cover both.
+Without that certification, UK businesses use the ICO’s International Data Transfer Agreement (IDTA) or the UK Addendum to the EU clauses, both available since 21 March 2022, with a transfer risk assessment. Since February 2026, under the Data (Use and Access) Act 2025, that assessment checks that the data’s protection after the transfer is “not materially lower” than in the UK: the Act’s “data protection test”. A UK team that also serves EU clients can use the EU clauses with the UK Addendum attached to cover both.
 
 Switzerland has its own Swiss-US framework: the Federal Council recognised it in a decision of 14 August 2024, and Swiss businesses have been able to rely on it since 15 September 2024. Without that part of the certification, contractual clauses adapted to Swiss law are the usual route.
 
-The same checks apply outside Europe: a company in New York, Montreal or Casablanca that sells to people in the EU (see my guide on {{< a key="gdpr-outside-eu" >}}whether GDPR applies outside the EU{{< /a >}}) can make a transfer, for the EDPB, when it passes their data on to another company outside the EU.
+The same checks apply outside Europe: a company in New York, Montreal or Casablanca that sells to people in the EU (see my guide on {{< a key="gdpr-outside-eu" >}}whether GDPR applies outside the EU{{< /a >}}) can, in the EDPB’s reading, make a transfer when it passes their data on to another company outside the EU.
 
 ## Keeping data in Europe: EU data regions and European tools
 
@@ -111,10 +111,10 @@ A European data region reduces transfers but does not make the provider European
 If you would rather avoid the question for some tools, European options exist for most jobs:
 
 - newsletters: Brevo, a French company (see my {{< a key="newsletter-tools-comparison" >}}newsletter tools comparison{{< /a >}});
-- email, files and video calls: Infomaniak’s kSuite, from Geneva, which I recommend highly even though my own habits are with Spaceship (see my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}});
+- email, files and video calls: kSuite from Infomaniak, a Geneva company I recommend highly even though my own habits are with Spaceship (see my {{< a key="infomaniak-review" >}}Infomaniak review{{< /a >}});
 - large files: SwissTransfer, also from Infomaniak, which I find way better than WeTransfer (my {{< a key="swisstransfer-vs-wetransfer" >}}WeTransfer alternative guide{{< /a >}} explains why);
 - encrypted email: Proton, based in Switzerland;
-- website analytics: Matomo, which you can host yourself; the CNIL publishes a guide to configuring it so that it needs no consent in France.
+- website analytics: Matomo, which you can host yourself in Europe; the CNIL publishes a guide to configuring it so that it needs no consent in France.
 
 A European provider can still use American sub-processors, so read its sub-processor list too. And my advice is not to move a whole team for this reason alone: a certified US tool with signed terms is lawful, and every migration costs time. Switch when a tool no longer suits you anyway, when a client asks for European hosting, or when you handle sensitive data.
 
@@ -129,4 +129,4 @@ A European provider can still use American sub-processors, so read its sub-proce
 
 This guide is general information, not legal advice. You do not need a lawyer to run these checks on everyday tools. A lawyer or a DPO is worth paying for when you send health or other sensitive data to a US tool, put staff records into a US HR platform, receive a transfer questionnaire from a large client or a public body, or depend on a tool that offers neither the framework nor the clauses.
 
-The website side, a privacy page that names your tools and a consent banner that holds US trackers back until visitors agree, is part of the {{< a page="/services/websites" >}}websites I build{{< /a >}}.
+On the website side, a privacy page that names your tools and a consent banner that holds US trackers back until visitors agree are part of the {{< a page="/services/websites" >}}websites I build{{< /a >}}.
