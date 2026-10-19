@@ -155,7 +155,7 @@ Apple's Smart App Banner is a slim bar that Safari shows at the top of the page 
 
 `app-id` (required) is the number shown as **Apple ID** in your app's information in App Store Connect; `app-argument` (optional) is a URL passed to the app so it opens the matching screen. Once closed, the banner does not come back, and it stays hidden on devices that cannot run the app or where the app is unavailable. On Squarespace, the tag goes in the header field of code injection.
 
-Do not swap it for a full-screen "download our app" pop-up. Apple contrasts its banner with "a full screen that interrupts" the visitor, and Google's Search Central guidance on intrusive interstitials asks for a banner that takes up a small part of the screen, so that visitors and search engines reach the content straight away. For Android visitors, a light banner of your own fits that guidance: one line of text, the Google Play badge and a close button, shown only on Android and hidden once closed.
+Do not swap the banner for a full-screen "download our app" pop-up. Apple contrasts its banner with "a full screen that interrupts" the visitor, and Google's Search Central guidance on intrusive interstitials asks for a banner that takes up a small part of the screen, so that visitors and search engines reach the content straight away. For Android visitors, a light banner of your own fits that guidance: one line of text, the Google Play badge and a close button, shown only on Android and hidden once closed.
 
 ## Before launch: a checklist for your app's website
 

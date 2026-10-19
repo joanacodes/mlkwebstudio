@@ -59,7 +59,7 @@ Work files and work email belong to the business. Move them before you cut acces
 
 Whatever the tool, tell clients and suppliers who their new contact is before the last day, and use role addresses (contact@, accounts@) for anything that must outlive one person.
 
-{{< callout type="note" >}}**Staff in France?** The CNIL recommends warning the employee of the date their mailbox closes, so they can sort it and move their private messages to a personal address, and says the named address must be deleted once they have left. Set the rules for opening mailboxes in your IT policy beforehand.{{< /callout >}}
+{{< callout type="note" >}}**Staff in France?** The CNIL recommends warning the employee of the date their mailbox closes, so they can sort it and move their private messages to a personal address, and says the named address must be deleted once they have left.{{< /callout >}}
 
 ## On the last day: close access in this order
 

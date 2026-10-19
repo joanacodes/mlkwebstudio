@@ -27,7 +27,7 @@ faq:
     a: "Google does not say so. The ads bring installs for as long as you pay; your organic visibility still depends on your listing and on the app's quality. Google says, for example, that apps that crash too often can lose visibility on Google Play."
 ---
 
-Google App campaigns are Google Ads campaigns built to promote a mobile app. You give Google a few lines of text, some images and videos, and its systems assemble the ads and show them on Google Search, YouTube, Discover, the websites and apps that carry Google ads and, for Android apps, Google Play. You do not choose keywords or placements: you choose a goal, what you are willing to pay for it, a budget, the countries and the languages.
+Google App campaigns are Google Ads campaigns built to promote a mobile app. You give Google a few lines of text, some images and videos, and its systems assemble the ads and show them on Google Search, YouTube, Discover, the Display Network and, for Android apps, Google Play. You do not choose keywords or placements: you choose a goal, what you are willing to pay for it, a budget, the countries and the languages.
 
 That makes them quick to launch, and just as quick to waste money on. My view of Google Ads is that the tool is not that tricky, but you need to research your target before you spend. Here, it goes into what Google cannot do for you, and what this guide covers as of October 2026: the assets, the tracking and the numbers behind your budget. Where paid ads fit among your other launch channels is covered in my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}}.
 
@@ -55,7 +55,7 @@ When you create the campaign, you pick one of three subtypes:
 | App engagement | Bringing existing users back to do something in the app | Google's help asks for at least 50,000 installs |
 | App pre-registration | Collecting sign-ups on Google Play before the release | Android only |
 
-For a new app, the choice is made for you: installs, or pre-registration if your Android app is not out yet. Install campaigns also accept optional audience signals, hints about the people most likely to install your app.
+For a new app, the choice is made for you: installs, or pre-registration if your Android app is not out yet.
 
 ## The assets you give Google
 
@@ -137,7 +137,7 @@ If people in the European Economic Area, the UK or Switzerland use your app, Goo
 
 ## The first weeks: learning period and common mistakes
 
-A new campaign goes through a learning period while Google works out who installs. Google advises allowing 7 to 14 days for the system to stabilise before you judge it, and avoiding changes of more than 20% to the budget or the target at a time. Big swings also make the results impossible to read.
+A new campaign goes through a learning period while Google works out who installs. Google advises allowing 7 to 14 days for the system to stabilise before you judge it, and avoiding changes of more than 20% to the budget or the target at a time.
 
 After that, read each campaign: installs, cost per install, the cost of the in-app action you care about, and the asset report. Compare the cost per install with the target you worked out from what a user is worth, not with what feels cheap.
 
@@ -152,10 +152,8 @@ I give the same warning about every new channel: it is easy to chase the next sh
 Before you launch, check that you have:
 
 - an app live on Google Play or the App Store, or an Android app ready for pre-registration;
-- a store listing that converts;
 - tested tracking that sends installs and at least one in-app event to Google Ads;
 - a consent screen for users in the EEA, the UK and Switzerland;
 - five headlines, five descriptions, images in the three formats and at least one video;
 - a target CPI worked out from what a user is worth, and a daily budget of at least 50 times that target;
-- locations and languages that match your listing and your assets;
 - a date in your diary two weeks after launch, and no big changes before it.

@@ -22,7 +22,7 @@ faq:
   - q: "Faut-il indiquer un prix ou une promotion dans sa fiche ?"
     a: "Pas dans la description : Apple le déconseille, car le store affiche déjà le prix, qui peut varier d’une région à l’autre. Pour une offre limitée dans le temps sur l’App Store, Apple suggère plutôt le texte promotionnel."
   - q: "Peut-on rédiger sa fiche avec l’IA ?"
-    a: "Oui, pour un premier jet. Quand j’écris les textes d’un site, j’utilise l’IA pour assembler mes recherches et mes brouillons, puis je retouche jusqu’à ce que le texte ressemble à l’entreprise. Faites de même : vérifiez chaque affirmation et comptez les caractères avant de coller."
+    a: "Oui, pour un premier jet. Quand j’écris les textes d’un site, j’utilise l’IA pour assembler mes recherches et mes brouillons, puis je reprends le texte jusqu’à ce qu’il me convienne. Faites de même : vérifiez chaque affirmation et comptez les caractères avant de coller."
 ---
 
 Votre fiche App Store est la page de vente que la plupart des gens lisent avant d’installer votre application. Ce tutoriel passe en revue chaque champ de la fiche App Store et de la fiche Google Play : ce qu’il faut y écrire, les limites en vigueur en octobre 2026 et des exemples à adapter.
@@ -44,7 +44,7 @@ Le classement des applications est expliqué dans mon {{< a key="aso-guide" >}}g
 | Vidéo | Jusqu’à 3 aperçus de 15 à 30 secondes | Une vidéo YouTube, facultative |
 | Image de présentation | Aucune | 1024 x 500, obligatoire |
 
-Dans App Store Connect, le nom et le sous-titre sont sur la page **App Information** (sous **General** dans la barre latérale ; l’aide d’Apple n’existe qu’en anglais), les autres champs sur la page de la version en préparation. Dans la Play Console, tout est sur la page **Fiche Play Store principale**, que l’aide de Google range sous **Augmenter le nombre d’utilisateurs**.
+Dans App Store Connect, le nom et le sous-titre sont sur la page **App Information** (sous **General** dans la barre latérale ; l’aide d’Apple n’existe pas en français), les autres champs sur la page de la version en préparation. Dans la Play Console, textes et visuels sont sur la page **Fiche Play Store principale**, que l’aide de Google range sous **Augmenter le nombre d’utilisateurs**.
 
 ## Étape 1 : choisir un nom lisible et trouvable
 
@@ -57,7 +57,7 @@ Faible : Fournée : appli N°1 GRATUITE
 Bon :    Fournée : précommande de pain
 ```
 
-La version faible enfreint le [règlement de Google Play sur les métadonnées](https://support.google.com/googleplay/android-developer/answer/9898842?hl=fr) : pas de mention de classement (« N°1 », « top », « meilleur »), de prix ou de promotion (« gratuit », « sans pub », « promo »), pas d’emojis ni de majuscules hors marque dans le titre, l’icône et le nom du développeur. Apple n’a pas de telle liste pour le nom, mais ces mots y gaspillent aussi des caractères.
+La version faible enfreint le [règlement de Google Play sur les métadonnées](https://support.google.com/googleplay/android-developer/answer/9898842?hl=fr) : le titre, l’icône et le nom du développeur ne doivent évoquer ni les performances ou le classement dans le store (comme « N° 1 »), ni un prix ou une promotion, ni un lien avec un programme de Google Play ; les emojis et les majuscules qui ne font pas partie de la marque y sont aussi interdits. Les App Review Guidelines d’Apple (règle 2.3.7) vont dans le même sens : pas de prix dans le nom ni dans le sous-titre, et pas d’affirmation invérifiable dans le sous-titre.
 
 Chez Apple, le nom reste modifiable jusqu’à la soumission de l’app à l’examen, puis seulement avec une nouvelle version.
 
@@ -65,7 +65,7 @@ Chez Apple, le nom reste modifiable jusqu’à la soumission de l’app à l’e
 
 ## Étape 2 : rédiger la ligne sous le nom
 
-Dans une campagne de cold emailing, je limite le premier email à trois lignes, parce que personne ne doit son attention à un inconnu. La ligne sous le nom de votre application obéit à la même règle.
+Dans une campagne de cold emailing, je limite le premier email à trois lignes au maximum, parce que personne n’aime recevoir un long message d’un inconnu à qui il n’a rien demandé : court et direct, c’est ce qui marche. La ligne sous le nom de votre application obéit à la même règle.
 
 Le **sous-titre** d’Apple (30 caractères) s’affiche sous votre nom dans tout l’App Store et compte pour la recherche. Apple demande d’éviter les formules génériques du type « meilleure app du monde » et de mettre en avant des fonctionnalités ou des usages typiques. Utilisez des mots absents du nom :
 
@@ -146,7 +146,7 @@ Le champ des nouveautés (**What’s New**, 4 000 caractères) présente chaque
 
 Dans les résultats de recherche de l’App Store, quand vous n’avez pas d’aperçu vidéo, vos une à trois premières captures s’affichent avec votre fiche. Rendez chacune lisible à cette taille : un avantage par capture, en gros caractères.
 
-Quand je conçois un site, je veux que les prospects de mes clients les prennent au sérieux au premier coup d’œil. Pour une application, ce sont les captures qui font ce travail.
+Quand je conçois un site, je veux que mes clients fassent forte impression, pour que leurs prospects les prennent au sérieux. Sur une fiche, ce sont les captures qui font ce travail.
 
 ### Sur l’App Store
 
@@ -156,7 +156,7 @@ Au 19 octobre 2026, les [spécifications des captures d’écran](https://develo
 - si votre app fonctionne sur iPad, au moins une au format **iPad 13-inch display** : 2064 x 2752 ou 2048 x 2732 pixels ;
 - 10 au maximum par taille d’appareil, en JPEG ou PNG sans transparence.
 
-La liste suit les nouveaux appareils (elle annonce déjà l’iPhone Duo pour avril 2027, pour les apps compilées avec le SDK d’iOS 27.1 ou plus récent) : vérifiez-la avant de concevoir vos visuels. Si votre interface est la même sur toutes les tailles, App Store Connect réduit vos captures pour les écrans plus petits.
+La liste suit les nouveaux appareils (elle indique déjà que des captures pour l’iPhone Duo seront exigées à partir d’avril 2027 pour les apps compilées avec le SDK d’iOS 27.1 ou plus récent) : vérifiez-la avant de concevoir vos visuels. Si votre interface est la même sur toutes les tailles, App Store Connect réduit vos captures pour les écrans plus petits.
 
 Les **aperçus** (app previews) sont des vidéos facultatives : trois au maximum, de 15 à 30 secondes. Ils démarrent sans le son : les premières secondes doivent se comprendre sans audio. L’**icône**, elle, est livrée avec le build de l’application : la changer demande une nouvelle version.
 
@@ -176,7 +176,7 @@ L’[aide de Google sur les éléments graphiques](https://support.google.com/go
 ## Étape 7 : assistance, confidentialité et coordonnées
 
 - **URL d’assistance** (App Store, obligatoire) : selon Apple, elle doit mener à de vraies coordonnées, par exemple une adresse légale, une adresse email et un numéro de téléphone, comme la loi locale peut l’exiger.
-- **URL de la politique de confidentialité** (App Store, obligatoire pour les apps iOS) ; sur Google Play, coordonnées et politique de confidentialité sont communes à toutes les versions de la fiche.
+- **URL de la politique de confidentialité** (App Store, obligatoire pour les apps iOS) ; sur Google Play, les mêmes coordonnées et la même politique de confidentialité servent pour la fiche principale et les fiches personnalisées.
 - **URL marketing** (App Store, facultative) : la page web de votre application, que mon guide sur le {{< a key="app-website-seo" >}}SEO du site de votre application{{< /a >}} détaille.
 - **Statut de professionnel** (App Store, pour distribuer dans l’UE) : App Store Connect demande si vous êtes un professionnel (trader) au sens du règlement européen sur les services numériques (DSA) ; si oui, votre adresse et vos coordonnées s’affichent sur votre page produit pour les clients de l’UE.
 
@@ -193,7 +193,7 @@ Les intitulés en gras sont ceux de l’aide d’Apple, en anglais.
 1. Dans **Apps**, sélectionnez votre application, puis cliquez sur la langue principale en haut à droite pour ouvrir le menu des langues.
 2. Sous **Not Localized**, survolez la langue voulue, par exemple l’anglais (Royaume-Uni), et cliquez sur le bouton d’ajout (+).
 3. Remplissez la description et les mots-clés : une nouvelle langue reprend les captures et les champs de la langue principale, sauf ces deux-là.
-4. Sur la page **App Information**, ajoutez le nom et l’URL de la politique de confidentialité dans cette langue, puis enregistrez (**Save**).
+4. Sur la page **App Information**, ajoutez le nom, le sous-titre et l’URL de la politique de confidentialité dans cette langue, puis enregistrez (**Save**).
 
 Le tableau des storefronts d’Apple associe le français à la France, avec l’anglais (Royaume-Uni) comme langue supplémentaire, et l’anglais (Royaume-Uni) au Royaume-Uni. Apple ajoute que l’on peut trouver votre app avec vos mots-clés français dans tous les pays où l’App Store prend en charge le français.
 
@@ -205,7 +205,7 @@ Par défaut, la Play Console met l’anglais (États-Unis). Si la France est vot
 
 ## Avant de soumettre : la checklist
 
-1. **Nom** : marque et fonction, sans « N°1 », « meilleur », « gratuit » ni emoji.
+1. **Nom** : marque et fonction, sans « N° 1 », « meilleur », « gratuit » ni emoji.
 2. **Ligne sous le nom** : un avantage, avec des mots que les gens recherchent.
 3. **Mots-clés** : 100 octets accents compris, sans répétitions, pluriels ni concurrents.
 4. **Description** : quoi, pour qui et pourquoi dès la première phrase, puis les fonctionnalités.

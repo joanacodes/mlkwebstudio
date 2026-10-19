@@ -41,7 +41,7 @@ Le chapitre V du RGPD (articles 44 à 50, sur [EUR-Lex](https://eur-lex.europa.e
 | Garanties appropriées | 46 | Un contrat ou des règles contraignantes obligent le destinataire à protéger les données, le plus souvent les clauses contractuelles types | Un outil américain non certifié |
 | Dérogations | 49 | Des exceptions étroites pour des transferts ponctuels, comme le consentement explicite | Réserver un hôtel à New York pour un client |
 
-La [carte de la CNIL](https://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde) montre quels pays bénéficient d’une décision d’adéquation. Il y a transfert quand une entreprise soumise au RGPD envoie des données personnelles à une société située hors de l’EEE, ou les met à sa disposition : importer vos abonnés dans une plateforme de newsletter américaine, stocker des dossiers clients dans un cloud américain, ouvrir votre compte au support d’un éditeur américain. Le Comité européen de la protection des données (CEPD) précise, dans ses lignes directrices 05/2021, que les informations qu’une personne dans l’UE saisit elle-même sur un site étranger ne sont pas un transfert, mais que ce que ce site transmet ensuite à une autre société hors de l’UE peut en être un.
+La [carte de la CNIL](https://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde) montre quels pays bénéficient d’une décision d’adéquation. Il y a transfert quand une entreprise soumise au RGPD envoie des données personnelles à une société hors de l’EEE, ou les met à sa disposition : importer vos abonnés dans une plateforme de newsletter américaine, stocker des dossiers clients dans un cloud américain, ouvrir votre compte au support d’un éditeur américain. Selon les lignes directrices 05/2021 du Comité européen de la protection des données (CEPD), ce qu’une personne dans l’UE saisit elle-même sur un site étranger n’est pas un transfert, mais ce que ce site transmet ensuite à une autre société hors de l’UE peut l’être.
 
 Deux questions se mélangent souvent. Le contrat de sous-traitance exigé par l’article 28 dit ce que le prestataire peut faire de vos données (voir mon guide du {{< a key="gdpr-data-processing-agreement" >}}contrat de sous-traitance RGPD{{< /a >}}) ; le mécanisme de transfert dit pourquoi elles ont le droit de quitter l’Europe. **Il vous faut les deux**, et la plupart des outils les réunissent dans le même document.
 
@@ -51,7 +51,7 @@ Les transferts vers les États-Unis ont été reconstruits deux fois, chaque foi
 
 - le Safe Harbor (2000) a été invalidé en octobre 2015, dans la première affaire portée par le militant Max Schrems ;
 - le Privacy Shield (2016) a été invalidé le 16 juillet 2020 par l’arrêt Schrems II, sans délai de grâce : les transferts fondés sur lui ont perdu leur base légale du jour au lendemain ;
-- le Data Privacy Framework fait suite au décret présidentiel (Executive Order) 14086 d’octobre 2022, qui limite l’accès des services de renseignement américains à ce qui est nécessaire et proportionné et crée une voie de recours aboutissant à une nouvelle Data Protection Review Court. La décision d’adéquation de la Commission (décision d’exécution (UE) 2023/1795) s’applique depuis le 10 juillet 2023.
+- le Data Privacy Framework fait suite au décret présidentiel (Executive Order) 14086 d’octobre 2022, qui limite l’accès du renseignement américain au nécessaire et au proportionné, et crée une voie de recours devant une nouvelle Data Protection Review Court. La décision d’adéquation de la Commission (décision d’exécution (UE) 2023/1795) s’applique depuis le 10 juillet 2023.
 
 Ce cadre a passé une première épreuve. Le 3 septembre 2025, le Tribunal de l’Union européenne a rejeté le recours du député français Philippe Latombe (affaire T-553/23). Celui-ci a formé un pourvoi devant la Cour de justice le 31 octobre 2025 (affaire C-703/25 P), en soutenant notamment qu’une juridiction créée par un décret présidentiel plutôt que par une loi du Congrès n’est pas indépendante. Au 19 octobre 2026, je n’ai trouvé aucun arrêt : le cadre s’applique, et les transferts qui s’y appuient sont licites.
 
@@ -64,13 +64,13 @@ Le département du Commerce américain publie la [liste officielle du Data Priva
 1. Cherchez l’entité juridique, pas la marque : Mailchimp figure sous le nom de son propriétaire, Intuit, et l’entité certifiée de Google est Google LLC.
 2. Vérifiez que le statut est actif. La certification se renouvelle chaque année ; une entreprise qui la laisse expirer apparaît comme inactive et ne peut plus recevoir de données au titre du cadre.
 3. Regardez à quels volets elle a adhéré : le cadre UE–États-Unis, l’extension britannique (UK Extension) et le cadre suisse sont listés séparément.
-4. Enregistrez un PDF ou une capture datée de la fiche avec le contrat du prestataire : c’est la trace de ce que vous avez vérifié, et quand.
+4. Enregistrez un PDF ou une capture datée de la fiche avec le contrat du prestataire, pour garder la trace de votre vérification.
 
 Ouvrez ensuite le contrat de sous-traitance du prestataire à sa section sur les transferts internationaux. **Être certifié et s’appuyer sur le cadre sont deux choses différentes.** Microsoft est certifié, mais sa [page consacrée au RGPD](https://learn.microsoft.com/fr-fr/compliance/regulatory/gdpr) indique qu’il ne s’appuie pas sur le cadre pour les transferts depuis l’UE, et ses contrats utilisent les clauses contractuelles types. C’est tout aussi licite : ce qui compte, c’est qu’un mécanisme valable figure dans le contrat que vous avez accepté.
 
 ## Google, Microsoft, Mailchimp et ChatGPT : ce que j’ai trouvé
 
-Voici où en étaient, au 19 octobre 2026, quatre outils que beaucoup de petites équipes utilisent. Les certifications évoluent : vérifiez vous-même chaque entreprise avant de vous fier à ce tableau.
+Voici où en étaient, au 19 octobre 2026, quatre outils que beaucoup de petites équipes utilisent. Les certifications évoluent : vérifiez chaque entreprise avant de vous fier à ce tableau.
 
 | Outil | Entreprise américaine | Base des transferts |
 |---|---|---|
@@ -85,7 +85,7 @@ Faites la même vérification pour vos autres outils américains : Zoom, Slack,
 
 Les clauses contractuelles types sont un contrat modèle adopté par la Commission européenne en juin 2021 (décision d’exécution (UE) 2021/914). Le module qui concerne un prestataire travaillant pour votre compte est celui « responsable du traitement à sous-traitant ». Vous ne les négociez pas : elles sont intégrées au contrat de sous-traitance du prestataire, et accepter ce contrat revient à les accepter.
 
-Depuis l’arrêt Schrems II, qui a maintenu ces clauses, une entreprise qui s’appuie sur elles doit aussi vérifier que le droit du pays de destination permet au destinataire de les respecter : c’est l’analyse d’impact des transferts. Pour les États-Unis, l’exercice est plus léger qu’en 2021, car la Commission européenne a indiqué que les garanties du décret 14086 s’appliquent à tous les transferts vers les États-Unis, quel que soit l’outil utilisé. En pratique, demandez au prestataire sa documentation sur les transferts (beaucoup publient une analyse d’impact), classez-la avec le contrat et une note datée expliquant pourquoi le risque est acceptable, et revoyez-la quand quelque chose change.
+Depuis l’arrêt Schrems II, qui a maintenu ces clauses, une entreprise qui s’appuie sur elles doit aussi vérifier que le droit du pays de destination permet au destinataire de les respecter : c’est l’analyse d’impact des transferts. Pour les États-Unis, l’exercice est plus léger qu’en 2021, car la Commission européenne a indiqué que les garanties du décret 14086 s’appliquent à tous les transferts vers ce pays, quel que soit l’outil. En pratique, demandez au prestataire sa documentation sur les transferts (beaucoup publient une analyse d’impact), classez-la avec le contrat et une note datée expliquant pourquoi le risque est acceptable, et revoyez-la quand quelque chose change.
 
 Si un prestataire ne propose ni le cadre ni les clauses, n’y mettez pas de données clients. Les dérogations de l’article 49, comme le consentement explicite, visent des transferts ponctuels ; le CEPD les interprète strictement, et elles ne peuvent pas porter un outil utilisé tous les jours.
 
@@ -93,7 +93,7 @@ Si un prestataire ne propose ni le cadre ni les clauses, n’y mettez pas de don
 
 La Suisse a son propre cadre, le Swiss-U.S. Data Privacy Framework : le Conseil fédéral l’a reconnu par une décision du 14 août 2024, et les entreprises suisses peuvent s’appuyer dessus depuis le 15 septembre 2024. Sans ce volet de la certification, la voie habituelle reste des clauses contractuelles adaptées au droit suisse.
 
-Le Royaume-Uni applique ses propres règles. Depuis le 12 octobre 2023, son « data bridge » avec les États-Unis permet d’envoyer des données aux entreprises américaines certifiées au titre de l’extension britannique du Data Privacy Framework, qui suppose d’adhérer aussi au cadre UE–États-Unis. Sans cette certification, les entreprises britanniques utilisent les contrats types de l’ICO, l’autorité britannique de protection des données.
+Le Royaume-Uni, qui applique ses propres règles, a fait de même : depuis le 12 octobre 2023, son « data bridge » couvre les entreprises américaines certifiées au titre de l’extension britannique, qui suppose d’adhérer aussi au cadre UE–États-Unis.
 
 Les mêmes vérifications valent hors d’Europe : une entreprise de Montréal, de Casablanca ou de New York qui vend à des personnes dans l’UE (voir mon guide sur {{< a key="gdpr-outside-eu" >}}le RGPD pour les entreprises hors UE{{< /a >}}) peut réaliser un transfert, selon le CEPD, lorsqu’elle confie leurs données à une autre société hors de l’UE.
 
@@ -101,12 +101,12 @@ Les mêmes vérifications valent hors d’Europe : une entreprise de Montréal,
 
 Certains prestataires américains permettent de garder les données en Europe :
 
-- Google Workspace propose des régions de données (data regions) sur ses éditions Business Standard, Business Plus et Enterprise : l’administrateur peut y stocker certaines données au repos en Europe. Je n’ai pas pu le confirmer pour Business Starter, alors vérifiez les fonctionnalités de votre édition dans la console d’administration.
+- Google Workspace propose des régions de données (data regions) sur ses éditions Business Standard, Business Plus et Enterprise : l’administrateur peut y stocker certaines données au repos en Europe. Je n’ai pas pu le confirmer pour Business Starter : vérifiez votre édition dans la console d’administration.
 - Microsoft a achevé son EU Data Boundary le 26 février 2025 : pour les clients professionnels de l’UE et de l’AELE, Microsoft 365, Dynamics 365, Power Platform et Azure stockent et traitent dans cette zone les données client, les données personnelles pseudonymisées et les données de support.
 
 Une région européenne réduit les transferts mais ne rend pas le prestataire européen : l’entreprise américaine exploite toujours le service, et ses équipes de support et de sécurité peuvent avoir besoin d’y accéder depuis ailleurs. C’est un plus, pas un remplacement des vérifications ci-dessus.
 
-Si vous préférez éviter la question pour certains outils, il existe des solutions européennes pour la plupart des usages :
+Pour éviter la question sur certains outils, des solutions européennes existent pour la plupart des usages :
 
 - newsletters : Brevo, une entreprise française (voir mon {{< a key="newsletter-tools-comparison" >}}comparatif des outils de newsletter{{< /a >}}) ;
 - emails, fichiers et visioconférence : la kSuite d’Infomaniak, basé à Genève, que je recommande vivement même si mes propres habitudes sont chez Spaceship (voir {{< a key="infomaniak-review" >}}mon avis sur Infomaniak{{< /a >}}) ;
@@ -114,11 +114,11 @@ Si vous préférez éviter la question pour certains outils, il existe des solut
 - email chiffré : Proton, basé en Suisse ;
 - mesure d’audience : Matomo, que vous pouvez héberger vous-même ; la CNIL publie un guide pour le configurer en mode exempté de consentement.
 
-Un prestataire européen peut lui aussi recourir à des sous-traitants américains : lisez également sa liste de sous-traitants. Et mon conseil est de ne pas faire migrer toute une équipe pour cette seule raison : un outil américain certifié, avec un contrat signé, est licite, et chaque migration coûte du temps. Changez quand un outil ne vous convient plus de toute façon, quand un client exige un hébergement européen, ou quand vous traitez des données sensibles.
+Un prestataire européen peut lui aussi avoir des sous-traitants américains : lisez sa liste. Et mon conseil est de ne pas faire migrer toute une équipe pour cette seule raison : un outil américain certifié, avec un contrat signé, est licite, et chaque migration coûte du temps. Changez quand un outil ne vous convient plus de toute façon, quand un client exige un hébergement européen, ou quand vous traitez des données sensibles.
 
 ## Votre liste de vérification, et quand consulter un avocat
 
-1. **Listez chaque outil qui touche des données personnelles :** messagerie, CRM, newsletter, prise de rendez-vous, visio, messagerie instantanée, assistants IA, formulaires, mesure d’audience et paiement.
+1. **Listez chaque outil qui touche des données personnelles :** messagerie, CRM, newsletter, rendez-vous, visio, chat, assistants IA, formulaires, mesure d’audience et paiement.
 2. **Cherchez chaque entreprise américaine** sur la liste du Data Privacy Framework, avec les volets britannique et suisse si vous en avez besoin, et gardez la fiche datée.
 3. **Trouvez son contrat de sous-traitance** et le mécanisme qu’il prévoit : le cadre, les clauses contractuelles types, ou les deux. Gardez les données clients sur des offres professionnelles.
 4. **Activez la localisation européenne des données** quand votre offre l’inclut.
