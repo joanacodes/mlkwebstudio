@@ -84,7 +84,7 @@ J’ajoute souvent un peu de code personnalisé aux sites Squarespace que je cr�
 
 ### WordPress : un gros budget et un spécialiste chaque mois
 
-WordPress permet presque tout, d’où son succès auprès des développeurs et des agences. Le prix de cette liberté, c’est l’entretien : le cœur, le thème et chaque extension doivent être mis à jour, et c’est dans les extensions que se concentre l’essentiel du risque. [Patchstack a recensé 11 334 nouvelles vulnérabilités dans l’écosystème WordPress en 2025](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/), dont environ 91 % dans les extensions. Pilotech a d’abord fait appel à moi en urgence, parce que son site WordPress avait été piraté : je l’ai récupéré, puis j’ai créé un nouveau site pour l’entreprise.
+WordPress permet presque tout, d’où son succès auprès des développeurs et des agences. Le prix de cette liberté, c’est l’entretien : le cœur, le thème et chaque extension doivent être mis à jour, et c’est dans les extensions que se concentre l’essentiel du risque. [Patchstack a recensé 11 334 nouvelles vulnérabilités dans l’écosystème WordPress en 2025](https://patchstack.com/whitepaper/state-of-wordpress-security-in-2026/), dont environ 91 % dans les extensions. Pilotech a fait appel à moi en urgence quand son ancien site WordPress a été piraté, et je l’ai récupéré.
 
 Je déconseille en général WordPress aux entrepreneurs qui travaillent seuls : la prise en main est longue, et ils finissent par devoir devenir leur propre webmaster. Si vous avez un gros budget et un spécialiste qui s’occupe du site chaque mois, WordPress est un bon choix : vous gardez le contrôle, et quelqu’un d’autre assure l’entretien.
 
