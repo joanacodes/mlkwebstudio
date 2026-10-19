@@ -31,7 +31,7 @@ A data processing agreement (DPA) is the contract you need whenever another busi
 
 Small teams sit on both sides of it. You are the client of a dozen tools that process your customers’ data, and you may also be the supplier who handles data for your own clients. When I build an automation for a client, like the internal app I made for one of them, I need access to their mailbox, for example. That is exactly the kind of access a DPA is meant to frame.
 
-Here is who needs one, what goes in it and where to find free templates. This guide belongs to my {{< a key="gdpr-guide" >}}complete guide to GDPR{{< /a >}}.
+For the wider picture, see my {{< a key="gdpr-guide" >}}complete guide to GDPR{{< /a >}}.
 
 ## Controller or processor? The two roles, with examples
 
@@ -66,7 +66,7 @@ When two businesses decide together why and how data is processed, they are join
 
 ## What a data processing agreement must contain
 
-[Article 28 of the GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) sets the minimum. The contract must be in writing, and electronic form counts (Article 28(9)), so terms accepted online and a signed PDF both work. It opens with a description of the processing: its subject matter and duration, its nature and purpose, the types of personal data, the categories of people concerned, and the controller’s obligations and rights. Then the processor commits to eight things:
+[Article 28 of the GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) sets the minimum. The contract must be in writing, and electronic form counts (Article 28(9)), so terms accepted online and a signed PDF both work. It must describe the processing: its subject matter and duration, its nature and purpose, the types of personal data, the categories of people concerned, and the controller’s obligations and rights. Then the processor commits to eight things:
 
 1. **Act only on your documented instructions**, including on transfers outside the EU.
 2. **Confidentiality**: everyone who handles the data is bound by it.
@@ -85,7 +85,7 @@ The processor must also tell you at once if it thinks one of your instructions b
 
 Your suppliers have suppliers: your CRM runs on a cloud host, your newsletter tool on a delivery service. Under Article 28(2), a processor needs your prior written authorisation before bringing in another processor. That authorisation can be specific, case by case, or general, in which case the processor must tell you about changes in advance so that you can object. Article 28(4) passes the same obligations down the chain, and your processor stays fully liable to you for the ones below it.
 
-Large providers use general authorisation: they publish a list of sub-processors, and some let you subscribe to notices of changes. Keep a simple list of your own processors, with a link to each one’s DPA and sub-processor page. It feeds your record of processing (Article 30) and your privacy policy, and it answers the client who asks who touches its data.
+Large providers usually rely on general authorisation: they publish a list of sub-processors, and some let you subscribe to notices of changes. Keep a simple list of your own processors, with a link to each one’s DPA and sub-processor page. It feeds your record of processing (Article 30) and your privacy policy, and it answers the client who asks who touches its data.
 
 ## Free templates: the EU model clauses and the CNIL guide
 

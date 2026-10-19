@@ -15,19 +15,19 @@ cover_alt: "The article title in white on a ribbed-glass panel over a photo, wit
 related: ["apple-ads-tutorial", "google-app-campaigns", "mobile-app-launch-guide", "aso-guide", "facebook-ads-mistakes"]
 services: ["seo"]
 faq:
-  - q: "Do Apple Ads work for Android apps?"
-    a: "No. Apple Ads only show in the App Store, on iPhone and iPad. Android users are reached through Google App campaigns, which include Google Play, or through Meta and TikTok, which promote apps on both systems."
+  - q: "Can Apple Ads promote an Android app?"
+    a: "No. Apple Ads only runs in the App Store, on iPhone and iPad. Android users are reached through Google App campaigns, which include Google Play, or through Meta and TikTok, which promote apps on both systems."
   - q: "Can I advertise an app before it is released?"
-    a: "Yes, in two cases. Google's pre-registration campaigns collect sign-ups on Google Play for an Android app due out within 90 days, and Apple Ads can promote an app on pre-order, with manual bids. Otherwise, wait until the app is live and has a few reviews."
+    a: "Yes, in two cases. Google's pre-registration campaigns collect sign-ups on Google Play for an Android app released within 90 days of opening pre-registration, and Apple Ads can promote an app on pre-order, with manual bids. Otherwise, wait until the app is live and has a few reviews."
   - q: "Is there a minimum budget for app install ads?"
-    a: "Meta's pricing page says there is no minimum budget, only recommended amounts, and Ads Manager warns you when a budget is too low. TikTok requires more than $20 (about £15) a day per ad group. In practice, the minimum that matters is the volume each system needs to learn."
+    a: "Meta's pricing page says there is no minimum budget, only recommended amounts, and Ads Manager warns you when a budget is too low; TikTok sets fixed minimums per ad group and per campaign. In practice, the minimum that matters is the volume each system needs to learn, which depends on what an install costs you."
   - q: "How long should a first app ad test run before I judge it?"
     a: "At least two weeks, ideally the whole month. Apple asks for at least two weeks before judging its Maximize Conversions bidding, and Google allows 7 to 14 days for an App campaign to settle. Results from the first few days mostly measure the learning phase."
 ---
 
-If you have £1,000 (about $1,320) to promote a new app, the best ad platform for app installs is the one that matches two things: how people find apps like yours, and which phone they carry. Apple Ads reach people searching the App Store. Google App campaigns spread your app across Google's properties, on Android and iOS. Meta puts it in front of people scrolling Facebook and Instagram who were not looking for an app at all.
+If you have £1,000 (about $1,320) to promote a new app, the best ad platform for app installs is the one that matches two things: how people find apps like yours, and which phone they carry. Apple Ads reaches people searching the App Store. Google App campaigns spread your app across Google's properties, on Android and iOS. Meta puts it in front of people scrolling Facebook and Instagram who were not looking for an app at all.
 
-My advice for a small team is to pick one, not three. Each platform needs a certain number of installs a week before its bidding system knows whom to target, and £1,000 split three ways feeds none of them. Below, I compare the three as of October 2026, work out what £1,000 is really worth to each, and list the tracking to set up first. Ads are only one part of a launch: my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}} covers the rest.
+My advice for a small team is to pick one, not three. Each platform needs a certain number of installs a week before its bidding system knows whom to target, and £1,000 split three ways feeds none of them. Below: the three compared as of October 2026, what £1,000 is worth to each, and the tracking to set up first. Ads are only one part of a launch: my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}} covers the rest.
 
 ## Apple Ads, Google App campaigns and Meta side by side
 
@@ -42,19 +42,19 @@ My advice for a small team is to pick one, not three. Each platform needs a cert
 
 ## Apple Ads: people already searching, on iPhone only
 
-Apple Search Ads became Apple Ads in April 2025, because the ads now run beyond search: in search results, on the Search tab, on the Today tab and on other apps' product pages. The strength is intent. Someone who types "invoice app" or "meal planner" into the App Store wants that app now, and Apple says almost 65% of App Store downloads happen directly after a search (its own figure).
+Apple Search Ads was renamed Apple Ads in April 2025, because its ads now run beyond search results. The strength is intent. Someone who types "invoice app" or "meal planner" into the App Store wants that app now, and Apple says almost 65% of App Store downloads happen directly after a search.
 
-For a small budget, Apple Ads has a second advantage. With manual bids (**Manage Bids**), you set the most you will pay per tap, by ad group or by keyword, and Apple publishes no volume threshold: the campaign works at any budget, as long as people search your keywords. Apple's automated strategy, Maximize Conversions, is different: Apple recommends a budget that allows at least five conversions a day. Apple Ads Basic, which charges per install against a monthly budget, is the hands-off option, but you choose no keywords and learn little about which searches bring your users.
+For a small budget, Apple Ads has a second advantage: with manual bids (**Manage Bids**), you set the most you pay per tap, by ad group or by keyword, and Apple publishes no volume threshold. For its automated strategy, **Maximize Conversions**, Apple recommends a budget for at least five conversions a day. Apple Ads Basic, billed per install on a monthly budget, needs no management but teaches you little about which searches bring your users.
 
-The limits are clear. Apple Ads only reach iPhone and iPad users. In the UK, that is about half of people: iOS accounted for about 51% of mobile web traffic in summer 2026, according to [Statcounter](https://gs.statcounter.com/os-market-share/mobile/united-kingdom). Search volume is the other ceiling: if hardly anyone searches for what your app does, there is little to buy. My {{< a key="apple-ads-tutorial" >}}Apple Ads tutorial{{< /a >}} walks through a first campaign, keyword by keyword.
+The limits are clear. Apple Ads only reaches iPhone and iPad users. In the UK, that is a large share: iOS accounted for about 51% of mobile web traffic in summer 2026, according to [Statcounter](https://gs.statcounter.com/os-market-share/mobile/united-kingdom). Search volume is the other ceiling: if hardly anyone searches for what your app does, there is little to buy. My {{< a key="apple-ads-tutorial" >}}Apple Ads tutorial{{< /a >}} walks through a first campaign, keyword by keyword.
 
 ## Google App campaigns: the widest reach, the least control
 
-A Google App campaign promotes one app on one platform, Android or iOS, across Google Search, YouTube, Discover, the Display Network and, for Android, Google Play. You supply headlines, descriptions, images and videos; Google assembles the ads and decides where they run and to whom. My view of Google Ads in general is that it is not that tricky, but it rewards research on who your users are and what they search for. Here, that research goes into your assets and your target cost per install.
+A Google App campaign promotes one app on one platform, Android or iOS, across Google Search, YouTube, Discover, the Display Network and, for Android, Google Play. You supply headlines, descriptions, images and videos; Google assembles the ads and decides where they run and to whom. My view of Google Ads is that it is not that tricky, but it rewards research on your users and what they search for; here, that research goes into your assets and your target cost per install.
 
-The catch is volume. Google's [best practices for App campaigns](https://support.google.com/google-ads/answer/6167162) ask for a daily budget of at least 50 times your target cost per install when you optimise for install volume. On £1,000 a month, that caps your target at about 65p (86 cents) per install. If installs in your category cost more, the campaign is likely to spend slowly and learn little.
+The catch is volume. Google's [best practices for App campaigns](https://support.google.com/google-ads/answer/6167162) ask for a daily budget of at least 50 times your target cost per install when you optimise for install volume. If installs in your category cost more than your budget allows, the campaign is likely to spend slowly and learn little.
 
-Its advantage is Android: it is the only one of the three platforms with ads inside Google Play. On iPhone, Google measures through Firebase and Apple's frameworks, like everyone else. My guide to {{< a key="google-app-campaigns" >}}Google App campaigns{{< /a >}} details the assets, the bidding and the tracking.
+Its advantage is Android: of the three, it is the only platform with ads inside Google Play. My guide to {{< a key="google-app-campaigns" >}}Google App campaigns{{< /a >}} details the assets, the bidding and the tracking.
 
 ## Meta: discovery, driven by your creative
 
@@ -62,7 +62,7 @@ Meta's app promotion campaigns, which Meta calls Advantage+ app campaigns in the
 
 In my view, Instagram and Facebook ads are good for awareness and for conversion, but you burn cash on A/B testing before you find what works. The two mistakes I warn founders about are skipping the research (the words and problems of your future users) and skipping the tests; my article on {{< a key="facebook-ads-mistakes" >}}Facebook ads mistakes{{< /a >}} covers both.
 
-Two numbers shape a small budget on Meta. Delivery stays in a learning phase until an ad set gets about 50 optimisation events in 7 days, according to [Meta's help centre](https://www.facebook.com/business/help/112167992830700); below that, Ads Manager shows the ad set as "Learning limited". On £1,000 a month, one ad set optimising for installs only gets there if an install costs less than about £4.60 ($6.10). And since 1 July 2026, Meta has added a location fee to advertisers' bills, reported by Reuters at 2% for ads shown in the UK.
+Delivery stays in a learning phase until an ad set gets about 50 optimisation events in 7 days, according to [Meta's help centre](https://www.facebook.com/business/help/112167992830700); below that, Ads Manager shows the ad set as "Learning limited". Meta has also charged advertisers a location fee since 1 July 2026: 2% for ads shown in the UK, as reported by Reuters.
 
 iPhone results are the weak spot. Since iOS 14.5 (26 April 2021), Apple's App Tracking Transparency makes apps ask permission before tracking people across other companies' apps and websites, and many people say no. Meta then measures iPhone installs through Apple's SKAdNetwork or its own Aggregated Event Measurement, chosen per campaign, and the results arrive later, grouped and with less detail. For the two giants compared beyond apps, see my article on {{< a key="google-ads-vs-facebook-ads" >}}Google Ads vs Facebook Ads{{< /a >}}.
 
@@ -74,24 +74,22 @@ LinkedIn Ads, in my view, burn through cash fast, though the deals can be bigger
 
 ## The best ad platform for app installs on a £1,000 budget
 
-Apple and Google both count a month as 30.4 days of average daily budget, so £1,000 a month means about £33 (about $44) a day. Here is what that buys on each platform, and what is left if you split the money three ways:
+Apple and Google both count a month as 30.4 days of average daily budget, so £1,000 a month means about £33 (about $44) a day. Here is what that allows on each platform, and what is left if you split the money three ways:
 
 | Platform and setting | What the platform asks for | One platform: £33 a day | Three platforms: £11 a day each |
 |---|---|---|---|
 | Apple Ads, manual bids | No published volume threshold | Works; the limit is search volume | Works, but few taps to learn from |
-| Apple Ads, Maximize Conversions | At least 5 conversions a day | Target up to about £6.50 per install | About £2.20 |
-| Google App campaign, install volume | Daily budget of 50 times the target cost per install | Target up to about 65p per install | About 22p |
-| Meta, app installs | About 50 installs per ad set in 7 days | One ad set, installs up to about £4.60 | About £1.50 |
+| Apple Ads, automated bids | At least 5 conversions a day | Target up to about £6.50 ($8.60) per install | About £2.20 |
+| Google App campaign, install volume | Daily budget of 50 times the target cost per install | Target up to about 65p (86 cents) per install | About 22p |
+| Meta, app installs | About 50 installs per ad set in 7 days | One ad set, installs up to about £4.60 ($6.10) | About £1.50 |
 
-{{< callout type="note" >}}These are **orders of magnitude, not forecasts**: what an install costs depends on the country, your category and your store page. The table only shows what each system needs to learn, and what a split budget leaves it.{{< /callout >}}
+{{< callout type="note" >}}These are **orders of magnitude, not forecasts**: what an install costs depends on the country, your category and your store page.{{< /callout >}}
 
 The table explains why splitting is the classic way to waste a first budget, and why Apple Ads with manual bids is the most forgiving start when your app is searched for and your users carry iPhones. To choose, answer three questions:
 
 1. **Do people search for what your app does?** When you add keywords in Apple Ads Advanced, Apple shows a search popularity score from 1 to 5 for each one; a list of 1s means little demand.
 2. **Which phone do your users carry?** Look at the devices in your website analytics or on your waiting list rather than at national averages.
 3. **Can the app show its value in a ten-second video?** If it can, and nobody searches for it, Meta is the better bet.
-
-Searched for, with many iPhone users: Apple Ads. Mostly Android, with installs cheap enough for Google's rule: Google App campaigns. Not searched for but easy to show: Meta.
 
 ## The tracking to set up before the first pound
 
@@ -101,7 +99,7 @@ Without tracking, you will know what you spent but not what it bought. For a tes
 - **Google** imports installs and in-app events from Firebase (Google Analytics for Firebase) or, for Android, from Google Play.
 - **Meta** needs its SDK in the app, or an attribution partner, to count installs and in-app events.
 
-On iPhone, Apple's SKAdNetwork and the newer AdAttributionKit (from iOS 17.4) report installs to ad networks without identifying anyone, late and in groups. Your developer decides which in-app events these conversion values describe, and both Google's iOS set-up and Meta's depend on that choice.
+On iPhone, ad networks also rely on Apple's SKAdNetwork and the newer AdAttributionKit (iOS 17.4 and later), which report installs without identifying anyone; your developer chooses which in-app events their conversion values describe.
 
 An attribution partner, also called a mobile measurement partner, such as AppsFlyer or Adjust, becomes worth it when you run two networks or more and need one count that does not credit the same install twice. [AppsFlyer's pricing page](https://www.appsflyer.com/pricing-2025/) lists a free plan that it says does not suit paid campaigns, and a pay-as-you-go plan with 12,000 free conversions in the first year, at the time of writing (October 2026).
 
@@ -124,7 +122,7 @@ A reasoned starting point, not a promise:
 1. **Before spending (cost: £0)**: finish the listing, set up the review prompt and the tracking, and check which phones your audience uses.
 2. **Pick one platform** with the three questions above, and one country.
 3. **Weeks 1 and 2 (about £500, or $660)**: launch a simple structure. On Apple Ads, brand, category and competitor campaigns with exact match keywords, plus a discovery campaign. On Google, one App campaign optimised for installs, with every asset slot filled. On Meta, one campaign with one ad set and three or four creatives. Then leave it alone while the system settles.
-4. **Weeks 3 and 4 (about £500)**: move the money towards the keywords, assets or creatives with the lowest cost per install, in steps (Google advises changing a budget or a target by 20% at most at a time), and run one A/B test on Meta for at least 7 days.
+4. **Weeks 3 and 4 (about £500)**: move the money towards the keywords, assets or creatives with the lowest cost per install, in steps (Google advises changing a budget or a target by 20% at most at a time). On Meta, run one A/B test for at least 7 days.
 5. **At the end of the month**: judge on the cost per install, then on the cost per sign-up or paying user, not on taps or impressions.
 
 If the numbers work, raise the budget on the same platform before you open a second one, and add an attribution partner when you do. It is my rule for any marketing channel: build on what already works instead of chasing the next shiny platform.

@@ -51,7 +51,7 @@ The CNIL's reference framework for managing commercial activities (the référen
 
 - **A prospect who never became a client**: three years from collection, or from the last contact that came from the prospect.
 - **A client**: as long as the commercial relationship lasts, then three years from its end for marketing (in practice, from the end of the contract or the last order).
-- **When the three years are up**, you may contact the person once to ask whether they want to keep hearing from you. Without a clear yes, you delete the data, or archive what another law makes you keep.
+- **When the three years are up**, you may contact the person to ask whether they want to keep hearing from you. Without a clear yes, you delete the data, or archive what another law makes you keep.
 - **Your do-not-contact list**: what you need to honour an objection is kept for at least three years.
 
 {{< callout type="tip" >}}Only **the prospect** restarts the clock: a reply, a call, a request for documentation, a click on a link in one of your emails. Your own follow-ups do not count, and neither does an email that was merely opened.{{< /callout >}}
@@ -70,7 +70,7 @@ Some records must outlive the relationship, and commercial, tax and civil law se
 | Quotes, contracts and emails you may need in a dispute | The limitation period, generally 5 years (Code civil, article 2224) | 6 years for contract claims in England and Wales (Limitation Act 1980, section 5), 5 years in Scotland |
 | Card details | Not kept after the payment by default; 13 months after the debit (15 for deferred-debit cards) in an archive, only for disputes (CNIL) | No set figure: keep card numbers out of your CRM and let your payment provider hold them |
 
-HMRC's [rules for company records](https://www.gov.uk/running-a-limited-company/company-and-accounting-records) list the cases where the six years run longer, such as a late Company Tax Return or an open compliance check.
+The GOV.UK [guidance on company records](https://www.gov.uk/running-a-limited-company/company-and-accounting-records) lists the cases where the six years run longer, such as a late Company Tax Return or an open compliance check.
 
 Look at what these laws make you keep: the invoice, the contract, the proof of payment. None of them justifies keeping a former client's mobile number in your sales pipeline for ten years. The invoice goes to the accounting archive; the marketing record follows the three-year rule.
 
@@ -124,7 +124,7 @@ A retention period nobody applies is just a sentence in your privacy policy. The
 
 Filter that column once a month. My {{< a key="automate-lead-follow-up" >}}tutorial on automating lead follow-up{{< /a >}} with Google Apps Script adds alerts and reminders to the same kind of sheet; a monthly retention reminder works the same way.
 
-**In a custom tool**, the schedule can run by itself. When a client had more prospects than his team could call back, I built him an internal app so that no one would be forgotten; the story is in my article on {{< a key="bespoke-crm-internal-app" >}}building a bespoke CRM{{< /a >}}. Retention is the other half of that job: a custom CRM can run a nightly task that moves closed files to an archive table and deletes expired prospects, keeping a count of what it removed. If you are having a tool built, ask for the four fields and that task from day one; adding them later means rebuilding dates nobody recorded.
+**In a custom tool**, the schedule can run by itself. When a client's team had more prospects than it could call back, I built them an internal app so that no one would be forgotten; the story is in my article on {{< a key="bespoke-crm-internal-app" >}}building a bespoke CRM{{< /a >}}. Retention is the other half of that job: a custom CRM can run a nightly task that moves closed files to an archive table and deletes expired prospects, keeping a count of what it removed. If you are having a tool built, ask for the four fields and that task from day one; adding them later means rebuilding dates nobody recorded.
 
 ## Your retention checklist, and when to get help
 

@@ -16,11 +16,11 @@ related: ["aso-guide", "landing-page-vs-website", "schema-markup-small-business"
 services: ["seo"]
 faq:
   - q: "Can I put my App Store rating in my website's schema markup?"
-    a: "I would not. Those ratings were collected by Apple and Google, not on your site, and Google's review guidelines have long asked for ratings gathered directly from your own users and shown on the page. Leave the rating out: the rest of the markup stays valid, even if the page then cannot show stars."
+    a: "I would not. Those ratings were collected by Apple and Google, not on your site, and Google's review snippet guidelines say not to aggregate reviews or ratings from other websites, and to mark up only ratings visible on the page. Leave the rating out: the rest of the markup stays valid, even if the page then cannot show stars."
   - q: "How long does Apple take to pick up a change to the apple-app-site-association file?"
     a: "According to Apple's documentation, its content delivery network requests the file within 24 hours, and devices check for updates about once a week after the app is installed. Test changes on a fresh install rather than expecting them to show at once."
   - q: "Do example.com and www.example.com need separate association files?"
-    a: "Yes. Apple asks for one entry per subdomain in the app's Associated Domains and a file served on each, and Android fetches assetlinks.json from every host declared in the app's manifest. Pick the version of the domain your links use, and cover the other one too."
+    a: "Yes. Apple asks for one entry per subdomain in the app's Associated Domains and a file served on each, and Android fetches assetlinks.json from every host declared in the app's manifest. Use the version of your domain that does not redirect in every link, and declare the other one only if it serves the files itself."
   - q: "How do I send desktop visitors to the app?"
     a: "Show the store badges and a QR code they can scan with their phone. Apple's App Store marketing tools generate a badge, a short link or a QR code for your app's product page."
 ---
@@ -31,11 +31,11 @@ This guide covers the landing page, its keywords and structured data, and the tw
 
 ## Why your app needs a website as well as a store page
 
-In the App Store and Google Play, people type two or three words and choose from a grid of icons; my {{< a key="aso-guide" >}}guide to app store optimisation{{< /a >}} explains how those results are ranked. On Google, the same people type "split bills with flatmates" or a question about a feature. Only a website can rank for those searches, and there are three more reasons to have one:
+In the App Store and Google Play, people type two or three words and pick from a list of icons and screenshots; my {{< a key="aso-guide" >}}guide to app store optimisation{{< /a >}} explains how those results are ranked. On Google, the same people type "split bills with flatmates" or a question about a feature. Only a website can rank for those searches, and there are three more reasons to have one:
 
 - **AI assistants read the web.** ChatGPT, Perplexity, Gemini and Google's AI Overviews answer many questions from pages they find through search. A page that says what your app does, and for whom, gives them something to cite.
 - **Trust.** Before handing an app their data or card details, many people look for the company behind it: a real address, a support page, a privacy policy.
-- **The stores ask for it.** App Store Connect requires a Support URL, which "must lead to actual contact information", and a Privacy Policy URL for iOS apps. Play Console has its own privacy policy field, and an app that lets people create an account must give a web link where they can request its deletion, entered in the Data safety form.
+- **The stores ask for it.** App Store Connect requires a Support URL, which "must lead to actual contact information", and a Privacy Policy URL for iOS apps. Google Play asks every app, even one that collects no personal data, for a privacy policy link in Play Console (a public web page, not a PDF), and an app that lets people create an account must also give a web link where they can request its deletion, entered in the Data safety form.
 
 ## What to put on your app's landing page
 
@@ -71,7 +71,7 @@ Build on a platform you can update yourself, because an app's website changes wi
 
 ## Structured data: describe the app with SoftwareApplication
 
-For an app, the schema.org type is `SoftwareApplication`, or the more specific `MobileApplication`. Google documents a [software app rich result](https://developers.google.com/search/docs/appearance/structured-data/software-app) that can show a rating and the price in its results. It requires `name`, `offers.price` (0 for a free app) and either `aggregateRating` or `review`; `applicationCategory` is recommended, and I add `operatingSystem`.
+For an app, the schema.org type is `SoftwareApplication`, or the more specific `MobileApplication`. Google documents a [software app rich result](https://developers.google.com/search/docs/appearance/structured-data/software-app) that can show a rating and the price in its results. It requires `name`, `offers.price` (0 for a free app) and either `aggregateRating` or `review`; `applicationCategory` is recommended (take the value from the list on Google's page), and `operatingSystem` names the platforms the app runs on.
 
 ```html
 <script type="application/ld+json">
@@ -90,7 +90,7 @@ For an app, the schema.org type is `SoftwareApplication`, or the more specific `
 </script>
 ```
 
-The example has no rating on purpose: add `aggregateRating` only when the rating is genuine and visible on the page, as Google's guidelines ask. Without a rating or a review, the page cannot get the rich result, but the markup stays valid. Do not count on it to get the app quoted by AI assistants either; my {{< a key="schema-markup-small-business" >}}guide to schema markup{{< /a >}} explains why.
+The example has no rating on purpose: add `aggregateRating` only when the rating is genuine and visible on the page, as Google's guidelines ask. Without a rating or a review, the page cannot get the rich result, and Google's Rich Results Test will say so, but the markup is still valid schema.org: check it in the Schema Markup Validator instead. Do not count on it to get the app quoted by AI assistants either; my {{< a key="schema-markup-small-business" >}}guide to schema markup{{< /a >}} explains why.
 
 ## Deep links: Universal Links and Android App Links
 
@@ -133,7 +133,7 @@ Serve this file at `https://example.com/.well-known/assetlinks.json`:
 }]
 ```
 
-The app's intent filter needs `android:autoVerify="true"`, and Android's [App Links documentation](https://developer.android.com/training/app-links/configure-assetlinks) asks for the content type `application/json`, HTTPS and no 301 or 302 redirect. The usual trap is the fingerprint: if Google Play signs your app (Play App Signing), your own key's fingerprint will usually not match, so copy the snippet from the app signing page in Play Console. Since Android 12, a link that fails verification simply opens in the browser: no error, the app just never opens.
+The app's intent filter needs `android:autoVerify="true"`, and Android's [App Links documentation](https://developer.android.com/training/app-links/configure-assetlinks) asks for the content type `application/json`, HTTPS and no 301 or 302 redirect. The usual trap is the fingerprint: if Google Play signs your app (Play App Signing), your own key's fingerprint will usually not match, so copy the snippet from the app signing page in Play Console. Since Android 12, a link that fails verification simply opens in the browser: no error appears, the app just does not open.
 
 ### Check that your website platform can serve these files
 
@@ -143,7 +143,7 @@ To test, open both addresses in a browser (you should see the file, not a redire
 
 ### Deferred deep links after Firebase Dynamic Links
 
-Opening the right screen after a new user installs the app is called deferred deep linking. Older tutorials recommend Firebase Dynamic Links for it, but Google shut the service down on 25 August 2025, and every link it served stopped working. Google's suggested replacements, App Links and Universal Links, do not cover the deferred part, which now comes from third-party deep-linking and attribution services. Replace any old page.link addresses in your emails, QR codes and print.
+Opening the right screen after a new user installs the app is called deferred deep linking. Older tutorials recommend Firebase Dynamic Links for it, but Google shut the service down on 25 August 2025, and every link it served stopped working. Google's suggested replacements, App Links and Universal Links, do not cover the deferred part, which now comes from third-party deep-linking and attribution services. Replace any old page.link addresses, and links on a custom domain you set up for the service, in your emails, QR codes and print.
 
 ## Smart app banners: invite visitors without blocking the page
 
@@ -162,7 +162,7 @@ Do not swap the banner for a full-screen "download our app" pop-up. Apple contra
 1. Landing page live: problem-led headline, real screenshots, both badges (App Store first, same height), FAQ.
 2. Privacy and support pages published, with their URLs in your store listings, plus the account deletion link if users create accounts.
 3. One page per use case, each with its own title and meta description; site added to Google Search Console.
-4. SoftwareApplication markup with no rating you cannot show, checked in Google's Rich Results Test.
+4. SoftwareApplication markup with no rating you cannot show, checked in the Schema Markup Validator.
 5. Both association files served at their `.well-known` addresses over HTTPS with no redirect; links tested on a fresh install.
 6. Smart App Banner tag where it helps; a light, closable banner for Android visitors.
 7. Old Firebase Dynamic Links replaced everywhere.

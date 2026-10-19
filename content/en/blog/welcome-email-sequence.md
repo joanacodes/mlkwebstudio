@@ -59,7 +59,7 @@ There are exceptions, such as the soft opt-in for existing customers and looser 
 
 ## Email 1, straight away: deliver what you promised
 
-The first email has two jobs: hand over what the person signed up for, and tell them what is coming. Send it within minutes. Link to the resource rather than attaching it, so you can correct the file without sending anything again, and invite questions: a reply is the surest sign that your email reached the inbox and was read.
+The first email has two jobs: hand over what the person signed up for, and tell them what is coming. Send it within minutes. Link to the resource rather than attaching it, so you can correct the file without sending anything again, and invite questions: a reply is the surest sign that your email arrived and was read.
 
 ```text
 Subject: Your [resource] is here
@@ -78,7 +78,7 @@ Any questions? Just reply: this address reaches me.
 
 ## Email 2, day 2: why you do this work
 
-People hire someone they trust, and trust starts with knowing why you do the job and how you work. Day 2 is for one short story and one promise, not your CV.
+People hire someone they trust, and trust starts with knowing why and how you work. Day 2 is for one short story and one promise, not your CV.
 
 For my studio, the story would end with the sentence I use with friends: I help businesses be seen, bring prospects in, feel proud of their online presence and automate their workflow to make their lives easier. The promise would be the honest advice my clients already get: I tell them when they should call someone else rather than me.
 
@@ -165,7 +165,7 @@ Not for you? No problem: choose what you receive, or unsubscribe, here: [prefere
 
 Plain text, or a light template that looks like a personal email (one column, your name, no banner), often feels more personal, which suits a sequence meant to start a conversation.
 
-In cold emails I go further, with plain text, a phone number and no links at all, as I explain in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. A welcome sequence is different: the person asked for it, and most of these emails need a link. Nor does a newsletter have to be plain: if your work is visual, as an interior designer's is, a designed template with real photos makes sense. Either way, read every email on a phone before it goes live.
+In cold emails I go further, with plain text, a phone number and no links at all, as I explain in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. A welcome sequence is different: the person asked for it, and most of these emails need a link. Nor does a newsletter have to be plain: if your work is visual, as an interior designer's is, a designed template with real photos makes sense.
 
 ## How to set up the sequence in your email tool
 
@@ -204,6 +204,6 @@ Wait until 50 to 100 people have been through the sequence before you judge it, 
 5. Email 4 uses real proof, shared with the client's permission.
 6. The sender is a person on your domain, and replies reach you.
 7. Every email carries an unsubscribe link.
-8. You signed up with your own address, and a Gmail and an Outlook one if you have them, and read every email on a phone.
+8. You tested the sign-up (your own address, plus a Gmail and an Outlook one if you can) and read every email on a phone.
 
 You do not need me for any of this: an afternoon is enough to write and set up five emails. It gets more involved when each sign-up must also reach a CRM, a lead list or a booking tool, and that is where an automation earns its keep.

@@ -24,7 +24,7 @@ faq:
   - q: "Does cyber insurance pay out if an employee clicked a phishing link?"
     a: "Usually yes for the attack that follows, such as ransomware or a hacked mailbox, since that is how many attacks start. The case to check is a payment the employee was tricked into making, which many policies exclude or cap."
   - q: "Does cyber insurance cover a hacked website?"
-    a: "Usually, when the hack is an attack: investigating, cleaning and rebuilding the site are first-party costs, paid within the limit and after the excess. Check whether an outage at your host or a failed update is covered too, as some policies only cover malicious acts."
+    a: "Usually, when the hack is an attack: investigating, cleaning and rebuilding the site are first-party costs, paid within the limit and after the excess. If the site brings in sales, the income lost while it is down falls under business interruption, after the waiting period."
 ---
 
 Cyber insurance pays for what an attack or a data breach costs you: the specialists who contain it, rebuilding your systems and data, the income you lose while you are down, and the claims of people whose data leaked. For a team without an IT department, the incident line that comes with many policies can be worth as much as the money.
@@ -33,7 +33,7 @@ It does not replace security, and it does not pay for everything. A claim is dec
 
 ## What cyber insurance covers
 
-Most policies have two halves. **First-party cover** pays your own costs after an incident; **third-party cover** pays when someone else holds you responsible. Names change from one insurer to the next, but the building blocks are these:
+Most policies have two halves. **First-party cover** pays your own costs after an incident; **third-party cover** pays when someone else holds you responsible. The usual building blocks:
 
 | Cover | What it pays for | What to check |
 |---|---|---|
@@ -107,23 +107,21 @@ I would look seriously at a policy if one of these is true:
 - **You move money by transfer**, to suppliers or on behalf of clients.
 - **You hold personal data in volume**, or sensitive data such as health information or identity documents.
 - **A client or a tender requires it.**
-- **You have no one to call.** Without an IT person, the incident line and the panel are half the value.
 
 It is less pressing for a solo consultant whose work lives in mainstream cloud services with tested backups, and who could keep working from a phone for a week. There, I would spend the first budget on the basics in my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}}: they make an attack less likely, while a policy only pays after one.
 
-For scale, insurers in the Association of British Insurers' data collection paid £197 million in cyber claims in 2024, 230% more than in 2023, with malware and ransomware behind 51% of claims (a sample of the market, [ABI, November 2025](https://www.abi.org.uk/news/news-articles/2025/11/nearly-200-million-paid-in-cyber-claims-to-help-uk-businesses-recover/)). The government's [Cyber Security Breaches Survey 2025/26](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026) found that 43% of UK businesses, and 42% of micro businesses, had identified a breach or attack in the previous 12 months. A policy is not for the phishing email you deleted; it is for the incident that stops you for a week.
+For scale, insurers in the Association of British Insurers' data collection paid £197 million in cyber claims in 2024, 230% more than in 2023, with malware and ransomware behind 51% of claims (a sample of the market, [ABI, November 2025](https://www.abi.org.uk/news/news-articles/2025/11/nearly-200-million-paid-in-cyber-claims-to-help-uk-businesses-recover/)). The government's [Cyber Security Breaches Survey 2025/26](https://www.gov.uk/government/statistics/cyber-security-breaches-survey-20252026) found that 43% of UK businesses, and 42% of micro businesses, had identified a breach or attack in the previous 12 months.
 
 ## Questions to ask a broker before you sign
 
-1. What is the overall limit, and which sub-limits apply to payment fraud, extortion and lost income?
-2. What is the excess, and how long is the waiting period before lost income is covered?
-3. Is social engineering covered, and on what conditions?
-4. Can I use my own IT provider, or must I call the panel?
-5. Which security measures does the policy assume, and what happens if one was missing on the day?
-6. How does the war or state-backed exclusion define an attack, and who decides attribution?
-7. Are outages that are not attacks, or that hit a provider I depend on, covered?
+1. What are the limit, the excess, the sub-limits for payment fraud, extortion and lost income, and the waiting period?
+2. Is social engineering covered, and on what conditions?
+3. Can I use my own IT provider, or must I call the panel?
+4. Which security measures does the policy assume, and what happens if one was missing on the day?
+5. How does the war or state-backed exclusion define an attack, and who decides attribution?
+6. Are outages that are not attacks, or that hit a provider I depend on, covered?
 
-Get the answers in writing, and compare quotes with the same limit and excess. This guide describes how cyber insurance works as of 19 October 2026; it is not legal advice. A broker who specialises in cyber is worth it once you hold a lot of personal data or a client sets the terms, and a lawyer when a contract makes you liable for more than the policy covers.
+Get the answers in writing. This guide describes how cyber insurance works as of 19 October 2026; it is not legal advice. A broker who specialises in cyber is worth it once you hold a lot of personal data or a client sets the terms, and a lawyer when a contract makes you liable for more than the policy covers.
 
 ## Before you need it: a short checklist
 

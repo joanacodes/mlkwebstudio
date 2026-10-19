@@ -53,21 +53,21 @@ Then check ownership, not only access. If the leaver is the only owner or admin 
 
 Work files and work email belong to the business. Move them before you cut access, not after.
 
-**Files.** In Google Workspace, files in shared drives already belong to the team and stay where they are. Files the person owns in their own Drive can be transferred to a colleague by an admin, before or during the deletion of the account. Items in their bin are not transferred, so restore what matters first. In Microsoft 365, give the manager access to the leaver's OneDrive (Microsoft does it from the SharePoint admin centre, by making them a site collection administrator), or copy the files to a shared library.
+**Files.** In Google Workspace, files in shared drives already belong to the team and stay where they are. Files the person owns in their own Drive can be transferred to a colleague by an admin, before or during the deletion of the account. Items in their bin are not transferred, so restore what matters first. In Microsoft 365, an admin can give the manager access to the leaver's OneDrive from the SharePoint admin centre, by making them a site collection administrator, or you can copy the files to a shared library.
 
 **Email.** In Microsoft 365, the usual route is to convert the mailbox to a shared mailbox: the email and calendar stay, colleagues can open it, and it needs no licence while it stays under 50 GB. Forwarding is the alternative, but it only sends on new messages. In both cases, keep the user account, because the shared mailbox or the forwarding depends on it. In Google Workspace, a suspended account keeps its mail and files until you decide what to do with them.
 
 Whatever the tool, tell clients and suppliers who their new contact is before the last day, and use role addresses (contact@, accounts@) for anything that must outlive one person.
 
-{{< callout type="note" >}}**Staff in France?** The CNIL recommends warning the employee of the date their mailbox closes, so they can sort it and move their private messages to a personal address, and says the named address must be deleted once they have left.{{< /callout >}}
+{{< callout type="note" >}}**Staff in France?** The CNIL recommends warning the employee of the date their mailbox closes, so they can sort it and move their private messages to a personal address, and says the employer must delete the named address once they have left: keep the work messages you need, not the address.{{< /callout >}}
 
 ## On the last day: close access in this order
 
 For admin accounts, the NCSC advises revoking access promptly, ideally before the person moves on, in case there is any animosity around the departure. Block an hour at the end of the last working day and go down this list.
 
-1. **Suspend the work account; don't delete it yet.** In Google Workspace, suspending blocks access, keeps the data and resets the person's sign-in cookies and OAuth tokens (the permissions they gave to apps). In Microsoft 365, block their sign-in: Microsoft's [guide to removing a former employee](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee) explains that this ends the current session and blocks new ones, whereas a password reset alone may not end a session that is already open.
+1. **Suspend the work account; don't delete it yet.** In Google Workspace, suspending blocks access, keeps the data and resets the person's sign-in cookies and OAuth tokens (the permissions they gave to apps). In Microsoft 365, reset their password and select **Sign out of all sessions** on their account in the admin centre (they are asked to sign in again within the hour), then block their sign-in. Microsoft's [guide to removing a former employee](https://learn.microsoft.com/en-us/microsoft-365/admin/add-users/remove-former-employee) puts the reset first because a block can take up to 24 hours to apply.
 2. **Close what suspension leaves open.** Remove the security keys and revoke the app passwords registered on the account; Google's page on [keeping data secure after an employee leaves](https://knowledge.workspace.google.com/admin/users/maintain-data-security-after-an-employee-leaves) lists both. Services they reach with "Sign in with Google" or "Sign in with Microsoft" will refuse the suspended account, but remove the person from each one too: a session already open in an app can stay open for a while.
-3. **Remove them from the password manager, then change the shared passwords they could see.** The NCSC counts this as part of every leavers process. Start with the email admin account, the bank, the domain registrar and the website, and move any two-factor codes that still reach their phone. My comparison of {{< a key="password-manager-teams" >}}password managers for teams{{< /a >}} shows how each one handles a leaver, and my {{< a key="two-factor-authentication-passkeys" >}}two-factor authentication guide{{< /a >}} how to give a shared account a second method.
+3. **Remove them from the password manager, then change the shared passwords they could see.** The NCSC makes it part of the leavers process. Start with the email admin account, the bank, the domain registrar and the website, and move any two-factor codes that still reach their phone. My comparison of {{< a key="password-manager-teams" >}}password managers for teams{{< /a >}} shows how each one handles a leaver, and my {{< a key="two-factor-authentication-passkeys" >}}two-factor authentication guide{{< /a >}} how to give a shared account a second method.
 4. **Remove them everywhere else.** Hosting, website builder, social and ad accounts, online banking, payment apps, accounting software, client portals, WhatsApp and Slack groups. Cancel their company card.
 5. **Collect and wipe the devices.** Laptop, phone, security keys, badges and keys; then change the door and alarm codes they knew. Every Microsoft 365 business plan includes Basic Mobility and Security, which can wipe enrolled devices. On a personal phone, remove the work account and its apps, not the person's photos. My guide to {{< a key="device-security-basics" >}}laptops and phones without an IT department{{< /a >}} covers the set-up that makes this step quick.
 
@@ -107,7 +107,7 @@ Copy it into your notes and adapt it to your tools.
 
 ### On the last day
 
-- Suspend the work account or block its sign-in
+- Suspend the work account (Google), or reset its password, sign it out of all sessions and block sign-in (Microsoft)
 - Revoke app passwords and remove security keys
 - Remove them from the password manager and change the shared passwords they knew
 - Remove them from every other service, chat group and bank access
@@ -119,4 +119,4 @@ Copy it into your notes and adapt it to your tools.
 - Check forwarding rules, recovery details and external sharing
 - Delete the account, then their personal data when its retention period ends
 
-You don't need an IT department for this: whoever holds the admin passwords can run it in an afternoon. If the {{< a key="secure-google-workspace-microsoft-365" >}}admin settings of your Google Workspace or Microsoft 365{{< /a >}} have never been reviewed, do that next, and the next departure will be shorter.
+You don't need an IT department for this: whoever holds the admin passwords can run it. If the {{< a key="secure-google-workspace-microsoft-365" >}}admin settings of your Google Workspace or Microsoft 365{{< /a >}} have never been reviewed, do that next, and the next departure will be shorter.

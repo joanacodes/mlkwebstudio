@@ -29,7 +29,7 @@ faq:
 
 Google App campaigns are Google Ads campaigns built to promote a mobile app. You give Google a few lines of text, some images and videos, and its systems assemble the ads and show them on Google Search, YouTube, Discover, the Display Network and, for Android apps, Google Play. You do not choose keywords or placements: you choose a goal, what you are willing to pay for it, a budget, the countries and the languages.
 
-That makes them quick to launch, and just as quick to waste money on. My view of Google Ads is that the tool is not that tricky, but you need to research your target before you spend. Here, it goes into what Google cannot do for you, and what this guide covers as of October 2026: the assets, the tracking and the numbers behind your budget. Where paid ads fit among your other launch channels is covered in my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}}.
+That makes them quick to launch, and just as quick to waste money on. My view of Google Ads is that the tool is not that tricky, but you need to research your target before you spend. With App campaigns, that research goes into the parts Google cannot do for you, which this guide covers as of October 2026: the assets, the tracking and the numbers behind your budget. Where paid ads fit among your other launch channels is covered in my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}}.
 
 ## How Google App campaigns work
 
@@ -43,7 +43,7 @@ App campaigns used to be called Universal App Campaigns (UAC), a name older guid
 
 An iOS app can be advertised too, but Google Play only lists Android apps, so its ads run on Google's other properties. App campaigns never place your app inside the App Store: that is Apple's own ad system, covered in my {{< a key="apple-ads-tutorial" >}}Apple Ads tutorial{{< /a >}}.
 
-Google mixes your assets into ads of different formats, tests the combinations and shows the best performers more often. Install ads lead to your store listing, so a weak listing wastes every click you pay for: my guide to {{< a key="app-store-listing" >}}App Store and Google Play listings{{< /a >}} covers the rest of the selling.
+Google mixes your assets into ads of different formats, tests the combinations and shows the best performers more often. Install ads lead to your store listing, so a weak listing wastes every click you pay for: my guide to {{< a key="app-store-listing" >}}App Store and Google Play listings{{< /a >}} shows how to make yours sell.
 
 ## The three types of App campaign
 
@@ -52,7 +52,7 @@ When you create the campaign, you pick one of three subtypes:
 | Subtype | What it is for | Condition |
 |---|---|---|
 | App installs | Winning new users | An app published on Google Play or the App Store |
-| App engagement | Bringing existing users back to do something in the app | Google's help asks for at least 50,000 installs |
+| App engagement | Bringing existing users back to do something in the app | At least 50,000 installs, per Google's help, and deep links into the app |
 | App pre-registration | Collecting sign-ups on Google Play before the release | Android only |
 
 For a new app, the choice is made for you: installs, or pre-registration if your Android app is not out yet.
@@ -67,9 +67,9 @@ The limits per ad group, from Google's specifications as of October 2026:
 - videos: up to 20, uploaded to YouTube first;
 - HTML5 ads: optional, and most small teams can skip them.
 
-Google advises filling the maximum: the more material it has, the more combinations it can test. A captioned screen recording of the app in use makes a fair first video.
+Google recommends five headlines, five descriptions and a mix of images and videos: the more material it has, the more combinations it can test. A captioned screen recording of the app in use makes a fair first video.
 
-Write each headline so it makes sense on its own, because Google mixes them. When I write copy, I start with what people complain about most, and the reviews of rival apps are full of it: if reviewers of a meal-planning app say planning takes forever, "Plan your week in 5 min" answers them.
+Write each headline so it makes sense on its own, because Google mixes them. When I write copy, I start with what people complain about most, and the reviews of rival apps are full of it: if people reviewing other meal-planning apps say planning takes forever, "Plan your week in 5 min" answers them.
 
 After launch, the asset report rates each asset once it leaves the Learning status: Low, Good or Best. Google's advice: when you have reached the maximum, replace the Low assets, and add new ones in the style of the Best.
 
@@ -83,7 +83,7 @@ You tell Google what to optimise for and, usually, what you want to pay for it o
 | In-app actions | Target cost per action (target CPA), such as a sign-up or a purchase | Once that action is tracked reliably |
 | In-app action value | Target return on ad spend (target ROAS) | Apps that sell inside the app, with steady purchase data |
 
-Google has also added goals without a target, where it gets as many installs, or as much value, as the budget allows; the budget then becomes your only brake. A target, for its part, is an average, not a cap: some installs will cost more, some less.
+For install volume, the target is optional. Leave the **Set a target cost per install (optional)** box unticked and the campaign uses Maximise conversions: Google gets as many installs as the budget allows and tries to spend all of it, so the budget becomes your only brake. Google suggests it for a launch, when volume matters more than the cost of each install. A target, for its part, is an average, not a cap: some installs will cost more, some less.
 
 An install that is never opened is a cost, not a user. Once you can track a meaningful first action, such as a completed sign-up, consider moving to in-app actions so Google looks for the people who take it. For target ROAS, Google's help asks for at least 10 conversions a day (300 over 30 days) and suggests a target CPA campaign first, to learn your starting return.
 
@@ -95,7 +95,7 @@ Work backwards from what a new user brings you. Say one install in 20 becomes a 
 
 Google's [best practices for App campaigns](https://support.google.com/google-ads/answer/6167162) give the rule: when you optimise for install volume, set a daily budget of at least 50 times your target CPI. For in-app actions, the floor is 10 times your target CPA (another Google page says 10 to 15 times). The reason is data: the system needs enough conversions every day to learn who converts.
 
-In money, that gives the table below. The monthly column uses Google's general budget rule: a campaign can spend up to twice its daily budget on a given day, but you are not charged more than 30.4 times that budget in a month.
+In money, that gives the table below. The targets are examples to show the arithmetic, not typical costs: what an install costs depends on your category, your countries and your assets. The monthly column uses Google's general budget rule: a campaign can spend up to twice its daily budget on a given day, but you are not charged more than 30.4 times that budget in a month.
 
 | Your target | Minimum daily budget | About per month |
 |---|---|---|
@@ -104,7 +104,7 @@ In money, that gives the table below. The monthly column uses Google's general b
 | £2 per install | £100 | £3,040 |
 | £8 per sign-up (target CPA) | £80 | £2,432 |
 
-Two extras appear on the invoice: Google adds a 2% fee on ads served in the UK (and another 2% on ads served in France), and VAT is billed separately.
+On top of these amounts, Google adds a 2% fee on ads served in the UK (and another 2% on ads served in France), plus VAT where it applies.
 
 The rule also works backwards: divide your daily budget by 50 to find the highest target CPI it supports. With £20 a day, that is £0.40 per install; if installs in your category cost more, the campaign is likely to struggle to spend and to learn.
 
@@ -147,7 +147,7 @@ Besides the budget, tracking and asset mistakes covered above, watch one more: *
 
 App campaigns are worth testing when your store listing already turns visitors into installs, your tracking works and the budget the 50x rule gives is money you can risk for a month. If one of those is missing, fix it first: the campaign multiplies what is already there, good or bad.
 
-I give the same warning about every new channel: it is easy to chase the next shiny tool, so get the most from the channels that already bring you users before adding one you will not have time to watch. You do not need an agency for a first App campaign either; for Search ads on your website, my guide to {{< a key="google-ads-small-business" >}}the basics of Google Ads{{< /a >}} covers the research to do first.
+I give the same warning about every new channel: it is easy to chase the next shiny tool, so get the most from the channels that already bring you users before adding one you will not have time to watch. You do not need an agency for a first App campaign either; for Search ads that send people to your website, my guide to {{< a key="google-ads-small-business" >}}the basics of Google Ads{{< /a >}} covers the research to do first.
 
 Before you launch, check that you have:
 

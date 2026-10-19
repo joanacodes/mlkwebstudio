@@ -45,7 +45,7 @@ Dans sa fiche [« Gérer les habilitations »](https://www.cnil.fr/fr/securite
 | La banque, les cartes et les outils de paiement | Qui peut payer, valider un virement ou consulter les comptes |
 | La personne elle-même | Tout le reste : demandez-lui de l’écrire avant son départ |
 
-Ajoutez le physique : clés, badges, digicode et code d’alarme, ordinateur et téléphone de l’entreprise, clés de sécurité.
+Ajoutez les accès physiques : clés, badges, digicode et code d’alarme, ordinateur et téléphone de l’entreprise, clés de sécurité.
 
 Vérifiez ensuite la propriété, pas seulement l’accès. Si la personne est seule propriétaire ou administratrice d’un compte (le nom de domaine chez le registrar, l’outil de création du site, la fiche Google Business Profile, les comptes publicitaires, la console Google Workspace elle-même), désignez un autre propriétaire maintenant, tant qu’elle peut encore le faire. Sur Squarespace, par exemple, seul le propriétaire actuel peut transférer un site, et Google recommande plusieurs super-administrateurs, chacun tenu par une personne différente. Si le nom de domaine est à son nom ou dans son compte personnel, transférez-le d’abord à l’entreprise : mon guide pour {{< a key="recover-domain-name" >}}récupérer un nom de domaine{{< /a >}} montre ce que cela implique une fois la personne partie.
 
@@ -53,11 +53,11 @@ Vérifiez ensuite la propriété, pas seulement l’accès. Si la personne est s
 
 Les fichiers et les messages professionnels appartiennent à l’entreprise. Déplacez-les avant de couper les accès, pas après.
 
-**Les fichiers.** Dans Google Workspace, les fichiers des drives partagés appartiennent déjà à l’équipe et restent en place. Ceux que la personne possède dans son propre Drive peuvent être transférés à un collègue par un administrateur, avant ou pendant la suppression du compte. Le contenu de sa corbeille n’est pas transféré : restaurez d’abord ce qui compte. Dans Microsoft 365, donnez au responsable l’accès au OneDrive de la personne (Microsoft le fait depuis le centre d’administration SharePoint) ou copiez les fichiers dans une bibliothèque partagée.
+**Les fichiers.** Dans Google Workspace, les fichiers des Drive partagés appartiennent déjà à l’équipe et restent en place. Ceux que la personne possède dans son propre Drive peuvent être transférés à un collègue par un administrateur, avant ou pendant la suppression du compte. Le contenu de sa corbeille n’est pas transféré : restaurez d’abord ce qui compte. Dans Microsoft 365, un administrateur peut donner au responsable l’accès au OneDrive de la personne depuis le centre d’administration SharePoint, en le nommant administrateur de la collection de sites ; vous pouvez aussi copier les fichiers dans une bibliothèque partagée.
 
-**La messagerie.** La CNIL fixe deux règles dans sa réponse sur [les précautions avant de fermer le compte d’un employé](https://www.cnil.fr/fr/cnil-direct/question/messagerie-professionnelle-quelles-precautions-avant-de-fermer-le-compte-dun) : prévenez le salarié de la date de fermeture de sa messagerie, pour qu’il fasse le tri et transfère ses messages privés vers son adresse personnelle ; une fois qu’il est parti, supprimez son adresse nominative.
+**La messagerie.** La CNIL donne deux consignes dans sa réponse sur [les précautions avant de fermer le compte d’un employé](https://www.cnil.fr/fr/cnil-direct/question/messagerie-professionnelle-quelles-precautions-avant-de-fermer-le-compte-dun) : prévenez le salarié de la date de fermeture de sa messagerie, pour qu’il fasse le tri et transfère ses messages privés vers son adresse personnelle ; une fois qu’il est parti, supprimez son adresse nominative.
 
-Pour garder les messages professionnels utiles, Microsoft 365 permet de convertir la boîte en boîte aux lettres partagée : les emails et l’agenda restent, plusieurs collègues peuvent les consulter, et elle ne demande pas de licence tant qu’elle pèse moins de 50 Go (le compte utilisateur reste alors en place, car la boîte partagée en dépend). Dans Google Workspace, un compte suspendu garde ses emails et ses fichiers le temps que vous décidiez. Une boîte conservée pour l’historique n’a pas besoin de garder l’adresse nominative active.
+Pour garder les messages professionnels utiles, Microsoft 365 permet de convertir la boîte en boîte aux lettres partagée : les emails et l’agenda restent, plusieurs collègues peuvent les consulter, et elle ne demande pas de licence tant qu’elle pèse moins de 50 Go (le compte utilisateur reste alors en place, car la boîte partagée en dépend). Dans Google Workspace, un compte suspendu garde ses emails et ses fichiers le temps que vous décidiez. Gardez les messages, pas l’adresse : une boîte conservée pour l’historique peut prendre une adresse générique à la place de l’adresse nominative.
 
 Prévenez aussi clients et fournisseurs du nouveau contact avant le dernier jour, et utilisez des adresses génériques (contact@, compta@) pour tout ce qui doit survivre au départ d’une personne.
 
@@ -65,13 +65,13 @@ Prévenez aussi clients et fournisseurs du nouveau contact avant le dernier jour
 
 Coupez les accès à la fin du dernier jour de travail, pas la semaine suivante. Prévoyez une heure et suivez la liste.
 
-1. **Suspendez le compte, ne le supprimez pas encore.** Dans Google Workspace, la suspension bloque l’accès, conserve les données et réinitialise les cookies de connexion et les jetons OAuth (les autorisations données aux applications). Dans Microsoft 365, bloquez la connexion : selon [le guide de Microsoft sur le départ d’un employé](https://learn.microsoft.com/fr-fr/microsoft-365/admin/add-users/remove-former-employee), cela met fin à la session en cours et bloque les suivantes, alors qu’une simple réinitialisation du mot de passe ne ferme pas forcément une session déjà ouverte.
+1. **Suspendez le compte, ne le supprimez pas encore.** Dans Google Workspace, la suspension bloque l’accès, conserve les données et réinitialise les cookies de connexion et les jetons OAuth (les autorisations données aux applications). Dans Microsoft 365, réinitialisez le mot de passe du compte et fermez toutes ses sessions depuis sa fiche dans le centre d’administration (la déconnexion prend effet dans l’heure), puis bloquez la connexion. [Le guide de Microsoft sur le départ d’un employé](https://learn.microsoft.com/fr-fr/microsoft-365/admin/add-users/remove-former-employee) place la réinitialisation en premier, car le blocage peut mettre jusqu’à 24 heures à s’appliquer.
 2. **Fermez ce que la suspension laisse ouvert.** Supprimez les clés de sécurité et révoquez les mots de passe d’application enregistrés sur le compte : la [page de Google sur la sécurité des données après un départ](https://knowledge.workspace.google.com/admin/users/maintain-data-security-after-an-employee-leaves?hl=fr) cite les deux. Les services ouverts avec « Se connecter avec Google » ou « Se connecter avec Microsoft » refuseront le compte suspendu, mais retirez quand même la personne de chacun : une session déjà ouverte dans une application peut rester active un moment.
 3. **Retirez la personne du gestionnaire de mots de passe, puis changez les mots de passe partagés qu’elle a pu voir.** Commencez par le compte administrateur de la messagerie, la banque, le registrar et le site, et déplacez les codes de double authentification qui arrivent encore sur son téléphone. Mon comparatif des {{< a key="password-manager-teams" >}}gestionnaires de mots de passe d’équipe{{< /a >}} montre comment chacun gère un départ, et mon guide de la {{< a key="two-factor-authentication-passkeys" >}}double authentification{{< /a >}} comment ajouter une seconde méthode à un compte partagé.
 4. **Retirez-la partout ailleurs.** Hébergement, outil de création du site, réseaux sociaux et comptes publicitaires, banque en ligne (accès et délégations), outils de paiement, logiciel de comptabilité, portails clients, groupes WhatsApp et Slack. Résiliez sa carte bancaire professionnelle.
 5. **Récupérez et effacez les appareils.** Ordinateur, téléphone, clés de sécurité, badges et clés ; changez ensuite le digicode et le code d’alarme. Tous les forfaits Microsoft 365 pour les entreprises incluent Basic Mobility and Security, qui peut effacer les appareils inscrits. Sur un téléphone personnel, supprimez le compte professionnel et ses applications, pas les photos de la personne. Mon guide sur {{< a key="device-security-basics" >}}les ordinateurs et téléphones sans service informatique{{< /a >}} explique comment les préparer.
 
-{{< callout type="warning" >}}**Un départ conflictuel change deux choses.** Gardez le compte suspendu plutôt que supprimé : ses emails, ses fichiers et ses journaux pourront servir. Et si la personne est partie avec des données personnelles, un fichier clients par exemple, il peut s’agir d’une violation de données : l’article 33 du RGPD vous laisse 72 heures, à partir du moment où vous en avez connaissance, pour la notifier à la CNIL, sauf si elle n’entraîne pas de risque pour les personnes concernées. Ceci est une information générale, pas un conseil juridique : dans les deux cas, l’avis d’un avocat en droit du travail ou en protection des données mérite un appel.{{< /callout >}}
+{{< callout type="warning" >}}**Un départ conflictuel change deux choses.** Gardez le compte suspendu plutôt que supprimé : ses emails, ses fichiers et ses journaux pourront servir. Et si la personne est partie avec des données personnelles, un fichier clients par exemple, il peut s’agir d’une violation de données : l’article 33 du RGPD vous laisse 72 heures, à partir du moment où vous en avez connaissance, pour la notifier à la CNIL, sauf si elle n’est pas susceptible d’engendrer un risque pour les personnes concernées. Ceci est une information générale, pas un conseil juridique : dans les deux cas, demandez l’avis d’un avocat en droit du travail ou en protection des données.{{< /callout >}}
 
 ## Les semaines suivantes : le ménage qu’on oublie facilement
 
@@ -81,7 +81,7 @@ Coupez les accès à la fin du dernier jour de travail, pas la semaine suivante.
 - **Revoyez les partages externes** (adresses extérieures, partage par lien) et resserrez-les une fois les fichiers transférés.
 - **Supprimez le compte une fois ses données à l’abri**, sauf si une boîte partagée en dépend.
 - **Supprimez ses données personnelles à l’échéance.** Gardez ce que la loi impose, comme les éléments de paie, et supprimez le reste à la fin de sa durée de conservation. L’article 5.1.e du RGPD (limitation de la conservation) ne fixe pas de durée : c’est à vous de les définir, de les justifier et de les écrire.
-- **Revoyez les accès au moins une fois par an**, comme le demande la CNIL.
+- **Revoyez les accès au moins une fois par an**, comme le recommande la CNIL.
 
 ## Freelances et agences : prévoyez la sortie dès le premier jour
 
@@ -107,7 +107,7 @@ Copiez-la dans vos notes et adaptez-la à vos outils.
 
 ### Le jour J
 
-- Suspendre le compte professionnel ou bloquer sa connexion
+- Suspendre le compte (Google), ou réinitialiser son mot de passe, fermer ses sessions et bloquer la connexion (Microsoft)
 - Révoquer les mots de passe d’application et retirer les clés de sécurité
 - La retirer du gestionnaire de mots de passe et changer les mots de passe partagés qu’elle connaissait
 - La retirer des autres services, des groupes de discussion et des accès bancaires
@@ -119,4 +119,4 @@ Copiez-la dans vos notes et adaptez-la à vos outils.
 - Vérifier les règles de transfert, les informations de récupération et les partages externes
 - Supprimer le compte, puis ses données personnelles à l’échéance
 
-Pas besoin d’un service informatique pour cela : la personne qui détient les accès administrateur peut tout faire en un après-midi. Si les {{< a key="secure-google-workspace-microsoft-365" >}}réglages d’administration de Google Workspace ou de Microsoft 365{{< /a >}} n’ont jamais été revus, occupez-vous-en ensuite : le prochain départ sera plus court.
+Pas besoin d’un service informatique pour cela : la personne qui détient les accès administrateur peut s’en charger. Si les {{< a key="secure-google-workspace-microsoft-365" >}}réglages d’administration de Google Workspace ou de Microsoft 365{{< /a >}} n’ont jamais été revus, occupez-vous-en ensuite : le prochain départ sera plus court.
