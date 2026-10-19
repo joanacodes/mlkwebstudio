@@ -59,7 +59,7 @@ Weak:  Crumbwise: #1 FREE Bakery App
 Good:  Crumbwise: Bakery Pre-Order
 ```
 
-The weak version breaks Google Play's [metadata policy](https://support.google.com/googleplay/android-developer/answer/9898842?hl=en-GB), which keeps rank claims ("#1", "top", "best"), price and promotional words ("free", "no ads", "sale"), emojis and capitals that are not part of your brand out of the title, the icon and the developer name. Apple publishes no such list for the name, but those words waste characters there too.
+The weak version breaks Google Play's [metadata policy](https://support.google.com/googleplay/android-developer/answer/9898842?hl=en-GB): the title, icon and developer name must not suggest store performance or ranking (such as "#1"), price or promotional information, or a link to a Google Play programme, and they can't contain emojis or capitals that aren't part of your brand. Apple's App Review Guidelines (2.3.7) point the same way: no prices in the name or subtitle, and no unverifiable claims in the subtitle.
 
 Apple lets you edit the name until you submit the app for review; after that, it changes only with a new version.
 
@@ -67,16 +67,16 @@ Apple lets you edit the name until you submit the app for review; after that, it
 
 ## Step 2: write the line under the name
 
-I keep the first email of a cold emailing campaign to three lines, because nobody owes a stranger their attention. The line under your app's name works on the same terms.
+I keep the first email of a cold emailing campaign to three lines at most, because people hate long emails from someone they never asked to hear from: short and sharp works. The line under your app's name follows the same rule.
 
 Apple's **subtitle** (30 characters) appears under your name throughout the App Store and is searched like the name. Apple's guidance is blunt: "Avoid generic descriptions such as 'world's best app'"; highlight features or typical uses instead. Use words the name does not already contain:
 
 ```
 Weak:  The best bakery app
-Good:  Order bread, skip the queue
+Good:  Collect bread, skip the queue
 ```
 
-The good version adds three searchable words (order, bread, queue) and a reason to choose the app. The subtitle changes only when you submit a new version, so test one wording per release.
+The good version adds three searchable words (collect, bread, queue) and a reason to choose the app. The subtitle changes only when you submit a new version, so test one wording per release.
 
 Google Play's **short description** (80 characters) is the first text people see on your store page; they tap it to expand the full description, and Google advises against repeating it there. Say what the app does and for whom:
 
@@ -95,7 +95,7 @@ This field is hidden from users and exists only on the App Store. App Store Conn
 - don't repeat words from your name, subtitle or category, and skip plurals of words you already have;
 - leave out "app", competitors' names and trademarks you don't own: Apple warns that improper use of keywords is a common reason for App Store rejections.
 
-For Crumbwise, listed in Food & Drink, with "bakery", "pre-order", "order", "bread" and "queue" already in the name and subtitle, that gives 96 characters:
+For Crumbwise, listed in Food & Drink, with "bakery", "pre-order", "collect", "bread" and "queue" already in the name and subtitle, that gives 96 characters:
 
 ```
 pastry,croissant,cake,sourdough,breakfast,takeaway,coffee,baker,patisserie,brunch,cookie,Bristol
@@ -148,7 +148,7 @@ Christmas orders are open: reserve your yule log by 20 December and collect it f
 
 In App Store search results, when you have no app preview, your first one to three screenshots appear with your listing. Make each one readable at that size: one benefit per screenshot, in large type.
 
-In web design, I want my clients' prospects to take them seriously at first glance. Screenshots do that job for an app.
+When I design a website, I want my clients to make a strong impression, so that their prospects take them seriously. On a store page, the screenshots do that job.
 
 ### On the App Store
 
@@ -158,7 +158,7 @@ As of 19 October 2026, Apple's [screenshot specifications](https://developer.app
 - if your app runs on iPad, at least one for the **iPad 13-inch display**: 2064 x 2752 or 2048 x 2732 pixels;
 - no more than 10 per device size, in JPEG or PNG without transparency.
 
-The list follows new devices (it already announces iPhone Duo screenshots from April 2027 for apps built with the iOS 27.1 SDK or later), so check it before you design. If your interface looks the same across sizes, App Store Connect scales your screenshots down for smaller screens.
+The list follows new devices (it already says iPhone Duo screenshots will be required from April 2027 for apps built with the iOS 27.1 SDK or later), so check it before you design. If your interface looks the same across sizes, App Store Connect scales your screenshots down for smaller screens.
 
 **App previews** are optional videos: up to three, 15 to 30 seconds each. They autoplay without sound, so the first seconds must make sense on mute. Your **icon** isn't uploaded here: it ships inside your app build, so changing it takes a new version.
 
