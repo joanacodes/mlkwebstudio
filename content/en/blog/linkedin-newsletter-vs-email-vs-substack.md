@@ -1,7 +1,7 @@
 ---
 title: "LinkedIn newsletter, email newsletter or Substack: where should a small team publish?"
 seo_title: "LinkedIn newsletter vs email newsletter vs Substack"
-description: "LinkedIn newsletter vs email newsletter vs Substack: who owns the list, reach, costs, GDPR and SEO compared, and where a small business should publish."
+description: "LinkedIn newsletter vs email newsletter vs Substack: list ownership, reach, costs, GDPR and SEO compared, and where a small business should publish."
 slug: "linkedin-newsletter-vs-email-newsletter"
 translationKey: "linkedin-newsletter-vs-email-vs-substack"
 date: 2026-10-18T23:33:00+02:00
@@ -16,7 +16,7 @@ related: ["newsletter-tools-comparison", "first-100-subscribers", "linkedin-algo
 services: ["automation"]
 faq:
   - q: "Can a LinkedIn company Page publish a newsletter?"
-    a: "Yes, if the Page meets LinkedIn's conditions: more than 150 followers, original content published recently and a history of respecting LinkedIn's Professional Community Policies. Personal profiles have no such threshold."
+    a: "Yes, once LinkedIn gives it access. A Page with more than 150 followers, recent original content and a good record under LinkedIn's Professional Community Policies is eligible to be evaluated, which does not guarantee access. Personal profiles have no such threshold."
   - q: "Do I need Creator mode or LinkedIn Premium to start a LinkedIn newsletter?"
     a: "No. LinkedIn's help centre says every member has access to newsletters. Guides that tell you to switch on Creator mode describe an older version of LinkedIn."
   - q: "Can I add my LinkedIn connections to my email newsletter?"
@@ -29,14 +29,14 @@ The LinkedIn newsletter vs email newsletter choice comes down to one thing: who 
 
 Substack sits between the two: a publishing platform with its own network of readers, and a subscriber list you can export whenever you like.
 
-I compared the three on what matters to a small team selling services: ownership, reach, cost, data protection, search visibility and branding. The LinkedIn and Substack facts come from their own help centres, checked in October 2026. This comparison is part of my {{< a key="funnels-newsletters-guide" >}}guide to sales funnels and newsletters{{< /a >}}.
+I compared the three on what matters to a small team selling services: ownership, reach, cost, data protection, search visibility and branding. The LinkedIn and Substack details come from their help centres and the trade press, checked in October 2026. This comparison is part of my {{< a key="funnels-newsletters-guide" >}}guide to sales funnels and newsletters{{< /a >}}.
 
 ## LinkedIn newsletter vs email newsletter vs Substack at a glance
 
 | | LinkedIn newsletter | Email newsletter (your own list) | Substack |
 |---|---|---|---|
 | Who keeps the subscribers | LinkedIn: no export, no email addresses | You: export and move them at any time | You: the list can be exported at any time |
-| Readers on day one | Connections and followers invited to subscribe | Nobody until people sign up | Your sign-ups, plus Substack's own network |
+| Readers on day one | Connections and followers invited to subscribe | Nobody until people sign up | Your own sign-ups; Substack's network can add more |
 | How each issue arrives | LinkedIn notification and email | Email, straight to the inbox | Email, plus Substack's website and app |
 | Cost | Free | Free plan for a small list, then a monthly fee that grows with it | Free; 10% of paid subscriptions plus Stripe fees |
 | GDPR role | LinkedIn handles its members' data | You are the controller, your tool the processor | Substack runs the sign-ups; any export is yours to protect |
@@ -55,11 +55,11 @@ The limits are just as clear:
 
 - **You cannot export your subscribers.** LinkedIn gives you no email addresses and no download, so the audience stays on LinkedIn if you stop using it.
 - **Reach is LinkedIn's call.** Beyond the notifications, an edition travels like a post, and since LinkedIn rebuilt its feed in March 2026, its models decide which members see it. My article on {{< a key="linkedin-algorithm-2026" >}}the LinkedIn algorithm in 2026{{< /a >}} explains the change.
-- **The statistics are LinkedIn's.** You see the totals its dashboard shows, not what each subscriber opened or clicked.
+- **The statistics are LinkedIn's.** You see the totals its dashboard shows, which since February 2025 include email sends and an estimated open rate, but never what each subscriber opened or clicked.
 
 {{< callout type="note" >}}Your editions are public content. Since 3 November 2025, LinkedIn has used the public content of members in the UK, the EU, the EEA and Switzerland to train its generative AI, unless they switch off **Data for Generative AI Improvement** in **Settings & Privacy > Data privacy**. Check it before your first edition: switching it off only covers future use.{{< /callout >}}
 
-I am not a social media manager. When I helped a client on social media, engaging and posting brought 60 relevant new followers in a month: a good result, but I prefer results that are more palpable. LinkedIn subscribers belong in the same category: worth having, but not an asset you can take with you.
+I am not a social media manager. When I helped a client on social media, engaging and posting brought 60 relevant new followers in a month, but I prefer my other services: their results are more palpable. LinkedIn newsletter subscribers are much like those followers: worth having, but not an asset you can take with you.
 
 **Who it suits:** teams whose buyers already read LinkedIn (B2B services, consultants, recruiters), and anyone who wants to test whether people will read them before building a list.
 

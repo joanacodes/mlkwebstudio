@@ -29,8 +29,6 @@ Le taux d’ouverture de votre newsletter a l’air bon, mais les demandes de de
 
 Ce guide explique comment une ouverture est comptée, pourquoi le chiffre se trompe et ce que je suivrais à la place. Il fait partie de mon {{< a key="funnels-newsletters-guide" >}}guide des tunnels de vente et des newsletters{{< /a >}}.
 
-Pour faire court : gardez les ouvertures comme une tendance approximative, et jugez chaque envoi sur ce que les lecteurs font après l’avoir lu.
-
 ## Comment se calcule le taux d’ouverture d’une newsletter
 
 Votre outil de newsletter ajoute un pixel de suivi dans chaque email HTML : une image invisible, d’un pixel de large, dont l’adresse est propre à chaque destinataire. Quand une messagerie télécharge cette image, l’outil enregistre une ouverture pour cette personne.
@@ -43,7 +41,7 @@ Un email en texte brut ne contient aucune image : il n’enregistre donc aucune
 
 ### Apple Mail ouvre des emails que personne n’a lus
 
-Apple a lancé Mail Privacy Protection avec iOS 15, en 2021. Quand cette fonction est activée, Apple Mail télécharge en arrière-plan le contenu distant, pixels de suivi compris, que la personne ouvre l’email ou non, et masque son adresse IP. Le [guide d’Apple](https://support.apple.com/fr-fr/guide/iphone/iphf084865c7/ios) indique qu’elle empêche les expéditeurs de savoir si vous avez ouvert leur message.
+Apple a lancé Mail Privacy Protection (« Protection de la confidentialité dans Mail » en français) avec iOS 15, en 2021. Quand cette fonction est activée, Apple Mail télécharge en arrière-plan le contenu distant, pixels de suivi compris, que la personne ouvre l’email ou non, et masque son adresse IP. Le [guide d’Apple](https://support.apple.com/fr-fr/guide/iphone/iphf084865c7/ios) indique qu’elle empêche les expéditeurs de savoir si vous avez ouvert leur message.
 
 Les abonnés qui lisent dans Apple Mail avec cette protection peuvent donc apparaître comme ayant ouvert sans avoir lu, et l’heure et le lieu d’ouverture affichés ne disent rien du lecteur. La fonction ne concerne que l’application Mail d’Apple : une personne qui lit sur iPhone dans l’application Gmail est comptée comme avant.
 
@@ -65,9 +63,9 @@ Le signe révélateur : un abonné qui ouvre et clique plusieurs fois dans les 
 
 ## Quel est un bon taux d’ouverture pour une newsletter ?
 
-Il n’y a pas de chiffre fixe, et deux études sur la même année montrent pourquoi. Les [statistiques 2025 de MailerLite](https://www.mailerlite.com/blog/compare-your-email-performance-metrics-industry-benchmarks), sur 3,6 millions de campagnes, donnent un taux d’ouverture moyen de 43,46 % et un taux de clic moyen de 2,09 %. Celles de [Brevo](https://www.brevo.com/blog/email-marketing-benchmarks/), sur plus de 175 000 clients en 2025, excluent les ouvertures automatiques d’Apple : 20,73 % d’ouvertures et 2,27 % de clics.
+Il n’y a pas de chiffre fixe, et deux études couvrant à peu près la même période montrent pourquoi. Les [statistiques 2025 de MailerLite](https://www.mailerlite.com/blog/compare-your-email-performance-metrics-industry-benchmarks), sur 3,6 millions de campagnes, donnent un taux d’ouverture de 43,46 % et un taux de clic de 2,09 %. Celles de [Brevo](https://www.brevo.com/blog/email-marketing-benchmarks/), sur plus de 175 000 clients en 2025, excluent les ouvertures automatiques d’Apple : 20,73 % d’ouvertures et 2,27 % de clics.
 
-Les deux bases de clients diffèrent, la comparaison reste donc approximative. Mais l’un des taux d’ouverture fait environ le double de l’autre, quand les taux de clic sont à 0,2 point près : tout l’argument de cet article tient en quatre chiffres.
+Les bases de clients et les modes de calcul diffèrent, la comparaison reste donc approximative. Mais l’un des taux d’ouverture fait environ le double de l’autre, quand les taux de clic sont à 0,2 point près : tout l’argument de cet article tient en quatre chiffres.
 
 Les taux de clic varient aussi selon le secteur, de 0,83 % à 4,90 % dans les données de MailerLite. **Votre meilleure référence, ce sont vos propres envois** : notez votre taux de clic sur vos six dernières newsletters et comparez chaque nouvel envoi à cette base.
 
@@ -90,7 +88,7 @@ Voici les chiffres que je mettrais dans un bilan de newsletter.
 
 Évitez le taux de réactivité (clics divisés par ouvertures) : il hérite de tous les défauts de l’ouverture. Si votre outil propose un filtrage des robots, activez-le avant de comparer vos envois. Mailchimp prévient que les ouvertures et les clics baissent nettement une fois ce filtre activé, et c’est bien le but.
 
-Un envoi construit autour d’un lien principal se lit plus nettement, et mes {{< a key="b2b-newsletter-ideas" >}}idées de newsletter B2B{{< /a >}} aident à trouver quoi y mettre.
+Un envoi construit autour d’un lien principal donne des statistiques plus lisibles, et mes {{< a key="b2b-newsletter-ideas" >}}idées de newsletter B2B{{< /a >}} aident à trouver quoi y mettre.
 
 ### Les réponses
 
@@ -104,7 +102,7 @@ Ajoutez des paramètres UTM à chaque lien d’un envoi, pour que GA4 distingue 
 https://exemple.fr/audit/?utm_source=newsletter&utm_medium=email&utm_campaign=2026-10
 ```
 
-Marquez ensuite la page de confirmation de rendez-vous ou de remerciement comme événement clé (ce que GA4 appelait une conversion). La question « combien de rendez-vous les envois d’octobre ont-ils amenés ? » a alors une réponse. Mon {{< a key="utm-ga4-funnel-tracking" >}}tutoriel UTM et GA4{{< /a >}} détaille la mise en place.
+Créez ensuite dans GA4 un événement pour les visites de la page de confirmation de rendez-vous ou de remerciement, et marquez-le comme événement clé (ce que GA4 appelait une conversion). La question « combien de rendez-vous les envois d’octobre ont-ils amenés ? » a alors une réponse. Mon {{< a key="utm-ga4-funnel-tracking" >}}tutoriel UTM et GA4{{< /a >}} détaille la mise en place.
 
 ### Désabonnements et plaintes pour spam
 
@@ -120,7 +118,7 @@ Calculez la croissance nette sur un mois, et l’attrition (le churn), soit les 
 
 Un test d’objet jugé sur les ouvertures mesure en partie du bruit. Les ouvertures automatiques tombent sur les deux versions, quel que soit l’objet : l’écart se réduit, et la version gagnante peut l’être par hasard. Jugez vos tests sur les clics, ou mieux, sur les réponses et les conversions. Si votre outil désigne le gagnant automatiquement, vérifiez sur quel indicateur.
 
-Sur quelques centaines d’abonnés, un test isolé ne prouve pas grand-chose : refaites la comparaison sur plusieurs envois avant de changer vos habitudes. C’est ainsi que je mène les tests de cold emailing pour mes clients. Les emails sont en texte brut, avec un numéro de téléphone et sans lien : il n’y a ni ouverture ni clic à compter, et les versions se comparent sur les réponses et les appels. Au fil des semaines, le texte qui obtient des réponses l’emporte.
+Sur quelques centaines d’abonnés, un test isolé ne prouve pas grand-chose : refaites la comparaison sur plusieurs envois avant de changer vos habitudes. C’est ainsi que je mène les tests de cold emailing pour mes clients. Les emails sont en texte brut, avec un numéro de téléphone et sans lien : il n’y a ni ouverture ni clic à compter, et les versions se comparent sur les réponses et les appels. Avec le temps, le texte qui obtient des réponses l’emporte.
 
 ## Segments d’engagement : qui lit vraiment
 
@@ -136,7 +134,7 @@ Doublez ces durées pour une newsletter mensuelle. Envoyez au segment inactif un
 
 Au 19 octobre 2026, la référence en France est la recommandation de la CNIL sur les pixels de suivi dans les courriers électroniques, adoptée le 12 mars 2026 et publiée le 14 avril 2026 ([texte de la recommandation](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf)). Pour la CNIL, un pixel d’ouverture lit des informations sur le terminal du destinataire, ce qui relève de l’article 82 de la loi Informatique et Libertés.
 
-Mesurer les ouvertures à des fins marketing demande donc un consentement préalable, distinct de l’accord pour recevoir la newsletter. C’est vrai aussi en B2B, où l’envoi lui-même reste possible sans consentement s’il concerne la profession du destinataire. Les exceptions sont étroites, comme la sécurité ou la mesure de la délivrabilité. La recommandation ne vise pas les liens tracés, mais la CNIL rappelle que c’est la finalité qui compte, pas la technique.
+Mesurer les ouvertures à des fins marketing demande donc un consentement préalable, distinct de l’accord pour recevoir la newsletter. C’est vrai aussi en B2B, où l’envoi lui-même reste possible sans consentement s’il concerne la profession du destinataire. Les exceptions sont étroites, comme la sécurité ou la mesure de la délivrabilité. La recommandation ne vise pas directement les liens tracés, mais la CNIL rappelle que c’est la finalité qui compte, pas la technique.
 
 Puisque cet article plaide pour juger une newsletter sur ce que font les lecteurs, couper le suivi des ouvertures, ou le soumettre au consentement, vous coûte peu. Mon guide sur la {{< a key="newsletter-consent-gdpr" >}}newsletter et le consentement RGPD{{< /a >}} traite du côté inscription. Ces explications sont générales et ne constituent pas un conseil juridique : si votre liste est importante, ou si vous croisez les données d’emailing avec de la publicité, une heure avec un avocat spécialisé ou un DPO est un bon investissement.
 

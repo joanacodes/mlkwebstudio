@@ -29,8 +29,6 @@ Your newsletter open rate looks healthy, yet the bookings do not follow. That ga
 
 This guide explains how an open is counted, why the figure goes wrong, and what I would track in its place. It is part of my {{< a key="funnels-newsletters-guide" >}}guide to sales funnels and newsletters{{< /a >}}.
 
-The short version: keep opens as a rough trend line, and judge each issue on what readers do after reading it.
-
 ## How a newsletter open rate is measured
 
 Your newsletter tool adds a tracking pixel to every HTML email: an invisible image, one pixel wide, whose address is unique to each recipient. When an email program downloads that image, the tool records an open for that person.
@@ -65,9 +63,9 @@ The tell-tale sign is a subscriber who opens and clicks several times within the
 
 ## What is a good newsletter open rate?
 
-There is no fixed answer, and two benchmarks covering the same year show why. [MailerLite's 2025 benchmarks](https://www.mailerlite.com/blog/compare-your-email-performance-metrics-industry-benchmarks), across 3.6 million campaigns, give an average open rate of 43.46% and an average click rate of 2.09%. [Brevo's benchmarks](https://www.brevo.com/blog/email-marketing-benchmarks/), from more than 175,000 customers in 2025, leave Apple's automatic opens out and give 20.73% opens and 2.27% clicks.
+There is no fixed answer, and two benchmarks covering much the same period show why. [MailerLite's 2025 benchmarks](https://www.mailerlite.com/blog/compare-your-email-performance-metrics-industry-benchmarks), across 3.6 million campaigns, give an open rate of 43.46% and a click rate of 2.09%. [Brevo's benchmarks](https://www.brevo.com/blog/email-marketing-benchmarks/), from more than 175,000 customers in 2025, leave Apple's automatic opens out and give 20.73% opens and 2.27% clicks.
 
-The two customer bases differ, so the comparison is rough. Still, one open rate is about double the other while the click rates sit within 0.2 points of each other: that is the argument of this article in four numbers.
+The two customer bases and calculation methods differ, so the comparison is rough. Still, one open rate is about double the other while the click rates sit within 0.2 points of each other: that is the argument of this article in four numbers.
 
 Click rates also vary by sector: from 0.83% to 4.90% in MailerLite's data. **The benchmark that matters most is your own**: note your click rate over your last six issues and compare each new issue with it.
 
@@ -104,7 +102,7 @@ Add UTM parameters to every link in an issue, so that GA4 can tell newsletter vi
 https://example.com/audit/?utm_source=newsletter&utm_medium=email&utm_campaign=2026-10
 ```
 
-Then mark the booking confirmation or thank-you page as a key event (what GA4 used to call a conversion). From then on, "how many calls did October's issues bring?" has an answer. My {{< a key="utm-ga4-funnel-tracking" >}}step-by-step guide to UTM links and GA4{{< /a >}} covers the setup.
+Then create an event in GA4 for visits to the booking confirmation or thank-you page, and mark it as a key event (what GA4 used to call a conversion). From then on, "how many calls did October's issues bring?" has an answer. My {{< a key="utm-ga4-funnel-tracking" >}}step-by-step guide to UTM links and GA4{{< /a >}} covers the setup.
 
 ### Unsubscribes and spam complaints
 
@@ -120,7 +118,7 @@ Count net growth over a month, and churn as the people who left divided by the l
 
 A subject line test judged on opens is now partly a test of noise. Machine opens land on both versions whatever the subject line says, so the gap between them shrinks and the winner can be down to chance. Judge tests on clicks, or better, on replies and conversions. If your tool picks the winner automatically, check which metric it uses.
 
-On a list of a few hundred people, one test proves little: run the same comparison over several issues before you change your habits. That is how I run cold email tests for clients. The emails are plain text with a phone number and no links, so there are no opens or clicks to count, and versions are compared on replies and calls. Over the weeks, the copy that gets answers wins.
+On a list of a few hundred people, one test proves little: run the same comparison over several issues before you change your habits. That is how I run cold email tests for clients. The emails are plain text with a phone number and no links, so there are no opens or clicks to count, and versions are compared on replies and calls. Over time, the copy that gets answers wins.
 
 ## Engagement segments: who is really reading
 
@@ -134,9 +132,9 @@ Double the windows for a monthly newsletter. Send the inactive segment one short
 
 ## Tracking pixels and consent in the UK and France
 
-The ICO's guidance on email marketing says the PECR rules on marketing emails apply to the email itself, while tracking pixels fall under the separate rules on storage and access technologies, regulation 6 of PECR: if your newsletter contains a pixel, you must comply with both ([ICO guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/what-else-do-we-need-to-consider/)). That means clear information and consent of the UK GDPR standard unless an exception applies, and the ICO says these rules apply to every type of subscriber, companies included. The Data (Use and Access) Act 2025 lets the government add exceptions, so this is the position as of 19 October 2026.
+The ICO's guidance on email marketing says the PECR rules on marketing emails apply to the email itself, while tracking pixels fall under the separate rules on storage and access technologies, regulation 6 of PECR: if your newsletter contains a pixel, you must comply with both ([ICO guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/what-else-do-we-need-to-consider/)). That means clear information and consent of the UK GDPR standard unless an exception applies, and the ICO says these rules apply to every type of subscriber, companies included. The Data (Use and Access) Act 2025 added new exceptions in February 2026 and lets the government add more, so this is the position as of 19 October 2026.
 
-In France, the CNIL adopted a recommendation on email tracking pixels on 12 March 2026 and published it on 14 April 2026. Under its reading of article 82 of the French Data Protection Act, tracking opens for marketing needs the recipient's prior consent, separate from their agreement to receive the newsletter, business addresses included. The exemptions are narrow, such as security and measuring deliverability.
+In France, the CNIL adopted a recommendation on email tracking pixels on 12 March 2026 and published it on 14 April 2026. Under its reading of article 82 of the French Data Protection Act, tracking opens for marketing needs the recipient's prior consent, separate from their agreement to receive the newsletter, business addresses included. The exemptions are narrow, such as security and measuring deliverability. Tracked links are not directly covered, but the CNIL says the purpose counts, not the technique.
 
 Since this article argues for judging a newsletter on what readers do, switching open tracking off, or asking for consent to it, costs you little. My guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent{{< /a >}} covers the sign-up side. This is general information, not legal advice: if your list is large, or you combine email data with advertising, an hour with a privacy lawyer or a DPO is money well spent.
 
