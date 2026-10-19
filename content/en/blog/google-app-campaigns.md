@@ -29,7 +29,7 @@ faq:
 
 Google App campaigns are Google Ads campaigns built to promote a mobile app. You give Google a few lines of text, some images and videos, and its systems assemble the ads and show them on Google Search, YouTube, Discover, the websites and apps that carry Google ads and, for Android apps, Google Play. You do not choose keywords or placements: you choose a goal, what you are willing to pay for it, a budget, the countries and the languages.
 
-That makes them quick to launch, and just as quick to waste money on. My view of Google Ads is that the tool is not that tricky, but you need to research your target before you spend. Here, that research goes into what Google cannot do for you: the assets, the tracking and the numbers behind your budget, as of October 2026. Where paid ads fit among your other launch channels is covered in my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}}.
+That makes them quick to launch, and just as quick to waste money on. My view of Google Ads is that the tool is not that tricky, but you need to research your target before you spend. Here, it goes into what Google cannot do for you, and what this guide covers as of October 2026: the assets, the tracking and the numbers behind your budget. Where paid ads fit among your other launch channels is covered in my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}}.
 
 ## How Google App campaigns work
 
@@ -95,7 +95,7 @@ Work backwards from what a new user brings you. Say one install in 20 becomes a 
 
 Google's [best practices for App campaigns](https://support.google.com/google-ads/answer/6167162) give the rule: when you optimise for install volume, set a daily budget of at least 50 times your target CPI. For in-app actions, the floor is 10 times your target CPA (another Google page says 10 to 15 times). The reason is data: the system needs enough conversions every day to learn who converts.
 
-In money, that gives the table below. The monthly column uses Google's general budget rule: a campaign can spend up to twice its daily budget on a given day, but is not charged more than 30.4 times it in a month.
+In money, that gives the table below. The monthly column uses Google's general budget rule: a campaign can spend up to twice its daily budget on a given day, but you are not charged more than 30.4 times that budget in a month.
 
 | Your target | Minimum daily budget | About per month |
 |---|---|---|
@@ -104,7 +104,7 @@ In money, that gives the table below. The monthly column uses Google's general b
 | £2 per install | £100 | £3,040 |
 | £8 per sign-up (target CPA) | £80 | £2,432 |
 
-Two extras reach the invoice: Google adds a 2% fee on ads served in the UK (and another 2% on ads served in France), and VAT is billed separately.
+Two extras appear on the invoice: Google adds a 2% fee on ads served in the UK (and another 2% on ads served in France), and VAT is billed separately.
 
 The rule also works backwards: divide your daily budget by 50 to find the highest target CPI it supports. With £20 a day, that is £0.40 per install; if installs in your category cost more, the campaign is likely to struggle to spend and to learn.
 
@@ -115,7 +115,7 @@ In that case, the money may work harder elsewhere first. My comparison of {{< a 
 App campaigns optimise on the conversions you send back to Google Ads, so set up tracking and test it before launch. Three sources can feed Google Ads:
 
 1. **Firebase** (Google Analytics for Firebase), Google's SDK for Android and iOS: your developer adds it to the app, and the events that matter, such as a sign-up or a purchase, are imported into Google Ads as conversions.
-2. **Google Play**, for Android apps: Google Ads can measure installs through it, but its totals will not match the Play Console, which also counts direct installs.
+2. **Google Play**, for Android apps: Google Ads can measure installs through it, though its figures will not match the Play Console, which also counts installs that did not come from ads.
 3. **A third-party attribution partner**, also called a mobile measurement partner, such as AppsFlyer or Adjust: useful when you advertise on several networks and want one source of truth.
 
 Even if you start with installs, send your key in-app events from day one, so the data is there when you move to in-app actions.

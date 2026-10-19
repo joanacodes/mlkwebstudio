@@ -91,7 +91,7 @@ Un site qui vend à des consommateurs ajoute des conditions générales de vente
 
 ## Ce qu’un site britannique doit afficher
 
-Le droit britannique ne connaît pas de page « mentions légales », mais les informations y sont tout aussi obligatoires pour une société ou un site destiné au Royaume-Uni. Elles viennent de deux textes.
+Le droit britannique ne connaît pas de page « mentions légales », mais les informations y sont tout aussi obligatoires pour les entreprises établies au Royaume-Uni. Elles viennent de deux textes.
 
 1. **Les Electronic Commerce (EC Directive) Regulations 2002**, toujours en vigueur après le Brexit. Leur regulation 6 reprend la liste de l’article 5 de la directive. Elle vise les sole traders (nos entrepreneurs individuels) et les partnerships autant que les sociétés.
 2. **Les règles de « trading disclosures »** des sociétés, dans les Company, Limited Liability Partnership and Business (Names and Trading Disclosures) Regulations 2015. Le site d’une limited company doit afficher sa dénomination, son company number, l’adresse de son siège (registered office) et la partie du Royaume-Uni où elle est immatriculée, comme le [résume GOV.UK](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material) (en anglais).
