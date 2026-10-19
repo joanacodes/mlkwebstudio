@@ -1,7 +1,7 @@
 ---
 title: "The EU Cyber Resilience Act and your app: what has applied since September 2026, and what comes in 2027"
 seo_title: "Cyber Resilience Act for apps: the 2026 and 2027 deadlines"
-description: "Since 11 September 2026, the Cyber Resilience Act has made app makers report exploited flaws within 24 hours. What applies to your app, and what comes in 2027."
+description: "Since 11 September 2026, the Cyber Resilience Act has made app makers report exploited flaws within 24 hours. What applies to your app and what comes in 2027."
 slug: "cyber-resilience-act-apps"
 translationKey: "cyber-resilience-act-apps"
 date: 2026-10-18T22:57:00+02:00
@@ -38,7 +38,7 @@ Everything below is as of 19 October 2026, from [Regulation (EU) 2024/2847](http
 The Act regulates "products with digital elements": hardware or software placed on the EU market, together with the remote data processing they rely on (Article 3). A mobile app is standalone software, and the Commission's guidance confirms that such software can be in scope. Your app is covered when three things are true:
 
 1. **It connects to something.** The Act applies to products meant to connect, directly or indirectly, to a device or a network (Article 2). Almost every app does.
-2. **It is supplied in the EU as part of a business**, paid or free. Software that never leaves your hands is not: the tools I build for my own work, for example, are never supplied to anyone.
+2. **It is supplied in the EU as part of a business**, paid or free. Software you keep to yourself is not, like the tools I build for my own work.
 3. **It carries your name.** The manufacturer is whoever markets the product under its own name or trade mark (Article 3). If an agency, a freelancer or an AI app builder made the app and you publish it under your company's name, the obligations are yours.
 
 The server behind the app counts too: when the app cannot perform one of its functions without a backend you designed, or had designed, for it, that backend is part of the product. Your API and database fall under the same rules as the app on the phone.
@@ -47,7 +47,7 @@ Non-commercial open-source software is outside the Act, and so are apps regulate
 
 ## Since 11 September 2026: report exploited flaws within 24 hours
 
-Article 14 is the part that already applies. It covers two events, and neither of them is "we found a bug":
+Article 14, the part that already applies, covers two events, and neither is "we found a bug":
 
 - **An actively exploited vulnerability**: there is reliable evidence that someone has used the flaw against a system without its owner's permission (Article 3). A weakness your developer spots in a code review, with no sign of use, does not trigger a report.
 - **A severe incident** affecting the app's security: one that harms, or could harm, the protection of sensitive or important data or functions, or that has introduced, or could introduce, malicious code into the app or into your users' systems.
@@ -57,7 +57,7 @@ The clock runs from the moment you become aware of it:
 | Step | Deadline | What it contains |
 |---|---|---|
 | Early warning | Within 24 hours | For a vulnerability, the EU countries where you know the app is available; for an incident, whether it looks malicious |
-| Notification | Within 72 hours | The app concerned, the nature of the exploit or incident, what you have done and what users can do |
+| Notification | Within 72 hours | The app, the nature of the exploit or incident, your measures and what users can do |
 | Final report | 14 days after a fix is available (vulnerability), one month after the notification (incident) | Description, severity and impact, cause, and the fix |
 
 You file once, on ENISA's Single Reporting Platform, which [went live on 11 September 2026](https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched): the report reaches ENISA and the national CSIRT (computer security incident response team) concerned at the same time. It works through web forms, and ENISA's user manuals and tutorial videos are worth reading before you need them. The Commission's [CRA reporting page](https://digital-strategy.ec.europa.eu/en/policies/cra-reporting) sums up the rules.
@@ -119,9 +119,9 @@ The 2027 requirements are a project; the 2026 duty is a routine you need now. In
    Preferred-Languages: en, fr
    ```
 
-   RFC 9116 recommends an expiry date less than a year away, so put the renewal in your calendar.
+   RFC 9116 recommends an expiry date less than a year away, so set a renewal reminder.
 4. **Get an SBOM.** Ask your developer to generate one from each release build, in a standard format such as CycloneDX or SPDX, SDKs included. It also tells you quickly whether a newly published flaw affects your app.
 5. **Choose your support period.** Decide how long you will ship security updates and which iOS and Android versions you support, and make sure the app can force an update for critical fixes.
 6. **Plan the 2027 file.** Book time in 2027 for the risk assessment, the technical documentation and the declaration of conformity.
 
-Book an hour with a lawyer who knows EU product rules before 2027 if your app handles health, financial or children's data, if it might be an important product under Annex III, or if you cannot tell whether you or your developer is the manufacturer. For the rest of the launch, from store listings to advertising, my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}} picks up from here.
+Book an hour with a lawyer who knows EU product rules before 2027 if your app handles health, financial or children's data, if it might be an important product under Annex III, or if you cannot tell whether you or your developer is the manufacturer. My {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}} covers the rest, from store listings to advertising.

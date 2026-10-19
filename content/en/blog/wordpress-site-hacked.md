@@ -12,7 +12,7 @@ keywords: ["WordPress site hacked", "hacked WordPress site", "what to do if your
 summary: "If your WordPress site has been hacked, take it offline, change every password and log everyone out, then save a copy of the infected site and its logs before you clean anything. If personal data was exposed and people are at risk, report it to the ICO within 72 hours (the CNIL in France). Then clean the site, restore a backup from before the hack or rebuild it, and request a review in Search Console to lift Google's 'This site may be hacked' warning."
 cover: "wordpress-site-hacked"
 cover_alt: "Shield with a tick over a person working at a laptop, with the words WordPress: 24 h"
-related: ["website-security-guide", "regain-website-access", "wordpress-to-squarespace", "website-maintenance", "google-search-console-tutorial"]
+related: ["website-security-guide", "regain-website-access", "wordpress-to-squarespace", "website-maintenance", "gdpr-data-breach"]
 services: ["rescue"]
 faq:
   - q: "Will my Google rankings come back after a WordPress hack?"
@@ -72,7 +72,7 @@ https://api.wordpress.org/secret-key/1.1/salt/
 
 {{< callout type="warning" >}}**Use a clean device.** If the computer you manage the site from is infected too, your new passwords can be stolen as you type them. Run a full antivirus scan first, or change the passwords from another device.{{< /callout >}}
 
-If a former provider holds the hosting account and you cannot get in, deal with that first: here is how to {{< a key="regain-website-access" >}}regain access to your website{{< /a >}}.
+If a former provider holds the hosting account and you cannot get in, deal with that first: here is how to {{< a key="regain-website-access" >}}regain access to your website{{< /a >}}. If the attacker has also taken over your email account, {{< a key="incident-response-first-hour" >}}my first-hour plan for a hacked mailbox{{< /a >}} shows how to take it back.
 
 ## Step 2: save the evidence before you clean anything
 
@@ -90,7 +90,7 @@ The temptation is to start deleting. Wait an hour. What you save now shows how t
 
 A WordPress site often holds more personal data than its owner thinks: contact form messages if the form plugin stores them, customer accounts and orders if you sell online, newsletter sign-ups, user accounts. If the attacker could reach them, you have a personal data breach.
 
-**In the UK**, the rule comes from the UK GDPR. If the breach is likely to result in a risk to people's rights and freedoms, you report it to the Information Commissioner's Office within 72 hours of becoming aware of it; the [ICO's page on personal data breaches](https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach) explains how to decide and how to report. If you do not have all the facts yet, report what you know and send the rest in phases. Whatever you decide, record the breach in your own files: what happened, its effects and what you did about it. **In France**, the same GDPR rule applies and the notification goes to the CNIL.
+**In the UK**, the rule comes from the UK GDPR. If the breach is likely to result in a risk to people's rights and freedoms, you report it to the Information Commissioner's Office within 72 hours of becoming aware of it; the [ICO's page on personal data breaches](https://ico.org.uk/for-organisations/report-a-breach/personal-data-breach) explains how to decide and how to report. If you do not have all the facts yet, report what you know and send the rest in phases. Whatever you decide, record the breach in your own files: what happened, its effects and what you did about it. **In France**, the same GDPR rule applies and the notification goes to the CNIL. {{< a key="gdpr-data-breach" >}}What to do in the first 72 hours after a data breach{{< /a >}} covers each step, including when to tell your customers.
 
 {{< callout type="note" >}}**The 72 hours start when you become aware of the breach**, not when you finish investigating it. A late notification has to give the reasons for the delay.{{< /callout >}}
 
@@ -163,4 +163,4 @@ You can do all of this yourself if a hosting control panel and a file manager do
 
 When a hacked site lands on my desk, I answer the same day or within 24 hours. The full fee is paid upfront and I fix the site; if I cannot fix it, you get a written report to hand to someone else, and 70% of the bill back.
 
-Once the site is clean, keep it that way: my guide to {{< a key="website-maintenance" >}}website maintenance{{< /a >}} explains the upkeep a WordPress site needs and what it costs.
+Once the site is clean, keep it that way: my guide to {{< a key="website-maintenance" >}}website maintenance{{< /a >}} explains the upkeep a WordPress site needs and what it costs. For the rest of your data, from laptops to Google Workspace or Microsoft 365, {{< a key="backups-3-2-1" >}}my guide to the 3-2-1 backup rule{{< /a >}} shows how many copies to keep, and where.

@@ -49,9 +49,9 @@ Le format change davantage que le fond :
 | Format | De quoi il s’agit | Ce que cela change pour vous |
 |---|---|---|
 | Le tableur du client | Des questions avec Oui / Non / Sans objet, une colonne de commentaires et parfois de preuves | La colonne commentaires sert à expliquer |
-| SIG (Shared Assessments) | Un questionnaire sous licence, mis à jour chaque année, en version « Lite » ou « Core » selon votre niveau de risque | Lite pour les fournisseurs à risque modéré ; Core est long |
+| SIG (Shared Assessments) | Un questionnaire sous licence, mis à jour chaque année, en version « Lite » ou « Core » selon votre niveau de risque | Lite pour les fournisseurs à risque modéré ; la version Core est longue |
 | CAIQ (Cloud Security Alliance) | Un questionnaire gratuit pour les fournisseurs de cloud et de logiciels, fondé sur la Cloud Controls Matrix | Vous pouvez le publier dans le registre CSA STAR en auto-évaluation, qui n’est pas une certification |
-| Une plateforme fournisseurs | Une plateforme en ligne d’évaluation des tiers | Certaines ajoutent une note calculée sur ce que chacun voit de votre domaine : votre site et vos réglages email comptent |
+| Une plateforme fournisseurs | Une plateforme en ligne d’évaluation des tiers | Certaines ajoutent un score de sécurité calculé à partir de ce que tout le monde peut voir de votre domaine : votre site et vos réglages email comptent |
 
 Certains grands comptes demandent aussi un plan d’assurance sécurité (PAS), rédigé avant la signature ou dans la réponse à un appel d’offres : il décrit vos mesures et devient un engagement contractuel. Pour vous préparer, les 42 mesures du guide d’hygiène informatique de l’ANSSI font une bonne grille de lecture.
 
@@ -77,7 +77,7 @@ Les mêmes thèmes reviennent, quel que soit le format :
 | Sauvegardes | Chiffrées, stockées à part, testées ? | Ce que vous sauvegardez, à quelle fréquence, où, et la date du dernier test de restauration |
 | Incidents | Un plan de réponse ? Sous quel délai nous prévenez-vous ? | Un plan d’une page et un délai tenable (l’article 33, paragraphe 2, du RGPD impose déjà au sous-traitant de prévenir le responsable du traitement « dans les meilleurs délais ») |
 | Sous-traitants | Quels tiers traitent nos données ? | Chaque outil qui touche aux données du client, son usage et son lieu de stockage |
-| Localisation | Où sont nos données ? Sortent-elles de l’UE ? | Les régions utilisées et la garantie retenue pour tout transfert ; pour des données de santé, un hébergeur certifié HDS (article L.1111-8 du Code de la santé publique) |
+| Localisation | Où sont nos données ? Sortent-elles de l’UE ? | Les régions utilisées et la garantie retenue pour tout transfert ; pour des données de santé recueillies lors de soins ou d’un suivi médico-social, un hébergeur certifié HDS (article L.1111-8 du Code de la santé publique) |
 | Personnel | Clauses de confidentialité ? Sensibilisation ? | Une clause pour salariés et freelances, et une sensibilisation annuelle datée |
 | Tests | Tests d’intrusion ? Certifications ? | Souvent un « non » avec une mesure compensatoire, ou le certificat que vous détenez |
 
@@ -112,7 +112,7 @@ R : Pas à ce jour. Nous avons réalisé le diagnostic MonAideCyber de l'ANSSI
 
 ## ISO 27001, SOC 2 ou Cyber Essentials : quelle certification vaut le coup
 
-- **ISO/IEC 27001.** La norme internationale du système de management de la sécurité de l’information, certifiée pour trois ans par un organisme accrédité par le COFRAC, avec des audits de surveillance entre-temps. Comptez des mois de préparation : elle se justifie quand de grands clients en font une condition, ou quand les données sensibles sont votre métier.
+- **ISO/IEC 27001.** La norme internationale des systèmes de management de la sécurité de l’information. La certification, délivrée pour trois ans par un organisme accrédité par le COFRAC, prévoit des audits de surveillance entre-temps. Comptez des mois de préparation : elle se justifie quand de grands clients en font une condition, ou quand les données sensibles sont votre métier.
 - **SOC 2.** Un rapport d’attestation américain (critères de l’AICPA), pas un certificat, demandé surtout par les clients américains et les acheteurs de logiciels ; une petite équipe européenne en a rarement besoin en premier.
 - **Cyber Essentials (Royaume-Uni).** Le dispositif du gouvernement britannique, piloté par le NCSC avec l’IASME, vérifie cinq mesures (pare-feu, configuration sécurisée, mises à jour, contrôle des accès, protection contre les logiciels malveillants) ; il ne vous concerne que si vous travaillez avec des clients britanniques.
 
@@ -138,4 +138,4 @@ Datez et numérotez chaque version. La note de sécurité peut partir à tout le
 2. Réglez d’abord les gains rapides : double authentification, gestionnaire de mots de passe, ordinateurs chiffrés et mises à jour automatiques peuvent transformer plusieurs « non » en « oui » en quelques jours.
 3. Rédigez la politique et la liste des sous-traitants, répondez à chaque question, puis rangez les réponses dans votre dossier sécurité.
 
-Certaines tâches reviennent à d’autres. Un avocat doit relire les clauses de sécurité qui prévoient des pénalités, une responsabilité illimitée ou des droits d’audit ; un DPO ou un conseil en protection des données est utile quand les données sensibles sont au cœur de votre activité ; un prestataire d’audit qualifié PASSI par l’ANSSI mène le test d’intrusion, un organisme certificateur accrédité l’audit ISO 27001, car un fournisseur ne peut pas noter sa propre copie. Enfin, si le questionnaire révèle un logiciel obsolète sur votre site ou l’absence d’enregistrements d’authentification email sur votre domaine, corrigez-le avant que la note de sécurité du client ne parle à votre place.
+Certaines tâches ne vous reviennent pas. Un avocat doit relire les clauses de sécurité qui prévoient des pénalités, une responsabilité illimitée ou des droits d’audit ; un DPO ou un conseil en protection des données est utile quand les données sensibles sont au cœur de votre activité ; le test d’intrusion se confie à un prestataire d’audit, de préférence qualifié PASSI par l’ANSSI, et l’audit ISO 27001 à un organisme certificateur accrédité, car un fournisseur ne peut pas corriger sa propre copie. Enfin, si le questionnaire révèle un logiciel obsolète sur votre site ou l’absence d’enregistrements d’authentification email sur votre domaine, réglez-le avant que le score de sécurité utilisé par le client ne parle à votre place.
