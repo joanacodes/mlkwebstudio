@@ -27,7 +27,7 @@ faq:
 
 Un site qui ne génère aucune demande a l’un de ces deux problèmes. Soit les bons visiteurs n’y arrivent jamais, soit ils arrivent, regardent et repartent avant d’avoir trouvé une raison, ou un moyen simple, de vous contacter. Les remèdes diffèrent : avant de chercher à améliorer le taux de conversion de votre site internet, et surtout avant de payer une refonte, sachez lequel des deux vous concerne.
 
-Quand les visiteurs sont là, on retrouve le plus souvent les mêmes fuites sur les sites vitrines de TPE : une offre trop large pour être comprise d’un coup d’œil, un numéro de téléphone caché dans le pied de page, un formulaire de devis qui demande tout, une page qui rame sur mobile et des demandes qui attendent un jour avant d’obtenir une réponse. Aucune ne nécessite un nouveau site.
+Quand les visiteurs sont là, on retrouve le plus souvent les mêmes fuites sur les sites vitrines de TPE : une offre trop large pour être comprise d’un coup d’œil, un numéro de téléphone caché dans le pied de page, un formulaire de devis qui demande tout, une page qui rame sur mobile et des demandes qui attendent un jour avant d’obtenir une réponse. Aucune ne nécessite un nouveau site. Mon {{< a key="sales-funnel-explained" >}}exemple de tunnel de vente pour une entreprise de services{{< /a >}} montre où elles se situent sur le chemin qui va de la première visite au rendez-vous.
 
 Ce guide montre comment voir où vos visiteurs décrochent, avec des outils gratuits, puis comment corriger chaque fuite. Il complète mon guide pour {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}}.
 

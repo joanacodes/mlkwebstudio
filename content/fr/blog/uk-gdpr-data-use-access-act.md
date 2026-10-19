@@ -27,7 +27,7 @@ faq:
     a: "Non. Un site édité en France reste soumis aux règles de la CNIL : consentement préalable pour tous les traceurs, sauf ceux strictement nécessaires et une mesure d’audience qui respecte toutes les conditions de l’exemption. Recueillir le consentement satisfait aussi les règles britanniques."
 ---
 
-Depuis le Brexit, le RGPD au Royaume-Uni porte un autre nom : le UK GDPR, ou RGPD britannique. Le Data (Use and Access) Act 2025 en est la plus grande réforme. Promulgué le 19 juin 2025 (sanction royale), il ne remplace pas le UK GDPR : il le modifie, comme le Data Protection Act 2018 et le PECR, la réglementation britannique sur les cookies et la prospection électronique. Ses mesures sont entrées en vigueur par étapes ; au 19 octobre 2026, toutes celles présentées ici s’appliquent.
+Depuis le Brexit, le RGPD au Royaume-Uni porte un autre nom : le UK GDPR, ou RGPD britannique. Le Data (Use and Access) Act 2025 en est la plus grande réforme. Promulgué le 19 juin 2025 (sanction royale), il ne remplace pas le UK GDPR : il le modifie, ainsi que le Data Protection Act 2018 et le PECR, la réglementation britannique sur les cookies et la prospection électronique. Ses mesures sont entrées en vigueur par étapes ; au 19 octobre 2026, toutes celles présentées ici s’appliquent.
 
 Pour une entreprise française, le sujet se pose dès que vous avez des clients, des prospects ou des visiteurs au Royaume-Uni, ou un prestataire britannique. Voici ce qui a changé, avec les dates, puis les points à vérifier. Si vous débutez, commencez par mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}}.
 
@@ -42,19 +42,19 @@ Cet article présente les textes et les recommandations officielles ; ce n’es
 | 19 juin 2026 | Obligation de recevoir et de traiter les réclamations sur les données personnelles |
 | 30 septembre 2026 | L’ICO devient officiellement l’Information Commission |
 
-L’étape de février vient d’un seul texte d’application, les Commencement No. 6 Regulations (SI 2026/82). La [page du gouvernement britannique sur l’entrée en vigueur](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) détaille chaque étape, et le [texte de la loi](https://www.legislation.gov.uk/ukpga/2025/18/contents) est sur legislation.gov.uk (en anglais).
+La plupart des mesures de février viennent d’un même texte d’application, les Commencement No. 6 Regulations (SI 2026/82), qui fixent aussi au 19 juin 2026 l’obligation sur les réclamations. La [page du gouvernement britannique sur l’entrée en vigueur](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) détaille chaque étape, et le [texte de la loi](https://www.legislation.gov.uk/ukpga/2025/18/contents) est sur legislation.gov.uk (en anglais).
 
-## Cookies : la mesure d’audience sans bandeau, sous conditions
+## Cookies : de nouvelles exceptions au Royaume-Uni, mais pas pour un site français
 
 Au Royaume-Uni, la regulation 6 du PECR impose toujours un consentement pour stocker ou lire une information sur l’appareil d’un visiteur, sauf exception. Depuis le 5 février 2026, trois exceptions s’ajoutent à la liste :
 
-- **les statistiques** : une mesure d’audience qui sert uniquement à produire des statistiques sur l’utilisation du site ;
+- **les statistiques** : une mesure d’audience qui sert uniquement à produire des statistiques sur l’utilisation du site, en vue de l’améliorer ;
 - **l’apparence** : mémoriser la façon dont le visiteur veut afficher ou utiliser le site, comme sa langue ou la taille du texte ;
 - **l’assistance d’urgence** : localiser un appareil pour envoyer des secours.
 
-Les deux premières exigent une information claire et complète et un moyen simple de s’opposer. Si les données de mesure servent aussi à la publicité, l’exception tombe, et les cookies publicitaires exigent toujours un consentement.
+Les deux premières exigent une information claire et complète et un moyen simple de s’opposer. Si les données de mesure servent aussi à la publicité ou à suivre chaque visiteur individuellement, l’exception tombe, et les cookies publicitaires exigent toujours un consentement.
 
-Elles ne valent pas pour un site édité en France, qui reste soumis à la CNIL : celle-ci ne dispense de consentement que les outils de mesure d’audience respectant des conditions strictes. Mon article sur {{< a key="cookie-banner-rules" >}}le bandeau cookies{{< /a >}} compare les règles de la CNIL, de l’UE et du Royaume-Uni.
+Ces exceptions ne valent pas pour un site édité en France, qui reste soumis à la CNIL : celle-ci ne dispense de consentement que les outils de mesure d’audience respectant des conditions strictes. Mon article sur {{< a key="cookie-banner-rules" >}}le bandeau cookies{{< /a >}} compare les règles de la CNIL, de l’UE et du Royaume-Uni.
 
 ## Demandes d’accès : des recherches proportionnées et un délai qui peut être suspendu
 
