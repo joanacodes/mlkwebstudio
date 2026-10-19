@@ -12,7 +12,7 @@ keywords: ["prise de rendez-vous en ligne", "prise de rendez-vous en ligne gratu
 summary: "Pour la prise de rendez-vous en ligne, l’offre gratuite de YouCanBookMe donne une page de réservation reliée à un agenda (Google, Microsoft, Apple ou Fastmail). Connectez l’agenda, réglez horaires, temps de battement et délais, gardez un formulaire court, faites un test, puis partagez le lien ou intégrez la page à votre site. Limites : une seule page, un bouton « Powered for free » et des rappels que la page de tarifs range dans les forfaits payants."
 cover: "youcanbookme-tutorial"
 cover_alt: "Un homme devant un ordinateur, à côté d’une grille d’agenda aux créneaux réservés, titrée YouCanBookMe"
-related: ["calendly-vs-youcanbookme", "small-business-tools-guide", "squarespace-code-injection", "website-conversion-rate", "automate-lead-follow-up"]
+related: ["calendly-vs-youcanbookme", "small-business-tools-guide", "build-sales-funnel", "website-conversion-rate", "automate-lead-follow-up"]
 services: ["automation"]
 faq:
   - q: "Mes clients doivent-ils créer un compte pour réserver ?"
@@ -148,7 +148,7 @@ Annulez la réservation test et vérifiez que le créneau réapparaît. Cinq min
 
 ### Un lien derrière un bouton
 
-L’option la plus simple fonctionne avec tous les créateurs de sites : un bouton « Prendre rendez-vous » sur votre page contact, qui ouvre votre page de réservation. Placez-le à côté de votre numéro de téléphone, pas à sa place. Dans mes campagnes de cold emailing, les prospects appelaient plutôt que de répondre : appeler va plus vite, et les gens aiment le contact humain. Le lien de réservation sert aux autres, ceux qui préfèrent choisir un horaire plutôt que décrocher leur téléphone. Ajoutez-le aussi à votre signature email.
+L’option la plus simple fonctionne avec tous les créateurs de sites : un bouton « Prendre rendez-vous » sur votre page contact, qui ouvre votre page de réservation. Placez-le à côté de votre numéro de téléphone, pas à sa place. Dans mes campagnes de cold emailing, les prospects appelaient plutôt que de répondre : appeler va plus vite, et les gens aiment le contact humain. Le lien de réservation sert aux autres, ceux qui préfèrent choisir un horaire plutôt que décrocher leur téléphone. Ajoutez-le aussi à votre signature email. Mon tutoriel pour {{< a key="build-sales-funnel" >}}créer un tunnel de vente avec votre site, une page de réservation et vos emails{{< /a >}} montre où ce bouton se place dans l’ensemble du parcours.
 
 Un endroit où je ne le mets jamais : un premier cold email. Mes cold emails sont en texte brut, sans aucun lien, avec un numéro de téléphone et une invitation à appeler, parce que c’est ce qui arrive en boîte de réception ; j’explique {{< a key="plain-text-cold-emails" >}}pourquoi mes cold emails n’ont ni lien ni HTML{{< /a >}}. Gardez le lien de réservation pour les personnes qui répondent.
 

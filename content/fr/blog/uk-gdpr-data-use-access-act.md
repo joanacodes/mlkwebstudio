@@ -42,7 +42,7 @@ Cet article présente les textes et les recommandations officielles ; ce n’es
 | 19 juin 2026 | Obligation de recevoir et de traiter les réclamations sur les données personnelles |
 | 30 septembre 2026 | L’ICO devient officiellement l’Information Commission |
 
-La plupart des mesures de février viennent d’un même texte d’application, les Commencement No. 6 Regulations (SI 2026/82), qui fixent aussi au 19 juin 2026 l’obligation sur les réclamations. La [page du gouvernement britannique sur l’entrée en vigueur](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) détaille chaque étape, et le [texte de la loi](https://www.legislation.gov.uk/ukpga/2025/18/contents) est sur legislation.gov.uk (en anglais).
+La plupart des mesures de février viennent d’un même texte d’application, les Commencement No. 6 Regulations (SI 2026/82), qui fixent aussi au 19 juin 2026 l’entrée en vigueur des règles sur les réclamations. La [page du gouvernement britannique sur l’entrée en vigueur](https://www.gov.uk/guidance/data-use-and-access-act-2025-plans-for-commencement) détaille chaque étape, et le [texte de la loi](https://www.legislation.gov.uk/ukpga/2025/18/contents) est sur legislation.gov.uk (en anglais).
 
 ## Cookies : de nouvelles exceptions au Royaume-Uni, mais pas pour un site français
 
