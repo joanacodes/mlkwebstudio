@@ -18,7 +18,7 @@ faq:
   - q: "Is a Mac safer than a Windows PC for a small team?"
     a: "Neither is safe or unsafe by nature. Both come with disk encryption, an antivirus and automatic updates, and both are targeted by attackers. What protects you is the same short list on either system: updates on, disk encrypted, screen locked and daily work on a standard account."
   - q: "Should work and personal browsing share one browser?"
-    a: "Better not. Use separate browser profiles: Chrome, Edge and Firefox have them, and Safari has had them since macOS Sonoma. Bookmarks, saved sign-ins and extensions then stay apart, and an extension installed for personal use cannot read your work pages."
+    a: "Better not. Use separate browser profiles: Chrome, Edge and Firefox have them, and Safari has had them since version 17 (2023). Bookmarks, saved sign-ins and extensions then stay apart, and an extension installed for personal use cannot read your work pages."
   - q: "Can my employer wipe my personal phone?"
     a: "With Android's work profile or Apple's enrolment for personal devices, the company can remove only the work apps and data, not your photos or personal apps. Full device enrolment, designed for company-owned phones, allows a complete wipe, so ask which one you are being given."
   - q: "What should I do before selling or recycling an old laptop?"
@@ -41,15 +41,15 @@ Many attacks on laptops use flaws that already have a fix. Automatic updates do 
 
 Ignore any pop-up offering an urgent update while you browse: Cybermalveillance.gouv.fr, France's public service for victims of cybercrime, warns against these fake updates. Real updates come from the system settings or the app itself.
 
-Apple publishes no end-of-support dates: plan to replace a Mac or an iPhone that can no longer install the current system. Before buying an Android phone, check how long the maker promises security updates.
+Apple does not announce when a system version stops getting security fixes: plan to replace a Mac or an iPhone that can no longer install the current system. Before buying an Android phone, check how long the maker promises security updates.
 
 ### Still running Windows 10
 
 Microsoft ended Windows 10 support on 14 October 2025 ([Microsoft's end-of-support page](https://www.microsoft.com/en-gb/windows/end-of-support)). As of 19 October 2026, a work PC still on it has three ways forward:
 
 1. **Upgrade to Windows 11**, free if the PC meets the requirements: Microsoft's PC Health Check app tells you in a minute.
-2. **Pay for Extended Security Updates.** For organisations, Microsoft set the first year at $61 per device and doubles the price every year. The second year started on 14 October 2026 at $122 (about £90) per device and cannot be bought without the first, so a PC never enrolled costs $183 (about £135). Microsoft publishes these prices in dollars.
-3. **Replace the PC.** Next to that bill, I would usually replace an old laptop.
+2. **Pay for Extended Security Updates.** For organisations, Microsoft set the first year at $61 per device and doubles the price every year. The second year started on 14 October 2026 at $122 (about £92) per device and cannot be bought without the first, so a PC never enrolled costs $183 (about £138). Microsoft announces these prices in US dollars, so the pound figures are approximate.
+3. **Replace the PC.** For a laptop too old for Windows 11, I would usually put that money towards a replacement: the paid updates stop after a third year anyway, in October 2028.
 
 {{< callout type="warning" >}}Microsoft's extended updates for home users now run to 12 October 2027, but Microsoft says that programme **cannot be used in commercial scenarios**.{{< /callout >}}
 
@@ -68,11 +68,9 @@ Article 32 of the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj) names en
 
 ## Screen lock, a standard account and the built-in antivirus
 
-These three settings stop most opportunistic attacks.
-
 - **A screen lock after five minutes or less.** Mac: System Settings > Lock Screen. Windows: Settings > Accounts > Sign-in options, and Settings > System > Power & battery for the screen timeout. Lock by hand when you stand up: Windows key + L, or Control + Command + Q on a Mac.
 - **A standard account for daily work.** From an administrator account, anything malicious you open gets administrator rights too. Create a separate admin account for installing software (Windows: Settings > Accounts > Other users; Mac: System Settings > Users & Groups) and switch your daily account to Standard. When something tries to install itself, the password prompt is your moment to think twice.
-- **The built-in antivirus, left on.** Windows has Microsoft Defender Antivirus (in the Windows Security app), macOS has XProtect and Gatekeeper. With updates on, they are enough for most small teams. A free third-party antivirus switches Defender off rather than adding to it, and some push adverts, so I would not swap.
+- **The built-in antivirus, left on.** Windows has Microsoft Defender Antivirus (in the Windows Security app), macOS has XProtect and Gatekeeper. With updates on, they are enough for most small teams. A free third-party antivirus switches Defender off rather than adding to it, and some push adverts, so I would not swap. The Windows firewall is on by default; on a Mac, switch it on in System Settings > Network > Firewall.
 
 ## Phones: updates, a real passcode and official stores
 
@@ -105,7 +103,7 @@ Beyond a handful of devices, checking each one by hand stops working. Device man
 
 - Google Workspace: Business Starter and Business Standard include fundamental endpoint management; Business Plus adds advanced management, with strong passcode enforcement, mobile security policies and remote device wipe.
 - Microsoft 365: every business plan includes Basic Mobility and Security, a free subset of Intune that can wipe enrolled devices; Business Premium adds Intune Plan 1 and Defender for Business.
-- Apple: since 14 April 2026, the free Apple Business platform has replaced Apple Business Manager, with built-in management for Macs, iPhones and iPads. It covers the basics; Windows PCs and Android phones still need Intune or Google's tools.
+- Apple: since 14 April 2026, Apple Business, a free platform, has replaced Apple Business Manager and Apple Business Essentials, with built-in management for Macs, iPhones and iPads. It manages Apple devices only, so Windows PCs and Android phones still need Intune or Google's tools.
 
 For three people, the device list and a quarterly check are enough. **From five or six devices, or once client data lives on phones**, I would switch on the management your suite already includes; my guide to {{< a key="secure-google-workspace-microsoft-365" >}}securing Google Workspace and Microsoft 365{{< /a >}} covers the admin side.
 
@@ -122,7 +120,7 @@ The risk is real. When the ICO fined LastPass UK £1,228,283 in December 2025 ov
 
 ## Public Wi-Fi, VPNs, USB sticks and chargers
 
-Each of these gets more attention than it deserves, with one real point:
+Each of these worries people more than it should, but each comes with one rule worth keeping:
 
 - Public Wi-Fi: almost every website and app now encrypts its traffic, so a café network cannot read your email. The remaining risks are fake hotspots named like the real one and sign-in pages asking for an account password. For anything sensitive, use your phone's connection.
 - VPNs: useful when your company provides one to reach internal systems. **I would avoid free VPN apps**: all your traffic passes through a company whose business model you do not know.
@@ -137,7 +135,7 @@ Go through it once per device, then every three months:
 2. No Windows 10 PC without a plan.
 3. Disk encryption on, recovery key in the password manager.
 4. Screen lock after five minutes or less, and a standard account for daily work.
-5. Built-in antivirus on, no unknown "security" add-ons.
+5. Built-in antivirus and firewall on, no unknown "security" add-ons.
 6. Find My, Find Hub or Find my device on, and tested once.
 7. Phones: a passcode of six digits or more, theft protection, previews hidden.
 8. Every device on the list, with its user and serial number.

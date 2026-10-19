@@ -29,7 +29,7 @@ faq:
 
 Depuis le Brexit, le RGPD au Royaume-Uni porte un autre nom : le UK GDPR, ou RGPD britannique. Le Data (Use and Access) Act 2025 en est la plus grande réforme. Adopté le 19 juin 2025, date de la sanction royale, il ne remplace pas le UK GDPR : il le modifie, comme le Data Protection Act 2018 et le PECR, la réglementation britannique sur les cookies et la prospection électronique. Ses mesures sont entrées en vigueur par étapes ; au 19 octobre 2026, toutes celles présentées ici s’appliquent.
 
-Pour une entreprise française, le sujet se pose dès que vous avez des clients, des prospects ou des visiteurs au Royaume-Uni, ou un prestataire britannique. Voici ce qui a changé, avec les dates, ce qui reste vrai pour vos clients européens, puis les points à vérifier. Si vous débutez, commencez par mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}}.
+Pour une entreprise française, le sujet se pose dès que vous avez des clients, des prospects ou des visiteurs au Royaume-Uni, ou un prestataire britannique. Voici ce qui a changé, avec les dates, puis les points à vérifier. Si vous débutez, commencez par mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}}.
 
 Cet article présente les textes et les recommandations officielles ; ce n’est pas un conseil juridique.
 
@@ -54,7 +54,7 @@ Au Royaume-Uni, la regulation 6 du PECR impose toujours un consentement pour sto
 
 Les deux premières exigent une information claire et complète et un moyen simple de s’opposer. Si les données de mesure servent aussi à la publicité, l’exception tombe, et les cookies publicitaires exigent toujours un consentement.
 
-Ces exceptions valent pour les règles britanniques, pas pour la France. Un site édité en France reste soumis à la CNIL, qui ne dispense de consentement que les outils de mesure d’audience respectant des conditions strictes. Mon article sur {{< a key="cookie-banner-rules" >}}le bandeau cookies{{< /a >}} compare les règles de la CNIL, de l’UE et du Royaume-Uni. Si votre site vise les deux publics, un bandeau qui recueille le consentement couvre aussi vos visiteurs britanniques.
+Ces exceptions valent pour les règles britanniques, pas pour la France. Un site édité en France reste soumis à la CNIL, qui ne dispense de consentement que les outils de mesure d’audience respectant des conditions strictes. Mon article sur {{< a key="cookie-banner-rules" >}}le bandeau cookies{{< /a >}} compare les règles de la CNIL, de l’UE et du Royaume-Uni.
 
 ## Demandes d’accès : des recherches proportionnées et un délai qui peut être suspendu
 
@@ -77,19 +77,17 @@ Le guide de l’ICO « How to deal with data protection complaints » (12 fév
 
 ## Intérêt légitime, prospection et amendes PECR
 
-La loi ajoute une septième base légale à l’article 6 du UK GDPR : les **intérêts légitimes reconnus** (article 6(1)(ea)). Pour les finalités de sa nouvelle annexe 1, comme la prévention de la criminalité, la protection des personnes vulnérables, les urgences ou la réponse aux demandes d’organismes publics, plus besoin de mettre en balance vos intérêts et ceux de la personne. Le traitement doit rester nécessaire, et votre information doit préciser la condition invoquée. L’ICO a publié ses lignes directrices le 23 mars 2026. Pour une petite équipe, ces cas restent rares.
+La loi ajoute une septième base légale à l’article 6 du UK GDPR : les **intérêts légitimes reconnus** (article 6(1)(ea)). Pour les finalités de sa nouvelle annexe 1, comme la prévention de la criminalité, la protection des personnes vulnérables, les urgences ou la réponse aux demandes d’organismes publics, plus besoin de mettre en balance vos intérêts et ceux de la personne. Le traitement doit rester nécessaire, et votre information doit préciser la condition invoquée. Pour une petite équipe, ces cas restent rares.
 
 Plus utile au quotidien : le UK GDPR cite désormais la **prospection commerciale**, le partage de données au sein d’un groupe pour sa gestion interne et la sécurité des réseaux comme exemples d’intérêts légitimes. C’est un signal, pas un blanc-seing : l’analyse d’intérêt légitime reste nécessaire, et une personne peut s’opposer à tout moment à la prospection, ce qui y met fin.
 
-Le PECR, qui décide si vous pouvez envoyer un email de prospection, garde ses règles : vous pouvez écrire sans consentement aux sociétés (limited companies), mais pour les entrepreneurs individuels, certaines sociétés de personnes et les particuliers, il faut un consentement ou le soft opt-in. Ce qui change, c’est le prix d’une erreur : depuis février 2026, l’amende PECR peut atteindre 17,5 millions de livres sterling (environ 20 millions d’euros) ou 4 % du chiffre d’affaires annuel mondial, le montant le plus élevé étant retenu, contre 500 000 livres auparavant. Si vous prospectez des entreprises britanniques, mon article sur {{< a key="cold-email-gdpr-uk-france" >}}le cold emailing et le RGPD{{< /a >}} détaille les deux régimes.
-
-Les associations caritatives disposent aussi, depuis le 5 février 2026, d’un soft opt-in propre au Royaume-Uni, limité aux coordonnées recueillies depuis cette date. Le soft opt-in classique, lui, est expliqué dans mon guide sur {{< a key="newsletter-consent-gdpr" >}}la newsletter et le consentement{{< /a >}}.
+Le PECR, qui décide si vous pouvez envoyer un email de prospection, garde ses règles : vous pouvez écrire sans consentement aux sociétés (limited companies), mais pour les entrepreneurs individuels, certaines sociétés de personnes et les particuliers, il faut un consentement ou le soft opt-in, expliqué dans mon guide sur {{< a key="newsletter-consent-gdpr" >}}la newsletter et le consentement{{< /a >}}. Ce qui change, c’est le prix d’une erreur : depuis février 2026, l’amende PECR peut atteindre 17,5 millions de livres sterling (environ 20 millions d’euros) ou 4 % du chiffre d’affaires annuel mondial, le montant le plus élevé étant retenu, contre 500 000 livres auparavant. Si vous prospectez des entreprises britanniques, mon article sur {{< a key="cold-email-gdpr-uk-france" >}}le cold emailing et le RGPD{{< /a >}} détaille les deux régimes.
 
 ## Décisions automatisées et transferts de données
 
 Si un logiciel prend seul des décisions sur des personnes, par exemple écarter des candidatures, les règles britanniques sont désormais plus souples. L’article 80 de la loi a remplacé l’article 22 du UK GDPR par les articles 22A à 22D, en vigueur depuis le 5 février 2026. **Les décisions importantes entièrement automatisées sont permises, avec des garanties** : informer les personnes, leur permettre de présenter leurs observations, d’obtenir une intervention humaine et de contester la décision. Celles qui reposent sur des données sensibles, comme la santé ou l’origine ethnique, restent très encadrées. Pour vos clients de l’UE, l’article 22 du RGPD, plus strict, continue de s’appliquer.
 
-Pour les transferts au départ du Royaume-Uni, un nouveau « data protection test » vérifie que la protection après le transfert n’est pas « sensiblement inférieure » (not materially lower) à celle du droit britannique. Les transferts déjà encadrés par l’IDTA de l’ICO ou par l’avenant britannique aux clauses types européennes (UK Addendum) restent valables.
+Pour les transferts au départ du Royaume-Uni, un nouveau « data protection test » vérifie que la protection après le transfert n’est pas « sensiblement inférieure » (not materially lower) à celle du droit britannique ; les contrats de transfert déjà signés restent valables.
 
 Dans l’autre sens, rien ne bloque. Après avoir examiné la réforme, la Commission européenne a [renouvelé ses décisions d’adéquation pour le Royaume-Uni](https://www.cnil.fr/fr/royaume-uni-la-commission-europeenne-renouvelle-ses-decisions-dadequation) en décembre 2025 : vous pouvez confier des données à un prestataire britannique sans clauses contractuelles types. Et pour vos clients britanniques, la France fait partie de l’EEE, que le droit britannique reconnaît comme adéquat.
 
@@ -97,10 +95,7 @@ Dans l’autre sens, rien ne bloque. Après avoir examiné la réforme, la Commi
 
 Votre entreprise étant établie en France, le RGPD européen s’applique à tous ses traitements. Le UK GDPR s’y ajoute pour une partie d’entre eux : selon son article 3(2), il vise aussi les organismes situés hors du Royaume-Uni qui proposent des biens ou des services à des personnes au Royaume-Uni ou suivent leur comportement. Selon l’ICO, un site simplement accessible depuis le Royaume-Uni ne suffit pas ; une offre qui vise clairement ce public, si. Une boutique en ligne lyonnaise qui livre à Manchester applique ainsi le RGPD européen à tous ses clients, et le UK GDPR en plus pour ses clients britanniques. À l’inverse, une entreprise londonienne qui vend en France relève du RGPD européen pour ces clients.
 
-Deux conséquences pratiques :
-
-- **Un représentant au Royaume-Uni** : sans établissement britannique, vous devez en général en désigner un par écrit (article 27 du UK GDPR, toujours en vigueur au 19 octobre 2026), sauf traitement occasionnel et à faible risque. L’ICO l’explique dans [sa page sur le champ d’application du UK GDPR](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/personal-information-what-is-it/who-does-the-uk-gdpr-apply-to/), et mon guide sur {{< a key="gdpr-outside-eu" >}}le RGPD hors de l’UE{{< /a >}} détaille les deux critères, côté européen comme côté britannique.
-- **La prospection** : pour vos cold emails vers des entreprises britanniques, suivez aussi les règles du PECR vues plus haut.
+Sans établissement britannique, vous devez en général désigner par écrit un représentant au Royaume-Uni (article 27 du UK GDPR, toujours en vigueur au 19 octobre 2026), sauf traitement occasionnel et à faible risque. L’ICO l’explique dans [sa page sur le champ d’application du UK GDPR](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/personal-information-what-is-it/who-does-the-uk-gdpr-apply-to/), et mon guide sur {{< a key="gdpr-outside-eu" >}}le RGPD hors de l’UE{{< /a >}} détaille les deux critères, côté européen comme côté britannique.
 
 ## Ce qu’il faut mettre à jour : la liste pour les petites équipes
 
