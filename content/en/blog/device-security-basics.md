@@ -39,7 +39,7 @@ Most attacks on laptops use flaws that already have a fix. Automatic updates do 
 - Mac: System Settings > General > Software Update, then the information button next to **Automatic updates**: switch every option on.
 - Browsers and apps: Chrome, Edge, Firefox and Safari apply their updates when you close and reopen them, so a browser left open for a month is a month behind. Uninstall the apps nobody uses.
 
-Ignore any pop-up offering an urgent update while you browse: Cybermalveillance.gouv.fr, France's public service for victims of cybercrime, lists it as a classic trap. Real updates come from the system settings or the app itself.
+Ignore any pop-up offering an urgent update while you browse: Cybermalveillance.gouv.fr, France's public service for victims of cybercrime, warns against these fake updates. Real updates come from the system settings or the app itself.
 
 Apple publishes no end-of-support dates: plan to replace a Mac or an iPhone that can no longer install the current system. Before buying an Android phone, check how long the maker promises security updates.
 
@@ -51,7 +51,7 @@ Microsoft ended Windows 10 support on 14 October 2025 ([Microsoft's end-of-suppo
 2. **Pay for Extended Security Updates.** For organisations, Microsoft set the first year at $61 per device and doubles the price every year. The second year started on 14 October 2026 at $122 (about £90) per device and cannot be bought without the first, so a PC never enrolled costs $183 (about £135). Microsoft publishes these prices in dollars.
 3. **Replace the PC.** Next to that bill, I would usually replace an old laptop.
 
-{{< callout type="warning" >}}Microsoft's free extended updates for home users now run to 12 October 2027, but Microsoft says that programme **cannot be used in commercial scenarios**.{{< /callout >}}
+{{< callout type="warning" >}}Microsoft's extended updates for home users now run to 12 October 2027, but Microsoft says that programme **cannot be used in commercial scenarios**.{{< /callout >}}
 
 ## Encryption: what protects a laptop left on a train
 

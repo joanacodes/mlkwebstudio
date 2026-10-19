@@ -45,13 +45,13 @@ Menus move. If a label below has changed, the search bar at the top of each cons
 |---|---|
 | Google Workspace Business Starter | 2-Step Verification enforcement, security keys, Gmail Safety settings, Drive sharing and app controls, alert centre, fundamental endpoint management |
 | Google Workspace Business Standard | The same, plus a sandbox that runs suspicious Gmail attachments in isolation |
-| Google Workspace Business Plus | Plus Vault and advanced endpoint management (strong passcodes, device security policies, remote wipe) |
+| Google Workspace Business Plus | Plus Vault and advanced endpoint management (strong passcodes, device security policies, remote device wipe) |
 | Microsoft 365 Business Basic and Standard | Security defaults, built-in protection against malware, spam and spoofing, preset security policies, Basic Mobility and Security |
 | Microsoft 365 Business Premium | Plus Conditional Access (Microsoft Entra ID P1), Defender for Office 365 Plan 1 (Safe Links, Safe Attachments, impersonation protection), Intune Plan 1, Defender for Business |
 
 Every step below works on Business Starter or Microsoft 365 Business Basic unless I say otherwise, so secure the plan you have before paying for the next one.
 
-One gap: Google's help lists its security health page, which compares your settings with its recommendations, for Enterprise, Education and some Frontline editions only, at the time of writing. On a Business plan, this list is your health check.
+One gap: at the time of writing, Google's help lists its security health page, which compares your settings with its recommendations, for Enterprise, Education and some Frontline editions only. Business plans get a security advisor instead, which offers to turn on recommended settings such as phishing and malware protection: use it, then work through this list.
 
 ## Google Workspace security settings, step by step
 
@@ -59,14 +59,14 @@ All paths start in the Admin console at admin.google.com, signed in as a super a
 
 ### 1. A separate super admin account, protected by two security keys
 
-A super admin can change every setting and reset every password, including other admins'. Google's [best practices for administrator accounts](https://knowledge.workspace.google.com/admin/users/security-best-practices-for-administrator-accounts) come down to four habits:
+Google's [best practices for administrator accounts](https://knowledge.workspace.google.com/admin/users/security-best-practices-for-administrator-accounts) come down to four habits:
 
 1. Two accounts per super admin: one for admin work, one for daily email, which is where phishing lands.
 2. More than one super admin, each a different person, so that one lost phone does not lock the company out.
 3. Sign in as super admin only for admin tasks, then sign out.
 4. Two security keys on each super admin account, with the spare kept elsewhere.
 
-A more limited admin role is enough for password resets. Guard your domain registrar's login too: Google switches super admin account recovery off by default for new customers, and its support team will ask you to prove you control the domain's DNS.
+A more limited admin role is enough for password resets. Guard your domain registrar's login too: Google switches off self-service recovery for super admin accounts by default for new customers, and its support team will ask you to prove you control the domain's DNS.
 
 ### 2. Enforce 2-Step Verification for everyone
 
@@ -82,6 +82,8 @@ Go to **Apps > Google Workspace > Gmail > Safety**. Three sections matter:
 
 In each section, tick **Apply future recommended settings automatically**, so new protections switch on without you. For each protection, pick the action: a warning in the inbox, the spam folder, or quarantine, which only makes sense if an admin will review the messages.
 
+On Business Standard or Plus, also switch on the attachment sandbox from the table, in the **Security sandbox** section of **Apps > Google Workspace > Gmail > Spam, Phishing and Malware**. It is off by default, and its checks can delay a message by up to three minutes.
+
 {{< screenshot id="secure-google-workspace-microsoft-365-01" alt="Google Admin console, Gmail Safety page with the Attachments, Links and external images, and Spoofing and authentication sections" >}}
 
 ### 4. Switch off automatic forwarding and check DKIM
@@ -94,7 +96,7 @@ While you are there, **Authenticate email** shows whether DKIM signs your mail. 
 
 Go to **Apps > Google Workspace > Drive and Docs > Sharing settings > Sharing options**. Sharing outside your organisation can be **Off**, **On** or **Allowlisted domains** (only the domains you list, such as your accountant's firm). Most teams that work with clients need On, with the box that starts with **Warn when files owned by users or shared drives** ticked, as Google's checklist recommends.
 
-For larger organisations, Google also recommends restricted access by default for new files, so only the people named on a file can open it; I would do the same in any team holding client data. Trust rules, if your plan has them and you switch them on, replace these settings.
+For larger organisations, Google also recommends restricted access by default for new files, so only the people named on a file can open it; I would do the same in any team holding client data.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-02" alt="Google Admin console, Drive and Docs sharing options with sharing outside the organisation set to On and the warning box ticked" >}}
 
@@ -119,7 +121,7 @@ Microsoft spreads these settings across the Microsoft 365 admin centre, the Micr
 Whoever bought the subscription is a Global Administrator. Microsoft's guidance:
 
 - **Fewer than five Global Administrators**, each with a normal account for daily work. Admin-only accounts don't need a Microsoft 365 licence.
-- **At least two emergency access accounts** that belong to nobody in particular: cloud-only (ending in .onmicrosoft.com), protected by a passkey on a security key that differs from your usual sign-in method, and never used day to day.
+- **At least two emergency access accounts** that belong to nobody in particular: cloud-only (ending in .onmicrosoft.com), never used day to day and protected by a passkey on a security key. Microsoft wants their sign-in method to differ from your everyday admin accounts', for example keys for these and Microsoft Authenticator for daily admin work.
 - **The narrowest role for everyone else**: User Administrator to create accounts, Helpdesk or Password Administrator to reset passwords, Billing Administrator for invoices. Assign them in the Microsoft 365 admin centre under **Roles > Role assignments**.
 
 On every plan, admins can sign in with a passkey or Microsoft Authenticator instead of a password; Business Premium can make it compulsory.
@@ -128,17 +130,17 @@ On every plan, admins can sign in with a passkey or Microsoft Authenticator inst
 
 ### 2. Multifactor authentication for everyone
 
-Microsoft 365 organisations created after October 2019 have security defaults on, unless someone switched them off. In the Microsoft Entra admin centre, **Entra ID > Overview > Properties > Manage security defaults** should say **Enabled**. They make everyone register Microsoft Authenticator and they block legacy authentication (step 3).
+Most Microsoft 365 organisations created since October 2019 have security defaults on, unless someone switched them off. In the Microsoft Entra admin centre, **Entra ID > Overview > Properties > Manage security defaults** should say **Enabled**. They make everyone register Microsoft Authenticator and they block legacy authentication (step 3).
 
 {{< screenshot id="secure-google-workspace-microsoft-365-05" alt="Microsoft Entra admin centre, Properties tab of the Overview page with the Security defaults panel set to Enabled" >}}
 
-On Business Premium, Conditional Access replaces security defaults with rules you choose. Turn security defaults off only at that point, as Microsoft advises, then create the policies straight away from **Entra ID > Conditional Access > Create new policy from templates**. The Secure foundation templates include **Require multifactor authentication for admins**, **Require multifactor authentication for all users** and **Block legacy authentication**. Exclude your emergency access accounts from policies that block sign-in, and test stricter rules later in **Report-only** mode.
+On Business Premium, Conditional Access can replace security defaults with rules you choose. Switch security defaults off only when you are ready to turn the replacement policies on straight away, as Microsoft advises. Create them from **Entra ID > Conditional Access > Create new policy from templates**; the Secure foundation templates include **Require multifactor authentication for admins**, **Require multifactor authentication for all users** and **Block legacy authentication**. Each new policy starts in **Report-only** mode, which only logs what it would do, and excludes only the account that created it: add your emergency access accounts, which Microsoft says to keep out of any policy that blocks or restricts sign-in, then set the policy to **On**.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-06" alt="Microsoft Entra admin centre, Conditional Access policy templates in the Secure foundation category, including Block legacy authentication" >}}
 
 ### 3. Block legacy authentication, and find what still uses it
 
-Legacy authentication covers older ways of signing in, such as mail apps that use IMAP, POP3 or SMTP with just a password. They can't ask for a second factor, so a stolen password still works through them. Security defaults and the Block legacy authentication template both shut them out.
+Legacy authentication covers older ways of signing in, such as mail apps that use IMAP, POP3 or SMTP with just a password. They can't ask for a second factor, so a stolen password still works through them.
 
 Before you block, open **Entra ID > Monitoring & health > Sign-in logs**, add the **Client App** column and filter on the legacy protocols. The usual suspects: a copier that emails scans, an old mail app on a phone, a website form that sends through a mailbox. Move them to a modern sign-in or a dedicated sending service first.
 
@@ -146,7 +148,7 @@ Before you block, open **Entra ID > Monitoring & health > Sign-in logs**, add th
 
 Microsoft's own order for email protection starts with SPF, DKIM and DMARC for every domain in your tenant, including domains you never send from; the SPF, DKIM and DMARC tutorial above shows Microsoft's two DKIM records.
 
-Then, in the Defender portal, go to **Email & collaboration > Policies & rules > Threat policies > Preset security policies** and turn on **Standard protection** for all recipients, as Microsoft recommends. Strict is the tighter profile, for the people attackers target most, such as whoever approves payments. On Business Premium, the presets also bring Defender for Office 365: Safe Links checks links when they are clicked, Safe Attachments opens attachments in a sandbox before delivery, and impersonation protection flags mail pretending to come from a colleague or from your domain.
+Then, in the Defender portal, go to **Email & collaboration > Policies & rules > Threat policies > Preset security policies**, select **Manage** under **Standard protection** and apply it to all recipients, as Microsoft recommends. Strict is the tighter profile, for the people attackers target most, such as whoever approves payments. On Business Premium, the presets also bring Defender for Office 365: Safe Links checks links when they are clicked, Safe Attachments opens attachments in a sandbox before delivery, and impersonation protection flags mail that imitates the colleagues you list or your own domain.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-07" alt="Microsoft Defender portal, Preset security policies page with Standard protection turned on" >}}
 
@@ -154,13 +156,13 @@ Then, in the Defender portal, go to **Email & collaboration > Policies & rules >
 
 In the Defender portal, go to **Email & collaboration > Policies & rules > Threat policies > Anti-spam**, open **Anti-spam outbound policy (Default)** and edit its protection settings. Under **Forwarding rules**, set **Automatic forwarding rules** to **Off - Forwarding is disabled**.
 
-The default, **Automatic - System-controlled**, has meant Off for new organisations since 2021 but can still mean On in older ones, which is why Microsoft advises choosing explicitly. Off stops inbox rules and mailbox forwarding to outside addresses (the sender gets a bounce with error 5.7.520) and leaves forwarding between colleagues alone. A mailbox that genuinely needs to forward outside can get its own outbound policy; [Microsoft's page on external forwarding](https://learn.microsoft.com/en-us/defender-office-365/outbound-spam-policies-external-email-forwarding) explains the other controls involved.
+The default, **Automatic - System-controlled**, has meant Off for new organisations since 2021 but can still mean On in older ones, which is why Microsoft advises choosing explicitly. Off stops inbox rules and mailbox forwarding to outside addresses (the mailbox that tried to forward gets a bounce with error 5.7.520) and leaves forwarding between colleagues alone. A mailbox that genuinely needs to forward outside can get its own outbound policy; [Microsoft's page on external forwarding](https://learn.microsoft.com/en-us/defender-office-365/outbound-spam-policies-external-email-forwarding) explains the other controls involved.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-08" alt="Microsoft Defender portal, outbound anti-spam policy settings with Automatic forwarding rules set to Off - Forwarding is disabled" >}}
 
 ### 6. Tighten SharePoint and OneDrive sharing
 
-Out of the box, SharePoint and OneDrive sharing is set to the most permissive level. In the SharePoint admin centre, go to **Policies > Sharing**. If nobody shares files outside the company, Microsoft recommends the least permissive level for both. If you do share with clients, at least set the default link type to **Specific people** and the default permission to **View**, so that a forwarded link doesn't open the file to whoever receives it.
+Out of the box, SharePoint and OneDrive sharing is set to the most permissive level. In the SharePoint admin centre, go to **Policies > Sharing**. Microsoft recommends the least permissive level for both, which stops external sharing: right for a team that never shares files outside. If you do share with clients, at least follow its other two recommendations, default link type **Specific people** and default permission **View**, so that a forwarded link doesn't open the file to whoever receives it.
 
 ### 7. Alerts, Secure Score, the audit log and devices
 

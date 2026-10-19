@@ -116,7 +116,7 @@ Each idea is one issue. The examples are illustrations, not client stories.
 
 ### From the questions clients ask
 
-On my first calls, prospects ask whether I have experience, what SEO will bring them and how long it takes to rank. Each is an issue, and so are your clients' questions.
+On my first calls, prospects ask whether I have experience, what SEO will bring them and how long it takes to rank. Each of those questions is an issue; so are your clients'.
 
 1. **Your experience, shown.** One project close to the reader's sector, size and problem says more than a list of logos.
 2. **What your service brings, honestly.** What it can do, what it will not, and who should not buy it yet.
@@ -134,9 +134,9 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 
 ### From your field
 
-11. **A regulation update.** What changes, for whom, from when and what to do, with the official link. An accountant could remind sole traders and landlords that [Making Tax Digital for Income Tax](https://www.gov.uk/government/collections/making-tax-digital-for-income-tax) has applied since 6 April 2026 to qualifying income over £50,000 and that the second quarterly update is due by 7 November 2026 (as of 19 October 2026).
-12. **Curated links.** Three to five things worth reading, each with one line on why it matters to your reader.
-13. **A tool review.** One tool you use: who it suits, who it does not, what it costs. Readers remember an honest verdict.
+11. **A regulation update.** An accountant could remind sole traders and landlords that [Making Tax Digital for Income Tax](https://www.gov.uk/government/collections/making-tax-digital-for-income-tax) has applied since 6 April 2026 to qualifying income over £50,000 and that the second quarterly update is due by 7 November 2026 (as of 19 October 2026).
+12. **Curated links.** Three to five things worth reading this month, each with your one-line take.
+13. **A tool review.** One tool you use every day, judged honestly.
 14. **A myth in your trade.** Mine would be "a website is a one-off cost": it needs maintenance, like any tool you use every day.
 15. **A seasonal reminder.** What to do before the year end or your clients' busy season, such as an air conditioning installer reminding offices to book a service before summer.
 
