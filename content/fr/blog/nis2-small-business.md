@@ -25,7 +25,7 @@ faq:
     a: "Non. Au 19 octobre 2026, NIS2 ne crée aucun certificat qui prouverait qu’un fournisseur s’y conforme. Les clients acceptent d’autres preuves : un questionnaire rempli avec ses justificatifs, une certification ISO/IEC 27001 ou, pour les clients britanniques, le label Cyber Essentials."
 ---
 
-NIS2 est la directive européenne qui impose des obligations de cybersécurité aux organisations dont dépend l’économie. Pour les PME, la réponse courte est plutôt rassurante : elle vise les moyennes et grandes entreprises de 18 secteurs, plus quelques prestataires quelle que soit leur taille, et la plupart des petites équipes n’entrent pas dans son champ.
+NIS2 est la directive européenne qui impose des obligations de cybersécurité aux organisations dont dépend l’économie. Pour une PME, tout dépend de sa taille et de son secteur : la directive vise les entreprises moyennes et grandes de 18 secteurs, plus quelques prestataires quelle que soit leur taille. La plupart des petites équipes, sous les 50 salariés, n’entrent donc pas dans son champ.
 
 Ce qui vous rattrape, c’est la chaîne d’approvisionnement. Vos clients peuvent être soumis à NIS2, et la directive les oblige à vérifier la sécurité de leurs fournisseurs. La question utile devient alors moins « mon entreprise est-elle concernée ? » que « que vont me demander mes clients, et saurai-je répondre ? »
 

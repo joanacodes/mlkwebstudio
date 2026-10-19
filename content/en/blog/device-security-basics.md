@@ -33,11 +33,11 @@ It is part of my {{< a key="cybersecurity-guide" >}}cybersecurity guide for smal
 
 ## Updates first, browsers and apps included
 
-Most attacks on laptops use flaws that already have a fix. Automatic updates do the most work, and they only take effect once the device restarts.
+Many attacks on laptops use flaws that already have a fix. Automatic updates do the most work, and they only take effect once the device restarts.
 
 - Windows 11: Settings > Windows Update. Set your **Active hours** (under Advanced options) so that restarts happen outside your working day, and stop postponing them.
 - Mac: System Settings > General > Software Update, then the information button next to **Automatic updates**: switch every option on.
-- Browsers and apps: Chrome, Edge, Firefox and Safari apply their updates when you close and reopen them, so a browser left open for a month is a month behind. Uninstall the apps nobody uses.
+- Browsers and apps: Chrome, Edge and Firefox download their updates on their own but apply them only when you close and reopen them, so a browser left open for a month is a month behind. Safari updates with macOS. Uninstall the apps nobody uses.
 
 Ignore any pop-up offering an urgent update while you browse: Cybermalveillance.gouv.fr, France's public service for victims of cybercrime, warns against these fake updates. Real updates come from the system settings or the app itself.
 
