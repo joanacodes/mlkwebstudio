@@ -1,7 +1,7 @@
 ---
 title: "Cyber Resilience Act : ce qui s’applique à votre app depuis septembre 2026, et ce qui arrive en 2027"
 seo_title: "Cyber Resilience Act : obligations pour votre application"
-description: "Depuis le 11 septembre 2026, le Cyber Resilience Act impose de signaler en 24 h les failles exploitées d’une application. Ce qui s’applique et ce qui arrive en 2027."
+description: "Le Cyber Resilience Act impose depuis septembre 2026 de signaler en 24 h les failles exploitées d’une application. Ce qui s’applique et ce qui arrive en 2027."
 slug: "cyber-resilience-act-application"
 translationKey: "cyber-resilience-act-apps"
 date: 2026-10-18T22:57:00+02:00
@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:57:00+02:00
 category: "mobile-apps"
 article_type: "news"
 keywords: ["Cyber Resilience Act application", "Cyber Resilience Act application mobile", "CRA obligation de signalement", "CRA 11 septembre 2026", "Cyber Resilience Act 2027", "règlement sur la cyberrésilience"]
-summary: "Depuis le 11 septembre 2026, une entreprise qui propose une application dans l’UE, payante ou gratuite, doit signaler les vulnérabilités activement exploitées et les incidents graves sur la plateforme de l’ENISA, avec une alerte précoce sous 24 heures. Dès le 11 décembre 2027, l’application devra aussi respecter les exigences de sécurité du texte, recevoir des mises à jour de sécurité pendant au moins cinq ans en général et porter le marquage CE. Les éditeurs hors UE sont concernés pour leurs utilisateurs européens."
+summary: "Depuis le 11 septembre 2026, une entreprise qui propose une application dans l’UE, payante ou gratuite, doit signaler les failles activement exploitées et les incidents graves via la plateforme de l’ENISA, avec une alerte précoce sous 24 heures. Dès le 11 décembre 2027, l’application devra respecter les exigences de sécurité, recevoir des mises à jour de sécurité, en général pendant cinq ans au moins, et porter le marquage CE. Les éditeurs hors UE sont aussi concernés."
 cover: "cyber-resilience-act-apps"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un bouclier marqué d’une coche"
 related: ["mobile-app-security-checklist", "api-keys-mobile-apps", "nis2-small-business", "gdpr-outside-eu", "mobile-app-launch-guide"]
@@ -27,30 +27,30 @@ faq:
     a: "Non. Vous devez établir un SBOM (la liste des composants logiciels de l’application) et le conserver avec votre documentation technique, pour qu’une autorité de surveillance du marché puisse le demander. Le publier reste votre choix ; si vous le faites, les informations destinées aux utilisateurs doivent indiquer où le trouver."
 ---
 
-Depuis le 11 septembre 2026, la première obligation du Cyber Resilience Act européen pour les éditeurs d’applications s’applique, y compris aux applications déjà publiées sur l’App Store et Google Play. Si quelqu’un exploite une faille de votre application, vous avez désormais 24 heures pour envoyer une première alerte via l’ENISA, l’agence de l’UE pour la cybersécurité. Les exigences de sécurité de l’application elle-même s’appliqueront à partir du 11 décembre 2027.
+Depuis le 11 septembre 2026, la première obligation du Cyber Resilience Act européen pour les éditeurs d’applications s’applique, y compris aux applications déjà publiées sur l’App Store et Google Play. Si quelqu’un exploite une faille de votre application, vous avez désormais 24 heures pour envoyer une première alerte via l’ENISA, l’agence de l’UE pour la cybersécurité. Les exigences de sécurité de l’application elle-même suivront le 11 décembre 2027.
 
 Cet article s’adresse aux dirigeants de petites équipes qui ont une application, ou en font développer une, et la proposent à des utilisateurs dans l’UE. Je développe des applications sur mesure pour mes clients, et la première question que je vous poserais n’est pas de savoir si votre application est sûre, mais qui, dans votre équipe, remarquerait une attaque et la signalerait dans la journée.
 
-Tout ce qui suit est à jour au 19 octobre 2026 et s’appuie sur le [règlement (UE) 2024/2847](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847), dit règlement sur la cyberrésilience, et sur les lignes directrices publiées par la Commission européenne en juillet 2026. Il s’agit d’informations générales, pas d’un conseil juridique ; la dernière partie indique quand consulter un avocat.
+Tout ce qui suit est à jour au 19 octobre 2026, d’après le [règlement (UE) 2024/2847](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847), dit règlement sur la cyberrésilience, et les lignes directrices de la Commission européenne de juillet 2026. Il s’agit d’informations générales, pas d’un conseil juridique ; la dernière partie indique quand consulter un avocat.
 
 ## Quelles applications sont concernées par le Cyber Resilience Act ?
 
-Le texte encadre les « produits comportant des éléments numériques » : des logiciels ou du matériel mis sur le marché européen, avec le traitement de données à distance dont ils dépendent (article 3). Une application mobile est un logiciel autonome, et les lignes directrices de la Commission confirment qu’un tel logiciel peut entrer dans le champ du texte. Votre application est concernée si trois conditions sont réunies :
+Le texte encadre les « produits comportant des éléments numériques » : des logiciels ou du matériel mis sur le marché européen, avec le traitement de données à distance dont ils dépendent (article 3). Une application mobile est un logiciel autonome, et les lignes directrices de la Commission confirment qu’il peut entrer dans le champ du texte. Votre application est concernée si trois conditions sont réunies :
 
 1. **Elle se connecte à quelque chose.** Le texte vise les produits destinés à se connecter, directement ou indirectement, à un appareil ou à un réseau (article 2). C’est le cas de presque toutes les applications.
 2. **Elle est fournie dans l’UE dans le cadre d’une activité commerciale**, payante ou gratuite. Un logiciel utilisé uniquement en interne, comme les outils que je développe pour mon propre travail, ne l’est pas.
-3. **Elle porte votre nom.** Le fabricant est celui qui commercialise le produit sous son propre nom ou sa propre marque (article 3). Si une agence, un freelance ou un outil de création d’applications par IA a conçu l’application et que vous la publiez au nom de votre entreprise, les obligations sont pour vous.
+3. **Elle porte votre nom.** Le fabricant est celui qui commercialise le produit sous son propre nom ou sa propre marque (article 3). Si une agence, un freelance ou un outil d’IA a conçu l’application et que vous la publiez au nom de votre entreprise, les obligations sont pour vous.
 
-Le serveur derrière l’application compte aussi : quand l’application ne peut pas assurer l’une de ses fonctions sans un back-end que vous avez conçu, ou fait concevoir, pour elle, ce back-end fait partie du produit. Votre API et votre base de données relèvent des mêmes règles que l’application installée sur le téléphone.
+Le serveur derrière l’application compte aussi : si l’application ne peut pas assurer l’une de ses fonctions sans un back-end que vous avez conçu, ou fait concevoir, pour elle, ce back-end fait partie du produit, avec votre API et votre base de données.
 
-Les logiciels libres non commerciaux sortent du texte, tout comme les applications réglementées en tant que dispositifs médicaux, qui suivent leurs propres règles européennes (article 2).
+Les logiciels libres non commerciaux sortent du texte, comme les applications réglementées en tant que dispositifs médicaux, soumises à leurs propres règles (article 2).
 
 ## Depuis le 11 septembre 2026 : signaler une faille exploitée en 24 heures
 
 L’article 14, la partie déjà applicable, vise deux événements, et aucun des deux n’est « nous avons trouvé un bug » :
 
 - **Une vulnérabilité activement exploitée** : il existe des preuves fiables que quelqu’un a utilisé la faille contre un système sans l’autorisation de son propriétaire (article 3). Une faiblesse repérée par votre développeur lors d’une relecture de code, sans signe d’utilisation, ne déclenche pas de signalement.
-- **Un incident grave** ayant un impact sur la sécurité de l’application : un incident qui compromet, ou pourrait compromettre, la protection de données ou de fonctions sensibles ou importantes, ou qui a introduit, ou pourrait introduire, du code malveillant dans l’application ou dans les systèmes de vos utilisateurs.
+- **Un incident grave** touchant la sécurité de l’application : il compromet, ou pourrait compromettre, la protection de données ou de fonctions sensibles ou importantes, ou il a introduit, ou pourrait introduire, du code malveillant dans l’application ou chez vos utilisateurs.
 
 Le délai court à partir du moment où vous en avez connaissance :
 
@@ -60,7 +60,7 @@ Le délai court à partir du moment où vous en avez connaissance :
 | Notification | Sous 72 heures | L’application, la nature de l’exploitation ou de l’incident, vos mesures et ce que les utilisateurs peuvent faire |
 | Rapport final | 14 jours après la mise à disposition d’un correctif (vulnérabilité), un mois après la notification (incident) | Description, gravité et impact, cause, correctif |
 
-Vous déclarez une seule fois, sur la plateforme de signalement unique de l’ENISA, la Single Reporting Platform, [mise en service le 11 septembre 2026](https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched) : le signalement parvient en même temps à l’ENISA et au CSIRT national concerné (l’équipe de réponse aux incidents de sécurité informatique). Tout passe par des formulaires web, et les manuels et tutoriels vidéo de l’ENISA méritent une lecture avant d’en avoir besoin. La [page de la Commission consacrée au CRA](https://digital-strategy.ec.europa.eu/fr/policies/cyber-resilience-act) résume le texte.
+Vous déclarez une seule fois, sur la plateforme de signalement unique de l’ENISA, la Single Reporting Platform, [mise en service le 11 septembre 2026](https://www.enisa.europa.eu/news/the-cra-single-reporting-platform-is-launched) : le signalement parvient en même temps à l’ENISA et au CSIRT national concerné (l’équipe de réponse aux incidents de sécurité informatique). Les manuels et tutoriels vidéo de l’ENISA méritent une lecture avant d’en avoir besoin. La [page de la Commission consacrée au CRA](https://digital-strategy.ec.europa.eu/fr/policies/cyber-resilience-act) résume le texte.
 
 Trois points comptent pour les petites équipes :
 
@@ -68,14 +68,14 @@ Trois points comptent pour les petites équipes :
 - **Vos utilisateurs doivent être prévenus.** Informez les utilisateurs touchés, ou tous les utilisateurs si nécessaire, et dites-leur comment se protéger.
 - **L’exception pour les petites structures est étroite.** Les microentreprises et petites entreprises (moins de 50 personnes et un chiffre d’affaires ou un total de bilan d’au plus 10 millions d’euros) ne peuvent pas être sanctionnées pour une alerte précoce envoyée après 24 heures (article 64, paragraphe 10). La notification sous 72 heures et le rapport final restent dus, et les amendes les plus lourdes atteignent 15 millions d’euros ou 2,5 % du chiffre d’affaires annuel mondial, le montant le plus élevé étant retenu (article 64).
 
-Si des données personnelles sont en jeu, la notification de violation prévue par le RGPD court en parallèle : en principe sous 72 heures, à la CNIL ou à l’autorité compétente (article 33). L’omnibus numérique (Digital Omnibus), une proposition de la Commission du 19 novembre 2025, créerait un point d’entrée unique pour les notifications d’incidents prévues par plusieurs textes européens ; au 19 octobre 2026, ce n’est qu’une proposition. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après un incident{{< /a >}} détaille ce qu’il faut faire avant de remplir le moindre formulaire.
+Si des données personnelles sont touchées, la notification prévue par le RGPD (en principe sous 72 heures, à la CNIL ou à l’autorité compétente, article 33) court en parallèle. L’omnibus numérique (Digital Omnibus), proposé par la Commission le 19 novembre 2025, créerait un point d’entrée unique pour les notifications d’incidents de plusieurs textes européens ; au 19 octobre 2026, ce n’est qu’une proposition. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après un incident{{< /a >}} détaille ce qu’il faut faire avant tout formulaire.
 
 ## À partir du 11 décembre 2027 : sécurité dès la conception, dossier technique et marquage CE
 
-À partir de cette date, une application mise sur le marché européen devra respecter les exigences essentielles de l’annexe I, et continuer à les respecter tant que vous en assurez le support. Concrètement, la partie I demande une application qui :
+Dès cette date, une application mise sur le marché européen devra respecter les exigences essentielles de l’annexe I, et ce tant que vous en assurez le support. Concrètement, la partie I demande une application qui :
 
 - est livrée sans vulnérabilité exploitable connue et avec une configuration sécurisée par défaut ;
-- peut recevoir des mises à jour de sécurité, installées automatiquement par défaut quand c’est pertinent, avec une possibilité de refus pour l’utilisateur ;
+- peut recevoir des mises à jour de sécurité, automatiques par défaut quand c’est pertinent, que l’utilisateur peut refuser ;
 - contrôle les accès par une authentification adaptée et chiffre les données stockées et en transit ;
 - ne collecte que les données nécessaires, enregistre l’activité utile à la sécurité et permet aux utilisateurs de supprimer définitivement leurs données et paramètres.
 
@@ -90,25 +90,25 @@ Ma {{< a key="mobile-app-security-checklist" >}}checklist de sécurité d’une 
 
 Vous devez aussi fixer une **période de support**, pendant laquelle vous traitez les vulnérabilités et publiez les mises à jour de sécurité. Elle dure au moins cinq ans, sauf si l’application est censée être utilisée moins longtemps, et les utilisateurs doivent pouvoir connaître sa date de fin, au moins le mois et l’année (article 13).
 
-Vient ensuite le dossier : une évaluation des risques de cybersécurité, une documentation technique (annexe VII), une déclaration UE de conformité (article 28) et le marquage CE (article 30). Pour la plupart des applications, vous évaluez vous-même la conformité, selon la procédure que le texte appelle contrôle interne.
+Vient ensuite le dossier : une évaluation des risques de cybersécurité, une documentation technique (annexe VII), une déclaration UE de conformité (article 28) et le marquage CE (article 30). Pour la plupart des applications, vous évaluez vous-même la conformité (procédure de contrôle interne).
 
-Les applications déjà sur le marché n’ont à respecter ces exigences que si elles subissent une **modification substantielle** après le 11 décembre 2027 (article 69). Selon les lignes directrices de la Commission, une nouvelle version est substantielle quand elle touche à la conformité, augmente le risque de cybersécurité ou change la finalité de l’application ; les mises à jour courantes ne le sont pas. Une application qui ajoute régulièrement des fonctionnalités et des flux de données franchira probablement cette limite un jour : je préparerais la mise en conformité plutôt que de compter sur l’exemption.
+Les applications déjà sur le marché n’ont à respecter ces exigences que si elles subissent une **modification substantielle** après le 11 décembre 2027 (article 69). Selon les lignes directrices de la Commission, une nouvelle version est substantielle quand elle touche à la conformité, augmente le risque de cybersécurité ou change la finalité de l’application ; les mises à jour courantes ne le sont pas. Une application qui s’enrichit sans cesse franchira probablement cette limite un jour : je préparerais la mise en conformité plutôt que de compter sur l’exemption.
 
 ## Si votre entreprise est installée hors de l’UE
 
-Le texte suit l’application, pas l’entreprise. Une agence genevoise dont l’application de réservation est sur l’App Store français, une start-up montréalaise qui a des utilisateurs en Belgique et un éditeur casablancais présent sur Google Play en France sont tous concernés. C’est la même logique que la portée territoriale du RGPD, que j’explique dans {{< a key="gdpr-outside-eu" >}}mon article sur le RGPD hors de l’UE{{< /a >}}.
+Le texte suit l’application, pas l’entreprise. Une agence genevoise dont l’application est sur l’App Store français, une start-up montréalaise avec des utilisateurs en Belgique et un éditeur casablancais présent sur Google Play en France sont tous concernés. C’est la même logique que la portée territoriale du RGPD, que j’explique dans {{< a key="gdpr-outside-eu" >}}mon article sur le RGPD hors de l’UE{{< /a >}}.
 
 Vous déclarez sur la même plateforme. Sans établissement dans l’UE, l’article 14, paragraphe 7, désigne le CSIRT national qui reçoit vos signalements, en commençant par le pays de votre mandataire si vous en avez un ; l’obligation reste la vôtre dans tous les cas.
 
-La seule façon d’y échapper est de ne plus proposer l’application dans les pays de l’UE, ce qu’App Store Connect et la Play Console permettent de régler pays par pays. Et si vous vendez à des entreprises soumises à {{< a key="nis2-small-business" >}}la directive NIS2{{< /a >}}, attendez-vous aux mêmes questions dans leurs questionnaires fournisseurs, où que soit votre siège.
+Seule issue : ne plus proposer l’application dans les pays de l’UE, ce qu’App Store Connect et la Play Console permettent de régler pays par pays. Et si vous vendez à des entreprises soumises à {{< a key="nis2-small-business" >}}la directive NIS2{{< /a >}}, attendez-vous aux mêmes questions dans leurs questionnaires fournisseurs, où que soit votre siège.
 
 ## Ce que je ferais avant fin 2026
 
-Les exigences de 2027 sont un projet ; l’obligation de 2026 est une routine dont vous avez besoin dès maintenant. Dans l’ordre :
+Les exigences de 2027 sont un projet ; l’obligation de 2026, une routine à installer dès maintenant. Dans l’ordre :
 
 1. **Désignez une personne responsable et une autre pour la remplacer.** Décidez qui juge qu’une faille est exploitée, qui envoie l’alerte précoce et qui prévient les utilisateurs. Les 24 heures courent aussi le week-end : faites un exercice avec un ancien bug.
 2. **Intégrez votre développeur à la routine.** Si une agence, un freelance ou votre hébergeur risque de repérer une attaque avant vous, votre contrat doit l’obliger à vous prévenir immédiatement et préciser qui corrige, et en combien de temps.
-3. **Publiez un contact sécurité.** Créez une adresse du type security@ suivi de votre domaine, une courte page de politique de divulgation et un fichier security.txt (RFC 9116) à l’adresse /.well-known/security.txt du site de votre application, puis ajoutez un lien vers la politique dans vos fiches sur les stores.
+3. **Publiez un contact sécurité.** Créez une adresse du type security@ suivi de votre domaine, une courte page de politique de divulgation et un fichier security.txt (RFC 9116) à l’adresse /.well-known/security.txt du site de l’application, puis liez cette page depuis vos fiches sur les stores.
 
    ```text
    Contact: mailto:security@example.com
@@ -118,8 +118,8 @@ Les exigences de 2027 sont un projet ; l’obligation de 2026 est une routine d
    ```
 
    La RFC 9116 recommande une date d’expiration à moins d’un an : programmez un rappel pour la renouveler.
-4. **Obtenez un SBOM.** Demandez à votre développeur d’en générer un à chaque version publiée, dans un format standard comme CycloneDX ou SPDX, SDK compris. Il vous dira aussi rapidement si une faille nouvellement publiée touche votre application.
-5. **Choisissez votre période de support.** Décidez pendant combien de temps vous publierez des mises à jour de sécurité et quelles versions d’iOS et d’Android vous prenez en charge, et vérifiez que l’application peut imposer une mise à jour en cas de correctif critique.
+4. **Obtenez un SBOM.** Demandez à votre développeur d’en générer un à chaque version publiée, dans un format standard comme CycloneDX ou SPDX, SDK compris. Il montre vite si une faille publiée vous concerne.
+5. **Choisissez votre période de support.** Décidez combien de temps vous publierez des mises à jour de sécurité et quelles versions d’iOS et d’Android vous prenez en charge ; prévoyez de pouvoir imposer une mise à jour pour un correctif critique.
 6. **Préparez le dossier de 2027.** Réservez du temps en 2027 pour l’évaluation des risques, la documentation technique et la déclaration de conformité.
 
 Prenez une heure avec un cabinet d’avocats qui connaît la réglementation européenne des produits avant 2027 si votre application traite des données de santé, financières ou d’enfants, si elle peut être un produit important au sens de l’annexe III, ou si vous ne savez pas qui, de vous ou de votre développeur, est le fabricant. Mon {{< a key="mobile-app-launch-guide" >}}guide pour lancer une application mobile{{< /a >}} couvre le reste, des fiches sur les stores à la publicité.
