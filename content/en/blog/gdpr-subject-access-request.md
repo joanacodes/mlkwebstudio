@@ -56,7 +56,7 @@ Your answer has two parts: a copy of the personal data, and the information in A
 
 Points 1 to 6 are mostly in your {{< a key="privacy-policy-guide" >}}privacy policy{{< /a >}} already. Point 7 is the one prospecting businesses forget: in December 2024 the CNIL fined KASPR, a contact-finding Chrome extension, €240,000 (roughly £200,000), partly because its answers to access requests left out where the data came from ([CNIL decision, in French](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr)).
 
-The copy must be complete and intelligible, which can mean extracts or whole documents when the person needs the context (case C-487/21, May 2023). A request made by email gets an electronic answer, such as a PDF, unless the person asks otherwise (Article 15(3)).
+The copy must be complete and intelligible, which can mean extracts or whole documents when the person needs the context (case C-487/21). A request made by email gets an electronic answer, such as a PDF, unless the person asks otherwise (Article 15(3)).
 
 ## The one-month deadline: counting, extending, pausing
 
@@ -73,7 +73,7 @@ The month runs from the day the request reaches your business, not the day someo
 ## How to answer a subject access request in seven steps
 
 1. **Log it the day it arrives** (see the log below) and name one person in charge.
-2. **Acknowledge it**, with the date they can expect an answer. Ask for ID only if you have a reasonable doubt.
+2. **Acknowledge it**, with the date they can expect an answer.
 3. **Clarify only if you need to**, and offer to send everything if they prefer.
 4. **Search every system** for their name, email addresses, phone numbers and customer number:
    - mailboxes, including colleagues', shared addresses such as contact@ and archives;
@@ -90,7 +90,7 @@ Custom tools count too: the internal app I built for an air conditioning install
 
 ## A reply template you can adapt
 
-Send it as an email or a letter, with the files attached or linked. Keep every heading, even when the answer is "none".
+Attach or link the files, and keep every heading, even when the answer is "none".
 
 ```text
 Subject: Your personal data request (received [date])
