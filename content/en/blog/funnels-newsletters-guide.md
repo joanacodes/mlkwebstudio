@@ -18,7 +18,7 @@ faq:
   - q: "Is a sales funnel only for online shops?"
     a: "No. Any business that turns strangers into clients has one, written down or not. For a service business it ends with a call or an accepted quote rather than a checkout, so the steps that matter are the enquiry, the reply and the follow-up."
   - q: "How much does it cost to set up a sales funnel?"
-    a: "You can start for nothing: GA4 is free, YouCanBookMe's free plan gives you one booking page and Brevo's free plan sends 300 emails a day. You start paying for more booking pages, more emails or a funnel builder; plans change often, so check each pricing page before you choose."
+    a: "You can start for nothing: GA4 is free, YouCanBookMe's free plan gives you one booking page and Brevo's free plan sends 300 emails a day. You start paying for more booking pages, a redirect to your own thank-you page, more emails or a funnel builder; plans change often, so check each pricing page before you choose."
   - q: "Can I add my cold email prospects to my newsletter?"
     a: "Keep the two lists apart. The rules that allow a B2B cold email do not turn a prospect into someone who asked for your newsletter, and in the UK sole traders count as individuals, who need to have given consent. Invite prospects to subscribe and let them choose."
   - q: "What is the difference between a sales funnel and a marketing funnel?"
@@ -35,7 +35,7 @@ It is also the map of my Funnels & newsletters series. Each section explains one
 
 ## What a sales funnel is for a small-team business
 
-A sales funnel is the series of steps between someone's first contact with your business and a signed client. It is drawn as a funnel because fewer people reach each step. For a service business, five steps cover it:
+A sales funnel is the series of steps between someone's first contact with your business and a signed client. It is drawn as a funnel because fewer people reach each step than the one before. For a service business, five steps cover it:
 
 | Step | What happens | What it needs |
 |---|---|---|
@@ -51,10 +51,10 @@ If the idea is new to you, start with {{< a key="sales-funnel-explained" >}}my s
 
 ## The channels that feed your funnel
 
-The top of the funnel is traffic, and a small team gets it from five places. They differ in speed, in cost and in how much of your week they take.
+The top of the funnel is traffic, and a small team gets most of it from five places. They differ in speed, in cost and in how much of your week they take.
 
 - Referrals bring the warmest leads and are the hardest to scale. They are my own first source of clients.
-- SEO and your Google Business Profile are slow to start, then steady. For Pilotech, the site took about a month to build and the first lead came three weeks after it went live.
+- SEO and your Google Business Profile usually take months to start, then bring steady enquiries. A narrow offer can move faster: for Pilotech, the site took about a month to build and the first lead came three weeks after it went live.
 - Cold emailing is the fastest way I know to reach businesses that have never heard of you: in my campaigns, the first reply or call usually comes within 36 hours.
 - Social media depends on the platform. In my view, Pinterest and YouTube Shorts keep working long after you post, while Instagram, TikTok and Facebook need constant posting to stay visible.
 - Ads bring enquiries this month, if you can afford the tests that show what works.
@@ -69,7 +69,7 @@ Most funnels for service businesses take one of two shapes, and many small teams
 
 The direct funnel skips the middle. Someone who needs what you sell reads a short message and picks up the phone. This is how I have run cold email campaigns for {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, an air conditioning installer in the Paris region. They targeted three audiences: Paris restaurants, Paris offices and shops, and architects, who were the main focus and the ones who called most.
 
-Each sequence has three emails at most, in plain text, with no links. The first is three lines long: an introduction and an invitation to call, with the phone number in the email and a pointer to the catalogue on the website. In my experience, prospects call rather than reply because a call is quicker than writing back, and they like talking to a real person. The third email still brings positive answers, from busy people who forgot the first two or had no time to reply. In a year, these campaigns brought Pilotech 15 new clients.
+Each sequence has three emails at most, in plain text, with no links. The first is three lines at most: an introduction and an invitation to call, with the phone number in the email and a pointer to the catalogue on the website. In my experience, prospects call rather than reply because a call is quicker than writing back, and they like talking to a real person. The third email still brings positive answers, from busy people who forgot the first two or had no time to reply. In a year, these campaigns brought Pilotech 15 new clients.
 
 This shape suits offers that people already know they need, sold to businesses you can list, where one conversation is enough to move forward.
 
@@ -87,7 +87,7 @@ You need three tools, and you probably have two of them already.
 
 ### The website
 
-Each offer needs a page with one clear action: call, book or ask for a quote. A page that tries to sell everything sells nothing. I saw it with Pilotech: of the five websites I have made for the company, one offered too many services and did not work at all, while the one that ranked and brought leads sells very specific services. If you are unsure whether a campaign needs its own page, my comparison of {{< a key="landing-page-vs-website" >}}landing pages and websites{{< /a >}} will help. If visitors arrive but do not get in touch, {{< a key="website-conversion-rate" >}}my guide to where visitors drop off{{< /a >}} shows how to find the leak.
+Each offer needs a page with one clear action: call, book or ask for a quote. A page that tries to sell everything sells nothing. I saw it with Pilotech: of the five websites I have made for its founder, one offered too many services and did not work at all, while the one that ranks and brings leads sells very specific services. If you are unsure whether a campaign needs its own page, my comparison of {{< a key="landing-page-vs-website" >}}landing pages and websites{{< /a >}} will help. If visitors arrive but do not get in touch, {{< a key="website-conversion-rate" >}}my guide to where visitors drop off{{< /a >}} shows how to find the leak.
 
 ### The booking page
 
@@ -99,7 +99,7 @@ An email tool sends your newsletter and the automatic emails that follow a sign-
 
 ### When a funnel builder is overkill
 
-Systeme.io, ClickFunnels and GoHighLevel put pages, emails, payments and sometimes a CRM in one place. They make sense if you sell online: courses, digital products, sales pages with upsells. For a business that sells through calls and quotes they are usually more than you need, and they are a classic shiny object: a new tool feels like progress, but your clients still come from the channels you already work. {{< a key="funnel-builders-comparison" >}}My comparison of Systeme.io, ClickFunnels and GoHighLevel{{< /a >}} sets out who each one suits, what it costs and when you need none of them.
+Systeme.io, ClickFunnels and GoHighLevel put pages, emails, payments and sometimes a CRM in one place. They make sense if you sell online (courses, digital products, sales pages with upsells) or, for GoHighLevel, if you run an agency. For a business that sells through calls and quotes they are usually more than you need, and they are a classic shiny object: a new tool feels like progress, but your clients still come from the channels you already work. {{< a key="funnel-builders-comparison" >}}My comparison of Systeme.io, ClickFunnels and GoHighLevel{{< /a >}} sets out who each one suits, what it costs and when you need none of them.
 
 When you are ready to connect the three tools, {{< a key="build-sales-funnel" >}}my step-by-step funnel tutorial{{< /a >}} gives one page a single call to action, links it to a booking page with two or three qualifying questions, adds a double opt-in sign-up form for people who are not ready and logs every lead in one list.
 
@@ -109,7 +109,7 @@ A newsletter is a regular email to people who asked for it. It keeps your name i
 
 ### Consent comes first
 
-In the EU, Article 13 of the [ePrivacy Directive](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002L0058) requires prior consent for marketing emails, with one exception for existing customers: you may email them about your own similar products or services if they could refuse when you collected their address and can refuse in every email. France applies it in article L34-5 of its Code des postes et des communications électroniques, and the UK in regulation 22 of PECR, where sole traders count as individuals. Emails to companies follow looser rules in both countries, and the [ICO's guidance on email marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/) is a clear official starting point.
+In the EU, Article 13 of the [ePrivacy Directive](https://eur-lex.europa.eu/eli/dir/2002/58/2009-12-19/eng) requires prior consent for marketing emails, with one exception for existing customers: you may email them about your own similar products or services if they could refuse when you collected their address and can refuse in every email. France applies it in article L34-5 of its Code des postes et des communications électroniques, and the UK in regulation 22 of PECR, where sole traders count as individuals. Emails to companies follow looser rules in both countries, and the [ICO's guidance on email marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/how-do-we-comply-with-the-pecr-electronic-mail-marketing-rules/) is a clear official starting point.
 
 In practice, consent means a box people tick themselves (never pre-ticked), a record of the date and the wording they saw, and ideally a confirmation click, the double opt-in. Double opt-in is not required by the GDPR, but it is the best proof you can keep. {{< a key="newsletter-consent-gdpr" >}}My guide to newsletter consent{{< /a >}} explains the GDPR, PECR, the soft opt-in and double opt-in with examples from the UK and France. This is general information, not legal advice: if you collect addresses in several countries or sell to consumers at scale, an hour with a lawyer or a data protection specialist is money well spent.
 
@@ -165,7 +165,7 @@ The best funnel fails if nobody calls back. Pilotech now gets about ten prospect
 
 That last step belongs to the business. In my cold email campaigns I do everything except reply: answering the prospect stays with the client, and so does the speed of the answer.
 
-You do not need a custom app to start. {{< a key="automate-lead-follow-up" >}}My free lead follow-up automation{{< /a >}} emails you the prospect's name and phone number the moment a form arrives and reminds you if the enquiry is still waiting an hour later.
+You do not need a custom app to start. {{< a key="automate-lead-follow-up" >}}My free lead follow-up automation{{< /a >}}, a Google Form linked to a Google Sheet with a short Apps Script, emails you the prospect's name and phone number the moment the form is sent and reminds you if the enquiry is still waiting an hour later.
 
 ## Where to start: a four-week plan
 

@@ -18,13 +18,13 @@ faq:
   - q: "Are UTM parameters case sensitive in GA4?"
     a: "The values are: GA4 lists utm_source=LinkedIn and utm_source=linkedin as two different sources. Its channel rules ignore case, so both still land in the same channel, but your source and campaign rows split in two. Write every value in lower case."
   - q: "Why do my campaigns show (not set) or Unassigned in GA4?"
-    a: "(not set) means a parameter is missing, for example a link with a source and a medium but no campaign. Unassigned means GA4 found no channel rule for your medium: use values it recognises, such as email, social or referral."
+    a: "(not set) usually means a parameter is missing, for example a link with a source and a medium but no campaign. Unassigned means no channel rule matched your source and medium: use mediums GA4 recognises, such as email, social or referral."
   - q: "Can I see which channel brought a booking if my booking tool cannot redirect?"
     a: "Not directly in GA4. Count the bookings in the booking tool and add a required 'How did you find us?' question to the booking form. On YouCanBookMe, the redirect to your own page needs the Professional or Teams plan; on Calendly, a paid plan."
   - q: "How far back can a GA4 funnel exploration go?"
     a: "As far as your data retention setting: 2 or 14 months on a standard property. Standard reports such as Traffic acquisition are not affected. Choose 14 months in Admin so you can compare a month with the same month a year earlier."
   - q: "Do UTM links work in PDFs, QR codes and WhatsApp messages?"
-    a: "Yes. The parameters travel with the link wherever it is clicked or scanned, so tag the links in your PDF brochure, the QR code on your flyer and the messages you send. Without a tag, those visits arrive with no referring site and land in Direct."
+    a: "Yes. The parameters travel with the link wherever it is clicked or scanned, so tag the links in your PDF brochure, the QR code on your flyer and the messages you send. Without a tag, those visits usually arrive with no referring site and land in Direct."
 ---
 
 GA4 tells you how many people visit your site and roughly where they come from, but not which of those visits ended in a booked call. Three things fix that: UTM parameters on every link you control, a thank-you page after each booking, and a GA4 key event that counts it. Two GA4 screens then show which channel brings booked calls and where everyone else gives up.
@@ -46,7 +46,7 @@ A UTM parameter is a label added to the end of a link that tells Google Analytic
 
 Google asks you to always set the first three ([Google's help page on campaign URLs](https://support.google.com/analytics/answer/10917952)).
 
-GA4 then sorts each visit into a channel, mostly from the medium, with fixed rules: `email` goes to Email, `social` to Organic Social, `referral` to Referral ([Google's channel rules](https://support.google.com/analytics/answer/9756891)). A medium it has no rule for, such as `newsletter-link`, goes to **Unassigned**, the bin for visits GA4 cannot classify. Visits with neither a tag nor a referring site go to **Direct**, mixed with the people who typed your address.
+GA4 then sorts each visit into a channel, mostly from the medium, with fixed rules: `email` goes to Email, `social` to Organic Social, `referral` to Referral ([Google's channel rules](https://support.google.com/analytics/answer/9756891)). A medium it has no rule for, such as `newsletter-link`, usually goes to **Unassigned**, the bin for visits GA4 cannot classify. Visits with neither a tag nor a referring site go to **Direct**, mixed with the people who typed your address.
 
 ## Step 1: write a naming plan before you tag anything
 
@@ -54,7 +54,7 @@ Most UTM problems are spelling problems. GA4 treats the values as case sensitive
 
 1. **Lower case only**, everywhere.
 2. **Hyphens instead of spaces**, which turn into `%20`.
-3. **Only mediums GA4 recognises**: `email`, `social`, `referral`.
+3. **Only mediums GA4 recognises**, such as `email`, `social` and `referral`.
 4. **One campaign name per message or offer**, date first, so `2026-10-newsletter` sorts itself.
 5. **Never tag links between your own pages.** The booking would be credited to your own tag instead of the channel that brought the visitor.
 
@@ -67,7 +67,7 @@ Keep the plan in a shared sheet, one line per link with its values, the full lin
 | A LinkedIn post | `linkedin` | `social` | `2026-10-case-study` |
 | A guest article on another site | `site-name` | `referral` | `2026-10-guest-article` |
 
-Copy a line for each new link instead of typing from memory. For a newsletter, tagged links show what matters more than opens, the clicks that end in a booking, as my article on {{< a key="newsletter-metrics" >}}newsletter metrics{{< /a >}} explains.
+Copy a line for each new link instead of typing from memory. For a newsletter, tagged links show what matters more than opens: the clicks that end in a booking, as my article on {{< a key="newsletter-metrics" >}}newsletter metrics{{< /a >}} explains.
 
 ## Step 2: build each link with Google's Campaign URL Builder
 
@@ -88,12 +88,12 @@ https://www.yourbusiness.co.uk/kitchen-design?utm_source=newsletter&utm_medium=e
 
 ## Step 3: send every booking to a thank-you page
 
-GA4 cannot see inside your booking tool, only the pages of your site. So each booking has to end on one: a thank-you page that nobody reaches without booking. Keep it out of your menu and out of search results (my funnel tutorial shows how in Squarespace), then tell the booking tool to send people there:
+On its own, GA4 sees only the pages of your site, not what happens inside your booking tool. So each booking has to end on one of them: a thank-you page that nobody reaches without booking. Keep it out of your menu and out of search results (my funnel tutorial shows how in Squarespace), then tell the booking tool to send people there:
 
-- **YouCanBookMe**, which I prefer to Calendly because it does what Calendly does, is easy to find your way around and costs a little less, redirects bookers to your page on its Professional and Teams plans. The address must start with https, and if the calendar is embedded in your page, tick the option that updates the whole browser window, or only the embedded frame changes. My {{< a key="youcanbookme-tutorial" >}}YouCanBookMe tutorial{{< /a >}} covers the settings.
+- **YouCanBookMe**, which I prefer to Calendly because it does what Calendly does, is easy to find your way around and costs a little less, redirects bookers to your page on its Professional and Teams plans. The address must start with https, and if the calendar is embedded in your page, tick the option that updates the whole browser window, or only the embedded frame changes. My {{< a key="youcanbookme-tutorial" >}}YouCanBookMe tutorial{{< /a >}} covers the rest of the setup, from the booking form to embedding the calendar in your page.
 - **Calendly** offers the same redirect on its paid plans; the free plan keeps Calendly's own confirmation page.
 
-{{< callout type="warning" >}}YouCanBookMe can add the booker's name and email to the redirect address. Leave those codes out: **Google Analytics' terms forbid sending it personal information**, and the address of the page is exactly what GA4 records.{{< /callout >}}
+{{< callout type="warning" >}}YouCanBookMe can add the booker's name and email to the redirect address. Leave those codes out: **Google Analytics' terms forbid sending it personally identifiable information**, and the address of the page is exactly what GA4 records.{{< /callout >}}
 
 ## Step 4: count the thank-you page as a key event
 
@@ -123,7 +123,7 @@ After a few weeks of data:
 
 Read the key events first: a source with plenty of sessions and no bookings brings the wrong people or sends them to the wrong page, while one with few sessions but a couple of bookings deserves more of your links.
 
-GA4 credits a visit with no source of its own to the last channel that brought that visitor: someone who clicked your newsletter on Monday and typed your address on Thursday still counts for the newsletter, on the same browser. Visits from ChatGPT and other assistants have a channel of their own, covered in my guide to {{< a key="track-ai-traffic" >}}tracking AI traffic in GA4{{< /a >}}.
+GA4 credits a visit with no source of its own to the last channel that brought that visitor: someone who clicked your newsletter on Monday and typed your address on Thursday still counts for the newsletter, on the same browser. Since May 2026, visits from ChatGPT and some other assistants have had a channel of their own, covered in my guide to {{< a key="track-ai-traffic" >}}tracking AI traffic in GA4{{< /a >}}.
 
 ## Step 6: find where visitors drop out with a funnel exploration
 
@@ -137,7 +137,7 @@ A funnel exploration shows at which step the people who do not book give up ([Go
 
 {{< screenshot id="utm-ga4-funnel-tracking-04" alt="GA4 funnel exploration with three steps, from the service page to the booking page to generate_lead, broken down by device category" >}}
 
-Two quirks: a visitor who skips a step drops out of the later ones, and someone who books twice in the period counts once. Explorations also reach back only as far as your data retention setting, 2 or 14 months, while Traffic acquisition is not affected. Choose 14 months in **Admin** now: data that has already expired does not come back.
+Two quirks: a visitor who skips a step drops out of the later ones, and someone who books twice in the period counts once. Explorations also stop at your data retention limit, so set it to 14 months in **Admin** now: data that has already expired does not come back.
 
 When most people stop at the same step, the funnel will not tell you why. That is when I open Microsoft Clarity, which shows where people engage and what makes them leave: the copy, a picture or the layout. My {{< a key="microsoft-clarity-tutorial" >}}Microsoft Clarity tutorial{{< /a >}} explains the setup.
 
@@ -145,7 +145,7 @@ When most people stop at the same step, the funnel will not tell you why. That i
 
 Even with perfect tags, GA4 sees only part of your bookings.
 
-- **Visitors who refuse cookies.** In the EU, the cautious rule is to load GA4 only once the visitor accepts analytics cookies, and in basic consent mode GA4 receives nothing from those who refuse. The UK has allowed analytics used only for statistics without consent since February 2026, if you explain it and offer an easy way to object. This is not legal advice: my guide to {{< a key="cookie-banner-rules" >}}cookie banner rules{{< /a >}} sets out what the CNIL and the ICO expect as of 19 October 2026.
+- **Visitors who refuse cookies.** In the EU, the cautious rule is to load GA4 only once the visitor accepts analytics cookies, and in basic consent mode GA4 receives nothing from those who refuse. The UK has allowed analytics used only for statistics without consent since February 2026, if you explain it and offer an easy way to object, but not once the same data feeds advertising or tracks individual visitors. This is not legal advice: my guide to {{< a key="cookie-banner-rules" >}}cookie banner rules{{< /a >}} sets out what the CNIL and the ICO expect as of 19 October 2026.
 - **Leads that never click a link.** My own clients come from referrals first, then cold emails and SEO. A recommendation arrives as a phone call or a typed address, and the cold emails I write contain no links at all, only a phone number. GA4 sees the SEO visits and little of the rest.
 
 So keep two counts next to GA4's:

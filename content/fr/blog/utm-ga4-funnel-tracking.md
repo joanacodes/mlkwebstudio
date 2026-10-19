@@ -18,13 +18,13 @@ faq:
   - q: "Les paramètres UTM sont-ils sensibles à la casse dans GA4 ?"
     a: "Les valeurs, oui : GA4 affiche utm_source=LinkedIn et utm_source=linkedin comme deux sources distinctes. Ses règles de canaux ignorent la casse, donc les deux arrivent dans le même canal, mais vos lignes de source et de campagne se dédoublent. Écrivez tout en minuscules."
   - q: "Pourquoi mes campagnes affichent-elles (not set) ou Unassigned dans GA4 ?"
-    a: "(not set) signale un paramètre manquant, par exemple un lien avec une source et un support mais sans campagne. Unassigned signifie que GA4 n’a trouvé aucune règle de canal pour votre support : utilisez des valeurs qu’il reconnaît, en anglais, comme email, social ou referral."
+    a: "(not set) signale le plus souvent un paramètre manquant, par exemple un lien avec une source et un support mais sans campagne. Unassigned signifie qu’aucune règle de canal ne correspond à votre source et à votre support : utilisez des supports que GA4 reconnaît, en anglais, comme email, social ou referral."
   - q: "Peut-on savoir quel canal a amené un rendez-vous si l’outil de réservation ne redirige pas ?"
     a: "Pas directement dans GA4. Comptez les rendez-vous dans l’outil de réservation et ajoutez une question obligatoire « Comment nous avez-vous connus ? » au formulaire de réservation. Sur YouCanBookMe, la redirection vers votre propre page demande l’offre Professional ou Teams ; sur Calendly, une offre payante."
   - q: "Jusqu’où remonte une exploration de l’entonnoir dans GA4 ?"
     a: "Jusqu’à la durée de conservation des données de votre propriété : 2 ou 14 mois sur une propriété standard. Les rapports standards comme Acquisition de trafic ne sont pas concernés. Choisissez 14 mois dans Administration pour comparer un mois au même mois de l’année précédente."
   - q: "Les liens UTM fonctionnent-ils dans un PDF, un QR code ou WhatsApp ?"
-    a: "Oui. Les paramètres suivent le lien partout où il est cliqué ou scanné : balisez les liens de votre plaquette PDF, le QR code de vos flyers et les messages que vous envoyez. Sans balise, ces visites arrivent sans site d’origine et tombent dans Direct."
+    a: "Oui. Les paramètres suivent le lien partout où il est cliqué ou scanné : balisez les liens de votre plaquette PDF, le QR code de vos flyers et les messages que vous envoyez. Sans balise, ces visites arrivent en général sans site d’origine et tombent dans Direct."
 ---
 
 GA4 vous dit combien de personnes visitent votre site et, à peu près, d’où elles viennent, mais pas lesquelles ont pris rendez-vous. Trois éléments comblent ce manque : des paramètres UTM sur chaque lien que vous maîtrisez, une page de remerciement après chaque réservation et un événement clé dans Google Analytics 4 qui la compte. Deux écrans de GA4 montrent ensuite quel canal amène des rendez-vous et où les autres abandonnent.
@@ -46,7 +46,7 @@ Un paramètre UTM est une étiquette ajoutée à la fin d’un lien, qui indique
 
 Google demande de toujours renseigner les trois premiers ([page d’aide de Google sur les URL de campagne](https://support.google.com/analytics/answer/10917952?hl=fr)).
 
-GA4 range ensuite chaque visite dans un canal, surtout d’après le support, selon des règles fixes : `email` va dans Email, `social` dans Organic Social, `referral` dans Referral ([règles de canaux de Google](https://support.google.com/analytics/answer/9756891?hl=fr)). Ces valeurs s’écrivent en anglais : un support inconnu de GA4, comme `courriel` ou `reseau-social`, finit dans **Unassigned** (non attribué), la case des visites non classées. Les visites sans balise ni site d’origine finissent dans **Direct**, avec les personnes qui ont tapé votre adresse.
+GA4 range ensuite chaque visite dans un canal, surtout d’après le support, selon des règles fixes : `email` va dans Email, `social` dans Organic Social, `referral` dans Referral ([règles de canaux de Google](https://support.google.com/analytics/answer/9756891?hl=fr)). Il faut ces valeurs exactes, en anglais : un support que GA4 ne connaît pas, comme `courriel` ou `e-mailing`, finit le plus souvent dans **Unassigned** (non attribué), la case des visites non classées. Les visites sans balise ni site d’origine finissent dans **Direct**, avec les personnes qui ont tapé votre adresse.
 
 ## Étape 1 : écrire un plan de nommage avant de baliser quoi que ce soit
 
@@ -54,7 +54,7 @@ La plupart des problèmes d’UTM sont des fautes d’orthographe. GA4 distingue
 
 1. **Des minuscules uniquement**, partout.
 2. **Des tirets à la place des espaces, et pas d’accents** : un espace devient `%20` et un « é », `%C3%A9`.
-3. **Uniquement des supports que GA4 reconnaît** : `email`, `social`, `referral`.
+3. **Uniquement des supports que GA4 reconnaît**, comme `email`, `social` ou `referral`.
 4. **Un nom de campagne par message ou par offre**, date en tête : `2026-10-newsletter` se range tout seul.
 5. **Jamais de balise sur les liens entre vos propres pages.** Le rendez-vous serait attribué à votre propre balise au lieu du canal qui a amené le visiteur.
 
@@ -67,7 +67,7 @@ Notez ce plan dans un tableur partagé, une ligne par lien avec ses valeurs, le 
 | Un post LinkedIn | `linkedin` | `social` | `2026-10-etude-de-cas` |
 | Un article invité sur un autre site | `nom-du-site` | `referral` | `2026-10-article-invite` |
 
-Copiez une ligne pour chaque nouveau lien au lieu d’écrire de mémoire. Pour une newsletter, les liens balisés montrent ce qui compte plus que les ouvertures, les clics qui finissent en rendez-vous, comme l’explique mon article sur les {{< a key="newsletter-metrics" >}}statistiques de newsletter{{< /a >}}.
+Copiez une ligne pour chaque nouveau lien au lieu d’écrire de mémoire. Pour une newsletter, les liens balisés montrent ce qui compte davantage que les ouvertures : les clics qui finissent en rendez-vous, comme l’explique mon article sur les {{< a key="newsletter-metrics" >}}statistiques de newsletter{{< /a >}}.
 
 ## Étape 2 : créer chaque lien avec le Campaign URL Builder de Google
 
@@ -88,12 +88,12 @@ https://www.votre-entreprise.fr/cuisine-sur-mesure?utm_source=newsletter&utm_med
 
 ## Étape 3 : envoyer chaque réservation vers une page de remerciement
 
-GA4 ne voit pas l’intérieur de votre outil de réservation, seulement vos pages : chaque réservation doit donc se terminer sur une page de remerciement que personne n’atteint sans avoir réservé. Gardez-la hors du menu et des résultats de recherche (mon tutoriel sur le tunnel montre comment faire sur Squarespace), puis demandez à l’outil de réservation d’y envoyer les gens :
+Par défaut, GA4 ne voit que vos pages, pas l’intérieur de votre outil de réservation : chaque réservation doit donc se terminer sur une page de remerciement que personne n’atteint sans avoir réservé. Gardez-la hors du menu et des résultats de recherche (mon tutoriel sur le tunnel montre comment faire sur Squarespace), puis demandez à l’outil de réservation d’y envoyer les gens :
 
-- **YouCanBookMe**, que je préfère à Calendly parce qu’il fait la même chose, qu’on s’y retrouve facilement et qu’il coûte un peu moins cher, redirige vers votre page avec ses offres Professional et Teams. L’adresse doit commencer par https et, si le calendrier est intégré à votre page, cochez l’option qui met à jour toute la fenêtre du navigateur, sinon seul le cadre intégré change. Mon {{< a key="youcanbookme-tutorial" >}}tutoriel YouCanBookMe{{< /a >}} détaille les réglages.
+- **YouCanBookMe**, que je préfère à Calendly parce qu’il fait la même chose, qu’on s’y retrouve facilement et qu’il coûte un peu moins cher, redirige vers votre page avec ses offres Professional et Teams. L’adresse doit commencer par https et, si le calendrier est intégré à votre page, cochez l’option qui met à jour toute la fenêtre du navigateur, sinon seul le cadre intégré change. Mon {{< a key="youcanbookme-tutorial" >}}tutoriel YouCanBookMe{{< /a >}} couvre le reste de la configuration, du formulaire de réservation à l’intégration du calendrier dans votre page.
 - **Calendly** propose la même redirection avec ses offres payantes ; l’offre gratuite garde la page de confirmation de Calendly.
 
-{{< callout type="warning" >}}YouCanBookMe peut ajouter le nom et l’email de la personne à l’adresse de redirection. N’utilisez pas ces codes : **les conditions de Google Analytics interdisent de lui envoyer des données personnelles**, et l’adresse de la page est précisément ce que GA4 enregistre.{{< /callout >}}
+{{< callout type="warning" >}}YouCanBookMe peut ajouter le nom et l’email de la personne à l’adresse de redirection. N’utilisez pas ces codes : **les conditions de Google Analytics interdisent de lui envoyer des informations permettant d’identifier une personne**, et l’adresse de la page est précisément ce que GA4 enregistre.{{< /callout >}}
 
 ## Étape 4 : compter la page de remerciement comme événement clé
 
@@ -123,7 +123,7 @@ Après quelques semaines de données :
 
 Lisez d’abord les événements clés : une source riche en sessions mais sans réservation amène les mauvaises personnes ou les envoie sur la mauvaise page, alors qu’une source qui apporte peu de sessions mais deux ou trois réservations mérite davantage de liens.
 
-GA4 attribue une visite sans source propre au dernier canal qui a amené ce visiteur : quelqu’un qui a cliqué sur votre newsletter le lundi et tapé votre adresse le jeudi compte toujours pour la newsletter, sur le même navigateur. Les visites venues de ChatGPT et des autres assistants ont leur propre canal, expliqué dans mon guide pour {{< a key="track-ai-traffic" >}}mesurer le trafic IA dans Google Analytics{{< /a >}}.
+GA4 attribue une visite sans source propre au dernier canal qui a amené ce visiteur : quelqu’un qui a cliqué sur votre newsletter le lundi et tapé votre adresse le jeudi compte toujours pour la newsletter, sur le même navigateur. Depuis mai 2026, les visites venues de ChatGPT et de quelques autres assistants ont leur propre canal, expliqué dans mon guide pour {{< a key="track-ai-traffic" >}}mesurer le trafic IA dans Google Analytics{{< /a >}}.
 
 ## Étape 6 : repérer où les visiteurs abandonnent avec une exploration de l’entonnoir
 
@@ -137,7 +137,7 @@ Une exploration de l’entonnoir montre à quelle étape abandonnent ceux qui ne
 
 {{< screenshot id="utm-ga4-funnel-tracking-04" alt="Exploration de l’entonnoir de GA4 en trois étapes, de la page de service à la page de réservation puis à generate_lead, répartie par catégorie d’appareil" >}}
 
-Deux particularités : un visiteur qui saute une étape sort des suivantes, et une personne qui réserve deux fois sur la période ne compte qu’une fois. Les explorations ne remontent en outre que jusqu’à la durée de conservation des données, 2 ou 14 mois, sans effet sur Acquisition de trafic. Choisissez 14 mois dans **Administration** dès maintenant : les données expirées ne reviennent pas.
+Deux particularités : un visiteur qui saute une étape sort des suivantes, et une personne qui réserve deux fois sur la période ne compte qu’une fois. Les explorations ne remontent en outre pas au-delà de la durée de conservation des données : passez-la à 14 mois dans **Administration** dès maintenant, car les données expirées ne reviennent pas.
 
 Quand la plupart des gens s’arrêtent à la même étape, l’entonnoir ne dit pas pourquoi. C’est là que j’ouvre Microsoft Clarity, qui montre où les gens s’attardent et ce qui les fait fuir : le texte, une image ou la mise en page. Mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} explique l’installation.
 
@@ -145,7 +145,7 @@ Quand la plupart des gens s’arrêtent à la même étape, l’entonnoir ne dit
 
 Même avec des balises parfaites, GA4 ne voit qu’une partie de vos réservations.
 
-- **Les visiteurs qui refusent les cookies.** Dans l’Union européenne, la règle prudente est de ne charger GA4 qu’après l’accord du visiteur : en mode de base du Consent Mode, il ne reçoit rien de ceux qui refusent. Au Royaume-Uni, depuis février 2026, une mesure d’audience à seule fin statistique peut se passer de consentement si vous l’expliquez et offrez un moyen simple de s’y opposer. Ceci n’est pas un conseil juridique : mon guide sur le {{< a key="cookie-banner-rules" >}}bandeau cookies{{< /a >}} détaille ce qu’attendent la CNIL et l’ICO au 19 octobre 2026.
+- **Les visiteurs qui refusent les cookies.** Dans l’Union européenne, la règle prudente est de ne charger GA4 qu’après l’accord du visiteur : en mode de base du Consent Mode, il ne reçoit rien de ceux qui refusent. Au Royaume-Uni, depuis février 2026, une mesure d’audience à seule fin statistique peut se passer de consentement si vous l’expliquez et offrez un moyen simple de s’y opposer, sauf si les mêmes données servent aussi à la publicité ou au suivi individuel des visiteurs. Ceci n’est pas un conseil juridique : mon guide sur le {{< a key="cookie-banner-rules" >}}bandeau cookies{{< /a >}} détaille ce qu’attendent la CNIL et l’ICO au 19 octobre 2026.
 - **Les prospects qui ne cliquent jamais sur un lien.** Mes propres clients viennent d’abord du bouche-à-oreille, puis des cold emails et du SEO. Une recommandation arrive par un appel ou une adresse tapée, et les cold emails que j’écris ne contiennent aucun lien, seulement un numéro de téléphone. GA4 voit les visites du SEO, et peu du reste.
 
 Gardez donc deux comptes à côté de celui de GA4 :
