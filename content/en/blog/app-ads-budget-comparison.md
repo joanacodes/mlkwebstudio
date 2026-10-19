@@ -101,7 +101,7 @@ Without tracking, you will know what you spent but not what it bought. For a tes
 
 On iPhone, ad networks also rely on Apple's SKAdNetwork and the newer AdAttributionKit (iOS 17.4 and later), which report installs without identifying anyone; your developer chooses which in-app events their conversion values describe.
 
-An attribution partner, also called a mobile measurement partner, such as AppsFlyer or Adjust, becomes worth it when you run two networks or more and need one count that does not credit the same install twice. [AppsFlyer's pricing page](https://www.appsflyer.com/pricing/), in dollars only, lists a free plan, Zero, that it says does not suit apps running paid campaigns, and a pay-as-you-go plan, Growth: 12,000 free conversions in the first year, then $0.07 (about 5p) per conversion, at the time of writing (October 2026).
+An attribution partner, also called a mobile measurement partner, such as AppsFlyer or Adjust, becomes worth it when you run two networks or more and need one count that does not credit the same install twice. At the time of writing (October 2026), [AppsFlyer's pricing page](https://www.appsflyer.com/pricing/), in dollars only, lists a free plan, Zero, which AppsFlyer says does not suit apps running paid campaigns, and a pay-as-you-go plan, Growth: 12,000 free conversions in the first year, then $0.07 (about 5p) per conversion.
 
 If people in the UK or the EU use your app, sharing their data with ad platforms also needs their consent first, under the platforms' own policies and data protection law. This is general information, not legal advice.
 
@@ -121,7 +121,7 @@ A reasoned starting point, not a promise:
 
 1. **Before spending (cost: £0)**: finish the listing, set up the review prompt and the tracking, and check which phones your audience uses.
 2. **Pick one platform** with the three questions above, and one country.
-3. **Weeks 1 and 2 (about £500, or $660)**: launch a simple structure. On Apple Ads, Apple's recommended structure: brand, category and competitor campaigns with exact match keywords, plus a discovery campaign. On Google, one App campaign optimised for installs, with every asset slot filled. On Meta, one campaign with one ad set and three or four creatives. Then leave it alone while the system settles.
+3. **Weeks 1 and 2 (about £500, or $660)**: launch a simple set-up. On Apple Ads, use the structure Apple recommends: brand, category and competitor campaigns with exact match keywords, plus a discovery campaign. On Google, one App campaign optimised for installs, with every asset slot filled. On Meta, one campaign with one ad set and three or four creatives. Then leave it alone while the system settles.
 4. **Weeks 3 and 4 (about £500)**: move the money towards the keywords, assets or creatives with the lowest cost per install, in steps (Google advises changing a budget or a target by 20% at most at a time). On Meta, run one A/B test for at least 7 days.
 5. **At the end of the month**: judge on the cost per install, then on the cost per sign-up or paying user, not on taps or impressions.
 

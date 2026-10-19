@@ -35,7 +35,7 @@ This guide gives you three tests for your own status, the state of play in Franc
 
 NIS2 is [Directive (EU) 2022/2555](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng), adopted in December 2022 to replace the first NIS Directive of 2016. A directive does not bind companies on its own: each EU country has to write it into national law, and the deadline for that was 17 October 2024.
 
-The organisations in scope fall into two groups. Essential entities are mostly large companies in the most critical sectors; important entities are the rest. Both have the same core duties: manage cybersecurity risks, report serious incidents and make their management answerable for both. The difference lies in supervision and fines.
+It sorts the organisations in scope into essential entities, mostly large companies in the most critical sectors, and important entities. Both have the same core duties: manage cybersecurity risks, report serious incidents and make their management answerable. Supervision and fines differ.
 
 ## Does NIS2 apply to your company? Three questions
 
@@ -68,7 +68,7 @@ A few activities are covered even for a two-person company:
 - top-level domain registries and DNS service providers;
 - organisations their country designates, for example as the only provider of an essential service.
 
-{{< callout type="warning" >}}If you run DNS for your clients' domains, read the definition of a **DNS service provider** in Article 6: it includes authoritative DNS offered to third parties, with no size threshold. A web host or agency that offers this service should check where it stands.{{< /callout >}}
+{{< callout type="warning" >}}If you run DNS for your clients' domains, read the definition of a **DNS service provider** in Article 6: it includes authoritative DNS offered to third parties, with no size threshold. Web hosts and agencies that offer it should check where they stand.{{< /callout >}}
 
 If you answered no to question 1, or no to both questions 2 and 3, NIS2 does not apply to your company directly. The Commission's [NIS2 FAQ](https://digital-strategy.ec.europa.eu/en/faqs/directive-measures-high-common-level-cybersecurity-across-union-nis2-directive-faqs) covers the edge cases.
 
@@ -126,7 +126,7 @@ That page reaches you in two forms:
 - a questionnaire, as a spreadsheet, an online form or a supplier portal;
 - contract clauses, often in a security annex: minimum security requirements, a duty to report incidents to the client within a set time, a right to audit or to receive audit reports, rules on subcontracting, and what happens to the client's data when the contract ends.
 
-For clients in the digital sectors covered by Implementing Regulation (EU) 2024/2690 (cloud, data centres, managed IT services, online marketplaces and others), the supplier policy is spelled out in detail, from selection criteria to contract terms and exit. Financial clients follow DORA, which has applied since 17 January 2025 and is more demanding still about ICT suppliers.
+For clients in the digital sectors covered by Implementing Regulation (EU) 2024/2690 (cloud, data centres, managed IT services and others), the supplier policy is spelled out in detail, from selection criteria to contract terms and exit. Financial clients follow DORA, which has applied since 17 January 2025 and is more demanding still about ICT suppliers.
 
 ## The questions to expect, and what to have ready
 

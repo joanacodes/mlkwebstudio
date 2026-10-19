@@ -18,7 +18,7 @@ faq:
   - q: "What is the best day to send a B2B newsletter?"
     a: "There is no universal best day. Pick a working day and a time when your readers are at their desks, keep it the same so they come to expect you, and compare clicks and replies over a few issues before changing it."
   - q: "Should a B2B newsletter be plain text or designed?"
-    a: "Keep it light either way: your logo, readable text and one image at most, so it reads like a person writing. I keep cold emails in plain text with no links, but a newsletter goes to people who asked for it and needs links, so a simple layout from your newsletter tool works."
+    a: "A light layout works best: your logo, readable text and one image at most, so it still reads like a person writing. I keep cold emails in plain text with no links, but a newsletter goes to people who asked for it and needs links, so a simple template from your newsletter tool is fine."
   - q: "Can I use AI to write my newsletter?"
     a: "Yes, for the outline, a first draft and a few subject lines to choose from. What makes an issue worth reading is what AI cannot know: your projects, your clients' questions and your opinions. Read it aloud and check every fact before sending."
   - q: "What is the difference between a newsletter and a welcome sequence?"
@@ -27,7 +27,7 @@ faq:
     a: "There is no minimum. Start with the clients and contacts who agreed to hear from you: a few dozen people who know your work are a better first audience than thousands of strangers, and their replies tell you what to write next."
 ---
 
-A good B2B newsletter brings one useful thing per issue, taken from your clients' questions, your projects and what changes in your field. The first issue is easy; the eighth, in a busy month, is the real test.
+The first issue of a B2B newsletter is easy to write; the eighth, in a busy month, is the real test. Most topics come from your clients' questions, your projects and what changes in your field.
 
 **A B2B newsletter is a regular email to clients, prospects and business contacts that keeps you in mind until they need what you sell, by being useful rather than by selling.** Below: the formats, how often to send, how long to write, 20 B2B newsletter ideas for service businesses and how to tell whether it works.
 
@@ -134,7 +134,7 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 
 ### From your field
 
-11. **A regulation update.** An accountant could remind sole traders and landlords that [Making Tax Digital for Income Tax](https://www.gov.uk/government/collections/making-tax-digital-for-income-tax) has applied since 6 April 2026 to qualifying income over £50,000 and that the second quarterly update is due by 7 November 2026 (as of 19 October 2026).
+11. **A regulation update.** An accountant could remind sole traders and landlords that [Making Tax Digital for Income Tax](https://www.gov.uk/government/collections/making-tax-digital-for-income-tax) has applied since 6 April 2026 to those with qualifying income over £50,000 in 2024-25, and that the second quarterly update is due by 7 November 2026 (as of 19 October 2026).
 12. **Curated links.** Three to five things worth reading this month, each with your one-line take.
 13. **A tool review.** One tool you use every day, judged honestly.
 14. **A myth in your trade.** Mine would be "a website is a one-off cost": it needs maintenance, like any tool you use every day.
@@ -152,7 +152,7 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 
 - **Keep a question log.** Every question a client or prospect asks goes into one note. After a month you have more topics than issues.
 - **Reuse your blog.** One article becomes one issue: the key point in 150 words and a link. The reverse works too: an issue that gets replies deserves a full article, written as in my guide to {{< a key="write-seo-blog-posts" >}}blog posts that bring in enquiries{{< /a >}}.
-- **Look for complaints.** When I research copy and SEO, I use Claude with deep research to find what people in a niche complain about most. Your readers have the same complaints.
+- **Look for complaints.** When I research copy and SEO, I use deep research tools to find what people in a niche complain about most. Your readers have the same complaints.
 
 ## How to tell whether it works: clicks, replies and calls
 
@@ -167,7 +167,7 @@ Track these instead, issue by issue:
 
 A simple sheet is enough: issue, topic, clicks, replies, calls. After six issues, write more of what got replies.
 
-{{< callout type="note" >}}In France, the CNIL's [recommendation on email tracking pixels](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf) (April 2026, in French) says a pixel that measures opens for marketing needs the reader's consent, B2B included as law firms read it, with narrow exceptions such as deliverability. Replies need no tracker. This is a summary, not legal advice: if you measure opens of readers in France, ask a lawyer or your DPO.{{< /callout >}}
+{{< callout type="note" >}}In the UK, the [ICO's email marketing guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-direct-marketing-using-electronic-mail/what-else-do-we-need-to-consider/) says that when an email carries a tracking pixel, the PECR rules on cookies and similar technologies apply too, not only the rules on marketing emails. In France, the CNIL's [recommendation on email tracking pixels](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf) (April 2026, in French) says a pixel that measures opens for marketing needs the reader's consent, B2B included as law firms read it, with narrow exceptions such as deliverability checks. Replies need no tracker. This is a summary, not legal advice: if you measure opens, ask a lawyer or your DPO.{{< /callout >}}
 
 ## Your first three issues: a plan for this month
 

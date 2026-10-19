@@ -1,7 +1,7 @@
 ---
 title: "Apple Ads, Google ou Meta : où investir les 1 000 premiers euros de votre app"
 seo_title: "Publicité application mobile : Apple Ads, Google ou Meta ?"
-description: "Publicité application mobile : Apple Ads, Google ou Meta ? Comment choisir la plateforme et dépenser vos 1 000 premiers euros sans affamer les algorithmes."
+description: "Apple Ads, Google ou Meta : où faire de la publicité pour une application mobile, et comment dépenser vos 1 000 premiers euros sans affamer les algorithmes."
 slug: "publicite-application-mobile"
 translationKey: "app-ads-budget-comparison"
 date: 2026-10-18T22:42:00+02:00
@@ -22,12 +22,12 @@ faq:
   - q: "Existe-t-il un budget minimum pour la publicité d’une application ?"
     a: "La page tarifaire de Meta indique qu’il n’y a pas de budget minimum, seulement des montants recommandés, et le Gestionnaire de publicités vous prévient quand un budget est trop bas ; TikTok fixe des minimums par groupe d’annonces et par campagne. En pratique, le minimum qui compte est le volume dont chaque système a besoin pour apprendre, qui dépend du coût d’une installation."
   - q: "Combien de temps laisser tourner un premier test avant de juger ?"
-    a: "Au moins deux semaines, idéalement le mois entier. Apple demande au moins deux semaines avant de juger ses enchères Maximize Conversions, et Google compte 7 à 14 jours pour qu’une campagne pour applications se stabilise. Les résultats des premiers jours mesurent surtout la phase d’apprentissage."
+    a: "Au moins deux semaines, idéalement le mois entier. Apple demande au moins deux semaines avant de juger sa stratégie d’enchères automatique (Maximize Conversions), et Google compte 7 à 14 jours pour qu’une campagne pour applications se stabilise. Les résultats des premiers jours mesurent surtout la phase d’apprentissage."
 ---
 
 Avec 1 000 € pour lancer la publicité d’une application mobile, la meilleure plateforme est celle qui correspond à deux choses : la façon dont on trouve les apps comme la vôtre, et le téléphone que vos utilisateurs ont en poche. Apple Ads touche les personnes qui cherchent dans l’App Store. Les campagnes Google pour applications diffusent votre app sur les services de Google, sur Android comme sur iOS. Meta la montre à des gens qui font défiler Facebook et Instagram sans chercher la moindre app.
 
-Mon conseil pour une petite équipe : choisissez-en une, pas trois. Chaque plateforme a besoin d’un certain nombre d’installations par semaine avant que son système d’enchères sache qui cibler, et 1 000 € partagés en trois n’en nourrissent aucune. Je les compare ici en octobre 2026, budget et suivi compris. La publicité n’est qu’une partie d’un lancement : mon {{< a key="mobile-app-launch-guide" >}}guide pour lancer une application mobile{{< /a >}} couvre le reste.
+Mon conseil pour une petite équipe : choisissez-en une, pas trois. Les enchères automatiques de chaque plateforme ont besoin d’un certain nombre d’installations par semaine avant de savoir qui cibler, et 1 000 € partagés en trois n’en nourrissent aucune. Je les compare ici en octobre 2026, budget et suivi compris. La publicité n’est qu’une partie d’un lancement : mon {{< a key="mobile-app-launch-guide" >}}guide pour lancer une application mobile{{< /a >}} couvre le reste.
 
 ## Apple Ads, Google et Meta côte à côte
 
@@ -44,7 +44,7 @@ Mon conseil pour une petite équipe : choisissez-en une, pas trois. Chaque plat
 
 Apple Search Ads s’appelle Apple Ads depuis avril 2025, parce que ses annonces dépassent désormais les résultats de recherche. Sa force, c’est l’intention. Quelqu’un qui tape « facturation » ou « planning repas » dans l’App Store veut cette app tout de suite, et Apple affirme que près de 65 % des téléchargements dans l’App Store se font juste après une recherche.
 
-Pour un petit budget, Apple Ads a un autre avantage : avec les enchères manuelles (**Manage Bids**), vous fixez le maximum payé par tap, par groupe d’annonces ou par mot-clé, et Apple ne publie aucun seuil de volume. Pour sa stratégie automatique, **Maximize Conversions**, Apple recommande un budget qui permette au moins cinq conversions par jour. Apple Ads Basic, facturé à l’installation sur un budget mensuel, ne demande aucune gestion mais vous apprend peu sur les recherches utiles.
+Pour un petit budget, Apple Ads a un autre avantage : avec les enchères manuelles (**Manage Bids** dans l’interface en anglais), vous fixez le maximum payé par tap, par groupe d’annonces ou par mot-clé, et Apple ne publie aucun seuil de volume. Pour sa stratégie automatique (**Maximize Conversions** en anglais), Apple conseille un budget quotidien qui permette au moins cinq conversions par jour. Apple Ads Basic, facturé à l’installation sur un budget mensuel, ne demande aucune gestion mais vous apprend peu sur les recherches utiles.
 
 Apple Ads ne touche que les utilisateurs d’iPhone et d’iPad, et en France ils sont minoritaires : iOS représentait environ 36 % du trafic web mobile en août 2026 selon [Statcounter](https://gs.statcounter.com/os-market-share/mobile/france), contre environ 64 % pour Android. Le volume de recherche est l’autre plafond : si presque personne ne cherche ce que fait votre app, il n’y a pas grand-chose à acheter. Mon {{< a key="apple-ads-tutorial" >}}tutoriel Apple Ads{{< /a >}} détaille une première campagne, mot-clé par mot-clé.
 
@@ -52,9 +52,9 @@ Apple Ads ne touche que les utilisateurs d’iPhone et d’iPad, et en France il
 
 Une campagne Google pour applications promeut une app sur un seul système, Android ou iOS, sur la recherche Google, YouTube, Discover, le Réseau Display et, pour Android, Google Play. Vous fournissez titres, descriptions, images et vidéos ; Google assemble les annonces et décide où et à qui les montrer. Mon avis sur Google Ads : ce n’est pas si compliqué, mais il faut d’abord chercher qui est votre cible et ce qu’elle tape ; ici, ce travail passe dans vos visuels et votre coût cible.
 
-Le piège, c’est le volume. Les [bonnes pratiques de Google pour les campagnes pour applications](https://support.google.com/google-ads/answer/6167162?hl=fr) demandent un budget quotidien d’au moins 50 fois votre coût par installation cible quand vous optimisez le volume d’installations. Si les installations coûtent plus cher que votre budget ne le permet, la campagne risque de dépenser lentement et d’apprendre peu.
+Le piège, c’est le volume. Les [bonnes pratiques de Google pour les campagnes pour applications](https://support.google.com/google-ads/answer/6167162?hl=fr) demandent un budget quotidien d’au moins 50 fois votre coût par installation cible quand vous optimisez le volume d’installations. Autrement dit, votre budget quotidien doit pouvoir payer environ 50 installations au coût cible. Si, dans votre catégorie, une installation coûte plus d’un cinquantième de ce budget, la campagne apprend sur moins d’installations que ne le prévoit Google.
 
-En France, c’est pourtant la plateforme qui couvre le mieux Android, majoritaire, et la seule des trois qui affiche des annonces dans Google Play. Mon guide des {{< a key="google-app-campaigns" >}}campagnes Google Ads pour applications{{< /a >}} détaille les éléments, les enchères et le suivi.
+Son atout, c’est Android, majoritaire en France : des trois, c’est la seule plateforme qui affiche des annonces dans Google Play. Mon guide des {{< a key="google-app-campaigns" >}}campagnes Google Ads pour applications{{< /a >}} détaille les éléments, les enchères et le suivi.
 
 ## Meta : la découverte, portée par vos créations
 
@@ -62,13 +62,13 @@ Les campagnes de promotion d’application de Meta, dites Advantage+ dans leur v
 
 À mon avis, les publicités Instagram et Facebook servent aussi bien la notoriété que la conversion, mais on brûle de l’argent en tests A/B avant de trouver ce qui marche. Je mets en garde les fondateurs contre deux erreurs, sauter la recherche (les mots et les problèmes de vos futurs utilisateurs) et sauter les tests, que détaille mon article sur les {{< a key="facebook-ads-mistakes" >}}erreurs en publicité Facebook{{< /a >}}.
 
-La diffusion reste en phase d’apprentissage tant qu’un ensemble de publicités n’a pas obtenu environ 50 événements d’optimisation en 7 jours, selon l’[aide de Meta](https://fr-fr.facebook.com/business/help/112167992830700) ; en dessous, le Gestionnaire de publicités signale un apprentissage limité. Meta facture aussi des frais de localisation depuis le 1er juillet 2026 : 3 % pour les publicités diffusées en France, selon Reuters.
+La diffusion reste en phase d’apprentissage tant qu’un ensemble de publicités n’a pas obtenu environ 50 événements d’optimisation en 7 jours, selon l’[aide de Meta](https://fr-fr.facebook.com/business/help/112167992830700) ; en dessous, le Gestionnaire de publicités signale un apprentissage limité. Depuis le 1er juillet 2026, Meta ajoute aussi des frais de localisation au montant dépensé : 3 % pour les publicités diffusées en France, selon Reuters.
 
 Sur iPhone, les résultats sont plus maigres. Depuis iOS 14.5 (26 avril 2021), l’App Tracking Transparency d’Apple oblige les apps à demander l’autorisation avant de suivre les personnes dans les apps et sites d’autres entreprises, et beaucoup refusent. Meta mesure alors les installations sur iPhone via SKAdNetwork d’Apple ou sa propre Aggregated Event Measurement, au choix pour chaque campagne, et les résultats arrivent plus tard, regroupés et moins détaillés. Pour comparer Google et Meta au-delà des apps, voyez mon article {{< a key="google-ads-vs-facebook-ads" >}}Google Ads ou Facebook Ads{{< /a >}}.
 
 ## TikTok et LinkedIn : pas pour les 1 000 premiers euros
 
-TikTok propose aussi un objectif de promotion d’application. Mon avis : les gens sur TikTok ne sont pas vraiment des acheteurs, donc la plateforme sert surtout la notoriété, moins les installations rentables. Ses minimums pèsent aussi sur un petit budget : plus de 20 dollars (environ 18 €) par jour et par groupe d’annonces, et plus de 50 dollars (environ 44 €) par jour si vous fixez un budget de campagne. Un jeu ou une app de divertissement gratuite peut justifier un test plus tard ; un utilitaire payant, rarement.
+TikTok propose aussi un objectif de promotion d’application. Mon avis : les gens sur TikTok ne sont pas vraiment des acheteurs, donc la plateforme sert surtout la notoriété, moins les installations rentables. Ses minimums, que TikTok exprime en dollars, pèsent aussi sur un petit budget : plus de 20 dollars (environ 18 €) par jour et par groupe d’annonces, et plus de 50 dollars (environ 44 €) par jour si vous fixez un budget de campagne. Un jeu ou une app de divertissement gratuite peut justifier un test plus tard ; un utilitaire payant, rarement.
 
 LinkedIn Ads, à mon avis, brûle le budget très vite, même si les contrats sont plus gros quand on s’y prend bien : une piste pour plus tard, pour une app professionnelle vendue sur abonnement, une fois que vous savez ce que vaut un client.
 
@@ -79,8 +79,8 @@ Apple et Google comptent un mois comme 30,4 jours de budget quotidien moyen : 1
 | Plateforme et réglage | Ce que demande la plateforme | Une plateforme : 33 € par jour | Trois plateformes : 11 € par jour chacune |
 |---|---|---|---|
 | Apple Ads, enchères manuelles | Aucun seuil de volume publié | Fonctionne ; la limite est le volume de recherche | Fonctionne, mais peu de taps pour apprendre |
-| Apple Ads, enchères automatiques | Au moins 5 conversions par jour | Cible jusqu’à environ 6,50 € par installation | Environ 2,20 € |
-| Google, campagne axée sur les installations | Budget quotidien de 50 fois le coût par installation cible | Cible jusqu’à environ 0,65 € par installation | Environ 0,22 € |
+| Apple Ads, enchères automatiques | Au moins 5 conversions par jour | Cible jusqu’à environ 6,60 € par installation | Environ 2,20 € |
+| Google, campagne axée sur les installations | Budget quotidien de 50 fois le coût par installation cible | Cible jusqu’à environ 0,66 € par installation | Environ 0,22 € |
 | Meta, installations d’app | Environ 50 installations par ensemble de publicités en 7 jours | Un ensemble, installations jusqu’à environ 4,60 € | Environ 1,50 € |
 
 {{< callout type="note" >}}Ce sont des **ordres de grandeur, pas des prévisions** : le coût d’une installation dépend du pays, de votre catégorie et de votre fiche.{{< /callout >}}
@@ -99,9 +99,9 @@ Sans suivi, vous saurez ce que vous avez dépensé, pas ce que cela a rapporté.
 - **Google** importe installations et événements depuis Firebase (Google Analytics for Firebase) ou, pour Android, depuis Google Play.
 - **Meta** a besoin de son SDK dans l’app, ou d’un partenaire d’attribution, pour compter installations et événements.
 
-Sur iPhone, les régies s’appuient aussi sur SKAdNetwork et le plus récent AdAttributionKit d’Apple (iOS 17.4 et suivants), qui remontent les installations sans identifier personne ; votre développeur choisit quels événements de l’app leurs valeurs de conversion décrivent.
+Sur iPhone, les régies s’appuient aussi sur SKAdNetwork et le plus récent AdAttributionKit d’Apple (iOS 17.4 et suivants), qui remontent les installations sans identifier personne ; votre développeur choisit les événements de l’app que décrivent leurs valeurs de conversion.
 
-Un partenaire d’attribution (MMP, mobile measurement partner) comme AppsFlyer ou Adjust devient utile quand vous diffusez sur deux régies ou plus : il évite de compter deux fois la même installation. La [page tarifs d’AppsFlyer](https://www.appsflyer.com/fr/pricing) affiche une offre gratuite qu’elle dit inadaptée aux campagnes payantes, et une offre à l’usage avec 12 000 conversions gratuites la première année, au moment où j’écris (octobre 2026).
+Un partenaire d’attribution (MMP, mobile measurement partner) comme AppsFlyer ou Adjust devient utile quand vous diffusez sur deux régies ou plus : il évite de compter deux fois la même installation. Au moment où j’écris (octobre 2026), la [page tarifs d’AppsFlyer](https://www.appsflyer.com/pricing/), en anglais et en dollars, affiche une offre gratuite, Zero, qu’AppsFlyer juge inadaptée aux apps qui font de la publicité payante, et une offre à l’usage, Growth : 12 000 conversions gratuites la première année, puis 0,07 dollar (environ 0,06 €) par conversion.
 
 Si votre app a des utilisateurs dans l’UE ou au Royaume-Uni, partager leurs données avec les régies demande aussi leur consentement préalable, selon les règles des plateformes et le droit des données personnelles. Ceci est une information générale, pas un conseil juridique.
 
@@ -121,7 +121,7 @@ Un point de départ raisonné, pas une promesse :
 
 1. **Avant de dépenser (coût : 0 €)** : terminez la fiche, mettez en place la demande d’avis et le suivi, et vérifiez la répartition iPhone et Android de votre public.
 2. **Choisissez une plateforme** avec les trois questions ci-dessus, et un seul pays.
-3. **Semaines 1 et 2 (environ 500 €)** : lancez une structure simple. Sur Apple Ads, des campagnes marque, catégorie et concurrents en mots-clés exacts, plus une campagne de découverte. Sur Google, une seule campagne axée sur les installations, avec tous les éléments remplis. Sur Meta, une campagne, un ensemble de publicités et trois ou quatre créations. Puis laissez le système se stabiliser.
+3. **Semaines 1 et 2 (environ 500 €)** : lancez un dispositif simple. Sur Apple Ads, reprenez la structure que recommande Apple : des campagnes marque, catégorie et concurrents en mots-clés exacts, plus une campagne de découverte. Sur Google, une seule campagne axée sur les installations, avec tous les éléments remplis. Sur Meta, une campagne, un ensemble de publicités et trois ou quatre créations. Puis laissez le système se stabiliser.
 4. **Semaines 3 et 4 (environ 500 €)** : déplacez l’argent vers les mots-clés, éléments ou créations au coût par installation le plus bas, par paliers (Google conseille de ne pas changer un budget ou une cible de plus de 20 % à la fois). Sur Meta, lancez un test A/B d’au moins 7 jours.
 5. **En fin de mois** : jugez sur le coût par installation, puis sur le coût par inscription ou par client payant, pas sur les taps ni les impressions.
 

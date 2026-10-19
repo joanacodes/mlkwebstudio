@@ -54,7 +54,7 @@ Two notes. MASVS assumes your servers meet their own standard (OWASP's ASVS cove
 
 ### 1. No secrets inside the app
 
-Anything you ship in an app can be extracted, including keys tucked into a configuration file or injected at build time. The [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/), whose 2024 edition is still current, files hard-coded credentials under its first risk, M1 (improper credential usage). A key that only identifies your project, such as a Firebase configuration key or a maps key restricted to your app, can stay in the app. A key that spends money or opens data, such as the secret key of a payment, AI or email provider, belongs on a server. My guide to {{< a key="api-keys-mobile-apps" >}}API keys in mobile apps{{< /a >}} shows how to move them behind a small backend.
+Anything you ship in an app can be extracted, including keys tucked into a configuration file or injected at build time. The [OWASP Mobile Top 10](https://owasp.org/www-project-mobile-top-10/), whose 2024 edition is still current, files hard-coded credentials under its first risk, M1 (improper credential usage). A key that only identifies your project, such as a Firebase configuration key or a maps key restricted to your app, can stay in the app. A key that spends money or gives access to data, such as the secret key of a payment, AI or email provider, belongs on a server. My guide to {{< a key="api-keys-mobile-apps" >}}API keys in mobile apps{{< /a >}} shows how to move them behind a small backend.
 
 ### 2. The server checks permissions on every request
 
@@ -94,7 +94,7 @@ On iOS, App Transport Security blocks plain HTTP unless the app switches it off;
 
 ### 10. Certificate pinning only if you can maintain it
 
-Pinning makes the app accept only your server's key, which defeats some interception attacks; OWASP's profiles list it for apps with more sensitive data (L2), such as banking. The catch, spelled out in Android's documentation: without a backup key, a change of key or certificate authority forces you to publish an app update before users can connect again. If nobody will own that calendar, leave pinning out and rely on TLS with the platform defaults.
+Pinning makes the app accept only your server's key, which defeats some interception attacks; OWASP's profiles list it for apps with more sensitive data (L2), such as banking apps. The catch, spelled out in Android's documentation: without a backup key, a change of key or certificate authority forces you to publish an app update before users can connect again. If nobody will own that calendar, leave pinning out and rely on TLS with the platform defaults.
 
 ## Third-party SDKs and the release build
 

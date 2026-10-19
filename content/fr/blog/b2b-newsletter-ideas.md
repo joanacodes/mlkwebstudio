@@ -18,7 +18,7 @@ faq:
   - q: "Quel est le meilleur jour pour envoyer une newsletter B2B ?"
     a: "Il n’y a pas de jour idéal valable pour tous. Choisissez un jour ouvré et une heure où vos lecteurs sont à leur bureau, gardez-les d’un envoi à l’autre pour qu’ils vous attendent, et comparez les clics et les réponses sur plusieurs envois avant de changer."
   - q: "Newsletter B2B : texte brut ou mise en page ?"
-    a: "Restez sobre dans les deux cas : votre logo, un texte lisible, une image au plus, pour que l’email ressemble à une personne qui écrit. J’envoie mes cold emails en texte brut et sans lien, mais une newsletter part vers des gens qui l’ont demandée et contient des liens : une mise en page simple faite dans votre outil d’emailing convient."
+    a: "Une mise en page sobre suffit : votre logo, un texte lisible, une image au plus, pour que l’email ressemble toujours à une personne qui écrit. J’envoie mes cold emails en texte brut et sans lien, mais une newsletter part vers des gens qui l’ont demandée et contient des liens : un modèle simple de votre outil d’emailing convient."
   - q: "Peut-on rédiger sa newsletter avec l’IA ?"
     a: "Oui, pour le plan, un premier jet et quelques objets entre lesquels choisir. Ce qui rend un envoi utile, c’est ce que l’IA ne sait pas : vos projets, les questions de vos clients, vos avis. Relisez à voix haute et vérifiez chaque fait avant l’envoi."
   - q: "Quelle différence entre une newsletter et une séquence de bienvenue ?"
@@ -27,7 +27,7 @@ faq:
     a: "Il n’y a pas de minimum. Commencez par les clients et les contacts qui ont accepté de recevoir vos messages : quelques dizaines de personnes qui connaissent votre travail valent mieux, pour débuter, que des milliers d’inconnus, et leurs réponses vous disent quoi écrire ensuite."
 ---
 
-Une bonne newsletter B2B apporte une chose utile par envoi, tirée des questions de vos clients, de vos projets et de ce qui change dans votre métier. Le premier numéro s’écrit facilement ; le huitième, pendant un mois chargé, est le vrai test.
+Le premier numéro d’une newsletter B2B s’écrit facilement ; le huitième, pendant un mois chargé, est le vrai test. La plupart des sujets viennent des questions de vos clients, de vos projets et de ce qui change dans votre métier.
 
 **Une newsletter B2B est un email régulier envoyé à vos clients, prospects et contacts professionnels pour rester dans leur esprit jusqu’au jour où ils ont besoin de vous, en étant utile plutôt qu’en vendant.** Au programme : formats, fréquence, longueur, 20 idées de newsletter B2B pour une entreprise de services et mesure des résultats.
 
@@ -43,7 +43,7 @@ Un format, c’est la forme d’un envoi. Gardez-en deux ou trois par défaut et
 | Une question de client | Une question reçue, traitée à fond | Faible |
 | Une étude de cas | Le contexte, ce que vous avez fait, le résultat | Moyen |
 | Les coulisses | Comment un projet se déroule vraiment | Faible |
-| Un avis sur un outil | Pour qui, pour qui pas, à quel prix | Moyen |
+| Un avis sur un outil | Pour qui il est fait, ses limites, son prix | Moyen |
 | Une actualité réglementaire | Ce qui change, pour qui, à partir de quand | Moyen |
 | Un modèle | Une checklist à copier | Élevé, une fois |
 | Une sélection de liens | Trois à cinq liens, une ligne chacun | Faible |
@@ -152,7 +152,7 @@ Au premier rendez-vous, les prospects me demandent si j’ai de l’expérience,
 
 - **Tenez un carnet de questions.** Chaque question d’un client ou d’un prospect va dans une même note. Au bout d’un mois, vous avez plus de sujets que d’envois.
 - **Recyclez votre blog.** Un article devient un envoi : l’idée clé en 150 mots et un lien. L’inverse marche aussi : un envoi qui suscite des réponses mérite un article complet, écrit comme dans mon guide de {{< a key="write-seo-blog-posts" >}}rédaction SEO{{< /a >}}.
-- **Cherchez les plaintes.** Pour mon copywriting et mon SEO, j’utilise Claude en mode deep research pour trouver ce dont les gens d’un secteur se plaignent le plus. Vos lecteurs ont les mêmes plaintes.
+- **Cherchez les plaintes.** Pour mon copywriting et mon SEO, j’utilise des outils de recherche approfondie (deep research) pour trouver ce dont les gens d’un secteur se plaignent le plus. Vos lecteurs ont les mêmes plaintes.
 
 ## Mesurer une newsletter B2B : clics, réponses et appels
 
@@ -165,9 +165,9 @@ Suivez plutôt, envoi par envoi :
 - **Les appels et les demandes de devis** des semaines suivantes : demandez aux nouveaux prospects d’où ils viennent.
 - **Les désinscriptions** : un pic après un envoi signale un sujet ou un rythme à revoir.
 
-Un tableau simple suffit : numéro, sujet, clics, réponses, appels. Après six envois, écrivez davantage ce qui a suscité des réponses.
+Un tableau simple suffit : numéro, sujet, clics, réponses, appels. Après six envois, misez sur les sujets qui ont suscité des réponses.
 
-{{< callout type="note" >}}Dans sa [recommandation sur les pixels de suivi dans les courriels](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf) (avril 2026), la CNIL considère qu’un pixel qui mesure les ouvertures à des fins marketing demande le consentement du lecteur, y compris en B2B selon les cabinets d’avocats, sauf exceptions étroites comme la délivrabilité. Les réponses ne demandent aucun traceur. Ceci est un résumé, pas un conseil juridique : si vous mesurez les ouvertures, faites vérifier votre configuration par un avocat ou votre DPO.{{< /callout >}}
+{{< callout type="note" >}}Dans sa [recommandation sur les pixels de suivi dans les courriels](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf) (avril 2026), la CNIL considère qu’un pixel qui mesure les ouvertures à des fins marketing demande le consentement du lecteur, y compris en B2B selon des cabinets d’avocats, sauf exceptions étroites comme la mesure de la délivrabilité. Les réponses ne demandent aucun traceur. Ceci est un résumé, pas un conseil juridique : si vous mesurez les ouvertures, faites vérifier votre configuration par un avocat ou votre DPO.{{< /callout >}}
 
 ## Vos trois premiers envois : le plan du mois
 

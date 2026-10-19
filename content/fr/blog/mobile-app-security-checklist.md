@@ -48,13 +48,13 @@ L’OWASP (Open Worldwide Application Security Project) est une fondation à but
 | RESILIENCE | Freiner la modification et la rétro-ingénierie | 12, 13, 14 |
 | PRIVACY | Collecter moins, le dire, laisser la main aux utilisateurs | 7, 8 |
 
-Deux remarques. Le MASVS suppose que vos serveurs suivent leur propre référentiel (l’ASVS de l’OWASP, pour le web et les API) : une app soignée au-dessus d’une API ouverte fuit quand même. Et l’OWASP classe les faiblesses par profils : clé codée en dur ou trafic non chiffré concernent toutes les apps (L1), épinglage et mises à jour forcées les apps aux données plus sensibles (L2), obscurcissement du code et attestation les apps qui valent la peine d’être trafiquées (R).
+Deux remarques. Le MASVS suppose que vos serveurs suivent leur propre référentiel (l’ASVS de l’OWASP, pour le web et les API) : une app soignée au-dessus d’une API ouverte fuit quand même. Et l’OWASP classe les faiblesses par profils : L1 pour toutes les apps (clé codée en dur, trafic non chiffré), L2 pour les données plus sensibles (épinglage, mises à jour forcées), R contre la modification de l’app (obscurcissement, attestation).
 
 ## Sécurité d’une application mobile : d’abord les secrets et le serveur
 
 ### 1. Aucun secret dans l’application
 
-Tout ce que vous livrez dans une app peut être extrait, y compris une clé glissée dans un fichier de configuration ou injectée à la compilation. L’OWASP Mobile Top 10, dont l’édition 2024 reste la plus récente, range les identifiants codés en dur dans son premier risque, M1 (mauvaise gestion des identifiants). Une clé qui identifie seulement votre projet, comme la clé de configuration Firebase ou une clé Google Maps restreinte à votre app, peut y rester. Une clé qui dépense de l’argent ou ouvre des données, comme la clé secrète d’un prestataire de paiement, d’IA ou d’emailing, doit rester sur un serveur : mon guide sur les {{< a key="api-keys-mobile-apps" >}}clés API dans une application mobile{{< /a >}} explique comment la placer derrière un petit backend.
+Tout ce que vous livrez dans une app peut être extrait, y compris une clé glissée dans un fichier de configuration ou injectée à la compilation. L’OWASP Mobile Top 10, dont l’édition 2024 reste la plus récente, range les identifiants codés en dur dans son premier risque, M1 (mauvaise gestion des identifiants). Une clé qui identifie seulement votre projet, comme la clé de configuration Firebase ou une clé Google Maps restreinte à votre app, peut y rester. Une clé qui dépense de l’argent ou donne accès à des données, comme la clé secrète d’un prestataire de paiement, d’IA ou d’emailing, doit rester sur un serveur : mon guide sur les {{< a key="api-keys-mobile-apps" >}}clés API dans une application mobile{{< /a >}} explique comment la placer derrière un petit backend.
 
 ### 2. Le serveur contrôle les droits à chaque requête
 
@@ -80,7 +80,7 @@ Sur iOS, rangez jetons et identifiants dans le trousseau (Keychain) ; sur Andro
 
 ### 7. Rien de personnel dans les journaux, les statistiques ou les rapports de plantage
 
-Les journaux de débogage écrits pendant le développement survivent souvent jusqu’à la version publiée. Avant le lancement, cherchez dans le code ceux qui affichent des jetons, des adresses email, des positions ou des réponses complètes du serveur, et vérifiez ce qu’envoient vos statistiques et vos rapports de plantage (Crashlytics, Sentry et consorts).
+Les journaux de débogage du développement survivent souvent jusqu’à la version publiée. Avant le lancement, cherchez ceux qui affichent des jetons, des adresses email, des positions ou des réponses complètes du serveur, et vérifiez ce qu’envoient vos statistiques et vos rapports de plantage (Crashlytics, Sentry et consorts).
 
 ### 8. Demander moins, et masquer les écrans sensibles
 
@@ -94,7 +94,7 @@ Sur iOS, App Transport Security bloque le HTTP simple, sauf si l’app le désac
 
 ### 10. L’épinglage de certificat, seulement si vous pouvez l’entretenir
 
-L’épinglage (certificate pinning) oblige l’app à n’accepter que la clé de votre serveur, ce qui déjoue certaines interceptions ; les profils de l’OWASP le rangent parmi les mesures des apps aux données plus sensibles (L2), comme une banque. Le revers, détaillé dans la documentation d’Android : sans clé de secours, un changement de clé ou d’autorité de certification vous oblige à publier une mise à jour avant que les utilisateurs puissent se reconnecter. Si personne ne suivra ce calendrier, renoncez-y et contentez-vous de TLS avec les réglages par défaut.
+L’épinglage (certificate pinning) oblige l’app à n’accepter que la clé de votre serveur, ce qui déjoue certaines interceptions ; les profils de l’OWASP le rangent parmi les mesures des apps aux données plus sensibles (L2), comme une app bancaire. Le revers, détaillé par la documentation d’Android : sans clé de secours, un changement de clé ou d’autorité de certification vous oblige à publier une mise à jour avant que les utilisateurs puissent se reconnecter. Si personne ne suivra ce calendrier, renoncez-y et contentez-vous de TLS avec les réglages par défaut.
 
 ## SDK tiers et version publiée
 
@@ -122,7 +122,7 @@ Fixez les plus anciennes versions d’iOS et d’Android prises en charge, et re
 
 ### 16. Un moyen public de signaler une vulnérabilité
 
-Le MASVS ne l’exige pas, mais la loi s’en charge. Au 19 octobre 2026, le règlement européen sur la cyberrésilience, ou Cyber Resilience Act ([règlement (UE) 2024/2847](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847)), oblige depuis le 11 septembre 2026 les fabricants à signaler les vulnérabilités activement exploitées et les incidents graves (article 14) : alerte précoce sous 24 heures, puis notification sous 72 heures, via la plateforme unique de signalement de l’ENISA. À partir du 11 décembre 2027, ses règles de gestion des vulnérabilités (annexe I, partie II) ajoutent une politique de divulgation coordonnée, un moyen pour quiconque de signaler une faille, une nomenclature logicielle (SBOM) et des mises à jour de sécurité rapides. Selon les lignes directrices de la Commission européenne de juillet 2026, une application mobile autonome peut entrer dans le champ, et le texte vise les apps proposées dans l’UE même si l’éditeur est installé en Suisse, au Québec ou au Maroc.
+Le MASVS ne l’exige pas, mais la loi s’en charge. Au 19 octobre 2026, le règlement européen sur la cyberrésilience, ou Cyber Resilience Act ([règlement (UE) 2024/2847](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32024R2847)), oblige depuis le 11 septembre 2026 les fabricants à signaler les vulnérabilités activement exploitées et les incidents graves (article 14) : alerte précoce sous 24 heures, puis notification sous 72 heures, via la plateforme unique de signalement de l’ENISA. À partir du 11 décembre 2027, ses règles de gestion des vulnérabilités (annexe I, partie II) ajoutent une politique de divulgation coordonnée, un moyen pour quiconque de signaler une faille, une nomenclature logicielle (SBOM) et des mises à jour de sécurité rapides. Selon les lignes directrices de la Commission (juillet 2026), une application mobile autonome peut entrer dans le champ, y compris quand l’éditeur est installé hors de l’UE, en Suisse ou au Québec.
 
 En pratique : une adresse comme securite@votredomaine, une courte page ou un fichier security.txt (RFC 9116) qui explique comment signaler une faille, un lien depuis votre fiche dans les stores, et une personne nommée qui lit les messages. Mon article sur {{< a key="cyber-resilience-act-apps" >}}le Cyber Resilience Act et les applications{{< /a >}} détaille le calendrier. Ceci est une information générale, pas un conseil juridique : si votre app traite des données de santé, financières ou concernant des enfants, ou si vous ignorez si vous êtes « fabricant » au sens du texte, une heure avec un avocat qui connaît la réglementation européenne des produits est un bon investissement.
 
@@ -137,7 +137,7 @@ Un test d’intrusion payant se justifie quand l’app traite des données de sa
 ## Avant de valider : huit questions à poser à votre développeur
 
 1. Une clé de l’app nous coûterait-elle de l’argent ou exposerait-elle des données si quelqu’un l’extrayait ?
-2. Si je change l’identifiant d’un utilisateur ou d’un enregistrement dans une requête, le serveur refuse-t-il ? Pouvez-vous me le montrer ?
+2. Si je change l’identifiant d’un enregistrement dans une requête, le serveur refuse-t-il ? Pouvez-vous me le montrer ?
 3. Où sont stockés les jetons, combien de temps durent-ils, et la déconnexion les révoque-t-elle ?
 4. Que contiennent nos journaux, nos statistiques et nos rapports de plantage ?
 5. Avons-nous ajouté des exceptions ATS, du trafic en clair ou de l’épinglage, et qui les entretient ?

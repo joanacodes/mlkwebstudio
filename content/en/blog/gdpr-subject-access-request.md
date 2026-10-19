@@ -68,11 +68,11 @@ The month runs from the day the request reaches your business, not the day someo
 
 **Clarifying.** If you hold a lot about someone, recital 63 lets you ask which information or dealings they mean. In the UK, Article 12A, added by the Data (Use and Access) Act 2025 and in force since 5 February 2026, makes this a formal "stop the clock": the deadline pauses on the day you ask and resumes the day after the answer, as the ICO's [guide to subject access](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/subject-access-requests/a-guide-to-subject-access/) explains. The EU text has no such pause.
 
-**Fees and refusals.** The first copy is free; extra copies can be charged at cost (Article 15(3)). You can charge a reasonable fee or refuse only if a request is manifestly unfounded or excessive, such as the same request every week, and you must prove it (Article 12(5)). The UK kept this test; the "vexatious" wording once proposed was dropped.
+**Fees and refusals.** The first copy is free; extra copies can be charged at cost (Article 15(3)). You can charge a reasonable fee or refuse only if a request is manifestly unfounded or excessive, such as the same request every week, and you must prove it (Article 12(5)). The UK kept the same test.
 
 ## How to answer a subject access request in seven steps
 
-1. **Log it the day it arrives** (see the log below) and name one person in charge.
+1. **Log it the day it arrives** and name one person in charge.
 2. **Acknowledge it**, with the date they can expect an answer.
 3. **Clarify only if you need to**, and offer to send everything if they prefer.
 4. **Search every system** for their name, email addresses, phone numbers and customer number:
