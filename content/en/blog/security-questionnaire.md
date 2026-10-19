@@ -33,7 +33,7 @@ Receiving one is good news: a client rarely sends it to a supplier it has alread
 
 ## Why large clients send vendor security questionnaires
 
-Attackers can reach a large company through a supplier that already has access: an IT provider, an agency with logins, a developer with a copy of the customer database. Several rules now make the client check you.
+Attackers can reach a large company through a supplier that already has access: an IT provider, an agency with logins, a developer with a copy of the customer database. Several laws and standards now make the client check you.
 
 - **NIS2** ([Directive (EU) 2022/2555](https://eur-lex.europa.eu/eli/dir/2022/2555/oj)). Article 21(2)(d) requires the entities it covers to manage ‘supply chain security’, including their relationships with direct suppliers, and Article 21(3) asks them to weigh each supplier's cybersecurity practices. Most small teams are below its size thresholds, but a client in scope passes the duty down, to British suppliers too, even though NIS2 does not apply in the UK. As of 19 October 2026, France still has not adopted its transposition law, two years after the 17 October 2024 deadline. My article on {{< a key="nis2-small-business" >}}whether NIS2 applies to your company{{< /a >}} explains who is in scope.
 - **DORA** (Regulation (EU) 2022/2554) has applied since 17 January 2025 to banks, insurers, investment firms and other financial entities. Articles 28 to 30 make them manage the risk of their ICT providers, keep a register of those contracts and write in specific clauses, from where data is processed to help during an incident. Expect the long version if you provide them with an ongoing digital service.
@@ -116,7 +116,7 @@ A: Not at present. We hold Cyber Essentials (certificate attached, valid
 - **ISO/IEC 27001.** The international standard for an information security management system, certified by an accredited body (UKAS in the UK, COFRAC in France) for three years, with surveillance audits in between. Getting there takes months of documentation and practice: worth it when clients make it a condition, or when sensitive data is your business.
 - **SOC 2.** An American attestation report by an audit firm against AICPA criteria, not a certificate: Type 1 looks at your controls on one date, Type 2 over several months. US clients and software buyers ask for it; a European small team rarely needs it first.
 
-For most small teams selling in the UK, Cyber Essentials is the sensible first step: it is cheap, and its five controls match what questionnaires ask. In France, the free MonAideCyber diagnostic from ANSSI is not a certificate, but a dated diagnostic and the measures applied afterwards make a credible answer. My guide to {{< a key="free-cybersecurity-help" >}}free cybersecurity help in the UK and France{{< /a >}} covers both.
+For most small teams selling in the UK, Cyber Essentials is the sensible first step: it costs a few hundred pounds, and its five controls match what questionnaires ask. In France, the free MonAideCyber diagnostic from ANSSI is not a certificate, but a dated diagnostic and the measures applied afterwards make a credible answer. My guide to {{< a key="free-cybersecurity-help" >}}free cybersecurity help in the UK and France{{< /a >}} covers both.
 
 ## Build a trust pack once and reuse it
 

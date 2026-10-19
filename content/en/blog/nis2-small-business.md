@@ -57,7 +57,7 @@ A design studio, an accountancy firm, an architect or a restaurant is not on the
 
 ### 2. Is your company at least medium-sized?
 
-NIS2 borrows the EU definition of company size. You stay below the threshold, and outside NIS2, if you have **fewer than 50 staff and either an annual turnover or a balance sheet total of €10 million or less**. Staff are counted in full-time equivalents. If your company belongs to a group, the definition generally adds the figures of the companies it is linked to, so run the test with the group's numbers.
+NIS2 borrows the EU definition of company size. You stay below the threshold, and outside NIS2, if you have **fewer than 50 staff and either an annual turnover or a balance sheet total of €10 million or less**. Staff are counted in full-time equivalents. In a group, the definition generally adds the figures of linked companies, so run the test with the group's numbers.
 
 ### 3. Is your activity covered whatever its size?
 
@@ -66,7 +66,7 @@ A few activities are covered even for a two-person company:
 - providers of public electronic communications networks or services, such as internet access;
 - trust service providers (electronic signatures, seals, timestamps);
 - top-level domain registries and DNS service providers;
-- organisations that their country designates, for example because they are the only provider of an essential service or because a disruption would affect public safety.
+- organisations their country designates, for example as the only provider of an essential service.
 
 {{< callout type="warning" >}}If you run DNS for your clients' domains, read the definition of a **DNS service provider** in Article 6: it includes authoritative DNS offered to third parties, with no size threshold. A web host or agency that offers this service should check where it stands.{{< /callout >}}
 
