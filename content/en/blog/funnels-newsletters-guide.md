@@ -9,7 +9,7 @@ lastmod: 2026-10-18T23:48:00+02:00
 category: "funnels"
 article_type: "pillar"
 keywords: ["sales funnel for small business", "sales funnel", "sales funnel for service business", "small business newsletter", "email marketing funnel", "lead nurturing"]
-summary: "A sales funnel for a small-team business is the path from stranger to client: people find you, get in touch or subscribe, hear from you, book a call and accept a quote. A service business rarely needs a funnel builder: a clear page, a booking page and an email tool do the job, fed by one or two channels such as referrals, SEO or cold emailing. A newsletter keeps in touch with people who are not ready yet, with their consent."
+summary: "A sales funnel for a small-team business covers every step from first contact to signed client: people find you, get in touch or subscribe, hear from you, book a call and accept a quote. A service business rarely needs a funnel builder: a clear page, a booking page and an email tool do the job, fed by one or two channels such as referrals, SEO or cold emailing. A newsletter keeps in touch with people who are not ready yet, with their consent."
 cover: "funnels-newsletters-guide"
 cover_alt: "The article title in white on a ribbed-glass panel over a photo, with a funnel narrowing down to an orange dot"
 related: ["sales-funnel-explained", "build-sales-funnel", "newsletter-tools-comparison", "b2b-cold-emailing-guide", "how-to-get-more-clients"]

@@ -121,7 +121,7 @@ After a few weeks of data:
 
 {{< screenshot id="utm-ga4-funnel-tracking-03" alt="GA4 Traffic acquisition report by session source / medium, with the key events column set to generate_lead" >}}
 
-Read the key events first: a source with plenty of sessions and no bookings brings the wrong people or sends them to the wrong page, while a small one with a couple of bookings deserves more of your links.
+Read the key events first: a source with plenty of sessions and no bookings brings the wrong people or sends them to the wrong page, while one with few sessions but a couple of bookings deserves more of your links.
 
 GA4 credits a visit with no source of its own to the last channel that brought that visitor: someone who clicked your newsletter on Monday and typed your address on Thursday still counts for the newsletter, on the same browser. Visits from ChatGPT and other assistants have a channel of their own, covered in my guide to {{< a key="track-ai-traffic" >}}tracking AI traffic in GA4{{< /a >}}.
 

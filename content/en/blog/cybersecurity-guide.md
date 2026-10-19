@@ -8,7 +8,7 @@ date: 2026-10-18T23:42:00+02:00
 lastmod: 2026-10-18T23:42:00+02:00
 category: "cybersecurity"
 article_type: "pillar"
-keywords: ["cyber security for small business", "small business cyber security checklist", "cyber security basics", "Cyber Essentials", "phishing", "what to do after a cyber attack"]
+keywords: ["cyber security for small business", "small business cyber security checklist", "cyber security basics", "cyber security for small teams", "Cyber Essentials", "phishing"]
 summary: "Cyber security for a small team comes down to a few habits: a password manager and two-factor authentication on every account, a call-back rule before paying new bank details, backups you have restored once, updated devices, and access removed the day someone leaves. Add a one-page plan for the first hour of an incident, and check what your clients and the law expect. Most of it is free."
 cover: "cybersecurity-guide"
 cover_alt: "The title “Cybersecurity for small-team businesses: the complete guide” in white on a ribbed-glass panel over a photo, with a padlock"
@@ -69,7 +69,7 @@ Phishing tops the statistics because it works: one email with a fake login page 
 
 **Deepfake calls** are the same scam with a cloned voice or a fake video call built from public recordings. You will not reliably hear the difference, so {{< a key="deepfake-voice-ceo-fraud" >}}the defence against AI voice clones and deepfake calls{{< /a >}} is the same call-back rule, plus a question only the real person can answer.
 
-Banks now help a little. Since 9 October 2025, banks in the euro area must check that the payee's name matches the IBAN before a euro transfer leaves (Regulation (EU) 2024/886), and in the UK, Confirmation of Payee covers almost all Faster Payments and CHAPS transfers. A “no match” warning means stop and call; a match is not a guarantee. UK consumers, micro-enterprises and charities who lose money to authorised push payment fraud can claim up to £85,000 per claim from their bank, a scheme that is under independent review as of 19 October 2026.
+Banks now help a little. Since 9 October 2025, banks in the euro area must check that the payee's name matches the IBAN before a euro transfer leaves (Regulation (EU) 2024/886), and in the UK, Confirmation of Payee covers almost all Faster Payments and CHAPS transfers. A “no match” warning means stop and call; a match does not replace the call-back. UK consumers, micro-enterprises and charities who lose money to authorised push payment fraud can claim up to £85,000 per claim from their bank, a scheme that is under independent review as of 19 October 2026.
 
 Your domain needs protecting as well. Without SPF, DKIM and DMARC records, anyone can send emails that look as if they came from your address, which is exactly what an invoice fraudster wants. {{< a key="spf-dkim-dmarc-setup" >}}Setting up SPF, DKIM and DMARC{{< /a >}} takes a few DNS records, and it keeps your real emails out of spam at the same time.
 

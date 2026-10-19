@@ -29,7 +29,7 @@ faq:
 
 GA4 vous dit combien de personnes visitent votre site et, à peu près, d’où elles viennent, mais pas lesquelles ont pris rendez-vous. Trois éléments comblent ce manque : des paramètres UTM sur chaque lien que vous maîtrisez, une page de remerciement après chaque réservation et un événement clé dans Google Analytics 4 qui la compte. Deux écrans de GA4 montrent ensuite quel canal amène des rendez-vous et où les autres abandonnent.
 
-Il vous faut GA4 sur votre site et la possibilité d’y ajouter une page. J’utilise YouCanBookMe pour les rendez-vous, les exemples aussi ; Calendly fonctionne de la même façon. Si votre tunnel n’existe pas encore, commencez par mon tutoriel pour {{< a key="build-sales-funnel" >}}créer son tunnel de vente avec ses outils actuels{{< /a >}}. Les deux font partie de mon {{< a key="funnels-newsletters-guide" >}}guide complet du tunnel de vente et de la newsletter{{< /a >}}.
+Il vous faut GA4 sur votre site et la possibilité d’y ajouter une page. J’utilise YouCanBookMe pour mes rendez-vous, d’où les exemples ; Calendly fonctionne de la même façon. Si votre tunnel n’existe pas encore, commencez par mon tutoriel pour {{< a key="build-sales-funnel" >}}créer son tunnel de vente avec ses outils actuels{{< /a >}}. Les deux font partie de mon {{< a key="funnels-newsletters-guide" >}}guide complet du tunnel de vente et de la newsletter{{< /a >}}.
 
 ## Comment Google Analytics 4 lit les paramètres UTM
 
@@ -121,7 +121,7 @@ Après quelques semaines de données :
 
 {{< screenshot id="utm-ga4-funnel-tracking-03" alt="Rapport Acquisition de trafic de GA4 par source/support de la session, avec la colonne des événements clés réglée sur generate_lead" >}}
 
-Lisez d’abord les événements clés : une source riche en sessions mais sans réservation amène les mauvaises personnes ou les envoie sur la mauvaise page, alors qu’une petite source qui amène deux ou trois réservations mérite davantage de liens.
+Lisez d’abord les événements clés : une source riche en sessions mais sans réservation amène les mauvaises personnes ou les envoie sur la mauvaise page, alors qu’une source qui apporte peu de sessions mais deux ou trois réservations mérite davantage de liens.
 
 GA4 attribue une visite sans source propre au dernier canal qui a amené ce visiteur : quelqu’un qui a cliqué sur votre newsletter le lundi et tapé votre adresse le jeudi compte toujours pour la newsletter, sur le même navigateur. Les visites venues de ChatGPT et des autres assistants ont leur propre canal, expliqué dans mon guide pour {{< a key="track-ai-traffic" >}}mesurer le trafic IA dans Google Analytics{{< /a >}}.
 

@@ -135,7 +135,7 @@ Sometimes no off-the-shelf tool fits, and that is when building one makes sense.
 
 I custom-coded an internal tool that manages prospects, job sites, communication with the employees, the calendar and accounting analytics, with AI and phone integrations. How it came about, and the signs that you need one too, are in {{< a key="bespoke-crm-internal-app" >}}bespoke CRM for a small business{{< /a >}}. Most businesses do not need to go that far: if your process is simply enquiry, quote, won or lost, a spreadsheet with automatic reminders will serve you better.
 
-You do not always need code. Claude's Artifacts let you build a small interactive tool, such as a quote calculator or a checklist, in any conversation and on any plan, as long as code execution and file creation is switched on in **Settings > Capabilities** (it is by default). An artifact can even call Claude itself with no API key, each person's usage counting against their own plan, and anyone you share it with needs a Claude account. AI app builders go further. What is realistic without a developer, and where it stops, is in {{< a key="build-app-with-ai" >}}how to build an app with AI{{< /a >}}.
+You do not always need code. Claude's Artifacts let you build a small interactive tool, such as a quote calculator or a checklist, in any conversation and on any plan, as long as code execution and file creation is switched on in **Settings > Capabilities** (it is by default). An artifact can even call Claude itself with no API key, each person's usage counting against their own plan, and anyone you share it with needs a Claude account. AI app builders go further. What is realistic without a developer, and where it stops, is in {{< a key="build-app-with-ai" >}}how to build an app with AI{{< /a >}}. Before an AI-built app holds real data, {{< a key="ai-app-data-leaks" >}}check its Supabase or Firebase rules{{< /a >}}.
 
 ## Client data, GDPR and the EU AI Act
 
@@ -147,7 +147,7 @@ The moment you paste a client's name, email address or phone number into an AI t
 
 1. On a personal plan, switch off model training: in ChatGPT, open **Settings > Data controls** and turn off **Improve the model for everyone**; in Claude, make the same choice in the privacy settings.
 2. Anonymise what you can. A complaint with the name removed is as useful to the AI as one with the name.
-3. Keep clients' personal data for business plans and the API, which are not used for training by default. OpenAI signs a data processing agreement for ChatGPT Business, Enterprise and its API on request, and Anthropic's commercial terms include its data processing addendum.
+3. Keep clients' personal data for business plans and the API, which are not used for training by default. OpenAI signs {{< a key="gdpr-data-processing-agreement" >}}a data processing agreement{{< /a >}} for ChatGPT Business, Enterprise and its API on request, and Anthropic's commercial terms include its data processing addendum.
 
 {{< callout type="warning" >}}Some data never goes into an AI tool, whatever the plan: **health information, ID numbers, bank details and passwords**.{{< /callout >}}
 
@@ -155,7 +155,7 @@ What each plan allows, in detail, is in {{< a key="chatgpt-gdpr-client-data" >}}
 
 ### AI literacy under the EU AI Act
 
-Article 4 of the EU AI Act, on AI literacy, has applied since 2 February 2025 to businesses that use AI at work. An amendment that came into force in July 2026, Regulation (EU) 2026/1744, softened it: you must take measures to support the AI literacy of your staff and of anyone using AI on your behalf, but no particular level is required, and the text imposes no course or certificate. For a small team, a sensible start is a one-page AI rule that you go through with everyone: which tools are approved, what data never goes in, and that a person checks every output before it reaches a client. The European Commission's page on [AI talent, skills and literacy](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy) is the official starting point.
+Article 4 of the EU AI Act, on AI literacy, has applied since 2 February 2025 to businesses that use AI at work. An amendment that came into force in July 2026, Regulation (EU) 2026/1744, softened it: you must take measures to support the AI literacy of your staff and of anyone using AI on your behalf, but no particular level is required, and the text imposes no course or certificate. For a small team, a sensible start is a one-page AI rule that you go through with everyone: which tools are approved, what data never goes in, and that a person checks every output before it reaches a client. The European Commission's page on [AI talent, skills and literacy](https://digital-strategy.ec.europa.eu/en/policies/ai-talent-skills-and-literacy) is the official starting point. Fraudsters use AI too: {{< a key="deepfake-voice-ceo-fraud" >}}my guide to voice clones and deepfake calls{{< /a >}} sets out the rule that protects your team.
 
 The AI Act is EU law. A UK business is concerned mainly when it serves the EU market, for example when the output of its AI tools is used for clients in France; at home, the UK GDPR is what governs client data in AI tools.
 

@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:57:00+02:00
 category: "mobile-apps"
 article_type: "news"
 keywords: ["Cyber Resilience Act apps", "Cyber Resilience Act mobile apps", "CRA reporting obligations", "CRA 24-hour reporting", "Cyber Resilience Act 2027", "CRA SBOM"]
-summary: "Since 11 September 2026, a business offering an app in the EU, paid or free, must report actively exploited vulnerabilities and severe incidents through ENISA's Single Reporting Platform, with an early warning within 24 hours. From 11 December 2027, the app must also meet the Act's security requirements, receive security updates for its support period (usually at least five years) and carry the CE marking. UK and other non-EU developers are covered for their EU users."
+summary: "Since 11 September 2026, a business offering an app in the EU, paid or free, must report actively exploited vulnerabilities and severe incidents through ENISA's Single Reporting Platform, with an early warning within 24 hours. From 11 December 2027, new apps and substantially modified ones must also meet the Act's security requirements, receive security updates for a support period of usually at least five years and carry the CE marking. UK and other non-EU developers are covered for their EU users."
 cover: "cyber-resilience-act-apps"
 cover_alt: "The article's title in white on a ribbed-glass panel over a photo of a shield with a check mark"
 related: ["mobile-app-security-checklist", "api-keys-mobile-apps", "nis2-small-business", "gdpr-outside-eu", "mobile-app-launch-guide"]
@@ -27,7 +27,7 @@ faq:
     a: "No. You must draw up a software bill of materials and keep it with your technical documentation, so that a market surveillance authority can ask for it. Publishing it is your choice; if you do, the information you give users has to say where to find it."
 ---
 
-On 11 September 2026, the first obligation of the EU Cyber Resilience Act for app makers started to apply, and it reaches apps already in the App Store and on Google Play. If someone exploits a flaw in your app, you now have 24 hours to send a first warning through ENISA, the EU's cybersecurity agency. The security requirements for the app itself apply from 11 December 2027.
+On 11 September 2026, the first obligation of the EU Cyber Resilience Act for app makers started to apply, and it reaches apps already in the App Store and on Google Play. Once you know that someone is exploiting a flaw in your app, you have 24 hours to send a first warning through ENISA, the EU's cybersecurity agency. The security requirements for the app itself apply from 11 December 2027.
 
 This piece is for small-team business owners who have an app, or are having one built, and offer it to people in the EU. I build custom apps for clients, and the question I would ask you first is not whether your app is secure, but who on your team would notice an attack and report it within a day.
 
@@ -35,11 +35,11 @@ Everything below is as of 19 October 2026, from [Regulation (EU) 2024/2847](http
 
 ## Which apps the Cyber Resilience Act covers
 
-The Act regulates "products with digital elements": hardware or software placed on the EU market, together with the remote data processing they rely on (Article 3). A mobile app is standalone software, and the Commission's guidance confirms that such software can be in scope. Your app is covered when three things are true:
+The Act regulates "products with digital elements": hardware or software placed on the EU market, together with the remote data processing they rely on (Article 3). A mobile app is standalone software, and the Commission's guidance confirms that such software can be in scope. Your app is covered, and the obligations are yours, when three things are true:
 
 1. **It connects to something.** The Act applies to products meant to connect, directly or indirectly, to a device or a network (Article 2). Almost every app does.
 2. **It is supplied in the EU as part of a business**, paid or free. Software only you use, like the tools I build for my own work, is not.
-3. **It carries your name.** The manufacturer is whoever markets the product under its own name or trade mark (Article 3). If an agency, a freelancer or an AI app builder made the app and you publish it under your company's name, the obligations are yours.
+3. **It carries your name.** The manufacturer is whoever markets the product under its own name or trade mark (Article 3). If an agency, a freelancer or an AI app builder made the app and you publish it under your company's name, the manufacturer is you.
 
 The server behind the app counts too: when the app cannot perform one of its functions without a backend you designed, or had designed, for it, that backend is part of the product. Your API and database fall under the same rules as the app on the phone.
 
@@ -47,16 +47,16 @@ Non-commercial open-source software is outside the Act, and so are apps regulate
 
 ## Since 11 September 2026: report exploited flaws within 24 hours
 
-Article 14, the part that already applies, covers two events, and neither is "we found a bug":
+Article 14, the part that already applies to app makers, covers two events, and neither is "we found a bug":
 
-- **An actively exploited vulnerability**: there is reliable evidence that someone has used the flaw against a system without its owner's permission (Article 3). A weakness your developer spots in a code review, with no sign of use, does not trigger a report.
+- **An actively exploited vulnerability**: there is reliable evidence that a malicious actor has exploited the flaw in a system without its owner's permission (Article 3). A weakness your developer spots in a code review, with no sign of use, does not trigger a report.
 - **A severe incident** affecting the app's security: one that harms, or could harm, the protection of sensitive or important data or functions, or that has introduced, or could introduce, malicious code into the app or into your users' systems.
 
 The clock runs from the moment you become aware of it:
 
 | Step | Deadline | What it contains |
 |---|---|---|
-| Early warning | Within 24 hours | For a vulnerability, the EU countries where you know the app is available; for an incident, whether it looks malicious |
+| Early warning | Within 24 hours | The EU countries where you know the app is available and, for an incident, whether it looks malicious |
 | Notification | Within 72 hours | The app, the nature of the exploit or incident, your measures and what users can do |
 | Final report | 14 days after a fix is available (vulnerability), one month after the notification (incident) | Description, severity and impact, cause, and the fix |
 
@@ -64,7 +64,7 @@ You file once, on ENISA's Single Reporting Platform, which [went live on 11 Sept
 
 Three details matter for small teams:
 
-- **Apps already in the stores are covered.** The duty applies to apps published long before September 2026 (Article 69), but exploitation you knew about before 11 September 2026 does not have to be reported retroactively.
+- **Apps already in the stores are covered**, however long ago you published them (Article 69), but exploitation you knew about before 11 September 2026 does not have to be reported retroactively.
 - **Your users must hear from you.** Inform the users affected, or all users where appropriate, and tell them how to protect themselves.
 - **The fine carve-out for small companies is narrow.** Microenterprises and small enterprises (fewer than 50 staff and no more than 10 million euros in turnover or balance sheet) cannot be fined for missing the 24-hour early warning (Article 64(10)). The 72-hour notification and the final report still apply, and the top fines reach 15 million euros or 2.5% of worldwide annual turnover, whichever is higher (Article 64).
 
@@ -96,7 +96,7 @@ Apps already on the market only have to meet these requirements if they undergo 
 
 ## If your company is outside the EU
 
-The Act follows the app, not the company. A Manchester gym chain with its booking app in the French App Store, a Swiss fitness app on Google Play in Germany and a Montreal start-up with users in Belgium are all covered. It is the same logic as the GDPR's reach, which I explain in {{< a key="gdpr-outside-eu" >}}my article on GDPR outside the EU{{< /a >}}.
+The Act follows the app, not the company. A Manchester gym chain with its booking app in the French App Store, a Swiss fitness app on Google Play in Germany and a Montreal start-up with users in Belgium are all covered. The logic is close to the GDPR's territorial reach, which I explain in {{< a key="gdpr-outside-eu" >}}my article on GDPR outside the EU{{< /a >}}.
 
 You report on the same platform. Without an establishment in the EU, Article 14(7) decides which national CSIRT receives your reports, starting with the country of your authorised representative if you have one; the duty stays with you either way.
 
