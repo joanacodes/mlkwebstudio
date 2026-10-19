@@ -161,7 +161,7 @@ A banner can look right and still let trackers through. In September 2024, the I
 2. Open the developer tools (F12, or Cmd+Option+I on a Mac). In Chrome or Edge, go to **Application** > **Storage** > **Cookies**; in Firefox, to the **Storage** tab. Select your domain.
 3. Before any choice, you should see strictly necessary cookies only. Look for `_ga` and `_ga_…` (Google Analytics), `_gcl_au` (Google Ads), `_fbp` (Meta Pixel), `_clck` and `_clsk` (Clarity): none of them should be there.
 4. Click **Refuse all**, reload the page and check again: the list should not grow. If your banner has a close button, closing it should work like refusing, as in the CNIL's sample banner.
-5. In the **Network** tab, filter on `collect`. After a refusal in basic mode, no request should reach Google Analytics or Clarity; in advanced mode, cookieless Google requests are expected.
+5. In the **Network** tab, filter on `collect`. After a refusal in basic mode, no request should reach Google Analytics; in advanced mode, cookieless Google requests are expected. Clarity can also send cookieless requests if your banner loads it with consent denied instead of blocking it.
 6. Open a new private window, click **Accept all** and check that the cookies now appear. If they do not, the banner blocks too much and your statistics will stay empty.
 7. Use the footer link to change your mind, refuse, and check that the tags stop.
 

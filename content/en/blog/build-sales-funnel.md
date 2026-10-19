@@ -114,7 +114,7 @@ Leads arrive by form, booking, email and phone. Keep them in one list, with an a
 
 Start with forms, which Squarespace handles without any extra tool. In the form block's storage settings, connect Google Drive: Squarespace creates a spreadsheet and adds a row for each submission. Do not rename that spreadsheet, or it disconnects, and keep the email notification on as well.
 
-Bookings land in your calendar, and the booking tool notifies you. To copy them into the same spreadsheet, an automation tool can start on each new calendar event and add a row. Make it pick only events whose title matches your bookings, so that your dentist appointment stays out: on Zapier, the Google Calendar trigger **New Event Matching Search** does this with a word that all your booking titles share. At the time of writing:
+Bookings land in your calendar, and the booking tool notifies you. To copy them into the same spreadsheet, an automation tool can start on each new calendar event and add a row. Set it to pick only events whose title matches your bookings, so that your dentist appointment stays out: on Zapier, the Google Calendar trigger **New Event Matching Search** does this with a word that all your booking titles share. At the time of writing:
 
 - **Zapier**: 100 tasks a month free; a booking that adds one row uses one task, as the trigger does not count.
 - **Make**: 1,000 credits a month free, but a scheduled check uses a credit each time it runs, even when nothing new has arrived: checking every hour costs about 720 credits a month.
@@ -147,7 +147,7 @@ Without a redirect (YouCanBookMe's Free and Individual plans, Calendly's free pl
 
 ## Step 7: test the whole path on your phone
 
-Your prospects will meet the funnel on a phone, so test it there: in a private window, so that you are logged out, on mobile data and with a second email address.
+Your prospects will meet the funnel on a phone, so test it there: in a private window (so you are logged out), on mobile data and with a second email address.
 
 1. Open one of your UTM links and tap the button. The booking page loads and fits the screen.
 2. Book a slot. The confirmation arrives (check the spam folder too), the event sits in your calendar at the right time, and a row appears in your spreadsheet.
