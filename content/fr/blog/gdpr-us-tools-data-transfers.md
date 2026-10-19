@@ -91,9 +91,9 @@ Si un prestataire ne propose ni le cadre ni les clauses, n’y mettez pas de don
 
 ## Suisse et Royaume-Uni : le cadre suisse et le data bridge britannique
 
-La Suisse a son propre cadre, le Swiss-U.S. Data Privacy Framework : le Conseil fédéral l’a reconnu par une décision du 14 août 2024, et les entreprises suisses peuvent s’appuyer dessus depuis le 15 septembre 2024. Sans ce volet de la certification, la voie habituelle reste des clauses contractuelles adaptées au droit suisse.
+La Suisse a son propre cadre, le Swiss-U.S. Data Privacy Framework : le Conseil fédéral l’a reconnu par une décision du 14 août 2024, et les entreprises suisses peuvent s’appuyer dessus depuis le 15 septembre 2024. Sans ce volet de la certification, la voie habituelle reste celle des clauses contractuelles adaptées au droit suisse.
 
-Le Royaume-Uni, qui applique ses propres règles, a fait de même : depuis le 12 octobre 2023, son « data bridge » couvre les entreprises américaines certifiées au titre de l’extension britannique, qui suppose d’adhérer aussi au cadre UE–États-Unis.
+Le Royaume-Uni, qui applique ses propres règles, a son équivalent : depuis le 12 octobre 2023, son « data bridge » couvre les entreprises américaines certifiées au titre de l’extension britannique, qui suppose d’adhérer aussi au cadre UE–États-Unis.
 
 Les mêmes vérifications valent hors d’Europe : une entreprise de Montréal, de Casablanca ou de New York qui vend à des personnes dans l’UE (voir mon guide sur {{< a key="gdpr-outside-eu" >}}le RGPD pour les entreprises hors UE{{< /a >}}) peut réaliser un transfert, selon le CEPD, lorsqu’elle confie leurs données à une autre société hors de l’UE.
 

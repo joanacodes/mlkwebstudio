@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:09:00+02:00
 category: "cybersecurity"
 article_type: "guide"
 keywords: ["assurance cyber TPE", "assurance cyber PME", "que couvre une assurance cyber", "cyberassurance", "exclusions assurance cyber", "assurance cyber plainte 72 heures"]
-summary: "Une assurance cyber paie les suites d’une attaque ou d’une fuite de données : experts, restauration, pertes d’exploitation, extorsion, notification, réclamations de tiers. Tout se joue dans les clauses : fraude au faux RIB souvent exclue, attaques étatiques exclues, sécurité déclarée à tenir, plainte sous 72 heures. Elle vaut le coup pour une petite équipe qui s’arrête sans informatique, paie par virement, détient des données personnelles ou dont les clients l’exigent."
+summary: "Une assurance cyber couvre le coût d’une attaque ou d’une fuite de données : experts, restauration, pertes d’exploitation, extorsion, notification, réclamations de tiers. Tout se joue dans les clauses : fraude au faux RIB souvent exclue, attaques étatiques exclues, sécurité déclarée à tenir, plainte sous 72 heures. Elle vaut le coup pour une petite équipe qui s’arrête sans informatique, paie par virement, détient des données personnelles ou dont les clients l’exigent."
 cover: "cyber-insurance"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé au-dessus d’une photo, avec un bouclier portant une coche"
 related: ["cybersecurity-guide", "incident-response-first-hour", "invoice-fraud-bank-details", "gdpr-data-breach", "security-questionnaire"]
@@ -18,7 +18,7 @@ faq:
   - q: "Combien coûte une assurance cyber pour une petite équipe ?"
     a: "Il n’existe pas de grille publique fiable. La prime dépend du chiffre d’affaires et du secteur, des données que vous détenez, du plafond et de la franchise choisis et de vos réponses sur la sécurité : demandez deux ou trois devis avec le même plafond et la même franchise pour comparer ce qui est comparable."
   - q: "L’assurance cyber est-elle obligatoire ?"
-    a: "Non : au 19 octobre 2026, aucune loi n’oblige une entreprise à en souscrire une en France. Elle devient obligatoire quand un contrat l’exige, ce que certains grands comptes inscrivent dans leurs conditions fournisseurs."
+    a: "Non : au 19 octobre 2026, aucune loi n’oblige de manière générale une entreprise à en souscrire une en France. Elle devient obligatoire quand un contrat l’exige, ce que certains grands comptes inscrivent dans leurs conditions fournisseurs."
   - q: "Peut-on souscrire une assurance cyber après une cyberattaque ?"
     a: "Oui, mais elle ne couvrira ni cette attaque ni ce que vous saviez avant la souscription. Attendez-vous à des questions sur l’incident et sur ce que vous avez changé depuis, et à une prime qui en tient compte."
   - q: "Un salarié a cliqué sur un lien piégé : l’assurance cyber joue-t-elle ?"
@@ -47,7 +47,7 @@ La plupart des contrats ont deux volets. Les **garanties dommages** paient vos p
 
 Certains contrats couvrent aussi ce que publie votre site, la panne d’un prestataire dont vous dépendez, ou un arrêt qui n’est pas une attaque, comme une mise à jour ratée. D’autres non : lisez la liste des événements garantis, pas la plaquette commerciale.
 
-Pour les amendes, je ferais comme si une sanction de la CNIL restait à votre charge : qu’elle puisse légalement être assurée est loin d’être acquis. Les frais d’avocat pour lui répondre sont la partie sur laquelle compter.
+Pour les amendes, je ferais comme si une sanction de la CNIL restait à votre charge : qu’elle puisse légalement être assurée est loin d’être acquis. Les frais d’avocat pour répondre à la CNIL sont la partie sur laquelle compter.
 
 ## Les clauses qui décident de l’indemnisation
 
@@ -67,11 +67,11 @@ Ce que vous saviez avant la date d’effet est exclu, et certains contrats ne co
 
 Vous payez d’abord la franchise. Les pertes d’exploitation ne sont en général prises en charge qu’après un délai de carence, souvent compté en heures, et jusqu’à la fin de la période d’indemnisation. L’extorsion, la fraude et la notification ont souvent leurs propres sous-limites : le plafond affiché est rarement ce que vous toucherez pour un incident donné.
 
-## Ce que vous devez faire le jour où ça arrive
+## Ce que vous devez faire le jour de l’incident
 
 - **Appelez d’abord la ligne d’assistance de l’assureur.** Beaucoup de contrats exigent son accord avant de mandater un prestataire, de payer une rançon ou de reconnaître votre responsabilité ; les frais engagés sans cet accord peuvent rester à votre charge.
 - **Déclarez le sinistre dans le délai du contrat**, parfois « dès que possible ».
-- **Gardez les preuves** : n’effacez ni l’ordinateur infecté ni la règle de transfert créée par l’attaquant avant qu’un spécialiste les ait relevés. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après une cyberattaque{{< /a >}} liste ce qu’il faut garder et qui appeler.
+- **Gardez les preuves** : n’effacez ni l’ordinateur infecté ni la règle de transfert créée par l’attaquant avant qu’un spécialiste les ait examinés. Mon {{< a key="incident-response-first-hour" >}}plan de la première heure après une cyberattaque{{< /a >}} liste ce qu’il faut garder et qui appeler.
 - **Portez plainte dans les 72 heures.** Depuis le 24 avril 2023, l’article L. 12-10-1 du Code des assurances, issu de la loi LOPMI, subordonne l’indemnisation des pertes causées par une attaque contre vos systèmes au dépôt d’une plainte au plus tard 72 heures après que vous en avez eu connaissance ([FAQ de la direction générale du Trésor](https://www.tresor.economie.gouv.fr/Institutionnel/Niveau2/Pages/39db1de3-1230-46a0-8e1b-d38a739e0885/files/9065d98f-099e-4eb4-9ba5-23b68cd50feb)). La règle vise les entreprises et les personnes qui agissent à titre professionnel ; la plainte seule ne garantit pas la prise en charge. La plainte se dépose au commissariat, à la gendarmerie ou par écrit auprès du procureur de la République ; [17Cyber](https://www.17cyber.gouv.fr/) vous oriente.
 
 Cette horloge court en parallèle de celle du RGPD : si des données personnelles sont en jeu, vous avez 72 heures pour notifier la CNIL, comme l’explique mon guide sur {{< a key="gdpr-data-breach" >}}la notification d’une violation de données{{< /a >}}.
@@ -108,7 +108,7 @@ Je regarderais sérieusement un contrat si l’un de ces points est vrai :
 - **Vous détenez beaucoup de données personnelles**, ou des données sensibles comme des informations de santé ou des pièces d’identité.
 - **Un client ou un appel d’offres l’exige.**
 
-C’est moins urgent pour un consultant indépendant dont le travail vit dans des services cloud courants avec des sauvegardes testées, et qui pourrait travailler une semaine depuis son téléphone. Dans ce cas, je mettrais le premier budget dans les bases de mon {{< a key="cybersecurity-guide" >}}guide de cybersécurité pour les petites équipes{{< /a >}} : elles rendent une attaque moins probable, alors qu’une assurance ne paie qu’après.
+C’est moins urgent pour un consultant indépendant qui travaille dans des services cloud courants avec des sauvegardes testées et pourrait continuer une semaine depuis son téléphone. Dans ce cas, je mettrais le premier budget dans les bases de mon {{< a key="cybersecurity-guide" >}}guide de cybersécurité pour les petites équipes{{< /a >}} : elles rendent une attaque moins probable, alors qu’une assurance ne paie qu’après.
 
 Pour l’ordre de grandeur, l’étude [LUCY 2026 de l’AMRAE](https://www.amrae.fr/sites/default/files/public/2026-06/AMRAE_LUCY_2026_FR_Hdef.pdf), l’association des risk managers, compte 1 251 sinistres cyber indemnisés en 2025 contre 448 en 2024, pour 83,2 M€ (54,5 M€ un an plus tôt), et une forte hausse du nombre d’ETI (+75 %) et d’entreprises de taille moyenne (+97 %) assurées. Une édition précédente décrivait un taux de couverture très faible chez les TPE et PME.
 
@@ -124,7 +124,7 @@ Demandez les réponses par écrit. Ce guide décrit le fonctionnement de l’ass
 
 ## Avant d’en avoir besoin : la checklist
 
-- Notez le numéro de contrat et la ligne d’assistance dans la liste de contacts hors ligne de votre plan d’incident.
+- Inscrivez le numéro de contrat et la ligne d’assistance dans la liste de contacts hors ligne de votre plan d’incident.
 - Notez vos délais : déclaration à l’assureur, plainte sous 72 heures, notification à la CNIL sous 72 heures si des données personnelles sont en jeu.
 - Rendez vos réponses vraies : double authentification, sauvegardes, mises à jour, rappel téléphonique avant tout changement de RIB.
 - Revoyez le contrat à chaque échéance, et dès que vous commencez à encaisser des paiements, à détenir plus de données ou à signer avec un client exigeant.

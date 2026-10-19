@@ -156,7 +156,7 @@ On my first calls, prospects ask whether I have experience, what SEO will bring 
 
 ## How to tell whether it works: clicks, replies and calls
 
-Open rates are the figure most tools show first, and the least reliable. Apple Mail's Privacy Protection, offered since iOS 15 in 2021, downloads an email's images, tracking pixel included, in the background whether or not the email is read, so many recorded opens are not opens. My guide to {{< a key="newsletter-metrics" >}}newsletter metrics{{< /a >}} covers the rest.
+Open rates are the figure most tools show first, and the least reliable. Apple's Mail Privacy Protection, offered since iOS 15 in 2021, downloads an email's images, tracking pixel included, in the background whether or not the email is read, so many recorded opens are not opens. My guide to {{< a key="newsletter-metrics" >}}newsletter metrics{{< /a >}} covers the rest.
 
 Track these instead, issue by issue:
 

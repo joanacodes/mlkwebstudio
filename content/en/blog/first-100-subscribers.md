@@ -69,8 +69,6 @@ Finally, add one line to your email signature: what the newsletter is, how often
 
 ## Make your website ask in four places
 
-On your website, four places do most of the work:
-
 1. The end of each article: whoever has just finished an article on your subject is the most likely to want the next one. One field, one button, one sentence on what they will receive.
 2. A dedicated sign-up page, such as /newsletter, saying what the newsletter covers, how often it arrives and that unsubscribing takes one click, with a past issue to read. It is the link you share everywhere else.
 3. The footer: a short form on every page catches visitors who never open an article.
@@ -78,7 +76,7 @@ On your website, four places do most of the work:
 
 A lead magnet, such as a checklist or a template that solves one small problem next to what you sell, gives people a reason to sign up today. Deliver it to everyone who asks and offer the newsletter as a separate, unticked box; {{< a key="lead-magnet-ideas" >}}my 12 lead magnet ideas{{< /a >}} show what works for service businesses.
 
-If adding a form to your articles means fighting your theme, fix that first: a {{< a page="/services/websites" >}}website{{< /a >}} that loses the visitors you send it wastes every other effort in this guide.
+If adding a form to your articles means fighting your theme, fix that first, on your own or with {{< a page="/services/websites" >}}a web designer{{< /a >}}: a website that loses the visitors you send it wastes every other effort in this guide.
 
 ## LinkedIn: your posts and the Featured section
 
@@ -112,7 +110,7 @@ Every quarter, keep the two or three channels that bring readers who stay and dr
 
 ## What to expect from your first 100
 
-No honest benchmark says how long 100 subscribers take: it depends on how many people know you and how many visit your website. Use your own numbers, with this table as a guide:
+No reliable benchmark says how long 100 subscribers take: it depends on how many people know you and how many visit your website. Use your own numbers, with this table as a guide:
 
 | Channel | Effort | When sign-ups arrive |
 |---|---|---|
@@ -122,7 +120,7 @@ No honest benchmark says how long 100 subscribers take: it depends on how many p
 | LinkedIn posts and Featured | Medium, each issue | Around each post |
 | Talks and events | High, each event | On the day |
 | Partner swaps and guest spots | Medium, each time | When the issue or episode comes out |
-| Referral programme | A paid plan and some setup | Once readers like the issues |
+| Referral programme | A paid plan on beehiiv or Kit, some setup | Once readers like the issues |
 
 Expect a first wave from the people you invite, then a slower, steadier flow from your website and partners; that is normal. What makes the second hundred easier is what the first hundred receive: a {{< a key="welcome-email-sequence" >}}welcome sequence{{< /a >}} that introduces you, and issues that arrive when you said they would.
 

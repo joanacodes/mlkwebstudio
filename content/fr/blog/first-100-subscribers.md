@@ -16,7 +16,7 @@ related: ["funnels-newsletters-guide", "lead-magnet-ideas", "newsletter-consent-
 services: ["websites"]
 faq:
   - q: "Le double opt-in est-il obligatoire pour une newsletter ?"
-    a: "Ni le RGPD ni le Code des postes et des communications électroniques ne l’imposent, mais le RGPD exige que vous puissiez démontrer le consentement (article 7, paragraphe 1), et le clic de confirmation en est la preuve la plus simple. Il écarte aussi les adresses mal tapées ou fantaisistes."
+    a: "Ni le RGPD ni le Code des postes et des communications électroniques ne l’imposent, mais le RGPD exige que vous puissiez démontrer le consentement (article 7, paragraphe 1), et le clic de confirmation montre que le titulaire de l’adresse a bien accepté. Il écarte aussi les adresses mal tapées ou fantaisistes."
   - q: "Puis-je importer mes contacts LinkedIn dans ma newsletter ?"
     a: "Non. Même quand LinkedIn vous montre l’adresse email d’un contact, cette personne a accepté une mise en relation, pas une newsletter. Invitez ceux que vous connaissez vraiment par un post ou un message personnel, et laissez-les s’inscrire eux-mêmes."
   - q: "Faut-il offrir un cadeau ou organiser un jeu-concours pour attirer des inscrits ?"
@@ -41,11 +41,11 @@ En France, la prospection par email auprès des particuliers exige leur consente
 
 ### Votre outil d’emailing l’interdit
 
-La [politique d’utilisation acceptable de Mailchimp](https://mailchimp.com/legal/acceptable_use/) (en anglais) interdit les fichiers achetés, loués ou fournis par des tiers, les listes de partenaires et les adresses tirées de sources publiques. Vérifiez les conditions de votre propre outil : un compte fermé pour un fichier acheté emporte avec lui vos vrais abonnés.
+La [politique d’utilisation acceptable de Mailchimp](https://mailchimp.com/legal/acceptable_use/) (en anglais) interdit les fichiers achetés, loués ou fournis par des tiers, les listes de partenaires et les adresses tirées de sources publiques. Vérifiez les conditions de votre propre outil : s’il suspend votre compte pour un fichier acheté, vos vrais abonnés ne reçoivent plus rien non plus.
 
 ### Les pièges à spam
 
-Certaines adresses n’existent que pour piéger les expéditeurs qui n’ont pas demandé la permission : adresses jamais inscrites nulle part, ou anciennes adresses fermées puis réactivées par leur fournisseur. Elles finissent dans les fichiers achetés, et les toucher peut valoir à votre domaine une place sur une liste noire. Un vérificateur comme Reoon, que j’utilise tous les jours, en repère une partie ; un fichier qui demande autant de nettoyage ne doit pas servir.
+Certaines adresses n’existent que pour piéger les expéditeurs qui n’ont pas demandé la permission : adresses jamais inscrites nulle part, ou anciennes adresses fermées puis réactivées par leur fournisseur. Elles finissent dans les fichiers achetés, et les toucher peut valoir à votre domaine une place sur une liste noire. Un vérificateur comme Reoon, que j’utilise tous les jours, en repère une partie, mais nettoyer un fichier ne lui donne pas le consentement qui lui manque.
 
 ### Les plaintes
 
@@ -59,7 +59,7 @@ Commencez par une liste sur papier, pas dans votre outil : clients actuels et a
 
 Ensuite, **invitez au lieu d’importer**. Un court message personnel avec le lien de votre page d’inscription permet à chacun de s’inscrire et de confirmer d’un clic, et votre outil garde la preuve du consentement.
 
-Qui peut recevoir cette invitation par email dépend de la personne :
+Le droit d’envoyer cette invitation par email dépend du destinataire :
 
 - Les professionnels : la [CNIL admet](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique) l’email sans consentement préalable quand il concerne leur métier, s’ils en ont été informés et peuvent s’y opposer simplement. Une invitation personnelle convient.
 - Vos clients particuliers : l’article L34-5 prévoit une exception pour vos clients, sur des produits ou services analogues à ceux que vous leur avez vendus, s’ils ont pu refuser au moment de la collecte, puis dans chaque email.
@@ -69,8 +69,6 @@ Enfin, ajoutez une ligne à votre signature d’email : ce que contient la news
 
 ## Faites travailler votre site à quatre endroits
 
-Sur votre site, quatre emplacements font l’essentiel du travail :
-
 1. La fin de chaque article : qui vient de lire un article entier sur votre sujet est le plus susceptible de vouloir le suivant. Un champ, un bouton, une phrase sur ce qu’il recevra.
 2. Une page d’inscription dédiée, par exemple /newsletter, qui dit ce que couvre la newsletter, à quel rythme elle arrive et que la désinscription se fait en un clic, avec un ancien numéro à lire. C’est le lien que vous partagerez partout ailleurs.
 3. Le pied de page : un court formulaire sur chaque page capte les visiteurs qui n’ouvrent jamais d’article.
@@ -78,7 +76,7 @@ Sur votre site, quatre emplacements font l’essentiel du travail :
 
 Un lead magnet, par exemple une check-list ou un modèle qui règle un petit problème proche de ce que vous vendez, donne une raison de s’inscrire aujourd’hui. Envoyez-le à tous ceux qui le demandent et proposez la newsletter dans une case séparée, non cochée ; {{< a key="lead-magnet-ideas" >}}mes 12 idées de lead magnet{{< /a >}} montrent ce qui marche pour une entreprise de services.
 
-Si ajouter un formulaire à vos articles revient à vous battre avec votre thème, réglez cela d’abord : un {{< a page="/services/websites" >}}site web{{< /a >}} qui perd ses visiteurs gâche tous les autres efforts.
+Si ajouter un formulaire à vos articles revient à vous battre avec votre thème, réglez cela d’abord, vous-même ou avec l’aide d’un {{< a page="/services/websites" >}}studio web{{< /a >}} : un site qui perd ses visiteurs gâche tous les autres efforts.
 
 ## LinkedIn : vos posts et la section Sélection
 
@@ -98,7 +96,7 @@ Viennent ensuite des audiences qui appartiennent à quelqu’un d’autre, avec 
 
 Un programme de parrainage donne à chaque abonné un lien personnel ; quand des proches s’inscrivent par ce lien, l’abonné gagne une récompense, comme un modèle ou une mention dans un numéro. Au moment où j’écris (octobre 2026), beehiiv l’inclut à partir de son offre payante Scale (pas dans l’offre gratuite Launch), et Kit propose un système de parrainage, qui fonctionne avec SparkLoop, sur son offre Pro. Pour les autres outils, regardez leurs intégrations et {{< a key="newsletter-tools-comparison" >}}mon comparatif des outils de newsletter{{< /a >}}.
 
-Deux règles le gardent propre. Les proches s’inscrivent eux-mêmes par le lien : jamais de formulaire où l’abonné tape l’adresse d’un ami, à qui votre outil écrirait ensuite. Et gardez des récompenses modestes, sinon vous attirerez des chasseurs de cadeaux plutôt que des lecteurs. Le parrainage multiplie l’audience que vous avez déjà : attendez que vos lecteurs apprécient clairement ce qu’ils reçoivent.
+Deux règles évitent les dérives. Les proches s’inscrivent eux-mêmes par le lien : jamais de formulaire où l’abonné tape l’adresse d’un ami, à qui votre outil écrirait ensuite. Et gardez des récompenses modestes, sinon vous attirerez des chasseurs de cadeaux plutôt que des lecteurs. Le parrainage multiplie l’audience que vous avez déjà : attendez que vos lecteurs apprécient clairement ce qu’ils reçoivent.
 
 ## Notez la source de chaque inscription
 
@@ -112,7 +110,7 @@ Chaque trimestre, gardez les deux ou trois canaux qui amènent des lecteurs fid�
 
 ## À quoi vous attendre pour les 100 premiers
 
-Aucune moyenne honnête ne dit combien de temps prennent 100 abonnés : tout dépend du nombre de personnes qui vous connaissent et des visites sur votre site. Partez de vos propres chiffres, avec ce tableau comme repère :
+Aucune moyenne fiable ne dit combien de temps il faut pour atteindre 100 abonnés : tout dépend du nombre de personnes qui vous connaissent et des visites sur votre site. Partez de vos propres chiffres, avec ce tableau comme repère :
 
 | Canal | Effort | Quand arrivent les inscriptions |
 |---|---|---|
@@ -122,7 +120,7 @@ Aucune moyenne honnête ne dit combien de temps prennent 100 abonnés : tout d�
 | Posts LinkedIn et section Sélection | Moyen, à chaque numéro | Autour de chaque post |
 | Conférences et salons | Élevé, à chaque événement | Le jour même |
 | Partenaires, articles invités, podcasts | Moyen, à chaque fois | À la parution |
-| Parrainage | Moyen, offre payante | Quand les lecteurs aiment les numéros |
+| Parrainage | Offre payante chez beehiiv ou Kit, un peu de réglage | Quand les lecteurs aiment les numéros |
 
 Attendez-vous à une première vague venue des gens que vous invitez, puis à un flux plus lent et régulier venu du site et des partenaires ; c’est normal. Ce qui rend la deuxième centaine plus facile, c’est ce que reçoit la première : une {{< a key="welcome-email-sequence" >}}séquence de bienvenue{{< /a >}} qui vous présente, et des numéros qui arrivent à la date annoncée.
 
