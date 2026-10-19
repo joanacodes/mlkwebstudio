@@ -12,7 +12,7 @@ keywords: ["CRM sur mesure", "développement CRM sur mesure", "CRM sur mesure ou
 summary: "Un CRM sur mesure se justifie quand votre activité dépasse le cycle de vente classique : des demandes qui deviennent des chantiers, plusieurs rôles, des outils qui doivent communiquer entre eux. Si votre processus se résume à demande, devis, gagné ou perdu, un CRM gratuit ou peu cher, ou un tableur avec des rappels automatiques, vous servira mieux. J’en ai développé un pour un client dont l’équipe ne suivait plus le flux de prospects."
 cover: "bespoke-crm-internal-app"
 cover_alt: "Le mot CRM sous un schéma d’automatisation, devant un ordinateur portable affichant un planning, derrière une vitre cannelée"
-related: ["automate-lead-follow-up", "build-app-with-ai", "zapier-vs-make-vs-n8n", "pilotech-seo-case-study", "ai-small-business-guide"]
+related: ["automate-lead-follow-up", "build-app-with-ai", "zapier-vs-make-vs-n8n", "gdpr-data-retention-crm", "ai-small-business-guide"]
 services: ["automation"]
 faq:
   - q: "Quelle est la différence entre un CRM et un ERP ?"
@@ -103,7 +103,7 @@ Pour cinq utilisateurs sur trois ans, vous payez 180 fois le prix mensuel d’un
 
 Un logiciel n’est jamais terminé. Les services auxquels il se connecte changent leurs règles, des correctifs de sécurité sortent, et l’entreprise demande de nouvelles fonctions en grandissant. Avec un CRM du marché, l’éditeur s’en charge. Avec un CRM sur mesure, c’est votre prestataire : demandez-lui avant de signer qui assure la maintenance, dans quels délais et à quel prix. Demandez aussi à qui appartiendront le code et le compte d’hébergement : s’ils sont au nom de votre entreprise, vous pourrez changer de prestataire sans repartir de zéro.
 
-Si vous le construisez vous-même avec l’IA, la maintenance, c’est vous. Mon guide pour {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}} détaille ce que vous pouvez raisonnablement faire sans aide.
+Si vous le construisez vous-même avec l’IA, la maintenance, c’est vous. Mon guide pour {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}} détaille ce que vous pouvez raisonnablement faire sans aide. Avant d’y mettre de vraies données clients, vérifiez que {{< a key="ai-app-data-leaks" >}}votre application créée avec l’IA ne laisse pas fuiter de données{{< /a >}}.
 
 Côte à côte, les réponses donnent ceci :
 
@@ -132,8 +132,8 @@ Ce dont j’ai besoin de votre part dépend de ce que doit faire l’application
 Un CRM est un fichier de données personnelles : noms, numéros de téléphone, adresses email, notes d’appels. Les règles suivantes ont leur place dans le cahier des charges, pas dans une mise à jour ultérieure :
 
 - **Les accès :** qui peut voir et modifier quoi.
-- **La suppression et l’export :** comment effacer ou transmettre les données d’une personne qui le demande.
-- **La durée de conservation :** combien de temps chaque fiche reste dans l’application, et ce qui se passe ensuite.
+- **La suppression et l’export :** comment effacer ou {{< a key="gdpr-subject-access-request" >}}transmettre les données d’une personne qui le demande{{< /a >}}.
+- **La durée de conservation :** {{< a key="gdpr-data-retention-crm" >}}combien de temps chaque fiche reste dans l’application{{< /a >}}, et ce qui se passe ensuite.
 - **Les oppositions :** la CNIL recommande de conserver au moins trois ans les informations qui permettent de respecter l’opposition d’une personne à la prospection, dans une [liste repoussoir](https://www.cnil.fr/fr/comment-utiliser-une-liste-repoussoir-pour-respecter-lopposition-la-prospection) à laquelle l’application compare chaque nouvelle liste importée. Elle suggère même de n’y garder qu’une empreinte (un hachage) de l’adresse ou du numéro, plutôt que les données en clair.
 
 Pour la durée, la CNIL donne un repère dans son [référentiel sur la gestion des activités commerciales](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des) : trois ans pour un prospect, à compter de la collecte ou du dernier contact venant de lui. Un clic sur un lien dans un email ou une demande de documentation compte comme un contact ; la simple ouverture d’un email, non. Pour un client, les données utilisées pour la prospection peuvent être gardées pendant toute la relation commerciale, puis trois ans après sa fin ; les factures et pièces comptables suivent leurs propres délais légaux.

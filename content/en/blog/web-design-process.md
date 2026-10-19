@@ -149,7 +149,7 @@ Whoever designs your site, having these ready before the first call speeds up ev
 3. **Who will edit the site** after launch: you, someone on your team or a specialist.
 4. **Your photos** of your work, your premises and your team, if you have them.
 5. **Your domain details**: access to your registrar account, or the name of whoever holds it.
-6. **The legal details your site must show.** A limited company's website must display its registered name, registered number, registered office address and the part of the UK where it is registered ([GOV.UK](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material)). If a form collects personal data, you also need a privacy notice.
+6. **The legal details your site must show.** A limited company's website must display its registered name, registered number, registered office address and the part of the UK where it is registered ([GOV.UK](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material)). If a form collects personal data, you also need {{< a key="privacy-policy-guide" >}}a privacy notice{{< /a >}}. My guide to {{< a key="website-legal-notice" >}}website legal notices{{< /a >}} covers sole traders and France as well.
 7. **One person who approves** the identity, the layouts and the finished site.
 
 If the budget is not there yet, you do not need me for a first website. The same steps work on your own, and my {{< a key="squarespace-tutorial" >}}Squarespace tutorial{{< /a >}} takes you through the build, step by step.

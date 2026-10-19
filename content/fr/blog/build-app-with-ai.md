@@ -12,7 +12,7 @@ keywords: ["créer une application avec l’IA", "créer une application sans co
 summary: "Vous pouvez créer une application avec l’IA sans être développeur si elle reste un petit outil pour vous ou votre équipe : calculateur de devis, checklist ou tableau de bord, faits avec les artefacts de Claude ou un générateur comme Lovable ou Bolt. Faites appel à un développeur dès qu’elle stocke des données de clients, leur ouvre des comptes, encaisse des paiements ou doit tourner chaque jour : l’IA écrit le code, mais la sécurité et la maintenance restent à votre charge."
 cover: "build-app-with-ai"
 cover_alt: "Une personne à son bureau vue à travers un verre cannelé, avec une grille de plan, une cible et les mots Vibe coding"
-related: ["bespoke-crm-internal-app", "build-website-with-ai", "claude-api-tutorial", "chatgpt-gdpr-client-data", "spaceship-hosting"]
+related: ["bespoke-crm-internal-app", "build-website-with-ai", "claude-api-tutorial", "chatgpt-gdpr-client-data", "ai-app-data-leaks"]
 services: ["automation"]
 faq:
   - q: "Le vibe coding, est-ce la même chose que le no-code ?"
@@ -99,7 +99,7 @@ Ce choix compte plus que l’outil.
 
 **Sur votre site.** Un outil d’une seule page sans serveur, comme le calculateur ci-dessus, n’est qu’un fichier. Vous pouvez le mettre sur votre site ou sur un hébergement simple comme GitHub Pages ou Spaceship. Mon tutoriel pour {{< a key="build-website-with-ai" >}}créer un site internet avec l’IA{{< /a >}} explique la publication sur GitHub Pages avec votre nom de domaine, et mon guide de l’{{< a key="spaceship-hosting" >}}hébergement Spaceship{{< /a >}} indique quelle offre convient à quel site. Les règles de GitHub réservent Pages aux sites, pas aux boutiques en ligne ni aux logiciels vendus en abonnement.
 
-**Chez le générateur.** C’est le moyen le plus rapide de mettre l’application en ligne, et celui qui vous lie le plus à son abonnement.
+**Chez le générateur.** C’est le moyen le plus rapide de mettre l’application en ligne, et celui qui vous lie le plus à son abonnement. Publier sur l’App Store ou Google Play est un autre projet : {{< a key="mobile-app-launch-guide" >}}mon guide pour lancer une application mobile{{< /a >}} le couvre.
 
 L’application de devis et de commande que j’ai intégrée au {{< a page="/projects/edenel-nettoyage" >}}site d’Edenel Nettoyage{{< /a >}} montre jusqu’où peut aller une page sans serveur dédié. Un simulateur chiffre chaque prestation d’après la même grille que la page Tarifs, devis et factures sont générés en PDF dans le navigateur, et l’historique des commandes reste sur l’appareil du client. C’était un projet du studio, pas une expérience de week-end, mais le principe vaut pour vous : **moins votre application garde de données sur un serveur, moins il y a à protéger**.
 
@@ -115,9 +115,9 @@ Deux pièges guettent les applications faites maison. Le stockage partagé d’u
 
 ### Les connexions et la sécurité
 
-Les comptes utilisateurs et les bases de données, c’est là que les applications faites en vibe coding déraillent le plus visiblement. En 2025, un chercheur a analysé 1 645 applications de la vitrine publique de Lovable et en a trouvé 170 qui laissaient des inconnus lire des données comme des adresses e-mail, parce que les règles d’accès de leur base de données (la row level security) manquaient ou étaient trop faibles. L’affaire est enregistrée sous la référence [CVE-2025-48757](https://nvd.nist.gov/vuln/detail/CVE-2025-48757), et Lovable la conteste, au motif que chaque client est responsable de la protection des données de sa propre application. Quelle que soit l’issue de ce débat, la leçon pratique reste la même : avec des comptes ou une base de données, quelqu’un doit vérifier qui peut lire et modifier chaque table avant d’y mettre de vraies données, et rien ne garantit que le générateur l’a fait pour vous.
+Les comptes utilisateurs et les bases de données, c’est là que les applications faites en vibe coding déraillent le plus visiblement. En 2025, un chercheur a analysé 1 645 applications de la vitrine publique de Lovable et en a trouvé 170 qui laissaient des inconnus lire des données comme des adresses e-mail, parce que les règles d’accès de leur base de données (la row level security) manquaient ou étaient trop faibles. L’affaire est enregistrée sous la référence [CVE-2025-48757](https://nvd.nist.gov/vuln/detail/CVE-2025-48757), et Lovable la conteste, au motif que chaque client est responsable de la protection des données de sa propre application. Quelle que soit l’issue de ce débat, la leçon pratique reste la même : avec des comptes ou une base de données, quelqu’un doit {{< a key="ai-app-data-leaks" >}}vérifier qui peut lire et modifier chaque table{{< /a >}} avant d’y mettre de vraies données, et rien ne garantit que le générateur l’a fait pour vous.
 
-Les clés API sont l’autre fuite classique. Une application qui appelle un modèle d’IA a besoin d’une clé, et une clé placée dans une page web peut être lue par chaque visiteur : mon tutoriel {{< a key="claude-api-tutorial" >}}API Claude{{< /a >}} explique où la ranger. Un artefact qui appelle Claude évite le problème, puisqu’il n’a besoin d’aucune clé.
+{{< a key="api-keys-mobile-apps" >}}Les clés API{{< /a >}} sont l’autre fuite classique. Une application qui appelle un modèle d’IA a besoin d’une clé, et une clé placée dans une page web peut être lue par chaque visiteur : mon tutoriel {{< a key="claude-api-tutorial" >}}API Claude{{< /a >}} explique où la ranger. Un artefact qui appelle Claude évite le problème, puisqu’il n’a besoin d’aucune clé.
 
 ### Les paiements
 

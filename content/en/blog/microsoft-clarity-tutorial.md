@@ -12,7 +12,7 @@ keywords: ["how to use Microsoft Clarity", "Microsoft Clarity tutorial", "Micros
 summary: "To use Microsoft Clarity, create a free project at clarity.microsoft.com, add its tracking code to every page (by hand, with Google Tag Manager or through your platform) and connect it to your cookie banner: since 31 October 2025, Clarity has needed a consent signal for visitors from the UK, the EEA and Switzerland. Then read the dashboard's rage clicks, dead clicks and quick backs, the heatmaps and a few recordings to find what makes visitors leave."
 cover: "microsoft-clarity-tutorial"
 cover_alt: "Microsoft Clarity heatmap of a web page in a browser window"
-related: ["clarity-vs-hotjar", "website-conversion-rate", "track-ai-traffic", "squarespace-code-injection", "google-search-console-tutorial"]
+related: ["clarity-vs-hotjar", "website-conversion-rate", "track-ai-traffic", "squarespace-code-injection", "cookie-banner-setup"]
 services: ["websites"]
 faq:
   - q: "Is Microsoft Clarity really free?"
@@ -105,9 +105,9 @@ If the requests are there but sessions from the UK or Europe look thin or broken
 
 Since 31 October 2025, Microsoft has required a consent signal for visits from the European Economic Area, the UK and Switzerland. Without a valid signal, Clarity sets no cookies for those visitors, and Microsoft warns that features such as recordings and funnels may then be limited. When a visitor refuses, Clarity deletes the cookies it had already set ([Microsoft's consent documentation](https://learn.microsoft.com/en-us/clarity/setup-and-installation/consent-management)).
 
-The signal comes from your cookie banner, the window where visitors accept or refuse cookies. There are two ways to send it:
+The signal comes from {{< a key="cookie-banner-rules" >}}your cookie banner{{< /a >}}, the window where visitors accept or refuse cookies. There are two ways to send it:
 
-1. **Use a banner that supports Clarity.** Consent management platforms (CMPs) such as Complianz, CookieYes, CookieHub and Usercentrics document how they pass the visitor's choice to Clarity. Search your own banner's help pages for "Microsoft Clarity" before writing any code. Some banners can also hold the Clarity script back until the visitor accepts, which is the most cautious set-up.
+1. **Use a banner that supports Clarity.** Consent management platforms (CMPs) such as Complianz, CookieYes, CookieHub and Usercentrics document how they pass the visitor's choice to Clarity. Search your own banner's help pages for "Microsoft Clarity" before writing any code. Some banners can also {{< a key="cookie-banner-setup" >}}hold the Clarity script back until the visitor accepts{{< /a >}}, which is the most cautious set-up.
 2. **Send the signal yourself.** When the visitor makes a choice, your banner calls Clarity's Consent API v2:
 
 ```js

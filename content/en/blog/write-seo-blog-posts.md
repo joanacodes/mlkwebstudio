@@ -45,7 +45,7 @@ My clearest example is the {{< a page="/projects/pilotech-vmi" >}}site I built f
 | Generic tips anyone could have written | A question asked before buying: "can I have air conditioning without an outdoor unit?" |
 | A definition rewritten from other sites | A comparison of the options, saying who each one suits |
 
-News posts have their place for people who already know you. They rarely rank, because nobody searches for them.
+News posts have their place for people who already know you. They rarely rank, because nobody searches for them. For those readers, think of a newsletter: my {{< a key="b2b-newsletter-ideas" >}}B2B newsletter ideas{{< /a >}} cover what to put in one.
 
 ## Step 1: find topics in your customers' problems
 
@@ -147,7 +147,7 @@ An article that ranks but leads nowhere brings visits, not enquiries. Link it to
 
 Link back from the service page to the articles that answer its common questions, and link related articles to each other and to the main guide on their subject.
 
-Then make the next step easy. Many prospects prefer to call: in the cold email campaigns I run for Pilotech, architects especially often called instead of replying, because a call fits a busy day. So the page an article leads to should show a phone number, not only a form. On the {{< a page="/projects/pilotech-teknopoint" >}}Teknopoint site{{< /a >}}, the blog answers the questions people ask before buying, such as how to hide an air conditioner, and the range pages give the next step.
+Then make the next step easy. Many prospects prefer to call: in the cold email campaigns I run for Pilotech, architects especially often called instead of replying, because a call fits a busy day. So the page an article leads to should show a phone number, not only a form. On the {{< a page="/projects/pilotech-teknopoint" >}}Teknopoint site{{< /a >}}, the blog answers the questions people ask before buying, such as how to hide an air conditioner, and the range pages give the next step. For readers who are not ready for that step yet, my {{< a key="lead-magnet-ideas" >}}lead magnet ideas for service businesses{{< /a >}} show what to offer in exchange for an email address.
 
 ## Step 8: write the title, meta description and URL
 

@@ -81,7 +81,7 @@ Since February 2024, Google's [email sender guidelines](https://support.google.c
 - **Every sender** needs SPF or DKIM on the sending domain, valid forward and reverse DNS, a TLS connection, and a spam rate (the share of your emails that recipients report as spam) under 0.3 per cent. Google advises staying under 0.1 per cent.
 - **Senders of more than 5,000 messages a day** to Gmail addresses also need SPF, DKIM and DMARC together, with a DMARC policy of at least p=none, the From domain aligned with SPF or DKIM, and one-click unsubscribe on marketing messages.
 
-Microsoft followed for Outlook.com, Hotmail and Live addresses. Since 5 May 2025, a domain that sends them 5,000 or more messages a day must pass SPF and DKIM, publish a DMARC record, and have SPF or DKIM aligned with the From domain. Mail that fails is rejected with the error `550 5.7.515 Access denied`, as [Microsoft's page on that error](https://support.microsoft.com/en-us/outlook/fix-ndr-error-550-5-7-515-in-outlook-com) explains.
+Microsoft followed for Outlook.com, Hotmail and Live addresses. Since 5 May 2025, a domain that sends them 5,000 or more messages a day must pass SPF and DKIM, publish a DMARC record, and have SPF or DKIM aligned with the From domain. Mail that fails is rejected with the error `550 5.7.515 Access denied`, as [Microsoft's page on that error](https://support.microsoft.com/en-us/outlook/fix-ndr-error-550-5-7-515-in-outlook-com) explains. If you also send a newsletter, my guide to {{< a key="newsletter-deliverability" >}}newsletter deliverability{{< /a >}} explains these rules for that kind of sending.
 
 What this means for a small cold email set-up:
 

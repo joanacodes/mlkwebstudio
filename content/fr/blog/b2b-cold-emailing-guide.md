@@ -43,7 +43,7 @@ Par expérience, il marche le mieux quand trois conditions sont réunies :
 2. Un nouveau client vaut l’effort, car une campagne demande quelques semaines de préparation.
 3. Quelqu’un peut décrocher le téléphone, car beaucoup de prospects appellent au lieu de répondre.
 
-Il ne convient pas si vous vendez à des particuliers : dans les deux pays, un email commercial envoyé à un particulier exige son consentement, ou une relation client existante. Et il ne sauvera pas une offre dont personne ne veut : le cold emailing met une bonne offre sous les yeux des bonnes personnes, il ne la rend pas bonne.
+Il ne convient pas si vous vendez à des particuliers : dans les deux pays, un email commercial envoyé à un particulier {{< a key="newsletter-consent-gdpr" >}}exige son consentement, ou une relation client existante{{< /a >}}. Et il ne sauvera pas une offre dont personne ne veut : le cold emailing met une bonne offre sous les yeux des bonnes personnes, il ne la rend pas bonne.
 
 ## Le cold emailing est-il légal en France et au Royaume-Uni ?
 
@@ -53,13 +53,13 @@ L’objection que j’entends, c’est que le cold emailing serait illégal. En 
 
 La CNIL permet d’écrire à des professionnels sans consentement préalable quand **le message concerne leur métier**, qu’ils ont été informés que leur adresse pourrait servir à de la prospection et qu’ils peuvent s’y opposer simplement et gratuitement. Chaque email identifie l’expéditeur et propose un moyen simple de se désinscrire, et chaque opposition rejoint une liste repoussoir (voir [la page de la CNIL sur la prospection par courrier électronique](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel)).
 
-Trois points pèsent sur l’organisation de la campagne. Les adresses génériques comme contact@ ou info@ sont les coordonnées de l’entreprise, pas d’une personne : les règles prévues pour les personnes ne s’y appliquent pas, même si vous vous identifiez et proposez toujours le désabonnement. La CNIL recommande de conserver les données d’un prospect trois ans au plus après leur collecte ou son dernier contact. Enfin, depuis sa recommandation sur les pixels de suivi, publiée en avril 2026, un pixel de suivi des ouvertures exige le consentement, même en B2B : une raison de plus d’envoyer du texte brut, suivi désactivé.
+Trois points pèsent sur l’organisation de la campagne. Les adresses génériques comme contact@ ou info@ sont les coordonnées de l’entreprise, pas d’une personne : les règles prévues pour les personnes ne s’y appliquent pas, même si vous vous identifiez et proposez toujours le désabonnement. La CNIL recommande de {{< a key="gdpr-data-retention-crm" >}}conserver les données d’un prospect trois ans au plus{{< /a >}} après leur collecte ou son dernier contact. Enfin, depuis sa recommandation sur les pixels de suivi, publiée en avril 2026, un pixel de suivi des ouvertures exige le consentement, même en B2B : une raison de plus d’envoyer du texte brut, suivi désactivé.
 
 ### Au Royaume-Uni : PECR et UK GDPR
 
 Si vous prospectez des entreprises britanniques, les règles changent. Le PECR permet d’écrire sans consentement aux sociétés (limited companies), aux LLP, aux sociétés de personnes écossaises et à certains organismes publics. En revanche, les entrepreneurs individuels (sole traders) et la plupart des sociétés de personnes hors d’Écosse comptent comme des particuliers : ils doivent avoir donné leur accord, sauf s’ils sont déjà clients (soft opt-in). La page de l’ICO sur [le marketing entre entreprises](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) ajoute une règle utile : si l’adresse ne permet pas de savoir de quel type d’entreprise il s’agit, traitez-la comme celle d’un particulier.
 
-Chaque email doit identifier l’expéditeur et donner une adresse valable pour se désinscrire. Quand l’adresse désigne une personne, l’UK GDPR s’applique aussi : intérêt légitime documenté par écrit, informations sur le traitement au plus tard dans le premier email, arrêt dès la première opposition. Depuis février 2026, les amendes prévues par le PECR peuvent atteindre 17,5 millions de livres sterling ou 4 % du chiffre d’affaires mondial.
+Chaque email doit identifier l’expéditeur et donner une adresse valable pour se désinscrire. Quand l’adresse désigne une personne, l’UK GDPR s’applique aussi : intérêt légitime documenté par écrit, informations sur le traitement au plus tard dans le premier email, arrêt dès la première opposition. Depuis février 2026, les amendes prévues par le PECR peuvent atteindre 17,5 millions de livres sterling ou 4 % du chiffre d’affaires mondial. Le reste du RGPD, au-delà de la prospection, est dans mon {{< a key="gdpr-guide" >}}guide du RGPD pour les petites équipes{{< /a >}}.
 
 ## Étape 1 : choisir un seul public et une seule offre
 

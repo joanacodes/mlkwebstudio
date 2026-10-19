@@ -12,7 +12,7 @@ keywords: ["automatiser le suivi des prospects", "suivi des prospects Google She
 summary: "Pour automatiser le suivi des prospects gratuitement, reliez un formulaire Google Forms à une feuille Google Sheets et ajoutez un court script Google Apps Script. Il vous envoie une alerte par email avec le nom et le numéro du prospect dès l’envoi du formulaire, inscrit la demande dans un onglet Prospects et vous envoie un rappel si elle est encore « Nouvelle » une heure plus tard. Tout fonctionne avec un compte Google gratuit, sans abonnement."
 cover: "automate-lead-follow-up"
 cover_alt: "Les mots Apps Script sous un schéma d’automatisation qui part d’un déclencheur orange en forme d’éclair, derrière une vitre cannelée"
-related: ["zapier-vs-make-vs-n8n", "bespoke-crm-internal-app", "website-conversion-rate", "cold-calling-vs-cold-emailing", "ai-small-business-guide"]
+related: ["zapier-vs-make-vs-n8n", "bespoke-crm-internal-app", "website-conversion-rate", "build-sales-funnel", "ai-small-business-guide"]
 services: ["automation"]
 faq:
   - q: "Google Apps Script est-il gratuit ?"
@@ -66,7 +66,7 @@ Dans Google Forms (`forms.google.com`), créez un formulaire vide et ajoutez qua
 | Email | Réponse courte | Non |
 | Votre demande | Paragraphe | Oui |
 
-Rendez le téléphone obligatoire : si un prospect préfère parler, il vous faut un numéro à rappeler. Dans la description du formulaire, ajoutez une phrase sur l’usage que vous ferez de ces informations, avec un lien vers votre politique de confidentialité.
+Rendez le téléphone obligatoire : si un prospect préfère parler, il vous faut un numéro à rappeler. Dans la description du formulaire, ajoutez une phrase sur l’usage que vous ferez de ces informations, avec un lien vers {{< a key="privacy-policy-guide" >}}votre politique de confidentialité{{< /a >}}.
 
 Cliquez ensuite sur **Publier** (en haut à droite) : un formulaire non publié n’accepte aucune réponse. Pour l’intégrer à votre site, ouvrez le menu à trois points, choisissez l’intégration HTML (icône `< >`, parfois sous **Envoyer**) et collez le code dans une page, ou placez le lien du formulaire derrière un bouton.
 
@@ -214,7 +214,7 @@ Désormais, la seule étape manuelle, c’est le statut. La personne qui rappell
 
 ### Garder une liste propre
 
-L’onglet Prospects et les emails d’alerte contiennent des données personnelles : noms, numéros, parfois le détail d’un projet. Fixez une durée de conservation pour les prospects qui ne sont pas devenus clients. Le référentiel de la CNIL sur la [gestion des activités commerciales](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des) retient trois ans à compter de la collecte ou du dernier contact venant du prospect. Une fois par mois, supprimez les lignes et les emails d’alerte devenus inutiles.
+L’onglet Prospects et les emails d’alerte contiennent des données personnelles : noms, numéros, parfois le détail d’un projet. Fixez {{< a key="gdpr-data-retention-crm" >}}une durée de conservation{{< /a >}} pour les prospects qui ne sont pas devenus clients. Le référentiel de la CNIL sur la [gestion des activités commerciales](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des) retient trois ans à compter de la collecte ou du dernier contact venant du prospect. Une fois par mois, supprimez les lignes et les emails d’alerte devenus inutiles.
 
 ## Les limites de Google Apps Script sur un compte gratuit
 
@@ -251,6 +251,6 @@ Ce système convient à une ou deux personnes et à quelques dizaines de demande
 2. Les demandes deviennent des chantiers, des plannings et des factures, et plusieurs personnes ont besoin de vues différentes. C’est là que mon client a eu besoin d’une application sur mesure : prospects, chantiers, échanges avec l’équipe, calendrier et analyses comptables au même endroit, avec des intégrations d’IA et de téléphonie. Mon guide du {{< a key="bespoke-crm-internal-app" >}}CRM sur mesure{{< /a >}} vous aide à savoir si vous en êtes là.
 3. Vous voulez de l’aide pour trier les demandes ou y répondre. Une étape d’IA peut classer chacune (demande de devis, question, spam) ou rédiger un brouillon de réponse ; mon tutoriel sur l’{{< a key="claude-api-tutorial" >}}API Claude{{< /a >}} montre comment créer une clé avec un plafond de dépenses. L’appel, lui, reste humain.
 
-Si trop peu de demandes arrivent, le problème se situe en amont : mon guide pour {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de votre site{{< /a >}} montre où les visiteurs décrochent.
+Si trop peu de demandes arrivent, le problème se situe en amont : mon guide pour {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de votre site{{< /a >}} montre où les visiteurs décrochent. Mon tutoriel pour {{< a key="build-sales-funnel" >}}créer un tunnel de vente avec vos outils actuels{{< /a >}} couvre cette partie en amont.
 
 Vous n’avez pas besoin de moi pour mettre cela en place : les six étapes et une demande de test suffisent. Faites-le tourner un mois, appels manqués compris, et vous saurez à quelle vitesse vous rappelez vraiment, et ce que le prochain outil devra faire.

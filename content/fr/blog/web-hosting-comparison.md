@@ -92,7 +92,7 @@ C’est là que mon avis est le plus tranché. Je ne recommande ni OVH ni Hostin
 - **o2switch** possède et exploite ses datacenters à Clermont-Ferrand, sans infrastructure louée à un tiers.
 - **Infomaniak** exploite ses propres datacenters en Suisse. Celui de Genève, en service depuis 2024, injecte sa chaleur dans le réseau de chauffage urbain de la ville.
 
-L’emplacement compte moins que les sauvegardes. Le 10 mars 2021, un incendie a détruit l’un des datacenters d’OVHcloud à Strasbourg, et des clients qui n’avaient aucune copie ailleurs ont perdu leurs données pour de bon. Cela peut arriver chez n’importe quel hébergeur : **gardez votre propre copie des fichiers et de la base de données**, en dehors de votre compte d’hébergement.
+L’emplacement compte moins que les sauvegardes. Le 10 mars 2021, un incendie a détruit l’un des datacenters d’OVHcloud à Strasbourg, et des clients qui n’avaient aucune copie ailleurs ont perdu leurs données pour de bon. Cela peut arriver chez n’importe quel hébergeur : **gardez votre propre copie des fichiers et de la base de données**, en dehors de votre compte d’hébergement. Il en va de même pour le reste de vos données : {{< a key="backups-3-2-1" >}}la règle de sauvegarde 3-2-1{{< /a >}} vaut aussi pour vos ordinateurs, Google Workspace et Microsoft 365.
 
 ### Emails
 
@@ -103,7 +103,7 @@ Votre messagerie n’a pas besoin d’être chez votre hébergeur, et l’en sé
 - **o2switch** inclut des adresses email illimitées dans toutes ses formules.
 - **Infomaniak** vend la messagerie seule (Service Mail) ou dans kSuite, sa suite qui ajoute le stockage kDrive à vos boîtes mail.
 
-J’ai utilisé Microsoft pour mes emails, et c’était pénible ; ce n’est pas le cas avec les messageries de Namecheap et de Spaceship. Quel que soit le prestataire qui héberge vos boîtes, ce sont les enregistrements MX du domaine qui décident où arrivent les messages.
+J’ai utilisé Microsoft pour mes emails, et c’était pénible ; ce n’est pas le cas avec les messageries de Namecheap et de Spaceship. Quel que soit le prestataire qui héberge vos boîtes, ce sont les enregistrements MX du domaine qui décident où arrivent les messages. Si ce prestataire est Google ou Microsoft, {{< a key="gdpr-us-tools-data-transfers" >}}mon guide sur les outils américains et le RGPD{{< /a >}} détaille les règles de transfert des données.
 
 ## Hostinger : à qui il convient, et à qui non
 

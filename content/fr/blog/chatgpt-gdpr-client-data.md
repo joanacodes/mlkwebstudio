@@ -12,7 +12,7 @@ keywords: ["ChatGPT RGPD", "ChatGPT données personnelles", "ChatGPT conforme RG
 summary: "Au regard du RGPD, un texte anonymisé peut aller dans toute offre de ChatGPT, entraînement désactivé. Les noms, emails et téléphones de vos clients relèvent d’une offre professionnelle (ChatGPT Business ou Enterprise) ou de l’API, couvertes par un contrat de sous-traitance (DPA) et sans entraînement par défaut, et seulement s’ils sont utiles à la tâche. Gardez les données de santé, numéros d’identité, RIB et mots de passe hors de tout assistant IA."
 cover: "chatgpt-gdpr-client-data"
 cover_alt: "Un bouclier coché au-dessus des sigles GDPR et RGPD, derrière une vitre cannelée"
-related: ["claude-vs-chatgpt", "cold-email-gdpr-uk-france", "zapier-vs-make-vs-n8n", "openai-api-tutorial", "bespoke-crm-internal-app"]
+related: ["claude-vs-chatgpt", "cold-email-gdpr-uk-france", "zapier-vs-make-vs-n8n", "gdpr-data-processing-agreement", "bespoke-crm-internal-app"]
 services: ["automation"]
 faq:
   - q: "Quelle société est responsable de mes données dans ChatGPT ?"
@@ -33,7 +33,7 @@ ChatGPT sert d’exemple principal, mais le même raisonnement vaut pour Claude,
 
 ## ChatGPT est-il conforme au RGPD ? La vraie question à se poser
 
-Aucun outil n’est conforme au RGPD à lui seul. Le règlement fait peser les obligations sur celui qui décide pourquoi et comment des données personnelles sont utilisées : le **responsable du traitement**. Pour les données de vos clients, c’est vous, quel que soit l’outil que vous ouvrez.
+Aucun outil n’est {{< a key="gdpr-guide" >}}conforme au RGPD{{< /a >}} à lui seul. Le règlement fait peser les obligations sur celui qui décide pourquoi et comment des données personnelles sont utilisées : le **responsable du traitement**. Pour les données de vos clients, c’est vous, quel que soit l’outil que vous ouvrez.
 
 Une donnée personnelle, c’est toute information se rapportant à une personne physique identifiée ou identifiable. Un nom, une adresse email ou un numéro de téléphone, bien sûr, mais aussi une description assez précise pour désigner une seule personne : « la gérante de la seule boulangerie du village » identifie quelqu’un aussi sûrement qu’un nom.
 
@@ -58,7 +58,7 @@ C’est l’offre qui détermine le rôle de l’éditeur, et le prix n’y chan
 
 Sur une offre personnelle, l’éditeur traite vos conversations selon sa propre politique de confidentialité. Aucun contrat de sous-traitance ne lie votre entreprise à OpenAI ou à Anthropic : les données d’un client collées là partent chez un tiers qui n’est pas votre sous-traitant. C’est difficile à justifier au regard du RGPD, quels que soient vos réglages.
 
-Sur une offre professionnelle ou via une API, l’éditeur devient votre sous-traitant : il traite les données pour votre compte, dans le cadre du contrat écrit qu’exige l’article 28 du RGPD. OpenAI propose un **contrat de sous-traitance** (DPA, pour Data Processing Addendum) aux clients de ChatGPT Business, de ChatGPT Enterprise et de sa plateforme API, à signer via le formulaire DPA indiqué sur sa [page « Enterprise privacy »](https://openai.com/enterprise-privacy/) (en anglais). Chez Anthropic, le DPA est intégré aux conditions commerciales (Commercial Terms), qui couvrent Claude Team, Enterprise et l’API, et qui précisent qu’Anthropic ne peut pas entraîner ses modèles sur les contenus de ses clients.
+Sur une offre professionnelle ou via une API, l’éditeur devient votre sous-traitant : il traite les données pour votre compte, dans le cadre du {{< a key="gdpr-data-processing-agreement" >}}contrat écrit qu’exige l’article 28 du RGPD{{< /a >}}. OpenAI propose un **contrat de sous-traitance** (DPA, pour Data Processing Addendum) aux clients de ChatGPT Business, de ChatGPT Enterprise et de sa plateforme API, à signer via le formulaire DPA indiqué sur sa [page « Enterprise privacy »](https://openai.com/enterprise-privacy/) (en anglais). Chez Anthropic, le DPA est intégré aux conditions commerciales (Commercial Terms), qui couvrent Claude Team, Enterprise et l’API, et qui précisent qu’Anthropic ne peut pas entraîner ses modèles sur les contenus de ses clients.
 
 Si vous travaillez sans équipe, une offre d’équipe peut sembler disproportionnée : Claude Team, par exemple, se vend à partir de deux utilisateurs. Pour des tâches ponctuelles, anonymiser avant de coller (voir plus bas) est la réponse pratique. Pour un travail régulier sur des données clients, l’offre professionnelle ou l’API sont les voies qui s’accompagnent d’un contrat de sous-traitance.
 
@@ -156,7 +156,7 @@ Les automatisations font monter les enjeux, car elles traitent des données clie
 Une fois l’automatisation en route, chaque email, formulaire ou note d’appel qu’elle traite passe par chaque service de la chaîne : la plateforme d’automatisation, l’API d’IA, le CRM. Chacun est un sous-traitant ; pour chacun :
 
 - vérifiez qu’il propose un contrat de sous-traitance (DPA), et acceptez-le ou signez-le ;
-- vérifiez où il stocke les données, et comment les transferts hors de l’Union européenne sont encadrés (en général par une décision d’adéquation ou des clauses contractuelles types) ;
+- vérifiez où il stocke les données, et {{< a key="gdpr-us-tools-data-transfers" >}}comment les transferts hors de l’Union européenne sont encadrés{{< /a >}} (en général par une décision d’adéquation ou des clauses contractuelles types) ;
 - vérifiez ce qu’il fait de vos contenus : les conditions commerciales d’Anthropic excluent l’entraînement, et l’API d’OpenAI ne s’en sert pas pour entraîner ses modèles, sauf si vous l’acceptez, mais peut conserver les requêtes et les réponses jusqu’à 30 jours pour détecter les abus (son API Responses stocke aussi les réponses, sauf si vous réglez le paramètre `store` sur `false`) ;
 - inscrivez-le dans votre registre des activités de traitement.
 

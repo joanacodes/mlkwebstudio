@@ -84,7 +84,7 @@ I often add a little custom code to the Squarespace sites I build, nothing that 
 
 ### WordPress: a big budget and a specialist every month
 
-WordPress can do almost anything, which is why so many developers and agencies use it. The price of that freedom is upkeep: the core, the theme and every plugin need updating, and plugins are where most of the risk sits. Patchstack's State of WordPress Security in 2026 report counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, about 91 per cent of them in plugins. Pilotech first called me in an emergency because its WordPress site had been hacked; I recovered it, then built the company a new website.
+WordPress can do almost anything, which is why so many developers and agencies use it. The price of that freedom is upkeep: the core, the theme and every plugin need updating, and plugins are where most of the risk sits. Patchstack's State of WordPress Security in 2026 report counted 11,334 new vulnerabilities in the WordPress ecosystem in 2025, about 91 per cent of them in plugins. Pilotech called me in an emergency when its old WordPress site was hacked, and I recovered it.
 
 I usually discourage solo owners from WordPress. The learning curve is steep, and they end up having to become their own webmaster. If you have a large budget and a specialist who looks after the site every month, WordPress is a fine choice: you get the control, and someone else does the upkeep.
 
@@ -173,9 +173,11 @@ Before the site goes live, run through this list. It takes an afternoon, and it 
 
 ### Legal basics in the UK
 
-- A privacy notice that says what you collect through the form and your analytics, and why.
-- If you trade as a limited company, your registered name, company number, registered office address and the part of the UK where the company is registered, as the [GOV.UK rules on company disclosures](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material) require.
-- A cookie banner for the tools that need consent. The [ICO lists the exceptions](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/), which since 2026 include some analytics.
+- {{< a key="privacy-policy-guide" >}}A privacy notice{{< /a >}} that says what you collect through the form and your analytics, and why.
+- If you trade as a limited company, your registered name, company number, registered office address and the part of the UK where the company is registered, as the [GOV.UK rules on company disclosures](https://www.gov.uk/running-a-limited-company/signs-stationery-and-promotional-material) require. {{< a key="website-legal-notice" >}}What a website legal notice must include{{< /a >}} covers sole traders and France as well.
+- {{< a key="cookie-banner-rules" >}}A cookie banner for the tools that need consent{{< /a >}}. The [ICO lists the exceptions](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/guidance-on-the-use-of-storage-and-access-technologies/what-are-the-exceptions/), which since 2026 include some analytics.
+
+The website is only one part of your data duties: my {{< a key="gdpr-guide" >}}GDPR guide for small-team businesses{{< /a >}} covers the rest, from client files to the tools you use.
 
 ## After launch: upkeep, security and enquiries
 
@@ -187,7 +189,7 @@ On WordPress, someone has to check the core, the theme and the plugins for updat
 
 ### Keep it secure
 
-Turn on two-factor authentication for every account, keep backups and test a restore at least once, and make sure the domain renews automatically. {{< a key="website-security-guide" >}}Website security for small businesses{{< /a >}} covers prevention and recovery, and if a WordPress site is the problem, here is {{< a key="wordpress-site-hacked" >}}what to do in the first 24 hours after a hack{{< /a >}}.
+Turn on two-factor authentication for every account, keep backups and test a restore at least once, and make sure the domain renews automatically. {{< a key="website-security-guide" >}}Website security for small businesses{{< /a >}} covers prevention and recovery, and if a WordPress site is the problem, here is {{< a key="wordpress-site-hacked" >}}what to do in the first 24 hours after a hack{{< /a >}}. For your email, laptops and payments, my {{< a key="cybersecurity-guide" >}}cybersecurity guide for small teams{{< /a >}} takes it from there.
 
 Eden Flats called me after its site was hacked. That site had never brought in a lead, because the owner had too much on to learn how SEO is done properly. I built a new website, did the SEO and the visual identity, and property owners started calling to have their flats managed: {{< a page="/projects/eden-flats" >}}the Eden Flats project{{< /a >}} shows the site.
 

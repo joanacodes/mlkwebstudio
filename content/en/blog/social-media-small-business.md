@@ -153,7 +153,7 @@ If you sell to other businesses, LinkedIn is the feed I would look at first. On 
 
 {{< callout type="warning" >}}Since 3 November 2025, LinkedIn has used the profile details and public content of members in the UK, the EEA and Switzerland, among other regions, to train its generative AI unless they opt out. To switch it off, go to **Settings**, then **Data privacy**, then **Data for Generative AI Improvement**, and turn off **Use my data for training content creation AI models**. Opting out only covers future use.{{< /callout >}}
 
-If you sell B2B, I would still put cold emailing before any feed: in my view, it is the one thing that can take a small business to the moon, and my {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}} shows how it works. The feed changes are detailed in {{< a key="linkedin-algorithm-2026" >}}LinkedIn algorithm 2026{{< /a >}}.
+If you sell B2B, I would still put cold emailing before any feed: in my view, it is the one thing that can take a small business to the moon, and my {{< a key="b2b-cold-emailing-guide" >}}B2B cold emailing guide{{< /a >}} shows how it works. The feed changes are detailed in {{< a key="linkedin-algorithm-2026" >}}LinkedIn algorithm 2026{{< /a >}}. Before you start a LinkedIn newsletter, read my comparison of {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}LinkedIn newsletters, email newsletters and Substack{{< /a >}}. For what to write in it, my {{< a key="b2b-newsletter-ideas" >}}B2B newsletter ideas{{< /a >}} cover formats, frequency and topics.
 
 ## Threads and Bluesky: the newer text networks
 

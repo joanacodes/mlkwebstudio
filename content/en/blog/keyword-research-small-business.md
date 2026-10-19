@@ -29,7 +29,7 @@ faq:
 
 Keyword research for small businesses is simpler than the tools make it look. You are not hunting for the biggest searches in your sector. You are looking for the words your future clients type into Google when they need exactly what you sell, and deciding which page of your site answers each of them.
 
-This guide sets out my method in six steps, from a first list of words to a plan of your pages, and every step works with free tools or free accounts. It is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}.
+This guide sets out my method in six steps, from a first list of words to a plan of your pages, and every step works with free tools or free accounts. It is part of my {{< a key="small-business-seo-guide" >}}guide to small business SEO{{< /a >}}. If you are looking for the words people type in the App Store or Google Play instead, my guide to {{< a key="aso-keyword-research" >}}ASO keyword research{{< /a >}} covers the app stores.
 
 One lesson shapes the whole method. Of the five websites I have built for one client, an air conditioning installer near Paris, one did not work at all: it offered too many services and was too broad. The one that ranks first or second on Google sells a very specific service. Broad words put a small business up against everyone, while specific searches are the ones it can win.
 

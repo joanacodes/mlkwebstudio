@@ -12,7 +12,7 @@ keywords: ["Google Maps scraper", "Outscraper tutorial", "scrape Google Maps for
 summary: "A Google Maps scraper such as Outscraper turns a search like 'accountants in Manchester' into a spreadsheet of businesses with their category, address, phone and website, plus the emails their websites publish. At the time of writing (October 2026), the first 500 businesses are free every 30 days, then about £2.25 ($3) per 1,000, with the email enrichment billed on top. It only finds businesses listed on Google, and every email needs verifying before a campaign."
 cover: "google-maps-scraper-outscraper"
 cover_alt: "A hand ticking rows of a printed table beside map pins on a grid, titled Outscraper"
-related: ["email-list-verification-reoon", "cold-email-gdpr-uk-france", "cold-email-infrastructure", "instantly-campaign-setup", "small-business-tools-guide"]
+related: ["email-list-verification-reoon", "cold-email-gdpr-uk-france", "cold-email-infrastructure", "instantly-campaign-setup", "gdpr-data-retention-crm"]
 services: ["cold-emailing"]
 faq:
   - q: "Is it legal to scrape Google Maps for leads?"
@@ -74,7 +74,7 @@ Then check who on that list you may email. A listing is public, but that does no
 - **UK.** Under PECR, limited companies, LLPs and public bodies can receive B2B cold email without prior consent. Sole traders and partnerships outside Scotland count as individuals and need consent, so leave them out. A list of local businesses is likely to mix both, and a listing does not say which is which: check doubtful names on the free [Companies House register](https://find-and-update.company-information.service.gov.uk/), which lists companies and LLPs but not sole traders. The ICO's page on [business-to-business marketing](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) sets out the rules.
 - **France.** The CNIL allows B2B prospecting by email without consent when the message relates to the recipient's job, provided they are told and can object simply and for free. Generic addresses such as contact@ escape the consent and information rules, but every email must still name the sender and offer a way to opt out.
 
-In both countries, a named work address is personal data, so the GDPR (the UK GDPR in the UK) applies: a lawful basis written down, usually legitimate interests, and privacy information in the first email at the latest, including where you found the address. Add a source column to every file, such as "Google Maps listing and website, extracted on 17 October 2026", and that part of the first email is ready. My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers the rest.
+In both countries, a named work address is personal data, so {{< a key="gdpr-guide" >}}the GDPR{{< /a >}} (the UK GDPR in the UK) applies: a lawful basis written down, usually legitimate interests, and privacy information in the first email at the latest, including where you found the address. Add a source column to every file, such as "Google Maps listing and website, extracted on 17 October 2026", and that part of the first email is ready. My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers the rest.
 
 {{< callout type="note" >}}This is general information, not legal advice. For a large campaign or a regulated sector, read the regulator's guidance in full or ask a solicitor.{{< /callout >}}
 
@@ -139,7 +139,7 @@ A raw export is not a campaign list yet. Work through it in this order:
 
 1. **One row per business, one address per row.** When several emails were found, keep the one most likely to reach the person you want: a named address that matches the role, or the main contact address of a small firm.
 2. **Remove who you may not email.** In the UK, take out sole traders, partnerships outside Scotland and anyone you cannot classify. In both countries, take out everyone on your suppression list, the people who have already asked you to stop.
-3. **Add the source and date columns** if the file does not have them yet. You need them for the privacy information in your first email.
+3. **Add the source and date columns** if the file does not have them yet. You need them for the privacy information in your first email. The date also matters for {{< a key="gdpr-data-retention-crm" >}}how long you may keep the data{{< /a >}}.
 4. **Verify every address.** I verify my lists with Reoon, the email verifier I use every day, and drop the addresses that come back invalid. My {{< a key="email-list-verification-reoon" >}}email list verification tutorial{{< /a >}} explains what to do with each result, including risky and catch-all addresses.
 
 What is left after verification is what I count as an active, qualified lead: the €0.006 figure above. Then import the file into your sending tool; in Instantly, that happens during the {{< a key="instantly-campaign-setup" >}}campaign setup{{< /a >}}.

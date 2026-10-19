@@ -105,7 +105,7 @@ La refonte de mars récompense les posts que le système comprend et que les gen
 
 ## LinkedIn mérite-t-il votre temps en 2026 ?
 
-Si vous vendez à des entreprises, oui, à condition d’y voir un travail de fond. C’est sur LinkedIn que vos acheteurs sont en mode travail, et un profil clair avec des posts utiles vous aide à inspirer confiance quand ils se renseignent sur vous.
+Si vous vendez à des entreprises, oui, à condition d’y voir un travail de fond. C’est sur LinkedIn que vos acheteurs sont en mode travail, et un profil clair avec des posts utiles vous aide à inspirer confiance quand ils se renseignent sur vous. Si vous pensez à une newsletter, comparez {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}LinkedIn, l’emailing et Substack{{< /a >}}.
 
 Mais n’ajoutez pas LinkedIn par-dessus cinq autres canaux. On succombe facilement à chaque nouvel outil ; ce qui marche, c’est de vous concentrer sur les canaux que vous utilisez déjà et d’en maîtriser un avant d’en ajouter un autre, comme je l’explique à propos du {{< a key="shiny-object-syndrome" >}}syndrome de l’objet brillant{{< /a >}}. Si vos clients sont des particuliers plutôt que des entreprises, LinkedIn n’est probablement pas ce canal.
 
@@ -119,7 +119,7 @@ Et ne courez pas après les abonnés pour votre crédibilité. « J’ai 10 00
 2. **Réécrivez votre titre de profil** : ce que vous faites, pour qui et où. « Climatisation pour restaurants et bureaux à Lyon » en dit plus que « Fondateur et CEO ». Faites dire la même chose à votre page entreprise.
 3. **Listez dix questions** que vos clients vous posent au téléphone, et transformez-en quatre en posts, un par semaine.
 4. **Changez vos habitudes** : retirez les appâts de vos modèles de posts, quittez tout pod d’engagement, abandonnez les outils d’automatisation et répondez à chaque commentaire dans la journée.
-5. **Ajoutez votre site** à votre profil et à votre page avec un lien de suivi, pour voir les visites venues de LinkedIn dans vos statistiques :
+5. **Ajoutez votre site** à votre profil et à votre page avec {{< a key="utm-ga4-funnel-tracking" >}}un lien de suivi{{< /a >}}, pour voir les visites venues de LinkedIn dans vos statistiques :
 
 ```text
 https://www.votreentreprise.fr/?utm_source=linkedin&utm_medium=social&utm_campaign=profil

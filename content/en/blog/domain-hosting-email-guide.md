@@ -94,9 +94,9 @@ Squarespace, for example, does not run mailboxes itself. Its email offer is Goog
 - Microsoft 365: the same idea, built around Outlook and Teams. I used to run my email on Microsoft and it was a pain to manage. I have never had that trouble with Namecheap's or Spaceship's email.
 - Infomaniak's kSuite: mail, storage and collaboration tools hosted in Switzerland, covered in the Infomaniak review above.
 
-{{< a key="professional-email-address" >}}How to get a professional email address{{< /a >}} compares these options in detail, with what each one costs.
+{{< a key="professional-email-address" >}}How to get a professional email address{{< /a >}} compares these options in detail, with what each one costs. If you choose Google Workspace or Microsoft 365, {{< a key="secure-google-workspace-microsoft-365" >}}my guide to their security settings{{< /a >}} shows which ones to change first.
 
-Whichever provider you choose, add SPF, DKIM and DMARC records to the domain. Since February 2024, Gmail has required senders to authenticate their mail, and since November 2025 it has rejected more of the mail that fails. If your messages land in spam, {{< a key="spf-dkim-dmarc-setup" >}}setting up SPF, DKIM and DMARC{{< /a >}} fixes it, step by step.
+Whichever provider you choose, add SPF, DKIM and DMARC records to the domain. Since February 2024, Gmail has required senders to authenticate their mail, and since November 2025 it has rejected more of the mail that fails. If your messages land in spam, {{< a key="spf-dkim-dmarc-setup" >}}setting up SPF, DKIM and DMARC{{< /a >}} fixes it, step by step. If you also send a newsletter, {{< a key="newsletter-deliverability" >}}my guide to newsletter deliverability{{< /a >}} covers the extra rules for bulk senders, such as one-click unsubscribe.
 
 One more rule: never send cold emails from your main domain. Prospecting belongs on secondary domains with mailboxes of their own, so that your everyday inbox never pays for it. {{< a key="cold-email-infrastructure" >}}Cold email infrastructure{{< /a >}} explains how to size that setup, and MLK Leadhunters, the studio's sister brand for cold emailing, explains [why the main domain stays out of it](https://mlkleadhunters.com/blog/never-send-from-your-main-domain/).
 

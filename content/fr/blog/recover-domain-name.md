@@ -171,9 +171,9 @@ Si le prestataire a disparu, les mêmes recours s’appliquent. Gardez la preuve
 L’essentiel prend dix minutes au moment de l’enregistrement et évite des semaines de démarches :
 
 1. **Enregistrez chaque domaine au nom de votre entreprise**, comme titulaire, avec une adresse email que vous contrôlez et que vous lirez encore dans cinq ans.
-2. Ouvrez le compte registrar à votre nom, avec la double authentification, le renouvellement automatique et une carte bancaire encore valide à l’échéance.
+2. Ouvrez le compte registrar à votre nom, avec la {{< a key="two-factor-authentication-passkeys" >}}double authentification{{< /a >}}, le renouvellement automatique et une carte bancaire encore valide à l’échéance.
 3. Donnez à votre prestataire un accès, pas la propriété : plusieurs registrars permettent de partager la gestion d’un domaine sans céder le compte, et les modifications DNS n’en demandent pas plus.
-4. Écrivez-le dans le contrat : le domaine est enregistré au nom du client, et tous les accès lui sont remis en fin de mission (c’est l’objet d’une clause de réversibilité).
+4. Écrivez-le dans le contrat : le domaine est enregistré au nom du client, et {{< a key="offboarding-checklist" >}}tous les accès lui sont remis en fin de mission{{< /a >}} (c’est l’objet d’une clause de réversibilité).
 5. Tenez la liste de vos comptes (registrar, DNS, hébergement, messagerie, créateur de site) et de qui détient chaque identifiant.
 
 Pour choisir où garder vos domaines, mon comparatif pour savoir {{< a key="best-domain-registrar" >}}où acheter un nom de domaine{{< /a >}} passe en revue les six registrars que j’ai utilisés, prix de renouvellement compris.

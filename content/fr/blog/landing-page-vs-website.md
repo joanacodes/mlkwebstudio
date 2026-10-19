@@ -49,7 +49,7 @@ Une précision de vocabulaire : une longue page d’accueil qui présente toute
 
 ## Ce qu’une landing page fait bien
 
-Une landing page fonctionne parce qu’elle supprime les choix. Le visiteur arrive avec un besoin, lit une offre et n’a qu’une chose à faire : appeler, remplir un court formulaire ou réserver un créneau. Rien sur la page ne l’envoie ailleurs.
+Une landing page fonctionne parce qu’elle supprime les choix. Le visiteur arrive avec un besoin, lit une offre et n’a qu’une chose à faire : appeler, remplir un court formulaire ou réserver un créneau. Rien sur la page ne l’envoie ailleurs. L’offre peut aussi être gratuite, comme une checklist ou un court diagnostic en échange d’une adresse email : mes {{< a key="lead-magnet-ideas" >}}idées de lead magnet pour une entreprise de services{{< /a >}} donnent des exemples par métier.
 
 C’est donc le bon outil quand vous maîtrisez la provenance des visiteurs. Prenez un chauffagiste qui lance des annonces en septembre pour l’entretien annuel de chaudière à prix fixe. L’annonce promet le prix ; la page le reprend dans son titre, détaille ce que comprend l’entretien, montre quelques avis et demande un numéro de téléphone. Personne n’a rien à chercher après avoir cliqué.
 
@@ -116,7 +116,7 @@ Le coût que l’on sous-estime, dans les deux cas, c’est la rédaction. Une l
 
 ## Site vitrine ou landing page : comment choisir
 
-Pour la plupart des petites entreprises, la réponse est : les deux, dans cet ordre. D’abord le site vitrine, puis une landing page par campagne payante, sur le même domaine.
+Pour la plupart des petites entreprises, la réponse est : les deux, dans cet ordre. D’abord le site vitrine, puis une landing page par campagne payante, sur le même domaine. Si vous lancez une application mobile, mon guide sur le {{< a key="app-website-seo" >}}SEO du site de votre application{{< /a >}} explique quoi mettre sur sa landing page et comment relier le site à l’application.
 
 Une landing page seule suffit quand :
 
@@ -147,4 +147,4 @@ Quand une campagne a vraiment besoin de sa propre page, voici les étapes que je
 8. Testez-la sur votre propre téléphone, en données mobiles, avant la première annonce.
 9. Mesurez : suivez les appels et les formulaires comme des conversions, et installez Microsoft Clarity, qui est gratuit, pour voir à quel endroit les visiteurs arrêtent de lire. Pour les visiteurs situés dans l’Union européenne ou au Royaume-Uni, Clarity a besoin du signal de consentement de votre bandeau cookies ; mon {{< a key="microsoft-clarity-tutorial" >}}tutoriel Microsoft Clarity{{< /a >}} explique comment l’installer.
 
-Si la page reçoit des visites mais aucune demande, regardez la page avant d’augmenter le budget : mon guide pour {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de son site{{< /a >}} montre où les visiteurs décrochent et comment y remédier.
+Si la page reçoit des visites mais aucune demande, regardez la page avant d’augmenter le budget : mon guide pour {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de son site{{< /a >}} montre où les visiteurs décrochent et comment y remédier. Pour voir la page comme une étape du chemin qui va de la première visite au rendez-vous, lisez mon {{< a key="sales-funnel-explained" >}}exemple simple de tunnel de vente{{< /a >}}.

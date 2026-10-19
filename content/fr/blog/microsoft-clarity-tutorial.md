@@ -12,7 +12,7 @@ keywords: ["Microsoft Clarity", "tutoriel Microsoft Clarity", "installer Microso
 summary: "Pour utiliser Microsoft Clarity, créez un projet gratuit sur clarity.microsoft.com, ajoutez son code de suivi à chaque page et reliez-le à votre bandeau cookies : depuis le 31 octobre 2025, Clarity exige un signal de consentement pour l’EEE, le Royaume-Uni et la Suisse, et la CNIL, un consentement préalable. Lisez ensuite le tableau de bord (clics de rage, clics morts, retours rapides), les cartes de chaleur et des enregistrements pour voir ce qui fait fuir vos visiteurs."
 cover: "microsoft-clarity-tutorial"
 cover_alt: "Carte de chaleur Microsoft Clarity d’une page web dans une fenêtre de navigateur"
-related: ["clarity-vs-hotjar", "website-conversion-rate", "track-ai-traffic", "squarespace-code-injection", "google-search-console-tutorial"]
+related: ["clarity-vs-hotjar", "website-conversion-rate", "track-ai-traffic", "squarespace-code-injection", "cookie-banner-setup"]
 services: ["websites"]
 faq:
   - q: "Microsoft Clarity est-il vraiment gratuit ?"
@@ -105,7 +105,7 @@ Si les requêtes partent mais que les sessions venues de France ou d’Europe se
 
 Depuis le 31 octobre 2025, Microsoft exige un signal de consentement pour les visites venues de l’Espace économique européen, du Royaume-Uni et de la Suisse. Sans signal valide, Clarity ne dépose aucun cookie chez ces visiteurs, et Microsoft prévient que des fonctions comme les enregistrements et les entonnoirs peuvent alors être limitées. Quand un visiteur refuse, Clarity supprime les cookies qu’il avait déjà déposés ([documentation de Microsoft sur le consentement](https://learn.microsoft.com/fr-fr/clarity/setup-and-installation/consent-management)).
 
-Le signal vient de votre bandeau cookies, la fenêtre où les visiteurs acceptent ou refusent les traceurs. Il y a deux façons de l’envoyer :
+Le signal vient de {{< a key="cookie-banner-rules" >}}votre bandeau cookies{{< /a >}}, la fenêtre où les visiteurs acceptent ou refusent les traceurs. Il y a deux façons de l’envoyer :
 
 1. **Utiliser un bandeau compatible avec Clarity.** Des plateformes de gestion du consentement (CMP) comme Complianz, CookieYes, CookieHub et Usercentrics expliquent comment elles transmettent le choix du visiteur à Clarity. Si vous utilisez un autre outil, comme Axeptio ou Didomi, cherchez « Microsoft Clarity » dans sa documentation avant d’écrire la moindre ligne de code.
 2. **Envoyer le signal vous-même.** Quand le visiteur fait son choix, votre bandeau appelle l’API de consentement v2 de Clarity :
@@ -132,7 +132,7 @@ Les enregistrements de Clarity relèvent de ce que la CNIL appelle le rejeu de s
 
 La version issue de la consultation figurait à l’ordre du jour de la séance plénière de la CNIL du 8 octobre 2026, mais à la date de rédaction (octobre 2026), je n’ai trouvé aucun texte définitif publié : vérifiez la page de la CNIL avant de vous décider.
 
-{{< callout type="warning" >}}**Pour un public français, le plus prudent est de ne charger Clarity qu’après acceptation**, en bloquant le script tant que le visiteur n’a pas cliqué sur « Accepter ». La CNIL exige par ailleurs que refuser soit aussi simple qu’accepter.{{< /callout >}}
+{{< callout type="warning" >}}**Pour un public français, le plus prudent est de ne charger Clarity qu’après acceptation**, en {{< a key="cookie-banner-setup" >}}bloquant le script tant que le visiteur n’a pas cliqué sur « Accepter »{{< /a >}}. La CNIL exige par ailleurs que refuser soit aussi simple qu’accepter.{{< /callout >}}
 
 ## Étape 5 : régler le masquage et exclure vos propres visites
 

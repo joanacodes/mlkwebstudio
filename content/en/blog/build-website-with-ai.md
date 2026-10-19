@@ -63,7 +63,7 @@ An AI-built site is only as good as its brief. For clients, I start with questio
 Answer these questions in a text file:
 
 1. Who are your clients, and what do they ask for most often?
-2. Which pages do you need? Usually: home, services, about, contact, legal notice and privacy.
+2. Which pages do you need? Usually: home, services, about, contact, {{< a key="website-legal-notice" >}}legal notice{{< /a >}} and privacy.
 3. What should a visitor do: call, email or visit you?
 4. Which words do clients type into Google to find a business like yours? Each page should answer one of those searches.
 5. Which facts can the site state: services, areas, opening hours, prices if public, accreditations?
@@ -190,7 +190,7 @@ GitHub Pages is generous for a brochure site, but its [usage limits](https://doc
 - **No online business.** GitHub does not allow Pages as free hosting for a shop, an online business or software sold as a service, and says a Pages site should not handle passwords or card numbers.
 - **No server code.** No PHP, Ruby or Python: a contact form needs an outside form service, while a phone number and an email link need nothing. At Pilotech, enquiries arrive through both forms and calls, so give the number as much space as the form.
 - **Size.** Up to 1 GB per site and a soft limit of 100 GB of traffic a month: far more than a brochure site needs.
-- **Visitor logs.** GitHub logs visitors' IP addresses for security purposes: name GitHub as your host in your privacy notice.
+- **Visitor logs.** GitHub logs visitors' IP addresses for security purposes: name GitHub as your host in {{< a key="privacy-policy-guide" >}}your privacy notice{{< /a >}}.
 
 If you outgrow GitHub Pages, the same files work on any host: Spaceship's Web Hosting takes the folder through cPanel, and its Starlight Hyperlift runs apps from a GitHub repository, billed by the hour. My guide to {{< a key="spaceship-hosting" >}}Spaceship hosting{{< /a >}} compares them.
 

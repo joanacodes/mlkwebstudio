@@ -149,7 +149,7 @@ Quel que soit le prestataire, ces éléments prêts avant le premier rendez-vous
 3. **Qui modifiera le site** après la mise en ligne : vous, quelqu’un de votre équipe ou un spécialiste.
 4. **Vos photos** de réalisations, de vos locaux et de votre équipe, si vous en avez.
 5. **Votre nom de domaine** : un accès à votre compte chez le registrar, ou le nom de la personne qui le détient.
-6. **Vos mentions légales.** Elles sont obligatoires sur tout site d’entreprise, quelle que soit sa taille, en vertu de la loi pour la confiance dans l’économie numérique (LCEN). Pour une société : dénomination sociale, adresse du siège, email et téléphone, numéro d’immatriculation et capital social, nom du directeur de la publication, et nom, adresse et téléphone de l’hébergeur. Si un formulaire collecte des données personnelles, il faut aussi une politique de confidentialité.
+6. **Vos mentions légales.** Elles sont {{< a key="website-legal-notice" >}}obligatoires sur tout site d’entreprise{{< /a >}}, quelle que soit sa taille, en vertu de la loi pour la confiance dans l’économie numérique (LCEN). Pour une société : dénomination sociale, adresse du siège, email et téléphone, numéro d’immatriculation et capital social, nom du directeur de la publication, et nom, adresse et téléphone de l’hébergeur. Si un formulaire collecte des données personnelles, il faut aussi {{< a key="privacy-policy-guide" >}}une politique de confidentialité{{< /a >}}.
 7. **Une seule personne qui valide** la charte graphique, les maquettes et le site final.
 
 Si le budget n’est pas encore là, vous n’avez pas besoin de moi pour un premier site. Les mêmes étapes fonctionnent en solo, et mon {{< a key="squarespace-tutorial" >}}tuto Squarespace{{< /a >}} vous guide pas à pas dans la construction.

@@ -27,7 +27,7 @@ faq:
 
 A website not getting enquiries has one of two problems. Either the right people never reach it, or they arrive, look around and leave before they find a reason, or an easy way, to contact you. The fixes are different, so find out which one you have before you spend anything on a new design.
 
-When the visitors are there, the same few leaks turn up on most small business sites: an offer too broad to grasp at a glance, a phone number buried in the footer, a quote form that asks for everything, a page that crawls on a phone, and enquiries that wait a day for an answer. None of them needs a new website.
+When the visitors are there, the same few leaks turn up on most small business sites: an offer too broad to grasp at a glance, a phone number buried in the footer, a quote form that asks for everything, a page that crawls on a phone, and enquiries that wait a day for an answer. None of them needs a new website. My {{< a key="sales-funnel-explained" >}}sales funnel example for service businesses{{< /a >}} shows where they sit on the path from first visit to booked call.
 
 This guide shows how to see where your visitors drop off, with free tools, then how to fix each leak. It is one chapter of my {{< a key="small-business-website-guide" >}}guide to small business websites{{< /a >}}.
 
@@ -39,7 +39,7 @@ If your service pages get a handful of clicks a month, you have a traffic proble
 
 If your pages get regular visits and still no calls, you have a conversion problem, and the rest of this guide is for you. Your **conversion rate** is the share of visits that end in an enquiry: 4 enquiries from 400 visits is 1%.
 
-Count calls as well as forms. A visitor who taps your phone number leaves no trace in your statistics unless you record it. In Google Analytics 4, record taps on your phone link as an event (in Google Tag Manager, a link-click trigger for links that start with `tel:` does this), then mark that event as a **key event**, the name GA4 now gives to what it used to call conversions: **Admin** > **Data display** > **Events** ([Google's help page](https://support.google.com/analytics/answer/13128484)). Marking is not retroactive, so the count starts on the day you do it. And ask every new caller how they found you.
+Count calls as well as forms. A visitor who taps your phone number leaves no trace in your statistics unless you record it. In Google Analytics 4, record taps on your phone link as an event (in Google Tag Manager, a link-click trigger for links that start with `tel:` does this), then mark that event as a **key event**, the name GA4 now gives to what it used to call conversions: **Admin** > **Data display** > **Events** ([Google's help page](https://support.google.com/analytics/answer/13128484)). Marking is not retroactive, so the count starts on the day you do it. And ask every new caller how they found you. My tutorial on {{< a key="utm-ga4-funnel-tracking" >}}tracking your funnel with UTM links and GA4{{< /a >}} shows which channel brings booked calls.
 
 ## Why your website is not getting enquiries: the usual leaks
 
@@ -130,7 +130,7 @@ You do not need a custom app to start. Three habits cover most of it:
 - one shared list of enquiries, each with a status: new, called, quote sent;
 - a reminder when an enquiry has had no answer after an hour.
 
-My tutorial on how to {{< a key="automate-lead-follow-up" >}}automate lead follow-up for free{{< /a >}} sets this up with Google Apps Script.
+My tutorial on how to {{< a key="automate-lead-follow-up" >}}automate lead follow-up for free{{< /a >}} sets this up with Google Apps Script. To join the page, a booking page and your emails into one path, follow the steps in my guide to {{< a key="build-sales-funnel" >}}building a funnel with the tools you already have{{< /a >}}.
 
 ## Your next steps, in order
 

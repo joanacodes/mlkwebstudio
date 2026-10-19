@@ -12,7 +12,7 @@ keywords: ["WeTransfer alternative", "free WeTransfer alternative", "SwissTransf
 summary: "SwissTransfer, run by the Swiss host Infomaniak, is the WeTransfer alternative I recommend: it sends up to 50 GB per transfer for free, with no account, and keeps your files online for up to 30 days, stored in Switzerland. WeTransfer's free plan now stops at 10 transfers or 3 GB in total over 30 days, and its files expire after 3 days. WeTransfer still makes sense for teams that already pay for it."
 cover: "swisstransfer-vs-wetransfer"
 cover_alt: "A man working on a spreadsheet at a desktop computer, beside a file flow diagram titled SwissTransfer"
-related: ["infomaniak-review", "small-business-tools-guide", "chatgpt-gdpr-client-data", "professional-email-address", "web-design-process"]
+related: ["infomaniak-review", "small-business-tools-guide", "chatgpt-gdpr-client-data", "professional-email-address", "gdpr-us-tools-data-transfers"]
 services: ["websites"]
 faq:
   - q: "Does the recipient need an account to download a SwissTransfer?"
@@ -73,7 +73,7 @@ If your team pays for WeTransfer and it works for you, I would not move everyone
 
 ### SwissTransfer keeps your files in Switzerland
 
-Infomaniak stores SwissTransfer files in Switzerland. The European Commission recognises Switzerland as giving personal data an adequate level of protection, as its [list of adequacy decisions](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en) shows, and the UK recognises Switzerland as adequate too. For a business in the UK or France, that makes a Swiss service one of the simpler choices under the UK GDPR and the EU GDPR: your files are not leaving for a country without that status. Infomaniak also says it does not use SwissTransfer data for anything else, such as training AI or targeting adverts.
+Infomaniak stores SwissTransfer files in Switzerland. The European Commission recognises Switzerland as giving personal data an adequate level of protection, as its [list of adequacy decisions](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en) shows, and the UK recognises Switzerland as adequate too. For a business in the UK or France, that makes a Swiss service one of the simpler choices under the UK GDPR and the EU GDPR: your files are not leaving for a country without that status. Infomaniak also says it does not use SwissTransfer data for anything else, such as training AI or targeting adverts. For US tools, {{< a key="gdpr-us-tools-data-transfers" >}}my guide to the Data Privacy Framework{{< /a >}} explains how to check a provider.
 
 ### WeTransfer and the July 2025 terms row
 

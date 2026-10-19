@@ -165,9 +165,9 @@ If the designer has disappeared, the same routes apply. Keep proof that you trie
 Most of this takes ten minutes when you register a domain, and it saves weeks later:
 
 1. **Register every domain in your business's name**, as the registrant, with an email address you control and will still read in five years.
-2. Open the registrar account in your own name, with two-factor authentication, auto-renew and a payment card that will still be valid at renewal time.
+2. Open the registrar account in your own name, with {{< a key="two-factor-authentication-passkeys" >}}two-factor authentication{{< /a >}}, auto-renew and a payment card that will still be valid at renewal time.
 3. Give your designer access, not ownership: several registrars let you share the management of a domain without handing over the account, and DNS changes rarely need more.
-4. Put it in the contract: the domain is registered in the client's name, and every access is handed back at the end of the work.
+4. Put it in the contract: the domain is registered in the client's name, and {{< a key="offboarding-checklist" >}}every access is handed back at the end of the work{{< /a >}}.
 5. Keep a list of your accounts (registrar, DNS, hosting, email, website builder) and of who holds each login.
 
 If you are choosing where to keep your domains, my comparison of the {{< a key="best-domain-registrar" >}}best domain registrars in the UK{{< /a >}} looks at the six I have used, renewal prices included.

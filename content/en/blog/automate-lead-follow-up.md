@@ -12,7 +12,7 @@ keywords: ["automate lead follow up", "lead follow-up automation", "Google Apps 
 summary: "To automate lead follow-up for free, link a Google Form to a Google Sheet and add a short Google Apps Script. It emails you an alert with the prospect's name and phone number as soon as the form is sent, logs the enquiry in a Leads tab and reminds you if it is still marked New an hour later. It runs on a free Google account, within its limit of 100 email recipients a day."
 cover: "automate-lead-follow-up"
 cover_alt: "The words Apps Script under a flow diagram that starts from an orange lightning trigger, behind ribbed glass"
-related: ["zapier-vs-make-vs-n8n", "bespoke-crm-internal-app", "website-conversion-rate", "cold-calling-vs-cold-emailing", "ai-small-business-guide"]
+related: ["zapier-vs-make-vs-n8n", "bespoke-crm-internal-app", "website-conversion-rate", "build-sales-funnel", "ai-small-business-guide"]
 services: ["automation"]
 faq:
   - q: "Is Google Apps Script free?"
@@ -66,7 +66,7 @@ In Google Forms (`forms.google.com`), create a blank form and add four questions
 | Email | Short answer | No |
 | What do you need? | Paragraph | Yes |
 
-Make the phone number required: if a prospect prefers to talk, you need a number to call back. In the form description, add one sentence on how you use the details, with a link to your privacy notice.
+Make the phone number required: if a prospect prefers to talk, you need a number to call back. In the form description, add one sentence on how you use the details, with a link to {{< a key="privacy-policy-guide" >}}your privacy notice{{< /a >}}.
 
 Then click **Publish** (top right): an unpublished form accepts no responses. To put it on your website, open the three-dot menu, choose **Embed HTML** (on some accounts, **Send** then the `< >` icon) and paste the code into a page, or put the link from **Copy responder link** behind a button.
 
@@ -214,7 +214,7 @@ From now on, the only manual step is the status. Whoever calls a prospect back c
 
 ### Keep the list lean
 
-The Leads tab and the alert emails hold personal data: names, phone numbers, sometimes the details of a project. Decide how long you keep leads who never became clients. The ICO's guidance on [storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) says the law sets no fixed period: you choose one you can justify, and you cannot keep data just in case. Once a month, delete the rows and the alert emails you no longer need.
+The Leads tab and the alert emails hold personal data: names, phone numbers, sometimes the details of a project. Decide {{< a key="gdpr-data-retention-crm" >}}how long you keep leads who never became clients{{< /a >}}. The ICO's guidance on [storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) says the law sets no fixed period: you choose one you can justify, and you cannot keep data just in case. Once a month, delete the rows and the alert emails you no longer need.
 
 ## Google Apps Script limits on a free account
 
@@ -251,6 +251,6 @@ This setup suits one or two people and up to a few dozen enquiries a day, the po
 2. Leads turn into jobs, schedules and invoices, and several people need different views. That is where my client needed a custom app: prospects, job sites, messages to the team, the calendar and accounting analytics in one place, with AI and phone integrations. My guide to a {{< a key="bespoke-crm-internal-app" >}}bespoke CRM{{< /a >}} helps you decide whether you are there.
 3. You want help sorting or answering enquiries. An AI step can label each one (quote request, question, spam) or draft a reply, and my {{< a key="claude-api-tutorial" >}}Claude API tutorial{{< /a >}} shows how to get a key with a spending limit. Keep the call itself human.
 
-If too few enquiries arrive in the first place, the problem is upstream: my guide on {{< a key="website-conversion-rate" >}}why a website gets no enquiries{{< /a >}} shows where visitors drop off.
+If too few enquiries arrive in the first place, the problem is upstream: my guide on {{< a key="website-conversion-rate" >}}why a website gets no enquiries{{< /a >}} shows where visitors drop off. My tutorial to {{< a key="build-sales-funnel" >}}build a funnel with the tools you already have{{< /a >}} covers that upstream part.
 
 You do not need me to set this up: the six steps and a test enquiry are enough. Run it for a month, missed calls included, and you will know how quickly you really call back, and what the next tool has to do.

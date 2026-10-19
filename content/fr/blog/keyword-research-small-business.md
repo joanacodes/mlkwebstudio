@@ -29,7 +29,7 @@ faq:
 
 La recherche de mots-clés, pour une petite entreprise, est plus simple que ne le laissent croire les outils. Vous ne cherchez pas les plus grosses requêtes de votre secteur. Vous cherchez les mots que vos futurs clients tapent dans Google quand ils ont besoin exactement de ce que vous vendez, puis la page de votre site qui répond à chacun.
 
-Ce guide présente ma méthode en six étapes, de la première liste de mots au plan de vos pages, et chaque étape se fait avec des outils ou des comptes gratuits. Cet article complète mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel{{< /a >}}.
+Ce guide présente ma méthode en six étapes, de la première liste de mots au plan de vos pages, et chaque étape se fait avec des outils ou des comptes gratuits. Cet article complète mon {{< a key="small-business-seo-guide" >}}guide du référencement naturel{{< /a >}}. Si vous cherchez plutôt les mots tapés dans l’App Store ou Google Play, mon guide de la {{< a key="aso-keyword-research" >}}recherche de mots-clés ASO{{< /a >}} couvre les stores d’applications.
 
 Une leçon guide toute la méthode. Sur les cinq sites que j’ai créés pour un même client, un installateur de climatisation d’Île-de-France, l’un n’a pas fonctionné du tout : il proposait trop de services, il était trop large. Celui qui est 1er ou 2e sur Google vend un service très précis. Les termes larges mettent une petite entreprise face à tout le monde ; les recherches précises sont celles qu’elle peut gagner.
 

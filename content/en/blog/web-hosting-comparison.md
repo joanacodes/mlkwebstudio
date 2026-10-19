@@ -86,7 +86,7 @@ This is where my opinion is firmest. I do not recommend OVH or Hostinger to smal
 - **OVHcloud** is a French company that builds and runs its own data centres.
 - **Infomaniak** runs its own data centres in Switzerland. Its Geneva data centre, in service since 2024, sends its heat into the city's district heating network.
 
-Location matters less than backups. On 10 March 2021, a fire destroyed one of OVHcloud's data centres in Strasbourg, and some customers who had no copy elsewhere lost their data for good. It could happen at any host, so **keep your own copy of the files and the database**, outside the hosting account.
+Location matters less than backups. On 10 March 2021, a fire destroyed one of OVHcloud's data centres in Strasbourg, and some customers who had no copy elsewhere lost their data for good. It could happen at any host, so **keep your own copy of the files and the database**, outside the hosting account. The same goes for the rest of your business data: {{< a key="backups-3-2-1" >}}the 3-2-1 backup rule{{< /a >}} covers laptops, Google Workspace and Microsoft 365 too.
 
 ### Email
 
@@ -96,7 +96,7 @@ Your email does not have to live with your web host, and keeping it apart has an
 - **OVHcloud** includes email accounts on your domain with its web hosting plans.
 - **Infomaniak** sells email on its own (Service Mail) or within kSuite, its suite that adds kDrive cloud storage to your mailboxes.
 
-I used to run email on Microsoft and found it a pain, which has not been the case with Namecheap's and Spaceship's email. Whichever provider holds your mailboxes, the domain's MX records decide where the messages arrive.
+I used to run email on Microsoft and found it a pain, which has not been the case with Namecheap's and Spaceship's email. Whichever provider holds your mailboxes, the domain's MX records decide where the messages arrive. If that provider is Google or Microsoft, {{< a key="gdpr-us-tools-data-transfers" >}}my guide to US tools under GDPR{{< /a >}} covers the data transfer rules.
 
 ## Hostinger: who it suits, and who it does not
 

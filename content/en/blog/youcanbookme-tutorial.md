@@ -12,7 +12,7 @@ keywords: ["free online booking system", "YouCanBookMe tutorial", "free appointm
 summary: "YouCanBookMe's free plan is a free online booking system for one kind of appointment: one booking page connected to one calendar (Google, Microsoft, Apple or Fastmail). Connect the calendar, set your hours, padding and notice periods, keep the form short, make a test booking, then share the link or embed the page on your website. The limits: one page, a 'Powered for free' button, and reminders, which the pricing page lists under the paid plans."
 cover: "youcanbookme-tutorial"
 cover_alt: "A man at a desktop computer beside a weekly calendar grid of booked slots, titled YouCanBookMe"
-related: ["calendly-vs-youcanbookme", "small-business-tools-guide", "squarespace-code-injection", "website-conversion-rate", "automate-lead-follow-up"]
+related: ["calendly-vs-youcanbookme", "small-business-tools-guide", "build-sales-funnel", "website-conversion-rate", "automate-lead-follow-up"]
 services: ["automation"]
 faq:
   - q: "Do my clients need a YouCanBookMe account to book?"
@@ -148,7 +148,7 @@ Cancel the test booking and check that the slot comes back. Five minutes now sav
 
 ### A link behind a button
 
-The simplest option works on every website builder: a "Book a call" button on your contact page that opens your booking page. Put it next to your phone number, not instead of it. In my cold email campaigns, prospects called rather than replied: calling is faster, and people like real human contact. The booking link is for the others, who would rather pick a time than pick up the phone. Add it to your email signature as well.
+The simplest option works on every website builder: a "Book a call" button on your contact page that opens your booking page. Put it next to your phone number, not instead of it. In my cold email campaigns, prospects called rather than replied: calling is faster, and people like real human contact. The booking link is for the others, who would rather pick a time than pick up the phone. Add it to your email signature as well. My tutorial on how to {{< a key="build-sales-funnel" >}}build a funnel with your website, a booking page and email{{< /a >}} shows where this button fits in the whole path.
 
 One place I never put it: a first cold email. My cold emails are plain text with no links at all, just a phone number and an invitation to call, because that is what gets delivered; I explain why in {{< a key="plain-text-cold-emails" >}}why I never put links in cold emails{{< /a >}}. Save the booking link for the people who reply.
 

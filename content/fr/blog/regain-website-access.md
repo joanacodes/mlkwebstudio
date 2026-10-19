@@ -12,7 +12,7 @@ keywords: ["récupérer son site internet", "récupérer les accès de son site"
 summary: "Pour récupérer son site internet, listez les comptes dont il dépend (domaine, DNS, hébergement, CMS, messagerie, outils Google) et demandez par écrit à l’ancien prestataire de les transférer au nom de votre entreprise. Reprenez d’abord le domaine et la messagerie : ils permettent d’en récupérer beaucoup d’autres. S’il refuse ou a disparu, passez par les procédures de Google, la mise en demeure et, en dernier recours, la refonte du site dans des comptes à votre nom."
 cover: "regain-website-access"
 cover_alt: "Ordinateur portable et classeurs sur un bureau, à côté d’un bouclier coché et des mots Admin, FTP, DNS"
-related: ["recover-domain-name", "website-security-guide", "wordpress-site-hacked", "google-search-console-tutorial", "google-business-profile-setup"]
+related: ["recover-domain-name", "website-security-guide", "wordpress-site-hacked", "google-search-console-tutorial", "offboarding-checklist"]
 services: ["rescue"]
 faq:
   - q: "Un prestataire peut-il refuser de me rendre l’accès à mon site ?"
@@ -164,13 +164,13 @@ La plupart de ces situations viennent d’un contrat qui ne dit rien de la fin d
 
 ## Une fois les accès récupérés, et quand passer la main
 
-La main reprise, fermez les portes derrière le prestataire :
+La main reprise, {{< a key="offboarding-checklist" >}}fermez les portes derrière le prestataire{{< /a >}} :
 
 1. Changez tous les mots de passe et activez la double authentification.
 2. Supprimez partout les utilisateurs, invitations, accès SFTP et clés d’API du prestataire.
 3. Mettez à jour les emails et téléphones de récupération de chaque compte.
 4. Passez les renouvellements sur votre carte et activez le renouvellement automatique du domaine.
-5. Tenez un registre des accès dans un gestionnaire de mots de passe : chaque compte, son email de connexion, qui y a accès et sa date de renouvellement.
+5. Tenez un registre des accès dans {{< a key="password-manager-teams" >}}un gestionnaire de mots de passe{{< /a >}} : chaque compte, son email de connexion, qui y a accès et sa date de renouvellement.
 6. Faites une sauvegarde complète et stockez-la hors de l’hébergement.
 
 Vous n’avez besoin ni de moi ni de personne pour l’essentiel : la liste, l’email et les demandes à Google prennent quelques heures, et un prestataire coopératif peut tout régler en quelques jours. Passez la main quand le prestataire refuse, quand les comptes sont éparpillés entre plusieurs sociétés, ou quand le site tombe en panne ou se fait pirater entre-temps.

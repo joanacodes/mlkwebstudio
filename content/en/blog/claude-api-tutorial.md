@@ -12,7 +12,7 @@ keywords: ["Claude API key", "how to get a Claude API key", "Anthropic API key",
 summary: "To get a Claude API key, sign in to the Claude Console at platform.claude.com, open the API keys page, click Create key and copy the key: it starts with sk-ant- and is shown only once. Store it in an environment variable called ANTHROPIC_API_KEY, set a spend limit on the Billing page, then send a POST request to https://api.anthropic.com/v1/messages. API usage is billed per token, separately from a Claude Pro subscription."
 cover: "claude-api-tutorial"
 cover_alt: "A terminal showing a curl request to a messages endpoint and a 200 OK response, beside the words Claude API"
-related: ["openai-api-tutorial", "build-app-with-ai", "automate-lead-follow-up", "claude-vs-chatgpt", "chatgpt-gdpr-client-data"]
+related: ["openai-api-tutorial", "build-app-with-ai", "automate-lead-follow-up", "api-keys-mobile-apps", "chatgpt-gdpr-client-data"]
 services: ["automation"]
 faq:
   - q: "Is a Claude API key the same as an Anthropic API key?"
@@ -94,7 +94,7 @@ Then open a new window: `setx` saves the variable for the windows you open next,
 
 Four rules, whatever you build:
 
-- **Never in front-end code.** Every visitor can read your website's HTML and JavaScript. The request must leave from a server or an automation tool that holds the key.
+- **Never in front-end code.** Every visitor can read your website's HTML and JavaScript. The request must leave from a server or an automation tool that holds the key. The same rule applies to {{< a key="api-keys-mobile-apps" >}}API keys in a mobile app{{< /a >}}.
 - **Never in a public repository.** If your code is on GitHub, keep the key in a `.env` file listed in `.gitignore`, so that it is never uploaded.
 - **Never in an email or a shared document**, and not in a chat with an AI assistant either.
 - **One key per tool.** You can then revoke one without breaking the others.
@@ -262,7 +262,7 @@ You do not need me, or any developer, to send a first request: if the commands a
 
 - **Answer leads faster.** Alerts and call-back reminders come first; a drafted reply can follow. My tutorial on how to {{< a key="automate-lead-follow-up" >}}automate lead follow-up{{< /a >}} sets up the alerts for free.
 - **Give Claude standing instructions.** A `system` prompt holds what applies to every request: your tone, UK English, what to do when a fact is missing.
-- **Build a small internal tool**, such as a quote calculator. My guide to {{< a key="build-app-with-ai" >}}building an app with AI{{< /a >}} sets out what is realistic without a developer.
+- **Build a small internal tool**, such as a quote calculator. My guide to {{< a key="build-app-with-ai" >}}building an app with AI{{< /a >}} sets out what is realistic without a developer. If the tool stores data in Supabase or Firebase, {{< a key="ai-app-data-leaks" >}}check its access rules{{< /a >}} before anyone else uses it.
 - **Compare with OpenAI**, whose steps are much the same: see my tutorial on the {{< a key="openai-api-tutorial" >}}OpenAI API key{{< /a >}}.
 
 Before you send client data through the API, check what GDPR allows in my guide on {{< a key="chatgpt-gdpr-client-data" >}}what client data you can put into an AI assistant{{< /a >}}. The API has its own terms, but your duties towards your clients stay the same.

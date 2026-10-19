@@ -93,7 +93,7 @@ Each person with their own inbox counts as a user, so a team of three pays three
 
 Microsoft 365 Business Basic gives you Outlook email and the web and mobile versions of Word, Excel and PowerPoint; the desktop apps start with Business Standard. Microsoft raised Business Basic from $6 to $7 per user a month in the US on 1 July 2026. In the UK, [Microsoft's Business Basic page](https://www.microsoft.com/en-gb/microsoft-365/business/microsoft-365-business-basic) lists £5.40 per user a month on a yearly subscription and £6.48 on a monthly one, excluding VAT, at the time of writing. For email alone, Microsoft's US page lists Exchange Online Plan 1 at $4 per user a month, paid yearly.
 
-It suits businesses whose clients send them Word and Excel files all day, with someone happy to handle Microsoft's admin centre. For my own email it was a pain, but that is one experience, not a benchmark.
+It suits businesses whose clients send them Word and Excel files all day, with someone happy to handle {{< a key="secure-google-workspace-microsoft-365" >}}Microsoft's admin centre{{< /a >}}. For my own email it was a pain, but that is one experience, not a benchmark.
 
 ### Infomaniak kSuite
 
@@ -129,7 +129,7 @@ The order matters more than the provider. Whatever you choose:
 4. Point the MX records to the new provider, at the DNS host your nameservers name, and delete the MX records of any previous provider.
 5. Add SPF, DKIM and DMARC, as described in the next section.
 6. Test. Send an email to a Gmail address, open it, click the three dots and choose **Show original**: SPF, DKIM and DMARC should each say PASS. Reply to it as well, to check that mail comes in.
-7. Connect your phone and computer, with the provider's app or by IMAP and SMTP in Outlook or Apple Mail. Choose IMAP rather than POP3, so every device shows the same mailbox.
+7. Connect your phone and computer, with the provider's app or by IMAP and SMTP in Outlook or Apple Mail. Choose IMAP rather than POP3, so every device shows the same mailbox. Then switch on {{< a key="two-factor-authentication-passkeys" >}}two-factor authentication{{< /a >}}.
 8. Move your old email and tell people. Use the provider's migration tool if it has one, update your website, email signature and invoices, and leave an automatic reply on the old address for a few months.
 
 {{< callout type="warning" >}}**Create the mailboxes before you change the MX records.** From the moment the MX records point to the new provider, incoming mail goes there. If the mailboxes do not exist yet, messages bounce back to their senders, and some of those senders will be clients.{{< /callout >}}

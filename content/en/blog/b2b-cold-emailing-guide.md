@@ -43,7 +43,7 @@ In my experience, it works best when three things are true:
 2. One new client is worth the effort, because a campaign takes a few weeks to prepare.
 3. Someone can answer the phone, because many prospects call rather than reply.
 
-It does not suit a business that sells to consumers: in both countries, marketing emails to private individuals need their consent or an existing customer relationship. And it will not rescue an offer nobody wants. Cold email puts a good offer in front of the right people; it does not make the offer good.
+It does not suit a business that sells to consumers: in both countries, marketing emails to private individuals {{< a key="newsletter-consent-gdpr" >}}need their consent or an existing customer relationship{{< /a >}}. And it will not rescue an offer nobody wants. Cold email puts a good offer in front of the right people; it does not make the offer good.
 
 ## Is B2B cold emailing legal in the UK and France?
 
@@ -59,7 +59,7 @@ Every marketing email must say who is sending it and give a valid address to opt
 
 The CNIL lets you email professionals without prior consent when **the message relates to their job**, they have been told their address may be used for prospecting, and they can object simply and free of charge. Each email names the sender and offers an easy way to unsubscribe, and every objection goes on a suppression list (see [the CNIL's page on email prospecting](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique-sms-mms-et-automate-dappel), in French).
 
-Three French details shape the set-up. Generic addresses such as contact@ or info@ are the company's details, not a person's, so the rules for individuals do not apply to them, although you still name yourself and offer an opt-out. The CNIL's guidance is to keep a prospect's data for three years at most after collection or their last contact with you. And since its recommendation on tracking pixels, published in April 2026, an open-tracking pixel needs consent, even in B2B: one more reason to send plain text with tracking switched off.
+Three French details shape the set-up. Generic addresses such as contact@ or info@ are the company's details, not a person's, so the rules for individuals do not apply to them, although you still name yourself and offer an opt-out. The CNIL's guidance is to {{< a key="gdpr-data-retention-crm" >}}keep a prospect's data for three years at most{{< /a >}} after collection or their last contact with you. And since its recommendation on tracking pixels, published in April 2026, an open-tracking pixel needs consent, even in B2B: one more reason to send plain text with tracking switched off. The rest of the GDPR, beyond prospecting, is in my {{< a key="gdpr-guide" >}}GDPR guide for small-team businesses{{< /a >}}.
 
 ## Step 1: choose one audience and one offer
 

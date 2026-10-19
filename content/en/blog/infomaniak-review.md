@@ -103,13 +103,13 @@ Where Infomaniak hosting makes sense: a site coded by a developer, a WordPress s
 
 ## Is your data safer in Switzerland? GDPR and UK GDPR
 
-Switzerland is not in the EU, but the European Commission has recognised since 2000 that it protects personal data adequately (see the Commission's [adequacy decisions](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en)), and the UK recognises it too. In practice, a UK or French business can keep client emails and files with a Swiss provider without the extra transfer paperwork that some other countries require. Switzerland's own law, the revised Federal Act on Data Protection, has applied since 1 September 2023.
+Switzerland is not in the EU, but the European Commission has recognised since 2000 that it protects personal data adequately (see the Commission's [adequacy decisions](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en)), and the UK recognises it too. In practice, a UK or French business can keep client emails and files with a Swiss provider without the extra transfer paperwork that some other countries require. Switzerland's own law, the revised Federal Act on Data Protection, has applied since 1 September 2023. For US providers such as Google and Microsoft, {{< a key="gdpr-us-tools-data-transfers" >}}my guide to US tools under GDPR{{< /a >}} explains that extra paperwork.
 
 So yes, safer in one precise sense: your data stays in a country whose protection the EU and the UK recognise, with a company based there. What Swiss hosting does not do is make you compliant:
 
 - You still decide what you store and for how long, and you still answer your clients' requests to see or delete their data.
-- A provider that stores personal data for you is a processor under the GDPR (Article 28), so you need a contract with it that covers that processing. Check Infomaniak's data processing terms before you move client files, as you would with Google or Microsoft.
-- Access stays your job: one account per person, two-factor authentication turned on, and a leaver's access closed on their last day.
+- A provider that stores personal data for you is a processor under the GDPR (Article 28), so you need {{< a key="gdpr-data-processing-agreement" >}}a contract with it that covers that processing{{< /a >}}. Check Infomaniak's data processing terms before you move client files, as you would with Google or Microsoft.
+- Access stays your job: one account per person, two-factor authentication turned on, and a leaver's access closed on their last day. So is a backup of your mail and files: {{< a key="backups-3-2-1" >}}the 3-2-1 backup rule{{< /a >}} covers cloud suites as well as laptops.
 
 ## When I would choose something else
 

@@ -106,7 +106,7 @@ Ensuite, dans le panneau **Pages** :
 2. Faites glisser les pages dans l’ordre voulu pour le menu.
 3. Placez les pages qui doivent rester hors du menu, comme une page de remerciement, dans la section des pages non liées (**Not linked**). Elles restent publiques et peuvent toujours être indexées.
 4. Définissez votre page d’accueil depuis les paramètres de la page concernée.
-5. Ajoutez les mentions légales et la politique de confidentialité en liens texte dans le pied de page : la version 7.1 n’a pas de menu de pied de page séparé.
+5. Ajoutez {{< a key="website-legal-notice" >}}les mentions légales{{< /a >}} et la politique de confidentialité en liens texte dans le pied de page : la version 7.1 n’a pas de menu de pied de page séparé.
 
 {{< screenshot id="squarespace-tutorial-03" alt="Panneau Pages avec la navigation principale, la section des pages non liées et l’icône + pour ajouter une page" >}}
 
@@ -122,7 +122,7 @@ L’éditeur de Squarespace, Fluid Engine, est arrivé en juillet 2022. Il fonct
 
 Ouvrez chaque page par un titre qui dit ce que vous faites et où, avec un bouton de contact en haut de page. Une fois une page de service réussie, dupliquez-la pour le service suivant : la structure reste cohérente et vous ne réécrivez que le contenu.
 
-Squarespace est fermé : vous n’avez pas accès au code source. Ce que les blocs ne savent pas faire passe par l’injection de code, à partir du forfait Essentiel. J’ajoute en général un peu de code aux sites Squarespace que je crée, et mes clients m’appellent pour cette partie ; je m’en tiens à des ajouts qui ne gênent jamais ce qu’ils modifient eux-mêmes. Mon tutoriel sur l’{{< a key="squarespace-code-injection" >}}injection de code Squarespace{{< /a >}} montre comment le faire sans risque.
+Squarespace est fermé : vous n’avez pas accès au code source. Ce que les blocs ne savent pas faire passe par l’injection de code, à partir du forfait Essentiel. J’ajoute en général un peu de code aux sites Squarespace que je crée, et mes clients m’appellent pour cette partie ; je m’en tiens à des ajouts qui ne gênent jamais ce qu’ils modifient eux-mêmes. Mon tutoriel sur l’{{< a key="squarespace-code-injection" >}}injection de code Squarespace{{< /a >}} montre comment le faire sans risque. Si ce code dépose des cookies, prévoyez un {{< a key="cookie-banner-setup" >}}bandeau cookies conforme{{< /a >}}.
 
 {{< screenshot id="squarespace-tutorial-04" alt="Une page en mode édition avec les boutons d’ajout de section et de bloc visibles sur la grille de Fluid Engine" >}}
 
@@ -148,7 +148,7 @@ Chez Pilotech, les demandes arrivent par deux portes : les formulaires et le t�
 3. Choisissez où vont les envois : par email, dans une feuille de calcul Google Drive créée par Squarespace, ou dans Mailchimp. Vous pouvez en combiner plusieurs, par sécurité.
 4. Vérifiez l’adresse de notification : par défaut, les envois partent vers l’email du compte de la personne qui a ajouté le formulaire. Changez-la si les demandes doivent arriver ailleurs.
 5. Rédigez le message affiché après l’envoi, en précisant quand vous répondrez.
-6. Ajoutez un lien vers votre politique de confidentialité à côté du formulaire.
+6. Ajoutez un lien vers {{< a key="privacy-policy-guide" >}}votre politique de confidentialité{{< /a >}} à côté du formulaire.
 
 {{< callout type="warning" >}}L’envoi par email est désactivé sur les sites en période d’essai. Pour tester le formulaire avant de payer, connectez le stockage Google Drive, puis refaites un test par email juste après l’abonnement. Squarespace détaille les options dans sa [page d’aide sur le stockage des formulaires](https://support.squarespace.com/hc/en-us/articles/205814638-Set-up-form-and-newsletter-storage) (en anglais).{{< /callout >}}
 

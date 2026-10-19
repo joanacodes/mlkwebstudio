@@ -83,7 +83,7 @@ Choose Meta when your offer is easy to show and people are not searching for it 
 - Something new that people would want if they saw it, but would not think to search for.
 - Retargeting: showing an offer again to people who visited your website without getting in touch.
 
-In Ads Manager, every campaign starts with one of six objectives: Awareness, Traffic, Engagement, Leads, App promotion or Sales. With Leads, people can send their details through a form inside Facebook or Instagram, without leaving the app.
+In Ads Manager, every campaign starts with one of six objectives: Awareness, Traffic, Engagement, Leads, App promotion or Sales. With Leads, people can send their details through a form inside Facebook or Instagram, without leaving the app. If what you advertise is your own mobile app, my comparison of {{< a key="app-ads-budget-comparison" >}}Apple Ads, Google and Meta for app installs{{< /a >}} shows where to put a first budget.
 
 My view of Facebook and Instagram ads: they are good for awareness and for conversion, but you have to burn cash on A/B testing to see what works best. The image, the first line and the audience are guesses until the numbers come in, and testing each guess costs money. Use the A/B test built into Ads Manager rather than changing things by hand every morning: edits can send an ad set back into its learning phase, and Meta advises letting a test run for at least seven days.
 
@@ -122,7 +122,7 @@ Work backwards from what a client is worth to you:
 3. Your break-even cost per lead: £2,000 ÷ 4 = £500. Above that, the ads lose money; aim well below it, because your time costs something too.
 4. Your test budget: enough leads to judge, at the cost you are aiming for. At £100 a lead and ten leads before you decide, that is £1,000, spread over a few weeks rather than spent in three days.
 
-Then compare the platforms on cost per client, not cost per click. A click on Google may cost more than a click on Meta, but if it comes from someone ready to buy, the client can still cost less. Over the same period, add up what each test cost and count the clients it brought.
+Then compare the platforms on cost per client, not cost per click. A click on Google may cost more than a click on Meta, but if it comes from someone ready to buy, the client can still cost less. Over the same period, add up what each test cost and count the clients it brought. My tutorial on {{< a key="utm-ga4-funnel-tracking" >}}tracking your funnel with UTM links and GA4{{< /a >}} shows which platform brings booked calls.
 
 Two costs are easy to forget. The page the clicks land on: a page that does not convert wastes the budget on every platform alike. And your own time: every platform needs checking several times a week.
 
@@ -131,7 +131,7 @@ Two costs are easy to forget. The page the clicks land on: a page that does not 
 1. **Write your goal in one sentence**: calls this month, sales of a product, meetings with finance directors, or more people who know your name. The table above gives the platform that matches.
 2. **Check the demand on Google first.** In Keyword Planner, look at the monthly searches and top-of-page bids for what you sell, in your area. If people search for it, start with Google; if nobody does, you will have to create the demand: on Meta or TikTok for consumers, on LinkedIn for businesses.
 3. **Prepare the page the ads will lead to**: one offer, one way to get in touch, quick to load on a phone. I use Microsoft Clarity to see where visitors hesitate or leave, and whether the copy, a picture or the layout is to blame. If your site is not ready for paid visitors, that comes first, and it is the job of my {{< a page="/services/websites" >}}website service{{< /a >}}.
-4. **Set up conversion tracking before the first ad**: a Google Ads conversion, the Meta pixel, LinkedIn's Insight Tag or the TikTok pixel, loaded only after visitors accept your cookie banner.
+4. **Set up conversion tracking before the first ad**: a Google Ads conversion, the Meta pixel, LinkedIn's Insight Tag or the TikTok pixel, loaded only after visitors accept {{< a key="cookie-banner-setup" >}}your cookie banner{{< /a >}}.
 5. **Run one platform and one objective, with a budget you can afford to lose and an end date.** Change one thing at a time, so you know which change made the difference.
 6. **Judge on cost per client**, then scale up, change the offer or stop.
 

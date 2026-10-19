@@ -33,7 +33,7 @@ Savoir comment trouver des clients tient moins aux astuces qu’à un choix. Cho
 
 Le marketing peut être pénible, mais il n’est pas facultatif. Mes propres clients viennent d’abord du bouche-à-oreille, puis du cold emailing, puis du SEO. Dans ce guide, je compare neuf canaux d’acquisition selon leur coût, le délai avant le premier prospect, la qualité de ces prospects et l’effort qu’ils demandent, à partir de ce que j’ai vu dans les campagnes de mes clients et dans les miennes.
 
-Chaque partie renvoie vers un guide détaillé sur son canal. Voyez cette page comme la carte, et les articles liés comme l’itinéraire.
+Chaque partie renvoie vers un guide détaillé sur son canal. Voyez cette page comme la carte, et les articles liés comme l’itinéraire. Une fois qu’un canal vous amène du monde, mon {{< a key="funnels-newsletters-guide" >}}guide du tunnel de vente et de la newsletter{{< /a >}} explique comment ces visiteurs deviennent des clients.
 
 ## D’où viennent mes clients, et pourquoi le bouche-à-oreille n’est pas un plan
 
@@ -46,7 +46,7 @@ Vous pouvez quand même le favoriser :
 - Réalisez un travail que l’on peut montrer. Le dirigeant de Pilotech est venu pour un site qu’il avait vu : un résultat visible vous recommande en votre absence.
 - Demandez au bon moment, quand un client vous remercie ou constate un résultat, en précisant le type de personne que vous pouvez aider.
 - Donnez de quoi transmettre : un site clair et une {{< a key="google-business-profile-setup" >}}fiche Google My Business{{< /a >}} avec de vrais avis.
-- Restez en contact avec vos anciens clients. Le travail pour Edenel est parti d’un ancien projet.
+- Restez en contact avec vos anciens clients. Le travail pour Edenel est parti d’un ancien projet. Une newsletter en est un moyen : mon guide pour obtenir {{< a key="first-100-subscribers" >}}les 100 premiers abonnés de votre newsletter{{< /a >}} part des clients et contacts que vous avez déjà.
 
 Voyez le bouche-à-oreille comme le bonus d’un travail bien fait, et construisez au moins un canal que vous pouvez accélérer quand il vous faut plus de clients. C’est l’objet de la suite de ce guide.
 
@@ -177,7 +177,7 @@ Quelle que soit la ligne, comparez le délai avant le premier prospect avec votr
 
 Le piège contre lequel je mets en garde les petites entreprises, c’est la nouveauté qui brille : une nouvelle plateforme, un nouvel outil, la tactique dont tout le monde parle ce mois-ci. Le marketing fait beaucoup de bruit, c’est même son but, et les petites équipes s’y laissent facilement prendre. **Concentrez-vous sur les canaux et les stratégies que vous pratiquez déjà**, et faites-les fonctionner avant d’en ajouter un ; j’explique pourquoi dans mon article sur {{< a key="shiny-object-syndrome" >}}le syndrome de l’objet brillant{{< /a >}}.
 
-Maîtriser un canal, c’est aussi pouvoir absorber les prospects qu’il apporte. À un moment, j’ai apporté à Pilotech plus de prospects que l’entreprise ne pouvait en gérer, et son dirigeant m’a demandé de créer une application interne pour voir clairement chaque prospect et ne jamais oublier un rappel. Avant de payer pour plus de demandes, vérifiez que chacune reçoit une réponse rapide et que votre site transforme les visiteurs en appels : l’article {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de son site{{< /a >}} montre où ils décrochent.
+Maîtriser un canal, c’est aussi pouvoir absorber les prospects qu’il apporte. À un moment, j’ai apporté à Pilotech plus de prospects que l’entreprise ne pouvait en gérer, et son dirigeant m’a demandé de créer une application interne pour voir clairement chaque prospect et ne jamais oublier un rappel. Avant de payer pour plus de demandes, vérifiez que chacune reçoit une réponse rapide et que votre site transforme les visiteurs en appels : l’article {{< a key="website-conversion-rate" >}}améliorer le taux de conversion de son site{{< /a >}} montre où ils décrochent. Mon {{< a key="sales-funnel-explained" >}}exemple de tunnel de vente pour une entreprise de services{{< /a >}} suit tout le chemin, de la première visite au rendez-vous.
 
 ## Vos prochaines étapes : un canal, puis le suivant
 

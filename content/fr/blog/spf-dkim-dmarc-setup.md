@@ -12,7 +12,7 @@ keywords: ["configurer SPF DKIM DMARC", "mail qui arrive en spam", "enregistreme
 summary: "Pour que vos mails n’arrivent plus en spam, configurez SPF, DKIM et DMARC : un seul enregistrement SPF sur la racine, qui liste tous les services qui envoient en votre nom, une clé DKIM générée par votre messagerie et publiée sur sélecteur._domainkey, et un enregistrement DMARC sur _dmarc, d’abord en p=none avec une adresse de rapports. Vérifiez avec « Afficher l’original » dans Gmail, puis passez DMARC en quarantine, puis en reject, une fois les rapports propres."
 cover: "spf-dkim-dmarc-setup"
 cover_alt: "Bouclier symbolisant SPF, DKIM et DMARC, les enregistrements qui prouvent que vos emails viennent bien de vous"
-related: ["dns-records-explained", "professional-email-address", "cold-email-infrastructure", "spacemail-setup", "ovh-dns-squarespace"]
+related: ["dns-records-explained", "professional-email-address", "cold-email-infrastructure", "spacemail-setup", "newsletter-deliverability"]
 services: ["rescue"]
 faq:
   - q: "Combien de temps faut-il pour que SPF, DKIM et DMARC fonctionnent ?"
@@ -45,7 +45,7 @@ Avant de peser vos mots, le serveur qui reçoit votre email vérifie qu’il vie
 
 Ils prouvent votre identité. Ils ne sauvent pas un email qui ressemble à du spam, ni un envoi à des gens qui n’ont rien demandé.
 
-Les grandes messageries les exigent désormais. Depuis février 2024, les [consignes de Google pour les expéditeurs](https://support.google.com/a/answer/81126?hl=fr) imposent à tous ceux qui écrivent à des adresses Gmail de passer SPF ou DKIM et de garder sous 0,1 % la part de leurs emails signalés comme spam par les utilisateurs de Gmail, sans jamais atteindre 0,3 %. Ceux qui envoient environ 5 000 messages par jour ou plus doivent en plus avoir les trois enregistrements, alignés sur le domaine de l’expéditeur ; Yahoo a adopté des règles proches au même moment. Google indique que Gmail applique ces règles plus strictement depuis novembre 2025, avec des rejets temporaires et définitifs. Outlook.com exige les trois enregistrements des domaines qui lui envoient 5 000 messages ou plus par jour depuis le 5 mai 2025.
+Les grandes messageries les exigent désormais. Depuis février 2024, les [consignes de Google pour les expéditeurs](https://support.google.com/a/answer/81126?hl=fr) imposent à tous ceux qui écrivent à des adresses Gmail de passer SPF ou DKIM et de garder sous 0,1 % la part de leurs emails signalés comme spam par les utilisateurs de Gmail, sans jamais atteindre 0,3 %. Ceux qui envoient environ 5 000 messages par jour ou plus doivent en plus avoir les trois enregistrements, alignés sur le domaine de l’expéditeur ; Yahoo a adopté des règles proches au même moment. Google indique que Gmail applique ces règles plus strictement depuis novembre 2025, avec des rejets temporaires et définitifs. Outlook.com exige les trois enregistrements des domaines qui lui envoient 5 000 messages ou plus par jour depuis le 5 mai 2025. Si vous envoyez une newsletter, {{< a key="newsletter-deliverability" >}}mon guide sur la délivrabilité d’une newsletter{{< /a >}} détaille le reste de ces règles, dont la désinscription en un clic.
 
 ## Étape 1 : voir ce que Gmail voit avec « Afficher l’original »
 
@@ -133,7 +133,7 @@ Chez OVH, **Ajouter une entrée** propose un type SPF guidé, avec une option qu
 DKIM signe chaque email avec une clé privée qui reste chez votre messagerie ; les serveurs destinataires vérifient la signature grâce à une clé publique publiée sur `sélecteur._domainkey`. Vous générez la clé chez la messagerie, la publiez dans votre zone DNS, puis activez la signature.
 
 - **Messagerie OVHcloud.** Le DKIM des offres email d’OVHcloud passe par des enregistrements CNAME, comme chez Microsoft 365.
-- **Google Workspace.** Dans la console d’administration, ouvrez **Applications** > **Google Workspace** > **Gmail** > **Authentifier les e-mails**, choisissez le domaine et cliquez sur **Générer un nouvel enregistrement**. Publiez le TXT sur `google._domainkey`, puis revenez dans la console pour lancer l’authentification. Google recommande une clé de 2048 bits, et son [aide sur DKIM](https://knowledge.workspace.google.com/admin/security/set-up-dkim?hl=fr) traite des hébergeurs DNS qui n’acceptent que 1024 bits.
+- **Google Workspace.** Dans la console d’administration, ouvrez **Applications** > **Google Workspace** > **Gmail** > **Authentifier les e-mails**, choisissez le domaine et cliquez sur **Générer un nouvel enregistrement**. Publiez le TXT sur `google._domainkey`, puis revenez dans la console pour lancer l’authentification. Google recommande une clé de 2048 bits, et son [aide sur DKIM](https://knowledge.workspace.google.com/admin/security/set-up-dkim?hl=fr) traite des hébergeurs DNS qui n’acceptent que 1024 bits. Tant que vous êtes dans la console, {{< a key="secure-google-workspace-microsoft-365" >}}mon guide pour sécuriser Google Workspace et Microsoft 365{{< /a >}} liste les autres réglages à changer.
 - **Microsoft 365.** Les réglages DKIM du portail Microsoft Defender donnent deux CNAME, `selector1._domainkey` et `selector2._domainkey`. Ajoutez-les, puis activez la signature au même endroit. J’utilisais Microsoft pour mes propres emails et c’était pénible : prévoyez un peu de patience.
 - **Spacemail.** Sur les serveurs DNS de Spaceship, vérifiez dans Advanced DNS que `spacemail._domainkey` est bien là. Avec un autre hébergeur DNS, copiez l’enregistrement depuis Advanced DNS (Inactive records > Spacemail DNS records), comme le montre mon tutoriel pour {{< a key="spacemail-setup" >}}configurer Spacemail{{< /a >}}.
 
@@ -216,7 +216,7 @@ Quand quelques semaines de rapports montrent vos propres services en PASS, durci
 _dmarc   TXT   "v=DMARC1; p=reject; rua=mailto:dmarc@votreentreprise.fr"
 ```
 
-Gardez l’adresse `rua=` après le passage en reject : les rapports sont votre moyen de repérer un nouvel outil que personne n’a authentifié.
+Gardez l’adresse `rua=` après le passage en reject : les rapports sont votre moyen de repérer un nouvel outil que personne n’a authentifié. La fraude au paiement demande plus que des enregistrements DNS : {{< a key="invoice-fraud-bank-details" >}}mon guide sur la fraude au faux RIB{{< /a >}} donne les règles qui la bloquent.
 
 ## Domaines qui n’envoient rien, et domaines de cold emailing
 

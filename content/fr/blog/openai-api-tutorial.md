@@ -12,7 +12,7 @@ keywords: ["API ChatGPT", "clé API OpenAI", "API OpenAI prix", "tutoriel API Ch
 summary: "Pour utiliser l’API ChatGPT, connectez-vous sur platform.openai.com, ouvrez la page API keys des réglages, cliquez sur Create new secret key et rangez la clé dans une variable d’environnement OPENAI_API_KEY. Achetez ensuite des crédits prépayés (5 $ minimum), fixez un plafond mensuel (hard spend limit) sur le projet, puis envoyez une requête POST à https://api.openai.com/v1/responses. L’abonnement ChatGPT n’inclut pas l’API : elle se paie au token, à part."
 cover: "openai-api-tutorial"
 cover_alt: "Un téléphone affichant une boîte de réception, et un terminal avec une requête curl et la réponse 200 OK au-dessus des mots OpenAI API"
-related: ["claude-api-tutorial", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data", "claude-vs-chatgpt", "build-app-with-ai"]
+related: ["claude-api-tutorial", "zapier-vs-make-vs-n8n", "chatgpt-gdpr-client-data", "api-keys-mobile-apps", "build-app-with-ai"]
 services: ["automation"]
 faq:
   - q: "L’API ChatGPT est-elle gratuite ?"
@@ -101,7 +101,7 @@ Navigateur du visiteur  →  votre serveur ou outil d’automatisation (qui dét
 Navigateur du visiteur  ←  la réponse seulement                                         ←  API OpenAI
 ```
 
-Pas de serveur ? Zapier, Make et n8n proposent tous une étape OpenAI qui garde votre clé de leur côté : mon comparatif {{< a key="zapier-vs-make-vs-n8n" >}}n8n, Make ou Zapier{{< /a >}} vous aide à choisir. Et **une clé par outil**, jamais collée dans un dépôt public, un email, un document partagé ou une conversation avec un assistant IA.
+Pas de serveur ? Zapier, Make et n8n proposent tous une étape OpenAI qui garde votre clé de leur côté : mon comparatif {{< a key="zapier-vs-make-vs-n8n" >}}n8n, Make ou Zapier{{< /a >}} vous aide à choisir. Et **une clé par outil**, jamais collée dans un dépôt public, un email, un document partagé ou une conversation avec un assistant IA. De même pour les {{< a key="api-keys-mobile-apps" >}}clés API d’une application mobile{{< /a >}}.
 
 {{< callout type="warning" >}}Qui détient votre clé peut dépenser vos crédits jusqu’à ce que vous la supprimiez. Protégez-la comme le code de la carte bancaire de l’entreprise.{{< /callout >}}
 
@@ -256,7 +256,7 @@ Un pic inexpliqué mérite un coup d’œil le jour même : un outil qui tourne
 Pour envoyer une première requête, vous n’avez besoin ni de moi ni d’un développeur : si les commandes ci-dessus ont fonctionné, c’est fait. La suite, c’est une tâche que vous faites déjà chaque semaine, pas dix idées à la fois :
 
 - **Répondre plus vite aux prospects.** Les alertes et les rappels d’abord, un brouillon rédigé par l’IA ensuite : mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} met en place les alertes gratuitement.
-- **Créer un petit outil interne**, comme un calculateur de devis : mon guide pour {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}} dit ce qui est réaliste sans développeur.
+- **Créer un petit outil interne**, comme un calculateur de devis : mon guide pour {{< a key="build-app-with-ai" >}}créer une application avec l’IA{{< /a >}} dit ce qui est réaliste sans développeur. {{< a key="ai-app-data-leaks" >}}Vérifiez ensuite qui peut lire ses données{{< /a >}}.
 - **Comparer avec Claude**, dont les étapes ressemblent beaucoup à celles-ci, dans mon tutoriel {{< a key="claude-api-tutorial" >}}API Claude{{< /a >}}.
 
 Avant de faire passer des données clients par l’API, lisez mon guide {{< a key="chatgpt-gdpr-client-data" >}}ChatGPT et RGPD{{< /a >}} sur les données que vous pouvez confier à une IA : l’API a ses propres conditions, mais vos obligations envers vos clients restent les mêmes.

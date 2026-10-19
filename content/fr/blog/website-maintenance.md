@@ -146,7 +146,7 @@ Si c’est vous qui avez reçu le site, posez ces questions maintenant. Si la pe
 |---|---|
 | Chaque semaine (WordPress) | Vérifier que la dernière sauvegarde a tourné, installer les mises à jour du cœur, du thème et des extensions, puis ouvrir vos pages principales et envoyer un message de test |
 | Chaque mois | Tester chaque formulaire ; lire les messages de la Search Console et son rapport d’indexation des pages ; mettre à jour prix, horaires, prestations et photos ; supprimer les extensions et les comptes inutilisés |
-| Chaque trimestre | Restaurer une sauvegarde sur une copie de test ; vérifier qui a accès à l’hébergement, au domaine, à la plateforme et à vos comptes Google ; relire mentions légales, politique de confidentialité et bandeau cookies si vos outils ont changé |
+| Chaque trimestre | {{< a key="backups-3-2-1" >}}Restaurer une sauvegarde sur une copie de test{{< /a >}} ; vérifier qui a accès à l’hébergement, au domaine, à la plateforme et à vos comptes Google ; relire mentions légales, {{< a key="privacy-policy-guide" >}}politique de confidentialité{{< /a >}} et {{< a key="cookie-banner-rules" >}}bandeau cookies{{< /a >}} si vos outils ont changé |
 | Chaque année | Vérifier dates de renouvellement, renouvellement automatique et carte enregistrée (domaine, abonnement, emails) ; sur un site auto-hébergé, contrôler la version de PHP et le renouvellement du certificat SSL ; vous demander si la plateforme convient toujours à la personne qui modifie le site |
 
 Pour les mots de passe, la validation en deux étapes et le reste de la sécurité, mon guide pour {{< a key="website-security-guide" >}}sécuriser son site internet{{< /a >}} va plus loin.

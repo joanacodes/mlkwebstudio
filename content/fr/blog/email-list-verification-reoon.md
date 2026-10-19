@@ -46,7 +46,7 @@ Un rebond définitif (hard bounce) est un refus permanent : la boîte, ou le do
 
 ### Pourquoi les rebonds abîment un domaine d’envoi
 
-Gmail, Outlook et les autres messageries jugent chaque expéditeur sur son comportement. Un expéditeur qui écrit sans cesse à des adresses inexistantes ressemble à quelqu’un qui utilise une liste ancienne ou achetée, la méthode habituelle des spammeurs. La réputation de vos domaines et de vos boîtes d’envoi baisse, et vos emails suivants arrivent en spam, y compris ceux adressés à des adresses parfaitement valides.
+Gmail, Outlook et les autres messageries jugent chaque expéditeur sur son comportement. Un expéditeur qui écrit sans cesse à des adresses inexistantes ressemble à quelqu’un qui utilise une liste ancienne ou achetée, la méthode habituelle des spammeurs. La réputation de vos domaines et de vos boîtes d’envoi baisse, et vos emails suivants arrivent en spam, y compris ceux adressés à des adresses parfaitement valides. Une newsletter est jugée de la même façon, selon les {{< a key="newsletter-deliverability" >}}règles d’envoi de Gmail, Yahoo et Outlook{{< /a >}}.
 
 Les pièges à spam sont pires. Ce sont des adresses gardées uniquement pour repérer les expéditeurs négligents, et en toucher peut valoir à un domaine ou à un serveur d’envoi une place sur une liste noire. C’est pour cela que le cold emailing part de domaines secondaires qui protègent votre domaine principal, comme l’explique mon guide de l’{{< a key="cold-email-infrastructure" >}}infrastructure de cold emailing{{< /a >}}, et qu’une liste se vérifie avant de les atteindre.
 
@@ -148,7 +148,7 @@ Pour une première campagne, **« Safe only » ou « Safe+Role » est le cho
 Deux dernières choses avant de quitter Reoon :
 
 1. **Ajoutez les adresses rejetées à votre liste d’exclusion**, celle des adresses auxquelles vous n’écrivez jamais. Les résultats invalid, disabled, disposable et spamtrap y vont, à côté des personnes qui ont demandé à ne plus être contactées (ce qu’on appelle souvent une « liste repoussoir »). Comparez chaque nouvelle liste avec elle avant la vérification, pour que les adresses mortes ne reviennent pas avec le prochain import et ne consomment pas de crédits une deuxième fois.
-2. **Supprimez la tâche** une fois le fichier vérifié chargé dans votre outil d’envoi. Reoon efface de toute façon les fichiers importés et les résultats de ses serveurs au bout de 15 jours, et vous pouvez les supprimer plus tôt depuis la page **Results**. Les contacts nominatifs sont des données personnelles, et le RGPD vous demande de ne pas les garder plus longtemps que nécessaire : mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}} détaille le reste des règles.
+2. **Supprimez la tâche** une fois le fichier vérifié chargé dans votre outil d’envoi. Reoon efface de toute façon les fichiers importés et les résultats de ses serveurs au bout de 15 jours, et vous pouvez les supprimer plus tôt depuis la page **Results**. Les contacts nominatifs sont des données personnelles, et le RGPD vous demande de {{< a key="gdpr-data-retention-crm" >}}ne pas les garder plus longtemps que nécessaire{{< /a >}} : mon article sur le {{< a key="cold-email-gdpr-uk-france" >}}cold emailing et le RGPD{{< /a >}} détaille le reste des règles.
 
 {{< screenshot id="email-list-verification-reoon-06" alt="La page Results de Reoon avec l’option pour supprimer une tâche de vérification terminée" >}}
 

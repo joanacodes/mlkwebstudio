@@ -12,7 +12,7 @@ keywords: ["site WordPress piraté", "site WordPress hacké", "que faire si son 
 summary: "Si votre site WordPress a été piraté, mettez-le hors ligne, changez tous les mots de passe et fermez les sessions, puis copiez le site infecté et ses journaux avant de nettoyer. Si des données personnelles ont fuité avec un risque pour les personnes, notifiez la CNIL sous 72 heures. Ensuite, nettoyez, restaurez une sauvegarde saine ou reconstruisez le site, puis demandez un examen dans la Search Console pour lever l’avertissement de Google."
 cover: "wordpress-site-hacked"
 cover_alt: "Bouclier coché devant une personne au travail sur un ordinateur portable, et la mention WordPress 24 h"
-related: ["website-security-guide", "regain-website-access", "wordpress-to-squarespace", "website-maintenance", "google-search-console-tutorial"]
+related: ["website-security-guide", "regain-website-access", "wordpress-to-squarespace", "website-maintenance", "gdpr-data-breach"]
 services: ["rescue"]
 faq:
   - q: "Mon référencement Google reviendra-t-il après le piratage ?"
@@ -72,7 +72,7 @@ https://api.wordpress.org/secret-key/1.1/salt/
 
 {{< callout type="warning" >}}**Utilisez un appareil sain.** Si l’ordinateur qui vous sert à gérer le site est infecté lui aussi, vos nouveaux mots de passe peuvent être volés pendant que vous les tapez. Lancez d’abord une analyse antivirus complète, ou changez les mots de passe depuis un autre appareil.{{< /callout >}}
 
-Si un ancien prestataire détient le compte d’hébergement et que vous n’y avez pas accès, réglez ce point d’abord : voici comment {{< a key="regain-website-access" >}}récupérer son site internet auprès d’un ancien prestataire{{< /a >}}.
+Si un ancien prestataire détient le compte d’hébergement et que vous n’y avez pas accès, réglez ce point d’abord : voici comment {{< a key="regain-website-access" >}}récupérer son site internet auprès d’un ancien prestataire{{< /a >}}. Si le pirate contrôle aussi votre messagerie, {{< a key="incident-response-first-hour" >}}mon plan de la première heure{{< /a >}} montre comment la reprendre.
 
 ## Étape 2 : conserver les preuves avant de nettoyer
 
@@ -90,7 +90,7 @@ La tentation est de tout effacer sur-le-champ. Attendez une heure. Ce que vous s
 
 Un site WordPress contient souvent plus de données personnelles que son propriétaire ne le pense : les messages du formulaire de contact si l’extension les enregistre, les comptes clients et les commandes si vous vendez en ligne, les inscriptions à la newsletter, les comptes utilisateurs. Si le pirate a pu y accéder, il s’agit d’une violation de données personnelles au sens du RGPD.
 
-**La CNIL.** Si la violation présente un risque pour les droits et libertés des personnes, vous devez la notifier à la CNIL « dans les meilleurs délais et, si possible, 72 heures au plus tard après en avoir pris connaissance », par [son téléservice de notification](https://www.cnil.fr/fr/services-en-ligne/notifier-une-violation-de-donnees-personnelles). S’il vous manque des informations, la CNIL accepte une notification en deux temps : une première déclaration, puis un complément. Et même sans notification, consignez l’incident dans votre registre des violations : ce qui s’est passé, ses effets et les mesures prises.
+**La CNIL.** Si la violation présente un risque pour les droits et libertés des personnes, vous devez la notifier à la CNIL « dans les meilleurs délais et, si possible, 72 heures au plus tard après en avoir pris connaissance », par [son téléservice de notification](https://www.cnil.fr/fr/services-en-ligne/notifier-une-violation-de-donnees-personnelles). S’il vous manque des informations, la CNIL accepte une notification en deux temps : une première déclaration, puis un complément. Et même sans notification, consignez l’incident dans votre registre des violations : ce qui s’est passé, ses effets et les mesures prises. {{< a key="gdpr-data-breach" >}}Mon guide des 72 heures après une violation de données{{< /a >}} précise aussi quand prévenir vos clients.
 
 {{< callout type="note" >}}**Le délai court dès que vous avez connaissance de la violation**, pas à la fin de votre enquête. Une notification faite après 72 heures doit expliquer les raisons du retard.{{< /callout >}}
 
@@ -165,4 +165,4 @@ Vous pouvez tout faire vous-même si l’espace client de votre hébergeur et un
 
 Quand on me confie un site piraté, je réponds le jour même ou sous 24 heures. La totalité de l’intervention se règle à l’avance et je répare le site ; si je n’y arrive pas, vous recevez un rapport écrit à transmettre à un autre prestataire, et je rembourse 70 % de la facture.
 
-Une fois le site propre, gardez-le propre : mon guide sur la {{< a key="website-maintenance" >}}maintenance de site internet{{< /a >}} détaille l’entretien qu’un site WordPress demande et ce qu’il coûte.
+Une fois le site propre, gardez-le propre : mon guide sur la {{< a key="website-maintenance" >}}maintenance de site internet{{< /a >}} détaille l’entretien qu’un site WordPress demande et ce qu’il coûte. Pour vos autres données (ordinateurs, Google Workspace, Microsoft 365), suivez {{< a key="backups-3-2-1" >}}la règle de sauvegarde 3-2-1{{< /a >}}.

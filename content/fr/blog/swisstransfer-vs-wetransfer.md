@@ -12,7 +12,7 @@ keywords: ["SwissTransfer", "SwissTransfer avis", "alternative WeTransfer", "Swi
 summary: "SwissTransfer, le service de l’hébergeur suisse Infomaniak, est l’alternative gratuite à WeTransfer que je recommande : jusqu’à 50 Go par envoi, sans compte, avec des fichiers conservés jusqu’à 30 jours en Suisse. L’offre gratuite de WeTransfer s’arrête désormais à 10 transferts ou 3 Go au total sur 30 jours, et ses fichiers expirent au bout de 3 jours. WeTransfer reste un choix logique pour une équipe qui paie déjà un abonnement."
 cover: "swisstransfer-vs-wetransfer"
 cover_alt: "Un homme travaille sur un tableur devant un ordinateur, à côté d’un schéma de flux de fichiers titré SwissTransfer"
-related: ["infomaniak-review", "small-business-tools-guide", "chatgpt-gdpr-client-data", "professional-email-address", "web-design-process"]
+related: ["infomaniak-review", "small-business-tools-guide", "chatgpt-gdpr-client-data", "professional-email-address", "gdpr-us-tools-data-transfers"]
 services: ["websites"]
 faq:
   - q: "Le destinataire doit-il créer un compte pour télécharger un SwissTransfer ?"
@@ -73,7 +73,7 @@ Si votre équipe paie WeTransfer et que l’outil vous convient, je ne ferais pa
 
 ### SwissTransfer garde vos fichiers en Suisse
 
-Infomaniak stocke les fichiers SwissTransfer en Suisse. La Commission européenne reconnaît que la Suisse assure un niveau de protection adéquat des données personnelles (voir sa [liste des décisions d’adéquation](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_fr)), et le Royaume-Uni fait de même. Pour une entreprise française, un service suisse fait donc partie des choix simples au regard du RGPD : vos fichiers ne partent pas vers un pays dépourvu de ce statut. Infomaniak indique aussi ne pas utiliser les données de SwissTransfer à d’autres fins, par exemple pour entraîner une IA ou cibler de la publicité.
+Infomaniak stocke les fichiers SwissTransfer en Suisse. La Commission européenne reconnaît que la Suisse assure un niveau de protection adéquat des données personnelles (voir sa [liste des décisions d’adéquation](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_fr)), et le Royaume-Uni fait de même. Pour une entreprise française, un service suisse fait donc partie des choix simples au regard du RGPD : vos fichiers ne partent pas vers un pays dépourvu de ce statut. Infomaniak indique aussi ne pas utiliser les données de SwissTransfer à d’autres fins, par exemple pour entraîner une IA ou cibler de la publicité. Pour les outils américains, {{< a key="gdpr-us-tools-data-transfers" >}}mon guide sur le Data Privacy Framework{{< /a >}} explique comment vérifier un prestataire.
 
 ### WeTransfer et la polémique de juillet 2025 sur ses conditions
 

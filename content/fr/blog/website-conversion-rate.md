@@ -27,7 +27,7 @@ faq:
 
 Un site qui ne génère aucune demande a l’un de ces deux problèmes. Soit les bons visiteurs n’y arrivent jamais, soit ils arrivent, regardent et repartent avant d’avoir trouvé une raison, ou un moyen simple, de vous contacter. Les remèdes diffèrent : avant de chercher à améliorer le taux de conversion de votre site internet, et surtout avant de payer une refonte, sachez lequel des deux vous concerne.
 
-Quand les visiteurs sont là, on retrouve le plus souvent les mêmes fuites sur les sites vitrines de TPE : une offre trop large pour être comprise d’un coup d’œil, un numéro de téléphone caché dans le pied de page, un formulaire de devis qui demande tout, une page qui rame sur mobile et des demandes qui attendent un jour avant d’obtenir une réponse. Aucune ne nécessite un nouveau site.
+Quand les visiteurs sont là, on retrouve le plus souvent les mêmes fuites sur les sites vitrines de TPE : une offre trop large pour être comprise d’un coup d’œil, un numéro de téléphone caché dans le pied de page, un formulaire de devis qui demande tout, une page qui rame sur mobile et des demandes qui attendent un jour avant d’obtenir une réponse. Aucune ne nécessite un nouveau site. Mon {{< a key="sales-funnel-explained" >}}exemple de tunnel de vente pour une entreprise de services{{< /a >}} montre où elles se situent sur le chemin qui va de la première visite au rendez-vous.
 
 Ce guide montre comment voir où vos visiteurs décrochent, avec des outils gratuits, puis comment corriger chaque fuite. Il complète mon guide pour {{< a key="small-business-website-guide" >}}créer un site internet professionnel{{< /a >}}.
 
@@ -39,7 +39,7 @@ Si vos pages de services reçoivent quelques clics par mois, vous avez un probl�
 
 Si vos pages reçoivent des visites régulières et toujours aucun appel, vous avez un problème de conversion, et la suite de ce guide est pour vous. Votre **taux de conversion**, c’est la part des visites qui se terminent par une demande : 4 demandes pour 400 visites, cela fait 1 %.
 
-Comptez les appels autant que les formulaires. Un visiteur qui appuie sur votre numéro depuis son téléphone ne laisse aucune trace dans vos statistiques si vous ne l’enregistrez pas. Dans Google Analytics 4, enregistrez les appuis sur votre lien téléphone comme un événement (dans Google Tag Manager, un déclencheur sur les clics de liens qui commencent par `tel:` s’en charge), puis marquez cet événement comme **événement clé**, le nom que GA4 donne désormais à ce qu’il appelait les conversions : **Administration** > **Affichage des données** > **Événements** ([aide de Google](https://support.google.com/analytics/answer/13128484?hl=fr)). Le marquage n’est pas rétroactif : le décompte commence le jour où vous l’activez. Et demandez à chaque nouvel appelant comment il vous a trouvé.
+Comptez les appels autant que les formulaires. Un visiteur qui appuie sur votre numéro depuis son téléphone ne laisse aucune trace dans vos statistiques si vous ne l’enregistrez pas. Dans Google Analytics 4, enregistrez les appuis sur votre lien téléphone comme un événement (dans Google Tag Manager, un déclencheur sur les clics de liens qui commencent par `tel:` s’en charge), puis marquez cet événement comme **événement clé**, le nom que GA4 donne désormais à ce qu’il appelait les conversions : **Administration** > **Affichage des données** > **Événements** ([aide de Google](https://support.google.com/analytics/answer/13128484?hl=fr)). Le marquage n’est pas rétroactif : le décompte commence le jour où vous l’activez. Et demandez à chaque nouvel appelant comment il vous a trouvé. Mon tutoriel pour {{< a key="utm-ga4-funnel-tracking" >}}suivre votre tunnel avec les UTM et GA4{{< /a >}} montre quel canal amène des rendez-vous.
 
 ## Pourquoi votre site ne génère pas de demandes : les fuites habituelles
 
@@ -130,7 +130,7 @@ Pas besoin d’une application sur mesure pour commencer. Trois habitudes couvre
 - une liste partagée des demandes, chacune avec un statut : nouvelle, rappelée, devis envoyé ;
 - un rappel quand une demande n’a pas eu de réponse au bout d’une heure.
 
-Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} met cela en place gratuitement avec Google Apps Script.
+Mon tutoriel pour {{< a key="automate-lead-follow-up" >}}automatiser le suivi des prospects{{< /a >}} met cela en place gratuitement avec Google Apps Script. Pour relier la page, une page de réservation et vos emails en un seul parcours, suivez mon guide pour {{< a key="build-sales-funnel" >}}créer un tunnel de vente avec vos outils actuels{{< /a >}}.
 
 ## Améliorer le taux de conversion de votre site internet : l’ordre à suivre
 

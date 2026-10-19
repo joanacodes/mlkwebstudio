@@ -12,7 +12,7 @@ keywords: ["Squarespace code injection", "Squarespace custom code", "add code to
 summary: "Squarespace code injection lets you paste HTML and scripts into the header or footer of every page, or into the header of one page; on a version 7.1 site it sits under Custom Code at the bottom of the Pages panel. It needs the Core, Plus or Advanced plan (or some legacy plans), not Basic. Paste only code from sources you trust, label each snippet, test it on the live site, and use safe mode if a snippet breaks the editor."
 cover: "squarespace-code-injection"
 cover_alt: "Terminal window labelled Squarespace </> with lines of code"
-related: ["squarespace-tutorial", "microsoft-clarity-tutorial", "schema-markup-small-business", "youcanbookme-tutorial", "squarespace-vs-wordpress"]
+related: ["squarespace-tutorial", "microsoft-clarity-tutorial", "schema-markup-small-business", "cookie-banner-setup", "squarespace-vs-wordpress"]
 services: ["websites"]
 faq:
   - q: "Does code injection slow down a Squarespace site?"
@@ -89,7 +89,7 @@ Microsoft Clarity, a free heatmap and session recording tool, makes a good first
 ```
 
 3. Click **Save**. From then on, the tag runs on every page of your published site.
-4. Connect it to your cookie banner, so that each visitor's choice reaches Clarity. The Clarity tutorial shows how.
+4. Connect it to {{< a key="cookie-banner-setup" >}}your cookie banner{{< /a >}}, so that each visitor's choice reaches Clarity. The Clarity tutorial shows how.
 
 {{< callout type="tip" >}}**Label every snippet with START and END comments**, plus the date and its purpose. HTML comments do not show on the page, and six months later they tell you exactly what to delete.{{< /callout >}}
 

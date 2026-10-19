@@ -145,7 +145,7 @@ Clarity's free Citations report, now generally available, measures something els
 
 A visit is not a client. For {{< a page="/projects/pilotech" >}}Pilotech{{< /a >}}, the air conditioning installer whose website and SEO I look after, leads are measured in forms and calls. Apply the same measure to AI:
 
-1. **Make your enquiries key events.** In GA4, open **Admin** > **Data display** > **Events** and switch on **Mark as key event** for the event your contact form sends. The **Key events** column of Traffic acquisition then shows enquiries for each channel, AI included. If your form sends no event yet, ask whoever built your site to add one.
+1. **Make your enquiries key events.** In GA4, open **Admin** > **Data display** > **Events** and switch on **Mark as key event** for the event your contact form sends. The **Key events** column of Traffic acquisition then shows enquiries for each channel, AI included. If your form sends no event yet, ask whoever built your site to add one. My tutorial on {{< a key="utm-ga4-funnel-tracking" >}}tracking your funnel with UTM links and GA4{{< /a >}} shows which channel brings booked calls.
 2. **Ask every new contact how they found you.** Add a "How did you hear about us?" field to your form, with an option such as "ChatGPT or another AI assistant", and ask the same question on the phone. In my experience, people would rather call than write because it is quicker, and a call leaves no trace in GA4.
 3. **Watch the searches for your name.** Someone who read about you in an answer may simply search for your business. The branded queries filter in the **Performance** report of Search Console separates those searches from the rest, so you can see whether they grow.
 
@@ -156,7 +156,7 @@ A visit is not a client. For {{< a page="/projects/pilotech" >}}Pilotech{{< /a >
 Treat every AI figure as a minimum, for four reasons:
 
 - **Missing tags and referrers.** A visit with neither lands in Direct. From 9 October 2026, analytics firms reported a sharp fall in ChatGPT visits in GA4, by almost half on the sites one of them monitors, while Direct traffic rose: ChatGPT appears to have stopped tagging some of its links. OpenAI had announced no change when I wrote this. If your ChatGPT figures dropped that week, check Direct on the same landing pages before drawing conclusions.
-- **Cookie refusals.** Visitors who refuse analytics cookies on your banner are not counted in the usual way, in GA4 or in Clarity.
+- **Cookie refusals.** Visitors who refuse analytics cookies on your banner are not counted in the usual way, in GA4 or in Clarity. A {{< a key="cookie-banner-setup" >}}banner set up with Consent Mode v2{{< /a >}} passes each visitor's choice to Google.
 - **Google's AI features.** Clicks from AI Overviews and AI Mode are mixed into organic search, and Search Console only shows their impressions.
 - **People who never click.** They read your name in an answer, then call you or search for you a week later.
 

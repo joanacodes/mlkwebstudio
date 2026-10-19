@@ -12,7 +12,7 @@ keywords: ["injection de code Squarespace", "code personnalisé Squarespace", "a
 summary: "L’injection de code Squarespace permet de coller du HTML et des scripts dans l’en-tête ou le pied de page de tout le site, ou dans l’en-tête d’une seule page ; en version 7.1, elle se trouve sous Custom Code, en bas du panneau Pages. Il faut le forfait Essentiel (Core), Plus, Advanced ou certains anciens forfaits, pas Basic. Collez uniquement du code fiable, étiquetez chaque ajout, testez-le sur le site en ligne et utilisez le mode sans échec si un script bloque l’éditeur."
 cover: "squarespace-code-injection"
 cover_alt: "Fenêtre de terminal avec le libellé Squarespace </> et des lignes de code"
-related: ["squarespace-tutorial", "microsoft-clarity-tutorial", "schema-markup-small-business", "youcanbookme-tutorial", "squarespace-vs-wordpress"]
+related: ["squarespace-tutorial", "microsoft-clarity-tutorial", "schema-markup-small-business", "cookie-banner-setup", "squarespace-vs-wordpress"]
 services: ["websites"]
 faq:
   - q: "L’injection de code ralentit-elle un site Squarespace ?"
@@ -89,7 +89,7 @@ Microsoft Clarity, un outil gratuit de cartes de chaleur et d’enregistrement d
 ```
 
 3. Cliquez sur **Save** (enregistrer). À partir de là, la balise s’exécute sur toutes les pages de votre site publié.
-4. Reliez-la à votre bandeau cookies, pour que le choix de chaque visiteur parvienne à Clarity. Le tutoriel Clarity montre comment.
+4. Reliez-la à {{< a key="cookie-banner-setup" >}}votre bandeau cookies{{< /a >}}, pour que le choix de chaque visiteur parvienne à Clarity. Le tutoriel Clarity montre comment.
 
 {{< callout type="tip" >}}**Étiquetez chaque ajout avec des commentaires DÉBUT et FIN**, la date et son rôle. Les commentaires HTML ne s’affichent pas sur la page, et six mois plus tard ils vous disent exactement quoi supprimer.{{< /callout >}}
 

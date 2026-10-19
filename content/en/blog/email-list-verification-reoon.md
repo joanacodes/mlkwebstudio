@@ -46,7 +46,7 @@ A hard bounce is a permanent refusal: the mailbox, or the whole domain, does not
 
 ### Why bounces damage a sending domain
 
-Gmail, Outlook and the other mailbox providers judge each sender by its behaviour. A sender that keeps writing to addresses that do not exist looks like someone mailing an old or bought list, which is how spammers work. The reputation of your sending domains and mailboxes drops, and your next emails land in spam, including those sent to perfectly good addresses.
+Gmail, Outlook and the other mailbox providers judge each sender by its behaviour. A sender that keeps writing to addresses that do not exist looks like someone mailing an old or bought list, which is how spammers work. The reputation of your sending domains and mailboxes drops, and your next emails land in spam, including those sent to perfectly good addresses. A newsletter is judged the same way, against the {{< a key="newsletter-deliverability" >}}sender rules of Gmail, Yahoo and Outlook{{< /a >}}.
 
 Spam traps are worse. They are addresses kept only to catch careless senders, and hitting them can put a domain or a sending server on a blocklist. That is why cold email goes out from secondary domains that keep your main one safe, as my guide to {{< a key="cold-email-infrastructure" >}}cold email infrastructure{{< /a >}} explains, and why a list is verified before it reaches them.
 
@@ -146,7 +146,7 @@ For a first campaign, **Safe only or Safe+Role is the sensible choice**. You can
 Two last jobs before you leave Reoon:
 
 1. **Add the rejected addresses to your suppression list**, the list of addresses you never write to. Invalid, disabled, disposable and spamtrap results go there, next to the people who asked not to be contacted. Check each new list against it before you verify, so that dead addresses do not come back with the next import and use credits again.
-2. **Delete the task** once the verified file is in your sending tool. Reoon deletes uploaded files and results from its servers after 15 days anyway, and you can delete them sooner from the **Results** page. Named contacts are personal data, and data protection law expects you not to keep them longer than you need; my guide to {{< a key="cold-email-gdpr-uk-france" >}}cold email and GDPR{{< /a >}} covers the rest of the rules.
+2. **Delete the task** once the verified file is in your sending tool. Reoon deletes uploaded files and results from its servers after 15 days anyway, and you can delete them sooner from the **Results** page. Named contacts are personal data, and data protection law expects you {{< a key="gdpr-data-retention-crm" >}}not to keep them longer than you need{{< /a >}}; my guide to {{< a key="cold-email-gdpr-uk-france" >}}cold email and GDPR{{< /a >}} covers the rest of the rules.
 
 {{< screenshot id="email-list-verification-reoon-06" alt="Reoon's Results page with the option to delete a finished verification task" >}}
 

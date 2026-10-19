@@ -12,7 +12,7 @@ keywords: ["ChatGPT GDPR", "is ChatGPT GDPR compliant", "ChatGPT client data", "
 summary: "For GDPR purposes, anonymised text is fine on any ChatGPT plan, with training switched off in Data controls. Clients’ names, email addresses and other personal data belong only on a business plan (ChatGPT Business or Enterprise) or the API, which offer a data processing agreement and do not train on your content by default, and even then only the details the task needs. Keep health data, ID numbers, bank details and passwords out of AI assistants altogether."
 cover: "chatgpt-gdpr-client-data"
 cover_alt: "A shield with a tick above the words GDPR and RGPD, behind ribbed glass"
-related: ["claude-vs-chatgpt", "cold-email-gdpr-uk-france", "zapier-vs-make-vs-n8n", "openai-api-tutorial", "bespoke-crm-internal-app"]
+related: ["claude-vs-chatgpt", "cold-email-gdpr-uk-france", "zapier-vs-make-vs-n8n", "gdpr-data-processing-agreement", "bespoke-crm-internal-app"]
 services: ["automation"]
 faq:
   - q: "Which company is responsible for my data in ChatGPT?"
@@ -33,7 +33,7 @@ ChatGPT is the main example, but the same reasoning applies to Claude, the assis
 
 ## Is ChatGPT GDPR compliant? The better question to ask
 
-No tool is GDPR compliant on its own. The GDPR (the UK GDPR in Britain, the EU GDPR in France) places the duties on whoever decides why and how personal data is used: the **controller**. For your clients' data, that is you, whichever tool you open.
+No tool is {{< a key="gdpr-guide" >}}GDPR compliant{{< /a >}} on its own. The GDPR (the UK GDPR in Britain, the EU GDPR in France) places the duties on whoever decides why and how personal data is used: the **controller**. For your clients' data, that is you, whichever tool you open.
 
 Personal data is any information relating to an identified or identifiable living person. A name, an email address or a phone number, obviously, but also a description precise enough to point to one person: "the owner of the only bakery in the village" identifies someone as surely as a name.
 
@@ -58,7 +58,7 @@ The plan decides the provider's role, and price has nothing to do with it: ChatG
 
 On a personal plan, the provider handles your conversations under its own privacy policy. No data processing agreement links your business to OpenAI or Anthropic, so a client's details pasted there go to a third party that is not your processor. That is hard to justify under the GDPR, whatever your settings.
 
-On a business plan or through an API, the provider acts as your processor: it handles the data on your behalf, under the written contract that Article 28 of the GDPR requires. OpenAI offers a **data processing addendum** (DPA) to customers of ChatGPT Business, ChatGPT Enterprise and its API platform, signed through the DPA form linked from [OpenAI's enterprise privacy page](https://openai.com/enterprise-privacy/). Anthropic's DPA is incorporated into its Commercial Terms, which cover Claude Team, Enterprise and the API, and those terms state that Anthropic may not train models on customer content.
+On a business plan or through an API, the provider acts as your processor: it handles the data on your behalf, under {{< a key="gdpr-data-processing-agreement" >}}the written contract that Article 28 of the GDPR requires{{< /a >}}. OpenAI offers a **data processing addendum** (DPA) to customers of ChatGPT Business, ChatGPT Enterprise and its API platform, signed through the DPA form linked from [OpenAI's enterprise privacy page](https://openai.com/enterprise-privacy/). Anthropic's DPA is incorporated into its Commercial Terms, which cover Claude Team, Enterprise and the API, and those terms state that Anthropic may not train models on customer content.
 
 If you work alone, a team plan can feel oversized: Claude Team, for example, is sold from two users. For occasional tasks, anonymising before you paste (see below) is the practical answer. For regular work on client data, a business plan or the API is the route that comes with a processor contract.
 
@@ -155,7 +155,7 @@ Automations raise the stakes, because they handle client data without anyone pas
 Once an automation runs, every email, form entry or call note it handles passes through each service in the chain: the automation platform, the AI API, the CRM. Each one is a processor, so for each one:
 
 - check that it offers a data processing agreement, and accept or sign it;
-- check where it stores data, and how transfers outside the UK or the EEA are covered (usually an adequacy decision or standard contractual clauses);
+- check where it stores data, and {{< a key="gdpr-us-tools-data-transfers" >}}how transfers outside the UK or the EEA are covered{{< /a >}} (usually an adequacy decision or standard contractual clauses);
 - check what it does with your content: Anthropic's Commercial Terms rule out training, and the OpenAI API does not train on it unless you opt in, although it may keep inputs and outputs for up to 30 days to monitor abuse (its Responses API also stores responses unless you set `store` to `false`);
 - add it to your record of processing activities.
 

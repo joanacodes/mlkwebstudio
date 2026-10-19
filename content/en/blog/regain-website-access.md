@@ -12,7 +12,7 @@ keywords: ["regain access to website", "web designer won't give me access to my 
 summary: "To regain access to your website, list every account it depends on (domain, DNS, hosting, CMS or builder, email, Google tools) and ask your former provider in writing to move each one into your business's name. Take the domain and email back first: many other accounts can be recovered through them. If the provider refuses or has vanished, use Google's own procedures, a formal letter and, as a last resort, a rebuild in accounts you own."
 cover: "regain-website-access"
 cover_alt: "Laptop and binders on a desk beside a shield with a tick and the words Admin, FTP, DNS"
-related: ["recover-domain-name", "website-security-guide", "wordpress-site-hacked", "google-search-console-tutorial", "google-business-profile-setup"]
+related: ["recover-domain-name", "website-security-guide", "wordpress-site-hacked", "google-search-console-tutorial", "offboarding-checklist"]
 services: ["rescue"]
 faq:
   - q: "Can a web designer refuse to give me access to my website?"
@@ -163,13 +163,13 @@ Most of these situations come from a contract that never mentions the end of the
 
 ## Once you are back in, and when to hand it over
 
-Back in control, close the doors behind the provider:
+Back in control, {{< a key="offboarding-checklist" >}}close the doors behind the provider{{< /a >}}:
 
 1. Change every password and switch on two-factor authentication.
 2. Remove the provider's users, invitations, SFTP logins and API keys everywhere.
 3. Update the recovery email addresses and phone numbers on every account.
 4. Put renewals on your own card and switch on auto-renew for the domain.
-5. Keep an access register in a password manager: each account, its login email, who has access and when it renews.
+5. Keep an access register in {{< a key="password-manager-teams" >}}a password manager{{< /a >}}: each account, its login email, who has access and when it renews.
 6. Take a full backup and store it away from the hosting.
 
 You do not need me, or anyone else, for most of this: the checklist, the email and the Google requests take a few hours, and a cooperative provider can finish the job within days. Hand it over when the provider refuses, when the accounts are tangled across several companies, or when the site is down or hacked while you wait.

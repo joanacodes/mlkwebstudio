@@ -102,7 +102,7 @@ Si vous tenez au suivi, configurez au minimum un domaine de tracking personnalis
 Ma règle vaut pour le premier contact, pas pour la conversation qui suit. Un lien a sa place :
 
 - **Quand un prospect répond et le demande.** Le catalogue, une grille tarifaire, une page de prise de rendez-vous : envoyez-les. Il les a demandés, et dès qu’il a répondu, vous êtes dans une conversation, et non plus dans un cold email. L’article de MLK Leadhunters sur [ce qu’il faut faire des réponses](https://mlkleadhunters.com/fr/blog/what-to-do-with-replies/) conseille de proposer à ce stade deux créneaux ou un lien de réservation.
-- **Dans les envois auxquels les destinataires se sont abonnés.** Une newsletter envoyée à des abonnés n’est pas du cold emailing, et d’autres règles s’y appliquent.
+- **Dans les envois auxquels les destinataires se sont abonnés.** Une newsletter envoyée à des abonnés n’est pas du cold emailing, et d’autres règles s’y appliquent. Pour l’envoi, mon guide sur la {{< a key="newsletter-deliverability" >}}délivrabilité d’une newsletter{{< /a >}} explique les règles de Gmail, Yahoo et Outlook.
 
 Si vous voulez malgré tout un lien dans une séquence de prospection, limitez les dégâts : un seul lien, vers votre propre site, écrit en entier plutôt que caché derrière des mots ou un raccourcisseur, sans suivi des clics, et jamais dans le premier email. Comparez ensuite les réponses avec une version en texte brut avant de le garder.
 

@@ -103,13 +103,13 @@ L’hébergement d’Infomaniak a du sens pour un site codé par un développeur
 
 ## Vos données sont-elles plus en sécurité en Suisse ? Ce que dit le RGPD
 
-La Suisse n’est pas dans l’Union européenne, mais la Commission européenne reconnaît depuis 2000 qu’elle offre un niveau de protection adéquat des données personnelles (la [carte de la CNIL](https://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde) le montre). En pratique, une entreprise française peut confier ses emails et ses fichiers clients à un prestataire suisse sans les garanties de transfert supplémentaires qu’exigent d’autres pays. En Suisse même, la nouvelle loi fédérale sur la protection des données (nLPD) s’applique depuis le 1er septembre 2023.
+La Suisse n’est pas dans l’Union européenne, mais la Commission européenne reconnaît depuis 2000 qu’elle offre un niveau de protection adéquat des données personnelles (la [carte de la CNIL](https://www.cnil.fr/fr/la-protection-des-donnees-dans-le-monde) le montre). En pratique, une entreprise française peut confier ses emails et ses fichiers clients à un prestataire suisse sans les garanties de transfert supplémentaires qu’exigent d’autres pays. En Suisse même, la nouvelle loi fédérale sur la protection des données (nLPD) s’applique depuis le 1er septembre 2023. Pour Google, Microsoft et les autres prestataires américains, {{< a key="gdpr-us-tools-data-transfers" >}}mon guide sur les outils américains et le RGPD{{< /a >}} explique ces garanties.
 
 Oui, donc, dans un sens précis : vos données restent dans un pays dont l’Union européenne reconnaît le niveau de protection, chez une entreprise qui y est installée. En revanche, un hébergement suisse ne vous met pas en conformité à lui seul :
 
 - Vous décidez toujours de ce que vous conservez et pendant combien de temps, et vous répondez toujours aux demandes d’accès ou de suppression de vos clients.
-- Un prestataire qui stocke des données personnelles pour vous est un sous-traitant au sens de l’article 28 du RGPD : il vous faut un contrat qui encadre ce traitement. Lisez les conditions de traitement des données d’Infomaniak avant d’y déplacer des fichiers clients, comme vous le feriez avec Google ou Microsoft.
-- Les accès restent votre affaire : un compte par personne, la double authentification activée, et les accès d’un salarié qui part fermés le jour de son départ.
+- Un prestataire qui stocke des données personnelles pour vous est un sous-traitant au sens de l’article 28 du RGPD : il vous faut {{< a key="gdpr-data-processing-agreement" >}}un contrat qui encadre ce traitement{{< /a >}}. Lisez les conditions de traitement des données d’Infomaniak avant d’y déplacer des fichiers clients, comme vous le feriez avec Google ou Microsoft.
+- Les accès restent votre affaire : un compte par personne, la double authentification activée, et les accès d’un salarié qui part fermés le jour de son départ. La sauvegarde de vos emails et fichiers aussi : {{< a key="backups-3-2-1" >}}la règle de sauvegarde 3-2-1{{< /a >}} vaut pour une suite en ligne comme pour vos ordinateurs.
 
 ## Quand je choisirais autre chose
 
