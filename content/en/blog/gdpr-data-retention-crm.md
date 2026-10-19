@@ -29,7 +29,7 @@ A CRM never forgets on its own. The prospects you imported for a campaign three 
 
 There is no table of GDPR data retention periods in the regulation itself. It says you keep personal data only as long as the purpose you collected it for requires, and that you must be able to justify the period you chose. The figures come from elsewhere: regulators' benchmarks, such as the CNIL's three years for prospects in France, and other laws, such as the tax rules for invoices.
 
-This guide gives you the periods that matter for a CRM (the tool, or spreadsheet, where you keep contacts and deals): prospects, clients, quotes, invoices, card details and job applicants, in France, in the UK and for businesses outside Europe with contacts in the EU. Then it shows how to make your CRM apply them, so you do not have to remember.
+This guide gives you the periods that matter for a CRM (the tool, or spreadsheet, where you keep contacts and deals) in France, the UK and beyond, then shows how to make the CRM apply them for you.
 
 ## GDPR data retention periods: what the law actually says
 
@@ -37,17 +37,17 @@ The rule is Article 5(1)(e) of the [GDPR](https://eur-lex.europa.eu/eli/reg/2016
 
 Three things supply the numbers:
 
-1. **Other laws** that make you keep certain records, such as accounting and tax rules. They set a period for those records, not for everything else you know about the person.
+1. **Other laws** that make you keep certain records, such as accounting and tax rules.
 2. **Regulators' benchmarks.** France's CNIL publishes recommended periods. They are not binding, but if you choose a different period, you must be able to explain why.
 3. **Your own reasons**: how long your sales cycle runs, how long a quote stays relevant, how often clients come back.
 
-The UK GDPR keeps the same principle, and the ICO's guidance on [storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) is blunt: data protection law sets no time limits, you decide them, and you cannot keep data indefinitely just in case it might be useful one day.
+The UK GDPR keeps the same principle, and the ICO's guidance on [storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) is blunt: data protection law sets no time limits, you decide them, and you cannot keep data indefinitely just in case.
 
 The periods also follow your contacts across borders. A business in the UK, Switzerland, the US, Canada or Morocco that offers its services to people in the EU falls under the GDPR for their data (Article 3(2)), wherever its office or server is. My {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}} explains when that applies.
 
 ## Prospects and clients: the CNIL's three-year benchmark
 
-France has the most precise guidance. The CNIL's reference framework for managing commercial activities (the référentiel « gestion des activités commerciales », deliberation no. 2021-131 of 23 September 2021) sets these periods:
+The CNIL's reference framework for managing commercial activities (the référentiel « gestion des activités commerciales », deliberation no. 2021-131 of 23 September 2021) sets these periods:
 
 - **A prospect who never became a client**: three years from collection, or from the last contact that came from the prospect.
 - **A client**: as long as the commercial relationship lasts, then three years from its end for marketing (in practice, from the end of the contract or the last order).
@@ -58,11 +58,11 @@ France has the most precise guidance. The CNIL's reference framework for managin
 
 The CNIL's [questions and answers on these frameworks](https://www.cnil.fr/fr/questions-reponses-sur-les-referentiels-relatifs-la-gestion-des-activites-commerciales-et-des) (in French) give the details. A framework is guidance rather than law, but if you depart from it, you must be able to justify the difference.
 
-The ICO publishes no equivalent figure for prospects. A UK business can still adopt three years as its own rule: a period a European regulator already considers reasonable is easier to defend than a number picked out of the air. If your sales cycle is short, choose shorter. If your prospects come from cold emailing, my {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers what you must tell them in the first message.
+The ICO publishes no equivalent figure for prospects. A UK business can still adopt three years as its own rule: a period a regulator already considers reasonable is easier to defend than one picked out of the air. If your sales cycle is short, choose shorter. If your prospects come from cold emailing, my {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers what you must tell them in the first message.
 
 ## Invoices, contracts and card details: periods set by other laws
 
-Some records must outlive the relationship. Their periods come from commercial, tax and civil law, and they cover the record itself, not the rest of the contact's file.
+Some records must outlive the relationship, and commercial, tax and civil law set how long.
 
 | Record | France | UK |
 |---|---|---|
@@ -114,7 +114,7 @@ A retention period nobody applies is just a sentence in your privacy policy. The
 - a status: prospect, client or former client;
 - for clients, the date the relationship ended.
 
-**Review once a month.** Save a filter for prospects whose last inbound contact is 35 months old or more. They get one short message asking whether they still want to hear from you; those who have not said yes by month 36 are deleted in bulk. Former clients follow the same routine three years after the relationship ends. Check that your CRM can filter on a custom date field and delete the results in bulk; most can.
+**Review once a month.** Save a filter for prospects whose last inbound contact is 35 months old or more. They get one short message asking whether they still want to hear from you; those who have not said yes by month 36 are deleted in bulk. Former clients follow the same routine three years after the relationship ends. Most CRMs can filter on a custom date field and delete the results in bulk.
 
 **In a spreadsheet**, one formula column gives each row its deletion date, with the collection date in column B and the date of their last contact in column C:
 
@@ -132,8 +132,7 @@ Filter that column once a month. My {{< a key="automate-lead-follow-up" >}}tutor
 2. Give each category a period and a reason, starting from the schedule above.
 3. Put the periods in your privacy policy: Article 13(2)(a) of the GDPR asks for the period or the criteria used to set it. My guide to {{< a key="privacy-policy-guide" >}}what a privacy policy must say{{< /a >}} shows where they go.
 4. Put them in your record of processing activities: Article 30(1)(f) asks for the time limits for erasure, where possible.
-5. Add the fields and the monthly filter to the CRM, and book the first review in your calendar.
+5. Add the fields and the monthly filter to the CRM, clean the old copies, and book the first review in your calendar.
 6. Keep the periods to hand: when someone asks for a copy of their data, your answer must say how long you will keep it (Article 15(1)(d)). Here is {{< a key="gdpr-subject-access-request" >}}how to answer a subject access request{{< /a >}}.
-7. Clean the copies: exports, old spreadsheets, the cold email tool.
 
 This article explains the rules and the regulators' guidance; it is not legal advice. A lawyer or a DPO is worth paying for if you hold health or other sensitive data, work in a sector with its own retention rules such as insurance, finance or healthcare, face a complaint, or hold large volumes of data on people in several countries. For an ordinary B2B contact list, the schedule above and an afternoon of work are a solid start.
