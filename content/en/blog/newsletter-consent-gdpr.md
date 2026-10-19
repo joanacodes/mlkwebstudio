@@ -37,7 +37,7 @@ It is general information, not legal advice: the last section says when a lawyer
 
 **The email marketing rule decides whether you may send at all.** In the EU, it is [Article 13 of the ePrivacy Directive](https://eur-lex.europa.eu/eli/dir/2002/58/oj): marketing emails to individuals need their prior consent unless the soft opt-in applies. Each country writes it into its own law; in France, that is article L34-5 of the Code des postes et des communications électroniques (CPCE). In the UK, it is [regulation 22 of PECR](https://www.legislation.gov.uk/uksi/2003/2426/regulation/22), the Privacy and Electronic Communications Regulations, amended by the Data (Use and Access) Act 2025 (here is {{< a key="uk-gdpr-data-use-access-act" >}}what that Act changed{{< /a >}}).
 
-**The GDPR decides what valid consent is.** Both email rules borrow its definition, and the UK GDPR plays the same role in the UK.
+**The GDPR decides what valid consent is.** The ePrivacy Directive points to its definition, and the UK GDPR plays the same role for PECR.
 
 These rules follow your readers, not your company. A Swiss consultancy, a Canadian software firm or a Moroccan agency whose newsletter offers its services to readers in France or Belgium comes under the GDPR through Article 3(2), and the safest course is to follow the email rules of the country where each reader lives. My {{< a key="gdpr-guide" >}}GDPR guide{{< /a >}} covers the rest of the regulation.
 
@@ -45,11 +45,11 @@ These rules follow your readers, not your company. A Swiss consultancy, a Canadi
 
 Consent must be "freely given, specific, informed and unambiguous", shown by a statement or "a clear affirmative action" ([GDPR Article 4(11)](https://eur-lex.europa.eu/eli/reg/2016/679/oj)). On a sign-up form, that means six things.
 
-1. **The person acts.** Recital 32 rules out silence, pre-ticked boxes and inactivity, and the EU Court of Justice confirmed in Planet49 (case C-673/17, 1 October 2019) that a pre-ticked box is not valid consent. On a form whose only purpose is the newsletter, typing an address and pressing Subscribe is a clear action. On a checkout, a contact form or a quote request, the newsletter needs its own unticked box.
+1. **The person acts.** Recital 32 rules out silence, pre-ticked boxes and inactivity, and the EU Court of Justice confirmed in Planet49 (case C-673/17, 1 October 2019), a ruling on cookie consent, that a pre-ticked box is not valid consent. On a form whose only purpose is the newsletter, typing an address and pressing Subscribe is a clear action. On a checkout, a contact form or a quote request, the newsletter needs its own unticked box.
 2. **It stands apart from your terms.** A consent request inside a document about other matters must be clearly distinguishable (Article 7(2)), and the ICO is explicit that accepting a privacy policy is not consent to marketing.
 3. **It is specific.** Consent to your newsletter covers your newsletter, not partners' offers or text messages.
 4. **It is informed.** Say who you are, what you will send and how often, and link to your privacy policy.
-5. **It is free.** Under Article 7(4), tying a service to consent it does not need is presumed to make that consent not free. A free guide sent only to people who join your list is the classic case: send the guide to everyone who asks, and offer the newsletter as a separate box.
+5. **It is free.** Under Article 7(4) and Recital 43, consent is presumed not to be free when a service depends on it without needing it. A free guide sent only to people who join your list comes close to that line: the safe course is to send the guide to everyone who asks and offer the newsletter as a separate box.
 6. **It is as easy to withdraw as to give** (Article 7(3)): one click in every issue, not an email to your support address.
 
 A sign-up line that meets all six can be this plain:
@@ -73,9 +73,9 @@ A UK bike shop can email past buyers about servicing and accessories, but needs 
 
 **UK.** PECR's consent rule covers individuals, sole traders and partnerships outside Scotland. Limited companies, LLPs, Scottish partnerships and public bodies can be emailed without consent, but every message must name the sender and give a valid address to opt out (regulation 23). An address that names a person, such as jane.smith@example.co.uk, is still personal data under the UK GDPR. An address alone does not show whether it belongs to a company or a sole trader: when in doubt, the [ICO's business-to-business guidance](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/) says to treat it as an individual's.
 
-**France.** The CNIL allows marketing emails to professionals without prior consent when the message relates to their job (its example: software offered to an IT director), provided they were told their address would be used and can object simply and free of charge. Generic addresses such as contact@ fall outside the consent and information rules.
+**France.** The CNIL allows marketing emails to professionals without prior consent when the message relates to their job (its example: software offered to an IT director), provided they were told their address would be used and can object simply and free of charge. Generic addresses such as contact@ count as the company's details and fall outside these rules.
 
-**Elsewhere in the EU.** Article 13(5) of the ePrivacy Directive leaves business addresses to national law, and Germany, for one, requires prior consent for marketing emails to businesses too.
+**Elsewhere in the EU.** Article 13(5) of the ePrivacy Directive leaves the protection of companies to national law, and Germany, for one, requires prior consent for marketing emails to businesses too.
 
 Even where the law allows it, adding business contacts who never asked is a poor trade: people who did not expect your newsletter report it as spam more readily, and Gmail and Yahoo count those complaints against you (my guide to {{< a key="newsletter-deliverability" >}}newsletter deliverability{{< /a >}} gives the thresholds). My {{< a key="cold-email-gdpr-uk-france" >}}cold email GDPR checklist{{< /a >}} covers the B2B rules line by line.
 
@@ -122,9 +122,9 @@ Phone contacts, business cards, LinkedIn connections, old enquiries, a list boug
 
 {{< callout type="warning" >}}In 2017, the ICO fined Flybe £70,000 for emailing more than three million people who had opted out, asking them to update their marketing preferences, and Honda £13,000 for emails asking customers whether they wanted to hear from it. An email that asks for marketing consent is itself a marketing email.{{< /callout >}}
 
-Invite those contacts through channels you already use: the sign-up link on your website, your invoices and receipts, your email signature, your social profiles, a QR code on the counter. My guide to {{< a key="first-100-subscribers" >}}your first 100 subscribers{{< /a >}} covers these channels, without buying a list.
+Invite those contacts through channels you already use: the sign-up link on your website, your printed invoices and receipts, your email signature, your social profiles, a QR code on the counter. My guide to {{< a key="first-100-subscribers" >}}your first 100 subscribers{{< /a >}} covers these channels, without buying a list.
 
-For contacts in France, mind the clock too: the CNIL's usual rule is that a prospect's data is not kept beyond three years from collection or from the last time they contacted you. Older contacts should be deleted, not emailed.
+For contacts in France, mind the clock too: under the CNIL's reference framework for customer and prospect management, a prospect's data is kept three years at most from collection or from the last contact that came from them, such as a click or a request (opening an email does not count). When that time is up, you may ask once whether they still want to hear from you, if you could lawfully email them; without a clear yes, delete them.
 
 ## Newsletter consent checklist, and when to get help
 

@@ -29,9 +29,9 @@ faq:
 
 Les mentions légales d’un site internet disent qui l’édite et comment joindre l’entreprise qui est derrière. Elles sont obligatoires sur tout site professionnel, quelle que soit la taille de l’entreprise, du site vitrine d’un artisan à la boutique en ligne. Le socle est le même dans toute l’UE et au Royaume-Uni, car il vient d’une même directive européenne de 2000, mais la loi française demande davantage : un téléphone, le capital social, un directeur de la publication et les coordonnées de l’hébergeur.
 
-Ce guide liste ce qu’il faut publier pour une société et pour un entrepreneur individuel, avec les sanctions, les règles britanniques et un modèle à remplir. Je crée des sites pour des petites équipes en France et au Royaume-Uni, et les pages légales font partie de chaque site que je livre. Ce guide complète mon {{< a key="gdpr-guide" >}}guide RGPD pour les petites équipes{{< /a >}}.
+Ce guide liste ce qu’il faut publier pour une société et pour un entrepreneur individuel, avec les sanctions, les règles britanniques et un modèle à remplir. Je crée des sites pour des petites équipes en France et au Royaume-Uni, et les pages légales font partie de chaque site que je livre. Cet article complète mon {{< a key="gdpr-guide" >}}guide RGPD pour les petites équipes{{< /a >}}.
 
-Il présente les règles en vigueur au 19 octobre 2026, à titre d’information générale et non de conseil juridique. Les mentions légales sont une liste de faits que vous connaissez déjà : il est rare d’avoir besoin d’un avocat pour les rédiger.
+À lire comme une information générale sur les règles en vigueur au 19 octobre 2026, pas comme un conseil juridique.
 
 ## Mentions légales, politique de confidentialité, CGV : qui fait quoi
 
@@ -66,7 +66,7 @@ Chaque pays transpose cette liste dans sa loi, et une entreprise de l’UE suit 
 
 ## Les mentions légales obligatoires sur un site internet en France
 
-La liste française vient de la [loi pour la confiance dans l’économie numérique](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164) du 21 juin 2004 (LCEN), dont l’article 1-1 la regroupe : la loi SREN du 21 mai 2024 l’y a transférée de l’ancien article 6, III. La LCEN transpose aussi l’article 5 de la directive, qui ajoute l’adresse email, le numéro de TVA et les informations propres aux professions réglementées.
+La liste française vient de la [loi pour la confiance dans l’économie numérique](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000801164) du 21 juin 2004 (LCEN), dont l’article 1-1 la regroupe : la loi SREN du 21 mai 2024 l’y a transférée de l’ancien article 6, III. La LCEN transpose aussi l’article 5 de la directive, d’où l’ajout de l’adresse email, du numéro de TVA et des informations propres aux professions réglementées.
 
 | À publier | Société (SARL, SAS…) | Entrepreneur individuel (micro-entrepreneur compris) |
 |---|---|---|
@@ -81,7 +81,7 @@ La liste française vient de la [loi pour la confiance dans l’économie numér
 
 Les professions réglementées ajoutent les informations vues plus haut : un architecte indique par exemple le conseil régional de l’Ordre des architectes.
 
-La sanction est pénale : jusqu’à un an d’emprisonnement et 75 000 € d’amende pour une personne physique ou le dirigeant d’une société, et jusqu’à 375 000 € pour la société elle-même. Les condamnations restent rares, et le coût quotidien est plus discret. Je veux que les sites que je crée fassent paraître une entreprise assez sérieuse pour qu’on accepte ses prix, et des mentions légales absentes ou à moitié vides jouent contre elle auprès de chaque client qui vérifie.
+La sanction est pénale : jusqu’à un an d’emprisonnement et 75 000 € d’amende pour une personne physique ou le dirigeant d’une société, et jusqu’à 375 000 € pour la société elle-même. Les condamnations restent rares, et le coût quotidien est plus discret. Je veux que les sites que je crée donnent à l’entreprise une image assez sérieuse pour qu’on accepte ses prix, et des mentions légales absentes ou à moitié vides jouent contre elle auprès de chaque client qui vérifie.
 
 ### Si vous vendez à des particuliers : CGV et médiateur de la consommation
 
@@ -105,13 +105,13 @@ L’absence de ces informations est une infraction pour la société et chaque d
 Ces règles visent les entreprises établies dans chaque pays. Une entreprise installée à Genève, Londres, Montréal ou Casablanca qui vend à des clients en France rencontre deux autres séries de règles.
 
 - **Le droit de la consommation.** Quand vous dirigez votre activité vers des consommateurs d’un pays de l’UE, les protections de leur pays s’appliquent en principe au contrat (article 6 du règlement Rome I), dont l’obligation de donner votre identité, votre adresse géographique, votre téléphone et votre email avant la commande. Dans l’autre sens, une entreprise française qui vend à des particuliers britanniques trouve une liste comparable dans les Consumer Contracts Regulations 2013.
-- **Le RGPD.** Si vous ciblez des personnes situées dans l’UE, votre politique de confidentialité doit dire qui vous êtes, et vous devrez peut-être y désigner un représentant : voyez {{< a key="gdpr-outside-eu" >}}le RGPD pour les entreprises hors de l’UE{{< /a >}}.
+- **Le RGPD.** Si vous ciblez des personnes situées dans l’UE, votre politique de confidentialité doit dire qui vous êtes, et vous devrez peut-être y désigner un représentant : mon article sur {{< a key="gdpr-outside-eu" >}}le RGPD pour les entreprises hors de l’UE{{< /a >}} détaille les deux critères.
 
 Le plus simple : une seule page légale bâtie sur la liste la plus longue, la française, avec les lignes britanniques si votre société est immatriculée au Royaume-Uni.
 
 ## Où placer les mentions légales, et les erreurs à éviter
 
-Placez un lien « Mentions légales » dans le pied de page de chaque page : un clic depuis n’importe où, c’est la façon habituelle d’offrir un accès facile, direct et permanent. Rédigez-les en texte, pas dans une image, pour que les visiteurs, les lecteurs d’écran, les moteurs de recherche et les assistants IA puissent les lire.
+Placez un lien « Mentions légales » dans le pied de page de chaque page : un clic depuis n’importe où, c’est la façon habituelle d’offrir un accès facile, direct et permanent. Rédigez-les en texte, pas dans une image : la LCEN exige un « standard ouvert », et un texte peut être lu par les visiteurs, les lecteurs d’écran, les moteurs de recherche et les assistants IA.
 
 Trois erreurs à vérifier :
 
@@ -142,6 +142,6 @@ Profession réglementée : [ordre, titre, pays, règles applicables]
 Médiateur de la consommation (vente aux particuliers) : [nom, site internet]
 ```
 
-Vous n’avez pas besoin d’un avocat pour les mentions légales elles-mêmes. Un avocat se justifie pour les documents qui les entourent : les CGV d’une boutique en ligne, une place de marché où d’autres vendent, une profession réglementée, ou un site qui publie les contenus de ses utilisateurs.
+Vous n’avez pas besoin d’un avocat pour les mentions légales elles-mêmes : ce sont des faits que vous connaissez déjà. Un avocat se justifie pour les documents qui les entourent : les CGV d’une boutique en ligne, une place de marché où d’autres vendent, une profession réglementée, ou un site qui publie les contenus de ses utilisateurs.
 
 Sur les sites que je crée, les mentions légales, la politique de confidentialité et le bandeau cookies font partie du {{< a page="/services/websites" >}}projet de site{{< /a >}}. Inscrivez les pages légales dans votre cahier des charges quand vous demandez des devis, comme le propose ma {{< a key="website-cost" >}}checklist budget pour un site vitrine{{< /a >}}, et reprenez mon {{< a key="small-business-website-guide" >}}guide pour créer un site internet professionnel{{< /a >}} pour les autres vérifications avant la mise en ligne.

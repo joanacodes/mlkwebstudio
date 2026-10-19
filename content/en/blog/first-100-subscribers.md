@@ -9,7 +9,7 @@ lastmod: 2026-10-18T23:18:00+02:00
 category: "funnels"
 article_type: "guide"
 keywords: ["how to get newsletter subscribers", "first 100 newsletter subscribers", "grow your email list", "newsletter sign-up form", "buying email lists", "newsletter referral programme"]
-summary: "Your first 100 newsletter subscribers come from people who already know you: clients and contacts you invite personally, your email signature, sign-up forms on your website, your LinkedIn profile, then other people's audiences such as talks, partners and podcasts. Do not buy a list: the consent was given to someone else, email tools forbid it, and spam traps and complaints hurt your deliverability. Tag each sign-up with its source to see which channels deserve your time."
+summary: "Your first 100 newsletter subscribers come from people who already know you: clients and contacts you invite personally, your email signature, sign-up forms on your website, your LinkedIn profile, then other people's audiences (talks, partners, podcasts). Do not buy a list: the consent was given to someone else, tools such as Mailchimp forbid it, and spam traps and complaints hurt your deliverability. Tag each sign-up with its source to see which channels to keep."
 cover: "first-100-subscribers"
 cover_alt: "The article title in white on a ribbed-glass panel over a photo, with a rising line chart"
 related: ["funnels-newsletters-guide", "lead-magnet-ideas", "newsletter-consent-gdpr", "welcome-email-sequence", "linkedin-newsletter-vs-email-vs-substack"]

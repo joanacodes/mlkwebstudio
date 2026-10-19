@@ -1,5 +1,5 @@
 ---
-title: "Notes et avis : plus d’avis 5 étoiles sans enfreindre les règles des stores"
+title: "Notes et avis : obtenir plus d’avis 5 étoiles sans enfreindre les règles des stores"
 seo_title: "Obtenir des avis pour son application : méthode et règles"
 description: "Obtenir des avis pour son application sur l’App Store et Google Play : les invites officielles, le bon moment, les réponses aux avis négatifs et la loi."
 slug: "obtenir-avis-application"
@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:30:00+02:00
 category: "mobile-apps"
 article_type: "guide"
 keywords: ["obtenir des avis application", "avis App Store", "avis Google Play", "demander une note dans l’application", "répondre aux avis", "faux avis loi"]
-summary: "Demandez un avis uniquement par les invites officielles : celle d’Apple, que le système affiche au maximum trois fois par an et par personne, et l’API In-App Review de Google Play. Demandez juste après une réussite, jamais contre une récompense ni seulement aux personnes satisfaites, puis répondez aux avis et corrigez ce qu’ils signalent. Faux avis et avis récompensés enfreignent les règles des deux stores et le Code de la consommation."
+summary: "Demandez un avis uniquement par les invites officielles : celle d’Apple, que le système affiche au maximum trois fois par an et par personne, et l’API In-App Review de Google Play. Demandez juste après une réussite, jamais contre une récompense ni seulement aux personnes satisfaites, puis répondez aux avis et corrigez ce qu’ils signalent. Récompenser un avis enfreint les règles des deux stores, et les faux avis sont aussi interdits par le Code de la consommation."
 cover: "app-ratings-reviews"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant la photo d’un smartphone affichant la fiche d’une app notée en étoiles, à côté d’une liste de résultats du store"
 related: ["aso-guide", "app-store-listing", "app-website-seo", "apple-ads-tutorial", "mobile-app-launch-guide"]
@@ -27,7 +27,7 @@ faq:
 
 Votre note en étoiles s’affiche à côté de votre app dans les résultats de recherche de l’App Store et sur sa fiche : on la juge avant de lire votre description. Pour obtenir des avis sur votre application sans mettre en danger votre compte développeur, demandez au bon moment avec l’invite officielle de chaque store, répondez à ce que les gens écrivent et corrigez ce qu’ils signalent.
 
-Les raccourcis (récompenses, tri des mécontents, avis achetés) enfreignent les règles d’Apple et de Google, et en France le Code de la consommation. Ce qui suit reflète la documentation des stores au 19 octobre 2026 ; pour le plan de lancement complet, voyez mon {{< a key="mobile-app-launch-guide" >}}guide pour lancer une application mobile{{< /a >}}.
+Les raccourcis (récompenses, tri des mécontents, avis achetés) enfreignent les règles d’Apple et de Google, et acheter des avis est en plus une pratique trompeuse au sens du Code de la consommation. Ce qui suit reflète la documentation des stores au 19 octobre 2026 ; pour le plan de lancement complet, voyez mon {{< a key="mobile-app-launch-guide" >}}guide pour lancer une application mobile{{< /a >}}.
 
 ## Pourquoi la note compte pour les téléchargements et le classement
 
@@ -35,7 +35,7 @@ Apple affiche une note de synthèse sur votre fiche et dans les résultats de re
 
 Google Play ne publie pas le poids des notes dans sa recherche, mais indique que des taux de plantage et de blocage au-dessus des seuils Android vitals peuvent réduire la visibilité d’une app : les bugs qui agacent vos utilisateurs peuvent aussi la faire reculer.
 
-Aux États-Unis et dans huit autres pays anglophones, dont le Royaume-Uni, l’App Store affiche en plus un résumé des avis généré par des grands modèles de langage ; au 19 octobre 2026, la France n’en fait pas partie. Voir aussi mon {{< a key="aso-guide" >}}guide de l’ASO pour débutants{{< /a >}} et mon {{< a key="app-store-listing" >}}guide de la fiche App Store et Google Play{{< /a >}}.
+Aux États-Unis et dans huit autres pays, dont le Royaume-Uni, l’App Store affiche aussi un résumé des avis en anglais, rédigé par de grands modèles de langage ; au 19 octobre 2026, la France n’en fait pas partie. Voir aussi mon {{< a key="aso-guide" >}}guide de l’ASO pour débutants{{< /a >}} et mon {{< a key="app-store-listing" >}}guide de la fiche App Store et Google Play{{< /a >}}.
 
 ## Obtenir des avis pour votre application : passer par les invites officielles
 
@@ -55,7 +55,7 @@ Comme l’appel peut ne rien afficher, Apple déconseille de le déclencher par 
 
 La fiche d’évaluation de Google suit la même logique, avec un quota non communiqué : lancée plus d’une fois sur une courte période (moins d’un mois, selon l’exemple de Google), elle peut ne pas s’afficher. Montrez-la telle quelle, sans rien par-dessus, et jamais depuis un bouton : un lien dans les réglages doit plutôt ouvrir votre fiche Play Store.
 
-Aucune des deux API ne dit à votre app si la personne a laissé une note ; celle de Google ne dit même pas si la fiche s’est affichée. Impossible de récompenser un avis qu’on ne voit pas, et c’est tant mieux.
+Aucune des deux API ne dit à votre app si la demande s’est affichée, ni si la personne a laissé une note. Impossible de récompenser un avis qu’on ne voit pas, et c’est tant mieux.
 
 ## Quand demander : juste après une réussite
 
@@ -86,11 +86,11 @@ La règle 3.2.2(x) interdit d’obliger les gens à noter ou commenter l’app p
 
 En revanche, rendez votre contact support facile à trouver, dans l’app et sur votre fiche, comme le recommande Apple : ouvert à tous, il permet aux mécontents de vous joindre avant le formulaire d’avis, sans trier personne.
 
-## Faux avis et avis récompensés : ce que dit la loi
+## Faux avis : ce que dit la loi
 
-En France, depuis le 28 mai 2022, l’article L121-4 du Code de la consommation (27° et 28°) range parmi les pratiques commerciales réputées trompeuses le fait de publier ou de faire publier de faux avis, et celui d’affirmer que des avis viennent de vrais clients sans contrôle raisonnable. La DGCCRF vise aussi la modération biaisée, comme supprimer ou retarder les avis négatifs. Depuis la loi du 10 mai 2024, les peines vont jusqu’à cinq ans d’emprisonnement et 750 000 € d’amende (3,75 millions d’euros pour une société) quand la pratique est commise en ligne. Voir la [fiche de la DGCCRF sur les faux avis](https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/faux-avis-consommateurs-sur-internet).
+En France, depuis le 28 mai 2022, l’article L121-4 du Code de la consommation (27° et 28°) range parmi les pratiques commerciales réputées trompeuses le fait de publier ou de faire publier de faux avis, et celui d’affirmer que des avis viennent de vrais clients sans contrôle raisonnable. La DGCCRF vise aussi la modération biaisée, comme supprimer ou retarder les avis négatifs. Les peines (article L132-2) sont de deux ans d’emprisonnement et 300 000 € d’amende, montant qui peut être porté à 10 % du chiffre d’affaires annuel moyen ; depuis la loi du 10 mai 2024, elles passent à cinq ans et 750 000 € (3,75 millions d’euros pour une société) quand la pratique est commise en ligne. Voir la [fiche de la DGCCRF sur les faux avis](https://www.economie.gouv.fr/dgccrf/Publications/Vie-pratique/Fiches-pratiques/faux-avis-consommateurs-sur-internet).
 
-Ces règles viennent de la directive Omnibus (UE) 2019/2161, qui a ajouté les points 23 ter et 23 quater à l’annexe I de la directive sur les pratiques commerciales déloyales, et un article 7, paragraphe 6 : dire si et comment vous vérifiez les avis publiés est une information essentielle, y compris sur {{< a key="app-website-seo" >}}le site de votre application{{< /a >}}. Elles s’appliquent dans toute l’UE ([texte sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019L2161)) : avec des utilisateurs européens, considérez-les comme les vôtres, où que soit installée votre société. Au Royaume-Uni, le DMCC Act 2024 interdit aussi les faux avis depuis le 6 avril 2025.
+Ces règles viennent de la directive Omnibus (UE) 2019/2161, qui a ajouté les points 23 ter et 23 quater à l’annexe I de la directive sur les pratiques commerciales déloyales, et un article 7, paragraphe 6 : si vous publiez des avis, sur {{< a key="app-website-seo" >}}le site de votre application{{< /a >}} par exemple, dire si et comment vous les vérifiez est une information substantielle, à ne pas omettre. Elles s’appliquent dans toute l’UE ([texte sur EUR-Lex](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32019L2161)) : avec des utilisateurs européens, considérez-les comme les vôtres, où que soit installée votre société. Au Royaume-Uni, le DMCC Act 2024 interdit aussi les faux avis depuis le 6 avril 2025.
 
 Ceci est une information générale, pas un conseil juridique : avant un programme de testeurs, un parrainage ou une agence qui promet des avis, faites valider le projet par un avocat en droit de la consommation.
 
@@ -100,13 +100,13 @@ Une réponse ne change pas les étoiles, mais sur les deux stores l’auteur est
 
 ### Dans App Store Connect
 
-Ouvrez **Apps**, choisissez votre app, cliquez sur **Ratings and Reviews** dans la barre latérale, choisissez la plateforme en haut à droite, puis **Reply** à côté de l’avis. Il faut le rôle Account Holder, Admin ou Customer Support. Une réponse peut mettre 24 heures à apparaître ; une seule par avis est affichée, modifiable ou supprimable à tout moment.
+Ouvrez **Apps**, choisissez votre app, cliquez sur **Ratings and Reviews** dans la barre latérale, choisissez la plateforme en haut à droite, cliquez sur **Reply** à côté de l’avis, saisissez votre réponse et cliquez sur **Submit**. Il faut le rôle Account Holder, Admin ou Customer Support. Une réponse peut mettre jusqu’à 24 heures à apparaître ; une seule par avis est affichée, modifiable ou supprimable à tout moment.
 
 ### Dans la Play Console
 
 Ouvrez votre app, allez dans **Ratings and reviews > Reviews**, rédigez votre réponse et sélectionnez **Publish reply** (autorisation « Reply to reviews » requise). Une seule réponse publique par avis, modifiable ensuite ; l’utilisateur la reçoit par notification push et par e-mail.
 
-### Ma façon de les rédiger
+### Comment je les rédigerais
 
 1. Commencez par les notes les plus basses et les bugs de la version en cours, comme le suggère Apple quand on ne peut pas répondre à tout.
 2. Remerciez, nommez le problème précis et dites ce que vous faites. Ne demandez pas une meilleure note.

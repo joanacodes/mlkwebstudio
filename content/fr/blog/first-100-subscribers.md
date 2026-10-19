@@ -29,7 +29,7 @@ faq:
 
 Les 100 premiers abonnés de votre newsletter ne seront pas des inconnus. Ce seront des clients, des fournisseurs, des personnes croisées dans un salon, des lecteurs de vos posts LinkedIn. Pour trouver des abonnés newsletter en partant de zéro, il s’agit donc moins d’astuces de croissance que de demander aux gens qui connaissent déjà votre nom, là où ils le voient déjà.
 
-Ce guide, écrit pour les petites équipes qui démarrent, passe en revue ces endroits dans l’ordre où je les utiliserais, explique pourquoi un fichier acheté est un faux raccourci et montre comment noter d’où vient chaque abonné. Pour la vue d’ensemble, voyez {{< a key="funnels-newsletters-guide" >}}mon guide du tunnel de vente et de la newsletter{{< /a >}}.
+Ce guide, écrit pour les petites équipes qui démarrent, reprend ces endroits dans l’ordre où je les utiliserais, explique pourquoi un fichier acheté est un faux raccourci et comment noter d’où vient chaque abonné. Pour la vue d’ensemble, voyez {{< a key="funnels-newsletters-guide" >}}mon guide du tunnel de vente et de la newsletter{{< /a >}}.
 
 ## Pourquoi un fichier acheté coûte plus qu’il ne rapporte
 
@@ -37,7 +37,7 @@ Un fichier de milliers d’adresses « opt-in » prêt à l’emploi ressemble
 
 ### Le consentement a été donné à quelqu’un d’autre
 
-En France, la prospection par email auprès des particuliers exige leur consentement préalable (article L34-5 du Code des postes et des communications électroniques). Un fichier acheté n’est utilisable que si les personnes ont accepté, au moment de la collecte, de recevoir les offres de partenaires dont la liste complète et à jour leur était accessible : c’est la [position de la CNIL](https://www.cnil.fr/fr/la-prospection-b-to-c-quelles-regles-pour-transmettre-des-donnees-des-partenaires) au 19 octobre 2026. En mai 2025, le Conseil d’État a confirmé une sanction de la CNIL contre une société dont les partenaires n’étaient nommés ni sur le formulaire ni dans une liste accessible. Entre professionnels, la règle est plus souple (voir plus bas), mais les trois problèmes suivants demeurent.
+En France, la prospection par email auprès des particuliers exige leur consentement préalable (article L34-5 du Code des postes et des communications électroniques). Un fichier acheté n’est utilisable que si les personnes ont accepté, à la collecte, de recevoir les offres de partenaires dont la liste complète leur était accessible : c’est la [position de la CNIL](https://www.cnil.fr/fr/la-prospection-b-to-c-quelles-regles-pour-transmettre-des-donnees-des-partenaires) au 19 octobre 2026, et le Conseil d’État a confirmé en mai 2025 une sanction prononcée sur ce point. Entre professionnels, la règle est plus souple, mais les trois problèmes suivants demeurent.
 
 ### Votre outil d’emailing l’interdit
 
@@ -45,7 +45,7 @@ La [politique d’utilisation acceptable de Mailchimp](https://mailchimp.com/leg
 
 ### Les pièges à spam
 
-Certaines adresses n’existent que pour attraper les expéditeurs qui n’ont pas demandé la permission : des adresses qui ne se sont jamais inscrites nulle part, ou d’anciennes adresses fermées puis réactivées par leur fournisseur. C’est dans les fichiers achetés qu’elles finissent, et les toucher peut valoir à votre domaine une place sur une liste noire. Un vérificateur comme Reoon, que j’utilise tous les jours, en repère une partie ; un fichier qui demande autant de nettoyage ne doit pas être utilisé.
+Certaines adresses n’existent que pour piéger les expéditeurs qui n’ont pas demandé la permission : adresses jamais inscrites nulle part, ou anciennes adresses fermées puis réactivées par leur fournisseur. Elles finissent dans les fichiers achetés, et les toucher peut valoir à votre domaine une place sur une liste noire. Un vérificateur comme Reoon, que j’utilise tous les jours, en repère une partie ; un fichier qui demande autant de nettoyage ne doit pas servir.
 
 ### Les plaintes
 
@@ -55,17 +55,17 @@ Des inconnus cliquent sur « Signaler comme spam ». Les [consignes de Google 
 
 ## Trouver des abonnés newsletter parmi les gens qui vous connaissent
 
-Commencez par une liste sur papier, pas dans votre outil : clients actuels et anciens, fournisseurs, partenaires, personnes rencontrées en salon ou qui vous écrivent pour poser des questions, contacts LinkedIn. Ce total est votre point de départ honnête.
+Commencez par une liste sur papier, pas dans votre outil : clients actuels et anciens, fournisseurs, partenaires, personnes rencontrées en salon ou qui vous posent des questions par email, contacts LinkedIn. Ce total est votre point de départ honnête.
 
 Ensuite, **invitez au lieu d’importer**. Un court message personnel avec le lien de votre page d’inscription permet à chacun de s’inscrire et de confirmer d’un clic, et votre outil garde la preuve du consentement.
 
 Qui peut recevoir cette invitation par email dépend de la personne :
 
 - Les professionnels : la [CNIL admet](https://www.cnil.fr/fr/la-prospection-commerciale-par-courrier-electronique) l’email sans consentement préalable quand il concerne leur métier, s’ils en ont été informés et peuvent s’y opposer simplement. Une invitation personnelle convient.
-- Vos clients particuliers : l’article L34-5 prévoit une exception pour les personnes à qui vous avez déjà vendu un produit ou une prestation, pour des produits ou services analogues que vous fournissez, à condition de leur avoir proposé de refuser au moment de la collecte, puis dans chaque email.
-- Tous les autres : demandez de vive voix, au téléphone ou à la fin d’une mission. Au Royaume-Uni, l’ICO a sanctionné Flybe et Honda en 2017 pour des emails qui demandaient aux gens s’ils voulaient du marketing : demander la permission par email, c’était déjà en faire.
+- Vos clients particuliers : l’article L34-5 prévoit une exception pour vos clients, sur des produits ou services analogues à ceux que vous leur avez vendus, s’ils ont pu refuser au moment de la collecte, puis dans chaque email.
+- Tous les autres : demandez de vive voix, au téléphone ou à la fin d’une mission, plutôt que par un email qui ressemblerait déjà à de la prospection.
 
-Enfin, ajoutez une ligne à votre signature d’email : ce que contient la newsletter, son rythme et le lien, par exemple « Un conseil pratique sur [votre sujet] chaque mois : inscription ici ». Chaque email que vous envoyez devient une invitation discrète.
+Enfin, ajoutez une ligne à votre signature d’email : ce que contient la newsletter, son rythme et le lien, par exemple « Un conseil pratique sur [votre sujet] chaque mois : inscription ici ».
 
 ## Faites travailler votre site à quatre endroits
 
@@ -74,15 +74,15 @@ Sur votre site, quatre emplacements font l’essentiel du travail :
 1. La fin de chaque article : qui vient de lire un article entier sur votre sujet est le plus susceptible de vouloir le suivant. Un champ, un bouton, une phrase sur ce qu’il recevra.
 2. Une page d’inscription dédiée, par exemple /newsletter, qui dit ce que couvre la newsletter, à quel rythme elle arrive et que la désinscription se fait en un clic, avec un ancien numéro à lire. C’est le lien que vous partagerez partout ailleurs.
 3. Le pied de page : un court formulaire sur chaque page capte les visiteurs qui n’ouvrent jamais d’article.
-4. Une fenêtre surgissante (pop-up), avec parcimonie : quand le visiteur a parcouru l’essentiel de la page ou s’apprête à partir, et une seule fois. Jamais d’écran qui masque le contenu sur mobile ; les consignes de recherche de Google considèrent les interstitiels intrusifs comme une mauvaise expérience de page.
+4. Une fenêtre surgissante (pop-up), avec parcimonie : quand le visiteur a parcouru l’essentiel de la page ou s’apprête à partir, une seule fois, et jamais d’écran qui masque le contenu sur mobile, ce que Google range parmi les interstitiels intrusifs.
 
 Un lead magnet, par exemple une check-list ou un modèle qui règle un petit problème proche de ce que vous vendez, donne une raison de s’inscrire aujourd’hui. Envoyez-le à tous ceux qui le demandent et proposez la newsletter dans une case séparée, non cochée ; {{< a key="lead-magnet-ideas" >}}mes 12 idées de lead magnet{{< /a >}} montrent ce qui marche pour une entreprise de services.
 
-Si ajouter un formulaire à vos articles revient à vous battre avec votre thème, réglez cela d’abord : un {{< a page="/services/websites" >}}site web{{< /a >}} qui perd les visiteurs que vous lui envoyez gâche tous les autres efforts de ce guide.
+Si ajouter un formulaire à vos articles revient à vous battre avec votre thème, réglez cela d’abord : un {{< a page="/services/websites" >}}site web{{< /a >}} qui perd ses visiteurs gâche tous les autres efforts.
 
 ## LinkedIn : vos posts et la section Sélection
 
-Si vos clients sont des entreprises, beaucoup vous lisent déjà sur LinkedIn. Deux habitudes en font des abonnés. D’abord, tirez un post de chaque numéro : une idée, écrite pour tenir seule, terminée par une ligne qui annonce la version complète par email, avec le lien. Ensuite, utilisez la section **Sélection** de votre profil (« Featured » dans l’interface anglaise), en haut sous la section Infos : elle peut contenir un lien vers votre page d’inscription, avec un titre qui dit ce que le lecteur y gagne.
+Si vos clients sont des entreprises, beaucoup vous lisent déjà sur LinkedIn. Deux habitudes en font des abonnés. D’abord, tirez un post de chaque numéro : une idée, écrite pour tenir seule, terminée par une ligne qui annonce la version complète par email, avec le lien. Ensuite, utilisez la section **Sélection** de votre profil (« Featured » en anglais), en haut sous Infos : elle peut contenir un lien vers votre page d’inscription, avec un titre qui dit ce que le lecteur y gagne.
 
 N’envoyez pas la même invitation à tous vos contacts en message privé : cela se lit comme un mailing de masse, parce que c’en est un. La newsletter intégrée à LinkedIn est un autre choix, que je compare dans {{< a key="linkedin-newsletter-vs-email-vs-substack" >}}newsletter LinkedIn, emailing ou Substack{{< /a >}}.
 
@@ -121,8 +121,8 @@ Aucune moyenne honnête ne dit combien de temps prennent 100 abonnés : tout d�
 | Formulaires du site | Faible, une fois | Régulièrement, au rythme de vos visites |
 | Posts LinkedIn et section Sélection | Moyen, à chaque numéro | Autour de chaque post |
 | Conférences et salons | Élevé, à chaque événement | Le jour même |
-| Échanges entre partenaires, articles et podcasts | Moyen, à chaque fois | À la parution du numéro ou de l’épisode |
-| Parrainage | Une offre payante et un peu de réglage | Quand les lecteurs aiment les numéros |
+| Partenaires, articles invités, podcasts | Moyen, à chaque fois | À la parution |
+| Parrainage | Moyen, offre payante | Quand les lecteurs aiment les numéros |
 
 Attendez-vous à une première vague venue des gens que vous invitez, puis à un flux plus lent et plus régulier venu du site et des partenaires ; c’est normal. Ce qui rend la deuxième centaine plus facile, c’est ce que reçoit la première : une {{< a key="welcome-email-sequence" >}}séquence de bienvenue{{< /a >}} qui vous présente, et des numéros qui arrivent à la date annoncée.
 

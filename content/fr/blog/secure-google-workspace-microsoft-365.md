@@ -57,7 +57,7 @@ Seul manque côté Google : son aide ne cite la page sur l’état de la sécur
 
 Tous les chemins partent de la console d’administration (admin.google.com), avec un compte super-administrateur. La [checklist de sécurité de Google pour les structures de 1 à 100 utilisateurs](https://knowledge.workspace.google.com/admin/security/security-checklist-for-small-businesses-1-100-users?hl=fr) va plus loin ensuite.
 
-### 1. Un compte super-administrateur séparé, protégé par deux clés de sécurité
+### 1. Un compte super-administrateur séparé, protégé par deux clés
 
 Un super-administrateur peut tout modifier et réinitialiser tous les mots de passe, y compris ceux des autres administrateurs. Les [bonnes pratiques de Google pour les comptes administrateur](https://knowledge.workspace.google.com/admin/users/security-best-practices-for-administrator-accounts?hl=fr) tiennent en quatre habitudes :
 
@@ -94,17 +94,17 @@ Au même endroit, **Authenticate email** (**Authentifier les e-mails**) indique 
 
 Allez dans **Apps > Google Workspace > Drive and Docs > Sharing settings > Sharing options**. Le partage hors de votre organisation peut être **Off**, **On** ou **Allowlisted domains** (les seuls domaines que vous listez, comme celui de votre expert-comptable). Une équipe qui travaille avec des clients a besoin de **On**, avec la case qui commence par **Warn when files owned by users or shared drives** cochée : chacun est averti avant qu’un fichier sorte de l’entreprise, comme le recommande Google.
 
-Pour les organisations plus grandes, Google conseille aussi l’accès restreint par défaut pour les nouveaux fichiers ; je ferais de même dans toute équipe qui détient des données clients. Les règles de confiance (trust rules), si votre offre les propose et que vous les activez, remplacent ces réglages.
+Pour les organisations plus grandes, Google conseille aussi l’accès restreint par défaut pour les nouveaux fichiers ; je ferais de même dans toute équipe qui détient des données clients.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-02" alt="Console d’administration Google, options de partage de Drive et Docs avec le partage hors de l’organisation sur On et la case d’avertissement cochée" >}}
 
-### 6. Passer en revue les applications connectées à vos données
+### 6. Passer en revue les applications connectées
 
 Allez dans **Security > Access and data control > API controls > Manage third-party app access** (**Sécurité > Contrôle des accès et des données > Commandes des API**). La liste montre les applications connectées avec un compte Google de l’équipe : un outil de prise de rendez-vous, un service de warm-up, une extension testée une fois. Passez celles dont vous dépendez en **Trusted** (« approuvée » dans l’aide en français) et bloquez ce que personne ne reconnaît.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-03" alt="Console d’administration Google, commandes des API, liste des applications tierces avec les statuts Trusted, Limited ou Blocked" >}}
 
-### 7. Surveiller le centre d’alertes, et savoir ce que votre offre prévoit pour les appareils
+### 7. Surveiller le centre d’alertes et les appareils
 
 **Security > Alert center** regroupe les avertissements de Google : connexions suspectes, mots de passe divulgués, phishing signalé par vos utilisateurs. Consultez-le chaque semaine ou activez les notifications par e-mail des alertes qui comptent pour vous.
 
@@ -114,15 +114,13 @@ Les appareils se gèrent dans **Devices** : Business Starter et Standard inclue
 
 Microsoft répartit ces réglages entre le centre d’administration Microsoft 365, celui de Microsoft Entra, le portail Microsoft Defender (security.microsoft.com), le centre d’administration SharePoint et le portail Microsoft Purview. J’ai utilisé Microsoft pour mes propres mails et je l’ai trouvé pénible, alors voici le chemin court ; la [vue d’ensemble de la sécurité de Microsoft 365 pour les entreprises](https://learn.microsoft.com/fr-fr/microsoft-365/admin/security-and-compliance/m365b-security-overview) couvre le reste.
 
-### 1. Des comptes d’administration séparés, et le moins d’administrateurs généraux possible
+### 1. Des comptes d’administration séparés et peu nombreux
 
 La personne qui a acheté l’abonnement est administrateur général (Global Administrator). Microsoft recommande :
 
 - **Moins de cinq administrateurs généraux**, chacun avec un compte normal pour le quotidien. Un compte réservé à l’administration n’a pas besoin de licence Microsoft 365.
 - **Au moins deux comptes d’accès d’urgence** qui n’appartiennent à personne : uniquement dans le cloud (adresse en .onmicrosoft.com), protégés par une passkey sur une clé de sécurité, une méthode différente de votre connexion habituelle, et jamais utilisés au quotidien.
 - **Le rôle le plus restreint pour les autres** : User Administrator pour créer les comptes, Helpdesk Administrator ou Password Administrator pour les mots de passe, Billing Administrator pour les factures, attribués dans le centre d’administration Microsoft 365 sous **Roles > Role assignments**.
-
-Toutes les offres permettent aux administrateurs de se connecter avec une passkey ou Microsoft Authenticator au lieu d’un mot de passe ; Business Premium peut l’imposer.
 
 {{< screenshot id="secure-google-workspace-microsoft-365-04" alt="Centre d’administration Microsoft 365, page Role assignments avec des rôles comme Global Administrator, User Administrator et Helpdesk Administrator" >}}
 
@@ -142,7 +140,7 @@ L’authentification héritée (legacy authentication) désigne les anciennes co
 
 Avant de bloquer, ouvrez **Entra ID > Monitoring & health > Sign-in logs**, ajoutez la colonne **Client App** et filtrez sur les protocoles hérités. Suspects habituels : le copieur qui envoie les scans par mail, une vieille application de messagerie sur un téléphone, un formulaire de site qui envoie par une boîte mail. Passez-les d’abord à une connexion moderne ou à un service d’envoi dédié.
 
-### 4. Authentifier vos domaines, puis activer la stratégie prédéfinie Standard
+### 4. Authentifier vos domaines, puis activer la stratégie Standard
 
 Microsoft commence la protection de la messagerie par SPF, DKIM et DMARC sur chaque domaine du tenant, y compris ceux qui n’envoient jamais de mails ; le tutoriel SPF, DKIM et DMARC cité plus haut montre ses deux enregistrements DKIM.
 
@@ -167,18 +165,18 @@ Par défaut, le partage SharePoint et OneDrive est au niveau le plus permissif. 
 - **Alert policy** (portail Defender, **Email & collaboration > Policies & rules**) contient les stratégies d’alerte par défaut de votre offre : ouvrez celles qui comptent pour vous et vérifiez qui reçoit les e-mails.
 - **Microsoft Secure Score**, dans le même portail, liste des actions d’amélioration et leurs points : la suite logique de cette liste.
 - **Audit**, dans le portail Microsoft Purview, enregistre qui a fait quoi. Vérifiez qu’il enregistre dès maintenant, pas le jour où vous en aurez besoin.
-- **Appareils** : Basic Mobility and Security, inclus dans toutes les offres Microsoft 365 pour les entreprises, inscrit les téléphones et peut les effacer ; Business Premium ajoute Intune Plan 1 et Defender for Business, ordinateurs compris.
+- **Appareils** : Basic Mobility and Security, inclus dans toutes les offres Microsoft 365 pour les entreprises, inscrit les téléphones et peut les effacer ; Business Premium ajoute Intune Plan 1 et Defender for Business.
 
 ## Trois erreurs à éviter
 
 - **Couper les paramètres de sécurité par défaut pour régler un problème.** Cela retire l’authentification multifacteur à tout le monde : réglez plutôt le cas du copieur ou de l’application.
 - **Oublier les départs.** Le compte d’un ancien collaborateur, ses appareils et ses applications connectées restent ouverts tant que vous ne les fermez pas ; ma {{< a key="offboarding-checklist" >}}checklist de départ d’un salarié ou d’un freelance{{< /a >}} les liste.
-- **Prendre la suite pour une sauvegarde.** Ces réglages protègent les accès, pas les données : un dossier supprimé ou des fichiers chiffrés par un rançongiciel puis synchronisés peuvent encore vous coûter du travail. Mon {{< a key="backups-3-2-1" >}}guide de la règle de sauvegarde 3-2-1{{< /a >}} couvre les deux suites.
+- **Prendre la suite pour une sauvegarde.** Ces réglages protègent les accès, pas les données : un dossier supprimé reste perdu. Mon {{< a key="backups-3-2-1" >}}guide de la règle de sauvegarde 3-2-1{{< /a >}} couvre les deux suites.
 
 ## Votre checklist, et quand passer la main
 
-- **Google Workspace** : deux super-administrateurs, chacun avec un compte d’administration séparé et deux clés ; validation en deux étapes imposée ; sécurité Gmail activée ; transfert automatique coupé ; DKIM actif ; avertissement de partage externe ; applications vérifiées ; alertes par e-mail.
-- **Microsoft 365** : moins de cinq administrateurs généraux et deux comptes d’urgence ; paramètres par défaut ou accès conditionnel, authentification héritée bloquée ; SPF, DKIM, DMARC et stratégie Standard ; transfert sur Off ; liens de partage sur Specific people et View ; alertes et audit vérifiés.
+- **Google Workspace** : deux super-administrateurs avec compte séparé et deux clés ; validation en deux étapes imposée ; sécurité Gmail activée ; transfert automatique coupé ; DKIM actif ; avertissement de partage externe ; applications vérifiées ; alertes par e-mail.
+- **Microsoft 365** : moins de cinq administrateurs généraux et deux comptes d’urgence ; paramètres par défaut ou accès conditionnel ; authentification héritée bloquée ; SPF, DKIM, DMARC et stratégie Standard ; transfert sur Off ; liens Specific people et View ; alertes et audit vérifiés.
 - **Chaque mois** : relisez la liste des administrateurs et des applications connectées.
 
 Si vous trouvez une règle de transfert que personne n’a créée, une application inconnue ou une alerte de connexion inexpliquée, arrêtez les réglages et suivez mon {{< a key="incident-response-first-hour" >}}plan de la première heure{{< /a >}}. Si des données personnelles ont été exposées, l’article 33 du RGPD peut vous obliger à notifier la CNIL dans les 72 heures ; c’est une question juridique, et cet article n’est pas un conseil juridique. Une intrusion qui dépasse une boîte mail justifie un prestataire référencé ou labellisé par Cybermalveillance.gouv.fr, ou celui que désigne votre assureur. Et si vous avez perdu le compte d’administration lui-même, c’est un dépannage informatique : je réponds le jour même ou sous 24 heures, et je vous dis si votre cas relève de quelqu’un d’autre.

@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:15:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["website legal notice requirements", "website legal notice", "what must a company website display UK", "company details on website UK", "E-Commerce Directive Article 5", "mentions légales"]
-summary: "A business website must say who runs it. Across the EU and in the UK, that means at least your legal name, a geographic address, an email address, your registration number and your VAT number, and UK companies add their registered office and the part of the UK where they are registered. France asks for the most, on a page called the mentions légales: a phone number, the share capital, a publication director and the host’s details."
+summary: "A business website must say who runs it. Across the EU and in the UK, that means at least your legal name, a geographic address, an email address, and your registration and VAT numbers if you have them; UK companies add their registered office and the part of the UK where they are registered. France asks for the most, on a page called the mentions légales: a phone number, the share capital, a publication director and the host’s details."
 cover: "website-legal-notice"
 cover_alt: "The article’s title in white on a ribbed-glass panel over a photo of a browser window with a page layout"
 related: ["privacy-policy-guide", "cookie-banner-rules", "gdpr-guide", "small-business-website-guide", "website-cost"]
@@ -27,11 +27,11 @@ faq:
     a: "It reminds visitors that the content is protected, but it creates nothing: in the UK and in France, copyright exists as soon as an original work is created, with no notice or registration needed. A line about intellectual property is optional in a legal notice."
 ---
 
-A website legal notice is the page, or the block in your footer, that says who runs the site and how to reach them. The website legal notice requirements are close in the EU and the UK, because both come from the same EU directive of 2000. France asks for the most: a phone number, the share capital, a named publication director and the details of the company that hosts the site, on a page called the *mentions légales*.
+A website legal notice is the page, or the block in your footer, that says who runs the site and how to reach them. The website legal notice requirements are close in the EU and the UK, because both start from the same EU directive of 2000. France asks for the most: a phone number, the share capital, a named publication director and the details of the company that hosts the site, on a page called the *mentions légales*.
 
-This guide lists what to publish in each country, for a company and for a sole trader, with a template at the end. I build websites for small teams in France and the UK, and the legal pages are part of every site I deliver. It belongs to my {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}}.
+This guide lists what to publish in each country, for a company and for a sole trader, with a template at the end. I build websites for small teams in France and the UK, and the legal pages are part of every site I deliver. This article is part of my {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}}.
 
-It sets out the rules as they stand on 19 October 2026, as general information, not legal advice. A legal notice is a list of facts you already have, and you rarely need a lawyer to write one.
+The rules here are those in force on 19 October 2026, given as general information, not legal advice.
 
 ## What a website legal notice is, and what it is not
 
@@ -119,7 +119,7 @@ The simplest answer is one legal page built on the longest list, the French one,
 
 ## Where to put it, and the mistakes to avoid
 
-Link it from the footer of every page with a plain label, “Legal notice” (“Mentions légales” on a French site): one click from any page is the usual way to make it easily, directly and permanently accessible. Write it as text, not as an image, so that visitors, screen readers, search engines and AI assistants can read it.
+Link it from the footer of every page with a plain label, “Legal notice” (“Mentions légales” on a French site): one click from any page is the usual way to make it easily, directly and permanently accessible. Write it as text, not as an image: French law asks for an “open standard”, and text is what visitors, screen readers, search engines and AI assistants can read.
 
 Three mistakes to check for:
 
@@ -150,6 +150,6 @@ Regulated profession: [professional body, title, country, rules]
 Consumer mediator (France, sales to consumers): [name, website]
 ```
 
-You do not need a lawyer for the legal notice itself. One earns their fee on the documents around it: terms of sale for an online shop, a marketplace where other people sell, a regulated profession, or a site that publishes content from its users.
+You do not need a lawyer for the legal notice itself: it is a list of facts you already have. One earns their fee on the documents around it: terms of sale for an online shop, a marketplace where other people sell, a regulated profession, or a site that publishes content from its users.
 
 On the sites I build, the legal notice, the privacy policy and the cookie banner are part of the {{< a page="/services/websites" >}}website project{{< /a >}}. Put the legal pages in your brief when you ask for quotes, as my {{< a key="website-cost" >}}website budget checklist{{< /a >}} suggests, and use my {{< a key="small-business-website-guide" >}}complete guide to business websites{{< /a >}} for the rest of the launch checks.

@@ -9,7 +9,7 @@ lastmod: 2026-10-18T22:30:00+02:00
 category: "mobile-apps"
 article_type: "guide"
 keywords: ["how to get more app reviews", "app store reviews", "in-app review prompt", "Google Play reviews", "reply to app reviews", "fake reviews law"]
-summary: "Ask only through the official prompts: Apple's review request, which the system shows at most three times a year per person, and Google Play's In-App Review API. Ask right after a success moment, never in exchange for a reward and never only from people who say they are happy, then reply to reviews and fix what they report. Fake or incentivised reviews break both stores' rules and UK and EU consumer law."
+summary: "Ask only through the official prompts: Apple's review request, which the system shows at most three times a year per person, and Google Play's In-App Review API. Ask right after a success moment, never in exchange for a reward and never only from people who say they are happy, then reply to reviews and fix what they report. Incentivised or fake reviews break both stores' rules, and fake reviews also break UK and EU consumer law."
 cover: "app-ratings-reviews"
 cover_alt: "The article title in white on a ribbed-glass panel over a photo of a smartphone showing an app page with star ratings, beside a list of store results"
 related: ["aso-guide", "app-store-listing", "app-website-seo", "apple-ads-tutorial", "mobile-app-launch-guide"]
@@ -27,7 +27,7 @@ faq:
 
 Your star rating sits next to your app in App Store search results and on its product page, so people judge it before they read your description. Here is how to get more app reviews on the App Store and Google Play without putting your developer account at risk: ask at the right moment through each store's own prompt, reply to what people write and fix what they report.
 
-The shortcuts (rewards, filtering out unhappy users, bought reviews) break Apple's and Google's rules, and UK and EU consumer law too. Everything below reflects the stores' documentation as of 19 October 2026. For the wider release plan, see my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}}.
+The shortcuts (rewards, filtering out unhappy users, bought reviews) break Apple's and Google's rules, and bought or fake reviews also break UK and EU consumer law. Everything below reflects the stores' documentation as of 19 October 2026. For the wider release plan, see my {{< a key="mobile-app-launch-guide" >}}guide to launching a mobile app{{< /a >}}.
 
 ## Why ratings matter for downloads and ranking
 
@@ -55,7 +55,7 @@ Because the call may show nothing, Apple says not to make it in response to a bu
 
 Google's review card works the same way, under a quota it does not disclose: launch the review flow more than once in a short period (Google's example is less than a month) and nothing may show. Display the card as it is, with nothing on top, and never from a button; a settings link should open your Play Store page instead.
 
-Neither API tells your app whether someone left a rating, and Google's does not even say whether the card was shown. You cannot reward a review you cannot see, which is just as well.
+Neither API tells your app whether the prompt appeared or whether someone left a rating. You cannot reward a review you cannot see, which is just as well.
 
 ## When to ask: right after a success moment
 
@@ -86,11 +86,11 @@ Guideline 3.2.2(x) says apps must not force people to rate or review the app to 
 
 You can, however, make your support contact easy to find in the app and on your store page, as Apple recommends: open to everyone, it lets unhappy users reach you before the review form, without filtering anyone.
 
-## Fake and incentivised reviews also break UK and EU law
+## Fake reviews also break UK and EU consumer law
 
 In the UK, the Digital Markets, Competition and Consumers Act 2024 has banned fake reviews since 6 April 2025: Schedule 20, paragraph 13 covers submitting or commissioning a fake review or a review that hides an incentive, and offering services that help others do it. The CMA also treats hiding negative reviews or cherry-picking positive ones as misleading, and can now fine businesses directly, up to 10% of global turnover. Its [fake reviews guidance (CMA208)](https://www.gov.uk/government/publications/fake-reviews-cma208) includes a short guide for review publishers.
 
-In the EU, the Omnibus Directive (EU) 2019/2161 added two practices to the list that the Unfair Commercial Practices Directive bans in all circumstances (Annex I, points 23b and 23c): claiming reviews come from real users without reasonable and proportionate checks, and submitting, commissioning or misrepresenting reviews. It also added Article 7(6): whether and how you check the reviews you publish is essential information, worth remembering if you show reviews on {{< a key="app-website-seo" >}}your app's website{{< /a >}}. They have applied since 28 May 2022; with users in the EU, treat them as yours wherever your company is based. The text is on [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2019/2161/oj).
+In the EU, the Omnibus Directive (EU) 2019/2161 added two practices to the list that the Unfair Commercial Practices Directive bans in all circumstances (Annex I, points 23b and 23c): claiming reviews come from real users without reasonable and proportionate checks, and submitting, commissioning or misrepresenting reviews. It also added Article 7(6): if you publish reviews, on {{< a key="app-website-seo" >}}your app's website{{< /a >}} for example, whether and how you check them is material information that you must not leave out. They have applied since 28 May 2022; with users in the EU, treat them as yours wherever your company is based. The text is on [EUR-Lex](https://eur-lex.europa.eu/eli/dir/2019/2161/oj).
 
 This is general information, not legal advice: before a tester programme, a referral scheme or an agency that promises reviews, check the plan with a consumer-law solicitor.
 
@@ -100,7 +100,7 @@ A reply does not change the stars, but on both stores the reviewer is notified a
 
 ### In App Store Connect
 
-Open **Apps**, choose your app, click **Ratings and Reviews** in the sidebar, pick the platform at the top right, then click **Reply** next to the review. You need the Account Holder, Admin or Customer Support role. Replies can take up to 24 hours to appear, one reply per review is shown, and you can edit or delete it at any time.
+Open **Apps**, choose your app, click **Ratings and Reviews** in the sidebar, pick the platform at the top right, click **Reply** next to the review, type your reply and click **Submit**. You need the Account Holder, Admin or Customer Support role. Replies can take up to 24 hours to appear, one reply per review is shown, and you can edit or delete it at any time.
 
 ### In Play Console
 
