@@ -18,7 +18,7 @@ faq:
   - q: "How much does cyber insurance cost for a small team?"
     a: "There is no reliable public price list. The premium depends on your turnover and sector, the data you hold, the limit and excess you choose and your answers on security, so ask two or three brokers to quote the same limit and excess and compare like for like."
   - q: "Is cyber insurance a legal requirement in the UK or France?"
-    a: "No. As of 19 October 2026, no law in either country requires a business to buy it. It becomes compulsory only when a contract says so, which some larger clients write into their supplier terms."
+    a: "No. As of 19 October 2026, no general law in either country requires a business to buy it. It becomes compulsory only when a contract says so, which some larger clients write into their supplier terms."
   - q: "Can I buy cyber insurance after an attack?"
     a: "Yes, but it will not pay for that attack or for anything you knew about before the policy started. Expect the insurer to ask what happened and what you have changed since, and to price the policy accordingly."
   - q: "Does cyber insurance pay out if an employee clicked a phishing link?"
@@ -55,7 +55,7 @@ On fines, I would plan as if a regulator's penalty stayed with you: whether a GD
 
 If a criminal persuades someone in your team to pay a fake invoice or send money to "new bank details", nothing was hacked: your team made the payment. Many cyber policies exclude this, sell it as an option or cap it at a sub-limit far below the main limit, sometimes on condition that the new details were checked by phone. If you pay suppliers by transfer, read this line first; my guide to {{< a key="invoice-fraud-bank-details" >}}fake invoices and new bank details{{< /a >}} covers the habits that prevent the fraud.
 
-In the UK, micro-enterprises (fewer than ten staff, turnover or balance sheet up to €2 million) can also claim back authorised push payment fraud on Faster Payments and CHAPS from their bank, up to £85,000 (about $113,000) per claim, under rules being reviewed as of 19 October 2026. Larger companies rely on goodwill and on their policy.
+In the UK, micro-enterprises (fewer than ten staff, turnover or balance sheet up to €2 million) can also claim back authorised push payment fraud on Faster Payments and CHAPS from their bank, up to £85,000 (about $113,000) per claim, under rules being reviewed as of 19 October 2026. Larger companies rely on their bank's goodwill and on their policy.
 
 ### War and state-backed attacks
 
@@ -73,7 +73,7 @@ You pay the excess first. Lost income is usually covered only after a waiting pe
 
 - **Call the insurer's incident line first.** Many policies require its consent before you hire responders, pay a ransom or admit liability; costs committed without it may not be reimbursed.
 - **Tell the insurer within the policy's deadline**, which can be "as soon as possible".
-- **Keep the evidence**: do not wipe an infected computer or delete the attacker's forwarding rule before it is recorded. My {{< a key="incident-response-first-hour" >}}first-hour plan after a cyber attack{{< /a >}} lists what to keep and who to call.
+- **Keep the evidence**: do not wipe an infected computer or delete the attacker's forwarding rule before they are recorded. My {{< a key="incident-response-first-hour" >}}first-hour plan after a cyber attack{{< /a >}} lists what to keep and who to call.
 - **In France, file a complaint within 72 hours.** Under Article L. 12-10-1 of the French Insurance Code, in force since 24 April 2023, an insurer can only pay for losses caused by an attack on your systems if a complaint was filed within 72 hours of you becoming aware of it. This applies to companies and to people working in a professional capacity; the complaint alone does not guarantee cover.
 
 The insurance clock runs alongside the data protection one: when personal data is at risk, you have 72 hours to notify the ICO or the CNIL, as my guide to {{< a key="gdpr-data-breach" >}}what to do after a data breach{{< /a >}} explains.

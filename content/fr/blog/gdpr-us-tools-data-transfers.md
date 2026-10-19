@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:18:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["transfert de données États-Unis RGPD", "Data Privacy Framework", "transfert de données hors UE", "clauses contractuelles types", "Google Workspace RGPD", "Mailchimp RGPD"]
-summary: "Une entreprise soumise au RGPD peut utiliser Google Workspace, Microsoft 365 ou Mailchimp si chaque transfert de données vers les États-Unis repose sur un mécanisme légal. Le plus simple : le Data Privacy Framework, en vigueur depuis le 10 juillet 2023 pour les entreprises inscrites comme actives sur dataprivacyframework.gov ; sinon, les clauses contractuelles types du contrat du prestataire. Au 19 octobre 2026, un pourvoi contre ce cadre est pendant devant la Cour de justice de l’UE : gardez ces clauses en secours."
+summary: "Une entreprise soumise au RGPD peut utiliser Google Workspace, Microsoft 365 ou Mailchimp si chaque transfert de données vers les États-Unis repose sur un mécanisme légal. Le plus simple : le Data Privacy Framework, en vigueur depuis le 10 juillet 2023 pour les entreprises inscrites comme actives sur dataprivacyframework.gov ; sinon, les clauses contractuelles types du prestataire. Au 19 octobre 2026, un pourvoi contre ce cadre est pendant : gardez ces clauses en secours."
 cover: "gdpr-us-tools-data-transfers"
 cover_alt: "Le titre de l’article en blanc sur un panneau de verre cannelé, devant une photo de boîtes reliées dans un diagramme de flux"
 related: ["gdpr-data-processing-agreement", "gdpr-outside-eu", "newsletter-tools-comparison", "chatgpt-gdpr-client-data", "infomaniak-review"]

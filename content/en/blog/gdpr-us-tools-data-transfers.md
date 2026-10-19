@@ -9,7 +9,7 @@ lastmod: 2026-10-18T21:18:00+02:00
 category: "gdpr"
 article_type: "guide"
 keywords: ["EU-US Data Privacy Framework", "GDPR data transfers to the US", "is Google Workspace GDPR compliant", "is Mailchimp GDPR compliant", "standard contractual clauses", "UK-US data bridge"]
-summary: "A business subject to GDPR can use US tools such as Google Workspace, Microsoft 365 or Mailchimp if each transfer to the US rests on a legal mechanism. The simplest is the EU-US Data Privacy Framework, in force since 10 July 2023 for US companies listed as active on dataprivacyframework.gov; otherwise, standard contractual clauses in the provider’s data processing agreement cover it. An appeal against the framework is still pending at the EU Court of Justice (as of 19 October 2026), so make sure the clauses are there as a fallback."
+summary: "A business subject to GDPR can use US tools such as Google Workspace, Microsoft 365 or Mailchimp if each transfer rests on a legal mechanism. The simplest is the EU-US Data Privacy Framework, in force since 10 July 2023 for US companies listed as active on dataprivacyframework.gov; otherwise, the standard contractual clauses in the provider’s data processing agreement. An appeal against the framework is pending (as of 19 October 2026): keep the clauses as a fallback."
 cover: "gdpr-us-tools-data-transfers"
 cover_alt: "The article’s title in white on a ribbed-glass panel over a photo of connected boxes in a flow diagram"
 related: ["gdpr-data-processing-agreement", "gdpr-outside-eu", "newsletter-tools-comparison", "chatgpt-gdpr-client-data", "infomaniak-review"]
