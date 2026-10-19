@@ -57,7 +57,7 @@ A design studio, an accountancy firm, an architect or a restaurant is not on the
 
 ### 2. Is your company at least medium-sized?
 
-NIS2 borrows the EU definition of company size. You stay below the threshold, and outside NIS2, if you have **fewer than 50 staff and either an annual turnover or a balance sheet total of €10 million or less**. Staff are counted in full-time equivalents. In a group, the definition generally adds the figures of linked companies, so run the test with the group's numbers.
+NIS2 borrows the EU definition of company size. You stay below the threshold if you have **fewer than 50 staff and either an annual turnover or a balance sheet total of €10 million or less**; unless question 3 applies, that keeps you outside NIS2. Staff are counted in full-time equivalents. In a group, the definition generally adds the figures of linked companies, so run the test with the group's numbers.
 
 ### 3. Is your activity covered whatever its size?
 
@@ -105,9 +105,9 @@ Read the list of measures again as a supplier: point 4 is the reason the other n
 
 ### France
 
-France's transposition bill, the "projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité", was adopted by the Senate on 12 March 2025 and voted by a special committee of the National Assembly on 10 September 2025. The Assembly debate planned for 7 and 9 October 2026 was taken off the agenda, and no new date had been announced at the time of writing. Until the law and its implementing decree are adopted, NIS2's duties do not yet bind companies for their activities in France.
+France's transposition bill, the "projet de loi relatif à la résilience des infrastructures critiques et au renforcement de la cybersécurité", was adopted by the Senate on 12 March 2025 and approved by a special committee of the National Assembly on 10 September 2025. The Assembly debate planned for 7 and 9 October 2026 was taken off the agenda on 6 October with no new date, and none had been reported at the time of writing. Until the law is passed and its implementing decrees are published, NIS2's duties do not yet bind companies for their activities in France.
 
-The ANSSI, France's national cybersecurity agency, has offered voluntary pre-registration on its MonEspaceNIS2 portal since 24 November 2025, with a simulator to check whether you are likely to be in scope. Registration only becomes mandatory once the law and its decree are out. On 1 October 2026, the ANSSI told MPs it was considering full compliance by the end of 2028: an intention, not a rule.
+The ANSSI, France's national cybersecurity agency, has offered voluntary pre-registration on its MonEspaceNIS2 portal since 24 November 2025, with a simulator to check whether you are likely to be in scope. Registration only becomes mandatory once the law and its decree are out. On 1 October 2026, the head of the ANSSI told MPs that the agency was considering requiring full compliance from the entities concerned by the end of 2028: an intention, not a rule.
 
 ### The rest of the EU
 

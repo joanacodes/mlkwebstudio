@@ -54,7 +54,7 @@ Your answer has two parts: a copy of the personal data, and the information in A
 7. **Source** of the data, if it did not come from them.
 8. **Automated decisions**, profiling included, and how they work.
 
-Points 1 to 6 are mostly in your {{< a key="privacy-policy-guide" >}}privacy policy{{< /a >}} already. Point 7 is the one prospecting businesses forget: in December 2024 the CNIL fined KASPR, a contact-finding Chrome extension, €240,000 (roughly £200,000), partly because its answers to access requests left out where the data came from ([CNIL decision, in French](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr)).
+Points 1 to 6 are mostly in your {{< a key="privacy-policy-guide" >}}privacy policy{{< /a >}} already. Point 7 is the one prospecting businesses forget: in December 2024 the CNIL fined KASPR, whose Chrome extension supplies people's contact details, €240,000 (roughly £200,000), partly because its answers to access requests left out where the data came from ([the CNIL's announcement, in French](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr)).
 
 The copy must be complete and intelligible, which can mean extracts or whole documents when the person needs the context (case C-487/21). A request made by email gets an electronic answer, such as a PDF, unless the person asks otherwise (Article 15(3)).
 
@@ -64,7 +64,7 @@ The month runs from the day the request reaches your business, not the day someo
 
 **Extending.** You can add two months for a complex request, or several requests from the same person, if you tell them within the first month and say why. A busy week is not complexity; four years of emails to review may be.
 
-**Checking identity.** Ask for more information only if you have reasonable doubts about who is asking (Article 12(6)). A request from the address you already use with that client needs no ID, and the European Data Protection Board considers a copy of an identity document inappropriate unless strictly necessary ([EDPB Guidelines 01/2022](https://www.edpb.europa.eu/system/files/2023-04/edpb_guidelines_202201_data_subject_rights_access_v2_en.pdf)). When you do need proof, the UK month starts once you receive it, and the CNIL takes the same view. Ask on day one, not day 29.
+**Checking identity.** Ask for more information only if you have reasonable doubts about who is asking (Article 12(6)). A request from the address you already use with that client usually needs no ID, and the European Data Protection Board considers a copy of an identity document inappropriate unless strictly necessary ([EDPB Guidelines 01/2022](https://www.edpb.europa.eu/system/files/2023-04/edpb_guidelines_202201_data_subject_rights_access_v2_en.pdf)). When you do need proof, the UK month starts once you receive it, and the CNIL takes the same view. Ask on day one, not day 29.
 
 **Clarifying.** If you hold a lot about someone, recital 63 lets you ask which information or dealings they mean. In the UK, Article 12A, added by the Data (Use and Access) Act 2025 and in force since 5 February 2026, makes this a formal "stop the clock": the deadline pauses on the day you ask and resumes the day after the answer, as the ICO's [guide to subject access](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/subject-access-requests/a-guide-to-subject-access/) explains. The EU text has no such pause.
 
@@ -127,7 +127,7 @@ Many requests come with a dispute in the background, and that is allowed. The pe
 
 You can refuse an abusive request, but the bar is high. In March 2026 the Court ruled that even a first request can be refused as abusive, but only on documented facts about that request; a damages claim in the background is not enough on its own (case C-526/24, Brillen Rottler). The Commission's Digital Omnibus proposal would make it easier to refuse requests made for purposes other than data protection; as of 19 October 2026 it is still being negotiated and is not law (see my article on {{< a key="digital-omnibus-gdpr" >}}the Digital Omnibus{{< /a >}}).
 
-In the UK, the Data Protection Act 2018 lets you withhold privileged legal advice, records of your negotiations with the requester and confidential references you gave. It also makes it an offence to alter or delete data to stop it being disclosed after a request (section 173).
+In the UK, the Data Protection Act 2018 lets you withhold legally privileged material, confidential references and records of your intentions in negotiations with the requester, where disclosing them would harm those negotiations. It also makes it an offence to alter or delete data to stop it being disclosed after a request (section 173).
 
 Route everything through one person, and write internal emails as if the requester will read them one day. After a subject access request, they might.
 
@@ -154,6 +154,6 @@ A spreadsheet is enough for most small teams, with one row per request, kept whi
 
 If the UK GDPR applies to you, since 19 June 2026 you must also offer a way to complain to you about your use of data, such as a form, and acknowledge each complaint within 30 days. My article on {{< a key="uk-gdpr-data-use-access-act" >}}the UK's Data (Use and Access) Act{{< /a >}} covers the other changes.
 
-This guide is general information, not legal advice. Most requests need no lawyer; one is worth paying for when the request is part of an employment claim or a lawsuit, comes from a solicitor, involves health or other sensitive data, or means reviewing years of emails. If you have a DPO, the process is theirs to run.
+This guide is general information, not legal advice. Most requests need no lawyer; one is worth paying for when the request is part of an employment claim or a lawsuit, comes from a solicitor, involves health or other sensitive data, or means reviewing years of emails. If you have a DPO, involve them from day one: people can write to them directly about their rights (Article 38(4)).
 
 If requests reach you every month, automate the dull part: a form or an inbox rule that logs each request, computes the deadline and reminds its owner a week before.

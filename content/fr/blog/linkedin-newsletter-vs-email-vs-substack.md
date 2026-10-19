@@ -78,13 +78,13 @@ Et vous reprenez trois tâches que LinkedIn faisait pour vous :
 
 1. **Payer l’outil.** Tous les outils de mon {{< a key="newsletter-tools-comparison" >}}comparatif des outils de newsletter{{< /a >}} ont une offre gratuite pour une petite liste ; au-delà, l’abonnement mensuel augmente avec votre liste ou votre volume d’envoi.
 2. **La délivrabilité.** Depuis février 2024, Gmail et Yahoo imposent aux expéditeurs en masse (pour Gmail, environ 5 000 messages par jour ou plus) d’authentifier leur domaine et de proposer le désabonnement en un clic, et Microsoft a fixé des règles d’authentification pour Outlook.com en mai 2025. Une petite liste reste sous ces seuils, mais les mêmes réglages l’aident à arriver en boîte de réception : voir {{< a key="newsletter-deliverability" >}}les règles des messageries expliquées{{< /a >}}.
-3. **Le consentement.** Il vous faut une base légale pour chaque adresse de la liste (voir plus bas).
+3. **Le consentement.** Chaque adresse de la liste doit avoir une raison légale d’y figurer, en général le consentement de l’abonné (voir plus bas).
 
 **Pour qui :** toutes les équipes qui veulent garder le contact avec leurs clients et leurs prospects pendant des années : c’est la seule des trois options que vous maîtrisez entièrement.
 
 ## Substack : une publication dont vous pouvez emporter la liste
 
-Substack est une plateforme de publication américaine : chaque newsletter y est aussi un site, à l’adresse votrenom.substack.com, avec ses archives, et se lit dans l’application Substack. Commencer est gratuit. Si vous activez les abonnements payants, Substack prend 10 % des revenus, et Stripe, qui traite les paiements, ajoute ses propres frais ([aide de Substack sur les tarifs](https://support.substack.com/hc/en-us/articles/360037607131-How-much-does-Substack-cost), en anglais).
+Substack est une plateforme de publication : chaque newsletter y est aussi un site, à l’adresse votrenom.substack.com, avec ses archives, et se lit dans l’application Substack. Commencer est gratuit. Si vous activez les abonnements payants, Substack prend 10 % des revenus, et Stripe, qui traite les paiements, ajoute ses propres frais ([aide de Substack sur les tarifs](https://support.substack.com/hc/en-us/articles/360037607131-How-much-does-Substack-cost), en anglais).
 
 Trois points le distinguent d’une newsletter LinkedIn :
 
@@ -104,7 +104,7 @@ Chaque option vous donne un rôle différent au regard de la protection des donn
 - **Votre propre liste.** Vous décidez pourquoi et comment les adresses sont utilisées : vous êtes donc responsable du traitement, au sens de l’article 4, point 7, du [RGPD](https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32016R0679). Votre outil d’emailing traite les adresses pour votre compte, comme sous-traitant, et doit être lié à vous par un contrat conforme à l’article 28. Il vous faut aussi le droit d’écrire à chaque abonné : en France, l’article L34-5 du Code des postes et des communications électroniques impose le consentement préalable des particuliers, sauf pour vos clients, au sujet de produits ou services analogues. Mon guide {{< a key="newsletter-consent-gdpr" >}}newsletter et RGPD{{< /a >}} détaille les règles, B2B compris.
 - **Substack.** Substack recueille les inscriptions et envoie les emails selon ses propres conditions. Une liste que vous y importez doit déjà respecter les règles du consentement, et dès que vous exportez vos abonnés pour les utiliser ailleurs, c’est à vous de protéger cette copie, comme toute liste que vous gérez.
 
-Le RGPD s’applique aussi aux entreprises situées hors de l’UE qui proposent leurs services à des personnes dans l’UE (article 3, paragraphe 2) : une équipe suisse, québécoise ou marocaine qui propose ses services en France suit ces règles pour ses abonnés qui s’y trouvent.
+Le RGPD s’applique aussi aux entreprises situées hors de l’UE qui proposent des biens ou des services à des personnes dans l’UE (article 3, paragraphe 2) : une équipe suisse, québécoise ou marocaine qui vend à des clients en France suit ces règles pour ses abonnés qui s’y trouvent.
 
 ## Référencement : une seule option fait travailler votre site
 

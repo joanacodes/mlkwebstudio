@@ -16,7 +16,7 @@ related: ["uk-gdpr-data-use-access-act", "gdpr-data-retention-crm", "privacy-pol
 services: ["automation"]
 faq:
   - q: "Quelqu’un peut-il faire une demande de droit d’accès pour une autre personne ?"
-    a: "Oui. Un avocat, un proche ou un service spécialisé peut agir avec un mandat de la personne ; la CNIL a publié une recommandation sur ce sujet (délibération n° 2021-070 du 27 mai 2021). Si le mandat manque, demandez-le avant d’envoyer quoi que ce soit, comme vous vérifieriez une identité."
+    a: "Oui. Un avocat, un proche ou un service spécialisé peut agir avec un mandat de la personne ; la CNIL a publié une recommandation sur ce sujet (délibération n° 2021-070 du 27 mai 2021). Si le mandat manque, demandez-le avant d’envoyer quoi que ce soit, comme vous vérifieriez une identité."
   - q: "Faut-il répondre si je ne détiens aucune donnée sur la personne ?"
     a: "Oui. Le droit d’accès commence par la confirmation que vous traitez ou non ses données (article 15.1) : indiquez-lui dans le délai d’un mois que vous ne détenez aucune donnée la concernant."
   - q: "Puis-je répondre en donnant accès à l’espace client ?"
@@ -54,7 +54,7 @@ Votre réponse comporte deux parties : une copie des données, et les informati
 7. **Source** des données, si elles ne viennent pas de la personne.
 8. **Décisions automatisées**, profilage compris, et leur logique.
 
-Les points 1 à 6 figurent pour l’essentiel dans votre {{< a key="privacy-policy-guide" >}}politique de confidentialité{{< /a >}}. Le point 7 est celui qu’oublient les entreprises qui prospectent : en décembre 2024, la CNIL a infligé 240 000 € d’amende à KASPR, un outil de recherche de coordonnées, notamment parce que ses réponses aux demandes d’accès taisaient l’origine des données ([décision de la CNIL](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr)).
+Les points 1 à 6 figurent pour l’essentiel dans votre {{< a key="privacy-policy-guide" >}}politique de confidentialité{{< /a >}}. Le point 7 est celui qu’oublient les entreprises qui prospectent : en décembre 2024, la CNIL a infligé 240 000 € d’amende à KASPR, un outil de recherche de coordonnées, notamment parce que ses réponses aux demandes d’accès taisaient l’origine des données ([annonce de la CNIL](https://www.cnil.fr/fr/aspiration-de-donnees-sanction-de-240-000-euros-lencontre-de-la-societe-kaspr)).
 
 La copie doit être complète et intelligible, ce qui peut impliquer des extraits, voire des documents entiers, quand le contexte est nécessaire (affaire C-487/21). Une demande reçue par e-mail appelle une réponse électronique, en PDF par exemple, sauf demande contraire (article 15.3).
 
@@ -62,11 +62,11 @@ La copie doit être complète et intelligible, ce qui peut impliquer des extrait
 
 Le mois court à partir de la réception de la demande par votre entreprise, pas du jour où quelqu’un la remarque : reçue le 3 mars, réponse au plus tard le 3 avril (article 12.3).
 
-**Prolonger.** Vous pouvez ajouter deux mois pour une demande complexe ou des demandes multiples de la même personne, si vous la prévenez dans le premier mois en expliquant pourquoi. Une semaine chargée n’est pas une complexité ; quatre ans d’e-mails à relire peuvent l’être.
+**Prolonger.** Vous pouvez ajouter deux mois pour une demande complexe ou des demandes multiples de la même personne, si vous la prévenez dans le premier mois en expliquant pourquoi. Une semaine chargée ne rend pas une demande complexe ; quatre ans d’e-mails à relire, peut-être.
 
-**Vérifier l’identité.** Ne demandez d’informations supplémentaires qu’en cas de doute raisonnable (article 12.6). La CNIL rappelle qu’une pièce d’identité ne doit pas être exigée systématiquement et qu’une demande faite depuis un espace authentifié peut suffire ([fiche de la CNIL](https://www.cnil.fr/fr/repondre-une-demande-de-droit-dacces)) ; une demande venue de l’adresse que vous utilisez déjà avec ce client n’appelle pas non plus de justificatif. Si vous demandez un complément, le délai ne repart qu’à sa réception, selon la CNIL : demandez-le le premier jour.
+**Vérifier l’identité.** Ne demandez d’informations supplémentaires qu’en cas de doute raisonnable (article 12.6). La CNIL rappelle qu’une pièce d’identité ne doit pas être exigée systématiquement et qu’une demande faite depuis un espace authentifié peut suffire ([fiche de la CNIL](https://www.cnil.fr/fr/repondre-une-demande-de-droit-dacces)) ; une demande venue de l’adresse que vous utilisez déjà avec ce client n’appelle en général pas de justificatif. Si vous demandez un complément, le délai ne repart qu’à sa réception, selon la CNIL : demandez-le le premier jour.
 
-**Faire préciser.** Si vous détenez beaucoup d’informations sur la personne, le considérant 63 vous permet de lui demander ce qu’elle vise ; la CNIL attend tout de même un retour dans le mois. Au Royaume-Uni, le Data (Use and Access) Act 2025 a créé une suspension officielle (« stop the clock », article 12A, en vigueur depuis le 5 février 2026) : le délai s’arrête le jour de votre question et repart le lendemain de la réponse, comme l’explique le [guide de l’ICO](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/subject-access-requests/a-guide-to-subject-access/) (en anglais). Le RGPD européen ne prévoit pas cette pause.
+**Faire préciser.** Si vous détenez beaucoup d’informations sur la personne, le considérant 63 vous permet de lui demander ce qu’elle vise. Au Royaume-Uni, le Data (Use and Access) Act 2025 a créé une suspension officielle (« stop the clock », article 12A, en vigueur depuis le 5 février 2026) : le délai s’arrête le jour de votre question et repart le lendemain de la réponse, comme l’explique le [guide de l’ICO](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/subject-access-requests/a-guide-to-subject-access/) (en anglais). Le RGPD européen ne prévoit pas cette pause.
 
 **Frais et refus.** La première copie est gratuite ; les copies supplémentaires peuvent être facturées au coût administratif (article 15.3). Vous ne pouvez facturer des frais raisonnables ou refuser que si la demande est manifestement infondée ou excessive, par exemple la même demande chaque semaine, et c’est à vous de le prouver (article 12.5).
 
@@ -86,7 +86,7 @@ Le mois court à partir de la réception de la demande par votre entreprise, pas
 6. **Rédigez la réponse** avec la copie et les huit points (modèle ci-dessous).
 7. **Envoyez-la de façon sécurisée et gardez-en la trace.** Vérifiez deux fois l’adresse : envoyer un dossier à la mauvaise personne est une {{< a key="gdpr-data-breach" >}}violation de données personnelles{{< /a >}}. Utilisez un fichier protégé par un mot de passe envoyé par SMS, ou un lien de partage qui expire.
 
-Les outils sur mesure comptent aussi : l’application interne que j’ai développée pour qu’un installateur de climatisation suive ses prospects, ses chantiers et ses appels se fouille comme une boîte mail, et vos sous-traitants, comme votre CRM, doivent vous aider à chercher chez eux.
+Les outils sur mesure comptent aussi : l’application interne que j’ai développée pour qu’un installateur de climatisation suive ses prospects, ses chantiers et ses appels est un endroit à fouiller au même titre qu’une boîte mail, et vos sous-traitants, comme l’éditeur de votre CRM, doivent vous aider à chercher chez eux.
 
 ## Modèle de réponse à adapter
 
@@ -152,8 +152,8 @@ Un tableur suffit pour la plupart des petites équipes, avec une ligne par deman
 | Outils consultés | Boîtes mail, CRM, Drive, WhatsApp |
 | Envoyée le | 27 mars, par lien expirant |
 
-Si le RGPD britannique s’applique à vous, il vous oblige aussi, depuis le 19 juin 2026, à offrir un moyen de vous adresser une réclamation, un formulaire par exemple, et à en accuser réception sous 30 jours. Mon article sur {{< a key="uk-gdpr-data-use-access-act" >}}le RGPD britannique après le Data (Use and Access) Act{{< /a >}} détaille les autres changements.
+Si le RGPD britannique s’applique à vous, vous devez aussi, depuis le 19 juin 2026, offrir un moyen de vous adresser une réclamation, un formulaire par exemple, et en accuser réception sous 30 jours. Mon article sur {{< a key="uk-gdpr-data-use-access-act" >}}le RGPD britannique après le Data (Use and Access) Act{{< /a >}} détaille les autres changements.
 
-Ce guide donne des informations générales, pas un conseil juridique. La plupart des demandes se traitent sans avocat ; un avocat se justifie quand la demande s’inscrit dans un contentieux prud’homal ou judiciaire, vient de l’avocat de la partie adverse, porte sur des données de santé ou d’autres données sensibles, ou oblige à relire des années d’e-mails. Si vous avez un DPO, c’est au DPO de piloter le processus.
+Ce guide donne des informations générales, pas un conseil juridique. La plupart des demandes se traitent sans avocat ; un avocat se justifie quand la demande s’inscrit dans un contentieux prud’homal ou judiciaire, vient de l’avocat de la partie adverse, porte sur des données de santé ou d’autres données sensibles, ou oblige à relire des années d’e-mails. Si vous avez un DPO, associez-le dès le premier jour : les personnes concernées peuvent le contacter directement pour exercer leurs droits (article 38.4).
 
 Si vous recevez des demandes tous les mois, automatisez la partie fastidieuse : un formulaire ou une règle de messagerie qui inscrit chaque demande au registre, calcule l’échéance et relance son responsable une semaine avant.

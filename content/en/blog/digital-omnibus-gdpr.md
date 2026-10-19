@@ -27,13 +27,13 @@ faq:
 
 The Digital Omnibus is a proposal the European Commission published on 19 November 2025 to simplify several EU digital laws in one go. On the GDPR side, it would change what counts as personal data, how cookie consent works, when a data breach must be reported and how AI training fits in.
 
-It is not law. As of 19 October 2026, EU governments have not agreed their negotiating position and the European Parliament's committees have not voted, so every rule you follow today still applies. Below, I set out the Digital Omnibus GDPR changes one by one, where the negotiations stand and what you need to do now, which is not much.
+It is not law. As of 19 October 2026, EU governments have not agreed their negotiating position and the European Parliament's committees have not voted, so every rule you follow today still applies. Below, I set out the Digital Omnibus GDPR changes one by one, where the negotiations stand and what to do now, which is not much.
 
-It is part of my {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}} and concerns businesses outside the EU too, as soon as they have customers or users in it. It is general information, not legal advice.
+This article is part of my {{< a key="gdpr-guide" >}}GDPR guide for small teams{{< /a >}} and concerns businesses outside the EU too, as soon as they have customers or users in it. It is general information, not legal advice.
 
 ## Digital Omnibus and GDPR: where the proposal stands on 19 October 2026
 
-The Commission's text is proposal [COM(2025) 837](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025PC0837). It would amend the GDPR, the ePrivacy Directive (the cookie rules), the Data Act and the NIS2 cybersecurity directive, among others. Like any EU regulation, it becomes law only once the Parliament and the Council, where member state governments sit, agree on the same text. The Parliament's [Legislative Observatory](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0360%28COD%29) tracks it as procedure 2025/0360(COD).
+The Commission's text is proposal [COM(2025) 837](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:52025PC0837). It would amend the GDPR, the ePrivacy Directive (the cookie rules), the Data Act and the NIS2 cybersecurity directive, among others. It becomes law only once the Parliament and the Council, where member state governments sit, agree on the same text. The Parliament's [Legislative Observatory](https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0360%28COD%29) tracks it as procedure 2025/0360(COD).
 
 | Step | Status on 19 October 2026 |
 |---|---|
@@ -44,9 +44,9 @@ The Commission's text is proposal [COM(2025) 837](https://eur-lex.europa.eu/lega
 | Final negotiations (trilogues) | Not started |
 | Publication and application | Not before the steps above |
 
-The Council's vote was postponed after France and Germany asked for stronger protection of trade secrets in the Data Act part of the package. In the Parliament, the rapporteurs, Aura Salla (EPP, Finland) and Marina Kaljurand (S&D, Estonia), have no committee vote date yet. In their joint opinion, the European Data Protection Board (EDPB) and the European Data Protection Supervisor (EDPS) back some changes and oppose others: I give their position under each change below.
+The Council's vote was postponed after France and Germany asked for stronger protection of trade secrets in the Data Act part of the package. In the Parliament, the rapporteurs, Aura Salla (EPP, Finland) and Marina Kaljurand (S&D, Estonia), have no committee vote date yet. In their joint opinion, the European Data Protection Board (EDPB) and the European Data Protection Supervisor (EDPS) back some changes and oppose others; I note their position where it matters below.
 
-{{< callout type="tip" >}}**How to read the headlines.** A Commission proposal, a Council position, a Parliament position and a provisional agreement are four different stages, and none of them is law. A change applies only once the final text is published in the Official Journal of the EU and its application date arrives.{{< /callout >}}
+{{< callout type="tip" >}}**How to read the headlines.** A Commission proposal, a Council or Parliament position and a provisional agreement are stages, not law. A change applies only once the final text is published in the Official Journal of the EU and its application date arrives.{{< /callout >}}
 
 ## Personal data: a narrower, business-by-business test
 
@@ -54,7 +54,7 @@ The Council's vote was postponed after France and Germany asked for stronger pro
 
 The Commission wants to write this into the GDPR. Information would not be personal data for a business that cannot identify the person with the means it is reasonably likely to use, and it would not become personal data for that business just because a later recipient could. A new Article 41a would let the Commission decide, in implementing acts, when pseudonymised data stop being personal data for certain recipients. The EDPB and the EDPS asked the Parliament and the Council not to adopt this change: in their view it goes further than the case law and could weaken protection.
 
-For most small teams, little would change. Your client list, your CRM and your inbox name people, so they remain personal data for you. The new test would matter when you receive data with names replaced by codes, such as a pseudonymised export from a partner, or when you pass such data on to a provider.
+For most small teams, little would change: your client list, your CRM and your inbox name people, so they remain personal data for you. The new test would matter for data with names replaced by codes, such as a pseudonymised export you receive from a partner or pass on to a provider.
 
 ## Cookies: one-click refusal and fewer consent requests
 
@@ -76,7 +76,7 @@ Under Article 33 of the GDPR, you notify a personal data breach to the superviso
 2. The deadline would be **96 hours**.
 3. Notifications would go through a **single EU entry point**, developed with ENISA, the EU cybersecurity agency, and shared with other incident-reporting laws such as NIS2 and DORA, so that one report could serve several of them.
 
-The EDPB and the EDPS back this part. Until it is adopted and applies, the 72-hour deadline and today's threshold stand. My guide on {{< a key="gdpr-data-breach" >}}what to do after a data breach{{< /a >}} follows the current rules.
+The EDPB and the EDPS back this part. Until it applies, the 72-hour deadline and today's threshold stand, as set out in my guide on {{< a key="gdpr-data-breach" >}}what to do after a data breach{{< /a >}}.
 
 ## AI, impact assessments, privacy notices and access requests
 
@@ -92,9 +92,9 @@ Four other changes would affect small teams less directly.
 
 ## Outside the EU: UK, Swiss, US and other businesses
 
-The GDPR follows your customers, not your address. Under Article 3(2), it applies to a business outside the EU that offers goods or services to people in the EU, or monitors their behaviour there. So the Omnibus changes, if adopted, would apply to a Swiss online shop delivering to France, a US app with users in Germany or a Moroccan training company selling online courses to Belgian customers, for those EU customers. My article on {{< a key="gdpr-outside-eu" >}}whether GDPR applies outside the EU{{< /a >}} explains the two tests.
+The GDPR follows your customers, not your address. Under Article 3(2), it applies to a business outside the EU that offers goods or services to people in the EU, or monitors their behaviour there. So the Omnibus changes, if adopted, would apply to a Swiss online shop delivering to France, a US app with users in Germany or a Moroccan training company selling online courses to Belgian customers, for those customers. My article on {{< a key="gdpr-outside-eu" >}}whether GDPR applies outside the EU{{< /a >}} explains the two tests.
 
-UK businesses have two rule books. For people in the UK, the UK GDPR applies, and the Data (Use and Access) Act 2025 has already amended it: most of its data protection changes have been in force since 5 February 2026, including a cookie exception for analytics used only for statistics, provided visitors are told and can object easily. For people in the EU, the EU GDPR applies as it stands today. A UK shop with French customers could therefore end up with slightly different cookie rules for each audience. I cover the UK side in {{< a key="uk-gdpr-data-use-access-act" >}}UK GDPR after the Data (Use and Access) Act{{< /a >}}.
+UK businesses have two rule books. For people in the UK, the UK GDPR applies, and the Data (Use and Access) Act 2025 has already amended it: most of its data protection changes have been in force since 5 February 2026, including a cookie exception for analytics used only for statistics, provided visitors are told and can object easily. For people in the EU, the EU GDPR applies as it stands today. A UK shop with French customers could end up with different cookie rules for each audience. I cover the UK side in {{< a key="uk-gdpr-data-use-access-act" >}}UK GDPR after the Data (Use and Access) Act{{< /a >}}.
 
 ## What to do now, and when to get help
 

@@ -12,7 +12,7 @@ keywords: ["bespoke CRM", "bespoke CRM for small business", "custom CRM", "bespo
 summary: "A bespoke CRM is worth building when your work does not fit a standard sales pipeline: enquiries that turn into jobs, several roles, and tools that must talk to each other. If your process is simply enquiry, quote, won or lost, a free or low-cost CRM, or a spreadsheet with automatic reminders, will serve you better. I built one for a client whose team could no longer keep up with the prospects coming in."
 cover: "bespoke-crm-internal-app"
 cover_alt: "The word CRM under an automation flow diagram, over a laptop showing a planning board, behind ribbed glass"
-related: ["automate-lead-follow-up", "build-app-with-ai", "zapier-vs-make-vs-n8n", "pilotech-seo-case-study", "ai-small-business-guide"]
+related: ["automate-lead-follow-up", "build-app-with-ai", "zapier-vs-make-vs-n8n", "gdpr-data-retention-crm", "ai-small-business-guide"]
 services: ["automation"]
 faq:
   - q: "What is the difference between a CRM and an ERP?"
@@ -103,7 +103,7 @@ For five users over three years, you pay the monthly price of a seat 180 times, 
 
 Software is never finished. The services it connects to change their rules, security fixes come out, and the business asks for new features as it grows. With an off-the-shelf CRM, the vendor takes care of that. With a bespoke one, your developer does, so ask before you sign: who maintains it, how quickly they respond and what it costs. Ask too who will own the code and the hosting account: if both are in your business's name, you can change developer without starting again.
 
-If you build it yourself with AI, you are the one maintaining it. My guide on how to {{< a key="build-app-with-ai" >}}build an app with AI{{< /a >}} sets out what you can realistically do alone.
+If you build it yourself with AI, you are the one maintaining it. My guide on how to {{< a key="build-app-with-ai" >}}build an app with AI{{< /a >}} sets out what you can realistically do alone. Before real client data goes into it, check that {{< a key="ai-app-data-leaks" >}}your AI-built app is not leaking data{{< /a >}}.
 
 Put side by side, the answers look like this:
 
@@ -132,8 +132,8 @@ What I need from you depends on what the app must do. For automations like the a
 A CRM is full of personal data: names, phone numbers, email addresses, notes from calls. Write these rules into the specification rather than leaving them for a later update:
 
 - **Access:** who can see and change what.
-- **Deletion and export:** how to remove or hand over one person's data when they ask.
-- **Retention:** how long each record stays in the app, and what happens after that.
+- **Deletion and export:** how to remove or {{< a key="gdpr-subject-access-request" >}}hand over one person's data when they ask{{< /a >}}.
+- **Retention:** {{< a key="gdpr-data-retention-crm" >}}how long each record stays in the app{{< /a >}}, and what happens after that.
 - **Objections:** the UK's electronic marketing rules (PECR) let you email limited companies without their consent, but the ICO still says to [honour their opt-out requests](https://ico.org.uk/for-organisations/direct-marketing-and-privacy-and-electronic-communications/business-to-business-marketing/). Keep those addresses on a do-not-contact list rather than deleting them, and check every new import against it.
 
 On retention, the ICO's guidance on [storage limitation](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/) says the law sets no fixed period. You decide how long to keep data according to why you hold it, and you must be able to justify that choice.

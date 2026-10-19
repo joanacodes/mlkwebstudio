@@ -78,7 +78,7 @@ And you take on three jobs LinkedIn did for you:
 
 1. **Paying for the tool.** Every tool in my {{< a key="newsletter-tools-comparison" >}}comparison of newsletter tools{{< /a >}} has a free plan for a small list; beyond it, the monthly fee grows with your list or your sending volume.
 2. **Deliverability.** Since February 2024, Gmail and Yahoo have required bulk senders (for Gmail, about 5,000 or more messages a day) to authenticate their domain and offer one-click unsubscribe, and Microsoft set authentication rules for Outlook.com in May 2025. A small list sits below those thresholds, but the same setup helps it reach the inbox: see {{< a key="newsletter-deliverability" >}}the sender rules explained{{< /a >}}.
-3. **Consent.** You need a lawful basis for every address on the list (more on this below).
+3. **Consent.** Every address on the list needs a legal reason to be there, usually the subscriber's consent (more on this below).
 
 **Who it suits:** every team that wants to stay in touch with clients and prospects for years. It is the only one of the three you fully control.
 
@@ -104,7 +104,7 @@ Each option gives you a different role under data protection law. This is genera
 - **Your own list.** You decide why and how the addresses are used, which makes you the controller under Article 4(7) of the [GDPR](https://eur-lex.europa.eu/eli/reg/2016/679/oj). Your email tool processes them on your behalf and must be bound by a contract that meets Article 28. You also need each subscriber's consent, unless the soft opt-in for existing customers or, in some countries, the rules for business addresses apply: my guide to {{< a key="newsletter-consent-gdpr" >}}newsletter consent under the GDPR and PECR{{< /a >}} covers the rules.
 - **Substack.** Substack collects the sign-ups and sends the emails under its own terms. Any list you import into it must already meet the consent rules, and once you export your subscribers to use them elsewhere, that copy is yours to protect, with the same duties as any list you run yourself.
 
-The GDPR also reaches businesses outside the EU when they offer their services to people in the EU (Article 3(2)), so a Swiss, Canadian or US team that offers its services in France follows these rules for its subscribers there. For subscribers in the UK, the UK GDPR and PECR set very similar rules.
+The GDPR also reaches businesses outside the EU that offer goods or services to people in the EU (Article 3(2)): a Swiss, Canadian or US team selling to clients in France follows these rules for its subscribers there. For subscribers in the UK, the UK GDPR and PECR set very similar rules.
 
 ## SEO: only one option builds your own website
 

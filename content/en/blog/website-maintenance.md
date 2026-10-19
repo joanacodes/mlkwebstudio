@@ -146,10 +146,10 @@ If you are on the receiving end, ask the same questions now. If the person who b
 |---|---|
 | Every week (WordPress) | Check that the last backup ran, install the core, theme and plugin updates, then open your main pages and send a test message |
 | Every month | Test every form; read Search Console's messages and its Pages report; update prices, hours, services and photos; delete plugins and user accounts nobody uses |
-| Every three months | Restore a backup to a test copy; review who can access the host, the domain, the builder and your Google accounts; reread your privacy and cookie pages if your tools have changed |
+| Every three months | {{< a key="backups-3-2-1" >}}Restore a backup to a test copy{{< /a >}}; review who can access the host, the domain, the builder and your Google accounts; reread your privacy and cookie pages if your tools have changed |
 | Every year | Check the renewal dates, auto-renewal and the card on file for the domain, the plan and the email; on self-hosted sites, check the PHP version and the SSL renewal; ask whether the platform still suits whoever edits the site |
 
-For passwords, two-step verification and the rest of the security side, my guide to {{< a key="website-security-guide" >}}website security for small businesses{{< /a >}} goes further.
+For passwords, two-step verification and the rest of the security side, my guide to {{< a key="website-security-guide" >}}website security for small businesses{{< /a >}} goes further. When your tools change, check {{< a key="privacy-policy-guide" >}}what your privacy policy must say{{< /a >}} and {{< a key="cookie-banner-rules" >}}what your cookie banner must do{{< /a >}}.
 
 ## When to do it yourself and when to hand it over
 

@@ -33,7 +33,7 @@ Knowing how to get more clients is less about tactics than about choice. Pick on
 
 Marketing can be annoying, but it is not optional. My own clients come first from referrals, then from cold emails, then from SEO. In this guide I compare nine channels on what they cost, how long they take to bring a first lead, the quality of those leads and the effort they demand, using what I have seen in my clients' campaigns and my own.
 
-Each section links to a detailed guide on its channel. Treat this page as the map, and the linked articles as the directions.
+Each section links to a detailed guide on its channel. Treat this page as the map, and the linked articles as the directions. Once a channel brings people to you, my {{< a key="funnels-newsletters-guide" >}}guide to sales funnels and newsletters{{< /a >}} covers how they become clients.
 
 ## Where my clients come from, and why referrals are not a plan
 
@@ -46,7 +46,7 @@ You can still make them more likely:
 - Do work people can point to. Pilotech's founder came for a website he had seen; a visible result recommends you when you are not in the room.
 - Ask at the right moment, when a client thanks you or sees a result, and name the kind of person you can help.
 - Give people something to forward: a clear website and a {{< a key="google-business-profile-setup" >}}Google Business Profile{{< /a >}} with genuine reviews.
-- Stay in touch with past clients. The Edenel work started with an old project.
+- Stay in touch with past clients. The Edenel work started with an old project. A newsletter is one way to do it: my guide to {{< a key="first-100-subscribers" >}}your first 100 newsletter subscribers{{< /a >}} starts with the clients and contacts you already have.
 
 Treat referrals as a bonus that good work earns, and build at least one channel you can turn up when you need more clients. That is what the rest of this guide is about.
 
@@ -177,7 +177,7 @@ Whatever the row, check the time to first lead against your cash. SEO can be the
 
 The trap I warn small businesses about is the shiny new channel: a new platform, a new tool, the tactic everyone is talking about this month. Marketing is noisy by design, and small teams fall for the noise easily. **Focus on the channels and strategies you already run**, and make them work before you add another; I explain why in my piece on {{< a key="shiny-object-syndrome" >}}shiny object syndrome{{< /a >}}.
 
-Mastering a channel also means being ready for the leads it brings. At one point I brought Pilotech more prospects than it could handle, and it asked me to build an internal app to see every prospect clearly and never miss a call back. Before you pay for more enquiries, make sure each one gets a quick answer and that your website turns visitors into calls: {{< a key="website-conversion-rate" >}}website not getting enquiries{{< /a >}} shows where visitors drop off.
+Mastering a channel also means being ready for the leads it brings. At one point I brought Pilotech more prospects than it could handle, and it asked me to build an internal app to see every prospect clearly and never miss a call back. Before you pay for more enquiries, make sure each one gets a quick answer and that your website turns visitors into calls: {{< a key="website-conversion-rate" >}}website not getting enquiries{{< /a >}} shows where visitors drop off. My {{< a key="sales-funnel-explained" >}}sales funnel example for service businesses{{< /a >}} follows the whole path, from first visit to booked call.
 
 ## Your next steps: one channel, then the next
 
