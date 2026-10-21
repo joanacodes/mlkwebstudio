@@ -1,6 +1,7 @@
 ---
 title: "MLK Web Studio"
 translationKey: "home"
+aliases: ["/home/"]
 seo_title: "MLK Web Studio — Websites, SEO and cold email"
 description: "MLK Web Studio builds websites for service businesses, ranks them on Google and fills calendars with cold email. See Pilotech, Eden Flats, Ginov and more."
 hero: true
