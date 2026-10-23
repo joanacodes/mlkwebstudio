@@ -8,15 +8,15 @@ disableKinds = ["taxonomy", "term"]
 removePathAccents = true
 
 [params]
-  email = "contact@mlkwebstudio.fr"
-  emailMain = "contact@mlkwebstudio.fr"
+  email = "hello@mlkwebstudio.com"
+  emailMain = "hello@mlkwebstudio.com"
   accent = "#2B4DFF"
   orange = "#EF571D"
   bookingUrl = "/contact/"
   # Floating "write to us" button on desktop (phones already have the bottom dock)
   contactBubble = true
-  # Newsletter sign-ups (blog sidebar, desktop only): FormSubmit sends each one to this address until a newsletter tool is chosen
-  newsletterAction = "https://formsubmit.co/contact@mlkwebstudio.fr"
+  # Newsletter sign-ups (blog sidebar, desktop only): FormSubmit sends each one to the address set
+  # per language below (newsletterAction) until a newsletter tool is chosen
   # The author of every article. Change the name here and it changes everywhere on the site
   # (the bios in languages.*.params.authorBio insert it where %s is).
   [params.author]
@@ -90,7 +90,8 @@ removePathAccents = true
     [languages.en.permalinks.section]
       topics = "/blog/category/"
     [languages.en.params]
-      email = "contact@mlkwebstudio.fr"
+      email = "hello@mlkwebstudio.com"
+      newsletterAction = "https://formsubmit.co/hello@mlkwebstudio.com"
       tagline = "Websites and SEO that bring in clients."
       description = "MLK Web Studio designs and builds websites, ranks them on Google, and fills calendars with cold email. Portfolio and services."
       leadhuntersUrl = "https://mlkleadhunters.com/"
@@ -138,6 +139,7 @@ removePathAccents = true
       topics = "/blog/categorie/"
     [languages.fr.params]
       email = "contact@mlkwebstudio.fr"
+      newsletterAction = "https://formsubmit.co/contact@mlkwebstudio.fr"
       tagline = "Des sites et un référencement qui amènent des clients."
       description = "MLK Web Studio conçoit et développe des sites web, les positionne sur Google et remplit les agendas grâce au cold email. Réalisations et services."
       leadhuntersUrl = "https://mlkleadhunters.com/fr/"

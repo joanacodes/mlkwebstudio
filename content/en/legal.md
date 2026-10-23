@@ -7,7 +7,7 @@ kicker: "Legal"
 ---
 **Publisher:** MLK Web Studio, 47 rue Vivienne, 75002 Paris, France.
 
-**Contact:** [contact@mlkwebstudio.fr](mailto:contact@mlkwebstudio.fr)
+**Contact:** [hello@mlkwebstudio.com](mailto:hello@mlkwebstudio.com)
 
 **Hosting:** GitHub Pages, GitHub Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States.
 

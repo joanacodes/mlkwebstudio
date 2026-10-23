@@ -26,12 +26,12 @@ fields:
     type: "textarea"
     required: true
 submit: "Send my request"
-note: "Goes straight to <a href='mailto:contact@mlkwebstudio.fr'>contact@mlkwebstudio.fr</a>. No newsletter, no follow-up sequence."
+note: "Goes straight to <a href='mailto:hello@mlkwebstudio.com'>hello@mlkwebstudio.com</a>. No newsletter, no follow-up sequence."
 ---
 ## What happens next
 
 We read your message and reply within forty-eight hours, usually with a few questions and a time for a short call. After the call you receive a written proposal: what we would build, how long it takes, and what it costs.
 
-Prefer email? Write to [contact@mlkwebstudio.fr](mailto:contact@mlkwebstudio.fr).
+Prefer email? Write to [hello@mlkwebstudio.com](mailto:hello@mlkwebstudio.com).
 
 Looking for cold email specifically? [MLK Leadhunters](https://mlkleadhunters.com/) is our cold email practice.
