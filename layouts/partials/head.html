@@ -99,6 +99,7 @@
 {{- if eq .Layout "contact" }}{{ $pageType = "ContactPage" }}{{ else if and (not .IsHome) .IsSection }}{{ $pageType = "CollectionPage" }}{{ end -}}
 {{- if eq .Type "about" }}{{ $pageType = "ProfilePage" }}{{ end -}}
 {{- $webpage := dict "@type" $pageType "@id" $pageID "url" .Permalink "name" $title "description" $desc "inLanguage" $lang "isPartOf" (dict "@id" $siteID) "primaryImageOfPage" $image -}}
+{{- if eq $pageType "ProfilePage" }}{{ $webpage = merge $webpage (dict "mainEntity" (dict "@id" $personID)) }}{{ end -}}
 {{- $graph := slice $org $website -}}
 {{- if .IsHome -}}
   {{- $webpage = merge $webpage (dict "about" (dict "@id" $orgID)) -}}
