@@ -75,7 +75,7 @@
 {{- $siteID := printf "%s#website" $home.Permalink -}}
 {{- $pageID := printf "%s#webpage" .Permalink -}}
 {{- $image := dict "@type" "ImageObject" "url" $og.Permalink "width" $og.Width "height" $og.Height -}}
-{{- /* Organization: contact@mlkwebstudio.fr (site.Params.email / emailMain) */ -}}
+{{- /* Organization email: hello@mlkwebstudio.com in English, contact@mlkwebstudio.fr in French (site.Params.email / emailMain) */ -}}
 {{- $contacts := slice (dict "@type" "ContactPoint" "contactType" "sales" "email" site.Params.email "availableLanguage" $lang) -}}
 {{- $orgEmail := cond (eq site.Language.Lang site.Sites.Default.Language.Lang) site.Params.emailMain site.Params.email -}}
 {{- $org := dict
