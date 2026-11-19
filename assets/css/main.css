@@ -826,14 +826,13 @@ a.pchip:hover { border-color: var(--accent); }
 .hero__slogan { margin: 0; }
 .hero__slogan-a { display: block; margin-bottom: .32em; font-size: clamp(24px, 3.2vw, 40px); line-height: 1.12; letter-spacing: -.025em; text-wrap: balance; }
 .hero__slogan-b { display: block; text-wrap: balance; }
-/* "We find your clients" lights up in neon blue just before the highlight sweeps across the second line. The slogan's
-   reveal clip leaves room around the text so the glow and the highlight's edge are not cut off. */
-.glass--hero .hero__neon { color: inherit; }
-.glass--hero.is-ready .hero__neon, .no-js .glass--hero .hero__neon { color: #9DB1FF; text-shadow: 0 0 .06em rgba(157, 177, 255, .9), 0 0 .25em rgba(43, 77, 255, 1), 0 0 .6em rgba(43, 77, 255, .85), 0 0 1.2em rgba(43, 77, 255, .5); transition: color .9s var(--ease) .55s, text-shadow .9s var(--ease) .55s; }
-.glass.is-ready .hero .hero__slogan { clip-path: inset(-1em -1em -10% -1em); }
+/* "We find your clients": the letters stay white and get a neon blue glow, lit just before the highlight sweeps across
+   the second line. The slogan's reveal clip leaves room around the text so the glow is not cut off. */
+.glass--hero.is-ready .hero__neon, .no-js .glass--hero .hero__neon { text-shadow: 0 0 .1em rgba(43, 77, 255, 1), 0 0 .22em rgba(43, 77, 255, 1), 0 0 .5em rgba(43, 77, 255, 1), 0 0 1em rgba(43, 77, 255, .85), 0 0 1.8em rgba(43, 77, 255, .55); transition: text-shadow .9s var(--ease) .55s; }
+.glass.is-ready .hero .hero__slogan { clip-path: inset(-1.2em -1.2em -10% -1.2em); }
 /* The highlight starts at the text edge so both lines of "You just pick up the phone." line up on the left */
 .glass--hero .hero__slogan-b .hl { margin-left: 0; padding: 0; }
-@media (prefers-reduced-motion: reduce) { .glass--hero .hero__neon, .glass--hero.is-ready .hero__neon { color: #9DB1FF; text-shadow: 0 0 .06em rgba(157, 177, 255, .9), 0 0 .25em rgba(43, 77, 255, 1), 0 0 .6em rgba(43, 77, 255, .85), 0 0 1.2em rgba(43, 77, 255, .5); transition: none; } }
+@media (prefers-reduced-motion: reduce) { .glass--hero .hero__neon, .glass--hero.is-ready .hero__neon { text-shadow: 0 0 .1em rgba(43, 77, 255, 1), 0 0 .22em rgba(43, 77, 255, 1), 0 0 .5em rgba(43, 77, 255, 1), 0 0 1em rgba(43, 77, 255, .85), 0 0 1.8em rgba(43, 77, 255, .55); transition: none; } }
 
 /* Article top: the cover and the title block. Phones: cover first, edge to edge. Laptops: title on the left, cover on the right,
    so the first lines of the article show without scrolling */
