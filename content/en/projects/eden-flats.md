@@ -4,6 +4,9 @@ translationKey: "projects/eden-flats"
 seo_title: "Eden Flats: Airbnb concierge website"
 description: "A website for Eden Flats, an Airbnb concierge in Paris and Île-de-France: guest and property management pages, an FAQ for owners and pages for local towns."
 weight: 5
+# Hidden from the portfolio lists (home, projects, services); the page stays online for the articles that link to it
+build:
+  list: never
 photo: "images/hero-glass.jpg"
 photo_pos: "8% 50%"
 photo_size: "240% auto"

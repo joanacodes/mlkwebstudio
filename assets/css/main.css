@@ -803,3 +803,19 @@ a.pchip:hover { border-color: var(--accent); }
 @media (min-width: 900px) { .about { grid-template-columns: minmax(0, 1fr) 280px; gap: 80px; } }
 .about__bio { font-size: 19px; line-height: 1.55; }
 .about__aside { display: grid; gap: 28px; align-content: start; }
+
+/* Header language toggle (every screen size): one link to the other language, with its flag */
+.lang--toggle a { display: inline-flex; align-items: center; gap: 7px; padding: 10px 8px 8px; }
+.flag { display: block; flex: none; width: 18px; height: 12px; border-radius: 1px; box-shadow: 0 0 0 1px rgba(13,16,23,.16); }
+.header--over-dark .flag, .langprompt .flag { box-shadow: 0 0 0 1px rgba(244,246,250,.28); }
+.langprompt .flag { width: 21px; height: 14px; }
+
+/* Portfolio on phones and small tablets: one row that scrolls sideways, the next card peeking in */
+@media (max-width: 799px) {
+  .projects-grid { display: flex; gap: 14px; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scroll-padding-inline: var(--gutter); margin-left: calc(-1 * var(--gutter)); margin-right: calc(-1 * var(--gutter)); padding: 0 var(--gutter) 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .projects-grid::-webkit-scrollbar { display: none; }
+  .projects-grid > div { flex: 0 0 84%; scroll-snap-align: start; }
+  .projects-grid > .reveal { opacity: 1; transform: none; }
+}
+/* Small laptops: the menu links sit closer so the language toggle fits next to them */
+@media (min-width: 900px) and (max-width: 1199px) { .nav__links { gap: 20px; } .nav__end { gap: 6px; } }

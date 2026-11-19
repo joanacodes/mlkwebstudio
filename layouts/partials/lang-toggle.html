@@ -1,0 +1,7 @@
+{{- /* Header language toggle: one link to the same page in the other language (or that language's home page), with its flag. */ -}}
+{{- $other := cond (eq .Language.Lang "en") "fr" "en" -}}
+{{- $url := cond (eq $other "en") "/" "/fr/" -}}
+{{- range .Translations }}{{ if eq .Language.Lang $other }}{{ $url = .RelPermalink }}{{ end }}{{ end -}}
+<div class="lang lang--toggle" role="group" aria-label="{{ i18n "language" }}">
+  <a href="{{ $url }}" lang="{{ $other }}" hreflang="{{ $other }}" aria-label="{{ cond (eq $other "fr") "Version française" "English version" }}">{{ partial "flag.html" $other }}<span>{{ upper $other }}</span></a>
+</div>
