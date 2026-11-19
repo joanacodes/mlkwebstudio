@@ -8,8 +8,8 @@
   <div class="glass__line"></div>
   <div class="glass__content container hero">
     <div class="hero__body">
-      <span class="label">{{ $p.hero_label }}</span>
-      <h1 class="display">{{ $p.hero_title | safeHTML }}</h1>
+      <h1 class="label hero__h1">{{ $p.hero_h1 }}</h1>
+      <p class="display hero__slogan">{{ $p.hero_title | safeHTML }}</p>
       <p class="lead">{{ $p.hero_lead | safeHTML }}</p>
       <div class="hero__actions">
         <a class="button" href="{{ partial "book-url.html" . }}">{{ i18n "book_call" }}</a>
