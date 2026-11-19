@@ -819,3 +819,21 @@ a.pchip:hover { border-color: var(--accent); }
 }
 /* Small laptops: the menu links sit closer so the language toggle fits next to them */
 @media (min-width: 900px) and (max-width: 1199px) { .nav__links { gap: 20px; } .nav__end { gap: 6px; } }
+
+/* Home hero: a small, descriptive H1 for search engines, then the slogan on two lines (the first one smaller) */
+.hero__h1 { margin: 0; line-height: 1.6; align-items: flex-start; }
+.hero .hero__h1::before { flex: none; margin-top: calc(.8em - .5px); }
+.hero__slogan { margin: 0; }
+.hero__slogan-a { display: block; margin-bottom: .32em; font-size: clamp(24px, 3.2vw, 40px); line-height: 1.12; letter-spacing: -.025em; text-wrap: balance; }
+.hero__slogan-b { display: block; text-wrap: balance; }
+
+/* Article top: the cover and the title block. Phones: cover first, edge to edge. Laptops: title on the left, cover on the right,
+   so the first lines of the article show without scrolling */
+.post-top .post-head { padding-inline: 0; }
+@media (max-width: 640px) { .post-top .post-cover { margin-inline: calc(-1 * var(--gutter)); } }
+@media (min-width: 1000px) {
+  .post-top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 44%); align-items: center; gap: clamp(32px, 4vw, 64px); padding-top: clamp(24px, 3vw, 40px); padding-bottom: clamp(32px, 4vw, 48px); }
+  .post-top .post-cover { order: 2; margin: 0; }
+  .post-top .post-head { order: 1; padding: 0; }
+  .post-top .post-title { max-width: none; font-size: clamp(32px, 3.2vw, 46px); }
+}

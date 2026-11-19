@@ -5,8 +5,8 @@ aliases: ["/home/"]
 seo_title: "MLK Web Studio — Websites, SEO and cold email"
 description: "MLK Web Studio builds websites for service businesses, ranks them on Google and fills calendars with cold email. See Pilotech, Eden Flats, Ginov and more."
 hero: true
-hero_label: "Websites · SEO · Cold email"
-hero_title: "We find your clients by cold email. <span class='hl'>You just pick up the phone.</span>"
+hero_h1: "Web design, SEO and cold emailing for service businesses"
+hero_title: "<span class='hero__slogan-a'><span class='hl'>We find your clients</span> with SEO and cold emailing.</span> <span class='hero__slogan-b'>You just pick up the phone.</span>"
 hero_lead: "We design and build websites for service businesses, get them found on Google, and fill calendars with cold email. <strong>One studio, from the first page to the first call.</strong>"
 stats:
   - value: "10"
