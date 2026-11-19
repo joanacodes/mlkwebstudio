@@ -5,7 +5,7 @@ seo_title: "MLK Web Studio — Sites web, SEO et cold email"
 description: "Sites web, SEO et cold email pour les entreprises de service : MLK Web Studio crée des sites qui amènent des clients. Pilotech, Eden Flats, Ginov et d’autres."
 hero: true
 hero_label: "Sites web · SEO · Cold email"
-hero_title: "Des sites qui <span class='hl'>amènent des clients.</span>"
+hero_title: "On trouve vos clients par cold emailing. <span class='hl'>Vous n’avez qu’à décrocher.</span>"
 hero_lead: "Nous concevons et développons des sites pour les entreprises de service, les rendons visibles sur Google et remplissons les agendas grâce au cold email. <strong>Un seul studio, de la première page au premier appel.</strong>"
 stats:
   - value: "10"

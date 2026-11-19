@@ -33,7 +33,7 @@
     <p class="lead">{{ $p.projects_lead | safeHTML }}</p>
   </div>
   <div class="projects-grid">
-    {{ with .Site.GetPage "projects" }}{{ range $i, $q := first 6 .Pages.ByWeight }}<div class="reveal">{{ partial "project-card.html" (dict "page" $q "i" $i) }}</div>{{ end }}{{ end }}
+    {{ with .Site.GetPage "projects" }}{{ range $i, $q := first 6 (where .Pages.ByWeight "Params.image" "!=" nil) }}<div class="reveal">{{ partial "project-card.html" (dict "page" $q "i" $i) }}</div>{{ end }}{{ end }}
   </div>
   {{ with .Site.GetPage "projects" }}<p style="margin-top: clamp(28px, 3vw, 40px)"><a class="link" href="{{ .RelPermalink }}">{{ i18n "all_projects" }} ({{ len .Pages }}) {{ partial "arrow.html" . }}</a></p>{{ end }}
 </section>
